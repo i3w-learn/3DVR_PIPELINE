@@ -1,0 +1,13 @@
+{
+  "id": "realgoat",
+  "source": "Sketchfab — \"Animated Realistic Goat – 3D Animal Model\" by AnimalMesh 3D",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/animated-realistic-goat-3d-animal-model-e31e71adf1ee44bfbef6495b6d3e5462",
+  "targetHeight": 0.75,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "Armature|idle",
+    "Armature|walk"
+  ]
+}

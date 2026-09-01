@@ -1,0 +1,91 @@
+/* The teacher's overlay. Nothing here is loaded in the headset role. */
+
+:root {
+  --ink: #1f1d1b;
+  --paper: #fafaf7;
+  --rule: rgba(255, 255, 255, 0.15);
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--ink);
+}
+
+/* The headset shows the world and nothing else. No overlay of any kind. */
+body[data-role="headset"] #controls { display: none; }
+
+#controls {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 10;
+  background: rgba(31, 29, 27, 0.92);
+  color: var(--paper);
+  padding: 16px 20px 20px;
+}
+
+/*
+  The script line the teacher reads aloud.
+
+  Large on purpose: it has to be readable at arm's length, on a tablet resting
+  on a table, by someone who is mostly looking at twenty-five children.
+*/
+#controls .script {
+  margin: 0 0 14px;
+  font-size: 26px;
+  line-height: 1.35;
+  min-height: 1.35em;
+}
+
+#controls .controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#controls .position {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+#controls .hint {
+  margin-right: auto;
+  opacity: 0.45;
+  font-size: 13px;
+}
+
+/* On a narrow tablet the five controls matter more than the reminder. */
+@media (max-width: 900px) {
+  #controls .hint { display: none; }
+}
+
+/* Touch targets sized for a hurried tap, not a careful click. */
+#controls button {
+  min-width: 108px;
+  padding: 14px 18px;
+  font-size: 17px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: #33302c;
+  color: var(--paper);
+  cursor: pointer;
+}
+
+#controls button:active { background: #4a4640; }
+#controls button.danger { background: #8b3a3a; border-color: #a94c4c; }
+
+#error {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 20;
+  margin: 0;
+  padding: 0 20px;
+  background: #8b3a3a;
+  color: #fff;
+  font-size: 15px;
+  line-height: 2.6;
+}
+
+#error:empty { display: none; }

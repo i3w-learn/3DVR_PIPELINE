@@ -1,0 +1,16 @@
+{
+  "id": "realhorse",
+  "source": "Sketchfab — \"Horse\" (28 clips)",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/a6f860e43e364619bccb174a1ac7d0c9",
+  "targetHeight": 1.65,
+  "yaw": 0,
+  "keepClips": [
+    "Skeleton|1 Ilde",
+    "Skeleton|Walk",
+    "Skeleton|6 Eat"
+  ],
+  "smoothAngle": 60,
+  "simplify": 0.23,
+  "notes": "photoscan-grade at 30k as downloaded; a horse across a yard does not need it"
+}

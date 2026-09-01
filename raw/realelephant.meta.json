@@ -1,0 +1,11 @@
+{
+  "id": "realelephant",
+  "source": "Sketchfab — \"African Elephant\"",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/b960467b14f34cfc84feeb3361a21f54",
+  "targetHeight": 3.1,
+  "yaw": 0,
+  "keepClips": ["Stand_01", "Loco_WalkSlow"],
+  "smoothAngle": 60,
+  "notes": "CC-BY. The gap open since the PoC — there is no CC0 rigged elephant anywhere."
+}

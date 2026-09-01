@@ -1,0 +1,21 @@
+{
+  "id": "fence",
+  "source": "Kenney — Nature Kit 2.1",
+  "licence": "CC0",
+  "url": "https://kenney.nl/assets/nature-kit",
+  "targetHeight": 1,
+  "yaw": 0,
+  "notes": "static prop — nothing to animate",
+  "palette": {
+    "woodBark": "#6b4f34",
+    "woodBarkDark": "#54402c",
+    "wood": "#8a6a45",
+    "woodDark": "#6d5335",
+    "leafsGreen": "#4e7f42",
+    "leafsDark": "#3d6636",
+    "grass": "#5d8a4a",
+    "dirt": "#7b6249",
+    "stone": "#928e85",
+    "colorRed": "#b8443f"
+  }
+}

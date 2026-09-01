@@ -1,0 +1,257 @@
+{
+  "generated": "2026-09-01T13:31:58.458Z",
+  "models": {
+    "fence": {
+      "file": "models/fence.glb",
+      "height": 1,
+      "width": 2.898,
+      "depth": 0.203,
+      "triangles": 64,
+      "meshes": 2,
+      "bytes": 2376,
+      "clips": [],
+      "rigged": false,
+      "source": "Kenney — Nature Kit 2.1",
+      "licence": "CC0"
+    },
+    "realelephant": {
+      "file": "models/realelephant.glb",
+      "height": 3.113,
+      "width": 2.636,
+      "depth": 4.36,
+      "triangles": 4806,
+      "meshes": 1,
+      "bytes": 1701076,
+      "clips": [
+        "Stand_01",
+        "Loco_WalkSlow"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"African Elephant\"",
+      "licence": "CC-BY"
+    },
+    "realgoat": {
+      "file": "models/realgoat.glb",
+      "height": 0.753,
+      "width": 0.226,
+      "depth": 0.994,
+      "triangles": 2336,
+      "meshes": 1,
+      "bytes": 777356,
+      "clips": [
+        "Armature|idle",
+        "Armature|walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Realistic Goat – 3D Animal Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realhen": {
+      "file": "models/realhen.glb",
+      "height": 0.453,
+      "width": 0.221,
+      "depth": 0.445,
+      "triangles": 4016,
+      "meshes": 1,
+      "bytes": 834332,
+      "clips": [
+        "peck_idle2",
+        "walk01"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"ANIMAL & FOOD | Chicken Model (CS2)\" by gettan",
+      "licence": "CC-BY"
+    },
+    "realhorse": {
+      "file": "models/realhorse.glb",
+      "height": 1.644,
+      "width": 0.81,
+      "depth": 2.595,
+      "triangles": 7068,
+      "meshes": 6,
+      "bytes": 2757584,
+      "clips": [
+        "Skeleton|1 Ilde",
+        "Skeleton|6 Eat",
+        "Skeleton|Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Horse\" (28 clips)",
+      "licence": "CC-BY"
+    },
+    "realtree": {
+      "file": "models/realtree.glb",
+      "height": 6.5,
+      "width": 6.129,
+      "depth": 6.218,
+      "triangles": 43230,
+      "meshes": 3,
+      "bytes": 1973368,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Haven — Island Tree 01 (photoscan)",
+      "licence": "CC0"
+    },
+    "rock": {
+      "file": "models/rock.glb",
+      "height": 0.409,
+      "width": 1.237,
+      "depth": 1.6,
+      "triangles": 80,
+      "meshes": 2,
+      "bytes": 2576,
+      "clips": [],
+      "rigged": false,
+      "source": "Kenney — Nature Kit 2.1",
+      "licence": "CC0"
+    },
+    "shed": {
+      "file": "models/shed.glb",
+      "height": 3.2,
+      "width": 5.8,
+      "depth": 3.907,
+      "triangles": 2086,
+      "meshes": 8,
+      "bytes": 2185532,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Worn Shed PBR Game-Ready\" by donnichols",
+      "licence": "CC-BY"
+    },
+    "zebu": {
+      "file": "models/zebu.glb",
+      "height": 1.413,
+      "width": 0.75,
+      "depth": 2.285,
+      "triangles": 5139,
+      "meshes": 4,
+      "bytes": 1484064,
+      "clips": [
+        "Armature|CombinedAnim|Base Layer.001",
+        "Armature|CombinedAnim|Base Layer.003"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Zebu Bull\" by Mily",
+      "licence": "CC-BY"
+    }
+  },
+  "textures": {
+    "grass_ao.jpg": {
+      "file": "textures/grass_ao.jpg",
+      "bytes": 60142,
+      "source": "ambientCG — Grass004",
+      "licence": "CC0"
+    },
+    "grass_color.jpg": {
+      "file": "textures/grass_color.jpg",
+      "bytes": 281986,
+      "source": "ambientCG — Grass004",
+      "licence": "CC0"
+    },
+    "grass_normal.jpg": {
+      "file": "textures/grass_normal.jpg",
+      "bytes": 410227,
+      "source": "ambientCG — Grass004",
+      "licence": "CC0"
+    },
+    "grass_rough.jpg": {
+      "file": "textures/grass_rough.jpg",
+      "bytes": 52318,
+      "source": "ambientCG — Grass004",
+      "licence": "CC0"
+    }
+  },
+  "hdri": {
+    "field.jpg": {
+      "file": "hdri/field.jpg",
+      "bytes": 47507,
+      "source": "Poly Haven — Kloofendal 43d Clear (Pure Sky)",
+      "licence": "CC0"
+    }
+  },
+  "sfx": {
+    "cow.mp3": {
+      "file": "sfx/cow.mp3",
+      "bytes": 24236,
+      "source": "Openverse — \"Cow - Moo 5 - 96kHz.wav\" by JarredGibb",
+      "licence": "CC0"
+    },
+    "elephant.mp3": {
+      "file": "sfx/elephant.mp3",
+      "bytes": 16556,
+      "source": "Openverse — \"Elephant Trumpets Growls.flac\" by D.jones",
+      "licence": "CC0"
+    },
+    "goat.mp3": {
+      "file": "sfx/goat.mp3",
+      "bytes": 13484,
+      "source": "Openverse — \"Baby Goat Bleating\" by OBXJohn",
+      "licence": "CC-BY"
+    },
+    "hen.mp3": {
+      "file": "sfx/hen.mp3",
+      "bytes": 32108,
+      "source": "Openverse — \"Rooster crow\" by jsbarrett",
+      "licence": "CC0"
+    },
+    "horse.mp3": {
+      "file": "sfx/horse.mp3",
+      "bytes": 18668,
+      "source": "Openverse — \"Horse\" by poodaddy69",
+      "licence": "CC0"
+    },
+    "sheep.mp3": {
+      "file": "sfx/sheep.mp3",
+      "bytes": 6764,
+      "source": "Openverse — \"sheep 3.mp3\" by esperar",
+      "licence": "CC0"
+    }
+  },
+  "audio": {
+    "en": {
+      "cow_about.mp3": {
+        "file": "audio/en/cow_about.mp3",
+        "bytes": 12163
+      },
+      "cow.mp3": {
+        "file": "audio/en/cow.mp3",
+        "bytes": 878
+      },
+      "donkey.mp3": {
+        "file": "audio/en/donkey.mp3",
+        "bytes": 11118
+      },
+      "elephant_about.mp3": {
+        "file": "audio/en/elephant_about.mp3",
+        "bytes": 24702
+      },
+      "elephant.mp3": {
+        "file": "audio/en/elephant.mp3",
+        "bytes": 9656
+      },
+      "goat_about.mp3": {
+        "file": "audio/en/goat_about.mp3",
+        "bytes": 17597
+      },
+      "hen_about.mp3": {
+        "file": "audio/en/hen_about.mp3",
+        "bytes": 19478
+      },
+      "horse_about.mp3": {
+        "file": "audio/en/horse_about.mp3",
+        "bytes": 60229
+      },
+      "horse.mp3": {
+        "file": "audio/en/horse.mp3",
+        "bytes": 8402
+      },
+      "sheep_about.mp3": {
+        "file": "audio/en/sheep_about.mp3",
+        "bytes": 21985
+      }
+    },
+    "hi": {},
+    "mr": {},
+    "or": {}
+  }
+}

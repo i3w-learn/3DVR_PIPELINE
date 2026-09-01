@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>VR Learning</title>
+
+<!--
+  Vendored, never a CDN. The app must run with the network switched off, and a
+  <script src="https://..."> is a silent dependency on the internet that passes
+  every laptop test before failing in the classroom.
+-->
+<script src="lib/aframe.min.js"></script>
+<script src="lib/aframe-extras.min.js"></script>
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!--
+  The teacher's controls. Plain HTML over the canvas — buttons and text, not 3D
+  objects. CSS removes them entirely in the headset role.
+-->
+<div id="controls"></div>
+<p id="error"></p>
+
+<!--
+  THE SHELL. Loaded once, never reloaded.
+
+  Navigating to a new page destroys the WebXR session and drops the child back
+  to the headset's home screen, so there is no router, no location.href and no
+  page reload anywhere in this application. A lesson is data fetched into this
+  page; the scene graph is rebuilt in place.
+-->
+<a-scene
+  scene-look
+  sky-environment
+  renderer="antialias: false; colorManagement: true"
+  vr-mode-ui="enabled: true"
+  gltf-model="dracoDecoderPath: lib/draco/">
+
+  <!--
+    Land. Every colour here is a placeholder — the stage kit sets them at
+    runtime, because the land is content, not markup.
+
+    There is no sky sphere. `sky-environment` on the scene sets the captured
+    sky as the renderer's background and, from the same image, the irradiance
+    map that lights everything. One image, one source of truth.
+  -->
+
+  <!--
+    The ground is one plane, but not one image. Colour, normal and roughness
+    maps together are what stop 120 metres of grass reading as green paper —
+    the normal map is doing most of that work, catching the light per blade
+    instead of per plane.
+
+    `segments` are up: a plane with four vertices has nowhere to put a fog
+    gradient, and the horizon banded visibly without them.
+  -->
+  <a-plane id="ground" rotation="-90 0 0" width="140" height="140"
+           segments-width="24" segments-height="24" shadowed="cast: false"></a-plane>
+
+  <!-- Everything a lesson places goes in here, and only here. -->
+  <a-entity id="stage"></a-entity>
+
+  <!--
+    Two channels, deliberately. `#voice` is the narrator; `#sfx` is the animal.
+    One channel would mean the cow's moo cutting off the sentence that names
+    it, which is the wrong way round — the sound is the hook, the sentence is
+    the lesson.
+  -->
+  <a-sound id="voice"></a-sound>
+  <a-sound id="sfx"></a-sound>
+
+  <!--
+    One sun, one fill, and the sky itself.
+
+    Most of the light in this scene does not come from either lamp — it comes
+    from `sky-environment`, which turns the sky into an irradiance map so every
+    surface is lit by the whole hemisphere above it. That is why the ambient
+    light is gone and the hemisphere light is down to a third: they were
+    standing in for a real environment, and now there is one.
+
+    The sun is the only shadow caster. Its intensity is high because ACES tone
+    mapping is rolling the top end off again.
+  -->
+  <a-light id="sun" type="directional" position="9 11 7" intensity="2.1"
+           color="#fff2dd"></a-light>
+  <a-light id="sun-sky" type="hemisphere" color="#bcd8ef" ground-color="#5e6b45"
+           intensity="0.35"></a-light>
+
+  <!--
+    The child's eyes.
+
+    1.2 m is a seated child, not A-Frame's 1.6 m adult default. wasd is off
+    because the camera must never move on its own: motion the child's body has
+    not asked for is the main cause of nausea, and worst at ages 3-6.
+
+    fuse means gaze-and-dwell, so nothing has to be held. A three-year-old
+    should not need a controller.
+  -->
+  <a-camera position="0 1.2 0" wasd-controls-enabled="false" look-controls>
+    <a-cursor fuse="true" fuse-timeout="800" raycaster="objects: .clickable"></a-cursor>
+  </a-camera>
+
+  <!--
+    A second cursor, driven by mouse or touch instead of by gaze.
+
+    The headset child chooses by looking; the teacher on a tablet chooses by
+    tapping. Both raise the same `click`, so `explore` needs no second code
+    path — and the teacher can demonstrate an animal without a headset on.
+  -->
+  <a-entity id="pointer" cursor="rayOrigin: mouse; fuse: false"
+            raycaster="objects: .clickable"></a-entity>
+
+</a-scene>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

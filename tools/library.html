@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Asset library — contact sheet</title>
+
+<!--
+  A build-time tool, not part of the shipped app.
+
+  It reads app/assets/library.json — the generated catalogue — so it can never
+  show a model the pipeline does not know about, or miss one it does. Adding a
+  model to the library adds it here with no edit.
+
+  What it is for: seeing every asset at true scale, side by side, against a
+  1 metre post. Two failures are invisible one model at a time and obvious in a
+  row — a model that is the wrong size, and a model whose art style does not
+  match the rest.
+-->
+<script src="../app/lib/aframe.min.js"></script>
+<script src="../app/lib/aframe-extras.min.js"></script>
+
+<style>
+  body { margin: 0; font-family: system-ui, -apple-system, sans-serif; }
+
+  #bar {
+    position: fixed; inset: 0 0 auto 0; z-index: 10;
+    display: flex; gap: 22px; align-items: baseline; flex-wrap: wrap;
+    padding: 12px 20px;
+    background: rgba(31, 29, 27, 0.93); color: #fafaf7; font-size: 14px;
+  }
+  #bar b { font-size: 16px; }
+  #bar .muted { opacity: 0.65; }
+
+  #controls { position: fixed; left: 20px; bottom: 20px; z-index: 10; display: flex; gap: 8px; }
+  #controls button {
+    padding: 10px 16px; font-size: 15px;
+    border: 1px solid rgba(255,255,255,0.15); border-radius: 9px;
+    background: #33302c; color: #fafaf7; cursor: pointer;
+  }
+  #controls button[aria-pressed="true"] { background: #4a6240; }
+</style>
+</head>
+<body>
+
+<div id="bar">
+  <b>Asset library</b>
+  <span id="counts" class="muted"></span>
+  <span class="muted">drag to look · W/A/S/D to walk · red post = 1 metre</span>
+</div>
+
+<div id="controls">
+  <button data-clip="Idle" aria-pressed="true">Idle</button>
+  <button data-clip="Walk">Walk</button>
+  <button data-clip="Eating">Eating</button>
+  <button data-ruler aria-pressed="true">📏 Ruler</button>
+</div>
+
+<a-scene renderer="colorManagement: true; antialias: true"
+         gltf-model="dracoDecoderPath: ../app/lib/draco/">
+
+  <a-sky color="#e8e4da"></a-sky>
+  <a-plane rotation="-90 0 0" width="120" height="120" color="#cfccc4"
+           material="shader: flat"></a-plane>
+
+  <a-entity id="shelf"></a-entity>
+
+  <a-light type="ambient" intensity="0.9"></a-light>
+  <a-light type="directional" position="2 6 4" intensity="0.6"></a-light>
+
+  <!-- Close enough that a 1.5 m animal fills a useful part of the view. -->
+  <a-camera position="0 1.9 1.5" rotation="-5 0 0" wasd-controls="acceleration: 40"></a-camera>
+
+</a-scene>
+
+<script type="module">
+/**
+ * Everything on this page comes from the generated library. Nothing about
+ * which models exist, how tall they are, or what they can play is written
+ * here — that would be a second source of truth, and the second one is always
+ * the one that goes stale.
+ */
+/** Clear space either side of a model, so nothing overlaps its neighbour. */
+const GUTTER = 1.4;
+const ROW_GAP = 8;
+const PER_ROW = 6;
+
+const library = await fetch('../app/assets/library.json').then((r) => r.json());
+const models = Object.entries(library.models);
+
+const shelf = document.querySelector('#shelf');
+
+document.querySelector('#counts').textContent =
+  `${models.length} models · ${new Set(models.map(([, m]) => m.source)).size} sources · ` +
+  `generated ${library.generated.slice(0, 16).replace('T', ' ')}`;
+
+// Lay each row out by real footprint. A fixed gap either crowds the oak tree
+// or wastes ten metres around the flower; the library already knows how wide
+// everything is, so use it.
+const rows = [];
+for (let i = 0; i < models.length; i += PER_ROW) rows.push(models.slice(i, i + PER_ROW));
+
+const placements = new Map();
+
+rows.forEach((rowModels, row) => {
+  const widths = rowModels.map(([, m]) => Math.max(m.width, m.depth) + GUTTER);
+  const rowWidth = widths.reduce((a, b) => a + b, 0);
+
+  let cursor = -rowWidth / 2;
+  rowModels.forEach(([id], column) => {
+    placements.set(id, { x: cursor + widths[column] / 2, z: -6 - row * ROW_GAP });
+    cursor += widths[column];
+  });
+});
+
+models.forEach(([id, model], index) => {
+  const slot = document.createElement('a-entity');
+  const { x, z } = placements.get(id);
+  slot.setAttribute('position', { x, y: 0, z });
+
+  const el = document.createElement('a-entity');
+  el.classList.add('model');
+  // Scale is always 1: by the time a model is in the library it is already
+  // 1 unit = 1 metre. If something looks wrong here, the fix is at intake.
+  el.setAttribute('gltf-model', `../app/assets/${model.file}`);
+  if (model.rigged && model.clips.includes('Idle')) {
+    el.setAttribute('animation-mixer', 'clip: Idle');
+  }
+  slot.appendChild(el);
+
+  slot.appendChild(label(id, model));
+  slot.appendChild(ruler());
+
+  shelf.appendChild(slot);
+});
+
+/** Name, measured height, and where it came from — read off the floor. */
+function label(id, model) {
+  const el = document.createElement('a-entity');
+  el.setAttribute('position', '0 0.02 1.8');
+  el.setAttribute('rotation', '-90 0 0');
+  el.setAttribute('text', {
+    value:
+      `${id}\n${model.height} m tall · ${model.width} × ${model.depth} m\n${model.triangles} tris\n` +
+      `${model.rigged ? model.clips.join(' / ') : 'static'}\n${model.licence}`,
+    align: 'center',
+    width: 4.4,
+    color: '#1f1d1b',
+    lineHeight: 44,
+  });
+  return el;
+}
+
+/**
+ * A one-metre post beside every model.
+ *
+ * The cheapest possible check on the contract. A cow that should be 1.5 m and
+ * stands twice the post is caught in a glance, three weeks before it shows up
+ * as "the scene looks odd" in a headset review.
+ */
+function ruler() {
+  const el = document.createElement('a-box');
+  el.classList.add('ruler');
+  el.setAttribute('width', 0.06);
+  el.setAttribute('depth', 0.06);
+  el.setAttribute('height', 1);
+  el.setAttribute('position', '-0.9 0.5 0');
+  el.setAttribute('color', '#8b3a3a');
+  el.setAttribute('material', 'shader: flat');
+  return el;
+}
+
+document.querySelector('#controls').addEventListener('click', (event) => {
+  const button = event.target.closest('button');
+  if (!button) return;
+
+  if (button.dataset.ruler !== undefined) {
+    const showing = button.getAttribute('aria-pressed') !== 'true';
+    button.setAttribute('aria-pressed', String(showing));
+    document.querySelectorAll('.ruler').forEach((r) => r.setAttribute('visible', showing));
+    return;
+  }
+
+  const clip = button.dataset.clip;
+  document.querySelectorAll('#controls [data-clip]')
+    .forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
+
+  // Only models that actually have the clip respond. A static tree simply
+  // stays a static tree — no error, no special case.
+  models.forEach(([, model], index) => {
+    if (!model.clips.includes(clip)) return;
+    shelf.children[index].querySelector('.model').setAttribute('animation-mixer', `clip: ${clip}`);
+  });
+});
+</script>
+</body>
+</html>

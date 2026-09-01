@@ -1,0 +1,64 @@
+{
+  "id": "evs-lkg-farm-animals",
+  "template": "identify",
+  "stage": "outdoor",
+  "stageOverride": {},
+  "objects": [
+    {
+      "id": "cow",
+      "model": "zebu",
+      "position": "-1.8 0 -4.2",
+      "rotation": "0 25 0",
+      "clip": "Armature|CombinedAnim|Base Layer.001"
+    },
+    {
+      "id": "horse",
+      "model": "realhorse",
+      "position": "1.9 0 -4.8",
+      "rotation": "0 -20 0",
+      "clip": "Skeleton|1 Ilde"
+    },
+    {
+      "id": "elephant",
+      "model": "realelephant",
+      "position": "0 0 -8.5",
+      "rotation": "0 8 0",
+      "clip": "Stand_01"
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "cow",
+      "audio": "cow.mp3",
+      "duration": 6000,
+      "script": {
+        "en": "This is a cow.",
+        "hi": "यह गाय है।",
+        "mr": "ही गाय आहे.",
+        "or": "ଏହା ଏକ ଗାଈ।"
+      }
+    },
+    {
+      "highlight": "horse",
+      "audio": "horse.mp3",
+      "duration": 6000,
+      "script": {
+        "en": "This is a horse.",
+        "hi": "यह घोड़ा है।",
+        "mr": "हा घोडा आहे.",
+        "or": "ଏହା ଏକ ଘୋଡ଼ା।"
+      }
+    },
+    {
+      "highlight": "elephant",
+      "audio": "elephant.mp3",
+      "duration": 6000,
+      "script": {
+        "en": "This is an elephant.",
+        "hi": "यह हाथी है।",
+        "mr": "हा हत्ती आहे.",
+        "or": "ଏହା ଏକ ହାତୀ।"
+      }
+    }
+  ]
+}

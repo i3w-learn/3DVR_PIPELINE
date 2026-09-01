@@ -1,0 +1,18 @@
+{
+  "id": "realhen",
+  "source": "Sketchfab — \"ANIMAL & FOOD | Chicken Model (CS2)\" by gettan",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/animal-food-chicken-model-cs2-7c72450ac7e0472eb9b647b6efee2984",
+  "targetHeight": 0.45,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "dropNodes": [
+    "ROASTED CHICKEN"
+  ],
+  "keepClips": [
+    "peck_idle2",
+    "walk01"
+  ],
+  "notes": "a 45 cm bird was carrying 7,300 triangles",
+  "simplify": 0.55
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vr-learning-content",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Content pipeline for the pre-primary VR learning programme.",
+  "scripts": {
+    "content:std": "node tools/standardise.js",
+    "content:library": "node tools/build-library.js",
+    "content:check": "node tools/validate-lessons.js",
+    "content:build": "npm run content:library && npm run content:credits && npm run content:check",
+    "content:textures": "node tools/standardise-textures.js",
+    "content:hdri": "node tools/standardise-hdri.js",
+    "content:credits": "node tools/build-credits.js",
+    "serve": "node tools/serve.js"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^4.1.0",
+    "@gltf-transform/extensions": "^4.1.0",
+    "@gltf-transform/functions": "^4.1.0",
+    "draco3dgltf": "^1.5.7",
+    "meshoptimizer": "^1.2.0",
+    "sharp": "^0.34.1"
+  }
+}

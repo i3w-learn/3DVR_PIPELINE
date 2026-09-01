@@ -1,0 +1,8 @@
+{
+  "id": "grass",
+  "source": "ambientCG — Grass004",
+  "licence": "CC0",
+  "url": "https://ambientcg.com/view?id=Grass004",
+  "maps": ["color", "normal", "rough", "ao"],
+  "notes": "NormalGL (OpenGL green-up convention) — the one three.js expects"
+}

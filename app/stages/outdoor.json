@@ -1,0 +1,71 @@
+{
+  "id": "outdoor",
+  "sky": {
+    "hdri": "field.jpg",
+    "intensity": 1.0
+  },
+  "ground": {
+    "color": "grass_color.jpg",
+    "normal": "grass_normal.jpg",
+    "rough": "grass_rough.jpg",
+    "ao": "grass_ao.jpg",
+    "repeat": 38
+  },
+  "sun": {
+    "position": "11 13 -4",
+    "color": "#fff3e0",
+    "intensity": 1.6
+  },
+  "light": {
+    "sky": "#cfe0f2",
+    "ground": "#63704a",
+    "intensity": 0.2
+  },
+  "fog": {
+    "color": "#cbdbe8",
+    "near": 22,
+    "far": 95
+  },
+  "shadows": true,
+  "props": [
+    {
+      "model": "rock",
+      "position": "4.5 0 -8",
+      "rotation": "0 35 0"
+    },
+    {
+      "model": "rock",
+      "position": "-5 0 -9.5",
+      "rotation": "0 250 0",
+      "scale": "0.7 0.7 0.7"
+    },
+    {
+      "model": "fence",
+      "position": "-4.2 0 -7",
+      "rotation": "0 90 0"
+    },
+    {
+      "model": "fence",
+      "position": "-4.2 0 -9.9",
+      "rotation": "0 90 0"
+    },
+    {
+      "model": "fence",
+      "position": "-4.2 0 -12.8",
+      "rotation": "0 90 0"
+    },
+    {
+      "model": "realtree",
+      "position": "15 0 -20",
+      "rotation": "0 40 0",
+      "castShadow": false
+    },
+    {
+      "model": "realtree",
+      "position": "-16 0 -24",
+      "rotation": "0 205 0",
+      "scale": "0.95 0.95 0.95",
+      "castShadow": false
+    }
+  ]
+}

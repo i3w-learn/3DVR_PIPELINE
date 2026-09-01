@@ -1,0 +1,12 @@
+{
+  "id": "realtree",
+  "source": "Poly Haven — Island Tree 01 (photoscan)",
+  "licence": "CC0",
+  "url": "https://polyhaven.com/a/island_tree_01",
+  "targetHeight": 6.5,
+  "yaw": 0,
+  "simplify": 0.028,
+  "simplifyError": 0.1,
+  "notes": "1.6M triangles as downloaded. Two trees at this density cost the same as three thinner ones and read far better — a sparse tree looks broken, a missing tree just is not there",
+  "alphaMode": "mask"
+}

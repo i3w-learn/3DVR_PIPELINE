@@ -1,0 +1,106 @@
+{
+  "id": "farmyard",
+  "sky": {
+    "hdri": "field.jpg",
+    "intensity": 1.0
+  },
+  "ground": {
+    "color": "grass_color.jpg",
+    "normal": "grass_normal.jpg",
+    "rough": "grass_rough.jpg",
+    "ao": "grass_ao.jpg",
+    "repeat": 38
+  },
+  "sun": {
+    "position": "11 13 -4",
+    "color": "#fff3e0",
+    "intensity": 1.6
+  },
+  "light": {
+    "sky": "#cfe0f2",
+    "ground": "#63704a",
+    "intensity": 0.2
+  },
+  "fog": {
+    "color": "#cbdbe8",
+    "near": 22,
+    "far": 95
+  },
+  "shadows": true,
+  "props": [
+    {
+      "model": "shed",
+      "position": "-9 0 -16",
+      "rotation": "0 28 0",
+      "castShadow": false
+    },
+    {
+      "model": "fence",
+      "position": "-9 0 -4",
+      "rotation": "0 0 0"
+    },
+    {
+      "model": "fence",
+      "position": "-6.1 0 -4",
+      "rotation": "0 0 0"
+    },
+    {
+      "model": "fence",
+      "position": "6.1 0 -4",
+      "rotation": "0 0 0"
+    },
+    {
+      "model": "fence",
+      "position": "9 0 -4",
+      "rotation": "0 0 0"
+    },
+    {
+      "model": "fence",
+      "position": "-10.4 0 -5.4",
+      "rotation": "0 90 0"
+    },
+    {
+      "model": "fence",
+      "position": "-10.4 0 -8.3",
+      "rotation": "0 90 0"
+    },
+    {
+      "model": "fence",
+      "position": "-10.4 0 -11.2",
+      "rotation": "0 90 0"
+    },
+    {
+      "model": "fence",
+      "position": "10.4 0 -5.4",
+      "rotation": "0 90 0"
+    },
+    {
+      "model": "fence",
+      "position": "10.4 0 -8.3",
+      "rotation": "0 90 0"
+    },
+    {
+      "model": "fence",
+      "position": "10.4 0 -11.2",
+      "rotation": "0 90 0"
+    },
+    {
+      "model": "rock",
+      "position": "5.5 0 -13",
+      "rotation": "0 35 0"
+    },
+    {
+      "model": "realtree",
+      "position": "15 0 -20",
+      "rotation": "0 40 0",
+      "castShadow": false
+    },
+    {
+      "model": "realtree",
+      "position": "-16 0 -24",
+      "rotation": "0 205 0",
+      "scale": "0.95 0.95 0.95",
+      "castShadow": false
+    }
+  ]
+}

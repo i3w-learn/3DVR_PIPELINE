@@ -1,0 +1,15 @@
+{
+  "id": "zebu",
+  "source": "Sketchfab — \"Zebu Bull\" by Mily",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/zebu-bull-8de29dda35fb4b4296a60908c9ff97c4",
+  "targetHeight": 1.45,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "Armature|CombinedAnim|Base Layer.001",
+    "Armature|CombinedAnim|Base Layer.003"
+  ],
+  "simplify": 0.22,
+  "notes": "Zebu — the humped Indian breed a child here actually sees. Clip names are unhelpful (Base Layer.001-004); .003 at 1.13s is the walk cycle, .001 the idle"
+}
