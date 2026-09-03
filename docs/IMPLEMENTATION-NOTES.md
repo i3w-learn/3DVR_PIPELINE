@@ -527,3 +527,373 @@ counts — they have no library entry to check and no model to count.
 
 It is deliberately plain. A three-year-old is being asked which building is
 the school, not to admire the brickwork.
+
+## 24. A door has to be a door
+
+The school's entrance was a flat brown rectangle painted on a solid wall, and
+that is exactly what it looked like: a cupboard, with the building's own mass
+behind it. Three things had to change together, because none of them works
+alone.
+
+**A hole is something you build around.** Boxes cannot be subtracted from each
+other, so the ground floor is no longer one box. With a veranda it is now the
+four solids *around* the entrance — left, right, the plug behind the hall, and
+a front wall built in three pieces with a gap — and the storeys above sit on
+top as a single box, which doubles as the hall's ceiling. Six boxes instead of
+one.
+
+**Behind the door there has to be somewhere.** A door opening onto darkness is
+worse than no door: the child sees the school has nothing inside it. The
+entrance hall is not a modelled interior and is not trying to be — a corridor
+deep enough that you cannot see the end of it, two more doorways off it, a
+notice board and a bench. Enough for the eye to conclude the school continues.
+The real interiors stay separate lands; see `room`.
+
+**A baked box cannot move.** Everything built from boxes is merged into one
+mesh, and once merged a box stops being a thing. Door leaves swing, so they
+have to stay out of the bake. `data-keep` on an element is that opt-out: the
+subtree under it is neither merged nor removed, and pays its own draw call.
+The whole door is three — frame, left leaf, right leaf.
+
+That opt-out uncovered a bug that had been shipping quietly. The removal step
+used to delete only the `<a-box>` children it had merged. The gate's bars live
+inside two hinge entities, not directly under the gate, so they were merged
+into the new mesh **and left in place** — the gate was drawn twice, every
+frame, and nothing said so. Removing every child that contributed fixed it.
+
+Opening is its own component. `door` knows how to be a door and `gate` knows
+how to be a gate; neither should know about the camera, and both want the same
+behaviour. `auto-open` owns the rule, and the contract between them is one
+method — `setOpen(fraction)`, 0 shut, 1 open. Anything that implements it gets
+proximity opening for free.
+
+Two ways in, and the second one matters more. **Walking up to it** is the
+obvious one, and the only one a teacher on a laptop will use. But the child in
+the headset is seated and never moves — the PRD forbids moving them, because
+motion the body has not asked for is what makes small children sick. A door
+that only opened when you walked to it would never open for the one person the
+lesson is for. So a gaze or a tap holds it open too.
+
+Two distances, not one: open inside 4.5 m, shut again beyond 6.5. A single
+threshold sets the door flapping, because a viewer standing on the line crosses
+it several times a second just by moving their head.
+
+Cost: 57 → 62 draw calls, and the gate no longer drawn twice.
+
+## 25. Furnishing a room you have actually seen
+
+The classroom was a room with a blackboard in it, which is not a classroom.
+Filling it was cheap — the same trade as `building`, one scale down: an
+almirah is a box with two doors on it, and building it in arithmetic costs a
+few dozen triangles instead of a few thousand.
+
+What took the thinking was **what to put in it**. An Anganwadi room for three-
+to six-year-olds under ICDS is not a room with desks. Children sit on mats on
+the floor in a group. There is one table and it is the teacher's. There is a
+steel almirah, because the register and the material have to be locked up.
+There is an open rack of blocks at a child's own height, charts on the walls, a
+ceiling fan, and a water pot in the corner. Putting desks in would have been
+faster and would have been a picture of a school none of these children attend.
+
+Ten components, one file, one shared `builder`: mats, table, chair, almirah,
+shelf, chart, fan, waterpot, stove. The whole furnished classroom is **21 draw
+calls and 3,122 triangles**.
+
+Two things that had to be said out loud in code:
+
+**The fan turns.** A still ceiling fan in an Indian classroom reads as a power
+cut. It is also the only thing in an empty room that says the scene is running
+rather than frozen.
+
+**The same rack serves three rooms**, so what stands on it is a parameter.
+Coloured building blocks on a kitchen shelf were the single thing stopping that
+room from reading as a kitchen; steel vessels there, and cloth-bound registers
+in the office, cost one string in a content file.
+
+### A bug this uncovered
+
+Baking swept up meshes that other components had hung on the same entity.
+`contact-shadow` adds its patch straight to `el.object3D`, so every built prop
+was baking a **plain white rectangle lying on the floor** into its own
+geometry — visible under the almirah, the shelf and the mats, and impossible to
+turn off, because by then it was vertices. Starting the walk from the child
+*elements* rather than from the object3D tree keeps the bake to the boxes that
+were built.
+
+And not everything stands on the ground. A chart hangs on a wall and a fan
+hangs from a ceiling; giving either a contact patch puts a dark ellipse in
+mid-air at its own height. `contact: false` in a stage file is how a prop says
+it is not standing on anything.
+
+## 26. Walking from one land into the next
+
+The child could be *put* inside the school — the teacher picks the classroom
+lesson — but could not *walk* in. That is the join that was missing, and it is
+the difference between a set of scenes and a place.
+
+A `portal` is a spot on the floor. Walk onto it and the whole class moves to the
+land on the other side. Nothing new is published: the state message already
+says "everybody is now on this step of this lesson", and a different lesson id
+in the same message is a different land. Every headset rebuilds without a line
+of new protocol.
+
+It fires for the teacher and only the teacher, because she is the only one who
+walks. The child in the headset is seated — moving them is what makes
+three-year-olds sick — so she steps through the door and the class arrives with
+her.
+
+The map now: the yard, in through the front door to a **hallway**, and off the
+hallway a **classroom**, a **kitchen** and an **office**. Each room's open side
+leads back to the hallway. Four lands, joined by six portals.
+
+Rooms grew real doorways to hang this on. Same problem as the school's
+entrance, same answer: boxes cannot be subtracted, so a wall with a door in it
+is built as the pieces around the hole. Behind each opening is a shallow alcove
+— not a modelled corridor, just enough depth that the eye reads "it carries on
+through there", which is all it has to do, because the portal moves the class
+before anybody reaches the back of it.
+
+Three things went wrong and each one is worth keeping:
+
+**A dark box is not a doorway.** The first alcove was one black box and read as
+a black rectangle painted on the wall. What makes it a passage is a lit floor
+and lit sides with only the far end dark — the eye takes the receding floor as
+depth and stops asking.
+
+**Two frames in one opening make a column.** `room` draws a frame around its
+doorway and `door` drew its own, 42 cm deep, in the wall colour. From down the
+corridor that pale post either side of every door read as a pillar. Interior
+doors now draw no frame of their own.
+
+**A portal must not fire on a doorway you are already standing in.** Every land
+starts the camera at the origin, and a room's way out is near the origin by
+definition — the office threw you straight back into the corridor before its
+first frame was drawn. Tuning the distances would have hidden it until the next
+room was placed slightly differently. A portal now arms only once the viewer
+has stood clear of it, which fixes it for every room there will ever be.
+
+## 27. People, and the two ways a downloaded figure goes wrong
+
+The classroom had furniture and nobody in it. Four children and a teacher went
+in — the children cross-legged on the mats facing the board, didi standing
+beside it in a saree.
+
+Both problems that came up are worth writing down, because neither is visible
+until the model is in the scene.
+
+### A rigged figure with nothing playing it stands in a T-pose
+
+The first teacher was a Mixamo-rigged saree figure with one clip. Nothing in
+this app plays clips on stage props — only `wander` animals animate — so she
+stood in her rest pose: arms straight out, in the middle of a classroom.
+
+So a stage prop may now name a `clip`, which starts `animation-mixer` on it.
+That turned out not to save this particular model, because its one clip *was*
+the T-pose. The fix was a different model: a static sculpt, already posed. For
+anything standing still, **a posed sculpt beats a rigged figure** — there is no
+skeleton to drive and no pose to get wrong.
+
+The second child model went the same way for a different reason. "little boy
+sitting" was sitting *on a chair*, so on a floor mat he floated with his legs
+hanging in the air. Read what the model is sitting on before placing it on
+something else.
+
+### Some meshes cannot be decimated at all
+
+A 170,000-triangle sculpt set to keep 6% came out at **131,000**. Raising the
+error budget did nothing. Welding first did nothing. The mesh — generated
+rather than modelled — has no shared edges for the simplifier to collapse, so
+it simply stops.
+
+That investigation added `weldTolerance` to the sidecar, which is a real fix
+for a real class of asset even though it did not fix this one: a decimator can
+only collapse an edge two triangles share, and a model exported with split
+normals or split UVs has no shared edges at all.
+
+The asset itself was unfixable and was dropped. **Check the standardised
+triangle count against the ratio you asked for**, every time — the pipeline
+reports it, and a model that ignored the ratio is a model to replace, not to
+argue with.
+
+Placed: four children at 14,196 triangles each and didi at 11,290. The
+furnished, populated classroom is **32 draw calls and 71,204 triangles**,
+against a budget of 100 and 100,000.
+
+Both are CC-BY, so both are in `CREDITS.md` — which is generated from the
+sidecars, which is why the licence is recorded at the moment of download and
+not later.
+
+## 28. Doors need a fade
+
+Walking through a door swapped one land for another in a single frame. On a
+laptop that is a jump cut. In a headset it is worse: the whole world is
+replaced while the child's head is mid-turn, with no motion connecting the two,
+and a hard cut is one of the reliable ways to make somebody feel ill. Every VR
+title that moves you anywhere fades first.
+
+It also hides something honest. `#buildLesson` returns when the lesson is
+*placed*, not when its models have arrived — so the first frames of a new land
+were a room with no furniture in it. Two hundred milliseconds of black covers
+the loading, and nobody sees a school with no walls.
+
+**The fade has to be geometry, not a black div.** A DOM overlay is not in the
+headset's view: inside WebXR the page is not being composited, the renderer is
+drawing two eye buffers, and nothing in the document appears in either. So it
+is a 40 cm black sphere around the head, inside-out, drawn last with depth
+testing off — off because any wall closer than the sphere would otherwise
+punch a hole through the fade.
+
+It lives in `lesson-sync`, not in `portal`, so both roles get it from one code
+path: the teacher walking through a door and the headset receiving the state
+message fade identically, and a lesson changed from the control bar fades too.
+
+`to(value)` returns a promise, so the sequence reads as what it is:
+
+    await fade.to(1);          // go dark
+    await buildLesson(next);   // rebuild behind the black
+    await fade.to(0);          // come back
+
+## 29. Two labs and a playground
+
+The school is now nine lands: the yard, a hallway, and off it a classroom, a
+kitchen, an office, a chemistry lab and a physics lab — with a playground
+behind the building, reached by walking round the corner.
+
+### A corridor needs more than three doors
+
+`room` could put one doorway in each wall, which was enough for three rooms and
+is not enough for five. `doors` now takes positions: `left@-2.6, left@2.2,
+right@-2.6, right@2.2, back` is two doors down each side and one at the end.
+A bare name still means the middle of its wall, which is what every room but
+the corridor wants.
+
+The wall builder went with it. Instead of "one piece either side of the hole",
+`segments()` walks the wall stopping at each opening and returns the solid runs
+between them — which is the same code whether there are none, one or five, and
+drops any run under a centimetre so two doors close together do not leave a
+sliver of wall standing between them.
+
+### What makes a room read as a lab
+
+Not posters. Three things, and all three are geometry: a **long fixed bench**
+you work standing at, **glass on it**, and **apparatus** — a stand, a rack, a
+ramp. Take any one away and it is a room with tables in it.
+
+The bench is shared between both labs; what stands on it is a separate prop, so
+chemistry gets flasks and physics gets a pendulum from the same furniture. The
+reagent shelf down the middle of the bench is the single detail doing the most
+work — it is what separates a lab bench from a table, and at a child's eye
+level it is the first thing seen.
+
+The periodic table on the chemistry wall is the `chart` component at 7×16
+instead of 4×5. No new code; a chart is a grid of coloured cells, and at the
+distance anybody reads it from, that *is* a periodic table.
+
+### The playground moves
+
+A still swing is a frame with a plank hanging off it. The seats hang from
+`data-keep` pivots and swing on their own phase — in lockstep they look
+mechanical rather than played on. The see-saw rocks slower, because one with
+nobody on it should barely move.
+
+Two placement lessons, both obvious afterwards:
+
+**A slide pointing at the viewer is a red diagonal.** Side-on is the only angle
+at which the ladder, the platform and the chute read as one object.
+
+**Size a slope by its ends, not by its middle.** The chute was sized from the
+height and then rotated, which left its foot twenty centimetres above the
+grass — a slide you fall off. Working out where it starts and where it lands
+and putting the slab between them cannot go wrong that way.
+
+### On the curriculum
+
+An Anganwadi is pre-primary, three to six, and has no laboratory. These two
+lands are for the older grades this system is being pointed at. The playground
+is the opposite case and belongs in every Anganwadi there is: it is the one
+place in the whole build where the child already knows the object and only the
+word is new, which makes it the best place in the system to teach a word.
+
+## 30. What an audit of the whole thing found
+
+Ten lands built fast, and "it still is not working well" was right. Rather than
+guess, every lesson was walked programmatically: the portal graph, what each
+land contains, what each step points at, and what plays.
+
+Three holes, and all three were the same kind — a mechanism that exists and was
+never connected.
+
+**Seven of ten lessons had nothing to point at.** `identify` rings the object a
+step names, and the ring is the entire teaching mechanic: the audience cannot
+read, so a lesson cannot label the thing it is naming — it points at it. Every
+new land had its contents as *stage props*, which are scenery, and an empty
+`objects` list. So the narration named things and the ring had nothing to sit
+under. The mats, the stove, the swing, the slide and the apparatus moved into
+`objects` with ids, and every step that names something now rings it.
+
+**Every land shipped silent.** A step's line is only synthesised if that step
+names an audio file, and none of them did — the pipeline could not see the
+lines, so they were never spoken. Twenty-eight clips later, every step in every
+lesson has narration. It is machine English from the laptop's own voice, which
+is a placeholder and not shippable; Hindi, Marathi and Odia still need the paid
+provider and, more importantly, a native speaker to listen to every clip.
+
+**A missing import broke the ceiling fan in six lands.** Extracting the shared
+`builder` into its own module took `mergeBoxes` out of `furniture.js`'s
+imports, and `fan` is the one component there that calls it directly. It threw
+inside a `requestAnimationFrame` callback — so nothing appeared in the page's
+error banner, nothing failed to load, and the only symptom was a fan with no
+blades. A grep for every file that names `mergeBoxes` without importing it
+found it in a second; that check is worth keeping.
+
+### What the audit says is still missing
+
+- **Nothing collides.** You walk through walls, through benches, through the
+  school. This is the largest remaining hole in how the place feels.
+- **`MqttTransport` is unbuilt**, so a teacher's tablet and a child's headset
+  cannot actually be two devices yet.
+- **Three of five templates** — `count`, `match`, `sequence` — do not exist.
+- **Narration is English only**, and machine-made.
+- **No offline packaging**: no service worker, no APK.
+- **The triangle budget check does not count built geometry**, only downloaded
+  models, so a land made of boxes can be over budget and still pass.
+- **No headset has ever run any of it.** Everything above is a laptop result.
+
+## 31. Refresh lost your place, and one land had no school in it
+
+Two separate bugs behind one complaint.
+
+**The URL, and a wrong turn taken and reversed.** The lesson named in the
+address bar is where a refresh starts you. Walking through a door did not
+change it, so it was made to — `history.replaceState` as you moved, never
+`location.href`, because navigating destroys the WebXR session and drops the
+child to the headset's home screen.
+
+That was wrong and was reverted. **Refresh is how a teacher starts over**, and
+starting over means the front of the school, not the middle of whatever
+corridor she happened to be standing in. Worse, once the URL had followed her
+into a room, every later refresh dropped her into that room — a land with no
+way to see the school from it — and it stayed that way until she edited the
+address by hand.
+
+The lesson in the URL is where the session BEGINS. Walking through a door
+changes where you are, not where you start.
+
+**A land called "behind the school" had no school in it.** Every land put the
+viewer at the origin facing −Z, which in the playground meant facing the
+boundary wall with the building squarely behind them. Where a land begins is a
+property of the land, so a stage can now carry `start` — a position and a
+facing.
+
+It applies only when you did *not* walk in. A portal has already decided where
+somebody arriving through a door comes out, and it says so by marking the
+scene; moving them again would undo the door. And only for the teacher: the
+child in the headset is seated at the origin and is never moved.
+
+Then a composition point that is not a bug and mattered as much. The school was
+directly behind the playground, and a building directly behind you is a
+building you never see — turning the camera to face it filled the entire frame
+with wall and left no playground. Moving it to the **corner of the view**, with
+the equipment ahead, shows both: the school you just came out of at your
+shoulder, and the yard you came out into in front. "Behind the school" is what
+it means, not where the geometry has to sit.

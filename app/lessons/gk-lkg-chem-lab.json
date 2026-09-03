@@ -1,0 +1,52 @@
+{
+  "id": "gk-lkg-chem-lab",
+  "template": "identify",
+  "stage": "chemlab",
+  "stageOverride": {},
+  "objects": [
+    {
+      "id": "glassware",
+      "build": "glassware",
+      "position": "-1.4 0 -6.0",
+      "rotation": "0 0 0",
+      "params": {
+        "y": 0.9,
+        "width": 2.2
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "en": "This is the chemistry lab. We do experiments here.",
+        "hi": "यह रसायन प्रयोगशाला है। यहाँ हम प्रयोग करते हैं।",
+        "mr": "ही रसायनशास्त्राची प्रयोगशाळा आहे. इथे आपण प्रयोग करतो.",
+        "or": "ଏହା ରସାୟନ ପରୀକ୍ଷାଗାର। ଏଠାରେ ଆମେ ପରୀକ୍ଷଣ କରୁ।"
+      },
+      "audio": "chem_lab_s1.mp3"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "Look at the glass bottles on the shelf. We never touch them alone.",
+        "hi": "शेल्फ पर काँच की बोतलें देखो। हम उन्हें अकेले कभी नहीं छूते।",
+        "mr": "कपाटावरच्या काचेच्या बाटल्या बघा. त्यांना आपण एकटं कधीच हात लावत नाही.",
+        "or": "ଥାକରେ ଥିବା କାଚ ବୋତଲ ଦେଖ। ଆମେ ସେଗୁଡ଼ିକୁ ଏକା କେବେ ଛୁଇଁ ନାହିଁ।"
+      },
+      "audio": "chem_lab_s2.mp3",
+      "highlight": "glassware"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "The tall glasses in the stand are test tubes.",
+        "hi": "स्टैंड में रखे लंबे गिलास परखनली कहलाते हैं।",
+        "mr": "स्टँडमधल्या उंच नळ्यांना परीक्षानळी म्हणतात.",
+        "or": "ଷ୍ଟାଣ୍ଡରେ ଥିବା ଲମ୍ବା ନଳୀକୁ ପରୀକ୍ଷା ନଳୀ କୁହାଯାଏ।"
+      },
+      "audio": "chem_lab_s3.mp3",
+      "highlight": "glassware"
+    }
+  ]
+}

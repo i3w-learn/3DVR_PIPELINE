@@ -1,0 +1,84 @@
+{
+  "id": "gk-lkg-playground",
+  "template": "identify",
+  "stage": "playground",
+  "stageOverride": {},
+  "objects": [
+    {
+      "id": "swing",
+      "build": "swing",
+      "position": "-5.5 0 -5",
+      "rotation": "0 12 0",
+      "params": {
+        "width": 3.4,
+        "height": 2.4,
+        "seats": 2
+      }
+    },
+    {
+      "id": "slide",
+      "build": "slide",
+      "position": "5.5 0 -6.5",
+      "rotation": "0 -100 0",
+      "params": {
+        "height": 1.9,
+        "length": 3.4
+      }
+    },
+    {
+      "id": "sandpit",
+      "build": "sandpit",
+      "position": "-7.5 0 -11",
+      "rotation": "0 15 0",
+      "params": {
+        "width": 4.5,
+        "depth": 3.2
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "en": "We are behind the school now. This is our playground.",
+        "hi": "अब हम स्कूल के पीछे हैं। यह हमारा खेल का मैदान है।",
+        "mr": "आता आपण शाळेच्या मागे आहोत. हे आपलं खेळाचं मैदान आहे.",
+        "or": "ବର୍ତ୍ତମାନ ଆମେ ବିଦ୍ୟାଳୟ ପଛରେ। ଏହା ଆମର ଖେଳ ପଡ଼ିଆ।"
+      },
+      "audio": "playground_s1.mp3"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "Can you see the swing? It goes forward and back.",
+        "hi": "क्या तुम झूला देख सकते हो? यह आगे-पीछे जाता है।",
+        "mr": "झोका दिसतो का? तो पुढे-मागे जातो.",
+        "or": "ଦୋଳି ଦେଖି ପାରୁଛ କି? ଏହା ଆଗ ପଛ ଯାଏ।"
+      },
+      "audio": "playground_s2.mp3",
+      "highlight": "swing"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "That yellow one is the slide. We climb up and come down.",
+        "hi": "वह पीली वाली फिसलपट्टी है। हम ऊपर चढ़ते हैं और नीचे आते हैं।",
+        "mr": "ती पिवळी घसरगुंडी आहे. आपण वर चढतो आणि खाली येतो.",
+        "or": "ସେହି ହଳଦିଆଟି ଖସଣା। ଆମେ ଉପରକୁ ଚଢ଼ି ତଳକୁ ଆସୁ।"
+      },
+      "audio": "playground_s3.mp3",
+      "highlight": "slide"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "The sand pit is for digging. Now let us go back inside.",
+        "hi": "रेत का गड्ढा खोदने के लिए है। अब चलो अंदर वापस चलें।",
+        "mr": "वाळूचा खड्डा खणण्यासाठी आहे. आता आत परत जाऊ या.",
+        "or": "ବାଲି ଗାତ ଖୋଳିବା ପାଇଁ। ବର୍ତ୍ତମାନ ଭିତରକୁ ଫେରିବା।"
+      },
+      "audio": "playground_s4.mp3",
+      "highlight": "sandpit"
+    }
+  ]
+}

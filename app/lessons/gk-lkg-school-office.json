@@ -1,0 +1,65 @@
+{
+  "id": "gk-lkg-school-office",
+  "template": "identify",
+  "stage": "office",
+  "stageOverride": {},
+  "objects": [
+    {
+      "id": "desk",
+      "build": "table",
+      "position": "0 0 -3.6",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 1.6,
+        "depth": 0.8,
+        "height": 0.76
+      }
+    },
+    {
+      "id": "almirah",
+      "build": "almirah",
+      "position": "-1.9 0 -4.4",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 1.0,
+        "height": 1.9,
+        "depth": 0.45
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "en": "This is the office. Didi keeps the register here.",
+        "hi": "यह दफ़्तर है। दीदी यहाँ रजिस्टर रखती हैं।",
+        "mr": "हे कार्यालय आहे. ताई इथे हजेरीपट ठेवतात.",
+        "or": "ଏହା କାର୍ଯ୍ୟାଳୟ। ଦିଦି ଏଠାରେ ହାଜିରା ଖାତା ରଖନ୍ତି।"
+      },
+      "audio": "school_office_s1.mp3",
+      "highlight": "desk"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "Your name is written in that register every morning.",
+        "hi": "हर सुबह तुम्हारा नाम उसी रजिस्टर में लिखा जाता है।",
+        "mr": "रोज सकाळी तुमचं नाव त्याच हजेरीपटात लिहिलं जातं.",
+        "or": "ପ୍ରତିଦିନ ସକାଳେ ତୁମର ନାମ ସେହି ଖାତାରେ ଲେଖା ହୁଏ।"
+      },
+      "audio": "school_office_s2.mp3",
+      "highlight": "desk"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "The almirah is locked. Our books and toys are kept safe in it.",
+        "hi": "अलमारी बंद रहती है। हमारी किताबें और खिलौने उसमें सुरक्षित रहते हैं।",
+        "mr": "कपाट बंद असतं. आपली पुस्तकं आणि खेळणी त्यात सुरक्षित असतात.",
+        "or": "ଆଲମାରୀ ବନ୍ଦ ଥାଏ। ଆମର ବହି ଓ ଖେଳନା ସେଥିରେ ସୁରକ୍ଷିତ ରହେ।"
+      },
+      "audio": "school_office_s3.mp3",
+      "highlight": "almirah"
+    }
+  ]
+}

@@ -106,7 +106,7 @@ async function standardise(id) {
   if (sidecar.simplify) {
     await MeshoptSimplifier.ready;
     await document.transform(
-      weld({ tolerance: 0.0001 }),
+      weld({ tolerance: sidecar.weldTolerance }),
       simplify({
         simplifier: MeshoptSimplifier,
         ratio: sidecar.simplify,

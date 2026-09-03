@@ -34,7 +34,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
   const sync = new LessonSync({ transport, session: renderSession, elements });
   sync.start();
 
-  const { lesson } = await loadLesson(lessonId);
+  let { lesson } = await loadLesson(lessonId);
 
   let paused = false;
   const clock = new Clock(() => next());
@@ -84,8 +84,45 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
     });
   }
 
+  /**
+   * Move the class into another land.
+   *
+   * The teacher walked through a door. Everything else follows from the state
+   * message already being "everybody is now on this step of this lesson" — a
+   * different lesson id in the same message is a different land, and every
+   * headset rebuilds without a word of new protocol.
+   */
+  async function enter(nextLessonId) {
+    if (nextLessonId === lesson.id) return;
+
+    // Loaded before anything is published. Publishing first and failing to
+    // load would leave the class staring at a lesson that does not exist.
+    const loaded = await loadLesson(nextLessonId);
+
+    lesson = loaded.lesson;
+    session.lesson = lesson.id;
+
+    // The URL is deliberately left alone.
+    //
+    // It was briefly rewritten as you walked, so that a refresh put you back
+    // where you were standing. That is wrong for a classroom: refresh is how a
+    // teacher starts over, and starting over means the front of the school,
+    // not the middle of a corridor she happened to be in. The lesson in the
+    // address bar is where the session BEGINS, and walking through a door does
+    // not change where it begins.
+    go(0);
+  }
+
+  // A portal is a spot on the floor; only the teacher's camera can reach one,
+  // because only she walks.
+  elements.scene.addEventListener('portal-enter', (event) => {
+    enter(event.detail.to).catch((error) => {
+      document.querySelector('#error').textContent = error.message;
+    });
+  });
+
   session.lesson = lesson.id;
   go(0);
 
-  return { sync, next, go, togglePause };
+  return { sync, next, go, togglePause, enter };
 }

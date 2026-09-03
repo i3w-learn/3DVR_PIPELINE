@@ -1,0 +1,71 @@
+{
+  "id": "gk-lkg-school-kitchen",
+  "template": "identify",
+  "stage": "kitchen",
+  "stageOverride": {},
+  "objects": [
+    {
+      "id": "stove",
+      "build": "stove",
+      "position": "0.2 0 -5.4",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 1.8,
+        "depth": 0.75,
+        "height": 0.7
+      }
+    },
+    {
+      "id": "table",
+      "build": "table",
+      "position": "-1.7 0 -3.2",
+      "rotation": "0 90 0",
+      "params": {
+        "width": 2.0,
+        "depth": 0.75,
+        "height": 0.8
+      }
+    },
+    {
+      "id": "pot",
+      "build": "waterpot",
+      "position": "-2.4 0 -1.6",
+      "rotation": "0 30 0"
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "en": "This is the kitchen. Our hot meal is cooked here.",
+        "hi": "यह रसोई है। यहाँ हमारा गरम खाना बनता है।",
+        "mr": "हे स्वयंपाकघर आहे. इथे आपलं गरम जेवण शिजतं.",
+        "or": "ଏହା ରୋଷେଇ ଘର। ଏଠାରେ ଆମର ଗରମ ଖାଦ୍ୟ ରନ୍ଧା ହୁଏ।"
+      },
+      "audio": "school_kitchen_s1.mp3",
+      "highlight": "stove"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "Look at the big table. The food is kept ready on it.",
+        "hi": "बड़ी मेज़ देखो। खाना उस पर तैयार रखा जाता है।",
+        "mr": "मोठं टेबल बघा. जेवण त्यावर तयार ठेवलं जातं.",
+        "or": "ବଡ଼ ଟେବୁଲ ଦେଖ। ଖାଦ୍ୟ ସେଥିରେ ପ୍ରସ୍ତୁତ ରଖାଯାଏ।"
+      },
+      "audio": "school_kitchen_s2.mp3",
+      "highlight": "table"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "Water is kept in the pot. We drink it after our meal.",
+        "hi": "पानी घड़े में रखा है। खाने के बाद हम वही पीते हैं।",
+        "mr": "पाणी माठात ठेवलं आहे. जेवणानंतर आपण तेच पितो.",
+        "or": "ପାଣି ମାଠିଆରେ ରଖା ଯାଇଛି। ଖାଇବା ପରେ ଆମେ ତାହା ପିଉ।"
+      },
+      "audio": "school_kitchen_s3.mp3",
+      "highlight": "pot"
+    }
+  ]
+}

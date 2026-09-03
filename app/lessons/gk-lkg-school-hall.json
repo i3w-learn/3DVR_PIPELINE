@@ -1,0 +1,39 @@
+{
+  "id": "gk-lkg-school-hall",
+  "template": "identify",
+  "stage": "hall",
+  "stageOverride": {},
+  "objects": [],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "en": "We are inside the school now. This is the hallway.",
+        "hi": "अब हम स्कूल के अंदर हैं। यह गलियारा है।",
+        "mr": "आता आपण शाळेच्या आत आहोत. हा पॅसेज आहे.",
+        "or": "ବର୍ତ୍ତମାନ ଆମେ ବିଦ୍ୟାଳୟ ଭିତରେ। ଏହା ଗଳି।"
+      },
+      "audio": "school_hall_s1.mp3"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "There are doors on both sides. Each one goes to a different room.",
+        "hi": "दोनों तरफ दरवाज़े हैं। हर दरवाज़ा अलग कमरे में जाता है।",
+        "mr": "दोन्ही बाजूला दारं आहेत. प्रत्येक दार वेगळ्या खोलीत जातं.",
+        "or": "ଦୁଇ ପାଖରେ କବାଟ ଅଛି। ପ୍ରତ୍ୟେକ କବାଟ ଅଲଗା ଘରକୁ ଯାଏ।"
+      },
+      "audio": "school_hall_s2.mp3"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "Walk to a door to go inside that room.",
+        "hi": "किसी दरवाज़े तक चलो, उस कमरे में जाने के लिए।",
+        "mr": "एखाद्या दारापर्यंत चला, त्या खोलीत जाण्यासाठी.",
+        "or": "କୌଣସି କବାଟ ପାଖକୁ ଚାଲ, ସେହି ଘରକୁ ଯିବା ପାଇଁ।"
+      },
+      "audio": "school_hall_s3.mp3"
+    }
+  ]
+}

@@ -115,6 +115,22 @@ export async function readSidecar(id) {
     simplify: typeof data.simplify === 'number' ? data.simplify : null,
     /** How much shape error to accept while simplifying, as a fraction of size. */
     simplifyError: typeof data.simplifyError === 'number' ? data.simplifyError : 0.08,
+    /**
+     * How far apart two vertices may be and still be treated as one, before
+     * simplifying.
+     *
+     * A decimator collapses edges, and it can only collapse an edge that two
+     * triangles share. A model exported with split normals or split UVs has no
+     * shared edges at all — every triangle is an island — so the reduction
+     * simply does not happen. A sculpted figure arrived at 170,000 triangles
+     * and came out at 131,000 with the ratio set to 6%, which is what this
+     * exists to fix.
+     *
+     * Raising it merges vertices that are close but not identical. Too high
+     * and detail is welded shut; 0.0001 is safe for anything modelled to
+     * scale, and a figure tolerates 0.001.
+     */
+    weldTolerance: typeof data.weldTolerance === 'number' ? data.weldTolerance : 0.0001,
     // Angle in degrees below which neighbouring faces share a normal. Higher
     // is smoother; 0 turns smoothing off and keeps the model flat-shaded.
     smoothAngle: typeof data.smoothAngle === 'number' ? data.smoothAngle : 0,

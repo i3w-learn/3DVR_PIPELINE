@@ -3,7 +3,43 @@
   "template": "identify",
   "stage": "classroom",
   "stageOverride": {},
-  "objects": [],
+  "objects": [
+    {
+      "id": "board",
+      "build": "blackboard",
+      "position": "0 0 -6.4",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 3.6,
+        "height": 1.4,
+        "sill": 0.75
+      }
+    },
+    {
+      "id": "mats",
+      "build": "mats",
+      "position": "0 0 -3.0",
+      "rotation": "0 0 0",
+      "params": {
+        "rows": 2,
+        "columns": 3,
+        "width": 1.5,
+        "depth": 1.0,
+        "gap": 0.35
+      }
+    },
+    {
+      "id": "almirah",
+      "build": "almirah",
+      "position": "-3.3 0 -6.15",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 1.1,
+        "height": 1.9,
+        "depth": 0.48
+      }
+    }
+  ],
   "steps": [
     {
       "duration": 8000,
@@ -12,7 +48,29 @@
         "hi": "अब हम अंदर हैं। यह हमारी कक्षा है।",
         "mr": "आता आपण आत आहोत. हा आपला वर्ग आहे.",
         "or": "ବର୍ତ୍ତମାନ ଆମେ ଭିତରେ। ଏହା ଆମର ଶ୍ରେଣୀ କକ୍ଷ।"
-      }
+      },
+      "audio": "our_classroom_s1.mp3"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "Your friends are sitting on the mats. Sit down with them.",
+        "hi": "तुम्हारे दोस्त दरी पर बैठे हैं। उनके साथ बैठ जाओ।",
+        "mr": "तुमचे मित्र सतरंजीवर बसले आहेत. त्यांच्यासोबत बसा.",
+        "or": "ତୁମର ସାଙ୍ଗମାନେ ଚଟାଣିରେ ବସିଛନ୍ତି। ସେମାନଙ୍କ ସହ ବସ।"
+      },
+      "audio": "our_classroom_s2.mp3",
+      "highlight": "mats"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "Didi is standing near the board. She will teach us today.",
+        "hi": "दीदी बोर्ड के पास खड़ी हैं। आज वे हमें पढ़ाएँगी।",
+        "mr": "ताई फळ्याजवळ उभ्या आहेत. आज त्या आपल्याला शिकवतील.",
+        "or": "ଦିଦି ବୋର୍ଡ ପାଖରେ ଠିଆ ହୋଇଛନ୍ତି। ଆଜି ସେ ଆମକୁ ପଢ଼ାଇବେ।"
+      },
+      "audio": "our_classroom_s3.mp3"
     },
     {
       "duration": 8000,
@@ -21,7 +79,9 @@
         "hi": "यह ब्लैकबोर्ड है। शिक्षिका इस पर लिखती हैं।",
         "mr": "हा फळा आहे. बाई त्यावर लिहितात.",
         "or": "ଏହା ବ୍ଲାକବୋର୍ଡ। ଶିକ୍ଷୟିତ୍ରୀ ଏଥିରେ ଲେଖନ୍ତି।"
-      }
+      },
+      "audio": "our_classroom_s4.mp3",
+      "highlight": "board"
     },
     {
       "duration": 8000,
@@ -30,7 +90,8 @@
         "hi": "खिड़कियाँ देखो। रोशनी वहीं से आती है।",
         "mr": "खिडक्या बघा. उजेड तिथूनच येतो.",
         "or": "ଝରକା ଦେଖ। ଆଲୋକ ସେଠାରୁ ଆସେ।"
-      }
+      },
+      "audio": "our_classroom_s5.mp3"
     }
   ]
 }

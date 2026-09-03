@@ -1,0 +1,8 @@
+{
+  "id": "plaster",
+  "source": "ambientCG — Plaster001",
+  "licence": "CC0",
+  "url": "https://ambientcg.com/view?id=Plaster001",
+  "maps": ["color", "normal", "rough", "ao"],
+  "notes": "painted plaster — what these walls actually are; flat colour is why they read as cardboard"
+}

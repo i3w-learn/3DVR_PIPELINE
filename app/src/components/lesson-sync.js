@@ -106,11 +106,30 @@ export class LessonSync {
     // protection against a scene jumping backwards.
     if (!this.#session.apply(message)) return;
 
+    // A new lesson is a new land, and swapping one for the other in a single
+    // frame is a hard cut with the child's head halfway through a turn. Go
+    // dark first, rebuild behind the black, then come back.
     if (message.lesson && message.lesson !== this.#loaded?.lesson.id) {
+      const fade = this.#fade();
+
+      await fade?.to(1);
       await this.#buildLesson(message.lesson);
+      this.#applyStep();
+
+      // A beat in the dark. `#buildLesson` returns when the lesson is placed,
+      // not when its models have arrived — without this the first frames of a
+      // new land are a room with no furniture in it.
+      await new Promise((resolve) => setTimeout(resolve, 200));
+      await fade?.to(0);
+      return;
     }
 
     this.#applyStep();
+  }
+
+  /** The fade, if this build has one. Absent is not an error — just no fade. */
+  #fade() {
+    return document.querySelector('[view-fade]')?.components?.['view-fade'] ?? null;
   }
 
   async #buildLesson(lessonId) {
@@ -149,13 +168,15 @@ export class LessonSync {
     this.#paintSky(stage.sky);
 
     // Ground is a full material, not one image — see pbr-ground.
-    ground.setAttribute('pbr-ground', {
-      color: stage.ground.color ?? stage.ground,
-      normal: stage.ground.normal ?? '',
-      rough: stage.ground.rough ?? '',
-      ao: stage.ground.ao ?? '',
-      repeat: stage.ground.repeat ?? 45,
-    });
+    //
+    // The kit's ground block IS the component's data, so it is passed straight
+    // through. Listing the fields here instead meant every new one — `stripes`
+    // was the first — silently never arrived, and the kit looked wrong for a
+    // reason nothing reported.
+    ground.setAttribute(
+      'pbr-ground',
+      typeof stage.ground === 'string' ? { color: stage.ground } : stage.ground
+    );
 
     // Fog tinted to the horizon is the cheapest distance cue there is: distant
     // trees fade into the sky instead of standing out as cut-outs. It also
@@ -175,6 +196,8 @@ export class LessonSync {
     // different hour of a different day from a field at noon.
     this.#aimSun(stage);
 
+    this.#standWhereTheLandSays(stage);
+
     for (const prop of stage.props ?? []) {
       const el = document.createElement('a-entity');
 
@@ -185,11 +208,17 @@ export class LessonSync {
       if (prop.build) el.setAttribute(prop.build, prop.params ?? {});
       else el.setAttribute('gltf-model', `assets/models/${prop.model}.glb`);
 
+      // A figure with a clip and nothing playing it stands in its rest pose,
+      // which for anything rigged in Mixamo is a T-pose — arms straight out,
+      // in the middle of a classroom. Naming the clip is how a stage file
+      // says "and let it move".
+      if (prop.clip) el.setAttribute('animation-mixer', { clip: prop.clip, loop: 'repeat' });
+
       el.setAttribute('position', prop.position);
       el.setAttribute('rotation', prop.rotation ?? '0 0 0');
       el.setAttribute('scale', prop.scale ?? '1 1 1');
       el.classList.add('prop'); // never a highlight target
-      this.#groundIt(el, stage, prop.castShadow);
+      this.#groundIt(el, stage, prop.castShadow, prop.contact);
       stageEl.appendChild(el);
     }
   }
@@ -214,7 +243,7 @@ export class LessonSync {
    * alone. That is the route back inside the frame budget if a headset cannot
    * hold 72 fps with a shadow map.
    */
-  #groundIt(el, stage, castShadow = true) {
+  #groundIt(el, stage, castShadow = true, contact = true) {
     const castShadows = stage.shadows !== false;
 
     // A prop beyond the shadow camera's box is submitted to the shadow pass
@@ -223,9 +252,57 @@ export class LessonSync {
     // geometry in the scene.
     if (castShadows) el.setAttribute('shadowed', { cast: castShadow, receive: true });
 
+    // Not everything is on the ground. A chart hangs on a wall and a fan hangs
+    // from the ceiling; giving either a contact patch puts a dark ellipse in
+    // mid-air at its own height, because the patch sits at the prop's origin.
+    // `contact: false` in a stage file is how a prop says it is not standing
+    // on anything.
+    if (!contact) return;
+
     // Lighter when the sun is also casting, or the two darkenings stack into a
     // hole under every animal.
     el.setAttribute('contact-shadow', { opacity: castShadows ? 0.22 : 0.32 });
+  }
+
+  /**
+   * Put the viewer where the land says to start, facing where it says to look.
+   *
+   * Only when they did not walk in. A portal already decided where somebody
+   * arriving through a door comes out, and it says so by leaving a mark on the
+   * scene — moving them again would undo the door.
+   *
+   * Only for the teacher, too. The child in the headset is seated at the
+   * origin and is never moved, because motion their body did not ask for is
+   * what makes three-year-olds ill.
+   *
+   * The reason it exists: loading the playground put you at the origin facing
+   * away from the building, so a land called "behind the school" had no school
+   * in it. Where a land begins is a property of the land.
+   */
+  #standWhereTheLandSays(stage) {
+    const { scene } = this.#elements;
+
+    const walkedIn = scene.dataset.arrived === '1';
+    delete scene.dataset.arrived;
+
+    if (walkedIn || !stage.start || document.body.dataset.role !== 'teacher') return;
+
+    const camera = scene.camera?.el;
+    if (!camera) return;
+
+    const [x, y, z] = String(stage.start.position ?? '0 1.2 0').split(' ').map(Number);
+    camera.object3D.position.set(x, y, z);
+
+    const yaw = THREE.MathUtils.degToRad(stage.start.facing ?? 0);
+    camera.object3D.rotation.set(0, yaw, 0);
+
+    // `look-controls` keeps its own yaw and writes it back over ours next
+    // tick, so its objects have to be set as well.
+    const look = camera.components['look-controls'];
+    if (look) {
+      look.yawObject.rotation.y = yaw;
+      look.pitchObject.rotation.x = 0;
+    }
   }
 
   #aimSun(stage) {

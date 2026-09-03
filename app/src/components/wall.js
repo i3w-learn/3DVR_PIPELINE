@@ -10,6 +10,8 @@
  * a hole a child can look through reads as a way in, and costs nothing.
  */
 
+import { builtMaterial, mergeBoxes } from './merge-boxes.js';
+
 AFRAME.registerComponent('wall', {
   schema: {
     length: { type: 'number', default: 40 },
@@ -32,6 +34,22 @@ AFRAME.registerComponent('wall', {
 
   update() {
     this.build();
+  },
+
+  /**
+   * Bake the boxes into one mesh.
+   *
+   * A frame late, because the boxes are entities and their meshes do not exist
+   * until A-Frame has attached them. Without this every box is its own draw
+   * call, and five buildings put the scene four times over its budget.
+   */
+  bake() {
+    cancelAnimationFrame(this.pending);
+    this.pending = requestAnimationFrame(() => mergeBoxes(this.el, builtMaterial()));
+  },
+
+  remove() {
+    cancelAnimationFrame(this.pending);
   },
 
   build() {
@@ -62,6 +80,8 @@ AFRAME.registerComponent('wall', {
       this.pillar(-gap);
       this.pillar(gap);
     }
+
+    this.bake();
   },
 
   /** One stretch of wall between two x positions. */

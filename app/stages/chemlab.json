@@ -1,0 +1,132 @@
+{
+  "id": "chemlab",
+  "sky": {
+    "hdri": "cloudy.jpg",
+    "intensity": 0.4
+  },
+  "ground": {
+    "color": "paving_color.jpg",
+    "normal": "paving_normal.jpg",
+    "rough": "paving_rough.jpg",
+    "ao": "paving_ao.jpg",
+    "repeat": 60
+  },
+  "sun": {
+    "position": "6 9 5",
+    "color": "#fff6e8",
+    "intensity": 0.7
+  },
+  "light": {
+    "sky": "#e8eef2",
+    "ground": "#b0a894",
+    "intensity": 0.9
+  },
+  "shadows": false,
+  "props": [
+    {
+      "build": "room",
+      "position": "0 0 -3.5",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "width": 8,
+        "depth": 7,
+        "height": 3.1,
+        "windows": 2,
+        "wall": "#eae3d2",
+        "dado": "#6f8f7a",
+        "floor": "#8f8578"
+      }
+    },
+    {
+      "build": "bench",
+      "position": "0 0 -6.0",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 5.2,
+        "depth": 0.8,
+        "height": 0.9,
+        "sink": true
+      }
+    },
+    {
+      "build": "bench",
+      "position": "-2.6 0 -3.4",
+      "rotation": "0 90 0",
+      "params": {
+        "width": 3.4,
+        "depth": 0.8,
+        "height": 0.9,
+        "sink": false
+      }
+    },
+    {
+      "build": "bench",
+      "position": "2.6 0 -3.4",
+      "rotation": "0 -90 0",
+      "params": {
+        "width": 3.4,
+        "depth": 0.8,
+        "height": 0.9,
+        "sink": false
+      }
+    },
+    {
+      "build": "glassware",
+      "position": "-2.6 0 -2.6",
+      "rotation": "0 90 0",
+      "params": {
+        "y": 0.9,
+        "width": 2.0
+      }
+    },
+    {
+      "build": "chair",
+      "position": "-1.0 0 -4.6",
+      "rotation": "0 0 0",
+      "params": {}
+    },
+    {
+      "build": "chair",
+      "position": "1.0 0 -4.6",
+      "rotation": "0 0 0",
+      "params": {}
+    },
+    {
+      "build": "chart",
+      "position": "0 1.75 -6.9",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "width": 2.4,
+        "height": 1.3,
+        "rows": 7,
+        "columns": 16
+      }
+    },
+    {
+      "build": "fan",
+      "position": "0 3.1 -3.5",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "drop": 0.45,
+        "radius": 0.65,
+        "blades": 3,
+        "rpm": 48
+      }
+    },
+    {
+      "build": "portal",
+      "position": "0 0 0.6",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "to": "gk-lkg-school-hall",
+        "radius": 1.4,
+        "arrive": "-1.5 1.2 -6.6",
+        "facing": 180
+      }
+    }
+  ]
+}

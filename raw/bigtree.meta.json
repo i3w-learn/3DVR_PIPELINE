@@ -1,0 +1,11 @@
+{
+  "id": "bigtree",
+  "source": "Poly Haven — Jacaranda Tree (photoscan)",
+  "licence": "CC0",
+  "url": "https://polyhaven.com/a/jacaranda_tree",
+  "targetHeight": 9.5,
+  "yaw": 0,
+  "simplify": 0.0022,
+  "alphaMode": "mask",
+  "notes": "a broad canopy that also casts a shadow. Both together is what the budget buys — and a tree with no shadow on a lawn looks pasted on, so the shadow wins the argument"
+}

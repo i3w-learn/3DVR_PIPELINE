@@ -29,6 +29,8 @@ AFRAME.registerComponent('scene-look', {
     shadows: { type: 'boolean', default: true },
     /** Shadow map edge. 2048 is sharp on a tablet; drop to 1024 on device. */
     shadowMapSize: { type: 'number', default: 2048 },
+    /** Half-width of the shadow camera's box, in metres. */
+    shadowExtent: { type: 'number', default: 28 },
   },
 
   init() {
@@ -74,17 +76,23 @@ AFRAME.registerComponent('scene-look', {
     light.castShadow = true;
     light.shadow.mapSize.setScalar(this.data.shadowMapSize);
 
-    // Tighter than the whole yard on purpose. A shadow camera is an
-    // orthographic box, and every metre of it spends texels: at ±22 m a 2048
-    // map gives ~2 cm per texel, which is why the shadows were soft blobs
-    // rather than animals. ±14 m still covers everything a lesson places.
+    // A shadow camera is an orthographic box, and every metre of it spends
+    // texels. Too tight and the main subject falls outside it and casts
+    // nothing; too wide and every shadow turns to mush.
+    //
+    // ±28 m covers a school compound from the gate to the far wall, which is
+    // what these lands are. At 2048 that is about 2.7 cm per texel — soft, but
+    // a building's shadow is soft anyway. The scene is configurable so a
+    // tighter land can ask for a tighter box.
     const camera = light.shadow.camera;
-    camera.left = -14;
-    camera.right = 14;
-    camera.top = 14;
-    camera.bottom = -14;
+    const extent = this.data.shadowExtent;
+
+    camera.left = -extent;
+    camera.right = extent;
+    camera.top = extent;
+    camera.bottom = -extent;
     camera.near = 0.5;
-    camera.far = 60;
+    camera.far = 90;
     camera.updateProjectionMatrix();
 
     // Bias fights shadow acne — a surface shadowing itself because its own

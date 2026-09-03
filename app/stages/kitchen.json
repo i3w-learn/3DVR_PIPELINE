@@ -1,0 +1,87 @@
+{
+  "id": "kitchen",
+  "sky": {
+    "hdri": "cloudy.jpg",
+    "intensity": 0.4
+  },
+  "ground": {
+    "color": "paving_color.jpg",
+    "normal": "paving_normal.jpg",
+    "rough": "paving_rough.jpg",
+    "ao": "paving_ao.jpg",
+    "repeat": 60
+  },
+  "sun": {
+    "position": "6 9 5",
+    "color": "#fff6e8",
+    "intensity": 0.7
+  },
+  "light": {
+    "sky": "#e8eef2",
+    "ground": "#b0a894",
+    "intensity": 0.9
+  },
+  "shadows": false,
+  "props": [
+    {
+      "build": "room",
+      "position": "0 0 -3",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 6,
+        "depth": 6,
+        "height": 3.0,
+        "windows": 1,
+        "wall": "#e9e0cd",
+        "dado": "#9a8a6a",
+        "floor": "#9b8a76"
+      },
+      "contact": false
+    },
+    {
+      "build": "shelf",
+      "position": "2.7 0 -3.6",
+      "rotation": "0 -90 0",
+      "params": {
+        "width": 1.6,
+        "height": 1.1,
+        "shelves": 3,
+        "contents": "vessels"
+      }
+    },
+    {
+      "build": "almirah",
+      "position": "1.4 0 -5.5",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 0.9,
+        "height": 1.7,
+        "depth": 0.45
+      }
+    },
+    {
+      "build": "chart",
+      "position": "-2.9 1.6 -3.4",
+      "rotation": "0 90 0",
+      "contact": false,
+      "params": {
+        "width": 0.8,
+        "height": 0.6,
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "build": "portal",
+      "position": "0 0 0.6",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "to": "gk-lkg-school-hall",
+        "radius": 1.6,
+        "arrive": "1.5 1.2 -1.8",
+        "facing": 180
+      }
+    }
+  ]
+}

@@ -6,6 +6,8 @@
  * five boxes.
  */
 
+import { builtMaterial, mergeBoxes } from './merge-boxes.js';
+
 AFRAME.registerComponent('blackboard', {
   schema: {
     width: { type: 'number', default: 3.6 },
@@ -25,6 +27,22 @@ AFRAME.registerComponent('blackboard', {
     this.build();
   },
 
+  /**
+   * Bake the boxes into one mesh.
+   *
+   * A frame late, because the boxes are entities and their meshes do not exist
+   * until A-Frame has attached them. Without this every box is its own draw
+   * call, and five buildings put the scene four times over its budget.
+   */
+  bake() {
+    cancelAnimationFrame(this.pending);
+    this.pending = requestAnimationFrame(() => mergeBoxes(this.el, builtMaterial()));
+  },
+
+  remove() {
+    cancelAnimationFrame(this.pending);
+  },
+
   build() {
     this.el.innerHTML = '';
 
@@ -36,6 +54,8 @@ AFRAME.registerComponent('blackboard', {
 
     // The chalk ledge along the bottom.
     this.block(width + 0.16, 0.07, 0.14, 0, sill - 0.08, 0.08, frame);
+
+    this.bake();
   },
 
   block(w, h, d, x, y, z, color) {

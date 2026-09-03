@@ -1,6 +1,45 @@
 {
-  "generated": "2026-09-02T13:06:59.983Z",
+  "generated": "2026-09-03T10:57:49.935Z",
   "models": {
+    "bigtree": {
+      "file": "models/bigtree.glb",
+      "height": 9.5,
+      "width": 11.558,
+      "depth": 8.922,
+      "triangles": 31361,
+      "meshes": 3,
+      "bytes": 1804044,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Haven — Jacaranda Tree (photoscan)",
+      "licence": "CC0"
+    },
+    "childsit": {
+      "file": "models/childsit.glb",
+      "height": 0.72,
+      "width": 0.483,
+      "depth": 0.427,
+      "triangles": 14196,
+      "meshes": 1,
+      "bytes": 382832,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Child sitting cross-legged\" by mazenegyptbro",
+      "licence": "CC-BY"
+    },
+    "didi2": {
+      "file": "models/didi2.glb",
+      "height": 1.55,
+      "width": 0.588,
+      "depth": 0.515,
+      "triangles": 11290,
+      "meshes": 3,
+      "bytes": 232684,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Traditional Indian Saree Model\" by sam-30",
+      "licence": "CC-BY"
+    },
     "fence": {
       "file": "models/fence.glb",
       "height": 1,
@@ -118,6 +157,19 @@
       "source": "Sketchfab — \"Worn Shed PBR Game-Ready\" by donnichols",
       "licence": "CC-BY"
     },
+    "shrub": {
+      "file": "models/shrub.glb",
+      "height": 0.9,
+      "width": 3.204,
+      "depth": 1.209,
+      "triangles": 8711,
+      "meshes": 4,
+      "bytes": 254632,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Haven — Shrub 02",
+      "licence": "CC0"
+    },
     "zebu": {
       "file": "models/zebu.glb",
       "height": 1.413,
@@ -207,9 +259,39 @@
       "bytes": 13897,
       "source": "ambientCG — Concrete034",
       "licence": "CC0"
+    },
+    "plaster_ao.jpg": {
+      "file": "textures/plaster_ao.jpg",
+      "bytes": 10352,
+      "source": "ambientCG — Plaster001",
+      "licence": "CC0"
+    },
+    "plaster_color.jpg": {
+      "file": "textures/plaster_color.jpg",
+      "bytes": 67526,
+      "source": "ambientCG — Plaster001",
+      "licence": "CC0"
+    },
+    "plaster_normal.jpg": {
+      "file": "textures/plaster_normal.jpg",
+      "bytes": 296307,
+      "source": "ambientCG — Plaster001",
+      "licence": "CC0"
+    },
+    "plaster_rough.jpg": {
+      "file": "textures/plaster_rough.jpg",
+      "bytes": 10352,
+      "source": "ambientCG — Plaster001",
+      "licence": "CC0"
     }
   },
   "hdri": {
+    "cloudy.jpg": {
+      "file": "hdri/cloudy.jpg",
+      "bytes": 104559,
+      "source": "Poly Haven — Kloofendal 48d Partly Cloudy (Pure Sky)",
+      "licence": "CC0"
+    },
     "field.jpg": {
       "file": "hdri/field.jpg",
       "bytes": 47507,
@@ -257,6 +339,18 @@
   },
   "audio": {
     "en": {
+      "chem_lab_s1.mp3": {
+        "file": "audio/en/chem_lab_s1.mp3",
+        "bytes": 25120
+      },
+      "chem_lab_s2.mp3": {
+        "file": "audio/en/chem_lab_s2.mp3",
+        "bytes": 31389
+      },
+      "chem_lab_s3.mp3": {
+        "file": "audio/en/chem_lab_s3.mp3",
+        "bytes": 20105
+      },
       "cow_about.mp3": {
         "file": "audio/en/cow_about.mp3",
         "bytes": 21985
@@ -276,6 +370,14 @@
       "elephant.mp3": {
         "file": "audio/en/elephant.mp3",
         "bytes": 9656
+      },
+      "farm_yard_s1.mp3": {
+        "file": "audio/en/farm_yard_s1.mp3",
+        "bytes": 49989
+      },
+      "farm_yard_s2.mp3": {
+        "file": "audio/en/farm_yard_s2.mp3",
+        "bytes": 20940
       },
       "goat_about.mp3": {
         "file": "audio/en/goat_about.mp3",
@@ -297,9 +399,101 @@
         "file": "audio/en/kitchen_about.mp3",
         "bytes": 24911
       },
+      "our_classroom_s1.mp3": {
+        "file": "audio/en/our_classroom_s1.mp3",
+        "bytes": 23239
+      },
+      "our_classroom_s2.mp3": {
+        "file": "audio/en/our_classroom_s2.mp3",
+        "bytes": 26583
+      },
+      "our_classroom_s3.mp3": {
+        "file": "audio/en/our_classroom_s3.mp3",
+        "bytes": 30136
+      },
+      "our_classroom_s4.mp3": {
+        "file": "audio/en/our_classroom_s4.mp3",
+        "bytes": 21985
+      },
+      "our_classroom_s5.mp3": {
+        "file": "audio/en/our_classroom_s5.mp3",
+        "bytes": 24702
+      },
+      "physics_lab_s1.mp3": {
+        "file": "audio/en/physics_lab_s1.mp3",
+        "bytes": 29927
+      },
+      "physics_lab_s2.mp3": {
+        "file": "audio/en/physics_lab_s2.mp3",
+        "bytes": 22194
+      },
+      "physics_lab_s3.mp3": {
+        "file": "audio/en/physics_lab_s3.mp3",
+        "bytes": 34315
+      },
+      "playground_s1.mp3": {
+        "file": "audio/en/playground_s1.mp3",
+        "bytes": 26583
+      },
+      "playground_s2.mp3": {
+        "file": "audio/en/playground_s2.mp3",
+        "bytes": 25329
+      },
+      "playground_s3.mp3": {
+        "file": "audio/en/playground_s3.mp3",
+        "bytes": 28255
+      },
+      "playground_s4.mp3": {
+        "file": "audio/en/playground_s4.mp3",
+        "bytes": 29091
+      },
       "school_about.mp3": {
         "file": "audio/en/school_about.mp3",
         "bytes": 24702
+      },
+      "school_hall_s1.mp3": {
+        "file": "audio/en/school_hall_s1.mp3",
+        "bytes": 25329
+      },
+      "school_hall_s2.mp3": {
+        "file": "audio/en/school_hall_s2.mp3",
+        "bytes": 30554
+      },
+      "school_hall_s3.mp3": {
+        "file": "audio/en/school_hall_s3.mp3",
+        "bytes": 19896
+      },
+      "school_kitchen_s1.mp3": {
+        "file": "audio/en/school_kitchen_s1.mp3",
+        "bytes": 24911
+      },
+      "school_kitchen_s2.mp3": {
+        "file": "audio/en/school_kitchen_s2.mp3",
+        "bytes": 26792
+      },
+      "school_kitchen_s3.mp3": {
+        "file": "audio/en/school_kitchen_s3.mp3",
+        "bytes": 27210
+      },
+      "school_office_s1.mp3": {
+        "file": "audio/en/school_office_s1.mp3",
+        "bytes": 25747
+      },
+      "school_office_s2.mp3": {
+        "file": "audio/en/school_office_s2.mp3",
+        "bytes": 22821
+      },
+      "school_office_s3.mp3": {
+        "file": "audio/en/school_office_s3.mp3",
+        "bytes": 35569
+      },
+      "school_tour_s1.mp3": {
+        "file": "audio/en/school_tour_s1.mp3",
+        "bytes": 28464
+      },
+      "school_tour_s2.mp3": {
+        "file": "audio/en/school_tour_s2.mp3",
+        "bytes": 16970
       },
       "sheep_about.mp3": {
         "file": "audio/en/sheep_about.mp3",

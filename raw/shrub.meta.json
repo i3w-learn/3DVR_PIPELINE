@@ -1,0 +1,11 @@
+{
+  "id": "shrub",
+  "source": "Poly Haven — Shrub 02",
+  "licence": "CC0",
+  "url": "https://polyhaven.com/a/shrub_02",
+  "targetHeight": 0.9,
+  "yaw": 0,
+  "alphaMode": "mask",
+  "simplify": 0.32,
+  "notes": "below about 0.3 the leaf cards are culled and only bare twigs survive — it stops being a bush and becomes dead sticks"
+}

@@ -1,8 +1,8 @@
 {
   "id": "farmyard",
   "sky": {
-    "hdri": "field.jpg",
-    "intensity": 1.0
+    "hdri": "cloudy.jpg",
+    "intensity": 1.15
   },
   "ground": {
     "color": "grass_color.jpg",
@@ -13,18 +13,18 @@
   },
   "sun": {
     "position": "11 13 -4",
-    "color": "#fff3e0",
-    "intensity": 1.6
+    "color": "#fff6ea",
+    "intensity": 1.15
   },
   "light": {
-    "sky": "#cfe0f2",
+    "sky": "#dbe6ee",
     "ground": "#63704a",
-    "intensity": 0.2
+    "intensity": 0.35
   },
   "fog": {
-    "color": "#cbdbe8",
-    "near": 22,
-    "far": 95
+    "color": "#d3dde4",
+    "near": 30,
+    "far": 115
   },
   "shadows": true,
   "props": [
@@ -84,23 +84,23 @@
       "rotation": "0 35 0"
     },
     {
-      "model": "realtree",
+      "model": "shed",
+      "position": "-9 0 -16",
+      "rotation": "0 28 0",
+      "castShadow": false
+    },
+    {
+      "model": "bigtree",
       "position": "15 0 -20",
       "rotation": "0 40 0",
       "castShadow": false
     },
     {
-      "model": "realtree",
+      "model": "bigtree",
       "position": "-16 0 -24",
       "rotation": "0 205 0",
-      "scale": "0.95 0.95 0.95",
-      "castShadow": false
-    },
-    {
-      "model": "shed",
-      "position": "-9 0 -16",
-      "rotation": "0 28 0",
-      "castShadow": false
+      "castShadow": false,
+      "scale": "0.92 0.92 0.92"
     }
   ]
 }

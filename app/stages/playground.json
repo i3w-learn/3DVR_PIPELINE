@@ -1,0 +1,116 @@
+{
+  "id": "playground",
+  "sky": {
+    "hdri": "cloudy.jpg",
+    "intensity": 1.15
+  },
+  "ground": {
+    "color": "grass_color.jpg",
+    "normal": "grass_normal.jpg",
+    "rough": "grass_rough.jpg",
+    "ao": "grass_ao.jpg",
+    "repeat": 44,
+    "stripes": 3
+  },
+  "sun": {
+    "position": "9 14 6",
+    "color": "#fff6ea",
+    "intensity": 1.15
+  },
+  "light": {
+    "sky": "#dbe6ee",
+    "ground": "#63704a",
+    "intensity": 0.35
+  },
+  "fog": {
+    "color": "#d3dde4",
+    "near": 34,
+    "far": 120
+  },
+  "shadows": true,
+  "props": [
+    {
+      "build": "building",
+      "position": "-16 0 -2",
+      "rotation": "0 100 0",
+      "castShadow": true,
+      "params": {
+        "floors": 3,
+        "width": 20,
+        "depth": 10,
+        "windows": 7,
+        "veranda": false,
+        "sign": "",
+        "wall": "#efe9dc",
+        "trim": "#6b2340",
+        "roof": "#d8d2c4",
+        "glass": "#7fa8c4"
+      }
+    },
+    {
+      "build": "wall",
+      "position": "0 0 -20",
+      "rotation": "0 0 0",
+      "castShadow": true,
+      "params": {
+        "length": 44,
+        "height": 1.8,
+        "gate": 0,
+        "wall": "#ded5c4",
+        "trim": "#6b2340"
+      }
+    },
+    {
+      "build": "seesaw",
+      "position": "0 0 -8",
+      "rotation": "0 0 0",
+      "castShadow": true,
+      "params": {
+        "length": 3.2
+      }
+    },
+    {
+      "model": "bigtree",
+      "position": "-12 0 -14",
+      "rotation": "0 40 0",
+      "castShadow": true
+    },
+    {
+      "model": "bigtree",
+      "position": "11 0 -13",
+      "rotation": "0 210 0",
+      "scale": "0.9 0.9 0.9",
+      "castShadow": false
+    },
+    {
+      "model": "shrub",
+      "position": "8 0 -16",
+      "rotation": "0 60 0",
+      "scale": "1.2 1.2 1.2",
+      "castShadow": false
+    },
+    {
+      "model": "shrub",
+      "position": "-3 0 -16.5",
+      "rotation": "0 250 0",
+      "scale": "1.15 1.15 1.15",
+      "castShadow": false
+    },
+    {
+      "build": "portal",
+      "position": "0 0 8.5",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "to": "gk-lkg-school-tour",
+        "radius": 1.8,
+        "arrive": "13 1.2 -19",
+        "facing": -35
+      }
+    }
+  ],
+  "start": {
+    "position": "3 1.2 6",
+    "facing": 6
+  }
+}

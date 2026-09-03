@@ -27,6 +27,15 @@ AFRAME.registerComponent('pbr-ground', {
     rough: { type: 'string', default: '' },
     ao: { type: 'string', default: '' },
     repeat: { type: 'number', default: 45 },
+    /**
+     * Mown stripes, in metres per band. 0 for none.
+     *
+     * A cut lawn shows alternating bands because the mower lays the blades in
+     * opposite directions and they catch the light differently. It is the
+     * single cue that separates a kept lawn from rough grass, and it is two
+     * lines of shader.
+     */
+    stripes: { type: 'number', default: 0 },
     /** Bump strength. Above ~1.5 the grass starts to look like gravel. */
     normalScale: { type: 'number', default: 0.9 },
   },
@@ -51,6 +60,10 @@ AFRAME.registerComponent('pbr-ground', {
     this.material.aoMap = data.ao ? this.load(base + data.ao) : null;
 
     this.material.normalScale = new THREE.Vector2(data.normalScale, data.normalScale);
+
+    // Defines change the compiled program, so the material has to be rebuilt
+    // when stripes are switched on or off.
+    this.material.defines = data.stripes > 0 ? { LAWN_STRIPES: '' } : {};
     this.material.needsUpdate = true;
 
     this.attach();
@@ -76,6 +89,12 @@ AFRAME.registerComponent('pbr-ground', {
    */
   breakUpTiling() {
     this.material.onBeforeCompile = (shader) => {
+      if (this.data.stripes > 0) {
+        this.material.defines = { ...this.material.defines, LAWN_STRIPES: '' };
+        shader.uniforms.uStripeScale = { value: this.data.repeat / this.data.stripes };
+        shader.fragmentShader = 'uniform float uStripeScale;\n' + shader.fragmentShader;
+      }
+
       shader.fragmentShader = shader.fragmentShader
         .replace(
           '#include <common>',
@@ -110,6 +129,13 @@ AFRAME.registerComponent('pbr-ground', {
             // A slow tint variation on top, so even the blended result is not
             // one flat green across a hundred metres. Real ground is patchy.
             diffuseColor.rgb *= 0.88 + 0.24 * gnoise(vMapUv * 0.035);
+
+            #ifdef LAWN_STRIPES
+              // Alternating mown bands. The step is deliberately hard-edged —
+              // a mower leaves a line, not a gradient.
+              float band = floor(vMapUv.y * uStripeScale);
+              diffuseColor.rgb *= mod(band, 2.0) < 1.0 ? 1.06 : 0.93;
+            #endif
           #endif
           `
         );

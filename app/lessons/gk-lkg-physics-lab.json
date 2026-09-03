@@ -1,0 +1,52 @@
+{
+  "id": "gk-lkg-physics-lab",
+  "template": "identify",
+  "stage": "physicslab",
+  "stageOverride": {},
+  "objects": [
+    {
+      "id": "apparatus",
+      "build": "apparatus",
+      "position": "-0.6 0 -6.0",
+      "rotation": "0 0 0",
+      "params": {
+        "y": 0.9,
+        "width": 2.6
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "en": "This is the physics lab. Here we find out how things move.",
+        "hi": "यह भौतिकी प्रयोगशाला है। यहाँ हम सीखते हैं चीज़ें कैसे चलती हैं।",
+        "mr": "ही भौतिकशास्त्राची प्रयोगशाळा आहे. इथे वस्तू कशा हलतात ते शिकतो.",
+        "or": "ଏହା ପଦାର୍ଥ ବିଜ୍ଞାନ ପରୀକ୍ଷାଗାର। ଏଠାରେ ଜିନିଷ କିପରି ଚଳେ ଶିଖୁ।"
+      },
+      "audio": "physics_lab_s1.mp3"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "That little ball on a string is a pendulum. It swings to and fro.",
+        "hi": "डोरी पर लटकी वह छोटी गेंद लोलक है। यह इधर-उधर झूलती है।",
+        "mr": "दोरीवर लटकणारा तो छोटा चेंडू म्हणजे लंबक. तो इकडे-तिकडे झुलतो.",
+        "or": "ସୂତାରେ ଝୁଲୁଥିବା ସେହି ଛୋଟ ବଲଟି ଦୋଳକ। ଏହା ଏପାଖ ସେପାଖ ଝୁଲେ।"
+      },
+      "audio": "physics_lab_s2.mp3",
+      "highlight": "apparatus"
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "en": "The sloping board is a ramp. A ball rolls down it by itself.",
+        "hi": "ढलान वाला तख़्ता रैंप है। गेंद उस पर अपने आप लुढ़कती है।",
+        "mr": "उतार असलेला फळा म्हणजे उतरण. चेंडू त्यावरून आपोआप घरंगळतो.",
+        "or": "ଢାଲୁ ଫଳକଟି ରାମ୍ପ। ବଲ ସେଥିରେ ନିଜେ ଗଡ଼େ।"
+      },
+      "audio": "physics_lab_s3.mp3",
+      "highlight": "apparatus"
+    }
+  ]
+}
