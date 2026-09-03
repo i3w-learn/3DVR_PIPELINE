@@ -1,0 +1,8 @@
+{
+  "id": "paving",
+  "source": "ambientCG — Concrete034",
+  "licence": "CC0",
+  "url": "https://ambientcg.com/view?id=Concrete034",
+  "maps": ["color", "normal", "rough", "ao"],
+  "notes": "swept concrete — a town school compound, not a field"
+}

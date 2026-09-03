@@ -1,0 +1,8 @@
+{
+  "id": "earth",
+  "source": "ambientCG — Ground037",
+  "licence": "CC0",
+  "url": "https://ambientcg.com/view?id=Ground037",
+  "maps": ["color", "normal", "rough", "ao"],
+  "notes": "packed bare earth — a school compound is swept ground, not lawn"
+}

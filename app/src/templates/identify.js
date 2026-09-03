@@ -51,11 +51,15 @@ export default {
  * feet and facing +Z. If a lesson ever needs a scale to make a cow look like a
  * cow, the pipeline failed and the fix is at intake.
  */
-function createObject({ id, model, position, rotation, scale, clip, clipSpeed, wander, visible }) {
+function createObject({ id, model, build, params, position, rotation, scale, clip, clipSpeed, wander, visible }) {
   const el = document.createElement('a-entity');
 
   el.setAttribute('id', id);
-  el.setAttribute('gltf-model', `assets/models/${model}.glb`);
+
+  // An object is either downloaded or built. A school tour taps buildings, and
+  // a building is boxes — so the same `build` a stage prop uses works here.
+  if (build) el.setAttribute(build, params ?? {});
+  else el.setAttribute('gltf-model', `assets/models/${model}.glb`);
   el.setAttribute('position', position);
   el.setAttribute('rotation', rotation ?? '0 0 0');
   el.setAttribute('scale', scale ?? '1 1 1');

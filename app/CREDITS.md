@@ -28,4 +28,6 @@ No attribution is required for these. They are listed for the record.
 - Openverse — "sheep 3.mp3" by esperar
 - Poly Haven — Island Tree 01 (photoscan)
 - Poly Haven — Kloofendal 43d Clear (Pure Sky)
+- ambientCG — Concrete034
 - ambientCG — Grass004
+- ambientCG — Ground037

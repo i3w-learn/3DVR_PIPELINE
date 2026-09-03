@@ -111,19 +111,26 @@ async function checkLesson(lessonId, { library, languages }) {
  * thing a content author has to go and fix.
  */
 function listInstances(kit, lesson) {
-  const props = kit.props.map((p, i) => ({
-    where: `stage "${kit.id}" props[${i}]`,
-    model: p.model,
-    clip: p.clip,
-    raw: p,
-  }));
+  // Built props carry no model, so they have nothing for the library to
+  // check and no triangles the library can count. They are excluded here
+  // rather than special-cased in every rule.
+  const props = kit.props
+    .filter((p) => !p.build)
+    .map((p, i) => ({
+      where: `stage "${kit.id}" props[${i}]`,
+      model: p.model,
+      clip: p.clip,
+      raw: p,
+    }));
 
-  const objects = lesson.objects.map((o, i) => ({
-    where: `objects[${i}] "${o.id ?? '?'}"`,
-    model: o.model,
-    clip: o.clip,
-    raw: o,
-  }));
+  const objects = lesson.objects
+    .filter((o) => !o.build)
+    .map((o, i) => ({
+      where: `objects[${i}] "${o.id ?? '?'}"`,
+      model: o.model,
+      clip: o.clip,
+      raw: o,
+    }));
 
   return [...props, ...objects];
 }

@@ -29,12 +29,6 @@
   "shadows": true,
   "props": [
     {
-      "model": "shed",
-      "position": "-9 0 -16",
-      "rotation": "0 28 0",
-      "castShadow": false
-    },
-    {
       "model": "fence",
       "position": "-9 0 -4",
       "rotation": "0 0 0"
@@ -100,6 +94,12 @@
       "position": "-16 0 -24",
       "rotation": "0 205 0",
       "scale": "0.95 0.95 0.95",
+      "castShadow": false
+    },
+    {
+      "model": "shed",
+      "position": "-9 0 -16",
+      "rotation": "0 28 0",
       "castShadow": false
     }
   ]

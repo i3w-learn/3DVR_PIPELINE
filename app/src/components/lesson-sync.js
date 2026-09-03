@@ -177,7 +177,14 @@ export class LessonSync {
 
     for (const prop of stage.props ?? []) {
       const el = document.createElement('a-entity');
-      el.setAttribute('gltf-model', `assets/models/${prop.model}.glb`);
+
+      // A prop is either downloaded or built. Buildings are boxes, so they are
+      // cheaper and more controllable made from numbers than fetched — and a
+      // curriculum that needs a school, a home, a shop and a health centre
+      // needs the same shape four times with different numbers.
+      if (prop.build) el.setAttribute(prop.build, prop.params ?? {});
+      else el.setAttribute('gltf-model', `assets/models/${prop.model}.glb`);
+
       el.setAttribute('position', prop.position);
       el.setAttribute('rotation', prop.rotation ?? '0 0 0');
       el.setAttribute('scale', prop.scale ?? '1 1 1');

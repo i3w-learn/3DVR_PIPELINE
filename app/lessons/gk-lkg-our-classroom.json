@@ -1,0 +1,36 @@
+{
+  "id": "gk-lkg-our-classroom",
+  "template": "identify",
+  "stage": "classroom",
+  "stageOverride": {},
+  "objects": [],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "en": "Now we are inside. This is our classroom.",
+        "hi": "अब हम अंदर हैं। यह हमारी कक्षा है।",
+        "mr": "आता आपण आत आहोत. हा आपला वर्ग आहे.",
+        "or": "ବର୍ତ୍ତମାନ ଆମେ ଭିତରେ। ଏହା ଆମର ଶ୍ରେଣୀ କକ୍ଷ।"
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "en": "This is the blackboard. Teacher writes on it.",
+        "hi": "यह ब्लैकबोर्ड है। शिक्षिका इस पर लिखती हैं।",
+        "mr": "हा फळा आहे. बाई त्यावर लिहितात.",
+        "or": "ଏହା ବ୍ଲାକବୋର୍ଡ। ଶିକ୍ଷୟିତ୍ରୀ ଏଥିରେ ଲେଖନ୍ତି।"
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "en": "Look at the windows. The light comes in from there.",
+        "hi": "खिड़कियाँ देखो। रोशनी वहीं से आती है।",
+        "mr": "खिडक्या बघा. उजेड तिथूनच येतो.",
+        "or": "ଝରକା ଦେଖ। ଆଲୋକ ସେଠାରୁ ଆସେ।"
+      }
+    }
+  ]
+}

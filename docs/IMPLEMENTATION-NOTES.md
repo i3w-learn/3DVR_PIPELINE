@@ -498,3 +498,32 @@ Two details that matter:
 plainly: *any* three.js API that reads geometry directly — bounds, raycasts,
 frustum culling — is reading the bind pose, and for rigged models that is not
 where the model is.
+
+## 23. Buildings are built, not downloaded
+
+Every other asset in this project is downloaded, because nobody on this team
+can model a cow. A building is the exception, and the reason is worth stating:
+**a building is boxes.** Walls, floors, a flat roof, balcony slabs, pillars,
+window panes — all rectangles, all placeable by arithmetic.
+
+That flips the trade completely.
+
+| | Downloaded | Built |
+|---|---|---|
+| An *Indian* school | not available | yes |
+| Triangles | ~20,000 | ~350 |
+| Its own name on the board | no | yes |
+| Becomes a house, a shop, a health centre | no | change three numbers |
+
+The `building` component takes floors, width, depth, window count, a veranda
+flag, a sign and four colours. The curriculum needs a school, a home, a market
+and a health centre; that is the same shape four times with different numbers,
+which is exactly what data is for.
+
+**A stage prop may now be built instead of downloaded.** A prop with `build`
+names a component and passes `params`; one with `model` fetches a `.glb` as
+before. The validator excludes built props from library lookups and triangle
+counts — they have no library entry to check and no model to count.
+
+It is deliberately plain. A three-year-old is being asked which building is
+the school, not to admire the brickwork.

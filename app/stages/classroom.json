@@ -1,0 +1,48 @@
+{
+  "id": "classroom",
+  "sky": {
+    "hdri": "field.jpg",
+    "intensity": 0.35
+  },
+  "ground": {
+    "color": "paving_color.jpg",
+    "normal": "paving_normal.jpg",
+    "rough": "paving_rough.jpg",
+    "ao": "paving_ao.jpg",
+    "repeat": 60
+  },
+  "sun": {
+    "position": "6 9 5",
+    "color": "#fff6e8",
+    "intensity": 0.7
+  },
+  "light": {
+    "sky": "#e8eef2",
+    "ground": "#b0a894",
+    "intensity": 0.9
+  },
+  "shadows": false,
+  "props": [
+    {
+      "build": "room",
+      "position": "0 0 -2.5",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 9,
+        "depth": 8,
+        "height": 3.2,
+        "windows": 2
+      }
+    },
+    {
+      "build": "blackboard",
+      "position": "0 0 -6.4",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 3.6,
+        "height": 1.4,
+        "sill": 0.75
+      }
+    }
+  ]
+}
