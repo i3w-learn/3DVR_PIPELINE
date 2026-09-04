@@ -32,6 +32,10 @@ async function main() {
   const assets = [
     ...Object.entries(library.models).map(([id, m]) => ({ id, kind: 'model', ...m })),
     ...Object.entries(library.textures).map(([id, m]) => ({ id, kind: 'texture', ...m })),
+    // Planet maps. CC-BY like most of the models, and a credits file that
+    // silently omits a CC-BY asset is a licence breach, not an untidy file —
+    // which is the whole reason this is generated rather than written.
+    ...Object.entries(library.planets ?? {}).map(([id, m]) => ({ id, kind: 'planet map', ...m })),
     ...Object.entries(library.hdri ?? {}).map(([id, m]) => ({ id, kind: 'sky', ...m })),
     ...Object.entries(library.sfx ?? {}).map(([id, m]) => ({ id, kind: 'sound', ...m })),
   ];

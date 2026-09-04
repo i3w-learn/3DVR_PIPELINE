@@ -228,12 +228,23 @@ export const RULES = [
       for (const i of instances) add(library.models[i.model]);
 
       // A ground is a set of maps, not one image. Older kits name a single
-      // file; both forms count toward the same budget.
+      // file; both forms count toward the same budget. A land may also have no
+      // ground at all — there is nothing to stand on in space.
       const ground = resolvedStage.ground;
-      const maps = typeof ground === 'string'
-        ? [ground]
-        : [ground.color, ground.normal, ground.rough, ground.ao].filter(Boolean);
+      const maps = !ground
+        ? []
+        : typeof ground === 'string'
+          ? [ground]
+          : [ground.color, ground.normal, ground.rough, ground.ao].filter(Boolean);
       for (const map of maps) add(library.textures[map]);
+
+      // Anything a prop or an object names by file path — the planet maps are
+      // the first of these. Built props carry their pictures in `params`, and
+      // a picture nobody counted is a picture that still has to be downloaded.
+      for (const holder of [...(resolvedStage.props ?? []), ...lesson.objects]) {
+        const src = holder.params?.src;
+        if (typeof src === 'string') add(library.planets?.[src.split('/').pop()]);
+      }
       for (const object of lesson.objects) add(library.sfx?.[object.sound]);
 
       // The captured sky is usually the single largest file in a lesson.

@@ -2,16 +2,7 @@ node_modules/
 .work/
 *.tmp
 
-# Raw downloads — the binaries, not the record of them.
-#
-# `/raw` is the audit trail, and the part that matters is the sidecars: every
-# one records the source, the author, the licence, the exact URL it came from,
-# and every processing parameter used. That is what makes a build
-# reproducible, and it is 68 KB of text.
-#
-# The binaries behind them are 302 MB, one file of 58 MB, and every one of
-# them is re-fetchable from the URL in its own sidecar. Git is a poor place
-# for them and a clone should not cost 300 MB.
+
 raw/**/*
 !raw/**/*.meta.json
 !raw/*/
@@ -19,7 +10,7 @@ raw/*.glb
 raw/*.gltf
 raw/*.bin
 
-# Placeholder narration — generated, never hand-made. `npm run content:build`
-# and `build-narration.js` recreate it.
 app/assets/audio/*/
 !app/assets/audio/.keep
+
+*.webp

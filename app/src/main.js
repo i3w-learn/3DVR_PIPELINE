@@ -30,6 +30,7 @@ import './components/playground.js';
 import './components/portal.js';
 import './components/pbr-ground.js';
 import './components/sky-environment.js';
+import './components/space.js';
 import './components/view-fade.js';
 import './components/scene-look.js';
 

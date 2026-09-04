@@ -34,9 +34,12 @@ import {
 } from './lib/paths.js';
 
 async function main() {
-  const [models, textures, hdri, sfx, audio] = await Promise.all([
+  const [models, textures, planets, hdri, sfx, audio] = await Promise.all([
     catalogueModels(),
     catalogueFiles(TEXTURES_DIR, path.join(RAW_DIR, 'textures')),
+    // Planet maps. Half a megabyte that an offline install has to carry, so
+    // the download budget has to be able to see them.
+    catalogueFiles(path.join(ASSETS_DIR, 'planets'), path.join(RAW_DIR, 'planets')),
     catalogueFiles(HDRI_DIR, path.join(RAW_DIR, 'hdri')),
     catalogueFiles(SFX_DIR, path.join(RAW_DIR, 'sfx')),
     catalogueAudio(),
@@ -46,6 +49,7 @@ async function main() {
     generated: new Date().toISOString(),
     models,
     textures,
+    planets,
     hdri,
     sfx,
     audio,
@@ -58,6 +62,7 @@ async function main() {
     `${relative(LIBRARY_FILE)}\n` +
       `  ${Object.keys(models).length} models · ` +
       `${Object.keys(textures).length} textures · ` +
+      `${Object.keys(planets).length} planet maps · ` +
       `${languages.length ? languages.join(', ') : 'no'} audio`
   );
 }

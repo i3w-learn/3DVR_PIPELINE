@@ -29,6 +29,17 @@ AFRAME.registerComponent('sky-environment', {
     intensity: { type: 'number', default: 1 },
     /** Turn the sky to solid black without discarding it — the teacher's "eyes on me". */
     blackout: { type: 'boolean', default: false },
+
+    /**
+     * No sky at all, and no light from one.
+     *
+     * Not the same as blackout. Blackout hides the sky and keeps the world lit
+     * underneath, so letting it back is instant. `space` throws the
+     * environment away: in the solar system the Sun is the only light there
+     * is, and an irradiance map left over from a field at noon would fill
+     * every planet's night side with daylight.
+     */
+    space: { type: 'boolean', default: false },
   },
 
   init() {
@@ -49,6 +60,12 @@ AFRAME.registerComponent('sky-environment', {
     if (!this.ready) return;
 
     const scene = this.el.object3D;
+
+    if (this.data.space) {
+      this.dispose();
+      scene.background = new THREE.Color(0x000000);
+      return;
+    }
 
     if (this.data.blackout) {
       // Keep the environment: the world must stay lit underneath, so that

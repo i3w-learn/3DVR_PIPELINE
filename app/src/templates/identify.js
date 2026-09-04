@@ -26,7 +26,19 @@ export default {
     }
   },
 
-  /** Called on every step. Ring the named object; leave everything else alone. */
+  /**
+   * Called on every step. Ring the named object; show what the step asks for.
+   *
+   * `show` exists because some lessons are a tour rather than a scene. The
+   * solar system is the case that needed it: standing next to Jupiter and
+   * standing next to Saturn are not two objects in one place, they are two
+   * places, and a step has to be able to say which one the class is in.
+   *
+   * The rule is deliberately narrow. Only objects some step names in a `show`
+   * list can be switched at all — the **switchable set**, worked out once when
+   * the lesson is built. Everything else is scenery and is never touched, so a
+   * lesson that does not use `show` behaves exactly as it always did.
+   */
   applyStep(stage, { lesson }, stepIndex) {
     const step = lesson.steps[stepIndex];
     if (!step) return;
@@ -36,12 +48,37 @@ export default {
     if (step.highlight) {
       stage.querySelector(`#${CSS.escape(step.highlight)}`)?.setAttribute('highlight', '');
     }
+
+    const switchable = switchableSet(lesson);
+    if (!switchable.size) return;
+
+    const showing = new Set(step.show ?? []);
+    for (const id of switchable) {
+      stage.querySelector(`#${CSS.escape(id)}`)?.setAttribute('visible', showing.has(id));
+    }
   },
 
   teardown(stage) {
     stage.innerHTML = '';
   },
 };
+
+/**
+ * Every id any step asks to show — worked out once and remembered.
+ *
+ * Cached on the lesson object rather than recomputed each step: `applyStep`
+ * runs on every step of every lesson, and this is the same answer every time.
+ */
+const sets = new WeakMap();
+
+function switchableSet(lesson) {
+  let set = sets.get(lesson);
+  if (set) return set;
+
+  set = new Set(lesson.steps.flatMap((step) => step.show ?? []));
+  sets.set(lesson, set);
+  return set;
+}
 
 /**
  * One lesson object as an A-Frame entity.

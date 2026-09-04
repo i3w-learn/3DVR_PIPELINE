@@ -897,3 +897,327 @@ with wall and left no playground. Moving it to the **corner of the view**, with
 the equipment ahead, shows both: the school you just came out of at your
 shoulder, and the yard you came out into in front. "Behind the school" is what
 it means, not where the geometry has to sit.
+
+## 32. The solar system, which is not a place
+
+Every other land in this project is a **place**: a field, a yard, a room. It
+has a ground plane, a sky that lights it, and objects standing on the floor at
+the size they really are — one unit is one metre, and that rule is the backbone
+of the whole pipeline.
+
+Space has none of it. There is no ground. There is no sky to light anything.
+And the real numbers are unusable: at any scale where Neptune fits in front of
+a seated child, the Earth is smaller than a grain of sand.
+
+So this is not a place. It is an **orrery** — the brass model of the planets on
+a schoolroom table — and every decision follows from admitting that:
+
+- **Sizes and distances are not to scale and cannot be.** They are *ordered*
+  correctly: Mercury nearest, Neptune furthest, Jupiter biggest. The order is
+  the lesson; the ratios are compressed because the truth does not fit in a
+  room.
+- **Orbit speeds are compressed, and not evenly.** Real periods put Neptune's
+  year at 165 of Earth's, which on screen is a planet that does not move.
+  Raising the period to the power 0.45 keeps what matters — the inner planets
+  are visibly quicker — while letting the outer ones still go round while
+  somebody is watching.
+- **The Sun is the only light.** No sun lamp, no sky fill, no environment map:
+  one point light at the centre, so every planet has a night side. That single
+  fact is most of what makes it read as space rather than as balls on black
+  paper.
+
+Two things had to give way in the engine for it. `sky-environment` gained a
+`space` mode, which is not the same as blackout — blackout hides the sky and
+keeps the world lit underneath, whereas space **throws the environment away**,
+or an irradiance map left over from a field at noon fills every planet's night
+side with daylight. And a stage may now have **no ground at all**; a 140-metre
+grass plane under the solar system is not a small mistake.
+
+### The maps are photographs, and that is right
+
+This is the one place in the project where a photograph beats anything we could
+build. What makes Jupiter Jupiter is its banding, and banding is a picture, not
+geometry. The set is Solar System Scope's, derived from NASA imagery, CC BY 4.0
+— shippable, and credited from the sidecars `fetch-planets.js` writes.
+
+They are also the first assets the download budget could not see, because
+nothing in `library.json` indexed them. Half a megabyte an offline install has
+to carry was invisible to the rule that exists to catch exactly that, so the
+library now indexes them and the rule counts any picture a prop names by path.
+
+### Three things that looked like bugs and were composition
+
+**The orrery seen edge-on is a line.** At a seated child's eye height the
+orbits collapsed into one horizontal streak, planets transited each other, and
+Saturn's rings crossed the face of the Sun. Tilting the whole system twenty-two
+degrees towards the viewer turns eight orbits into eight visible rings, which
+is the shape of the thing being taught.
+
+**Perspective made Saturn bigger than Jupiter.** Spread wide and viewed from
+close, the near planet is several times the apparent size of the far one — so
+the step that says "the biggest planet is Jupiter" was contradicted by the
+picture in front of the child. A tighter system seen from further away is
+closer to orthographic; Jupiter's globe is also exaggerated over Saturn's, in
+the direction the truth already points.
+
+**The highlight ring appeared round the Sun for every planet.** The ring hangs
+off the entity, and a planet's entity is the centre of the system — the planet
+itself is out on an orbit, moving. A component may now implement
+`highlightAnchor()` to say where its ring belongs and how big it should be.
+Nothing else had to change, and the next thing whose entity is not where the
+object is gets it for free.
+
+### It was ugly, and three things were why
+
+**The orbits were hairlines.** `THREE.Line` is one hardware pixel wide on every
+platform that matters — `linewidth` has been ignored by WebGL for years — so
+eight faint threads across a dark scene were something you had to hunt for, and
+the shape of the solar system was the one thing they existed to show. They are
+flat annuli now, with real width that scales with the orbit, and they can be
+seen at the glancing angle the far side of every orbit is drawn at.
+
+**The Sun's corona was a dark brown disc.** A faint warm colour added over
+black is a dark colour: 13% of orange is brown, and a sphere of it put a muddy
+circle round the Sun with a hard edge, swallowing the orbit rings behind it.
+The fix is not a different shell — it is not to use a shell. A radial gradient
+painted into a canvas has no edge at all, and as a sprite it faces the viewer,
+which is what a glare does.
+
+**It was small, and tipping it further fixed that too.** A shallow tilt keeps
+everything in a narrow band across the middle of the view — small, and thin.
+Tipped thirty-four degrees the depth spread becomes a vertical one: the orbits
+open into wide ellipses that fill the frame, and the near-to-far distance range
+shrinks at the same time, which is also what stops perspective making the
+nearest planet the biggest.
+
+The highlight ring needed one more thing after that. Lying flat is right on the
+ground — it is a mark on the floor under an object. Around a planet there is no
+floor, and a flat ring reads as one more orbit: a yellow ellipse near the Sun,
+which is exactly what it must not look like. Anchors can now ask to be
+billboarded, and facing the viewer it is unmistakably a circle drawn round
+something.
+
+Cost: 26 draw calls, 24,184 triangles, 14 textures.
+
+## 33. Standing next to a planet, not looking at a model of one
+
+The orrery was right and it was not enough. It is the view from outside: a
+model of the solar system, seen across a room, correct and small. In a headset
+that is the least of what the medium can do — the whole reason to put a child
+in VR for this is that they can be **there**, beside a planet the size of a
+house, watching it turn.
+
+So the lesson is a tour with eleven stops. The overview to begin, then the Sun,
+then each of the eight planets close up, then back out to count them. Each stop
+is a place: the planet fills a good part of the view, turning slowly, lit from
+one side so it is unmistakably a sphere and not a disc.
+
+The child is never moved. Motion they did not ask for is what makes
+three-year-olds ill, and the PRD forbids it — so the stops are cuts, and the
+fade that already exists for walking through a door carries them.
+
+### What the engine needed
+
+**A step has to be able to say which place the class is in.** `identify` rings
+the object a step names, which is right for a scene where everything is present
+at once. Standing next to Jupiter and standing next to Saturn are not two
+objects in one place, they are two places. A step may now carry `show`, and the
+rule is deliberately narrow: only ids that appear in some step's `show` list
+can be switched at all — the switchable set, worked out once when the lesson is
+built. Everything else is scenery and is never touched, so a lesson that does
+not use `show` behaves exactly as before.
+
+**The overview had to become one thing.** Eight planets, eight orbit rings and
+a Sun were eighteen entries in a stage file, which is fine until a lesson wants
+to put the whole overview away in one step. `orrery` is one entity with one id
+that builds the same `sun`, `planet` and `orbit-ring` components underneath —
+nothing is reimplemented, and the model's numbers now live in exactly one
+table.
+
+**A planet met on its own has to light itself.** In the orrery every planet is
+lit by the Sun at the centre, which is the point of it. A close-up is somewhere
+else: the Sun is far off to one side, and without a key light from that
+direction the planet is a black circle.
+
+The first attempt used a point light, and it failed in a way worth keeping:
+light from a point falls off with the square of the distance, so numbers that
+lit Mercury correctly left Jupiter — four times the size, and so with its light
+four times further out — in near darkness. The Sun seen from any planet is
+effectively at infinity. Parallel rays, no falloff. That is a **directional**
+light, and one intensity then works for every planet regardless of its size.
+
+The light is a child of the planet, so hiding the planet hides it: three.js
+skips invisible subtrees when it gathers lights, which is what lets eight
+close-ups sit in one scene with only the visible one lighting anything.
+
+## 34. What was wrong was that it was built for a monitor
+
+Three things, and the third is the one that matters for a headset.
+
+**The sky was smudges.** A 2048-pixel Milky Way plate stretched over a whole
+sphere gives every star a soft blob several degrees across. That is not what a
+star looks like — a star is a point source and the eye knows it. There are now
+three thousand real points over the top of the plate, drawn at a fixed pixel
+size so they stay points however far away the sphere is, unevenly bright
+(most faint, a few not) and slightly coloured. The plate stays, dimmed, because
+it carries the band of the galaxy, which points cannot.
+
+**There was no Sun.** A planet lit from off-screen by nothing visible is a
+lamp-lit model. The Sun is now in the picture, in the same direction as the key
+light — and its size is a teaching point, not decoration: from Mercury it fills
+the sky, from Neptune it is a bright star among the others. That difference is
+the clearest thing anybody can be shown about how far apart these are, and it
+costs one sprite.
+
+**Earth had no air.** The rim is the single detail that separates a planet with
+an atmosphere from a painted ball. Fresnel gives the glow — you see through air
+looking down at it and a long way through it looking across — and multiplying
+by the light gives the other half: a blue rim on the day side and none on the
+night side.
+
+### And the headset
+
+On a flat screen only the *angle* something subtends matters, so a planet four
+metres across at six metres away is indistinguishable from a planet forty
+metres across at sixty. In a headset they are nothing alike. Stereo gives real
+depth, and depth says the first one is a beach ball an arm's length away — no
+matter how convincing the texture is.
+
+So every close-up is now around forty metres across at fifty. Identical on a
+monitor; in a headset the difference between a prop and a world. The headset's
+field of view is also wider than the browser's, so anything tuned by eye on a
+screen arrives *smaller* in the goggles — these are sized for the goggles and
+look generous on a monitor, which is the right way round.
+
+**None of this has been seen in a headset.** It is reasoning about stereo and
+field of view, not a measurement, and it stays that way until Phase 0 of the
+PRD is done and a Quest has actually run this.
+
+## 35. Inside the system, and why Saturn's rings were rolling
+
+### Surrounded is a geometry problem, not a graphics one
+
+The tour and the close-ups were both still things put in front of a viewer.
+Turn your head and there was nothing there. The fix is not lighting or
+textures: it is where the viewer stands.
+
+The orrery's orbits were sized so the whole model sat across the room. They are
+now sized so a viewer twenty metres from the Sun is **inside the outer four**.
+The inner planets stay over by the Sun where they belong; Jupiter, Saturn,
+Uranus and Neptune sweep round behind the child's head, and following one round
+is the moment the model stops being something being looked at and becomes
+somewhere they are.
+
+The plane is nearly level now too. Tipped steeply the system is a picture
+hanging in front of you — better to look at, and still a picture. Almost flat,
+with the viewer inside it, the orbits run past on both sides and close behind,
+which is the only arrangement that can be turned around in.
+
+### Saturn's rings were rolling once per orbit
+
+A real bug, and a good one. The axial tilt was applied inside the orbit group,
+which makes it a tilt *relative to the orbit* — so as the planet was carried
+round, the direction it leaned in was carried round with it. Saturn's rings
+swung through a full turn every orbit, and Uranus's famous sideways lean
+pointed somewhere different every few seconds.
+
+A real planet's axis points at a fixed star and stays pointing there all year.
+`tick` now undoes the orbit's own rotation on the axis group, so the lean stays
+put in space while the planet travels. The Euler order has to be `YZX` for it:
+the undo must be applied before the tilt, not after.
+
+The rings were also unlit — a `MeshBasicMaterial` hoop at full brightness all
+the way round, including across the planet's night side, attached to a
+half-dark globe. They are rock and ice and the Sun lights them like everything
+else out there.
+
+### Three things were making it look like a cartoon
+
+**The orbit lines.** Scaling their width with the orbit was right when the
+model was across the room; standing inside it, Neptune's orbit is fifty metres
+out and six times wider than Mercury's — pale bands as thick as a plank
+sweeping across the whole sky. A fixed five-centimetre width at a sixth of the
+opacity. Space has no orbit lines; these earn their place only by being almost
+not there.
+
+**The Sun was an orange marble.** The map is a real photograph and, like every
+photograph of the Sun, exposed so the surface detail survives — which makes it
+orange. Nothing in the sky is orange at that brightness: the Sun is the one
+thing you cannot look at. Multiplying the material colour past 1 blows the
+bright parts out to white and leaves the granulation orange underneath.
+
+**The corona was a brown wash.** A faint warm colour added over black is a dark
+colour — 15% of orange is brown — and a wide orange sprite laid a muddy haze
+across half the sky. Near-white now, and the gradient's long faint tail cut
+short: a glare is bright in the middle and gone by the time you have looked
+away from it.
+
+## 36. A hand-written shader gets none of the conversions
+
+Saturn's rings went dark, and the reason is worth knowing because it will
+happen again with the next custom shader.
+
+three.js quietly does two things at the end of every one of its own materials:
+it applies tone mapping, and it converts the colour from linear space to the
+sRGB the screen expects. A `ShaderMaterial` gets neither. Write a colour
+straight to `gl_FragColor` and it is displayed as if its linear values were
+already sRGB — which is exactly as dark as the rings looked. The texture was
+right, the maths was right, and only the last step was missing:
+
+    #include <tonemapping_fragment>
+    #include <colorspace_fragment>
+
+Two lines, at the end of the fragment shader. The atmosphere shader had the
+same hole and was under-bright for the same reason; additive blending was
+hiding it.
+
+### And the rings themselves
+
+Both obvious materials were wrong, and trying each in turn is how the right one
+was found.
+
+**Unlit** — a hoop at full brightness right across the planet's night side,
+attached to a half-dark globe. That was the first complaint.
+
+**Lit as a surface** — black. The rings are a sheet a few metres thick seen
+almost edge-on to the Sun, and `dot(normal, light)` on a sheet like that is
+nearly zero. That was the second.
+
+Real rings are not a sheet. They are billions of separate lumps of ice, each
+one a little sphere catching light from every direction, which is why they are
+bright at almost any angle. So they are drawn at full brightness — and the one
+thing that must be there is **the shadow the planet throws across them**, which
+is what every photograph of Saturn is remembered for. That is a cylinder test,
+not a shadow map: a point on the ring is in shadow when it lies behind the
+planet along the light and closer to that line than the planet is wide.
+
+### A process note
+
+The method that aims that shadow was never inserted — only the call to it was.
+A `String.replace` whose pattern does not match returns the string unchanged
+and reports nothing, so the edit passed, the file parsed, and the failure
+surfaced later as `aimRingShadow is not a function`. Every one of these edits
+now asserts the pattern was found before writing.
+
+## 37. The Sun's glare was hiding inside the Sun
+
+The close-up Sun was a flat orange ball with a hard edge and no light around
+it, and the corona sprite was there the whole time — drawn, in frustum, doing
+nothing visible.
+
+The numbers have to be read against each other. The sprite was 3.4 radii
+across, so half of it was 1.7R, and the gradient's stops ran out by fraction
+0.45 of that — **0.77R from the centre**. Every one of them fell *inside the
+Sun's own disc*. The glare was entirely behind the thing it was supposed to be
+coming off.
+
+The number that matters is where the sprite's edge sits relative to the Sun's:
+at a sprite width of 7R, half is 3.5R, so the Sun's limb is at fraction
+**0.29**. The stops now stay bright out to there and only then fall away,
+reaching nothing about two radii out.
+
+It is the second time in this file the same mistake appears in a different
+costume. Earlier the corona was too wide and too dim and painted a brown wash
+over half the sky; the fix tightened it, and tightened it past the point where
+it was visible at all. **A falloff has no meaning on its own** — only against
+the size of the thing it belongs to.

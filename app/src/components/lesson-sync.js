@@ -112,15 +112,24 @@ export class LessonSync {
     if (message.lesson && message.lesson !== this.#loaded?.lesson.id) {
       const fade = this.#fade();
 
-      await fade?.to(1);
+      // Started, never awaited.
+      //
+      // Waiting on the fade made the lesson's arrival depend on the fade
+      // finishing, and a fade only advances while the scene is ticking. Any
+      // frame the renderer misses — a hidden tab, a stalled load — and the
+      // build never began: a black screen with nothing behind it and no way
+      // out of it. The fade is a courtesy, and a courtesy must never be able
+      // to stop the thing it was decorating.
+      fade?.to(1);
+
       await this.#buildLesson(message.lesson);
       this.#applyStep();
 
       // A beat in the dark. `#buildLesson` returns when the lesson is placed,
       // not when its models have arrived — without this the first frames of a
       // new land are a room with no furniture in it.
-      await new Promise((resolve) => setTimeout(resolve, 200));
-      await fade?.to(0);
+      await new Promise((resolve) => setTimeout(resolve, 220));
+      fade?.to(0);
       return;
     }
 
@@ -173,10 +182,17 @@ export class LessonSync {
     // through. Listing the fields here instead meant every new one — `stripes`
     // was the first — silently never arrived, and the kit looked wrong for a
     // reason nothing reported.
-    ground.setAttribute(
-      'pbr-ground',
-      typeof stage.ground === 'string' ? { color: stage.ground } : stage.ground
-    );
+    // A land may have no ground. Space is the case that forced this: there is
+    // nothing to stand on out there, and a 140-metre grass plane under the
+    // solar system is not a small mistake.
+    ground.setAttribute('visible', Boolean(stage.ground));
+
+    if (stage.ground) {
+      ground.setAttribute(
+        'pbr-ground',
+        typeof stage.ground === 'string' ? { color: stage.ground } : stage.ground
+      );
+    }
 
     // Fog tinted to the horizon is the cheapest distance cue there is: distant
     // trees fade into the sky instead of standing out as cut-outs. It also
@@ -414,9 +430,16 @@ export class LessonSync {
    * in step, and no way for the two to disagree.
    */
   #paintSky(sky) {
+    // A land with no sky at all — see `sky-environment`'s `space`.
+    if (!sky || sky.space) {
+      this.#elements.scene.setAttribute('sky-environment', { space: true, blackout: false });
+      return;
+    }
+
     this.#elements.scene.setAttribute('sky-environment', {
       src: `assets/hdri/${sky.hdri}`,
       intensity: sky.intensity ?? 1,
+      space: false,
       blackout: false,
     });
   }

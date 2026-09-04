@@ -81,6 +81,10 @@ AFRAME.registerComponent('view-fade', {
   tick(time, delta) {
     if (this.opacity === this.target) return;
 
+    // A frame the renderer skipped can arrive as a very large delta. Capped,
+    // or one stalled second snaps the fade instead of playing it.
+    delta = Math.min(delta, 100);
+
     const step = delta / this.data.duration;
     const remaining = this.target - this.opacity;
 

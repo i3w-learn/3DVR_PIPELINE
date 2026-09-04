@@ -16,6 +16,18 @@ Their authors must be credited wherever this application is distributed.
 - **realhorse** — Sketchfab — "Horse" (28 clips)
 - **shed** — Sketchfab — "Worn Shed PBR Game-Ready" by donnichols
 - **zebu** — Sketchfab — "Zebu Bull" by Mily
+- **earth.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_earth_daymap.jpg
+- **jupiter.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_jupiter.jpg
+- **mars.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_mars.jpg
+- **mercury.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_mercury.jpg
+- **moon.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_moon.jpg
+- **neptune.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_neptune.jpg
+- **saturn-ring.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_saturn_ring_alpha.png
+- **saturn.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_saturn.jpg
+- **stars.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_stars_milky_way.jpg
+- **sun.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_sun.jpg
+- **uranus.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_uranus.jpg
+- **venus.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_venus_surface.jpg
 - **goat.mp3** — Openverse — "Baby Goat Bleating" by OBXJohn
 
 ## Public domain (CC0)

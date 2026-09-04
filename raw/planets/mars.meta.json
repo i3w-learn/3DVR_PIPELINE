@@ -1,0 +1,10 @@
+{
+  "id": "planet-mars",
+  "source": "Solar System Scope — solarsystemscope.com/textures — 2k_mars.jpg",
+  "licence": "CC-BY",
+  "url": "https://www.solarsystemscope.com/textures/",
+  "maps": [
+    "color"
+  ],
+  "notes": "equirectangular colour map; ships as WebP in app/assets/planets/"
+}

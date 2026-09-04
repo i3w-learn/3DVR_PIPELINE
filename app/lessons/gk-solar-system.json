@@ -1,0 +1,337 @@
+{
+  "id": "gk-solar-system",
+  "template": "identify",
+  "stage": "solar",
+  "stageOverride": {},
+  "objects": [
+    {
+      "id": "orrery",
+      "build": "orrery",
+      "position": "0 1.2 -20",
+      "rotation": "0 0 0",
+      "params": {
+        "sun": 2.6,
+        "tilt": -7
+      }
+    },
+    {
+      "id": "the-sun",
+      "build": "sun",
+      "position": "0 3.0 -70",
+      "rotation": "0 0 0",
+      "visible": false,
+      "params": {
+        "radius": 26,
+        "distance": 0,
+        "intensity": 0,
+        "spin": 120
+      }
+    },
+    {
+      "id": "mercury",
+      "build": "planet",
+      "position": "0 2.2 -52",
+      "rotation": "0 0 0",
+      "visible": false,
+      "params": {
+        "src": "assets/planets/mercury.webp",
+        "radius": 8.0,
+        "orbit": 0,
+        "days": 365,
+        "phase": 0,
+        "tilt": 0,
+        "spin": 26,
+        "key": "-0.62 0.34 0.22",
+        "keyIntensity": 2.6,
+        "sunSize": 3.4
+      }
+    },
+    {
+      "id": "venus",
+      "build": "planet",
+      "position": "0 2.2 -52",
+      "rotation": "0 0 0",
+      "visible": false,
+      "params": {
+        "src": "assets/planets/venus.webp",
+        "radius": 11.5,
+        "orbit": 0,
+        "days": 365,
+        "phase": 0,
+        "tilt": 177,
+        "spin": 40,
+        "key": "-0.62 0.34 0.22",
+        "keyIntensity": 2.6,
+        "sunSize": 1.9,
+        "atmosphere": "#f0d9a0"
+      }
+    },
+    {
+      "id": "earth",
+      "build": "planet",
+      "position": "0 2.2 -52",
+      "rotation": "0 0 0",
+      "visible": false,
+      "params": {
+        "src": "assets/planets/earth.webp",
+        "radius": 12.0,
+        "orbit": 0,
+        "days": 365,
+        "phase": 0,
+        "tilt": 23,
+        "spin": 18,
+        "key": "-0.62 0.34 0.22",
+        "keyIntensity": 2.6,
+        "moon": true,
+        "sunSize": 1.3,
+        "atmosphere": "#5aa9ff"
+      }
+    },
+    {
+      "id": "mars",
+      "build": "planet",
+      "position": "0 2.2 -52",
+      "rotation": "0 0 0",
+      "visible": false,
+      "params": {
+        "src": "assets/planets/mars.webp",
+        "radius": 9.0,
+        "orbit": 0,
+        "days": 365,
+        "phase": 0,
+        "tilt": 25,
+        "spin": 19,
+        "key": "-0.62 0.34 0.22",
+        "keyIntensity": 2.6,
+        "sunSize": 0.9,
+        "atmosphere": "#c98a6a"
+      }
+    },
+    {
+      "id": "jupiter",
+      "build": "planet",
+      "position": "0 2.2 -52",
+      "rotation": "0 0 0",
+      "visible": false,
+      "params": {
+        "src": "assets/planets/jupiter.webp",
+        "radius": 22.0,
+        "orbit": 0,
+        "days": 365,
+        "phase": 0,
+        "tilt": 3,
+        "spin": 12,
+        "key": "-0.62 0.34 0.22",
+        "keyIntensity": 2.6,
+        "sunSize": 0.4
+      }
+    },
+    {
+      "id": "saturn",
+      "build": "planet",
+      "position": "0 2.2 -52",
+      "rotation": "0 0 0",
+      "visible": false,
+      "params": {
+        "src": "assets/planets/saturn.webp",
+        "radius": 18.0,
+        "orbit": 0,
+        "days": 365,
+        "phase": 0,
+        "tilt": 27,
+        "spin": 13,
+        "key": "-0.62 0.34 0.22",
+        "keyIntensity": 2.6,
+        "ring": true,
+        "ringInner": 1.35,
+        "ringOuter": 2.45,
+        "sunSize": 0.3
+      }
+    },
+    {
+      "id": "uranus",
+      "build": "planet",
+      "position": "0 2.2 -52",
+      "rotation": "0 0 0",
+      "visible": false,
+      "params": {
+        "src": "assets/planets/uranus.webp",
+        "radius": 14.0,
+        "orbit": 0,
+        "days": 365,
+        "phase": 0,
+        "tilt": 98,
+        "spin": 16,
+        "key": "-0.62 0.34 0.22",
+        "keyIntensity": 2.6,
+        "sunSize": 0.2,
+        "atmosphere": "#a8e2e8"
+      }
+    },
+    {
+      "id": "neptune",
+      "build": "planet",
+      "position": "0 2.2 -52",
+      "rotation": "0 0 0",
+      "visible": false,
+      "params": {
+        "src": "assets/planets/neptune.webp",
+        "radius": 13.5,
+        "orbit": 0,
+        "days": 365,
+        "phase": 0,
+        "tilt": 28,
+        "spin": 16,
+        "key": "-0.62 0.34 0.22",
+        "keyIntensity": 2.6,
+        "sunSize": 0.15,
+        "atmosphere": "#5c7fd8"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 20000,
+      "script": {
+        "en": "We are floating in space. The Sun is in front of you — now turn and look all around.",
+        "hi": "हम अंतरिक्ष में तैर रहे हैं। सूरज तुम्हारे सामने है — अब घूमकर चारों ओर देखो।",
+        "mr": "आपण अवकाशात तरंगत आहोत. सूर्य तुमच्या समोर आहे — आता वळून चहूकडे बघा.",
+        "or": "ଆମେ ମହାକାଶରେ ଭାସୁଛେ। ସୂର୍ଯ୍ୟ ତୁମ ଆଗରେ — ବର୍ତ୍ତମାନ ବୁଲି ଚାରିଆଡ଼େ ଦେଖ।"
+      },
+      "show": [
+        "orrery"
+      ],
+      "audio": "solar_system_s1.mp3"
+    },
+    {
+      "duration": 11000,
+      "script": {
+        "en": "Now come closer. This is the Sun. It gives us light and heat.",
+        "hi": "अब पास आओ। यह सूरज है। यही हमें रोशनी और गर्मी देता है।",
+        "mr": "आता जवळ या. हा सूर्य आहे. तोच आपल्याला प्रकाश आणि उष्णता देतो.",
+        "or": "ବର୍ତ୍ତମାନ ପାଖକୁ ଆସ। ଏହା ସୂର୍ଯ୍ୟ। ସେ ଆମକୁ ଆଲୋକ ଓ ଉତ୍ତାପ ଦିଏ।"
+      },
+      "show": [
+        "the-sun"
+      ],
+      "audio": "solar_system_s2.mp3"
+    },
+    {
+      "duration": 11000,
+      "script": {
+        "en": "Mercury is closest to the Sun. It is small and very hot.",
+        "hi": "बुध सूरज के सबसे पास है। यह छोटा है और बहुत गरम।",
+        "mr": "बुध सूर्याच्या सगळ्यात जवळ आहे. तो लहान आणि खूप गरम आहे.",
+        "or": "ବୁଧ ସୂର୍ଯ୍ୟର ସବୁଠାରୁ ପାଖରେ। ଏହା ଛୋଟ ଓ ବହୁତ ଗରମ।"
+      },
+      "show": [
+        "mercury"
+      ],
+      "audio": "solar_system_s3.mp3"
+    },
+    {
+      "duration": 11000,
+      "script": {
+        "en": "Venus is covered in thick clouds. It is the hottest planet.",
+        "hi": "शुक्र मोटे बादलों से ढका है। यह सबसे गरम ग्रह है।",
+        "mr": "शुक्र जाड ढगांनी झाकलेला आहे. तो सगळ्यात गरम ग्रह आहे.",
+        "or": "ଶୁକ୍ର ଘନ ମେଘରେ ଢଙ୍କା। ଏହା ସବୁଠାରୁ ଗରମ ଗ୍ରହ।"
+      },
+      "show": [
+        "venus"
+      ],
+      "audio": "solar_system_s4.mp3"
+    },
+    {
+      "duration": 11000,
+      "script": {
+        "en": "This is our Earth. The blue is water and the white is cloud.",
+        "hi": "यह हमारी पृथ्वी है। नीला पानी है और सफ़ेद बादल।",
+        "mr": "ही आपली पृथ्वी. निळं म्हणजे पाणी आणि पांढरं म्हणजे ढग.",
+        "or": "ଏହା ଆମର ପୃଥିବୀ। ନୀଳ ହେଉଛି ପାଣି ଓ ଧଳା ହେଉଛି ମେଘ।"
+      },
+      "show": [
+        "earth"
+      ],
+      "audio": "solar_system_s5.mp3"
+    },
+    {
+      "duration": 11000,
+      "script": {
+        "en": "Mars is red because its dust is rusty. It has no water to drink.",
+        "hi": "मंगल लाल है क्योंकि उसकी धूल जंग जैसी है। वहाँ पीने का पानी नहीं है।",
+        "mr": "मंगळ लाल आहे कारण त्याची धूळ गंजासारखी आहे. तिथे पिण्याचं पाणी नाही.",
+        "or": "ମଙ୍ଗଳ ଲାଲ, କାରଣ ତାର ଧୂଳି କଳଙ୍କି। ସେଠାରେ ପିଇବା ପାଣି ନାହିଁ।"
+      },
+      "show": [
+        "mars"
+      ],
+      "audio": "solar_system_s6.mp3"
+    },
+    {
+      "duration": 11000,
+      "script": {
+        "en": "Jupiter is the biggest. Those stripes are storms.",
+        "hi": "बृहस्पति सबसे बड़ा है। वे धारियाँ तूफ़ान हैं।",
+        "mr": "गुरू सगळ्यात मोठा आहे. ते पट्टे म्हणजे वादळं आहेत.",
+        "or": "ବୃହସ୍ପତି ସବୁଠାରୁ ବଡ଼। ସେହି ଧାରୀଗୁଡ଼ିକ ଝଡ଼।"
+      },
+      "show": [
+        "jupiter"
+      ],
+      "audio": "solar_system_s7.mp3"
+    },
+    {
+      "duration": 11000,
+      "script": {
+        "en": "Saturn has rings made of ice and rock.",
+        "hi": "शनि के छल्ले बर्फ़ और पत्थर के बने हैं।",
+        "mr": "शनीची कडी बर्फ आणि दगडाची बनलेली आहेत.",
+        "or": "ଶନିର କଡ଼ ବରଫ ଓ ପଥରରେ ତିଆରି।"
+      },
+      "show": [
+        "saturn"
+      ],
+      "audio": "solar_system_s8.mp3"
+    },
+    {
+      "duration": 11000,
+      "script": {
+        "en": "Uranus lies on its side, like a ball rolling along.",
+        "hi": "अरुण अपनी करवट लेटा है, जैसे कोई गेंद लुढ़क रही हो।",
+        "mr": "युरेनस कुशीवर पडलेला आहे, घरंगळणाऱ्या चेंडूसारखा.",
+        "or": "ୟୁରାନସ୍ ପାର୍ଶ୍ୱରେ ଶୋଇଛି, ଗଡ଼ୁଥିବା ବଲ ପରି।"
+      },
+      "show": [
+        "uranus"
+      ],
+      "audio": "solar_system_s9.mp3"
+    },
+    {
+      "duration": 11000,
+      "script": {
+        "en": "Neptune is furthest away, and the coldest of all.",
+        "hi": "वरुण सबसे दूर है, और सबसे ठंडा।",
+        "mr": "नेपच्यून सगळ्यात लांब आहे, आणि सगळ्यात थंड.",
+        "or": "ନେପଚୁନ ସବୁଠାରୁ ଦୂରରେ, ଓ ସବୁଠାରୁ ଥଣ୍ଡା।"
+      },
+      "show": [
+        "neptune"
+      ],
+      "audio": "solar_system_s10.mp3"
+    },
+    {
+      "duration": 22000,
+      "script": {
+        "en": "Look all around you. Eight planets are going round our Sun, and we are inside it.",
+        "hi": "अपने चारों ओर देखो। आठ ग्रह हमारे सूरज के चक्कर लगा रहे हैं, और हम उसी के अंदर हैं।",
+        "mr": "आपल्या चहूकडे बघा. आठ ग्रह आपल्या सूर्याभोवती फिरत आहेत, आणि आपण त्याच्या आत आहोत.",
+        "or": "ନିଜ ଚାରିପଟେ ଦେଖ। ଆଠଟି ଗ୍ରହ ଆମ ସୂର୍ଯ୍ୟ ଚାରିପଟେ ବୁଲୁଛନ୍ତି, ଆଉ ଆମେ ତା ଭିତରେ।"
+      },
+      "show": [
+        "orrery"
+      ],
+      "audio": "solar_system_s11.mp3"
+    }
+  ]
+}

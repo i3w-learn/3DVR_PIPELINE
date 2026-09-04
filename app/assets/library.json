@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03T10:57:49.935Z",
+  "generated": "2026-09-04T07:02:16.859Z",
   "models": {
     "bigtree": {
       "file": "models/bigtree.glb",
@@ -285,6 +285,80 @@
       "licence": "CC0"
     }
   },
+  "planets": {
+    "earth.webp": {
+      "file": "planets/earth.webp",
+      "bytes": 45796,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_earth_daymap.jpg",
+      "licence": "CC-BY"
+    },
+    "jupiter.webp": {
+      "file": "planets/jupiter.webp",
+      "bytes": 41598,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_jupiter.jpg",
+      "licence": "CC-BY"
+    },
+    "mars.webp": {
+      "file": "planets/mars.webp",
+      "bytes": 61926,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_mars.jpg",
+      "licence": "CC-BY"
+    },
+    "mercury.webp": {
+      "file": "planets/mercury.webp",
+      "bytes": 98930,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_mercury.jpg",
+      "licence": "CC-BY"
+    },
+    "moon.webp": {
+      "file": "planets/moon.webp",
+      "bytes": 31872,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_moon.jpg",
+      "licence": "CC-BY"
+    },
+    "neptune.webp": {
+      "file": "planets/neptune.webp",
+      "bytes": 5394,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_neptune.jpg",
+      "licence": "CC-BY"
+    },
+    "saturn-ring.webp": {
+      "file": "planets/saturn-ring.webp",
+      "bytes": 1452,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_saturn_ring_alpha.png",
+      "licence": "CC-BY"
+    },
+    "saturn.webp": {
+      "file": "planets/saturn.webp",
+      "bytes": 9728,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_saturn.jpg",
+      "licence": "CC-BY"
+    },
+    "stars.webp": {
+      "file": "planets/stars.webp",
+      "bytes": 49410,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_stars_milky_way.jpg",
+      "licence": "CC-BY"
+    },
+    "sun.webp": {
+      "file": "planets/sun.webp",
+      "bytes": 88584,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_sun.jpg",
+      "licence": "CC-BY"
+    },
+    "uranus.webp": {
+      "file": "planets/uranus.webp",
+      "bytes": 2426,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_uranus.jpg",
+      "licence": "CC-BY"
+    },
+    "venus.webp": {
+      "file": "planets/venus.webp",
+      "bytes": 86682,
+      "source": "Solar System Scope — solarsystemscope.com/textures — 2k_venus_surface.jpg",
+      "licence": "CC-BY"
+    }
+  },
   "hdri": {
     "cloudy.jpg": {
       "file": "hdri/cloudy.jpg",
@@ -353,7 +427,7 @@
       },
       "cow_about.mp3": {
         "file": "audio/en/cow_about.mp3",
-        "bytes": 21985
+        "bytes": 60647
       },
       "cow.mp3": {
         "file": "audio/en/cow.mp3",
@@ -373,27 +447,27 @@
       },
       "farm_yard_s1.mp3": {
         "file": "audio/en/farm_yard_s1.mp3",
-        "bytes": 49989
+        "bytes": 19269
       },
       "farm_yard_s2.mp3": {
         "file": "audio/en/farm_yard_s2.mp3",
-        "bytes": 20940
+        "bytes": 57303
       },
       "goat_about.mp3": {
         "file": "audio/en/goat_about.mp3",
-        "bytes": 17597
+        "bytes": 17806
       },
       "hen_about.mp3": {
         "file": "audio/en/hen_about.mp3",
-        "bytes": 19478
+        "bytes": 15298
       },
       "horse_about.mp3": {
         "file": "audio/en/horse_about.mp3",
-        "bytes": 22821
+        "bytes": 25956
       },
       "horse.mp3": {
         "file": "audio/en/horse.mp3",
-        "bytes": 8402
+        "bytes": 8611
       },
       "kitchen_about.mp3": {
         "file": "audio/en/kitchen_about.mp3",
@@ -405,15 +479,15 @@
       },
       "our_classroom_s2.mp3": {
         "file": "audio/en/our_classroom_s2.mp3",
-        "bytes": 26583
+        "bytes": 26374
       },
       "our_classroom_s3.mp3": {
         "file": "audio/en/our_classroom_s3.mp3",
-        "bytes": 30136
+        "bytes": 29927
       },
       "our_classroom_s4.mp3": {
         "file": "audio/en/our_classroom_s4.mp3",
-        "bytes": 21985
+        "bytes": 23239
       },
       "our_classroom_s5.mp3": {
         "file": "audio/en/our_classroom_s5.mp3",
@@ -425,7 +499,7 @@
       },
       "physics_lab_s2.mp3": {
         "file": "audio/en/physics_lab_s2.mp3",
-        "bytes": 22194
+        "bytes": 32434
       },
       "physics_lab_s3.mp3": {
         "file": "audio/en/physics_lab_s3.mp3",
@@ -437,7 +511,7 @@
       },
       "playground_s2.mp3": {
         "file": "audio/en/playground_s2.mp3",
-        "bytes": 25329
+        "bytes": 54795
       },
       "playground_s3.mp3": {
         "file": "audio/en/playground_s3.mp3",
@@ -457,7 +531,7 @@
       },
       "school_hall_s2.mp3": {
         "file": "audio/en/school_hall_s2.mp3",
-        "bytes": 30554
+        "bytes": 28255
       },
       "school_hall_s3.mp3": {
         "file": "audio/en/school_hall_s3.mp3",
@@ -481,15 +555,15 @@
       },
       "school_office_s2.mp3": {
         "file": "audio/en/school_office_s2.mp3",
-        "bytes": 22821
+        "bytes": 16343
       },
       "school_office_s3.mp3": {
         "file": "audio/en/school_office_s3.mp3",
-        "bytes": 35569
+        "bytes": 32434
       },
       "school_tour_s1.mp3": {
         "file": "audio/en/school_tour_s1.mp3",
-        "bytes": 28464
+        "bytes": 28673
       },
       "school_tour_s2.mp3": {
         "file": "audio/en/school_tour_s2.mp3",
@@ -498,6 +572,50 @@
       "sheep_about.mp3": {
         "file": "audio/en/sheep_about.mp3",
         "bytes": 21985
+      },
+      "solar_system_s1.mp3": {
+        "file": "audio/en/solar_system_s1.mp3",
+        "bytes": 41212
+      },
+      "solar_system_s10.mp3": {
+        "file": "audio/en/solar_system_s10.mp3",
+        "bytes": 23866
+      },
+      "solar_system_s11.mp3": {
+        "file": "audio/en/solar_system_s11.mp3",
+        "bytes": 38077
+      },
+      "solar_system_s2.mp3": {
+        "file": "audio/en/solar_system_s2.mp3",
+        "bytes": 31598
+      },
+      "solar_system_s3.mp3": {
+        "file": "audio/en/solar_system_s3.mp3",
+        "bytes": 29091
+      },
+      "solar_system_s4.mp3": {
+        "file": "audio/en/solar_system_s4.mp3",
+        "bytes": 30136
+      },
+      "solar_system_s5.mp3": {
+        "file": "audio/en/solar_system_s5.mp3",
+        "bytes": 27001
+      },
+      "solar_system_s6.mp3": {
+        "file": "audio/en/solar_system_s6.mp3",
+        "bytes": 35360
+      },
+      "solar_system_s7.mp3": {
+        "file": "audio/en/solar_system_s7.mp3",
+        "bytes": 27210
+      },
+      "solar_system_s8.mp3": {
+        "file": "audio/en/solar_system_s8.mp3",
+        "bytes": 16552
+      },
+      "solar_system_s9.mp3": {
+        "file": "audio/en/solar_system_s9.mp3",
+        "bytes": 28046
       }
     },
     "hi": {},

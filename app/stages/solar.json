@@ -1,0 +1,24 @@
+{
+  "id": "solar",
+  "sky": {
+    "space": true
+  },
+  "shadows": false,
+  "start": {
+    "position": "0 1.2 0",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "starfield",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "radius": 900,
+        "brightness": 0.32,
+        "stars": 3200
+      }
+    }
+  ]
+}
