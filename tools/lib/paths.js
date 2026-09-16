@@ -25,6 +25,9 @@ export const ROOT = path.resolve(HERE, '..', '..');
  */
 export const APP_DIR = path.join(ROOT, 'app');
 
+/** Every written document lives here, including the generated ones. */
+export const DOCS_DIR = path.join(ROOT, 'docs');
+
 /** Untouched downloads plus their sidecars. Committed, never shipped. */
 export const RAW_DIR = path.join(ROOT, 'raw');
 

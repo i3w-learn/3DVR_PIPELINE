@@ -30,19 +30,32 @@ and nothing in `core` knows that A-Frame or a browser DOM exists.
   ┌──────────────────────────────────────────────────────┐
   │  roles/          teacher.js · headset.js             │  wiring only
   ├──────────────────────────────────────────────────────┤
+  │  lesson-sync.js  the one orchestrator                │  A-Frame
+  ├──────────────────────────────────────────────────────┤
   │  ui/             control-bar · status-strip          │  plain DOM
-  │  components/     lesson-sync · highlight · gaze-tap  │  A-Frame
-  │  templates/      identify · count · match · …        │  A-Frame
+  │  templates/      identify · compare · count · …      │  A-Frame
+  ├──────────────────────────────────────────────────────┤
+  │  builders/       building · room · furniture · …     │  A-Frame
+  │  behaviours/     highlight · tap-target · wander · … │  A-Frame
+  │  scene/          pbr-ground · sky-environment · …    │  A-Frame
   ├──────────────────────────────────────────────────────┤
   │  core/           schema · transport · clock · state  │  pure JS
   └──────────────────────────────────────────────────────┘
 ```
 
+Each of `builders/`, `behaviours/`, `scene/` and `templates/` has an
+`index.js` that imports its members for their registration side effect.
+`main.js` imports those four files and nothing else, so adding a builder is:
+write the file, add one line to `builders/index.js`.
+
 | Layer | May use | May NOT use |
 |---|---|---|
 | `core/` | plain JavaScript | A-Frame, three.js, `document`, `window` |
-| `templates/` | A-Frame, `core/` | `ui/`, `roles/`, other templates |
-| `components/` | A-Frame, `core/`, `templates/` | `ui/`, `roles/` |
+| `builders/` | A-Frame, `core/` | `templates/`, `lesson-sync`, `ui/`, `roles/` |
+| `behaviours/` | A-Frame, `core/` | `templates/`, `lesson-sync`, `ui/`, `roles/` |
+| `scene/` | A-Frame, `core/` | `templates/`, `lesson-sync`, `ui/`, `roles/` |
+| `templates/` | A-Frame, `core/`, `builders/`, `behaviours/`, `scene/` | `ui/`, `roles/`, other templates |
+| `lesson-sync.js` | A-Frame, `core/`, `templates/` | `ui/`, `roles/` |
 | `ui/` | DOM, `core/` | A-Frame internals, `roles/` |
 | `roles/` | everything below | — |
 

@@ -8,31 +8,9 @@
  * See docs/ARCHITECTURE.md §8.
  */
 
-import './components/highlight.js';
-import './components/natural-idle.js';
-import './components/preview-move.js';
-import './components/seat-on-ground.js';
-import './components/tap-target.js';
-import './components/wander.js';
-import './components/auto-open.js';
-import './components/building.js';
-import './components/blackboard.js';
-import './components/door.js';
-import './components/contact-shadow.js';
-import './components/room.js';
-import './components/flagpole.js';
-import './components/furniture.js';
-import './components/gate.js';
-import './components/wall.js';
-import './components/lab.js';
-import './components/path.js';
-import './components/playground.js';
-import './components/portal.js';
-import './components/pbr-ground.js';
-import './components/sky-environment.js';
-import './components/space.js';
-import './components/view-fade.js';
-import './components/scene-look.js';
+import './behaviours/index.js';
+import './builders/index.js';
+import './scene/index.js';
 
 import { LocalTransport } from './core/local-transport.js';
 import { Session } from './core/session.js';
@@ -44,7 +22,7 @@ const transport = new LocalTransport();
 
 const params = new URLSearchParams(location.search);
 const role = params.get('role') ?? 'headset';
-const lessonId = params.get('lesson') ?? 'evs-lkg-farm-animals';
+const lessonId = params.get('lesson') ?? 'evs-lkg-farm-yard';
 const lang = params.get('lang') ?? 'en';
 
 document.body.dataset.role = role;
@@ -80,7 +58,9 @@ scene.addEventListener('loaded', async () => {
   // scene has loaded never joins its tick list, so it initialises, holds
   // state, and is simply never called.
   if (role === 'teacher') {
-    document.querySelector('a-camera').setAttribute('preview-move', '');
+    // On the rig, not the camera. Walking moves the person; the camera is
+    // only their eyes, and in a headset it is not ours to move at all.
+    document.querySelector('#rig').setAttribute('preview-move', '');
 
     // Focus the canvas so walking works on load, without a click first.
     // Keyboard controls that need an undocumented click to wake up read as

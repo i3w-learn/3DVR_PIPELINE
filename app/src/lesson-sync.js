@@ -11,7 +11,7 @@
  * instead, which is what makes it testable with `LocalTransport`.
  */
 
-import { TOPIC } from '../core/transport.js';
+import { TOPIC } from './core/transport.js';
 
 /**
  * How long the animal gets before the narrator starts.
@@ -31,8 +31,8 @@ const SOUND_LEAD_MS = 2500;
  * leave the lesson silent.
  */
 const ARRIVAL_TIMEOUT_MS = 15000;
-import { loadLesson } from '../core/lesson-loader.js';
-import { getTemplate } from '../templates/index.js';
+import { loadLesson } from './core/lesson-loader.js';
+import { getTemplate } from './templates/index.js';
 
 export class LessonSync {
   #transport;
@@ -307,7 +307,7 @@ export class LessonSync {
     if (!camera) return;
 
     const [x, y, z] = String(stage.start.position ?? '0 1.2 0').split(' ').map(Number);
-    camera.object3D.position.set(x, y, z);
+    camera.closest('[viewer-rig]')?.components['viewer-rig']?.moveTo(x, y, z);
 
     const yaw = THREE.MathUtils.degToRad(stage.start.facing ?? 0);
     camera.object3D.rotation.set(0, yaw, 0);

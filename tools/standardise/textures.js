@@ -25,7 +25,7 @@ import path from 'node:path';
 
 import sharp from 'sharp';
 
-import { RAW_DIR, TEXTURES_DIR, relative } from './lib/paths.js';
+import { RAW_DIR, TEXTURES_DIR, relative } from '../lib/paths.js';
 
 const RAW_TEXTURES = path.join(RAW_DIR, 'textures');
 

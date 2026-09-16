@@ -25,8 +25,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { AUDIO_DIR, LESSONS_DIR, relative } from './lib/paths.js';
-import { getProvider, providerNames } from './lib/tts/index.js';
+import { AUDIO_DIR, LESSONS_DIR, relative } from '../lib/paths.js';
+import { getProvider, providerNames } from '../lib/tts/index.js';
 
 async function main() {
   const [lang, ...flags] = process.argv.slice(2);

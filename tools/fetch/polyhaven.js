@@ -20,7 +20,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { RAW_DIR, relative } from './lib/paths.js';
+import { RAW_DIR, relative } from '../lib/paths.js';
 
 const API = 'https://api.polyhaven.com';
 

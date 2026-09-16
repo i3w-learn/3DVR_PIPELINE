@@ -63,7 +63,6 @@ AFRAME.registerComponent('preview-move', {
   schema: {
     speed: { type: 'number', default: 4 },       // metres per second, while held
     tapDistance: { type: 'number', default: 0.4 }, // metres, per press
-    eyeHeight: { type: 'number', default: 1.2 },  // the child's, so sizes read true
   },
 
   init() {
@@ -103,7 +102,10 @@ AFRAME.registerComponent('preview-move', {
     // across the yard without leaving where you are — useful when checking
     // that two animals are the right size relative to each other.
     this.onWheel = (event) => {
-      const camera = this.el.getObject3D('camera');
+      // The scene's camera, not this entity's. This component lives on the rig
+      // now, and a rig has no camera of its own — asking it for one answered
+      // undefined and zoom silently did nothing.
+      const camera = this.el.sceneEl.camera;
       if (!camera) return;
 
       event.preventDefault();
@@ -116,7 +118,11 @@ AFRAME.registerComponent('preview-move', {
     window.addEventListener('keyup', this.onKeyUp);
     window.addEventListener('blur', this.onBlur);
 
-    this.el.object3D.position.y = this.data.eyeHeight;
+    // Height is deliberately NOT set here. `viewer-rig` owns it, and this
+    // component is attached after the rig has already initialised — so
+    // writing a height here overwrote the rig's answer. In a headset the
+    // rig's answer is zero, and putting 1.2 back was the exact double-height
+    // bug the rig was written to remove.
   },
 
   tick(time, delta) {
@@ -130,11 +136,11 @@ AFRAME.registerComponent('preview-move', {
 
     const rig = this.el.object3D;
 
-    // Direction comes from the CAMERA, not from the entity that holds it.
-    // `<a-camera>`'s object3D is a group; look-controls rotates the camera
-    // inside it, so asking the group which way it faces answers with the
-    // world's -Z rather than the viewer's — and W walks backwards.
-    const camera = this.el.getObject3D('camera') ?? rig;
+    // Direction comes from the CAMERA, never from the rig. The rig does not
+    // turn — look-controls turns the camera inside it — so asking the rig
+    // which way it faces answers with the world's -Z rather than the
+    // viewer's, and W walks backwards.
+    const camera = this.el.sceneEl.camera ?? rig;
     camera.getWorldDirection(this.forward);
     this.forward.y = 0;
     this.forward.normalize();
@@ -151,8 +157,9 @@ AFRAME.registerComponent('preview-move', {
     rig.position.addScaledVector(this.direction.normalize(), distance);
 
     // Height is fixed. There is no jumping and no flying: the point is to see
-    // the scene from where a child would, not from a drone.
-    rig.position.y = this.data.eyeHeight;
+    // the scene from where a child would, not from a drone. The rig owns what
+    // that height is, because in a headset the answer is zero.
+    this.el.components['viewer-rig']?.applyHeight();
   },
 
   remove() {

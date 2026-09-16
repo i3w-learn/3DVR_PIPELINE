@@ -443,7 +443,14 @@ AFRAME.registerComponent('planet', {
       // falloff, which is exactly what a directional light is.
       const light = new THREE.DirectionalLight(0xfff4e2, this.data.keyIntensity);
       light.position.set(key.x, key.y, key.z).normalize().multiplyScalar(radius * 8);
-      light.target = this.body;
+      // Aim at an empty at the carriage origin, NOT at `this.body`. A light's
+      // target is a real object in the graph, and `add()` detaches whatever it
+      // is given from its current parent — so targeting the body pulled it out
+      // of `axis`, the group that carries the tilt. Uranus stood up straight,
+      // and Saturn's rings kept a lean the planet no longer had. The body sits
+      // at the carriage origin anyway, so an empty there aims at the same
+      // point and nothing about the lighting changes.
+      light.target = new THREE.Object3D();
       carriage.add(light);
       carriage.add(light.target);
 

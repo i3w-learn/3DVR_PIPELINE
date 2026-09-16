@@ -1,0 +1,16 @@
+{
+  "generated": "2026-09-16T10:27:58.000Z",
+  "lessons": {
+    "evs-lkg-farm-animals": "demo/evs-lkg-farm-animals.json",
+    "evs-lkg-farm-yard": "evs-lkg-farm-yard.json",
+    "evs-ukg-solar-system": "evs-ukg-solar-system.json",
+    "gk-lkg-chem-lab": "demo/gk-lkg-chem-lab.json",
+    "gk-lkg-our-classroom": "demo/gk-lkg-our-classroom.json",
+    "gk-lkg-physics-lab": "demo/gk-lkg-physics-lab.json",
+    "gk-lkg-playground": "demo/gk-lkg-playground.json",
+    "gk-lkg-school-hall": "demo/gk-lkg-school-hall.json",
+    "gk-lkg-school-kitchen": "demo/gk-lkg-school-kitchen.json",
+    "gk-lkg-school-office": "demo/gk-lkg-school-office.json",
+    "gk-lkg-school-tour": "gk-lkg-school-tour.json"
+  }
+}

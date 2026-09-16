@@ -20,13 +20,15 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 import { RULES } from './rules/index.js';
-import { AUDIO_DIR, LESSONS_DIR, LIBRARY_FILE, relative, stageFile } from './lib/paths.js';
+import { findDuplicateIds, findLessons } from '../lib/lessons.js';
+import { AUDIO_DIR, LESSONS_DIR, LIBRARY_FILE, relative, stageFile } from '../lib/paths.js';
 
 async function main() {
   const only = argValue('--lesson');
   const library = await readJson(LIBRARY_FILE, 'Run `npm run content:library` first.');
   const languages = await listLanguages();
-  const lessonIds = only ? [only] : await listLessonIds();
+  const allIds = await listLessonIds();
+  const lessonIds = only ? [only] : allIds;
 
   if (!lessonIds.length) {
     console.log(`No lessons in ${relative(LESSONS_DIR)} yet.`);
@@ -65,7 +67,7 @@ async function main() {
 async function checkLesson(lessonId, { library, languages }) {
   let lesson;
   try {
-    lesson = await readJson(path.join(LESSONS_DIR, `${lessonId}.json`));
+    lesson = await readJson(path.join(LESSONS_DIR, lessonFiles.get(lessonId) ?? `${lessonId}.json`));
   } catch (err) {
     return [{ rule: 'VAL_L1', detail: err.message }];
   }
@@ -135,9 +137,29 @@ function listInstances(kit, lesson) {
   return [...props, ...objects];
 }
 
+/**
+ * Every lesson, wherever it sits.
+ *
+ * `app/lessons/` has subfolders now — `demo/` for the scenes that exercise a
+ * stage kit rather than teach a curriculum topic. A lesson in a subfolder is
+ * validated exactly like any other; the folder changes what it is for, not
+ * what it must satisfy.
+ */
+const lessonFiles = new Map();
+
 async function listLessonIds() {
-  const entries = await fs.readdir(LESSONS_DIR).catch(() => []);
-  return entries.filter((f) => f.endsWith('.json')).map((f) => path.basename(f, '.json')).sort();
+  const lessons = await findLessons();
+
+  const clashes = findDuplicateIds(lessons);
+  if (clashes.length) {
+    for (const clash of clashes) console.error(`  ${clash}`);
+    throw new Error(`${clashes.length} duplicate lesson id(s).`);
+  }
+
+  lessonFiles.clear();
+  for (const lesson of lessons) lessonFiles.set(lesson.id, lesson.file);
+
+  return lessons.map((l) => l.id);
 }
 
 /** Which languages we ship is a fact about the audio folders, not a setting. */

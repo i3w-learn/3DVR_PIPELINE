@@ -22,15 +22,15 @@ import { draco, prune, simplify, textureCompress, weld } from '@gltf-transform/f
 import { MeshoptSimplifier } from 'meshoptimizer';
 import sharp from 'sharp';
 
-import { readSidecar, SidecarError } from './lib/sidecar.js';
-import { readDocument, writeDocument } from './lib/gltf-io.js';
-import { applyContract, ContractError } from './lib/contract.js';
-import { keepOnlyClips } from './lib/clips.js';
-import { normaliseMaterials } from './lib/materials.js';
-import { smoothNormals } from './lib/normals.js';
-import { dropNodes } from './lib/subset.js';
-import { measure } from './lib/measure.js';
-import { MODELS_DIR, RAW_DIR, relative, shippedModel } from './lib/paths.js';
+import { readSidecar, SidecarError } from '../lib/sidecar.js';
+import { readDocument, writeDocument } from '../lib/gltf-io.js';
+import { applyContract, ContractError } from '../lib/contract.js';
+import { keepOnlyClips } from '../lib/clips.js';
+import { normaliseMaterials } from '../lib/materials.js';
+import { smoothNormals } from '../lib/normals.js';
+import { dropNodes } from '../lib/subset.js';
+import { measure } from '../lib/measure.js';
+import { MODELS_DIR, RAW_DIR, relative, shippedModel } from '../lib/paths.js';
 
 /** Textures are capped so a lesson bundle stays inside its 40 MB budget. */
 const MAX_TEXTURE_EDGE = 1024;

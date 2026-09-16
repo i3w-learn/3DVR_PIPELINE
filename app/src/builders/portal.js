@@ -58,6 +58,11 @@ const selfPosition = new THREE.Vector3();
  */
 let travelling = false;
 
+/** The rig this camera is standing on, if the scene has one. */
+function rigOf(cameraEl) {
+  return cameraEl.closest('[viewer-rig]')?.components['viewer-rig'] ?? null;
+}
+
 /**
  * Turn the camera to face a given direction.
  *
@@ -144,7 +149,11 @@ AFRAME.registerComponent('portal', {
     this.el.sceneEl.dataset.arrived = '1';
 
     const { arrive, facing } = this.data;
-    camera.el.object3D.position.set(arrive.x, arrive.y, arrive.z);
+
+    // Move the rig, turn the camera. Where somebody is standing and which way
+    // they are looking are two different things, and in a headset only the
+    // first is ours to set.
+    rigOf(camera.el)?.moveTo(arrive.x, arrive.y, arrive.z);
     aim(camera.el, facing);
 
     this.el.sceneEl.emit('portal-enter', { to: this.data.to });

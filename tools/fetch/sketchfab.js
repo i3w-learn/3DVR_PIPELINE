@@ -26,7 +26,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { promisify } from 'node:util';
 
-import { RAW_DIR, relative } from './lib/paths.js';
+import { RAW_DIR, relative } from '../lib/paths.js';
 
 const run = promisify(execFile);
 const API = 'https://api.sketchfab.com/v3/models';

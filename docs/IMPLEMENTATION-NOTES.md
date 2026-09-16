@@ -239,7 +239,7 @@ never fires if the clip was not allowed to start — autoplay policy, a missing
 file — and a lesson that says nothing is worse than one that speaks early.
 
 Sounds come from Openverse, which indexes Creative Commons audio, needs no key,
-and returns the licence and creator with each result. `tools/fetch-sound.js`
+and returns the licence and creator with each result. `tools/fetch/sound.js`
 records both in a sidecar at download time, trims to four seconds and
 loudness-normalises — sounds arrive at wildly different levels, and a lesson
 where the goat whispers and the elephant shouts has no correct volume setting.
@@ -1221,3 +1221,52 @@ costume. Earlier the corona was too wide and too dim and painted a brown wash
 over half the sky; the fix tightened it, and tightened it past the point where
 it was visible at all. **A falloff has no meaning on its own** — only against
 the size of the thing it belongs to.
+
+## 38. The camera is not the person
+
+Everything that moved a viewer moved the camera: `<a-camera position="0 1.2 0">`
+and three call sites writing to it. That is correct on a flat screen and wrong
+in a headset, in two ways that are really the same way.
+
+**Height doubles.** In VR the headset reports where the head actually is,
+measured from the floor. A-Frame does not remove a position you put on the
+camera yourself — it adds the headset's pose to it. A 1.2 m offset plus a
+seated child's real 1.1 m puts the eyes at 2.3 m, and the world reads as a
+model seen from a stepladder.
+
+**Hands land at the feet.** Controllers are tracked in the same floor-relative
+space as the head. Put them at the scene root while the camera carries its own
+offset, and they sit on the floor and lag behind whenever the viewer walks.
+
+The offset belongs to the **person**, not to their eyes. So there is a rig now:
+the rig is where somebody is standing, the camera sits at zero inside it and
+the headset moves it, and the controllers are siblings of the camera and get
+carried along. On a flat screen the rig carries the eye height itself; in VR it
+drops to zero and lets the headset supply it. Three call sites — walking,
+portals, and a land's own start position — all move the rig through one method.
+
+Turning stayed on the camera. Where somebody stands and which way they look are
+different things, and in a headset only the first is ours to set.
+
+### Hands were never missing — they were never added
+
+A-Frame does not put controllers in a scene for you. There was no controller
+entity of any kind, because the PRD's child chooses by gaze and the teacher
+taps, and neither needs one. Two `laser-controls` entities and two
+`hand-tracking-controls` entities; A-Frame shows whichever the headset reports
+and hides the other. The ray targets `.clickable` — the same class the gaze
+cursor and the mouse pointer already use, so pointing raises the same `click`
+and nothing downstream needed a third code path.
+
+### A getter in a component definition takes the whole app down
+
+`viewer-rig` first had `get immersive()`. A-Frame builds a component's
+prototype by reading every key off the definition object, and **reading a
+getter calls it** — with `this` still the plain object literal, where `this.el`
+is undefined. It threw inside `registerComponent`, which failed the module,
+which failed `main.js`, which imports it.
+
+The symptom was not an error anyone would connect to it: the page rendered, the
+scene loaded, and `document.body.dataset.role` was simply undefined. Only
+`AFRAME.components['viewer-rig'] === false` pointed at the cause. **Never put a
+getter in a component definition.**

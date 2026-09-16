@@ -28,8 +28,8 @@ import path from 'node:path';
 
 import sharp from 'sharp';
 
-import { readHdr, toneMap } from './lib/hdr.js';
-import { ASSETS_DIR, RAW_DIR, relative } from './lib/paths.js';
+import { readHdr, toneMap } from '../lib/hdr.js';
+import { ASSETS_DIR, RAW_DIR, relative } from '../lib/paths.js';
 
 const RAW_HDRI = path.join(RAW_DIR, 'hdri');
 const HDRI_DIR = path.join(ASSETS_DIR, 'hdri');

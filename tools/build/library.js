@@ -18,9 +18,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { readSidecar } from './lib/sidecar.js';
-import { readDocument } from './lib/gltf-io.js';
-import { measure } from './lib/measure.js';
+import { readSidecar } from '../lib/sidecar.js';
+import { readDocument } from '../lib/gltf-io.js';
+import { measure } from '../lib/measure.js';
 import {
   ASSETS_DIR,
   AUDIO_DIR,
@@ -31,7 +31,7 @@ import {
   SFX_DIR,
   TEXTURES_DIR,
   relative,
-} from './lib/paths.js';
+} from '../lib/paths.js';
 
 async function main() {
   const [models, textures, planets, hdri, sfx, audio] = await Promise.all([

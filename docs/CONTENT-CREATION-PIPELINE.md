@@ -197,7 +197,7 @@ not `"scale": 1.3` or `"rotation": 40`.
 
 ### Station 3 — Generate the library manifest
 
-`tools/build-library.js` reads the files on disk and writes `/assets/library.json`.
+`tools/build/library.js` reads the files on disk and writes `/assets/library.json`.
 Humans do not edit that file.
 
 Measured from the glb: `height`, `triangles`, `meshes` (draw-call proxy),
@@ -301,7 +301,7 @@ because the model already honours the metre contract.
 
 ### Station 6 — Validate, then headset
 
-`tools/validate-lessons.js` runs on a laptop, no headset:
+`tools/check/lessons.js` runs on a laptop, no headset:
 
 | Check | How |
 |---|---|
@@ -585,7 +585,7 @@ Reject if `id` ≠ `cow` when the file is `raw/cow.glb`.
 
 ### 12.2 Library — `/assets/library.json`
 
-**Generated only** by `tools/build-library.js`.
+**Generated only** by `tools/build/library.js`.
 
 ```
 Library {
@@ -809,16 +809,16 @@ appends of meshes, fetch of a new glb.
 
 ```
 tools/standardise.sh <id>
-tools/build-library.js
-tools/validate-lessons.js [--lesson evs-lkg-farm-animals]
+tools/build/library.js
+tools/check/lessons.js [--lesson evs-lkg-farm-animals]
 ```
 
 Suggested npm scripts (app does not import these):
 
 ```
 "content:std":     "tools/standardise.sh"
-"content:library": "node tools/build-library.js"
-"content:check":   "node tools/validate-lessons.js"
+"content:library": "node tools/build/library.js"
+"content:check":   "node tools/check/lessons.js"
 ```
 
 CI: `content:library` then `content:check`. Never commit a hand-edited

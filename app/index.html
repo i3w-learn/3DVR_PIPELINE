@@ -99,9 +99,43 @@
     fuse means gaze-and-dwell, so nothing has to be held. A three-year-old
     should not need a controller.
   -->
-  <a-camera position="0 1.2 0" wasd-controls-enabled="false" look-controls view-fade>
-    <a-cursor fuse="true" fuse-timeout="800" raycaster="objects: .clickable"></a-cursor>
-  </a-camera>
+  <a-entity id="rig" viewer-rig>
+
+    <!--
+      Zero, not 1.2. The height lives on the rig now — see viewer-rig for why
+      leaving it here put the child's eyes at two and a half metres in VR.
+    -->
+    <a-camera position="0 0 0" wasd-controls-enabled="false" look-controls view-fade>
+      <a-cursor fuse="true" fuse-timeout="800" raycaster="objects: .clickable"></a-cursor>
+    </a-camera>
+
+    <!--
+      Hands, and the two ways a Quest offers them.
+
+      `laser-controls` draws whichever controller is actually connected and
+      gives it a pointing ray. `hand-tracking-controls` draws real hands when
+      the controllers are put down. Both are declared; A-Frame shows whichever
+      the headset is reporting and hides the other, so nothing has to choose.
+
+      They are siblings of the camera and inside the rig, because tracked poses
+      are measured from the floor of the same space the head is. Anywhere else
+      and the hands sit at the viewer's feet.
+
+      The ray targets `.clickable`, the same class the gaze cursor and the
+      teacher's mouse pointer use — so pointing at a planet raises the same
+      `click` a look or a tap does, and nothing downstream needs a third path.
+    -->
+    <a-entity laser-controls="hand: left"
+              raycaster="objects: .clickable; far: 40"
+              line="color: #ffe14d; opacity: 0.55"></a-entity>
+    <a-entity laser-controls="hand: right"
+              raycaster="objects: .clickable; far: 40"
+              line="color: #ffe14d; opacity: 0.55"></a-entity>
+
+    <a-entity hand-tracking-controls="hand: left"></a-entity>
+    <a-entity hand-tracking-controls="hand: right"></a-entity>
+
+  </a-entity>
 
   <!--
     A second cursor, driven by mouse or touch instead of by gaze.

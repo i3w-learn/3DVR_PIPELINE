@@ -30,7 +30,7 @@ import path from 'node:path';
 
 import sharp from 'sharp';
 
-import { APP_DIR, RAW_DIR, relative } from './lib/paths.js';
+import { APP_DIR, RAW_DIR, relative } from '../lib/paths.js';
 
 const BASE = 'https://www.solarsystemscope.com/textures/download';
 const CREDIT = 'Solar System Scope — solarsystemscope.com/textures';

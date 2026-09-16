@@ -6,7 +6,7 @@
  * belongs to the one tablet in the room.
  */
 
-import { LessonSync } from '../components/lesson-sync.js';
+import { LessonSync } from '../lesson-sync.js';
 import { FpsMeter } from '../core/fps-meter.js';
 import { TOPIC } from '../core/transport.js';
 

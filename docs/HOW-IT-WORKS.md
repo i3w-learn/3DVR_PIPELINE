@@ -77,7 +77,7 @@ funded programme can ship. It is also the only one needing a key.
 
 **CC0 was never required.** CC-BY works too — it costs a credit, not money —
 and dropping the CC0-only rule is what made realistic animals possible at all.
-`app/CREDITS.md` is generated from the library, so an asset cannot be in the
+`docs/CREDITS.md` is generated from the library, so an asset cannot be in the
 build and missing from the credits. CC-BY-**NC** is refused at download.
 
 ---
@@ -91,7 +91,7 @@ build and missing from the credits. CC-BY-**NC** is refused at download.
 ### 1 — Bring a model in
 
 ```bash
-SKETCHFAB_TOKEN=… node tools/fetch-sketchfab.js <uid> realcow 1.45
+SKETCHFAB_TOKEN=… node tools/fetch/sketchfab.js <uid> realcow 1.45
 ```
 
 Downloads into `raw/realcow/` and writes a **sidecar**, `raw/realcow.meta.json`.

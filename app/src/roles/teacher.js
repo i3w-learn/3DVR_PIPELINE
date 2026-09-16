@@ -8,7 +8,7 @@
  * too.
  */
 
-import { LessonSync } from '../components/lesson-sync.js';
+import { LessonSync } from '../lesson-sync.js';
 import { Clock } from '../core/clock.js';
 import { loadLesson } from '../core/lesson-loader.js';
 import { Session } from '../core/session.js';

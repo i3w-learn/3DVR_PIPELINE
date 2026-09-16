@@ -19,9 +19,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { APP_DIR, LIBRARY_FILE, relative } from './lib/paths.js';
+import { DOCS_DIR, LIBRARY_FILE, relative } from '../lib/paths.js';
 
-const CREDITS_FILE = path.join(APP_DIR, 'CREDITS.md');
+const CREDITS_FILE = path.join(DOCS_DIR, 'CREDITS.md');
 
 /** Licences that oblige us to name the author. CC0 does not. */
 const NEEDS_ATTRIBUTION = new Set(['CC-BY']);

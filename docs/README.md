@@ -2,18 +2,18 @@
 
 A teacher-led VR classroom for children aged 3–6.
 
-**Start with [`docs/HOW-IT-WORKS.md`](docs/HOW-IT-WORKS.md)** — what this is
+**Start with [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md)** — what this is
 built from and what happens between downloading a model and a child meeting a
 cow. Everything else in `docs/`:
 
 | | |
 |---|---|
-| [`VR-Learning-PRD.md`](docs/VR-Learning-PRD.md) | the product — what and why |
-| [`HOW-IT-WORKS.md`](docs/HOW-IT-WORKS.md) | the tour — stack and flow |
-| [`ARCHITECTURE.md`](docs/ARCHITECTURE.md) | code layout and the rules that keep it |
-| [`CONTENT-ARCHITECTURE.md`](docs/CONTENT-ARCHITECTURE.md) | library, stage and lesson kept apart |
-| [`CONTENT-CREATION-PIPELINE.md`](docs/CONTENT-CREATION-PIPELINE.md) | the six stations, with schemas |
-| [`IMPLEMENTATION-NOTES.md`](docs/IMPLEMENTATION-NOTES.md) | where the code differs from the docs, and every bug that cost real time |
+| [`VR-Learning-PRD.md`](VR-Learning-PRD.md) | the product — what and why |
+| [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) | the tour — stack and flow |
+| [`ARCHITECTURE.md`](ARCHITECTURE.md) | code layout and the rules that keep it |
+| [`CONTENT-ARCHITECTURE.md`](CONTENT-ARCHITECTURE.md) | library, stage and lesson kept apart |
+| [`CONTENT-CREATION-PIPELINE.md`](CONTENT-CREATION-PIPELINE.md) | the six stations, with schemas |
+| [`IMPLEMENTATION-NOTES.md`](IMPLEMENTATION-NOTES.md) | where the code differs from the docs, and every bug that cost real time |
 
 ## Run it
 
@@ -62,12 +62,12 @@ npm run content:std              # raw/  →  app/assets/models/*.glb
 npm run content:textures         # raw/textures/  →  app/assets/textures/
 npm run content:hdri             # raw/hdri/*.hdr  →  app/assets/hdri/*.jpg
 npm run content:library          # measure everything  →  app/assets/library.json
-npm run content:credits          # library.json  →  app/CREDITS.md
+npm run content:credits          # library.json  →  docs/CREDITS.md
 npm run content:check            # validate every lesson against the library
 npm run content:build            # library + credits + check
 
-node tools/build-narration.js en                    # laptop voice, English
-node tools/build-narration.js or --provider gemini  # needs GEMINI_API_KEY
+node tools/build/narration.js en                    # laptop voice, English
+node tools/build/narration.js or --provider gemini  # needs GEMINI_API_KEY
 ```
 
 ### Pulling a model from Sketchfab
@@ -76,7 +76,7 @@ The only source with rigged, textured animals under a licence this programme
 can ship. Needs a free API token (Sketchfab → Settings → Password & API).
 
 ```bash
-SKETCHFAB_TOKEN=… node tools/fetch-sketchfab.js <uid> <id> <heightInMetres> [clips…]
+SKETCHFAB_TOKEN=… node tools/fetch/sketchfab.js <uid> <id> <heightInMetres> [clips…]
 ```
 
 It writes the sidecar with the author and licence recorded, and refuses
@@ -139,7 +139,7 @@ asset is weight in the bundle and a licence to audit for nothing.
 | Openverse (CC0/CC-BY) | six animal sounds |
 | Kenney (CC0) | fence, rock |
 
-`app/CREDITS.md` is generated from the library and lists every attribution.
+`CREDITS.md` is generated from the library and lists every attribution.
 
 ## Placeholder content, to be replaced before the pilot
 

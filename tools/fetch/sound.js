@@ -21,7 +21,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { promisify } from 'node:util';
 
-import { ASSETS_DIR, RAW_DIR, relative } from './lib/paths.js';
+import { ASSETS_DIR, RAW_DIR, relative } from '../lib/paths.js';
 
 const run = promisify(execFile);
 const API = 'https://api.openverse.org/v1/audio/';
