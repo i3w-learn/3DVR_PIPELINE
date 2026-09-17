@@ -25,6 +25,9 @@ const SAMPLE_STRIDE = 11;
 /** Room around the model, so a near miss still counts as a tap. */
 const PADDING = 1.15;
 
+/** How many frames to wait for a built object's primitives to appear. */
+const BUILD_ATTEMPTS = 12;
+
 AFRAME.registerComponent('tap-target', {
   init() {
     this.build = this.build.bind(this);
@@ -32,16 +35,21 @@ AFRAME.registerComponent('tap-target', {
     this.build();
   },
 
-  build() {
+  build(attempt = 0) {
     // A frame late, so the mixer has posed the skeleton. Measuring before that
     // measures the bind pose — the very thing this exists to work around.
     cancelAnimationFrame(this.pending);
     this.pending = requestAnimationFrame(() => {
-      const mesh = this.el.getObject3D('mesh');
-      if (!mesh) return;
+      const bounds = posedBounds(this.roots(), this.el.object3D);
 
-      const bounds = posedBounds(mesh, this.el.object3D);
-      if (!bounds) return;
+      if (!bounds) {
+        // A built object's primitives do not exist until A-Frame has attached
+        // the child entities, which is not always within one frame. Silence
+        // here was a counter that simply could not be tapped, with nothing in
+        // the console to say so.
+        if (attempt < BUILD_ATTEMPTS) this.build(attempt + 1);
+        return;
+      }
 
       this.box ??= this.makeBox();
 
@@ -55,6 +63,27 @@ AFRAME.registerComponent('tap-target', {
         z: (bounds.min[2] + bounds.max[2]) / 2,
       });
     });
+  },
+
+  /**
+   * What to measure.
+   *
+   * A downloaded model is a single mesh on the entity itself. A built object —
+   * a counter, a letter card — is a child entity holding a primitive, and the
+   * entity has no mesh of its own, so asking for `getObject3D('mesh')` found
+   * nothing and the object could not be tapped at all. The sort template is
+   * entirely taps, so this was the difference between a lesson and a picture.
+   *
+   * The hit box is left out on purpose: measuring it would fold the last
+   * box's padding into the next one, and it would grow on every rebuild.
+   */
+  roots() {
+    const own = this.el.getObject3D('mesh');
+    if (own) return [own];
+
+    return [...this.el.children]
+      .filter((child) => child !== this.box && child.object3D)
+      .map((child) => child.object3D);
   },
 
   makeBox() {
@@ -81,34 +110,36 @@ AFRAME.registerComponent('tap-target', {
   },
 });
 
-/** Posed bounds, in `space`. Skinned vertices are asked directly. */
-function posedBounds(root, space) {
+/** Posed bounds over every root, in `space`. Skinned vertices are asked directly. */
+function posedBounds(roots, space) {
   const min = [Infinity, Infinity, Infinity];
   const max = [-Infinity, -Infinity, -Infinity];
   let any = false;
 
-  root.updateWorldMatrix(true, true);
+  for (const root of roots) {
+    root.updateWorldMatrix(true, true);
 
-  root.traverse((object) => {
-    if (!object.isMesh) return;
+    root.traverse((object) => {
+      if (!object.isMesh) return;
 
-    const positions = object.geometry?.getAttribute('position');
-    if (!positions) return;
+      const positions = object.geometry?.getAttribute('position');
+      if (!positions) return;
 
-    for (let i = 0; i < positions.count; i += SAMPLE_STRIDE) {
-      if (object.isSkinnedMesh) object.getVertexPosition(i, vertex);
-      else vertex.fromBufferAttribute(positions, i);
+      for (let i = 0; i < positions.count; i += SAMPLE_STRIDE) {
+        if (object.isSkinnedMesh) object.getVertexPosition(i, vertex);
+        else vertex.fromBufferAttribute(positions, i);
 
-      object.localToWorld(vertex);
-      space.worldToLocal(vertex);
+        object.localToWorld(vertex);
+        space.worldToLocal(vertex);
 
-      for (let axis = 0; axis < 3; axis += 1) {
-        if (vertex.getComponent(axis) < min[axis]) min[axis] = vertex.getComponent(axis);
-        if (vertex.getComponent(axis) > max[axis]) max[axis] = vertex.getComponent(axis);
+        for (let axis = 0; axis < 3; axis += 1) {
+          if (vertex.getComponent(axis) < min[axis]) min[axis] = vertex.getComponent(axis);
+          if (vertex.getComponent(axis) > max[axis]) max[axis] = vertex.getComponent(axis);
+        }
+        any = true;
       }
-      any = true;
-    }
-  });
+    });
+  }
 
   return any ? { min, max } : null;
 }
