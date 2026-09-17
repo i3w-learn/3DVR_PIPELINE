@@ -116,6 +116,16 @@
       "params": {}
     },
     {
+      "build": "almirah",
+      "position": "-3.3 0 -6.15",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 1.1,
+        "height": 1.9,
+        "depth": 0.48
+      }
+    },
+    {
       "build": "portal",
       "position": "0 0 2.2",
       "rotation": "0 0 0",
