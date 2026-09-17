@@ -15,10 +15,12 @@
 
 import './blackboard.js';
 import './building.js';
+import './counter.js';
 import './door.js';
 import './flagpole.js';
 import './furniture.js';
 import './gate.js';
+import './glyph.js';
 import './lab.js';
 import './path.js';
 import './playground.js';
