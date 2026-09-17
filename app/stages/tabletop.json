@@ -1,0 +1,92 @@
+{
+  "id": "tabletop",
+  "sky": {
+    "hdri": "cloudy.jpg",
+    "intensity": 0.35
+  },
+  "ground": {
+    "color": "paving_color.jpg",
+    "normal": "paving_normal.jpg",
+    "rough": "paving_rough.jpg",
+    "ao": "paving_ao.jpg",
+    "repeat": 40
+  },
+  "sun": {
+    "position": "2.5 5 3",
+    "color": "#fff4e4",
+    "intensity": 0.55
+  },
+  "light": {
+    "sky": "#eef2f5",
+    "ground": "#c2b49a",
+    "intensity": 1.15
+  },
+  "shadows": false,
+  "start": {
+    "position": "0 0.98 0.45",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "room",
+      "position": "0 0 -1.6",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 5.2,
+        "depth": 5.2,
+        "height": 2.8,
+        "windows": 1,
+        "wall": "#f2ece0",
+        "dado": "#9fb3b8",
+        "floor": "#b3a68f"
+      },
+      "contact": false
+    },
+    {
+      "build": "mats",
+      "position": "0 0 0.1",
+      "rotation": "0 0 0",
+      "params": {
+        "rows": 1,
+        "columns": 1,
+        "width": 1.1,
+        "depth": 0.9
+      },
+      "contact": false
+    },
+    {
+      "build": "table",
+      "position": "0 0 -0.85",
+      "rotation": "0 0 0",
+      "params": {
+        "width": 1.6,
+        "depth": 0.8,
+        "height": 0.52,
+        "top": "#c99a5e",
+        "leg": "#8a6238"
+      }
+    },
+    {
+      "build": "shelf",
+      "position": "-2.3 0 -1.9",
+      "rotation": "0 90 0",
+      "params": {
+        "width": 1.3,
+        "height": 0.85,
+        "shelves": 3
+      }
+    },
+    {
+      "build": "chart",
+      "position": "0 1.75 -4.1",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "width": 1.2,
+        "height": 0.8,
+        "rows": 3,
+        "columns": 4
+      }
+    }
+  ]
+}
