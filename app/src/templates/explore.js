@@ -17,6 +17,8 @@
  * where the child does.
  */
 
+import { createObject, clearHighlights } from './scene.js';
+
 /** Only one animal talks at a time, or a yard of twelve becomes noise. */
 let speaking = null;
 
@@ -25,7 +27,9 @@ export default {
 
   build(stage, { lesson }) {
     for (const object of lesson.objects) {
-      stage.appendChild(createObject(object));
+      const el = createObject(object, { tappable: true });
+      el.addEventListener('click', () => choose(el));
+      stage.appendChild(el);
     }
   },
 
@@ -44,49 +48,6 @@ export default {
     speaking = null;
   },
 };
-
-function createObject({ id, model, build, params, position, rotation, scale, clip, clipSpeed, wander, audio, script }) {
-  const el = document.createElement('a-entity');
-
-  el.setAttribute('id', id);
-
-  // An object is either downloaded or built. A school tour taps buildings, and
-  // a building is boxes — so the same `build` a stage prop uses works here.
-  if (build) el.setAttribute(build, params ?? {});
-  else el.setAttribute('gltf-model', `assets/models/${model}.glb`);
-  el.setAttribute('position', position);
-  el.setAttribute('rotation', rotation ?? '0 0 0');
-  el.setAttribute('scale', scale ?? '1 1 1');
-
-  if (clip) {
-    // Speed belongs to the lesson, not to the model. The same eat cycle is
-    // right for a horse and far too fast for a hen, and only the person
-    // watching it can say so.
-    el.setAttribute('animation-mixer', { clip, timeScale: clipSpeed ?? 1 });
-    el.setAttribute('natural-idle', '');
-    // A clip can lift the root off the ground; only animated models need this.
-    el.setAttribute('seat-on-ground', '');
-
-    // An animal that should be going somewhere. Without this a walk clip plays
-    // on something that never leaves its spot, and the legs and the position
-    // contradict each other.
-    if (wander) el.setAttribute('wander', wander);
-  }
-
-  // What makes it choosable — a plain box the size of the posed animal, added
-  // by `tap-target`. The animal's own mesh is NOT `.clickable`: three.js
-  // raycasts a skinned mesh against its bind pose and would miss it entirely.
-  el.setAttribute('tap-target', '');
-
-  // The line this object says, carried on the object rather than looked up —
-  // a template should not have to search a lesson to answer a tap.
-  el.dataset.audio = audio ?? '';
-  el.dataset.script = JSON.stringify(script ?? {});
-
-  el.addEventListener('click', () => choose(el));
-
-  return el;
-}
 
 /**
  * A child has picked something.
@@ -121,8 +82,4 @@ function choose(el) {
     { id: el.id, walking, script: JSON.parse(el.dataset.script || '{}') },
     true
   );
-}
-
-function clearHighlights(stage) {
-  for (const child of stage.children) child.removeAttribute('highlight');
 }
