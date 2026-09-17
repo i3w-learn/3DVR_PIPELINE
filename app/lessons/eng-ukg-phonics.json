@@ -1,0 +1,709 @@
+{
+  "id": "eng-ukg-phonics",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "p1",
+      "build": "glyph",
+      "params": {
+        "char": "A",
+        "height": 0.19
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "p2",
+      "build": "glyph",
+      "params": {
+        "char": "B",
+        "height": 0.19
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "p3",
+      "build": "glyph",
+      "params": {
+        "char": "C",
+        "height": 0.19
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "p4",
+      "build": "glyph",
+      "params": {
+        "char": "D",
+        "height": 0.19
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "p5",
+      "build": "glyph",
+      "params": {
+        "char": "E",
+        "height": 0.19
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "p6",
+      "build": "glyph",
+      "params": {
+        "char": "F",
+        "height": 0.19
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "p7",
+      "build": "glyph",
+      "params": {
+        "char": "G",
+        "height": 0.19
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "p8",
+      "build": "glyph",
+      "params": {
+        "char": "H",
+        "height": 0.19
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "p9",
+      "build": "glyph",
+      "params": {
+        "char": "I",
+        "height": 0.19
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "p10",
+      "build": "glyph",
+      "params": {
+        "char": "J",
+        "height": 0.19
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "p11",
+      "build": "glyph",
+      "params": {
+        "char": "K",
+        "height": 0.19
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "p12",
+      "build": "glyph",
+      "params": {
+        "char": "L",
+        "height": 0.19
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "p13",
+      "build": "glyph",
+      "params": {
+        "char": "M",
+        "height": 0.19
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "p14",
+      "build": "glyph",
+      "params": {
+        "char": "N",
+        "height": 0.19
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "p15",
+      "build": "glyph",
+      "params": {
+        "char": "O",
+        "height": 0.19
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "p16",
+      "build": "glyph",
+      "params": {
+        "char": "P",
+        "height": 0.19
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "p17",
+      "build": "glyph",
+      "params": {
+        "char": "Q",
+        "height": 0.19
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "p18",
+      "build": "glyph",
+      "params": {
+        "char": "R",
+        "height": 0.19
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "p19",
+      "build": "glyph",
+      "params": {
+        "char": "S",
+        "height": 0.19
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "p20",
+      "build": "glyph",
+      "params": {
+        "char": "T",
+        "height": 0.19
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "p21",
+      "build": "glyph",
+      "params": {
+        "char": "U",
+        "height": 0.19
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "p22",
+      "build": "glyph",
+      "params": {
+        "char": "V",
+        "height": 0.19
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "p23",
+      "build": "glyph",
+      "params": {
+        "char": "W",
+        "height": 0.19
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "p24",
+      "build": "glyph",
+      "params": {
+        "char": "X",
+        "height": 0.19
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "p25",
+      "build": "glyph",
+      "params": {
+        "char": "Y",
+        "height": 0.19
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "p26",
+      "build": "glyph",
+      "params": {
+        "char": "Z",
+        "height": 0.19
+      },
+      "position": "0.000 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब ये अक्षर देखो।",
+        "en": "Now look at these letters."
+      }
+    },
+    {
+      "highlight": "p1",
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "A की ध्वनि — a।",
+        "en": "A says “a”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p2",
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "B की ध्वनि — buh।",
+        "en": "B says “buh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p3",
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "C की ध्वनि — kuh।",
+        "en": "C says “kuh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p4",
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "D की ध्वनि — duh।",
+        "en": "D says “duh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p5",
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "E की ध्वनि — eh।",
+        "en": "E says “eh”. Say it with me."
+      }
+    },
+    {
+      "show": [
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब ये अक्षर देखो।",
+        "en": "Now look at these letters."
+      }
+    },
+    {
+      "highlight": "p6",
+      "show": [
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "F की ध्वनि — fuh।",
+        "en": "F says “fuh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p7",
+      "show": [
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "G की ध्वनि — guh।",
+        "en": "G says “guh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p8",
+      "show": [
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "H की ध्वनि — huh।",
+        "en": "H says “huh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p9",
+      "show": [
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "I की ध्वनि — ih।",
+        "en": "I says “ih”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p10",
+      "show": [
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "J की ध्वनि — juh।",
+        "en": "J says “juh”. Say it with me."
+      }
+    },
+    {
+      "show": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब ये अक्षर देखो।",
+        "en": "Now look at these letters."
+      }
+    },
+    {
+      "highlight": "p11",
+      "show": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "K की ध्वनि — kuh।",
+        "en": "K says “kuh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p12",
+      "show": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "L की ध्वनि — luh।",
+        "en": "L says “luh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p13",
+      "show": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "M की ध्वनि — muh।",
+        "en": "M says “muh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p14",
+      "show": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "N की ध्वनि — nuh।",
+        "en": "N says “nuh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p15",
+      "show": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "O की ध्वनि — oh।",
+        "en": "O says “oh”. Say it with me."
+      }
+    },
+    {
+      "show": [
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब ये अक्षर देखो।",
+        "en": "Now look at these letters."
+      }
+    },
+    {
+      "highlight": "p16",
+      "show": [
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "P की ध्वनि — puh।",
+        "en": "P says “puh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p17",
+      "show": [
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "Q की ध्वनि — kwuh।",
+        "en": "Q says “kwuh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p18",
+      "show": [
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "R की ध्वनि — ruh।",
+        "en": "R says “ruh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p19",
+      "show": [
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "S की ध्वनि — sss।",
+        "en": "S says “sss”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p20",
+      "show": [
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "T की ध्वनि — tuh।",
+        "en": "T says “tuh”. Say it with me."
+      }
+    },
+    {
+      "show": [
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब ये अक्षर देखो।",
+        "en": "Now look at these letters."
+      }
+    },
+    {
+      "highlight": "p21",
+      "show": [
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "U की ध्वनि — uh।",
+        "en": "U says “uh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p22",
+      "show": [
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "V की ध्वनि — vuh।",
+        "en": "V says “vuh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p23",
+      "show": [
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "W की ध्वनि — wuh।",
+        "en": "W says “wuh”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p24",
+      "show": [
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "X की ध्वनि — ks।",
+        "en": "X says “ks”. Say it with me."
+      }
+    },
+    {
+      "highlight": "p25",
+      "show": [
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "Y की ध्वनि — yuh।",
+        "en": "Y says “yuh”. Say it with me."
+      }
+    },
+    {
+      "show": [
+        "p26"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब ये अक्षर देखो।",
+        "en": "Now look at these letters."
+      }
+    },
+    {
+      "highlight": "p26",
+      "show": [
+        "p26"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "Z की ध्वनि — zuh।",
+        "en": "Z says “zuh”. Say it with me."
+      }
+    }
+  ]
+}

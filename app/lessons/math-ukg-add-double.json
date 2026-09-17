@@ -1,0 +1,223 @@
+{
+  "id": "math-ukg-add-double",
+  "template": "count",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "a1",
+      "build": "glyph",
+      "params": {
+        "char": "10",
+        "height": 0.2
+      },
+      "position": "-0.520 0.520 -0.850"
+    },
+    {
+      "id": "op1",
+      "build": "glyph",
+      "params": {
+        "char": "+",
+        "height": 0.22,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "-0.260 0.520 -0.850"
+    },
+    {
+      "id": "b1",
+      "build": "glyph",
+      "params": {
+        "char": "5",
+        "height": 0.2
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "eq1",
+      "build": "glyph",
+      "params": {
+        "char": "=",
+        "height": 0.22,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "0.240 0.520 -0.850"
+    },
+    {
+      "id": "a2",
+      "build": "glyph",
+      "params": {
+        "char": "12",
+        "height": 0.2
+      },
+      "position": "-0.520 0.520 -0.850"
+    },
+    {
+      "id": "op2",
+      "build": "glyph",
+      "params": {
+        "char": "+",
+        "height": 0.22,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "-0.260 0.520 -0.850"
+    },
+    {
+      "id": "b2",
+      "build": "glyph",
+      "params": {
+        "char": "6",
+        "height": 0.2
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "eq2",
+      "build": "glyph",
+      "params": {
+        "char": "=",
+        "height": 0.22,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "0.240 0.520 -0.850"
+    },
+    {
+      "id": "a3",
+      "build": "glyph",
+      "params": {
+        "char": "20",
+        "height": 0.2
+      },
+      "position": "-0.520 0.520 -0.850"
+    },
+    {
+      "id": "op3",
+      "build": "glyph",
+      "params": {
+        "char": "+",
+        "height": 0.22,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "-0.260 0.520 -0.850"
+    },
+    {
+      "id": "b3",
+      "build": "glyph",
+      "params": {
+        "char": "15",
+        "height": 0.2
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "eq3",
+      "build": "glyph",
+      "params": {
+        "char": "=",
+        "height": 0.22,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "0.240 0.520 -0.850"
+    },
+    {
+      "id": "tally",
+      "build": "glyph",
+      "params": {
+        "char": "0",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.470 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "a1",
+        "op1",
+        "b1"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "10 + 5। सोचो।",
+        "en": "10 + 5. Have a think."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "op1",
+        "b1",
+        "eq1",
+        "tally"
+      ],
+      "tally": 15,
+      "highlight": "a1",
+      "duration": 7000,
+      "script": {
+        "hi": "10 और 5 — 15।",
+        "en": "10 plus 5 is 15."
+      }
+    },
+    {
+      "show": [
+        "a2",
+        "op2",
+        "b2"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "12 + 6। सोचो।",
+        "en": "12 + 6. Have a think."
+      }
+    },
+    {
+      "show": [
+        "a2",
+        "op2",
+        "b2",
+        "eq2",
+        "tally"
+      ],
+      "tally": 18,
+      "highlight": "a2",
+      "duration": 7000,
+      "script": {
+        "hi": "12 और 6 — 18।",
+        "en": "12 plus 6 is 18."
+      }
+    },
+    {
+      "show": [
+        "a3",
+        "op3",
+        "b3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "20 + 15। सोचो।",
+        "en": "20 + 15. Have a think."
+      }
+    },
+    {
+      "show": [
+        "a3",
+        "op3",
+        "b3",
+        "eq3",
+        "tally"
+      ],
+      "tally": 35,
+      "highlight": "a3",
+      "duration": 7000,
+      "script": {
+        "hi": "20 और 15 — 35।",
+        "en": "20 plus 15 is 35."
+      }
+    }
+  ]
+}

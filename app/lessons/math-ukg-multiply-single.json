@@ -1,0 +1,272 @@
+{
+  "id": "math-ukg-multiply-single",
+  "template": "count",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "g11",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.580 0.520 -0.700"
+    },
+    {
+      "id": "g12",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.475 0.520 -0.700"
+    },
+    {
+      "id": "g13",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.370 0.520 -0.700"
+    },
+    {
+      "id": "g14",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.265 0.520 -0.700"
+    },
+    {
+      "id": "g21",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "-0.580 0.520 -0.845"
+    },
+    {
+      "id": "g22",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "-0.475 0.520 -0.845"
+    },
+    {
+      "id": "g23",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "-0.370 0.520 -0.845"
+    },
+    {
+      "id": "g24",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "-0.265 0.520 -0.845"
+    },
+    {
+      "id": "g31",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#6a9955",
+        "size": 0.075
+      },
+      "position": "-0.580 0.520 -0.990"
+    },
+    {
+      "id": "g32",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#6a9955",
+        "size": 0.075
+      },
+      "position": "-0.475 0.520 -0.990"
+    },
+    {
+      "id": "g33",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#6a9955",
+        "size": 0.075
+      },
+      "position": "-0.370 0.520 -0.990"
+    },
+    {
+      "id": "g34",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#6a9955",
+        "size": 0.075
+      },
+      "position": "-0.265 0.520 -0.990"
+    },
+    {
+      "id": "tally",
+      "build": "glyph",
+      "params": {
+        "char": "0",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.470 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "g11",
+        "g12",
+        "g13",
+        "tally"
+      ],
+      "tally": 3,
+      "highlight": "g11",
+      "duration": 6000,
+      "script": {
+        "hi": "1 पंक्ति में 3।",
+        "en": "1 row of 3."
+      }
+    },
+    {
+      "show": [
+        "g11",
+        "g12",
+        "g13",
+        "g21",
+        "g22",
+        "g23",
+        "tally"
+      ],
+      "tally": 6,
+      "highlight": "g21",
+      "duration": 6000,
+      "script": {
+        "hi": "2 पंक्ति में 3।",
+        "en": "2 row of 3."
+      }
+    },
+    {
+      "show": [
+        "g11",
+        "g12",
+        "g13",
+        "g21",
+        "g22",
+        "g23",
+        "tally"
+      ],
+      "tally": 6,
+      "duration": 7000,
+      "script": {
+        "hi": "2 × 3 = 6।",
+        "en": "2 × 3 is 6."
+      }
+    },
+    {
+      "show": [
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "tally"
+      ],
+      "tally": 4,
+      "highlight": "g11",
+      "duration": 6000,
+      "script": {
+        "hi": "1 पंक्ति में 4।",
+        "en": "1 row of 4."
+      }
+    },
+    {
+      "show": [
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g21",
+        "g22",
+        "g23",
+        "g24",
+        "tally"
+      ],
+      "tally": 8,
+      "highlight": "g21",
+      "duration": 6000,
+      "script": {
+        "hi": "2 पंक्ति में 4।",
+        "en": "2 row of 4."
+      }
+    },
+    {
+      "show": [
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g21",
+        "g22",
+        "g23",
+        "g24",
+        "g31",
+        "g32",
+        "g33",
+        "g34",
+        "tally"
+      ],
+      "tally": 12,
+      "highlight": "g31",
+      "duration": 6000,
+      "script": {
+        "hi": "3 पंक्ति में 4।",
+        "en": "3 row of 4."
+      }
+    },
+    {
+      "show": [
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g21",
+        "g22",
+        "g23",
+        "g24",
+        "g31",
+        "g32",
+        "g33",
+        "g34",
+        "tally"
+      ],
+      "tally": 12,
+      "duration": 7000,
+      "script": {
+        "hi": "3 × 4 = 12।",
+        "en": "3 × 4 is 12."
+      }
+    }
+  ]
+}

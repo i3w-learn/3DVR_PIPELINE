@@ -1,0 +1,174 @@
+{
+  "id": "math-ukg-compare-numbers",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "l1",
+      "build": "glyph",
+      "params": {
+        "char": "7",
+        "height": 0.24
+      },
+      "position": "-0.340 0.520 -0.850"
+    },
+    {
+      "id": "s1",
+      "build": "glyph",
+      "params": {
+        "char": ">",
+        "height": 0.26,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "r1",
+      "build": "glyph",
+      "params": {
+        "char": "3",
+        "height": 0.24
+      },
+      "position": "0.340 0.520 -0.850"
+    },
+    {
+      "id": "l2",
+      "build": "glyph",
+      "params": {
+        "char": "2",
+        "height": 0.24
+      },
+      "position": "-0.340 0.520 -0.850"
+    },
+    {
+      "id": "s2",
+      "build": "glyph",
+      "params": {
+        "char": "<",
+        "height": 0.26,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "r2",
+      "build": "glyph",
+      "params": {
+        "char": "8",
+        "height": 0.24
+      },
+      "position": "0.340 0.520 -0.850"
+    },
+    {
+      "id": "l3",
+      "build": "glyph",
+      "params": {
+        "char": "5",
+        "height": 0.24
+      },
+      "position": "-0.340 0.520 -0.850"
+    },
+    {
+      "id": "s3",
+      "build": "glyph",
+      "params": {
+        "char": "=",
+        "height": 0.26,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "r3",
+      "build": "glyph",
+      "params": {
+        "char": "5",
+        "height": 0.24
+      },
+      "position": "0.340 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "l1",
+        "r1"
+      ],
+      "highlight": "l1",
+      "against": "r1",
+      "duration": 6000,
+      "script": {
+        "hi": "7 और 3 देखो।",
+        "en": "Look at 7 and 3."
+      }
+    },
+    {
+      "show": [
+        "l1",
+        "s1",
+        "r1"
+      ],
+      "highlight": "s1",
+      "duration": 7000,
+      "script": {
+        "hi": "7, 3 से बड़ा है।",
+        "en": "7 is greater than 3."
+      }
+    },
+    {
+      "show": [
+        "l2",
+        "r2"
+      ],
+      "highlight": "l2",
+      "against": "r2",
+      "duration": 6000,
+      "script": {
+        "hi": "2 और 8 देखो।",
+        "en": "Look at 2 and 8."
+      }
+    },
+    {
+      "show": [
+        "l2",
+        "s2",
+        "r2"
+      ],
+      "highlight": "s2",
+      "duration": 7000,
+      "script": {
+        "hi": "2, 8 से छोटा है।",
+        "en": "2 is less than 8."
+      }
+    },
+    {
+      "show": [
+        "l3",
+        "r3"
+      ],
+      "highlight": "l3",
+      "against": "r3",
+      "duration": 6000,
+      "script": {
+        "hi": "5 और 5 देखो।",
+        "en": "Look at 5 and 5."
+      }
+    },
+    {
+      "show": [
+        "l3",
+        "s3",
+        "r3"
+      ],
+      "highlight": "s3",
+      "duration": 7000,
+      "script": {
+        "hi": "5, 5 से बराबर है।",
+        "en": "5 is equal to 5."
+      }
+    }
+  ]
+}

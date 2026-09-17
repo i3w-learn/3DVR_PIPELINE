@@ -43,6 +43,17 @@ export const HDRI_DIR = path.join(ASSETS_DIR, 'hdri');
 /** Animal sounds and other effects. Not narration — narration is per language. */
 export const SFX_DIR = path.join(ASSETS_DIR, 'sfx');
 
+/**
+ * Vendored libraries and the generated MSDF font atlases.
+ *
+ * Fonts are not under /assets because they are not content — no lesson names
+ * one, and the intake contract does not apply to them. They sit with aframe
+ * and the Draco decoder, which is what they are: things the shell needs to
+ * run at all.
+ */
+export const LIB_DIR = path.join(APP_DIR, 'lib');
+export const FONTS_DIR = path.join(LIB_DIR, 'fonts');
+
 /** The generated asset catalogue. Never hand-edited. */
 export const LIBRARY_FILE = path.join(ASSETS_DIR, 'library.json');
 

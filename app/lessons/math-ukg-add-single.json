@@ -1,0 +1,278 @@
+{
+  "id": "math-ukg-add-single",
+  "template": "count",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "a1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "a2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.512 0.520 -0.850"
+    },
+    {
+      "id": "a3",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.604 0.520 -0.850"
+    },
+    {
+      "id": "a4",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.696 0.520 -0.850"
+    },
+    {
+      "id": "op",
+      "build": "glyph",
+      "params": {
+        "char": "+",
+        "height": 0.24,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "-0.310 0.520 -0.850"
+    },
+    {
+      "id": "b1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "-0.200 0.520 -0.850"
+    },
+    {
+      "id": "b2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "-0.108 0.520 -0.850"
+    },
+    {
+      "id": "b3",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "-0.016 0.520 -0.850"
+    },
+    {
+      "id": "b4",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "0.076 0.520 -0.850"
+    },
+    {
+      "id": "eq",
+      "build": "glyph",
+      "params": {
+        "char": "=",
+        "height": 0.24,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "0.250 0.520 -0.850"
+    },
+    {
+      "id": "tally",
+      "build": "glyph",
+      "params": {
+        "char": "0",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.470 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "a1",
+        "a2",
+        "tally"
+      ],
+      "tally": 2,
+      "highlight": "a2",
+      "duration": 6000,
+      "script": {
+        "hi": "पहले गिनो — 2।",
+        "en": "Count these first — 2."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "op",
+        "b1",
+        "b2",
+        "b3",
+        "tally"
+      ],
+      "tally": 3,
+      "highlight": "b3",
+      "duration": 6000,
+      "script": {
+        "hi": "अब ये गिनो — 3।",
+        "en": "Now count these — 3."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "op",
+        "b1",
+        "b2",
+        "b3",
+        "eq",
+        "tally"
+      ],
+      "tally": 5,
+      "duration": 7000,
+      "script": {
+        "hi": "2 और 3 मिलकर 5।",
+        "en": "2 and 3 together make 5."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "tally"
+      ],
+      "tally": 4,
+      "highlight": "a4",
+      "duration": 6000,
+      "script": {
+        "hi": "पहले गिनो — 4।",
+        "en": "Count these first — 4."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "op",
+        "b1",
+        "tally"
+      ],
+      "tally": 1,
+      "highlight": "b1",
+      "duration": 6000,
+      "script": {
+        "hi": "अब ये गिनो — 1।",
+        "en": "Now count these — 1."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "op",
+        "b1",
+        "eq",
+        "tally"
+      ],
+      "tally": 5,
+      "duration": 7000,
+      "script": {
+        "hi": "4 और 1 मिलकर 5।",
+        "en": "4 and 1 together make 5."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "tally"
+      ],
+      "tally": 3,
+      "highlight": "a3",
+      "duration": 6000,
+      "script": {
+        "hi": "पहले गिनो — 3।",
+        "en": "Count these first — 3."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "op",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "tally"
+      ],
+      "tally": 4,
+      "highlight": "b4",
+      "duration": 6000,
+      "script": {
+        "hi": "अब ये गिनो — 4।",
+        "en": "Now count these — 4."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "op",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "eq",
+        "tally"
+      ],
+      "tally": 7,
+      "duration": 7000,
+      "script": {
+        "hi": "3 और 4 मिलकर 7।",
+        "en": "3 and 4 together make 7."
+      }
+    }
+  ]
+}

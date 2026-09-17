@@ -21,12 +21,13 @@ import path from 'node:path';
 
 import { RULES } from './rules/index.js';
 import { findDuplicateIds, findLessons } from '../lib/lessons.js';
-import { AUDIO_DIR, LESSONS_DIR, LIBRARY_FILE, relative, stageFile } from '../lib/paths.js';
+import { AUDIO_DIR, FONTS_DIR, LESSONS_DIR, LIBRARY_FILE, relative, stageFile } from '../lib/paths.js';
 
 async function main() {
   const only = argValue('--lesson');
   const library = await readJson(LIBRARY_FILE, 'Run `npm run content:library` first.');
   const languages = await listLanguages();
+  const glyphs = await listGlyphs();
   const allIds = await listLessonIds();
   const lessonIds = only ? [only] : allIds;
 
@@ -38,7 +39,7 @@ async function main() {
   let failed = 0;
 
   for (const lessonId of lessonIds) {
-    const problems = await checkLesson(lessonId, { library, languages });
+    const problems = await checkLesson(lessonId, { library, languages, glyphs });
 
     if (problems.length) {
       failed += 1;
@@ -64,7 +65,7 @@ async function main() {
  * Context building can fail on its own (unparseable JSON, missing stage kit).
  * Those are reported as rules L1 and L3 so the output has one shape.
  */
-async function checkLesson(lessonId, { library, languages }) {
+async function checkLesson(lessonId, { library, languages, glyphs }) {
   let lesson;
   try {
     lesson = await readJson(path.join(LESSONS_DIR, lessonFiles.get(lessonId) ?? `${lessonId}.json`));
@@ -97,6 +98,7 @@ async function checkLesson(lessonId, { library, languages }) {
     resolvedStage,
     library,
     languages,
+    glyphs,
     instances: listInstances(kit, lesson),
   };
 
@@ -160,6 +162,34 @@ async function listLessonIds() {
   for (const lesson of lessons) lessonFiles.set(lesson.id, lesson.file);
 
   return lessons.map((l) => l.id);
+}
+
+/**
+ * Every character the shipped font atlases can draw.
+ *
+ * Read from the generated atlases rather than from the charset in
+ * `tools/build/fonts.js`, so the check is against what is actually on disk. A
+ * charset that was edited but never regenerated is exactly the case that would
+ * otherwise pass here and draw nothing on a headset.
+ */
+async function listGlyphs() {
+  const glyphs = new Set();
+
+  let files;
+  try {
+    files = await fs.readdir(FONTS_DIR);
+  } catch {
+    return glyphs; // No atlases generated yet. VAL_L16 stays quiet.
+  }
+
+  for (const file of files.filter((f) => f.endsWith('.json'))) {
+    const atlas = await readJson(path.join(FONTS_DIR, file));
+    for (const char of atlas.chars ?? []) {
+      glyphs.add(String.fromCodePoint(char.id));
+    }
+  }
+
+  return glyphs;
 }
 
 /** Which languages we ship is a fact about the audio folders, not a setting. */

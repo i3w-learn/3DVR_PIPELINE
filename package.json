@@ -8,10 +8,11 @@
     "content:std": "node tools/standardise/models.js",
     "content:textures": "node tools/standardise/textures.js",
     "content:hdri": "node tools/standardise/hdri.js",
+    "content:fonts": "node tools/build/fonts.js",
     "content:library": "node tools/build/library.js",
     "content:credits": "node tools/build/credits.js",
     "content:check": "node tools/check/lessons.js",
-    "content:build": "npm run content:library && npm run content:credits && npm run content:lessons && npm run content:check",
+    "content:build": "npm run content:fonts && npm run content:library && npm run content:credits && npm run content:lessons && npm run content:check",
     "serve": "node tools/serve.js",
     "content:lessons": "node tools/build/lessons.js"
   },
@@ -22,5 +23,8 @@
     "draco3dgltf": "^1.5.7",
     "meshoptimizer": "^1.2.0",
     "sharp": "^0.34.1"
+  },
+  "devDependencies": {
+    "msdf-bmfont-xml": "^2.8.0"
   }
 }

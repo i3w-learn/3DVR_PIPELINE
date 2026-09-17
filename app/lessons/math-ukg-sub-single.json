@@ -1,0 +1,232 @@
+{
+  "id": "math-ukg-sub-single",
+  "template": "count",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "a1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "a2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.512 0.520 -0.850"
+    },
+    {
+      "id": "a3",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.604 0.520 -0.850"
+    },
+    {
+      "id": "a4",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.696 0.520 -0.850"
+    },
+    {
+      "id": "a5",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.075
+      },
+      "position": "-0.788 0.520 -0.850"
+    },
+    {
+      "id": "op",
+      "build": "glyph",
+      "params": {
+        "char": "-",
+        "height": 0.24,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "-0.310 0.520 -0.850"
+    },
+    {
+      "id": "eq",
+      "build": "glyph",
+      "params": {
+        "char": "=",
+        "height": 0.24,
+        "bare": true,
+        "ink": "#b4451f"
+      },
+      "position": "0.250 0.520 -0.850"
+    },
+    {
+      "id": "tally",
+      "build": "glyph",
+      "params": {
+        "char": "0",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.470 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "tally"
+      ],
+      "tally": 5,
+      "highlight": "a5",
+      "duration": 6000,
+      "script": {
+        "hi": "पहले गिनो — 5।",
+        "en": "Count these first — 5."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "op",
+        "tally"
+      ],
+      "tally": 3,
+      "duration": 7000,
+      "script": {
+        "hi": "2 हटा दो।",
+        "en": "Take 2 away."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "op",
+        "eq",
+        "tally"
+      ],
+      "tally": 3,
+      "duration": 7000,
+      "script": {
+        "hi": "5 में से 2 गए, बचे 3।",
+        "en": "5 take away 2 leaves 3."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "tally"
+      ],
+      "tally": 4,
+      "highlight": "a4",
+      "duration": 6000,
+      "script": {
+        "hi": "पहले गिनो — 4।",
+        "en": "Count these first — 4."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "op",
+        "tally"
+      ],
+      "tally": 1,
+      "duration": 7000,
+      "script": {
+        "hi": "3 हटा दो।",
+        "en": "Take 3 away."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "op",
+        "eq",
+        "tally"
+      ],
+      "tally": 1,
+      "duration": 7000,
+      "script": {
+        "hi": "4 में से 3 गए, बचे 1।",
+        "en": "4 take away 3 leaves 1."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "tally"
+      ],
+      "tally": 5,
+      "highlight": "a5",
+      "duration": 6000,
+      "script": {
+        "hi": "पहले गिनो — 5।",
+        "en": "Count these first — 5."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "op",
+        "tally"
+      ],
+      "tally": 4,
+      "duration": 7000,
+      "script": {
+        "hi": "1 हटा दो।",
+        "en": "Take 1 away."
+      }
+    },
+    {
+      "show": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "op",
+        "eq",
+        "tally"
+      ],
+      "tally": 4,
+      "duration": 7000,
+      "script": {
+        "hi": "5 में से 1 गए, बचे 4।",
+        "en": "5 take away 1 leaves 4."
+      }
+    }
+  ]
+}

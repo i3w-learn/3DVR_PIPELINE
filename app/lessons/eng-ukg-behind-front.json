@@ -1,0 +1,94 @@
+{
+  "id": "eng-ukg-behind-front",
+  "template": "compare",
+  "stage": "classroom",
+  "objects": [
+    {
+      "id": "rockA",
+      "model": "rock",
+      "position": "-1.400 0.000 -3.400"
+    },
+    {
+      "id": "henA",
+      "model": "realhen",
+      "position": "-1.400 0.000 -2.500",
+      "rotation": "0 170 0"
+    },
+    {
+      "id": "rockB",
+      "model": "rock",
+      "position": "1.400 0.000 -3.400"
+    },
+    {
+      "id": "henB",
+      "model": "realhen",
+      "position": "1.400 0.000 -4.200",
+      "rotation": "0 10 0"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "rockA",
+        "henA"
+      ],
+      "highlight": "rockA",
+      "duration": 6000,
+      "script": {
+        "hi": "यह पत्थर है, और यह मुर्गी।",
+        "en": "Here is a rock, and here is a hen."
+      }
+    },
+    {
+      "show": [
+        "rockA",
+        "henA"
+      ],
+      "highlight": "henA",
+      "against": "rockA",
+      "duration": 7000,
+      "script": {
+        "hi": "मुर्गी पत्थर के आगे है।",
+        "en": "The hen is in front of the rock."
+      }
+    },
+    {
+      "show": [
+        "rockB",
+        "henB"
+      ],
+      "highlight": "rockB",
+      "duration": 6000,
+      "script": {
+        "hi": "अब देखो।",
+        "en": "Now look at this one."
+      }
+    },
+    {
+      "show": [
+        "rockB",
+        "henB"
+      ],
+      "highlight": "henB",
+      "against": "rockB",
+      "duration": 7000,
+      "script": {
+        "hi": "मुर्गी पत्थर के पीछे है।",
+        "en": "The hen is behind the rock."
+      }
+    },
+    {
+      "show": [
+        "rockA",
+        "henA",
+        "rockB",
+        "henB"
+      ],
+      "duration": 8000,
+      "script": {
+        "hi": "आगे और पीछे — याद रखो।",
+        "en": "In front, and behind. Remember them."
+      }
+    }
+  ]
+}

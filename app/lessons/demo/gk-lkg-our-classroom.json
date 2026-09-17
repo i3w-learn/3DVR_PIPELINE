@@ -27,17 +27,6 @@
         "depth": 1.0,
         "gap": 0.35
       }
-    },
-    {
-      "id": "almirah",
-      "build": "almirah",
-      "position": "-3.3 0 -6.15",
-      "rotation": "0 0 0",
-      "params": {
-        "width": 1.1,
-        "height": 1.9,
-        "depth": 0.48
-      }
     }
   ],
   "steps": [

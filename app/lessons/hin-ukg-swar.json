@@ -1,0 +1,308 @@
+{
+  "id": "hin-ukg-swar",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "swar1",
+      "build": "glyph",
+      "params": {
+        "char": "अ",
+        "height": 0.18
+      },
+      "position": "-0.575 0.520 -0.850"
+    },
+    {
+      "id": "swar2",
+      "build": "glyph",
+      "params": {
+        "char": "आ",
+        "height": 0.18
+      },
+      "position": "-0.345 0.520 -0.850"
+    },
+    {
+      "id": "swar3",
+      "build": "glyph",
+      "params": {
+        "char": "इ",
+        "height": 0.18
+      },
+      "position": "-0.115 0.520 -0.850"
+    },
+    {
+      "id": "swar4",
+      "build": "glyph",
+      "params": {
+        "char": "ई",
+        "height": 0.18
+      },
+      "position": "0.115 0.520 -0.850"
+    },
+    {
+      "id": "swar5",
+      "build": "glyph",
+      "params": {
+        "char": "उ",
+        "height": 0.18
+      },
+      "position": "0.345 0.520 -0.850"
+    },
+    {
+      "id": "swar6",
+      "build": "glyph",
+      "params": {
+        "char": "ऊ",
+        "height": 0.18
+      },
+      "position": "0.575 0.520 -0.850"
+    },
+    {
+      "id": "swar7",
+      "build": "glyph",
+      "params": {
+        "char": "ऋ",
+        "height": 0.18
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "swar8",
+      "build": "glyph",
+      "params": {
+        "char": "ए",
+        "height": 0.18
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "swar9",
+      "build": "glyph",
+      "params": {
+        "char": "ऐ",
+        "height": 0.18
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "swar10",
+      "build": "glyph",
+      "params": {
+        "char": "ओ",
+        "height": 0.18
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "swar11",
+      "build": "glyph",
+      "params": {
+        "char": "औ",
+        "height": 0.18
+      },
+      "position": "0.460 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "swar1",
+        "swar2",
+        "swar3",
+        "swar4",
+        "swar5",
+        "swar6"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब ये स्वर देखो।",
+        "en": "Now look at these vowels."
+      }
+    },
+    {
+      "highlight": "swar1",
+      "show": [
+        "swar1",
+        "swar2",
+        "swar3",
+        "swar4",
+        "swar5",
+        "swar6"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह अ है। बोलो — अ।",
+        "en": "This is अ, said “a”. Say it with me."
+      }
+    },
+    {
+      "highlight": "swar2",
+      "show": [
+        "swar1",
+        "swar2",
+        "swar3",
+        "swar4",
+        "swar5",
+        "swar6"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह आ है। बोलो — आ।",
+        "en": "This is आ, said “aa”. Say it with me."
+      }
+    },
+    {
+      "highlight": "swar3",
+      "show": [
+        "swar1",
+        "swar2",
+        "swar3",
+        "swar4",
+        "swar5",
+        "swar6"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह इ है। बोलो — इ।",
+        "en": "This is इ, said “i”. Say it with me."
+      }
+    },
+    {
+      "highlight": "swar4",
+      "show": [
+        "swar1",
+        "swar2",
+        "swar3",
+        "swar4",
+        "swar5",
+        "swar6"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ई है। बोलो — ई।",
+        "en": "This is ई, said “ee”. Say it with me."
+      }
+    },
+    {
+      "highlight": "swar5",
+      "show": [
+        "swar1",
+        "swar2",
+        "swar3",
+        "swar4",
+        "swar5",
+        "swar6"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह उ है। बोलो — उ।",
+        "en": "This is उ, said “u”. Say it with me."
+      }
+    },
+    {
+      "highlight": "swar6",
+      "show": [
+        "swar1",
+        "swar2",
+        "swar3",
+        "swar4",
+        "swar5",
+        "swar6"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ऊ है। बोलो — ऊ।",
+        "en": "This is ऊ, said “oo”. Say it with me."
+      }
+    },
+    {
+      "show": [
+        "swar7",
+        "swar8",
+        "swar9",
+        "swar10",
+        "swar11"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब ये स्वर देखो।",
+        "en": "Now look at these vowels."
+      }
+    },
+    {
+      "highlight": "swar7",
+      "show": [
+        "swar7",
+        "swar8",
+        "swar9",
+        "swar10",
+        "swar11"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ऋ है। बोलो — ऋ।",
+        "en": "This is ऋ, said “ri”. Say it with me."
+      }
+    },
+    {
+      "highlight": "swar8",
+      "show": [
+        "swar7",
+        "swar8",
+        "swar9",
+        "swar10",
+        "swar11"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ए है। बोलो — ए।",
+        "en": "This is ए, said “e”. Say it with me."
+      }
+    },
+    {
+      "highlight": "swar9",
+      "show": [
+        "swar7",
+        "swar8",
+        "swar9",
+        "swar10",
+        "swar11"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ऐ है। बोलो — ऐ।",
+        "en": "This is ऐ, said “ai”. Say it with me."
+      }
+    },
+    {
+      "highlight": "swar10",
+      "show": [
+        "swar7",
+        "swar8",
+        "swar9",
+        "swar10",
+        "swar11"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ओ है। बोलो — ओ।",
+        "en": "This is ओ, said “o”. Say it with me."
+      }
+    },
+    {
+      "highlight": "swar11",
+      "show": [
+        "swar7",
+        "swar8",
+        "swar9",
+        "swar10",
+        "swar11"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह औ है। बोलो — औ।",
+        "en": "This is औ, said “au”. Say it with me."
+      }
+    }
+  ]
+}

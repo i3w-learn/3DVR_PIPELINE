@@ -22,7 +22,15 @@ export const BUDGET = {
   minStepDuration: 1000, // ms
 };
 
-export const TEMPLATES = ['identify', 'count', 'match', 'sequence', 'explore'];
+/**
+ * The templates that exist in app/src/templates.
+ *
+ * Only implemented ones belong here. `sequence` was listed before it was
+ * written, which meant a lesson could name it, pass validation, and then throw
+ * "Unknown template" on a headset — exactly the class of failure this file
+ * exists to catch on a laptop. It goes back in the day it is built.
+ */
+export const TEMPLATES = ['identify', 'explore', 'compare', 'count', 'match', 'sort'];
 
 /** A-Frame vec3 strings: "x y z", decimals and negatives allowed. */
 const VEC3 = /^-?\d+(\.\d+)?( -?\d+(\.\d+)?){2}$/;
@@ -48,7 +56,7 @@ export const RULES = [
 
   {
     id: 'VAL_L3',
-    title: 'template is one of the five',
+    title: 'template is one that exists',
     check: ({ lesson }) =>
       TEMPLATES.includes(lesson.template)
         ? []
@@ -84,7 +92,7 @@ export const RULES = [
 
   {
     id: 'VAL_L6',
-    title: 'highlight and visibility name real objects',
+    title: 'every object a step names exists',
     check: ({ lesson }) => {
       const ids = new Set(lesson.objects.map((o) => o.id));
       const problems = [];
@@ -97,12 +105,26 @@ export const RULES = [
         problems.push('two objects share an id — ids must be unique within a lesson');
       }
 
+      // Every way a step can point at something. `compare` names its second
+      // object with `against`, `match` with `partner`, `sort` with `answer`,
+      // and any template may reveal with `show`. A typo in any one of them is
+      // a step that silently points at nothing — the scene simply does not
+      // light up, and there is no way to tell that from a lesson that meant
+      // to light up nothing.
+      //
+      // `explore` steps name none of these: there, a step is an invitation and
+      // the child chooses.
+      const POINTERS = ['highlight', 'against', 'partner', 'answer', 'show'];
+
       lesson.steps.forEach((step, i) => {
-        // `explore` steps are invitations, not instructions — they highlight
-        // nothing, because the child chooses.
-        if (step.highlight && !ids.has(step.highlight)) {
-          problems.push(`steps[${i}] highlights "${step.highlight}", which is not an object`);
+        for (const field of POINTERS) {
+          for (const id of [step[field]].flat().filter(Boolean)) {
+            if (!ids.has(id)) {
+              problems.push(`steps[${i}].${field} names "${id}", which is not an object`);
+            }
+          }
         }
+
         for (const key of Object.keys(step.visible ?? {})) {
           if (!ids.has(key)) {
             problems.push(`steps[${i}].visible names "${key}", which is not an object`);
@@ -299,5 +321,74 @@ export const RULES = [
               `${i.where} has ${field}: ${JSON.stringify(i.raw[field])} — expected "x y z"`
           )
       ),
+  },
+
+  {
+    id: 'VAL_L16',
+    title: 'every glyph a lesson draws is in a shipped font atlas',
+    check: ({ lesson, glyphs }) => {
+      // No atlases on disk yet — `npm run content:fonts` has not been run.
+      // Silence here rather than failing every lesson: the rule checks glyph
+      // coverage, and with no atlas there is no coverage question to answer.
+      if (!glyphs?.size) return [];
+
+      const drawn = [
+        ...lesson.objects
+          .filter((o) => o.build === 'glyph')
+          .map((o) => [String(o.params?.char ?? ''), `object "${o.id}"`]),
+        ...lesson.steps.map((step, i) => [
+          step.tally == null ? '' : String(step.tally),
+          `steps[${i}].tally`,
+        ]),
+      ];
+
+      return drawn.flatMap(([text, where]) => {
+        const missing = [...new Set([...text])].filter((c) => c !== ' ' && !glyphs.has(c));
+
+        return missing.map((c) => {
+          const code = c.codePointAt(0).toString(16).toUpperCase().padStart(4, '0');
+          return (
+            `${where} draws "${c}" (U+${code}), which is in no atlas — ` +
+            'add it to the charset in tools/build/fonts.js and rerun `npm run content:fonts`'
+          );
+        });
+      });
+    },
+  },
+
+  {
+    id: 'VAL_L17',
+    title: 'every object is used by at least one step',
+    check: ({ lesson }) => {
+      // An object no step ever mentions is not neutral. If the lesson switches
+      // anything at all, the unmentioned object is never switched — so it
+      // stands there for the whole lesson while everything around it comes and
+      // goes. A counting lesson grew two spare beads this way, one at each end
+      // of the sum, and a child counting the row would have got the wrong
+      // answer while every other check passed.
+      //
+      // Scenery belongs to the stage kit, which is exactly why a lesson object
+      // that teaches nothing is a mistake rather than a decoration.
+      const used = new Set();
+
+      for (const step of lesson.steps) {
+        for (const field of ['highlight', 'against', 'partner', 'answer', 'show']) {
+          for (const id of [step[field]].flat().filter(Boolean)) used.add(id);
+        }
+        for (const id of Object.keys(step.visible ?? {})) used.add(id);
+      }
+
+      // `explore` is the exception by design: there no step names anything,
+      // because the child chooses what to look at.
+      if (lesson.template === 'explore') return [];
+
+      // The running total is written by the `count` template rather than named
+      // by a step, so it is used even when nothing points at it.
+      const written = lesson.template === 'count' ? new Set([lesson.tally ?? 'tally']) : new Set();
+
+      return lesson.objects
+        .filter((o) => !used.has(o.id) && !written.has(o.id))
+        .map((o) => `object "${o.id}" is never named by any step — it will stand there all lesson`);
+    },
   },
 ];

@@ -1,0 +1,889 @@
+{
+  "id": "hin-ukg-vyanjan",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "v1",
+      "build": "glyph",
+      "params": {
+        "char": "क",
+        "height": 0.18
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "v2",
+      "build": "glyph",
+      "params": {
+        "char": "ख",
+        "height": 0.18
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "v3",
+      "build": "glyph",
+      "params": {
+        "char": "ग",
+        "height": 0.18
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "v4",
+      "build": "glyph",
+      "params": {
+        "char": "घ",
+        "height": 0.18
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "v5",
+      "build": "glyph",
+      "params": {
+        "char": "ङ",
+        "height": 0.18
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "v6",
+      "build": "glyph",
+      "params": {
+        "char": "च",
+        "height": 0.18
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "v7",
+      "build": "glyph",
+      "params": {
+        "char": "छ",
+        "height": 0.18
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "v8",
+      "build": "glyph",
+      "params": {
+        "char": "ज",
+        "height": 0.18
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "v9",
+      "build": "glyph",
+      "params": {
+        "char": "झ",
+        "height": 0.18
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "v10",
+      "build": "glyph",
+      "params": {
+        "char": "ञ",
+        "height": 0.18
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "v11",
+      "build": "glyph",
+      "params": {
+        "char": "ट",
+        "height": 0.18
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "v12",
+      "build": "glyph",
+      "params": {
+        "char": "ठ",
+        "height": 0.18
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "v13",
+      "build": "glyph",
+      "params": {
+        "char": "ड",
+        "height": 0.18
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "v14",
+      "build": "glyph",
+      "params": {
+        "char": "ढ",
+        "height": 0.18
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "v15",
+      "build": "glyph",
+      "params": {
+        "char": "ण",
+        "height": 0.18
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "v16",
+      "build": "glyph",
+      "params": {
+        "char": "त",
+        "height": 0.18
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "v17",
+      "build": "glyph",
+      "params": {
+        "char": "थ",
+        "height": 0.18
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "v18",
+      "build": "glyph",
+      "params": {
+        "char": "द",
+        "height": 0.18
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "v19",
+      "build": "glyph",
+      "params": {
+        "char": "ध",
+        "height": 0.18
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "v20",
+      "build": "glyph",
+      "params": {
+        "char": "न",
+        "height": 0.18
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "v21",
+      "build": "glyph",
+      "params": {
+        "char": "प",
+        "height": 0.18
+      },
+      "position": "-0.460 0.520 -0.850"
+    },
+    {
+      "id": "v22",
+      "build": "glyph",
+      "params": {
+        "char": "फ",
+        "height": 0.18
+      },
+      "position": "-0.230 0.520 -0.850"
+    },
+    {
+      "id": "v23",
+      "build": "glyph",
+      "params": {
+        "char": "ब",
+        "height": 0.18
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "v24",
+      "build": "glyph",
+      "params": {
+        "char": "भ",
+        "height": 0.18
+      },
+      "position": "0.230 0.520 -0.850"
+    },
+    {
+      "id": "v25",
+      "build": "glyph",
+      "params": {
+        "char": "म",
+        "height": 0.18
+      },
+      "position": "0.460 0.520 -0.850"
+    },
+    {
+      "id": "v26",
+      "build": "glyph",
+      "params": {
+        "char": "य",
+        "height": 0.18
+      },
+      "position": "-0.345 0.520 -0.850"
+    },
+    {
+      "id": "v27",
+      "build": "glyph",
+      "params": {
+        "char": "र",
+        "height": 0.18
+      },
+      "position": "-0.115 0.520 -0.850"
+    },
+    {
+      "id": "v28",
+      "build": "glyph",
+      "params": {
+        "char": "ल",
+        "height": 0.18
+      },
+      "position": "0.115 0.520 -0.850"
+    },
+    {
+      "id": "v29",
+      "build": "glyph",
+      "params": {
+        "char": "व",
+        "height": 0.18
+      },
+      "position": "0.345 0.520 -0.850"
+    },
+    {
+      "id": "v30",
+      "build": "glyph",
+      "params": {
+        "char": "श",
+        "height": 0.18
+      },
+      "position": "-0.345 0.520 -0.850"
+    },
+    {
+      "id": "v31",
+      "build": "glyph",
+      "params": {
+        "char": "ष",
+        "height": 0.18
+      },
+      "position": "-0.115 0.520 -0.850"
+    },
+    {
+      "id": "v32",
+      "build": "glyph",
+      "params": {
+        "char": "स",
+        "height": 0.18
+      },
+      "position": "0.115 0.520 -0.850"
+    },
+    {
+      "id": "v33",
+      "build": "glyph",
+      "params": {
+        "char": "ह",
+        "height": 0.18
+      },
+      "position": "0.345 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब क वर्ग देखो।",
+        "en": "Now look at the ka group."
+      }
+    },
+    {
+      "highlight": "v1",
+      "show": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह क है।",
+        "en": "This is क."
+      }
+    },
+    {
+      "highlight": "v2",
+      "show": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ख है।",
+        "en": "This is ख."
+      }
+    },
+    {
+      "highlight": "v3",
+      "show": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ग है।",
+        "en": "This is ग."
+      }
+    },
+    {
+      "highlight": "v4",
+      "show": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह घ है।",
+        "en": "This is घ."
+      }
+    },
+    {
+      "highlight": "v5",
+      "show": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ङ है।",
+        "en": "This is ङ."
+      }
+    },
+    {
+      "show": [
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब च वर्ग देखो।",
+        "en": "Now look at the cha group."
+      }
+    },
+    {
+      "highlight": "v6",
+      "show": [
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह च है।",
+        "en": "This is च."
+      }
+    },
+    {
+      "highlight": "v7",
+      "show": [
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह छ है।",
+        "en": "This is छ."
+      }
+    },
+    {
+      "highlight": "v8",
+      "show": [
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ज है।",
+        "en": "This is ज."
+      }
+    },
+    {
+      "highlight": "v9",
+      "show": [
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह झ है।",
+        "en": "This is झ."
+      }
+    },
+    {
+      "highlight": "v10",
+      "show": [
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ञ है।",
+        "en": "This is ञ."
+      }
+    },
+    {
+      "show": [
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब ट वर्ग देखो।",
+        "en": "Now look at the ta group."
+      }
+    },
+    {
+      "highlight": "v11",
+      "show": [
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ट है।",
+        "en": "This is ट."
+      }
+    },
+    {
+      "highlight": "v12",
+      "show": [
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ठ है।",
+        "en": "This is ठ."
+      }
+    },
+    {
+      "highlight": "v13",
+      "show": [
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ड है।",
+        "en": "This is ड."
+      }
+    },
+    {
+      "highlight": "v14",
+      "show": [
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ढ है।",
+        "en": "This is ढ."
+      }
+    },
+    {
+      "highlight": "v15",
+      "show": [
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v15"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ण है।",
+        "en": "This is ण."
+      }
+    },
+    {
+      "show": [
+        "v16",
+        "v17",
+        "v18",
+        "v19",
+        "v20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब त वर्ग देखो।",
+        "en": "Now look at the tha group."
+      }
+    },
+    {
+      "highlight": "v16",
+      "show": [
+        "v16",
+        "v17",
+        "v18",
+        "v19",
+        "v20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह त है।",
+        "en": "This is त."
+      }
+    },
+    {
+      "highlight": "v17",
+      "show": [
+        "v16",
+        "v17",
+        "v18",
+        "v19",
+        "v20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह थ है।",
+        "en": "This is थ."
+      }
+    },
+    {
+      "highlight": "v18",
+      "show": [
+        "v16",
+        "v17",
+        "v18",
+        "v19",
+        "v20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह द है।",
+        "en": "This is द."
+      }
+    },
+    {
+      "highlight": "v19",
+      "show": [
+        "v16",
+        "v17",
+        "v18",
+        "v19",
+        "v20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ध है।",
+        "en": "This is ध."
+      }
+    },
+    {
+      "highlight": "v20",
+      "show": [
+        "v16",
+        "v17",
+        "v18",
+        "v19",
+        "v20"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह न है।",
+        "en": "This is न."
+      }
+    },
+    {
+      "show": [
+        "v21",
+        "v22",
+        "v23",
+        "v24",
+        "v25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब प वर्ग देखो।",
+        "en": "Now look at the pa group."
+      }
+    },
+    {
+      "highlight": "v21",
+      "show": [
+        "v21",
+        "v22",
+        "v23",
+        "v24",
+        "v25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह प है।",
+        "en": "This is प."
+      }
+    },
+    {
+      "highlight": "v22",
+      "show": [
+        "v21",
+        "v22",
+        "v23",
+        "v24",
+        "v25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह फ है।",
+        "en": "This is फ."
+      }
+    },
+    {
+      "highlight": "v23",
+      "show": [
+        "v21",
+        "v22",
+        "v23",
+        "v24",
+        "v25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ब है।",
+        "en": "This is ब."
+      }
+    },
+    {
+      "highlight": "v24",
+      "show": [
+        "v21",
+        "v22",
+        "v23",
+        "v24",
+        "v25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह भ है।",
+        "en": "This is भ."
+      }
+    },
+    {
+      "highlight": "v25",
+      "show": [
+        "v21",
+        "v22",
+        "v23",
+        "v24",
+        "v25"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह म है।",
+        "en": "This is म."
+      }
+    },
+    {
+      "show": [
+        "v26",
+        "v27",
+        "v28",
+        "v29"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब य र ल व देखो।",
+        "en": "Now look at ya ra la va."
+      }
+    },
+    {
+      "highlight": "v26",
+      "show": [
+        "v26",
+        "v27",
+        "v28",
+        "v29"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह य है।",
+        "en": "This is य."
+      }
+    },
+    {
+      "highlight": "v27",
+      "show": [
+        "v26",
+        "v27",
+        "v28",
+        "v29"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह र है।",
+        "en": "This is र."
+      }
+    },
+    {
+      "highlight": "v28",
+      "show": [
+        "v26",
+        "v27",
+        "v28",
+        "v29"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ल है।",
+        "en": "This is ल."
+      }
+    },
+    {
+      "highlight": "v29",
+      "show": [
+        "v26",
+        "v27",
+        "v28",
+        "v29"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह व है।",
+        "en": "This is व."
+      }
+    },
+    {
+      "show": [
+        "v30",
+        "v31",
+        "v32",
+        "v33"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "अब श ष स ह देखो।",
+        "en": "Now look at sha sha sa ha."
+      }
+    },
+    {
+      "highlight": "v30",
+      "show": [
+        "v30",
+        "v31",
+        "v32",
+        "v33"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह श है।",
+        "en": "This is श."
+      }
+    },
+    {
+      "highlight": "v31",
+      "show": [
+        "v30",
+        "v31",
+        "v32",
+        "v33"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ष है।",
+        "en": "This is ष."
+      }
+    },
+    {
+      "highlight": "v32",
+      "show": [
+        "v30",
+        "v31",
+        "v32",
+        "v33"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह स है।",
+        "en": "This is स."
+      }
+    },
+    {
+      "highlight": "v33",
+      "show": [
+        "v30",
+        "v31",
+        "v32",
+        "v33"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "यह ह है।",
+        "en": "This is ह."
+      }
+    }
+  ]
+}
