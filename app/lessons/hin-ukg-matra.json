@@ -1,0 +1,305 @@
+{
+  "id": "hin-ukg-matra",
+  "template": "match",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "base",
+      "build": "glyph",
+      "params": {
+        "char": "क",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "m1",
+      "build": "glyph",
+      "params": {
+        "char": "ा",
+        "height": 0.2,
+        "card": "#eaf4ea"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "j1",
+      "build": "glyph",
+      "params": {
+        "char": "का",
+        "height": 0.22,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "m2",
+      "build": "glyph",
+      "params": {
+        "char": "ि",
+        "height": 0.2,
+        "card": "#eaf4ea"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "j2",
+      "build": "glyph",
+      "params": {
+        "char": "कि",
+        "height": 0.22,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "m3",
+      "build": "glyph",
+      "params": {
+        "char": "ी",
+        "height": 0.2,
+        "card": "#eaf4ea"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "j3",
+      "build": "glyph",
+      "params": {
+        "char": "की",
+        "height": 0.22,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "m4",
+      "build": "glyph",
+      "params": {
+        "char": "ु",
+        "height": 0.2,
+        "card": "#eaf4ea"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "j4",
+      "build": "glyph",
+      "params": {
+        "char": "कु",
+        "height": 0.22,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "m5",
+      "build": "glyph",
+      "params": {
+        "char": "े",
+        "height": 0.2,
+        "card": "#eaf4ea"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "j5",
+      "build": "glyph",
+      "params": {
+        "char": "के",
+        "height": 0.22,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "m6",
+      "build": "glyph",
+      "params": {
+        "char": "ो",
+        "height": 0.2,
+        "card": "#eaf4ea"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "j6",
+      "build": "glyph",
+      "params": {
+        "char": "को",
+        "height": 0.22,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "base",
+      "show": [
+        "base"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह क है। इसे याद रखो।",
+        "en": "This is क. Keep it in mind."
+      }
+    },
+    {
+      "highlight": "m1",
+      "show": [
+        "base",
+        "m1"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ा मात्रा है।",
+        "en": "This is the aa matra."
+      }
+    },
+    {
+      "highlight": "j1",
+      "partner": "m1",
+      "show": [
+        "base",
+        "m1",
+        "j1"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "क में ा मात्रा लगी — का।",
+        "en": "क with the aa matra makes का."
+      }
+    },
+    {
+      "highlight": "m2",
+      "show": [
+        "base",
+        "m2"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ि मात्रा है।",
+        "en": "This is the i matra."
+      }
+    },
+    {
+      "highlight": "j2",
+      "partner": "m2",
+      "show": [
+        "base",
+        "m2",
+        "j2"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "क में ि मात्रा लगी — कि।",
+        "en": "क with the i matra makes कि."
+      }
+    },
+    {
+      "highlight": "m3",
+      "show": [
+        "base",
+        "m3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ी मात्रा है।",
+        "en": "This is the ee matra."
+      }
+    },
+    {
+      "highlight": "j3",
+      "partner": "m3",
+      "show": [
+        "base",
+        "m3",
+        "j3"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "क में ी मात्रा लगी — की।",
+        "en": "क with the ee matra makes की."
+      }
+    },
+    {
+      "highlight": "m4",
+      "show": [
+        "base",
+        "m4"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ु मात्रा है।",
+        "en": "This is the u matra."
+      }
+    },
+    {
+      "highlight": "j4",
+      "partner": "m4",
+      "show": [
+        "base",
+        "m4",
+        "j4"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "क में ु मात्रा लगी — कु।",
+        "en": "क with the u matra makes कु."
+      }
+    },
+    {
+      "highlight": "m5",
+      "show": [
+        "base",
+        "m5"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह े मात्रा है।",
+        "en": "This is the e matra."
+      }
+    },
+    {
+      "highlight": "j5",
+      "partner": "m5",
+      "show": [
+        "base",
+        "m5",
+        "j5"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "क में े मात्रा लगी — के।",
+        "en": "क with the e matra makes के."
+      }
+    },
+    {
+      "highlight": "m6",
+      "show": [
+        "base",
+        "m6"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह ो मात्रा है।",
+        "en": "This is the o matra."
+      }
+    },
+    {
+      "highlight": "j6",
+      "partner": "m6",
+      "show": [
+        "base",
+        "m6",
+        "j6"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "क में ो मात्रा लगी — को।",
+        "en": "क with the o matra makes को."
+      }
+    }
+  ]
+}

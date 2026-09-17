@@ -1,6 +1,8 @@
 {
-  "generated": "2026-09-16T10:27:58.000Z",
+  "generated": "2026-09-17T13:04:22.184Z",
   "lessons": {
+    "eng-ukg-behind-front": "eng-ukg-behind-front.json",
+    "eng-ukg-phonics": "eng-ukg-phonics.json",
     "evs-lkg-farm-animals": "demo/evs-lkg-farm-animals.json",
     "evs-lkg-farm-yard": "evs-lkg-farm-yard.json",
     "evs-ukg-solar-system": "evs-ukg-solar-system.json",
@@ -11,6 +13,20 @@
     "gk-lkg-school-hall": "demo/gk-lkg-school-hall.json",
     "gk-lkg-school-kitchen": "demo/gk-lkg-school-kitchen.json",
     "gk-lkg-school-office": "demo/gk-lkg-school-office.json",
-    "gk-lkg-school-tour": "gk-lkg-school-tour.json"
+    "gk-lkg-school-tour": "gk-lkg-school-tour.json",
+    "hin-ukg-char-akshar": "hin-ukg-char-akshar.json",
+    "hin-ukg-do-akshar": "hin-ukg-do-akshar.json",
+    "hin-ukg-matra": "hin-ukg-matra.json",
+    "hin-ukg-swar": "hin-ukg-swar.json",
+    "hin-ukg-teen-akshar": "hin-ukg-teen-akshar.json",
+    "hin-ukg-vyanjan": "hin-ukg-vyanjan.json",
+    "math-ukg-add-double": "math-ukg-add-double.json",
+    "math-ukg-add-single": "math-ukg-add-single.json",
+    "math-ukg-compare-numbers": "math-ukg-compare-numbers.json",
+    "math-ukg-divide-single": "math-ukg-divide-single.json",
+    "math-ukg-multiply-single": "math-ukg-multiply-single.json",
+    "math-ukg-odd-one-out": "math-ukg-odd-one-out.json",
+    "math-ukg-sub-double": "math-ukg-sub-double.json",
+    "math-ukg-sub-single": "math-ukg-sub-single.json"
   }
 }

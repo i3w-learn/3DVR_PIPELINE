@@ -1,0 +1,393 @@
+{
+  "id": "hin-ukg-teen-akshar",
+  "template": "match",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "w1l1",
+      "build": "glyph",
+      "params": {
+        "char": "क",
+        "height": 0.16
+      },
+      "position": "-0.480 0.520 -0.850"
+    },
+    {
+      "id": "w1l2",
+      "build": "glyph",
+      "params": {
+        "char": "म",
+        "height": 0.16
+      },
+      "position": "-0.280 0.520 -0.850"
+    },
+    {
+      "id": "w1l3",
+      "build": "glyph",
+      "params": {
+        "char": "ल",
+        "height": 0.16
+      },
+      "position": "-0.080 0.520 -0.850"
+    },
+    {
+      "id": "w1",
+      "build": "glyph",
+      "params": {
+        "char": "कमल",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w2l1",
+      "build": "glyph",
+      "params": {
+        "char": "न",
+        "height": 0.16
+      },
+      "position": "-0.480 0.520 -0.850"
+    },
+    {
+      "id": "w2l2",
+      "build": "glyph",
+      "params": {
+        "char": "म",
+        "height": 0.16
+      },
+      "position": "-0.280 0.520 -0.850"
+    },
+    {
+      "id": "w2l3",
+      "build": "glyph",
+      "params": {
+        "char": "क",
+        "height": 0.16
+      },
+      "position": "-0.080 0.520 -0.850"
+    },
+    {
+      "id": "w2",
+      "build": "glyph",
+      "params": {
+        "char": "नमक",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w3l1",
+      "build": "glyph",
+      "params": {
+        "char": "स",
+        "height": 0.16
+      },
+      "position": "-0.480 0.520 -0.850"
+    },
+    {
+      "id": "w3l2",
+      "build": "glyph",
+      "params": {
+        "char": "र",
+        "height": 0.16
+      },
+      "position": "-0.280 0.520 -0.850"
+    },
+    {
+      "id": "w3l3",
+      "build": "glyph",
+      "params": {
+        "char": "ल",
+        "height": 0.16
+      },
+      "position": "-0.080 0.520 -0.850"
+    },
+    {
+      "id": "w3",
+      "build": "glyph",
+      "params": {
+        "char": "सरल",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w4l1",
+      "build": "glyph",
+      "params": {
+        "char": "म",
+        "height": 0.16
+      },
+      "position": "-0.480 0.520 -0.850"
+    },
+    {
+      "id": "w4l2",
+      "build": "glyph",
+      "params": {
+        "char": "क",
+        "height": 0.16
+      },
+      "position": "-0.280 0.520 -0.850"
+    },
+    {
+      "id": "w4l3",
+      "build": "glyph",
+      "params": {
+        "char": "र",
+        "height": 0.16
+      },
+      "position": "-0.080 0.520 -0.850"
+    },
+    {
+      "id": "w4",
+      "build": "glyph",
+      "params": {
+        "char": "मकर",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w5l1",
+      "build": "glyph",
+      "params": {
+        "char": "च",
+        "height": 0.16
+      },
+      "position": "-0.480 0.520 -0.850"
+    },
+    {
+      "id": "w5l2",
+      "build": "glyph",
+      "params": {
+        "char": "म",
+        "height": 0.16
+      },
+      "position": "-0.280 0.520 -0.850"
+    },
+    {
+      "id": "w5l3",
+      "build": "glyph",
+      "params": {
+        "char": "क",
+        "height": 0.16
+      },
+      "position": "-0.080 0.520 -0.850"
+    },
+    {
+      "id": "w5",
+      "build": "glyph",
+      "params": {
+        "char": "चमक",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w6l1",
+      "build": "glyph",
+      "params": {
+        "char": "भ",
+        "height": 0.16
+      },
+      "position": "-0.480 0.520 -0.850"
+    },
+    {
+      "id": "w6l2",
+      "build": "glyph",
+      "params": {
+        "char": "व",
+        "height": 0.16
+      },
+      "position": "-0.280 0.520 -0.850"
+    },
+    {
+      "id": "w6l3",
+      "build": "glyph",
+      "params": {
+        "char": "न",
+        "height": 0.16
+      },
+      "position": "-0.080 0.520 -0.850"
+    },
+    {
+      "id": "w6",
+      "build": "glyph",
+      "params": {
+        "char": "भवन",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "w1l1",
+        "w1l2",
+        "w1l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — क और म और ल।",
+        "en": "Look: क, म, ल."
+      }
+    },
+    {
+      "highlight": "w1",
+      "partner": "w1l1",
+      "show": [
+        "w1l1",
+        "w1l2",
+        "w1l3",
+        "w1"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — कमल। कमल का मतलब a lotus।",
+        "en": "Together they make कमल — a lotus."
+      }
+    },
+    {
+      "show": [
+        "w2l1",
+        "w2l2",
+        "w2l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — न और म और क।",
+        "en": "Look: न, म, क."
+      }
+    },
+    {
+      "highlight": "w2",
+      "partner": "w2l1",
+      "show": [
+        "w2l1",
+        "w2l2",
+        "w2l3",
+        "w2"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — नमक। नमक का मतलब salt।",
+        "en": "Together they make नमक — salt."
+      }
+    },
+    {
+      "show": [
+        "w3l1",
+        "w3l2",
+        "w3l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — स और र और ल।",
+        "en": "Look: स, र, ल."
+      }
+    },
+    {
+      "highlight": "w3",
+      "partner": "w3l1",
+      "show": [
+        "w3l1",
+        "w3l2",
+        "w3l3",
+        "w3"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — सरल। सरल का मतलब easy।",
+        "en": "Together they make सरल — easy."
+      }
+    },
+    {
+      "show": [
+        "w4l1",
+        "w4l2",
+        "w4l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — म और क और र।",
+        "en": "Look: म, क, र."
+      }
+    },
+    {
+      "highlight": "w4",
+      "partner": "w4l1",
+      "show": [
+        "w4l1",
+        "w4l2",
+        "w4l3",
+        "w4"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — मकर। मकर का मतलब a crocodile।",
+        "en": "Together they make मकर — a crocodile."
+      }
+    },
+    {
+      "show": [
+        "w5l1",
+        "w5l2",
+        "w5l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — च और म और क।",
+        "en": "Look: च, म, क."
+      }
+    },
+    {
+      "highlight": "w5",
+      "partner": "w5l1",
+      "show": [
+        "w5l1",
+        "w5l2",
+        "w5l3",
+        "w5"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — चमक। चमक का मतलब a shine।",
+        "en": "Together they make चमक — a shine."
+      }
+    },
+    {
+      "show": [
+        "w6l1",
+        "w6l2",
+        "w6l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — भ और व और न।",
+        "en": "Look: भ, व, न."
+      }
+    },
+    {
+      "highlight": "w6",
+      "partner": "w6l1",
+      "show": [
+        "w6l1",
+        "w6l2",
+        "w6l3",
+        "w6"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — भवन। भवन का मतलब a building।",
+        "en": "Together they make भवन — a building."
+      }
+    }
+  ]
+}

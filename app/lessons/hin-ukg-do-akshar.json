@@ -1,0 +1,327 @@
+{
+  "id": "hin-ukg-do-akshar",
+  "template": "match",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "w1l1",
+      "build": "glyph",
+      "params": {
+        "char": "न",
+        "height": 0.16
+      },
+      "position": "-0.380 0.520 -0.850"
+    },
+    {
+      "id": "w1l2",
+      "build": "glyph",
+      "params": {
+        "char": "ल",
+        "height": 0.16
+      },
+      "position": "-0.180 0.520 -0.850"
+    },
+    {
+      "id": "w1",
+      "build": "glyph",
+      "params": {
+        "char": "नल",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w2l1",
+      "build": "glyph",
+      "params": {
+        "char": "क",
+        "height": 0.16
+      },
+      "position": "-0.380 0.520 -0.850"
+    },
+    {
+      "id": "w2l2",
+      "build": "glyph",
+      "params": {
+        "char": "ल",
+        "height": 0.16
+      },
+      "position": "-0.180 0.520 -0.850"
+    },
+    {
+      "id": "w2",
+      "build": "glyph",
+      "params": {
+        "char": "कल",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w3l1",
+      "build": "glyph",
+      "params": {
+        "char": "घ",
+        "height": 0.16
+      },
+      "position": "-0.380 0.520 -0.850"
+    },
+    {
+      "id": "w3l2",
+      "build": "glyph",
+      "params": {
+        "char": "र",
+        "height": 0.16
+      },
+      "position": "-0.180 0.520 -0.850"
+    },
+    {
+      "id": "w3",
+      "build": "glyph",
+      "params": {
+        "char": "घर",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w4l1",
+      "build": "glyph",
+      "params": {
+        "char": "ज",
+        "height": 0.16
+      },
+      "position": "-0.380 0.520 -0.850"
+    },
+    {
+      "id": "w4l2",
+      "build": "glyph",
+      "params": {
+        "char": "ल",
+        "height": 0.16
+      },
+      "position": "-0.180 0.520 -0.850"
+    },
+    {
+      "id": "w4",
+      "build": "glyph",
+      "params": {
+        "char": "जल",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w5l1",
+      "build": "glyph",
+      "params": {
+        "char": "म",
+        "height": 0.16
+      },
+      "position": "-0.380 0.520 -0.850"
+    },
+    {
+      "id": "w5l2",
+      "build": "glyph",
+      "params": {
+        "char": "न",
+        "height": 0.16
+      },
+      "position": "-0.180 0.520 -0.850"
+    },
+    {
+      "id": "w5",
+      "build": "glyph",
+      "params": {
+        "char": "मन",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w6l1",
+      "build": "glyph",
+      "params": {
+        "char": "ब",
+        "height": 0.16
+      },
+      "position": "-0.380 0.520 -0.850"
+    },
+    {
+      "id": "w6l2",
+      "build": "glyph",
+      "params": {
+        "char": "स",
+        "height": 0.16
+      },
+      "position": "-0.180 0.520 -0.850"
+    },
+    {
+      "id": "w6",
+      "build": "glyph",
+      "params": {
+        "char": "बस",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "w1l1",
+        "w1l2"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — न और ल।",
+        "en": "Look: न, ल."
+      }
+    },
+    {
+      "highlight": "w1",
+      "partner": "w1l1",
+      "show": [
+        "w1l1",
+        "w1l2",
+        "w1"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — नल। नल का मतलब tap।",
+        "en": "Together they make नल — tap."
+      }
+    },
+    {
+      "show": [
+        "w2l1",
+        "w2l2"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — क और ल।",
+        "en": "Look: क, ल."
+      }
+    },
+    {
+      "highlight": "w2",
+      "partner": "w2l1",
+      "show": [
+        "w2l1",
+        "w2l2",
+        "w2"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — कल। कल का मतलब yesterday।",
+        "en": "Together they make कल — yesterday."
+      }
+    },
+    {
+      "show": [
+        "w3l1",
+        "w3l2"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — घ और र।",
+        "en": "Look: घ, र."
+      }
+    },
+    {
+      "highlight": "w3",
+      "partner": "w3l1",
+      "show": [
+        "w3l1",
+        "w3l2",
+        "w3"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — घर। घर का मतलब house।",
+        "en": "Together they make घर — house."
+      }
+    },
+    {
+      "show": [
+        "w4l1",
+        "w4l2"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — ज और ल।",
+        "en": "Look: ज, ल."
+      }
+    },
+    {
+      "highlight": "w4",
+      "partner": "w4l1",
+      "show": [
+        "w4l1",
+        "w4l2",
+        "w4"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — जल। जल का मतलब water।",
+        "en": "Together they make जल — water."
+      }
+    },
+    {
+      "show": [
+        "w5l1",
+        "w5l2"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — म और न।",
+        "en": "Look: म, न."
+      }
+    },
+    {
+      "highlight": "w5",
+      "partner": "w5l1",
+      "show": [
+        "w5l1",
+        "w5l2",
+        "w5"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — मन। मन का मतलब the mind।",
+        "en": "Together they make मन — the mind."
+      }
+    },
+    {
+      "show": [
+        "w6l1",
+        "w6l2"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — ब और स।",
+        "en": "Look: ब, स."
+      }
+    },
+    {
+      "highlight": "w6",
+      "partner": "w6l1",
+      "show": [
+        "w6l1",
+        "w6l2",
+        "w6"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है — बस। बस का मतलब a bus।",
+        "en": "Together they make बस — a bus."
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "math-ukg-odd-one-out",
+  "template": "sort",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "r1c1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.09
+      },
+      "position": "-0.450 0.520 -0.850"
+    },
+    {
+      "id": "r1c2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.09
+      },
+      "position": "-0.150 0.520 -0.850"
+    },
+    {
+      "id": "r1c3",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.09
+      },
+      "position": "0.150 0.520 -0.850"
+    },
+    {
+      "id": "r1c4",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.09
+      },
+      "position": "0.450 0.520 -0.850"
+    },
+    {
+      "id": "r2c1",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#e4572e",
+        "size": 0.09
+      },
+      "position": "-0.450 0.520 -0.850"
+    },
+    {
+      "id": "r2c2",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#e4572e",
+        "size": 0.09
+      },
+      "position": "-0.150 0.520 -0.850"
+    },
+    {
+      "id": "r2c3",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#e4572e",
+        "size": 0.09
+      },
+      "position": "0.150 0.520 -0.850"
+    },
+    {
+      "id": "r2c4",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.09
+      },
+      "position": "0.450 0.520 -0.850"
+    },
+    {
+      "id": "r3c1",
+      "build": "counter",
+      "params": {
+        "shape": "disc",
+        "color": "#3d7ea6",
+        "size": 0.09
+      },
+      "position": "-0.450 0.520 -0.850"
+    },
+    {
+      "id": "r3c2",
+      "build": "counter",
+      "params": {
+        "shape": "disc",
+        "color": "#3d7ea6",
+        "size": 0.09
+      },
+      "position": "-0.150 0.520 -0.850"
+    },
+    {
+      "id": "r3c3",
+      "build": "counter",
+      "params": {
+        "shape": "disc",
+        "color": "#3d7ea6",
+        "size": 0.09
+      },
+      "position": "0.150 0.520 -0.850"
+    },
+    {
+      "id": "r3c4",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#3d7ea6",
+        "size": 0.09
+      },
+      "position": "0.450 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4"
+      ],
+      "answer": "r1c4",
+      "duration": 9000,
+      "script": {
+        "hi": "इनमें से एक अलग है। रंग देखो। उसे छुओ।",
+        "en": "One of these is different — look at the colour. Touch it."
+      }
+    },
+    {
+      "show": [
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4"
+      ],
+      "answer": "r2c4",
+      "duration": 9000,
+      "script": {
+        "hi": "इनमें से एक अलग है। आकार देखो। उसे छुओ।",
+        "en": "One of these is different — look at the shape. Touch it."
+      }
+    },
+    {
+      "show": [
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4"
+      ],
+      "answer": "r3c4",
+      "duration": 9000,
+      "script": {
+        "hi": "इनमें से एक अलग है। आकार देखो। उसे छुओ।",
+        "en": "One of these is different — look at the shape. Touch it."
+      }
+    }
+  ]
+}
