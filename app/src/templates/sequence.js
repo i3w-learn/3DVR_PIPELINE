@@ -114,12 +114,37 @@ function fade(el, opacity) {
     el.object3D.traverse((node) => {
       if (!node.isMesh || !node.material) return;
 
+      // Every land feature shares one material — that is what keeps a forest
+      // to one draw call. Dimming it in place would dim the forest, the hills
+      // and the balloon along with the one cloud this step meant. So an object
+      // takes its own copy the first time it is faded, and only then.
+      if (!node.userData.ownMaterial) {
+        node.material = Array.isArray(node.material)
+          ? node.material.map((m) => m.clone())
+          : node.material.clone();
+        node.userData.ownMaterial = true;
+      }
+
       for (const material of [node.material].flat()) {
+        // Text is drawn by a shader whose opacity is a uniform, not the
+        // `opacity` property. Setting the property did nothing to the glyph
+        // and flipped its blending, which drew a black box behind every dimmed
+        // letter. Its own uniform is the only handle that works.
+        if (material.uniforms?.opacity) {
+          material.userData.fullOpacity ??= material.uniforms.opacity.value ?? 1;
+          material.uniforms.opacity.value = material.userData.fullOpacity * opacity;
+          continue;
+        }
+
         // Remembered once, so a stage that is passed, current, then passed
         // again does not fade a little further each time.
         material.userData.fullOpacity ??= material.opacity ?? 1;
+        material.userData.wasTransparent ??= material.transparent;
         material.opacity = material.userData.fullOpacity * opacity;
-        material.transparent = opacity < 1;
+        // Restored to what it WAS, not to opaque. The soft contact shadow under
+        // an object is a transparent material; forcing it opaque on the way
+        // back turned it into a solid black tile under the current stage.
+        material.transparent = opacity < 1 ? true : material.userData.wasTransparent;
         material.needsUpdate = true;
       }
     });

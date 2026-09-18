@@ -86,6 +86,16 @@ AFRAME.registerComponent('glyph', {
 
     /** Lie flat on the table instead of standing up. */
     flat: { type: 'boolean', default: false },
+
+    /**
+     * Height of a post under the card, in metres. 0 for none.
+     *
+     * A card on a table is at the right height because the table is. A card on
+     * open ground is at a child's ankles, four metres away, and reads as a
+     * sticker lying on the grass. On a post it is a signboard at eye level,
+     * which is how words are met out of doors anyway.
+     */
+    post: { type: 'number', default: 0 },
   },
 
   init() {
@@ -99,13 +109,22 @@ AFRAME.registerComponent('glyph', {
   build() {
     this.el.innerHTML = '';
 
-    const { char, height, ink, card, bare, flat } = this.data;
+    const { char, height, ink, card, bare, flat, post } = this.data;
     const width = this.data.width || cardWidth(char, height);
 
     // Standing on the table, origin at the base — the same contract every
     // downloaded model honours, so a card and a cow are placed the same way.
-    const lift = flat ? 0.006 : height / 2;
+    const lift = flat ? 0.006 : height / 2 + post;
     const face = flat ? '-90 0 0' : '0 0 0';
+
+    if (post > 0 && !flat) {
+      const pole = document.createElement('a-cylinder');
+      pole.setAttribute('radius', 0.028);
+      pole.setAttribute('height', post + height * 0.5);
+      pole.setAttribute('position', `0 ${(post + height * 0.5) / 2} -0.02`);
+      pole.setAttribute('material', { color: '#7a5a3a', roughness: 0.9, metalness: 0 });
+      this.el.appendChild(pole);
+    }
 
     if (!bare) {
       const back = document.createElement('a-box');
@@ -148,7 +167,11 @@ AFRAME.registerComponent('glyph', {
    * once. See `behaviours/highlight.js`.
    */
   highlightAnchor() {
-    const reach = Math.max(this.size?.width ?? 0.2, this.size?.height ?? 0.2);
+    // On a post the ring goes round the foot of the pole, not round a card
+    // that is a metre up in the air.
+    const reach = this.data.post > 0
+      ? 0.45
+      : Math.max(this.size?.width ?? 0.2, this.size?.height ?? 0.2);
 
     return {
       object3D: this.el.object3D,

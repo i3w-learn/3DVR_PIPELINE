@@ -29,6 +29,7 @@ import './path.js';
 import './playground.js';
 import './portal.js';
 import './room.js';
+import './shapes.js';
 import './sky.js';
 import './snow.js';
 import './space.js';

@@ -347,3 +347,49 @@ AFRAME.registerComponent('countryside', {
     return parts;
   },
 });
+
+/**
+ * The sun, as a thing in the sky a lesson can point at.
+ *
+ * The real light in these lands comes from the captured sky image, which has
+ * no sun a step can ring. The water cycle starts with "the sun warms the
+ * water", so the sun has to be an object: a bright ball with a ring of rays,
+ * unlit and unfogged so it glows the same from anywhere.
+ */
+AFRAME.registerComponent('sundisc', {
+  schema: {
+    radius: { type: 'number', default: 3 },
+    color: { type: 'color', default: '#ffd84a' },
+    rays: { type: 'number', default: 12 },
+  },
+
+  init() { this.build(); },
+  update() { this.build(); },
+
+  build() {
+    const { radius: r, color, rays } = this.data;
+    const parts = [{ geometry: new THREE.IcosahedronGeometry(r, 2), color }];
+
+    for (let i = 0; i < rays; i += 1) {
+      const a = (i / rays) * Math.PI * 2;
+      parts.push({
+        geometry: new THREE.ConeGeometry(r * 0.16, r * 0.7, 5),
+        matrix: place(Math.cos(a) * r * 1.5, Math.sin(a) * r * 1.5, 0, { rz: a - Math.PI / 2 }),
+        color: '#ffb52e',
+      });
+    }
+
+    const material = new THREE.MeshBasicMaterial({ vertexColors: true, fog: false });
+    this.el.getObject3D('mesh')?.geometry.dispose();
+    this.el.setObject3D('mesh', new THREE.Mesh(mergeParts(parts), material));
+  },
+
+  highlightAnchor() {
+    return { object3D: this.el.object3D, radius: this.data.radius * 1.9, thickness: 0.05, billboard: true, opacity: 0.8 };
+  },
+
+  remove() {
+    this.el.getObject3D('mesh')?.geometry.dispose();
+    this.el.removeObject3D('mesh');
+  },
+});

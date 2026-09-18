@@ -59,6 +59,15 @@ AFRAME.registerComponent('door', {
      */
     frameDepth: { type: 'number', default: 0.42 },
 
+    /**
+     * How far open it stands when built, 0 to 1.
+     *
+     * `auto-open` swings a door as somebody walks up to it, which is right for
+     * a tour and useless for a lesson about open and closed — that needs one
+     * door standing open and one standing shut, and neither moving.
+     */
+    open: { type: 'number', default: 0 },
+
     leaf: { type: 'color', default: '#7d4a2b' },
     panel: { type: 'color', default: '#6a3d22' },
     frame: { type: 'color', default: '#e9e2d4' },
@@ -119,9 +128,12 @@ AFRAME.registerComponent('door', {
       mergeBoxes(this.el, builtMaterial());
       for (const { el } of this.hinges) mergeBoxes(el.firstElementChild, builtMaterial());
 
-      // Shut on arrival. Opening on approach is the moment worth having, and
-      // it only exists if the door was shut to begin with.
-      this.setOpen(0);
+      // Shut on arrival, unless the content says otherwise. Opening on
+      // approach is the moment worth having, and it only exists if the door
+      // was shut to begin with — so `open` defaults to 0 and every door that
+      // does not mention it behaves exactly as before. A lesson about open and
+      // closed sets it, and gets a door that stands open and stays there.
+      this.setOpen(this.data.open);
     });
   },
 
