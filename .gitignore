@@ -6,12 +6,19 @@ node_modules/
 raw/**/*
 !raw/**/*.meta.json
 !raw/*/
+# The translation tables and the record of what each clip was made from are
+# sources, not downloads.
+!raw/translations/*.json
+!raw/audio/*.json
+!raw/audio/*.tsv
 raw/*.glb
 raw/*.gltf
 raw/*.bin
 
-app/assets/audio/*/
-!app/assets/audio/.keep
+# Narration IS committed. It used to be ignored, when every clip was a
+# placeholder made with the laptop's own voice. It is now the real thing, and
+# rebuilding it needs a 6 GB voice engine that takes hours to download — not
+# something to ask of whoever next clones this repo.
 
 *.webp
 # Screenshots taken while checking scenes by eye. Not content.

@@ -1,0 +1,5242 @@
+{
+  "chem_lab_s1.mp3": {
+    "written": "This is the chemistry lab. We do experiments here.",
+    "spoken": "This is the chemistry lab. We do experiments here.",
+    "provider": "indic"
+  },
+  "chem_lab_s2.mp3": {
+    "written": "Look at the glass bottles on the shelf. We never touch them alone.",
+    "spoken": "Look at the glass bottles on the shelf. We never touch them alone.",
+    "provider": "indic"
+  },
+  "chem_lab_s3.mp3": {
+    "written": "The tall glasses in the stand are test tubes.",
+    "spoken": "The tall glasses in the stand are test tubes.",
+    "provider": "indic"
+  },
+  "cow_about.mp3": {
+    "written": "This is a cow. The cow gives us milk.",
+    "spoken": "This is a cow. The cow gives us milk.",
+    "provider": "indic"
+  },
+  "cow.mp3": {
+    "written": "This is a cow.",
+    "spoken": "This is a cow.",
+    "provider": "indic"
+  },
+  "demo-home-s01.mp3": {
+    "written": "This is a home. This is where we live.",
+    "spoken": "This is a home. This is where we live.",
+    "provider": "indic"
+  },
+  "demo-home-s02.mp3": {
+    "written": "The stove, the cupboard, the mats — all in one room.",
+    "spoken": "The stove, the cupboard, the mats, all in one room.",
+    "provider": "indic"
+  },
+  "demo-india-flag.mp3": {
+    "written": "This is our national flag — the Tiranga.",
+    "spoken": "This is our national flag, the Tiranga.",
+    "provider": "indic"
+  },
+  "demo-india-s01.mp3": {
+    "written": "This is our courtyard. In the middle is the wheel from our flag.",
+    "spoken": "This is our courtyard. In the middle is the wheel from our flag.",
+    "provider": "indic"
+  },
+  "demo-india-s02.mp3": {
+    "written": "Our national symbols will stand on these plinths.",
+    "spoken": "Our national symbols will stand on these plinths.",
+    "provider": "indic"
+  },
+  "demo-sky-s01.mp3": {
+    "written": "We are in the balloon. Look down — the ground is far below.",
+    "spoken": "We are in the balloon. Look down, the ground is far below.",
+    "provider": "indic"
+  },
+  "demo-sky-s02.mp3": {
+    "written": "The clouds are going past us. Turn your head and look all around.",
+    "spoken": "The clouds are going past us. Turn your head and look all around.",
+    "provider": "indic"
+  },
+  "demo-snow-s01.mp3": {
+    "written": "This is snow. Everything is white and quiet.",
+    "spoken": "This is snow. Everything is white and quiet.",
+    "provider": "indic"
+  },
+  "demo-snow-s02.mp3": {
+    "written": "Here is our tent, and here is the fire keeping us warm.",
+    "spoken": "Here is our tent, and here is the fire keeping us warm.",
+    "provider": "indic"
+  },
+  "demo-street-s01.mp3": {
+    "written": "This is a street, with shops on both sides.",
+    "spoken": "This is a street, with shops on both sides.",
+    "provider": "indic"
+  },
+  "demo-street-s02.mp3": {
+    "written": "A shop, a clinic, a post office and a bank.",
+    "spoken": "A shop, a clinic, a post office and a bank.",
+    "provider": "indic"
+  },
+  "demo-water-s01.mp3": {
+    "written": "This is a pond. Watch the water moving.",
+    "spoken": "This is a pond. Watch the water moving.",
+    "provider": "indic"
+  },
+  "demo-water-s02.mp3": {
+    "written": "Reeds grow along the edge. Look across to the far bank.",
+    "spoken": "Reeds grow along the edge. Look across to the far bank.",
+    "provider": "indic"
+  },
+  "elephant_about.mp3": {
+    "written": "This is an elephant. The elephant is very big.",
+    "spoken": "This is an elephant. The elephant is very big.",
+    "provider": "indic"
+  },
+  "elephant.mp3": {
+    "written": "This is an elephant.",
+    "spoken": "This is an elephant.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s01.mp3": {
+    "written": "Animals give us many things. Let us see who gives us what.",
+    "spoken": "Animals give us many things. Let us see who gives us what.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s02.mp3": {
+    "written": "This is a cow.",
+    "spoken": "This is a cow.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s03.mp3": {
+    "written": "The cow gives us milk.",
+    "spoken": "The cow gives us milk.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s04.mp3": {
+    "written": "This is a hen.",
+    "spoken": "This is a hen.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s05.mp3": {
+    "written": "The hen gives us eggs.",
+    "spoken": "The hen gives us eggs.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s06.mp3": {
+    "written": "This is a sheep.",
+    "spoken": "This is a sheep.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s07.mp3": {
+    "written": "The sheep gives us wool. Wool makes our sweaters.",
+    "spoken": "The sheep gives us wool. Wool makes our sweaters.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s08.mp3": {
+    "written": "This is a bee.",
+    "spoken": "This is a bee.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s09.mp3": {
+    "written": "The bee collects nectar from flowers.",
+    "spoken": "The bee collects nectar from flowers.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s10.mp3": {
+    "written": "The bee gives us honey.",
+    "spoken": "The bee gives us honey.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-sound-names-s01.mp3": {
+    "written": "Every animal sound has a name.",
+    "spoken": "Every animal sound has a name.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-sound-names-s02.mp3": {
+    "written": "A cow says moo. A goat bleats.",
+    "spoken": "A cow says moo. A goat bleats.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-sound-names-s03.mp3": {
+    "written": "A horse neighs. A hen clucks.",
+    "spoken": "A horse neighs. A hen clucks.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s01.mp3": {
+    "written": "There are seven days in a week. The first is Monday.",
+    "spoken": "There are seven days in a week. The first is Monday.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s02.mp3": {
+    "written": "After Monday comes Tuesday.",
+    "spoken": "After Monday comes Tuesday.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s03.mp3": {
+    "written": "After Tuesday comes Wednesday.",
+    "spoken": "After Tuesday comes Wednesday.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s04.mp3": {
+    "written": "After Wednesday comes Thursday.",
+    "spoken": "After Wednesday comes Thursday.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s05.mp3": {
+    "written": "After Thursday comes Friday.",
+    "spoken": "After Thursday comes Friday.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s06.mp3": {
+    "written": "After Friday comes Saturday.",
+    "spoken": "After Friday comes Saturday.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s07.mp3": {
+    "written": "After Saturday comes Sunday.",
+    "spoken": "After Saturday comes Sunday.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s08.mp3": {
+    "written": "Monday to Sunday — that is the whole week.",
+    "spoken": "Monday to Sunday, that is the whole week.",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s01.mp3": {
+    "written": "Tea is hot. Careful!",
+    "spoken": "Tea is hot. Careful!",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s02.mp3": {
+    "written": "Ice cream is cold.",
+    "spoken": "Ice cream is cold.",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s03.mp3": {
+    "written": "A pot off the stove is hot.",
+    "spoken": "A pot off the stove is hot.",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s04.mp3": {
+    "written": "An ice lolly is cold.",
+    "spoken": "An ice lolly is cold.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s01.mp3": {
+    "written": "The red ball is ON the table.",
+    "spoken": "The red ball is on the table.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s02.mp3": {
+    "written": "The blue ball is UNDER the table.",
+    "spoken": "The blue ball is under the table.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s03.mp3": {
+    "written": "The yellow ball is IN the tub.",
+    "spoken": "The yellow ball is in the tub.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s04.mp3": {
+    "written": "On. Under. In.",
+    "spoken": "On. Under. In.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s01.mp3": {
+    "written": "There are twelve months in a year. The first is January.",
+    "spoken": "There are twelve months in a year. The first is January.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s02.mp3": {
+    "written": "Then February.",
+    "spoken": "Then February.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s03.mp3": {
+    "written": "Then March.",
+    "spoken": "Then March.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s04.mp3": {
+    "written": "Then April.",
+    "spoken": "Then April.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s05.mp3": {
+    "written": "Then May.",
+    "spoken": "Then May.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s06.mp3": {
+    "written": "Then June.",
+    "spoken": "Then June.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s07.mp3": {
+    "written": "Then July.",
+    "spoken": "Then July.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s08.mp3": {
+    "written": "Then August.",
+    "spoken": "Then August.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s09.mp3": {
+    "written": "Then September.",
+    "spoken": "Then September.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s10.mp3": {
+    "written": "Then October.",
+    "spoken": "Then October.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s11.mp3": {
+    "written": "Then November.",
+    "spoken": "Then November.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s12.mp3": {
+    "written": "Then December.",
+    "spoken": "Then December.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s13.mp3": {
+    "written": "January to December — that is the whole year.",
+    "spoken": "January to December, that is the whole year.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s01.mp3": {
+    "written": "Hello! My name is Meena. I am four years old. I am a girl.",
+    "spoken": "Hello! My name is Meena. I am four years old. I am a girl.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s02.mp3": {
+    "written": "This is my mother.",
+    "spoken": "This is my mother.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s03.mp3": {
+    "written": "This is my father.",
+    "spoken": "This is my father.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s04.mp3": {
+    "written": "This is my brother, Raju.",
+    "spoken": "This is my brother, Raju.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s05.mp3": {
+    "written": "This is my home. I live here with my family.",
+    "spoken": "This is my home. I live here with my family.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s06.mp3": {
+    "written": "Now you tell us — what is your name? How old are you?",
+    "spoken": "Now you tell us, what is your name? How old are you?",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s01.mp3": {
+    "written": "Look: C, A, T.",
+    "spoken": "Look, see, ay, tee.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s02.mp3": {
+    "written": "Together they spell CAT — a cat.",
+    "spoken": "Together they spell cat, a cat.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s03.mp3": {
+    "written": "Look: D, O, G.",
+    "spoken": "Look, dee, oh, jee.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s04.mp3": {
+    "written": "Together they spell DOG — a dog.",
+    "spoken": "Together they spell dog, a dog.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s05.mp3": {
+    "written": "Look: S, U, N.",
+    "spoken": "Look, ess, you, en.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s06.mp3": {
+    "written": "Together they spell SUN — the sun.",
+    "spoken": "Together they spell sun, the sun.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s07.mp3": {
+    "written": "Look: C, U, P.",
+    "spoken": "Look, see, you, pee.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s08.mp3": {
+    "written": "Together they spell CUP — a cup.",
+    "spoken": "Together they spell cup, a cup.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s09.mp3": {
+    "written": "Look: H, E, N.",
+    "spoken": "Look, aitch, ee, en.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s10.mp3": {
+    "written": "Together they spell HEN — a hen.",
+    "spoken": "Together they spell hen, a hen.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s11.mp3": {
+    "written": "Look: B, U, S.",
+    "spoken": "Look, bee, you, ess.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s12.mp3": {
+    "written": "Together they spell BUS — a bus.",
+    "spoken": "Together they spell bus, a bus.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s01.mp3": {
+    "written": "This is a car. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+    "spoken": "This is a car. Where does it go, on the road, on the water, or in the sky? Touch the right place.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s02.mp3": {
+    "written": "This is a boat. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+    "spoken": "This is a boat. Where does it go, on the road, on the water, or in the sky? Touch the right place.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s03.mp3": {
+    "written": "This is an aeroplane. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+    "spoken": "This is an aeroplane. Where does it go, on the road, on the water, or in the sky? Touch the right place.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s04.mp3": {
+    "written": "This is a bus. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+    "spoken": "This is a bus. Where does it go, on the road, on the water, or in the sky? Touch the right place.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s05.mp3": {
+    "written": "This is a helicopter. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+    "spoken": "This is a helicopter. Where does it go, on the road, on the water, or in the sky? Touch the right place.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s06.mp3": {
+    "written": "This is a ship. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+    "spoken": "This is a ship. Where does it go, on the road, on the water, or in the sky? Touch the right place.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s01.mp3": {
+    "written": "How do we go from one place to another? By transport! Some go on the road, some on water, and some in the sky.",
+    "spoken": "How do we go from one place to another? By transport! Some go on the road, some on water, and some in the sky.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s02.mp3": {
+    "written": "These go on the road.",
+    "spoken": "These go on the road.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s03.mp3": {
+    "written": "This is a car.",
+    "spoken": "This is a car.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s04.mp3": {
+    "written": "This is a bus.",
+    "spoken": "This is a bus.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s05.mp3": {
+    "written": "This is a bicycle.",
+    "spoken": "This is a bicycle.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s06.mp3": {
+    "written": "This is a train.",
+    "spoken": "This is a train.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s07.mp3": {
+    "written": "This is an auto.",
+    "spoken": "This is an auto.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s08.mp3": {
+    "written": "These go on the water.",
+    "spoken": "These go on the water.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s09.mp3": {
+    "written": "This is a boat.",
+    "spoken": "This is a boat.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s10.mp3": {
+    "written": "This is a ship.",
+    "spoken": "This is a ship.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s11.mp3": {
+    "written": "This is a sailboat.",
+    "spoken": "This is a sailboat.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s12.mp3": {
+    "written": "These fly in the sky.",
+    "spoken": "These fly in the sky.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s13.mp3": {
+    "written": "This is an aeroplane.",
+    "spoken": "This is an aeroplane.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s14.mp3": {
+    "written": "This is a helicopter.",
+    "spoken": "This is a helicopter.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s15.mp3": {
+    "written": "This is a rocket.",
+    "spoken": "This is a rocket.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s01.mp3": {
+    "written": "Look: I and N.",
+    "spoken": "Look, eye and en.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s02.mp3": {
+    "written": "Together they spell IN — in.",
+    "spoken": "Together they spell in, in.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s03.mp3": {
+    "written": "Look: O and N.",
+    "spoken": "Look, oh and en.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s04.mp3": {
+    "written": "Together they spell ON — on.",
+    "spoken": "Together they spell on, on.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s05.mp3": {
+    "written": "Look: U and P.",
+    "spoken": "Look, you and pee.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s06.mp3": {
+    "written": "Together they spell UP — up.",
+    "spoken": "Together they spell up, up.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s07.mp3": {
+    "written": "Look: G and O.",
+    "spoken": "Look, jee and oh.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s08.mp3": {
+    "written": "Together they spell GO — go.",
+    "spoken": "Together they spell go, go.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s09.mp3": {
+    "written": "Look: N and O.",
+    "spoken": "Look, en and oh.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s10.mp3": {
+    "written": "Together they spell NO — no.",
+    "spoken": "Together they spell no, no.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s11.mp3": {
+    "written": "Look: W and E.",
+    "spoken": "Look, double-you and ee.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s12.mp3": {
+    "written": "Together they spell WE — we.",
+    "spoken": "Together they spell we, we.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s01.mp3": {
+    "written": "This is capital A.",
+    "spoken": "This is capital ay.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s02.mp3": {
+    "written": "This is small a.",
+    "spoken": "This is small ay.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s03.mp3": {
+    "written": "A for Apple.",
+    "spoken": "ay for Apple.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s04.mp3": {
+    "written": "This is capital B.",
+    "spoken": "This is capital bee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s05.mp3": {
+    "written": "This is small b.",
+    "spoken": "This is small bee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s06.mp3": {
+    "written": "B for Banana.",
+    "spoken": "bee for Banana.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s07.mp3": {
+    "written": "This is capital C.",
+    "spoken": "This is capital see.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s08.mp3": {
+    "written": "This is small c.",
+    "spoken": "This is small see.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s09.mp3": {
+    "written": "C for Cat.",
+    "spoken": "see for Cat.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s10.mp3": {
+    "written": "This is capital D.",
+    "spoken": "This is capital dee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s11.mp3": {
+    "written": "This is small d.",
+    "spoken": "This is small dee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s12.mp3": {
+    "written": "D for Dog.",
+    "spoken": "dee for Dog.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s13.mp3": {
+    "written": "This is capital E.",
+    "spoken": "This is capital ee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s14.mp3": {
+    "written": "This is small e.",
+    "spoken": "This is small ee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s15.mp3": {
+    "written": "E for Elephant.",
+    "spoken": "ee for Elephant.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s16.mp3": {
+    "written": "This is capital F.",
+    "spoken": "This is capital eff.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s17.mp3": {
+    "written": "This is small f.",
+    "spoken": "This is small eff.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s18.mp3": {
+    "written": "F for Fish.",
+    "spoken": "eff for Fish.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s19.mp3": {
+    "written": "This is capital G.",
+    "spoken": "This is capital jee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s20.mp3": {
+    "written": "This is small g.",
+    "spoken": "This is small jee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s21.mp3": {
+    "written": "G for Goat.",
+    "spoken": "jee for Goat.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s22.mp3": {
+    "written": "This is capital H.",
+    "spoken": "This is capital aitch.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s23.mp3": {
+    "written": "This is small h.",
+    "spoken": "This is small aitch.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s24.mp3": {
+    "written": "H for Hen.",
+    "spoken": "aitch for Hen.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s25.mp3": {
+    "written": "This is capital I.",
+    "spoken": "This is capital eye.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s26.mp3": {
+    "written": "This is small i.",
+    "spoken": "This is small eye.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s27.mp3": {
+    "written": "I for Ice cream.",
+    "spoken": "eye for Ice cream.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s28.mp3": {
+    "written": "This is capital J.",
+    "spoken": "This is capital jay.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s29.mp3": {
+    "written": "This is small j.",
+    "spoken": "This is small jay.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s30.mp3": {
+    "written": "J for Jeep.",
+    "spoken": "jay for Jeep.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s31.mp3": {
+    "written": "This is capital K.",
+    "spoken": "This is capital kay.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s32.mp3": {
+    "written": "This is small k.",
+    "spoken": "This is small kay.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s33.mp3": {
+    "written": "K for Kite.",
+    "spoken": "kay for Kite.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s34.mp3": {
+    "written": "This is capital L.",
+    "spoken": "This is capital ell.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s35.mp3": {
+    "written": "This is small l.",
+    "spoken": "This is small ell.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s36.mp3": {
+    "written": "L for Lion.",
+    "spoken": "ell for Lion.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s37.mp3": {
+    "written": "This is capital M.",
+    "spoken": "This is capital em.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s38.mp3": {
+    "written": "This is small m.",
+    "spoken": "This is small em.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s39.mp3": {
+    "written": "M for Monkey.",
+    "spoken": "em for Monkey.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s40.mp3": {
+    "written": "This is capital N.",
+    "spoken": "This is capital en.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s41.mp3": {
+    "written": "This is small n.",
+    "spoken": "This is small en.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s42.mp3": {
+    "written": "N for Nest.",
+    "spoken": "en for Nest.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s43.mp3": {
+    "written": "This is capital O.",
+    "spoken": "This is capital oh.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s44.mp3": {
+    "written": "This is small o.",
+    "spoken": "This is small oh.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s45.mp3": {
+    "written": "O for Orange.",
+    "spoken": "oh for Orange.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s46.mp3": {
+    "written": "This is capital P.",
+    "spoken": "This is capital pee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s47.mp3": {
+    "written": "This is small p.",
+    "spoken": "This is small pee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s48.mp3": {
+    "written": "P for Parrot.",
+    "spoken": "pee for Parrot.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s49.mp3": {
+    "written": "This is capital Q.",
+    "spoken": "This is capital cue.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s50.mp3": {
+    "written": "This is small q.",
+    "spoken": "This is small cue.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s51.mp3": {
+    "written": "Q for Queen.",
+    "spoken": "cue for Queen.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s52.mp3": {
+    "written": "This is capital R.",
+    "spoken": "This is capital ar.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s53.mp3": {
+    "written": "This is small r.",
+    "spoken": "This is small ar.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s54.mp3": {
+    "written": "R for Rocket.",
+    "spoken": "ar for Rocket.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s55.mp3": {
+    "written": "This is capital S.",
+    "spoken": "This is capital ess.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s56.mp3": {
+    "written": "This is small s.",
+    "spoken": "This is small ess.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s57.mp3": {
+    "written": "S for Sun.",
+    "spoken": "ess for Sun.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s58.mp3": {
+    "written": "This is capital T.",
+    "spoken": "This is capital tee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s59.mp3": {
+    "written": "This is small t.",
+    "spoken": "This is small tee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s60.mp3": {
+    "written": "T for Tiger.",
+    "spoken": "tee for Tiger.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s61.mp3": {
+    "written": "This is capital U.",
+    "spoken": "This is capital you.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s62.mp3": {
+    "written": "This is small u.",
+    "spoken": "This is small you.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s63.mp3": {
+    "written": "U for Umbrella.",
+    "spoken": "you for Umbrella.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s64.mp3": {
+    "written": "This is capital V.",
+    "spoken": "This is capital vee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s65.mp3": {
+    "written": "This is small v.",
+    "spoken": "This is small vee.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s66.mp3": {
+    "written": "V for Violin.",
+    "spoken": "vee for Violin.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s67.mp3": {
+    "written": "This is capital W.",
+    "spoken": "This is capital double-you.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s68.mp3": {
+    "written": "This is small w.",
+    "spoken": "This is small double-you.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s69.mp3": {
+    "written": "W for Watermelon.",
+    "spoken": "double-you for Watermelon.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s70.mp3": {
+    "written": "This is capital X.",
+    "spoken": "This is capital ex.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s71.mp3": {
+    "written": "This is small x.",
+    "spoken": "This is small ex.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s72.mp3": {
+    "written": "X for Xylophone.",
+    "spoken": "ex for xylophone.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s73.mp3": {
+    "written": "This is capital Y.",
+    "spoken": "This is capital why.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s74.mp3": {
+    "written": "This is small y.",
+    "spoken": "This is small why.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s75.mp3": {
+    "written": "Y for Yarn.",
+    "spoken": "why for Yarn.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s76.mp3": {
+    "written": "This is capital Z.",
+    "spoken": "This is capital zed.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s77.mp3": {
+    "written": "This is small z.",
+    "spoken": "This is small zed.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s78.mp3": {
+    "written": "Z for Zebra.",
+    "spoken": "zed for Zebra.",
+    "provider": "indic"
+  },
+  "eng-nur-animal-sounds-s01.mp3": {
+    "written": "Every animal has its own sound. Look at one, and listen.",
+    "spoken": "Every animal has its own sound. Look at one, and listen.",
+    "provider": "indic"
+  },
+  "eng-nur-animal-sounds-s02.mp3": {
+    "written": "What does the cow say? Find her and see.",
+    "spoken": "What does the cow say? Find her and see.",
+    "provider": "indic"
+  },
+  "eng-nur-animal-sounds-s03.mp3": {
+    "written": "Now find the hen.",
+    "spoken": "Now find the hen.",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s01.mp3": {
+    "written": "Which of these lives in water? Touch it.",
+    "spoken": "Which of these lives in water? Touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s02.mp3": {
+    "written": "Which of these is a wild animal?",
+    "spoken": "Which of these is a wild animal?",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s03.mp3": {
+    "written": "Which of these is a domestic animal? It lives with us.",
+    "spoken": "Which of these is a domestic animal? It lives with us.",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s04.mp3": {
+    "written": "Which of these lives in the sea?",
+    "spoken": "Which of these lives in the sea?",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s05.mp3": {
+    "written": "Which of these lives in the forest?",
+    "spoken": "Which of these lives in the forest?",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-cat.mp3": {
+    "written": "This is a cat. The cat says meow.",
+    "spoken": "This is a cat. The cat says meow.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-crow.mp3": {
+    "written": "This is a crow. The crow says caw, caw.",
+    "spoken": "This is a crow. The crow says caw, caw.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-dog.mp3": {
+    "written": "This is a dog. The dog says woof, woof.",
+    "spoken": "This is a dog. The dog says woof, woof.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-duck.mp3": {
+    "written": "This is a duck. The duck says quack, quack.",
+    "spoken": "This is a duck. The duck says quack, quack.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-owl.mp3": {
+    "written": "This is an owl. The owl says hoo, hoo.",
+    "spoken": "This is an owl. The owl says hoo, hoo.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-parrot.mp3": {
+    "written": "This is a parrot. The parrot squawks.",
+    "spoken": "This is a parrot. The parrot squawks.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-pigeon.mp3": {
+    "written": "This is a pigeon. The pigeon says coo, coo.",
+    "spoken": "This is a pigeon. The pigeon says coo, coo.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s01.mp3": {
+    "written": "Every bird and animal has its own voice. Look at one, and listen.",
+    "spoken": "Every bird and animal has its own voice. Look at one, and listen.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s02.mp3": {
+    "written": "What does the crow say? Find it and see.",
+    "spoken": "What does the crow say? Find it and see.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s03.mp3": {
+    "written": "Now find the cat.",
+    "spoken": "Now find the cat.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s04.mp3": {
+    "written": "Who says hoo, hoo? Find out!",
+    "spoken": "Who says hoo, hoo? Find out!",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-sparrow.mp3": {
+    "written": "This is a sparrow. The sparrow says cheep, cheep.",
+    "spoken": "This is a sparrow. The sparrow says cheep, cheep.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s01.mp3": {
+    "written": "These are birds. Birds have wings, and they fly.",
+    "spoken": "These are birds. Birds have wings, and they fly.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s02.mp3": {
+    "written": "This is a crow. The crow is black.",
+    "spoken": "This is a crow. The crow is black.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s03.mp3": {
+    "written": "This is a sparrow. It is a little bird.",
+    "spoken": "This is a sparrow. It is a little bird.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s04.mp3": {
+    "written": "This is a pigeon.",
+    "spoken": "This is a pigeon.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s05.mp3": {
+    "written": "This is a parrot. The parrot has bright feathers.",
+    "spoken": "This is a parrot. The parrot has bright feathers.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s06.mp3": {
+    "written": "This is a peacock. The peacock is our national bird.",
+    "spoken": "This is a peacock. The peacock is our national bird.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s07.mp3": {
+    "written": "This is an owl. The owl is awake at night.",
+    "spoken": "This is an owl. The owl is awake at night.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s08.mp3": {
+    "written": "This is a duck. The duck swims in water.",
+    "spoken": "This is a duck. The duck swims in water.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s09.mp3": {
+    "written": "This is an eagle. The eagle flies very high.",
+    "spoken": "This is an eagle. The eagle flies very high.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-check-s01.mp3": {
+    "written": "Which one is blue? Touch it.",
+    "spoken": "Which one is blue? Touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-check-s02.mp3": {
+    "written": "Which one is pink? Touch it.",
+    "spoken": "Which one is pink? Touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-check-s03.mp3": {
+    "written": "Which one is yellow? Touch it.",
+    "spoken": "Which one is yellow? Touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s01.mp3": {
+    "written": "Look at these colours.",
+    "spoken": "Look at these colours.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s02.mp3": {
+    "written": "This is red.",
+    "spoken": "This is red.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s03.mp3": {
+    "written": "This is blue.",
+    "spoken": "This is blue.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s04.mp3": {
+    "written": "This is yellow.",
+    "spoken": "This is yellow.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s05.mp3": {
+    "written": "This is green.",
+    "spoken": "This is green.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s06.mp3": {
+    "written": "Look at these colours.",
+    "spoken": "Look at these colours.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s07.mp3": {
+    "written": "This is orange.",
+    "spoken": "This is orange.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s08.mp3": {
+    "written": "This is purple.",
+    "spoken": "This is purple.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s09.mp3": {
+    "written": "This is pink.",
+    "spoken": "This is pink.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s10.mp3": {
+    "written": "This is brown.",
+    "spoken": "This is brown.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s01.mp3": {
+    "written": "These are domestic animals. They live with us, at our homes and farms.",
+    "spoken": "These are domestic animals. They live with us, at our homes and farms.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s02.mp3": {
+    "written": "This is a cow. The cow gives us milk.",
+    "spoken": "This is a cow. The cow gives us milk.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s03.mp3": {
+    "written": "This is a buffalo. The buffalo gives us milk too.",
+    "spoken": "This is a buffalo. The buffalo gives us milk too.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s04.mp3": {
+    "written": "This is a horse. The horse runs fast.",
+    "spoken": "This is a horse. The horse runs fast.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s05.mp3": {
+    "written": "This is a goat.",
+    "spoken": "This is a goat.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s06.mp3": {
+    "written": "This is a sheep. The sheep gives us wool.",
+    "spoken": "This is a sheep. The sheep gives us wool.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s07.mp3": {
+    "written": "This is a dog. The dog guards our home.",
+    "spoken": "This is a dog. The dog guards our home.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s08.mp3": {
+    "written": "This is a cat.",
+    "spoken": "This is a cat.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s09.mp3": {
+    "written": "And this is a hen. The hen lays eggs.",
+    "spoken": "And this is a hen. The hen lays eggs.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s01.mp3": {
+    "written": "This is Appu. Appu is an elephant. He lives in the forest.",
+    "spoken": "This is Appu. Appu is an elephant. He lives in the forest.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s02.mp3": {
+    "written": "One day it was very hot. The sun was shining brightly. Appu was very thirsty.",
+    "spoken": "One day it was very hot. The sun was shining brightly. Appu was very thirsty.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s03.mp3": {
+    "written": "Appu asked his friend the monkey — where is the water? The monkey said — the pond is that way!",
+    "spoken": "Appu asked his friend the monkey, where is the water? The monkey said, the pond is that way!",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s04.mp3": {
+    "written": "Appu went to the pond. He drank and drank with his long trunk.",
+    "spoken": "Appu went to the pond. He drank and drank with his long trunk.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s05.mp3": {
+    "written": "The deer was thirsty too. Appu filled his trunk and gave him water.",
+    "spoken": "The deer was thirsty too. Appu filled his trunk and gave him water.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s06.mp3": {
+    "written": "Appu was happy. Helping our friends is a good thing to do.",
+    "spoken": "Appu was happy. Helping our friends is a good thing to do.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s01.mp3": {
+    "written": "A circle is hiding in the room. Find it and touch it.",
+    "spoken": "A circle is hiding in the room. Find it and touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s02.mp3": {
+    "written": "A square is hiding in the room. Find it and touch it.",
+    "spoken": "A square is hiding in the room. Find it and touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s03.mp3": {
+    "written": "A triangle is hiding in the room. Find it and touch it.",
+    "spoken": "A triangle is hiding in the room. Find it and touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s04.mp3": {
+    "written": "A star is hiding in the room. Find it and touch it.",
+    "spoken": "A star is hiding in the room. Find it and touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s05.mp3": {
+    "written": "A rectangle is hiding in the room. Find it and touch it.",
+    "spoken": "A rectangle is hiding in the room. Find it and touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s01.mp3": {
+    "written": "Look at these fruits.",
+    "spoken": "Look at these fruits.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s02.mp3": {
+    "written": "This is an apple.",
+    "spoken": "This is an apple.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s03.mp3": {
+    "written": "This is a banana.",
+    "spoken": "This is a banana.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s04.mp3": {
+    "written": "This is an orange.",
+    "spoken": "This is an orange.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s05.mp3": {
+    "written": "This is a bunch of grapes.",
+    "spoken": "This is a bunch of grapes.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s06.mp3": {
+    "written": "Look at these fruits.",
+    "spoken": "Look at these fruits.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s07.mp3": {
+    "written": "This is a pear.",
+    "spoken": "This is a pear.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s08.mp3": {
+    "written": "This is a pineapple.",
+    "spoken": "This is a pineapple.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s09.mp3": {
+    "written": "This is a strawberry.",
+    "spoken": "This is a strawberry.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s10.mp3": {
+    "written": "This is a watermelon.",
+    "spoken": "This is a watermelon.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s01.mp3": {
+    "written": "These are insects. Insects are very small — here we have made them big so you can see. Count: every insect has six legs.",
+    "spoken": "These are insects. Insects are very small, here we have made them big so you can see. Count, every insect has six legs.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s02.mp3": {
+    "written": "This is an ant. The ant works very hard.",
+    "spoken": "This is an ant. The ant works very hard.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s03.mp3": {
+    "written": "This is a bee. The bee makes honey.",
+    "spoken": "This is a bee. The bee makes honey.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s04.mp3": {
+    "written": "This is a butterfly. The butterfly has colourful wings.",
+    "spoken": "This is a butterfly. The butterfly has colourful wings.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s05.mp3": {
+    "written": "This is a ladybird. It has black spots on its red back.",
+    "spoken": "This is a ladybird. It has black spots on its red back.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s06.mp3": {
+    "written": "This is a dragonfly. It flies near water.",
+    "spoken": "This is a dragonfly. It flies near water.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s07.mp3": {
+    "written": "This is a grasshopper. The grasshopper jumps high.",
+    "spoken": "This is a grasshopper. The grasshopper jumps high.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s08.mp3": {
+    "written": "This is a housefly. It sits on dirt, so keep your food covered.",
+    "spoken": "This is a housefly. It sits on dirt, so keep your food covered.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-check-s01.mp3": {
+    "written": "Which one is the triangle? Touch it.",
+    "spoken": "Which one is the triangle? Touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-check-s02.mp3": {
+    "written": "Which one is the circle? Touch it.",
+    "spoken": "Which one is the circle? Touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-check-s03.mp3": {
+    "written": "Which one is the star? Touch it.",
+    "spoken": "Which one is the star? Touch it.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s01.mp3": {
+    "written": "Look at these shapes.",
+    "spoken": "Look at these shapes.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s02.mp3": {
+    "written": "This is a circle.",
+    "spoken": "This is a circle.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s03.mp3": {
+    "written": "This is a square.",
+    "spoken": "This is a square.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s04.mp3": {
+    "written": "This is a triangle.",
+    "spoken": "This is a triangle.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s05.mp3": {
+    "written": "This is a rectangle.",
+    "spoken": "This is a rectangle.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s06.mp3": {
+    "written": "Look at these shapes.",
+    "spoken": "Look at these shapes.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s07.mp3": {
+    "written": "This is a oval.",
+    "spoken": "This is a oval.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s08.mp3": {
+    "written": "This is a star.",
+    "spoken": "This is a star.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s09.mp3": {
+    "written": "This is a diamond.",
+    "spoken": "This is a diamond.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s01.mp3": {
+    "written": "Look at these vegetables.",
+    "spoken": "Look at these vegetables.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s02.mp3": {
+    "written": "This is a carrot.",
+    "spoken": "This is a carrot.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s03.mp3": {
+    "written": "This is a tomato.",
+    "spoken": "This is a tomato.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s04.mp3": {
+    "written": "This is an onion.",
+    "spoken": "This is an onion.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s05.mp3": {
+    "written": "This is corn.",
+    "spoken": "This is corn.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s06.mp3": {
+    "written": "Look at these vegetables.",
+    "spoken": "Look at these vegetables.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s07.mp3": {
+    "written": "This is a cabbage.",
+    "spoken": "This is a cabbage.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s08.mp3": {
+    "written": "This is a cauliflower.",
+    "spoken": "This is a cauliflower.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s09.mp3": {
+    "written": "This is a brinjal.",
+    "spoken": "This is a brinjal.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s10.mp3": {
+    "written": "This is a pumpkin.",
+    "spoken": "This is a pumpkin.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s01.mp3": {
+    "written": "We are under the sea. So many animals live here in the water.",
+    "spoken": "We are under the sea. So many animals live here in the water.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s02.mp3": {
+    "written": "This is a fish. The fish swims in the water.",
+    "spoken": "This is a fish. The fish swims in the water.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s03.mp3": {
+    "written": "This is a turtle. The turtle has a hard shell on its back.",
+    "spoken": "This is a turtle. The turtle has a hard shell on its back.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s04.mp3": {
+    "written": "This is a dolphin. The dolphin is very clever.",
+    "spoken": "This is a dolphin. The dolphin is very clever.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s05.mp3": {
+    "written": "Look far away — that is a whale. The whale is the biggest animal of all.",
+    "spoken": "Look far away, that is a whale. The whale is the biggest animal of all.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s06.mp3": {
+    "written": "This is an octopus. It has eight arms.",
+    "spoken": "This is an octopus. It has eight arms.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s07.mp3": {
+    "written": "This is a crab. The crab walks sideways.",
+    "spoken": "This is a crab. The crab walks sideways.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s08.mp3": {
+    "written": "This is a starfish. It looks like a star.",
+    "spoken": "This is a starfish. It looks like a star.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s09.mp3": {
+    "written": "And this is a seahorse.",
+    "spoken": "And this is a seahorse.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s01.mp3": {
+    "written": "Every wild animal has something special. Let us look.",
+    "spoken": "Every wild animal has something special. Let us look.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s02.mp3": {
+    "written": "The giraffe has a very long neck. It eats leaves from the tallest trees.",
+    "spoken": "The giraffe has a very long neck. It eats leaves from the tallest trees.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s03.mp3": {
+    "written": "The elephant has a long trunk. It drinks water with its trunk.",
+    "spoken": "The elephant has a long trunk. It drinks water with its trunk.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s04.mp3": {
+    "written": "The zebra has black and white stripes.",
+    "spoken": "The zebra has black and white stripes.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s05.mp3": {
+    "written": "The lion has thick hair round its neck. It is called a mane.",
+    "spoken": "The lion has thick hair round its neck. It is called a mane.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s06.mp3": {
+    "written": "The rhinoceros has a horn on its nose.",
+    "spoken": "The rhinoceros has a horn on its nose.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s07.mp3": {
+    "written": "The kangaroo carries its baby in a pouch.",
+    "spoken": "The kangaroo carries its baby in a pouch.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s01.mp3": {
+    "written": "This is the forest. Wild animals live here.",
+    "spoken": "This is the forest. Wild animals live here.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s02.mp3": {
+    "written": "This is a lion. The lion is the king of the forest.",
+    "spoken": "This is a lion. The lion is the king of the forest.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s03.mp3": {
+    "written": "This is a tiger. The tiger has stripes.",
+    "spoken": "This is a tiger. The tiger has stripes.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s04.mp3": {
+    "written": "This is an elephant. The elephant is very big.",
+    "spoken": "This is an elephant. The elephant is very big.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s05.mp3": {
+    "written": "This is a giraffe. The giraffe is very tall.",
+    "spoken": "This is a giraffe. The giraffe is very tall.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s06.mp3": {
+    "written": "This is a bear.",
+    "spoken": "This is a bear.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s07.mp3": {
+    "written": "This is a zebra.",
+    "spoken": "This is a zebra.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s08.mp3": {
+    "written": "This is a deer. The deer runs very fast.",
+    "spoken": "This is a deer. The deer runs very fast.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s09.mp3": {
+    "written": "And this is a monkey. The monkey lives in the trees.",
+    "spoken": "And this is a monkey. The monkey lives in the trees.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s01.mp3": {
+    "written": "Here is a rock, and here is a hen.",
+    "spoken": "Here is a rock, and here is a hen.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s02.mp3": {
+    "written": "The hen is in front of the rock.",
+    "spoken": "The hen is in front of the rock.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s03.mp3": {
+    "written": "Now look at this one.",
+    "spoken": "Now look at this one.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s04.mp3": {
+    "written": "The hen is behind the rock.",
+    "spoken": "The hen is behind the rock.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s05.mp3": {
+    "written": "In front, and behind. Remember them.",
+    "spoken": "In front, and behind. Remember them.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s01.mp3": {
+    "written": "Now look at these letters.",
+    "spoken": "Now look at these letters.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s02.mp3": {
+    "written": "A says “a”. Say it with me.",
+    "spoken": "ay says a. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s03.mp3": {
+    "written": "B says “buh”. Say it with me.",
+    "spoken": "bee says buh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s04.mp3": {
+    "written": "C says “kuh”. Say it with me.",
+    "spoken": "see says kuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s05.mp3": {
+    "written": "D says “duh”. Say it with me.",
+    "spoken": "dee says duh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s06.mp3": {
+    "written": "E says “eh”. Say it with me.",
+    "spoken": "ee says eh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s07.mp3": {
+    "written": "Now look at these letters.",
+    "spoken": "Now look at these letters.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s08.mp3": {
+    "written": "F says “fuh”. Say it with me.",
+    "spoken": "eff says fuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s09.mp3": {
+    "written": "G says “guh”. Say it with me.",
+    "spoken": "jee says guh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s10.mp3": {
+    "written": "H says “huh”. Say it with me.",
+    "spoken": "aitch says huh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s11.mp3": {
+    "written": "I says “ih”. Say it with me.",
+    "spoken": "eye says ih. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s12.mp3": {
+    "written": "J says “juh”. Say it with me.",
+    "spoken": "jay says juh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s13.mp3": {
+    "written": "Now look at these letters.",
+    "spoken": "Now look at these letters.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s14.mp3": {
+    "written": "K says “kuh”. Say it with me.",
+    "spoken": "kay says kuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s15.mp3": {
+    "written": "L says “luh”. Say it with me.",
+    "spoken": "ell says luh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s16.mp3": {
+    "written": "M says “muh”. Say it with me.",
+    "spoken": "em says muh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s17.mp3": {
+    "written": "N says “nuh”. Say it with me.",
+    "spoken": "en says nuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s18.mp3": {
+    "written": "O says “oh”. Say it with me.",
+    "spoken": "oh says oh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s19.mp3": {
+    "written": "Now look at these letters.",
+    "spoken": "Now look at these letters.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s20.mp3": {
+    "written": "P says “puh”. Say it with me.",
+    "spoken": "pee says puh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s21.mp3": {
+    "written": "Q says “kwuh”. Say it with me.",
+    "spoken": "cue says kwuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s22.mp3": {
+    "written": "R says “ruh”. Say it with me.",
+    "spoken": "ar says ruh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s23.mp3": {
+    "written": "S says “sss”. Say it with me.",
+    "spoken": "ess says sss. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s24.mp3": {
+    "written": "T says “tuh”. Say it with me.",
+    "spoken": "tee says tuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s25.mp3": {
+    "written": "Now look at these letters.",
+    "spoken": "Now look at these letters.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s26.mp3": {
+    "written": "U says “uh”. Say it with me.",
+    "spoken": "you says uh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s27.mp3": {
+    "written": "V says “vuh”. Say it with me.",
+    "spoken": "vee says vuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s28.mp3": {
+    "written": "W says “wuh”. Say it with me.",
+    "spoken": "double-you says wuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s29.mp3": {
+    "written": "X says “ks”. Say it with me.",
+    "spoken": "ex says ks. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s30.mp3": {
+    "written": "Y says “yuh”. Say it with me.",
+    "spoken": "why says yuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s31.mp3": {
+    "written": "Now look at these letters.",
+    "spoken": "Now look at these letters.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s32.mp3": {
+    "written": "Z says “zuh”. Say it with me.",
+    "spoken": "zed says zuh. Say it with me.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s01.mp3": {
+    "written": "Every animal has a baby. Let us see whose baby is whose.",
+    "spoken": "Every animal has a baby. Let us see whose baby is whose.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s02.mp3": {
+    "written": "This is a cow.",
+    "spoken": "This is a cow.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s03.mp3": {
+    "written": "And this is her baby — a calf.",
+    "spoken": "And this is her baby, a calf.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s04.mp3": {
+    "written": "This is a sheep.",
+    "spoken": "This is a sheep.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s05.mp3": {
+    "written": "And this is her baby — a lamb.",
+    "spoken": "And this is her baby, a lamb.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s06.mp3": {
+    "written": "This is a dog.",
+    "spoken": "This is a dog.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s07.mp3": {
+    "written": "And this is her baby — a puppy.",
+    "spoken": "And this is her baby, a puppy.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s08.mp3": {
+    "written": "This is a cat.",
+    "spoken": "This is a cat.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s09.mp3": {
+    "written": "And this is her baby — a kitten.",
+    "spoken": "And this is her baby, a kitten.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s10.mp3": {
+    "written": "This is a hen.",
+    "spoken": "This is a hen.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s11.mp3": {
+    "written": "And this is her baby — a chick.",
+    "spoken": "And this is her baby, a chick.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s01.mp3": {
+    "written": "Everybody gets hungry — animals too. Let us see who eats what.",
+    "spoken": "Everybody gets hungry, animals too. Let us see who eats what.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s02.mp3": {
+    "written": "This is a cow.",
+    "spoken": "This is a cow.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s03.mp3": {
+    "written": "The cow eats grass.",
+    "spoken": "The cow eats grass.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s04.mp3": {
+    "written": "This is a hen.",
+    "spoken": "This is a hen.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s05.mp3": {
+    "written": "The hen pecks at grain.",
+    "spoken": "The hen pecks at grain.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s06.mp3": {
+    "written": "This is a dog.",
+    "spoken": "This is a dog.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s07.mp3": {
+    "written": "The dog chews a bone.",
+    "spoken": "The dog chews a bone.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s08.mp3": {
+    "written": "This is a cat.",
+    "spoken": "This is a cat.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s09.mp3": {
+    "written": "The cat drinks milk.",
+    "spoken": "The cat drinks milk.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s10.mp3": {
+    "written": "This is a monkey.",
+    "spoken": "This is a monkey.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s11.mp3": {
+    "written": "The monkey eats a banana.",
+    "spoken": "The monkey eats a banana.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s01.mp3": {
+    "written": "Whose footprints are these on the ground?",
+    "spoken": "Whose footprints are these on the ground?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s02.mp3": {
+    "written": "The cow made them!",
+    "spoken": "The cow made them!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s03.mp3": {
+    "written": "Whose footprints are these on the ground?",
+    "spoken": "Whose footprints are these on the ground?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s04.mp3": {
+    "written": "The horse made them!",
+    "spoken": "The horse made them!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s05.mp3": {
+    "written": "Whose footprints are these on the ground?",
+    "spoken": "Whose footprints are these on the ground?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s06.mp3": {
+    "written": "The hen made them!",
+    "spoken": "The hen made them!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s07.mp3": {
+    "written": "Whose footprints are these on the ground?",
+    "spoken": "Whose footprints are these on the ground?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s08.mp3": {
+    "written": "The elephant made them!",
+    "spoken": "The elephant made them!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s01.mp3": {
+    "written": "We live in a house. Animals have homes too. Let us see who lives where.",
+    "spoken": "We live in a house. Animals have homes too. Let us see who lives where.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s02.mp3": {
+    "written": "This is a sparrow.",
+    "spoken": "This is a sparrow.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s03.mp3": {
+    "written": "The sparrow lives in a nest.",
+    "spoken": "The sparrow lives in a nest.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s04.mp3": {
+    "written": "This is a dog.",
+    "spoken": "This is a dog.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s05.mp3": {
+    "written": "The dog lives in a kennel.",
+    "spoken": "The dog lives in a kennel.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s06.mp3": {
+    "written": "This is a bee.",
+    "spoken": "This is a bee.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s07.mp3": {
+    "written": "The bee lives in a hive.",
+    "spoken": "The bee lives in a hive.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s08.mp3": {
+    "written": "This is a lion.",
+    "spoken": "This is a lion.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s09.mp3": {
+    "written": "The lion lives in a den.",
+    "spoken": "The lion lives in a den.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s10.mp3": {
+    "written": "This is a cow.",
+    "spoken": "This is a cow.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s11.mp3": {
+    "written": "The cow lives in a shed.",
+    "spoken": "The cow lives in a shed.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s01.mp3": {
+    "written": "This is our body. Let us learn the names of its parts.",
+    "spoken": "This is our body. Let us learn the names of its parts.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s02.mp3": {
+    "written": "This is the head.",
+    "spoken": "This is the head.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s03.mp3": {
+    "written": "This is the hair.",
+    "spoken": "This is the hair.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s04.mp3": {
+    "written": "These are the eyes. We see with our eyes.",
+    "spoken": "These are the eyes. We see with our eyes.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s05.mp3": {
+    "written": "These are the ears. We hear with our ears.",
+    "spoken": "These are the ears. We hear with our ears.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s06.mp3": {
+    "written": "This is the nose. We smell with our nose.",
+    "spoken": "This is the nose. We smell with our nose.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s07.mp3": {
+    "written": "This is the mouth. We eat and speak with our mouth.",
+    "spoken": "This is the mouth. We eat and speak with our mouth.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s08.mp3": {
+    "written": "These are the hands. We do our work with our hands.",
+    "spoken": "These are the hands. We do our work with our hands.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s09.mp3": {
+    "written": "This is the tummy.",
+    "spoken": "This is the tummy.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s10.mp3": {
+    "written": "These are the legs. We walk with our legs.",
+    "spoken": "These are the legs. We walk with our legs.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s11.mp3": {
+    "written": "These are the feet.",
+    "spoken": "These are the feet.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s12.mp3": {
+    "written": "Now touch your own nose! Now touch your ears!",
+    "spoken": "Now touch your own nose! Now touch your ears!",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s01.mp3": {
+    "written": "These are our community helpers. Every one of them helps us.",
+    "spoken": "These are our community helpers. Every one of them helps us.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s02.mp3": {
+    "written": "This is a doctor. When we are ill, the doctor makes us well.",
+    "spoken": "This is a doctor. When we are ill, the doctor makes us well.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s03.mp3": {
+    "written": "This is a teacher. She teaches us.",
+    "spoken": "This is a teacher. She teaches us.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s04.mp3": {
+    "written": "This is a police officer. The police keep us safe.",
+    "spoken": "This is a police officer. The police keep us safe.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s05.mp3": {
+    "written": "This is a farmer. The farmer grows our food.",
+    "spoken": "This is a farmer. The farmer grows our food.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s06.mp3": {
+    "written": "This is a firefighter. Firefighters put out fires.",
+    "spoken": "This is a firefighter. Firefighters put out fires.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s07.mp3": {
+    "written": "This is a postman. The postman brings our letters.",
+    "spoken": "This is a postman. The postman brings our letters.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s08.mp3": {
+    "written": "When they help us, we say — thank you!",
+    "spoken": "When they help us, we say, thank you!",
+    "provider": "indic"
+  },
+  "evs-lkg-healthy-food-s01.mp3": {
+    "written": "Which of these is healthy food? Touch it.",
+    "spoken": "Which of these is healthy food? Touch it.",
+    "provider": "indic"
+  },
+  "evs-lkg-healthy-food-s02.mp3": {
+    "written": "Which of these is healthy food? Touch it.",
+    "spoken": "Which of these is healthy food? Touch it.",
+    "provider": "indic"
+  },
+  "evs-lkg-healthy-food-s03.mp3": {
+    "written": "Which of these is healthy food? Touch it.",
+    "spoken": "Which of these is healthy food? Touch it.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s01.mp3": {
+    "written": "This is a house. A house has many parts.",
+    "spoken": "This is a house. A house has many parts.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s02.mp3": {
+    "written": "These are the walls. They hold the house up.",
+    "spoken": "These are the walls. They hold the house up.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s03.mp3": {
+    "written": "This is the roof. It keeps off the sun and the rain.",
+    "spoken": "This is the roof. It keeps off the sun and the rain.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s04.mp3": {
+    "written": "This is the door. We go in through it.",
+    "spoken": "This is the door. We go in through it.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s05.mp3": {
+    "written": "This is the window. It lets in air and light.",
+    "spoken": "This is the window. It lets in air and light.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s06.mp3": {
+    "written": "And these are the steps.",
+    "spoken": "And these are the steps.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s01.mp3": {
+    "written": "This is the market. This is where we buy things.",
+    "spoken": "This is the market. This is where we buy things.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s02.mp3": {
+    "written": "This is the fruit shop.",
+    "spoken": "This is the fruit shop.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s03.mp3": {
+    "written": "Here there are apples…",
+    "spoken": "Here there are apples,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s04.mp3": {
+    "written": "…bananas…",
+    "spoken": ",bananas,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s05.mp3": {
+    "written": "…and oranges.",
+    "spoken": ",and oranges.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s06.mp3": {
+    "written": "This is the vegetable shop.",
+    "spoken": "This is the vegetable shop.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s07.mp3": {
+    "written": "Here there are tomatoes…",
+    "spoken": "Here there are tomatoes,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s08.mp3": {
+    "written": "…brinjals…",
+    "spoken": ",brinjals,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s09.mp3": {
+    "written": "…and cabbages.",
+    "spoken": ",and cabbages.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s01.mp3": {
+    "written": "Everybody has a job to do, and every job has its own tools.",
+    "spoken": "Everybody has a job to do, and every job has its own tools.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s02.mp3": {
+    "written": "This is a doctor.",
+    "spoken": "This is a doctor.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s03.mp3": {
+    "written": "The doctor listens to our heartbeat with a stethoscope.",
+    "spoken": "The doctor listens to our heartbeat with a stethoscope.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s04.mp3": {
+    "written": "This is a teacher.",
+    "spoken": "This is a teacher.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s05.mp3": {
+    "written": "The teacher teaches from a book.",
+    "spoken": "The teacher teaches from a book.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s06.mp3": {
+    "written": "This is a postman.",
+    "spoken": "This is a postman.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s07.mp3": {
+    "written": "The postman brings letters.",
+    "spoken": "The postman brings letters.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s08.mp3": {
+    "written": "This is a farmer.",
+    "spoken": "This is a farmer.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s09.mp3": {
+    "written": "The farmer ploughs the field with a tractor.",
+    "spoken": "The farmer ploughs the field with a tractor.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s10.mp3": {
+    "written": "This is a firefighter.",
+    "spoken": "This is a firefighter.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s11.mp3": {
+    "written": "The firefighter goes to put out fires in a fire engine.",
+    "spoken": "The firefighter goes to put out fires in a fire engine.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s01.mp3": {
+    "written": "Some vehicles do a special job. Let us look at them.",
+    "spoken": "Some vehicles do a special job. Let us look at them.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s02.mp3": {
+    "written": "This is a police car. The police come in it to help us.",
+    "spoken": "This is a police car. The police come in it to help us.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s03.mp3": {
+    "written": "This is an ambulance. It takes sick people to hospital quickly.",
+    "spoken": "This is an ambulance. It takes sick people to hospital quickly.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s04.mp3": {
+    "written": "This is a fire engine. It goes to put out fires.",
+    "spoken": "This is a fire engine. It goes to put out fires.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s05.mp3": {
+    "written": "This is a school bus. It takes children to school.",
+    "spoken": "This is a school bus. It takes children to school.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s06.mp3": {
+    "written": "And this is a bulldozer. It pushes earth and helps to build roads.",
+    "spoken": "And this is a bulldozer. It pushes earth and helps to build roads.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s07.mp3": {
+    "written": "When an ambulance or a fire engine sounds its siren, everybody makes way.",
+    "spoken": "When an ambulance or a fire engine sounds its siren, everybody makes way.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s01.mp3": {
+    "written": "Festivals are happy days. We all celebrate them together.",
+    "spoken": "Festivals are happy days. We all celebrate them together.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s02.mp3": {
+    "written": "Diwali is the festival of lights. We light diyas.",
+    "spoken": "Diwali is the festival of lights. We light diyas.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s03.mp3": {
+    "written": "And we make a rangoli on the floor.",
+    "spoken": "And we make a rangoli on the floor.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s04.mp3": {
+    "written": "On Makar Sankranti we fly kites.",
+    "spoken": "On Makar Sankranti we fly kites.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s05.mp3": {
+    "written": "Holi is the festival of colours. We put gulal on one another.",
+    "spoken": "Holi is the festival of colours. We put gulal on one another.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s06.mp3": {
+    "written": "At Christmas we decorate a Christmas tree…",
+    "spoken": "At Christmas we decorate a Christmas tree,",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s07.mp3": {
+    "written": "…and we give each other gifts.",
+    "spoken": ",and we give each other gifts.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s08.mp3": {
+    "written": "At Eid we look for the moon, and we wish everyone Eid Mubarak.",
+    "spoken": "At Eid we look for the moon, and we wish everyone Eid Mubarak.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s09.mp3": {
+    "written": "Which festivals do you celebrate at your home?",
+    "spoken": "Which festivals do you celebrate at your home?",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s01.mp3": {
+    "written": "Good habits keep us healthy and happy.",
+    "spoken": "Good habits keep us healthy and happy.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s02.mp3": {
+    "written": "We brush our teeth every morning and every night.",
+    "spoken": "We brush our teeth every morning and every night.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s03.mp3": {
+    "written": "We wash our hands with soap before we eat and after the toilet.",
+    "spoken": "We wash our hands with soap before we eat and after the toilet.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s04.mp3": {
+    "written": "We take a bath every day and dry ourselves with a towel.",
+    "spoken": "We take a bath every day and dry ourselves with a towel.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s05.mp3": {
+    "written": "We comb our hair.",
+    "spoken": "We comb our hair.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s06.mp3": {
+    "written": "We eat fruit and vegetables…",
+    "spoken": "We eat fruit and vegetables,",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s07.mp3": {
+    "written": "…and we drink our milk.",
+    "spoken": ",and we drink our milk.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s08.mp3": {
+    "written": "We greet our elders, and we say — please, and thank you.",
+    "spoken": "We greet our elders, and we say, please, and thank you.",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s01.mp3": {
+    "written": "First, it rained.",
+    "spoken": "First, it rained.",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s02.mp3": {
+    "written": "Then the sun came out.",
+    "spoken": "Then the sun came out.",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s03.mp3": {
+    "written": "And look — a rainbow!",
+    "spoken": "And look, a rainbow!",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s04.mp3": {
+    "written": "It has seven colours. From the top: red, orange, yellow, green…",
+    "spoken": "It has seven colours. From the top, red, orange, yellow, green,",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s05.mp3": {
+    "written": "…blue, indigo and violet.",
+    "spoken": ",blue, indigo and violet.",
+    "provider": "indic"
+  },
+  "evs-nur-school-visit-s01.mp3": {
+    "written": "This is our school. Look all around. What can you see?",
+    "spoken": "This is our school. Look all around. What can you see?",
+    "provider": "indic"
+  },
+  "evs-nur-school-visit-s02.mp3": {
+    "written": "Look at the big school building. We come here to learn and to play.",
+    "spoken": "Look at the big school building. We come here to learn and to play.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s01.mp3": {
+    "written": "We are in a hot air balloon. Look down over the edge of the basket.",
+    "spoken": "We are in a hot air balloon. Look down over the edge of the basket.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s02.mp3": {
+    "written": "Down below — a river, fields and houses. How tiny they look from up here!",
+    "spoken": "Down below, a river, fields and houses. How tiny they look from up here!",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s03.mp3": {
+    "written": "Look — another balloon is flying over there.",
+    "spoken": "Look, another balloon is flying over there.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s04.mp3": {
+    "written": "The clouds are right beside us.",
+    "spoken": "The clouds are right beside us.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s05.mp3": {
+    "written": "And up above, the sun is shining.",
+    "spoken": "And up above, the sun is shining.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s01.mp3": {
+    "written": "This is the dinosaur park. These are models of dinosaurs — they are not real. Dinosaurs lived a very, very long time ago. No dinosaur is alive today.",
+    "spoken": "This is the dinosaur park. These are models of dinosaurs, they are not real. Dinosaurs lived a very, very long time ago. No dinosaur is alive today.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s02.mp3": {
+    "written": "This is Triceratops. It had three horns. It ate plants.",
+    "spoken": "This is Triceratops. It had three horns. It ate plants.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s03.mp3": {
+    "written": "This is Stegosaurus. It had big plates along its back.",
+    "spoken": "This is Stegosaurus. It had big plates along its back.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s04.mp3": {
+    "written": "This dinosaur had a long crest on its head.",
+    "spoken": "This dinosaur had a long crest on its head.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s05.mp3": {
+    "written": "This is Apatosaurus. It had a very long neck. It was one of the biggest dinosaurs of all.",
+    "spoken": "This is Apatosaurus. It had a very long neck. It was one of the biggest dinosaurs of all.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s06.mp3": {
+    "written": "This is T-Rex. It had very big teeth. It ate other animals.",
+    "spoken": "This is tee-Rex. It had very big teeth. It ate other animals.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s07.mp3": {
+    "written": "We know about dinosaurs from their bones, which were found under the ground.",
+    "spoken": "We know about dinosaurs from their bones, which were found under the ground.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-cow.mp3": {
+    "written": "This is a cow. She eats grass and gives us milk. Her baby is called a calf.",
+    "spoken": "This is a cow. She eats grass and gives us milk. Her baby is called a calf.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-dog.mp3": {
+    "written": "This is a dog. The dog guards the farm.",
+    "spoken": "This is a dog. The dog guards the farm.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-donkey.mp3": {
+    "written": "This is a donkey. The donkey carries loads.",
+    "spoken": "This is a donkey. The donkey carries loads.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-duck.mp3": {
+    "written": "This is a duck. The duck swims in the pond.",
+    "spoken": "This is a duck. The duck swims in the pond.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-goat.mp3": {
+    "written": "This is a goat. The goat eats leaves and gives milk.",
+    "spoken": "This is a goat. The goat eats leaves and gives milk.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-hen.mp3": {
+    "written": "This is a hen. The hen pecks grain and lays eggs.",
+    "spoken": "This is a hen. The hen pecks grain and lays eggs.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-horse.mp3": {
+    "written": "This is a horse. The horse pulls carts and runs fast.",
+    "spoken": "This is a horse. The horse pulls carts and runs fast.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-s01.mp3": {
+    "written": "We have come to the farm. Look all around. Look at an animal, and it will tell you about itself.",
+    "spoken": "We have come to the farm. Look all around. Look at an animal, and it will tell you about itself.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-s02.mp3": {
+    "written": "Which animal gives us milk? Find it.",
+    "spoken": "Which animal gives us milk? Find it.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-s03.mp3": {
+    "written": "Who lays eggs? And who gives us wool?",
+    "spoken": "Who lays eggs? And who gives us wool?",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-sheep.mp3": {
+    "written": "This is a sheep. Wool is made from the sheep's coat.",
+    "spoken": "This is a sheep. Wool is made from the sheeps coat.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s01.mp3": {
+    "written": "Flowers bloom on plants. Every flower has its own colour and its own smell.",
+    "spoken": "Flowers bloom on plants. Every flower has its own colour and its own smell.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s02.mp3": {
+    "written": "This is a rose. The rose has thorns. It smells lovely.",
+    "spoken": "This is a rose. The rose has thorns. It smells lovely.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s03.mp3": {
+    "written": "This is a sunflower. It turns its face to the sun.",
+    "spoken": "This is a sunflower. It turns its face to the sun.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s04.mp3": {
+    "written": "This is a marigold. We make garlands from marigolds.",
+    "spoken": "This is a marigold. We make garlands from marigolds.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s05.mp3": {
+    "written": "This is a lotus. The lotus grows in water. It is our national flower.",
+    "spoken": "This is a lotus. The lotus grows in water. It is our national flower.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s06.mp3": {
+    "written": "This is a hibiscus. It is deep red.",
+    "spoken": "This is a hibiscus. It is deep red.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s07.mp3": {
+    "written": "This is jasmine. These little white flowers smell very sweet.",
+    "spoken": "This is jasmine. These little white flowers smell very sweet.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s08.mp3": {
+    "written": "Flowers look best on the plant. We do not pluck them for no reason.",
+    "spoken": "Flowers look best on the plant. We do not pluck them for no reason.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s01.mp3": {
+    "written": "This is a seed. We sow it in the soil and give it water.",
+    "spoken": "This is a seed. We sow it in the soil and give it water.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s02.mp3": {
+    "written": "The seed drinks water and swells. A tiny root comes out and grows down.",
+    "spoken": "The seed drinks water and swells. A tiny root comes out and grows down.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s03.mp3": {
+    "written": "Now a shoot grows upward and peeps out of the soil.",
+    "spoken": "Now a shoot grows upward and peeps out of the soil.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s04.mp3": {
+    "written": "Two little leaves open on the shoot. This is a seedling.",
+    "spoken": "Two little leaves open on the shoot. This is a seedling.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s05.mp3": {
+    "written": "With sunlight and water, it grows into a big plant.",
+    "spoken": "With sunlight and water, it grows into a big plant.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s06.mp3": {
+    "written": "A seed growing into a plant is called germination. Try sowing a seed yourself!",
+    "spoken": "A seed growing into a plant is called germination. Try sowing a seed yourself!",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s01.mp3": {
+    "written": "Many kinds of people live in India. Each has their own language, their own dress and their own festivals.",
+    "spoken": "Many kinds of people live in India. Each has their own language, their own dress and their own festivals.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s02.mp3": {
+    "written": "We join our hands and say namaste.",
+    "spoken": "We join our hands and say namaste.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s03.mp3": {
+    "written": "In many places, people wear a turban on their head.",
+    "spoken": "In many places, people wear a turban on their head.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s04.mp3": {
+    "written": "Many women wear a saree.",
+    "spoken": "Many women wear a saree.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s05.mp3": {
+    "written": "Our music is very old. This is the tabla.",
+    "spoken": "Our music is very old. This is the tabla.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s06.mp3": {
+    "written": "At festivals we draw a rangoli in the courtyard…",
+    "spoken": "At festivals we draw a rangoli in the courtyard,",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s07.mp3": {
+    "written": "…and we light diyas.",
+    "spoken": ",and we light diyas.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s08.mp3": {
+    "written": "We are all different, and still we are one. We are all Indian.",
+    "spoken": "We are all different, and still we are one. We are all Indian.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s01.mp3": {
+    "written": "Our country is India. Every country has its own national symbols.",
+    "spoken": "Our country is India. Every country has its own national symbols.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s02.mp3": {
+    "written": "This is our national flag — the Tiranga. It is saffron, white and green, with the Ashoka Chakra in the middle.",
+    "spoken": "This is our national flag, the Tiranga. It is saffron, white and green, with the Ashoka Chakra in the middle.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s03.mp3": {
+    "written": "The tiger is our national animal.",
+    "spoken": "The tiger is our national animal.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s04.mp3": {
+    "written": "The peacock is our national bird.",
+    "spoken": "The peacock is our national bird.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s05.mp3": {
+    "written": "The lotus is our national flower.",
+    "spoken": "The lotus is our national flower.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s06.mp3": {
+    "written": "The mango is our national fruit.",
+    "spoken": "The mango is our national fruit.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s07.mp3": {
+    "written": "And the banyan is our national tree.",
+    "spoken": "And the banyan is our national tree.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s08.mp3": {
+    "written": "When the national anthem plays, we stand up straight. Jai Hind!",
+    "spoken": "When the national anthem plays, we stand up straight. Jai Hind!",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s01.mp3": {
+    "written": "People pray in different places. Let us look at them.",
+    "spoken": "People pray in different places. Let us look at them.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s02.mp3": {
+    "written": "This is a church. Christians pray here.",
+    "spoken": "This is a church. Christians pray here.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s03.mp3": {
+    "written": "This is a gurdwara. Sikhs pray here.",
+    "spoken": "This is a gurdwara. Sikhs pray here.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s04.mp3": {
+    "written": "This is a mosque. Muslims pray here.",
+    "spoken": "This is a mosque. Muslims pray here.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s05.mp3": {
+    "written": "This is a temple. Hindus pray here.",
+    "spoken": "This is a temple. Hindus pray here.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s06.mp3": {
+    "written": "Everyone's place of prayer is different, and we respect every one of them.",
+    "spoken": "Everyones place of prayer is different, and we respect every one of them.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s01.mp3": {
+    "written": "This is a plant. It grows in the soil. Let us look at its parts.",
+    "spoken": "This is a plant. It grows in the soil. Let us look at its parts.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s02.mp3": {
+    "written": "These are the roots. Roots grow under the soil. They drink water and hold the plant firm.",
+    "spoken": "These are the roots. Roots grow under the soil. They drink water and hold the plant firm.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s03.mp3": {
+    "written": "This is the stem. The stem holds the plant up and carries water to the top.",
+    "spoken": "This is the stem. The stem holds the plant up and carries water to the top.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s04.mp3": {
+    "written": "These are the leaves. Leaves make food for the plant from sunlight.",
+    "spoken": "These are the leaves. Leaves make food for the plant from sunlight.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s05.mp3": {
+    "written": "This is the flower. The flower turns into a fruit.",
+    "spoken": "This is the flower. The flower turns into a fruit.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s06.mp3": {
+    "written": "This is the fruit. Inside the fruit are the seeds.",
+    "spoken": "This is the fruit. Inside the fruit are the seeds.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s07.mp3": {
+    "written": "A plant needs water, sunlight and air to grow.",
+    "spoken": "A plant needs water, sunlight and air to grow.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s01.mp3": {
+    "written": "This is a river. Water flows in the river. We want to get to the other side.",
+    "spoken": "This is a river. Water flows in the river. We want to get to the other side.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s02.mp3": {
+    "written": "A river is deep, and the water runs fast. We never, ever step into a river on our own.",
+    "spoken": "A river is deep, and the water runs fast. We never, ever step into a river on our own.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s03.mp3": {
+    "written": "This is a bridge. Walking over a bridge is the safest way to cross.",
+    "spoken": "This is a bridge. Walking over a bridge is the safest way to cross.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s04.mp3": {
+    "written": "This is a boat. We can cross the river by boat too…",
+    "spoken": "This is a boat. We can cross the river by boat too,",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s05.mp3": {
+    "written": "…but always with a grown-up, and always doing what the boatman says.",
+    "spoken": ",but always with a grown-up, and always doing what the boatman says.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s06.mp3": {
+    "written": "In a boat we stay sitting down, and we keep our hands out of the water.",
+    "spoken": "In a boat we stay sitting down, and we keep our hands out of the water.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s01.mp3": {
+    "written": "This is Meena. Meena's body belongs to Meena. Your body belongs to you.",
+    "spoken": "This is Meena. Meenas body belongs to Meena. Your body belongs to you.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s02.mp3": {
+    "written": "Some touches feel good — like a hug from mother, or holding hands to cross the road. These are safe touches.",
+    "spoken": "Some touches feel good, like a hug from mother, or holding hands to cross the road. These are safe touches.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s03.mp3": {
+    "written": "If anyone touches you in a way that feels bad, or scary, or that hurts — that is an unsafe touch. Nobody may touch the parts of you that your clothes cover.",
+    "spoken": "If anyone touches you in a way that feels bad, or scary, or that hurts, that is an unsafe touch. Nobody may touch the parts of you that your clothes cover.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s04.mp3": {
+    "written": "Then do three things. One — say it loudly: NO!",
+    "spoken": "Then do three things. One, say it loudly, no!",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s05.mp3": {
+    "written": "Two — go away from there.",
+    "spoken": "Two, go away from there.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s06.mp3": {
+    "written": "Three — tell a grown-up you trust.",
+    "spoken": "Three, tell a grown-up you trust.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s07.mp3": {
+    "written": "Who are the grown-ups you trust? Mother, father, or your teacher.",
+    "spoken": "Who are the grown-ups you trust? Mother, father, or your teacher.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s08.mp3": {
+    "written": "It is never your fault. And if one person does not listen, tell another — keep telling until someone helps.",
+    "spoken": "It is never your fault. And if one person does not listen, tell another, keep telling until someone helps.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s01.mp3": {
+    "written": "Three seasons come every year — summer, monsoon and winter.",
+    "spoken": "Three seasons come every year, summer, monsoon and winter.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s02.mp3": {
+    "written": "In summer the sun shines strongly, and it is very hot.",
+    "spoken": "In summer the sun shines strongly, and it is very hot.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s03.mp3": {
+    "written": "In the monsoon the clouds come, and it rains.",
+    "spoken": "In the monsoon the clouds come, and it rains.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s04.mp3": {
+    "written": "In the rain we carry an umbrella. Puddles fill up on the ground.",
+    "spoken": "In the rain we carry an umbrella. Puddles fill up on the ground.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s05.mp3": {
+    "written": "In winter it is cold. The sky is grey, and we warm ourselves by a fire.",
+    "spoken": "In winter it is cold. The sky is grey, and we warm ourselves by a fire.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s01.mp3": {
+    "written": "This is the snake house. Snakes and other reptiles live here, behind glass.",
+    "spoken": "This is the snake house. Snakes and other reptiles live here, behind glass.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s02.mp3": {
+    "written": "The glass keeps us safe. We only look. We do not tap on the glass.",
+    "spoken": "The glass keeps us safe. We only look. We do not tap on the glass.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s03.mp3": {
+    "written": "This is a cobra. It spreads its hood. The cobra is poisonous.",
+    "spoken": "This is a cobra. It spreads its hood. The cobra is poisonous.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s04.mp3": {
+    "written": "This is a green snake. It lives in trees.",
+    "spoken": "This is a green snake. It lives in trees.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s05.mp3": {
+    "written": "This is a lizard. It has four legs and a long tail.",
+    "spoken": "This is a lizard. It has four legs and a long tail.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s06.mp3": {
+    "written": "This is a turtle. It hides inside its shell.",
+    "spoken": "This is a turtle. It hides inside its shell.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s07.mp3": {
+    "written": "If you ever see a snake outside — do not touch it, do not go near. Move away slowly and tell a grown-up.",
+    "spoken": "If you ever see a snake outside, do not touch it, do not go near. Move away slowly and tell a grown-up.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s01.mp3": {
+    "written": "We are in the snowy mountains. There is snow all around us.",
+    "spoken": "We are in the snowy mountains. There is snow all around us.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s02.mp3": {
+    "written": "This is our tent. We sleep inside it.",
+    "spoken": "This is our tent. We sleep inside it.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s03.mp3": {
+    "written": "This is the fire. It keeps us warm.",
+    "spoken": "This is the fire. It keeps us warm.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s04.mp3": {
+    "written": "This is a pine tree, with snow on its branches.",
+    "spoken": "This is a pine tree, with snow on its branches.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s05.mp3": {
+    "written": "And look what we made — a snowman!",
+    "spoken": "And look what we made, a snowman!",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s01.mp3": {
+    "written": "India is a very big country. It has twenty-eight states. Every state has something special.",
+    "spoken": "India is a very big country. It has twenty-eight states. Every state has something special.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s02.mp3": {
+    "written": "Rajasthan has a desert. Camels walk there.",
+    "spoken": "Rajasthan has a desert. Camels walk there.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s03.mp3": {
+    "written": "Lions live in the Gir forest of Gujarat.",
+    "spoken": "Lions live in the Gir forest of Gujarat.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s04.mp3": {
+    "written": "Maharashtra is famous for its Alphonso mangoes.",
+    "spoken": "Maharashtra is famous for its Alphonso mangoes.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s05.mp3": {
+    "written": "Kerala has many, many coconut trees.",
+    "spoken": "Kerala has many, many coconut trees.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s06.mp3": {
+    "written": "Every year, lakhs of turtles come to the beaches of Odisha.",
+    "spoken": "Every year, lakhs of turtles come to the beaches of Odisha.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s07.mp3": {
+    "written": "Tigers live in the Sundarbans of West Bengal.",
+    "spoken": "Tigers live in the Sundarbans of West Bengal.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s08.mp3": {
+    "written": "The one-horned rhinoceros lives in Assam.",
+    "spoken": "The one-horned rhinoceros lives in Assam.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s09.mp3": {
+    "written": "The fields of Punjab grow lots of wheat.",
+    "spoken": "The fields of Punjab grow lots of wheat.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s10.mp3": {
+    "written": "Which state do you live in? Ask your teacher.",
+    "spoken": "Which state do you live in? Ask your teacher.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s01.mp3": {
+    "written": "This is a village. The houses are low, and far apart.",
+    "spoken": "This is a village. The houses are low, and far apart.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s02.mp3": {
+    "written": "Just one floor, with a veranda in front.",
+    "spoken": "Just one floor, with a veranda in front.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s03.mp3": {
+    "written": "Now this is a city. The buildings are tall.",
+    "spoken": "Now this is a city. The buildings are tall.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s04.mp3": {
+    "written": "Four floors, five floors — one on top of another.",
+    "spoken": "Four floors, five floors, one on top of another.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s05.mp3": {
+    "written": "Low in the village, tall in the city — and people live in both.",
+    "spoken": "Low in the village, tall in the city, and people live in both.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s01.mp3": {
+    "written": "The sun warms the water in the pond.",
+    "spoken": "The sun warms the water in the pond.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s02.mp3": {
+    "written": "The warm water turns into vapour and rises up, up into the sky.",
+    "spoken": "The warm water turns into vapour and rises up, up into the sky.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s03.mp3": {
+    "written": "High up it is cold, and the vapour becomes a cloud.",
+    "spoken": "High up it is cold, and the vapour becomes a cloud.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s04.mp3": {
+    "written": "The cloud grows heavy and grey — and down comes the rain.",
+    "spoken": "The cloud grows heavy and grey, and down comes the rain.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s05.mp3": {
+    "written": "The rain fills the pond again. And then it all begins once more.",
+    "spoken": "The rain fills the pond again. And then it all begins once more.",
+    "provider": "indic"
+  },
+  "farm_yard_s1.mp3": {
+    "written": "Look around the yard. What can you see?",
+    "spoken": "Look around the yard. What can you see?",
+    "provider": "indic"
+  },
+  "farm_yard_s2.mp3": {
+    "written": "Can you find the animal that gives us milk?",
+    "spoken": "Can you find the animal that gives us milk?",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s01.mp3": {
+    "written": "Playing games keeps us fit. Every game has its own equipment.",
+    "spoken": "Playing games keeps us fit. Every game has its own equipment.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s02.mp3": {
+    "written": "This is a bat.",
+    "spoken": "This is a bat.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s03.mp3": {
+    "written": "Cricket is played with a bat and a ball.",
+    "spoken": "Cricket is played with a bat and a ball.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s04.mp3": {
+    "written": "This is a football.",
+    "spoken": "This is a football.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s05.mp3": {
+    "written": "In football we kick the ball into the goal.",
+    "spoken": "In football we kick the ball into the goal.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s06.mp3": {
+    "written": "This is a racket.",
+    "spoken": "This is a racket.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s07.mp3": {
+    "written": "Badminton is played with a racket and a shuttlecock.",
+    "spoken": "Badminton is played with a racket and a shuttlecock.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s08.mp3": {
+    "written": "This is a hockey stick.",
+    "spoken": "This is a hockey stick.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s09.mp3": {
+    "written": "Hockey is played with a stick and a ball. Hockey is our national game.",
+    "spoken": "Hockey is played with a stick and a ball. Hockey is our national game.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s10.mp3": {
+    "written": "This is a basketball.",
+    "spoken": "This is a basketball.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s11.mp3": {
+    "written": "In basketball we throw the ball up into the hoop.",
+    "spoken": "In basketball we throw the ball up into the hoop.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s12.mp3": {
+    "written": "This is a racket.",
+    "spoken": "This is a racket.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s13.mp3": {
+    "written": "Tennis is played with a racket and a ball.",
+    "spoken": "Tennis is played with a racket and a ball.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s01.mp3": {
+    "written": "This is a tub of water. Let us see what floats and what sinks.",
+    "spoken": "This is a tub of water. Let us see what floats and what sinks.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s02.mp3": {
+    "written": "The apple floats — it stays on top of the water.",
+    "spoken": "The apple floats, it stays on top of the water.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s03.mp3": {
+    "written": "The egg sinks — it goes to the bottom.",
+    "spoken": "The egg sinks, it goes to the bottom.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s04.mp3": {
+    "written": "The coconut floats — it stays on top of the water.",
+    "spoken": "The coconut floats, it stays on top of the water.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s05.mp3": {
+    "written": "The spoon sinks — it goes to the bottom.",
+    "spoken": "The spoon sinks, it goes to the bottom.",
+    "provider": "indic"
+  },
+  "goat_about.mp3": {
+    "written": "This is a goat. The goat likes to climb.",
+    "spoken": "This is a goat. The goat likes to climb.",
+    "provider": "indic"
+  },
+  "hen_about.mp3": {
+    "written": "This is a hen. The hen lays eggs.",
+    "spoken": "This is a hen. The hen lays eggs.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s01.mp3": {
+    "written": "This is the soil of a field, and on top of it, the ground.",
+    "spoken": "This is the soil of a field, and on top of it, the ground.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s02.mp3": {
+    "written": "A carrot grows under the ground.",
+    "spoken": "A carrot grows under the ground.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s03.mp3": {
+    "written": "A radish grows underneath too.",
+    "spoken": "A radish grows underneath too.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s04.mp3": {
+    "written": "And so does a beetroot.",
+    "spoken": "And so does a beetroot.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s05.mp3": {
+    "written": "A tomato grows above the ground.",
+    "spoken": "A tomato grows above the ground.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s06.mp3": {
+    "written": "Corn grows above it too.",
+    "spoken": "Corn grows above it too.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s07.mp3": {
+    "written": "And so does a brinjal.",
+    "spoken": "And so does a brinjal.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s01.mp3": {
+    "written": "This is a tomato.",
+    "spoken": "This is a tomato.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s02.mp3": {
+    "written": "A tomato is red.",
+    "spoken": "A tomato is red.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s03.mp3": {
+    "written": "This is a carrot.",
+    "spoken": "This is a carrot.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s04.mp3": {
+    "written": "A carrot is orange.",
+    "spoken": "A carrot is orange.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s05.mp3": {
+    "written": "This is a brinjal.",
+    "spoken": "This is a brinjal.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s06.mp3": {
+    "written": "A brinjal is purple.",
+    "spoken": "A brinjal is purple.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s07.mp3": {
+    "written": "This is a corn.",
+    "spoken": "This is a corn.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s08.mp3": {
+    "written": "A corn is yellow.",
+    "spoken": "A corn is yellow.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s09.mp3": {
+    "written": "This is a cabbage.",
+    "spoken": "This is a cabbage.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s10.mp3": {
+    "written": "A cabbage is green.",
+    "spoken": "A cabbage is green.",
+    "provider": "indic"
+  },
+  "hin-nur-janvar-boliya-s01.mp3": {
+    "written": "Listen to the animals. Whichever one you look at will speak.",
+    "spoken": "Listen to the animals. Whichever one you look at will speak.",
+    "provider": "indic"
+  },
+  "hin-nur-janvar-boliya-s02.mp3": {
+    "written": "The cow lows. The goat bleats.",
+    "spoken": "The cow lows. The goat bleats.",
+    "provider": "indic"
+  },
+  "hin-nur-janvar-boliya-s03.mp3": {
+    "written": "The horse neighs. The hen clucks.",
+    "spoken": "The horse neighs. The hen clucks.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s01.mp3": {
+    "written": "These are musical instruments. They make sweet music.",
+    "spoken": "These are musical instruments. They make sweet music.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s02.mp3": {
+    "written": "This is the tabla. It is played with the hands.",
+    "spoken": "This is the tabla. It is played with the hands.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s03.mp3": {
+    "written": "This is the dholak. It is played on both sides.",
+    "spoken": "This is the dholak. It is played on both sides.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s04.mp3": {
+    "written": "This is the harmonium.",
+    "spoken": "This is the harmonium.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s05.mp3": {
+    "written": "This is the flute. We blow into it to play.",
+    "spoken": "This is the flute. We blow into it to play.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s06.mp3": {
+    "written": "This is the guitar. We pluck its strings.",
+    "spoken": "This is the guitar. We pluck its strings.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s07.mp3": {
+    "written": "This is the drum. It is played with sticks.",
+    "spoken": "This is the drum. It is played with sticks.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s08.mp3": {
+    "written": "This is the trumpet.",
+    "spoken": "This is the trumpet.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s09.mp3": {
+    "written": "This is the violin.",
+    "spoken": "This is the violin.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s01.mp3": {
+    "written": "Look: म, क, स, द.",
+    "spoken": "Look, ma, ka, sa, da.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s02.mp3": {
+    "written": "Together they make मकसद — a purpose.",
+    "spoken": "Together they make makasad, a purpose.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s03.mp3": {
+    "written": "Look: ब, र, ग, द.",
+    "spoken": "Look, ba, ra, ga, da.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s04.mp3": {
+    "written": "Together they make बरगद — a banyan tree.",
+    "spoken": "Together they make baragad, a banyan tree.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s05.mp3": {
+    "written": "Look: न, ट, ख, ट.",
+    "spoken": "Look, na, ta, kha, ta.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s06.mp3": {
+    "written": "Together they make नटखट — playful.",
+    "spoken": "Together they make natakhat, playful.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s07.mp3": {
+    "written": "Look: अ, ज, ग, र.",
+    "spoken": "Look, a, ja, ga, ra.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s08.mp3": {
+    "written": "Together they make अजगर — a python.",
+    "spoken": "Together they make ajagar, a python.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s01.mp3": {
+    "written": "Look: न, ल.",
+    "spoken": "Look, na, la.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s02.mp3": {
+    "written": "Together they make नल — tap.",
+    "spoken": "Together they make nal, tap.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s03.mp3": {
+    "written": "Look: क, ल.",
+    "spoken": "Look, ka, la.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s04.mp3": {
+    "written": "Together they make कल — yesterday.",
+    "spoken": "Together they make kal, yesterday.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s05.mp3": {
+    "written": "Look: घ, र.",
+    "spoken": "Look, gha, ra.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s06.mp3": {
+    "written": "Together they make घर — house.",
+    "spoken": "Together they make ghar, house.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s07.mp3": {
+    "written": "Look: ज, ल.",
+    "spoken": "Look, ja, la.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s08.mp3": {
+    "written": "Together they make जल — water.",
+    "spoken": "Together they make jal, water.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s09.mp3": {
+    "written": "Look: म, न.",
+    "spoken": "Look, ma, na.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s10.mp3": {
+    "written": "Together they make मन — the mind.",
+    "spoken": "Together they make man, the mind.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s11.mp3": {
+    "written": "Look: ब, स.",
+    "spoken": "Look, ba, sa.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s12.mp3": {
+    "written": "Together they make बस — a bus.",
+    "spoken": "Together they make bas, a bus.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s01.mp3": {
+    "written": "This is क. Keep it in mind.",
+    "spoken": "This is ka. Keep it in mind.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s02.mp3": {
+    "written": "This is the aa matra.",
+    "spoken": "This is the aa matra.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s03.mp3": {
+    "written": "क with the aa matra makes का.",
+    "spoken": "ka with the aa matra makes kaa.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s04.mp3": {
+    "written": "This is the i matra.",
+    "spoken": "This is the i matra.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s05.mp3": {
+    "written": "क with the i matra makes कि.",
+    "spoken": "ka with the i matra makes ki.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s06.mp3": {
+    "written": "This is the ee matra.",
+    "spoken": "This is the ee matra.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s07.mp3": {
+    "written": "क with the ee matra makes की.",
+    "spoken": "ka with the ee matra makes kee.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s08.mp3": {
+    "written": "This is the u matra.",
+    "spoken": "This is the u matra.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s09.mp3": {
+    "written": "क with the u matra makes कु.",
+    "spoken": "ka with the u matra makes ku.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s10.mp3": {
+    "written": "This is the e matra.",
+    "spoken": "This is the e matra.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s11.mp3": {
+    "written": "क with the e matra makes के.",
+    "spoken": "ka with the e matra makes ke.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s12.mp3": {
+    "written": "This is the o matra.",
+    "spoken": "This is the o matra.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s13.mp3": {
+    "written": "क with the o matra makes को.",
+    "spoken": "ka with the o matra makes ko.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s01.mp3": {
+    "written": "Now look at these vowels.",
+    "spoken": "Now look at these vowels.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s02.mp3": {
+    "written": "This is अ, said “a”. Say it with me.",
+    "spoken": "This is a, said a. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s03.mp3": {
+    "written": "This is आ, said “aa”. Say it with me.",
+    "spoken": "This is aa, said aa. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s04.mp3": {
+    "written": "This is इ, said “i”. Say it with me.",
+    "spoken": "This is i, said i. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s05.mp3": {
+    "written": "This is ई, said “ee”. Say it with me.",
+    "spoken": "This is ee, said ee. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s06.mp3": {
+    "written": "This is उ, said “u”. Say it with me.",
+    "spoken": "This is u, said u. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s07.mp3": {
+    "written": "This is ऊ, said “oo”. Say it with me.",
+    "spoken": "This is oo, said oo. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s08.mp3": {
+    "written": "Now look at these vowels.",
+    "spoken": "Now look at these vowels.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s09.mp3": {
+    "written": "This is ऋ, said “ri”. Say it with me.",
+    "spoken": "This is ri, said ri. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s10.mp3": {
+    "written": "This is ए, said “e”. Say it with me.",
+    "spoken": "This is e, said e. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s11.mp3": {
+    "written": "This is ऐ, said “ai”. Say it with me.",
+    "spoken": "This is ai, said ai. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s12.mp3": {
+    "written": "This is ओ, said “o”. Say it with me.",
+    "spoken": "This is o, said o. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s13.mp3": {
+    "written": "This is औ, said “au”. Say it with me.",
+    "spoken": "This is au, said au. Say it with me.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s01.mp3": {
+    "written": "Look: क, म, ल.",
+    "spoken": "Look, ka, ma, la.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s02.mp3": {
+    "written": "Together they make कमल — a lotus.",
+    "spoken": "Together they make kamal, a lotus.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s03.mp3": {
+    "written": "Look: न, म, क.",
+    "spoken": "Look, na, ma, ka.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s04.mp3": {
+    "written": "Together they make नमक — salt.",
+    "spoken": "Together they make namak, salt.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s05.mp3": {
+    "written": "Look: स, र, ल.",
+    "spoken": "Look, sa, ra, la.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s06.mp3": {
+    "written": "Together they make सरल — easy.",
+    "spoken": "Together they make saral, easy.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s07.mp3": {
+    "written": "Look: म, क, र.",
+    "spoken": "Look, ma, ka, ra.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s08.mp3": {
+    "written": "Together they make मकर — a crocodile.",
+    "spoken": "Together they make makar, a crocodile.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s09.mp3": {
+    "written": "Look: च, म, क.",
+    "spoken": "Look, cha, ma, ka.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s10.mp3": {
+    "written": "Together they make चमक — a shine.",
+    "spoken": "Together they make chamak, a shine.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s11.mp3": {
+    "written": "Look: भ, व, न.",
+    "spoken": "Look, bha, va, na.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s12.mp3": {
+    "written": "Together they make भवन — a building.",
+    "spoken": "Together they make bhavan, a building.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s01.mp3": {
+    "written": "Now look at the ka group.",
+    "spoken": "Now look at the ka group.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s02.mp3": {
+    "written": "This is क.",
+    "spoken": "This is ka.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s03.mp3": {
+    "written": "This is ख.",
+    "spoken": "This is kha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s04.mp3": {
+    "written": "This is ग.",
+    "spoken": "This is ga.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s05.mp3": {
+    "written": "This is घ.",
+    "spoken": "This is gha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s06.mp3": {
+    "written": "This is ङ.",
+    "spoken": "This is nga.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s07.mp3": {
+    "written": "Now look at the cha group.",
+    "spoken": "Now look at the cha group.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s08.mp3": {
+    "written": "This is च.",
+    "spoken": "This is cha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s09.mp3": {
+    "written": "This is छ.",
+    "spoken": "This is chha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s10.mp3": {
+    "written": "This is ज.",
+    "spoken": "This is ja.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s11.mp3": {
+    "written": "This is झ.",
+    "spoken": "This is jha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s12.mp3": {
+    "written": "This is ञ.",
+    "spoken": "This is nya.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s13.mp3": {
+    "written": "Now look at the ta group.",
+    "spoken": "Now look at the ta group.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s14.mp3": {
+    "written": "This is ट.",
+    "spoken": "This is ta.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s15.mp3": {
+    "written": "This is ठ.",
+    "spoken": "This is tha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s16.mp3": {
+    "written": "This is ड.",
+    "spoken": "This is da.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s17.mp3": {
+    "written": "This is ढ.",
+    "spoken": "This is dha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s18.mp3": {
+    "written": "This is ण.",
+    "spoken": "This is na.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s19.mp3": {
+    "written": "Now look at the tha group.",
+    "spoken": "Now look at the tha group.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s20.mp3": {
+    "written": "This is त.",
+    "spoken": "This is ta.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s21.mp3": {
+    "written": "This is थ.",
+    "spoken": "This is tha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s22.mp3": {
+    "written": "This is द.",
+    "spoken": "This is da.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s23.mp3": {
+    "written": "This is ध.",
+    "spoken": "This is dha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s24.mp3": {
+    "written": "This is न.",
+    "spoken": "This is na.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s25.mp3": {
+    "written": "Now look at the pa group.",
+    "spoken": "Now look at the pa group.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s26.mp3": {
+    "written": "This is प.",
+    "spoken": "This is pa.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s27.mp3": {
+    "written": "This is फ.",
+    "spoken": "This is pha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s28.mp3": {
+    "written": "This is ब.",
+    "spoken": "This is ba.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s29.mp3": {
+    "written": "This is भ.",
+    "spoken": "This is bha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s30.mp3": {
+    "written": "This is म.",
+    "spoken": "This is ma.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s31.mp3": {
+    "written": "Now look at ya ra la va.",
+    "spoken": "Now look at ya ra la va.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s32.mp3": {
+    "written": "This is य.",
+    "spoken": "This is ya.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s33.mp3": {
+    "written": "This is र.",
+    "spoken": "This is ra.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s34.mp3": {
+    "written": "This is ल.",
+    "spoken": "This is la.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s35.mp3": {
+    "written": "This is व.",
+    "spoken": "This is va.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s36.mp3": {
+    "written": "Now look at sha sha sa ha.",
+    "spoken": "Now look at sha sha sa ha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s37.mp3": {
+    "written": "This is श.",
+    "spoken": "This is sha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s38.mp3": {
+    "written": "This is ष.",
+    "spoken": "This is sha.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s39.mp3": {
+    "written": "This is स.",
+    "spoken": "This is sa.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s40.mp3": {
+    "written": "This is ह.",
+    "spoken": "This is ha.",
+    "provider": "indic"
+  },
+  "horse_about.mp3": {
+    "written": "This is a horse. The horse can run fast.",
+    "spoken": "This is a horse. The horse can run fast.",
+    "provider": "indic"
+  },
+  "horse.mp3": {
+    "written": "This is a horse.",
+    "spoken": "This is a horse.",
+    "provider": "indic"
+  },
+  "kitchen_about.mp3": {
+    "written": "This is the kitchen. Our hot meal is cooked here.",
+    "spoken": "This is the kitchen. Our hot meal is cooked here.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s01.mp3": {
+    "written": "This glass is full.",
+    "spoken": "This glass is full.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s02.mp3": {
+    "written": "And this glass is empty.",
+    "spoken": "And this glass is empty.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s03.mp3": {
+    "written": "This bowl is full.",
+    "spoken": "This bowl is full.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s04.mp3": {
+    "written": "And this one is empty.",
+    "spoken": "And this one is empty.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s01.mp3": {
+    "written": "This is a whole apple.",
+    "spoken": "This is a whole apple.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s02.mp3": {
+    "written": "And this is half of one.",
+    "spoken": "And this is half of one.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s03.mp3": {
+    "written": "This is a whole pear.",
+    "spoken": "This is a whole pear.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s04.mp3": {
+    "written": "And this is half of one.",
+    "spoken": "And this is half of one.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s05.mp3": {
+    "written": "This is a whole coconut.",
+    "spoken": "This is a whole coconut.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s06.mp3": {
+    "written": "And this is half of one.",
+    "spoken": "And this is half of one.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s01.mp3": {
+    "written": "Look at these lines.",
+    "spoken": "Look at these lines.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s02.mp3": {
+    "written": "This is a standing line.",
+    "spoken": "This is a standing line.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s03.mp3": {
+    "written": "This is a sleeping line.",
+    "spoken": "This is a sleeping line.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s04.mp3": {
+    "written": "This is a slanting line.",
+    "spoken": "This is a slanting line.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s05.mp3": {
+    "written": "Look at these lines.",
+    "spoken": "Look at these lines.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s06.mp3": {
+    "written": "This is a zigzag line.",
+    "spoken": "This is a zigzag line.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s07.mp3": {
+    "written": "This is a curved line.",
+    "spoken": "This is a curved line.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s08.mp3": {
+    "written": "This is a wavy line.",
+    "spoken": "This is a wavy line.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s01.mp3": {
+    "written": "Here are 4, and here are 2.",
+    "spoken": "Here are four, and here are two.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s02.mp3": {
+    "written": "The red are more than the blue.",
+    "spoken": "The red are more than the blue.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s03.mp3": {
+    "written": "Here are 2, and here are 5.",
+    "spoken": "Here are two, and here are five.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s04.mp3": {
+    "written": "The red are less than the blue.",
+    "spoken": "The red are less than the blue.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s05.mp3": {
+    "written": "Here are 3, and here are 3.",
+    "spoken": "Here are three, and here are three.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s06.mp3": {
+    "written": "The red are the same as the blue.",
+    "spoken": "The red are the same as the blue.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s01.mp3": {
+    "written": "1 — odd, one is left over.",
+    "spoken": "one, odd, one is left over.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s02.mp3": {
+    "written": "2 — even, every one has a pair.",
+    "spoken": "two, even, every one has a pair.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s03.mp3": {
+    "written": "3 — odd, one is left over.",
+    "spoken": "three, odd, one is left over.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s04.mp3": {
+    "written": "4 — even, every one has a pair.",
+    "spoken": "four, even, every one has a pair.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s05.mp3": {
+    "written": "5 — odd, one is left over.",
+    "spoken": "five, odd, one is left over.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s06.mp3": {
+    "written": "6 — even, every one has a pair.",
+    "spoken": "six, even, every one has a pair.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s07.mp3": {
+    "written": "7 — odd, one is left over.",
+    "spoken": "seven, odd, one is left over.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s08.mp3": {
+    "written": "8 — even, every one has a pair.",
+    "spoken": "eight, even, every one has a pair.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s09.mp3": {
+    "written": "9 — odd, one is left over.",
+    "spoken": "nine, odd, one is left over.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s10.mp3": {
+    "written": "10 — even, every one has a pair.",
+    "spoken": "ten, even, every one has a pair.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s01.mp3": {
+    "written": "This gate is closed. Nobody can walk through.",
+    "spoken": "This gate is closed. Nobody can walk through.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s02.mp3": {
+    "written": "This gate is open. Now the way is clear.",
+    "spoken": "This gate is open. Now the way is clear.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s03.mp3": {
+    "written": "This door is closed.",
+    "spoken": "This door is closed.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s04.mp3": {
+    "written": "And this door is open.",
+    "spoken": "And this door is open.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s01.mp3": {
+    "written": "This is big.",
+    "spoken": "This is big.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s02.mp3": {
+    "written": "And this is small — the opposite of big.",
+    "spoken": "And this is small, the opposite of big.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s03.mp3": {
+    "written": "This is long.",
+    "spoken": "This is long.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s04.mp3": {
+    "written": "And this is short — the opposite of long.",
+    "spoken": "And this is short, the opposite of long.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s05.mp3": {
+    "written": "This is full.",
+    "spoken": "This is full.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s06.mp3": {
+    "written": "And this is empty — the opposite of full.",
+    "spoken": "And this is empty, the opposite of full.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s07.mp3": {
+    "written": "This is hot.",
+    "spoken": "This is hot.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s08.mp3": {
+    "written": "And this is cold — the opposite of hot.",
+    "spoken": "And this is cold, the opposite of hot.",
+    "provider": "indic"
+  },
+  "math-lkg-same-different-s01.mp3": {
+    "written": "Three are the same. One is different. Touch the different one.",
+    "spoken": "Three are the same. One is different. Touch the different one.",
+    "provider": "indic"
+  },
+  "math-lkg-same-different-s02.mp3": {
+    "written": "Three are the same. One is different. Touch the different one.",
+    "spoken": "Three are the same. One is different. Touch the different one.",
+    "provider": "indic"
+  },
+  "math-lkg-same-different-s03.mp3": {
+    "written": "Three are the same. One is different. Touch the different one.",
+    "spoken": "Three are the same. One is different. Touch the different one.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s01.mp3": {
+    "written": "This cloth has just been washed. Water is dripping from it. It is wet.",
+    "spoken": "This cloth has just been washed. Water is dripping from it. It is wet.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s02.mp3": {
+    "written": "This cloth has dried in the sun. It is dry.",
+    "spoken": "This cloth has dried in the sun. It is dry.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s03.mp3": {
+    "written": "This tub has water in it. It is wet inside.",
+    "spoken": "This tub has water in it. It is wet inside.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s04.mp3": {
+    "written": "This tub has no water. It is dry.",
+    "spoken": "This tub has no water. It is dry.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s05.mp3": {
+    "written": "It is raining. In the rain, everything gets wet.",
+    "spoken": "It is raining. In the rain, everything gets wet.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s06.mp3": {
+    "written": "The sun is out. In the sun, things dry.",
+    "spoken": "The sun is out. In the sun, things dry.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s01.mp3": {
+    "written": "This one is big.",
+    "spoken": "This one is big.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s02.mp3": {
+    "written": "And this one is small.",
+    "spoken": "And this one is small.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s03.mp3": {
+    "written": "This one is big too.",
+    "spoken": "This one is big too.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s04.mp3": {
+    "written": "And this one is small.",
+    "spoken": "And this one is small.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s01.mp3": {
+    "written": "1.",
+    "spoken": "one.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s02.mp3": {
+    "written": "2.",
+    "spoken": "two.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s03.mp3": {
+    "written": "3.",
+    "spoken": "three.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s04.mp3": {
+    "written": "4.",
+    "spoken": "four.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s05.mp3": {
+    "written": "5.",
+    "spoken": "five.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s06.mp3": {
+    "written": "6.",
+    "spoken": "six.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s07.mp3": {
+    "written": "7.",
+    "spoken": "seven.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s08.mp3": {
+    "written": "8.",
+    "spoken": "eight.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s09.mp3": {
+    "written": "9.",
+    "spoken": "nine.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s10.mp3": {
+    "written": "10.",
+    "spoken": "ten.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s11.mp3": {
+    "written": "11.",
+    "spoken": "eleven.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s12.mp3": {
+    "written": "12.",
+    "spoken": "twelve.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s13.mp3": {
+    "written": "13.",
+    "spoken": "thirteen.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s14.mp3": {
+    "written": "14.",
+    "spoken": "fourteen.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s15.mp3": {
+    "written": "15.",
+    "spoken": "fifteen.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s16.mp3": {
+    "written": "16.",
+    "spoken": "sixteen.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s17.mp3": {
+    "written": "17.",
+    "spoken": "seventeen.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s18.mp3": {
+    "written": "18.",
+    "spoken": "eighteen.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s19.mp3": {
+    "written": "19.",
+    "spoken": "nineteen.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s20.mp3": {
+    "written": "20.",
+    "spoken": "twenty.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s01.mp3": {
+    "written": "Now let us count from twenty-one to fifty.",
+    "spoken": "Now let us count from twenty-one to fifty.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s02.mp3": {
+    "written": "21 to 25.",
+    "spoken": "twenty one to twenty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s03.mp3": {
+    "written": "21.",
+    "spoken": "twenty one.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s04.mp3": {
+    "written": "22.",
+    "spoken": "twenty two.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s05.mp3": {
+    "written": "23.",
+    "spoken": "twenty three.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s06.mp3": {
+    "written": "24.",
+    "spoken": "twenty four.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s07.mp3": {
+    "written": "25.",
+    "spoken": "twenty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s08.mp3": {
+    "written": "26 to 30.",
+    "spoken": "twenty six to thirty.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s09.mp3": {
+    "written": "26.",
+    "spoken": "twenty six.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s10.mp3": {
+    "written": "27.",
+    "spoken": "twenty seven.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s11.mp3": {
+    "written": "28.",
+    "spoken": "twenty eight.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s12.mp3": {
+    "written": "29.",
+    "spoken": "twenty nine.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s13.mp3": {
+    "written": "30.",
+    "spoken": "thirty.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s14.mp3": {
+    "written": "31 to 35.",
+    "spoken": "thirty one to thirty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s15.mp3": {
+    "written": "31.",
+    "spoken": "thirty one.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s16.mp3": {
+    "written": "32.",
+    "spoken": "thirty two.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s17.mp3": {
+    "written": "33.",
+    "spoken": "thirty three.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s18.mp3": {
+    "written": "34.",
+    "spoken": "thirty four.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s19.mp3": {
+    "written": "35.",
+    "spoken": "thirty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s20.mp3": {
+    "written": "36 to 40.",
+    "spoken": "thirty six to forty.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s21.mp3": {
+    "written": "36.",
+    "spoken": "thirty six.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s22.mp3": {
+    "written": "37.",
+    "spoken": "thirty seven.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s23.mp3": {
+    "written": "38.",
+    "spoken": "thirty eight.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s24.mp3": {
+    "written": "39.",
+    "spoken": "thirty nine.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s25.mp3": {
+    "written": "40.",
+    "spoken": "forty.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s26.mp3": {
+    "written": "41 to 45.",
+    "spoken": "forty one to forty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s27.mp3": {
+    "written": "41.",
+    "spoken": "forty one.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s28.mp3": {
+    "written": "42.",
+    "spoken": "forty two.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s29.mp3": {
+    "written": "43.",
+    "spoken": "forty three.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s30.mp3": {
+    "written": "44.",
+    "spoken": "forty four.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s31.mp3": {
+    "written": "45.",
+    "spoken": "forty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s32.mp3": {
+    "written": "46 to 50.",
+    "spoken": "forty six to fifty.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s33.mp3": {
+    "written": "46.",
+    "spoken": "forty six.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s34.mp3": {
+    "written": "47.",
+    "spoken": "forty seven.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s35.mp3": {
+    "written": "48.",
+    "spoken": "forty eight.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s36.mp3": {
+    "written": "49.",
+    "spoken": "forty nine.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s37.mp3": {
+    "written": "50.",
+    "spoken": "fifty.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s01.mp3": {
+    "written": "Now let us count from fifty-one to one hundred.",
+    "spoken": "Now let us count from fifty-one to one hundred.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s02.mp3": {
+    "written": "51 to 55.",
+    "spoken": "fifty one to fifty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s03.mp3": {
+    "written": "51.",
+    "spoken": "fifty one.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s04.mp3": {
+    "written": "52.",
+    "spoken": "fifty two.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s05.mp3": {
+    "written": "53.",
+    "spoken": "fifty three.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s06.mp3": {
+    "written": "54.",
+    "spoken": "fifty four.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s07.mp3": {
+    "written": "55.",
+    "spoken": "fifty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s08.mp3": {
+    "written": "56 to 60.",
+    "spoken": "fifty six to sixty.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s09.mp3": {
+    "written": "56.",
+    "spoken": "fifty six.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s10.mp3": {
+    "written": "57.",
+    "spoken": "fifty seven.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s11.mp3": {
+    "written": "58.",
+    "spoken": "fifty eight.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s12.mp3": {
+    "written": "59.",
+    "spoken": "fifty nine.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s13.mp3": {
+    "written": "60.",
+    "spoken": "sixty.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s14.mp3": {
+    "written": "61 to 65.",
+    "spoken": "sixty one to sixty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s15.mp3": {
+    "written": "61.",
+    "spoken": "sixty one.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s16.mp3": {
+    "written": "62.",
+    "spoken": "sixty two.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s17.mp3": {
+    "written": "63.",
+    "spoken": "sixty three.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s18.mp3": {
+    "written": "64.",
+    "spoken": "sixty four.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s19.mp3": {
+    "written": "65.",
+    "spoken": "sixty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s20.mp3": {
+    "written": "66 to 70.",
+    "spoken": "sixty six to seventy.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s21.mp3": {
+    "written": "66.",
+    "spoken": "sixty six.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s22.mp3": {
+    "written": "67.",
+    "spoken": "sixty seven.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s23.mp3": {
+    "written": "68.",
+    "spoken": "sixty eight.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s24.mp3": {
+    "written": "69.",
+    "spoken": "sixty nine.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s25.mp3": {
+    "written": "70.",
+    "spoken": "seventy.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s26.mp3": {
+    "written": "71 to 75.",
+    "spoken": "seventy one to seventy five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s27.mp3": {
+    "written": "71.",
+    "spoken": "seventy one.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s28.mp3": {
+    "written": "72.",
+    "spoken": "seventy two.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s29.mp3": {
+    "written": "73.",
+    "spoken": "seventy three.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s30.mp3": {
+    "written": "74.",
+    "spoken": "seventy four.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s31.mp3": {
+    "written": "75.",
+    "spoken": "seventy five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s32.mp3": {
+    "written": "76 to 80.",
+    "spoken": "seventy six to eighty.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s33.mp3": {
+    "written": "76.",
+    "spoken": "seventy six.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s34.mp3": {
+    "written": "77.",
+    "spoken": "seventy seven.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s35.mp3": {
+    "written": "78.",
+    "spoken": "seventy eight.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s36.mp3": {
+    "written": "79.",
+    "spoken": "seventy nine.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s37.mp3": {
+    "written": "80.",
+    "spoken": "eighty.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s38.mp3": {
+    "written": "81 to 85.",
+    "spoken": "eighty one to eighty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s39.mp3": {
+    "written": "81.",
+    "spoken": "eighty one.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s40.mp3": {
+    "written": "82.",
+    "spoken": "eighty two.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s41.mp3": {
+    "written": "83.",
+    "spoken": "eighty three.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s42.mp3": {
+    "written": "84.",
+    "spoken": "eighty four.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s43.mp3": {
+    "written": "85.",
+    "spoken": "eighty five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s44.mp3": {
+    "written": "86 to 90.",
+    "spoken": "eighty six to ninety.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s45.mp3": {
+    "written": "86.",
+    "spoken": "eighty six.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s46.mp3": {
+    "written": "87.",
+    "spoken": "eighty seven.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s47.mp3": {
+    "written": "88.",
+    "spoken": "eighty eight.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s48.mp3": {
+    "written": "89.",
+    "spoken": "eighty nine.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s49.mp3": {
+    "written": "90.",
+    "spoken": "ninety.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s50.mp3": {
+    "written": "91 to 95.",
+    "spoken": "ninety one to ninety five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s51.mp3": {
+    "written": "91.",
+    "spoken": "ninety one.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s52.mp3": {
+    "written": "92.",
+    "spoken": "ninety two.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s53.mp3": {
+    "written": "93.",
+    "spoken": "ninety three.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s54.mp3": {
+    "written": "94.",
+    "spoken": "ninety four.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s55.mp3": {
+    "written": "95.",
+    "spoken": "ninety five.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s56.mp3": {
+    "written": "96 to 100.",
+    "spoken": "ninety six to one hundred.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s57.mp3": {
+    "written": "96.",
+    "spoken": "ninety six.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s58.mp3": {
+    "written": "97.",
+    "spoken": "ninety seven.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s59.mp3": {
+    "written": "98.",
+    "spoken": "ninety eight.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s60.mp3": {
+    "written": "99.",
+    "spoken": "ninety nine.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s61.mp3": {
+    "written": "100.",
+    "spoken": "one hundred.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s01.mp3": {
+    "written": "Where is 7? Touch it.",
+    "spoken": "Where is seven? Touch it.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s02.mp3": {
+    "written": "Where is 15? Touch it.",
+    "spoken": "Where is fifteen? Touch it.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s03.mp3": {
+    "written": "Where is 43? Touch it.",
+    "spoken": "Where is forty three? Touch it.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s04.mp3": {
+    "written": "Where is 86? Touch it.",
+    "spoken": "Where is eighty six? Touch it.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s05.mp3": {
+    "written": "Where is 100? Touch it.",
+    "spoken": "Where is one hundred? Touch it.",
+    "provider": "indic"
+  },
+  "math-nur-in-out-s01.mp3": {
+    "written": "This apple is IN the pot.",
+    "spoken": "This apple is in the pot.",
+    "provider": "indic"
+  },
+  "math-nur-in-out-s02.mp3": {
+    "written": "This apple is OUT.",
+    "spoken": "This apple is out.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s01.mp3": {
+    "written": "This is a balance. It tells us which thing is heavier.",
+    "spoken": "This is a balance. It tells us which thing is heavier.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s02.mp3": {
+    "written": "The stone is heavy — its side has gone down.",
+    "spoken": "The stone is heavy, its side has gone down.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s03.mp3": {
+    "written": "The cotton is light — its side has gone up.",
+    "spoken": "The cotton is light, its side has gone up.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s04.mp3": {
+    "written": "These two balls weigh the same — so the balance stays level.",
+    "spoken": "These two balls weigh the same, so the balance stays level.",
+    "provider": "indic"
+  },
+  "math-nur-long-round-s01.mp3": {
+    "written": "Which thing is round? Touch it.",
+    "spoken": "Which thing is round? Touch it.",
+    "provider": "indic"
+  },
+  "math-nur-long-round-s02.mp3": {
+    "written": "Which thing is long? Touch it.",
+    "spoken": "Which thing is long? Touch it.",
+    "provider": "indic"
+  },
+  "math-nur-long-short-s01.mp3": {
+    "written": "This stick is long.",
+    "spoken": "This stick is long.",
+    "provider": "indic"
+  },
+  "math-nur-long-short-s02.mp3": {
+    "written": "And this one is short.",
+    "spoken": "And this one is short.",
+    "provider": "indic"
+  },
+  "math-nur-long-short-s03.mp3": {
+    "written": "Of these two, the green one is longer.",
+    "spoken": "Of these two, the green one is longer.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s01.mp3": {
+    "written": "This tree is near.",
+    "spoken": "This tree is near.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s02.mp3": {
+    "written": "The same tree — but this one is far away, so it looks small.",
+    "spoken": "The same tree, but this one is far away, so it looks small.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s03.mp3": {
+    "written": "This ball is near.",
+    "spoken": "This ball is near.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s04.mp3": {
+    "written": "And this ball is far.",
+    "spoken": "And this ball is far.",
+    "provider": "indic"
+  },
+  "math-nur-one-many-s01.mp3": {
+    "written": "Here there is one.",
+    "spoken": "Here there is one.",
+    "provider": "indic"
+  },
+  "math-nur-one-many-s02.mp3": {
+    "written": "And here there are many.",
+    "spoken": "And here there are many.",
+    "provider": "indic"
+  },
+  "math-nur-one-many-s03.mp3": {
+    "written": "One — and many.",
+    "spoken": "One, and many.",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s01.mp3": {
+    "written": "This tree is tall.",
+    "spoken": "This tree is tall.",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s02.mp3": {
+    "written": "And this tree is short.",
+    "spoken": "And this tree is short.",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s03.mp3": {
+    "written": "Now look at these. Which one is taller?",
+    "spoken": "Now look at these. Which one is taller?",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s04.mp3": {
+    "written": "This one is taller. This one is shorter.",
+    "spoken": "This one is taller. This one is shorter.",
+    "provider": "indic"
+  },
+  "math-nur-thick-thin-s01.mp3": {
+    "written": "This one is thick.",
+    "spoken": "This one is thick.",
+    "provider": "indic"
+  },
+  "math-nur-thick-thin-s02.mp3": {
+    "written": "And this one is thin. They are just as long as each other.",
+    "spoken": "And this one is thin. They are just as long as each other.",
+    "provider": "indic"
+  },
+  "math-nur-up-down-s01.mp3": {
+    "written": "The red ball is up — on top of the cupboard.",
+    "spoken": "The red ball is up, on top of the cupboard.",
+    "provider": "indic"
+  },
+  "math-nur-up-down-s02.mp3": {
+    "written": "The blue ball is down — on the floor.",
+    "spoken": "The blue ball is down, on the floor.",
+    "provider": "indic"
+  },
+  "math-nur-up-down-s03.mp3": {
+    "written": "Look up — the fan is up. Look down — the mats are down.",
+    "spoken": "Look up, the fan is up. Look down, the mats are down.",
+    "provider": "indic"
+  },
+  "math-nur-weight-check-s01.mp3": {
+    "written": "Which one is heavier? Touch it.",
+    "spoken": "Which one is heavier? Touch it.",
+    "provider": "indic"
+  },
+  "math-nur-weight-check-s02.mp3": {
+    "written": "Now, which one is lighter? Touch it.",
+    "spoken": "Now, which one is lighter? Touch it.",
+    "provider": "indic"
+  },
+  "math-nur-wide-narrow-s01.mp3": {
+    "written": "This road is wide. A bus could drive along it.",
+    "spoken": "This road is wide. A bus could drive along it.",
+    "provider": "indic"
+  },
+  "math-nur-wide-narrow-s02.mp3": {
+    "written": "This path is narrow. Only one person can walk along it.",
+    "spoken": "This path is narrow. Only one person can walk along it.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s01.mp3": {
+    "written": "10 + 5. Have a think.",
+    "spoken": "ten plus five. Have a think.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s02.mp3": {
+    "written": "10 plus 5 is 15.",
+    "spoken": "ten plus five is fifteen.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s03.mp3": {
+    "written": "12 + 6. Have a think.",
+    "spoken": "twelve plus six. Have a think.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s04.mp3": {
+    "written": "12 plus 6 is 18.",
+    "spoken": "twelve plus six is eighteen.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s05.mp3": {
+    "written": "20 + 15. Have a think.",
+    "spoken": "twenty plus fifteen. Have a think.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s06.mp3": {
+    "written": "20 plus 15 is 35.",
+    "spoken": "twenty plus fifteen is thirty five.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s01.mp3": {
+    "written": "Count these first — 2.",
+    "spoken": "Count these first, two.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s02.mp3": {
+    "written": "Now count these — 3.",
+    "spoken": "Now count these, three.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s03.mp3": {
+    "written": "2 and 3 together make 5.",
+    "spoken": "two and three together make five.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s04.mp3": {
+    "written": "Count these first — 4.",
+    "spoken": "Count these first, four.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s05.mp3": {
+    "written": "Now count these — 1.",
+    "spoken": "Now count these, one.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s06.mp3": {
+    "written": "4 and 1 together make 5.",
+    "spoken": "four and one together make five.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s07.mp3": {
+    "written": "Count these first — 3.",
+    "spoken": "Count these first, three.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s08.mp3": {
+    "written": "Now count these — 4.",
+    "spoken": "Now count these, four.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s09.mp3": {
+    "written": "3 and 4 together make 7.",
+    "spoken": "three and four together make seven.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s01.mp3": {
+    "written": "Look at 7 and 3.",
+    "spoken": "Look at seven and three.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s02.mp3": {
+    "written": "7 is greater than 3.",
+    "spoken": "seven is greater than three.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s03.mp3": {
+    "written": "Look at 2 and 8.",
+    "spoken": "Look at two and eight.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s04.mp3": {
+    "written": "2 is less than 8.",
+    "spoken": "two is less than eight.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s05.mp3": {
+    "written": "Look at 5 and 5.",
+    "spoken": "Look at five and five.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s06.mp3": {
+    "written": "5 is equal to 5.",
+    "spoken": "five is equal to five.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s01.mp3": {
+    "written": "Here are 6.",
+    "spoken": "Here are six.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s02.mp3": {
+    "written": "Share them into 2 equal groups.",
+    "spoken": "Share them into two equal groups.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s03.mp3": {
+    "written": "Share them into 2 equal groups.",
+    "spoken": "Share them into two equal groups.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s04.mp3": {
+    "written": "6 ÷ 2 is 3.",
+    "spoken": "six divided by two is three.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s05.mp3": {
+    "written": "Here are 12.",
+    "spoken": "Here are twelve.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s06.mp3": {
+    "written": "Share them into 3 equal groups.",
+    "spoken": "Share them into three equal groups.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s07.mp3": {
+    "written": "Share them into 3 equal groups.",
+    "spoken": "Share them into three equal groups.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s08.mp3": {
+    "written": "Share them into 3 equal groups.",
+    "spoken": "Share them into three equal groups.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s09.mp3": {
+    "written": "12 ÷ 3 is 4.",
+    "spoken": "twelve divided by three is four.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s01.mp3": {
+    "written": "1 row of 3.",
+    "spoken": "one row of three.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s02.mp3": {
+    "written": "2 row of 3.",
+    "spoken": "two row of three.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s03.mp3": {
+    "written": "2 × 3 is 6.",
+    "spoken": "two times three is six.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s04.mp3": {
+    "written": "1 row of 4.",
+    "spoken": "one row of four.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s05.mp3": {
+    "written": "2 row of 4.",
+    "spoken": "two row of four.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s06.mp3": {
+    "written": "3 row of 4.",
+    "spoken": "three row of four.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s07.mp3": {
+    "written": "3 × 4 is 12.",
+    "spoken": "three times four is twelve.",
+    "provider": "indic"
+  },
+  "math-ukg-odd-one-out-s01.mp3": {
+    "written": "One of these is different — look at the colour. Touch it.",
+    "spoken": "One of these is different, look at the colour. Touch it.",
+    "provider": "indic"
+  },
+  "math-ukg-odd-one-out-s02.mp3": {
+    "written": "One of these is different — look at the shape. Touch it.",
+    "spoken": "One of these is different, look at the shape. Touch it.",
+    "provider": "indic"
+  },
+  "math-ukg-odd-one-out-s03.mp3": {
+    "written": "One of these is different — look at the shape. Touch it.",
+    "spoken": "One of these is different, look at the shape. Touch it.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s01.mp3": {
+    "written": "15 - 5. Have a think.",
+    "spoken": "fifteen minus five. Have a think.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s02.mp3": {
+    "written": "15 minus 5 is 10.",
+    "spoken": "fifteen minus five is ten.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s03.mp3": {
+    "written": "18 - 6. Have a think.",
+    "spoken": "eighteen minus six. Have a think.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s04.mp3": {
+    "written": "18 minus 6 is 12.",
+    "spoken": "eighteen minus six is twelve.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s05.mp3": {
+    "written": "30 - 10. Have a think.",
+    "spoken": "thirty minus ten. Have a think.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s06.mp3": {
+    "written": "30 minus 10 is 20.",
+    "spoken": "thirty minus ten is twenty.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s01.mp3": {
+    "written": "Count these first — 5.",
+    "spoken": "Count these first, five.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s02.mp3": {
+    "written": "Take 2 away.",
+    "spoken": "Take two away.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s03.mp3": {
+    "written": "5 take away 2 leaves 3.",
+    "spoken": "five take away two leaves three.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s04.mp3": {
+    "written": "Count these first — 4.",
+    "spoken": "Count these first, four.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s05.mp3": {
+    "written": "Take 3 away.",
+    "spoken": "Take three away.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s06.mp3": {
+    "written": "4 take away 3 leaves 1.",
+    "spoken": "four take away three leaves one.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s07.mp3": {
+    "written": "Count these first — 5.",
+    "spoken": "Count these first, five.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s08.mp3": {
+    "written": "Take 1 away.",
+    "spoken": "Take one away.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s09.mp3": {
+    "written": "5 take away 1 leaves 4.",
+    "spoken": "five take away one leaves four.",
+    "provider": "indic"
+  },
+  "our_classroom_s1.mp3": {
+    "written": "Now we are inside. This is our classroom.",
+    "spoken": "Now we are inside. This is our classroom.",
+    "provider": "indic"
+  },
+  "our_classroom_s2.mp3": {
+    "written": "Your friends are sitting on the mats. Sit down with them.",
+    "spoken": "Your friends are sitting on the mats. Sit down with them.",
+    "provider": "indic"
+  },
+  "our_classroom_s3.mp3": {
+    "written": "Didi is standing near the board. She will teach us today.",
+    "spoken": "Didi is standing near the board. She will teach us today.",
+    "provider": "indic"
+  },
+  "our_classroom_s4.mp3": {
+    "written": "This is the blackboard. Teacher writes on it.",
+    "spoken": "This is the blackboard. Teacher writes on it.",
+    "provider": "indic"
+  },
+  "our_classroom_s5.mp3": {
+    "written": "Look at the windows. The light comes in from there.",
+    "spoken": "Look at the windows. The light comes in from there.",
+    "provider": "indic"
+  },
+  "physics_lab_s1.mp3": {
+    "written": "This is the physics lab. Here we find out how things move.",
+    "spoken": "This is the physics lab. Here we find out how things move.",
+    "provider": "indic"
+  },
+  "physics_lab_s2.mp3": {
+    "written": "That little ball on a string is a pendulum. It swings to and fro.",
+    "spoken": "That little ball on a string is a pendulum. It swings to and fro.",
+    "provider": "indic"
+  },
+  "physics_lab_s3.mp3": {
+    "written": "The sloping board is a ramp. A ball rolls down it by itself.",
+    "spoken": "The sloping board is a ramp. A ball rolls down it by itself.",
+    "provider": "indic"
+  },
+  "playground_s1.mp3": {
+    "written": "We are behind the school now. This is our playground.",
+    "spoken": "We are behind the school now. This is our playground.",
+    "provider": "indic"
+  },
+  "playground_s2.mp3": {
+    "written": "Can you see the swing? It goes forward and back.",
+    "spoken": "Can you see the swing? It goes forward and back.",
+    "provider": "indic"
+  },
+  "playground_s3.mp3": {
+    "written": "That yellow one is the slide. We climb up and come down.",
+    "spoken": "That yellow one is the slide. We climb up and come down.",
+    "provider": "indic"
+  },
+  "playground_s4.mp3": {
+    "written": "The sand pit is for digging. Now let us go back inside.",
+    "spoken": "The sand pit is for digging. Now let us go back inside.",
+    "provider": "indic"
+  },
+  "school_about.mp3": {
+    "written": "This is our school. We come here to learn and play.",
+    "spoken": "This is our school. We come here to learn and play.",
+    "provider": "indic"
+  },
+  "school_hall_s1.mp3": {
+    "written": "We are inside the school now. This is the hallway.",
+    "spoken": "We are inside the school now. This is the hallway.",
+    "provider": "indic"
+  },
+  "school_hall_s2.mp3": {
+    "written": "There are doors on both sides. Each one goes to a different room.",
+    "spoken": "There are doors on both sides. Each one goes to a different room.",
+    "provider": "indic"
+  },
+  "school_hall_s3.mp3": {
+    "written": "Walk to a door to go inside that room.",
+    "spoken": "Walk to a door to go inside that room.",
+    "provider": "indic"
+  },
+  "school_kitchen_s1.mp3": {
+    "written": "This is the kitchen. Our hot meal is cooked here.",
+    "spoken": "This is the kitchen. Our hot meal is cooked here.",
+    "provider": "indic"
+  },
+  "school_kitchen_s2.mp3": {
+    "written": "Look at the big table. The food is kept ready on it.",
+    "spoken": "Look at the big table. The food is kept ready on it.",
+    "provider": "indic"
+  },
+  "school_kitchen_s3.mp3": {
+    "written": "Water is kept in the pot. We drink it after our meal.",
+    "spoken": "Water is kept in the pot. We drink it after our meal.",
+    "provider": "indic"
+  },
+  "school_office_s1.mp3": {
+    "written": "This is the office. Didi keeps the register here.",
+    "spoken": "This is the office. Didi keeps the register here.",
+    "provider": "indic"
+  },
+  "school_office_s2.mp3": {
+    "written": "Your name is written in that register every morning.",
+    "spoken": "Your name is written in that register every morning.",
+    "provider": "indic"
+  },
+  "school_office_s3.mp3": {
+    "written": "The almirah is locked. Our books and toys are kept safe in it.",
+    "spoken": "The almirah is locked. Our books and toys are kept safe in it.",
+    "provider": "indic"
+  },
+  "school_tour_s1.mp3": {
+    "written": "Look around. This is our school and the houses near it.",
+    "spoken": "Look around. This is our school and the houses near it.",
+    "provider": "indic"
+  },
+  "school_tour_s2.mp3": {
+    "written": "Can you find where our food is cooked?",
+    "spoken": "Can you find where our food is cooked?",
+    "provider": "indic"
+  },
+  "solar_system_s1.mp3": {
+    "written": "We are floating in space. The Sun is in front of you — now turn and look all around.",
+    "spoken": "We are floating in space. The Sun is in front of you, now turn and look all around.",
+    "provider": "indic"
+  },
+  "solar_system_s10.mp3": {
+    "written": "Neptune is furthest away, and the coldest of all.",
+    "spoken": "Neptune is furthest away, and the coldest of all.",
+    "provider": "indic"
+  },
+  "solar_system_s11.mp3": {
+    "written": "Look all around you. Eight planets are going round our Sun, and we are inside it.",
+    "spoken": "Look all around you. Eight planets are going round our Sun, and we are inside it.",
+    "provider": "indic"
+  },
+  "solar_system_s2.mp3": {
+    "written": "Now come closer. This is the Sun. It gives us light and heat.",
+    "spoken": "Now come closer. This is the Sun. It gives us light and heat.",
+    "provider": "indic"
+  },
+  "solar_system_s3.mp3": {
+    "written": "Mercury is closest to the Sun. It is small and very hot.",
+    "spoken": "Mercury is closest to the Sun. It is small and very hot.",
+    "provider": "indic"
+  },
+  "solar_system_s4.mp3": {
+    "written": "Venus is covered in thick clouds. It is the hottest planet.",
+    "spoken": "Venus is covered in thick clouds. It is the hottest planet.",
+    "provider": "indic"
+  },
+  "solar_system_s5.mp3": {
+    "written": "This is our Earth. The blue is water and the white is cloud.",
+    "spoken": "This is our Earth. The blue is water and the white is cloud.",
+    "provider": "indic"
+  },
+  "solar_system_s6.mp3": {
+    "written": "Mars is red because its dust is rusty. It has no water to drink.",
+    "spoken": "Mars is red because its dust is rusty. It has no water to drink.",
+    "provider": "indic"
+  },
+  "solar_system_s7.mp3": {
+    "written": "Jupiter is the biggest. Those stripes are storms.",
+    "spoken": "Jupiter is the biggest. Those stripes are storms.",
+    "provider": "indic"
+  },
+  "solar_system_s8.mp3": {
+    "written": "Saturn has rings made of ice and rock.",
+    "spoken": "Saturn has rings made of ice and rock.",
+    "provider": "indic"
+  },
+  "solar_system_s9.mp3": {
+    "written": "Uranus lies on its side, like a ball rolling along.",
+    "spoken": "Uranus lies on its side, like a ball rolling along.",
+    "provider": "indic"
+  }
+}
