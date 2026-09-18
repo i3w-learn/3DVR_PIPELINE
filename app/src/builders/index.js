@@ -26,6 +26,7 @@ import './india.js';
 import './lab.js';
 import './measure.js';
 import './path.js';
+import './peacock.js';
 import './playground.js';
 import './portal.js';
 import './room.js';

@@ -1,0 +1,197 @@
+{
+  "id": "eng-lkg-animal-products",
+  "template": "match",
+  "stage": "farmyard",
+  "objects": [
+    {
+      "id": "cow",
+      "model": "cow",
+      "position": "-3.400 0.000 -6.800",
+      "rotation": "0 62 0",
+      "ring": 1.52,
+      "name": {
+        "en": "Cow",
+        "hi": "गाय"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "milk",
+      "model": "milkbottle",
+      "position": "-1.900 0.000 -3.200",
+      "scale": "2.214 2.214 2.214",
+      "ring": 0.139,
+      "name": {
+        "en": "Milk",
+        "hi": "दूध"
+      }
+    },
+    {
+      "id": "hen",
+      "model": "hen",
+      "position": "-0.900 0.000 -5.400",
+      "rotation": "0 44 0",
+      "ring": 0.3,
+      "scale": "1.500 1.500 1.500",
+      "name": {
+        "en": "Hen",
+        "hi": "मुर्गी"
+      }
+    },
+    {
+      "id": "egg",
+      "model": "egg",
+      "position": "-0.600 0.000 -2.900",
+      "scale": "5.667 5.667 5.667",
+      "ring": 0.172,
+      "name": {
+        "en": "Egg",
+        "hi": "अंडा"
+      }
+    },
+    {
+      "id": "sheep",
+      "model": "sheep",
+      "position": "1.500 0.000 -6.200",
+      "rotation": "0 -49 0",
+      "ring": 0.69,
+      "name": {
+        "en": "Sheep",
+        "hi": "भेड़"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "wool",
+      "model": "yarn",
+      "position": "0.700 0.000 -3.000",
+      "scale": "1.892 1.892 1.892",
+      "ring": 0.26,
+      "name": {
+        "en": "Wool",
+        "hi": "ऊन"
+      }
+    },
+    {
+      "id": "sunflower",
+      "model": "sunflower",
+      "position": "3.200 0.000 -4.950",
+      "rotation": "0 -33 0",
+      "ring": 0.48,
+      "scale": "0.850 0.850 0.850",
+      "name": {
+        "en": "Flower",
+        "hi": "फूल"
+      }
+    },
+    {
+      "id": "bee",
+      "model": "bee",
+      "position": "3.300 1.350 -4.600",
+      "rotation": "0 -71 0",
+      "ring": 0.4,
+      "scale": "4.000 4.000 4.000",
+      "name": {
+        "en": "Bee",
+        "hi": "मधुमक्खी"
+      }
+    },
+    {
+      "id": "honey",
+      "model": "honey",
+      "position": "2.000 0.000 -3.100",
+      "scale": "3.194 3.194 3.194",
+      "ring": 0.285,
+      "name": {
+        "en": "Honey",
+        "hi": "शहद"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "जानवर हमें बहुत कुछ देते हैं। देखो, कौन क्या देता है।",
+        "en": "Animals give us many things. Let us see who gives us what."
+      }
+    },
+    {
+      "highlight": "cow",
+      "duration": 6000,
+      "script": {
+        "hi": "यह गाय है।",
+        "en": "This is a cow."
+      }
+    },
+    {
+      "highlight": "milk",
+      "partner": "cow",
+      "duration": 7500,
+      "script": {
+        "hi": "गाय हमें दूध देती है।",
+        "en": "The cow gives us milk."
+      }
+    },
+    {
+      "highlight": "hen",
+      "duration": 6000,
+      "script": {
+        "hi": "यह मुर्गी है।",
+        "en": "This is a hen."
+      }
+    },
+    {
+      "highlight": "egg",
+      "partner": "hen",
+      "duration": 7500,
+      "script": {
+        "hi": "मुर्गी हमें अंडे देती है।",
+        "en": "The hen gives us eggs."
+      }
+    },
+    {
+      "highlight": "sheep",
+      "duration": 6000,
+      "script": {
+        "hi": "यह भेड़ है।",
+        "en": "This is a sheep."
+      }
+    },
+    {
+      "highlight": "wool",
+      "partner": "sheep",
+      "duration": 7500,
+      "script": {
+        "hi": "भेड़ हमें ऊन देती है। ऊन से स्वेटर बनता है।",
+        "en": "The sheep gives us wool. Wool makes our sweaters."
+      }
+    },
+    {
+      "highlight": "bee",
+      "duration": 6000,
+      "script": {
+        "hi": "यह मधुमक्खी है।",
+        "en": "This is a bee."
+      }
+    },
+    {
+      "highlight": "sunflower",
+      "partner": "bee",
+      "duration": 7000,
+      "script": {
+        "hi": "मधुमक्खी फूलों से रस लेती है।",
+        "en": "The bee collects nectar from flowers."
+      }
+    },
+    {
+      "highlight": "honey",
+      "partner": "bee",
+      "duration": 7500,
+      "script": {
+        "hi": "मधुमक्खी हमें शहद देती है।",
+        "en": "The bee gives us honey."
+      }
+    }
+  ]
+}
