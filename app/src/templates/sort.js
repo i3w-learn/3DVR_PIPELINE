@@ -26,7 +26,7 @@
  * shortcut, and it means no change to the sync layer for a fifth template.
  */
 
-import { RING, applyShow, clearHighlights, find, placeAll, teardown } from './scene.js';
+import { RING, applyShow, clearHighlights, find, placeAll, ringOn, teardown } from './scene.js';
 
 /** How long a wrong answer stays lit before the scene forgets it. */
 const WRONG_MS = 900;
@@ -82,17 +82,17 @@ function answer(stage, el) {
   // then simply choosing, exactly as it is in `explore`.
   if (!correct.length) {
     clearHighlights(stage);
-    el.setAttribute('highlight', { color: RING.subject });
+    ringOn(el, RING.subject);
     el.emit('explore-chose', { id: el.id, walking: false }, true);
     return;
   }
 
   if (!correct.includes(el.id)) {
-    el.setAttribute('highlight', { color: RING.wrong });
+    ringOn(el, RING.wrong);
     setTimeout(() => find(stage, el.id)?.removeAttribute('highlight'), WRONG_MS);
     return;
   }
 
-  el.setAttribute('highlight', { color: RING.subject });
+  ringOn(el, RING.subject);
   el.emit('explore-chose', { id: el.id, walking: false }, true);
 }

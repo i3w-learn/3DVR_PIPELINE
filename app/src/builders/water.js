@@ -164,13 +164,15 @@ AFRAME.registerComponent('tub', {
     height: { type: 'number', default: 0.26 },
     wall: { type: 'color', default: '#4a6f88' },
     water: { type: 'color', default: '#5fa3bd' },
+    /** Lower for sink-and-float, where what is at the bottom has to be seen. */
+    opacity: { type: 'number', default: 0.82 },
   },
 
   init() { this.build(); },
   update() { this.build(); },
 
   build() {
-    const { radius, height, wall, water } = this.data;
+    const { radius, height, wall, water, opacity } = this.data;
 
     const shell = mergeParts([
       { geometry: new THREE.CylinderGeometry(radius, radius * 0.9, height, 18, 1, true), matrix: place(0, height / 2, 0), color: wall },
@@ -182,11 +184,16 @@ AFRAME.registerComponent('tub', {
 
     const top = new THREE.Mesh(
       new THREE.CircleGeometry(radius * 0.97, 18).rotateX(-Math.PI / 2),
-      new THREE.MeshStandardMaterial({ color: water, transparent: true, opacity: 0.82, roughness: 0.12, metalness: 0.2 })
+      new THREE.MeshStandardMaterial({ color: water, transparent: true, opacity, roughness: 0.12, metalness: 0.2 })
     );
     top.position.y = height * 0.8;
     this.el.getObject3D('water')?.geometry.dispose();
     this.el.setObject3D('water', top);
+  },
+
+  /** Round the tub, not round the table it stands on. */
+  highlightAnchor() {
+    return { object3D: this.el.object3D, radius: this.data.radius * 1.2, thickness: 0.04 };
   },
 
   remove() {
