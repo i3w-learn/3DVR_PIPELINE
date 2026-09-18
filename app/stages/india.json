@@ -1,0 +1,160 @@
+{
+  "id": "india",
+  "sky": {
+    "hdri": "field.jpg",
+    "intensity": 1.0
+  },
+  "ground": {
+    "color": "grass_color.jpg",
+    "normal": "grass_normal.jpg",
+    "rough": "grass_rough.jpg",
+    "ao": "grass_ao.jpg",
+    "repeat": 70,
+    "stripes": 3
+  },
+  "sun": {
+    "position": "6 11 5",
+    "color": "#fff2da",
+    "intensity": 0.95
+  },
+  "light": {
+    "sky": "#e6eef4",
+    "ground": "#bdb096",
+    "intensity": 0.95
+  },
+  "shadows": false,
+  "fog": {
+    "color": "#d6e2ea",
+    "near": 45,
+    "far": 150
+  },
+  "start": {
+    "position": "0 1.2 5.0",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "grove",
+      "position": "0 0 -6",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 95,
+        "inner": 34,
+        "outer": 95,
+        "arc": 360,
+        "facing": 0,
+        "kind": "round",
+        "height": 10,
+        "leaf": "#3a6a3c",
+        "seed": 71
+      }
+    },
+    {
+      "build": "grove",
+      "position": "0 0 -6",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 44,
+        "inner": 20,
+        "outer": 52,
+        "arc": 250,
+        "facing": 0,
+        "kind": "round",
+        "height": 8,
+        "leaf": "#3f7040",
+        "seed": 33
+      }
+    },
+    {
+      "build": "courtyard",
+      "position": "0 0 -5",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "width": 19,
+        "depth": 15,
+        "rise": 0.16,
+        "steps": 2
+      }
+    },
+    {
+      "build": "gateway",
+      "position": "0 0.32 -13.5",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "width": 9,
+        "height": 8.5,
+        "depth": 2.2
+      }
+    },
+    {
+      "build": "path",
+      "position": "0 0 4",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "length": 12,
+        "width": 3.2,
+        "kerb": 0.1,
+        "surface": "paving",
+        "repeat": 4
+      }
+    },
+    {
+      "build": "flagpole",
+      "position": "-6.2 0.32 -9.5",
+      "rotation": "0 0 0",
+      "params": {}
+    },
+    {
+      "build": "plinth",
+      "position": "0 0.32 -6.4",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 1.0,
+        "width": 0.95
+      }
+    },
+    {
+      "build": "chakra",
+      "position": "0 2.05 -6.4",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "radius": 0.62
+      }
+    },
+    {
+      "build": "plinth",
+      "position": "-4.6 0.32 -3.6",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {}
+    },
+    {
+      "build": "plinth",
+      "position": "-2.3 0.32 -2.6",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {}
+    },
+    {
+      "build": "plinth",
+      "position": "2.3 0.32 -2.6",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {}
+    },
+    {
+      "build": "plinth",
+      "position": "4.6 0.32 -3.6",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {}
+    }
+  ]
+}

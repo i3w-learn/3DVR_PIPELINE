@@ -1,0 +1,22 @@
+{
+  "id": "demo-sky",
+  "template": "explore",
+  "stage": "sky",
+  "objects": [],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "हम गुब्बारे में हैं। नीचे देखो।",
+        "en": "We are in the balloon. Look down — the ground is far below."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "बादल हमारे पास से जा रहे हैं।",
+        "en": "The clouds are going past us. Turn your head and look all around."
+      }
+    }
+  ]
+}

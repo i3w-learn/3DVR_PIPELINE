@@ -1,0 +1,22 @@
+{
+  "id": "demo-home",
+  "template": "explore",
+  "stage": "home",
+  "objects": [],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "यह घर है। यहाँ हम रहते हैं।",
+        "en": "This is a home. This is where we live."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "चूल्हा, अलमारी, चटाई — सब यहीं है।",
+        "en": "The stove, the cupboard, the mats — all in one room."
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "demo-snow",
+  "template": "explore",
+  "stage": "snow",
+  "objects": [],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "यह बर्फ़ है। सब कुछ सफ़ेद है।",
+        "en": "This is snow. Everything is white and quiet."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "यहाँ हमारा तंबू है, और यहाँ आग।",
+        "en": "Here is our tent, and here is the fire keeping us warm."
+      }
+    }
+  ]
+}
