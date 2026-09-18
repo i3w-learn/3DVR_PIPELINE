@@ -1,0 +1,14 @@
+{
+  "id": "trex",
+  "source": "Poly Pizza — \"T-Rex\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/UYtneO5FpF",
+  "targetHeight": 4.0,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Armature|TRex_Idle",
+    "Armature|TRex_Walk"
+  ]
+}

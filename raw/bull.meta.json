@@ -1,0 +1,15 @@
+{
+  "id": "bull",
+  "source": "Poly Pizza — \"Cow\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/26zM1outCr",
+  "targetHeight": 1.45,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Idle",
+    "Walk",
+    "Eating"
+  ]
+}

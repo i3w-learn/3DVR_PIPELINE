@@ -1,0 +1,13 @@
+{
+  "id": "clownfish",
+  "source": "Poly Pizza — \"Fish\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/BEcU9rjiAq",
+  "targetHeight": 0.3,
+  "yaw": 0,
+  "fit": "longest",
+  "keepClips": [
+    "Armature|Swim"
+  ]
+}

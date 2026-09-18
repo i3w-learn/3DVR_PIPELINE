@@ -1,6 +1,61 @@
 {
-  "generated": "2026-09-18T11:17:06.698Z",
+  "generated": "2026-09-18T12:34:51.957Z",
   "models": {
+    "airplane": {
+      "file": "models/airplane.glb",
+      "height": 4.851,
+      "width": 13.087,
+      "depth": 14,
+      "triangles": 1772,
+      "meshes": 7,
+      "bytes": 41828,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Airplane\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "ambulance": {
+      "file": "models/ambulance.glb",
+      "height": 2.741,
+      "width": 2.534,
+      "depth": 5.5,
+      "triangles": 1874,
+      "meshes": 1,
+      "bytes": 47140,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Ambulance\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "ant": {
+      "file": "models/ant.glb",
+      "height": 0.037,
+      "width": 0.065,
+      "depth": 0.1,
+      "triangles": 2000,
+      "meshes": 2,
+      "bytes": 6116,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Ant\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "apatosaurus": {
+      "file": "models/apatosaurus.glb",
+      "height": 5,
+      "width": 2.601,
+      "depth": 22.496,
+      "triangles": 1434,
+      "meshes": 2,
+      "bytes": 118824,
+      "clips": [
+        "Armature|Apatosaurus_Idle",
+        "Armature|Apatosaurus_Walk"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Apatosaurus\" by Quaternius",
+      "licence": "CC0"
+    },
     "apple": {
       "file": "models/apple.glb",
       "height": 0.09,
@@ -27,6 +82,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "badminton": {
+      "file": "models/badminton.glb",
+      "height": 0.017,
+      "width": 0.214,
+      "depth": 0.67,
+      "triangles": 1292,
+      "meshes": 37,
+      "bytes": 32700,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Badminton\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "banana": {
       "file": "models/banana.glb",
       "height": 0.059,
@@ -39,6 +107,58 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "barn": {
+      "file": "models/barn.glb",
+      "height": 6,
+      "width": 7.716,
+      "depth": 8.211,
+      "triangles": 2910,
+      "meshes": 14,
+      "bytes": 20632,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Barn\" by Quaternius",
+      "licence": "CC0"
+    },
+    "basketball": {
+      "file": "models/basketball.glb",
+      "height": 0.24,
+      "width": 0.243,
+      "depth": 0.24,
+      "triangles": 508,
+      "meshes": 1,
+      "bytes": 5172,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Basketball\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "bear": {
+      "file": "models/bear.glb",
+      "height": 1.2,
+      "width": 0.649,
+      "depth": 1.852,
+      "triangles": 570,
+      "meshes": 1,
+      "bytes": 6160,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Bear\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "bee": {
+      "file": "models/bee.glb",
+      "height": 0.064,
+      "width": 0.092,
+      "depth": 0.1,
+      "triangles": 624,
+      "meshes": 1,
+      "bytes": 6960,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Bee\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "beetroot": {
       "file": "models/beetroot.glb",
@@ -53,6 +173,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "bicycle": {
+      "file": "models/bicycle.glb",
+      "height": 1.019,
+      "width": 0.479,
+      "depth": 1.7,
+      "triangles": 3712,
+      "meshes": 1,
+      "bytes": 30088,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Bicycle\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "bigtree": {
       "file": "models/bigtree.glb",
       "height": 9.5,
@@ -64,6 +197,45 @@
       "clips": [],
       "rigged": false,
       "source": "Poly Haven — Jacaranda Tree (photoscan)",
+      "licence": "CC0"
+    },
+    "boat": {
+      "file": "models/boat.glb",
+      "height": 0.892,
+      "width": 2.073,
+      "depth": 4,
+      "triangles": 224,
+      "meshes": 2,
+      "bytes": 3404,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Boat\" by Quaternius",
+      "licence": "CC0"
+    },
+    "bone": {
+      "file": "models/bone.glb",
+      "height": 0.078,
+      "width": 0.25,
+      "depth": 0.04,
+      "triangles": 634,
+      "meshes": 1,
+      "bytes": 3528,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Bone\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "book": {
+      "file": "models/book.glb",
+      "height": 0.28,
+      "width": 0.109,
+      "depth": 0.233,
+      "triangles": 1060,
+      "meshes": 4,
+      "bytes": 8576,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Book\" by Quaternius",
       "licence": "CC0"
     },
     "bottle": {
@@ -105,6 +277,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "bridge": {
+      "file": "models/bridge.glb",
+      "height": 2.264,
+      "width": 6,
+      "depth": 2.281,
+      "triangles": 2880,
+      "meshes": 1,
+      "bytes": 11920,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Small Bridge\" by Quaternius",
+      "licence": "CC0"
+    },
     "brinjal": {
       "file": "models/brinjal.glb",
       "height": 0.2,
@@ -131,6 +316,49 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "buffalo": {
+      "file": "models/buffalo.glb",
+      "height": 1.4,
+      "width": 0.789,
+      "depth": 2.29,
+      "triangles": 675,
+      "meshes": 1,
+      "bytes": 29936,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Bull Ver\" by Pixel",
+      "licence": "CC-BY"
+    },
+    "bull": {
+      "file": "models/bull.glb",
+      "height": 1.46,
+      "width": 0.73,
+      "depth": 2.568,
+      "triangles": 2450,
+      "meshes": 7,
+      "bytes": 155476,
+      "clips": [
+        "Eating",
+        "Walk",
+        "Idle"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Cow\" by Quaternius",
+      "licence": "CC0"
+    },
+    "bulldozer": {
+      "file": "models/bulldozer.glb",
+      "height": 3.188,
+      "width": 3.168,
+      "depth": 5,
+      "triangles": 2887,
+      "meshes": 5,
+      "bytes": 14752,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Bulldozer\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "burger": {
       "file": "models/burger.glb",
       "height": 0.1,
@@ -143,6 +371,32 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "bus": {
+      "file": "models/bus.glb",
+      "height": 3.878,
+      "width": 4.68,
+      "depth": 9,
+      "triangles": 6835,
+      "meshes": 34,
+      "bytes": 49968,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Bus\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "butterfly": {
+      "file": "models/butterfly.glb",
+      "height": 0.08,
+      "width": 0.106,
+      "depth": 0.12,
+      "triangles": 1856,
+      "meshes": 4,
+      "bytes": 71512,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Butterfly\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "cabbage": {
       "file": "models/cabbage.glb",
@@ -170,6 +424,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "camel": {
+      "file": "models/camel.glb",
+      "height": 2,
+      "width": 0.607,
+      "depth": 2.604,
+      "triangles": 822,
+      "meshes": 1,
+      "bytes": 7380,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Camel\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "candybar": {
       "file": "models/candybar.glb",
       "height": 0.031,
@@ -196,6 +463,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "car": {
+      "file": "models/car.glb",
+      "height": 1.454,
+      "width": 2.079,
+      "depth": 4.2,
+      "triangles": 3124,
+      "meshes": 13,
+      "bytes": 26668,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Car\" by Quaternius",
+      "licence": "CC0"
+    },
     "carrot": {
       "file": "models/carrot.glb",
       "height": 0.2,
@@ -208,6 +488,32 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "cat": {
+      "file": "models/cat.glb",
+      "height": 0.32,
+      "width": 0.094,
+      "depth": 0.294,
+      "triangles": 650,
+      "meshes": 1,
+      "bytes": 6560,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Kitten\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "caterpillar": {
+      "file": "models/caterpillar.glb",
+      "height": 0.027,
+      "width": 0.023,
+      "depth": 0.1,
+      "triangles": 784,
+      "meshes": 1,
+      "bytes": 63280,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Caterpillar\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "cauliflower": {
       "file": "models/cauliflower.glb",
@@ -222,6 +528,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "cheetah": {
+      "file": "models/cheetah.glb",
+      "height": 0.8,
+      "width": 0.23,
+      "depth": 1.392,
+      "triangles": 980,
+      "meshes": 1,
+      "bytes": 107008,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Cheetah\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "cherries": {
       "file": "models/cherries.glb",
       "height": 0.08,
@@ -234,6 +553,19 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "chick": {
+      "file": "models/chick.glb",
+      "height": 0.12,
+      "width": 0.097,
+      "depth": 0.141,
+      "triangles": 676,
+      "meshes": 3,
+      "bytes": 5740,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Baby chick\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "childsit": {
       "file": "models/childsit.glb",
@@ -261,6 +593,60 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "church": {
+      "file": "models/church.glb",
+      "height": 9,
+      "width": 4.098,
+      "depth": 7.651,
+      "triangles": 1370,
+      "meshes": 1,
+      "bytes": 44592,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Church\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "clownfish": {
+      "file": "models/clownfish.glb",
+      "height": 0.16,
+      "width": 0.069,
+      "depth": 0.3,
+      "triangles": 686,
+      "meshes": 3,
+      "bytes": 14872,
+      "clips": [
+        "Armature|Swim"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Fish\" by Quaternius",
+      "licence": "CC0"
+    },
+    "cobra": {
+      "file": "models/cobra.glb",
+      "height": 0.511,
+      "width": 0.939,
+      "depth": 1,
+      "triangles": 1408,
+      "meshes": 5,
+      "bytes": 13088,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Cobra\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "cockroach": {
+      "file": "models/cockroach.glb",
+      "height": 0.009,
+      "width": 0.08,
+      "depth": 0.06,
+      "triangles": 548,
+      "meshes": 1,
+      "bytes": 6192,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Cockroach\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "coconut": {
       "file": "models/coconut.glb",
       "height": 0.13,
@@ -287,6 +673,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "comb": {
+      "file": "models/comb.glb",
+      "height": 0.007,
+      "width": 0.044,
+      "depth": 0.16,
+      "triangles": 1220,
+      "meshes": 33,
+      "bytes": 28048,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Comb\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "corn": {
       "file": "models/corn.glb",
       "height": 0.184,
@@ -300,6 +699,74 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "cow": {
+      "file": "models/cow.glb",
+      "height": 1.422,
+      "width": 0.626,
+      "depth": 2.534,
+      "triangles": 796,
+      "meshes": 3,
+      "bytes": 103992,
+      "clips": [
+        "Armature|Idle",
+        "Armature|Walk"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Cow\" by Quaternius",
+      "licence": "CC0"
+    },
+    "crab": {
+      "file": "models/crab.glb",
+      "height": 0.048,
+      "width": 0.25,
+      "depth": 0.196,
+      "triangles": 624,
+      "meshes": 1,
+      "bytes": 6304,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Crab\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "cricketbat": {
+      "file": "models/cricketbat.glb",
+      "height": 0.9,
+      "width": 0.066,
+      "depth": 0.143,
+      "triangles": 192,
+      "meshes": 3,
+      "bytes": 4012,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Cricket bat\" by jeremy",
+      "licence": "CC-BY"
+    },
+    "crocodile": {
+      "file": "models/crocodile.glb",
+      "height": 0.435,
+      "width": 0.829,
+      "depth": 3,
+      "triangles": 536,
+      "meshes": 1,
+      "bytes": 5820,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Crocodile\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "crow": {
+      "file": "models/crow.glb",
+      "height": 0.4,
+      "width": 0.139,
+      "depth": 0.391,
+      "triangles": 682,
+      "meshes": 1,
+      "bytes": 7264,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Crow\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "cup": {
       "file": "models/cup.glb",
       "height": 0.09,
@@ -311,6 +778,36 @@
       "clips": [],
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
+      "licence": "CC0"
+    },
+    "daisy": {
+      "file": "models/daisy.glb",
+      "height": 0.4,
+      "width": 0.144,
+      "depth": 0.122,
+      "triangles": 496,
+      "meshes": 1,
+      "bytes": 32040,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Daisy\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "deer": {
+      "file": "models/deer.glb",
+      "height": 1.304,
+      "width": 0.437,
+      "depth": 1.327,
+      "triangles": 2096,
+      "meshes": 7,
+      "bytes": 151752,
+      "clips": [
+        "Eating",
+        "Walk",
+        "Idle"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Deer\" by Quaternius",
       "licence": "CC0"
     },
     "didi2": {
@@ -326,6 +823,51 @@
       "source": "Sketchfab — \"Traditional Indian Saree Model\" by sam-30",
       "licence": "CC-BY"
     },
+    "dog": {
+      "file": "models/dog.glb",
+      "height": 0.6,
+      "width": 0.219,
+      "depth": 0.722,
+      "triangles": 1584,
+      "meshes": 5,
+      "bytes": 11756,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Shiba inu\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "dolphin": {
+      "file": "models/dolphin.glb",
+      "height": 0.722,
+      "width": 0.748,
+      "depth": 2.202,
+      "triangles": 440,
+      "meshes": 2,
+      "bytes": 16480,
+      "clips": [
+        "Armature|Swim"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Dolphin\" by Quaternius",
+      "licence": "CC0"
+    },
+    "donkey": {
+      "file": "models/donkey.glb",
+      "height": 1.202,
+      "width": 0.349,
+      "depth": 1.421,
+      "triangles": 2000,
+      "meshes": 8,
+      "bytes": 170580,
+      "clips": [
+        "Eating",
+        "Walk",
+        "Idle"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Donkey\" by Quaternius",
+      "licence": "CC0"
+    },
     "donut": {
       "file": "models/donut.glb",
       "height": 0.031,
@@ -338,6 +880,71 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "dragonfly": {
+      "file": "models/dragonfly.glb",
+      "height": 0.031,
+      "width": 0.12,
+      "depth": 0.09,
+      "triangles": 466,
+      "meshes": 2,
+      "bytes": 5672,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Dragonfly\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "drum": {
+      "file": "models/drum.glb",
+      "height": 0.171,
+      "width": 0.398,
+      "depth": 0.4,
+      "triangles": 2084,
+      "meshes": 22,
+      "bytes": 23828,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Drum\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "duck": {
+      "file": "models/duck.glb",
+      "height": 0.42,
+      "width": 0.208,
+      "depth": 0.494,
+      "triangles": 1076,
+      "meshes": 4,
+      "bytes": 5948,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Duck\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "dumptruck": {
+      "file": "models/dumptruck.glb",
+      "height": 3.222,
+      "width": 3.731,
+      "depth": 6.5,
+      "triangles": 2932,
+      "meshes": 7,
+      "bytes": 15452,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Dump truck\" by jeremy",
+      "licence": "CC-BY"
+    },
+    "eagle": {
+      "file": "models/eagle.glb",
+      "height": 0.7,
+      "width": 0.283,
+      "depth": 0.722,
+      "triangles": 499,
+      "meshes": 1,
+      "bytes": 5644,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Eagle\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "egg": {
       "file": "models/egg.glb",
@@ -352,6 +959,32 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "elephant": {
+      "file": "models/elephant.glb",
+      "height": 2.8,
+      "width": 2.517,
+      "depth": 3.958,
+      "triangles": 1116,
+      "meshes": 1,
+      "bytes": 27964,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Elephant\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "envelope": {
+      "file": "models/envelope.glb",
+      "height": 0.027,
+      "width": 0.156,
+      "depth": 0.24,
+      "triangles": 1120,
+      "meshes": 2,
+      "bytes": 5496,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Envelopes\" by Jarlan Perez",
+      "licence": "CC-BY"
+    },
     "fence": {
       "file": "models/fence.glb",
       "height": 1,
@@ -365,6 +998,19 @@
       "source": "Kenney — Nature Kit 2.1",
       "licence": "CC0"
     },
+    "firetruck": {
+      "file": "models/firetruck.glb",
+      "height": 3.84,
+      "width": 3.04,
+      "depth": 8,
+      "triangles": 2120,
+      "meshes": 122,
+      "bytes": 104824,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Fire Truck\" by Ivan Klus",
+      "licence": "CC-BY"
+    },
     "fish": {
       "file": "models/fish.glb",
       "height": 0.135,
@@ -376,6 +1022,36 @@
       "clips": [],
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
+      "licence": "CC0"
+    },
+    "flute": {
+      "file": "models/flute.glb",
+      "height": 0.037,
+      "width": 0.6,
+      "depth": 0.117,
+      "triangles": 10820,
+      "meshes": 31,
+      "bytes": 67376,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Flute\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "fox": {
+      "file": "models/fox.glb",
+      "height": 0.45,
+      "width": 0.188,
+      "depth": 0.93,
+      "triangles": 1848,
+      "meshes": 5,
+      "bytes": 128512,
+      "clips": [
+        "Eating",
+        "Walk",
+        "Idle"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Fox\" by Quaternius",
       "licence": "CC0"
     },
     "fries": {
@@ -391,6 +1067,47 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "frog": {
+      "file": "models/frog.glb",
+      "height": 0.049,
+      "width": 0.12,
+      "depth": 0.109,
+      "triangles": 4920,
+      "meshes": 4,
+      "bytes": 65828,
+      "clips": [
+        "FrogArmature|Frog_Idle"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Frog\" by Quaternius",
+      "licence": "CC0"
+    },
+    "gift": {
+      "file": "models/gift.glb",
+      "height": 0.3,
+      "width": 0.195,
+      "depth": 0.222,
+      "triangles": 816,
+      "meshes": 15,
+      "bytes": 17412,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Xmas Gift\" by Jeff Larson",
+      "licence": "CC-BY"
+    },
+    "giraffe": {
+      "file": "models/giraffe.glb",
+      "height": 4.5,
+      "width": 0.731,
+      "depth": 3.205,
+      "triangles": 810,
+      "meshes": 1,
+      "bytes": 81776,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Giraffe\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "glass": {
       "file": "models/glass.glb",
       "height": 0.12,
@@ -403,6 +1120,19 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "goat": {
+      "file": "models/goat.glb",
+      "height": 0.8,
+      "width": 0.261,
+      "depth": 1.02,
+      "triangles": 622,
+      "meshes": 1,
+      "bytes": 6668,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Goat\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "grapes": {
       "file": "models/grapes.glb",
@@ -417,6 +1147,153 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "grass": {
+      "file": "models/grass.glb",
+      "height": 0.5,
+      "width": 0.239,
+      "depth": 0.276,
+      "triangles": 155,
+      "meshes": 1,
+      "bytes": 7308,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Grass\" by Quaternius",
+      "licence": "CC0"
+    },
+    "grasshopper": {
+      "file": "models/grasshopper.glb",
+      "height": 0.054,
+      "width": 0.043,
+      "depth": 0.1,
+      "triangles": 664,
+      "meshes": 1,
+      "bytes": 6636,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Grasshopper\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "guitar": {
+      "file": "models/guitar.glb",
+      "height": 0.109,
+      "width": 0.399,
+      "depth": 1,
+      "triangles": 12829,
+      "meshes": 3,
+      "bytes": 51984,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Acoustic guitar\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "hay": {
+      "file": "models/hay.glb",
+      "height": 0.9,
+      "width": 0.61,
+      "depth": 0.63,
+      "triangles": 488,
+      "meshes": 1,
+      "bytes": 3980,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Hay\" by Quaternius",
+      "licence": "CC0"
+    },
+    "helicopter": {
+      "file": "models/helicopter.glb",
+      "height": 2.401,
+      "width": 9,
+      "depth": 6.46,
+      "triangles": 1041,
+      "meshes": 22,
+      "bytes": 23608,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Helicopter\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "hen": {
+      "file": "models/hen.glb",
+      "height": 0.42,
+      "width": 0.201,
+      "depth": 0.338,
+      "triangles": 592,
+      "meshes": 1,
+      "bytes": 6720,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Hen\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "hippo": {
+      "file": "models/hippo.glb",
+      "height": 1.5,
+      "width": 1.069,
+      "depth": 3.299,
+      "triangles": 1292,
+      "meshes": 1,
+      "bytes": 27044,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Hippopotamus\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "hockeystick": {
+      "file": "models/hockeystick.glb",
+      "height": 0.777,
+      "width": 0.046,
+      "depth": 0.95,
+      "triangles": 240,
+      "meshes": 2,
+      "bytes": 3420,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Field hockey stick\" by jeremy",
+      "licence": "CC-BY"
+    },
+    "honey": {
+      "file": "models/honey.glb",
+      "height": 0.14,
+      "width": 0.144,
+      "depth": 0.144,
+      "triangles": 140,
+      "meshes": 3,
+      "bytes": 3576,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Honey\" by Kenney",
+      "licence": "CC0"
+    },
+    "horse": {
+      "file": "models/horse.glb",
+      "height": 1.6,
+      "width": 0.468,
+      "depth": 1.887,
+      "triangles": 2182,
+      "meshes": 8,
+      "bytes": 170888,
+      "clips": [
+        "Eating",
+        "Walk",
+        "Idle"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Horse\" by Quaternius",
+      "licence": "CC0"
+    },
+    "housefly": {
+      "file": "models/housefly.glb",
+      "height": 0.04,
+      "width": 0.051,
+      "depth": 0.08,
+      "triangles": 1470,
+      "meshes": 4,
+      "bytes": 9672,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Fly\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "icecream": {
       "file": "models/icecream.glb",
       "height": 0.16,
@@ -429,6 +1306,71 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "jeep": {
+      "file": "models/jeep.glb",
+      "height": 1.629,
+      "width": 1.887,
+      "depth": 4,
+      "triangles": 3312,
+      "meshes": 1,
+      "bytes": 11848,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Jeep\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "jellyfish": {
+      "file": "models/jellyfish.glb",
+      "height": 0.4,
+      "width": 0.276,
+      "depth": 0.218,
+      "triangles": 3704,
+      "meshes": 3,
+      "bytes": 17892,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Jellyfish\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "kangaroo": {
+      "file": "models/kangaroo.glb",
+      "height": 1.5,
+      "width": 0.466,
+      "depth": 2.12,
+      "triangles": 760,
+      "meshes": 1,
+      "bytes": 7284,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Kangaroo\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "kite": {
+      "file": "models/kite.glb",
+      "height": 0.006,
+      "width": 0.9,
+      "depth": 0.472,
+      "triangles": 774,
+      "meshes": 8,
+      "bytes": 9404,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Kite\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "ladybug": {
+      "file": "models/ladybug.glb",
+      "height": 0.034,
+      "width": 0.051,
+      "depth": 0.08,
+      "triangles": 820,
+      "meshes": 1,
+      "bytes": 28052,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Ladybug\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "lemon": {
       "file": "models/lemon.glb",
@@ -456,6 +1398,32 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "lion": {
+      "file": "models/lion.glb",
+      "height": 1.1,
+      "width": 0.554,
+      "depth": 2.352,
+      "triangles": 1350,
+      "meshes": 1,
+      "bytes": 46500,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Lion\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "lizard": {
+      "file": "models/lizard.glb",
+      "height": 0.038,
+      "width": 0.067,
+      "depth": 0.3,
+      "triangles": 1351,
+      "meshes": 1,
+      "bytes": 28068,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Lizard\" by madtrollstudio",
+      "licence": "CC-BY"
+    },
     "lollipop": {
       "file": "models/lollipop.glb",
       "height": 0.15,
@@ -481,6 +1449,58 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "milkbottle": {
+      "file": "models/milkbottle.glb",
+      "height": 0.28,
+      "width": 0.101,
+      "depth": 0.101,
+      "triangles": 696,
+      "meshes": 3,
+      "bytes": 3984,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Jug of milk\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "monkey": {
+      "file": "models/monkey.glb",
+      "height": 0.6,
+      "width": 0.408,
+      "depth": 1.095,
+      "triangles": 1368,
+      "meshes": 1,
+      "bytes": 51224,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"monkey\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "motorcycle": {
+      "file": "models/motorcycle.glb",
+      "height": 1.367,
+      "width": 0.992,
+      "depth": 2.1,
+      "triangles": 3294,
+      "meshes": 1,
+      "bytes": 64572,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Motorcycle\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "mouse": {
+      "file": "models/mouse.glb",
+      "height": 0.08,
+      "width": 0.044,
+      "depth": 0.24,
+      "triangles": 776,
+      "meshes": 1,
+      "bytes": 45816,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Mouse\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "mug": {
       "file": "models/mug.glb",
@@ -508,6 +1528,32 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "nest": {
+      "file": "models/nest.glb",
+      "height": 0.09,
+      "width": 0.3,
+      "depth": 0.252,
+      "triangles": 619,
+      "meshes": 1,
+      "bytes": 44660,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Birds nest\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "octopus": {
+      "file": "models/octopus.glb",
+      "height": 0.284,
+      "width": 0.5,
+      "depth": 0.486,
+      "triangles": 754,
+      "meshes": 1,
+      "bytes": 49500,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Octopus\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "onion": {
       "file": "models/onion.glb",
       "height": 0.08,
@@ -534,6 +1580,61 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "owl": {
+      "file": "models/owl.glb",
+      "height": 0.45,
+      "width": 0.481,
+      "depth": 0.303,
+      "triangles": 894,
+      "meshes": 1,
+      "bytes": 58332,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Great horned owl\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "panda": {
+      "file": "models/panda.glb",
+      "height": 0.9,
+      "width": 0.519,
+      "depth": 1.537,
+      "triangles": 780,
+      "meshes": 1,
+      "bytes": 7324,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Panda\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "parasaur": {
+      "file": "models/parasaur.glb",
+      "height": 3.005,
+      "width": 1.022,
+      "depth": 6.127,
+      "triangles": 1412,
+      "meshes": 4,
+      "bytes": 66116,
+      "clips": [
+        "Armature|Parasaurolophus_Idle",
+        "Armature|Parasaurolophus_Walk"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Parasaurolophus\" by Quaternius",
+      "licence": "CC0"
+    },
+    "parrot": {
+      "file": "models/parrot.glb",
+      "height": 0.35,
+      "width": 0.173,
+      "depth": 0.457,
+      "triangles": 651,
+      "meshes": 1,
+      "bytes": 7056,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Parrot\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "pear": {
       "file": "models/pear.glb",
       "height": 0.11,
@@ -559,6 +1660,60 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "penguin": {
+      "file": "models/penguin.glb",
+      "height": 0.9,
+      "width": 0.362,
+      "depth": 0.504,
+      "triangles": 456,
+      "meshes": 1,
+      "bytes": 5268,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Penguin\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "piano": {
+      "file": "models/piano.glb",
+      "height": 1.2,
+      "width": 1.531,
+      "depth": 1.163,
+      "triangles": 1264,
+      "meshes": 68,
+      "bytes": 54064,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Piano\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "pig": {
+      "file": "models/pig.glb",
+      "height": 0.7,
+      "width": 0.511,
+      "depth": 1.496,
+      "triangles": 562,
+      "meshes": 2,
+      "bytes": 53420,
+      "clips": [
+        "Armature|Idle"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Pig\" by Quaternius",
+      "licence": "CC0"
+    },
+    "pigeon": {
+      "file": "models/pigeon.glb",
+      "height": 0.28,
+      "width": 0.131,
+      "depth": 0.27,
+      "triangles": 690,
+      "meshes": 1,
+      "bytes": 6892,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Dove\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "pineapple": {
       "file": "models/pineapple.glb",
@@ -599,6 +1754,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "policecar": {
+      "file": "models/policecar.glb",
+      "height": 1.834,
+      "width": 2.071,
+      "depth": 4.4,
+      "triangles": 2232,
+      "meshes": 1,
+      "bytes": 9456,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Police car\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "popsicle": {
       "file": "models/popsicle.glb",
       "height": 0.14,
@@ -637,6 +1805,32 @@
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
+    },
+    "puppy": {
+      "file": "models/puppy.glb",
+      "height": 0.3,
+      "width": 0.122,
+      "depth": 0.386,
+      "triangles": 654,
+      "meshes": 1,
+      "bytes": 6724,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Puppy\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "racket": {
+      "file": "models/racket.glb",
+      "height": 0.038,
+      "width": 0.271,
+      "depth": 0.69,
+      "triangles": 3136,
+      "meshes": 44,
+      "bytes": 36708,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Tennis racket\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "radish": {
       "file": "models/radish.glb",
@@ -729,6 +1923,19 @@
       "source": "Poly Haven — Island Tree 01 (photoscan)",
       "licence": "CC0"
     },
+    "rhino": {
+      "file": "models/rhino.glb",
+      "height": 1.7,
+      "width": 1.114,
+      "depth": 3.601,
+      "triangles": 742,
+      "meshes": 1,
+      "bytes": 7284,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Rhinoceros\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "rock": {
       "file": "models/rock.glb",
       "height": 0.409,
@@ -740,6 +1947,125 @@
       "clips": [],
       "rigged": false,
       "source": "Kenney — Nature Kit 2.1",
+      "licence": "CC0"
+    },
+    "rocket": {
+      "file": "models/rocket.glb",
+      "height": 8,
+      "width": 3.486,
+      "depth": 3.33,
+      "triangles": 437,
+      "meshes": 1,
+      "bytes": 29504,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Rocket ship\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "rose": {
+      "file": "models/rose.glb",
+      "height": 0.5,
+      "width": 0.135,
+      "depth": 0.133,
+      "triangles": 850,
+      "meshes": 1,
+      "bytes": 36268,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Rose\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "sailboat": {
+      "file": "models/sailboat.glb",
+      "height": 6,
+      "width": 2.438,
+      "depth": 4.89,
+      "triangles": 900,
+      "meshes": 3,
+      "bytes": 5948,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Sailboat\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "schoolbag": {
+      "file": "models/schoolbag.glb",
+      "height": 0.42,
+      "width": 0.472,
+      "depth": 0.355,
+      "triangles": 3960,
+      "meshes": 3,
+      "bytes": 19460,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Backpack\" by Quaternius",
+      "licence": "CC0"
+    },
+    "schoolbus": {
+      "file": "models/schoolbus.glb",
+      "height": 3.732,
+      "width": 3.5,
+      "depth": 8,
+      "triangles": 5425,
+      "meshes": 6,
+      "bytes": 20824,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Schoolbus\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "scooter": {
+      "file": "models/scooter.glb",
+      "height": 1.174,
+      "width": 0.6,
+      "depth": 1.7,
+      "triangles": 1496,
+      "meshes": 1,
+      "bytes": 6888,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Scooter\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "seahorse": {
+      "file": "models/seahorse.glb",
+      "height": 0.2,
+      "width": 0.046,
+      "depth": 0.136,
+      "triangles": 784,
+      "meshes": 3,
+      "bytes": 41364,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Seahorse\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "seal": {
+      "file": "models/seal.glb",
+      "height": 0.504,
+      "width": 0.456,
+      "depth": 1.5,
+      "triangles": 392,
+      "meshes": 1,
+      "bytes": 4808,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Seal\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "shark": {
+      "file": "models/shark.glb",
+      "height": 0.986,
+      "width": 1.089,
+      "depth": 3,
+      "triangles": 644,
+      "meshes": 2,
+      "bytes": 15900,
+      "clips": [
+        "Armature|Swim"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Shark\" by Quaternius",
       "licence": "CC0"
     },
     "shed": {
@@ -755,6 +2081,34 @@
       "source": "Sketchfab — \"Worn Shed PBR Game-Ready\" by donnichols",
       "licence": "CC-BY"
     },
+    "sheep": {
+      "file": "models/sheep.glb",
+      "height": 0.85,
+      "width": 0.433,
+      "depth": 1.153,
+      "triangles": 610,
+      "meshes": 2,
+      "bytes": 48784,
+      "clips": [
+        "Armature|Idle"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Sheep\" by Quaternius",
+      "licence": "CC0"
+    },
+    "ship": {
+      "file": "models/ship.glb",
+      "height": 7.311,
+      "width": 4.433,
+      "depth": 20,
+      "triangles": 858,
+      "meshes": 4,
+      "bytes": 7820,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Cruise Ship\" by Quaternius",
+      "licence": "CC0"
+    },
     "shrub": {
       "file": "models/shrub.glb",
       "height": 0.9,
@@ -767,6 +2121,61 @@
       "rigged": false,
       "source": "Poly Haven — Shrub 02",
       "licence": "CC0"
+    },
+    "snail": {
+      "file": "models/snail.glb",
+      "height": 0.055,
+      "width": 0.036,
+      "depth": 0.1,
+      "triangles": 399,
+      "meshes": 1,
+      "bytes": 4780,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Snail\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "snake": {
+      "file": "models/snake.glb",
+      "height": 0.507,
+      "width": 0.168,
+      "depth": 0.435,
+      "triangles": 1618,
+      "meshes": 7,
+      "bytes": 38372,
+      "clips": [
+        "SnakeArmature|Snake_Idle",
+        "SnakeArmature|Snake_Walk"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Snake\" by Quaternius",
+      "licence": "CC0"
+    },
+    "soap": {
+      "file": "models/soap.glb",
+      "height": 0.033,
+      "width": 0.067,
+      "depth": 0.1,
+      "triangles": 236,
+      "meshes": 1,
+      "bytes": 2472,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Soap\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "soccerball": {
+      "file": "models/soccerball.glb",
+      "height": 0.22,
+      "width": 0.218,
+      "depth": 0.218,
+      "triangles": 180,
+      "meshes": 2,
+      "bytes": 3412,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Soccer ball\" by Poly by Google",
+      "licence": "CC-BY"
     },
     "sodacan": {
       "file": "models/sodacan.glb",
@@ -807,6 +2216,35 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "sparrow": {
+      "file": "models/sparrow.glb",
+      "height": 0.13,
+      "width": 0.062,
+      "depth": 0.205,
+      "triangles": 608,
+      "meshes": 1,
+      "bytes": 6640,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Sparrow\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "spider": {
+      "file": "models/spider.glb",
+      "height": 0.034,
+      "width": 0.1,
+      "depth": 0.086,
+      "triangles": 2712,
+      "meshes": 2,
+      "bytes": 105008,
+      "clips": [
+        "SpiderArmature|Spider_Idle",
+        "SpiderArmature|Spider_Walk"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Spider\" by Quaternius",
+      "licence": "CC0"
+    },
     "spoon": {
       "file": "models/spoon.glb",
       "height": 0.009,
@@ -820,6 +2258,61 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "squirrel": {
+      "file": "models/squirrel.glb",
+      "height": 0.2,
+      "width": 0.13,
+      "depth": 0.399,
+      "triangles": 716,
+      "meshes": 1,
+      "bytes": 7092,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Squirrel\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "starfish": {
+      "file": "models/starfish.glb",
+      "height": 0.018,
+      "width": 0.203,
+      "depth": 0.25,
+      "triangles": 780,
+      "meshes": 3,
+      "bytes": 108888,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Starfish\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "stegosaurus": {
+      "file": "models/stegosaurus.glb",
+      "height": 3.008,
+      "width": 1.47,
+      "depth": 6.557,
+      "triangles": 2278,
+      "meshes": 3,
+      "bytes": 91328,
+      "clips": [
+        "Armature|Stegosaurus_Idle",
+        "Armature|Stegosaurus_Walk"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Stegosaurus\" by Quaternius",
+      "licence": "CC0"
+    },
+    "stethoscope": {
+      "file": "models/stethoscope.glb",
+      "height": 0.028,
+      "width": 0.3,
+      "depth": 0.5,
+      "triangles": 1216,
+      "meshes": 3,
+      "bytes": 5264,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Stethoscope\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "strawberry": {
       "file": "models/strawberry.glb",
       "height": 0.06,
@@ -831,6 +2324,32 @@
       "clips": [],
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
+      "licence": "CC0"
+    },
+    "sunflower": {
+      "file": "models/sunflower.glb",
+      "height": 1.5,
+      "width": 0.942,
+      "depth": 0.709,
+      "triangles": 340,
+      "meshes": 1,
+      "bytes": 29016,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Sunflower\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "taxi": {
+      "file": "models/taxi.glb",
+      "height": 1.335,
+      "width": 1.841,
+      "depth": 4.3,
+      "triangles": 3278,
+      "meshes": 12,
+      "bytes": 26128,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Taxi\" by Quaternius",
       "licence": "CC0"
     },
     "teacup": {
@@ -846,6 +2365,32 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "tennisball": {
+      "file": "models/tennisball.glb",
+      "height": 0.07,
+      "width": 0.07,
+      "depth": 0.07,
+      "triangles": 440,
+      "meshes": 1,
+      "bytes": 9360,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Tennis ball\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "tiger": {
+      "file": "models/tiger.glb",
+      "height": 1,
+      "width": 0.366,
+      "depth": 1.868,
+      "triangles": 742,
+      "meshes": 1,
+      "bytes": 94540,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Tiger\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "tomato": {
       "file": "models/tomato.glb",
       "height": 0.08,
@@ -859,6 +2404,168 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "toothbrush": {
+      "file": "models/toothbrush.glb",
+      "height": 0.015,
+      "width": 0.016,
+      "depth": 0.19,
+      "triangles": 676,
+      "meshes": 2,
+      "bytes": 3256,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Toothbrush\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "towel": {
+      "file": "models/towel.glb",
+      "height": 0.064,
+      "width": 0.4,
+      "depth": 0.34,
+      "triangles": 4200,
+      "meshes": 6,
+      "bytes": 19088,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Towel\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "tractor": {
+      "file": "models/tractor.glb",
+      "height": 2.002,
+      "width": 2.173,
+      "depth": 3.6,
+      "triangles": 2766,
+      "meshes": 1,
+      "bytes": 60840,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Tractor\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "train": {
+      "file": "models/train.glb",
+      "height": 5.484,
+      "width": 2.176,
+      "depth": 8,
+      "triangles": 4248,
+      "meshes": 8,
+      "bytes": 21124,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Train\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "trex": {
+      "file": "models/trex.glb",
+      "height": 4.044,
+      "width": 2.221,
+      "depth": 8.621,
+      "triangles": 1820,
+      "meshes": 5,
+      "bytes": 72084,
+      "clips": [
+        "Armature|TRex_Idle",
+        "Armature|TRex_Walk"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"T-Rex\" by Quaternius",
+      "licence": "CC0"
+    },
+    "triceratops": {
+      "file": "models/triceratops.glb",
+      "height": 2.821,
+      "width": 1.86,
+      "depth": 6.672,
+      "triangles": 1326,
+      "meshes": 3,
+      "bytes": 84532,
+      "clips": [
+        "Armature|Triceratops_Idle",
+        "Armature|Triceratops_Walk"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Triceratops\" by Quaternius",
+      "licence": "CC0"
+    },
+    "truck": {
+      "file": "models/truck.glb",
+      "height": 3.293,
+      "width": 3.093,
+      "depth": 6,
+      "triangles": 7474,
+      "meshes": 6,
+      "bytes": 37292,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Truck\" by Quaternius",
+      "licence": "CC0"
+    },
+    "trumpet": {
+      "file": "models/trumpet.glb",
+      "height": 0.297,
+      "width": 0.55,
+      "depth": 0.269,
+      "triangles": 8884,
+      "meshes": 1,
+      "bytes": 17848,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Trumpet\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "tulip": {
+      "file": "models/tulip.glb",
+      "height": 0.4,
+      "width": 0.112,
+      "depth": 0.171,
+      "triangles": 904,
+      "meshes": 1,
+      "bytes": 48260,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Tulip\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "turtle": {
+      "file": "models/turtle.glb",
+      "height": 0.265,
+      "width": 0.389,
+      "depth": 0.6,
+      "triangles": 4026,
+      "meshes": 6,
+      "bytes": 14520,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Turtle\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "violin": {
+      "file": "models/violin.glb",
+      "height": 0.076,
+      "width": 0.454,
+      "depth": 0.6,
+      "triangles": 7685,
+      "meshes": 19,
+      "bytes": 47732,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Violin\" by Poly by Google",
+      "licence": "CC-BY"
+    },
+    "wateringcan": {
+      "file": "models/wateringcan.glb",
+      "height": 0.305,
+      "width": 0.35,
+      "depth": 0.299,
+      "triangles": 2056,
+      "meshes": 3,
+      "bytes": 10968,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Watering can\" by Poly by Google",
+      "licence": "CC-BY"
+    },
     "watermelon": {
       "file": "models/watermelon.glb",
       "height": 0.28,
@@ -870,6 +2577,80 @@
       "clips": [],
       "rigged": false,
       "source": "Kenney — Food Kit 2.0",
+      "licence": "CC0"
+    },
+    "whale": {
+      "file": "models/whale.glb",
+      "height": 1.992,
+      "width": 2.291,
+      "depth": 6.001,
+      "triangles": 444,
+      "meshes": 2,
+      "bytes": 21860,
+      "clips": [
+        "Armature|Swim"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Whale\" by Quaternius",
+      "licence": "CC0"
+    },
+    "wolf": {
+      "file": "models/wolf.glb",
+      "height": 0.8,
+      "width": 0.313,
+      "depth": 1.545,
+      "triangles": 1962,
+      "meshes": 4,
+      "bytes": 130676,
+      "clips": [
+        "Eating",
+        "Walk",
+        "Idle"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Wolf\" by Quaternius",
+      "licence": "CC0"
+    },
+    "xmastree": {
+      "file": "models/xmastree.glb",
+      "height": 1.8,
+      "width": 0.843,
+      "depth": 0.851,
+      "triangles": 16286,
+      "meshes": 19,
+      "bytes": 78300,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Christmas Tree\" by Vice Cooper",
+      "licence": "CC-BY"
+    },
+    "yarn": {
+      "file": "models/yarn.glb",
+      "height": 0.12,
+      "width": 0.222,
+      "depth": 0.211,
+      "triangles": 994,
+      "meshes": 5,
+      "bytes": 11092,
+      "clips": [],
+      "rigged": false,
+      "source": "Poly Pizza — \"Yarn Ball v2\" by sirkitree",
+      "licence": "CC-BY"
+    },
+    "zebra": {
+      "file": "models/zebra.glb",
+      "height": 1.4,
+      "width": 0.507,
+      "depth": 1.828,
+      "triangles": 1354,
+      "meshes": 2,
+      "bytes": 103272,
+      "clips": [
+        "Armature|Idle",
+        "Armature|Walk"
+      ],
+      "rigged": true,
+      "source": "Poly Pizza — \"Zebra\" by Quaternius",
       "licence": "CC0"
     },
     "zebu": {
@@ -1076,16 +2857,58 @@
     }
   },
   "sfx": {
+    "bee.mp3": {
+      "file": "sfx/bee.mp3",
+      "bytes": 20314,
+      "source": "Openverse — \"Bee Buzzing\" by JonCon_Library",
+      "licence": "CC0"
+    },
+    "cat.mp3": {
+      "file": "sfx/cat.mp3",
+      "bytes": 12372,
+      "source": "Openverse — \"Cat meow\" by philsapphire",
+      "licence": "CC0"
+    },
     "cow.mp3": {
       "file": "sfx/cow.mp3",
       "bytes": 24236,
       "source": "Openverse — \"Cow - Moo 5 - 96kHz.wav\" by JarredGibb",
       "licence": "CC0"
     },
+    "crow.mp3": {
+      "file": "sfx/crow.mp3",
+      "bytes": 18433,
+      "source": "Openverse — \"crow CAWS\" by storyofthelie",
+      "licence": "CC0"
+    },
+    "dog.mp3": {
+      "file": "sfx/dog.mp3",
+      "bytes": 18851,
+      "source": "Openverse — \"Dog barks\" by 16FVolejnikovaA",
+      "licence": "CC0"
+    },
+    "donkey.mp3": {
+      "file": "sfx/donkey.mp3",
+      "bytes": 13208,
+      "source": "Openverse — \"Donkey Bray\" by StarNinjas37",
+      "licence": "CC0"
+    },
+    "duck.mp3": {
+      "file": "sfx/duck.mp3",
+      "bytes": 23030,
+      "source": "Openverse — \"Duck Quack - Sound Effect (HD).mp3\" by Tabby+Gus.",
+      "licence": "CC0"
+    },
     "elephant.mp3": {
       "file": "sfx/elephant.mp3",
       "bytes": 16556,
       "source": "Openverse — \"Elephant Trumpets Growls.flac\" by D.jones",
+      "licence": "CC0"
+    },
+    "frog.mp3": {
+      "file": "sfx/frog.mp3",
+      "bytes": 10909,
+      "source": "Openverse — \"Frog croaking sound effect\" by betterchinese",
       "licence": "CC0"
     },
     "goat.mp3": {
@@ -1106,10 +2929,40 @@
       "source": "Openverse — \"Horse\" by poodaddy69",
       "licence": "CC0"
     },
+    "owl.mp3": {
+      "file": "sfx/owl.mp3",
+      "bytes": 36614,
+      "source": "Openverse — \"owl hoot\" by gadzooks",
+      "licence": "CC0"
+    },
+    "parrot.mp3": {
+      "file": "sfx/parrot.mp3",
+      "bytes": 34942,
+      "source": "Openverse — \"polly.mp3\" by Willfree",
+      "licence": "CC0"
+    },
+    "pigeon.mp3": {
+      "file": "sfx/pigeon.mp3",
+      "bytes": 35569,
+      "source": "Openverse — \"pigeon territorial coo.wav\" by 5ro4",
+      "licence": "CC0"
+    },
+    "rooster.mp3": {
+      "file": "sfx/rooster.mp3",
+      "bytes": 27837,
+      "source": "Openverse — \"Rooster crow\" by jsbarrett",
+      "licence": "CC0"
+    },
     "sheep.mp3": {
       "file": "sfx/sheep.mp3",
       "bytes": 6764,
       "source": "Openverse — \"sheep 3.mp3\" by esperar",
+      "licence": "CC0"
+    },
+    "sparrow.mp3": {
+      "file": "sfx/sparrow.mp3",
+      "bytes": 18433,
+      "source": "Openverse — \"White-crowned Sparrow Chirp\" by Zott820",
       "licence": "CC0"
     }
   },

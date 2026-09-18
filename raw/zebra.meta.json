@@ -1,0 +1,14 @@
+{
+  "id": "zebra",
+  "source": "Poly Pizza — \"Zebra\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/iclPBR6SBZ",
+  "targetHeight": 1.4,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Armature|Idle",
+    "Armature|Walk"
+  ]
+}

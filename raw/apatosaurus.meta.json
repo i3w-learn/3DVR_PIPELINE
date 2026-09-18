@@ -1,0 +1,14 @@
+{
+  "id": "apatosaurus",
+  "source": "Poly Pizza — \"Apatosaurus\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/fvo0x8Zk3z",
+  "targetHeight": 5.0,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Armature|Apatosaurus_Idle",
+    "Armature|Apatosaurus_Walk"
+  ]
+}
