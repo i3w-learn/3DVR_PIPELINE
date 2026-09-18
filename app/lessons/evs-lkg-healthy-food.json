@@ -7,8 +7,8 @@
       "id": "r1o1",
       "model": "apple",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "3.0 3.0 3.0",
+      "ring": 0.167,
+      "scale": "2.92 2.92 2.92",
       "name": {
         "en": "Apple",
         "hi": "सेब"
@@ -18,8 +18,8 @@
       "id": "r1o2",
       "model": "burger",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "2.7 2.7 2.7",
+      "ring": 0.167,
+      "scale": "1.94 1.94 1.94",
       "name": {
         "en": "Burger",
         "hi": "बर्गर"
@@ -29,8 +29,8 @@
       "id": "r1o3",
       "model": "carrot",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "1.35 1.35 1.35",
+      "ring": 0.104,
+      "scale": "1.76 1.76 1.76",
       "name": {
         "en": "Carrot",
         "hi": "गाजर"
@@ -40,8 +40,8 @@
       "id": "r1o4",
       "model": "donut",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "2.7 2.7 2.7",
+      "ring": 0.218,
+      "scale": "3.51 3.51 3.51",
       "name": {
         "en": "Donut",
         "hi": "डोनट"
@@ -51,8 +51,8 @@
       "id": "r2o1",
       "model": "fries",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.195,
-      "scale": "2.08 2.08 2.08",
+      "ring": 0.145,
+      "scale": "2.70 2.70 2.70",
       "name": {
         "en": "Fries",
         "hi": "फ्राइज़"
@@ -62,8 +62,9 @@
       "id": "r2o2",
       "model": "banana",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "1.42 1.42 1.42",
+      "ring": 0.218,
+      "rotation": "0 90 0",
+      "scale": "1.85 1.85 1.85",
       "name": {
         "en": "Banana",
         "hi": "केला"
@@ -73,7 +74,7 @@
       "id": "r2o3",
       "model": "sodacan",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.194,
+      "ring": 0.107,
       "scale": "2.25 2.25 2.25",
       "name": {
         "en": "Soda",
@@ -84,8 +85,8 @@
       "id": "r2o4",
       "model": "milk",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "1.35 1.35 1.35",
+      "ring": 0.085,
+      "scale": "1.76 1.76 1.76",
       "name": {
         "en": "Milk",
         "hi": "दूध"
@@ -95,8 +96,8 @@
       "id": "r3o1",
       "model": "tomato",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.195,
-      "scale": "3.38 3.38 3.38",
+      "ring": 0.167,
+      "scale": "2.84 2.84 2.84",
       "name": {
         "en": "Tomato",
         "hi": "टमाटर"
@@ -106,8 +107,8 @@
       "id": "r3o2",
       "model": "candybar",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.195,
-      "scale": "1.93 1.93 1.93",
+      "ring": 0.218,
+      "scale": "2.51 2.51 2.51",
       "name": {
         "en": "Candy",
         "hi": "टॉफ़ी"
@@ -117,8 +118,8 @@
       "id": "r3o3",
       "model": "egg",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "4.5 4.5 4.5",
+      "ring": 0.136,
+      "scale": "4.50 4.50 4.50",
       "name": {
         "en": "Egg",
         "hi": "अंडा"
@@ -128,8 +129,8 @@
       "id": "r3o4",
       "model": "lollipop",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "1.8 1.8 1.8",
+      "ring": 0.108,
+      "scale": "2.34 2.34 2.34",
       "name": {
         "en": "Lollipop",
         "hi": "लॉलीपॉप"

@@ -37,7 +37,10 @@ AFRAME.registerComponent('bar', {
   },
 
   highlightAnchor() {
-    return { object3D: this.el.object3D, radius: this.data.length * 0.62, thickness: 0.05 };
+    // A mark under the middle of it, not a hoop round the whole of it. A ring
+    // big enough to enclose an 80 cm bar is a metre across, and on a table
+    // that came out as a blue disc covering everything else in the lesson.
+    return { object3D: this.el.object3D, radius: Math.min(this.data.length * 0.62, 0.15), thickness: 0.08 };
   },
 });
 

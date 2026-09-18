@@ -8,120 +8,168 @@
       "build": "shape",
       "params": {
         "kind": "circle",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#d9362b"
       },
-      "position": "-0.450 0.520 -0.850"
+      "position": "-0.600 0.520 -0.800",
+      "name": {
+        "en": "Circle",
+        "hi": "गोला"
+      }
     },
     {
       "id": "r1square",
       "build": "shape",
       "params": {
         "kind": "square",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#2f6fb8"
       },
-      "position": "-0.150 0.520 -0.850"
+      "position": "-0.200 0.520 -0.800",
+      "name": {
+        "en": "Square",
+        "hi": "वर्ग"
+      }
     },
     {
       "id": "r1triangle",
       "build": "shape",
       "params": {
         "kind": "triangle",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#f0c52e"
       },
-      "position": "0.150 0.520 -0.850"
+      "position": "0.200 0.520 -0.800",
+      "name": {
+        "en": "Triangle",
+        "hi": "त्रिभुज"
+      }
     },
     {
       "id": "r1star",
       "build": "shape",
       "params": {
         "kind": "star",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#7a3fa0"
       },
-      "position": "0.450 0.520 -0.850"
+      "position": "0.600 0.520 -0.800",
+      "name": {
+        "en": "Star",
+        "hi": "तारा"
+      }
     },
     {
       "id": "r2oval",
       "build": "shape",
       "params": {
         "kind": "oval",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#ef7d1a"
       },
-      "position": "-0.450 0.520 -0.850"
+      "position": "-0.600 0.520 -0.800",
+      "name": {
+        "en": "Oval",
+        "hi": "अंडाकार"
+      }
     },
     {
       "id": "r2rectangle",
       "build": "shape",
       "params": {
         "kind": "rectangle",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#3f9a4a"
       },
-      "position": "-0.150 0.520 -0.850"
+      "position": "-0.200 0.520 -0.800",
+      "name": {
+        "en": "Rectangle",
+        "hi": "आयत"
+      }
     },
     {
       "id": "r2diamond",
       "build": "shape",
       "params": {
         "kind": "diamond",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#ee7fa6"
       },
-      "position": "0.150 0.520 -0.850"
+      "position": "0.200 0.520 -0.800",
+      "name": {
+        "en": "Diamond",
+        "hi": "हीरा"
+      }
     },
     {
       "id": "r2circle",
       "build": "shape",
       "params": {
         "kind": "circle",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#d9362b"
       },
-      "position": "0.450 0.520 -0.850"
+      "position": "0.600 0.520 -0.800",
+      "name": {
+        "en": "Circle",
+        "hi": "गोला"
+      }
     },
     {
       "id": "r3star",
       "build": "shape",
       "params": {
         "kind": "star",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#7a3fa0"
       },
-      "position": "-0.450 0.520 -0.850"
+      "position": "-0.600 0.520 -0.800",
+      "name": {
+        "en": "Star",
+        "hi": "तारा"
+      }
     },
     {
       "id": "r3square",
       "build": "shape",
       "params": {
         "kind": "square",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#2f6fb8"
       },
-      "position": "-0.150 0.520 -0.850"
+      "position": "-0.200 0.520 -0.800",
+      "name": {
+        "en": "Square",
+        "hi": "वर्ग"
+      }
     },
     {
       "id": "r3oval",
       "build": "shape",
       "params": {
         "kind": "oval",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#ef7d1a"
       },
-      "position": "0.150 0.520 -0.850"
+      "position": "0.200 0.520 -0.800",
+      "name": {
+        "en": "Oval",
+        "hi": "अंडाकार"
+      }
     },
     {
       "id": "r3triangle",
       "build": "shape",
       "params": {
         "kind": "triangle",
-        "size": 0.2,
+        "size": 0.28,
         "color": "#f0c52e"
       },
-      "position": "0.450 0.520 -0.850"
+      "position": "0.600 0.520 -0.800",
+      "name": {
+        "en": "Triangle",
+        "hi": "त्रिभुज"
+      }
     }
   ],
   "steps": [

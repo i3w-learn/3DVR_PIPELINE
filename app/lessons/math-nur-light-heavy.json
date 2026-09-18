@@ -9,7 +9,8 @@
       "params": {
         "tilt": 15
       },
-      "position": "0.000 0.520 -0.850"
+      "position": "0.000 0.520 -0.850",
+      "scale": "1.7 1.7 1.7"
     },
     {
       "id": "block",
@@ -17,9 +18,13 @@
       "params": {
         "shape": "block",
         "color": "#7d7468",
-        "size": 0.11
+        "size": 0.18
       },
-      "position": "-0.270 0.696 -0.850"
+      "position": "-0.460 0.818 -0.850",
+      "name": {
+        "en": "Heavy",
+        "hi": "भारी"
+      }
     },
     {
       "id": "feather",
@@ -27,9 +32,13 @@
       "params": {
         "shape": "bead",
         "color": "#f2e9c9",
-        "size": 0.06
+        "size": 0.1
       },
-      "position": "0.270 0.840 -0.850"
+      "position": "0.460 1.065 -0.850",
+      "name": {
+        "en": "Light",
+        "hi": "हल्का"
+      }
     },
     {
       "id": "scaleB",
@@ -37,7 +46,8 @@
       "params": {
         "tilt": 0
       },
-      "position": "0.000 0.520 -0.850"
+      "position": "0.000 0.520 -0.850",
+      "scale": "1.7 1.7 1.7"
     },
     {
       "id": "same1",
@@ -45,9 +55,9 @@
       "params": {
         "shape": "bead",
         "color": "#e4572e",
-        "size": 0.08
+        "size": 0.13
       },
-      "position": "-0.280 0.768 -0.850"
+      "position": "-0.476 0.942 -0.850"
     },
     {
       "id": "same2",
@@ -55,9 +65,9 @@
       "params": {
         "shape": "bead",
         "color": "#e4572e",
-        "size": 0.08
+        "size": 0.13
       },
-      "position": "0.280 0.768 -0.850"
+      "position": "0.476 0.942 -0.850"
     }
   ],
   "steps": [

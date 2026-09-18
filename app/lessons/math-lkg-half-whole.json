@@ -6,9 +6,9 @@
     {
       "id": "apple",
       "model": "apple",
-      "position": "-0.240 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "3.0 3.0 3.0",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.168,
+      "scale": "2.92 2.92 2.92",
       "name": {
         "en": "Whole",
         "hi": "पूरा"
@@ -17,9 +17,9 @@
     {
       "id": "applehalf",
       "model": "applehalf",
-      "position": "0.240 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "3.0 3.0 3.0",
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.168,
+      "scale": "2.92 2.92 2.92",
       "name": {
         "en": "Half",
         "hi": "आधा"
@@ -28,8 +28,8 @@
     {
       "id": "pear",
       "model": "pear",
-      "position": "-0.240 0.520 -0.780",
-      "ring": 0.194,
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.121,
       "scale": "2.45 2.45 2.45",
       "name": {
         "en": "Whole",
@@ -39,8 +39,8 @@
     {
       "id": "pearhalf",
       "model": "pearhalf",
-      "position": "0.240 0.520 -0.780",
-      "ring": 0.194,
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.121,
       "scale": "2.45 2.45 2.45",
       "name": {
         "en": "Half",
@@ -50,8 +50,8 @@
     {
       "id": "coconut",
       "model": "coconut",
-      "position": "-0.240 0.520 -0.780",
-      "ring": 0.195,
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.168,
       "scale": "2.08 2.08 2.08",
       "name": {
         "en": "Whole",
@@ -61,8 +61,8 @@
     {
       "id": "coconuthalf",
       "model": "coconuthalf",
-      "position": "0.240 0.520 -0.780",
-      "ring": 0.195,
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.168,
       "scale": "2.08 2.08 2.08",
       "name": {
         "en": "Half",

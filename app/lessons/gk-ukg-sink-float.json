@@ -17,8 +17,8 @@
       "id": "apple",
       "model": "apple",
       "position": "0.000 0.631 -0.850",
-      "ring": 0.13,
-      "scale": "2.0 2.0 2.0",
+      "ring": 0.115,
+      "scale": "2.00 2.00 2.00",
       "name": {
         "en": "Floats",
         "hi": "तैरता है"
@@ -28,8 +28,8 @@
       "id": "egg",
       "model": "egg",
       "position": "0.000 0.550 -0.850",
-      "ring": 0.086,
-      "scale": "2.0 2.0 2.0",
+      "ring": 0.06,
+      "scale": "2.00 2.00 2.00",
       "name": {
         "en": "Sinks",
         "hi": "डूबता है"
@@ -39,8 +39,8 @@
       "id": "coconut",
       "model": "coconut",
       "position": "0.000 0.595 -0.850",
-      "ring": 0.187,
-      "scale": "2.0 2.0 2.0",
+      "ring": 0.161,
+      "scale": "2.00 2.00 2.00",
       "name": {
         "en": "Floats",
         "hi": "तैरता है"
@@ -50,8 +50,8 @@
       "id": "spoon",
       "model": "spoon",
       "position": "0.000 0.550 -0.850",
-      "ring": 0.23,
-      "scale": "2.0 2.0 2.0",
+      "ring": 0.198,
+      "scale": "2.00 2.00 2.00",
       "name": {
         "en": "Sinks",
         "hi": "डूबता है"

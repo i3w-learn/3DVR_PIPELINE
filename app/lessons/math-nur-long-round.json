@@ -7,8 +7,8 @@
       "id": "r1o1",
       "model": "carrot",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "1.35 1.35 1.35",
+      "ring": 0.104,
+      "scale": "1.76 1.76 1.76",
       "name": {
         "en": "Carrot",
         "hi": "गाजर"
@@ -18,8 +18,8 @@
       "id": "r1o2",
       "model": "orange",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "3.0 3.0 3.0",
+      "ring": 0.167,
+      "scale": "2.96 2.96 2.96",
       "name": {
         "en": "Orange",
         "hi": "संतरा"
@@ -29,8 +29,9 @@
       "id": "r1o3",
       "model": "banana",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "1.42 1.42 1.42",
+      "ring": 0.218,
+      "rotation": "0 90 0",
+      "scale": "1.85 1.85 1.85",
       "name": {
         "en": "Banana",
         "hi": "केला"
@@ -40,8 +41,8 @@
       "id": "r1o4",
       "model": "tomato",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.195,
-      "scale": "3.38 3.38 3.38",
+      "ring": 0.167,
+      "scale": "2.84 2.84 2.84",
       "name": {
         "en": "Tomato",
         "hi": "टमाटर"
@@ -51,8 +52,8 @@
       "id": "r2o1",
       "model": "apple",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "3.0 3.0 3.0",
+      "ring": 0.167,
+      "scale": "2.92 2.92 2.92",
       "name": {
         "en": "Apple",
         "hi": "सेब"
@@ -62,7 +63,7 @@
       "id": "r2o2",
       "model": "corn",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.194,
+      "ring": 0.167,
       "scale": "1.35 1.35 1.35",
       "name": {
         "en": "Corn",
@@ -73,7 +74,7 @@
       "id": "r2o3",
       "model": "watermelon",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.194,
+      "ring": 0.16,
       "scale": "0.96 0.96 0.96",
       "name": {
         "en": "Watermelon",
@@ -84,7 +85,7 @@
       "id": "r2o4",
       "model": "brinjal",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.194,
+      "ring": 0.089,
       "scale": "1.35 1.35 1.35",
       "name": {
         "en": "Brinjal",

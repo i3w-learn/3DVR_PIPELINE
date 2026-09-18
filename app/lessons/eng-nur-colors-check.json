@@ -9,9 +9,13 @@
       "params": {
         "shape": "block",
         "color": "#d9362b",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "-0.405 0.520 -0.850"
+      "position": "-0.570 0.520 -0.800",
+      "name": {
+        "en": "Red",
+        "hi": "लाल"
+      }
     },
     {
       "id": "r1blue",
@@ -19,9 +23,13 @@
       "params": {
         "shape": "block",
         "color": "#2f6fb8",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "-0.135 0.520 -0.850"
+      "position": "-0.190 0.520 -0.800",
+      "name": {
+        "en": "Blue",
+        "hi": "नीला"
+      }
     },
     {
       "id": "r1yellow",
@@ -29,9 +37,13 @@
       "params": {
         "shape": "block",
         "color": "#f0c52e",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "0.135 0.520 -0.850"
+      "position": "0.190 0.520 -0.800",
+      "name": {
+        "en": "Yellow",
+        "hi": "पीला"
+      }
     },
     {
       "id": "r1green",
@@ -39,9 +51,13 @@
       "params": {
         "shape": "block",
         "color": "#3f9a4a",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "0.405 0.520 -0.850"
+      "position": "0.570 0.520 -0.800",
+      "name": {
+        "en": "Green",
+        "hi": "हरा"
+      }
     },
     {
       "id": "r2orange",
@@ -49,9 +65,13 @@
       "params": {
         "shape": "block",
         "color": "#ef7d1a",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "-0.405 0.520 -0.850"
+      "position": "-0.570 0.520 -0.800",
+      "name": {
+        "en": "Orange",
+        "hi": "नारंगी"
+      }
     },
     {
       "id": "r2purple",
@@ -59,9 +79,13 @@
       "params": {
         "shape": "block",
         "color": "#7a3fa0",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "-0.135 0.520 -0.850"
+      "position": "-0.190 0.520 -0.800",
+      "name": {
+        "en": "Purple",
+        "hi": "बैंगनी"
+      }
     },
     {
       "id": "r2pink",
@@ -69,9 +93,13 @@
       "params": {
         "shape": "block",
         "color": "#ee7fa6",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "0.135 0.520 -0.850"
+      "position": "0.190 0.520 -0.800",
+      "name": {
+        "en": "Pink",
+        "hi": "गुलाबी"
+      }
     },
     {
       "id": "r2brown",
@@ -79,9 +107,13 @@
       "params": {
         "shape": "block",
         "color": "#7a4f2c",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "0.405 0.520 -0.850"
+      "position": "0.570 0.520 -0.800",
+      "name": {
+        "en": "Brown",
+        "hi": "भूरा"
+      }
     },
     {
       "id": "r3green",
@@ -89,9 +121,13 @@
       "params": {
         "shape": "block",
         "color": "#3f9a4a",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "-0.405 0.520 -0.850"
+      "position": "-0.570 0.520 -0.800",
+      "name": {
+        "en": "Green",
+        "hi": "हरा"
+      }
     },
     {
       "id": "r3red",
@@ -99,9 +135,13 @@
       "params": {
         "shape": "block",
         "color": "#d9362b",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "-0.135 0.520 -0.850"
+      "position": "-0.190 0.520 -0.800",
+      "name": {
+        "en": "Red",
+        "hi": "लाल"
+      }
     },
     {
       "id": "r3purple",
@@ -109,9 +149,13 @@
       "params": {
         "shape": "block",
         "color": "#7a3fa0",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "0.135 0.520 -0.850"
+      "position": "0.190 0.520 -0.800",
+      "name": {
+        "en": "Purple",
+        "hi": "बैंगनी"
+      }
     },
     {
       "id": "r3yellow",
@@ -119,9 +163,13 @@
       "params": {
         "shape": "block",
         "color": "#f0c52e",
-        "size": 0.15
+        "size": 0.24
       },
-      "position": "0.405 0.520 -0.850"
+      "position": "0.570 0.520 -0.800",
+      "name": {
+        "en": "Yellow",
+        "hi": "पीला"
+      }
     }
   ],
   "steps": [

@@ -7,8 +7,8 @@
       "id": "tomato",
       "model": "tomato",
       "position": "-0.300 0.520 -0.780",
-      "ring": 0.195,
-      "scale": "3.38 3.38 3.38",
+      "ring": 0.167,
+      "scale": "2.84 2.84 2.84",
       "name": {
         "en": "Tomato",
         "hi": "टमाटर"
@@ -32,8 +32,8 @@
       "id": "carrot",
       "model": "carrot",
       "position": "-0.300 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "1.35 1.35 1.35",
+      "ring": 0.104,
+      "scale": "1.76 1.76 1.76",
       "name": {
         "en": "Carrot",
         "hi": "गाजर"
@@ -57,7 +57,7 @@
       "id": "brinjal",
       "model": "brinjal",
       "position": "-0.300 0.520 -0.780",
-      "ring": 0.194,
+      "ring": 0.089,
       "scale": "1.35 1.35 1.35",
       "name": {
         "en": "Brinjal",
@@ -82,7 +82,7 @@
       "id": "corn",
       "model": "corn",
       "position": "-0.300 0.520 -0.780",
-      "ring": 0.194,
+      "ring": 0.167,
       "scale": "1.35 1.35 1.35",
       "name": {
         "en": "Corn",
@@ -107,8 +107,8 @@
       "id": "cabbage",
       "model": "cabbage",
       "position": "-0.300 0.520 -0.780",
-      "ring": 0.195,
-      "scale": "1.59 1.59 1.59",
+      "ring": 0.167,
+      "scale": "1.21 1.21 1.21",
       "name": {
         "en": "Cabbage",
         "hi": "पत्तागोभी"

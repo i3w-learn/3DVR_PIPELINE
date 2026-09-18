@@ -8,54 +8,78 @@
       "build": "stroke",
       "params": {
         "kind": "standing",
-        "size": 0.26
+        "size": 0.34
       },
-      "position": "-0.340 0.520 -0.850"
+      "position": "-0.440 0.520 -0.800",
+      "name": {
+        "en": "Standing",
+        "hi": "खड़ी रेखा"
+      }
     },
     {
       "id": "sleeping",
       "build": "stroke",
       "params": {
         "kind": "sleeping",
-        "size": 0.26
+        "size": 0.34
       },
-      "position": "0.000 0.520 -0.850"
+      "position": "0.000 0.520 -0.800",
+      "name": {
+        "en": "Sleeping",
+        "hi": "लेटी रेखा"
+      }
     },
     {
       "id": "slanting",
       "build": "stroke",
       "params": {
         "kind": "slanting",
-        "size": 0.26
+        "size": 0.34
       },
-      "position": "0.340 0.520 -0.850"
+      "position": "0.440 0.520 -0.800",
+      "name": {
+        "en": "Slanting",
+        "hi": "तिरछी रेखा"
+      }
     },
     {
       "id": "zigzag",
       "build": "stroke",
       "params": {
         "kind": "zigzag",
-        "size": 0.26
+        "size": 0.34
       },
-      "position": "-0.340 0.520 -0.850"
+      "position": "-0.440 0.520 -0.800",
+      "name": {
+        "en": "Zigzag",
+        "hi": "टेढ़ी-मेढ़ी रेखा"
+      }
     },
     {
       "id": "curve",
       "build": "stroke",
       "params": {
         "kind": "curve",
-        "size": 0.26
+        "size": 0.34
       },
-      "position": "0.000 0.520 -0.850"
+      "position": "0.000 0.520 -0.800",
+      "name": {
+        "en": "Curved",
+        "hi": "वक्र रेखा"
+      }
     },
     {
       "id": "wavy",
       "build": "stroke",
       "params": {
         "kind": "wavy",
-        "size": 0.26
+        "size": 0.34
       },
-      "position": "0.340 0.520 -0.850"
+      "position": "0.440 0.520 -0.800",
+      "name": {
+        "en": "Wavy",
+        "hi": "लहरदार रेखा"
+      }
     }
   ],
   "steps": [

@@ -9,7 +9,8 @@
       "params": {
         "tilt": -15
       },
-      "position": "0.000 0.520 -0.850"
+      "position": "0.000 0.520 -0.850",
+      "scale": "1.7 1.7 1.7"
     },
     {
       "id": "light1",
@@ -17,9 +18,9 @@
       "params": {
         "shape": "bead",
         "color": "#f2e9c9",
-        "size": 0.06
+        "size": 0.1
       },
-      "position": "-0.270 0.840 -0.850"
+      "position": "-0.460 1.065 -0.850"
     },
     {
       "id": "heavy1",
@@ -27,9 +28,9 @@
       "params": {
         "shape": "block",
         "color": "#7d7468",
-        "size": 0.11
+        "size": 0.18
       },
-      "position": "0.270 0.696 -0.850"
+      "position": "0.460 0.818 -0.850"
     },
     {
       "id": "scale2",
@@ -37,7 +38,8 @@
       "params": {
         "tilt": 15
       },
-      "position": "0.000 0.520 -0.850"
+      "position": "0.000 0.520 -0.850",
+      "scale": "1.7 1.7 1.7"
     },
     {
       "id": "heavy2",
@@ -45,9 +47,9 @@
       "params": {
         "shape": "block",
         "color": "#5b6f86",
-        "size": 0.12
+        "size": 0.19
       },
-      "position": "-0.270 0.696 -0.850"
+      "position": "-0.460 0.818 -0.850"
     },
     {
       "id": "light2",
@@ -55,9 +57,9 @@
       "params": {
         "shape": "bead",
         "color": "#e2b93b",
-        "size": 0.065
+        "size": 0.105
       },
-      "position": "0.270 0.840 -0.850"
+      "position": "0.460 1.065 -0.850"
     }
   ],
   "steps": [

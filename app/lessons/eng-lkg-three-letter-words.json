@@ -8,222 +8,222 @@
       "build": "glyph",
       "params": {
         "char": "C",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.500 0.520 -0.850"
+      "position": "-0.660 0.520 -0.800"
     },
     {
       "id": "w1l2",
       "build": "glyph",
       "params": {
         "char": "A",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.300 0.520 -0.850"
+      "position": "-0.390 0.520 -0.800"
     },
     {
       "id": "w1l3",
       "build": "glyph",
       "params": {
         "char": "T",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.100 0.520 -0.850"
+      "position": "-0.120 0.520 -0.800"
     },
     {
       "id": "w1",
       "build": "glyph",
       "params": {
         "char": "CAT",
-        "height": 0.2,
+        "height": 0.3,
         "card": "#fdf0d5"
       },
-      "position": "0.420 0.520 -0.850"
+      "position": "0.440 0.520 -0.800"
     },
     {
       "id": "w2l1",
       "build": "glyph",
       "params": {
         "char": "D",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.500 0.520 -0.850"
+      "position": "-0.660 0.520 -0.800"
     },
     {
       "id": "w2l2",
       "build": "glyph",
       "params": {
         "char": "O",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.300 0.520 -0.850"
+      "position": "-0.390 0.520 -0.800"
     },
     {
       "id": "w2l3",
       "build": "glyph",
       "params": {
         "char": "G",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.100 0.520 -0.850"
+      "position": "-0.120 0.520 -0.800"
     },
     {
       "id": "w2",
       "build": "glyph",
       "params": {
         "char": "DOG",
-        "height": 0.2,
+        "height": 0.3,
         "card": "#fdf0d5"
       },
-      "position": "0.420 0.520 -0.850"
+      "position": "0.440 0.520 -0.800"
     },
     {
       "id": "w3l1",
       "build": "glyph",
       "params": {
         "char": "S",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.500 0.520 -0.850"
+      "position": "-0.660 0.520 -0.800"
     },
     {
       "id": "w3l2",
       "build": "glyph",
       "params": {
         "char": "U",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.300 0.520 -0.850"
+      "position": "-0.390 0.520 -0.800"
     },
     {
       "id": "w3l3",
       "build": "glyph",
       "params": {
         "char": "N",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.100 0.520 -0.850"
+      "position": "-0.120 0.520 -0.800"
     },
     {
       "id": "w3",
       "build": "glyph",
       "params": {
         "char": "SUN",
-        "height": 0.2,
+        "height": 0.3,
         "card": "#fdf0d5"
       },
-      "position": "0.420 0.520 -0.850"
+      "position": "0.440 0.520 -0.800"
     },
     {
       "id": "w4l1",
       "build": "glyph",
       "params": {
         "char": "C",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.500 0.520 -0.850"
+      "position": "-0.660 0.520 -0.800"
     },
     {
       "id": "w4l2",
       "build": "glyph",
       "params": {
         "char": "U",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.300 0.520 -0.850"
+      "position": "-0.390 0.520 -0.800"
     },
     {
       "id": "w4l3",
       "build": "glyph",
       "params": {
         "char": "P",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.100 0.520 -0.850"
+      "position": "-0.120 0.520 -0.800"
     },
     {
       "id": "w4",
       "build": "glyph",
       "params": {
         "char": "CUP",
-        "height": 0.2,
+        "height": 0.3,
         "card": "#fdf0d5"
       },
-      "position": "0.420 0.520 -0.850"
+      "position": "0.440 0.520 -0.800"
     },
     {
       "id": "w5l1",
       "build": "glyph",
       "params": {
         "char": "H",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.500 0.520 -0.850"
+      "position": "-0.660 0.520 -0.800"
     },
     {
       "id": "w5l2",
       "build": "glyph",
       "params": {
         "char": "E",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.300 0.520 -0.850"
+      "position": "-0.390 0.520 -0.800"
     },
     {
       "id": "w5l3",
       "build": "glyph",
       "params": {
         "char": "N",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.100 0.520 -0.850"
+      "position": "-0.120 0.520 -0.800"
     },
     {
       "id": "w5",
       "build": "glyph",
       "params": {
         "char": "HEN",
-        "height": 0.2,
+        "height": 0.3,
         "card": "#fdf0d5"
       },
-      "position": "0.420 0.520 -0.850"
+      "position": "0.440 0.520 -0.800"
     },
     {
       "id": "w6l1",
       "build": "glyph",
       "params": {
         "char": "B",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.500 0.520 -0.850"
+      "position": "-0.660 0.520 -0.800"
     },
     {
       "id": "w6l2",
       "build": "glyph",
       "params": {
         "char": "U",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.300 0.520 -0.850"
+      "position": "-0.390 0.520 -0.800"
     },
     {
       "id": "w6l3",
       "build": "glyph",
       "params": {
         "char": "S",
-        "height": 0.16
+        "height": 0.25
       },
-      "position": "-0.100 0.520 -0.850"
+      "position": "-0.120 0.520 -0.800"
     },
     {
       "id": "w6",
       "build": "glyph",
       "params": {
         "char": "BUS",
-        "height": 0.2,
+        "height": 0.3,
         "card": "#fdf0d5"
       },
-      "position": "0.420 0.520 -0.850"
+      "position": "0.440 0.520 -0.800"
     }
   ],
   "steps": [

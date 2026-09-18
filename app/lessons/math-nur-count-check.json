@@ -8,180 +8,180 @@
       "build": "glyph",
       "params": {
         "char": "4",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.450 0.520 -0.850"
+      "position": "-0.600 0.520 -0.800"
     },
     {
       "id": "r1n7",
       "build": "glyph",
       "params": {
         "char": "7",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.150 0.520 -0.850"
+      "position": "-0.200 0.520 -0.800"
     },
     {
       "id": "r1n2",
       "build": "glyph",
       "params": {
         "char": "2",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.150 0.520 -0.850"
+      "position": "0.200 0.520 -0.800"
     },
     {
       "id": "r1n9",
       "build": "glyph",
       "params": {
         "char": "9",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.450 0.520 -0.850"
+      "position": "0.600 0.520 -0.800"
     },
     {
       "id": "r2n12",
       "build": "glyph",
       "params": {
         "char": "12",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.450 0.520 -0.850"
+      "position": "-0.600 0.520 -0.800"
     },
     {
       "id": "r2n18",
       "build": "glyph",
       "params": {
         "char": "18",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.150 0.520 -0.850"
+      "position": "-0.200 0.520 -0.800"
     },
     {
       "id": "r2n15",
       "build": "glyph",
       "params": {
         "char": "15",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.150 0.520 -0.850"
+      "position": "0.200 0.520 -0.800"
     },
     {
       "id": "r2n11",
       "build": "glyph",
       "params": {
         "char": "11",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.450 0.520 -0.850"
+      "position": "0.600 0.520 -0.800"
     },
     {
       "id": "r3n34",
       "build": "glyph",
       "params": {
         "char": "34",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.450 0.520 -0.850"
+      "position": "-0.600 0.520 -0.800"
     },
     {
       "id": "r3n43",
       "build": "glyph",
       "params": {
         "char": "43",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.150 0.520 -0.850"
+      "position": "-0.200 0.520 -0.800"
     },
     {
       "id": "r3n40",
       "build": "glyph",
       "params": {
         "char": "40",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.150 0.520 -0.850"
+      "position": "0.200 0.520 -0.800"
     },
     {
       "id": "r3n30",
       "build": "glyph",
       "params": {
         "char": "30",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.450 0.520 -0.850"
+      "position": "0.600 0.520 -0.800"
     },
     {
       "id": "r4n68",
       "build": "glyph",
       "params": {
         "char": "68",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.450 0.520 -0.850"
+      "position": "-0.600 0.520 -0.800"
     },
     {
       "id": "r4n86",
       "build": "glyph",
       "params": {
         "char": "86",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.150 0.520 -0.850"
+      "position": "-0.200 0.520 -0.800"
     },
     {
       "id": "r4n60",
       "build": "glyph",
       "params": {
         "char": "60",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.150 0.520 -0.850"
+      "position": "0.200 0.520 -0.800"
     },
     {
       "id": "r4n80",
       "build": "glyph",
       "params": {
         "char": "80",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.450 0.520 -0.850"
+      "position": "0.600 0.520 -0.800"
     },
     {
       "id": "r5n100",
       "build": "glyph",
       "params": {
         "char": "100",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.450 0.520 -0.850"
+      "position": "-0.600 0.520 -0.800"
     },
     {
       "id": "r5n10",
       "build": "glyph",
       "params": {
         "char": "10",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "-0.150 0.520 -0.850"
+      "position": "-0.200 0.520 -0.800"
     },
     {
       "id": "r5n90",
       "build": "glyph",
       "params": {
         "char": "90",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.150 0.520 -0.850"
+      "position": "0.200 0.520 -0.800"
     },
     {
       "id": "r5n99",
       "build": "glyph",
       "params": {
         "char": "99",
-        "height": 0.2
+        "height": 0.3
       },
-      "position": "0.450 0.520 -0.850"
+      "position": "0.600 0.520 -0.800"
     }
   ],
   "steps": [

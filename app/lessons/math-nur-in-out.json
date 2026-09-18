@@ -7,15 +7,15 @@
       "id": "pot",
       "model": "pot",
       "position": "-0.280 0.520 -0.780",
-      "ring": 0.311,
-      "scale": "1.8 1.8 1.8"
+      "ring": 0.268,
+      "scale": "1.80 1.80 1.80"
     },
     {
       "id": "inside",
       "model": "apple",
       "position": "-0.280 0.570 -0.780",
-      "ring": 0.117,
-      "scale": "1.8 1.8 1.8",
+      "ring": 0.103,
+      "scale": "1.80 1.80 1.80",
       "name": {
         "en": "In",
         "hi": "अंदर"
@@ -25,8 +25,8 @@
       "id": "outside",
       "model": "apple",
       "position": "0.300 0.520 -0.780",
-      "ring": 0.117,
-      "scale": "1.8 1.8 1.8",
+      "ring": 0.103,
+      "scale": "1.80 1.80 1.80",
       "name": {
         "en": "Out",
         "hi": "बाहर"

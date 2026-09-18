@@ -7,8 +7,8 @@
       "id": "apple",
       "model": "apple",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "3.0 3.0 3.0",
+      "ring": 0.167,
+      "scale": "2.92 2.92 2.92",
       "name": {
         "en": "Apple",
         "hi": "सेब"
@@ -18,8 +18,9 @@
       "id": "banana",
       "model": "banana",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "1.42 1.42 1.42",
+      "ring": 0.218,
+      "rotation": "0 90 0",
+      "scale": "1.85 1.85 1.85",
       "name": {
         "en": "Banana",
         "hi": "केला"
@@ -29,8 +30,8 @@
       "id": "orange",
       "model": "orange",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "3.0 3.0 3.0",
+      "ring": 0.167,
+      "scale": "2.96 2.96 2.96",
       "name": {
         "en": "Orange",
         "hi": "संतरा"
@@ -40,8 +41,8 @@
       "id": "grapes",
       "model": "grapes",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "1.8 1.8 1.8",
+      "ring": 0.11,
+      "scale": "1.80 1.80 1.80",
       "name": {
         "en": "Grapes",
         "hi": "अंगूर"
@@ -51,7 +52,7 @@
       "id": "pear",
       "model": "pear",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.194,
+      "ring": 0.121,
       "scale": "2.45 2.45 2.45",
       "name": {
         "en": "Pear",
@@ -62,7 +63,7 @@
       "id": "pineapple",
       "model": "pineapple",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.194,
+      "ring": 0.087,
       "scale": "0.96 0.96 0.96",
       "name": {
         "en": "Pineapple",
@@ -73,8 +74,8 @@
       "id": "strawberry",
       "model": "strawberry",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.194,
-      "scale": "4.5 4.5 4.5",
+      "ring": 0.11,
+      "scale": "4.50 4.50 4.50",
       "name": {
         "en": "Strawberry",
         "hi": "स्ट्रॉबेरी"
@@ -84,7 +85,7 @@
       "id": "watermelon",
       "model": "watermelon",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.194,
+      "ring": 0.16,
       "scale": "0.96 0.96 0.96",
       "name": {
         "en": "Watermelon",

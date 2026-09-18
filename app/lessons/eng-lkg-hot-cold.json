@@ -6,9 +6,9 @@
     {
       "id": "tea",
       "model": "teacup",
-      "position": "-0.500 0.520 -0.780",
-      "ring": 0.195,
-      "scale": "3.38 3.38 3.38",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.167,
+      "scale": "2.31 2.31 2.31",
       "name": {
         "en": "Hot",
         "hi": "गरम"
@@ -17,8 +17,8 @@
     {
       "id": "ice",
       "model": "icecream",
-      "position": "-0.170 0.520 -0.780",
-      "ring": 0.195,
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.098,
       "scale": "1.69 1.69 1.69",
       "name": {
         "en": "Cold",
@@ -28,9 +28,9 @@
     {
       "id": "hotpot",
       "model": "pot",
-      "position": "0.200 0.520 -0.780",
-      "ring": 0.195,
-      "scale": "1.13 1.13 1.13",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.218,
+      "scale": "1.46 1.46 1.46",
       "name": {
         "en": "Hot",
         "hi": "गरम"
@@ -39,9 +39,9 @@
     {
       "id": "lolly",
       "model": "popsicle",
-      "position": "0.550 0.520 -0.780",
-      "ring": 0.195,
-      "scale": "1.93 1.93 1.93",
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.08,
+      "scale": "2.51 2.51 2.51",
       "name": {
         "en": "Cold",
         "hi": "ठंडा"
