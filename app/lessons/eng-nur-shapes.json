@@ -1,0 +1,199 @@
+{
+  "id": "eng-nur-shapes",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "circle",
+      "build": "shape",
+      "params": {
+        "kind": "circle",
+        "size": 0.2,
+        "color": "#d9362b"
+      },
+      "position": "-0.450 0.520 -0.850"
+    },
+    {
+      "id": "square",
+      "build": "shape",
+      "params": {
+        "kind": "square",
+        "size": 0.2,
+        "color": "#2f6fb8"
+      },
+      "position": "-0.150 0.520 -0.850"
+    },
+    {
+      "id": "triangle",
+      "build": "shape",
+      "params": {
+        "kind": "triangle",
+        "size": 0.2,
+        "color": "#f0c52e"
+      },
+      "position": "0.150 0.520 -0.850"
+    },
+    {
+      "id": "rectangle",
+      "build": "shape",
+      "params": {
+        "kind": "rectangle",
+        "size": 0.2,
+        "color": "#3f9a4a"
+      },
+      "position": "0.450 0.520 -0.850"
+    },
+    {
+      "id": "oval",
+      "build": "shape",
+      "params": {
+        "kind": "oval",
+        "size": 0.2,
+        "color": "#ef7d1a"
+      },
+      "position": "-0.300 0.520 -0.850"
+    },
+    {
+      "id": "star",
+      "build": "shape",
+      "params": {
+        "kind": "star",
+        "size": 0.2,
+        "color": "#7a3fa0"
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "diamond",
+      "build": "shape",
+      "params": {
+        "kind": "diamond",
+        "size": 0.2,
+        "color": "#ee7fa6"
+      },
+      "position": "0.300 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये आकार देखो।",
+        "en": "Look at these shapes."
+      }
+    },
+    {
+      "highlight": "circle",
+      "show": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह गोला है।",
+        "en": "This is a circle."
+      }
+    },
+    {
+      "highlight": "square",
+      "show": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह वर्ग है।",
+        "en": "This is a square."
+      }
+    },
+    {
+      "highlight": "triangle",
+      "show": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह त्रिभुज है।",
+        "en": "This is a triangle."
+      }
+    },
+    {
+      "highlight": "rectangle",
+      "show": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह आयत है।",
+        "en": "This is a rectangle."
+      }
+    },
+    {
+      "show": [
+        "oval",
+        "star",
+        "diamond"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये आकार देखो।",
+        "en": "Look at these shapes."
+      }
+    },
+    {
+      "highlight": "oval",
+      "show": [
+        "oval",
+        "star",
+        "diamond"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह अंडाकार है।",
+        "en": "This is a oval."
+      }
+    },
+    {
+      "highlight": "star",
+      "show": [
+        "oval",
+        "star",
+        "diamond"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह तारा है।",
+        "en": "This is a star."
+      }
+    },
+    {
+      "highlight": "diamond",
+      "show": [
+        "oval",
+        "star",
+        "diamond"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह हीरा है।",
+        "en": "This is a diamond."
+      }
+    }
+  ]
+}

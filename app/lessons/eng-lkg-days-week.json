@@ -1,77 +1,91 @@
 {
   "id": "eng-lkg-days-week",
   "template": "sequence",
-  "stage": "classroom",
+  "stage": "home",
   "objects": [
     {
       "id": "mon",
       "build": "glyph",
       "params": {
         "char": "Mon",
-        "height": 0.18,
-        "card": "#fdf6e6"
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
       },
-      "position": "-1.650 0.000 -2.800"
+      "position": "-2.252 0.000 -1.300",
+      "rotation": "0 60.0 0"
     },
     {
       "id": "tue",
       "build": "glyph",
       "params": {
         "char": "Tue",
-        "height": 0.18,
-        "card": "#fdf6e6"
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
       },
-      "position": "-1.100 0.000 -2.800"
+      "position": "-1.671 0.000 -1.992",
+      "rotation": "0 40.0 0"
     },
     {
       "id": "wed",
       "build": "glyph",
       "params": {
         "char": "Wed",
-        "height": 0.18,
-        "card": "#fdf6e6"
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
       },
-      "position": "-0.550 0.000 -2.800"
+      "position": "-0.889 0.000 -2.443",
+      "rotation": "0 20.0 0"
     },
     {
       "id": "thu",
       "build": "glyph",
       "params": {
         "char": "Thu",
-        "height": 0.18,
-        "card": "#fdf6e6"
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
       },
-      "position": "0.000 0.000 -2.800"
+      "position": "0.000 0.000 -2.600",
+      "rotation": "0 -0.0 0"
     },
     {
       "id": "fri",
       "build": "glyph",
       "params": {
         "char": "Fri",
-        "height": 0.18,
-        "card": "#fdf6e6"
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
       },
-      "position": "0.550 0.000 -2.800"
+      "position": "0.889 0.000 -2.443",
+      "rotation": "0 -20.0 0"
     },
     {
       "id": "sat",
       "build": "glyph",
       "params": {
         "char": "Sat",
-        "height": 0.18,
-        "card": "#fdf6e6"
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
       },
-      "position": "1.100 0.000 -2.800"
+      "position": "1.671 0.000 -1.992",
+      "rotation": "0 -40.0 0"
     },
     {
       "id": "sun",
       "build": "glyph",
       "params": {
         "char": "Sun",
-        "height": 0.18,
-        "card": "#fdf6e6"
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
       },
-      "position": "1.650 0.000 -2.800"
+      "position": "2.252 0.000 -1.300",
+      "rotation": "0 -60.0 0"
     }
   ],
   "steps": [

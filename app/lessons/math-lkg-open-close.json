@@ -1,0 +1,101 @@
+{
+  "id": "math-lkg-open-close",
+  "template": "compare",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "gateshut",
+      "build": "gate",
+      "params": {
+        "width": 4,
+        "height": 1.9,
+        "open": 0,
+        "auto": false
+      },
+      "position": "-3.400 0.000 -8.000"
+    },
+    {
+      "id": "gateopen",
+      "build": "gate",
+      "params": {
+        "width": 4,
+        "height": 1.9,
+        "open": 90,
+        "auto": false
+      },
+      "position": "3.400 0.000 -8.000"
+    },
+    {
+      "id": "doorshut",
+      "build": "door",
+      "params": {
+        "width": 1.7,
+        "height": 2.2,
+        "open": 0
+      },
+      "position": "-3.000 0.000 -7.000"
+    },
+    {
+      "id": "dooropen",
+      "build": "door",
+      "params": {
+        "width": 1.7,
+        "height": 2.2,
+        "open": 1
+      },
+      "position": "3.000 0.000 -7.000"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "gateshut",
+        "gateopen"
+      ],
+      "highlight": "gateshut",
+      "duration": 7000,
+      "script": {
+        "hi": "यह फाटक बंद है। कोई अंदर नहीं जा सकता।",
+        "en": "This gate is closed. Nobody can walk through."
+      }
+    },
+    {
+      "show": [
+        "gateshut",
+        "gateopen"
+      ],
+      "highlight": "gateopen",
+      "against": "gateshut",
+      "duration": 7000,
+      "script": {
+        "hi": "यह फाटक खुला है। अब रास्ता साफ़ है।",
+        "en": "This gate is open. Now the way is clear."
+      }
+    },
+    {
+      "show": [
+        "doorshut",
+        "dooropen"
+      ],
+      "highlight": "doorshut",
+      "duration": 7000,
+      "script": {
+        "hi": "यह दरवाज़ा बंद है।",
+        "en": "This door is closed."
+      }
+    },
+    {
+      "show": [
+        "doorshut",
+        "dooropen"
+      ],
+      "highlight": "dooropen",
+      "against": "doorshut",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह दरवाज़ा खुला है।",
+        "en": "And this door is open."
+      }
+    }
+  ]
+}

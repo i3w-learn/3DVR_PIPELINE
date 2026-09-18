@@ -1,0 +1,393 @@
+{
+  "id": "eng-lkg-three-letter-words",
+  "template": "match",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "w1l1",
+      "build": "glyph",
+      "params": {
+        "char": "C",
+        "height": 0.16
+      },
+      "position": "-0.500 0.520 -0.850"
+    },
+    {
+      "id": "w1l2",
+      "build": "glyph",
+      "params": {
+        "char": "A",
+        "height": 0.16
+      },
+      "position": "-0.300 0.520 -0.850"
+    },
+    {
+      "id": "w1l3",
+      "build": "glyph",
+      "params": {
+        "char": "T",
+        "height": 0.16
+      },
+      "position": "-0.100 0.520 -0.850"
+    },
+    {
+      "id": "w1",
+      "build": "glyph",
+      "params": {
+        "char": "CAT",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w2l1",
+      "build": "glyph",
+      "params": {
+        "char": "D",
+        "height": 0.16
+      },
+      "position": "-0.500 0.520 -0.850"
+    },
+    {
+      "id": "w2l2",
+      "build": "glyph",
+      "params": {
+        "char": "O",
+        "height": 0.16
+      },
+      "position": "-0.300 0.520 -0.850"
+    },
+    {
+      "id": "w2l3",
+      "build": "glyph",
+      "params": {
+        "char": "G",
+        "height": 0.16
+      },
+      "position": "-0.100 0.520 -0.850"
+    },
+    {
+      "id": "w2",
+      "build": "glyph",
+      "params": {
+        "char": "DOG",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w3l1",
+      "build": "glyph",
+      "params": {
+        "char": "S",
+        "height": 0.16
+      },
+      "position": "-0.500 0.520 -0.850"
+    },
+    {
+      "id": "w3l2",
+      "build": "glyph",
+      "params": {
+        "char": "U",
+        "height": 0.16
+      },
+      "position": "-0.300 0.520 -0.850"
+    },
+    {
+      "id": "w3l3",
+      "build": "glyph",
+      "params": {
+        "char": "N",
+        "height": 0.16
+      },
+      "position": "-0.100 0.520 -0.850"
+    },
+    {
+      "id": "w3",
+      "build": "glyph",
+      "params": {
+        "char": "SUN",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w4l1",
+      "build": "glyph",
+      "params": {
+        "char": "C",
+        "height": 0.16
+      },
+      "position": "-0.500 0.520 -0.850"
+    },
+    {
+      "id": "w4l2",
+      "build": "glyph",
+      "params": {
+        "char": "U",
+        "height": 0.16
+      },
+      "position": "-0.300 0.520 -0.850"
+    },
+    {
+      "id": "w4l3",
+      "build": "glyph",
+      "params": {
+        "char": "P",
+        "height": 0.16
+      },
+      "position": "-0.100 0.520 -0.850"
+    },
+    {
+      "id": "w4",
+      "build": "glyph",
+      "params": {
+        "char": "CUP",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w5l1",
+      "build": "glyph",
+      "params": {
+        "char": "H",
+        "height": 0.16
+      },
+      "position": "-0.500 0.520 -0.850"
+    },
+    {
+      "id": "w5l2",
+      "build": "glyph",
+      "params": {
+        "char": "E",
+        "height": 0.16
+      },
+      "position": "-0.300 0.520 -0.850"
+    },
+    {
+      "id": "w5l3",
+      "build": "glyph",
+      "params": {
+        "char": "N",
+        "height": 0.16
+      },
+      "position": "-0.100 0.520 -0.850"
+    },
+    {
+      "id": "w5",
+      "build": "glyph",
+      "params": {
+        "char": "HEN",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    },
+    {
+      "id": "w6l1",
+      "build": "glyph",
+      "params": {
+        "char": "B",
+        "height": 0.16
+      },
+      "position": "-0.500 0.520 -0.850"
+    },
+    {
+      "id": "w6l2",
+      "build": "glyph",
+      "params": {
+        "char": "U",
+        "height": 0.16
+      },
+      "position": "-0.300 0.520 -0.850"
+    },
+    {
+      "id": "w6l3",
+      "build": "glyph",
+      "params": {
+        "char": "S",
+        "height": 0.16
+      },
+      "position": "-0.100 0.520 -0.850"
+    },
+    {
+      "id": "w6",
+      "build": "glyph",
+      "params": {
+        "char": "BUS",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.420 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "w1l1",
+        "w1l2",
+        "w1l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — C, A, T।",
+        "en": "Look: C, A, T."
+      }
+    },
+    {
+      "highlight": "w1",
+      "partner": "w1l1",
+      "show": [
+        "w1l1",
+        "w1l2",
+        "w1l3",
+        "w1"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है CAT — बिल्ली।",
+        "en": "Together they spell CAT — a cat."
+      }
+    },
+    {
+      "show": [
+        "w2l1",
+        "w2l2",
+        "w2l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — D, O, G।",
+        "en": "Look: D, O, G."
+      }
+    },
+    {
+      "highlight": "w2",
+      "partner": "w2l1",
+      "show": [
+        "w2l1",
+        "w2l2",
+        "w2l3",
+        "w2"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है DOG — कुत्ता।",
+        "en": "Together they spell DOG — a dog."
+      }
+    },
+    {
+      "show": [
+        "w3l1",
+        "w3l2",
+        "w3l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — S, U, N।",
+        "en": "Look: S, U, N."
+      }
+    },
+    {
+      "highlight": "w3",
+      "partner": "w3l1",
+      "show": [
+        "w3l1",
+        "w3l2",
+        "w3l3",
+        "w3"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है SUN — सूरज।",
+        "en": "Together they spell SUN — the sun."
+      }
+    },
+    {
+      "show": [
+        "w4l1",
+        "w4l2",
+        "w4l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — C, U, P।",
+        "en": "Look: C, U, P."
+      }
+    },
+    {
+      "highlight": "w4",
+      "partner": "w4l1",
+      "show": [
+        "w4l1",
+        "w4l2",
+        "w4l3",
+        "w4"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है CUP — प्याला।",
+        "en": "Together they spell CUP — a cup."
+      }
+    },
+    {
+      "show": [
+        "w5l1",
+        "w5l2",
+        "w5l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — H, E, N।",
+        "en": "Look: H, E, N."
+      }
+    },
+    {
+      "highlight": "w5",
+      "partner": "w5l1",
+      "show": [
+        "w5l1",
+        "w5l2",
+        "w5l3",
+        "w5"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है HEN — मुर्गी।",
+        "en": "Together they spell HEN — a hen."
+      }
+    },
+    {
+      "show": [
+        "w6l1",
+        "w6l2",
+        "w6l3"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "देखो — B, U, S।",
+        "en": "Look: B, U, S."
+      }
+    },
+    {
+      "highlight": "w6",
+      "partner": "w6l1",
+      "show": [
+        "w6l1",
+        "w6l2",
+        "w6l3",
+        "w6"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "मिलकर बनता है BUS — बस।",
+        "en": "Together they spell BUS — a bus."
+      }
+    }
+  ]
+}

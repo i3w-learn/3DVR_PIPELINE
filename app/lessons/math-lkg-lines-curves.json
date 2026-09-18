@@ -1,0 +1,165 @@
+{
+  "id": "math-lkg-lines-curves",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "standing",
+      "build": "stroke",
+      "params": {
+        "kind": "standing",
+        "size": 0.26
+      },
+      "position": "-0.340 0.520 -0.850"
+    },
+    {
+      "id": "sleeping",
+      "build": "stroke",
+      "params": {
+        "kind": "sleeping",
+        "size": 0.26
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "slanting",
+      "build": "stroke",
+      "params": {
+        "kind": "slanting",
+        "size": 0.26
+      },
+      "position": "0.340 0.520 -0.850"
+    },
+    {
+      "id": "zigzag",
+      "build": "stroke",
+      "params": {
+        "kind": "zigzag",
+        "size": 0.26
+      },
+      "position": "-0.340 0.520 -0.850"
+    },
+    {
+      "id": "curve",
+      "build": "stroke",
+      "params": {
+        "kind": "curve",
+        "size": 0.26
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "wavy",
+      "build": "stroke",
+      "params": {
+        "kind": "wavy",
+        "size": 0.26
+      },
+      "position": "0.340 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "standing",
+        "sleeping",
+        "slanting"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये रेखाएँ देखो।",
+        "en": "Look at these lines."
+      }
+    },
+    {
+      "highlight": "standing",
+      "show": [
+        "standing",
+        "sleeping",
+        "slanting"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह खड़ी रेखा है।",
+        "en": "This is a standing line."
+      }
+    },
+    {
+      "highlight": "sleeping",
+      "show": [
+        "standing",
+        "sleeping",
+        "slanting"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह लेटी रेखा है।",
+        "en": "This is a sleeping line."
+      }
+    },
+    {
+      "highlight": "slanting",
+      "show": [
+        "standing",
+        "sleeping",
+        "slanting"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह तिरछी रेखा है।",
+        "en": "This is a slanting line."
+      }
+    },
+    {
+      "show": [
+        "zigzag",
+        "curve",
+        "wavy"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये रेखाएँ देखो।",
+        "en": "Look at these lines."
+      }
+    },
+    {
+      "highlight": "zigzag",
+      "show": [
+        "zigzag",
+        "curve",
+        "wavy"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह टेढ़ी-मेढ़ी रेखा है।",
+        "en": "This is a zigzag line."
+      }
+    },
+    {
+      "highlight": "curve",
+      "show": [
+        "zigzag",
+        "curve",
+        "wavy"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह वक्र रेखा है।",
+        "en": "This is a curved line."
+      }
+    },
+    {
+      "highlight": "wavy",
+      "show": [
+        "zigzag",
+        "curve",
+        "wavy"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह लहरदार रेखा है।",
+        "en": "This is a wavy line."
+      }
+    }
+  ]
+}

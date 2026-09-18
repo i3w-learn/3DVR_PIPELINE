@@ -1,0 +1,78 @@
+{
+  "id": "evs-nur-rainbow",
+  "template": "sequence",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "rain",
+      "build": "cloud",
+      "params": {
+        "width": 14,
+        "puffs": 8,
+        "rain": true,
+        "seed": 3
+      },
+      "position": "-10.000 13.000 -24.000"
+    },
+    {
+      "id": "sun",
+      "build": "sundisc",
+      "params": {
+        "radius": 2.4
+      },
+      "position": "16.000 15.000 -30.000"
+    },
+    {
+      "id": "bow",
+      "build": "rainbow",
+      "params": {
+        "radius": 30,
+        "band": 1.5,
+        "opacity": 0.6
+      },
+      "position": "0.000 0.000 -46.000"
+    }
+  ],
+  "steps": [
+    {
+      "at": "rain",
+      "duration": 7000,
+      "script": {
+        "hi": "पहले बारिश हुई।",
+        "en": "First, it rained."
+      }
+    },
+    {
+      "at": "sun",
+      "duration": 7000,
+      "script": {
+        "hi": "फिर सूरज निकला।",
+        "en": "Then the sun came out."
+      }
+    },
+    {
+      "at": "bow",
+      "duration": 8000,
+      "script": {
+        "hi": "और देखो — इंद्रधनुष!",
+        "en": "And look — a rainbow!"
+      }
+    },
+    {
+      "at": "bow",
+      "duration": 9000,
+      "script": {
+        "hi": "इसमें सात रंग हैं — लाल, नारंगी, पीला, हरा…",
+        "en": "It has seven colours. From the top: red, orange, yellow, green…"
+      }
+    },
+    {
+      "at": "bow",
+      "duration": 8000,
+      "script": {
+        "hi": "…नीला, जामुनी और बैंगनी।",
+        "en": "…blue, indigo and violet."
+      }
+    }
+  ]
+}

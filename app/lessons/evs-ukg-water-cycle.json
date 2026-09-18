@@ -1,0 +1,89 @@
+{
+  "id": "evs-ukg-water-cycle",
+  "template": "sequence",
+  "stage": "water",
+  "objects": [
+    {
+      "id": "sun",
+      "build": "sundisc",
+      "params": {
+        "radius": 2.6
+      },
+      "position": "-17.000 17.000 -34.000"
+    },
+    {
+      "id": "vapour",
+      "build": "cloud",
+      "params": {
+        "width": 3.2,
+        "puffs": 4,
+        "color": "#f4fafc",
+        "seed": 7
+      },
+      "position": "0.500 3.400 -11.000"
+    },
+    {
+      "id": "cloud",
+      "build": "cloud",
+      "params": {
+        "width": 13,
+        "puffs": 8,
+        "seed": 8
+      },
+      "position": "5.000 13.000 -22.000"
+    },
+    {
+      "id": "rain",
+      "build": "cloud",
+      "params": {
+        "width": 13,
+        "puffs": 8,
+        "rain": true,
+        "seed": 9
+      },
+      "position": "-9.000 12.000 -20.000"
+    }
+  ],
+  "steps": [
+    {
+      "at": "sun",
+      "duration": 7000,
+      "script": {
+        "hi": "सूरज तालाब के पानी को गरम करता है।",
+        "en": "The sun warms the water in the pond."
+      }
+    },
+    {
+      "at": "vapour",
+      "duration": 7500,
+      "script": {
+        "hi": "गरम पानी भाप बनकर ऊपर उठता है।",
+        "en": "The warm water turns into vapour and rises up, up into the sky."
+      }
+    },
+    {
+      "at": "cloud",
+      "duration": 7500,
+      "script": {
+        "hi": "ऊपर ठंडा होकर भाप बादल बन जाती है।",
+        "en": "High up it is cold, and the vapour becomes a cloud."
+      }
+    },
+    {
+      "at": "rain",
+      "duration": 7500,
+      "script": {
+        "hi": "बादल भारी होता है, और बारिश होती है।",
+        "en": "The cloud grows heavy and grey — and down comes the rain."
+      }
+    },
+    {
+      "at": "rain",
+      "duration": 8000,
+      "script": {
+        "hi": "बारिश तालाब को फिर भर देती है। और यह फिर से शुरू होता है।",
+        "en": "The rain fills the pond again. And then it all begins once more."
+      }
+    }
+  ]
+}

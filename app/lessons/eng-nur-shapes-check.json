@@ -1,0 +1,171 @@
+{
+  "id": "eng-nur-shapes-check",
+  "template": "sort",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "r1circle",
+      "build": "shape",
+      "params": {
+        "kind": "circle",
+        "size": 0.2,
+        "color": "#d9362b"
+      },
+      "position": "-0.450 0.520 -0.850"
+    },
+    {
+      "id": "r1square",
+      "build": "shape",
+      "params": {
+        "kind": "square",
+        "size": 0.2,
+        "color": "#2f6fb8"
+      },
+      "position": "-0.150 0.520 -0.850"
+    },
+    {
+      "id": "r1triangle",
+      "build": "shape",
+      "params": {
+        "kind": "triangle",
+        "size": 0.2,
+        "color": "#f0c52e"
+      },
+      "position": "0.150 0.520 -0.850"
+    },
+    {
+      "id": "r1star",
+      "build": "shape",
+      "params": {
+        "kind": "star",
+        "size": 0.2,
+        "color": "#7a3fa0"
+      },
+      "position": "0.450 0.520 -0.850"
+    },
+    {
+      "id": "r2oval",
+      "build": "shape",
+      "params": {
+        "kind": "oval",
+        "size": 0.2,
+        "color": "#ef7d1a"
+      },
+      "position": "-0.450 0.520 -0.850"
+    },
+    {
+      "id": "r2rectangle",
+      "build": "shape",
+      "params": {
+        "kind": "rectangle",
+        "size": 0.2,
+        "color": "#3f9a4a"
+      },
+      "position": "-0.150 0.520 -0.850"
+    },
+    {
+      "id": "r2diamond",
+      "build": "shape",
+      "params": {
+        "kind": "diamond",
+        "size": 0.2,
+        "color": "#ee7fa6"
+      },
+      "position": "0.150 0.520 -0.850"
+    },
+    {
+      "id": "r2circle",
+      "build": "shape",
+      "params": {
+        "kind": "circle",
+        "size": 0.2,
+        "color": "#d9362b"
+      },
+      "position": "0.450 0.520 -0.850"
+    },
+    {
+      "id": "r3star",
+      "build": "shape",
+      "params": {
+        "kind": "star",
+        "size": 0.2,
+        "color": "#7a3fa0"
+      },
+      "position": "-0.450 0.520 -0.850"
+    },
+    {
+      "id": "r3square",
+      "build": "shape",
+      "params": {
+        "kind": "square",
+        "size": 0.2,
+        "color": "#2f6fb8"
+      },
+      "position": "-0.150 0.520 -0.850"
+    },
+    {
+      "id": "r3oval",
+      "build": "shape",
+      "params": {
+        "kind": "oval",
+        "size": 0.2,
+        "color": "#ef7d1a"
+      },
+      "position": "0.150 0.520 -0.850"
+    },
+    {
+      "id": "r3triangle",
+      "build": "shape",
+      "params": {
+        "kind": "triangle",
+        "size": 0.2,
+        "color": "#f0c52e"
+      },
+      "position": "0.450 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "r1circle",
+        "r1square",
+        "r1triangle",
+        "r1star"
+      ],
+      "answer": "r1triangle",
+      "duration": 10000,
+      "script": {
+        "hi": "त्रिभुज कौन सा है? उसे छुओ।",
+        "en": "Which one is the triangle? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r2oval",
+        "r2rectangle",
+        "r2diamond",
+        "r2circle"
+      ],
+      "answer": "r2circle",
+      "duration": 10000,
+      "script": {
+        "hi": "गोला कौन सा है? उसे छुओ।",
+        "en": "Which one is the circle? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r3star",
+        "r3square",
+        "r3oval",
+        "r3triangle"
+      ],
+      "answer": "r3star",
+      "duration": 10000,
+      "script": {
+        "hi": "तारा कौन सा है? उसे छुओ।",
+        "en": "Which one is the star? Touch it."
+      }
+    }
+  ]
+}

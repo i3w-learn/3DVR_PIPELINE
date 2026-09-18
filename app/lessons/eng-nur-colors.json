@@ -1,0 +1,227 @@
+{
+  "id": "eng-nur-colors",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "red",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#d9362b",
+        "size": 0.15
+      },
+      "position": "-0.405 0.520 -0.850"
+    },
+    {
+      "id": "blue",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#2f6fb8",
+        "size": 0.15
+      },
+      "position": "-0.135 0.520 -0.850"
+    },
+    {
+      "id": "yellow",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#f0c52e",
+        "size": 0.15
+      },
+      "position": "0.135 0.520 -0.850"
+    },
+    {
+      "id": "green",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#3f9a4a",
+        "size": 0.15
+      },
+      "position": "0.405 0.520 -0.850"
+    },
+    {
+      "id": "orange",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#ef7d1a",
+        "size": 0.15
+      },
+      "position": "-0.405 0.520 -0.850"
+    },
+    {
+      "id": "purple",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#7a3fa0",
+        "size": 0.15
+      },
+      "position": "-0.135 0.520 -0.850"
+    },
+    {
+      "id": "pink",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#ee7fa6",
+        "size": 0.15
+      },
+      "position": "0.135 0.520 -0.850"
+    },
+    {
+      "id": "brown",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#7a4f2c",
+        "size": 0.15
+      },
+      "position": "0.405 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये रंग देखो।",
+        "en": "Look at these colours."
+      }
+    },
+    {
+      "highlight": "red",
+      "show": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह लाल है।",
+        "en": "This is red."
+      }
+    },
+    {
+      "highlight": "blue",
+      "show": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह नीला है।",
+        "en": "This is blue."
+      }
+    },
+    {
+      "highlight": "yellow",
+      "show": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह पीला है।",
+        "en": "This is yellow."
+      }
+    },
+    {
+      "highlight": "green",
+      "show": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह हरा है।",
+        "en": "This is green."
+      }
+    },
+    {
+      "show": [
+        "orange",
+        "purple",
+        "pink",
+        "brown"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये रंग देखो।",
+        "en": "Look at these colours."
+      }
+    },
+    {
+      "highlight": "orange",
+      "show": [
+        "orange",
+        "purple",
+        "pink",
+        "brown"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह नारंगी है।",
+        "en": "This is orange."
+      }
+    },
+    {
+      "highlight": "purple",
+      "show": [
+        "orange",
+        "purple",
+        "pink",
+        "brown"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह बैंगनी है।",
+        "en": "This is purple."
+      }
+    },
+    {
+      "highlight": "pink",
+      "show": [
+        "orange",
+        "purple",
+        "pink",
+        "brown"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह गुलाबी है।",
+        "en": "This is pink."
+      }
+    },
+    {
+      "highlight": "brown",
+      "show": [
+        "orange",
+        "purple",
+        "pink",
+        "brown"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "यह भूरा है।",
+        "en": "This is brown."
+      }
+    }
+  ]
+}
