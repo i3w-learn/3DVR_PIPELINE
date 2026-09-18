@@ -1,0 +1,81 @@
+{
+  "id": "eng-lkg-in-on-under",
+  "template": "compare",
+  "stage": "classroom",
+  "objects": [
+    {
+      "id": "on",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.3
+      },
+      "position": "2.700 0.760 -5.200"
+    },
+    {
+      "id": "under",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.3
+      },
+      "position": "2.700 0.000 -5.200"
+    },
+    {
+      "id": "tub",
+      "build": "tub",
+      "params": {
+        "radius": 0.42,
+        "height": 0.26
+      },
+      "position": "0.600 0.000 -4.200"
+    },
+    {
+      "id": "in",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e2b93b",
+        "size": 0.3
+      },
+      "position": "0.600 0.060 -4.200"
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "on",
+      "duration": 7000,
+      "script": {
+        "hi": "लाल गेंद मेज़ के ऊपर है।",
+        "en": "The red ball is ON the table."
+      }
+    },
+    {
+      "highlight": "under",
+      "against": "on",
+      "duration": 7000,
+      "script": {
+        "hi": "नीली गेंद मेज़ के नीचे है।",
+        "en": "The blue ball is UNDER the table."
+      }
+    },
+    {
+      "highlight": "in",
+      "against": "tub",
+      "duration": 7000,
+      "script": {
+        "hi": "पीली गेंद टब के अंदर है।",
+        "en": "The yellow ball is IN the tub."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "ऊपर, नीचे, अंदर।",
+        "en": "On. Under. In."
+      }
+    }
+  ]
+}

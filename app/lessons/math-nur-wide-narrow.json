@@ -1,0 +1,50 @@
+{
+  "id": "math-nur-wide-narrow",
+  "template": "compare",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "wide",
+      "build": "path",
+      "params": {
+        "length": 26,
+        "width": 4.2,
+        "kerb": 0.1,
+        "surface": "paving",
+        "repeat": 8
+      },
+      "position": "-3.400 0.000 -15.000"
+    },
+    {
+      "id": "narrow",
+      "build": "path",
+      "params": {
+        "length": 26,
+        "width": 0.9,
+        "kerb": 0.08,
+        "surface": "paving",
+        "repeat": 8
+      },
+      "position": "3.200 0.000 -15.000"
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "wide",
+      "duration": 7000,
+      "script": {
+        "hi": "यह रास्ता चौड़ा है। बस भी निकल जाए।",
+        "en": "This road is wide. A bus could drive along it."
+      }
+    },
+    {
+      "highlight": "narrow",
+      "against": "wide",
+      "duration": 7500,
+      "script": {
+        "hi": "यह रास्ता पतला है। बस एक आदमी चल सकता है।",
+        "en": "This path is narrow. Only one person can walk along it."
+      }
+    }
+  ]
+}

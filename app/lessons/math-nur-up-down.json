@@ -1,0 +1,53 @@
+{
+  "id": "math-nur-up-down",
+  "template": "compare",
+  "stage": "classroom",
+  "objects": [
+    {
+      "id": "up",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.42
+      },
+      "position": "-3.300 1.920 -6.150"
+    },
+    {
+      "id": "down",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.42
+      },
+      "position": "-2.200 0.000 -5.300"
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "up",
+      "duration": 7000,
+      "script": {
+        "hi": "लाल गेंद ऊपर है — अलमारी के ऊपर।",
+        "en": "The red ball is up — on top of the cupboard."
+      }
+    },
+    {
+      "highlight": "down",
+      "against": "up",
+      "duration": 7000,
+      "script": {
+        "hi": "नीली गेंद नीचे है — फ़र्श पर।",
+        "en": "The blue ball is down — on the floor."
+      }
+    },
+    {
+      "duration": 7000,
+      "script": {
+        "hi": "पंखा ऊपर है। चटाई नीचे है।",
+        "en": "Look up — the fan is up. Look down — the mats are down."
+      }
+    }
+  ]
+}

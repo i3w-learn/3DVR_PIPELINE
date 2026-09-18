@@ -1,0 +1,91 @@
+{
+  "id": "math-nur-weight-check",
+  "template": "sort",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "scale1",
+      "build": "balance",
+      "params": {
+        "tilt": -15
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "light1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#f2e9c9",
+        "size": 0.06
+      },
+      "position": "-0.270 0.840 -0.850"
+    },
+    {
+      "id": "heavy1",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#7d7468",
+        "size": 0.11
+      },
+      "position": "0.270 0.696 -0.850"
+    },
+    {
+      "id": "scale2",
+      "build": "balance",
+      "params": {
+        "tilt": 15
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "heavy2",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#5b6f86",
+        "size": 0.12
+      },
+      "position": "-0.270 0.696 -0.850"
+    },
+    {
+      "id": "light2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e2b93b",
+        "size": 0.065
+      },
+      "position": "0.270 0.840 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "scale1",
+        "light1",
+        "heavy1"
+      ],
+      "answer": "heavy1",
+      "duration": 10000,
+      "script": {
+        "hi": "कौन सा भारी है? उसे छुओ।",
+        "en": "Which one is heavier? Touch it."
+      }
+    },
+    {
+      "show": [
+        "scale2",
+        "heavy2",
+        "light2"
+      ],
+      "answer": "light2",
+      "duration": 10000,
+      "script": {
+        "hi": "अब कौन सा हल्का है? उसे छुओ।",
+        "en": "Now, which one is lighter? Touch it."
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "math-nur-long-short",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "along",
+      "build": "bar",
+      "params": {
+        "length": 0.8,
+        "thickness": 0.05,
+        "color": "#e4572e"
+      },
+      "position": "-0.050 0.520 -0.950"
+    },
+    {
+      "id": "ashort",
+      "build": "bar",
+      "params": {
+        "length": 0.3,
+        "thickness": 0.05,
+        "color": "#3d7ea6"
+      },
+      "position": "-0.300 0.520 -0.730"
+    },
+    {
+      "id": "blong",
+      "build": "bar",
+      "params": {
+        "length": 0.95,
+        "thickness": 0.05,
+        "color": "#6a9955"
+      },
+      "position": "0.025 0.520 -0.950"
+    },
+    {
+      "id": "bshort",
+      "build": "bar",
+      "params": {
+        "length": 0.55,
+        "thickness": 0.05,
+        "color": "#e2b93b"
+      },
+      "position": "-0.175 0.520 -0.730"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "along",
+        "ashort"
+      ],
+      "highlight": "along",
+      "duration": 6500,
+      "script": {
+        "hi": "यह छड़ी लंबी है।",
+        "en": "This stick is long."
+      }
+    },
+    {
+      "show": [
+        "along",
+        "ashort"
+      ],
+      "highlight": "ashort",
+      "against": "along",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह छोटी है।",
+        "en": "And this one is short."
+      }
+    },
+    {
+      "show": [
+        "blong",
+        "bshort"
+      ],
+      "highlight": "blong",
+      "against": "bshort",
+      "duration": 7500,
+      "script": {
+        "hi": "इन दोनों में हरी वाली लंबी है।",
+        "en": "Of these two, the green one is longer."
+      }
+    }
+  ]
+}
