@@ -12,9 +12,13 @@
     "content:library": "node tools/build/library.js",
     "content:credits": "node tools/build/credits.js",
     "content:check": "node tools/check/lessons.js",
-    "content:build": "npm run content:fonts && npm run content:library && npm run content:credits && npm run content:lessons && npm run content:check",
+    "content:build": "npm run content:fonts && npm run content:translations && npm run content:audio-names && npm run content:library && npm run content:credits && npm run content:lessons && npm run content:check",
     "serve": "node tools/serve.js",
-    "content:lessons": "node tools/build/lessons.js"
+    "content:lessons": "node tools/build/lessons.js",
+    "content:audio-names": "node tools/build/audio-names.js",
+    "content:narration": "node tools/build/narration.js",
+    "content:translations": "node tools/build/translations.js",
+    "content:timing": "node tools/build/step-timing.js"
   },
   "dependencies": {
     "@gltf-transform/core": "^4.1.0",

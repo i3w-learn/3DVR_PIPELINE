@@ -25,8 +25,10 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { AUDIO_DIR, LESSONS_DIR, relative } from '../lib/paths.js';
+import { findLessons } from '../lib/lessons.js';
+import { AUDIO_DIR, LESSONS_DIR, RAW_DIR, relative } from '../lib/paths.js';
 import { getProvider, providerNames } from '../lib/tts/index.js';
+import { spoken } from '../lib/tts/spoken.js';
 
 async function main() {
   const [lang, ...flags] = process.argv.slice(2);
@@ -61,20 +63,52 @@ async function main() {
     return;
   }
 
-  let written = 0;
+  // What each clip was last made from. A line that has been reworded since is
+  // stale even though its file exists, and a stale clip is the worst kind of
+  // wrong: the tablet says one sentence and the headset says another.
+  const manifestFile = path.join(RAW_DIR, 'audio', `${lang}.json`);
+  const manifest = JSON.parse(await fs.readFile(manifestFile, 'utf8').catch(() => '{}'));
 
-  for (const [file, { text }] of lines) {
+  const todo = [];
+  const unsayable = [];
+
+  for (const [file, { text, where }] of lines) {
     const target = path.join(outDir, file);
+    const say = spoken(text, lang);
 
-    if (!force && (await exists(target))) {
-      console.log(`  · ${file} (already there)`);
-      continue;
+    if (say.leftover.length) unsayable.push(`${file} (${where}): "${text}" — cannot say ${say.leftover.join(' ')}`);
+
+    const current = (await exists(target)) && (manifest[file]?.spoken === say.text || (!manifest[file] && !force));
+    if (current && !force) continue;
+
+    todo.push({ file, target, text: say.text, written: text });
+  }
+
+  if (unsayable.length) {
+    console.warn(`\n${unsayable.length} line(s) contain something the ${lang} voice will skip — add it to tools/lib/tts/spoken-data.js:`);
+    for (const line of unsayable.slice(0, 40)) console.warn(`  ! ${line}`);
+  }
+
+  console.log(`${lines.size} line(s) in ${lang}: ${lines.size - todo.length} up to date, ${todo.length} to speak.`);
+
+  if (todo.length) {
+    if (provider.synthesizeMany) {
+      await provider.synthesizeMany(todo, lang, (done, total) => {
+        if (done % 50 === 0 || done === total) console.log(`  … ${done} / ${total}`);
+      });
+    } else {
+      for (const line of todo) {
+        await provider.synthesize(line.text, lang, line.target);
+        console.log(`  ✓ ${line.file}  "${line.written}"`);
+      }
     }
 
-    await provider.synthesize(text, lang, target);
-    written += 1;
-    console.log(`  ✓ ${file}  "${text}"`);
+    for (const line of todo) manifest[line.file] = { written: line.written, spoken: line.text, provider: providerName };
+    await fs.mkdir(path.dirname(manifestFile), { recursive: true });
+    await fs.writeFile(manifestFile, `${JSON.stringify(sortKeys(manifest), null, 2)}\n`, 'utf8');
   }
+
+  const written = todo.length;
 
   const caveat =
     providerName === 'system'
@@ -98,7 +132,6 @@ async function main() {
  * stopping for, not something to resolve by guessing.
  */
 async function collectLines(lang) {
-  const files = await fs.readdir(LESSONS_DIR).catch(() => []);
   const lines = new Map();
 
   const add = (audio, text, where) => {
@@ -117,9 +150,11 @@ async function collectLines(lang) {
     lines.set(audio, { text, where });
   };
 
-  for (const name of files.filter((f) => f.endsWith('.json'))) {
-    const lesson = JSON.parse(await fs.readFile(path.join(LESSONS_DIR, name), 'utf8'));
-    const id = lesson.id ?? name;
+  // Every lesson, in whatever folder — a demo scene that names audio is a
+  // scene that plays silence if nobody makes it.
+  for (const { id: fileId, file } of await findLessons()) {
+    const lesson = JSON.parse(await fs.readFile(path.join(LESSONS_DIR, file), 'utf8'));
+    const id = lesson.id ?? fileId;
 
     lesson.steps?.forEach((step, i) => add(step.audio, step.script?.[lang], `${id} steps[${i}]`));
     lesson.objects?.forEach((o) => add(o.audio, o.script?.[lang], `${id} "${o.id}"`));
@@ -127,6 +162,8 @@ async function collectLines(lang) {
 
   return lines;
 }
+
+const sortKeys = (object) => Object.fromEntries(Object.entries(object).sort(([a], [b]) => a.localeCompare(b)));
 
 const exists = (file) => fs.access(file).then(() => true).catch(() => false);
 
