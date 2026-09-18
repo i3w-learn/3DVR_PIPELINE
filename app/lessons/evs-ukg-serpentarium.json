@@ -1,0 +1,179 @@
+{
+  "id": "evs-ukg-serpentarium",
+  "template": "match",
+  "stage": "vivarium",
+  "gate": {
+    "signedOff": false,
+    "needs": "fear-response test with real children before release; confirm the teacher's blackout button is within reach throughout"
+  },
+  "objects": [
+    {
+      "id": "tank1",
+      "build": "tank",
+      "params": {
+        "width": 1.8,
+        "height": 1.1,
+        "depth": 1.0,
+        "stand": 0.7
+      },
+      "position": "-3.225 0.000 -4.600",
+      "name": {
+        "en": "Glass",
+        "hi": "शीशा"
+      }
+    },
+    {
+      "id": "cobra",
+      "model": "cobra",
+      "position": "-3.225 0.770 -4.550",
+      "rotation": "0 95 0",
+      "ring": 0.75,
+      "scale": "0.850 0.850 0.850",
+      "name": {
+        "en": "Cobra",
+        "hi": "नाग"
+      }
+    },
+    {
+      "id": "tank2",
+      "build": "tank",
+      "params": {
+        "width": 1.8,
+        "height": 1.1,
+        "depth": 1.0,
+        "stand": 0.7
+      },
+      "position": "-1.075 0.000 -4.600",
+      "name": {
+        "en": "Glass",
+        "hi": "शीशा"
+      }
+    },
+    {
+      "id": "greensnake",
+      "model": "snake",
+      "position": "-1.075 0.770 -4.550",
+      "rotation": "0 73 0",
+      "ring": 0.75,
+      "scale": "1.100 1.100 1.100",
+      "name": {
+        "en": "Snake",
+        "hi": "साँप"
+      }
+    },
+    {
+      "id": "tank3",
+      "build": "tank",
+      "params": {
+        "width": 1.8,
+        "height": 1.1,
+        "depth": 1.0,
+        "stand": 0.7
+      },
+      "position": "1.075 0.000 -4.600",
+      "name": {
+        "en": "Glass",
+        "hi": "शीशा"
+      }
+    },
+    {
+      "id": "lizard",
+      "model": "lizard",
+      "position": "1.075 0.770 -4.550",
+      "rotation": "0 47 0",
+      "ring": 0.75,
+      "scale": "3.200 3.200 3.200",
+      "name": {
+        "en": "Lizard",
+        "hi": "छिपकली"
+      }
+    },
+    {
+      "id": "tank4",
+      "build": "tank",
+      "params": {
+        "width": 1.8,
+        "height": 1.1,
+        "depth": 1.0,
+        "stand": 0.7
+      },
+      "position": "3.225 0.000 -4.600",
+      "name": {
+        "en": "Glass",
+        "hi": "शीशा"
+      }
+    },
+    {
+      "id": "turtle",
+      "model": "turtle",
+      "position": "3.225 0.770 -4.550",
+      "rotation": "0 25 0",
+      "ring": 0.75,
+      "scale": "1.400 1.400 1.400",
+      "name": {
+        "en": "Turtle",
+        "hi": "कछुआ"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "यह सर्प-घर है। यहाँ साँप और दूसरे रेंगने वाले जानवर शीशे के पीछे रहते हैं।",
+        "en": "This is the snake house. Snakes and other reptiles live here, behind glass."
+      }
+    },
+    {
+      "highlight": "tank1",
+      "duration": 9000,
+      "script": {
+        "hi": "शीशा हमें सुरक्षित रखता है। हम सिर्फ़ देखते हैं, शीशे को थपथपाते नहीं।",
+        "en": "The glass keeps us safe. We only look. We do not tap on the glass."
+      }
+    },
+    {
+      "highlight": "cobra",
+      "partner": "tank1",
+      "duration": 9000,
+      "script": {
+        "hi": "यह नाग है। यह अपना फन फैलाता है। नाग ज़हरीला होता है।",
+        "en": "This is a cobra. It spreads its hood. The cobra is poisonous."
+      }
+    },
+    {
+      "highlight": "greensnake",
+      "partner": "tank2",
+      "duration": 9000,
+      "script": {
+        "hi": "यह हरा साँप है। यह पेड़ों पर रहता है।",
+        "en": "This is a green snake. It lives in trees."
+      }
+    },
+    {
+      "highlight": "lizard",
+      "partner": "tank3",
+      "duration": 9000,
+      "script": {
+        "hi": "यह छिपकली है। इसके चार पैर और एक लंबी पूँछ है।",
+        "en": "This is a lizard. It has four legs and a long tail."
+      }
+    },
+    {
+      "highlight": "turtle",
+      "partner": "tank4",
+      "duration": 9000,
+      "script": {
+        "hi": "यह कछुआ है। यह अपने खोल में छिप जाता है।",
+        "en": "This is a turtle. It hides inside its shell."
+      }
+    },
+    {
+      "duration": 10000,
+      "script": {
+        "hi": "अगर बाहर कहीं साँप दिखे — उसे छूना नहीं, पास नहीं जाना। धीरे से दूर हटो और किसी बड़े को बताओ।",
+        "en": "If you ever see a snake outside — do not touch it, do not go near. Move away slowly and tell a grown-up."
+      }
+    }
+  ]
+}

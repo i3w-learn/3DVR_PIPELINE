@@ -1,0 +1,123 @@
+{
+  "id": "evs-ukg-dinosaur-park",
+  "template": "identify",
+  "stage": "dinopark",
+  "gate": {
+    "signedOff": false,
+    "needs": "fear-response test with real children before release — scale of the T-Rex and the Apatosaurus in particular"
+  },
+  "objects": [
+    {
+      "id": "triceratops",
+      "model": "triceratops",
+      "position": "-9.000 0.000 -8.500",
+      "rotation": "0 112 0",
+      "ring": 4.0,
+      "name": {
+        "en": "Triceratops",
+        "hi": "ट्राइसेराटॉप्स"
+      }
+    },
+    {
+      "id": "stegosaurus",
+      "model": "stegosaurus",
+      "position": "9.500 0.000 -9.000",
+      "rotation": "0 -112 0",
+      "ring": 3.93,
+      "name": {
+        "en": "Stegosaurus",
+        "hi": "स्टेगोसॉरस"
+      }
+    },
+    {
+      "id": "parasaur",
+      "model": "parasaur",
+      "position": "-16.000 0.000 -13.500",
+      "rotation": "0 117 0",
+      "ring": 3.68,
+      "name": {
+        "en": "Parasaurolophus",
+        "hi": "पैरासॉरोलोफ़स"
+      }
+    },
+    {
+      "id": "apatosaurus",
+      "model": "apatosaurus",
+      "position": "8.000 0.000 -22.500",
+      "rotation": "0 52 0",
+      "ring": 10.8,
+      "scale": "0.800 0.800 0.800",
+      "name": {
+        "en": "Apatosaurus",
+        "hi": "अपैटोसॉरस"
+      }
+    },
+    {
+      "id": "trex",
+      "model": "trex",
+      "position": "-4.000 0.000 -17.500",
+      "rotation": "0 97 0",
+      "ring": 5.17,
+      "name": {
+        "en": "T-Rex",
+        "hi": "टी-रेक्स"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 10000,
+      "script": {
+        "hi": "यह डायनासोर पार्क है। ये डायनासोर के पुतले हैं — असली नहीं। डायनासोर बहुत, बहुत पहले रहते थे। आज कोई डायनासोर ज़िंदा नहीं है।",
+        "en": "This is the dinosaur park. These are models of dinosaurs — they are not real. Dinosaurs lived a very, very long time ago. No dinosaur is alive today."
+      }
+    },
+    {
+      "highlight": "triceratops",
+      "duration": 9500,
+      "script": {
+        "hi": "यह ट्राइसेराटॉप्स है। इसके तीन सींग थे। यह पौधे खाता था।",
+        "en": "This is Triceratops. It had three horns. It ate plants."
+      }
+    },
+    {
+      "highlight": "stegosaurus",
+      "duration": 9500,
+      "script": {
+        "hi": "यह स्टेगोसॉरस है। इसकी पीठ पर बड़ी-बड़ी प्लेटें थीं।",
+        "en": "This is Stegosaurus. It had big plates along its back."
+      }
+    },
+    {
+      "highlight": "parasaur",
+      "duration": 9500,
+      "script": {
+        "hi": "इस डायनासोर के सिर पर एक लंबी कलगी थी।",
+        "en": "This dinosaur had a long crest on its head."
+      }
+    },
+    {
+      "highlight": "apatosaurus",
+      "duration": 9500,
+      "script": {
+        "hi": "यह अपैटोसॉरस है। इसकी गर्दन बहुत लंबी थी। यह सबसे बड़े डायनासोरों में से एक था।",
+        "en": "This is Apatosaurus. It had a very long neck. It was one of the biggest dinosaurs of all."
+      }
+    },
+    {
+      "highlight": "trex",
+      "duration": 9500,
+      "script": {
+        "hi": "यह टी-रेक्स है। इसके दाँत बहुत बड़े थे। यह दूसरे जानवरों को खाता था।",
+        "en": "This is T-Rex. It had very big teeth. It ate other animals."
+      }
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "हमें डायनासोर के बारे में उनकी हड्डियों से पता चला, जो ज़मीन के नीचे मिलीं।",
+        "en": "We know about dinosaurs from their bones, which were found under the ground."
+      }
+    }
+  ]
+}

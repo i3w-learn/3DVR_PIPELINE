@@ -1,0 +1,60 @@
+{
+  "id": "vivarium",
+  "sky": {
+    "hdri": "field.jpg",
+    "intensity": 0.5
+  },
+  "ground": {
+    "color": "paving_color.jpg",
+    "normal": "paving_normal.jpg",
+    "rough": "paving_rough.jpg",
+    "ao": "paving_ao.jpg",
+    "repeat": 40
+  },
+  "sun": {
+    "position": "5 8 4",
+    "color": "#fff1dc",
+    "intensity": 0.6
+  },
+  "light": {
+    "sky": "#efe9de",
+    "ground": "#b9a98c",
+    "intensity": 1.0
+  },
+  "shadows": false,
+  "start": {
+    "position": "0 1.2 0",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "room",
+      "position": "0 0 -3",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "width": 9,
+        "depth": 8,
+        "height": 2.9,
+        "windows": 0,
+        "doors": "",
+        "wall": "#dfe6e2",
+        "dado": "#b08a5a",
+        "floor": "#a4917a",
+        "trimColor": "#7d5a36"
+      }
+    },
+    {
+      "build": "fan",
+      "position": "0 2.9 -2.4",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "drop": 0.4,
+        "radius": 0.66,
+        "blades": 3,
+        "rpm": 40
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "maidan",
+  "sky": {
+    "hdri": "cloudy.jpg",
+    "intensity": 1.15
+  },
+  "ground": {
+    "color": "grass_color.jpg",
+    "normal": "grass_normal.jpg",
+    "rough": "grass_rough.jpg",
+    "ao": "grass_ao.jpg",
+    "repeat": 38
+  },
+  "sun": {
+    "position": "11 13 -4",
+    "color": "#fff6ea",
+    "intensity": 1.15
+  },
+  "light": {
+    "sky": "#dbe6ee",
+    "ground": "#63704a",
+    "intensity": 0.35
+  },
+  "fog": {
+    "color": "#d3dde4",
+    "near": 30,
+    "far": 115
+  },
+  "shadows": true,
+  "props": [
+    {
+      "build": "grove",
+      "position": "0 0 -10",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 90,
+        "inner": 48,
+        "outer": 105,
+        "arc": 360,
+        "facing": 0,
+        "kind": "round",
+        "height": 10,
+        "leaf": "#3a6a3c",
+        "seed": 83
+      }
+    },
+    {
+      "build": "tree",
+      "position": "13 0 -19",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 9.5,
+        "seed": 16
+      }
+    },
+    {
+      "build": "tree",
+      "position": "-16 0 -23",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 8.6,
+        "seed": 17
+      }
+    }
+  ],
+  "start": {
+    "position": "0 1.2 2",
+    "facing": 0
+  }
+}
