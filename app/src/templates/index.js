@@ -17,6 +17,7 @@ import count from './count.js';
 import explore from './explore.js';
 import identify from './identify.js';
 import match from './match.js';
+import sequence from './sequence.js';
 import sort from './sort.js';
 
 const TEMPLATES = {
@@ -26,7 +27,7 @@ const TEMPLATES = {
   [count.name]: count,
   [match.name]: match,
   [sort.name]: sort,
-  // `sequence` lands here when the tours and life-cycle lessons are built.
+  [sequence.name]: sequence,
 };
 
 export function getTemplate(name) {

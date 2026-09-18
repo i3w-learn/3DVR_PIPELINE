@@ -28,9 +28,9 @@ export const BUDGET = {
  * Only implemented ones belong here. `sequence` was listed before it was
  * written, which meant a lesson could name it, pass validation, and then throw
  * "Unknown template" on a headset — exactly the class of failure this file
- * exists to catch on a laptop. It goes back in the day it is built.
+ * exists to catch on a laptop. It is written now, so it is back.
  */
-export const TEMPLATES = ['identify', 'explore', 'compare', 'count', 'match', 'sort'];
+export const TEMPLATES = ['identify', 'explore', 'compare', 'count', 'match', 'sort', 'sequence'];
 
 /** A-Frame vec3 strings: "x y z", decimals and negatives allowed. */
 const VEC3 = /^-?\d+(\.\d+)?( -?\d+(\.\d+)?){2}$/;
@@ -107,14 +107,15 @@ export const RULES = [
 
       // Every way a step can point at something. `compare` names its second
       // object with `against`, `match` with `partner`, `sort` with `answer`,
-      // and any template may reveal with `show`. A typo in any one of them is
+      // `sequence` names where the chain has reached with `at`, and any
+      // template may reveal with `show`. A typo in any one of them is
       // a step that silently points at nothing — the scene simply does not
       // light up, and there is no way to tell that from a lesson that meant
       // to light up nothing.
       //
       // `explore` steps name none of these: there, a step is an invitation and
       // the child chooses.
-      const POINTERS = ['highlight', 'against', 'partner', 'answer', 'show'];
+      const POINTERS = ['highlight', 'against', 'partner', 'answer', 'at', 'show'];
 
       lesson.steps.forEach((step, i) => {
         for (const field of POINTERS) {
@@ -372,7 +373,7 @@ export const RULES = [
       const used = new Set();
 
       for (const step of lesson.steps) {
-        for (const field of ['highlight', 'against', 'partner', 'answer', 'show']) {
+        for (const field of ['highlight', 'against', 'partner', 'answer', 'at', 'show']) {
           for (const id of [step[field]].flat().filter(Boolean)) used.add(id);
         }
         for (const id of Object.keys(step.visible ?? {})) used.add(id);
