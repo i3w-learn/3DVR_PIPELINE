@@ -92,7 +92,9 @@
       "duration": 5000,
       "script": {
         "hi": "ये रेखाएँ देखो।",
-        "en": "Look at these lines."
+        "en": "Look at these lines.",
+        "mr": "या रेषा बघा.",
+        "or": "ଏହି ରେଖାଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -105,7 +107,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह खड़ी रेखा है।",
-        "en": "This is a standing line."
+        "en": "This is a standing line.",
+        "mr": "ही उभी रेषा आहे.",
+        "or": "ଏହା ଠିଆ ରେଖା।"
       }
     },
     {
@@ -118,7 +122,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह लेटी रेखा है।",
-        "en": "This is a sleeping line."
+        "en": "This is a sleeping line.",
+        "mr": "ही आडवी रेषा आहे.",
+        "or": "ଏହା ଶୋଇଥିବା ରେଖା।"
       }
     },
     {
@@ -131,7 +137,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह तिरछी रेखा है।",
-        "en": "This is a slanting line."
+        "en": "This is a slanting line.",
+        "mr": "ही तिरकी रेषा आहे.",
+        "or": "ଏହା ତେରଛା ରେଖା।"
       }
     },
     {
@@ -143,7 +151,9 @@
       "duration": 5000,
       "script": {
         "hi": "ये रेखाएँ देखो।",
-        "en": "Look at these lines."
+        "en": "Look at these lines.",
+        "mr": "या रेषा बघा.",
+        "or": "ଏହି ରେଖାଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -156,7 +166,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह टेढ़ी-मेढ़ी रेखा है।",
-        "en": "This is a zigzag line."
+        "en": "This is a zigzag line.",
+        "mr": "ही नागमोडी — झिगझॅग रेषा आहे.",
+        "or": "ଏହା ଅଙ୍କାବଙ୍କା ରେଖା।"
       }
     },
     {
@@ -169,7 +181,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह वक्र रेखा है।",
-        "en": "This is a curved line."
+        "en": "This is a curved line.",
+        "mr": "ही वक्र रेषा आहे.",
+        "or": "ଏହା ବକ୍ର ରେଖା।"
       }
     },
     {
@@ -182,7 +196,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह लहरदार रेखा है।",
-        "en": "This is a wavy line."
+        "en": "This is a wavy line.",
+        "mr": "ही लहरी रेषा आहे.",
+        "or": "ଏହା ଢେଉଆ ରେଖା।"
       }
     }
   ]

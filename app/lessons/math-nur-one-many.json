@@ -93,7 +93,9 @@
       "duration": 6000,
       "script": {
         "hi": "यहाँ एक है।",
-        "en": "Here there is one."
+        "en": "Here there is one.",
+        "mr": "इथे एक आहे.",
+        "or": "ଏଠି ଗୋଟିଏ ଅଛି।"
       }
     },
     {
@@ -112,7 +114,9 @@
       "duration": 6000,
       "script": {
         "hi": "और यहाँ बहुत सारे हैं।",
-        "en": "And here there are many."
+        "en": "And here there are many.",
+        "mr": "आणि इथे खूप आहेत.",
+        "or": "ଆଉ ଏଠି ବହୁତ ଅଛି।"
       }
     },
     {
@@ -129,7 +133,9 @@
       "duration": 7000,
       "script": {
         "hi": "एक, और बहुत सारे।",
-        "en": "One — and many."
+        "en": "One — and many.",
+        "mr": "एक — आणि अनेक.",
+        "or": "ଗୋଟିଏ — ଆଉ ଅନେକ।"
       }
     }
   ]

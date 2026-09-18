@@ -149,7 +149,9 @@
       "duration": 6000,
       "script": {
         "hi": "यहाँ 6 हैं।",
-        "en": "Here are 6."
+        "en": "Here are 6.",
+        "mr": "इथे 6 आहेत.",
+        "or": "ଏଠି 6ଟି ଅଛି।"
       }
     },
     {
@@ -167,7 +169,9 @@
       "duration": 6000,
       "script": {
         "hi": "2 बराबर हिस्सों में बाँटो।",
-        "en": "Share them into 2 equal groups."
+        "en": "Share them into 2 equal groups.",
+        "mr": "यांचे 2 समान गट करा.",
+        "or": "ଏଗୁଡ଼ିକୁ 2ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
       }
     },
     {
@@ -185,7 +189,9 @@
       "duration": 6000,
       "script": {
         "hi": "2 बराबर हिस्सों में बाँटो।",
-        "en": "Share them into 2 equal groups."
+        "en": "Share them into 2 equal groups.",
+        "mr": "यांचे 2 समान गट करा.",
+        "or": "ଏଗୁଡ଼ିକୁ 2ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
       }
     },
     {
@@ -202,7 +208,9 @@
       "duration": 7000,
       "script": {
         "hi": "6 ÷ 2 = 3।",
-        "en": "6 ÷ 2 is 3."
+        "en": "6 ÷ 2 is 3.",
+        "mr": "6 ÷ 2 म्हणजे 3.",
+        "or": "6 ÷ 2 ହେଲା 3।"
       }
     },
     {
@@ -225,7 +233,9 @@
       "duration": 6000,
       "script": {
         "hi": "यहाँ 12 हैं।",
-        "en": "Here are 12."
+        "en": "Here are 12.",
+        "mr": "इथे 12 आहेत.",
+        "or": "ଏଠି 12ଟି ଅଛି।"
       }
     },
     {
@@ -249,7 +259,9 @@
       "duration": 6000,
       "script": {
         "hi": "3 बराबर हिस्सों में बाँटो।",
-        "en": "Share them into 3 equal groups."
+        "en": "Share them into 3 equal groups.",
+        "mr": "यांचे 3 समान गट करा.",
+        "or": "ଏଗୁଡ଼ିକୁ 3ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
       }
     },
     {
@@ -273,7 +285,9 @@
       "duration": 6000,
       "script": {
         "hi": "3 बराबर हिस्सों में बाँटो।",
-        "en": "Share them into 3 equal groups."
+        "en": "Share them into 3 equal groups.",
+        "mr": "यांचे 3 समान गट करा.",
+        "or": "ଏଗୁଡ଼ିକୁ 3ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
       }
     },
     {
@@ -297,7 +311,9 @@
       "duration": 6000,
       "script": {
         "hi": "3 बराबर हिस्सों में बाँटो।",
-        "en": "Share them into 3 equal groups."
+        "en": "Share them into 3 equal groups.",
+        "mr": "यांचे 3 समान गट करा.",
+        "or": "ଏଗୁଡ଼ିକୁ 3ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
       }
     },
     {
@@ -320,7 +336,9 @@
       "duration": 7000,
       "script": {
         "hi": "12 ÷ 3 = 4।",
-        "en": "12 ÷ 3 is 4."
+        "en": "12 ÷ 3 is 4.",
+        "mr": "12 ÷ 3 म्हणजे 4.",
+        "or": "12 ÷ 3 ହେଲା 4।"
       }
     }
   ]

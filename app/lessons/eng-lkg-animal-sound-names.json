@@ -109,21 +109,27 @@
       "duration": 9000,
       "script": {
         "hi": "हर आवाज़ का एक नाम होता है।",
-        "en": "Every animal sound has a name."
+        "en": "Every animal sound has a name.",
+        "mr": "प्रत्येक प्राण्याच्या आवाजाला एक नाव असतं.",
+        "or": "ପ୍ରତ୍ୟେକ ପଶୁର ଡାକର ଗୋଟିଏ ନାଁ ଅଛି।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "गाय की आवाज़ — moo. बकरी की — bleat.",
-        "en": "A cow says moo. A goat bleats."
+        "en": "A cow says moo. A goat bleats.",
+        "mr": "गाय हंबरते. शेळी बें बें करते.",
+        "or": "ଗାଈ ହମ୍ବା କରେ। ଛେଳି ମେଁ ମେଁ କରେ।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "घोड़े की — neigh. मुर्गी की — cluck.",
-        "en": "A horse neighs. A hen clucks."
+        "en": "A horse neighs. A hen clucks.",
+        "mr": "घोडा खिंकाळतो. कोंबडी कॉक कॉक करते.",
+        "or": "ଘୋଡ଼ା ହିଁ ହିଁ କରେ। କୁକୁଡ଼ା କକ୍ କକ୍ କରେ।"
       }
     }
   ]

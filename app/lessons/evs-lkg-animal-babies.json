@@ -129,7 +129,9 @@
       "duration": 8000,
       "script": {
         "hi": "हर जानवर का एक बच्चा होता है। चलो देखें किसका बच्चा कौन है।",
-        "en": "Every animal has a baby. Let us see whose baby is whose."
+        "en": "Every animal has a baby. Let us see whose baby is whose.",
+        "mr": "प्रत्येक प्राण्याला पिल्लू असतं. बघूया, कोणाचं पिल्लू कोणतं.",
+        "or": "ପ୍ରତ୍ୟେକ ପଶୁର ଛୁଆ ଥାଏ। ଆସ ଦେଖିବା, କାହାର ଛୁଆ କିଏ।"
       }
     },
     {
@@ -137,7 +139,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह गाय है।",
-        "en": "This is a cow."
+        "en": "This is a cow.",
+        "mr": "ही गाय आहे.",
+        "or": "ଏହା ଏକ ଗାଈ।"
       }
     },
     {
@@ -146,7 +150,9 @@
       "duration": 7500,
       "script": {
         "hi": "और यह उसका बच्चा — बछड़ा।",
-        "en": "And this is her baby — a calf."
+        "en": "And this is her baby — a calf.",
+        "mr": "आणि हे तिचं पिल्लू — वासरू.",
+        "or": "ଆଉ ଏ ତାର ଛୁଆ — ବାଛୁରୀ।"
       }
     },
     {
@@ -154,7 +160,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह भेड़ है।",
-        "en": "This is a sheep."
+        "en": "This is a sheep.",
+        "mr": "ही मेंढी आहे.",
+        "or": "ଏହା ଏକ ମେଣ୍ଢା।"
       }
     },
     {
@@ -163,7 +171,9 @@
       "duration": 7500,
       "script": {
         "hi": "और यह उसका बच्चा — मेमना।",
-        "en": "And this is her baby — a lamb."
+        "en": "And this is her baby — a lamb.",
+        "mr": "आणि हे तिचं पिल्लू — कोकरू.",
+        "or": "ଆଉ ଏ ତାର ଛୁଆ — ମେଣ୍ଢା ଛୁଆ।"
       }
     },
     {
@@ -171,7 +181,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह कुत्ता है।",
-        "en": "This is a dog."
+        "en": "This is a dog.",
+        "mr": "हा कुत्रा आहे.",
+        "or": "ଏହା ଏକ କୁକୁର।"
       }
     },
     {
@@ -180,7 +192,9 @@
       "duration": 7500,
       "script": {
         "hi": "और यह उसका बच्चा — पिल्ला।",
-        "en": "And this is her baby — a puppy."
+        "en": "And this is her baby — a puppy.",
+        "mr": "आणि हे त्याचं पिल्लू — कुत्र्याचं पिल्लू.",
+        "or": "ଆଉ ଏ ତାର ଛୁଆ — କୁକୁର ଛୁଆ।"
       }
     },
     {
@@ -188,7 +202,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह बिल्ली है।",
-        "en": "This is a cat."
+        "en": "This is a cat.",
+        "mr": "हे मांजर आहे.",
+        "or": "ଏହା ଏକ ବିଲେଇ।"
       }
     },
     {
@@ -197,7 +213,9 @@
       "duration": 7500,
       "script": {
         "hi": "और यह उसका बच्चा — बिल्ली का बच्चा।",
-        "en": "And this is her baby — a kitten."
+        "en": "And this is her baby — a kitten.",
+        "mr": "आणि हे तिचं पिल्लू — मांजराचं पिल्लू.",
+        "or": "ଆଉ ଏ ତାର ଛୁଆ — ବିଲେଇ ଛୁଆ।"
       }
     },
     {
@@ -205,7 +223,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह मुर्गी है।",
-        "en": "This is a hen."
+        "en": "This is a hen.",
+        "mr": "ही कोंबडी आहे.",
+        "or": "ଏହା ଏକ କୁକୁଡ଼ା।"
       }
     },
     {
@@ -214,7 +234,9 @@
       "duration": 7500,
       "script": {
         "hi": "और यह उसका बच्चा — चूज़ा।",
-        "en": "And this is her baby — a chick."
+        "en": "And this is her baby — a chick.",
+        "mr": "आणि हे तिचं पिल्लू — कोंबडीचं पिल्लू.",
+        "or": "ଆଉ ଏ ତାର ଛୁଆ — କୁକୁଡ଼ା ଛୁଆ।"
       }
     }
   ]

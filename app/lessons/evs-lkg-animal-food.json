@@ -124,7 +124,9 @@
       "duration": 8000,
       "script": {
         "hi": "सबको भूख लगती है — जानवरों को भी। देखो, कौन क्या खाता है।",
-        "en": "Everybody gets hungry — animals too. Let us see who eats what."
+        "en": "Everybody gets hungry — animals too. Let us see who eats what.",
+        "mr": "सगळ्यांना भूक लागते — प्राण्यांनासुद्धा. बघूया, कोण काय खातं.",
+        "or": "ସମସ୍ତଙ୍କୁ ଭୋକ ଲାଗେ — ପଶୁମାନଙ୍କୁ ମଧ୍ୟ। ଆସ ଦେଖିବା, କିଏ କଣ ଖାଏ।"
       }
     },
     {
@@ -132,7 +134,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह गाय है।",
-        "en": "This is a cow."
+        "en": "This is a cow.",
+        "mr": "ही गाय आहे.",
+        "or": "ଏହା ଏକ ଗାଈ।"
       }
     },
     {
@@ -141,7 +145,9 @@
       "duration": 7500,
       "script": {
         "hi": "गाय घास खाती है।",
-        "en": "The cow eats grass."
+        "en": "The cow eats grass.",
+        "mr": "गाय गवत खाते.",
+        "or": "ଗାଈ ଘାସ ଖାଏ।"
       }
     },
     {
@@ -149,7 +155,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह मुर्गी है।",
-        "en": "This is a hen."
+        "en": "This is a hen.",
+        "mr": "ही कोंबडी आहे.",
+        "or": "ଏହା ଏକ କୁକୁଡ଼ା।"
       }
     },
     {
@@ -158,7 +166,9 @@
       "duration": 7500,
       "script": {
         "hi": "मुर्गी दाना चुगती है।",
-        "en": "The hen pecks at grain."
+        "en": "The hen pecks at grain.",
+        "mr": "कोंबडी दाणे टिपते.",
+        "or": "କୁକୁଡ଼ା ଦାନା ଖୁମ୍ପି ଖାଏ।"
       }
     },
     {
@@ -166,7 +176,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह कुत्ता है।",
-        "en": "This is a dog."
+        "en": "This is a dog.",
+        "mr": "हा कुत्रा आहे.",
+        "or": "ଏହା ଏକ କୁକୁର।"
       }
     },
     {
@@ -175,7 +187,9 @@
       "duration": 7500,
       "script": {
         "hi": "कुत्ता हड्डी चबाता है।",
-        "en": "The dog chews a bone."
+        "en": "The dog chews a bone.",
+        "mr": "कुत्रा हाड चघळतो.",
+        "or": "କୁକୁର ହାଡ଼ ଚୋବାଏ।"
       }
     },
     {
@@ -183,7 +197,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह बिल्ली है।",
-        "en": "This is a cat."
+        "en": "This is a cat.",
+        "mr": "हे मांजर आहे.",
+        "or": "ଏହା ଏକ ବିଲେଇ।"
       }
     },
     {
@@ -192,7 +208,9 @@
       "duration": 7500,
       "script": {
         "hi": "बिल्ली दूध पीती है।",
-        "en": "The cat drinks milk."
+        "en": "The cat drinks milk.",
+        "mr": "मांजर दूध पितं.",
+        "or": "ବିଲେଇ କ୍ଷୀର ପିଏ।"
       }
     },
     {
@@ -200,7 +218,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह बंदर है।",
-        "en": "This is a monkey."
+        "en": "This is a monkey.",
+        "mr": "हे माकड आहे.",
+        "or": "ଏହା ଏକ ମାଙ୍କଡ଼।"
       }
     },
     {
@@ -209,7 +229,9 @@
       "duration": 7500,
       "script": {
         "hi": "बंदर केला खाता है।",
-        "en": "The monkey eats a banana."
+        "en": "The monkey eats a banana.",
+        "mr": "माकड केळं खातं.",
+        "or": "ମାଙ୍କଡ଼ କଦଳୀ ଖାଏ।"
       }
     }
   ]

@@ -88,7 +88,9 @@
       "duration": 8000,
       "script": {
         "hi": "फूल पौधों पर खिलते हैं। हर फूल का अपना रंग और अपनी ख़ुशबू होती है।",
-        "en": "Flowers bloom on plants. Every flower has its own colour and its own smell."
+        "en": "Flowers bloom on plants. Every flower has its own colour and its own smell.",
+        "mr": "फुलं झाडांवर उमलतात. प्रत्येक फुलाचा स्वतःचा रंग आणि स्वतःचा सुगंध असतो.",
+        "or": "ଫୁଲ ଗଛରେ ଫୁଟେ। ପ୍ରତ୍ୟେକ ଫୁଲର ନିଜର ରଙ୍ଗ ଆଉ ନିଜର ବାସନା ଥାଏ।"
       }
     },
     {
@@ -101,7 +103,9 @@
       "duration": 8500,
       "script": {
         "hi": "यह गुलाब है। गुलाब में काँटे होते हैं। इसकी ख़ुशबू बहुत अच्छी है।",
-        "en": "This is a rose. The rose has thorns. It smells lovely."
+        "en": "This is a rose. The rose has thorns. It smells lovely.",
+        "mr": "हा गुलाब आहे. गुलाबाला काटे असतात. त्याचा सुगंध खूप छान असतो.",
+        "or": "ଏହା ଏକ ଗୋଲାପ। ଗୋଲାପରେ କଣ୍ଟା ଥାଏ। ଏହାର ବାସନା ବହୁତ ଭଲ।"
       }
     },
     {
@@ -114,7 +118,9 @@
       "duration": 8500,
       "script": {
         "hi": "यह सूरजमुखी है। यह सूरज की तरफ़ मुँह करता है।",
-        "en": "This is a sunflower. It turns its face to the sun."
+        "en": "This is a sunflower. It turns its face to the sun.",
+        "mr": "हे सूर्यफूल आहे. ते सूर्याकडे तोंड करतं.",
+        "or": "ଏହା ଏକ ସୂର୍ଯ୍ୟମୁଖୀ। ଏହା ସୂର୍ଯ୍ୟ ଆଡ଼କୁ ମୁହଁ କରେ।"
       }
     },
     {
@@ -127,7 +133,9 @@
       "duration": 8500,
       "script": {
         "hi": "यह गेंदा है। गेंदे की माला बनती है।",
-        "en": "This is a marigold. We make garlands from marigolds."
+        "en": "This is a marigold. We make garlands from marigolds.",
+        "mr": "हा झेंडू आहे. झेंडूच्या फुलांचे हार बनवतात.",
+        "or": "ଏହା ଏକ ଗେଣ୍ଡୁ ଫୁଲ। ଗେଣ୍ଡୁ ଫୁଲରେ ମାଳ ଗୁନ୍ଥାଯାଏ।"
       }
     },
     {
@@ -140,7 +148,9 @@
       "duration": 8500,
       "script": {
         "hi": "यह कमल है। कमल पानी में खिलता है। यह हमारा राष्ट्रीय फूल है।",
-        "en": "This is a lotus. The lotus grows in water. It is our national flower."
+        "en": "This is a lotus. The lotus grows in water. It is our national flower.",
+        "mr": "हे कमळ आहे. कमळ पाण्यात उमलतं. ते आपलं राष्ट्रीय फूल आहे.",
+        "or": "ଏହା ଏକ ପଦ୍ମ। ପଦ୍ମ ପାଣିରେ ଫୁଟେ। ଏହା ଆମର ଜାତୀୟ ଫୁଲ।"
       }
     },
     {
@@ -153,7 +163,9 @@
       "duration": 8500,
       "script": {
         "hi": "यह गुड़हल है। इसका रंग गहरा लाल है।",
-        "en": "This is a hibiscus. It is deep red."
+        "en": "This is a hibiscus. It is deep red.",
+        "mr": "हे जास्वंद आहे. त्याचा रंग गडद लाल असतो.",
+        "or": "ଏହା ଏକ ମନ୍ଦାର ଫୁଲ। ଏହାର ରଙ୍ଗ ଗାଢ଼ ନାଲି।"
       }
     },
     {
@@ -166,7 +178,9 @@
       "duration": 8500,
       "script": {
         "hi": "यह चमेली है। ये छोटे सफ़ेद फूल बहुत महकते हैं।",
-        "en": "This is jasmine. These little white flowers smell very sweet."
+        "en": "This is jasmine. These little white flowers smell very sweet.",
+        "mr": "ही जाई आहे. ही छोटी पांढरी फुलं खूप सुगंधी असतात.",
+        "or": "ଏହା ମଲ୍ଲୀ ଫୁଲ। ଏହି ଛୋଟ ଧଳା ଫୁଲଗୁଡ଼ିକ ବହୁତ ମହକେ।"
       }
     },
     {
@@ -178,7 +192,9 @@
       "duration": 8000,
       "script": {
         "hi": "फूल पौधे पर ही सुंदर लगते हैं। हम उन्हें बेवजह नहीं तोड़ते।",
-        "en": "Flowers look best on the plant. We do not pluck them for no reason."
+        "en": "Flowers look best on the plant. We do not pluck them for no reason.",
+        "mr": "फुलं झाडावरच सुंदर दिसतात. आपण ती उगाच तोडत नाही.",
+        "or": "ଫୁଲ ଗଛରେ ହିଁ ସୁନ୍ଦର ଦିଶେ। ଆମେ ବିନା କାରଣରେ ଫୁଲ ତୋଳୁ ନାହିଁ।"
       }
     }
   ]

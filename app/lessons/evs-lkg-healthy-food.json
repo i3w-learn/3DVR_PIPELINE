@@ -152,7 +152,9 @@
       "duration": 12000,
       "script": {
         "hi": "इनमें से सेहतमंद खाना कौन सा है? उसे छुओ।",
-        "en": "Which of these is healthy food? Touch it."
+        "en": "Which of these is healthy food? Touch it.",
+        "mr": "यांपैकी पौष्टिक अन्न कोणतं? त्याला स्पर्श करा.",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ସ୍ୱାସ୍ଥ୍ୟକର ଖାଦ୍ୟ? ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -169,7 +171,9 @@
       "duration": 12000,
       "script": {
         "hi": "इनमें से सेहतमंद खाना कौन सा है? उसे छुओ।",
-        "en": "Which of these is healthy food? Touch it."
+        "en": "Which of these is healthy food? Touch it.",
+        "mr": "यांपैकी पौष्टिक अन्न कोणतं? त्याला स्पर्श करा.",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ସ୍ୱାସ୍ଥ୍ୟକର ଖାଦ୍ୟ? ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -186,7 +190,9 @@
       "duration": 12000,
       "script": {
         "hi": "इनमें से सेहतमंद खाना कौन सा है? उसे छुओ।",
-        "en": "Which of these is healthy food? Touch it."
+        "en": "Which of these is healthy food? Touch it.",
+        "mr": "यांपैकी पौष्टिक अन्न कोणतं? त्याला स्पर्श करा.",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ସ୍ୱାସ୍ଥ୍ୟକର ଖାଦ୍ୟ? ତାକୁ ଛୁଅଁ।"
       }
     }
   ]

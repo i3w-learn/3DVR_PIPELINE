@@ -113,7 +113,9 @@
       "duration": 8000,
       "script": {
         "hi": "जानवर हमें बहुत कुछ देते हैं। देखो, कौन क्या देता है।",
-        "en": "Animals give us many things. Let us see who gives us what."
+        "en": "Animals give us many things. Let us see who gives us what.",
+        "mr": "प्राणी आपल्याला खूप काही देतात. बघूया, कोण काय देतं.",
+        "or": "ପଶୁମାନେ ଆମକୁ ବହୁତ କିଛି ଦିଅନ୍ତି। ଆସ ଦେଖିବା, କିଏ କଣ ଦିଏ।"
       }
     },
     {
@@ -121,7 +123,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह गाय है।",
-        "en": "This is a cow."
+        "en": "This is a cow.",
+        "mr": "ही गाय आहे.",
+        "or": "ଏହା ଏକ ଗାଈ।"
       }
     },
     {
@@ -130,7 +134,9 @@
       "duration": 7500,
       "script": {
         "hi": "गाय हमें दूध देती है।",
-        "en": "The cow gives us milk."
+        "en": "The cow gives us milk.",
+        "mr": "गाय आपल्याला दूध देते.",
+        "or": "ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ।"
       }
     },
     {
@@ -138,7 +144,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह मुर्गी है।",
-        "en": "This is a hen."
+        "en": "This is a hen.",
+        "mr": "ही कोंबडी आहे.",
+        "or": "ଏହା ଏକ କୁକୁଡ଼ା।"
       }
     },
     {
@@ -147,7 +155,9 @@
       "duration": 7500,
       "script": {
         "hi": "मुर्गी हमें अंडे देती है।",
-        "en": "The hen gives us eggs."
+        "en": "The hen gives us eggs.",
+        "mr": "कोंबडी आपल्याला अंडी देते.",
+        "or": "କୁକୁଡ଼ା ଆମକୁ ଅଣ୍ଡା ଦିଏ।"
       }
     },
     {
@@ -155,7 +165,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह भेड़ है।",
-        "en": "This is a sheep."
+        "en": "This is a sheep.",
+        "mr": "ही मेंढी आहे.",
+        "or": "ଏହା ଏକ ମେଣ୍ଢା।"
       }
     },
     {
@@ -164,7 +176,9 @@
       "duration": 7500,
       "script": {
         "hi": "भेड़ हमें ऊन देती है। ऊन से स्वेटर बनता है।",
-        "en": "The sheep gives us wool. Wool makes our sweaters."
+        "en": "The sheep gives us wool. Wool makes our sweaters.",
+        "mr": "मेंढी आपल्याला लोकर देते. लोकरीपासून स्वेटर बनतो.",
+        "or": "ମେଣ୍ଢା ଆମକୁ ପଶମ ଦିଏ। ପଶମରୁ ସ୍ୱେଟର ତିଆରି ହୁଏ।"
       }
     },
     {
@@ -172,7 +186,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह मधुमक्खी है।",
-        "en": "This is a bee."
+        "en": "This is a bee.",
+        "mr": "ही मधमाशी आहे.",
+        "or": "ଏହା ଏକ ମହୁମାଛି।"
       }
     },
     {
@@ -181,7 +197,9 @@
       "duration": 7000,
       "script": {
         "hi": "मधुमक्खी फूलों से रस लेती है।",
-        "en": "The bee collects nectar from flowers."
+        "en": "The bee collects nectar from flowers.",
+        "mr": "मधमाशी फुलांमधून मकरंद गोळा करते.",
+        "or": "ମହୁମାଛି ଫୁଲରୁ ରସ ସଂଗ୍ରହ କରେ।"
       }
     },
     {
@@ -190,7 +208,9 @@
       "duration": 7500,
       "script": {
         "hi": "मधुमक्खी हमें शहद देती है।",
-        "en": "The bee gives us honey."
+        "en": "The bee gives us honey.",
+        "mr": "मधमाशी आपल्याला मध देते.",
+        "or": "ମହୁମାଛି ଆମକୁ ମହୁ ଦିଏ।"
       }
     }
   ]

@@ -70,7 +70,9 @@
       "duration": 9000,
       "script": {
         "hi": "नमस्ते! मेरा नाम मीना है। मैं चार साल की हूँ। मैं एक लड़की हूँ।",
-        "en": "Hello! My name is Meena. I am four years old. I am a girl."
+        "en": "Hello! My name is Meena. I am four years old. I am a girl.",
+        "mr": "नमस्कार! माझं नाव मीना. मी चार वर्षांची आहे. मी मुलगी आहे.",
+        "or": "ନମସ୍କାର! ମୋ ନାଁ ମୀନା। ମୋତେ ଚାରି ବର୍ଷ। ମୁଁ ଜଣେ ଝିଅ।"
       }
     },
     {
@@ -78,7 +80,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह मेरी माँ हैं।",
-        "en": "This is my mother."
+        "en": "This is my mother.",
+        "mr": "ही माझी आई आहे.",
+        "or": "ଏ ମୋ ମାଆ।"
       }
     },
     {
@@ -86,7 +90,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह मेरे पिता हैं।",
-        "en": "This is my father."
+        "en": "This is my father.",
+        "mr": "हे माझे बाबा आहेत.",
+        "or": "ଏ ମୋ ବାପା।"
       }
     },
     {
@@ -94,14 +100,18 @@
       "duration": 8000,
       "script": {
         "hi": "यह मेरा भाई राजू है।",
-        "en": "This is my brother, Raju."
+        "en": "This is my brother, Raju.",
+        "mr": "हा माझा भाऊ राजू आहे.",
+        "or": "ଏ ମୋ ଭାଇ ରାଜୁ।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "यह मेरा घर है। मैं अपने परिवार के साथ यहाँ रहती हूँ।",
-        "en": "This is my home. I live here with my family."
+        "en": "This is my home. I live here with my family.",
+        "mr": "हे माझं घर आहे. मी माझ्या कुटुंबासोबत इथे राहते.",
+        "or": "ଏହା ମୋ ଘର। ମୁଁ ମୋ ପରିବାର ସହ ଏଠାରେ ରହେ।"
       }
     },
     {
@@ -109,7 +119,9 @@
       "duration": 10000,
       "script": {
         "hi": "अब तुम बताओ — तुम्हारा नाम क्या है? तुम कितने साल के हो?",
-        "en": "Now you tell us — what is your name? How old are you?"
+        "en": "Now you tell us — what is your name? How old are you?",
+        "mr": "आता तुम्ही सांगा — तुमचं नाव काय? तुम्ही किती वर्षांचे आहात?",
+        "or": "ଏବେ ତୁମେ କୁହ — ତୁମ ନାଁ କଣ? ତୁମକୁ କେତେ ବର୍ଷ?"
       }
     }
   ]

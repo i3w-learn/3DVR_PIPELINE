@@ -81,7 +81,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह तराज़ू है। इससे पता चलता है क्या भारी है।",
-        "en": "This is a balance. It tells us which thing is heavier."
+        "en": "This is a balance. It tells us which thing is heavier.",
+        "mr": "हा तराजू आहे. कोणती वस्तू जड आहे ते हा सांगतो.",
+        "or": "ଏହା ତରାଜୁ। କେଉଁ ଜିନିଷ ଓଜନିଆ ତାହା ଏହା କହେ।"
       }
     },
     {
@@ -95,7 +97,9 @@
       "duration": 7500,
       "script": {
         "hi": "पत्थर भारी है — उसकी तरफ़ नीचे चली गई।",
-        "en": "The stone is heavy — its side has gone down."
+        "en": "The stone is heavy — its side has gone down.",
+        "mr": "दगड जड आहे — त्याची बाजू खाली गेली.",
+        "or": "ପଥର ଓଜନିଆ — ତାର ପଟ ତଳକୁ ଗଲା।"
       }
     },
     {
@@ -109,7 +113,9 @@
       "duration": 7000,
       "script": {
         "hi": "रुई हल्की है — उसकी तरफ़ ऊपर है।",
-        "en": "The cotton is light — its side has gone up."
+        "en": "The cotton is light — its side has gone up.",
+        "mr": "कापूस हलका आहे — त्याची बाजू वर गेली.",
+        "or": "ତୁଳା ହାଲୁକା — ତାର ପଟ ଉପରକୁ ଗଲା।"
       }
     },
     {
@@ -123,7 +129,9 @@
       "duration": 7500,
       "script": {
         "hi": "दोनों गेंदें बराबर हैं — तराज़ू सीधी है।",
-        "en": "These two balls weigh the same — so the balance stays level."
+        "en": "These two balls weigh the same — so the balance stays level.",
+        "mr": "या दोन्ही चेंडूंचं वजन सारखं आहे — म्हणून तराजू सरळ राहतो.",
+        "or": "ଏହି ଦୁଇଟି ବଲର ଓଜନ ସମାନ — ତେଣୁ ତରାଜୁ ସମାନ ରହେ।"
       }
     }
   ]

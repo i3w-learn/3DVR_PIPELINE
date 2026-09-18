@@ -110,7 +110,9 @@
       "duration": 8000,
       "script": {
         "hi": "ये संगीत के वाद्य यंत्र हैं। इनसे मधुर संगीत निकलता है।",
-        "en": "These are musical instruments. They make sweet music."
+        "en": "These are musical instruments. They make sweet music.",
+        "mr": "ही संगीताची वाद्यं आहेत. यांतून मधुर संगीत निघतं.",
+        "or": "ଏଗୁଡ଼ିକ ବାଦ୍ୟଯନ୍ତ୍ର। ଏଥିରୁ ମଧୁର ସଙ୍ଗୀତ ବାହାରେ।"
       }
     },
     {
@@ -124,7 +126,9 @@
       "duration": 7500,
       "script": {
         "hi": "यह तबला है। इसे हाथों से बजाते हैं।",
-        "en": "This is the tabla. It is played with the hands."
+        "en": "This is the tabla. It is played with the hands.",
+        "mr": "हा तबला आहे. तो हातांनी वाजवतात.",
+        "or": "ଏହା ତବଲା। ଏହାକୁ ହାତରେ ବଜାଯାଏ।"
       }
     },
     {
@@ -138,7 +142,9 @@
       "duration": 7500,
       "script": {
         "hi": "यह ढोलक है। इसे दोनों तरफ़ से बजाते हैं।",
-        "en": "This is the dholak. It is played on both sides."
+        "en": "This is the dholak. It is played on both sides.",
+        "mr": "ही ढोलकी आहे. ती दोन्ही बाजूंनी वाजवतात.",
+        "or": "ଏହା ଢୋଲକ। ଏହାକୁ ଦୁଇ ପଟୁ ବଜାଯାଏ।"
       }
     },
     {
@@ -152,7 +158,9 @@
       "duration": 7500,
       "script": {
         "hi": "यह हारमोनियम है।",
-        "en": "This is the harmonium."
+        "en": "This is the harmonium.",
+        "mr": "ही पेटी — हार्मोनियम आहे.",
+        "or": "ଏହା ହାରମୋନିୟମ।"
       }
     },
     {
@@ -166,7 +174,9 @@
       "duration": 7500,
       "script": {
         "hi": "यह बाँसुरी है। इसमें फूँक मारकर बजाते हैं।",
-        "en": "This is the flute. We blow into it to play."
+        "en": "This is the flute. We blow into it to play.",
+        "mr": "ही बासरी आहे. तिच्यात फुंकर मारून वाजवतात.",
+        "or": "ଏହା ବଂଶୀ। ଏଥିରେ ଫୁଙ୍କି ବଜାଯାଏ।"
       }
     },
     {
@@ -180,7 +190,9 @@
       "duration": 7500,
       "script": {
         "hi": "यह गिटार है। इसके तार छेड़कर बजाते हैं।",
-        "en": "This is the guitar. We pluck its strings."
+        "en": "This is the guitar. We pluck its strings.",
+        "mr": "ही गिटार आहे. तिच्या तारा छेडून वाजवतात.",
+        "or": "ଏହା ଗିଟାର। ଏହାର ତାର ଛୁଇଁ ବଜାଯାଏ।"
       }
     },
     {
@@ -194,7 +206,9 @@
       "duration": 7500,
       "script": {
         "hi": "यह ढोल है। इसे डंडियों से बजाते हैं।",
-        "en": "This is the drum. It is played with sticks."
+        "en": "This is the drum. It is played with sticks.",
+        "mr": "हा ढोल आहे. तो काठ्यांनी वाजवतात.",
+        "or": "ଏହା ଢୋଲ। ଏହାକୁ କାଠିରେ ବଜାଯାଏ।"
       }
     },
     {
@@ -208,7 +222,9 @@
       "duration": 7500,
       "script": {
         "hi": "यह तुरही है।",
-        "en": "This is the trumpet."
+        "en": "This is the trumpet.",
+        "mr": "ही तुतारी आहे.",
+        "or": "ଏହା ତୂରୀ।"
       }
     },
     {
@@ -222,7 +238,9 @@
       "duration": 7500,
       "script": {
         "hi": "यह वायलिन है।",
-        "en": "This is the violin."
+        "en": "This is the violin.",
+        "mr": "हे व्हायोलिन आहे.",
+        "or": "ଏହା ଭାୟୋଲିନ।"
       }
     }
   ]

@@ -48,7 +48,7 @@
       "params": {
         "radius": 0.17,
         "height": 0.14,
-        "opacity": 0.0,
+        "opacity": 0,
         "water": "#4a6f88"
       },
       "position": "0.300 0.520 -0.800",
@@ -97,7 +97,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह कपड़ा अभी धुला है। इससे पानी टपक रहा है। यह गीला है।",
-        "en": "This cloth has just been washed. Water is dripping from it. It is wet."
+        "en": "This cloth has just been washed. Water is dripping from it. It is wet.",
+        "mr": "हे कापड नुकतंच धुतलं आहे. त्यातून पाणी टपकत आहे. ते ओलं आहे.",
+        "or": "ଏହି ଲୁଗା ଏବେ ଧୁଆ ହୋଇଛି। ଏଥିରୁ ପାଣି ଟୋପା ଟୋପା ପଡ଼ୁଛି। ଏହା ଓଦା।"
       }
     },
     {
@@ -110,7 +112,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह कपड़ा धूप में सूख गया। यह सूखा है।",
-        "en": "This cloth has dried in the sun. It is dry."
+        "en": "This cloth has dried in the sun. It is dry.",
+        "mr": "हे कापड उन्हात वाळलं. ते कोरडं आहे.",
+        "or": "ଏହି ଲୁଗା ଖରାରେ ଶୁଖିଗଲା। ଏହା ଶୁଖିଲା।"
       }
     },
     {
@@ -122,7 +126,9 @@
       "duration": 7000,
       "script": {
         "hi": "इस टब में पानी है। यह अंदर से गीला है।",
-        "en": "This tub has water in it. It is wet inside."
+        "en": "This tub has water in it. It is wet inside.",
+        "mr": "या टबात पाणी आहे. तो आतून ओला आहे.",
+        "or": "ଏହି ଟବରେ ପାଣି ଅଛି। ଏହା ଭିତରୁ ଓଦା।"
       }
     },
     {
@@ -135,7 +141,9 @@
       "duration": 7000,
       "script": {
         "hi": "इस टब में पानी नहीं है। यह सूखा है।",
-        "en": "This tub has no water. It is dry."
+        "en": "This tub has no water. It is dry.",
+        "mr": "या टबात पाणी नाही. तो कोरडा आहे.",
+        "or": "ଏହି ଟବରେ ପାଣି ନାହିଁ। ଏହା ଶୁଖିଲା।"
       }
     },
     {
@@ -147,7 +155,9 @@
       "duration": 7000,
       "script": {
         "hi": "बारिश हो रही है। बारिश में सब कुछ गीला हो जाता है।",
-        "en": "It is raining. In the rain, everything gets wet."
+        "en": "It is raining. In the rain, everything gets wet.",
+        "mr": "पाऊस पडतो आहे. पावसात सगळं ओलं होतं.",
+        "or": "ବର୍ଷା ହେଉଛି। ବର୍ଷାରେ ସବୁ କିଛି ଓଦା ହୋଇଯାଏ।"
       }
     },
     {
@@ -160,7 +170,9 @@
       "duration": 7000,
       "script": {
         "hi": "धूप निकली है। धूप में चीज़ें सूख जाती हैं।",
-        "en": "The sun is out. In the sun, things dry."
+        "en": "The sun is out. In the sun, things dry.",
+        "mr": "ऊन पडलं आहे. उन्हात वस्तू वाळतात.",
+        "or": "ଖରା ପଡ଼ିଛି। ଖରାରେ ଜିନିଷ ଶୁଖିଯାଏ।"
       }
     }
   ]

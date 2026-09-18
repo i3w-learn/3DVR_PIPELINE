@@ -13,7 +13,7 @@
         "en": "Our flag",
         "hi": "हमारा झंडा"
       },
-      "ring": 1.0
+      "ring": 1
     },
     {
       "id": "rajasthan",
@@ -118,7 +118,9 @@
       "duration": 9000,
       "script": {
         "hi": "भारत बहुत बड़ा देश है। इसमें अट्ठाईस राज्य हैं। हर राज्य की अपनी ख़ास बात है।",
-        "en": "India is a very big country. It has twenty-eight states. Every state has something special."
+        "en": "India is a very big country. It has twenty-eight states. Every state has something special.",
+        "mr": "भारत खूप मोठा देश आहे. त्यात अठ्ठावीस राज्यं आहेत. प्रत्येक राज्याची काहीतरी खास गोष्ट आहे.",
+        "or": "ଭାରତ ବହୁତ ବଡ଼ ଦେଶ। ଏଥିରେ ଅଠେଇଶଟି ରାଜ୍ୟ ଅଛି। ପ୍ରତ୍ୟେକ ରାଜ୍ୟର କିଛି ଖାସ କଥା ଅଛି।"
       }
     },
     {
@@ -126,7 +128,9 @@
       "duration": 9000,
       "script": {
         "hi": "राजस्थान में रेगिस्तान है। वहाँ ऊँट चलते हैं।",
-        "en": "Rajasthan has a desert. Camels walk there."
+        "en": "Rajasthan has a desert. Camels walk there.",
+        "mr": "राजस्थानात वाळवंट आहे. तिथे उंट चालतात.",
+        "or": "ରାଜସ୍ଥାନରେ ମରୁଭୂମି ଅଛି। ସେଠି ଓଟ ଚାଲନ୍ତି।"
       }
     },
     {
@@ -134,7 +138,9 @@
       "duration": 9000,
       "script": {
         "hi": "गुजरात के गिर जंगल में शेर रहते हैं।",
-        "en": "Lions live in the Gir forest of Gujarat."
+        "en": "Lions live in the Gir forest of Gujarat.",
+        "mr": "गुजरातच्या गीर जंगलात सिंह राहतात.",
+        "or": "ଗୁଜରାଟର ଗିର ଜଙ୍ଗଲରେ ସିଂହ ରହନ୍ତି।"
       }
     },
     {
@@ -142,7 +148,9 @@
       "duration": 9000,
       "script": {
         "hi": "महाराष्ट्र के हापुस आम बहुत मशहूर हैं।",
-        "en": "Maharashtra is famous for its Alphonso mangoes."
+        "en": "Maharashtra is famous for its Alphonso mangoes.",
+        "mr": "महाराष्ट्राचे हापूस आंबे खूप प्रसिद्ध आहेत.",
+        "or": "ମହାରାଷ୍ଟ୍ରର ହାପୁସ ଆମ୍ବ ବହୁତ ପ୍ରସିଦ୍ଧ।"
       }
     },
     {
@@ -150,7 +158,9 @@
       "duration": 9000,
       "script": {
         "hi": "केरल में नारियल के बहुत पेड़ हैं।",
-        "en": "Kerala has many, many coconut trees."
+        "en": "Kerala has many, many coconut trees.",
+        "mr": "केरळमध्ये नारळाची खूप झाडं आहेत.",
+        "or": "କେରଳରେ ବହୁତ ନଡ଼ିଆ ଗଛ ଅଛି।"
       }
     },
     {
@@ -158,7 +168,9 @@
       "duration": 9000,
       "script": {
         "hi": "ओडिशा के समुद्र तट पर हर साल लाखों कछुए आते हैं।",
-        "en": "Every year, lakhs of turtles come to the beaches of Odisha."
+        "en": "Every year, lakhs of turtles come to the beaches of Odisha.",
+        "mr": "ओडिशाच्या समुद्रकिनाऱ्यावर दरवर्षी लाखो कासवं येतात.",
+        "or": "ଓଡ଼ିଶାର ସମୁଦ୍ର କୂଳକୁ ପ୍ରତିବର୍ଷ ଲକ୍ଷ ଲକ୍ଷ କଇଁଛ ଆସନ୍ତି।"
       }
     },
     {
@@ -166,7 +178,9 @@
       "duration": 9000,
       "script": {
         "hi": "पश्चिम बंगाल के सुंदरबन में बाघ रहते हैं।",
-        "en": "Tigers live in the Sundarbans of West Bengal."
+        "en": "Tigers live in the Sundarbans of West Bengal.",
+        "mr": "पश्चिम बंगालच्या सुंदरबनात वाघ राहतात.",
+        "or": "ପଶ୍ଚିମବଙ୍ଗର ସୁନ୍ଦରବନରେ ବାଘ ରହନ୍ତି।"
       }
     },
     {
@@ -174,7 +188,9 @@
       "duration": 9000,
       "script": {
         "hi": "असम में एक सींग वाला गैंडा रहता है।",
-        "en": "The one-horned rhinoceros lives in Assam."
+        "en": "The one-horned rhinoceros lives in Assam.",
+        "mr": "आसाममध्ये एकशिंगी गेंडा राहतो.",
+        "or": "ଆସାମରେ ଏକ ଶିଙ୍ଗିଆ ଗଣ୍ଡା ରହେ।"
       }
     },
     {
@@ -182,14 +198,18 @@
       "duration": 9000,
       "script": {
         "hi": "पंजाब के खेतों में ख़ूब गेहूँ उगता है।",
-        "en": "The fields of Punjab grow lots of wheat."
+        "en": "The fields of Punjab grow lots of wheat.",
+        "mr": "पंजाबच्या शेतांमध्ये खूप गहू पिकतो.",
+        "or": "ପଞ୍ଜାବର କ୍ଷେତରେ ବହୁତ ଗହମ ଫଳେ।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "तुम किस राज्य में रहते हो? अपनी दीदी से पूछो।",
-        "en": "Which state do you live in? Ask your teacher."
+        "en": "Which state do you live in? Ask your teacher.",
+        "mr": "तुम्ही कोणत्या राज्यात राहता? तुमच्या ताईंना विचारा.",
+        "or": "ତୁମେ କେଉଁ ରାଜ୍ୟରେ ରୁହ? ତୁମ ଦିଦିଙ୍କୁ ପଚାର।"
       }
     }
   ]

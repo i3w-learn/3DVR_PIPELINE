@@ -41,8 +41,8 @@
       "build": "housepart",
       "params": {
         "kind": "door",
-        "width": 1.0,
-        "height": 2.0,
+        "width": 1,
+        "height": 2,
         "color": "#7a4a2b",
         "trim": "#4a2c18"
       },
@@ -58,7 +58,7 @@
       "params": {
         "kind": "window",
         "width": 1.2,
-        "height": 1.0,
+        "height": 1,
         "color": "#9cc4dc",
         "trim": "#4a2c18"
       },
@@ -90,7 +90,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह एक घर है। घर के कई हिस्से होते हैं।",
-        "en": "This is a house. A house has many parts."
+        "en": "This is a house. A house has many parts.",
+        "mr": "हे घर आहे. घराचे खूप भाग असतात.",
+        "or": "ଏହା ଏକ ଘର। ଘରର ଅନେକ ଅଂଶ ଥାଏ।"
       }
     },
     {
@@ -98,7 +100,9 @@
       "duration": 7000,
       "script": {
         "hi": "ये दीवारें हैं। ये घर को खड़ा रखती हैं।",
-        "en": "These are the walls. They hold the house up."
+        "en": "These are the walls. They hold the house up.",
+        "mr": "या भिंती आहेत. त्या घराला आधार देतात.",
+        "or": "ଏଗୁଡ଼ିକ କାନ୍ଥ। ସେଗୁଡ଼ିକ ଘରକୁ ଧରି ରଖେ।"
       }
     },
     {
@@ -106,7 +110,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह छत है। यह हमें धूप और बारिश से बचाती है।",
-        "en": "This is the roof. It keeps off the sun and the rain."
+        "en": "This is the roof. It keeps off the sun and the rain.",
+        "mr": "हे छप्पर आहे. ते ऊन आणि पावसापासून वाचवतं.",
+        "or": "ଏହା ଛାତ। ଏହା ଖରା ଓ ବର୍ଷାରୁ ରକ୍ଷା କରେ।"
       }
     },
     {
@@ -114,7 +120,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह दरवाज़ा है। हम इससे अंदर जाते हैं।",
-        "en": "This is the door. We go in through it."
+        "en": "This is the door. We go in through it.",
+        "mr": "हा दरवाजा आहे. यातून आपण आत जातो.",
+        "or": "ଏହା କବାଟ। ଏହା ଦେଇ ଆମେ ଭିତରକୁ ଯାଉ।"
       }
     },
     {
@@ -122,7 +130,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह खिड़की है। इससे हवा और रोशनी आती है।",
-        "en": "This is the window. It lets in air and light."
+        "en": "This is the window. It lets in air and light.",
+        "mr": "ही खिडकी आहे. यातून हवा आणि उजेड आत येतो.",
+        "or": "ଏହା ଝରକା। ଏହା ଦେଇ ପବନ ଓ ଆଲୁଅ ଭିତରକୁ ଆସେ।"
       }
     },
     {
@@ -130,7 +140,9 @@
       "duration": 7000,
       "script": {
         "hi": "और ये सीढ़ियाँ हैं।",
-        "en": "And these are the steps."
+        "en": "And these are the steps.",
+        "mr": "आणि या पायऱ्या आहेत.",
+        "or": "ଆଉ ଏଗୁଡ଼ିକ ପାହାଚ।"
       }
     }
   ]

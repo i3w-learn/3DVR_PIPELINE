@@ -52,7 +52,7 @@
         "en": "Pond",
         "hi": "तालाब"
       },
-      "ring": 3.0
+      "ring": 3
     },
     {
       "id": "deer",
@@ -73,7 +73,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह अप्पू है। अप्पू एक हाथी है। वह जंगल में रहता है।",
-        "en": "This is Appu. Appu is an elephant. He lives in the forest."
+        "en": "This is Appu. Appu is an elephant. He lives in the forest.",
+        "mr": "हा अप्पू आहे. अप्पू एक हत्ती आहे. तो जंगलात राहतो.",
+        "or": "ଏ ହେଉଛି ଅପ୍ପୁ। ଅପ୍ପୁ ଗୋଟିଏ ହାତୀ। ସେ ଜଙ୍ଗଲରେ ରହେ।"
       }
     },
     {
@@ -81,7 +83,9 @@
       "duration": 9000,
       "script": {
         "hi": "एक दिन बहुत गर्मी थी। सूरज तेज़ चमक रहा था। अप्पू को बहुत प्यास लगी।",
-        "en": "One day it was very hot. The sun was shining brightly. Appu was very thirsty."
+        "en": "One day it was very hot. The sun was shining brightly. Appu was very thirsty.",
+        "mr": "एके दिवशी खूप गरम होत होतं. सूर्य प्रखर तळपत होता. अप्पूला खूप तहान लागली.",
+        "or": "ଦିନେ ବହୁତ ଗରମ ହେଉଥିଲା। ସୂର୍ଯ୍ୟ ଖୁବ ଜୋରରେ ଚମକୁଥିଲା। ଅପ୍ପୁକୁ ବହୁତ ଶୋଷ ଲାଗିଲା।"
       }
     },
     {
@@ -89,7 +93,9 @@
       "duration": 9000,
       "script": {
         "hi": "अप्पू ने अपने दोस्त बंदर से पूछा — पानी कहाँ है? बंदर बोला — उस तरफ़ तालाब है!",
-        "en": "Appu asked his friend the monkey — where is the water? The monkey said — the pond is that way!"
+        "en": "Appu asked his friend the monkey — where is the water? The monkey said — the pond is that way!",
+        "mr": "अप्पूने आपल्या मित्राला, माकडाला विचारलं — पाणी कुठे आहे? माकड म्हणालं — तळं त्या बाजूला आहे!",
+        "or": "ଅପ୍ପୁ ତା ସାଙ୍ଗ ମାଙ୍କଡ଼କୁ ପଚାରିଲା — ପାଣି କେଉଁଠି ଅଛି? ମାଙ୍କଡ଼ କହିଲା — ପୋଖରୀ ସେପଟେ ଅଛି!"
       }
     },
     {
@@ -97,7 +103,9 @@
       "duration": 9000,
       "script": {
         "hi": "अप्पू तालाब पर गया। उसने अपनी लंबी सूँड़ से ख़ूब पानी पिया।",
-        "en": "Appu went to the pond. He drank and drank with his long trunk."
+        "en": "Appu went to the pond. He drank and drank with his long trunk.",
+        "mr": "अप्पू तळ्यावर गेला. त्याने आपल्या लांब सोंडेने भरपूर पाणी प्यायलं.",
+        "or": "ଅପ୍ପୁ ପୋଖରୀକୁ ଗଲା। ସେ ନିଜର ଲମ୍ବା ଶୁଣ୍ଢରେ ବହୁତ ପାଣି ପିଇଲା।"
       }
     },
     {
@@ -105,7 +113,9 @@
       "duration": 9000,
       "script": {
         "hi": "हिरण भी प्यासा था। अप्पू ने सूँड़ में पानी भरकर उसे भी पिलाया।",
-        "en": "The deer was thirsty too. Appu filled his trunk and gave him water."
+        "en": "The deer was thirsty too. Appu filled his trunk and gave him water.",
+        "mr": "हरणालाही तहान लागली होती. अप्पूने सोंडेत पाणी भरून त्यालाही पाजलं.",
+        "or": "ହରିଣକୁ ମଧ୍ୟ ଶୋଷ ଲାଗିଥିଲା। ଅପ୍ପୁ ଶୁଣ୍ଢରେ ପାଣି ଭରି ତାକୁ ମଧ୍ୟ ପିଆଇଲା।"
       }
     },
     {
@@ -113,7 +123,9 @@
       "duration": 9000,
       "script": {
         "hi": "अप्पू ख़ुश था। दोस्तों की मदद करना अच्छी बात है।",
-        "en": "Appu was happy. Helping our friends is a good thing to do."
+        "en": "Appu was happy. Helping our friends is a good thing to do.",
+        "mr": "अप्पू खूश झाला. मित्रांना मदत करणं ही चांगली गोष्ट आहे.",
+        "or": "ଅପ୍ପୁ ଖୁସି ହେଲା। ସାଙ୍ଗମାନଙ୍କୁ ସାହାଯ୍ୟ କରିବା ଭଲ କଥା।"
       }
     }
   ]

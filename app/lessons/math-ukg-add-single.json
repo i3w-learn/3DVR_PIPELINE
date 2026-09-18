@@ -128,7 +128,9 @@
       "duration": 6000,
       "script": {
         "hi": "पहले गिनो — 2।",
-        "en": "Count these first — 2."
+        "en": "Count these first — 2.",
+        "mr": "आधी हे मोजा — 2.",
+        "or": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 2।"
       }
     },
     {
@@ -146,7 +148,9 @@
       "duration": 6000,
       "script": {
         "hi": "अब ये गिनो — 3।",
-        "en": "Now count these — 3."
+        "en": "Now count these — 3.",
+        "mr": "आता हे मोजा — 3.",
+        "or": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ — 3।"
       }
     },
     {
@@ -164,7 +168,9 @@
       "duration": 7000,
       "script": {
         "hi": "2 और 3 मिलकर 5।",
-        "en": "2 and 3 together make 5."
+        "en": "2 and 3 together make 5.",
+        "mr": "2 आणि 3 मिळून 5.",
+        "or": "2 ଆଉ 3 ମିଶି 5।"
       }
     },
     {
@@ -180,7 +186,9 @@
       "duration": 6000,
       "script": {
         "hi": "पहले गिनो — 4।",
-        "en": "Count these first — 4."
+        "en": "Count these first — 4.",
+        "mr": "आधी हे मोजा — 4.",
+        "or": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 4।"
       }
     },
     {
@@ -198,7 +206,9 @@
       "duration": 6000,
       "script": {
         "hi": "अब ये गिनो — 1।",
-        "en": "Now count these — 1."
+        "en": "Now count these — 1.",
+        "mr": "आता हे मोजा — 1.",
+        "or": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ — 1।"
       }
     },
     {
@@ -216,7 +226,9 @@
       "duration": 7000,
       "script": {
         "hi": "4 और 1 मिलकर 5।",
-        "en": "4 and 1 together make 5."
+        "en": "4 and 1 together make 5.",
+        "mr": "4 आणि 1 मिळून 5.",
+        "or": "4 ଆଉ 1 ମିଶି 5।"
       }
     },
     {
@@ -231,7 +243,9 @@
       "duration": 6000,
       "script": {
         "hi": "पहले गिनो — 3।",
-        "en": "Count these first — 3."
+        "en": "Count these first — 3.",
+        "mr": "आधी हे मोजा — 3.",
+        "or": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 3।"
       }
     },
     {
@@ -251,7 +265,9 @@
       "duration": 6000,
       "script": {
         "hi": "अब ये गिनो — 4।",
-        "en": "Now count these — 4."
+        "en": "Now count these — 4.",
+        "mr": "आता हे मोजा — 4.",
+        "or": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ — 4।"
       }
     },
     {
@@ -271,7 +287,9 @@
       "duration": 7000,
       "script": {
         "hi": "3 और 4 मिलकर 7।",
-        "en": "3 and 4 together make 7."
+        "en": "3 and 4 together make 7.",
+        "mr": "3 आणि 4 मिळून 7.",
+        "or": "3 ଆଉ 4 ମିଶି 7।"
       }
     }
   ]

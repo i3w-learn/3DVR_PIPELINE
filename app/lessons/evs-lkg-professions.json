@@ -141,7 +141,9 @@
       "duration": 8000,
       "script": {
         "hi": "हर कोई अपना काम करता है, और हर काम का अपना औज़ार होता है।",
-        "en": "Everybody has a job to do, and every job has its own tools."
+        "en": "Everybody has a job to do, and every job has its own tools.",
+        "mr": "प्रत्येकजण आपलं काम करतो, आणि प्रत्येक कामाचं स्वतःचं साधन असतं.",
+        "or": "ସମସ୍ତେ ନିଜ ନିଜ କାମ କରନ୍ତି, ଆଉ ପ୍ରତ୍ୟେକ କାମର ନିଜର ଉପକରଣ ଥାଏ।"
       }
     },
     {
@@ -149,7 +151,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह डॉक्टर हैं।",
-        "en": "This is a doctor."
+        "en": "This is a doctor.",
+        "mr": "हे डॉक्टर आहेत.",
+        "or": "ଏ ଜଣେ ଡାକ୍ତର।"
       }
     },
     {
@@ -158,7 +162,9 @@
       "duration": 8000,
       "script": {
         "hi": "डॉक्टर स्टेथोस्कोप से हमारी धड़कन सुनते हैं।",
-        "en": "The doctor listens to our heartbeat with a stethoscope."
+        "en": "The doctor listens to our heartbeat with a stethoscope.",
+        "mr": "डॉक्टर स्टेथोस्कोपने आपल्या हृदयाचे ठोके ऐकतात.",
+        "or": "ଡାକ୍ତର ଷ୍ଟେଥୋସ୍କୋପରେ ଆମ ହୃଦୟର ଧକଧକ ଶୁଣନ୍ତି।"
       }
     },
     {
@@ -166,7 +172,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह शिक्षिका हैं।",
-        "en": "This is a teacher."
+        "en": "This is a teacher.",
+        "mr": "या शिक्षिका आहेत.",
+        "or": "ଏ ଜଣେ ଶିକ୍ଷୟିତ୍ରୀ।"
       }
     },
     {
@@ -175,7 +183,9 @@
       "duration": 8000,
       "script": {
         "hi": "शिक्षिका किताब से पढ़ाती हैं।",
-        "en": "The teacher teaches from a book."
+        "en": "The teacher teaches from a book.",
+        "mr": "शिक्षिका पुस्तकातून शिकवतात.",
+        "or": "ଶିକ୍ଷୟିତ୍ରୀ ବହିରୁ ପଢ଼ାନ୍ତି।"
       }
     },
     {
@@ -183,7 +193,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह डाकिया हैं।",
-        "en": "This is a postman."
+        "en": "This is a postman.",
+        "mr": "हे पोस्टमन आहेत.",
+        "or": "ଏ ଜଣେ ଡାକବାଲା।"
       }
     },
     {
@@ -192,7 +204,9 @@
       "duration": 8000,
       "script": {
         "hi": "डाकिया चिट्ठियाँ लाते हैं।",
-        "en": "The postman brings letters."
+        "en": "The postman brings letters.",
+        "mr": "पोस्टमन पत्रं आणतात.",
+        "or": "ଡାକବାଲା ଚିଠି ଆଣନ୍ତି।"
       }
     },
     {
@@ -200,7 +214,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह किसान हैं।",
-        "en": "This is a farmer."
+        "en": "This is a farmer.",
+        "mr": "हे शेतकरी आहेत.",
+        "or": "ଏ ଜଣେ ଚାଷୀ।"
       }
     },
     {
@@ -209,7 +225,9 @@
       "duration": 8000,
       "script": {
         "hi": "किसान ट्रैक्टर से खेत जोतते हैं।",
-        "en": "The farmer ploughs the field with a tractor."
+        "en": "The farmer ploughs the field with a tractor.",
+        "mr": "शेतकरी ट्रॅक्टरने शेत नांगरतात.",
+        "or": "ଚାଷୀ ଟ୍ରାକ୍ଟରରେ ଜମି ହଳ କରନ୍ତି।"
       }
     },
     {
@@ -217,7 +235,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह दमकलकर्मी हैं।",
-        "en": "This is a firefighter."
+        "en": "This is a firefighter.",
+        "mr": "हे अग्निशमन दलाचे जवान आहेत.",
+        "or": "ଏ ଜଣେ ଅଗ୍ନିଶମ କର୍ମଚାରୀ।"
       }
     },
     {
@@ -226,7 +246,9 @@
       "duration": 8000,
       "script": {
         "hi": "दमकलकर्मी दमकल की गाड़ी से आग बुझाने जाते हैं।",
-        "en": "The firefighter goes to put out fires in a fire engine."
+        "en": "The firefighter goes to put out fires in a fire engine.",
+        "mr": "ते आगीचा बंब घेऊन आग विझवायला जातात.",
+        "or": "ସେ ଦମକଳ ଗାଡ଼ିରେ ନିଆଁ ଲିଭାଇବାକୁ ଯାଆନ୍ତି।"
       }
     }
   ]

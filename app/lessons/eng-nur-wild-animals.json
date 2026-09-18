@@ -100,7 +100,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह जंगल है। यहाँ जंगली जानवर रहते हैं।",
-        "en": "This is the forest. Wild animals live here."
+        "en": "This is the forest. Wild animals live here.",
+        "mr": "हे जंगल आहे. इथे जंगली प्राणी राहतात.",
+        "or": "ଏହା ଜଙ୍ଗଲ। ଏଠି ବଣୁଆ ପଶୁମାନେ ରହନ୍ତି।"
       }
     },
     {
@@ -108,7 +110,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह शेर है। शेर जंगल का राजा है।",
-        "en": "This is a lion. The lion is the king of the forest."
+        "en": "This is a lion. The lion is the king of the forest.",
+        "mr": "हा सिंह आहे. सिंह जंगलाचा राजा आहे.",
+        "or": "ଏହା ଏକ ସିଂହ। ସିଂହ ଜଙ୍ଗଲର ରାଜା।"
       }
     },
     {
@@ -116,7 +120,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह बाघ है। बाघ के शरीर पर धारियाँ हैं।",
-        "en": "This is a tiger. The tiger has stripes."
+        "en": "This is a tiger. The tiger has stripes.",
+        "mr": "हा वाघ आहे. वाघाच्या अंगावर पट्टे असतात.",
+        "or": "ଏହା ଏକ ବାଘ। ବାଘର ଦେହରେ ପଟା ଥାଏ।"
       }
     },
     {
@@ -124,7 +130,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह हाथी है। हाथी बहुत बड़ा होता है।",
-        "en": "This is an elephant. The elephant is very big."
+        "en": "This is an elephant. The elephant is very big.",
+        "mr": "हा हत्ती आहे. हत्ती खूप मोठा असतो.",
+        "or": "ଏହା ଏକ ହାତୀ। ହାତୀ ବହୁତ ବଡ଼।"
       }
     },
     {
@@ -132,7 +140,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह जिराफ़ है। जिराफ़ बहुत लंबा होता है।",
-        "en": "This is a giraffe. The giraffe is very tall."
+        "en": "This is a giraffe. The giraffe is very tall.",
+        "mr": "हा जिराफ आहे. जिराफ खूप उंच असतो.",
+        "or": "ଏହା ଏକ ଜିରାଫ। ଜିରାଫ ବହୁତ ଡେଙ୍ଗା।"
       }
     },
     {
@@ -140,7 +150,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह भालू है।",
-        "en": "This is a bear."
+        "en": "This is a bear.",
+        "mr": "हे अस्वल आहे.",
+        "or": "ଏହା ଏକ ଭାଲୁ।"
       }
     },
     {
@@ -148,7 +160,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह ज़ेबरा है।",
-        "en": "This is a zebra."
+        "en": "This is a zebra.",
+        "mr": "हा झेब्रा आहे.",
+        "or": "ଏହା ଏକ ଜେବ୍ରା।"
       }
     },
     {
@@ -156,7 +170,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह हिरण है। हिरण बहुत तेज़ भागता है।",
-        "en": "This is a deer. The deer runs very fast."
+        "en": "This is a deer. The deer runs very fast.",
+        "mr": "हे हरीण आहे. हरीण खूप वेगाने पळतं.",
+        "or": "ଏହା ଏକ ହରିଣ। ହରିଣ ବହୁତ ଜୋରରେ ଦୌଡ଼େ।"
       }
     },
     {
@@ -164,7 +180,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह बंदर है। बंदर पेड़ों पर रहता है।",
-        "en": "And this is a monkey. The monkey lives in the trees."
+        "en": "And this is a monkey. The monkey lives in the trees.",
+        "mr": "आणि हे माकड आहे. माकड झाडांवर राहतं.",
+        "or": "ଆଉ ଏହା ଏକ ମାଙ୍କଡ଼। ମାଙ୍କଡ଼ ଗଛରେ ରହେ।"
       }
     }
   ]

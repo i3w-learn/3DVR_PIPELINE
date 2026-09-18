@@ -109,21 +109,27 @@
       "duration": 9000,
       "script": {
         "hi": "जानवरों की बोलियाँ सुनो। जिसे देखोगे, वह बोलेगा।",
-        "en": "Listen to the animals. Whichever one you look at will speak."
+        "en": "Listen to the animals. Whichever one you look at will speak.",
+        "mr": "प्राण्यांचे आवाज ऐका. ज्याच्याकडे बघाल, तो बोलेल.",
+        "or": "ପଶୁମାନଙ୍କ ଡାକ ଶୁଣ। ଯାହାକୁ ଦେଖିବ, ସେ ଡାକିବ।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "गाय रँभाती है। बकरी मिमियाती है।",
-        "en": "The cow lows. The goat bleats."
+        "en": "The cow lows. The goat bleats.",
+        "mr": "गाय हंबरते. शेळी बें बें करते.",
+        "or": "ଗାଈ ହମ୍ବା କରେ। ଛେଳି ମେଁ ମେଁ କରେ।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "घोड़ा हिनहिनाता है। मुर्गी कुड़कुड़ाती है।",
-        "en": "The horse neighs. The hen clucks."
+        "en": "The horse neighs. The hen clucks.",
+        "mr": "घोडा खिंकाळतो. कोंबडी कॉक कॉक करते.",
+        "or": "ଘୋଡ଼ା ହିଁ ହିଁ କରେ। କୁକୁଡ଼ା କକ୍ କକ୍ କରେ।"
       }
     }
   ]

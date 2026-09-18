@@ -142,7 +142,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह क है। इसे याद रखो।",
-        "en": "This is क. Keep it in mind."
+        "en": "This is क. Keep it in mind.",
+        "mr": "हे क आहे. हे लक्षात ठेवा.",
+        "or": "ଏହା क। ଏହାକୁ ମନେ ରଖ।"
       }
     },
     {
@@ -154,7 +156,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ा मात्रा है।",
-        "en": "This is the aa matra."
+        "en": "This is the aa matra.",
+        "mr": "ही ा मात्रा आहे.",
+        "or": "ଏହା ा ମାତ୍ରା।"
       }
     },
     {
@@ -168,7 +172,9 @@
       "duration": 7000,
       "script": {
         "hi": "क में ा मात्रा लगी — का।",
-        "en": "क with the aa matra makes का."
+        "en": "क with the aa matra makes का.",
+        "mr": "क ला ा मात्रा लागली — का.",
+        "or": "क ରେ ा ମାତ୍ରା ଲାଗିଲା — का।"
       }
     },
     {
@@ -180,7 +186,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ि मात्रा है।",
-        "en": "This is the i matra."
+        "en": "This is the i matra.",
+        "mr": "ही ि मात्रा आहे.",
+        "or": "ଏହା ि ମାତ୍ରା।"
       }
     },
     {
@@ -194,7 +202,9 @@
       "duration": 7000,
       "script": {
         "hi": "क में ि मात्रा लगी — कि।",
-        "en": "क with the i matra makes कि."
+        "en": "क with the i matra makes कि.",
+        "mr": "क ला ि मात्रा लागली — कि.",
+        "or": "क ରେ ि ମାତ୍ରା ଲାଗିଲା — कि।"
       }
     },
     {
@@ -206,7 +216,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ी मात्रा है।",
-        "en": "This is the ee matra."
+        "en": "This is the ee matra.",
+        "mr": "ही ी मात्रा आहे.",
+        "or": "ଏହା ी ମାତ୍ରା।"
       }
     },
     {
@@ -220,7 +232,9 @@
       "duration": 7000,
       "script": {
         "hi": "क में ी मात्रा लगी — की।",
-        "en": "क with the ee matra makes की."
+        "en": "क with the ee matra makes की.",
+        "mr": "क ला ी मात्रा लागली — की.",
+        "or": "क ରେ ी ମାତ୍ରା ଲାଗିଲା — की।"
       }
     },
     {
@@ -232,7 +246,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ु मात्रा है।",
-        "en": "This is the u matra."
+        "en": "This is the u matra.",
+        "mr": "ही ु मात्रा आहे.",
+        "or": "ଏହା ु ମାତ୍ରା।"
       }
     },
     {
@@ -246,7 +262,9 @@
       "duration": 7000,
       "script": {
         "hi": "क में ु मात्रा लगी — कु।",
-        "en": "क with the u matra makes कु."
+        "en": "क with the u matra makes कु.",
+        "mr": "क ला ु मात्रा लागली — कु.",
+        "or": "क ରେ ु ମାତ୍ରା ଲାଗିଲା — कु।"
       }
     },
     {
@@ -258,7 +276,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह े मात्रा है।",
-        "en": "This is the e matra."
+        "en": "This is the e matra.",
+        "mr": "ही े मात्रा आहे.",
+        "or": "ଏହା े ମାତ୍ରା।"
       }
     },
     {
@@ -272,7 +292,9 @@
       "duration": 7000,
       "script": {
         "hi": "क में े मात्रा लगी — के।",
-        "en": "क with the e matra makes के."
+        "en": "क with the e matra makes के.",
+        "mr": "क ला े मात्रा लागली — के.",
+        "or": "क ରେ े ମାତ୍ରା ଲାଗିଲା — के।"
       }
     },
     {
@@ -284,7 +306,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ो मात्रा है।",
-        "en": "This is the o matra."
+        "en": "This is the o matra.",
+        "mr": "ही ो मात्रा आहे.",
+        "or": "ଏହା ो ମାତ୍ରା।"
       }
     },
     {
@@ -298,7 +322,9 @@
       "duration": 7000,
       "script": {
         "hi": "क में ो मात्रा लगी — को।",
-        "en": "क with the o matra makes को."
+        "en": "क with the o matra makes को.",
+        "mr": "क ला ो मात्रा लागली — को.",
+        "or": "क ରେ ो ମାତ୍ରା ଲାଗିଲା — को।"
       }
     }
   ]

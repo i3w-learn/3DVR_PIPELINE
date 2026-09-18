@@ -123,7 +123,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह गाँव है। घर छोटे हैं और दूर-दूर हैं।",
-        "en": "This is a village. The houses are low, and far apart."
+        "en": "This is a village. The houses are low, and far apart.",
+        "mr": "हे गाव आहे. घरं बैठी आहेत, आणि एकमेकांपासून दूर आहेत.",
+        "or": "ଏହା ଏକ ଗାଁ। ଘରଗୁଡ଼ିକ ନିଚା, ଆଉ ପରସ୍ପରଠାରୁ ଦୂରରେ।"
       }
     },
     {
@@ -137,7 +139,9 @@
       "duration": 6500,
       "script": {
         "hi": "छत पर एक ही मंज़िल।",
-        "en": "Just one floor, with a veranda in front."
+        "en": "Just one floor, with a veranda in front.",
+        "mr": "फक्त एक मजला, आणि समोर ओसरी.",
+        "or": "କେବଳ ଗୋଟିଏ ମହଲା, ଆଉ ଆଗରେ ବାରଣ୍ଡା।"
       }
     },
     {
@@ -150,7 +154,9 @@
       "duration": 7000,
       "script": {
         "hi": "अब यह शहर है। इमारतें ऊँची हैं।",
-        "en": "Now this is a city. The buildings are tall."
+        "en": "Now this is a city. The buildings are tall.",
+        "mr": "आता हे शहर आहे. इमारती उंच आहेत.",
+        "or": "ଏବେ ଏହା ଏକ ସହର। କୋଠାଗୁଡ଼ିକ ଉଚ୍ଚ।"
       }
     },
     {
@@ -164,7 +170,9 @@
       "duration": 6500,
       "script": {
         "hi": "चार, पाँच मंज़िल — एक के ऊपर एक।",
-        "en": "Four floors, five floors — one on top of another."
+        "en": "Four floors, five floors — one on top of another.",
+        "mr": "चार मजले, पाच मजले — एकावर एक.",
+        "or": "ଚାରି ମହଲା, ପାଞ୍ଚ ମହଲା — ଗୋଟିଏ ଉପରେ ଆଉ ଗୋଟିଏ।"
       }
     },
     {
@@ -181,7 +189,9 @@
       "duration": 8000,
       "script": {
         "hi": "गाँव में घर नीचे, शहर में ऊपर। दोनों में लोग रहते हैं।",
-        "en": "Low in the village, tall in the city — and people live in both."
+        "en": "Low in the village, tall in the city — and people live in both.",
+        "mr": "गावात बैठी, शहरात उंच — आणि दोन्हीकडे माणसं राहतात.",
+        "or": "ଗାଁରେ ନିଚା, ସହରରେ ଉଚ୍ଚ — ଆଉ ଦୁଇ ଜାଗାରେ ଲୋକ ରହନ୍ତି।"
       }
     }
   ]

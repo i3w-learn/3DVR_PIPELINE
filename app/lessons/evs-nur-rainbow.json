@@ -39,7 +39,9 @@
       "duration": 7000,
       "script": {
         "hi": "पहले बारिश हुई।",
-        "en": "First, it rained."
+        "en": "First, it rained.",
+        "mr": "आधी पाऊस पडला.",
+        "or": "ପ୍ରଥମେ ବର୍ଷା ହେଲା।"
       }
     },
     {
@@ -47,7 +49,9 @@
       "duration": 7000,
       "script": {
         "hi": "फिर सूरज निकला।",
-        "en": "Then the sun came out."
+        "en": "Then the sun came out.",
+        "mr": "मग ऊन पडलं.",
+        "or": "ତାପରେ ଖରା ପଡ଼ିଲା।"
       }
     },
     {
@@ -55,7 +59,9 @@
       "duration": 8000,
       "script": {
         "hi": "और देखो — इंद्रधनुष!",
-        "en": "And look — a rainbow!"
+        "en": "And look — a rainbow!",
+        "mr": "आणि बघा — इंद्रधनुष्य!",
+        "or": "ଆଉ ଦେଖ — ଇନ୍ଦ୍ରଧନୁ!"
       }
     },
     {
@@ -63,7 +69,9 @@
       "duration": 9000,
       "script": {
         "hi": "इसमें सात रंग हैं — लाल, नारंगी, पीला, हरा…",
-        "en": "It has seven colours. From the top: red, orange, yellow, green…"
+        "en": "It has seven colours. From the top: red, orange, yellow, green…",
+        "mr": "त्यात सात रंग असतात. वरून — तांबडा, नारिंगी, पिवळा, हिरवा…",
+        "or": "ଏଥିରେ ସାତଟି ରଙ୍ଗ ଥାଏ। ଉପରୁ — ନାଲି, କମଳା, ହଳଦିଆ, ସବୁଜ…"
       }
     },
     {
@@ -71,7 +79,9 @@
       "duration": 8000,
       "script": {
         "hi": "…नीला, जामुनी और बैंगनी।",
-        "en": "…blue, indigo and violet."
+        "en": "…blue, indigo and violet.",
+        "mr": "…निळा, पारवा आणि जांभळा.",
+        "or": "…ନୀଳ, ଘନ ନୀଳ ଆଉ ବାଇଗଣୀ।"
       }
     }
   ]

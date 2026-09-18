@@ -99,7 +99,9 @@
       "duration": 8000,
       "script": {
         "hi": "ये हमारे मददगार हैं। ये सब हमारी मदद करते हैं।",
-        "en": "These are our community helpers. Every one of them helps us."
+        "en": "These are our community helpers. Every one of them helps us.",
+        "mr": "हे आपले मदतनीस आहेत. हे सगळे आपल्याला मदत करतात.",
+        "or": "ଏମାନେ ଆମର ସାହାଯ୍ୟକାରୀ। ଏମାନେ ସମସ୍ତେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତି।"
       }
     },
     {
@@ -107,7 +109,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह डॉक्टर हैं। जब हम बीमार होते हैं, डॉक्टर हमें ठीक करते हैं।",
-        "en": "This is a doctor. When we are ill, the doctor makes us well."
+        "en": "This is a doctor. When we are ill, the doctor makes us well.",
+        "mr": "हे डॉक्टर आहेत. आपण आजारी पडलो की डॉक्टर आपल्याला बरं करतात.",
+        "or": "ଏ ଜଣେ ଡାକ୍ତର। ଆମେ ଅସୁସ୍ଥ ହେଲେ ଡାକ୍ତର ଆମକୁ ଭଲ କରନ୍ତି।"
       }
     },
     {
@@ -115,7 +119,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह शिक्षिका हैं। वे हमें पढ़ाती हैं।",
-        "en": "This is a teacher. She teaches us."
+        "en": "This is a teacher. She teaches us.",
+        "mr": "या शिक्षिका आहेत. त्या आपल्याला शिकवतात.",
+        "or": "ଏ ଜଣେ ଶିକ୍ଷୟିତ୍ରୀ। ସେ ଆମକୁ ପଢ଼ାନ୍ତି।"
       }
     },
     {
@@ -123,7 +129,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह पुलिस हैं। पुलिस हमारी रक्षा करती है।",
-        "en": "This is a police officer. The police keep us safe."
+        "en": "This is a police officer. The police keep us safe.",
+        "mr": "हे पोलीस आहेत. पोलीस आपलं रक्षण करतात.",
+        "or": "ଏ ଜଣେ ପୋଲିସ। ପୋଲିସ ଆମକୁ ସୁରକ୍ଷା ଦିଅନ୍ତି।"
       }
     },
     {
@@ -131,7 +139,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह किसान हैं। किसान हमारे लिए अनाज उगाते हैं।",
-        "en": "This is a farmer. The farmer grows our food."
+        "en": "This is a farmer. The farmer grows our food.",
+        "mr": "हे शेतकरी आहेत. शेतकरी आपल्यासाठी धान्य पिकवतात.",
+        "or": "ଏ ଜଣେ ଚାଷୀ। ଚାଷୀ ଆମ ପାଇଁ ଖାଦ୍ୟ ଉପୁଜାନ୍ତି।"
       }
     },
     {
@@ -139,7 +149,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह दमकलकर्मी हैं। वे आग बुझाते हैं।",
-        "en": "This is a firefighter. Firefighters put out fires."
+        "en": "This is a firefighter. Firefighters put out fires.",
+        "mr": "हे अग्निशमन दलाचे जवान आहेत. ते आग विझवतात.",
+        "or": "ଏ ଜଣେ ଅଗ୍ନିଶମ କର୍ମଚାରୀ। ସେମାନେ ନିଆଁ ଲିଭାନ୍ତି।"
       }
     },
     {
@@ -147,14 +159,18 @@
       "duration": 8000,
       "script": {
         "hi": "यह डाकिया हैं। डाकिया हमारी चिट्ठियाँ लाते हैं।",
-        "en": "This is a postman. The postman brings our letters."
+        "en": "This is a postman. The postman brings our letters.",
+        "mr": "हे पोस्टमन आहेत. पोस्टमन आपली पत्रं आणतात.",
+        "or": "ଏ ଜଣେ ଡାକବାଲା। ଡାକବାଲା ଆମ ଚିଠି ଆଣନ୍ତି।"
       }
     },
     {
       "duration": 7000,
       "script": {
         "hi": "जब ये हमारी मदद करें, तो हम कहते हैं — धन्यवाद!",
-        "en": "When they help us, we say — thank you!"
+        "en": "When they help us, we say — thank you!",
+        "mr": "ते आपल्याला मदत करतात, तेव्हा आपण म्हणतो — धन्यवाद!",
+        "or": "ସେମାନେ ଆମକୁ ସାହାଯ୍ୟ କଲେ, ଆମେ କହୁ — ଧନ୍ୟବାଦ!"
       }
     }
   ]

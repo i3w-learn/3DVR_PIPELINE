@@ -94,7 +94,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह एक पौधा है। यह मिट्टी में उगता है। चलो इसके हिस्से देखें।",
-        "en": "This is a plant. It grows in the soil. Let us look at its parts."
+        "en": "This is a plant. It grows in the soil. Let us look at its parts.",
+        "mr": "हे एक रोप आहे. ते मातीत उगवतं. चला त्याचे भाग बघूया.",
+        "or": "ଏହା ଏକ ଗଛ। ଏହା ମାଟିରେ ବଢ଼େ। ଆସ ଏହାର ଅଂଶଗୁଡ଼ିକ ଦେଖିବା।"
       }
     },
     {
@@ -102,7 +104,9 @@
       "duration": 9000,
       "script": {
         "hi": "ये जड़ें हैं। जड़ें मिट्टी के नीचे होती हैं। वे पानी पीती हैं और पौधे को पकड़े रखती हैं।",
-        "en": "These are the roots. Roots grow under the soil. They drink water and hold the plant firm."
+        "en": "These are the roots. Roots grow under the soil. They drink water and hold the plant firm.",
+        "mr": "ही मुळं आहेत. मुळं मातीखाली असतात. ती पाणी पितात आणि रोपाला घट्ट धरून ठेवतात.",
+        "or": "ଏଗୁଡ଼ିକ ଚେର। ଚେର ମାଟି ତଳେ ଥାଏ। ସେଗୁଡ଼ିକ ପାଣି ଶୋଷେ ଆଉ ଗଛକୁ ଧରି ରଖେ।"
       }
     },
     {
@@ -110,7 +114,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह तना है। तना पौधे को सीधा खड़ा रखता है और पानी ऊपर पहुँचाता है।",
-        "en": "This is the stem. The stem holds the plant up and carries water to the top."
+        "en": "This is the stem. The stem holds the plant up and carries water to the top.",
+        "mr": "हे खोड आहे. खोड रोपाला सरळ उभं ठेवतं आणि पाणी वर पोहोचवतं.",
+        "or": "ଏହା କାଣ୍ଡ। କାଣ୍ଡ ଗଛକୁ ସିଧା ଠିଆ ରଖେ ଆଉ ପାଣି ଉପରକୁ ନିଏ।"
       }
     },
     {
@@ -118,7 +124,9 @@
       "duration": 9000,
       "script": {
         "hi": "ये पत्तियाँ हैं। पत्तियाँ धूप से पौधे का खाना बनाती हैं।",
-        "en": "These are the leaves. Leaves make food for the plant from sunlight."
+        "en": "These are the leaves. Leaves make food for the plant from sunlight.",
+        "mr": "ही पानं आहेत. पानं सूर्यप्रकाशापासून रोपाचं अन्न बनवतात.",
+        "or": "ଏଗୁଡ଼ିକ ପତ୍ର। ପତ୍ର ଖରାରୁ ଗଛ ପାଇଁ ଖାଦ୍ୟ ତିଆରି କରେ।"
       }
     },
     {
@@ -126,7 +134,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह फूल है। फूल से फल बनता है।",
-        "en": "This is the flower. The flower turns into a fruit."
+        "en": "This is the flower. The flower turns into a fruit.",
+        "mr": "हे फूल आहे. फुलापासून फळ बनतं.",
+        "or": "ଏହା ଫୁଲ। ଫୁଲରୁ ଫଳ ହୁଏ।"
       }
     },
     {
@@ -134,14 +144,18 @@
       "duration": 9000,
       "script": {
         "hi": "यह फल है। फल के अंदर बीज होते हैं।",
-        "en": "This is the fruit. Inside the fruit are the seeds."
+        "en": "This is the fruit. Inside the fruit are the seeds.",
+        "mr": "हे फळ आहे. फळाच्या आत बिया असतात.",
+        "or": "ଏହା ଫଳ। ଫଳ ଭିତରେ ମଞ୍ଜି ଥାଏ।"
       }
     },
     {
       "duration": 8000,
       "script": {
         "hi": "पौधे को बढ़ने के लिए पानी, धूप और हवा चाहिए।",
-        "en": "A plant needs water, sunlight and air to grow."
+        "en": "A plant needs water, sunlight and air to grow.",
+        "mr": "रोपाला वाढण्यासाठी पाणी, ऊन आणि हवा लागते.",
+        "or": "ଗଛ ବଢ଼ିବା ପାଇଁ ପାଣି, ଖରା ଆଉ ପବନ ଦରକାର।"
       }
     }
   ]

@@ -113,7 +113,9 @@
       "duration": 5000,
       "script": {
         "hi": "ये आकार देखो।",
-        "en": "Look at these shapes."
+        "en": "Look at these shapes.",
+        "mr": "हे आकार बघा.",
+        "or": "ଏହି ଆକୃତିଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -127,7 +129,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह गोला है।",
-        "en": "This is a circle."
+        "en": "This is a circle.",
+        "mr": "हे वर्तुळ आहे.",
+        "or": "ଏହା ଏକ ବୃତ୍ତ।"
       }
     },
     {
@@ -141,7 +145,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह वर्ग है।",
-        "en": "This is a square."
+        "en": "This is a square.",
+        "mr": "हा चौरस आहे.",
+        "or": "ଏହା ଏକ ବର୍ଗ।"
       }
     },
     {
@@ -155,7 +161,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह त्रिभुज है।",
-        "en": "This is a triangle."
+        "en": "This is a triangle.",
+        "mr": "हा त्रिकोण आहे.",
+        "or": "ଏହା ଏକ ତ୍ରିଭୁଜ।"
       }
     },
     {
@@ -169,7 +177,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह आयत है।",
-        "en": "This is a rectangle."
+        "en": "This is a rectangle.",
+        "mr": "हा आयत आहे.",
+        "or": "ଏହା ଏକ ଆୟତ।"
       }
     },
     {
@@ -181,7 +191,9 @@
       "duration": 5000,
       "script": {
         "hi": "ये आकार देखो।",
-        "en": "Look at these shapes."
+        "en": "Look at these shapes.",
+        "mr": "हे आकार बघा.",
+        "or": "ଏହି ଆକୃତିଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -194,7 +206,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह अंडाकार है।",
-        "en": "This is a oval."
+        "en": "This is a oval.",
+        "mr": "हा लंबगोल आहे.",
+        "or": "ଏହା ଏକ ଅଣ୍ଡାକାର।"
       }
     },
     {
@@ -207,7 +221,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह तारा है।",
-        "en": "This is a star."
+        "en": "This is a star.",
+        "mr": "हा तारा आहे.",
+        "or": "ଏହା ଏକ ତାରା।"
       }
     },
     {
@@ -220,7 +236,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह हीरा है।",
-        "en": "This is a diamond."
+        "en": "This is a diamond.",
+        "mr": "हा डायमंड आकार आहे.",
+        "or": "ଏହା ଏକ ହୀରା ଆକୃତି।"
       }
     }
   ]

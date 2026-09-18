@@ -107,7 +107,9 @@
       "duration": 9000,
       "script": {
         "hi": "हम समुद्र के अंदर हैं। यहाँ पानी में बहुत सारे जानवर रहते हैं।",
-        "en": "We are under the sea. So many animals live here in the water."
+        "en": "We are under the sea. So many animals live here in the water.",
+        "mr": "आपण समुद्राच्या आत आहोत. इथे पाण्यात खूप सारे प्राणी राहतात.",
+        "or": "ଆମେ ସମୁଦ୍ର ଭିତରେ ଅଛୁ। ଏଠି ପାଣିରେ ବହୁତ ପ୍ରାଣୀ ରହନ୍ତି।"
       }
     },
     {
@@ -115,7 +117,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह मछली है। मछली पानी में तैरती है।",
-        "en": "This is a fish. The fish swims in the water."
+        "en": "This is a fish. The fish swims in the water.",
+        "mr": "हा मासा आहे. मासा पाण्यात पोहतो.",
+        "or": "ଏହା ଏକ ମାଛ। ମାଛ ପାଣିରେ ପହଁରେ।"
       }
     },
     {
@@ -123,7 +127,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह कछुआ है। कछुए की पीठ पर कड़ा खोल होता है।",
-        "en": "This is a turtle. The turtle has a hard shell on its back."
+        "en": "This is a turtle. The turtle has a hard shell on its back.",
+        "mr": "हे कासव आहे. कासवाच्या पाठीवर कठीण कवच असतं.",
+        "or": "ଏହା ଏକ କଇଁଛ। କଇଁଛର ପିଠିରେ ଟାଣ ଖୋଳ ଥାଏ।"
       }
     },
     {
@@ -131,7 +137,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह डॉल्फ़िन है। डॉल्फ़िन बहुत समझदार होती है।",
-        "en": "This is a dolphin. The dolphin is very clever."
+        "en": "This is a dolphin. The dolphin is very clever.",
+        "mr": "हा डॉल्फिन आहे. डॉल्फिन खूप हुशार असतो.",
+        "or": "ଏହା ଏକ ଡଲଫିନ। ଡଲଫିନ ବହୁତ ବୁଦ୍ଧିମାନ।"
       }
     },
     {
@@ -139,7 +147,9 @@
       "duration": 8000,
       "script": {
         "hi": "दूर देखो — वह व्हेल है। व्हेल सबसे बड़ा जानवर है।",
-        "en": "Look far away — that is a whale. The whale is the biggest animal of all."
+        "en": "Look far away — that is a whale. The whale is the biggest animal of all.",
+        "mr": "दूर बघा — तो देवमासा आहे. देवमासा सगळ्यात मोठा प्राणी आहे.",
+        "or": "ଦୂରକୁ ଦେଖ — ତାହା ଏକ ତିମି। ତିମି ସବୁଠାରୁ ବଡ଼ ପ୍ରାଣୀ।"
       }
     },
     {
@@ -147,7 +157,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह ऑक्टोपस है। इसकी आठ भुजाएँ हैं।",
-        "en": "This is an octopus. It has eight arms."
+        "en": "This is an octopus. It has eight arms.",
+        "mr": "हा ऑक्टोपस आहे. याला आठ हात असतात.",
+        "or": "ଏହା ଏକ ଅକ୍ଟୋପସ। ଏହାର ଆଠଟି ବାହୁ ଥାଏ।"
       }
     },
     {
@@ -155,7 +167,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह केकड़ा है। केकड़ा टेढ़ा चलता है।",
-        "en": "This is a crab. The crab walks sideways."
+        "en": "This is a crab. The crab walks sideways.",
+        "mr": "हा खेकडा आहे. खेकडा तिरका चालतो.",
+        "or": "ଏହା ଏକ କଙ୍କଡ଼ା। କଙ୍କଡ଼ା ବଙ୍କା ହୋଇ ଚାଲେ।"
       }
     },
     {
@@ -163,7 +177,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह तारा मछली है। यह तारे जैसी दिखती है।",
-        "en": "This is a starfish. It looks like a star."
+        "en": "This is a starfish. It looks like a star.",
+        "mr": "हा तारामासा आहे. तो ताऱ्यासारखा दिसतो.",
+        "or": "ଏହା ଏକ ତାରାମାଛ। ଏହା ତାରା ପରି ଦେଖାଯାଏ।"
       }
     },
     {
@@ -171,7 +187,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह समुद्री घोड़ा है।",
-        "en": "And this is a seahorse."
+        "en": "And this is a seahorse.",
+        "mr": "आणि हा समुद्री घोडा आहे.",
+        "or": "ଆଉ ଏହା ଏକ ସମୁଦ୍ର ଘୋଡ଼ା।"
       }
     }
   ]

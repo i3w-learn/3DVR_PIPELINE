@@ -154,7 +154,9 @@
       "duration": 5500,
       "script": {
         "hi": "साल में बारह महीने होते हैं। पहला महीना जनवरी।",
-        "en": "There are twelve months in a year. The first is January."
+        "en": "There are twelve months in a year. The first is January.",
+        "mr": "वर्षात बारा महिने असतात. पहिला जानेवारी.",
+        "or": "ବର୍ଷରେ ବାର ମାସ ଥାଏ। ପ୍ରଥମ ମାସ ଜାନୁଆରୀ।"
       }
     },
     {
@@ -162,7 +164,9 @@
       "duration": 4500,
       "script": {
         "hi": "फ़रवरी।",
-        "en": "Then February."
+        "en": "Then February.",
+        "mr": "मग फेब्रुवारी.",
+        "or": "ତାପରେ ଫେବୃଆରୀ।"
       }
     },
     {
@@ -170,7 +174,9 @@
       "duration": 4500,
       "script": {
         "hi": "मार्च।",
-        "en": "Then March."
+        "en": "Then March.",
+        "mr": "मग मार्च.",
+        "or": "ତାପରେ ମାର୍ଚ୍ଚ।"
       }
     },
     {
@@ -178,7 +184,9 @@
       "duration": 4500,
       "script": {
         "hi": "अप्रैल।",
-        "en": "Then April."
+        "en": "Then April.",
+        "mr": "मग एप्रिल.",
+        "or": "ତାପରେ ଅପ୍ରେଲ।"
       }
     },
     {
@@ -186,7 +194,9 @@
       "duration": 4500,
       "script": {
         "hi": "मई।",
-        "en": "Then May."
+        "en": "Then May.",
+        "mr": "मग मे.",
+        "or": "ତାପରେ ମଇ।"
       }
     },
     {
@@ -194,7 +204,9 @@
       "duration": 4500,
       "script": {
         "hi": "जून।",
-        "en": "Then June."
+        "en": "Then June.",
+        "mr": "मग जून.",
+        "or": "ତାପରେ ଜୁନ।"
       }
     },
     {
@@ -202,7 +214,9 @@
       "duration": 4500,
       "script": {
         "hi": "जुलाई।",
-        "en": "Then July."
+        "en": "Then July.",
+        "mr": "मग जुलै.",
+        "or": "ତାପରେ ଜୁଲାଇ।"
       }
     },
     {
@@ -210,7 +224,9 @@
       "duration": 4500,
       "script": {
         "hi": "अगस्त।",
-        "en": "Then August."
+        "en": "Then August.",
+        "mr": "मग ऑगस्ट.",
+        "or": "ତାପରେ ଅଗଷ୍ଟ।"
       }
     },
     {
@@ -218,7 +234,9 @@
       "duration": 4500,
       "script": {
         "hi": "सितंबर।",
-        "en": "Then September."
+        "en": "Then September.",
+        "mr": "मग सप्टेंबर.",
+        "or": "ତାପରେ ସେପ୍ଟେମ୍ବର।"
       }
     },
     {
@@ -226,7 +244,9 @@
       "duration": 4500,
       "script": {
         "hi": "अक्टूबर।",
-        "en": "Then October."
+        "en": "Then October.",
+        "mr": "मग ऑक्टोबर.",
+        "or": "ତାପରେ ଅକ୍ଟୋବର।"
       }
     },
     {
@@ -234,7 +254,9 @@
       "duration": 4500,
       "script": {
         "hi": "नवंबर।",
-        "en": "Then November."
+        "en": "Then November.",
+        "mr": "मग नोव्हेंबर.",
+        "or": "ତାପରେ ନଭେମ୍ବର।"
       }
     },
     {
@@ -242,7 +264,9 @@
       "duration": 4500,
       "script": {
         "hi": "दिसंबर।",
-        "en": "Then December."
+        "en": "Then December.",
+        "mr": "मग डिसेंबर.",
+        "or": "ତାପରେ ଡିସେମ୍ବର।"
       }
     },
     {
@@ -250,7 +274,9 @@
       "duration": 7000,
       "script": {
         "hi": "जनवरी से दिसंबर — पूरा साल।",
-        "en": "January to December — that is the whole year."
+        "en": "January to December — that is the whole year.",
+        "mr": "जानेवारी ते डिसेंबर — हे झालं पूर्ण वर्ष.",
+        "or": "ଜାନୁଆରୀରୁ ଡିସେମ୍ବର — ଏହା ହେଲା ପୂରା ବର୍ଷ।"
       }
     }
   ]

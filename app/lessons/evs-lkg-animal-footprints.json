@@ -129,7 +129,9 @@
       "duration": 8000,
       "script": {
         "hi": "ज़मीन पर ये निशान किसके पैरों के हैं?",
-        "en": "Whose footprints are these on the ground?"
+        "en": "Whose footprints are these on the ground?",
+        "mr": "जमिनीवर हे कोणाच्या पावलांचे ठसे आहेत?",
+        "or": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?"
       }
     },
     {
@@ -142,7 +144,9 @@
       "duration": 8000,
       "script": {
         "hi": "ये गाय के पैरों के निशान हैं!",
-        "en": "The cow made them!"
+        "en": "The cow made them!",
+        "mr": "हे गायीने उमटवले!",
+        "or": "ଏଗୁଡ଼ିକ ଗାଈର!"
       }
     },
     {
@@ -153,7 +157,9 @@
       "duration": 8000,
       "script": {
         "hi": "ज़मीन पर ये निशान किसके पैरों के हैं?",
-        "en": "Whose footprints are these on the ground?"
+        "en": "Whose footprints are these on the ground?",
+        "mr": "जमिनीवर हे कोणाच्या पावलांचे ठसे आहेत?",
+        "or": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?"
       }
     },
     {
@@ -166,7 +172,9 @@
       "duration": 8000,
       "script": {
         "hi": "ये घोड़ा के पैरों के निशान हैं!",
-        "en": "The horse made them!"
+        "en": "The horse made them!",
+        "mr": "हे घोड्याने उमटवले!",
+        "or": "ଏଗୁଡ଼ିକ ଘୋଡ଼ାର!"
       }
     },
     {
@@ -177,7 +185,9 @@
       "duration": 8000,
       "script": {
         "hi": "ज़मीन पर ये निशान किसके पैरों के हैं?",
-        "en": "Whose footprints are these on the ground?"
+        "en": "Whose footprints are these on the ground?",
+        "mr": "जमिनीवर हे कोणाच्या पावलांचे ठसे आहेत?",
+        "or": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?"
       }
     },
     {
@@ -190,7 +200,9 @@
       "duration": 8000,
       "script": {
         "hi": "ये मुर्गी के पैरों के निशान हैं!",
-        "en": "The hen made them!"
+        "en": "The hen made them!",
+        "mr": "हे कोंबडीने उमटवले!",
+        "or": "ଏଗୁଡ଼ିକ କୁକୁଡ଼ାର!"
       }
     },
     {
@@ -201,7 +213,9 @@
       "duration": 8000,
       "script": {
         "hi": "ज़मीन पर ये निशान किसके पैरों के हैं?",
-        "en": "Whose footprints are these on the ground?"
+        "en": "Whose footprints are these on the ground?",
+        "mr": "जमिनीवर हे कोणाच्या पावलांचे ठसे आहेत?",
+        "or": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?"
       }
     },
     {
@@ -214,7 +228,9 @@
       "duration": 8000,
       "script": {
         "hi": "ये हाथी के पैरों के निशान हैं!",
-        "en": "The elephant made them!"
+        "en": "The elephant made them!",
+        "mr": "हे हत्तीने उमटवले!",
+        "or": "ଏଗୁଡ଼ିକ ହାତୀର!"
       }
     }
   ]

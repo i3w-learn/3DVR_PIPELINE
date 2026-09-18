@@ -85,7 +85,7 @@
         "en": "Winter",
         "hi": "सर्दी"
       },
-      "ring": 1.0
+      "ring": 1
     },
     {
       "id": "fog",
@@ -106,7 +106,9 @@
       "duration": 8000,
       "script": {
         "hi": "साल में तीन मौसम आते हैं — गर्मी, बरसात और सर्दी।",
-        "en": "Three seasons come every year — summer, monsoon and winter."
+        "en": "Three seasons come every year — summer, monsoon and winter.",
+        "mr": "दरवर्षी तीन ऋतू येतात — उन्हाळा, पावसाळा आणि हिवाळा.",
+        "or": "ପ୍ରତିବର୍ଷ ତିନୋଟି ଋତୁ ଆସେ — ଖରାଦିନ, ବର୍ଷାଦିନ ଆଉ ଶୀତଦିନ।"
       }
     },
     {
@@ -118,7 +120,9 @@
       "duration": 8000,
       "script": {
         "hi": "गर्मी में सूरज तेज़ चमकता है। बहुत गरमी लगती है।",
-        "en": "In summer the sun shines strongly, and it is very hot."
+        "en": "In summer the sun shines strongly, and it is very hot.",
+        "mr": "उन्हाळ्यात सूर्य प्रखर तळपतो, आणि खूप गरम होतं.",
+        "or": "ଖରାଦିନେ ସୂର୍ଯ୍ୟ ଜୋରରେ ଚମକେ, ଆଉ ବହୁତ ଗରମ ହୁଏ।"
       }
     },
     {
@@ -132,7 +136,9 @@
       "duration": 8000,
       "script": {
         "hi": "बरसात में बादल आते हैं और बारिश होती है।",
-        "en": "In the monsoon the clouds come, and it rains."
+        "en": "In the monsoon the clouds come, and it rains.",
+        "mr": "पावसाळ्यात ढग येतात, आणि पाऊस पडतो.",
+        "or": "ବର୍ଷାଦିନେ ମେଘ ଆସେ, ଆଉ ବର୍ଷା ହୁଏ।"
       }
     },
     {
@@ -146,7 +152,9 @@
       "duration": 7500,
       "script": {
         "hi": "बारिश में हम छाता लेते हैं। ज़मीन पर पानी भर जाता है।",
-        "en": "In the rain we carry an umbrella. Puddles fill up on the ground."
+        "en": "In the rain we carry an umbrella. Puddles fill up on the ground.",
+        "mr": "पावसात आपण छत्री घेतो. जमिनीवर डबकी साचतात.",
+        "or": "ବର୍ଷାରେ ଆମେ ଛତା ଧରୁ। ଭୂଇଁରେ ପାଣି ଜମିଯାଏ।"
       }
     },
     {
@@ -158,7 +166,9 @@
       "duration": 8500,
       "script": {
         "hi": "सर्दी में ठंड लगती है। कोहरा छाता है, और हम आग तापते हैं।",
-        "en": "In winter it is cold. The sky is grey, and we warm ourselves by a fire."
+        "en": "In winter it is cold. The sky is grey, and we warm ourselves by a fire.",
+        "mr": "हिवाळ्यात थंडी असते. आकाश करडं असतं, आणि आपण शेकोटीजवळ शेकतो.",
+        "or": "ଶୀତଦିନେ ଥଣ୍ଡା ଲାଗେ। ଆକାଶ ଧୂସର ଦିଶେ, ଆଉ ଆମେ ନିଆଁ ପାଖରେ ସେକି ହେଉ।"
       }
     }
   ]

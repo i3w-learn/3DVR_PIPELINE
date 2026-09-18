@@ -250,7 +250,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब ये अक्षर देखो।",
-        "en": "Now look at these letters."
+        "en": "Now look at these letters.",
+        "mr": "आता ही अक्षरं बघा.",
+        "or": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -265,7 +267,9 @@
       "duration": 5000,
       "script": {
         "hi": "A की ध्वनि — a।",
-        "en": "A says “a”. Say it with me."
+        "en": "A says “a”. Say it with me.",
+        "mr": "A चा आवाज — a. माझ्यासोबत म्हणा.",
+        "or": "A ର ଧ୍ୱନି — a। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -280,7 +284,9 @@
       "duration": 5000,
       "script": {
         "hi": "B की ध्वनि — buh।",
-        "en": "B says “buh”. Say it with me."
+        "en": "B says “buh”. Say it with me.",
+        "mr": "B चा आवाज — buh. माझ्यासोबत म्हणा.",
+        "or": "B ର ଧ୍ୱନି — buh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -295,7 +301,9 @@
       "duration": 5000,
       "script": {
         "hi": "C की ध्वनि — kuh।",
-        "en": "C says “kuh”. Say it with me."
+        "en": "C says “kuh”. Say it with me.",
+        "mr": "C चा आवाज — kuh. माझ्यासोबत म्हणा.",
+        "or": "C ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -310,7 +318,9 @@
       "duration": 5000,
       "script": {
         "hi": "D की ध्वनि — duh।",
-        "en": "D says “duh”. Say it with me."
+        "en": "D says “duh”. Say it with me.",
+        "mr": "D चा आवाज — duh. माझ्यासोबत म्हणा.",
+        "or": "D ର ଧ୍ୱନି — duh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -325,7 +335,9 @@
       "duration": 5000,
       "script": {
         "hi": "E की ध्वनि — eh।",
-        "en": "E says “eh”. Say it with me."
+        "en": "E says “eh”. Say it with me.",
+        "mr": "E चा आवाज — eh. माझ्यासोबत म्हणा.",
+        "or": "E ର ଧ୍ୱନି — eh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -339,7 +351,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब ये अक्षर देखो।",
-        "en": "Now look at these letters."
+        "en": "Now look at these letters.",
+        "mr": "आता ही अक्षरं बघा.",
+        "or": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -354,7 +368,9 @@
       "duration": 5000,
       "script": {
         "hi": "F की ध्वनि — fuh।",
-        "en": "F says “fuh”. Say it with me."
+        "en": "F says “fuh”. Say it with me.",
+        "mr": "F चा आवाज — fuh. माझ्यासोबत म्हणा.",
+        "or": "F ର ଧ୍ୱନି — fuh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -369,7 +385,9 @@
       "duration": 5000,
       "script": {
         "hi": "G की ध्वनि — guh।",
-        "en": "G says “guh”. Say it with me."
+        "en": "G says “guh”. Say it with me.",
+        "mr": "G चा आवाज — guh. माझ्यासोबत म्हणा.",
+        "or": "G ର ଧ୍ୱନି — guh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -384,7 +402,9 @@
       "duration": 5000,
       "script": {
         "hi": "H की ध्वनि — huh।",
-        "en": "H says “huh”. Say it with me."
+        "en": "H says “huh”. Say it with me.",
+        "mr": "H चा आवाज — huh. माझ्यासोबत म्हणा.",
+        "or": "H ର ଧ୍ୱନି — huh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -399,7 +419,9 @@
       "duration": 5000,
       "script": {
         "hi": "I की ध्वनि — ih।",
-        "en": "I says “ih”. Say it with me."
+        "en": "I says “ih”. Say it with me.",
+        "mr": "I चा आवाज — ih. माझ्यासोबत म्हणा.",
+        "or": "I ର ଧ୍ୱନି — ih। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -414,7 +436,9 @@
       "duration": 5000,
       "script": {
         "hi": "J की ध्वनि — juh।",
-        "en": "J says “juh”. Say it with me."
+        "en": "J says “juh”. Say it with me.",
+        "mr": "J चा आवाज — juh. माझ्यासोबत म्हणा.",
+        "or": "J ର ଧ୍ୱନି — juh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -428,7 +452,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब ये अक्षर देखो।",
-        "en": "Now look at these letters."
+        "en": "Now look at these letters.",
+        "mr": "आता ही अक्षरं बघा.",
+        "or": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -443,7 +469,9 @@
       "duration": 5000,
       "script": {
         "hi": "K की ध्वनि — kuh।",
-        "en": "K says “kuh”. Say it with me."
+        "en": "K says “kuh”. Say it with me.",
+        "mr": "K चा आवाज — kuh. माझ्यासोबत म्हणा.",
+        "or": "K ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -458,7 +486,9 @@
       "duration": 5000,
       "script": {
         "hi": "L की ध्वनि — luh।",
-        "en": "L says “luh”. Say it with me."
+        "en": "L says “luh”. Say it with me.",
+        "mr": "L चा आवाज — luh. माझ्यासोबत म्हणा.",
+        "or": "L ର ଧ୍ୱନି — luh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -473,7 +503,9 @@
       "duration": 5000,
       "script": {
         "hi": "M की ध्वनि — muh।",
-        "en": "M says “muh”. Say it with me."
+        "en": "M says “muh”. Say it with me.",
+        "mr": "M चा आवाज — muh. माझ्यासोबत म्हणा.",
+        "or": "M ର ଧ୍ୱନି — muh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -488,7 +520,9 @@
       "duration": 5000,
       "script": {
         "hi": "N की ध्वनि — nuh।",
-        "en": "N says “nuh”. Say it with me."
+        "en": "N says “nuh”. Say it with me.",
+        "mr": "N चा आवाज — nuh. माझ्यासोबत म्हणा.",
+        "or": "N ର ଧ୍ୱନି — nuh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -503,7 +537,9 @@
       "duration": 5000,
       "script": {
         "hi": "O की ध्वनि — oh।",
-        "en": "O says “oh”. Say it with me."
+        "en": "O says “oh”. Say it with me.",
+        "mr": "O चा आवाज — oh. माझ्यासोबत म्हणा.",
+        "or": "O ର ଧ୍ୱନି — oh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -517,7 +553,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब ये अक्षर देखो।",
-        "en": "Now look at these letters."
+        "en": "Now look at these letters.",
+        "mr": "आता ही अक्षरं बघा.",
+        "or": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -532,7 +570,9 @@
       "duration": 5000,
       "script": {
         "hi": "P की ध्वनि — puh।",
-        "en": "P says “puh”. Say it with me."
+        "en": "P says “puh”. Say it with me.",
+        "mr": "P चा आवाज — puh. माझ्यासोबत म्हणा.",
+        "or": "P ର ଧ୍ୱନି — puh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -547,7 +587,9 @@
       "duration": 5000,
       "script": {
         "hi": "Q की ध्वनि — kwuh।",
-        "en": "Q says “kwuh”. Say it with me."
+        "en": "Q says “kwuh”. Say it with me.",
+        "mr": "Q चा आवाज — kwuh. माझ्यासोबत म्हणा.",
+        "or": "Q ର ଧ୍ୱନି — kwuh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -562,7 +604,9 @@
       "duration": 5000,
       "script": {
         "hi": "R की ध्वनि — ruh।",
-        "en": "R says “ruh”. Say it with me."
+        "en": "R says “ruh”. Say it with me.",
+        "mr": "R चा आवाज — ruh. माझ्यासोबत म्हणा.",
+        "or": "R ର ଧ୍ୱନି — ruh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -577,7 +621,9 @@
       "duration": 5000,
       "script": {
         "hi": "S की ध्वनि — sss।",
-        "en": "S says “sss”. Say it with me."
+        "en": "S says “sss”. Say it with me.",
+        "mr": "S चा आवाज — sss. माझ्यासोबत म्हणा.",
+        "or": "S ର ଧ୍ୱନି — sss। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -592,7 +638,9 @@
       "duration": 5000,
       "script": {
         "hi": "T की ध्वनि — tuh।",
-        "en": "T says “tuh”. Say it with me."
+        "en": "T says “tuh”. Say it with me.",
+        "mr": "T चा आवाज — tuh. माझ्यासोबत म्हणा.",
+        "or": "T ର ଧ୍ୱନି — tuh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -606,7 +654,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब ये अक्षर देखो।",
-        "en": "Now look at these letters."
+        "en": "Now look at these letters.",
+        "mr": "आता ही अक्षरं बघा.",
+        "or": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -621,7 +671,9 @@
       "duration": 5000,
       "script": {
         "hi": "U की ध्वनि — uh।",
-        "en": "U says “uh”. Say it with me."
+        "en": "U says “uh”. Say it with me.",
+        "mr": "U चा आवाज — uh. माझ्यासोबत म्हणा.",
+        "or": "U ର ଧ୍ୱନି — uh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -636,7 +688,9 @@
       "duration": 5000,
       "script": {
         "hi": "V की ध्वनि — vuh।",
-        "en": "V says “vuh”. Say it with me."
+        "en": "V says “vuh”. Say it with me.",
+        "mr": "V चा आवाज — vuh. माझ्यासोबत म्हणा.",
+        "or": "V ର ଧ୍ୱନି — vuh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -651,7 +705,9 @@
       "duration": 5000,
       "script": {
         "hi": "W की ध्वनि — wuh।",
-        "en": "W says “wuh”. Say it with me."
+        "en": "W says “wuh”. Say it with me.",
+        "mr": "W चा आवाज — wuh. माझ्यासोबत म्हणा.",
+        "or": "W ର ଧ୍ୱନି — wuh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -666,7 +722,9 @@
       "duration": 5000,
       "script": {
         "hi": "X की ध्वनि — ks।",
-        "en": "X says “ks”. Say it with me."
+        "en": "X says “ks”. Say it with me.",
+        "mr": "X चा आवाज — ks. माझ्यासोबत म्हणा.",
+        "or": "X ର ଧ୍ୱନି — ks। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -681,7 +739,9 @@
       "duration": 5000,
       "script": {
         "hi": "Y की ध्वनि — yuh।",
-        "en": "Y says “yuh”. Say it with me."
+        "en": "Y says “yuh”. Say it with me.",
+        "mr": "Y चा आवाज — yuh. माझ्यासोबत म्हणा.",
+        "or": "Y ର ଧ୍ୱନି — yuh। ମୋ ସହ କୁହ।"
       }
     },
     {
@@ -691,7 +751,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब ये अक्षर देखो।",
-        "en": "Now look at these letters."
+        "en": "Now look at these letters.",
+        "mr": "आता ही अक्षरं बघा.",
+        "or": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -702,7 +764,9 @@
       "duration": 5000,
       "script": {
         "hi": "Z की ध्वनि — zuh।",
-        "en": "Z says “zuh”. Say it with me."
+        "en": "Z says “zuh”. Say it with me.",
+        "mr": "Z चा आवाज — zuh. माझ्यासोबत म्हणा.",
+        "or": "Z ର ଧ୍ୱନି — zuh। ମୋ ସହ କୁହ।"
       }
     }
   ]

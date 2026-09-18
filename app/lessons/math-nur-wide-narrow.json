@@ -34,7 +34,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह रास्ता चौड़ा है। बस भी निकल जाए।",
-        "en": "This road is wide. A bus could drive along it."
+        "en": "This road is wide. A bus could drive along it.",
+        "mr": "हा रस्ता रुंद आहे. यावरून बस जाऊ शकते.",
+        "or": "ଏହି ରାସ୍ତା ଓସାରିଆ। ଏଥିରେ ବସ ଯାଇପାରିବ।"
       }
     },
     {
@@ -43,7 +45,9 @@
       "duration": 7500,
       "script": {
         "hi": "यह रास्ता पतला है। बस एक आदमी चल सकता है।",
-        "en": "This path is narrow. Only one person can walk along it."
+        "en": "This path is narrow. Only one person can walk along it.",
+        "mr": "ही पायवाट अरुंद आहे. यावरून एकच माणूस चालू शकतो.",
+        "or": "ଏହି ବାଟ ସରୁ। ଏଥିରେ କେବଳ ଜଣେ ଲୋକ ଚାଲିପାରିବ।"
       }
     }
   ]

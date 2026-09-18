@@ -184,7 +184,9 @@
       "duration": 10000,
       "script": {
         "hi": "नीला वाला कौन सा है? उसे छुओ।",
-        "en": "Which one is blue? Touch it."
+        "en": "Which one is blue? Touch it.",
+        "mr": "निळा कोणता? त्याला स्पर्श करा.",
+        "or": "କେଉଁଟି ନୀଳ? ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -198,7 +200,9 @@
       "duration": 10000,
       "script": {
         "hi": "गुलाबी वाला कौन सा है? उसे छुओ।",
-        "en": "Which one is pink? Touch it."
+        "en": "Which one is pink? Touch it.",
+        "mr": "गुलाबी कोणता? त्याला स्पर्श करा.",
+        "or": "କେଉଁଟି ଗୋଲାପୀ? ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -212,7 +216,9 @@
       "duration": 10000,
       "script": {
         "hi": "पीला वाला कौन सा है? उसे छुओ।",
-        "en": "Which one is yellow? Touch it."
+        "en": "Which one is yellow? Touch it.",
+        "mr": "पिवळा कोणता? त्याला स्पर्श करा.",
+        "or": "କେଉଁଟି ହଳଦିଆ? ତାକୁ ଛୁଅଁ।"
       }
     }
   ]

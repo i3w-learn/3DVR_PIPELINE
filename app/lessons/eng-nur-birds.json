@@ -107,7 +107,9 @@
       "duration": 8000,
       "script": {
         "hi": "ये पक्षी हैं। पक्षियों के पंख होते हैं, और वे उड़ते हैं।",
-        "en": "These are birds. Birds have wings, and they fly."
+        "en": "These are birds. Birds have wings, and they fly.",
+        "mr": "हे पक्षी आहेत. पक्ष्यांना पंख असतात, आणि ते उडतात.",
+        "or": "ଏମାନେ ପକ୍ଷୀ। ପକ୍ଷୀମାନଙ୍କର ଡେଣା ଥାଏ, ଆଉ ସେମାନେ ଉଡ଼ନ୍ତି।"
       }
     },
     {
@@ -115,7 +117,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह कौआ है। कौआ काला होता है।",
-        "en": "This is a crow. The crow is black."
+        "en": "This is a crow. The crow is black.",
+        "mr": "हा कावळा आहे. कावळा काळा असतो.",
+        "or": "ଏହା ଏକ କୁଆ। କୁଆ କଳା।"
       }
     },
     {
@@ -123,7 +127,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह गौरैया है। यह छोटी चिड़िया है।",
-        "en": "This is a sparrow. It is a little bird."
+        "en": "This is a sparrow. It is a little bird.",
+        "mr": "ही चिमणी आहे. हा छोटासा पक्षी आहे.",
+        "or": "ଏହା ଏକ ଘରଚଟିଆ। ଏହା ଗୋଟିଏ ଛୋଟ ପକ୍ଷୀ।"
       }
     },
     {
@@ -131,7 +137,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह कबूतर है।",
-        "en": "This is a pigeon."
+        "en": "This is a pigeon.",
+        "mr": "हे कबूतर आहे.",
+        "or": "ଏହା ଏକ ପାରା।"
       }
     },
     {
@@ -139,7 +147,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह तोता है। तोते के पंख रंग-बिरंगे हैं।",
-        "en": "This is a parrot. The parrot has bright feathers."
+        "en": "This is a parrot. The parrot has bright feathers.",
+        "mr": "हा पोपट आहे. पोपटाची पिसं रंगीबेरंगी असतात.",
+        "or": "ଏହା ଏକ ଶୁଆ। ଶୁଆର ପର ରଙ୍ଗବେରଙ୍ଗ।"
       }
     },
     {
@@ -147,7 +157,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह मोर है। मोर हमारा राष्ट्रीय पक्षी है।",
-        "en": "This is a peacock. The peacock is our national bird."
+        "en": "This is a peacock. The peacock is our national bird.",
+        "mr": "हा मोर आहे. मोर आपला राष्ट्रीय पक्षी आहे.",
+        "or": "ଏହା ଏକ ମୟୂର। ମୟୂର ଆମର ଜାତୀୟ ପକ୍ଷୀ।"
       }
     },
     {
@@ -155,7 +167,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह उल्लू है। उल्लू रात को जागता है।",
-        "en": "This is an owl. The owl is awake at night."
+        "en": "This is an owl. The owl is awake at night.",
+        "mr": "हे घुबड आहे. घुबड रात्री जागं असतं.",
+        "or": "ଏହା ଏକ ପେଚା। ପେଚା ରାତିରେ ଜାଗି ରହେ।"
       }
     },
     {
@@ -163,7 +177,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह बत्तख है। बत्तख पानी में तैरती है।",
-        "en": "This is a duck. The duck swims in water."
+        "en": "This is a duck. The duck swims in water.",
+        "mr": "हे बदक आहे. बदक पाण्यात पोहतं.",
+        "or": "ଏହା ଏକ ବତକ। ବତକ ପାଣିରେ ପହଁରେ।"
       }
     },
     {
@@ -171,7 +187,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह चील है। चील बहुत ऊँचा उड़ती है।",
-        "en": "This is an eagle. The eagle flies very high."
+        "en": "This is an eagle. The eagle flies very high.",
+        "mr": "हा गरुड आहे. गरुड खूप उंच उडतो.",
+        "or": "ଏହା ଏକ ଚିଲ। ଚିଲ ବହୁତ ଉଚ୍ଚରେ ଉଡ଼େ।"
       }
     }
   ]

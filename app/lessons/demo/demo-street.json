@@ -8,14 +8,18 @@
       "duration": 8000,
       "script": {
         "hi": "यह सड़क है। दोनों तरफ़ दुकानें हैं।",
-        "en": "This is a street, with shops on both sides."
+        "en": "This is a street, with shops on both sides.",
+        "mr": "हा रस्ता आहे, आणि दोन्ही बाजूंना दुकानं आहेत.",
+        "or": "ଏହା ଏକ ରାସ୍ତା, ଦୁଇ ପଟେ ଦୋକାନ ଅଛି।"
       }
     },
     {
       "duration": 8000,
       "script": {
         "hi": "दुकान, दवाखाना, डाकघर और बैंक।",
-        "en": "A shop, a clinic, a post office and a bank."
+        "en": "A shop, a clinic, a post office and a bank.",
+        "mr": "एक दुकान, एक दवाखाना, एक टपाल कार्यालय आणि एक बँक.",
+        "or": "ଗୋଟିଏ ଦୋକାନ, ଗୋଟିଏ ଡାକ୍ତରଖାନା, ଗୋଟିଏ ଡାକଘର ଆଉ ଗୋଟିଏ ବ୍ୟାଙ୍କ।"
       }
     }
   ]

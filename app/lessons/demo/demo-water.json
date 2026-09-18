@@ -8,14 +8,18 @@
       "duration": 8000,
       "script": {
         "hi": "यह तालाब है। पानी हिल रहा है।",
-        "en": "This is a pond. Watch the water moving."
+        "en": "This is a pond. Watch the water moving.",
+        "mr": "हे तळं आहे. पाणी हलताना बघा.",
+        "or": "ଏହା ଏକ ପୋଖରୀ। ପାଣି ହଲୁଥିବା ଦେଖ।"
       }
     },
     {
       "duration": 8000,
       "script": {
         "hi": "किनारे पर घास उगी है।",
-        "en": "Reeds grow along the edge. Look across to the far bank."
+        "en": "Reeds grow along the edge. Look across to the far bank.",
+        "mr": "काठावर लव्हाळं उगवलं आहे. पलीकडच्या काठाकडे बघा.",
+        "or": "କୂଳରେ ନଳ ଗଛ ବଢ଼ିଛି। ସେପାରି କୂଳକୁ ଦେଖ।"
       }
     }
   ]

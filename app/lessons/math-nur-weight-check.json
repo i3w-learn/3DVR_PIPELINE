@@ -73,7 +73,9 @@
       "duration": 10000,
       "script": {
         "hi": "कौन सा भारी है? उसे छुओ।",
-        "en": "Which one is heavier? Touch it."
+        "en": "Which one is heavier? Touch it.",
+        "mr": "कोणता जास्त जड आहे? त्याला स्पर्श करा.",
+        "or": "କେଉଁଟି ଅଧିକ ଓଜନିଆ? ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -86,7 +88,9 @@
       "duration": 10000,
       "script": {
         "hi": "अब कौन सा हल्का है? उसे छुओ।",
-        "en": "Now, which one is lighter? Touch it."
+        "en": "Now, which one is lighter? Touch it.",
+        "mr": "आता, कोणता जास्त हलका आहे? त्याला स्पर्श करा.",
+        "or": "ଏବେ, କେଉଁଟି ଅଧିକ ହାଲୁକା? ତାକୁ ଛୁଅଁ।"
       }
     }
   ]

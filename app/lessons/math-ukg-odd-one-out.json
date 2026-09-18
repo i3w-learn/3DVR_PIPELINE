@@ -136,7 +136,9 @@
       "duration": 9000,
       "script": {
         "hi": "इनमें से एक अलग है। रंग देखो। उसे छुओ।",
-        "en": "One of these is different — look at the colour. Touch it."
+        "en": "One of these is different — look at the colour. Touch it.",
+        "mr": "यांपैकी एक वेगळा आहे — रंग बघा. त्याला स्पर्श करा.",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଅଲଗା — ରଙ୍ଗ ଦେଖ। ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -150,7 +152,9 @@
       "duration": 9000,
       "script": {
         "hi": "इनमें से एक अलग है। आकार देखो। उसे छुओ।",
-        "en": "One of these is different — look at the shape. Touch it."
+        "en": "One of these is different — look at the shape. Touch it.",
+        "mr": "यांपैकी एक वेगळा आहे — आकार बघा. त्याला स्पर्श करा.",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଅଲଗା — ଆକୃତି ଦେଖ। ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -164,7 +168,9 @@
       "duration": 9000,
       "script": {
         "hi": "इनमें से एक अलग है। आकार देखो। उसे छुओ।",
-        "en": "One of these is different — look at the shape. Touch it."
+        "en": "One of these is different — look at the shape. Touch it.",
+        "mr": "यांपैकी एक वेगळा आहे — आकार बघा. त्याला स्पर्श करा.",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଅଲଗା — ଆକୃତି ଦେଖ। ତାକୁ ଛୁଅଁ।"
       }
     }
   ]

@@ -32,7 +32,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह मोटी है।",
-        "en": "This one is thick."
+        "en": "This one is thick.",
+        "mr": "हा जाड आहे.",
+        "or": "ଏହା ମୋଟା।"
       }
     },
     {
@@ -41,7 +43,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह पतली है। दोनों की लंबाई बराबर है।",
-        "en": "And this one is thin. They are just as long as each other."
+        "en": "And this one is thin. They are just as long as each other.",
+        "mr": "आणि हा बारीक आहे. दोन्ही सारखेच लांब आहेत.",
+        "or": "ଆଉ ଏହା ସରୁ। ଦୁଇଟି ସମାନ ଲମ୍ବା।"
       }
     }
   ]

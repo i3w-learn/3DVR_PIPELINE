@@ -231,7 +231,9 @@
       "duration": 9000,
       "script": {
         "hi": "हम एक जगह से दूसरी जगह कैसे जाते हैं? गाड़ियों से! कुछ सड़क पर चलती हैं, कुछ पानी पर, और कुछ आसमान में।",
-        "en": "How do we go from one place to another? By transport! Some go on the road, some on water, and some in the sky."
+        "en": "How do we go from one place to another? By transport! Some go on the road, some on water, and some in the sky.",
+        "mr": "आपण एका ठिकाणाहून दुसऱ्या ठिकाणी कसे जातो? वाहनांनी! काही रस्त्यावर चालतात, काही पाण्यावर, आणि काही आकाशात.",
+        "or": "ଆମେ ଗୋଟିଏ ଜାଗାରୁ ଆଉ ଗୋଟିଏ ଜାଗାକୁ କେମିତି ଯାଉ? ଯାନବାହାନରେ! କିଛି ରାସ୍ତାରେ ଚାଲେ, କିଛି ପାଣିରେ, ଆଉ କିଛି ଆକାଶରେ।"
       }
     },
     {
@@ -246,7 +248,9 @@
       "duration": 7000,
       "script": {
         "hi": "ये सड़क पर चलती हैं।",
-        "en": "These go on the road."
+        "en": "These go on the road.",
+        "mr": "ही रस्त्यावर चालतात.",
+        "or": "ଏଗୁଡ଼ିକ ରାସ୍ତାରେ ଚାଲେ।"
       }
     },
     {
@@ -262,7 +266,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह कार है।",
-        "en": "This is a car."
+        "en": "This is a car.",
+        "mr": "ही कार आहे.",
+        "or": "ଏହା ଏକ କାର।"
       }
     },
     {
@@ -278,7 +284,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह बस है।",
-        "en": "This is a bus."
+        "en": "This is a bus.",
+        "mr": "ही बस आहे.",
+        "or": "ଏହା ଏକ ବସ।"
       }
     },
     {
@@ -294,7 +302,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह साइकिल है।",
-        "en": "This is a bicycle."
+        "en": "This is a bicycle.",
+        "mr": "ही सायकल आहे.",
+        "or": "ଏହା ଏକ ସାଇକେଲ।"
       }
     },
     {
@@ -310,7 +320,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह रेलगाड़ी है।",
-        "en": "This is a train."
+        "en": "This is a train.",
+        "mr": "ही रेल्वेगाडी आहे.",
+        "or": "ଏହା ଏକ ରେଳଗାଡ଼ି।"
       }
     },
     {
@@ -326,7 +338,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ऑटो है।",
-        "en": "This is an auto."
+        "en": "This is an auto.",
+        "mr": "ही रिक्षा आहे.",
+        "or": "ଏହା ଏକ ଅଟୋ।"
       }
     },
     {
@@ -339,7 +353,9 @@
       "duration": 7000,
       "script": {
         "hi": "ये पानी पर चलती हैं।",
-        "en": "These go on the water."
+        "en": "These go on the water.",
+        "mr": "ही पाण्यावर चालतात.",
+        "or": "ଏଗୁଡ଼ିକ ପାଣିରେ ଚାଲେ।"
       }
     },
     {
@@ -353,7 +369,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह नाव है।",
-        "en": "This is a boat."
+        "en": "This is a boat.",
+        "mr": "ही होडी आहे.",
+        "or": "ଏହା ଏକ ଡଙ୍ଗା।"
       }
     },
     {
@@ -367,7 +385,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह जहाज़ है।",
-        "en": "This is a ship."
+        "en": "This is a ship.",
+        "mr": "हे जहाज आहे.",
+        "or": "ଏହା ଏକ ଜାହାଜ।"
       }
     },
     {
@@ -381,7 +401,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह पाल वाली नाव है।",
-        "en": "This is a sailboat."
+        "en": "This is a sailboat.",
+        "mr": "ही शिडाची होडी आहे.",
+        "or": "ଏହା ଏକ ପାଲ ଡଙ୍ଗା।"
       }
     },
     {
@@ -394,7 +416,9 @@
       "duration": 7000,
       "script": {
         "hi": "ये आसमान में उड़ते हैं।",
-        "en": "These fly in the sky."
+        "en": "These fly in the sky.",
+        "mr": "ही आकाशात उडतात.",
+        "or": "ଏଗୁଡ଼ିକ ଆକାଶରେ ଉଡ଼େ।"
       }
     },
     {
@@ -408,7 +432,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह हवाई जहाज़ है।",
-        "en": "This is an aeroplane."
+        "en": "This is an aeroplane.",
+        "mr": "हे विमान आहे.",
+        "or": "ଏହା ଏକ ଉଡ଼ାଜାହାଜ।"
       }
     },
     {
@@ -422,7 +448,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह हेलीकॉप्टर है।",
-        "en": "This is a helicopter."
+        "en": "This is a helicopter.",
+        "mr": "हे हेलिकॉप्टर आहे.",
+        "or": "ଏହା ଏକ ହେଲିକପ୍ଟର।"
       }
     },
     {
@@ -436,7 +464,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह रॉकेट है।",
-        "en": "This is a rocket."
+        "en": "This is a rocket.",
+        "mr": "हे रॉकेट आहे.",
+        "or": "ଏହା ଏକ ରକେଟ।"
       }
     }
   ]

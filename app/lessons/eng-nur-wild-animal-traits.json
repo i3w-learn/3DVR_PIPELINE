@@ -76,7 +76,9 @@
       "duration": 8000,
       "script": {
         "hi": "हर जंगली जानवर में कुछ ख़ास होता है। चलो देखें।",
-        "en": "Every wild animal has something special. Let us look."
+        "en": "Every wild animal has something special. Let us look.",
+        "mr": "प्रत्येक जंगली प्राण्यात काहीतरी खास असतं. चला बघूया.",
+        "or": "ପ୍ରତ୍ୟେକ ବଣୁଆ ପଶୁଙ୍କର କିଛି ନା କିଛି ଖାସ କଥା ଥାଏ। ଆସ ଦେଖିବା।"
       }
     },
     {
@@ -84,7 +86,9 @@
       "duration": 8000,
       "script": {
         "hi": "जिराफ़ की गर्दन बहुत लंबी है। वह ऊँचे पेड़ों के पत्ते खाता है।",
-        "en": "The giraffe has a very long neck. It eats leaves from the tallest trees."
+        "en": "The giraffe has a very long neck. It eats leaves from the tallest trees.",
+        "mr": "जिराफाची मान खूप लांब असते. तो उंच झाडांची पानं खातो.",
+        "or": "ଜିରାଫର ବେକ ବହୁତ ଲମ୍ବା। ସେ ଉଚ୍ଚ ଗଛର ପତ୍ର ଖାଏ।"
       }
     },
     {
@@ -92,7 +96,9 @@
       "duration": 8000,
       "script": {
         "hi": "हाथी की लंबी सूँड़ है। सूँड़ से वह पानी पीता है।",
-        "en": "The elephant has a long trunk. It drinks water with its trunk."
+        "en": "The elephant has a long trunk. It drinks water with its trunk.",
+        "mr": "हत्तीला लांब सोंड असते. सोंडेने तो पाणी पितो.",
+        "or": "ହାତୀର ଲମ୍ବା ଶୁଣ୍ଢ ଥାଏ। ଶୁଣ୍ଢରେ ସେ ପାଣି ପିଏ।"
       }
     },
     {
@@ -100,7 +106,9 @@
       "duration": 8000,
       "script": {
         "hi": "ज़ेबरा के शरीर पर काली-सफ़ेद धारियाँ हैं।",
-        "en": "The zebra has black and white stripes."
+        "en": "The zebra has black and white stripes.",
+        "mr": "झेब्र्याच्या अंगावर काळे-पांढरे पट्टे असतात.",
+        "or": "ଜେବ୍ରାର ଦେହରେ କଳା ଧଳା ପଟା ଥାଏ।"
       }
     },
     {
@@ -108,7 +116,9 @@
       "duration": 8000,
       "script": {
         "hi": "शेर की गर्दन पर घने बाल हैं। इसे अयाल कहते हैं।",
-        "en": "The lion has thick hair round its neck. It is called a mane."
+        "en": "The lion has thick hair round its neck. It is called a mane.",
+        "mr": "सिंहाच्या मानेभोवती दाट केस असतात. त्याला आयाळ म्हणतात.",
+        "or": "ସିଂହର ବେକ ଚାରିପଟେ ଘନ କେଶ ଥାଏ। ତାକୁ କେଶର କୁହାଯାଏ।"
       }
     },
     {
@@ -116,7 +126,9 @@
       "duration": 8000,
       "script": {
         "hi": "गैंडे की नाक पर सींग है।",
-        "en": "The rhinoceros has a horn on its nose."
+        "en": "The rhinoceros has a horn on its nose.",
+        "mr": "गेंड्याच्या नाकावर शिंग असतं.",
+        "or": "ଗଣ୍ଡାର ନାକ ଉପରେ ଶିଙ୍ଗ ଥାଏ।"
       }
     },
     {
@@ -124,7 +136,9 @@
       "duration": 8000,
       "script": {
         "hi": "कंगारू अपने बच्चे को पेट की थैली में रखता है।",
-        "en": "The kangaroo carries its baby in a pouch."
+        "en": "The kangaroo carries its baby in a pouch.",
+        "mr": "कांगारू आपल्या पिल्लाला पोटाच्या पिशवीत ठेवतो.",
+        "or": "କଙ୍ଗାରୁ ନିଜ ଛୁଆକୁ ପେଟର ଥଳିରେ ରଖେ।"
       }
     }
   ]

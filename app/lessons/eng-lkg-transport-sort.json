@@ -130,7 +130,9 @@
       "duration": 12000,
       "script": {
         "hi": "यह कार है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
-        "en": "This is a car. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+        "en": "This is a car. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+        "mr": "ही कार आहे. ही कुठे चालते — रस्त्यावर, पाण्यावर, की आकाशात? योग्य जागेला स्पर्श करा.",
+        "or": "ଏହା ଏକ କାର। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -144,7 +146,9 @@
       "duration": 12000,
       "script": {
         "hi": "यह नाव है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
-        "en": "This is a boat. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+        "en": "This is a boat. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+        "mr": "ही होडी आहे. ही कुठे चालते — रस्त्यावर, पाण्यावर, की आकाशात? योग्य जागेला स्पर्श करा.",
+        "or": "ଏହା ଏକ ଡଙ୍ଗା। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -158,7 +162,9 @@
       "duration": 12000,
       "script": {
         "hi": "यह हवाई जहाज़ है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
-        "en": "This is an aeroplane. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+        "en": "This is an aeroplane. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+        "mr": "हे विमान आहे. हे कुठे चालतं — रस्त्यावर, पाण्यावर, की आकाशात? योग्य जागेला स्पर्श करा.",
+        "or": "ଏହା ଏକ ଉଡ଼ାଜାହାଜ। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -172,7 +178,9 @@
       "duration": 12000,
       "script": {
         "hi": "यह बस है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
-        "en": "This is a bus. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+        "en": "This is a bus. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+        "mr": "ही बस आहे. ही कुठे चालते — रस्त्यावर, पाण्यावर, की आकाशात? योग्य जागेला स्पर्श करा.",
+        "or": "ଏହା ଏକ ବସ। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -186,7 +194,9 @@
       "duration": 12000,
       "script": {
         "hi": "यह हेलीकॉप्टर है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
-        "en": "This is a helicopter. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+        "en": "This is a helicopter. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+        "mr": "हे हेलिकॉप्टर आहे. हे कुठे चालतं — रस्त्यावर, पाण्यावर, की आकाशात? योग्य जागेला स्पर्श करा.",
+        "or": "ଏହା ଏକ ହେଲିକପ୍ଟର। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -200,7 +210,9 @@
       "duration": 12000,
       "script": {
         "hi": "यह जहाज़ है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
-        "en": "This is a ship. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+        "en": "This is a ship. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
+        "mr": "हे जहाज आहे. हे कुठे चालतं — रस्त्यावर, पाण्यावर, की आकाशात? योग्य जागेला स्पर्श करा.",
+        "or": "ଏହା ଏକ ଜାହାଜ। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।"
       }
     }
   ]
