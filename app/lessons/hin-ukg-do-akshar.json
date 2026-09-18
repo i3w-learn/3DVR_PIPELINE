@@ -181,7 +181,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — न और ल।",
-        "en": "Look: न, ल."
+        "en": "Look: न, ल.",
+        "mr": "बघा — न, ल.",
+        "or": "ଦେଖ — न, ल।"
       }
     },
     {
@@ -195,7 +197,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है — नल। नल का मतलब tap।",
-        "en": "Together they make नल — tap."
+        "en": "Together they make नल — tap.",
+        "mr": "मिळून बनतो नल — म्हणजे नळ.",
+        "or": "ମିଶି ହେଲା नल — ମାନେ ପାଣି କଳ।"
       }
     },
     {
@@ -206,7 +210,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — क और ल।",
-        "en": "Look: क, ल."
+        "en": "Look: क, ल.",
+        "mr": "बघा — क, ल.",
+        "or": "ଦେଖ — क, ल।"
       }
     },
     {
@@ -220,7 +226,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है — कल। कल का मतलब yesterday।",
-        "en": "Together they make कल — yesterday."
+        "en": "Together they make कल — yesterday.",
+        "mr": "मिळून बनतो कल — म्हणजे काल.",
+        "or": "ମିଶି ହେଲା कल — ମାନେ ଗତକାଲି।"
       }
     },
     {
@@ -231,7 +239,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — घ और र।",
-        "en": "Look: घ, र."
+        "en": "Look: घ, र.",
+        "mr": "बघा — घ, र.",
+        "or": "ଦେଖ — घ, र।"
       }
     },
     {
@@ -245,7 +255,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है — घर। घर का मतलब house।",
-        "en": "Together they make घर — house."
+        "en": "Together they make घर — house.",
+        "mr": "मिळून बनतो घर — म्हणजे घर.",
+        "or": "ମିଶି ହେଲା घर — ମାନେ ଘର।"
       }
     },
     {
@@ -256,7 +268,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — ज और ल।",
-        "en": "Look: ज, ल."
+        "en": "Look: ज, ल.",
+        "mr": "बघा — ज, ल.",
+        "or": "ଦେଖ — ज, ल।"
       }
     },
     {
@@ -270,7 +284,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है — जल। जल का मतलब water।",
-        "en": "Together they make जल — water."
+        "en": "Together they make जल — water.",
+        "mr": "मिळून बनतो जल — म्हणजे पाणी.",
+        "or": "ମିଶି ହେଲା जल — ମାନେ ପାଣି।"
       }
     },
     {
@@ -281,7 +297,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — म और न।",
-        "en": "Look: म, न."
+        "en": "Look: म, न.",
+        "mr": "बघा — म, न.",
+        "or": "ଦେଖ — म, न।"
       }
     },
     {
@@ -295,7 +313,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है — मन। मन का मतलब the mind।",
-        "en": "Together they make मन — the mind."
+        "en": "Together they make मन — the mind.",
+        "mr": "मिळून बनतो मन — म्हणजे मन.",
+        "or": "ମିଶି ହେଲା मन — ମାନେ ମନ।"
       }
     },
     {
@@ -306,7 +326,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — ब और स।",
-        "en": "Look: ब, स."
+        "en": "Look: ब, स.",
+        "mr": "बघा — ब, स.",
+        "or": "ଦେଖ — ब, स।"
       }
     },
     {
@@ -320,7 +342,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है — बस। बस का मतलब a bus।",
-        "en": "Together they make बस — a bus."
+        "en": "Together they make बस — a bus.",
+        "mr": "मिळून बनतो बस — म्हणजे बस.",
+        "or": "ମିଶି ହେଲା बस — ମାନେ ବସ।"
       }
     }
   ]

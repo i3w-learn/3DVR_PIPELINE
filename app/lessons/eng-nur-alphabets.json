@@ -798,7 +798,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा A है।",
-        "en": "This is capital A."
+        "en": "This is capital A.",
+        "mr": "हे मोठं A आहे.",
+        "or": "ଏହା ବଡ଼ A।"
       }
     },
     {
@@ -812,7 +814,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा a है।",
-        "en": "This is small a."
+        "en": "This is small a.",
+        "mr": "हे छोटं a आहे.",
+        "or": "ଏହା ଛୋଟ a।"
       }
     },
     {
@@ -826,7 +830,9 @@
       "duration": 5500,
       "script": {
         "hi": "A से Apple — सेब।",
-        "en": "A for Apple."
+        "en": "A for Apple.",
+        "mr": "A — Apple, म्हणजे सफरचंद.",
+        "or": "A — Apple, ମାନେ ସେଓ।"
       }
     },
     {
@@ -839,7 +845,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा B है।",
-        "en": "This is capital B."
+        "en": "This is capital B.",
+        "mr": "हे मोठं B आहे.",
+        "or": "ଏହା ବଡ଼ B।"
       }
     },
     {
@@ -853,7 +861,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा b है।",
-        "en": "This is small b."
+        "en": "This is small b.",
+        "mr": "हे छोटं b आहे.",
+        "or": "ଏହା ଛୋଟ b।"
       }
     },
     {
@@ -867,7 +877,9 @@
       "duration": 5500,
       "script": {
         "hi": "B से Banana — केला।",
-        "en": "B for Banana."
+        "en": "B for Banana.",
+        "mr": "B — Banana, म्हणजे केळं.",
+        "or": "B — Banana, ମାନେ କଦଳୀ।"
       }
     },
     {
@@ -880,7 +892,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा C है।",
-        "en": "This is capital C."
+        "en": "This is capital C.",
+        "mr": "हे मोठं C आहे.",
+        "or": "ଏହା ବଡ଼ C।"
       }
     },
     {
@@ -894,7 +908,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा c है।",
-        "en": "This is small c."
+        "en": "This is small c.",
+        "mr": "हे छोटं c आहे.",
+        "or": "ଏହା ଛୋଟ c।"
       }
     },
     {
@@ -908,7 +924,9 @@
       "duration": 5500,
       "script": {
         "hi": "C से Cat — बिल्ली।",
-        "en": "C for Cat."
+        "en": "C for Cat.",
+        "mr": "C — Cat, म्हणजे मांजर.",
+        "or": "C — Cat, ମାନେ ବିଲେଇ।"
       }
     },
     {
@@ -921,7 +939,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा D है।",
-        "en": "This is capital D."
+        "en": "This is capital D.",
+        "mr": "हे मोठं D आहे.",
+        "or": "ଏହା ବଡ଼ D।"
       }
     },
     {
@@ -935,7 +955,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा d है।",
-        "en": "This is small d."
+        "en": "This is small d.",
+        "mr": "हे छोटं d आहे.",
+        "or": "ଏହା ଛୋଟ d।"
       }
     },
     {
@@ -949,7 +971,9 @@
       "duration": 5500,
       "script": {
         "hi": "D से Dog — कुत्ता।",
-        "en": "D for Dog."
+        "en": "D for Dog.",
+        "mr": "D — Dog, म्हणजे कुत्रा.",
+        "or": "D — Dog, ମାନେ କୁକୁର।"
       }
     },
     {
@@ -962,7 +986,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा E है।",
-        "en": "This is capital E."
+        "en": "This is capital E.",
+        "mr": "हे मोठं E आहे.",
+        "or": "ଏହା ବଡ଼ E।"
       }
     },
     {
@@ -976,7 +1002,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा e है।",
-        "en": "This is small e."
+        "en": "This is small e.",
+        "mr": "हे छोटं e आहे.",
+        "or": "ଏହା ଛୋଟ e।"
       }
     },
     {
@@ -990,7 +1018,9 @@
       "duration": 5500,
       "script": {
         "hi": "E से Elephant — हाथी।",
-        "en": "E for Elephant."
+        "en": "E for Elephant.",
+        "mr": "E — Elephant, म्हणजे हत्ती.",
+        "or": "E — Elephant, ମାନେ ହାତୀ।"
       }
     },
     {
@@ -1003,7 +1033,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा F है।",
-        "en": "This is capital F."
+        "en": "This is capital F.",
+        "mr": "हे मोठं F आहे.",
+        "or": "ଏହା ବଡ଼ F।"
       }
     },
     {
@@ -1017,7 +1049,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा f है।",
-        "en": "This is small f."
+        "en": "This is small f.",
+        "mr": "हे छोटं f आहे.",
+        "or": "ଏହା ଛୋଟ f।"
       }
     },
     {
@@ -1031,7 +1065,9 @@
       "duration": 5500,
       "script": {
         "hi": "F से Fish — मछली।",
-        "en": "F for Fish."
+        "en": "F for Fish.",
+        "mr": "F — Fish, म्हणजे मासा.",
+        "or": "F — Fish, ମାନେ ମାଛ।"
       }
     },
     {
@@ -1044,7 +1080,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा G है।",
-        "en": "This is capital G."
+        "en": "This is capital G.",
+        "mr": "हे मोठं G आहे.",
+        "or": "ଏହା ବଡ଼ G।"
       }
     },
     {
@@ -1058,7 +1096,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा g है।",
-        "en": "This is small g."
+        "en": "This is small g.",
+        "mr": "हे छोटं g आहे.",
+        "or": "ଏହା ଛୋଟ g।"
       }
     },
     {
@@ -1072,7 +1112,9 @@
       "duration": 5500,
       "script": {
         "hi": "G से Goat — बकरी।",
-        "en": "G for Goat."
+        "en": "G for Goat.",
+        "mr": "G — Goat, म्हणजे शेळी.",
+        "or": "G — Goat, ମାନେ ଛେଳି।"
       }
     },
     {
@@ -1085,7 +1127,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा H है।",
-        "en": "This is capital H."
+        "en": "This is capital H.",
+        "mr": "हे मोठं H आहे.",
+        "or": "ଏହା ବଡ଼ H।"
       }
     },
     {
@@ -1099,7 +1143,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा h है।",
-        "en": "This is small h."
+        "en": "This is small h.",
+        "mr": "हे छोटं h आहे.",
+        "or": "ଏହା ଛୋଟ h।"
       }
     },
     {
@@ -1113,7 +1159,9 @@
       "duration": 5500,
       "script": {
         "hi": "H से Hen — मुर्गी।",
-        "en": "H for Hen."
+        "en": "H for Hen.",
+        "mr": "H — Hen, म्हणजे कोंबडी.",
+        "or": "H — Hen, ମାନେ କୁକୁଡ଼ା।"
       }
     },
     {
@@ -1126,7 +1174,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा I है।",
-        "en": "This is capital I."
+        "en": "This is capital I.",
+        "mr": "हे मोठं I आहे.",
+        "or": "ଏହା ବଡ଼ I।"
       }
     },
     {
@@ -1140,7 +1190,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा i है।",
-        "en": "This is small i."
+        "en": "This is small i.",
+        "mr": "हे छोटं i आहे.",
+        "or": "ଏହା ଛୋଟ i।"
       }
     },
     {
@@ -1154,7 +1206,9 @@
       "duration": 5500,
       "script": {
         "hi": "I से Ice cream — आइसक्रीम।",
-        "en": "I for Ice cream."
+        "en": "I for Ice cream.",
+        "mr": "I — Ice cream, म्हणजे आईस्क्रीम.",
+        "or": "I — Ice cream, ମାନେ ଆଇସକ୍ରିମ।"
       }
     },
     {
@@ -1167,7 +1221,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा J है।",
-        "en": "This is capital J."
+        "en": "This is capital J.",
+        "mr": "हे मोठं J आहे.",
+        "or": "ଏହା ବଡ଼ J।"
       }
     },
     {
@@ -1181,7 +1237,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा j है।",
-        "en": "This is small j."
+        "en": "This is small j.",
+        "mr": "हे छोटं j आहे.",
+        "or": "ଏହା ଛୋଟ j।"
       }
     },
     {
@@ -1195,7 +1253,9 @@
       "duration": 5500,
       "script": {
         "hi": "J से Jeep — जीप।",
-        "en": "J for Jeep."
+        "en": "J for Jeep.",
+        "mr": "J — Jeep, म्हणजे जीप.",
+        "or": "J — Jeep, ମାନେ ଜିପ।"
       }
     },
     {
@@ -1208,7 +1268,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा K है।",
-        "en": "This is capital K."
+        "en": "This is capital K.",
+        "mr": "हे मोठं K आहे.",
+        "or": "ଏହା ବଡ଼ K।"
       }
     },
     {
@@ -1222,7 +1284,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा k है।",
-        "en": "This is small k."
+        "en": "This is small k.",
+        "mr": "हे छोटं k आहे.",
+        "or": "ଏହା ଛୋଟ k।"
       }
     },
     {
@@ -1236,7 +1300,9 @@
       "duration": 5500,
       "script": {
         "hi": "K से Kite — पतंग।",
-        "en": "K for Kite."
+        "en": "K for Kite.",
+        "mr": "K — Kite, म्हणजे पतंग.",
+        "or": "K — Kite, ମାନେ ଗୁଡ଼ି।"
       }
     },
     {
@@ -1249,7 +1315,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा L है।",
-        "en": "This is capital L."
+        "en": "This is capital L.",
+        "mr": "हे मोठं L आहे.",
+        "or": "ଏହା ବଡ଼ L।"
       }
     },
     {
@@ -1263,7 +1331,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा l है।",
-        "en": "This is small l."
+        "en": "This is small l.",
+        "mr": "हे छोटं l आहे.",
+        "or": "ଏହା ଛୋଟ l।"
       }
     },
     {
@@ -1277,7 +1347,9 @@
       "duration": 5500,
       "script": {
         "hi": "L से Lion — शेर।",
-        "en": "L for Lion."
+        "en": "L for Lion.",
+        "mr": "L — Lion, म्हणजे सिंह.",
+        "or": "L — Lion, ମାନେ ସିଂହ।"
       }
     },
     {
@@ -1290,7 +1362,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा M है।",
-        "en": "This is capital M."
+        "en": "This is capital M.",
+        "mr": "हे मोठं M आहे.",
+        "or": "ଏହା ବଡ଼ M।"
       }
     },
     {
@@ -1304,7 +1378,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा m है।",
-        "en": "This is small m."
+        "en": "This is small m.",
+        "mr": "हे छोटं m आहे.",
+        "or": "ଏହା ଛୋଟ m।"
       }
     },
     {
@@ -1318,7 +1394,9 @@
       "duration": 5500,
       "script": {
         "hi": "M से Monkey — बंदर।",
-        "en": "M for Monkey."
+        "en": "M for Monkey.",
+        "mr": "M — Monkey, म्हणजे माकड.",
+        "or": "M — Monkey, ମାନେ ମାଙ୍କଡ଼।"
       }
     },
     {
@@ -1331,7 +1409,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा N है।",
-        "en": "This is capital N."
+        "en": "This is capital N.",
+        "mr": "हे मोठं N आहे.",
+        "or": "ଏହା ବଡ଼ N।"
       }
     },
     {
@@ -1345,7 +1425,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा n है।",
-        "en": "This is small n."
+        "en": "This is small n.",
+        "mr": "हे छोटं n आहे.",
+        "or": "ଏହା ଛୋଟ n।"
       }
     },
     {
@@ -1359,7 +1441,9 @@
       "duration": 5500,
       "script": {
         "hi": "N से Nest — घोंसला।",
-        "en": "N for Nest."
+        "en": "N for Nest.",
+        "mr": "N — Nest, म्हणजे घरटं.",
+        "or": "N — Nest, ମାନେ ବସା।"
       }
     },
     {
@@ -1372,7 +1456,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा O है।",
-        "en": "This is capital O."
+        "en": "This is capital O.",
+        "mr": "हे मोठं O आहे.",
+        "or": "ଏହା ବଡ଼ O।"
       }
     },
     {
@@ -1386,7 +1472,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा o है।",
-        "en": "This is small o."
+        "en": "This is small o.",
+        "mr": "हे छोटं o आहे.",
+        "or": "ଏହା ଛୋଟ o।"
       }
     },
     {
@@ -1400,7 +1488,9 @@
       "duration": 5500,
       "script": {
         "hi": "O से Orange — संतरा।",
-        "en": "O for Orange."
+        "en": "O for Orange.",
+        "mr": "O — Orange, म्हणजे संत्रं.",
+        "or": "O — Orange, ମାନେ କମଳା।"
       }
     },
     {
@@ -1413,7 +1503,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा P है।",
-        "en": "This is capital P."
+        "en": "This is capital P.",
+        "mr": "हे मोठं P आहे.",
+        "or": "ଏହା ବଡ଼ P।"
       }
     },
     {
@@ -1427,7 +1519,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा p है।",
-        "en": "This is small p."
+        "en": "This is small p.",
+        "mr": "हे छोटं p आहे.",
+        "or": "ଏହା ଛୋଟ p।"
       }
     },
     {
@@ -1441,7 +1535,9 @@
       "duration": 5500,
       "script": {
         "hi": "P से Parrot — तोता।",
-        "en": "P for Parrot."
+        "en": "P for Parrot.",
+        "mr": "P — Parrot, म्हणजे पोपट.",
+        "or": "P — Parrot, ମାନେ ଶୁଆ।"
       }
     },
     {
@@ -1454,7 +1550,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा Q है।",
-        "en": "This is capital Q."
+        "en": "This is capital Q.",
+        "mr": "हे मोठं Q आहे.",
+        "or": "ଏହା ବଡ଼ Q।"
       }
     },
     {
@@ -1468,7 +1566,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा q है।",
-        "en": "This is small q."
+        "en": "This is small q.",
+        "mr": "हे छोटं q आहे.",
+        "or": "ଏହା ଛୋଟ q।"
       }
     },
     {
@@ -1482,7 +1582,9 @@
       "duration": 5500,
       "script": {
         "hi": "Q से Queen — रानी।",
-        "en": "Q for Queen."
+        "en": "Q for Queen.",
+        "mr": "Q — Queen, म्हणजे राणी.",
+        "or": "Q — Queen, ମାନେ ରାଣୀ।"
       }
     },
     {
@@ -1495,7 +1597,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा R है।",
-        "en": "This is capital R."
+        "en": "This is capital R.",
+        "mr": "हे मोठं R आहे.",
+        "or": "ଏହା ବଡ଼ R।"
       }
     },
     {
@@ -1509,7 +1613,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा r है।",
-        "en": "This is small r."
+        "en": "This is small r.",
+        "mr": "हे छोटं r आहे.",
+        "or": "ଏହା ଛୋଟ r।"
       }
     },
     {
@@ -1523,7 +1629,9 @@
       "duration": 5500,
       "script": {
         "hi": "R से Rocket — रॉकेट।",
-        "en": "R for Rocket."
+        "en": "R for Rocket.",
+        "mr": "R — Rocket, म्हणजे रॉकेट.",
+        "or": "R — Rocket, ମାନେ ରକେଟ।"
       }
     },
     {
@@ -1536,7 +1644,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा S है।",
-        "en": "This is capital S."
+        "en": "This is capital S.",
+        "mr": "हे मोठं S आहे.",
+        "or": "ଏହା ବଡ଼ S।"
       }
     },
     {
@@ -1550,7 +1660,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा s है।",
-        "en": "This is small s."
+        "en": "This is small s.",
+        "mr": "हे छोटं s आहे.",
+        "or": "ଏହା ଛୋଟ s।"
       }
     },
     {
@@ -1564,7 +1676,9 @@
       "duration": 5500,
       "script": {
         "hi": "S से Sun — सूरज।",
-        "en": "S for Sun."
+        "en": "S for Sun.",
+        "mr": "S — Sun, म्हणजे सूर्य.",
+        "or": "S — Sun, ମାନେ ସୂର୍ଯ୍ୟ।"
       }
     },
     {
@@ -1577,7 +1691,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा T है।",
-        "en": "This is capital T."
+        "en": "This is capital T.",
+        "mr": "हे मोठं T आहे.",
+        "or": "ଏହା ବଡ଼ T।"
       }
     },
     {
@@ -1591,7 +1707,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा t है।",
-        "en": "This is small t."
+        "en": "This is small t.",
+        "mr": "हे छोटं t आहे.",
+        "or": "ଏହା ଛୋଟ t।"
       }
     },
     {
@@ -1605,7 +1723,9 @@
       "duration": 5500,
       "script": {
         "hi": "T से Tiger — बाघ।",
-        "en": "T for Tiger."
+        "en": "T for Tiger.",
+        "mr": "T — Tiger, म्हणजे वाघ.",
+        "or": "T — Tiger, ମାନେ ବାଘ।"
       }
     },
     {
@@ -1618,7 +1738,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा U है।",
-        "en": "This is capital U."
+        "en": "This is capital U.",
+        "mr": "हे मोठं U आहे.",
+        "or": "ଏହା ବଡ଼ U।"
       }
     },
     {
@@ -1632,7 +1754,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा u है।",
-        "en": "This is small u."
+        "en": "This is small u.",
+        "mr": "हे छोटं u आहे.",
+        "or": "ଏହା ଛୋଟ u।"
       }
     },
     {
@@ -1646,7 +1770,9 @@
       "duration": 5500,
       "script": {
         "hi": "U से Umbrella — छाता।",
-        "en": "U for Umbrella."
+        "en": "U for Umbrella.",
+        "mr": "U — Umbrella, म्हणजे छत्री.",
+        "or": "U — Umbrella, ମାନେ ଛତା।"
       }
     },
     {
@@ -1659,7 +1785,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा V है।",
-        "en": "This is capital V."
+        "en": "This is capital V.",
+        "mr": "हे मोठं V आहे.",
+        "or": "ଏହା ବଡ଼ V।"
       }
     },
     {
@@ -1673,7 +1801,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा v है।",
-        "en": "This is small v."
+        "en": "This is small v.",
+        "mr": "हे छोटं v आहे.",
+        "or": "ଏହା ଛୋଟ v।"
       }
     },
     {
@@ -1687,7 +1817,9 @@
       "duration": 5500,
       "script": {
         "hi": "V से Violin — वायलिन।",
-        "en": "V for Violin."
+        "en": "V for Violin.",
+        "mr": "V — Violin, म्हणजे व्हायोलिन.",
+        "or": "V — Violin, ମାନେ ଭାୟୋଲିନ।"
       }
     },
     {
@@ -1700,7 +1832,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा W है।",
-        "en": "This is capital W."
+        "en": "This is capital W.",
+        "mr": "हे मोठं W आहे.",
+        "or": "ଏହା ବଡ଼ W।"
       }
     },
     {
@@ -1714,7 +1848,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा w है।",
-        "en": "This is small w."
+        "en": "This is small w.",
+        "mr": "हे छोटं w आहे.",
+        "or": "ଏହା ଛୋଟ w।"
       }
     },
     {
@@ -1728,7 +1864,9 @@
       "duration": 5500,
       "script": {
         "hi": "W से Watermelon — तरबूज़।",
-        "en": "W for Watermelon."
+        "en": "W for Watermelon.",
+        "mr": "W — Watermelon, म्हणजे कलिंगड.",
+        "or": "W — Watermelon, ମାନେ ତରଭୁଜ।"
       }
     },
     {
@@ -1741,7 +1879,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा X है।",
-        "en": "This is capital X."
+        "en": "This is capital X.",
+        "mr": "हे मोठं X आहे.",
+        "or": "ଏହା ବଡ଼ X।"
       }
     },
     {
@@ -1755,7 +1895,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा x है।",
-        "en": "This is small x."
+        "en": "This is small x.",
+        "mr": "हे छोटं x आहे.",
+        "or": "ଏହା ଛୋଟ x।"
       }
     },
     {
@@ -1769,7 +1911,9 @@
       "duration": 5500,
       "script": {
         "hi": "X से Xylophone — ज़ाइलोफ़ोन।",
-        "en": "X for Xylophone."
+        "en": "X for Xylophone.",
+        "mr": "X — Xylophone, म्हणजे झायलोफोन.",
+        "or": "X — Xylophone, ମାନେ ଜାଇଲୋଫୋନ।"
       }
     },
     {
@@ -1782,7 +1926,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा Y है।",
-        "en": "This is capital Y."
+        "en": "This is capital Y.",
+        "mr": "हे मोठं Y आहे.",
+        "or": "ଏହା ବଡ଼ Y।"
       }
     },
     {
@@ -1796,7 +1942,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा y है।",
-        "en": "This is small y."
+        "en": "This is small y.",
+        "mr": "हे छोटं y आहे.",
+        "or": "ଏହା ଛୋଟ y।"
       }
     },
     {
@@ -1810,7 +1958,9 @@
       "duration": 5500,
       "script": {
         "hi": "Y से Yarn — ऊन का गोला।",
-        "en": "Y for Yarn."
+        "en": "Y for Yarn.",
+        "mr": "Y — Yarn, म्हणजे लोकरीचा गोळा.",
+        "or": "Y — Yarn, ମାନେ ଉଲ ଗୋଲା।"
       }
     },
     {
@@ -1823,7 +1973,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह बड़ा Z है।",
-        "en": "This is capital Z."
+        "en": "This is capital Z.",
+        "mr": "हे मोठं Z आहे.",
+        "or": "ଏହା ବଡ଼ Z।"
       }
     },
     {
@@ -1837,7 +1989,9 @@
       "duration": 4500,
       "script": {
         "hi": "यह छोटा z है।",
-        "en": "This is small z."
+        "en": "This is small z.",
+        "mr": "हे छोटं z आहे.",
+        "or": "ଏହା ଛୋଟ z।"
       }
     },
     {
@@ -1851,7 +2005,9 @@
       "duration": 5500,
       "script": {
         "hi": "Z से Zebra — ज़ेबरा।",
-        "en": "Z for Zebra."
+        "en": "Z for Zebra.",
+        "mr": "Z — Zebra, म्हणजे झेब्रा.",
+        "or": "Z — Zebra, ମାନେ ଜେବ୍ରା।"
       }
     }
   ]

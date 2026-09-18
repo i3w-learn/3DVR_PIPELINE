@@ -8,7 +8,7 @@
       "id": "rangoli",
       "build": "rangoli",
       "params": {
-        "size": 1.0
+        "size": 1
       },
       "position": "-1.150 0.035 -2.000",
       "name": {
@@ -95,7 +95,9 @@
       "duration": 9000,
       "script": {
         "hi": "त्योहार ख़ुशी के दिन होते हैं। हम सब मिलकर त्योहार मनाते हैं।",
-        "en": "Festivals are happy days. We all celebrate them together."
+        "en": "Festivals are happy days. We all celebrate them together.",
+        "mr": "सण म्हणजे आनंदाचे दिवस. आपण सगळे मिळून सण साजरे करतो.",
+        "or": "ପର୍ବ ହେଉଛି ଖୁସିର ଦିନ। ଆମେ ସମସ୍ତେ ମିଶି ପର୍ବ ପାଳୁ।"
       }
     },
     {
@@ -103,7 +105,9 @@
       "duration": 8000,
       "script": {
         "hi": "दिवाली रोशनी का त्योहार है। हम दीये जलाते हैं।",
-        "en": "Diwali is the festival of lights. We light diyas."
+        "en": "Diwali is the festival of lights. We light diyas.",
+        "mr": "दिवाळी हा दिव्यांचा सण आहे. आपण पणत्या लावतो.",
+        "or": "ଦୀପାବଳି ଆଲୁଅର ପର୍ବ। ଆମେ ଦୀପ ଜାଳୁ।"
       }
     },
     {
@@ -111,7 +115,9 @@
       "duration": 8000,
       "script": {
         "hi": "और आँगन में रंगोली बनाते हैं।",
-        "en": "And we make a rangoli on the floor."
+        "en": "And we make a rangoli on the floor.",
+        "mr": "आणि अंगणात रांगोळी काढतो.",
+        "or": "ଆଉ ଅଗଣାରେ ଝୋଟି ଚିତା ପକାଉ।"
       }
     },
     {
@@ -119,7 +125,9 @@
       "duration": 8000,
       "script": {
         "hi": "मकर संक्रांति पर हम पतंग उड़ाते हैं।",
-        "en": "On Makar Sankranti we fly kites."
+        "en": "On Makar Sankranti we fly kites.",
+        "mr": "मकर संक्रांतीला आपण पतंग उडवतो.",
+        "or": "ମକର ସଂକ୍ରାନ୍ତିରେ ଆମେ ଗୁଡ଼ି ଉଡ଼ାଉ।"
       }
     },
     {
@@ -127,7 +135,9 @@
       "duration": 8000,
       "script": {
         "hi": "होली रंगों का त्योहार है। हम एक-दूसरे को गुलाल लगाते हैं।",
-        "en": "Holi is the festival of colours. We put gulal on one another."
+        "en": "Holi is the festival of colours. We put gulal on one another.",
+        "mr": "होळी हा रंगांचा सण आहे. आपण एकमेकांना गुलाल लावतो.",
+        "or": "ହୋଲି ରଙ୍ଗର ପର୍ବ। ଆମେ ପରସ୍ପରକୁ ଅବିର ଲଗାଉ।"
       }
     },
     {
@@ -135,7 +145,9 @@
       "duration": 8000,
       "script": {
         "hi": "क्रिसमस पर हम क्रिसमस ट्री सजाते हैं…",
-        "en": "At Christmas we decorate a Christmas tree…"
+        "en": "At Christmas we decorate a Christmas tree…",
+        "mr": "नाताळला आपण ख्रिसमस ट्री सजवतो…",
+        "or": "ବଡ଼ଦିନରେ ଆମେ କ୍ରିସମାସ ଗଛ ସଜାଉ…"
       }
     },
     {
@@ -143,7 +155,9 @@
       "duration": 7000,
       "script": {
         "hi": "…और एक-दूसरे को उपहार देते हैं।",
-        "en": "…and we give each other gifts."
+        "en": "…and we give each other gifts.",
+        "mr": "…आणि एकमेकांना भेटवस्तू देतो.",
+        "or": "…ଆଉ ପରସ୍ପରକୁ ଉପହାର ଦେଉ।"
       }
     },
     {
@@ -151,14 +165,18 @@
       "duration": 8000,
       "script": {
         "hi": "ईद पर हम चाँद देखते हैं, और सबको गले लगाकर ईद मुबारक कहते हैं।",
-        "en": "At Eid we look for the moon, and we wish everyone Eid Mubarak."
+        "en": "At Eid we look for the moon, and we wish everyone Eid Mubarak.",
+        "mr": "ईदला आपण चंद्र बघतो, आणि सगळ्यांना ईद मुबारक म्हणतो.",
+        "or": "ଇଦରେ ଆମେ ଜହ୍ନ ଦେଖୁ, ଆଉ ସମସ୍ତଙ୍କୁ ଇଦ ମୁବାରକ କହୁ।"
       }
     },
     {
       "duration": 8000,
       "script": {
         "hi": "तुम्हारे घर में कौन-सा त्योहार मनाते हैं?",
-        "en": "Which festivals do you celebrate at your home?"
+        "en": "Which festivals do you celebrate at your home?",
+        "mr": "तुमच्या घरी कोणते सण साजरे करतात?",
+        "or": "ତୁମ ଘରେ କେଉଁ ପର୍ବ ପାଳନ୍ତି?"
       }
     }
   ]

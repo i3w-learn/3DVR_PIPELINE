@@ -52,7 +52,7 @@
       "model": "bulldozer",
       "position": "-2.000 0.000 -25.500",
       "rotation": "0 70 0",
-      "ring": 3.0,
+      "ring": 3,
       "name": {
         "en": "Bulldozer",
         "hi": "बुलडोज़र"
@@ -64,7 +64,9 @@
       "duration": 8000,
       "script": {
         "hi": "कुछ गाड़ियाँ ख़ास काम करती हैं। चलो उन्हें देखें।",
-        "en": "Some vehicles do a special job. Let us look at them."
+        "en": "Some vehicles do a special job. Let us look at them.",
+        "mr": "काही गाड्या खास काम करतात. चला त्या बघूया.",
+        "or": "କିଛି ଗାଡ଼ି ଖାସ କାମ କରେ। ଆସ ସେଗୁଡ଼ିକୁ ଦେଖିବା।"
       }
     },
     {
@@ -72,7 +74,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह पुलिस की गाड़ी है। पुलिस इसमें हमारी मदद के लिए आती है।",
-        "en": "This is a police car. The police come in it to help us."
+        "en": "This is a police car. The police come in it to help us.",
+        "mr": "ही पोलिसांची गाडी आहे. पोलीस यातून आपल्या मदतीला येतात.",
+        "or": "ଏହା ପୋଲିସ ଗାଡ଼ି। ପୋଲିସ ଏଥିରେ ଆମକୁ ସାହାଯ୍ୟ କରିବାକୁ ଆସନ୍ତି।"
       }
     },
     {
@@ -80,7 +84,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह एम्बुलेंस है। यह बीमार लोगों को जल्दी अस्पताल ले जाती है।",
-        "en": "This is an ambulance. It takes sick people to hospital quickly."
+        "en": "This is an ambulance. It takes sick people to hospital quickly.",
+        "mr": "ही रुग्णवाहिका आहे. ती आजारी माणसांना लवकर दवाखान्यात नेते.",
+        "or": "ଏହା ଆମ୍ବୁଲାନ୍ସ। ଏହା ଅସୁସ୍ଥ ଲୋକଙ୍କୁ ଶୀଘ୍ର ଡାକ୍ତରଖାନା ନିଏ।"
       }
     },
     {
@@ -88,7 +94,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह दमकल है। यह आग बुझाने जाती है।",
-        "en": "This is a fire engine. It goes to put out fires."
+        "en": "This is a fire engine. It goes to put out fires.",
+        "mr": "हा आगीचा बंब आहे. तो आग विझवायला जातो.",
+        "or": "ଏହା ଦମକଳ ଗାଡ଼ି। ଏହା ନିଆଁ ଲିଭାଇବାକୁ ଯାଏ।"
       }
     },
     {
@@ -96,7 +104,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह स्कूल बस है। यह बच्चों को स्कूल ले जाती है।",
-        "en": "This is a school bus. It takes children to school."
+        "en": "This is a school bus. It takes children to school.",
+        "mr": "ही शाळेची बस आहे. ती मुलांना शाळेत नेते.",
+        "or": "ଏହା ସ୍କୁଲ ବସ। ଏହା ପିଲାମାନଙ୍କୁ ସ୍କୁଲ ନିଏ।"
       }
     },
     {
@@ -104,14 +114,18 @@
       "duration": 8000,
       "script": {
         "hi": "और यह बुलडोज़र है। यह मिट्टी हटाता है और सड़क बनाने में मदद करता है।",
-        "en": "And this is a bulldozer. It pushes earth and helps to build roads."
+        "en": "And this is a bulldozer. It pushes earth and helps to build roads.",
+        "mr": "आणि हा बुलडोझर आहे. तो माती ढकलतो आणि रस्ते बनवायला मदत करतो.",
+        "or": "ଆଉ ଏହା ବୁଲଡୋଜର। ଏହା ମାଟି ଠେଲେ ଓ ରାସ୍ତା ତିଆରିରେ ସାହାଯ୍ୟ କରେ।"
       }
     },
     {
       "duration": 8000,
       "script": {
         "hi": "जब एम्बुलेंस या दमकल का सायरन बजे, तो सब उसे रास्ता देते हैं।",
-        "en": "When an ambulance or a fire engine sounds its siren, everybody makes way."
+        "en": "When an ambulance or a fire engine sounds its siren, everybody makes way.",
+        "mr": "रुग्णवाहिकेचा किंवा आगीच्या बंबाचा सायरन वाजला, की सगळे तिला वाट देतात.",
+        "or": "ଆମ୍ବୁଲାନ୍ସ କିମ୍ବା ଦମକଳର ସାଇରନ ବାଜିଲେ, ସମସ୍ତେ ତାକୁ ବାଟ ଛାଡ଼ନ୍ତି।"
       }
     }
   ]

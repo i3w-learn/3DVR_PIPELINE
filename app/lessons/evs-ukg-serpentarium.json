@@ -13,7 +13,7 @@
       "params": {
         "width": 1.8,
         "height": 1.1,
-        "depth": 1.0,
+        "depth": 1,
         "stand": 0.7
       },
       "position": "-3.225 0.000 -4.600",
@@ -40,7 +40,7 @@
       "params": {
         "width": 1.8,
         "height": 1.1,
-        "depth": 1.0,
+        "depth": 1,
         "stand": 0.7
       },
       "position": "-1.075 0.000 -4.600",
@@ -67,7 +67,7 @@
       "params": {
         "width": 1.8,
         "height": 1.1,
-        "depth": 1.0,
+        "depth": 1,
         "stand": 0.7
       },
       "position": "1.075 0.000 -4.600",
@@ -94,7 +94,7 @@
       "params": {
         "width": 1.8,
         "height": 1.1,
-        "depth": 1.0,
+        "depth": 1,
         "stand": 0.7
       },
       "position": "3.225 0.000 -4.600",
@@ -121,7 +121,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह सर्प-घर है। यहाँ साँप और दूसरे रेंगने वाले जानवर शीशे के पीछे रहते हैं।",
-        "en": "This is the snake house. Snakes and other reptiles live here, behind glass."
+        "en": "This is the snake house. Snakes and other reptiles live here, behind glass.",
+        "mr": "हे सर्पालय आहे. इथे साप आणि इतर सरपटणारे प्राणी काचेच्या मागे राहतात.",
+        "or": "ଏହା ସାପ ଘର। ଏଠି ସାପ ଆଉ ଅନ୍ୟ ସରୀସୃପମାନେ କାଚ ପଛରେ ରହନ୍ତି।"
       }
     },
     {
@@ -129,7 +131,9 @@
       "duration": 9000,
       "script": {
         "hi": "शीशा हमें सुरक्षित रखता है। हम सिर्फ़ देखते हैं, शीशे को थपथपाते नहीं।",
-        "en": "The glass keeps us safe. We only look. We do not tap on the glass."
+        "en": "The glass keeps us safe. We only look. We do not tap on the glass.",
+        "mr": "काच आपल्याला सुरक्षित ठेवते. आपण फक्त बघतो. काचेवर टकटक करत नाही.",
+        "or": "କାଚ ଆମକୁ ନିରାପଦ ରଖେ। ଆମେ କେବଳ ଦେଖୁ। କାଚକୁ ଠକ ଠକ କରୁ ନାହିଁ।"
       }
     },
     {
@@ -138,7 +142,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह नाग है। यह अपना फन फैलाता है। नाग ज़हरीला होता है।",
-        "en": "This is a cobra. It spreads its hood. The cobra is poisonous."
+        "en": "This is a cobra. It spreads its hood. The cobra is poisonous.",
+        "mr": "हा नाग आहे. तो आपला फणा काढतो. नाग विषारी असतो.",
+        "or": "ଏହା ଏକ ନାଗ ସାପ। ଏହା ନିଜ ଫଣା ଟେକେ। ନାଗ ସାପ ବିଷାକ୍ତ।"
       }
     },
     {
@@ -147,7 +153,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह हरा साँप है। यह पेड़ों पर रहता है।",
-        "en": "This is a green snake. It lives in trees."
+        "en": "This is a green snake. It lives in trees.",
+        "mr": "हा हिरवा साप आहे. तो झाडांवर राहतो.",
+        "or": "ଏହା ଏକ ସବୁଜ ସାପ। ଏହା ଗଛରେ ରହେ।"
       }
     },
     {
@@ -156,7 +164,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह छिपकली है। इसके चार पैर और एक लंबी पूँछ है।",
-        "en": "This is a lizard. It has four legs and a long tail."
+        "en": "This is a lizard. It has four legs and a long tail.",
+        "mr": "हा सरडा आहे. त्याला चार पाय आणि लांब शेपूट असतं.",
+        "or": "ଏହା ଏକ ଝିଟିପିଟି। ଏହାର ଚାରୋଟି ଗୋଡ଼ ଆଉ ଗୋଟିଏ ଲମ୍ବା ଲାଞ୍ଜ ଥାଏ।"
       }
     },
     {
@@ -165,14 +175,18 @@
       "duration": 9000,
       "script": {
         "hi": "यह कछुआ है। यह अपने खोल में छिप जाता है।",
-        "en": "This is a turtle. It hides inside its shell."
+        "en": "This is a turtle. It hides inside its shell.",
+        "mr": "हे कासव आहे. ते आपल्या कवचात लपतं.",
+        "or": "ଏହା ଏକ କଇଁଛ। ଏହା ନିଜ ଖୋଳ ଭିତରେ ଲୁଚେ।"
       }
     },
     {
       "duration": 10000,
       "script": {
         "hi": "अगर बाहर कहीं साँप दिखे — उसे छूना नहीं, पास नहीं जाना। धीरे से दूर हटो और किसी बड़े को बताओ।",
-        "en": "If you ever see a snake outside — do not touch it, do not go near. Move away slowly and tell a grown-up."
+        "en": "If you ever see a snake outside — do not touch it, do not go near. Move away slowly and tell a grown-up.",
+        "mr": "बाहेर कुठे साप दिसला — तर त्याला हात लावू नका, जवळ जाऊ नका. हळूच दूर व्हा आणि मोठ्या माणसाला सांगा.",
+        "or": "ବାହାରେ କେଉଁଠି ସାପ ଦେଖିଲେ — ତାକୁ ଛୁଅଁ ନାହିଁ, ପାଖକୁ ଯାଅ ନାହିଁ। ଧୀରେ ଦୂରେଇ ଯାଅ ଆଉ ଜଣେ ବଡ଼ଙ୍କୁ କୁହ।"
       }
     }
   ]

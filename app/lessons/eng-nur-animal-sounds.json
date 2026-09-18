@@ -109,21 +109,27 @@
       "duration": 9000,
       "script": {
         "hi": "हर जानवर की अपनी आवाज़ होती है। किसी को देखो और सुनो।",
-        "en": "Every animal has its own sound. Look at one, and listen."
+        "en": "Every animal has its own sound. Look at one, and listen.",
+        "mr": "प्रत्येक प्राण्याचा स्वतःचा आवाज असतो. एखाद्याकडे बघा, आणि ऐका.",
+        "or": "ପ୍ରତ୍ୟେକ ପଶୁର ନିଜର ଡାକ ଅଛି। ଗୋଟିଏକୁ ଦେଖ, ଆଉ ଶୁଣ।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "गाय कैसे बोलती है? उसे ढूँढ़ो।",
-        "en": "What does the cow say? Find her and see."
+        "en": "What does the cow say? Find her and see.",
+        "mr": "गाय कशी ओरडते? तिला शोधा आणि बघा.",
+        "or": "ଗାଈ କେମିତି ଡାକେ? ତାକୁ ଖୋଜ ଆଉ ଦେଖ।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "अब मुर्गी को ढूँढ़ो।",
-        "en": "Now find the hen."
+        "en": "Now find the hen.",
+        "mr": "आता कोंबडी शोधा.",
+        "or": "ଏବେ କୁକୁଡ଼ାକୁ ଖୋଜ।"
       }
     }
   ]

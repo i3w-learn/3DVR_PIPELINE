@@ -195,7 +195,9 @@
       "duration": 12000,
       "script": {
         "hi": "इनमें से कौन पानी में रहता है? उसे छुओ।",
-        "en": "Which of these lives in water? Touch it."
+        "en": "Which of these lives in water? Touch it.",
+        "mr": "यांपैकी कोण पाण्यात राहतं? त्याला स्पर्श करा.",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ କିଏ ପାଣିରେ ରହେ? ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -208,7 +210,9 @@
       "duration": 12000,
       "script": {
         "hi": "इनमें से जंगली जानवर कौन सा है?",
-        "en": "Which of these is a wild animal?"
+        "en": "Which of these is a wild animal?",
+        "mr": "यांपैकी जंगली प्राणी कोणता?",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ବଣୁଆ ପଶୁ?"
       }
     },
     {
@@ -221,7 +225,9 @@
       "duration": 12000,
       "script": {
         "hi": "इनमें से पालतू जानवर कौन सा है? वह हमारे साथ रहता है।",
-        "en": "Which of these is a domestic animal? It lives with us."
+        "en": "Which of these is a domestic animal? It lives with us.",
+        "mr": "यांपैकी पाळीव प्राणी कोणता? तो आपल्यासोबत राहतो.",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ଗୃହପାଳିତ ପଶୁ? ସେ ଆମ ସହ ରହେ।"
       }
     },
     {
@@ -234,7 +240,9 @@
       "duration": 12000,
       "script": {
         "hi": "इनमें से कौन समुद्र में रहता है?",
-        "en": "Which of these lives in the sea?"
+        "en": "Which of these lives in the sea?",
+        "mr": "यांपैकी कोण समुद्रात राहतं?",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ କିଏ ସମୁଦ୍ରରେ ରହେ?"
       }
     },
     {
@@ -247,7 +255,9 @@
       "duration": 12000,
       "script": {
         "hi": "इनमें से कौन जंगल में रहता है?",
-        "en": "Which of these lives in the forest?"
+        "en": "Which of these lives in the forest?",
+        "mr": "यांपैकी कोण जंगलात राहतं?",
+        "or": "ଏମାନଙ୍କ ଭିତରୁ କିଏ ଜଙ୍ଗଲରେ ରହେ?"
       }
     }
   ]

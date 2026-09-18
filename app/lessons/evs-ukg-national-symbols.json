@@ -12,7 +12,7 @@
         "en": "Our flag",
         "hi": "हमारा झंडा"
       },
-      "ring": 1.0
+      "ring": 1
     },
     {
       "id": "tiger",
@@ -86,7 +86,9 @@
       "duration": 9000,
       "script": {
         "hi": "हमारे देश का नाम भारत है। हर देश के अपने राष्ट्रीय प्रतीक होते हैं।",
-        "en": "Our country is India. Every country has its own national symbols."
+        "en": "Our country is India. Every country has its own national symbols.",
+        "mr": "आपल्या देशाचं नाव भारत आहे. प्रत्येक देशाची स्वतःची राष्ट्रीय प्रतीकं असतात.",
+        "or": "ଆମ ଦେଶର ନାଁ ଭାରତ। ପ୍ରତ୍ୟେକ ଦେଶର ନିଜର ଜାତୀୟ ପ୍ରତୀକ ଥାଏ।"
       }
     },
     {
@@ -94,7 +96,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह हमारा राष्ट्रीय ध्वज है — तिरंगा। इसमें केसरिया, सफ़ेद और हरा रंग है, और बीच में अशोक चक्र।",
-        "en": "This is our national flag — the Tiranga. It is saffron, white and green, with the Ashoka Chakra in the middle."
+        "en": "This is our national flag — the Tiranga. It is saffron, white and green, with the Ashoka Chakra in the middle.",
+        "mr": "हा आपला राष्ट्रध्वज आहे — तिरंगा. यात केशरी, पांढरा आणि हिरवा रंग आहे, आणि मध्यभागी अशोक चक्र.",
+        "or": "ଏହା ଆମର ଜାତୀୟ ପତାକା — ତ୍ରିରଙ୍ଗା। ଏଥିରେ ଗେରୁଆ, ଧଳା ଆଉ ସବୁଜ ରଙ୍ଗ ଅଛି, ଆଉ ମଝିରେ ଅଶୋକ ଚକ୍ର।"
       }
     },
     {
@@ -102,7 +106,9 @@
       "duration": 8000,
       "script": {
         "hi": "बाघ हमारा राष्ट्रीय पशु है।",
-        "en": "The tiger is our national animal."
+        "en": "The tiger is our national animal.",
+        "mr": "वाघ हा आपला राष्ट्रीय प्राणी आहे.",
+        "or": "ବାଘ ଆମର ଜାତୀୟ ପଶୁ।"
       }
     },
     {
@@ -110,7 +116,9 @@
       "duration": 8000,
       "script": {
         "hi": "मोर हमारा राष्ट्रीय पक्षी है।",
-        "en": "The peacock is our national bird."
+        "en": "The peacock is our national bird.",
+        "mr": "मोर हा आपला राष्ट्रीय पक्षी आहे.",
+        "or": "ମୟୂର ଆମର ଜାତୀୟ ପକ୍ଷୀ।"
       }
     },
     {
@@ -118,7 +126,9 @@
       "duration": 8000,
       "script": {
         "hi": "कमल हमारा राष्ट्रीय फूल है।",
-        "en": "The lotus is our national flower."
+        "en": "The lotus is our national flower.",
+        "mr": "कमळ हे आपलं राष्ट्रीय फूल आहे.",
+        "or": "ପଦ୍ମ ଆମର ଜାତୀୟ ଫୁଲ।"
       }
     },
     {
@@ -126,7 +136,9 @@
       "duration": 8000,
       "script": {
         "hi": "आम हमारा राष्ट्रीय फल है।",
-        "en": "The mango is our national fruit."
+        "en": "The mango is our national fruit.",
+        "mr": "आंबा हे आपलं राष्ट्रीय फळ आहे.",
+        "or": "ଆମ୍ବ ଆମର ଜାତୀୟ ଫଳ।"
       }
     },
     {
@@ -134,7 +146,9 @@
       "duration": 8000,
       "script": {
         "hi": "और बरगद हमारा राष्ट्रीय पेड़ है।",
-        "en": "And the banyan is our national tree."
+        "en": "And the banyan is our national tree.",
+        "mr": "आणि वड हा आपला राष्ट्रीय वृक्ष आहे.",
+        "or": "ଆଉ ବର ଗଛ ଆମର ଜାତୀୟ ବୃକ୍ଷ।"
       }
     },
     {
@@ -142,7 +156,9 @@
       "duration": 9000,
       "script": {
         "hi": "जब राष्ट्रगान बजता है, हम सीधे खड़े होते हैं। जय हिंद!",
-        "en": "When the national anthem plays, we stand up straight. Jai Hind!"
+        "en": "When the national anthem plays, we stand up straight. Jai Hind!",
+        "mr": "राष्ट्रगीत वाजतं, तेव्हा आपण सरळ उभे राहतो. जय हिंद!",
+        "or": "ଜାତୀୟ ସଙ୍ଗୀତ ବାଜିଲେ ଆମେ ସିଧା ଠିଆ ହେଉ। ଜୟ ହିନ୍ଦ!"
       }
     }
   ]

@@ -56,7 +56,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह फाटक बंद है। कोई अंदर नहीं जा सकता।",
-        "en": "This gate is closed. Nobody can walk through."
+        "en": "This gate is closed. Nobody can walk through.",
+        "mr": "हे फाटक बंद आहे. कोणीही आत जाऊ शकत नाही.",
+        "or": "ଏହି ଫାଟକ ବନ୍ଦ। କେହି ଯାଇପାରିବେ ନାହିଁ।"
       }
     },
     {
@@ -69,7 +71,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह फाटक खुला है। अब रास्ता साफ़ है।",
-        "en": "This gate is open. Now the way is clear."
+        "en": "This gate is open. Now the way is clear.",
+        "mr": "हे फाटक उघडं आहे. आता रस्ता मोकळा आहे.",
+        "or": "ଏହି ଫାଟକ ଖୋଲା। ଏବେ ବାଟ ଖୋଲା ଅଛି।"
       }
     },
     {
@@ -81,7 +85,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह दरवाज़ा बंद है।",
-        "en": "This door is closed."
+        "en": "This door is closed.",
+        "mr": "हा दरवाजा बंद आहे.",
+        "or": "ଏହି କବାଟ ବନ୍ଦ।"
       }
     },
     {
@@ -94,7 +100,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह दरवाज़ा खुला है।",
-        "en": "And this door is open."
+        "en": "And this door is open.",
+        "mr": "आणि हा दरवाजा उघडा आहे.",
+        "or": "ଆଉ ଏହି କବାଟ ଖୋଲା।"
       }
     }
   ]

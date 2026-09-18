@@ -102,7 +102,9 @@
       "duration": 8000,
       "script": {
         "hi": "ये पालतू जानवर हैं। ये हमारे साथ, हमारे घर और खेत में रहते हैं।",
-        "en": "These are domestic animals. They live with us, at our homes and farms."
+        "en": "These are domestic animals. They live with us, at our homes and farms.",
+        "mr": "हे पाळीव प्राणी आहेत. ते आपल्यासोबत, आपल्या घरी आणि शेतात राहतात.",
+        "or": "ଏମାନେ ଗୃହପାଳିତ ପଶୁ। ସେମାନେ ଆମ ସହ, ଆମ ଘରେ ଓ ଚାଷ ଜମିରେ ରହନ୍ତି।"
       }
     },
     {
@@ -110,7 +112,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह गाय है। गाय हमें दूध देती है।",
-        "en": "This is a cow. The cow gives us milk."
+        "en": "This is a cow. The cow gives us milk.",
+        "mr": "ही गाय आहे. गाय आपल्याला दूध देते.",
+        "or": "ଏହା ଏକ ଗାଈ। ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ।"
       }
     },
     {
@@ -118,7 +122,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह भैंस है। भैंस भी दूध देती है।",
-        "en": "This is a buffalo. The buffalo gives us milk too."
+        "en": "This is a buffalo. The buffalo gives us milk too.",
+        "mr": "ही म्हैस आहे. म्हैससुद्धा दूध देते.",
+        "or": "ଏହା ଏକ ମଇଁଷି। ମଇଁଷି ମଧ୍ୟ କ୍ଷୀର ଦିଏ।"
       }
     },
     {
@@ -126,7 +132,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह घोड़ा है। घोड़ा तेज़ दौड़ता है।",
-        "en": "This is a horse. The horse runs fast."
+        "en": "This is a horse. The horse runs fast.",
+        "mr": "हा घोडा आहे. घोडा वेगाने धावतो.",
+        "or": "ଏହା ଏକ ଘୋଡ଼ା। ଘୋଡ଼ା ଜୋରରେ ଦୌଡ଼େ।"
       }
     },
     {
@@ -134,7 +142,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह बकरी है।",
-        "en": "This is a goat."
+        "en": "This is a goat.",
+        "mr": "ही शेळी आहे.",
+        "or": "ଏହା ଏକ ଛେଳି।"
       }
     },
     {
@@ -142,7 +152,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह भेड़ है। भेड़ से हमें ऊन मिलती है।",
-        "en": "This is a sheep. The sheep gives us wool."
+        "en": "This is a sheep. The sheep gives us wool.",
+        "mr": "ही मेंढी आहे. मेंढी आपल्याला लोकर देते.",
+        "or": "ଏହା ଏକ ମେଣ୍ଢା। ମେଣ୍ଢା ଆମକୁ ପଶମ ଦିଏ।"
       }
     },
     {
@@ -150,7 +162,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह कुत्ता है। कुत्ता घर की रखवाली करता है।",
-        "en": "This is a dog. The dog guards our home."
+        "en": "This is a dog. The dog guards our home.",
+        "mr": "हा कुत्रा आहे. कुत्रा घराची राखण करतो.",
+        "or": "ଏହା ଏକ କୁକୁର। କୁକୁର ଘର ଜଗେ।"
       }
     },
     {
@@ -158,7 +172,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह बिल्ली है।",
-        "en": "This is a cat."
+        "en": "This is a cat.",
+        "mr": "हे मांजर आहे.",
+        "or": "ଏହା ଏକ ବିଲେଇ।"
       }
     },
     {
@@ -166,7 +182,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह मुर्गी है। मुर्गी अंडे देती है।",
-        "en": "And this is a hen. The hen lays eggs."
+        "en": "And this is a hen. The hen lays eggs.",
+        "mr": "आणि ही कोंबडी आहे. कोंबडी अंडी देते.",
+        "or": "ଆଉ ଏହା ଏକ କୁକୁଡ଼ା। କୁକୁଡ଼ା ଅଣ୍ଡା ଦିଏ।"
       }
     }
   ]

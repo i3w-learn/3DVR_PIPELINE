@@ -119,7 +119,9 @@
       "duration": 5500,
       "script": {
         "hi": "यहाँ 4 हैं और यहाँ 2।",
-        "en": "Here are 4, and here are 2."
+        "en": "Here are 4, and here are 2.",
+        "mr": "इथे 4 आहेत, आणि इथे 2.",
+        "or": "ଏଠି 4ଟି ଅଛି, ଆଉ ଏଠି 2ଟି।"
       }
     },
     {
@@ -137,7 +139,9 @@
       "duration": 6500,
       "script": {
         "hi": "लाल, नीले से ज़्यादा हैं।",
-        "en": "The red are more than the blue."
+        "en": "The red are more than the blue.",
+        "mr": "लाल निळ्यांपेक्षा जास्त आहेत.",
+        "or": "ନାଲିଗୁଡ଼ିକ ନୀଳଠାରୁ ଅଧିକ।"
       }
     },
     {
@@ -155,7 +159,9 @@
       "duration": 5500,
       "script": {
         "hi": "यहाँ 2 हैं और यहाँ 5।",
-        "en": "Here are 2, and here are 5."
+        "en": "Here are 2, and here are 5.",
+        "mr": "इथे 2 आहेत, आणि इथे 5.",
+        "or": "ଏଠି 2ଟି ଅଛି, ଆଉ ଏଠି 5ଟି।"
       }
     },
     {
@@ -174,7 +180,9 @@
       "duration": 6500,
       "script": {
         "hi": "लाल, नीले से कम हैं।",
-        "en": "The red are less than the blue."
+        "en": "The red are less than the blue.",
+        "mr": "लाल निळ्यांपेक्षा कमी आहेत.",
+        "or": "ନାଲିଗୁଡ଼ିକ ନୀଳଠାରୁ କମ।"
       }
     },
     {
@@ -191,7 +199,9 @@
       "duration": 5500,
       "script": {
         "hi": "यहाँ 3 हैं और यहाँ 3।",
-        "en": "Here are 3, and here are 3."
+        "en": "Here are 3, and here are 3.",
+        "mr": "इथे 3 आहेत, आणि इथे 3.",
+        "or": "ଏଠି 3ଟି ଅଛି, ଆଉ ଏଠି 3ଟି।"
       }
     },
     {
@@ -209,7 +219,9 @@
       "duration": 6500,
       "script": {
         "hi": "लाल, नीले से बराबर हैं।",
-        "en": "The red are the same as the blue."
+        "en": "The red are the same as the blue.",
+        "mr": "लाल आणि निळे सारखेच आहेत.",
+        "or": "ନାଲି ଆଉ ନୀଳ ସମାନ।"
       }
     }
   ]

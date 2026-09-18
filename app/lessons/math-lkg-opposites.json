@@ -114,7 +114,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह बड़ा है।",
-        "en": "This is big."
+        "en": "This is big.",
+        "mr": "हे मोठं आहे.",
+        "or": "ଏହା ବଡ଼।"
       }
     },
     {
@@ -127,7 +129,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह छोटा — बड़े का उल्टा।",
-        "en": "And this is small — the opposite of big."
+        "en": "And this is small — the opposite of big.",
+        "mr": "आणि हे छोटं — मोठ्याच्या उलट.",
+        "or": "ଆଉ ଏହା ଛୋଟ — ବଡ଼ର ଓଲଟା।"
       }
     },
     {
@@ -139,7 +143,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह लंबा है।",
-        "en": "This is long."
+        "en": "This is long.",
+        "mr": "हे लांब आहे.",
+        "or": "ଏହା ଲମ୍ବା।"
       }
     },
     {
@@ -152,7 +158,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह छोटा — लंबे का उल्टा।",
-        "en": "And this is short — the opposite of long."
+        "en": "And this is short — the opposite of long.",
+        "mr": "आणि हे आखूड — लांबच्या उलट.",
+        "or": "ଆଉ ଏହା ଛୋଟ — ଲମ୍ବାର ଓଲଟା।"
       }
     },
     {
@@ -164,7 +172,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह भरा है।",
-        "en": "This is full."
+        "en": "This is full.",
+        "mr": "हे भरलेलं आहे.",
+        "or": "ଏହା ଭର୍ତ୍ତି।"
       }
     },
     {
@@ -177,7 +187,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह ख़ाली — भरे का उल्टा।",
-        "en": "And this is empty — the opposite of full."
+        "en": "And this is empty — the opposite of full.",
+        "mr": "आणि हे रिकामं — भरलेल्याच्या उलट.",
+        "or": "ଆଉ ଏହା ଖାଲି — ଭର୍ତ୍ତିର ଓଲଟା।"
       }
     },
     {
@@ -189,7 +201,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह गरम है।",
-        "en": "This is hot."
+        "en": "This is hot.",
+        "mr": "हे गरम आहे.",
+        "or": "ଏହା ଗରମ।"
       }
     },
     {
@@ -202,7 +216,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह ठंडा — गरम का उल्टा।",
-        "en": "And this is cold — the opposite of hot."
+        "en": "And this is cold — the opposite of hot.",
+        "mr": "आणि हे थंड — गरमच्या उलट.",
+        "or": "ଆଉ ଏହା ଥଣ୍ଡା — ଗରମର ଓଲଟା।"
       }
     }
   ]

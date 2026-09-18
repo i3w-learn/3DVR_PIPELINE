@@ -52,14 +52,18 @@
       "duration": 9000,
       "script": {
         "hi": "हम गरम हवा के गुब्बारे में हैं। टोकरी के किनारे से नीचे देखो।",
-        "en": "We are in a hot air balloon. Look down over the edge of the basket."
+        "en": "We are in a hot air balloon. Look down over the edge of the basket.",
+        "mr": "आपण गरम हवेच्या फुग्यात आहोत. टोपलीच्या कडेवरून खाली बघा.",
+        "or": "ଆମେ ଗରମ ପବନ ବେଲୁନରେ ଅଛୁ। ଟୋକେଇର ଧାରରୁ ତଳକୁ ଦେଖ।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "नीचे नदी, खेत और घर कितने छोटे दिख रहे हैं!",
-        "en": "Down below — a river, fields and houses. How tiny they look from up here!"
+        "en": "Down below — a river, fields and houses. How tiny they look from up here!",
+        "mr": "खाली — नदी, शेतं आणि घरं. इथून ती किती छोटी दिसतात!",
+        "or": "ତଳେ — ନଦୀ, କ୍ଷେତ ଆଉ ଘର। ଏଠାରୁ ସେଗୁଡ଼ିକ କେତେ ଛୋଟ ଦିଶୁଛି!"
       }
     },
     {
@@ -67,7 +71,9 @@
       "duration": 8000,
       "script": {
         "hi": "वह देखो, एक और गुब्बारा उड़ रहा है।",
-        "en": "Look — another balloon is flying over there."
+        "en": "Look — another balloon is flying over there.",
+        "mr": "बघा — तिकडे आणखी एक फुगा उडतो आहे.",
+        "or": "ଦେଖ — ସେଠି ଆଉ ଗୋଟିଏ ବେଲୁନ ଉଡ଼ୁଛି।"
       }
     },
     {
@@ -75,7 +81,9 @@
       "duration": 8000,
       "script": {
         "hi": "बादल हमारे बिल्कुल पास हैं।",
-        "en": "The clouds are right beside us."
+        "en": "The clouds are right beside us.",
+        "mr": "ढग अगदी आपल्या जवळ आहेत.",
+        "or": "ମେଘ ଠିକ ଆମ ପାଖରେ ଅଛି।"
       }
     },
     {
@@ -83,7 +91,9 @@
       "duration": 8000,
       "script": {
         "hi": "और ऊपर सूरज चमक रहा है।",
-        "en": "And up above, the sun is shining."
+        "en": "And up above, the sun is shining.",
+        "mr": "आणि वर सूर्य चमकतो आहे.",
+        "or": "ଆଉ ଉପରେ ସୂର୍ଯ୍ୟ ଚମକୁଛି।"
       }
     }
   ]

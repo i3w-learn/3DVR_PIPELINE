@@ -16,3 +16,6 @@ app/assets/audio/*/
 *.webp
 # Screenshots taken while checking scenes by eye. Not content.
 .playwright-mcp/
+
+# Narration engine: a Python venv and ~6 GB of open voice models. Rebuilt by tools/tts/setup.sh.
+.tts/

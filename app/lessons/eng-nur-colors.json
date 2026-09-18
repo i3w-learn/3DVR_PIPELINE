@@ -127,7 +127,9 @@
       "duration": 5000,
       "script": {
         "hi": "ये रंग देखो।",
-        "en": "Look at these colours."
+        "en": "Look at these colours.",
+        "mr": "हे रंग बघा.",
+        "or": "ଏହି ରଙ୍ଗଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -141,7 +143,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह लाल है।",
-        "en": "This is red."
+        "en": "This is red.",
+        "mr": "हा लाल आहे.",
+        "or": "ଏହା ନାଲି।"
       }
     },
     {
@@ -155,7 +159,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह नीला है।",
-        "en": "This is blue."
+        "en": "This is blue.",
+        "mr": "हा निळा आहे.",
+        "or": "ଏହା ନୀଳ।"
       }
     },
     {
@@ -169,7 +175,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह पीला है।",
-        "en": "This is yellow."
+        "en": "This is yellow.",
+        "mr": "हा पिवळा आहे.",
+        "or": "ଏହା ହଳଦିଆ।"
       }
     },
     {
@@ -183,7 +191,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह हरा है।",
-        "en": "This is green."
+        "en": "This is green.",
+        "mr": "हा हिरवा आहे.",
+        "or": "ଏହା ସବୁଜ।"
       }
     },
     {
@@ -196,7 +206,9 @@
       "duration": 5000,
       "script": {
         "hi": "ये रंग देखो।",
-        "en": "Look at these colours."
+        "en": "Look at these colours.",
+        "mr": "हे रंग बघा.",
+        "or": "ଏହି ରଙ୍ଗଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -210,7 +222,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह नारंगी है।",
-        "en": "This is orange."
+        "en": "This is orange.",
+        "mr": "हा केशरी आहे.",
+        "or": "ଏହା କମଳା।"
       }
     },
     {
@@ -224,7 +238,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह बैंगनी है।",
-        "en": "This is purple."
+        "en": "This is purple.",
+        "mr": "हा जांभळा आहे.",
+        "or": "ଏହା ବାଇଗଣୀ।"
       }
     },
     {
@@ -238,7 +254,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह गुलाबी है।",
-        "en": "This is pink."
+        "en": "This is pink.",
+        "mr": "हा गुलाबी आहे.",
+        "or": "ଏହା ଗୋଲାପୀ।"
       }
     },
     {
@@ -252,7 +270,9 @@
       "duration": 5500,
       "script": {
         "hi": "यह भूरा है।",
-        "en": "This is brown."
+        "en": "This is brown.",
+        "mr": "हा तपकिरी आहे.",
+        "or": "ଏହା ବାଦାମୀ।"
       }
     }
   ]

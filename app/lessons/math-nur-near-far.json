@@ -52,7 +52,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह पेड़ पास है।",
-        "en": "This tree is near."
+        "en": "This tree is near.",
+        "mr": "हे झाड जवळ आहे.",
+        "or": "ଏହି ଗଛ ପାଖରେ ଅଛି।"
       }
     },
     {
@@ -65,7 +67,9 @@
       "duration": 7500,
       "script": {
         "hi": "वही पेड़ — पर यह दूर है, इसलिए छोटा दिखता है।",
-        "en": "The same tree — but this one is far away, so it looks small."
+        "en": "The same tree — but this one is far away, so it looks small.",
+        "mr": "तेच झाड — पण हे दूर आहे, म्हणून छोटं दिसतं.",
+        "or": "ସେହି ଗଛ — କିନ୍ତୁ ଏହା ଦୂରରେ ଅଛି, ତେଣୁ ଛୋଟ ଦିଶେ।"
       }
     },
     {
@@ -77,7 +81,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह गेंद पास है।",
-        "en": "This ball is near."
+        "en": "This ball is near.",
+        "mr": "हा चेंडू जवळ आहे.",
+        "or": "ଏହି ବଲ ପାଖରେ ଅଛି।"
       }
     },
     {
@@ -90,7 +96,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह गेंद दूर है।",
-        "en": "And this ball is far."
+        "en": "And this ball is far.",
+        "mr": "आणि हा चेंडू दूर आहे.",
+        "or": "ଆଉ ଏହି ବଲ ଦୂରରେ ଅଛି।"
       }
     }
   ]

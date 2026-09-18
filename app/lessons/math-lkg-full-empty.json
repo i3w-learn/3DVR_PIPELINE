@@ -58,7 +58,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह गिलास भरा है।",
-        "en": "This glass is full."
+        "en": "This glass is full.",
+        "mr": "हा ग्लास भरलेला आहे.",
+        "or": "ଏହି ଗିଲାସ ଭର୍ତ୍ତି।"
       }
     },
     {
@@ -71,7 +73,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह गिलास ख़ाली है।",
-        "en": "And this glass is empty."
+        "en": "And this glass is empty.",
+        "mr": "आणि हा ग्लास रिकामा आहे.",
+        "or": "ଆଉ ଏହି ଗିଲାସ ଖାଲି।"
       }
     },
     {
@@ -83,7 +87,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह कटोरा भरा है।",
-        "en": "This bowl is full."
+        "en": "This bowl is full.",
+        "mr": "ही वाटी भरलेली आहे.",
+        "or": "ଏହି ବାଟି ଭର୍ତ୍ତି।"
       }
     },
     {
@@ -96,7 +102,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह ख़ाली है।",
-        "en": "And this one is empty."
+        "en": "And this one is empty.",
+        "mr": "आणि ही रिकामी आहे.",
+        "or": "ଆଉ ଏହା ଖାଲି।"
       }
     }
   ]

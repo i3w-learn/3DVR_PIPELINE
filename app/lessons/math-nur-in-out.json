@@ -40,7 +40,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह सेब बर्तन के अंदर है।",
-        "en": "This apple is IN the pot."
+        "en": "This apple is IN the pot.",
+        "mr": "हे सफरचंद भांड्याच्या आत आहे.",
+        "or": "ଏହି ସେଓ ହାଣ୍ଡି ଭିତରେ ଅଛି।"
       }
     },
     {
@@ -49,7 +51,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह सेब बाहर है।",
-        "en": "This apple is OUT."
+        "en": "This apple is OUT.",
+        "mr": "हे सफरचंद बाहेर आहे.",
+        "or": "ଏହି ସେଓ ବାହାରେ ଅଛି।"
       }
     }
   ]

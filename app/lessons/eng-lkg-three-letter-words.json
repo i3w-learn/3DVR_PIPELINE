@@ -236,7 +236,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — C, A, T।",
-        "en": "Look: C, A, T."
+        "en": "Look: C, A, T.",
+        "mr": "बघा — C, A, T.",
+        "or": "ଦେଖ — C, A, T।"
       }
     },
     {
@@ -251,7 +253,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है CAT — बिल्ली।",
-        "en": "Together they spell CAT — a cat."
+        "en": "Together they spell CAT — a cat.",
+        "mr": "मिळून होतो CAT — म्हणजे मांजर.",
+        "or": "ମିଶି ହେଲା CAT — ମାନେ ବିଲେଇ।"
       }
     },
     {
@@ -263,7 +267,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — D, O, G।",
-        "en": "Look: D, O, G."
+        "en": "Look: D, O, G.",
+        "mr": "बघा — D, O, G.",
+        "or": "ଦେଖ — D, O, G।"
       }
     },
     {
@@ -278,7 +284,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है DOG — कुत्ता।",
-        "en": "Together they spell DOG — a dog."
+        "en": "Together they spell DOG — a dog.",
+        "mr": "मिळून होतो DOG — म्हणजे कुत्रा.",
+        "or": "ମିଶି ହେଲା DOG — ମାନେ କୁକୁର।"
       }
     },
     {
@@ -290,7 +298,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — S, U, N।",
-        "en": "Look: S, U, N."
+        "en": "Look: S, U, N.",
+        "mr": "बघा — S, U, N.",
+        "or": "ଦେଖ — S, U, N।"
       }
     },
     {
@@ -305,7 +315,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है SUN — सूरज।",
-        "en": "Together they spell SUN — the sun."
+        "en": "Together they spell SUN — the sun.",
+        "mr": "मिळून होतो SUN — म्हणजे सूर्य.",
+        "or": "ମିଶି ହେଲା SUN — ମାନେ ସୂର୍ଯ୍ୟ।"
       }
     },
     {
@@ -317,7 +329,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — C, U, P।",
-        "en": "Look: C, U, P."
+        "en": "Look: C, U, P.",
+        "mr": "बघा — C, U, P.",
+        "or": "ଦେଖ — C, U, P।"
       }
     },
     {
@@ -332,7 +346,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है CUP — प्याला।",
-        "en": "Together they spell CUP — a cup."
+        "en": "Together they spell CUP — a cup.",
+        "mr": "मिळून होतो CUP — म्हणजे कप.",
+        "or": "ମିଶି ହେଲା CUP — ମାନେ କପ।"
       }
     },
     {
@@ -344,7 +360,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — H, E, N।",
-        "en": "Look: H, E, N."
+        "en": "Look: H, E, N.",
+        "mr": "बघा — H, E, N.",
+        "or": "ଦେଖ — H, E, N।"
       }
     },
     {
@@ -359,7 +377,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है HEN — मुर्गी।",
-        "en": "Together they spell HEN — a hen."
+        "en": "Together they spell HEN — a hen.",
+        "mr": "मिळून होतो HEN — म्हणजे कोंबडी.",
+        "or": "ମିଶି ହେଲା HEN — ମାନେ କୁକୁଡ଼ା।"
       }
     },
     {
@@ -371,7 +391,9 @@
       "duration": 6000,
       "script": {
         "hi": "देखो — B, U, S।",
-        "en": "Look: B, U, S."
+        "en": "Look: B, U, S.",
+        "mr": "बघा — B, U, S.",
+        "or": "ଦେଖ — B, U, S।"
       }
     },
     {
@@ -386,7 +408,9 @@
       "duration": 7000,
       "script": {
         "hi": "मिलकर बनता है BUS — बस।",
-        "en": "Together they spell BUS — a bus."
+        "en": "Together they spell BUS — a bus.",
+        "mr": "मिळून होतो BUS — म्हणजे बस.",
+        "or": "ମିଶି ହେଲା BUS — ମାନେ ବସ।"
       }
     }
   ]

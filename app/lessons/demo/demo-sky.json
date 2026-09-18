@@ -8,14 +8,18 @@
       "duration": 8000,
       "script": {
         "hi": "हम गुब्बारे में हैं। नीचे देखो।",
-        "en": "We are in the balloon. Look down — the ground is far below."
+        "en": "We are in the balloon. Look down — the ground is far below.",
+        "mr": "आपण फुग्यात आहोत. खाली बघा — जमीन खूप खाली आहे.",
+        "or": "ଆମେ ବେଲୁନରେ ଅଛୁ। ତଳକୁ ଦେଖ — ଭୂଇଁ ବହୁତ ତଳେ।"
       }
     },
     {
       "duration": 8000,
       "script": {
         "hi": "बादल हमारे पास से जा रहे हैं।",
-        "en": "The clouds are going past us. Turn your head and look all around."
+        "en": "The clouds are going past us. Turn your head and look all around.",
+        "mr": "ढग आपल्या जवळून जात आहेत. डोकं वळवून सगळीकडे बघा.",
+        "or": "ମେଘ ଆମ ପାଖ ଦେଇ ଯାଉଛି। ମୁଣ୍ଡ ବୁଲାଇ ଚାରିଆଡ଼େ ଦେଖ।"
       }
     }
   ]

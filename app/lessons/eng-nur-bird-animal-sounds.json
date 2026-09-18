@@ -17,7 +17,9 @@
       "sound": "crow.mp3",
       "script": {
         "hi": "यह कौआ है। कौआ काँव-काँव करता है।",
-        "en": "This is a crow. The crow says caw, caw."
+        "en": "This is a crow. The crow says caw, caw.",
+        "mr": "हा कावळा आहे. कावळा काव काव करतो.",
+        "or": "ଏହା ଏକ କୁଆ। କୁଆ କା କା କରେ।"
       }
     },
     {
@@ -34,7 +36,9 @@
       "sound": "duck.mp3",
       "script": {
         "hi": "यह बत्तख है। बत्तख क्वैक-क्वैक करती है।",
-        "en": "This is a duck. The duck says quack, quack."
+        "en": "This is a duck. The duck says quack, quack.",
+        "mr": "हे बदक आहे. बदक क्वॅक क्वॅक करतं.",
+        "or": "ଏହା ଏକ ବତକ। ବତକ ପ୍ୟାକ ପ୍ୟାକ କରେ।"
       }
     },
     {
@@ -51,7 +55,9 @@
       "sound": "sparrow.mp3",
       "script": {
         "hi": "यह गौरैया है। गौरैया चीं-चीं करती है।",
-        "en": "This is a sparrow. The sparrow says cheep, cheep."
+        "en": "This is a sparrow. The sparrow says cheep, cheep.",
+        "mr": "ही चिमणी आहे. चिमणी चिव चिव करते.",
+        "or": "ଏହା ଏକ ଘରଚଟିଆ। ଘରଚଟିଆ ଚିଁ ଚିଁ କରେ।"
       }
     },
     {
@@ -67,7 +73,9 @@
       "sound": "dog.mp3",
       "script": {
         "hi": "यह कुत्ता है। कुत्ता भौं-भौं करता है।",
-        "en": "This is a dog. The dog says woof, woof."
+        "en": "This is a dog. The dog says woof, woof.",
+        "mr": "हा कुत्रा आहे. कुत्रा भू भू करतो.",
+        "or": "ଏହା ଏକ କୁକୁର। କୁକୁର ଭୋ ଭୋ କରେ।"
       }
     },
     {
@@ -84,7 +92,9 @@
       "sound": "cat.mp3",
       "script": {
         "hi": "यह बिल्ली है। बिल्ली म्याऊँ-म्याऊँ करती है।",
-        "en": "This is a cat. The cat says meow."
+        "en": "This is a cat. The cat says meow.",
+        "mr": "हे मांजर आहे. मांजर म्याव म्याव करतं.",
+        "or": "ଏହା ଏକ ବିଲେଇ। ବିଲେଇ ମିଆଉଁ ମିଆଉଁ କରେ।"
       }
     },
     {
@@ -101,7 +111,9 @@
       "sound": "pigeon.mp3",
       "script": {
         "hi": "यह कबूतर है। कबूतर गुटर-गूँ करता है।",
-        "en": "This is a pigeon. The pigeon says coo, coo."
+        "en": "This is a pigeon. The pigeon says coo, coo.",
+        "mr": "हे कबूतर आहे. कबूतर गुटर्गू करतं.",
+        "or": "ଏହା ଏକ ପାରା। ପାରା ଗୁଟୁର ଗୁଟୁର କରେ।"
       }
     },
     {
@@ -118,7 +130,9 @@
       "sound": "parrot.mp3",
       "script": {
         "hi": "यह तोता है। तोता टें-टें करता है।",
-        "en": "This is a parrot. The parrot squawks."
+        "en": "This is a parrot. The parrot squawks.",
+        "mr": "हा पोपट आहे. पोपट मिठू मिठू करतो.",
+        "or": "ଏହା ଏକ ଶୁଆ। ଶୁଆ ଟିଁ ଟିଁ କରେ।"
       }
     },
     {
@@ -135,7 +149,9 @@
       "sound": "owl.mp3",
       "script": {
         "hi": "यह उल्लू है। उल्लू हू-हू करता है।",
-        "en": "This is an owl. The owl says hoo, hoo."
+        "en": "This is an owl. The owl says hoo, hoo.",
+        "mr": "हे घुबड आहे. घुबड घू घू करतं.",
+        "or": "ଏହା ଏକ ପେଚା। ପେଚା ହୁ ହୁ କରେ।"
       }
     }
   ],
@@ -144,28 +160,36 @@
       "duration": 10000,
       "script": {
         "hi": "हर पक्षी और जानवर की अपनी आवाज़ होती है। किसी को देखो, और सुनो।",
-        "en": "Every bird and animal has its own voice. Look at one, and listen."
+        "en": "Every bird and animal has its own voice. Look at one, and listen.",
+        "mr": "प्रत्येक पक्ष्याचा आणि प्राण्याचा स्वतःचा आवाज असतो. एखाद्याकडे बघा, आणि ऐका.",
+        "or": "ପ୍ରତ୍ୟେକ ପକ୍ଷୀ ଓ ପଶୁର ନିଜର ସ୍ୱର ଅଛି। ଗୋଟିଏକୁ ଦେଖ, ଆଉ ଶୁଣ।"
       }
     },
     {
       "duration": 10000,
       "script": {
         "hi": "कौआ कैसे बोलता है? उसे ढूँढ़ो।",
-        "en": "What does the crow say? Find it and see."
+        "en": "What does the crow say? Find it and see.",
+        "mr": "कावळा कसा ओरडतो? त्याला शोधा आणि बघा.",
+        "or": "କୁଆ କେମିତି ଡାକେ? ତାକୁ ଖୋଜ ଆଉ ଦେଖ।"
       }
     },
     {
       "duration": 10000,
       "script": {
         "hi": "अब बिल्ली को ढूँढ़ो।",
-        "en": "Now find the cat."
+        "en": "Now find the cat.",
+        "mr": "आता मांजर शोधा.",
+        "or": "ଏବେ ବିଲେଇକୁ ଖୋଜ।"
       }
     },
     {
       "duration": 10000,
       "script": {
         "hi": "कौन हू-हू करता है? ढूँढ़ो!",
-        "en": "Who says hoo, hoo? Find out!"
+        "en": "Who says hoo, hoo? Find out!",
+        "mr": "घू घू कोण करतं? शोधा!",
+        "or": "କିଏ ହୁ ହୁ କରେ? ଖୋଜି ଦେଖ!"
       }
     }
   ]

@@ -54,7 +54,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह छड़ी लंबी है।",
-        "en": "This stick is long."
+        "en": "This stick is long.",
+        "mr": "ही काठी लांब आहे.",
+        "or": "ଏହି ବାଡ଼ି ଲମ୍ବା।"
       }
     },
     {
@@ -67,7 +69,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह छोटी है।",
-        "en": "And this one is short."
+        "en": "And this one is short.",
+        "mr": "आणि ही आखूड आहे.",
+        "or": "ଆଉ ଏହା ଛୋଟ।"
       }
     },
     {
@@ -80,7 +84,9 @@
       "duration": 7500,
       "script": {
         "hi": "इन दोनों में हरी वाली लंबी है।",
-        "en": "Of these two, the green one is longer."
+        "en": "Of these two, the green one is longer.",
+        "mr": "या दोघांत हिरवी जास्त लांब आहे.",
+        "or": "ଏହି ଦୁଇଟି ଭିତରୁ ସବୁଜଟି ଅଧିକ ଲମ୍ବା।"
       }
     }
   ]

@@ -36,7 +36,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह पत्थर है, और यह मुर्गी।",
-        "en": "Here is a rock, and here is a hen."
+        "en": "Here is a rock, and here is a hen.",
+        "mr": "इथे एक दगड आहे, आणि इथे एक कोंबडी.",
+        "or": "ଏଠି ଗୋଟିଏ ପଥର ଅଛି, ଆଉ ଏଠି ଗୋଟିଏ କୁକୁଡ଼ା।"
       }
     },
     {
@@ -49,7 +51,9 @@
       "duration": 7000,
       "script": {
         "hi": "मुर्गी पत्थर के आगे है।",
-        "en": "The hen is in front of the rock."
+        "en": "The hen is in front of the rock.",
+        "mr": "कोंबडी दगडाच्या पुढे आहे.",
+        "or": "କୁକୁଡ଼ା ପଥରର ଆଗରେ ଅଛି।"
       }
     },
     {
@@ -61,7 +65,9 @@
       "duration": 6000,
       "script": {
         "hi": "अब देखो।",
-        "en": "Now look at this one."
+        "en": "Now look at this one.",
+        "mr": "आता हे बघा.",
+        "or": "ଏବେ ଏହାକୁ ଦେଖ।"
       }
     },
     {
@@ -74,7 +80,9 @@
       "duration": 7000,
       "script": {
         "hi": "मुर्गी पत्थर के पीछे है।",
-        "en": "The hen is behind the rock."
+        "en": "The hen is behind the rock.",
+        "mr": "कोंबडी दगडाच्या मागे आहे.",
+        "or": "କୁକୁଡ଼ା ପଥରର ପଛରେ ଅଛି।"
       }
     },
     {
@@ -87,7 +95,9 @@
       "duration": 8000,
       "script": {
         "hi": "आगे और पीछे — याद रखो।",
-        "en": "In front, and behind. Remember them."
+        "en": "In front, and behind. Remember them.",
+        "mr": "पुढे, आणि मागे. हे लक्षात ठेवा.",
+        "or": "ଆଗରେ, ଆଉ ପଛରେ। ଏହା ମନେ ରଖ।"
       }
     }
   ]

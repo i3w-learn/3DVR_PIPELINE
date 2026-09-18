@@ -313,7 +313,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब क वर्ग देखो।",
-        "en": "Now look at the ka group."
+        "en": "Now look at the ka group.",
+        "mr": "आता क वर्ग बघा.",
+        "or": "ଏବେ क ବର୍ଗ ଦେଖ।"
       }
     },
     {
@@ -328,7 +330,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह क है।",
-        "en": "This is क."
+        "en": "This is क.",
+        "mr": "हे क आहे.",
+        "or": "ଏହା क।"
       }
     },
     {
@@ -343,7 +347,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ख है।",
-        "en": "This is ख."
+        "en": "This is ख.",
+        "mr": "हे ख आहे.",
+        "or": "ଏହା ख।"
       }
     },
     {
@@ -358,7 +364,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ग है।",
-        "en": "This is ग."
+        "en": "This is ग.",
+        "mr": "हे ग आहे.",
+        "or": "ଏହା ग।"
       }
     },
     {
@@ -373,7 +381,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह घ है।",
-        "en": "This is घ."
+        "en": "This is घ.",
+        "mr": "हे घ आहे.",
+        "or": "ଏହା घ।"
       }
     },
     {
@@ -388,7 +398,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ङ है।",
-        "en": "This is ङ."
+        "en": "This is ङ.",
+        "mr": "हे ङ आहे.",
+        "or": "ଏହା ङ।"
       }
     },
     {
@@ -402,7 +414,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब च वर्ग देखो।",
-        "en": "Now look at the cha group."
+        "en": "Now look at the cha group.",
+        "mr": "आता च वर्ग बघा.",
+        "or": "ଏବେ च ବର୍ଗ ଦେଖ।"
       }
     },
     {
@@ -417,7 +431,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह च है।",
-        "en": "This is च."
+        "en": "This is च.",
+        "mr": "हे च आहे.",
+        "or": "ଏହା च।"
       }
     },
     {
@@ -432,7 +448,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह छ है।",
-        "en": "This is छ."
+        "en": "This is छ.",
+        "mr": "हे छ आहे.",
+        "or": "ଏହା छ।"
       }
     },
     {
@@ -447,7 +465,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ज है।",
-        "en": "This is ज."
+        "en": "This is ज.",
+        "mr": "हे ज आहे.",
+        "or": "ଏହା ज।"
       }
     },
     {
@@ -462,7 +482,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह झ है।",
-        "en": "This is झ."
+        "en": "This is झ.",
+        "mr": "हे झ आहे.",
+        "or": "ଏହା झ।"
       }
     },
     {
@@ -477,7 +499,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ञ है।",
-        "en": "This is ञ."
+        "en": "This is ञ.",
+        "mr": "हे ञ आहे.",
+        "or": "ଏହା ञ।"
       }
     },
     {
@@ -491,7 +515,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब ट वर्ग देखो।",
-        "en": "Now look at the ta group."
+        "en": "Now look at the ta group.",
+        "mr": "आता ट वर्ग बघा.",
+        "or": "ଏବେ ट ବର୍ଗ ଦେଖ।"
       }
     },
     {
@@ -506,7 +532,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ट है।",
-        "en": "This is ट."
+        "en": "This is ट.",
+        "mr": "हे ट आहे.",
+        "or": "ଏହା ट।"
       }
     },
     {
@@ -521,7 +549,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ठ है।",
-        "en": "This is ठ."
+        "en": "This is ठ.",
+        "mr": "हे ठ आहे.",
+        "or": "ଏହା ठ।"
       }
     },
     {
@@ -536,7 +566,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ड है।",
-        "en": "This is ड."
+        "en": "This is ड.",
+        "mr": "हे ड आहे.",
+        "or": "ଏହା ड।"
       }
     },
     {
@@ -551,7 +583,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ढ है।",
-        "en": "This is ढ."
+        "en": "This is ढ.",
+        "mr": "हे ढ आहे.",
+        "or": "ଏହା ढ।"
       }
     },
     {
@@ -566,7 +600,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ण है।",
-        "en": "This is ण."
+        "en": "This is ण.",
+        "mr": "हे ण आहे.",
+        "or": "ଏହା ण।"
       }
     },
     {
@@ -580,7 +616,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब त वर्ग देखो।",
-        "en": "Now look at the tha group."
+        "en": "Now look at the tha group.",
+        "mr": "आता त वर्ग बघा.",
+        "or": "ଏବେ त ବର୍ଗ ଦେଖ।"
       }
     },
     {
@@ -595,7 +633,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह त है।",
-        "en": "This is त."
+        "en": "This is त.",
+        "mr": "हे त आहे.",
+        "or": "ଏହା त।"
       }
     },
     {
@@ -610,7 +650,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह थ है।",
-        "en": "This is थ."
+        "en": "This is थ.",
+        "mr": "हे थ आहे.",
+        "or": "ଏହା थ।"
       }
     },
     {
@@ -625,7 +667,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह द है।",
-        "en": "This is द."
+        "en": "This is द.",
+        "mr": "हे द आहे.",
+        "or": "ଏହା द।"
       }
     },
     {
@@ -640,7 +684,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ध है।",
-        "en": "This is ध."
+        "en": "This is ध.",
+        "mr": "हे ध आहे.",
+        "or": "ଏହା ध।"
       }
     },
     {
@@ -655,7 +701,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह न है।",
-        "en": "This is न."
+        "en": "This is न.",
+        "mr": "हे न आहे.",
+        "or": "ଏହା न।"
       }
     },
     {
@@ -669,7 +717,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब प वर्ग देखो।",
-        "en": "Now look at the pa group."
+        "en": "Now look at the pa group.",
+        "mr": "आता प वर्ग बघा.",
+        "or": "ଏବେ प ବର୍ଗ ଦେଖ।"
       }
     },
     {
@@ -684,7 +734,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह प है।",
-        "en": "This is प."
+        "en": "This is प.",
+        "mr": "हे प आहे.",
+        "or": "ଏହା प।"
       }
     },
     {
@@ -699,7 +751,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह फ है।",
-        "en": "This is फ."
+        "en": "This is फ.",
+        "mr": "हे फ आहे.",
+        "or": "ଏହା फ।"
       }
     },
     {
@@ -714,7 +768,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ब है।",
-        "en": "This is ब."
+        "en": "This is ब.",
+        "mr": "हे ब आहे.",
+        "or": "ଏହା ब।"
       }
     },
     {
@@ -729,7 +785,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह भ है।",
-        "en": "This is भ."
+        "en": "This is भ.",
+        "mr": "हे भ आहे.",
+        "or": "ଏହା भ।"
       }
     },
     {
@@ -744,7 +802,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह म है।",
-        "en": "This is म."
+        "en": "This is म.",
+        "mr": "हे म आहे.",
+        "or": "ଏହା म।"
       }
     },
     {
@@ -757,7 +817,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब य र ल व देखो।",
-        "en": "Now look at ya ra la va."
+        "en": "Now look at ya ra la va.",
+        "mr": "आता य, र, ल, व बघा.",
+        "or": "ଏବେ य, र, ल, व ଦେଖ।"
       }
     },
     {
@@ -771,7 +833,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह य है।",
-        "en": "This is य."
+        "en": "This is य.",
+        "mr": "हे य आहे.",
+        "or": "ଏହା य।"
       }
     },
     {
@@ -785,7 +849,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह र है।",
-        "en": "This is र."
+        "en": "This is र.",
+        "mr": "हे र आहे.",
+        "or": "ଏହା र।"
       }
     },
     {
@@ -799,7 +865,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ल है।",
-        "en": "This is ल."
+        "en": "This is ल.",
+        "mr": "हे ल आहे.",
+        "or": "ଏହା ल।"
       }
     },
     {
@@ -813,7 +881,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह व है।",
-        "en": "This is व."
+        "en": "This is व.",
+        "mr": "हे व आहे.",
+        "or": "ଏହା व।"
       }
     },
     {
@@ -826,7 +896,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब श ष स ह देखो।",
-        "en": "Now look at sha sha sa ha."
+        "en": "Now look at sha sha sa ha.",
+        "mr": "आता श, ष, स, ह बघा.",
+        "or": "ଏବେ श, ष, स, ह ଦେଖ।"
       }
     },
     {
@@ -840,7 +912,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह श है।",
-        "en": "This is श."
+        "en": "This is श.",
+        "mr": "हे श आहे.",
+        "or": "ଏହା श।"
       }
     },
     {
@@ -854,7 +928,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ष है।",
-        "en": "This is ष."
+        "en": "This is ष.",
+        "mr": "हे ष आहे.",
+        "or": "ଏହା ष।"
       }
     },
     {
@@ -868,7 +944,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह स है।",
-        "en": "This is स."
+        "en": "This is स.",
+        "mr": "हे स आहे.",
+        "or": "ଏହା स।"
       }
     },
     {
@@ -882,7 +960,9 @@
       "duration": 5000,
       "script": {
         "hi": "यह ह है।",
-        "en": "This is ह."
+        "en": "This is ह.",
+        "mr": "हे ह आहे.",
+        "or": "ଏହା ह।"
       }
     }
   ]

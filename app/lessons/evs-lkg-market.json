@@ -106,7 +106,9 @@
       "duration": 8000,
       "script": {
         "hi": "यह बाज़ार है। यहाँ हम चीज़ें ख़रीदते हैं।",
-        "en": "This is the market. This is where we buy things."
+        "en": "This is the market. This is where we buy things.",
+        "mr": "हा बाजार आहे. इथे आपण वस्तू विकत घेतो.",
+        "or": "ଏହା ବଜାର। ଏଠି ଆମେ ଜିନିଷ କିଣୁ।"
       }
     },
     {
@@ -114,7 +116,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह फल की दुकान है।",
-        "en": "This is the fruit shop."
+        "en": "This is the fruit shop.",
+        "mr": "हे फळांचं दुकान आहे.",
+        "or": "ଏହା ଫଳ ଦୋକାନ।"
       }
     },
     {
@@ -122,7 +126,9 @@
       "duration": 6000,
       "script": {
         "hi": "यहाँ सेब मिलते हैं…",
-        "en": "Here there are apples…"
+        "en": "Here there are apples…",
+        "mr": "इथे सफरचंदं मिळतात…",
+        "or": "ଏଠି ସେଓ ମିଳେ…"
       }
     },
     {
@@ -130,7 +136,9 @@
       "duration": 6000,
       "script": {
         "hi": "…केले…",
-        "en": "…bananas…"
+        "en": "…bananas…",
+        "mr": "…केळी…",
+        "or": "…କଦଳୀ…"
       }
     },
     {
@@ -138,7 +146,9 @@
       "duration": 6000,
       "script": {
         "hi": "…और संतरे।",
-        "en": "…and oranges."
+        "en": "…and oranges.",
+        "mr": "…आणि संत्री.",
+        "or": "…ଆଉ କମଳା।"
       }
     },
     {
@@ -146,7 +156,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह सब्ज़ी की दुकान है।",
-        "en": "This is the vegetable shop."
+        "en": "This is the vegetable shop.",
+        "mr": "हे भाजीचं दुकान आहे.",
+        "or": "ଏହା ପରିବା ଦୋକାନ।"
       }
     },
     {
@@ -154,7 +166,9 @@
       "duration": 6000,
       "script": {
         "hi": "यहाँ टमाटर…",
-        "en": "Here there are tomatoes…"
+        "en": "Here there are tomatoes…",
+        "mr": "इथे टोमॅटो…",
+        "or": "ଏଠି ଟମାଟୋ…"
       }
     },
     {
@@ -162,7 +176,9 @@
       "duration": 6000,
       "script": {
         "hi": "…बैंगन…",
-        "en": "…brinjals…"
+        "en": "…brinjals…",
+        "mr": "…वांगी…",
+        "or": "…ବାଇଗଣ…"
       }
     },
     {
@@ -170,7 +186,9 @@
       "duration": 6000,
       "script": {
         "hi": "…और पत्तागोभी मिलती है।",
-        "en": "…and cabbages."
+        "en": "…and cabbages.",
+        "mr": "…आणि कोबी मिळतो.",
+        "or": "…ଆଉ ବନ୍ଧାକୋବି ମିଳେ।"
       }
     }
   ]

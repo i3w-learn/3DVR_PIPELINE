@@ -30,7 +30,9 @@
       "duration": 7000,
       "script": {
         "hi": "लाल गेंद ऊपर है — अलमारी के ऊपर।",
-        "en": "The red ball is up — on top of the cupboard."
+        "en": "The red ball is up — on top of the cupboard.",
+        "mr": "लाल चेंडू वर आहे — कपाटाच्या वर.",
+        "or": "ନାଲି ବଲ ଉପରେ ଅଛି — ଆଲମାରି ଉପରେ।"
       }
     },
     {
@@ -39,14 +41,18 @@
       "duration": 7000,
       "script": {
         "hi": "नीली गेंद नीचे है — फ़र्श पर।",
-        "en": "The blue ball is down — on the floor."
+        "en": "The blue ball is down — on the floor.",
+        "mr": "निळा चेंडू खाली आहे — जमिनीवर.",
+        "or": "ନୀଳ ବଲ ତଳେ ଅଛି — ଚଟାଣ ଉପରେ।"
       }
     },
     {
       "duration": 7000,
       "script": {
         "hi": "पंखा ऊपर है। चटाई नीचे है।",
-        "en": "Look up — the fan is up. Look down — the mats are down."
+        "en": "Look up — the fan is up. Look down — the mats are down.",
+        "mr": "वर बघा — पंखा वर आहे. खाली बघा — चटया खाली आहेत.",
+        "or": "ଉପରକୁ ଦେଖ — ପଙ୍ଖା ଉପରେ ଅଛି। ତଳକୁ ଦେଖ — ମସିଣା ତଳେ ଅଛି।"
       }
     }
   ]

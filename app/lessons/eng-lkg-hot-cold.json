@@ -58,7 +58,9 @@
       "duration": 6500,
       "script": {
         "hi": "चाय गरम है। ध्यान से!",
-        "en": "Tea is hot. Careful!"
+        "en": "Tea is hot. Careful!",
+        "mr": "चहा गरम आहे. सांभाळून!",
+        "or": "ଚା ଗରମ। ସାବଧାନ!"
       }
     },
     {
@@ -71,7 +73,9 @@
       "duration": 7000,
       "script": {
         "hi": "आइसक्रीम ठंडी है।",
-        "en": "Ice cream is cold."
+        "en": "Ice cream is cold.",
+        "mr": "आईस्क्रीम थंड आहे.",
+        "or": "ଆଇସକ୍ରିମ ଥଣ୍ଡା।"
       }
     },
     {
@@ -83,7 +87,9 @@
       "duration": 6500,
       "script": {
         "hi": "चूल्हे से उतरा बर्तन गरम है।",
-        "en": "A pot off the stove is hot."
+        "en": "A pot off the stove is hot.",
+        "mr": "चुलीवरून उतरवलेलं भांडं गरम असतं.",
+        "or": "ଚୁଲିରୁ ଓହ୍ଲାଇଥିବା ହାଣ୍ଡି ଗରମ।"
       }
     },
     {
@@ -96,7 +102,9 @@
       "duration": 7000,
       "script": {
         "hi": "बर्फ़ की कुल्फ़ी ठंडी है।",
-        "en": "An ice lolly is cold."
+        "en": "An ice lolly is cold.",
+        "mr": "बर्फाचा गोळा थंड असतो.",
+        "or": "ବରଫ କାଠି ଥଣ୍ଡା।"
       }
     }
   ]

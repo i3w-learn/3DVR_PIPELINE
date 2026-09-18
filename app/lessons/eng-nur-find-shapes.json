@@ -80,7 +80,9 @@
       "duration": 14000,
       "script": {
         "hi": "कमरे में गोला कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
-        "en": "A circle is hiding in the room. Find it and touch it."
+        "en": "A circle is hiding in the room. Find it and touch it.",
+        "mr": "खोलीत एक वर्तुळ लपलं आहे. तो शोधा आणि त्याला स्पर्श करा.",
+        "or": "ଘର ଭିତରେ ଗୋଟିଏ ବୃତ୍ତ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
       }
     },
     {
@@ -88,7 +90,9 @@
       "duration": 14000,
       "script": {
         "hi": "कमरे में वर्ग कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
-        "en": "A square is hiding in the room. Find it and touch it."
+        "en": "A square is hiding in the room. Find it and touch it.",
+        "mr": "खोलीत एक चौरस लपला आहे. तो शोधा आणि त्याला स्पर्श करा.",
+        "or": "ଘର ଭିତରେ ଗୋଟିଏ ବର୍ଗ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
       }
     },
     {
@@ -96,7 +100,9 @@
       "duration": 14000,
       "script": {
         "hi": "कमरे में त्रिभुज कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
-        "en": "A triangle is hiding in the room. Find it and touch it."
+        "en": "A triangle is hiding in the room. Find it and touch it.",
+        "mr": "खोलीत एक त्रिकोण लपला आहे. तो शोधा आणि त्याला स्पर्श करा.",
+        "or": "ଘର ଭିତରେ ଗୋଟିଏ ତ୍ରିଭୁଜ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
       }
     },
     {
@@ -104,7 +110,9 @@
       "duration": 14000,
       "script": {
         "hi": "कमरे में तारा कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
-        "en": "A star is hiding in the room. Find it and touch it."
+        "en": "A star is hiding in the room. Find it and touch it.",
+        "mr": "खोलीत एक तारा लपला आहे. तो शोधा आणि त्याला स्पर्श करा.",
+        "or": "ଘର ଭିତରେ ଗୋଟିଏ ତାରା ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
       }
     },
     {
@@ -112,7 +120,9 @@
       "duration": 14000,
       "script": {
         "hi": "कमरे में आयत कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
-        "en": "A rectangle is hiding in the room. Find it and touch it."
+        "en": "A rectangle is hiding in the room. Find it and touch it.",
+        "mr": "खोलीत एक आयत लपला आहे. तो शोधा आणि त्याला स्पर्श करा.",
+        "or": "ଘର ଭିତରେ ଗୋଟିଏ ଆୟତ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
       }
     }
   ]

@@ -17,7 +17,9 @@
       "sound": "cow.mp3",
       "script": {
         "hi": "यह गाय है। गाय घास खाती है और हमें दूध देती है। उसके बच्चे को बछड़ा कहते हैं।",
-        "en": "This is a cow. She eats grass and gives us milk. Her baby is called a calf."
+        "en": "This is a cow. She eats grass and gives us milk. Her baby is called a calf.",
+        "mr": "ही गाय आहे. ती गवत खाते आणि आपल्याला दूध देते. तिच्या पिल्लाला वासरू म्हणतात.",
+        "or": "ଏହା ଏକ ଗାଈ। ସେ ଘାସ ଖାଏ ଆଉ ଆମକୁ କ୍ଷୀର ଦିଏ। ତାର ଛୁଆକୁ ବାଛୁରୀ କୁହାଯାଏ।"
       }
     },
     {
@@ -34,7 +36,9 @@
       "sound": "horse.mp3",
       "script": {
         "hi": "यह घोड़ा है। घोड़ा गाड़ी खींचता है और तेज़ दौड़ता है।",
-        "en": "This is a horse. The horse pulls carts and runs fast."
+        "en": "This is a horse. The horse pulls carts and runs fast.",
+        "mr": "हा घोडा आहे. घोडा गाडी ओढतो आणि वेगाने धावतो.",
+        "or": "ଏହା ଏକ ଘୋଡ଼ା। ଘୋଡ଼ା ଗାଡ଼ି ଟାଣେ ଆଉ ଜୋରରେ ଦୌଡ଼େ।"
       }
     },
     {
@@ -50,7 +54,9 @@
       "sound": "goat.mp3",
       "script": {
         "hi": "यह बकरी है। बकरी पत्ते खाती है और दूध देती है।",
-        "en": "This is a goat. The goat eats leaves and gives milk."
+        "en": "This is a goat. The goat eats leaves and gives milk.",
+        "mr": "ही शेळी आहे. शेळी पानं खाते आणि दूध देते.",
+        "or": "ଏହା ଏକ ଛେଳି। ଛେଳି ପତ୍ର ଖାଏ ଆଉ କ୍ଷୀର ଦିଏ।"
       }
     },
     {
@@ -67,7 +73,9 @@
       "sound": "sheep.mp3",
       "script": {
         "hi": "यह भेड़ है। भेड़ के बालों से ऊन बनती है।",
-        "en": "This is a sheep. Wool is made from the sheep's coat."
+        "en": "This is a sheep. Wool is made from the sheep's coat.",
+        "mr": "ही मेंढी आहे. मेंढीच्या केसांपासून लोकर बनते.",
+        "or": "ଏହା ଏକ ମେଣ୍ଢା। ମେଣ୍ଢାର ଲୋମରୁ ପଶମ ତିଆରି ହୁଏ।"
       }
     },
     {
@@ -84,7 +92,9 @@
       "sound": "hen.mp3",
       "script": {
         "hi": "यह मुर्गी है। मुर्गी दाना चुगती है और अंडे देती है।",
-        "en": "This is a hen. The hen pecks grain and lays eggs."
+        "en": "This is a hen. The hen pecks grain and lays eggs.",
+        "mr": "ही कोंबडी आहे. कोंबडी दाणे टिपते आणि अंडी देते.",
+        "or": "ଏହା ଏକ କୁକୁଡ଼ା। କୁକୁଡ଼ା ଦାନା ଖୁମ୍ପେ ଆଉ ଅଣ୍ଡା ଦିଏ।"
       }
     },
     {
@@ -101,7 +111,9 @@
       "sound": "duck.mp3",
       "script": {
         "hi": "यह बत्तख है। बत्तख तालाब में तैरती है।",
-        "en": "This is a duck. The duck swims in the pond."
+        "en": "This is a duck. The duck swims in the pond.",
+        "mr": "हे बदक आहे. बदक तळ्यात पोहतं.",
+        "or": "ଏହା ଏକ ବତକ। ବତକ ପୋଖରୀରେ ପହଁରେ।"
       }
     },
     {
@@ -118,7 +130,9 @@
       "sound": "donkey.mp3",
       "script": {
         "hi": "यह गधा है। गधा बोझ ढोता है।",
-        "en": "This is a donkey. The donkey carries loads."
+        "en": "This is a donkey. The donkey carries loads.",
+        "mr": "हे गाढव आहे. गाढव ओझं वाहतं.",
+        "or": "ଏହା ଏକ ଗଧ। ଗଧ ବୋଝ ବୁହେ।"
       }
     },
     {
@@ -134,7 +148,9 @@
       "sound": "dog.mp3",
       "script": {
         "hi": "यह कुत्ता है। कुत्ता खेत की रखवाली करता है।",
-        "en": "This is a dog. The dog guards the farm."
+        "en": "This is a dog. The dog guards the farm.",
+        "mr": "हा कुत्रा आहे. कुत्रा शेताची राखण करतो.",
+        "or": "ଏହା ଏକ କୁକୁର। କୁକୁର ଚାଷ ଜମି ଜଗେ।"
       }
     }
   ],
@@ -143,21 +159,27 @@
       "duration": 30000,
       "script": {
         "hi": "हम खेत पर आए हैं। चारों तरफ़ देखो। किसी जानवर को देखो, और वह अपने बारे में बताएगा।",
-        "en": "We have come to the farm. Look all around. Look at an animal, and it will tell you about itself."
+        "en": "We have come to the farm. Look all around. Look at an animal, and it will tell you about itself.",
+        "mr": "आपण शेतावर आलो आहोत. सगळीकडे बघा. एखाद्या प्राण्याकडे बघा, आणि तो स्वतःबद्दल सांगेल.",
+        "or": "ଆମେ ଚାଷ ଜମିକୁ ଆସିଛୁ। ଚାରିଆଡ଼େ ଦେଖ। କୌଣସି ପଶୁକୁ ଦେଖ, ସେ ନିଜ ବିଷୟରେ କହିବ।"
       }
     },
     {
       "duration": 30000,
       "script": {
         "hi": "कौन-सा जानवर हमें दूध देता है? उसे ढूँढ़ो।",
-        "en": "Which animal gives us milk? Find it."
+        "en": "Which animal gives us milk? Find it.",
+        "mr": "कोणता प्राणी आपल्याला दूध देतो? त्याला शोधा.",
+        "or": "କେଉଁ ପଶୁ ଆମକୁ କ୍ଷୀର ଦିଏ? ତାକୁ ଖୋଜ।"
       }
     },
     {
       "duration": 30000,
       "script": {
         "hi": "कौन अंडे देता है? और ऊन किससे मिलती है?",
-        "en": "Who lays eggs? And who gives us wool?"
+        "en": "Who lays eggs? And who gives us wool?",
+        "mr": "अंडी कोण देतं? आणि लोकर कोणापासून मिळते?",
+        "or": "କିଏ ଅଣ୍ଡା ଦିଏ? ଆଉ ପଶମ କାହାଠାରୁ ମିଳେ?"
       }
     }
   ]

@@ -69,7 +69,9 @@
       "duration": 9000,
       "script": {
         "hi": "लोग अलग-अलग जगहों पर प्रार्थना करते हैं। चलो उन्हें देखें।",
-        "en": "People pray in different places. Let us look at them."
+        "en": "People pray in different places. Let us look at them.",
+        "mr": "लोक वेगवेगळ्या ठिकाणी प्रार्थना करतात. चला ती बघूया.",
+        "or": "ଲୋକେ ଅଲଗା ଅଲଗା ଜାଗାରେ ପ୍ରାର୍ଥନା କରନ୍ତି। ଆସ ସେଗୁଡ଼ିକୁ ଦେଖିବା।"
       }
     },
     {
@@ -77,7 +79,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह गिरजाघर है। ईसाई यहाँ प्रार्थना करते हैं।",
-        "en": "This is a church. Christians pray here."
+        "en": "This is a church. Christians pray here.",
+        "mr": "हे चर्च आहे. ख्रिस्ती लोक इथे प्रार्थना करतात.",
+        "or": "ଏହା ଏକ ଗୀର୍ଜା। ଖ୍ରୀଷ୍ଟିଆନମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି।"
       }
     },
     {
@@ -85,7 +89,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह गुरुद्वारा है। सिख यहाँ प्रार्थना करते हैं।",
-        "en": "This is a gurdwara. Sikhs pray here."
+        "en": "This is a gurdwara. Sikhs pray here.",
+        "mr": "हा गुरुद्वारा आहे. शीख लोक इथे प्रार्थना करतात.",
+        "or": "ଏହା ଏକ ଗୁରୁଦ୍ୱାର। ଶିଖମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି।"
       }
     },
     {
@@ -93,7 +99,9 @@
       "duration": 9000,
       "script": {
         "hi": "यह मस्जिद है। मुसलमान यहाँ प्रार्थना करते हैं।",
-        "en": "This is a mosque. Muslims pray here."
+        "en": "This is a mosque. Muslims pray here.",
+        "mr": "ही मशीद आहे. मुस्लिम लोक इथे प्रार्थना करतात.",
+        "or": "ଏହା ଏକ ମସଜିଦ। ମୁସଲମାନମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି।"
       }
     },
     {
@@ -101,14 +109,18 @@
       "duration": 9000,
       "script": {
         "hi": "यह मंदिर है। हिंदू यहाँ प्रार्थना करते हैं।",
-        "en": "This is a temple. Hindus pray here."
+        "en": "This is a temple. Hindus pray here.",
+        "mr": "हे मंदिर आहे. हिंदू लोक इथे प्रार्थना करतात.",
+        "or": "ଏହା ଏକ ମନ୍ଦିର। ହିନ୍ଦୁମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି।"
       }
     },
     {
       "duration": 9000,
       "script": {
         "hi": "सबकी प्रार्थना की जगह अलग है, पर हम सबका आदर करते हैं।",
-        "en": "Everyone's place of prayer is different, and we respect every one of them."
+        "en": "Everyone's place of prayer is different, and we respect every one of them.",
+        "mr": "प्रत्येकाचं प्रार्थनेचं ठिकाण वेगळं आहे, आणि आपण सगळ्यांचा आदर करतो.",
+        "or": "ସମସ୍ତଙ୍କର ପ୍ରାର୍ଥନା ସ୍ଥାନ ଅଲଗା, ଆଉ ଆମେ ସବୁଗୁଡ଼ିକୁ ସମ୍ମାନ କରୁ।"
       }
     }
   ]

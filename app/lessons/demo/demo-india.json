@@ -12,10 +12,12 @@
         "en": "Our flag",
         "hi": "हमारा झंडा"
       },
-      "ring": 1.0,
+      "ring": 1,
       "script": {
         "hi": "यह हमारा राष्ट्रीय ध्वज है — तिरंगा।",
-        "en": "This is our national flag — the Tiranga."
+        "en": "This is our national flag — the Tiranga.",
+        "mr": "हा आपला राष्ट्रध्वज आहे — तिरंगा.",
+        "or": "ଏହା ଆମର ଜାତୀୟ ପତାକା — ତ୍ରିରଙ୍ଗା।"
       }
     }
   ],
@@ -24,14 +26,18 @@
       "duration": 8000,
       "script": {
         "hi": "यह हमारा प्रांगण है। बीच में अशोक चक्र है।",
-        "en": "This is our courtyard. In the middle is the wheel from our flag."
+        "en": "This is our courtyard. In the middle is the wheel from our flag.",
+        "mr": "हे आपलं प्रांगण आहे. मध्यभागी आपल्या ध्वजावरचं चक्र आहे.",
+        "or": "ଏହା ଆମ ପ୍ରାଙ୍ଗଣ। ମଝିରେ ଆମ ପତାକାର ଚକ୍ର ଅଛି।"
       }
     },
     {
       "duration": 8000,
       "script": {
         "hi": "इन चबूतरों पर हमारे राष्ट्रीय चिह्न रखे जाएँगे।",
-        "en": "Our national symbols will stand on these plinths."
+        "en": "Our national symbols will stand on these plinths.",
+        "mr": "या चौथऱ्यांवर आपली राष्ट्रीय प्रतीकं ठेवली जातील.",
+        "or": "ଏହି ଚଉତରା ଉପରେ ଆମର ଜାତୀୟ ପ୍ରତୀକ ରଖାଯିବ।"
       }
     }
   ]

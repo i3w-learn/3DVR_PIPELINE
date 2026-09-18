@@ -50,7 +50,9 @@
       "duration": 7000,
       "script": {
         "hi": "सूरज तालाब के पानी को गरम करता है।",
-        "en": "The sun warms the water in the pond."
+        "en": "The sun warms the water in the pond.",
+        "mr": "सूर्य तळ्यातलं पाणी गरम करतो.",
+        "or": "ସୂର୍ଯ୍ୟ ପୋଖରୀର ପାଣିକୁ ଗରମ କରେ।"
       }
     },
     {
@@ -58,7 +60,9 @@
       "duration": 7500,
       "script": {
         "hi": "गरम पानी भाप बनकर ऊपर उठता है।",
-        "en": "The warm water turns into vapour and rises up, up into the sky."
+        "en": "The warm water turns into vapour and rises up, up into the sky.",
+        "mr": "गरम पाण्याची वाफ होते आणि ती वर, वर आकाशात जाते.",
+        "or": "ଗରମ ପାଣି ବାଷ୍ପ ହୋଇ ଉପରକୁ, ଉପରକୁ ଆକାଶକୁ ଉଠେ।"
       }
     },
     {
@@ -66,7 +70,9 @@
       "duration": 7500,
       "script": {
         "hi": "ऊपर ठंडा होकर भाप बादल बन जाती है।",
-        "en": "High up it is cold, and the vapour becomes a cloud."
+        "en": "High up it is cold, and the vapour becomes a cloud.",
+        "mr": "उंचावर थंडी असते, आणि वाफेचा ढग बनतो.",
+        "or": "ଉଚ୍ଚରେ ଥଣ୍ଡା, ଆଉ ବାଷ୍ପ ମେଘ ହୋଇଯାଏ।"
       }
     },
     {
@@ -74,7 +80,9 @@
       "duration": 7500,
       "script": {
         "hi": "बादल भारी होता है, और बारिश होती है।",
-        "en": "The cloud grows heavy and grey — and down comes the rain."
+        "en": "The cloud grows heavy and grey — and down comes the rain.",
+        "mr": "ढग जड आणि करडा होतो — आणि पाऊस पडतो.",
+        "or": "ମେଘ ଓଜନିଆ ଓ ଧୂସର ହୁଏ — ଆଉ ବର୍ଷା ହୁଏ।"
       }
     },
     {
@@ -82,7 +90,9 @@
       "duration": 8000,
       "script": {
         "hi": "बारिश तालाब को फिर भर देती है। और यह फिर से शुरू होता है।",
-        "en": "The rain fills the pond again. And then it all begins once more."
+        "en": "The rain fills the pond again. And then it all begins once more.",
+        "mr": "पावसाने तळं पुन्हा भरतं. आणि मग हे सगळं पुन्हा सुरू होतं.",
+        "or": "ବର୍ଷାରେ ପୋଖରୀ ପୁଣି ଭରିଯାଏ। ଆଉ ତାପରେ ଏସବୁ ପୁଣି ଆରମ୍ଭ ହୁଏ।"
       }
     }
   ]

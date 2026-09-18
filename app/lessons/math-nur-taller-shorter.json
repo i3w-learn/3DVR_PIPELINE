@@ -50,7 +50,9 @@
       "duration": 6500,
       "script": {
         "hi": "यह पेड़ लंबा है।",
-        "en": "This tree is tall."
+        "en": "This tree is tall.",
+        "mr": "हे झाड उंच आहे.",
+        "or": "ଏହି ଗଛ ଡେଙ୍ଗା।"
       }
     },
     {
@@ -63,7 +65,9 @@
       "duration": 7000,
       "script": {
         "hi": "और यह पेड़ छोटा है।",
-        "en": "And this tree is short."
+        "en": "And this tree is short.",
+        "mr": "आणि हे झाड ठेंगणं आहे.",
+        "or": "ଆଉ ଏହି ଗଛ ଗେଡ଼ା।"
       }
     },
     {
@@ -74,7 +78,9 @@
       "duration": 6500,
       "script": {
         "hi": "अब ये देखो। कौन सा लंबा है?",
-        "en": "Now look at these. Which one is taller?"
+        "en": "Now look at these. Which one is taller?",
+        "mr": "आता हे बघा. यांपैकी जास्त उंच कोणतं?",
+        "or": "ଏବେ ଏଗୁଡ଼ିକୁ ଦେଖ। କେଉଁଟି ଅଧିକ ଡେଙ୍ଗା?"
       }
     },
     {
@@ -87,7 +93,9 @@
       "duration": 7000,
       "script": {
         "hi": "यह वाला लंबा है, यह छोटा।",
-        "en": "This one is taller. This one is shorter."
+        "en": "This one is taller. This one is shorter.",
+        "mr": "हे जास्त उंच आहे. हे जास्त ठेंगणं आहे.",
+        "or": "ଏହା ଅଧିକ ଡେଙ୍ଗା। ଏହା ଅଧିକ ଗେଡ଼ା।"
       }
     }
   ]

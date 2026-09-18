@@ -116,7 +116,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब ये स्वर देखो।",
-        "en": "Now look at these vowels."
+        "en": "Now look at these vowels.",
+        "mr": "आता हे स्वर बघा.",
+        "or": "ଏବେ ଏହି ସ୍ୱରବର୍ଣ୍ଣଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -132,7 +134,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह अ है। बोलो — अ।",
-        "en": "This is अ, said “a”. Say it with me."
+        "en": "This is अ, said “a”. Say it with me.",
+        "mr": "हे अ आहे. म्हणा — अ.",
+        "or": "ଏହା अ। କୁହ — अ।"
       }
     },
     {
@@ -148,7 +152,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह आ है। बोलो — आ।",
-        "en": "This is आ, said “aa”. Say it with me."
+        "en": "This is आ, said “aa”. Say it with me.",
+        "mr": "हे आ आहे. म्हणा — आ.",
+        "or": "ଏହା आ। କୁହ — आ।"
       }
     },
     {
@@ -164,7 +170,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह इ है। बोलो — इ।",
-        "en": "This is इ, said “i”. Say it with me."
+        "en": "This is इ, said “i”. Say it with me.",
+        "mr": "हे इ आहे. म्हणा — इ.",
+        "or": "ଏହା इ। କୁହ — इ।"
       }
     },
     {
@@ -180,7 +188,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ई है। बोलो — ई।",
-        "en": "This is ई, said “ee”. Say it with me."
+        "en": "This is ई, said “ee”. Say it with me.",
+        "mr": "हे ई आहे. म्हणा — ई.",
+        "or": "ଏହା ई। କୁହ — ई।"
       }
     },
     {
@@ -196,7 +206,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह उ है। बोलो — उ।",
-        "en": "This is उ, said “u”. Say it with me."
+        "en": "This is उ, said “u”. Say it with me.",
+        "mr": "हे उ आहे. म्हणा — उ.",
+        "or": "ଏହା उ। କୁହ — उ।"
       }
     },
     {
@@ -212,7 +224,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ऊ है। बोलो — ऊ।",
-        "en": "This is ऊ, said “oo”. Say it with me."
+        "en": "This is ऊ, said “oo”. Say it with me.",
+        "mr": "हे ऊ आहे. म्हणा — ऊ.",
+        "or": "ଏହା ऊ। କୁହ — ऊ।"
       }
     },
     {
@@ -226,7 +240,9 @@
       "duration": 5000,
       "script": {
         "hi": "अब ये स्वर देखो।",
-        "en": "Now look at these vowels."
+        "en": "Now look at these vowels.",
+        "mr": "आता हे स्वर बघा.",
+        "or": "ଏବେ ଏହି ସ୍ୱରବର୍ଣ୍ଣଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -241,7 +257,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ऋ है। बोलो — ऋ।",
-        "en": "This is ऋ, said “ri”. Say it with me."
+        "en": "This is ऋ, said “ri”. Say it with me.",
+        "mr": "हे ऋ आहे. म्हणा — ऋ.",
+        "or": "ଏହା ऋ। କୁହ — ऋ।"
       }
     },
     {
@@ -256,7 +274,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ए है। बोलो — ए।",
-        "en": "This is ए, said “e”. Say it with me."
+        "en": "This is ए, said “e”. Say it with me.",
+        "mr": "हे ए आहे. म्हणा — ए.",
+        "or": "ଏହା ए। କୁହ — ए।"
       }
     },
     {
@@ -271,7 +291,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ऐ है। बोलो — ऐ।",
-        "en": "This is ऐ, said “ai”. Say it with me."
+        "en": "This is ऐ, said “ai”. Say it with me.",
+        "mr": "हे ऐ आहे. म्हणा — ऐ.",
+        "or": "ଏହା ऐ। କୁହ — ऐ।"
       }
     },
     {
@@ -286,7 +308,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह ओ है। बोलो — ओ।",
-        "en": "This is ओ, said “o”. Say it with me."
+        "en": "This is ओ, said “o”. Say it with me.",
+        "mr": "हे ओ आहे. म्हणा — ओ.",
+        "or": "ଏହା ओ। କୁହ — ओ।"
       }
     },
     {
@@ -301,7 +325,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह औ है। बोलो — औ।",
-        "en": "This is औ, said “au”. Say it with me."
+        "en": "This is औ, said “au”. Say it with me.",
+        "mr": "हे औ आहे. म्हणा — औ.",
+        "or": "ଏହା औ। କୁହ — औ।"
       }
     }
   ]

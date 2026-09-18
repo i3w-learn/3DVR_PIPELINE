@@ -159,7 +159,9 @@
       "duration": 8000,
       "script": {
         "hi": "खेलना सेहत के लिए अच्छा है। हर खेल का अपना सामान होता है।",
-        "en": "Playing games keeps us fit. Every game has its own equipment."
+        "en": "Playing games keeps us fit. Every game has its own equipment.",
+        "mr": "खेळल्याने आपण तंदुरुस्त राहतो. प्रत्येक खेळाचं स्वतःचं साहित्य असतं.",
+        "or": "ଖେଳିଲେ ଆମେ ସୁସ୍ଥ ରହୁ। ପ୍ରତ୍ୟେକ ଖେଳର ନିଜର ସରଞ୍ଜାମ ଥାଏ।"
       }
     },
     {
@@ -171,7 +173,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह बल्ला है।",
-        "en": "This is a bat."
+        "en": "This is a bat.",
+        "mr": "ही बॅट आहे.",
+        "or": "ଏହା ଏକ ବ୍ୟାଟ।"
       }
     },
     {
@@ -184,7 +188,9 @@
       "duration": 8500,
       "script": {
         "hi": "क्रिकेट बल्ले और गेंद से खेलते हैं।",
-        "en": "Cricket is played with a bat and a ball."
+        "en": "Cricket is played with a bat and a ball.",
+        "mr": "क्रिकेट बॅट आणि चेंडूने खेळतात.",
+        "or": "କ୍ରିକେଟ ବ୍ୟାଟ ଆଉ ବଲରେ ଖେଳାଯାଏ।"
       }
     },
     {
@@ -196,7 +202,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह फ़ुटबॉल है।",
-        "en": "This is a football."
+        "en": "This is a football.",
+        "mr": "हा फुटबॉल आहे.",
+        "or": "ଏହା ଏକ ଫୁଟବଲ।"
       }
     },
     {
@@ -209,7 +217,9 @@
       "duration": 8500,
       "script": {
         "hi": "फ़ुटबॉल को पैर से मारकर गोल में डालते हैं।",
-        "en": "In football we kick the ball into the goal."
+        "en": "In football we kick the ball into the goal.",
+        "mr": "फुटबॉलमध्ये चेंडूला पायाने मारून गोलमध्ये टाकतात.",
+        "or": "ଫୁଟବଲରେ ବଲକୁ ଗୋଡ଼ରେ ମାରି ଗୋଲ ଭିତରକୁ ପଠାଯାଏ।"
       }
     },
     {
@@ -221,7 +231,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह रैकेट है।",
-        "en": "This is a racket."
+        "en": "This is a racket.",
+        "mr": "ही रॅकेट आहे.",
+        "or": "ଏହା ଏକ ର୍ୟାକେଟ।"
       }
     },
     {
@@ -234,7 +246,9 @@
       "duration": 8500,
       "script": {
         "hi": "बैडमिंटन रैकेट और शटलकॉक से खेलते हैं।",
-        "en": "Badminton is played with a racket and a shuttlecock."
+        "en": "Badminton is played with a racket and a shuttlecock.",
+        "mr": "बॅडमिंटन रॅकेट आणि शटलकॉकने खेळतात.",
+        "or": "ବ୍ୟାଡମିଣ୍ଟନ ର୍ୟାକେଟ ଆଉ ଶଟଲକକରେ ଖେଳାଯାଏ।"
       }
     },
     {
@@ -246,7 +260,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह हॉकी स्टिक है।",
-        "en": "This is a hockey stick."
+        "en": "This is a hockey stick.",
+        "mr": "ही हॉकी स्टिक आहे.",
+        "or": "ଏହା ଏକ ହକି ଷ୍ଟିକ।"
       }
     },
     {
@@ -259,7 +275,9 @@
       "duration": 8500,
       "script": {
         "hi": "हॉकी स्टिक और गेंद से खेलते हैं। हॉकी हमारा राष्ट्रीय खेल है।",
-        "en": "Hockey is played with a stick and a ball. Hockey is our national game."
+        "en": "Hockey is played with a stick and a ball. Hockey is our national game.",
+        "mr": "हॉकी स्टिक आणि चेंडूने खेळतात. हॉकी हा आपला राष्ट्रीय खेळ आहे.",
+        "or": "ହକି ଷ୍ଟିକ ଆଉ ବଲରେ ଖେଳାଯାଏ। ହକି ଆମର ଜାତୀୟ ଖେଳ।"
       }
     },
     {
@@ -271,7 +289,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह बास्केटबॉल है।",
-        "en": "This is a basketball."
+        "en": "This is a basketball.",
+        "mr": "हा बास्केटबॉल आहे.",
+        "or": "ଏହା ଏକ ବାସ୍କେଟବଲ।"
       }
     },
     {
@@ -284,7 +304,9 @@
       "duration": 8500,
       "script": {
         "hi": "बास्केटबॉल को ऊपर बास्केट में डालते हैं।",
-        "en": "In basketball we throw the ball up into the hoop."
+        "en": "In basketball we throw the ball up into the hoop.",
+        "mr": "बास्केटबॉलमध्ये चेंडू वर बास्केटमध्ये टाकतात.",
+        "or": "ବାସ୍କେଟବଲରେ ବଲକୁ ଉପରେ ଥିବା ବାସ୍କେଟରେ ପକାଯାଏ।"
       }
     },
     {
@@ -296,7 +318,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह रैकेट है।",
-        "en": "This is a racket."
+        "en": "This is a racket.",
+        "mr": "ही रॅकेट आहे.",
+        "or": "ଏହା ଏକ ର୍ୟାକେଟ।"
       }
     },
     {
@@ -309,7 +333,9 @@
       "duration": 8500,
       "script": {
         "hi": "टेनिस रैकेट और गेंद से खेलते हैं।",
-        "en": "Tennis is played with a racket and a ball."
+        "en": "Tennis is played with a racket and a ball.",
+        "mr": "टेनिस रॅकेट आणि चेंडूने खेळतात.",
+        "or": "ଟେନିସ ର୍ୟାକେଟ ଆଉ ବଲରେ ଖେଳାଯାଏ।"
       }
     }
   ]

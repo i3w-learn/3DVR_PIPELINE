@@ -108,7 +108,9 @@
       "duration": 12000,
       "script": {
         "hi": "गोल चीज़ कौन सी है? उसे छुओ।",
-        "en": "Which thing is round? Touch it."
+        "en": "Which thing is round? Touch it.",
+        "mr": "कोणती वस्तू गोल आहे? तिला स्पर्श करा.",
+        "or": "କେଉଁ ଜିନିଷ ଗୋଲ? ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -125,7 +127,9 @@
       "duration": 12000,
       "script": {
         "hi": "लंबी चीज़ कौन सी है? उसे छुओ।",
-        "en": "Which thing is long? Touch it."
+        "en": "Which thing is long? Touch it.",
+        "mr": "कोणती वस्तू लांब आहे? तिला स्पर्श करा.",
+        "or": "କେଉଁ ଜିନିଷ ଲମ୍ବା? ତାକୁ ଛୁଅଁ।"
       }
     }
   ]

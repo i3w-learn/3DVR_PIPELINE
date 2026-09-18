@@ -184,7 +184,9 @@
       "duration": 10000,
       "script": {
         "hi": "त्रिभुज कौन सा है? उसे छुओ।",
-        "en": "Which one is the triangle? Touch it."
+        "en": "Which one is the triangle? Touch it.",
+        "mr": "त्रिकोण कोणता? त्याला स्पर्श करा.",
+        "or": "କେଉଁଟି ତ୍ରିଭୁଜ? ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -198,7 +200,9 @@
       "duration": 10000,
       "script": {
         "hi": "गोला कौन सा है? उसे छुओ।",
-        "en": "Which one is the circle? Touch it."
+        "en": "Which one is the circle? Touch it.",
+        "mr": "वर्तुळ कोणतं? त्याला स्पर्श करा.",
+        "or": "କେଉଁଟି ବୃତ୍ତ? ତାକୁ ଛୁଅଁ।"
       }
     },
     {
@@ -212,7 +216,9 @@
       "duration": 10000,
       "script": {
         "hi": "तारा कौन सा है? उसे छुओ।",
-        "en": "Which one is the star? Touch it."
+        "en": "Which one is the star? Touch it.",
+        "mr": "तारा कोणता? त्याला स्पर्श करा.",
+        "or": "କେଉଁଟି ତାରା? ତାକୁ ଛୁଅଁ।"
       }
     }
   ]

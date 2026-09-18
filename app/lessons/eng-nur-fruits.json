@@ -104,7 +104,9 @@
       "duration": 5000,
       "script": {
         "hi": "ये फल देखो।",
-        "en": "Look at these fruits."
+        "en": "Look at these fruits.",
+        "mr": "ही फळं बघा.",
+        "or": "ଏହି ଫଳଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -118,7 +120,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह सेब है।",
-        "en": "This is an apple."
+        "en": "This is an apple.",
+        "mr": "हे सफरचंद आहे.",
+        "or": "ଏହା ଏକ ସେଓ।"
       }
     },
     {
@@ -132,7 +136,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह केला है।",
-        "en": "This is a banana."
+        "en": "This is a banana.",
+        "mr": "हे केळं आहे.",
+        "or": "ଏହା ଏକ କଦଳୀ।"
       }
     },
     {
@@ -146,7 +152,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह संतरा है।",
-        "en": "This is an orange."
+        "en": "This is an orange.",
+        "mr": "हे संत्रं आहे.",
+        "or": "ଏହା ଏକ କମଳା।"
       }
     },
     {
@@ -160,7 +168,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह अंगूर है।",
-        "en": "This is a bunch of grapes."
+        "en": "This is a bunch of grapes.",
+        "mr": "हा द्राक्षांचा घड आहे.",
+        "or": "ଏହା ଏକ ଅଙ୍ଗୁର ପେନ୍ଥା।"
       }
     },
     {
@@ -173,7 +183,9 @@
       "duration": 5000,
       "script": {
         "hi": "ये फल देखो।",
-        "en": "Look at these fruits."
+        "en": "Look at these fruits.",
+        "mr": "ही फळं बघा.",
+        "or": "ଏହି ଫଳଗୁଡ଼ିକ ଦେଖ।"
       }
     },
     {
@@ -187,7 +199,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह नाशपाती है।",
-        "en": "This is a pear."
+        "en": "This is a pear.",
+        "mr": "हे नासपती आहे.",
+        "or": "ଏହା ଏକ ନାସପାତି।"
       }
     },
     {
@@ -201,7 +215,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह अनानास है।",
-        "en": "This is a pineapple."
+        "en": "This is a pineapple.",
+        "mr": "हे अननस आहे.",
+        "or": "ଏହା ଏକ ସପୁରୀ।"
       }
     },
     {
@@ -215,7 +231,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह स्ट्रॉबेरी है।",
-        "en": "This is a strawberry."
+        "en": "This is a strawberry.",
+        "mr": "ही स्ट्रॉबेरी आहे.",
+        "or": "ଏହା ଏକ ଷ୍ଟ୍ରବେରୀ।"
       }
     },
     {
@@ -229,7 +247,9 @@
       "duration": 6000,
       "script": {
         "hi": "यह तरबूज़ है।",
-        "en": "This is a watermelon."
+        "en": "This is a watermelon.",
+        "mr": "हे कलिंगड आहे.",
+        "or": "ଏହା ଏକ ତରଭୁଜ।"
       }
     }
   ]

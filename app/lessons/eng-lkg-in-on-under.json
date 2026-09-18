@@ -49,7 +49,9 @@
       "duration": 7000,
       "script": {
         "hi": "लाल गेंद मेज़ के ऊपर है।",
-        "en": "The red ball is ON the table."
+        "en": "The red ball is ON the table.",
+        "mr": "लाल चेंडू टेबलाच्या वर आहे.",
+        "or": "ନାଲି ବଲ ଟେବୁଲ ଉପରେ ଅଛି।"
       }
     },
     {
@@ -58,7 +60,9 @@
       "duration": 7000,
       "script": {
         "hi": "नीली गेंद मेज़ के नीचे है।",
-        "en": "The blue ball is UNDER the table."
+        "en": "The blue ball is UNDER the table.",
+        "mr": "निळा चेंडू टेबलाच्या खाली आहे.",
+        "or": "ନୀଳ ବଲ ଟେବୁଲ ତଳେ ଅଛି।"
       }
     },
     {
@@ -67,14 +71,18 @@
       "duration": 7000,
       "script": {
         "hi": "पीली गेंद टब के अंदर है।",
-        "en": "The yellow ball is IN the tub."
+        "en": "The yellow ball is IN the tub.",
+        "mr": "पिवळा चेंडू टबाच्या आत आहे.",
+        "or": "ହଳଦିଆ ବଲ ଟବ ଭିତରେ ଅଛି।"
       }
     },
     {
       "duration": 8000,
       "script": {
         "hi": "ऊपर, नीचे, अंदर।",
-        "en": "On. Under. In."
+        "en": "On. Under. In.",
+        "mr": "वर. खाली. आत.",
+        "or": "ଉପରେ। ତଳେ। ଭିତରେ।"
       }
     }
   ]
