@@ -1,0 +1,821 @@
+{
+  "id": "math-nur-count-21-50",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "n1",
+      "build": "glyph",
+      "params": {
+        "char": "21",
+        "height": 0.16
+      },
+      "position": "-0.575 0.520 -0.850"
+    },
+    {
+      "id": "n2",
+      "build": "glyph",
+      "params": {
+        "char": "22",
+        "height": 0.16
+      },
+      "position": "-0.287 0.520 -0.850"
+    },
+    {
+      "id": "n3",
+      "build": "glyph",
+      "params": {
+        "char": "23",
+        "height": 0.16
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "n4",
+      "build": "glyph",
+      "params": {
+        "char": "24",
+        "height": 0.16
+      },
+      "position": "0.287 0.520 -0.850"
+    },
+    {
+      "id": "n5",
+      "build": "glyph",
+      "params": {
+        "char": "25",
+        "height": 0.16
+      },
+      "position": "0.575 0.520 -0.850"
+    },
+    {
+      "id": "n6",
+      "build": "glyph",
+      "params": {
+        "char": "26",
+        "height": 0.16
+      },
+      "position": "-0.575 0.520 -0.850"
+    },
+    {
+      "id": "n7",
+      "build": "glyph",
+      "params": {
+        "char": "27",
+        "height": 0.16
+      },
+      "position": "-0.287 0.520 -0.850"
+    },
+    {
+      "id": "n8",
+      "build": "glyph",
+      "params": {
+        "char": "28",
+        "height": 0.16
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "n9",
+      "build": "glyph",
+      "params": {
+        "char": "29",
+        "height": 0.16
+      },
+      "position": "0.287 0.520 -0.850"
+    },
+    {
+      "id": "n10",
+      "build": "glyph",
+      "params": {
+        "char": "30",
+        "height": 0.16
+      },
+      "position": "0.575 0.520 -0.850"
+    },
+    {
+      "id": "n11",
+      "build": "glyph",
+      "params": {
+        "char": "31",
+        "height": 0.16
+      },
+      "position": "-0.575 0.520 -0.850"
+    },
+    {
+      "id": "n12",
+      "build": "glyph",
+      "params": {
+        "char": "32",
+        "height": 0.16
+      },
+      "position": "-0.287 0.520 -0.850"
+    },
+    {
+      "id": "n13",
+      "build": "glyph",
+      "params": {
+        "char": "33",
+        "height": 0.16
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "n14",
+      "build": "glyph",
+      "params": {
+        "char": "34",
+        "height": 0.16
+      },
+      "position": "0.287 0.520 -0.850"
+    },
+    {
+      "id": "n15",
+      "build": "glyph",
+      "params": {
+        "char": "35",
+        "height": 0.16
+      },
+      "position": "0.575 0.520 -0.850"
+    },
+    {
+      "id": "n16",
+      "build": "glyph",
+      "params": {
+        "char": "36",
+        "height": 0.16
+      },
+      "position": "-0.575 0.520 -0.850"
+    },
+    {
+      "id": "n17",
+      "build": "glyph",
+      "params": {
+        "char": "37",
+        "height": 0.16
+      },
+      "position": "-0.287 0.520 -0.850"
+    },
+    {
+      "id": "n18",
+      "build": "glyph",
+      "params": {
+        "char": "38",
+        "height": 0.16
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "n19",
+      "build": "glyph",
+      "params": {
+        "char": "39",
+        "height": 0.16
+      },
+      "position": "0.287 0.520 -0.850"
+    },
+    {
+      "id": "n20",
+      "build": "glyph",
+      "params": {
+        "char": "40",
+        "height": 0.16
+      },
+      "position": "0.575 0.520 -0.850"
+    },
+    {
+      "id": "n21",
+      "build": "glyph",
+      "params": {
+        "char": "41",
+        "height": 0.16
+      },
+      "position": "-0.575 0.520 -0.850"
+    },
+    {
+      "id": "n22",
+      "build": "glyph",
+      "params": {
+        "char": "42",
+        "height": 0.16
+      },
+      "position": "-0.287 0.520 -0.850"
+    },
+    {
+      "id": "n23",
+      "build": "glyph",
+      "params": {
+        "char": "43",
+        "height": 0.16
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "n24",
+      "build": "glyph",
+      "params": {
+        "char": "44",
+        "height": 0.16
+      },
+      "position": "0.287 0.520 -0.850"
+    },
+    {
+      "id": "n25",
+      "build": "glyph",
+      "params": {
+        "char": "45",
+        "height": 0.16
+      },
+      "position": "0.575 0.520 -0.850"
+    },
+    {
+      "id": "n26",
+      "build": "glyph",
+      "params": {
+        "char": "46",
+        "height": 0.16
+      },
+      "position": "-0.575 0.520 -0.850"
+    },
+    {
+      "id": "n27",
+      "build": "glyph",
+      "params": {
+        "char": "47",
+        "height": 0.16
+      },
+      "position": "-0.287 0.520 -0.850"
+    },
+    {
+      "id": "n28",
+      "build": "glyph",
+      "params": {
+        "char": "48",
+        "height": 0.16
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "n29",
+      "build": "glyph",
+      "params": {
+        "char": "49",
+        "height": 0.16
+      },
+      "position": "0.287 0.520 -0.850"
+    },
+    {
+      "id": "n30",
+      "build": "glyph",
+      "params": {
+        "char": "50",
+        "height": 0.16
+      },
+      "position": "0.575 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [],
+      "duration": 5000,
+      "script": {
+        "hi": "अब इक्कीस से पचास तक गिनें।",
+        "en": "Now let us count from twenty-one to fifty."
+      }
+    },
+    {
+      "show": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5"
+      ],
+      "duration": 4500,
+      "script": {
+        "hi": "21 से 25 तक।",
+        "en": "21 to 25."
+      }
+    },
+    {
+      "highlight": "n1",
+      "show": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "21।",
+        "en": "21."
+      }
+    },
+    {
+      "highlight": "n2",
+      "show": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "22।",
+        "en": "22."
+      }
+    },
+    {
+      "highlight": "n3",
+      "show": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "23।",
+        "en": "23."
+      }
+    },
+    {
+      "highlight": "n4",
+      "show": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "24।",
+        "en": "24."
+      }
+    },
+    {
+      "highlight": "n5",
+      "show": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "25।",
+        "en": "25."
+      }
+    },
+    {
+      "show": [
+        "n6",
+        "n7",
+        "n8",
+        "n9",
+        "n10"
+      ],
+      "duration": 4500,
+      "script": {
+        "hi": "26 से 30 तक।",
+        "en": "26 to 30."
+      }
+    },
+    {
+      "highlight": "n6",
+      "show": [
+        "n6",
+        "n7",
+        "n8",
+        "n9",
+        "n10"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "26।",
+        "en": "26."
+      }
+    },
+    {
+      "highlight": "n7",
+      "show": [
+        "n6",
+        "n7",
+        "n8",
+        "n9",
+        "n10"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "27।",
+        "en": "27."
+      }
+    },
+    {
+      "highlight": "n8",
+      "show": [
+        "n6",
+        "n7",
+        "n8",
+        "n9",
+        "n10"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "28।",
+        "en": "28."
+      }
+    },
+    {
+      "highlight": "n9",
+      "show": [
+        "n6",
+        "n7",
+        "n8",
+        "n9",
+        "n10"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "29।",
+        "en": "29."
+      }
+    },
+    {
+      "highlight": "n10",
+      "show": [
+        "n6",
+        "n7",
+        "n8",
+        "n9",
+        "n10"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "30।",
+        "en": "30."
+      }
+    },
+    {
+      "show": [
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15"
+      ],
+      "duration": 4500,
+      "script": {
+        "hi": "31 से 35 तक।",
+        "en": "31 to 35."
+      }
+    },
+    {
+      "highlight": "n11",
+      "show": [
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "31।",
+        "en": "31."
+      }
+    },
+    {
+      "highlight": "n12",
+      "show": [
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "32।",
+        "en": "32."
+      }
+    },
+    {
+      "highlight": "n13",
+      "show": [
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "33।",
+        "en": "33."
+      }
+    },
+    {
+      "highlight": "n14",
+      "show": [
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "34।",
+        "en": "34."
+      }
+    },
+    {
+      "highlight": "n15",
+      "show": [
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "35।",
+        "en": "35."
+      }
+    },
+    {
+      "show": [
+        "n16",
+        "n17",
+        "n18",
+        "n19",
+        "n20"
+      ],
+      "duration": 4500,
+      "script": {
+        "hi": "36 से 40 तक।",
+        "en": "36 to 40."
+      }
+    },
+    {
+      "highlight": "n16",
+      "show": [
+        "n16",
+        "n17",
+        "n18",
+        "n19",
+        "n20"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "36।",
+        "en": "36."
+      }
+    },
+    {
+      "highlight": "n17",
+      "show": [
+        "n16",
+        "n17",
+        "n18",
+        "n19",
+        "n20"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "37।",
+        "en": "37."
+      }
+    },
+    {
+      "highlight": "n18",
+      "show": [
+        "n16",
+        "n17",
+        "n18",
+        "n19",
+        "n20"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "38।",
+        "en": "38."
+      }
+    },
+    {
+      "highlight": "n19",
+      "show": [
+        "n16",
+        "n17",
+        "n18",
+        "n19",
+        "n20"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "39।",
+        "en": "39."
+      }
+    },
+    {
+      "highlight": "n20",
+      "show": [
+        "n16",
+        "n17",
+        "n18",
+        "n19",
+        "n20"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "40।",
+        "en": "40."
+      }
+    },
+    {
+      "show": [
+        "n21",
+        "n22",
+        "n23",
+        "n24",
+        "n25"
+      ],
+      "duration": 4500,
+      "script": {
+        "hi": "41 से 45 तक।",
+        "en": "41 to 45."
+      }
+    },
+    {
+      "highlight": "n21",
+      "show": [
+        "n21",
+        "n22",
+        "n23",
+        "n24",
+        "n25"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "41।",
+        "en": "41."
+      }
+    },
+    {
+      "highlight": "n22",
+      "show": [
+        "n21",
+        "n22",
+        "n23",
+        "n24",
+        "n25"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "42।",
+        "en": "42."
+      }
+    },
+    {
+      "highlight": "n23",
+      "show": [
+        "n21",
+        "n22",
+        "n23",
+        "n24",
+        "n25"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "43।",
+        "en": "43."
+      }
+    },
+    {
+      "highlight": "n24",
+      "show": [
+        "n21",
+        "n22",
+        "n23",
+        "n24",
+        "n25"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "44।",
+        "en": "44."
+      }
+    },
+    {
+      "highlight": "n25",
+      "show": [
+        "n21",
+        "n22",
+        "n23",
+        "n24",
+        "n25"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "45।",
+        "en": "45."
+      }
+    },
+    {
+      "show": [
+        "n26",
+        "n27",
+        "n28",
+        "n29",
+        "n30"
+      ],
+      "duration": 4500,
+      "script": {
+        "hi": "46 से 50 तक।",
+        "en": "46 to 50."
+      }
+    },
+    {
+      "highlight": "n26",
+      "show": [
+        "n26",
+        "n27",
+        "n28",
+        "n29",
+        "n30"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "46।",
+        "en": "46."
+      }
+    },
+    {
+      "highlight": "n27",
+      "show": [
+        "n26",
+        "n27",
+        "n28",
+        "n29",
+        "n30"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "47।",
+        "en": "47."
+      }
+    },
+    {
+      "highlight": "n28",
+      "show": [
+        "n26",
+        "n27",
+        "n28",
+        "n29",
+        "n30"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "48।",
+        "en": "48."
+      }
+    },
+    {
+      "highlight": "n29",
+      "show": [
+        "n26",
+        "n27",
+        "n28",
+        "n29",
+        "n30"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "49।",
+        "en": "49."
+      }
+    },
+    {
+      "highlight": "n30",
+      "show": [
+        "n26",
+        "n27",
+        "n28",
+        "n29",
+        "n30"
+      ],
+      "duration": 4000,
+      "script": {
+        "hi": "50।",
+        "en": "50."
+      }
+    }
+  ]
+}

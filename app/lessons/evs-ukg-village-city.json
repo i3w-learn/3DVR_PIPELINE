@@ -1,0 +1,188 @@
+{
+  "id": "evs-ukg-village-city",
+  "template": "compare",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "v1",
+      "build": "building",
+      "params": {
+        "floors": 1,
+        "width": 9,
+        "depth": 6,
+        "floorHeight": 2.9,
+        "windows": 3,
+        "veranda": true,
+        "sign": "",
+        "wall": "#efe0c4",
+        "trim": "#8a5a34",
+        "roof": "#cfc7b4"
+      },
+      "position": "-8.000 0.000 -22.000",
+      "rotation": "0 18 0"
+    },
+    {
+      "id": "v2",
+      "build": "building",
+      "params": {
+        "floors": 1,
+        "width": 8,
+        "depth": 6,
+        "floorHeight": 2.9,
+        "windows": 2,
+        "veranda": true,
+        "sign": "",
+        "wall": "#e8dcc6",
+        "trim": "#7a6a45",
+        "roof": "#cfc7b4"
+      },
+      "position": "4.500 0.000 -26.000",
+      "rotation": "0 -12 0"
+    },
+    {
+      "id": "v3",
+      "build": "building",
+      "params": {
+        "floors": 1,
+        "width": 10,
+        "depth": 6,
+        "floorHeight": 2.9,
+        "windows": 3,
+        "veranda": true,
+        "sign": "",
+        "wall": "#f0e6d2",
+        "trim": "#8c6a3f",
+        "roof": "#cfc7b4"
+      },
+      "position": "-1.500 0.000 -34.000",
+      "rotation": "0 0 0"
+    },
+    {
+      "id": "c1",
+      "build": "building",
+      "params": {
+        "floors": 4,
+        "width": 12,
+        "depth": 8,
+        "floorHeight": 3.1,
+        "windows": 6,
+        "veranda": false,
+        "sign": "",
+        "wall": "#e6e8ea",
+        "trim": "#4a5b66",
+        "roof": "#cfc7b4"
+      },
+      "position": "-9.000 0.000 -24.000",
+      "rotation": "0 10 0"
+    },
+    {
+      "id": "c2",
+      "build": "building",
+      "params": {
+        "floors": 5,
+        "width": 11,
+        "depth": 8,
+        "floorHeight": 3.1,
+        "windows": 5,
+        "veranda": false,
+        "sign": "",
+        "wall": "#dfe4e8",
+        "trim": "#3f5460",
+        "roof": "#cfc7b4"
+      },
+      "position": "5.000 0.000 -28.000",
+      "rotation": "0 -8 0"
+    },
+    {
+      "id": "c3",
+      "build": "building",
+      "params": {
+        "floors": 4,
+        "width": 14,
+        "depth": 8,
+        "floorHeight": 3.1,
+        "windows": 7,
+        "veranda": false,
+        "sign": "CITY HOSPITAL",
+        "wall": "#e9eaec",
+        "trim": "#54626c",
+        "roof": "#cfc7b4"
+      },
+      "position": "-1.000 0.000 -36.000",
+      "rotation": "0 0 0"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "highlight": "v1",
+      "duration": 7000,
+      "script": {
+        "hi": "यह गाँव है। घर छोटे हैं और दूर-दूर हैं।",
+        "en": "This is a village. The houses are low, and far apart."
+      }
+    },
+    {
+      "show": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "highlight": "v3",
+      "against": "v1",
+      "duration": 6500,
+      "script": {
+        "hi": "छत पर एक ही मंज़िल।",
+        "en": "Just one floor, with a veranda in front."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "highlight": "c1",
+      "duration": 7000,
+      "script": {
+        "hi": "अब यह शहर है। इमारतें ऊँची हैं।",
+        "en": "Now this is a city. The buildings are tall."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "highlight": "c2",
+      "against": "c1",
+      "duration": 6500,
+      "script": {
+        "hi": "चार, पाँच मंज़िल — एक के ऊपर एक।",
+        "en": "Four floors, five floors — one on top of another."
+      }
+    },
+    {
+      "show": [
+        "v1",
+        "v2",
+        "v3",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "highlight": "v1",
+      "against": "c1",
+      "duration": 8000,
+      "script": {
+        "hi": "गाँव में घर नीचे, शहर में ऊपर। दोनों में लोग रहते हैं।",
+        "en": "Low in the village, tall in the city — and people live in both."
+      }
+    }
+  ]
+}
