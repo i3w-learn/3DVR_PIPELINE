@@ -37,7 +37,8 @@
         "en": "This road is wide. A bus could drive along it.",
         "mr": "हा रस्ता रुंद आहे. यावरून बस जाऊ शकते.",
         "or": "ଏହି ରାସ୍ତା ଓସାରିଆ। ଏଥିରେ ବସ ଯାଇପାରିବ।"
-      }
+      },
+      "audio": "math-nur-wide-narrow-s01.mp3"
     },
     {
       "highlight": "narrow",
@@ -48,7 +49,8 @@
         "en": "This path is narrow. Only one person can walk along it.",
         "mr": "ही पायवाट अरुंद आहे. यावरून एकच माणूस चालू शकतो.",
         "or": "ଏହି ବାଟ ସରୁ। ଏଥିରେ କେବଳ ଜଣେ ଲୋକ ଚାଲିପାରିବ।"
-      }
+      },
+      "audio": "math-nur-wide-narrow-s02.mp3"
     }
   ]
 }

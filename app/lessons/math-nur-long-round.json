@@ -111,7 +111,8 @@
         "en": "Which thing is round? Touch it.",
         "mr": "कोणती वस्तू गोल आहे? तिला स्पर्श करा.",
         "or": "କେଉଁ ଜିନିଷ ଗୋଲ? ତାକୁ ଛୁଅଁ।"
-      }
+      },
+      "audio": "math-nur-long-round-s01.mp3"
     },
     {
       "show": [
@@ -130,7 +131,8 @@
         "en": "Which thing is long? Touch it.",
         "mr": "कोणती वस्तू लांब आहे? तिला स्पर्श करा.",
         "or": "କେଉଁ ଜିନିଷ ଲମ୍ବା? ତାକୁ ଛୁଅଁ।"
-      }
+      },
+      "audio": "math-nur-long-round-s02.mp3"
     }
   ]
 }

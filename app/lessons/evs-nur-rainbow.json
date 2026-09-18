@@ -42,7 +42,8 @@
         "en": "First, it rained.",
         "mr": "आधी पाऊस पडला.",
         "or": "ପ୍ରଥମେ ବର୍ଷା ହେଲା।"
-      }
+      },
+      "audio": "evs-nur-rainbow-s01.mp3"
     },
     {
       "at": "sun",
@@ -52,7 +53,8 @@
         "en": "Then the sun came out.",
         "mr": "मग ऊन पडलं.",
         "or": "ତାପରେ ଖରା ପଡ଼ିଲା।"
-      }
+      },
+      "audio": "evs-nur-rainbow-s02.mp3"
     },
     {
       "at": "bow",
@@ -62,7 +64,8 @@
         "en": "And look — a rainbow!",
         "mr": "आणि बघा — इंद्रधनुष्य!",
         "or": "ଆଉ ଦେଖ — ଇନ୍ଦ୍ରଧନୁ!"
-      }
+      },
+      "audio": "evs-nur-rainbow-s03.mp3"
     },
     {
       "at": "bow",
@@ -72,7 +75,8 @@
         "en": "It has seven colours. From the top: red, orange, yellow, green…",
         "mr": "त्यात सात रंग असतात. वरून — तांबडा, नारिंगी, पिवळा, हिरवा…",
         "or": "ଏଥିରେ ସାତଟି ରଙ୍ଗ ଥାଏ। ଉପରୁ — ନାଲି, କମଳା, ହଳଦିଆ, ସବୁଜ…"
-      }
+      },
+      "audio": "evs-nur-rainbow-s04.mp3"
     },
     {
       "at": "bow",
@@ -82,7 +86,8 @@
         "en": "…blue, indigo and violet.",
         "mr": "…निळा, पारवा आणि जांभळा.",
         "or": "…ନୀଳ, ଘନ ନୀଳ ଆଉ ବାଇଗଣୀ।"
-      }
+      },
+      "audio": "evs-nur-rainbow-s05.mp3"
     }
   ]
 }

@@ -33,7 +33,8 @@
         "en": "The red ball is up — on top of the cupboard.",
         "mr": "लाल चेंडू वर आहे — कपाटाच्या वर.",
         "or": "ନାଲି ବଲ ଉପରେ ଅଛି — ଆଲମାରି ଉପରେ।"
-      }
+      },
+      "audio": "math-nur-up-down-s01.mp3"
     },
     {
       "highlight": "down",
@@ -44,7 +45,8 @@
         "en": "The blue ball is down — on the floor.",
         "mr": "निळा चेंडू खाली आहे — जमिनीवर.",
         "or": "ନୀଳ ବଲ ତଳେ ଅଛି — ଚଟାଣ ଉପରେ।"
-      }
+      },
+      "audio": "math-nur-up-down-s02.mp3"
     },
     {
       "duration": 7000,
@@ -53,7 +55,8 @@
         "en": "Look up — the fan is up. Look down — the mats are down.",
         "mr": "वर बघा — पंखा वर आहे. खाली बघा — चटया खाली आहेत.",
         "or": "ଉପରକୁ ଦେଖ — ପଙ୍ଖା ଉପରେ ଅଛି। ତଳକୁ ଦେଖ — ମସିଣା ତଳେ ଅଛି।"
-      }
+      },
+      "audio": "math-nur-up-down-s03.mp3"
     }
   ]
 }

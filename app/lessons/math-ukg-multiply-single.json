@@ -150,7 +150,8 @@
         "en": "1 row of 3.",
         "mr": "3 ची 1 रांग.",
         "or": "3ଟିର 1 ଧାଡ଼ି।"
-      }
+      },
+      "audio": "math-ukg-multiply-single-s01.mp3"
     },
     {
       "show": [
@@ -170,7 +171,8 @@
         "en": "2 row of 3.",
         "mr": "3 च्या 2 रांगा.",
         "or": "3ଟିର 2 ଧାଡ଼ି।"
-      }
+      },
+      "audio": "math-ukg-multiply-single-s02.mp3"
     },
     {
       "show": [
@@ -189,7 +191,8 @@
         "en": "2 × 3 is 6.",
         "mr": "2 × 3 म्हणजे 6.",
         "or": "2 × 3 ହେଲା 6।"
-      }
+      },
+      "audio": "math-ukg-multiply-single-s03.mp3"
     },
     {
       "show": [
@@ -207,7 +210,8 @@
         "en": "1 row of 4.",
         "mr": "4 ची 1 रांग.",
         "or": "4ଟିର 1 ଧାଡ଼ି।"
-      }
+      },
+      "audio": "math-ukg-multiply-single-s04.mp3"
     },
     {
       "show": [
@@ -229,7 +233,8 @@
         "en": "2 row of 4.",
         "mr": "4 च्या 2 रांगा.",
         "or": "4ଟିର 2 ଧାଡ଼ି।"
-      }
+      },
+      "audio": "math-ukg-multiply-single-s05.mp3"
     },
     {
       "show": [
@@ -255,7 +260,8 @@
         "en": "3 row of 4.",
         "mr": "4 च्या 3 रांगा.",
         "or": "4ଟିର 3 ଧାଡ଼ି।"
-      }
+      },
+      "audio": "math-ukg-multiply-single-s06.mp3"
     },
     {
       "show": [
@@ -280,7 +286,8 @@
         "en": "3 × 4 is 12.",
         "mr": "3 × 4 म्हणजे 12.",
         "or": "3 × 4 ହେଲା 12।"
-      }
+      },
+      "audio": "math-ukg-multiply-single-s07.mp3"
     }
   ]
 }

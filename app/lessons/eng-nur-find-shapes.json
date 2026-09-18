@@ -83,7 +83,8 @@
         "en": "A circle is hiding in the room. Find it and touch it.",
         "mr": "खोलीत एक वर्तुळ लपलं आहे. तो शोधा आणि त्याला स्पर्श करा.",
         "or": "ଘର ଭିତରେ ଗୋଟିଏ ବୃତ୍ତ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
-      }
+      },
+      "audio": "eng-nur-find-shapes-s01.mp3"
     },
     {
       "answer": "square",
@@ -93,7 +94,8 @@
         "en": "A square is hiding in the room. Find it and touch it.",
         "mr": "खोलीत एक चौरस लपला आहे. तो शोधा आणि त्याला स्पर्श करा.",
         "or": "ଘର ଭିତରେ ଗୋଟିଏ ବର୍ଗ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
-      }
+      },
+      "audio": "eng-nur-find-shapes-s02.mp3"
     },
     {
       "answer": "triangle",
@@ -103,7 +105,8 @@
         "en": "A triangle is hiding in the room. Find it and touch it.",
         "mr": "खोलीत एक त्रिकोण लपला आहे. तो शोधा आणि त्याला स्पर्श करा.",
         "or": "ଘର ଭିତରେ ଗୋଟିଏ ତ୍ରିଭୁଜ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
-      }
+      },
+      "audio": "eng-nur-find-shapes-s03.mp3"
     },
     {
       "answer": "star",
@@ -113,7 +116,8 @@
         "en": "A star is hiding in the room. Find it and touch it.",
         "mr": "खोलीत एक तारा लपला आहे. तो शोधा आणि त्याला स्पर्श करा.",
         "or": "ଘର ଭିତରେ ଗୋଟିଏ ତାରା ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
-      }
+      },
+      "audio": "eng-nur-find-shapes-s04.mp3"
     },
     {
       "answer": "rectangle",
@@ -123,7 +127,8 @@
         "en": "A rectangle is hiding in the room. Find it and touch it.",
         "mr": "खोलीत एक आयत लपला आहे. तो शोधा आणि त्याला स्पर्श करा.",
         "or": "ଘର ଭିତରେ ଗୋଟିଏ ଆୟତ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।"
-      }
+      },
+      "audio": "eng-nur-find-shapes-s05.mp3"
     }
   ]
 }

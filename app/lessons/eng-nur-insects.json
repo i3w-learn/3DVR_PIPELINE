@@ -96,13 +96,14 @@
         "butterfly",
         "ladybug"
       ],
-      "duration": 9000,
+      "duration": 13000,
       "script": {
         "hi": "ये कीड़े हैं। कीड़े बहुत छोटे होते हैं — यहाँ हमने इन्हें बड़ा करके दिखाया है। गिनो, हर कीड़े के छह पैर हैं।",
         "en": "These are insects. Insects are very small — here we have made them big so you can see. Count: every insect has six legs.",
         "mr": "हे कीटक आहेत. कीटक खूप लहान असतात — इथे आम्ही ते मोठे करून दाखवले आहेत. मोजा — प्रत्येक कीटकाला सहा पाय असतात.",
         "or": "ଏମାନେ କୀଟପତଙ୍ଗ। କୀଟପତଙ୍ଗ ବହୁତ ଛୋଟ — ଏଠି ଆମେ ସେମାନଙ୍କୁ ବଡ଼ କରି ଦେଖାଇଛୁ। ଗଣ — ପ୍ରତ୍ୟେକ କୀଟର ଛଅଟି ଗୋଡ଼ ଥାଏ।"
-      }
+      },
+      "audio": "eng-nur-insects-s01.mp3"
     },
     {
       "highlight": "ant",
@@ -118,7 +119,8 @@
         "en": "This is an ant. The ant works very hard.",
         "mr": "ही मुंगी आहे. मुंगी खूप मेहनती असते.",
         "or": "ଏହା ଏକ ପିମ୍ପୁଡ଼ି। ପିମ୍ପୁଡ଼ି ବହୁତ ପରିଶ୍ରମ କରେ।"
-      }
+      },
+      "audio": "eng-nur-insects-s02.mp3"
     },
     {
       "highlight": "bee",
@@ -134,7 +136,8 @@
         "en": "This is a bee. The bee makes honey.",
         "mr": "ही मधमाशी आहे. मधमाशी मध बनवते.",
         "or": "ଏହା ଏକ ମହୁମାଛି। ମହୁମାଛି ମହୁ ତିଆରି କରେ।"
-      }
+      },
+      "audio": "eng-nur-insects-s03.mp3"
     },
     {
       "highlight": "butterfly",
@@ -150,7 +153,8 @@
         "en": "This is a butterfly. The butterfly has colourful wings.",
         "mr": "हे फुलपाखरू आहे. फुलपाखराचे पंख रंगीबेरंगी असतात.",
         "or": "ଏହା ଏକ ପ୍ରଜାପତି। ପ୍ରଜାପତିର ଡେଣା ରଙ୍ଗବେରଙ୍ଗ।"
-      }
+      },
+      "audio": "eng-nur-insects-s04.mp3"
     },
     {
       "highlight": "ladybug",
@@ -166,7 +170,8 @@
         "en": "This is a ladybird. It has black spots on its red back.",
         "mr": "हा लेडीबग आहे. याच्या लाल पाठीवर काळे ठिपके असतात.",
         "or": "ଏହା ଏକ ଲେଡିବଗ। ଏହାର ନାଲି ପିଠିରେ କଳା ଦାଗ ଥାଏ।"
-      }
+      },
+      "audio": "eng-nur-insects-s05.mp3"
     },
     {
       "highlight": "dragonfly",
@@ -181,7 +186,8 @@
         "en": "This is a dragonfly. It flies near water.",
         "mr": "हा चतुर आहे. तो पाण्याजवळ उडतो.",
         "or": "ଏହା ଏକ କଙ୍କି। ଏହା ପାଣି ପାଖରେ ଉଡ଼େ।"
-      }
+      },
+      "audio": "eng-nur-insects-s06.mp3"
     },
     {
       "highlight": "grasshopper",
@@ -196,7 +202,8 @@
         "en": "This is a grasshopper. The grasshopper jumps high.",
         "mr": "हा नाकतोडा आहे. नाकतोडा उंच उडी मारतो.",
         "or": "ଏହା ଏକ ଝିଣ୍ଟିକା। ଝିଣ୍ଟିକା ଉଚ୍ଚକୁ ଡିଏଁ।"
-      }
+      },
+      "audio": "eng-nur-insects-s07.mp3"
     },
     {
       "highlight": "housefly",
@@ -205,13 +212,14 @@
         "grasshopper",
         "housefly"
       ],
-      "duration": 7500,
+      "duration": 8000,
       "script": {
         "hi": "यह मक्खी है। मक्खी गंदगी पर बैठती है, इसलिए खाना ढककर रखो।",
         "en": "This is a housefly. It sits on dirt, so keep your food covered.",
         "mr": "ही माशी आहे. ती घाणीवर बसते, म्हणून आपलं अन्न झाकून ठेवा.",
         "or": "ଏହା ଏକ ମାଛି। ଏହା ମଇଳା ଉପରେ ବସେ, ତେଣୁ ଖାଦ୍ୟକୁ ଘୋଡ଼ାଇ ରଖ।"
-      }
+      },
+      "audio": "eng-nur-insects-s08.mp3"
     }
   ]
 }

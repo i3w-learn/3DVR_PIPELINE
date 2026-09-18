@@ -145,7 +145,8 @@
         "en": "This is क. Keep it in mind.",
         "mr": "हे क आहे. हे लक्षात ठेवा.",
         "or": "ଏହା क। ଏହାକୁ ମନେ ରଖ।"
-      }
+      },
+      "audio": "hin-ukg-matra-s01.mp3"
     },
     {
       "highlight": "m1",
@@ -159,7 +160,8 @@
         "en": "This is the aa matra.",
         "mr": "ही ा मात्रा आहे.",
         "or": "ଏହା ा ମାତ୍ରା।"
-      }
+      },
+      "audio": "hin-ukg-matra-s02.mp3"
     },
     {
       "highlight": "j1",
@@ -175,7 +177,8 @@
         "en": "क with the aa matra makes का.",
         "mr": "क ला ा मात्रा लागली — का.",
         "or": "क ରେ ा ମାତ୍ରା ଲାଗିଲା — का।"
-      }
+      },
+      "audio": "hin-ukg-matra-s03.mp3"
     },
     {
       "highlight": "m2",
@@ -189,7 +192,8 @@
         "en": "This is the i matra.",
         "mr": "ही ि मात्रा आहे.",
         "or": "ଏହା ि ମାତ୍ରା।"
-      }
+      },
+      "audio": "hin-ukg-matra-s04.mp3"
     },
     {
       "highlight": "j2",
@@ -205,7 +209,8 @@
         "en": "क with the i matra makes कि.",
         "mr": "क ला ि मात्रा लागली — कि.",
         "or": "क ରେ ि ମାତ୍ରା ଲାଗିଲା — कि।"
-      }
+      },
+      "audio": "hin-ukg-matra-s05.mp3"
     },
     {
       "highlight": "m3",
@@ -219,7 +224,8 @@
         "en": "This is the ee matra.",
         "mr": "ही ी मात्रा आहे.",
         "or": "ଏହା ी ମାତ୍ରା।"
-      }
+      },
+      "audio": "hin-ukg-matra-s06.mp3"
     },
     {
       "highlight": "j3",
@@ -235,7 +241,8 @@
         "en": "क with the ee matra makes की.",
         "mr": "क ला ी मात्रा लागली — की.",
         "or": "क ରେ ी ମାତ୍ରା ଲାଗିଲା — की।"
-      }
+      },
+      "audio": "hin-ukg-matra-s07.mp3"
     },
     {
       "highlight": "m4",
@@ -249,7 +256,8 @@
         "en": "This is the u matra.",
         "mr": "ही ु मात्रा आहे.",
         "or": "ଏହା ु ମାତ୍ରା।"
-      }
+      },
+      "audio": "hin-ukg-matra-s08.mp3"
     },
     {
       "highlight": "j4",
@@ -265,7 +273,8 @@
         "en": "क with the u matra makes कु.",
         "mr": "क ला ु मात्रा लागली — कु.",
         "or": "क ରେ ु ମାତ୍ରା ଲାଗିଲା — कु।"
-      }
+      },
+      "audio": "hin-ukg-matra-s09.mp3"
     },
     {
       "highlight": "m5",
@@ -279,7 +288,8 @@
         "en": "This is the e matra.",
         "mr": "ही े मात्रा आहे.",
         "or": "ଏହା े ମାତ୍ରା।"
-      }
+      },
+      "audio": "hin-ukg-matra-s10.mp3"
     },
     {
       "highlight": "j5",
@@ -295,7 +305,8 @@
         "en": "क with the e matra makes के.",
         "mr": "क ला े मात्रा लागली — के.",
         "or": "क ରେ े ମାତ୍ରା ଲାଗିଲା — के।"
-      }
+      },
+      "audio": "hin-ukg-matra-s11.mp3"
     },
     {
       "highlight": "m6",
@@ -309,7 +320,8 @@
         "en": "This is the o matra.",
         "mr": "ही ो मात्रा आहे.",
         "or": "ଏହା ो ମାତ୍ରା।"
-      }
+      },
+      "audio": "hin-ukg-matra-s12.mp3"
     },
     {
       "highlight": "j6",
@@ -325,7 +337,8 @@
         "en": "क with the o matra makes को.",
         "mr": "क ला ो मात्रा लागली — को.",
         "or": "क ରେ ो ମାତ୍ରା ଲାଗିଲା — को।"
-      }
+      },
+      "audio": "hin-ukg-matra-s13.mp3"
     }
   ]
 }

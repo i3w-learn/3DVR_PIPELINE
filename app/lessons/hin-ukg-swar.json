@@ -119,7 +119,8 @@
         "en": "Now look at these vowels.",
         "mr": "आता हे स्वर बघा.",
         "or": "ଏବେ ଏହି ସ୍ୱରବର୍ଣ୍ଣଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s01.mp3"
     },
     {
       "highlight": "swar1",
@@ -137,7 +138,8 @@
         "en": "This is अ, said “a”. Say it with me.",
         "mr": "हे अ आहे. म्हणा — अ.",
         "or": "ଏହା अ। କୁହ — अ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s02.mp3"
     },
     {
       "highlight": "swar2",
@@ -155,7 +157,8 @@
         "en": "This is आ, said “aa”. Say it with me.",
         "mr": "हे आ आहे. म्हणा — आ.",
         "or": "ଏହା आ। କୁହ — आ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s03.mp3"
     },
     {
       "highlight": "swar3",
@@ -173,7 +176,8 @@
         "en": "This is इ, said “i”. Say it with me.",
         "mr": "हे इ आहे. म्हणा — इ.",
         "or": "ଏହା इ। କୁହ — इ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s04.mp3"
     },
     {
       "highlight": "swar4",
@@ -191,7 +195,8 @@
         "en": "This is ई, said “ee”. Say it with me.",
         "mr": "हे ई आहे. म्हणा — ई.",
         "or": "ଏହା ई। କୁହ — ई।"
-      }
+      },
+      "audio": "hin-ukg-swar-s05.mp3"
     },
     {
       "highlight": "swar5",
@@ -209,7 +214,8 @@
         "en": "This is उ, said “u”. Say it with me.",
         "mr": "हे उ आहे. म्हणा — उ.",
         "or": "ଏହା उ। କୁହ — उ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s06.mp3"
     },
     {
       "highlight": "swar6",
@@ -227,7 +233,8 @@
         "en": "This is ऊ, said “oo”. Say it with me.",
         "mr": "हे ऊ आहे. म्हणा — ऊ.",
         "or": "ଏହା ऊ। କୁହ — ऊ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s07.mp3"
     },
     {
       "show": [
@@ -243,7 +250,8 @@
         "en": "Now look at these vowels.",
         "mr": "आता हे स्वर बघा.",
         "or": "ଏବେ ଏହି ସ୍ୱରବର୍ଣ୍ଣଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s08.mp3"
     },
     {
       "highlight": "swar7",
@@ -260,7 +268,8 @@
         "en": "This is ऋ, said “ri”. Say it with me.",
         "mr": "हे ऋ आहे. म्हणा — ऋ.",
         "or": "ଏହା ऋ। କୁହ — ऋ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s09.mp3"
     },
     {
       "highlight": "swar8",
@@ -277,7 +286,8 @@
         "en": "This is ए, said “e”. Say it with me.",
         "mr": "हे ए आहे. म्हणा — ए.",
         "or": "ଏହା ए। କୁହ — ए।"
-      }
+      },
+      "audio": "hin-ukg-swar-s10.mp3"
     },
     {
       "highlight": "swar9",
@@ -294,7 +304,8 @@
         "en": "This is ऐ, said “ai”. Say it with me.",
         "mr": "हे ऐ आहे. म्हणा — ऐ.",
         "or": "ଏହା ऐ। କୁହ — ऐ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s11.mp3"
     },
     {
       "highlight": "swar10",
@@ -311,7 +322,8 @@
         "en": "This is ओ, said “o”. Say it with me.",
         "mr": "हे ओ आहे. म्हणा — ओ.",
         "or": "ଏହା ओ। କୁହ — ओ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s12.mp3"
     },
     {
       "highlight": "swar11",
@@ -322,13 +334,14 @@
         "swar10",
         "swar11"
       ],
-      "duration": 6000,
+      "duration": 6500,
       "script": {
         "hi": "यह औ है। बोलो — औ।",
         "en": "This is औ, said “au”. Say it with me.",
         "mr": "हे औ आहे. म्हणा — औ.",
         "or": "ଏହା औ। କୁହ — औ।"
-      }
+      },
+      "audio": "hin-ukg-swar-s13.mp3"
     }
   ]
 }

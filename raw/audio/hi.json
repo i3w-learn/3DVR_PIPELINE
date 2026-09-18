@@ -1,0 +1,5242 @@
+{
+  "chem_lab_s1.mp3": {
+    "written": "यह रसायन प्रयोगशाला है। यहाँ हम प्रयोग करते हैं।",
+    "spoken": "यह रसायन प्रयोगशाला है. यहाँ हम प्रयोग करते हैं.",
+    "provider": "indic"
+  },
+  "chem_lab_s2.mp3": {
+    "written": "शेल्फ पर काँच की बोतलें देखो। हम उन्हें अकेले कभी नहीं छूते।",
+    "spoken": "शेल्फ पर काँच की बोतलें देखो. हम उन्हें अकेले कभी नहीं छूते.",
+    "provider": "indic"
+  },
+  "chem_lab_s3.mp3": {
+    "written": "स्टैंड में रखे लंबे गिलास परखनली कहलाते हैं।",
+    "spoken": "स्टैंड में रखे लंबे गिलास परखनली कहलाते हैं.",
+    "provider": "indic"
+  },
+  "cow_about.mp3": {
+    "written": "यह गाय है। गाय हमें दूध देती है।",
+    "spoken": "यह गाय है. गाय हमें दूध देती है.",
+    "provider": "indic"
+  },
+  "cow.mp3": {
+    "written": "यह गाय है।",
+    "spoken": "यह गाय है.",
+    "provider": "indic"
+  },
+  "demo-home-s01.mp3": {
+    "written": "यह घर है। यहाँ हम रहते हैं।",
+    "spoken": "यह घर है. यहाँ हम रहते हैं.",
+    "provider": "indic"
+  },
+  "demo-home-s02.mp3": {
+    "written": "चूल्हा, अलमारी, चटाई — सब यहीं है।",
+    "spoken": "चूल्हा, अलमारी, चटाई, सब यहीं है.",
+    "provider": "indic"
+  },
+  "demo-india-flag.mp3": {
+    "written": "यह हमारा राष्ट्रीय ध्वज है — तिरंगा।",
+    "spoken": "यह हमारा राष्ट्रीय ध्वज है, तिरंगा.",
+    "provider": "indic"
+  },
+  "demo-india-s01.mp3": {
+    "written": "यह हमारा प्रांगण है। बीच में अशोक चक्र है।",
+    "spoken": "यह हमारा प्रांगण है. बीच में अशोक चक्र है.",
+    "provider": "indic"
+  },
+  "demo-india-s02.mp3": {
+    "written": "इन चबूतरों पर हमारे राष्ट्रीय चिह्न रखे जाएँगे।",
+    "spoken": "इन चबूतरों पर हमारे राष्ट्रीय चिह्न रखे जाएँगे.",
+    "provider": "indic"
+  },
+  "demo-sky-s01.mp3": {
+    "written": "हम गुब्बारे में हैं। नीचे देखो।",
+    "spoken": "हम गुब्बारे में हैं. नीचे देखो.",
+    "provider": "indic"
+  },
+  "demo-sky-s02.mp3": {
+    "written": "बादल हमारे पास से जा रहे हैं।",
+    "spoken": "बादल हमारे पास से जा रहे हैं.",
+    "provider": "indic"
+  },
+  "demo-snow-s01.mp3": {
+    "written": "यह बर्फ़ है। सब कुछ सफ़ेद है।",
+    "spoken": "यह बर्फ़ है. सब कुछ सफ़ेद है.",
+    "provider": "indic"
+  },
+  "demo-snow-s02.mp3": {
+    "written": "यहाँ हमारा तंबू है, और यहाँ आग।",
+    "spoken": "यहाँ हमारा तंबू है, और यहाँ आग.",
+    "provider": "indic"
+  },
+  "demo-street-s01.mp3": {
+    "written": "यह सड़क है। दोनों तरफ़ दुकानें हैं।",
+    "spoken": "यह सड़क है. दोनों तरफ़ दुकानें हैं.",
+    "provider": "indic"
+  },
+  "demo-street-s02.mp3": {
+    "written": "दुकान, दवाखाना, डाकघर और बैंक।",
+    "spoken": "दुकान, दवाखाना, डाकघर और बैंक.",
+    "provider": "indic"
+  },
+  "demo-water-s01.mp3": {
+    "written": "यह तालाब है। पानी हिल रहा है।",
+    "spoken": "यह तालाब है. पानी हिल रहा है.",
+    "provider": "indic"
+  },
+  "demo-water-s02.mp3": {
+    "written": "किनारे पर घास उगी है।",
+    "spoken": "किनारे पर घास उगी है.",
+    "provider": "indic"
+  },
+  "elephant_about.mp3": {
+    "written": "यह हाथी है। हाथी बहुत बड़ा है।",
+    "spoken": "यह हाथी है. हाथी बहुत बड़ा है.",
+    "provider": "indic"
+  },
+  "elephant.mp3": {
+    "written": "यह हाथी है।",
+    "spoken": "यह हाथी है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s01.mp3": {
+    "written": "जानवर हमें बहुत कुछ देते हैं। देखो, कौन क्या देता है।",
+    "spoken": "जानवर हमें बहुत कुछ देते हैं. देखो, कौन क्या देता है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s02.mp3": {
+    "written": "यह गाय है।",
+    "spoken": "यह गाय है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s03.mp3": {
+    "written": "गाय हमें दूध देती है।",
+    "spoken": "गाय हमें दूध देती है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s04.mp3": {
+    "written": "यह मुर्गी है।",
+    "spoken": "यह मुर्गी है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s05.mp3": {
+    "written": "मुर्गी हमें अंडे देती है।",
+    "spoken": "मुर्गी हमें अंडे देती है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s06.mp3": {
+    "written": "यह भेड़ है।",
+    "spoken": "यह भेड़ है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s07.mp3": {
+    "written": "भेड़ हमें ऊन देती है। ऊन से स्वेटर बनता है।",
+    "spoken": "भेड़ हमें ऊन देती है. ऊन से स्वेटर बनता है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s08.mp3": {
+    "written": "यह मधुमक्खी है।",
+    "spoken": "यह मधुमक्खी है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s09.mp3": {
+    "written": "मधुमक्खी फूलों से रस लेती है।",
+    "spoken": "मधुमक्खी फूलों से रस लेती है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s10.mp3": {
+    "written": "मधुमक्खी हमें शहद देती है।",
+    "spoken": "मधुमक्खी हमें शहद देती है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-sound-names-s01.mp3": {
+    "written": "हर आवाज़ का एक नाम होता है।",
+    "spoken": "हर आवाज़ का एक नाम होता है.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-sound-names-s02.mp3": {
+    "written": "गाय की आवाज़ — moo. बकरी की — bleat.",
+    "spoken": "गाय की आवाज़, मूँ. बकरी की, में में.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-sound-names-s03.mp3": {
+    "written": "घोड़े की — neigh. मुर्गी की — cluck.",
+    "spoken": "घोड़े की, हिन हिन. मुर्गी की, कुड़ कुड़.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s01.mp3": {
+    "written": "हफ़्ते में सात दिन होते हैं। पहला दिन सोमवार।",
+    "spoken": "हफ़्ते में सात दिन होते हैं. पहला दिन सोमवार.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s02.mp3": {
+    "written": "मंगलवार।",
+    "spoken": "मंगलवार.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s03.mp3": {
+    "written": "बुधवार।",
+    "spoken": "बुधवार.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s04.mp3": {
+    "written": "गुरुवार।",
+    "spoken": "गुरुवार.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s05.mp3": {
+    "written": "शुक्रवार।",
+    "spoken": "शुक्रवार.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s06.mp3": {
+    "written": "शनिवार।",
+    "spoken": "शनिवार.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s07.mp3": {
+    "written": "रविवार।",
+    "spoken": "रविवार.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s08.mp3": {
+    "written": "सोमवार से रविवार — पूरा हफ़्ता।",
+    "spoken": "सोमवार से रविवार, पूरा हफ़्ता.",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s01.mp3": {
+    "written": "चाय गरम है। ध्यान से!",
+    "spoken": "चाय गरम है. ध्यान से!",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s02.mp3": {
+    "written": "आइसक्रीम ठंडी है।",
+    "spoken": "आइसक्रीम ठंडी है.",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s03.mp3": {
+    "written": "चूल्हे से उतरा बर्तन गरम है।",
+    "spoken": "चूल्हे से उतरा बर्तन गरम है.",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s04.mp3": {
+    "written": "बर्फ़ की कुल्फ़ी ठंडी है।",
+    "spoken": "बर्फ़ की कुल्फ़ी ठंडी है.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s01.mp3": {
+    "written": "लाल गेंद मेज़ के ऊपर है।",
+    "spoken": "लाल गेंद मेज़ के ऊपर है.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s02.mp3": {
+    "written": "नीली गेंद मेज़ के नीचे है।",
+    "spoken": "नीली गेंद मेज़ के नीचे है.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s03.mp3": {
+    "written": "पीली गेंद टब के अंदर है।",
+    "spoken": "पीली गेंद टब के अंदर है.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s04.mp3": {
+    "written": "ऊपर, नीचे, अंदर।",
+    "spoken": "ऊपर, नीचे, अंदर.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s01.mp3": {
+    "written": "साल में बारह महीने होते हैं। पहला महीना जनवरी।",
+    "spoken": "साल में बारह महीने होते हैं. पहला महीना जनवरी.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s02.mp3": {
+    "written": "फ़रवरी।",
+    "spoken": "फ़रवरी.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s03.mp3": {
+    "written": "मार्च।",
+    "spoken": "मार्च.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s04.mp3": {
+    "written": "अप्रैल।",
+    "spoken": "अप्रैल.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s05.mp3": {
+    "written": "मई।",
+    "spoken": "मई.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s06.mp3": {
+    "written": "जून।",
+    "spoken": "जून.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s07.mp3": {
+    "written": "जुलाई।",
+    "spoken": "जुलाई.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s08.mp3": {
+    "written": "अगस्त।",
+    "spoken": "अगस्त.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s09.mp3": {
+    "written": "सितंबर।",
+    "spoken": "सितंबर.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s10.mp3": {
+    "written": "अक्टूबर।",
+    "spoken": "अक्टूबर.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s11.mp3": {
+    "written": "नवंबर।",
+    "spoken": "नवंबर.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s12.mp3": {
+    "written": "दिसंबर।",
+    "spoken": "दिसंबर.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s13.mp3": {
+    "written": "जनवरी से दिसंबर — पूरा साल।",
+    "spoken": "जनवरी से दिसंबर, पूरा साल.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s01.mp3": {
+    "written": "नमस्ते! मेरा नाम मीना है। मैं चार साल की हूँ। मैं एक लड़की हूँ।",
+    "spoken": "नमस्ते! मेरा नाम मीना है. मैं चार साल की हूँ. मैं एक लड़की हूँ.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s02.mp3": {
+    "written": "यह मेरी माँ हैं।",
+    "spoken": "यह मेरी माँ हैं.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s03.mp3": {
+    "written": "यह मेरे पिता हैं।",
+    "spoken": "यह मेरे पिता हैं.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s04.mp3": {
+    "written": "यह मेरा भाई राजू है।",
+    "spoken": "यह मेरा भाई राजू है.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s05.mp3": {
+    "written": "यह मेरा घर है। मैं अपने परिवार के साथ यहाँ रहती हूँ।",
+    "spoken": "यह मेरा घर है. मैं अपने परिवार के साथ यहाँ रहती हूँ.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s06.mp3": {
+    "written": "अब तुम बताओ — तुम्हारा नाम क्या है? तुम कितने साल के हो?",
+    "spoken": "अब तुम बताओ, तुम्हारा नाम क्या है? तुम कितने साल के हो?",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s01.mp3": {
+    "written": "देखो — C, A, T।",
+    "spoken": "देखो, सी, ए, टी.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s02.mp3": {
+    "written": "मिलकर बनता है CAT — बिल्ली।",
+    "spoken": "मिलकर बनता है कैट, बिल्ली.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s03.mp3": {
+    "written": "देखो — D, O, G।",
+    "spoken": "देखो, डी, ओ, जी.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s04.mp3": {
+    "written": "मिलकर बनता है DOG — कुत्ता।",
+    "spoken": "मिलकर बनता है डॉग, कुत्ता.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s05.mp3": {
+    "written": "देखो — S, U, N।",
+    "spoken": "देखो, एस, यू, एन.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s06.mp3": {
+    "written": "मिलकर बनता है SUN — सूरज।",
+    "spoken": "मिलकर बनता है सन, सूरज.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s07.mp3": {
+    "written": "देखो — C, U, P।",
+    "spoken": "देखो, सी, यू, पी.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s08.mp3": {
+    "written": "मिलकर बनता है CUP — प्याला।",
+    "spoken": "मिलकर बनता है कप, प्याला.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s09.mp3": {
+    "written": "देखो — H, E, N।",
+    "spoken": "देखो, एच, ई, एन.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s10.mp3": {
+    "written": "मिलकर बनता है HEN — मुर्गी।",
+    "spoken": "मिलकर बनता है हेन, मुर्गी.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s11.mp3": {
+    "written": "देखो — B, U, S।",
+    "spoken": "देखो, बी, यू, एस.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s12.mp3": {
+    "written": "मिलकर बनता है BUS — बस।",
+    "spoken": "मिलकर बनता है बस, बस.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s01.mp3": {
+    "written": "यह कार है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+    "spoken": "यह कार है. यह कहाँ चलती है, सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s02.mp3": {
+    "written": "यह नाव है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+    "spoken": "यह नाव है. यह कहाँ चलती है, सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s03.mp3": {
+    "written": "यह हवाई जहाज़ है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+    "spoken": "यह हवाई जहाज़ है. यह कहाँ चलती है, सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s04.mp3": {
+    "written": "यह बस है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+    "spoken": "यह बस है. यह कहाँ चलती है, सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s05.mp3": {
+    "written": "यह हेलीकॉप्टर है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+    "spoken": "यह हेलीकॉप्टर है. यह कहाँ चलती है, सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s06.mp3": {
+    "written": "यह जहाज़ है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+    "spoken": "यह जहाज़ है. यह कहाँ चलती है, सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s01.mp3": {
+    "written": "हम एक जगह से दूसरी जगह कैसे जाते हैं? गाड़ियों से! कुछ सड़क पर चलती हैं, कुछ पानी पर, और कुछ आसमान में।",
+    "spoken": "हम एक जगह से दूसरी जगह कैसे जाते हैं? गाड़ियों से! कुछ सड़क पर चलती हैं, कुछ पानी पर, और कुछ आसमान में.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s02.mp3": {
+    "written": "ये सड़क पर चलती हैं।",
+    "spoken": "ये सड़क पर चलती हैं.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s03.mp3": {
+    "written": "यह कार है।",
+    "spoken": "यह कार है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s04.mp3": {
+    "written": "यह बस है।",
+    "spoken": "यह बस है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s05.mp3": {
+    "written": "यह साइकिल है।",
+    "spoken": "यह साइकिल है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s06.mp3": {
+    "written": "यह रेलगाड़ी है।",
+    "spoken": "यह रेलगाड़ी है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s07.mp3": {
+    "written": "यह ऑटो है।",
+    "spoken": "यह ऑटो है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s08.mp3": {
+    "written": "ये पानी पर चलती हैं।",
+    "spoken": "ये पानी पर चलती हैं.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s09.mp3": {
+    "written": "यह नाव है।",
+    "spoken": "यह नाव है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s10.mp3": {
+    "written": "यह जहाज़ है।",
+    "spoken": "यह जहाज़ है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s11.mp3": {
+    "written": "यह पाल वाली नाव है।",
+    "spoken": "यह पाल वाली नाव है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s12.mp3": {
+    "written": "ये आसमान में उड़ते हैं।",
+    "spoken": "ये आसमान में उड़ते हैं.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s13.mp3": {
+    "written": "यह हवाई जहाज़ है।",
+    "spoken": "यह हवाई जहाज़ है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s14.mp3": {
+    "written": "यह हेलीकॉप्टर है।",
+    "spoken": "यह हेलीकॉप्टर है.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s15.mp3": {
+    "written": "यह रॉकेट है।",
+    "spoken": "यह रॉकेट है.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s01.mp3": {
+    "written": "देखो — I और N।",
+    "spoken": "देखो, आई और एन.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s02.mp3": {
+    "written": "मिलकर बनता है IN — अंदर।",
+    "spoken": "मिलकर बनता है इन, अंदर.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s03.mp3": {
+    "written": "देखो — O और N।",
+    "spoken": "देखो, ओ और एन.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s04.mp3": {
+    "written": "मिलकर बनता है ON — ऊपर।",
+    "spoken": "मिलकर बनता है ऑन, ऊपर.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s05.mp3": {
+    "written": "देखो — U और P।",
+    "spoken": "देखो, यू और पी.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s06.mp3": {
+    "written": "मिलकर बनता है UP — ऊपर की ओर।",
+    "spoken": "मिलकर बनता है अप, ऊपर की ओर.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s07.mp3": {
+    "written": "देखो — G और O।",
+    "spoken": "देखो, जी और ओ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s08.mp3": {
+    "written": "मिलकर बनता है GO — जाओ।",
+    "spoken": "मिलकर बनता है गो, जाओ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s09.mp3": {
+    "written": "देखो — N और O।",
+    "spoken": "देखो, एन और ओ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s10.mp3": {
+    "written": "मिलकर बनता है NO — नहीं।",
+    "spoken": "मिलकर बनता है नो, नहीं.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s11.mp3": {
+    "written": "देखो — W और E।",
+    "spoken": "देखो, डब्ल्यू और ई.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s12.mp3": {
+    "written": "मिलकर बनता है WE — हम।",
+    "spoken": "मिलकर बनता है वी, हम.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s01.mp3": {
+    "written": "यह बड़ा A है।",
+    "spoken": "यह बड़ा ए है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s02.mp3": {
+    "written": "यह छोटा a है।",
+    "spoken": "यह छोटा ऐ है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s03.mp3": {
+    "written": "A से Apple — सेब।",
+    "spoken": "ए से ऐपल, सेब.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s04.mp3": {
+    "written": "यह बड़ा B है।",
+    "spoken": "यह बड़ा बी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s05.mp3": {
+    "written": "यह छोटा b है।",
+    "spoken": "यह छोटा बी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s06.mp3": {
+    "written": "B से Banana — केला।",
+    "spoken": "बी से बनाना, केला.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s07.mp3": {
+    "written": "यह बड़ा C है।",
+    "spoken": "यह बड़ा सी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s08.mp3": {
+    "written": "यह छोटा c है।",
+    "spoken": "यह छोटा सी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s09.mp3": {
+    "written": "C से Cat — बिल्ली।",
+    "spoken": "सी से कैट, बिल्ली.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s10.mp3": {
+    "written": "यह बड़ा D है।",
+    "spoken": "यह बड़ा डी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s11.mp3": {
+    "written": "यह छोटा d है।",
+    "spoken": "यह छोटा डी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s12.mp3": {
+    "written": "D से Dog — कुत्ता।",
+    "spoken": "डी से डॉग, कुत्ता.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s13.mp3": {
+    "written": "यह बड़ा E है।",
+    "spoken": "यह बड़ा ई है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s14.mp3": {
+    "written": "यह छोटा e है।",
+    "spoken": "यह छोटा ई है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s15.mp3": {
+    "written": "E से Elephant — हाथी।",
+    "spoken": "ई से एलिफ़ेंट, हाथी.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s16.mp3": {
+    "written": "यह बड़ा F है।",
+    "spoken": "यह बड़ा एफ़ है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s17.mp3": {
+    "written": "यह छोटा f है।",
+    "spoken": "यह छोटा एफ़ है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s18.mp3": {
+    "written": "F से Fish — मछली।",
+    "spoken": "एफ़ से फ़िश, मछली.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s19.mp3": {
+    "written": "यह बड़ा G है।",
+    "spoken": "यह बड़ा जी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s20.mp3": {
+    "written": "यह छोटा g है।",
+    "spoken": "यह छोटा जी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s21.mp3": {
+    "written": "G से Goat — बकरी।",
+    "spoken": "जी से गोट, बकरी.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s22.mp3": {
+    "written": "यह बड़ा H है।",
+    "spoken": "यह बड़ा एच है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s23.mp3": {
+    "written": "यह छोटा h है।",
+    "spoken": "यह छोटा एच है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s24.mp3": {
+    "written": "H से Hen — मुर्गी।",
+    "spoken": "एच से हेन, मुर्गी.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s25.mp3": {
+    "written": "यह बड़ा I है।",
+    "spoken": "यह बड़ा आई है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s26.mp3": {
+    "written": "यह छोटा i है।",
+    "spoken": "यह छोटा आई है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s27.mp3": {
+    "written": "I से Ice cream — आइसक्रीम।",
+    "spoken": "आई से आइस क्रीम, आइसक्रीम.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s28.mp3": {
+    "written": "यह बड़ा J है।",
+    "spoken": "यह बड़ा जे है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s29.mp3": {
+    "written": "यह छोटा j है।",
+    "spoken": "यह छोटा जे है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s30.mp3": {
+    "written": "J से Jeep — जीप।",
+    "spoken": "जे से जीप, जीप.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s31.mp3": {
+    "written": "यह बड़ा K है।",
+    "spoken": "यह बड़ा के है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s32.mp3": {
+    "written": "यह छोटा k है।",
+    "spoken": "यह छोटा के है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s33.mp3": {
+    "written": "K से Kite — पतंग।",
+    "spoken": "के से काइट, पतंग.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s34.mp3": {
+    "written": "यह बड़ा L है।",
+    "spoken": "यह बड़ा एल है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s35.mp3": {
+    "written": "यह छोटा l है।",
+    "spoken": "यह छोटा एल है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s36.mp3": {
+    "written": "L से Lion — शेर।",
+    "spoken": "एल से लायन, शेर.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s37.mp3": {
+    "written": "यह बड़ा M है।",
+    "spoken": "यह बड़ा एम है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s38.mp3": {
+    "written": "यह छोटा m है।",
+    "spoken": "यह छोटा एम है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s39.mp3": {
+    "written": "M से Monkey — बंदर।",
+    "spoken": "एम से मंकी, बंदर.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s40.mp3": {
+    "written": "यह बड़ा N है।",
+    "spoken": "यह बड़ा एन है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s41.mp3": {
+    "written": "यह छोटा n है।",
+    "spoken": "यह छोटा एन है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s42.mp3": {
+    "written": "N से Nest — घोंसला।",
+    "spoken": "एन से नेस्ट, घोंसला.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s43.mp3": {
+    "written": "यह बड़ा O है।",
+    "spoken": "यह बड़ा ओ है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s44.mp3": {
+    "written": "यह छोटा o है।",
+    "spoken": "यह छोटा ओ है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s45.mp3": {
+    "written": "O से Orange — संतरा।",
+    "spoken": "ओ से ऑरेंज, संतरा.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s46.mp3": {
+    "written": "यह बड़ा P है।",
+    "spoken": "यह बड़ा पी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s47.mp3": {
+    "written": "यह छोटा p है।",
+    "spoken": "यह छोटा पी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s48.mp3": {
+    "written": "P से Parrot — तोता।",
+    "spoken": "पी से पैरट, तोता.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s49.mp3": {
+    "written": "यह बड़ा Q है।",
+    "spoken": "यह बड़ा क्यू है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s50.mp3": {
+    "written": "यह छोटा q है।",
+    "spoken": "यह छोटा क्यू है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s51.mp3": {
+    "written": "Q से Queen — रानी।",
+    "spoken": "क्यू से क्वीन, रानी.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s52.mp3": {
+    "written": "यह बड़ा R है।",
+    "spoken": "यह बड़ा आर है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s53.mp3": {
+    "written": "यह छोटा r है।",
+    "spoken": "यह छोटा आर है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s54.mp3": {
+    "written": "R से Rocket — रॉकेट।",
+    "spoken": "आर से रॉकेट, रॉकेट.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s55.mp3": {
+    "written": "यह बड़ा S है।",
+    "spoken": "यह बड़ा एस है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s56.mp3": {
+    "written": "यह छोटा s है।",
+    "spoken": "यह छोटा एस है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s57.mp3": {
+    "written": "S से Sun — सूरज।",
+    "spoken": "एस से सन, सूरज.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s58.mp3": {
+    "written": "यह बड़ा T है।",
+    "spoken": "यह बड़ा टी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s59.mp3": {
+    "written": "यह छोटा t है।",
+    "spoken": "यह छोटा टी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s60.mp3": {
+    "written": "T से Tiger — बाघ।",
+    "spoken": "टी से टाइगर, बाघ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s61.mp3": {
+    "written": "यह बड़ा U है।",
+    "spoken": "यह बड़ा यू है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s62.mp3": {
+    "written": "यह छोटा u है।",
+    "spoken": "यह छोटा यू है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s63.mp3": {
+    "written": "U से Umbrella — छाता।",
+    "spoken": "यू से अम्ब्रेला, छाता.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s64.mp3": {
+    "written": "यह बड़ा V है।",
+    "spoken": "यह बड़ा वी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s65.mp3": {
+    "written": "यह छोटा v है।",
+    "spoken": "यह छोटा वी है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s66.mp3": {
+    "written": "V से Violin — वायलिन।",
+    "spoken": "वी से वायलिन, वायलिन.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s67.mp3": {
+    "written": "यह बड़ा W है।",
+    "spoken": "यह बड़ा डब्ल्यू है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s68.mp3": {
+    "written": "यह छोटा w है।",
+    "spoken": "यह छोटा डब्ल्यू है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s69.mp3": {
+    "written": "W से Watermelon — तरबूज़।",
+    "spoken": "डब्ल्यू से वॉटरमेलन, तरबूज़.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s70.mp3": {
+    "written": "यह बड़ा X है।",
+    "spoken": "यह बड़ा एक्स है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s71.mp3": {
+    "written": "यह छोटा x है।",
+    "spoken": "यह छोटा एक्स है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s72.mp3": {
+    "written": "X से Xylophone — ज़ाइलोफ़ोन।",
+    "spoken": "एक्स से ज़ाइलोफ़ोन, ज़ाइलोफ़ोन.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s73.mp3": {
+    "written": "यह बड़ा Y है।",
+    "spoken": "यह बड़ा वाई है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s74.mp3": {
+    "written": "यह छोटा y है।",
+    "spoken": "यह छोटा वाई है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s75.mp3": {
+    "written": "Y से Yarn — ऊन का गोला।",
+    "spoken": "वाई से यार्न, ऊन का गोला.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s76.mp3": {
+    "written": "यह बड़ा Z है।",
+    "spoken": "यह बड़ा ज़ेड है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s77.mp3": {
+    "written": "यह छोटा z है।",
+    "spoken": "यह छोटा ज़ेड है.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s78.mp3": {
+    "written": "Z से Zebra — ज़ेबरा।",
+    "spoken": "ज़ेड से ज़ेबरा, ज़ेबरा.",
+    "provider": "indic"
+  },
+  "eng-nur-animal-sounds-s01.mp3": {
+    "written": "हर जानवर की अपनी आवाज़ होती है। किसी को देखो और सुनो।",
+    "spoken": "हर जानवर की अपनी आवाज़ होती है. किसी को देखो और सुनो.",
+    "provider": "indic"
+  },
+  "eng-nur-animal-sounds-s02.mp3": {
+    "written": "गाय कैसे बोलती है? उसे ढूँढ़ो।",
+    "spoken": "गाय कैसे बोलती है? उसे ढूँढ़ो.",
+    "provider": "indic"
+  },
+  "eng-nur-animal-sounds-s03.mp3": {
+    "written": "अब मुर्गी को ढूँढ़ो।",
+    "spoken": "अब मुर्गी को ढूँढ़ो.",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s01.mp3": {
+    "written": "इनमें से कौन पानी में रहता है? उसे छुओ।",
+    "spoken": "इनमें से कौन पानी में रहता है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s02.mp3": {
+    "written": "इनमें से जंगली जानवर कौन सा है?",
+    "spoken": "इनमें से जंगली जानवर कौन सा है?",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s03.mp3": {
+    "written": "इनमें से पालतू जानवर कौन सा है? वह हमारे साथ रहता है।",
+    "spoken": "इनमें से पालतू जानवर कौन सा है? वह हमारे साथ रहता है.",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s04.mp3": {
+    "written": "इनमें से कौन समुद्र में रहता है?",
+    "spoken": "इनमें से कौन समुद्र में रहता है?",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s05.mp3": {
+    "written": "इनमें से कौन जंगल में रहता है?",
+    "spoken": "इनमें से कौन जंगल में रहता है?",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-cat.mp3": {
+    "written": "यह बिल्ली है। बिल्ली म्याऊँ-म्याऊँ करती है।",
+    "spoken": "यह बिल्ली है. बिल्ली म्याऊँ-म्याऊँ करती है.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-crow.mp3": {
+    "written": "यह कौआ है। कौआ काँव-काँव करता है।",
+    "spoken": "यह कौआ है. कौआ काँव-काँव करता है.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-dog.mp3": {
+    "written": "यह कुत्ता है। कुत्ता भौं-भौं करता है।",
+    "spoken": "यह कुत्ता है. कुत्ता भौं-भौं करता है.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-duck.mp3": {
+    "written": "यह बत्तख है। बत्तख क्वैक-क्वैक करती है।",
+    "spoken": "यह बत्तख है. बत्तख क्वैक-क्वैक करती है.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-owl.mp3": {
+    "written": "यह उल्लू है। उल्लू हू-हू करता है।",
+    "spoken": "यह उल्लू है. उल्लू हू-हू करता है.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-parrot.mp3": {
+    "written": "यह तोता है। तोता टें-टें करता है।",
+    "spoken": "यह तोता है. तोता टें-टें करता है.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-pigeon.mp3": {
+    "written": "यह कबूतर है। कबूतर गुटर-गूँ करता है।",
+    "spoken": "यह कबूतर है. कबूतर गुटर-गूँ करता है.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s01.mp3": {
+    "written": "हर पक्षी और जानवर की अपनी आवाज़ होती है। किसी को देखो, और सुनो।",
+    "spoken": "हर पक्षी और जानवर की अपनी आवाज़ होती है. किसी को देखो, और सुनो.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s02.mp3": {
+    "written": "कौआ कैसे बोलता है? उसे ढूँढ़ो।",
+    "spoken": "कौआ कैसे बोलता है? उसे ढूँढ़ो.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s03.mp3": {
+    "written": "अब बिल्ली को ढूँढ़ो।",
+    "spoken": "अब बिल्ली को ढूँढ़ो.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s04.mp3": {
+    "written": "कौन हू-हू करता है? ढूँढ़ो!",
+    "spoken": "कौन हू-हू करता है? ढूँढ़ो!",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-sparrow.mp3": {
+    "written": "यह गौरैया है। गौरैया चीं-चीं करती है।",
+    "spoken": "यह गौरैया है. गौरैया चीं-चीं करती है.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s01.mp3": {
+    "written": "ये पक्षी हैं। पक्षियों के पंख होते हैं, और वे उड़ते हैं।",
+    "spoken": "ये पक्षी हैं. पक्षियों के पंख होते हैं, और वे उड़ते हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s02.mp3": {
+    "written": "यह कौआ है। कौआ काला होता है।",
+    "spoken": "यह कौआ है. कौआ काला होता है.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s03.mp3": {
+    "written": "यह गौरैया है। यह छोटी चिड़िया है।",
+    "spoken": "यह गौरैया है. यह छोटी चिड़िया है.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s04.mp3": {
+    "written": "यह कबूतर है।",
+    "spoken": "यह कबूतर है.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s05.mp3": {
+    "written": "यह तोता है। तोते के पंख रंग-बिरंगे हैं।",
+    "spoken": "यह तोता है. तोते के पंख रंग-बिरंगे हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s06.mp3": {
+    "written": "यह मोर है। मोर हमारा राष्ट्रीय पक्षी है।",
+    "spoken": "यह मोर है. मोर हमारा राष्ट्रीय पक्षी है.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s07.mp3": {
+    "written": "यह उल्लू है। उल्लू रात को जागता है।",
+    "spoken": "यह उल्लू है. उल्लू रात को जागता है.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s08.mp3": {
+    "written": "यह बत्तख है। बत्तख पानी में तैरती है।",
+    "spoken": "यह बत्तख है. बत्तख पानी में तैरती है.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s09.mp3": {
+    "written": "यह चील है। चील बहुत ऊँचा उड़ती है।",
+    "spoken": "यह चील है. चील बहुत ऊँचा उड़ती है.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-check-s01.mp3": {
+    "written": "नीला वाला कौन सा है? उसे छुओ।",
+    "spoken": "नीला वाला कौन सा है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-check-s02.mp3": {
+    "written": "गुलाबी वाला कौन सा है? उसे छुओ।",
+    "spoken": "गुलाबी वाला कौन सा है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-check-s03.mp3": {
+    "written": "पीला वाला कौन सा है? उसे छुओ।",
+    "spoken": "पीला वाला कौन सा है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s01.mp3": {
+    "written": "ये रंग देखो।",
+    "spoken": "ये रंग देखो.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s02.mp3": {
+    "written": "यह लाल है।",
+    "spoken": "यह लाल है.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s03.mp3": {
+    "written": "यह नीला है।",
+    "spoken": "यह नीला है.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s04.mp3": {
+    "written": "यह पीला है।",
+    "spoken": "यह पीला है.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s05.mp3": {
+    "written": "यह हरा है।",
+    "spoken": "यह हरा है.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s06.mp3": {
+    "written": "ये रंग देखो।",
+    "spoken": "ये रंग देखो.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s07.mp3": {
+    "written": "यह नारंगी है।",
+    "spoken": "यह नारंगी है.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s08.mp3": {
+    "written": "यह बैंगनी है।",
+    "spoken": "यह बैंगनी है.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s09.mp3": {
+    "written": "यह गुलाबी है।",
+    "spoken": "यह गुलाबी है.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s10.mp3": {
+    "written": "यह भूरा है।",
+    "spoken": "यह भूरा है.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s01.mp3": {
+    "written": "ये पालतू जानवर हैं। ये हमारे साथ, हमारे घर और खेत में रहते हैं।",
+    "spoken": "ये पालतू जानवर हैं. ये हमारे साथ, हमारे घर और खेत में रहते हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s02.mp3": {
+    "written": "यह गाय है। गाय हमें दूध देती है।",
+    "spoken": "यह गाय है. गाय हमें दूध देती है.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s03.mp3": {
+    "written": "यह भैंस है। भैंस भी दूध देती है।",
+    "spoken": "यह भैंस है. भैंस भी दूध देती है.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s04.mp3": {
+    "written": "यह घोड़ा है। घोड़ा तेज़ दौड़ता है।",
+    "spoken": "यह घोड़ा है. घोड़ा तेज़ दौड़ता है.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s05.mp3": {
+    "written": "यह बकरी है।",
+    "spoken": "यह बकरी है.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s06.mp3": {
+    "written": "यह भेड़ है। भेड़ से हमें ऊन मिलती है।",
+    "spoken": "यह भेड़ है. भेड़ से हमें ऊन मिलती है.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s07.mp3": {
+    "written": "यह कुत्ता है। कुत्ता घर की रखवाली करता है।",
+    "spoken": "यह कुत्ता है. कुत्ता घर की रखवाली करता है.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s08.mp3": {
+    "written": "यह बिल्ली है।",
+    "spoken": "यह बिल्ली है.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s09.mp3": {
+    "written": "और यह मुर्गी है। मुर्गी अंडे देती है।",
+    "spoken": "और यह मुर्गी है. मुर्गी अंडे देती है.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s01.mp3": {
+    "written": "यह अप्पू है। अप्पू एक हाथी है। वह जंगल में रहता है।",
+    "spoken": "यह अप्पू है. अप्पू एक हाथी है. वह जंगल में रहता है.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s02.mp3": {
+    "written": "एक दिन बहुत गर्मी थी। सूरज तेज़ चमक रहा था। अप्पू को बहुत प्यास लगी।",
+    "spoken": "एक दिन बहुत गर्मी थी. सूरज तेज़ चमक रहा था. अप्पू को बहुत प्यास लगी.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s03.mp3": {
+    "written": "अप्पू ने अपने दोस्त बंदर से पूछा — पानी कहाँ है? बंदर बोला — उस तरफ़ तालाब है!",
+    "spoken": "अप्पू ने अपने दोस्त बंदर से पूछा, पानी कहाँ है? बंदर बोला, उस तरफ़ तालाब है!",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s04.mp3": {
+    "written": "अप्पू तालाब पर गया। उसने अपनी लंबी सूँड़ से ख़ूब पानी पिया।",
+    "spoken": "अप्पू तालाब पर गया. उसने अपनी लंबी सूँड़ से ख़ूब पानी पिया.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s05.mp3": {
+    "written": "हिरण भी प्यासा था। अप्पू ने सूँड़ में पानी भरकर उसे भी पिलाया।",
+    "spoken": "हिरण भी प्यासा था. अप्पू ने सूँड़ में पानी भरकर उसे भी पिलाया.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s06.mp3": {
+    "written": "अप्पू ख़ुश था। दोस्तों की मदद करना अच्छी बात है।",
+    "spoken": "अप्पू ख़ुश था. दोस्तों की मदद करना अच्छी बात है.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s01.mp3": {
+    "written": "कमरे में गोला कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+    "spoken": "कमरे में गोला कहाँ छिपा है? उसे ढूँढ़ो और छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s02.mp3": {
+    "written": "कमरे में वर्ग कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+    "spoken": "कमरे में वर्ग कहाँ छिपा है? उसे ढूँढ़ो और छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s03.mp3": {
+    "written": "कमरे में त्रिभुज कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+    "spoken": "कमरे में त्रिभुज कहाँ छिपा है? उसे ढूँढ़ो और छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s04.mp3": {
+    "written": "कमरे में तारा कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+    "spoken": "कमरे में तारा कहाँ छिपा है? उसे ढूँढ़ो और छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s05.mp3": {
+    "written": "कमरे में आयत कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+    "spoken": "कमरे में आयत कहाँ छिपा है? उसे ढूँढ़ो और छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s01.mp3": {
+    "written": "ये फल देखो।",
+    "spoken": "ये फल देखो.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s02.mp3": {
+    "written": "यह सेब है।",
+    "spoken": "यह सेब है.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s03.mp3": {
+    "written": "यह केला है।",
+    "spoken": "यह केला है.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s04.mp3": {
+    "written": "यह संतरा है।",
+    "spoken": "यह संतरा है.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s05.mp3": {
+    "written": "यह अंगूर है।",
+    "spoken": "यह अंगूर है.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s06.mp3": {
+    "written": "ये फल देखो।",
+    "spoken": "ये फल देखो.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s07.mp3": {
+    "written": "यह नाशपाती है।",
+    "spoken": "यह नाशपाती है.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s08.mp3": {
+    "written": "यह अनानास है।",
+    "spoken": "यह अनानास है.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s09.mp3": {
+    "written": "यह स्ट्रॉबेरी है।",
+    "spoken": "यह स्ट्रॉबेरी है.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s10.mp3": {
+    "written": "यह तरबूज़ है।",
+    "spoken": "यह तरबूज़ है.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s01.mp3": {
+    "written": "ये कीड़े हैं। कीड़े बहुत छोटे होते हैं — यहाँ हमने इन्हें बड़ा करके दिखाया है। गिनो, हर कीड़े के छह पैर हैं।",
+    "spoken": "ये कीड़े हैं. कीड़े बहुत छोटे होते हैं, यहाँ हमने इन्हें बड़ा करके दिखाया है. गिनो, हर कीड़े के छह पैर हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s02.mp3": {
+    "written": "यह चींटी है। चींटी बहुत मेहनती होती है।",
+    "spoken": "यह चींटी है. चींटी बहुत मेहनती होती है.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s03.mp3": {
+    "written": "यह मधुमक्खी है। मधुमक्खी शहद बनाती है।",
+    "spoken": "यह मधुमक्खी है. मधुमक्खी शहद बनाती है.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s04.mp3": {
+    "written": "यह तितली है। तितली के पंख रंग-बिरंगे हैं।",
+    "spoken": "यह तितली है. तितली के पंख रंग-बिरंगे हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s05.mp3": {
+    "written": "यह लेडीबग है। इसकी लाल पीठ पर काले धब्बे हैं।",
+    "spoken": "यह लेडीबग है. इसकी लाल पीठ पर काले धब्बे हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s06.mp3": {
+    "written": "यह व्याध पतंगा है। यह पानी के पास उड़ता है।",
+    "spoken": "यह व्याध पतंगा है. यह पानी के पास उड़ता है.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s07.mp3": {
+    "written": "यह टिड्डा है। टिड्डा ऊँचा कूदता है।",
+    "spoken": "यह टिड्डा है. टिड्डा ऊँचा कूदता है.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s08.mp3": {
+    "written": "यह मक्खी है। मक्खी गंदगी पर बैठती है, इसलिए खाना ढककर रखो।",
+    "spoken": "यह मक्खी है. मक्खी गंदगी पर बैठती है, इसलिए खाना ढककर रखो.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-check-s01.mp3": {
+    "written": "त्रिभुज कौन सा है? उसे छुओ।",
+    "spoken": "त्रिभुज कौन सा है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-check-s02.mp3": {
+    "written": "गोला कौन सा है? उसे छुओ।",
+    "spoken": "गोला कौन सा है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-check-s03.mp3": {
+    "written": "तारा कौन सा है? उसे छुओ।",
+    "spoken": "तारा कौन सा है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s01.mp3": {
+    "written": "ये आकार देखो।",
+    "spoken": "ये आकार देखो.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s02.mp3": {
+    "written": "यह गोला है।",
+    "spoken": "यह गोला है.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s03.mp3": {
+    "written": "यह वर्ग है।",
+    "spoken": "यह वर्ग है.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s04.mp3": {
+    "written": "यह त्रिभुज है।",
+    "spoken": "यह त्रिभुज है.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s05.mp3": {
+    "written": "यह आयत है।",
+    "spoken": "यह आयत है.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s06.mp3": {
+    "written": "ये आकार देखो।",
+    "spoken": "ये आकार देखो.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s07.mp3": {
+    "written": "यह अंडाकार है।",
+    "spoken": "यह अंडाकार है.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s08.mp3": {
+    "written": "यह तारा है।",
+    "spoken": "यह तारा है.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s09.mp3": {
+    "written": "यह हीरा है।",
+    "spoken": "यह हीरा है.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s01.mp3": {
+    "written": "ये सब्ज़ियाँ देखो।",
+    "spoken": "ये सब्ज़ियाँ देखो.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s02.mp3": {
+    "written": "यह गाजर है।",
+    "spoken": "यह गाजर है.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s03.mp3": {
+    "written": "यह टमाटर है।",
+    "spoken": "यह टमाटर है.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s04.mp3": {
+    "written": "यह प्याज़ है।",
+    "spoken": "यह प्याज़ है.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s05.mp3": {
+    "written": "यह भुट्टा है।",
+    "spoken": "यह भुट्टा है.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s06.mp3": {
+    "written": "ये सब्ज़ियाँ देखो।",
+    "spoken": "ये सब्ज़ियाँ देखो.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s07.mp3": {
+    "written": "यह पत्तागोभी है।",
+    "spoken": "यह पत्तागोभी है.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s08.mp3": {
+    "written": "यह फूलगोभी है।",
+    "spoken": "यह फूलगोभी है.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s09.mp3": {
+    "written": "यह बैंगन है।",
+    "spoken": "यह बैंगन है.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s10.mp3": {
+    "written": "यह कद्दू है।",
+    "spoken": "यह कद्दू है.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s01.mp3": {
+    "written": "हम समुद्र के अंदर हैं। यहाँ पानी में बहुत सारे जानवर रहते हैं।",
+    "spoken": "हम समुद्र के अंदर हैं. यहाँ पानी में बहुत सारे जानवर रहते हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s02.mp3": {
+    "written": "यह मछली है। मछली पानी में तैरती है।",
+    "spoken": "यह मछली है. मछली पानी में तैरती है.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s03.mp3": {
+    "written": "यह कछुआ है। कछुए की पीठ पर कड़ा खोल होता है।",
+    "spoken": "यह कछुआ है. कछुए की पीठ पर कड़ा खोल होता है.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s04.mp3": {
+    "written": "यह डॉल्फ़िन है। डॉल्फ़िन बहुत समझदार होती है।",
+    "spoken": "यह डॉल्फ़िन है. डॉल्फ़िन बहुत समझदार होती है.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s05.mp3": {
+    "written": "दूर देखो — वह व्हेल है। व्हेल सबसे बड़ा जानवर है।",
+    "spoken": "दूर देखो, वह व्हेल है. व्हेल सबसे बड़ा जानवर है.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s06.mp3": {
+    "written": "यह ऑक्टोपस है। इसकी आठ भुजाएँ हैं।",
+    "spoken": "यह ऑक्टोपस है. इसकी आठ भुजाएँ हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s07.mp3": {
+    "written": "यह केकड़ा है। केकड़ा टेढ़ा चलता है।",
+    "spoken": "यह केकड़ा है. केकड़ा टेढ़ा चलता है.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s08.mp3": {
+    "written": "यह तारा मछली है। यह तारे जैसी दिखती है।",
+    "spoken": "यह तारा मछली है. यह तारे जैसी दिखती है.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s09.mp3": {
+    "written": "और यह समुद्री घोड़ा है।",
+    "spoken": "और यह समुद्री घोड़ा है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s01.mp3": {
+    "written": "हर जंगली जानवर में कुछ ख़ास होता है। चलो देखें।",
+    "spoken": "हर जंगली जानवर में कुछ ख़ास होता है. चलो देखें.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s02.mp3": {
+    "written": "जिराफ़ की गर्दन बहुत लंबी है। वह ऊँचे पेड़ों के पत्ते खाता है।",
+    "spoken": "जिराफ़ की गर्दन बहुत लंबी है. वह ऊँचे पेड़ों के पत्ते खाता है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s03.mp3": {
+    "written": "हाथी की लंबी सूँड़ है। सूँड़ से वह पानी पीता है।",
+    "spoken": "हाथी की लंबी सूँड़ है. सूँड़ से वह पानी पीता है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s04.mp3": {
+    "written": "ज़ेबरा के शरीर पर काली-सफ़ेद धारियाँ हैं।",
+    "spoken": "ज़ेबरा के शरीर पर काली-सफ़ेद धारियाँ हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s05.mp3": {
+    "written": "शेर की गर्दन पर घने बाल हैं। इसे अयाल कहते हैं।",
+    "spoken": "शेर की गर्दन पर घने बाल हैं. इसे अयाल कहते हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s06.mp3": {
+    "written": "गैंडे की नाक पर सींग है।",
+    "spoken": "गैंडे की नाक पर सींग है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s07.mp3": {
+    "written": "कंगारू अपने बच्चे को पेट की थैली में रखता है।",
+    "spoken": "कंगारू अपने बच्चे को पेट की थैली में रखता है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s01.mp3": {
+    "written": "यह जंगल है। यहाँ जंगली जानवर रहते हैं।",
+    "spoken": "यह जंगल है. यहाँ जंगली जानवर रहते हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s02.mp3": {
+    "written": "यह शेर है। शेर जंगल का राजा है।",
+    "spoken": "यह शेर है. शेर जंगल का राजा है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s03.mp3": {
+    "written": "यह बाघ है। बाघ के शरीर पर धारियाँ हैं।",
+    "spoken": "यह बाघ है. बाघ के शरीर पर धारियाँ हैं.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s04.mp3": {
+    "written": "यह हाथी है। हाथी बहुत बड़ा होता है।",
+    "spoken": "यह हाथी है. हाथी बहुत बड़ा होता है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s05.mp3": {
+    "written": "यह जिराफ़ है। जिराफ़ बहुत लंबा होता है।",
+    "spoken": "यह जिराफ़ है. जिराफ़ बहुत लंबा होता है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s06.mp3": {
+    "written": "यह भालू है।",
+    "spoken": "यह भालू है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s07.mp3": {
+    "written": "यह ज़ेबरा है।",
+    "spoken": "यह ज़ेबरा है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s08.mp3": {
+    "written": "यह हिरण है। हिरण बहुत तेज़ भागता है।",
+    "spoken": "यह हिरण है. हिरण बहुत तेज़ भागता है.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s09.mp3": {
+    "written": "और यह बंदर है। बंदर पेड़ों पर रहता है।",
+    "spoken": "और यह बंदर है. बंदर पेड़ों पर रहता है.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s01.mp3": {
+    "written": "यह पत्थर है, और यह मुर्गी।",
+    "spoken": "यह पत्थर है, और यह मुर्गी.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s02.mp3": {
+    "written": "मुर्गी पत्थर के आगे है।",
+    "spoken": "मुर्गी पत्थर के आगे है.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s03.mp3": {
+    "written": "अब देखो।",
+    "spoken": "अब देखो.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s04.mp3": {
+    "written": "मुर्गी पत्थर के पीछे है।",
+    "spoken": "मुर्गी पत्थर के पीछे है.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s05.mp3": {
+    "written": "आगे और पीछे — याद रखो।",
+    "spoken": "आगे और पीछे, याद रखो.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s01.mp3": {
+    "written": "अब ये अक्षर देखो।",
+    "spoken": "अब ये अक्षर देखो.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s02.mp3": {
+    "written": "A की ध्वनि — a।",
+    "spoken": "ए की ध्वनि, ऐ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s03.mp3": {
+    "written": "B की ध्वनि — buh।",
+    "spoken": "बी की ध्वनि, ब.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s04.mp3": {
+    "written": "C की ध्वनि — kuh।",
+    "spoken": "सी की ध्वनि, क.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s05.mp3": {
+    "written": "D की ध्वनि — duh।",
+    "spoken": "डी की ध्वनि, ड.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s06.mp3": {
+    "written": "E की ध्वनि — eh।",
+    "spoken": "ई की ध्वनि, ए.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s07.mp3": {
+    "written": "अब ये अक्षर देखो।",
+    "spoken": "अब ये अक्षर देखो.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s08.mp3": {
+    "written": "F की ध्वनि — fuh।",
+    "spoken": "एफ़ की ध्वनि, फ़.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s09.mp3": {
+    "written": "G की ध्वनि — guh।",
+    "spoken": "जी की ध्वनि, ग.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s10.mp3": {
+    "written": "H की ध्वनि — huh।",
+    "spoken": "एच की ध्वनि, ह.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s11.mp3": {
+    "written": "I की ध्वनि — ih।",
+    "spoken": "आई की ध्वनि, इ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s12.mp3": {
+    "written": "J की ध्वनि — juh।",
+    "spoken": "जे की ध्वनि, ज.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s13.mp3": {
+    "written": "अब ये अक्षर देखो।",
+    "spoken": "अब ये अक्षर देखो.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s14.mp3": {
+    "written": "K की ध्वनि — kuh।",
+    "spoken": "के की ध्वनि, क.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s15.mp3": {
+    "written": "L की ध्वनि — luh।",
+    "spoken": "एल की ध्वनि, ल.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s16.mp3": {
+    "written": "M की ध्वनि — muh।",
+    "spoken": "एम की ध्वनि, म.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s17.mp3": {
+    "written": "N की ध्वनि — nuh।",
+    "spoken": "एन की ध्वनि, न.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s18.mp3": {
+    "written": "O की ध्वनि — oh।",
+    "spoken": "ओ की ध्वनि, ऑ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s19.mp3": {
+    "written": "अब ये अक्षर देखो।",
+    "spoken": "अब ये अक्षर देखो.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s20.mp3": {
+    "written": "P की ध्वनि — puh।",
+    "spoken": "पी की ध्वनि, प.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s21.mp3": {
+    "written": "Q की ध्वनि — kwuh।",
+    "spoken": "क्यू की ध्वनि, क्व.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s22.mp3": {
+    "written": "R की ध्वनि — ruh।",
+    "spoken": "आर की ध्वनि, र.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s23.mp3": {
+    "written": "S की ध्वनि — sss।",
+    "spoken": "एस की ध्वनि, स.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s24.mp3": {
+    "written": "T की ध्वनि — tuh।",
+    "spoken": "टी की ध्वनि, ट.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s25.mp3": {
+    "written": "अब ये अक्षर देखो।",
+    "spoken": "अब ये अक्षर देखो.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s26.mp3": {
+    "written": "U की ध्वनि — uh।",
+    "spoken": "यू की ध्वनि, अ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s27.mp3": {
+    "written": "V की ध्वनि — vuh।",
+    "spoken": "वी की ध्वनि, व.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s28.mp3": {
+    "written": "W की ध्वनि — wuh।",
+    "spoken": "डब्ल्यू की ध्वनि, व.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s29.mp3": {
+    "written": "X की ध्वनि — ks।",
+    "spoken": "एक्स की ध्वनि, क्स.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s30.mp3": {
+    "written": "Y की ध्वनि — yuh।",
+    "spoken": "वाई की ध्वनि, य.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s31.mp3": {
+    "written": "अब ये अक्षर देखो।",
+    "spoken": "अब ये अक्षर देखो.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s32.mp3": {
+    "written": "Z की ध्वनि — zuh।",
+    "spoken": "ज़ेड की ध्वनि, ज़.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s01.mp3": {
+    "written": "हर जानवर का एक बच्चा होता है। चलो देखें किसका बच्चा कौन है।",
+    "spoken": "हर जानवर का एक बच्चा होता है. चलो देखें किसका बच्चा कौन है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s02.mp3": {
+    "written": "यह गाय है।",
+    "spoken": "यह गाय है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s03.mp3": {
+    "written": "और यह उसका बच्चा — बछड़ा।",
+    "spoken": "और यह उसका बच्चा, बछड़ा.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s04.mp3": {
+    "written": "यह भेड़ है।",
+    "spoken": "यह भेड़ है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s05.mp3": {
+    "written": "और यह उसका बच्चा — मेमना।",
+    "spoken": "और यह उसका बच्चा, मेमना.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s06.mp3": {
+    "written": "यह कुत्ता है।",
+    "spoken": "यह कुत्ता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s07.mp3": {
+    "written": "और यह उसका बच्चा — पिल्ला।",
+    "spoken": "और यह उसका बच्चा, पिल्ला.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s08.mp3": {
+    "written": "यह बिल्ली है।",
+    "spoken": "यह बिल्ली है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s09.mp3": {
+    "written": "और यह उसका बच्चा — बिल्ली का बच्चा।",
+    "spoken": "और यह उसका बच्चा, बिल्ली का बच्चा.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s10.mp3": {
+    "written": "यह मुर्गी है।",
+    "spoken": "यह मुर्गी है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s11.mp3": {
+    "written": "और यह उसका बच्चा — चूज़ा।",
+    "spoken": "और यह उसका बच्चा, चूज़ा.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s01.mp3": {
+    "written": "सबको भूख लगती है — जानवरों को भी। देखो, कौन क्या खाता है।",
+    "spoken": "सबको भूख लगती है, जानवरों को भी. देखो, कौन क्या खाता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s02.mp3": {
+    "written": "यह गाय है।",
+    "spoken": "यह गाय है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s03.mp3": {
+    "written": "गाय घास खाती है।",
+    "spoken": "गाय घास खाती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s04.mp3": {
+    "written": "यह मुर्गी है।",
+    "spoken": "यह मुर्गी है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s05.mp3": {
+    "written": "मुर्गी दाना चुगती है।",
+    "spoken": "मुर्गी दाना चुगती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s06.mp3": {
+    "written": "यह कुत्ता है।",
+    "spoken": "यह कुत्ता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s07.mp3": {
+    "written": "कुत्ता हड्डी चबाता है।",
+    "spoken": "कुत्ता हड्डी चबाता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s08.mp3": {
+    "written": "यह बिल्ली है।",
+    "spoken": "यह बिल्ली है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s09.mp3": {
+    "written": "बिल्ली दूध पीती है।",
+    "spoken": "बिल्ली दूध पीती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s10.mp3": {
+    "written": "यह बंदर है।",
+    "spoken": "यह बंदर है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s11.mp3": {
+    "written": "बंदर केला खाता है।",
+    "spoken": "बंदर केला खाता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s01.mp3": {
+    "written": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+    "spoken": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s02.mp3": {
+    "written": "ये गाय के पैरों के निशान हैं!",
+    "spoken": "ये गाय के पैरों के निशान हैं!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s03.mp3": {
+    "written": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+    "spoken": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s04.mp3": {
+    "written": "ये घोड़ा के पैरों के निशान हैं!",
+    "spoken": "ये घोड़ा के पैरों के निशान हैं!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s05.mp3": {
+    "written": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+    "spoken": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s06.mp3": {
+    "written": "ये मुर्गी के पैरों के निशान हैं!",
+    "spoken": "ये मुर्गी के पैरों के निशान हैं!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s07.mp3": {
+    "written": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+    "spoken": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s08.mp3": {
+    "written": "ये हाथी के पैरों के निशान हैं!",
+    "spoken": "ये हाथी के पैरों के निशान हैं!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s01.mp3": {
+    "written": "हम घर में रहते हैं। जानवरों के भी घर होते हैं। देखो, कौन कहाँ रहता है।",
+    "spoken": "हम घर में रहते हैं. जानवरों के भी घर होते हैं. देखो, कौन कहाँ रहता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s02.mp3": {
+    "written": "यह गौरैया है।",
+    "spoken": "यह गौरैया है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s03.mp3": {
+    "written": "गौरैया घोंसले में रहती है।",
+    "spoken": "गौरैया घोंसले में रहती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s04.mp3": {
+    "written": "यह कुत्ता है।",
+    "spoken": "यह कुत्ता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s05.mp3": {
+    "written": "कुत्ता कुत्ताघर में रहता है।",
+    "spoken": "कुत्ता कुत्ताघर में रहता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s06.mp3": {
+    "written": "यह मधुमक्खी है।",
+    "spoken": "यह मधुमक्खी है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s07.mp3": {
+    "written": "मधुमक्खी छत्ते में रहती है।",
+    "spoken": "मधुमक्खी छत्ते में रहती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s08.mp3": {
+    "written": "यह शेर है।",
+    "spoken": "यह शेर है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s09.mp3": {
+    "written": "शेर माँद में रहता है।",
+    "spoken": "शेर माँद में रहता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s10.mp3": {
+    "written": "यह गाय है।",
+    "spoken": "यह गाय है.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s11.mp3": {
+    "written": "गाय गौशाला में रहती है।",
+    "spoken": "गाय गौशाला में रहती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s01.mp3": {
+    "written": "यह हमारा शरीर है। चलो इसके हिस्सों के नाम सीखें।",
+    "spoken": "यह हमारा शरीर है. चलो इसके हिस्सों के नाम सीखें.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s02.mp3": {
+    "written": "यह सिर है।",
+    "spoken": "यह सिर है.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s03.mp3": {
+    "written": "ये बाल हैं।",
+    "spoken": "ये बाल हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s04.mp3": {
+    "written": "ये आँखें हैं। आँखों से हम देखते हैं।",
+    "spoken": "ये आँखें हैं. आँखों से हम देखते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s05.mp3": {
+    "written": "ये कान हैं। कानों से हम सुनते हैं।",
+    "spoken": "ये कान हैं. कानों से हम सुनते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s06.mp3": {
+    "written": "यह नाक है। नाक से हम सूँघते हैं।",
+    "spoken": "यह नाक है. नाक से हम सूँघते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s07.mp3": {
+    "written": "यह मुँह है। मुँह से हम खाते और बोलते हैं।",
+    "spoken": "यह मुँह है. मुँह से हम खाते और बोलते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s08.mp3": {
+    "written": "ये हाथ हैं। हाथों से हम काम करते हैं।",
+    "spoken": "ये हाथ हैं. हाथों से हम काम करते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s09.mp3": {
+    "written": "यह पेट है।",
+    "spoken": "यह पेट है.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s10.mp3": {
+    "written": "ये पैर हैं। पैरों से हम चलते हैं।",
+    "spoken": "ये पैर हैं. पैरों से हम चलते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s11.mp3": {
+    "written": "ये पंजे हैं।",
+    "spoken": "ये पंजे हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s12.mp3": {
+    "written": "अब अपनी नाक छुओ! अब अपने कान छुओ!",
+    "spoken": "अब अपनी नाक छुओ! अब अपने कान छुओ!",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s01.mp3": {
+    "written": "ये हमारे मददगार हैं। ये सब हमारी मदद करते हैं।",
+    "spoken": "ये हमारे मददगार हैं. ये सब हमारी मदद करते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s02.mp3": {
+    "written": "यह डॉक्टर हैं। जब हम बीमार होते हैं, डॉक्टर हमें ठीक करते हैं।",
+    "spoken": "यह डॉक्टर हैं. जब हम बीमार होते हैं, डॉक्टर हमें ठीक करते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s03.mp3": {
+    "written": "यह शिक्षिका हैं। वे हमें पढ़ाती हैं।",
+    "spoken": "यह शिक्षिका हैं. वे हमें पढ़ाती हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s04.mp3": {
+    "written": "यह पुलिस हैं। पुलिस हमारी रक्षा करती है।",
+    "spoken": "यह पुलिस हैं. पुलिस हमारी रक्षा करती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s05.mp3": {
+    "written": "यह किसान हैं। किसान हमारे लिए अनाज उगाते हैं।",
+    "spoken": "यह किसान हैं. किसान हमारे लिए अनाज उगाते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s06.mp3": {
+    "written": "यह दमकलकर्मी हैं। वे आग बुझाते हैं।",
+    "spoken": "यह दमकलकर्मी हैं. वे आग बुझाते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s07.mp3": {
+    "written": "यह डाकिया हैं। डाकिया हमारी चिट्ठियाँ लाते हैं।",
+    "spoken": "यह डाकिया हैं. डाकिया हमारी चिट्ठियाँ लाते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s08.mp3": {
+    "written": "जब ये हमारी मदद करें, तो हम कहते हैं — धन्यवाद!",
+    "spoken": "जब ये हमारी मदद करें, तो हम कहते हैं, धन्यवाद!",
+    "provider": "indic"
+  },
+  "evs-lkg-healthy-food-s01.mp3": {
+    "written": "इनमें से सेहतमंद खाना कौन सा है? उसे छुओ।",
+    "spoken": "इनमें से सेहतमंद खाना कौन सा है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "evs-lkg-healthy-food-s02.mp3": {
+    "written": "इनमें से सेहतमंद खाना कौन सा है? उसे छुओ।",
+    "spoken": "इनमें से सेहतमंद खाना कौन सा है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "evs-lkg-healthy-food-s03.mp3": {
+    "written": "इनमें से सेहतमंद खाना कौन सा है? उसे छुओ।",
+    "spoken": "इनमें से सेहतमंद खाना कौन सा है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s01.mp3": {
+    "written": "यह एक घर है। घर के कई हिस्से होते हैं।",
+    "spoken": "यह एक घर है. घर के कई हिस्से होते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s02.mp3": {
+    "written": "ये दीवारें हैं। ये घर को खड़ा रखती हैं।",
+    "spoken": "ये दीवारें हैं. ये घर को खड़ा रखती हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s03.mp3": {
+    "written": "यह छत है। यह हमें धूप और बारिश से बचाती है।",
+    "spoken": "यह छत है. यह हमें धूप और बारिश से बचाती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s04.mp3": {
+    "written": "यह दरवाज़ा है। हम इससे अंदर जाते हैं।",
+    "spoken": "यह दरवाज़ा है. हम इससे अंदर जाते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s05.mp3": {
+    "written": "यह खिड़की है। इससे हवा और रोशनी आती है।",
+    "spoken": "यह खिड़की है. इससे हवा और रोशनी आती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s06.mp3": {
+    "written": "और ये सीढ़ियाँ हैं।",
+    "spoken": "और ये सीढ़ियाँ हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s01.mp3": {
+    "written": "यह बाज़ार है। यहाँ हम चीज़ें ख़रीदते हैं।",
+    "spoken": "यह बाज़ार है. यहाँ हम चीज़ें ख़रीदते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s02.mp3": {
+    "written": "यह फल की दुकान है।",
+    "spoken": "यह फल की दुकान है.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s03.mp3": {
+    "written": "यहाँ सेब मिलते हैं…",
+    "spoken": "यहाँ सेब मिलते हैं,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s04.mp3": {
+    "written": "…केले…",
+    "spoken": ",केले,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s05.mp3": {
+    "written": "…और संतरे।",
+    "spoken": ",और संतरे.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s06.mp3": {
+    "written": "यह सब्ज़ी की दुकान है।",
+    "spoken": "यह सब्ज़ी की दुकान है.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s07.mp3": {
+    "written": "यहाँ टमाटर…",
+    "spoken": "यहाँ टमाटर,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s08.mp3": {
+    "written": "…बैंगन…",
+    "spoken": ",बैंगन,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s09.mp3": {
+    "written": "…और पत्तागोभी मिलती है।",
+    "spoken": ",और पत्तागोभी मिलती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s01.mp3": {
+    "written": "हर कोई अपना काम करता है, और हर काम का अपना औज़ार होता है।",
+    "spoken": "हर कोई अपना काम करता है, और हर काम का अपना औज़ार होता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s02.mp3": {
+    "written": "यह डॉक्टर हैं।",
+    "spoken": "यह डॉक्टर हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s03.mp3": {
+    "written": "डॉक्टर स्टेथोस्कोप से हमारी धड़कन सुनते हैं।",
+    "spoken": "डॉक्टर स्टेथोस्कोप से हमारी धड़कन सुनते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s04.mp3": {
+    "written": "यह शिक्षिका हैं।",
+    "spoken": "यह शिक्षिका हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s05.mp3": {
+    "written": "शिक्षिका किताब से पढ़ाती हैं।",
+    "spoken": "शिक्षिका किताब से पढ़ाती हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s06.mp3": {
+    "written": "यह डाकिया हैं।",
+    "spoken": "यह डाकिया हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s07.mp3": {
+    "written": "डाकिया चिट्ठियाँ लाते हैं।",
+    "spoken": "डाकिया चिट्ठियाँ लाते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s08.mp3": {
+    "written": "यह किसान हैं।",
+    "spoken": "यह किसान हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s09.mp3": {
+    "written": "किसान ट्रैक्टर से खेत जोतते हैं।",
+    "spoken": "किसान ट्रैक्टर से खेत जोतते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s10.mp3": {
+    "written": "यह दमकलकर्मी हैं।",
+    "spoken": "यह दमकलकर्मी हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s11.mp3": {
+    "written": "दमकलकर्मी दमकल की गाड़ी से आग बुझाने जाते हैं।",
+    "spoken": "दमकलकर्मी दमकल की गाड़ी से आग बुझाने जाते हैं.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s01.mp3": {
+    "written": "कुछ गाड़ियाँ ख़ास काम करती हैं। चलो उन्हें देखें।",
+    "spoken": "कुछ गाड़ियाँ ख़ास काम करती हैं. चलो उन्हें देखें.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s02.mp3": {
+    "written": "यह पुलिस की गाड़ी है। पुलिस इसमें हमारी मदद के लिए आती है।",
+    "spoken": "यह पुलिस की गाड़ी है. पुलिस इसमें हमारी मदद के लिए आती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s03.mp3": {
+    "written": "यह एम्बुलेंस है। यह बीमार लोगों को जल्दी अस्पताल ले जाती है।",
+    "spoken": "यह एम्बुलेंस है. यह बीमार लोगों को जल्दी अस्पताल ले जाती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s04.mp3": {
+    "written": "यह दमकल है। यह आग बुझाने जाती है।",
+    "spoken": "यह दमकल है. यह आग बुझाने जाती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s05.mp3": {
+    "written": "यह स्कूल बस है। यह बच्चों को स्कूल ले जाती है।",
+    "spoken": "यह स्कूल बस है. यह बच्चों को स्कूल ले जाती है.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s06.mp3": {
+    "written": "और यह बुलडोज़र है। यह मिट्टी हटाता है और सड़क बनाने में मदद करता है।",
+    "spoken": "और यह बुलडोज़र है. यह मिट्टी हटाता है और सड़क बनाने में मदद करता है.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s07.mp3": {
+    "written": "जब एम्बुलेंस या दमकल का सायरन बजे, तो सब उसे रास्ता देते हैं।",
+    "spoken": "जब एम्बुलेंस या दमकल का सायरन बजे, तो सब उसे रास्ता देते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s01.mp3": {
+    "written": "त्योहार ख़ुशी के दिन होते हैं। हम सब मिलकर त्योहार मनाते हैं।",
+    "spoken": "त्योहार ख़ुशी के दिन होते हैं. हम सब मिलकर त्योहार मनाते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s02.mp3": {
+    "written": "दिवाली रोशनी का त्योहार है। हम दीये जलाते हैं।",
+    "spoken": "दिवाली रोशनी का त्योहार है. हम दीये जलाते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s03.mp3": {
+    "written": "और आँगन में रंगोली बनाते हैं।",
+    "spoken": "और आँगन में रंगोली बनाते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s04.mp3": {
+    "written": "मकर संक्रांति पर हम पतंग उड़ाते हैं।",
+    "spoken": "मकर संक्रांति पर हम पतंग उड़ाते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s05.mp3": {
+    "written": "होली रंगों का त्योहार है। हम एक-दूसरे को गुलाल लगाते हैं।",
+    "spoken": "होली रंगों का त्योहार है. हम एक-दूसरे को गुलाल लगाते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s06.mp3": {
+    "written": "क्रिसमस पर हम क्रिसमस ट्री सजाते हैं…",
+    "spoken": "क्रिसमस पर हम क्रिसमस ट्री सजाते हैं,",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s07.mp3": {
+    "written": "…और एक-दूसरे को उपहार देते हैं।",
+    "spoken": ",और एक-दूसरे को उपहार देते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s08.mp3": {
+    "written": "ईद पर हम चाँद देखते हैं, और सबको गले लगाकर ईद मुबारक कहते हैं।",
+    "spoken": "ईद पर हम चाँद देखते हैं, और सबको गले लगाकर ईद मुबारक कहते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s09.mp3": {
+    "written": "तुम्हारे घर में कौन-सा त्योहार मनाते हैं?",
+    "spoken": "तुम्हारे घर में कौन-सा त्योहार मनाते हैं?",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s01.mp3": {
+    "written": "अच्छी आदतें हमें स्वस्थ और ख़ुश रखती हैं।",
+    "spoken": "अच्छी आदतें हमें स्वस्थ और ख़ुश रखती हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s02.mp3": {
+    "written": "हम रोज़ सुबह और रात को दाँत साफ़ करते हैं।",
+    "spoken": "हम रोज़ सुबह और रात को दाँत साफ़ करते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s03.mp3": {
+    "written": "खाने से पहले और शौच के बाद हम साबुन से हाथ धोते हैं।",
+    "spoken": "खाने से पहले और शौच के बाद हम साबुन से हाथ धोते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s04.mp3": {
+    "written": "हम रोज़ नहाते हैं और तौलिये से बदन पोंछते हैं।",
+    "spoken": "हम रोज़ नहाते हैं और तौलिये से बदन पोंछते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s05.mp3": {
+    "written": "हम अपने बालों में कंघी करते हैं।",
+    "spoken": "हम अपने बालों में कंघी करते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s06.mp3": {
+    "written": "हम फल और सब्ज़ियाँ खाते हैं…",
+    "spoken": "हम फल और सब्ज़ियाँ खाते हैं,",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s07.mp3": {
+    "written": "…और दूध पीते हैं।",
+    "spoken": ",और दूध पीते हैं.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s08.mp3": {
+    "written": "हम बड़ों को नमस्ते कहते हैं, और कहते हैं — कृपया, और धन्यवाद।",
+    "spoken": "हम बड़ों को नमस्ते कहते हैं, और कहते हैं, कृपया, और धन्यवाद.",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s01.mp3": {
+    "written": "पहले बारिश हुई।",
+    "spoken": "पहले बारिश हुई.",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s02.mp3": {
+    "written": "फिर सूरज निकला।",
+    "spoken": "फिर सूरज निकला.",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s03.mp3": {
+    "written": "और देखो — इंद्रधनुष!",
+    "spoken": "और देखो, इंद्रधनुष!",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s04.mp3": {
+    "written": "इसमें सात रंग हैं — लाल, नारंगी, पीला, हरा…",
+    "spoken": "इसमें सात रंग हैं, लाल, नारंगी, पीला, हरा,",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s05.mp3": {
+    "written": "…नीला, जामुनी और बैंगनी।",
+    "spoken": ",नीला, जामुनी और बैंगनी.",
+    "provider": "indic"
+  },
+  "evs-nur-school-visit-s01.mp3": {
+    "written": "यह हमारा स्कूल है। चारों तरफ़ देखो। तुम्हें क्या-क्या दिखता है?",
+    "spoken": "यह हमारा स्कूल है. चारों तरफ़ देखो. तुम्हें क्या-क्या दिखता है?",
+    "provider": "indic"
+  },
+  "evs-nur-school-visit-s02.mp3": {
+    "written": "स्कूल की बड़ी इमारत को देखो। हम यहाँ पढ़ने और खेलने आते हैं।",
+    "spoken": "स्कूल की बड़ी इमारत को देखो. हम यहाँ पढ़ने और खेलने आते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s01.mp3": {
+    "written": "हम गरम हवा के गुब्बारे में हैं। टोकरी के किनारे से नीचे देखो।",
+    "spoken": "हम गरम हवा के गुब्बारे में हैं. टोकरी के किनारे से नीचे देखो.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s02.mp3": {
+    "written": "नीचे नदी, खेत और घर कितने छोटे दिख रहे हैं!",
+    "spoken": "नीचे नदी, खेत और घर कितने छोटे दिख रहे हैं!",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s03.mp3": {
+    "written": "वह देखो, एक और गुब्बारा उड़ रहा है।",
+    "spoken": "वह देखो, एक और गुब्बारा उड़ रहा है.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s04.mp3": {
+    "written": "बादल हमारे बिल्कुल पास हैं।",
+    "spoken": "बादल हमारे बिल्कुल पास हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s05.mp3": {
+    "written": "और ऊपर सूरज चमक रहा है।",
+    "spoken": "और ऊपर सूरज चमक रहा है.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s01.mp3": {
+    "written": "यह डायनासोर पार्क है। ये डायनासोर के पुतले हैं — असली नहीं। डायनासोर बहुत, बहुत पहले रहते थे। आज कोई डायनासोर ज़िंदा नहीं है।",
+    "spoken": "यह डायनासोर पार्क है. ये डायनासोर के पुतले हैं, असली नहीं. डायनासोर बहुत, बहुत पहले रहते थे. आज कोई डायनासोर ज़िंदा नहीं है.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s02.mp3": {
+    "written": "यह ट्राइसेराटॉप्स है। इसके तीन सींग थे। यह पौधे खाता था।",
+    "spoken": "यह ट्राइसेराटॉप्स है. इसके तीन सींग थे. यह पौधे खाता था.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s03.mp3": {
+    "written": "यह स्टेगोसॉरस है। इसकी पीठ पर बड़ी-बड़ी प्लेटें थीं।",
+    "spoken": "यह स्टेगोसॉरस है. इसकी पीठ पर बड़ी-बड़ी प्लेटें थीं.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s04.mp3": {
+    "written": "इस डायनासोर के सिर पर एक लंबी कलगी थी।",
+    "spoken": "इस डायनासोर के सिर पर एक लंबी कलगी थी.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s05.mp3": {
+    "written": "यह अपैटोसॉरस है। इसकी गर्दन बहुत लंबी थी। यह सबसे बड़े डायनासोरों में से एक था।",
+    "spoken": "यह अपैटोसॉरस है. इसकी गर्दन बहुत लंबी थी. यह सबसे बड़े डायनासोरों में से एक था.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s06.mp3": {
+    "written": "यह टी-रेक्स है। इसके दाँत बहुत बड़े थे। यह दूसरे जानवरों को खाता था।",
+    "spoken": "यह टी-रेक्स है. इसके दाँत बहुत बड़े थे. यह दूसरे जानवरों को खाता था.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s07.mp3": {
+    "written": "हमें डायनासोर के बारे में उनकी हड्डियों से पता चला, जो ज़मीन के नीचे मिलीं।",
+    "spoken": "हमें डायनासोर के बारे में उनकी हड्डियों से पता चला, जो ज़मीन के नीचे मिलीं.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-cow.mp3": {
+    "written": "यह गाय है। गाय घास खाती है और हमें दूध देती है। उसके बच्चे को बछड़ा कहते हैं।",
+    "spoken": "यह गाय है. गाय घास खाती है और हमें दूध देती है. उसके बच्चे को बछड़ा कहते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-dog.mp3": {
+    "written": "यह कुत्ता है। कुत्ता खेत की रखवाली करता है।",
+    "spoken": "यह कुत्ता है. कुत्ता खेत की रखवाली करता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-donkey.mp3": {
+    "written": "यह गधा है। गधा बोझ ढोता है।",
+    "spoken": "यह गधा है. गधा बोझ ढोता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-duck.mp3": {
+    "written": "यह बत्तख है। बत्तख तालाब में तैरती है।",
+    "spoken": "यह बत्तख है. बत्तख तालाब में तैरती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-goat.mp3": {
+    "written": "यह बकरी है। बकरी पत्ते खाती है और दूध देती है।",
+    "spoken": "यह बकरी है. बकरी पत्ते खाती है और दूध देती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-hen.mp3": {
+    "written": "यह मुर्गी है। मुर्गी दाना चुगती है और अंडे देती है।",
+    "spoken": "यह मुर्गी है. मुर्गी दाना चुगती है और अंडे देती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-horse.mp3": {
+    "written": "यह घोड़ा है। घोड़ा गाड़ी खींचता है और तेज़ दौड़ता है।",
+    "spoken": "यह घोड़ा है. घोड़ा गाड़ी खींचता है और तेज़ दौड़ता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-s01.mp3": {
+    "written": "हम खेत पर आए हैं। चारों तरफ़ देखो। किसी जानवर को देखो, और वह अपने बारे में बताएगा।",
+    "spoken": "हम खेत पर आए हैं. चारों तरफ़ देखो. किसी जानवर को देखो, और वह अपने बारे में बताएगा.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-s02.mp3": {
+    "written": "कौन-सा जानवर हमें दूध देता है? उसे ढूँढ़ो।",
+    "spoken": "कौन-सा जानवर हमें दूध देता है? उसे ढूँढ़ो.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-s03.mp3": {
+    "written": "कौन अंडे देता है? और ऊन किससे मिलती है?",
+    "spoken": "कौन अंडे देता है? और ऊन किससे मिलती है?",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-sheep.mp3": {
+    "written": "यह भेड़ है। भेड़ के बालों से ऊन बनती है।",
+    "spoken": "यह भेड़ है. भेड़ के बालों से ऊन बनती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s01.mp3": {
+    "written": "फूल पौधों पर खिलते हैं। हर फूल का अपना रंग और अपनी ख़ुशबू होती है।",
+    "spoken": "फूल पौधों पर खिलते हैं. हर फूल का अपना रंग और अपनी ख़ुशबू होती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s02.mp3": {
+    "written": "यह गुलाब है। गुलाब में काँटे होते हैं। इसकी ख़ुशबू बहुत अच्छी है।",
+    "spoken": "यह गुलाब है. गुलाब में काँटे होते हैं. इसकी ख़ुशबू बहुत अच्छी है.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s03.mp3": {
+    "written": "यह सूरजमुखी है। यह सूरज की तरफ़ मुँह करता है।",
+    "spoken": "यह सूरजमुखी है. यह सूरज की तरफ़ मुँह करता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s04.mp3": {
+    "written": "यह गेंदा है। गेंदे की माला बनती है।",
+    "spoken": "यह गेंदा है. गेंदे की माला बनती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s05.mp3": {
+    "written": "यह कमल है। कमल पानी में खिलता है। यह हमारा राष्ट्रीय फूल है।",
+    "spoken": "यह कमल है. कमल पानी में खिलता है. यह हमारा राष्ट्रीय फूल है.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s06.mp3": {
+    "written": "यह गुड़हल है। इसका रंग गहरा लाल है।",
+    "spoken": "यह गुड़हल है. इसका रंग गहरा लाल है.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s07.mp3": {
+    "written": "यह चमेली है। ये छोटे सफ़ेद फूल बहुत महकते हैं।",
+    "spoken": "यह चमेली है. ये छोटे सफ़ेद फूल बहुत महकते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s08.mp3": {
+    "written": "फूल पौधे पर ही सुंदर लगते हैं। हम उन्हें बेवजह नहीं तोड़ते।",
+    "spoken": "फूल पौधे पर ही सुंदर लगते हैं. हम उन्हें बेवजह नहीं तोड़ते.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s01.mp3": {
+    "written": "यह बीज है। हम इसे मिट्टी में बोते हैं और पानी देते हैं।",
+    "spoken": "यह बीज है. हम इसे मिट्टी में बोते हैं और पानी देते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s02.mp3": {
+    "written": "बीज पानी पीकर फूलता है। उसमें से एक छोटी जड़ नीचे की ओर निकलती है।",
+    "spoken": "बीज पानी पीकर फूलता है. उसमें से एक छोटी जड़ नीचे की ओर निकलती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s03.mp3": {
+    "written": "अब एक अंकुर ऊपर की ओर बढ़ता है और मिट्टी से बाहर झाँकता है।",
+    "spoken": "अब एक अंकुर ऊपर की ओर बढ़ता है और मिट्टी से बाहर झाँकता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s04.mp3": {
+    "written": "अंकुर में दो नन्ही पत्तियाँ खुलती हैं। यह नन्हा पौधा है।",
+    "spoken": "अंकुर में दो नन्ही पत्तियाँ खुलती हैं. यह नन्हा पौधा है.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s05.mp3": {
+    "written": "धूप और पानी पाकर यह बड़ा पौधा बन जाता है।",
+    "spoken": "धूप और पानी पाकर यह बड़ा पौधा बन जाता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s06.mp3": {
+    "written": "बीज से पौधा बनने को अंकुरण कहते हैं। तुम भी एक बीज बोकर देखो!",
+    "spoken": "बीज से पौधा बनने को अंकुरण कहते हैं. तुम भी एक बीज बोकर देखो!",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s01.mp3": {
+    "written": "भारत में बहुत तरह के लोग रहते हैं। सबकी अपनी भाषा, अपना पहनावा और अपने त्योहार हैं।",
+    "spoken": "भारत में बहुत तरह के लोग रहते हैं. सबकी अपनी भाषा, अपना पहनावा और अपने त्योहार हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s02.mp3": {
+    "written": "हम हाथ जोड़कर नमस्ते करते हैं।",
+    "spoken": "हम हाथ जोड़कर नमस्ते करते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s03.mp3": {
+    "written": "कई जगह लोग सिर पर पगड़ी पहनते हैं।",
+    "spoken": "कई जगह लोग सिर पर पगड़ी पहनते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s04.mp3": {
+    "written": "बहुत-सी महिलाएँ साड़ी पहनती हैं।",
+    "spoken": "बहुत-सी महिलाएँ साड़ी पहनती हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s05.mp3": {
+    "written": "हमारा संगीत बहुत पुराना है। यह तबला है।",
+    "spoken": "हमारा संगीत बहुत पुराना है. यह तबला है.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s06.mp3": {
+    "written": "त्योहारों पर हम आँगन में रंगोली बनाते हैं…",
+    "spoken": "त्योहारों पर हम आँगन में रंगोली बनाते हैं,",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s07.mp3": {
+    "written": "…और दीये जलाते हैं।",
+    "spoken": ",और दीये जलाते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s08.mp3": {
+    "written": "हम अलग-अलग हैं, फिर भी हम सब एक हैं। हम सब भारतीय हैं।",
+    "spoken": "हम अलग-अलग हैं, फिर भी हम सब एक हैं. हम सब भारतीय हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s01.mp3": {
+    "written": "हमारे देश का नाम भारत है। हर देश के अपने राष्ट्रीय प्रतीक होते हैं।",
+    "spoken": "हमारे देश का नाम भारत है. हर देश के अपने राष्ट्रीय प्रतीक होते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s02.mp3": {
+    "written": "यह हमारा राष्ट्रीय ध्वज है — तिरंगा। इसमें केसरिया, सफ़ेद और हरा रंग है, और बीच में अशोक चक्र।",
+    "spoken": "यह हमारा राष्ट्रीय ध्वज है, तिरंगा. इसमें केसरिया, सफ़ेद और हरा रंग है, और बीच में अशोक चक्र.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s03.mp3": {
+    "written": "बाघ हमारा राष्ट्रीय पशु है।",
+    "spoken": "बाघ हमारा राष्ट्रीय पशु है.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s04.mp3": {
+    "written": "मोर हमारा राष्ट्रीय पक्षी है।",
+    "spoken": "मोर हमारा राष्ट्रीय पक्षी है.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s05.mp3": {
+    "written": "कमल हमारा राष्ट्रीय फूल है।",
+    "spoken": "कमल हमारा राष्ट्रीय फूल है.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s06.mp3": {
+    "written": "आम हमारा राष्ट्रीय फल है।",
+    "spoken": "आम हमारा राष्ट्रीय फल है.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s07.mp3": {
+    "written": "और बरगद हमारा राष्ट्रीय पेड़ है।",
+    "spoken": "और बरगद हमारा राष्ट्रीय पेड़ है.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s08.mp3": {
+    "written": "जब राष्ट्रगान बजता है, हम सीधे खड़े होते हैं। जय हिंद!",
+    "spoken": "जब राष्ट्रगान बजता है, हम सीधे खड़े होते हैं. जय हिंद!",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s01.mp3": {
+    "written": "लोग अलग-अलग जगहों पर प्रार्थना करते हैं। चलो उन्हें देखें।",
+    "spoken": "लोग अलग-अलग जगहों पर प्रार्थना करते हैं. चलो उन्हें देखें.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s02.mp3": {
+    "written": "यह गिरजाघर है। ईसाई यहाँ प्रार्थना करते हैं।",
+    "spoken": "यह गिरजाघर है. ईसाई यहाँ प्रार्थना करते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s03.mp3": {
+    "written": "यह गुरुद्वारा है। सिख यहाँ प्रार्थना करते हैं।",
+    "spoken": "यह गुरुद्वारा है. सिख यहाँ प्रार्थना करते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s04.mp3": {
+    "written": "यह मस्जिद है। मुसलमान यहाँ प्रार्थना करते हैं।",
+    "spoken": "यह मस्जिद है. मुसलमान यहाँ प्रार्थना करते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s05.mp3": {
+    "written": "यह मंदिर है। हिंदू यहाँ प्रार्थना करते हैं।",
+    "spoken": "यह मंदिर है. हिंदू यहाँ प्रार्थना करते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s06.mp3": {
+    "written": "सबकी प्रार्थना की जगह अलग है, पर हम सबका आदर करते हैं।",
+    "spoken": "सबकी प्रार्थना की जगह अलग है, पर हम सबका आदर करते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s01.mp3": {
+    "written": "यह एक पौधा है। यह मिट्टी में उगता है। चलो इसके हिस्से देखें।",
+    "spoken": "यह एक पौधा है. यह मिट्टी में उगता है. चलो इसके हिस्से देखें.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s02.mp3": {
+    "written": "ये जड़ें हैं। जड़ें मिट्टी के नीचे होती हैं। वे पानी पीती हैं और पौधे को पकड़े रखती हैं।",
+    "spoken": "ये जड़ें हैं. जड़ें मिट्टी के नीचे होती हैं. वे पानी पीती हैं और पौधे को पकड़े रखती हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s03.mp3": {
+    "written": "यह तना है। तना पौधे को सीधा खड़ा रखता है और पानी ऊपर पहुँचाता है।",
+    "spoken": "यह तना है. तना पौधे को सीधा खड़ा रखता है और पानी ऊपर पहुँचाता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s04.mp3": {
+    "written": "ये पत्तियाँ हैं। पत्तियाँ धूप से पौधे का खाना बनाती हैं।",
+    "spoken": "ये पत्तियाँ हैं. पत्तियाँ धूप से पौधे का खाना बनाती हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s05.mp3": {
+    "written": "यह फूल है। फूल से फल बनता है।",
+    "spoken": "यह फूल है. फूल से फल बनता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s06.mp3": {
+    "written": "यह फल है। फल के अंदर बीज होते हैं।",
+    "spoken": "यह फल है. फल के अंदर बीज होते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s07.mp3": {
+    "written": "पौधे को बढ़ने के लिए पानी, धूप और हवा चाहिए।",
+    "spoken": "पौधे को बढ़ने के लिए पानी, धूप और हवा चाहिए.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s01.mp3": {
+    "written": "यह नदी है। नदी में पानी बहता है। हमें नदी के उस पार जाना है।",
+    "spoken": "यह नदी है. नदी में पानी बहता है. हमें नदी के उस पार जाना है.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s02.mp3": {
+    "written": "नदी गहरी होती है और पानी तेज़ बहता है। हम कभी भी नदी में अकेले नहीं उतरते।",
+    "spoken": "नदी गहरी होती है और पानी तेज़ बहता है. हम कभी भी नदी में अकेले नहीं उतरते.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s03.mp3": {
+    "written": "यह पुल है। पुल पर चलकर नदी पार करना सबसे सुरक्षित है।",
+    "spoken": "यह पुल है. पुल पर चलकर नदी पार करना सबसे सुरक्षित है.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s04.mp3": {
+    "written": "यह नाव है। नाव से भी नदी पार कर सकते हैं…",
+    "spoken": "यह नाव है. नाव से भी नदी पार कर सकते हैं,",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s05.mp3": {
+    "written": "…पर हमेशा किसी बड़े के साथ, और नाविक की बात मानकर।",
+    "spoken": ",पर हमेशा किसी बड़े के साथ, और नाविक की बात मानकर.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s06.mp3": {
+    "written": "नाव में हम बैठे रहते हैं और हाथ पानी में नहीं डालते।",
+    "spoken": "नाव में हम बैठे रहते हैं और हाथ पानी में नहीं डालते.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s01.mp3": {
+    "written": "यह मीना है। मीना का शरीर मीना का अपना है। तुम्हारा शरीर तुम्हारा अपना है।",
+    "spoken": "यह मीना है. मीना का शरीर मीना का अपना है. तुम्हारा शरीर तुम्हारा अपना है.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s02.mp3": {
+    "written": "कुछ छूना अच्छा लगता है — जैसे माँ का गले लगाना, या सड़क पार करते हुए हाथ पकड़ना। इसे सुरक्षित छूना कहते हैं।",
+    "spoken": "कुछ छूना अच्छा लगता है, जैसे माँ का गले लगाना, या सड़क पार करते हुए हाथ पकड़ना. इसे सुरक्षित छूना कहते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s03.mp3": {
+    "written": "अगर कोई ऐसे छुए कि तुम्हें बुरा लगे, डर लगे, या दर्द हो — वह असुरक्षित छूना है। जो हिस्से कपड़ों से ढके रहते हैं, उन्हें कोई नहीं छू सकता।",
+    "spoken": "अगर कोई ऐसे छुए कि तुम्हें बुरा लगे, डर लगे, या दर्द हो, वह असुरक्षित छूना है. जो हिस्से कपड़ों से ढके रहते हैं, उन्हें कोई नहीं छू सकता.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s04.mp3": {
+    "written": "तब तीन काम करो। पहला — ज़ोर से बोलो: नहीं!",
+    "spoken": "तब तीन काम करो. पहला, ज़ोर से बोलो, नहीं!",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s05.mp3": {
+    "written": "दूसरा — वहाँ से दूर चले जाओ।",
+    "spoken": "दूसरा, वहाँ से दूर चले जाओ.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s06.mp3": {
+    "written": "तीसरा — किसी भरोसे वाले बड़े को बताओ।",
+    "spoken": "तीसरा, किसी भरोसे वाले बड़े को बताओ.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s07.mp3": {
+    "written": "भरोसे वाले बड़े कौन हैं? माँ, पिता, या तुम्हारी दीदी।",
+    "spoken": "भरोसे वाले बड़े कौन हैं? माँ, पिता, या तुम्हारी दीदी.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s08.mp3": {
+    "written": "यह कभी तुम्हारी ग़लती नहीं होती। और अगर कोई न सुने, तो किसी और को बताओ — जब तक कोई मदद न करे।",
+    "spoken": "यह कभी तुम्हारी ग़लती नहीं होती. और अगर कोई न सुने, तो किसी और को बताओ, जब तक कोई मदद न करे.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s01.mp3": {
+    "written": "साल में तीन मौसम आते हैं — गर्मी, बरसात और सर्दी।",
+    "spoken": "साल में तीन मौसम आते हैं, गर्मी, बरसात और सर्दी.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s02.mp3": {
+    "written": "गर्मी में सूरज तेज़ चमकता है। बहुत गरमी लगती है।",
+    "spoken": "गर्मी में सूरज तेज़ चमकता है. बहुत गरमी लगती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s03.mp3": {
+    "written": "बरसात में बादल आते हैं और बारिश होती है।",
+    "spoken": "बरसात में बादल आते हैं और बारिश होती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s04.mp3": {
+    "written": "बारिश में हम छाता लेते हैं। ज़मीन पर पानी भर जाता है।",
+    "spoken": "बारिश में हम छाता लेते हैं. ज़मीन पर पानी भर जाता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s05.mp3": {
+    "written": "सर्दी में ठंड लगती है। कोहरा छाता है, और हम आग तापते हैं।",
+    "spoken": "सर्दी में ठंड लगती है. कोहरा छाता है, और हम आग तापते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s01.mp3": {
+    "written": "यह सर्प-घर है। यहाँ साँप और दूसरे रेंगने वाले जानवर शीशे के पीछे रहते हैं।",
+    "spoken": "यह सर्प-घर है. यहाँ साँप और दूसरे रेंगने वाले जानवर शीशे के पीछे रहते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s02.mp3": {
+    "written": "शीशा हमें सुरक्षित रखता है। हम सिर्फ़ देखते हैं, शीशे को थपथपाते नहीं।",
+    "spoken": "शीशा हमें सुरक्षित रखता है. हम सिर्फ़ देखते हैं, शीशे को थपथपाते नहीं.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s03.mp3": {
+    "written": "यह नाग है। यह अपना फन फैलाता है। नाग ज़हरीला होता है।",
+    "spoken": "यह नाग है. यह अपना फन फैलाता है. नाग ज़हरीला होता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s04.mp3": {
+    "written": "यह हरा साँप है। यह पेड़ों पर रहता है।",
+    "spoken": "यह हरा साँप है. यह पेड़ों पर रहता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s05.mp3": {
+    "written": "यह छिपकली है। इसके चार पैर और एक लंबी पूँछ है।",
+    "spoken": "यह छिपकली है. इसके चार पैर और एक लंबी पूँछ है.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s06.mp3": {
+    "written": "यह कछुआ है। यह अपने खोल में छिप जाता है।",
+    "spoken": "यह कछुआ है. यह अपने खोल में छिप जाता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s07.mp3": {
+    "written": "अगर बाहर कहीं साँप दिखे — उसे छूना नहीं, पास नहीं जाना। धीरे से दूर हटो और किसी बड़े को बताओ।",
+    "spoken": "अगर बाहर कहीं साँप दिखे, उसे छूना नहीं, पास नहीं जाना. धीरे से दूर हटो और किसी बड़े को बताओ.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s01.mp3": {
+    "written": "हम बर्फ़ीले पहाड़ों में हैं। चारों तरफ़ बर्फ़ है।",
+    "spoken": "हम बर्फ़ीले पहाड़ों में हैं. चारों तरफ़ बर्फ़ है.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s02.mp3": {
+    "written": "यह हमारा तंबू है। हम इसमें सोते हैं।",
+    "spoken": "यह हमारा तंबू है. हम इसमें सोते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s03.mp3": {
+    "written": "यह आग है। यह हमें गरम रखती है।",
+    "spoken": "यह आग है. यह हमें गरम रखती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s04.mp3": {
+    "written": "यह देवदार का पेड़ है। इस पर बर्फ़ जमी है।",
+    "spoken": "यह देवदार का पेड़ है. इस पर बर्फ़ जमी है.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s05.mp3": {
+    "written": "और यह हमने बनाया — स्नोमैन!",
+    "spoken": "और यह हमने बनाया, स्नोमैन!",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s01.mp3": {
+    "written": "भारत बहुत बड़ा देश है। इसमें अट्ठाईस राज्य हैं। हर राज्य की अपनी ख़ास बात है।",
+    "spoken": "भारत बहुत बड़ा देश है. इसमें अट्ठाईस राज्य हैं. हर राज्य की अपनी ख़ास बात है.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s02.mp3": {
+    "written": "राजस्थान में रेगिस्तान है। वहाँ ऊँट चलते हैं।",
+    "spoken": "राजस्थान में रेगिस्तान है. वहाँ ऊँट चलते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s03.mp3": {
+    "written": "गुजरात के गिर जंगल में शेर रहते हैं।",
+    "spoken": "गुजरात के गिर जंगल में शेर रहते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s04.mp3": {
+    "written": "महाराष्ट्र के हापुस आम बहुत मशहूर हैं।",
+    "spoken": "महाराष्ट्र के हापुस आम बहुत मशहूर हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s05.mp3": {
+    "written": "केरल में नारियल के बहुत पेड़ हैं।",
+    "spoken": "केरल में नारियल के बहुत पेड़ हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s06.mp3": {
+    "written": "ओडिशा के समुद्र तट पर हर साल लाखों कछुए आते हैं।",
+    "spoken": "ओडिशा के समुद्र तट पर हर साल लाखों कछुए आते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s07.mp3": {
+    "written": "पश्चिम बंगाल के सुंदरबन में बाघ रहते हैं।",
+    "spoken": "पश्चिम बंगाल के सुंदरबन में बाघ रहते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s08.mp3": {
+    "written": "असम में एक सींग वाला गैंडा रहता है।",
+    "spoken": "असम में एक सींग वाला गैंडा रहता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s09.mp3": {
+    "written": "पंजाब के खेतों में ख़ूब गेहूँ उगता है।",
+    "spoken": "पंजाब के खेतों में ख़ूब गेहूँ उगता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s10.mp3": {
+    "written": "तुम किस राज्य में रहते हो? अपनी दीदी से पूछो।",
+    "spoken": "तुम किस राज्य में रहते हो? अपनी दीदी से पूछो.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s01.mp3": {
+    "written": "यह गाँव है। घर छोटे हैं और दूर-दूर हैं।",
+    "spoken": "यह गाँव है. घर छोटे हैं और दूर-दूर हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s02.mp3": {
+    "written": "छत पर एक ही मंज़िल।",
+    "spoken": "छत पर एक ही मंज़िल.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s03.mp3": {
+    "written": "अब यह शहर है। इमारतें ऊँची हैं।",
+    "spoken": "अब यह शहर है. इमारतें ऊँची हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s04.mp3": {
+    "written": "चार, पाँच मंज़िल — एक के ऊपर एक।",
+    "spoken": "चार, पाँच मंज़िल, एक के ऊपर एक.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s05.mp3": {
+    "written": "गाँव में घर नीचे, शहर में ऊपर। दोनों में लोग रहते हैं।",
+    "spoken": "गाँव में घर नीचे, शहर में ऊपर. दोनों में लोग रहते हैं.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s01.mp3": {
+    "written": "सूरज तालाब के पानी को गरम करता है।",
+    "spoken": "सूरज तालाब के पानी को गरम करता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s02.mp3": {
+    "written": "गरम पानी भाप बनकर ऊपर उठता है।",
+    "spoken": "गरम पानी भाप बनकर ऊपर उठता है.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s03.mp3": {
+    "written": "ऊपर ठंडा होकर भाप बादल बन जाती है।",
+    "spoken": "ऊपर ठंडा होकर भाप बादल बन जाती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s04.mp3": {
+    "written": "बादल भारी होता है, और बारिश होती है।",
+    "spoken": "बादल भारी होता है, और बारिश होती है.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s05.mp3": {
+    "written": "बारिश तालाब को फिर भर देती है। और यह फिर से शुरू होता है।",
+    "spoken": "बारिश तालाब को फिर भर देती है. और यह फिर से शुरू होता है.",
+    "provider": "indic"
+  },
+  "farm_yard_s1.mp3": {
+    "written": "आँगन में चारों ओर देखो। तुम्हें क्या दिखता है?",
+    "spoken": "आँगन में चारों ओर देखो. तुम्हें क्या दिखता है?",
+    "provider": "indic"
+  },
+  "farm_yard_s2.mp3": {
+    "written": "क्या तुम वह जानवर ढूँढ सकते हो जो हमें दूध देता है?",
+    "spoken": "क्या तुम वह जानवर ढूँढ सकते हो जो हमें दूध देता है?",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s01.mp3": {
+    "written": "खेलना सेहत के लिए अच्छा है। हर खेल का अपना सामान होता है।",
+    "spoken": "खेलना सेहत के लिए अच्छा है. हर खेल का अपना सामान होता है.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s02.mp3": {
+    "written": "यह बल्ला है।",
+    "spoken": "यह बल्ला है.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s03.mp3": {
+    "written": "क्रिकेट बल्ले और गेंद से खेलते हैं।",
+    "spoken": "क्रिकेट बल्ले और गेंद से खेलते हैं.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s04.mp3": {
+    "written": "यह फ़ुटबॉल है।",
+    "spoken": "यह फ़ुटबॉल है.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s05.mp3": {
+    "written": "फ़ुटबॉल को पैर से मारकर गोल में डालते हैं।",
+    "spoken": "फ़ुटबॉल को पैर से मारकर गोल में डालते हैं.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s06.mp3": {
+    "written": "यह रैकेट है।",
+    "spoken": "यह रैकेट है.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s07.mp3": {
+    "written": "बैडमिंटन रैकेट और शटलकॉक से खेलते हैं।",
+    "spoken": "बैडमिंटन रैकेट और शटलकॉक से खेलते हैं.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s08.mp3": {
+    "written": "यह हॉकी स्टिक है।",
+    "spoken": "यह हॉकी स्टिक है.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s09.mp3": {
+    "written": "हॉकी स्टिक और गेंद से खेलते हैं। हॉकी हमारा राष्ट्रीय खेल है।",
+    "spoken": "हॉकी स्टिक और गेंद से खेलते हैं. हॉकी हमारा राष्ट्रीय खेल है.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s10.mp3": {
+    "written": "यह बास्केटबॉल है।",
+    "spoken": "यह बास्केटबॉल है.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s11.mp3": {
+    "written": "बास्केटबॉल को ऊपर बास्केट में डालते हैं।",
+    "spoken": "बास्केटबॉल को ऊपर बास्केट में डालते हैं.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s12.mp3": {
+    "written": "यह रैकेट है।",
+    "spoken": "यह रैकेट है.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s13.mp3": {
+    "written": "टेनिस रैकेट और गेंद से खेलते हैं।",
+    "spoken": "टेनिस रैकेट और गेंद से खेलते हैं.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s01.mp3": {
+    "written": "यह पानी का टब है। देखें क्या तैरता है, क्या डूबता है।",
+    "spoken": "यह पानी का टब है. देखें क्या तैरता है, क्या डूबता है.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s02.mp3": {
+    "written": "सेब तैरता है — पानी के ऊपर रहता है।",
+    "spoken": "सेब तैरता है, पानी के ऊपर रहता है.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s03.mp3": {
+    "written": "अंडा डूब जाता है — नीचे बैठ जाता है।",
+    "spoken": "अंडा डूब जाता है, नीचे बैठ जाता है.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s04.mp3": {
+    "written": "नारियल तैरता है — पानी के ऊपर रहता है।",
+    "spoken": "नारियल तैरता है, पानी के ऊपर रहता है.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s05.mp3": {
+    "written": "चम्मच डूब जाता है — नीचे बैठ जाता है।",
+    "spoken": "चम्मच डूब जाता है, नीचे बैठ जाता है.",
+    "provider": "indic"
+  },
+  "goat_about.mp3": {
+    "written": "यह बकरी है। बकरी चढ़ना पसंद करती है।",
+    "spoken": "यह बकरी है. बकरी चढ़ना पसंद करती है.",
+    "provider": "indic"
+  },
+  "hen_about.mp3": {
+    "written": "यह मुर्गी है। मुर्गी अंडे देती है।",
+    "spoken": "यह मुर्गी है. मुर्गी अंडे देती है.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s01.mp3": {
+    "written": "यह खेत की मिट्टी है, और ऊपर ज़मीन।",
+    "spoken": "यह खेत की मिट्टी है, और ऊपर ज़मीन.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s02.mp3": {
+    "written": "गाजर ज़मीन के नीचे उगती है।",
+    "spoken": "गाजर ज़मीन के नीचे उगती है.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s03.mp3": {
+    "written": "मूली भी नीचे उगती है।",
+    "spoken": "मूली भी नीचे उगती है.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s04.mp3": {
+    "written": "और चुकंदर भी।",
+    "spoken": "और चुकंदर भी.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s05.mp3": {
+    "written": "टमाटर ज़मीन के ऊपर उगता है।",
+    "spoken": "टमाटर ज़मीन के ऊपर उगता है.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s06.mp3": {
+    "written": "भुट्टा भी ऊपर उगता है।",
+    "spoken": "भुट्टा भी ऊपर उगता है.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s07.mp3": {
+    "written": "और बैंगन भी।",
+    "spoken": "और बैंगन भी.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s01.mp3": {
+    "written": "यह टमाटर है।",
+    "spoken": "यह टमाटर है.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s02.mp3": {
+    "written": "टमाटर का रंग लाल है।",
+    "spoken": "टमाटर का रंग लाल है.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s03.mp3": {
+    "written": "यह गाजर है।",
+    "spoken": "यह गाजर है.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s04.mp3": {
+    "written": "गाजर का रंग नारंगी है।",
+    "spoken": "गाजर का रंग नारंगी है.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s05.mp3": {
+    "written": "यह बैंगन है।",
+    "spoken": "यह बैंगन है.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s06.mp3": {
+    "written": "बैंगन का रंग बैंगनी है।",
+    "spoken": "बैंगन का रंग बैंगनी है.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s07.mp3": {
+    "written": "यह भुट्टा है।",
+    "spoken": "यह भुट्टा है.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s08.mp3": {
+    "written": "भुट्टा का रंग पीला है।",
+    "spoken": "भुट्टा का रंग पीला है.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s09.mp3": {
+    "written": "यह पत्तागोभी है।",
+    "spoken": "यह पत्तागोभी है.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s10.mp3": {
+    "written": "पत्तागोभी का रंग हरा है।",
+    "spoken": "पत्तागोभी का रंग हरा है.",
+    "provider": "indic"
+  },
+  "hin-nur-janvar-boliya-s01.mp3": {
+    "written": "जानवरों की बोलियाँ सुनो। जिसे देखोगे, वह बोलेगा।",
+    "spoken": "जानवरों की बोलियाँ सुनो. जिसे देखोगे, वह बोलेगा.",
+    "provider": "indic"
+  },
+  "hin-nur-janvar-boliya-s02.mp3": {
+    "written": "गाय रँभाती है। बकरी मिमियाती है।",
+    "spoken": "गाय रँभाती है. बकरी मिमियाती है.",
+    "provider": "indic"
+  },
+  "hin-nur-janvar-boliya-s03.mp3": {
+    "written": "घोड़ा हिनहिनाता है। मुर्गी कुड़कुड़ाती है।",
+    "spoken": "घोड़ा हिनहिनाता है. मुर्गी कुड़कुड़ाती है.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s01.mp3": {
+    "written": "ये संगीत के वाद्य यंत्र हैं। इनसे मधुर संगीत निकलता है।",
+    "spoken": "ये संगीत के वाद्य यंत्र हैं. इनसे मधुर संगीत निकलता है.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s02.mp3": {
+    "written": "यह तबला है। इसे हाथों से बजाते हैं।",
+    "spoken": "यह तबला है. इसे हाथों से बजाते हैं.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s03.mp3": {
+    "written": "यह ढोलक है। इसे दोनों तरफ़ से बजाते हैं।",
+    "spoken": "यह ढोलक है. इसे दोनों तरफ़ से बजाते हैं.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s04.mp3": {
+    "written": "यह हारमोनियम है।",
+    "spoken": "यह हारमोनियम है.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s05.mp3": {
+    "written": "यह बाँसुरी है। इसमें फूँक मारकर बजाते हैं।",
+    "spoken": "यह बाँसुरी है. इसमें फूँक मारकर बजाते हैं.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s06.mp3": {
+    "written": "यह गिटार है। इसके तार छेड़कर बजाते हैं।",
+    "spoken": "यह गिटार है. इसके तार छेड़कर बजाते हैं.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s07.mp3": {
+    "written": "यह ढोल है। इसे डंडियों से बजाते हैं।",
+    "spoken": "यह ढोल है. इसे डंडियों से बजाते हैं.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s08.mp3": {
+    "written": "यह तुरही है।",
+    "spoken": "यह तुरही है.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s09.mp3": {
+    "written": "यह वायलिन है।",
+    "spoken": "यह वायलिन है.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s01.mp3": {
+    "written": "देखो — म और क और स और द।",
+    "spoken": "देखो, म और क और स और द.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s02.mp3": {
+    "written": "मिलकर बनता है — मकसद। मकसद का मतलब a purpose।",
+    "spoken": "मिलकर बनता है, मकसद. मकसद का मतलब ऐ पर्पस.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s03.mp3": {
+    "written": "देखो — ब और र और ग और द।",
+    "spoken": "देखो, ब और र और ग और द.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s04.mp3": {
+    "written": "मिलकर बनता है — बरगद। बरगद का मतलब a banyan tree।",
+    "spoken": "मिलकर बनता है, बरगद. बरगद का मतलब ऐ बैनियन ट्री.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s05.mp3": {
+    "written": "देखो — न और ट और ख और ट।",
+    "spoken": "देखो, न और ट और ख और ट.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s06.mp3": {
+    "written": "मिलकर बनता है — नटखट। नटखट का मतलब playful।",
+    "spoken": "मिलकर बनता है, नटखट. नटखट का मतलब प्लेफ़ुल.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s07.mp3": {
+    "written": "देखो — अ और ज और ग और र।",
+    "spoken": "देखो, अ और ज और ग और र.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s08.mp3": {
+    "written": "मिलकर बनता है — अजगर। अजगर का मतलब a python।",
+    "spoken": "मिलकर बनता है, अजगर. अजगर का मतलब ऐ पाइथन.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s01.mp3": {
+    "written": "देखो — न और ल।",
+    "spoken": "देखो, न और ल.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s02.mp3": {
+    "written": "मिलकर बनता है — नल। नल का मतलब tap।",
+    "spoken": "मिलकर बनता है, नल. नल का मतलब टैप.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s03.mp3": {
+    "written": "देखो — क और ल।",
+    "spoken": "देखो, क और ल.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s04.mp3": {
+    "written": "मिलकर बनता है — कल। कल का मतलब yesterday।",
+    "spoken": "मिलकर बनता है, कल. कल का मतलब येस्टरडे.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s05.mp3": {
+    "written": "देखो — घ और र।",
+    "spoken": "देखो, घ और र.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s06.mp3": {
+    "written": "मिलकर बनता है — घर। घर का मतलब house।",
+    "spoken": "मिलकर बनता है, घर. घर का मतलब हाउस.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s07.mp3": {
+    "written": "देखो — ज और ल।",
+    "spoken": "देखो, ज और ल.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s08.mp3": {
+    "written": "मिलकर बनता है — जल। जल का मतलब water।",
+    "spoken": "मिलकर बनता है, जल. जल का मतलब वॉटर.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s09.mp3": {
+    "written": "देखो — म और न।",
+    "spoken": "देखो, म और न.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s10.mp3": {
+    "written": "मिलकर बनता है — मन। मन का मतलब the mind।",
+    "spoken": "मिलकर बनता है, मन. मन का मतलब द माइंड.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s11.mp3": {
+    "written": "देखो — ब और स।",
+    "spoken": "देखो, ब और स.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s12.mp3": {
+    "written": "मिलकर बनता है — बस। बस का मतलब a bus।",
+    "spoken": "मिलकर बनता है, बस. बस का मतलब ऐ बस.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s01.mp3": {
+    "written": "यह क है। इसे याद रखो।",
+    "spoken": "यह क है. इसे याद रखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s02.mp3": {
+    "written": "यह ा मात्रा है।",
+    "spoken": "यह आ मात्रा है.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s03.mp3": {
+    "written": "क में ा मात्रा लगी — का।",
+    "spoken": "क में आ मात्रा लगी, का.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s04.mp3": {
+    "written": "यह ि मात्रा है।",
+    "spoken": "यह इ मात्रा है.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s05.mp3": {
+    "written": "क में ि मात्रा लगी — कि।",
+    "spoken": "क में इ मात्रा लगी, कि.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s06.mp3": {
+    "written": "यह ी मात्रा है।",
+    "spoken": "यह ई मात्रा है.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s07.mp3": {
+    "written": "क में ी मात्रा लगी — की।",
+    "spoken": "क में ई मात्रा लगी, की.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s08.mp3": {
+    "written": "यह ु मात्रा है।",
+    "spoken": "यह उ मात्रा है.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s09.mp3": {
+    "written": "क में ु मात्रा लगी — कु।",
+    "spoken": "क में उ मात्रा लगी, कु.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s10.mp3": {
+    "written": "यह े मात्रा है।",
+    "spoken": "यह ए मात्रा है.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s11.mp3": {
+    "written": "क में े मात्रा लगी — के।",
+    "spoken": "क में ए मात्रा लगी, के.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s12.mp3": {
+    "written": "यह ो मात्रा है।",
+    "spoken": "यह ओ मात्रा है.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s13.mp3": {
+    "written": "क में ो मात्रा लगी — को।",
+    "spoken": "क में ओ मात्रा लगी, को.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s01.mp3": {
+    "written": "अब ये स्वर देखो।",
+    "spoken": "अब ये स्वर देखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s02.mp3": {
+    "written": "यह अ है। बोलो — अ।",
+    "spoken": "यह अ है. बोलो, अ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s03.mp3": {
+    "written": "यह आ है। बोलो — आ।",
+    "spoken": "यह आ है. बोलो, आ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s04.mp3": {
+    "written": "यह इ है। बोलो — इ।",
+    "spoken": "यह इ है. बोलो, इ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s05.mp3": {
+    "written": "यह ई है। बोलो — ई।",
+    "spoken": "यह ई है. बोलो, ई.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s06.mp3": {
+    "written": "यह उ है। बोलो — उ।",
+    "spoken": "यह उ है. बोलो, उ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s07.mp3": {
+    "written": "यह ऊ है। बोलो — ऊ।",
+    "spoken": "यह ऊ है. बोलो, ऊ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s08.mp3": {
+    "written": "अब ये स्वर देखो।",
+    "spoken": "अब ये स्वर देखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s09.mp3": {
+    "written": "यह ऋ है। बोलो — ऋ।",
+    "spoken": "यह ऋ है. बोलो, ऋ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s10.mp3": {
+    "written": "यह ए है। बोलो — ए।",
+    "spoken": "यह ए है. बोलो, ए.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s11.mp3": {
+    "written": "यह ऐ है। बोलो — ऐ।",
+    "spoken": "यह ऐ है. बोलो, ऐ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s12.mp3": {
+    "written": "यह ओ है। बोलो — ओ।",
+    "spoken": "यह ओ है. बोलो, ओ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s13.mp3": {
+    "written": "यह औ है। बोलो — औ।",
+    "spoken": "यह औ है. बोलो, औ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s01.mp3": {
+    "written": "देखो — क और म और ल।",
+    "spoken": "देखो, क और म और ल.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s02.mp3": {
+    "written": "मिलकर बनता है — कमल। कमल का मतलब a lotus।",
+    "spoken": "मिलकर बनता है, कमल. कमल का मतलब ऐ लोटस.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s03.mp3": {
+    "written": "देखो — न और म और क।",
+    "spoken": "देखो, न और म और क.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s04.mp3": {
+    "written": "मिलकर बनता है — नमक। नमक का मतलब salt।",
+    "spoken": "मिलकर बनता है, नमक. नमक का मतलब सॉल्ट.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s05.mp3": {
+    "written": "देखो — स और र और ल।",
+    "spoken": "देखो, स और र और ल.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s06.mp3": {
+    "written": "मिलकर बनता है — सरल। सरल का मतलब easy।",
+    "spoken": "मिलकर बनता है, सरल. सरल का मतलब ईज़ी.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s07.mp3": {
+    "written": "देखो — म और क और र।",
+    "spoken": "देखो, म और क और र.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s08.mp3": {
+    "written": "मिलकर बनता है — मकर। मकर का मतलब a crocodile।",
+    "spoken": "मिलकर बनता है, मकर. मकर का मतलब ऐ क्रोकोडाइल.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s09.mp3": {
+    "written": "देखो — च और म और क।",
+    "spoken": "देखो, च और म और क.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s10.mp3": {
+    "written": "मिलकर बनता है — चमक। चमक का मतलब a shine।",
+    "spoken": "मिलकर बनता है, चमक. चमक का मतलब ऐ शाइन.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s11.mp3": {
+    "written": "देखो — भ और व और न।",
+    "spoken": "देखो, भ और व और न.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s12.mp3": {
+    "written": "मिलकर बनता है — भवन। भवन का मतलब a building।",
+    "spoken": "मिलकर बनता है, भवन. भवन का मतलब ऐ बिल्डिंग.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s01.mp3": {
+    "written": "अब क वर्ग देखो।",
+    "spoken": "अब क वर्ग देखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s02.mp3": {
+    "written": "यह क है।",
+    "spoken": "यह क है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s03.mp3": {
+    "written": "यह ख है।",
+    "spoken": "यह ख है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s04.mp3": {
+    "written": "यह ग है।",
+    "spoken": "यह ग है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s05.mp3": {
+    "written": "यह घ है।",
+    "spoken": "यह घ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s06.mp3": {
+    "written": "यह ङ है।",
+    "spoken": "यह ङ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s07.mp3": {
+    "written": "अब च वर्ग देखो।",
+    "spoken": "अब च वर्ग देखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s08.mp3": {
+    "written": "यह च है।",
+    "spoken": "यह च है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s09.mp3": {
+    "written": "यह छ है।",
+    "spoken": "यह छ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s10.mp3": {
+    "written": "यह ज है।",
+    "spoken": "यह ज है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s11.mp3": {
+    "written": "यह झ है।",
+    "spoken": "यह झ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s12.mp3": {
+    "written": "यह ञ है।",
+    "spoken": "यह ञ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s13.mp3": {
+    "written": "अब ट वर्ग देखो।",
+    "spoken": "अब ट वर्ग देखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s14.mp3": {
+    "written": "यह ट है।",
+    "spoken": "यह ट है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s15.mp3": {
+    "written": "यह ठ है।",
+    "spoken": "यह ठ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s16.mp3": {
+    "written": "यह ड है।",
+    "spoken": "यह ड है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s17.mp3": {
+    "written": "यह ढ है।",
+    "spoken": "यह ढ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s18.mp3": {
+    "written": "यह ण है।",
+    "spoken": "यह ण है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s19.mp3": {
+    "written": "अब त वर्ग देखो।",
+    "spoken": "अब त वर्ग देखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s20.mp3": {
+    "written": "यह त है।",
+    "spoken": "यह त है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s21.mp3": {
+    "written": "यह थ है।",
+    "spoken": "यह थ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s22.mp3": {
+    "written": "यह द है।",
+    "spoken": "यह द है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s23.mp3": {
+    "written": "यह ध है।",
+    "spoken": "यह ध है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s24.mp3": {
+    "written": "यह न है।",
+    "spoken": "यह न है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s25.mp3": {
+    "written": "अब प वर्ग देखो।",
+    "spoken": "अब प वर्ग देखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s26.mp3": {
+    "written": "यह प है।",
+    "spoken": "यह प है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s27.mp3": {
+    "written": "यह फ है।",
+    "spoken": "यह फ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s28.mp3": {
+    "written": "यह ब है।",
+    "spoken": "यह ब है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s29.mp3": {
+    "written": "यह भ है।",
+    "spoken": "यह भ है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s30.mp3": {
+    "written": "यह म है।",
+    "spoken": "यह म है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s31.mp3": {
+    "written": "अब य र ल व देखो।",
+    "spoken": "अब य र ल व देखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s32.mp3": {
+    "written": "यह य है।",
+    "spoken": "यह य है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s33.mp3": {
+    "written": "यह र है।",
+    "spoken": "यह र है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s34.mp3": {
+    "written": "यह ल है।",
+    "spoken": "यह ल है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s35.mp3": {
+    "written": "यह व है।",
+    "spoken": "यह व है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s36.mp3": {
+    "written": "अब श ष स ह देखो।",
+    "spoken": "अब श ष स ह देखो.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s37.mp3": {
+    "written": "यह श है।",
+    "spoken": "यह श है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s38.mp3": {
+    "written": "यह ष है।",
+    "spoken": "यह ष है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s39.mp3": {
+    "written": "यह स है।",
+    "spoken": "यह स है.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s40.mp3": {
+    "written": "यह ह है।",
+    "spoken": "यह ह है.",
+    "provider": "indic"
+  },
+  "horse_about.mp3": {
+    "written": "यह घोड़ा है। घोड़ा तेज़ दौड़ता है।",
+    "spoken": "यह घोड़ा है. घोड़ा तेज़ दौड़ता है.",
+    "provider": "indic"
+  },
+  "horse.mp3": {
+    "written": "यह घोड़ा है।",
+    "spoken": "यह घोड़ा है.",
+    "provider": "indic"
+  },
+  "kitchen_about.mp3": {
+    "written": "यह रसोई है। यहाँ हमारा गरम खाना बनता है।",
+    "spoken": "यह रसोई है. यहाँ हमारा गरम खाना बनता है.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s01.mp3": {
+    "written": "यह गिलास भरा है।",
+    "spoken": "यह गिलास भरा है.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s02.mp3": {
+    "written": "और यह गिलास ख़ाली है।",
+    "spoken": "और यह गिलास ख़ाली है.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s03.mp3": {
+    "written": "यह कटोरा भरा है।",
+    "spoken": "यह कटोरा भरा है.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s04.mp3": {
+    "written": "और यह ख़ाली है।",
+    "spoken": "और यह ख़ाली है.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s01.mp3": {
+    "written": "यह पूरा सेब है।",
+    "spoken": "यह पूरा सेब है.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s02.mp3": {
+    "written": "और यह आधा सेब है।",
+    "spoken": "और यह आधा सेब है.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s03.mp3": {
+    "written": "यह पूरा नाशपाती है।",
+    "spoken": "यह पूरा नाशपाती है.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s04.mp3": {
+    "written": "और यह आधा नाशपाती है।",
+    "spoken": "और यह आधा नाशपाती है.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s05.mp3": {
+    "written": "यह पूरा नारियल है।",
+    "spoken": "यह पूरा नारियल है.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s06.mp3": {
+    "written": "और यह आधा नारियल है।",
+    "spoken": "और यह आधा नारियल है.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s01.mp3": {
+    "written": "ये रेखाएँ देखो।",
+    "spoken": "ये रेखाएँ देखो.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s02.mp3": {
+    "written": "यह खड़ी रेखा है।",
+    "spoken": "यह खड़ी रेखा है.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s03.mp3": {
+    "written": "यह लेटी रेखा है।",
+    "spoken": "यह लेटी रेखा है.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s04.mp3": {
+    "written": "यह तिरछी रेखा है।",
+    "spoken": "यह तिरछी रेखा है.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s05.mp3": {
+    "written": "ये रेखाएँ देखो।",
+    "spoken": "ये रेखाएँ देखो.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s06.mp3": {
+    "written": "यह टेढ़ी-मेढ़ी रेखा है।",
+    "spoken": "यह टेढ़ी-मेढ़ी रेखा है.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s07.mp3": {
+    "written": "यह वक्र रेखा है।",
+    "spoken": "यह वक्र रेखा है.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s08.mp3": {
+    "written": "यह लहरदार रेखा है।",
+    "spoken": "यह लहरदार रेखा है.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s01.mp3": {
+    "written": "यहाँ 4 हैं और यहाँ 2।",
+    "spoken": "यहाँ चार हैं और यहाँ दो.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s02.mp3": {
+    "written": "लाल, नीले से ज़्यादा हैं।",
+    "spoken": "लाल, नीले से ज़्यादा हैं.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s03.mp3": {
+    "written": "यहाँ 2 हैं और यहाँ 5।",
+    "spoken": "यहाँ दो हैं और यहाँ पाँच.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s04.mp3": {
+    "written": "लाल, नीले से कम हैं।",
+    "spoken": "लाल, नीले से कम हैं.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s05.mp3": {
+    "written": "यहाँ 3 हैं और यहाँ 3।",
+    "spoken": "यहाँ तीन हैं और यहाँ तीन.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s06.mp3": {
+    "written": "लाल, नीले से बराबर हैं।",
+    "spoken": "लाल, नीले से बराबर हैं.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s01.mp3": {
+    "written": "1 — विषम।",
+    "spoken": "एक, विषम.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s02.mp3": {
+    "written": "2 — सम।",
+    "spoken": "दो, सम.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s03.mp3": {
+    "written": "3 — विषम।",
+    "spoken": "तीन, विषम.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s04.mp3": {
+    "written": "4 — सम।",
+    "spoken": "चार, सम.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s05.mp3": {
+    "written": "5 — विषम।",
+    "spoken": "पाँच, विषम.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s06.mp3": {
+    "written": "6 — सम।",
+    "spoken": "छह, सम.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s07.mp3": {
+    "written": "7 — विषम।",
+    "spoken": "सात, विषम.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s08.mp3": {
+    "written": "8 — सम।",
+    "spoken": "आठ, सम.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s09.mp3": {
+    "written": "9 — विषम।",
+    "spoken": "नौ, विषम.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s10.mp3": {
+    "written": "10 — सम।",
+    "spoken": "दस, सम.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s01.mp3": {
+    "written": "यह फाटक बंद है। कोई अंदर नहीं जा सकता।",
+    "spoken": "यह फाटक बंद है. कोई अंदर नहीं जा सकता.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s02.mp3": {
+    "written": "यह फाटक खुला है। अब रास्ता साफ़ है।",
+    "spoken": "यह फाटक खुला है. अब रास्ता साफ़ है.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s03.mp3": {
+    "written": "यह दरवाज़ा बंद है।",
+    "spoken": "यह दरवाज़ा बंद है.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s04.mp3": {
+    "written": "और यह दरवाज़ा खुला है।",
+    "spoken": "और यह दरवाज़ा खुला है.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s01.mp3": {
+    "written": "यह बड़ा है।",
+    "spoken": "यह बड़ा है.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s02.mp3": {
+    "written": "और यह छोटा — बड़े का उल्टा।",
+    "spoken": "और यह छोटा, बड़े का उल्टा.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s03.mp3": {
+    "written": "यह लंबा है।",
+    "spoken": "यह लंबा है.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s04.mp3": {
+    "written": "और यह छोटा — लंबे का उल्टा।",
+    "spoken": "और यह छोटा, लंबे का उल्टा.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s05.mp3": {
+    "written": "यह भरा है।",
+    "spoken": "यह भरा है.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s06.mp3": {
+    "written": "और यह ख़ाली — भरे का उल्टा।",
+    "spoken": "और यह ख़ाली, भरे का उल्टा.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s07.mp3": {
+    "written": "यह गरम है।",
+    "spoken": "यह गरम है.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s08.mp3": {
+    "written": "और यह ठंडा — गरम का उल्टा।",
+    "spoken": "और यह ठंडा, गरम का उल्टा.",
+    "provider": "indic"
+  },
+  "math-lkg-same-different-s01.mp3": {
+    "written": "तीन एक जैसे हैं, एक अलग है। अलग वाले को छुओ।",
+    "spoken": "तीन एक जैसे हैं, एक अलग है. अलग वाले को छुओ.",
+    "provider": "indic"
+  },
+  "math-lkg-same-different-s02.mp3": {
+    "written": "तीन एक जैसे हैं, एक अलग है। अलग वाले को छुओ।",
+    "spoken": "तीन एक जैसे हैं, एक अलग है. अलग वाले को छुओ.",
+    "provider": "indic"
+  },
+  "math-lkg-same-different-s03.mp3": {
+    "written": "तीन एक जैसे हैं, एक अलग है। अलग वाले को छुओ।",
+    "spoken": "तीन एक जैसे हैं, एक अलग है. अलग वाले को छुओ.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s01.mp3": {
+    "written": "यह कपड़ा अभी धुला है। इससे पानी टपक रहा है। यह गीला है।",
+    "spoken": "यह कपड़ा अभी धुला है. इससे पानी टपक रहा है. यह गीला है.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s02.mp3": {
+    "written": "यह कपड़ा धूप में सूख गया। यह सूखा है।",
+    "spoken": "यह कपड़ा धूप में सूख गया. यह सूखा है.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s03.mp3": {
+    "written": "इस टब में पानी है। यह अंदर से गीला है।",
+    "spoken": "इस टब में पानी है. यह अंदर से गीला है.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s04.mp3": {
+    "written": "इस टब में पानी नहीं है। यह सूखा है।",
+    "spoken": "इस टब में पानी नहीं है. यह सूखा है.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s05.mp3": {
+    "written": "बारिश हो रही है। बारिश में सब कुछ गीला हो जाता है।",
+    "spoken": "बारिश हो रही है. बारिश में सब कुछ गीला हो जाता है.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s06.mp3": {
+    "written": "धूप निकली है। धूप में चीज़ें सूख जाती हैं।",
+    "spoken": "धूप निकली है. धूप में चीज़ें सूख जाती हैं.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s01.mp3": {
+    "written": "यह बड़ा है।",
+    "spoken": "यह बड़ा है.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s02.mp3": {
+    "written": "और यह छोटा है।",
+    "spoken": "और यह छोटा है.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s03.mp3": {
+    "written": "यह भी बड़ा है।",
+    "spoken": "यह भी बड़ा है.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s04.mp3": {
+    "written": "और यह छोटा।",
+    "spoken": "और यह छोटा.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s01.mp3": {
+    "written": "1।",
+    "spoken": "एक.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s02.mp3": {
+    "written": "2।",
+    "spoken": "दो.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s03.mp3": {
+    "written": "3।",
+    "spoken": "तीन.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s04.mp3": {
+    "written": "4।",
+    "spoken": "चार.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s05.mp3": {
+    "written": "5।",
+    "spoken": "पाँच.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s06.mp3": {
+    "written": "6।",
+    "spoken": "छह.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s07.mp3": {
+    "written": "7।",
+    "spoken": "सात.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s08.mp3": {
+    "written": "8।",
+    "spoken": "आठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s09.mp3": {
+    "written": "9।",
+    "spoken": "नौ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s10.mp3": {
+    "written": "10।",
+    "spoken": "दस.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s11.mp3": {
+    "written": "11।",
+    "spoken": "ग्यारह.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s12.mp3": {
+    "written": "12।",
+    "spoken": "बारह.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s13.mp3": {
+    "written": "13।",
+    "spoken": "तेरह.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s14.mp3": {
+    "written": "14।",
+    "spoken": "चौदह.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s15.mp3": {
+    "written": "15।",
+    "spoken": "पंद्रह.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s16.mp3": {
+    "written": "16।",
+    "spoken": "सोलह.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s17.mp3": {
+    "written": "17।",
+    "spoken": "सत्रह.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s18.mp3": {
+    "written": "18।",
+    "spoken": "अठारह.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s19.mp3": {
+    "written": "19।",
+    "spoken": "उन्नीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s20.mp3": {
+    "written": "20।",
+    "spoken": "बीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s01.mp3": {
+    "written": "अब इक्कीस से पचास तक गिनें।",
+    "spoken": "अब इक्कीस से पचास तक गिनें.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s02.mp3": {
+    "written": "21 से 25 तक।",
+    "spoken": "इक्कीस से पच्चीस तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s03.mp3": {
+    "written": "21।",
+    "spoken": "इक्कीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s04.mp3": {
+    "written": "22।",
+    "spoken": "बाईस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s05.mp3": {
+    "written": "23।",
+    "spoken": "तेईस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s06.mp3": {
+    "written": "24।",
+    "spoken": "चौबीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s07.mp3": {
+    "written": "25।",
+    "spoken": "पच्चीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s08.mp3": {
+    "written": "26 से 30 तक।",
+    "spoken": "छब्बीस से तीस तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s09.mp3": {
+    "written": "26।",
+    "spoken": "छब्बीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s10.mp3": {
+    "written": "27।",
+    "spoken": "सत्ताईस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s11.mp3": {
+    "written": "28।",
+    "spoken": "अट्ठाईस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s12.mp3": {
+    "written": "29।",
+    "spoken": "उनतीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s13.mp3": {
+    "written": "30।",
+    "spoken": "तीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s14.mp3": {
+    "written": "31 से 35 तक।",
+    "spoken": "इकतीस से पैंतीस तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s15.mp3": {
+    "written": "31।",
+    "spoken": "इकतीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s16.mp3": {
+    "written": "32।",
+    "spoken": "बत्तीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s17.mp3": {
+    "written": "33।",
+    "spoken": "तैंतीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s18.mp3": {
+    "written": "34।",
+    "spoken": "चौंतीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s19.mp3": {
+    "written": "35।",
+    "spoken": "पैंतीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s20.mp3": {
+    "written": "36 से 40 तक।",
+    "spoken": "छत्तीस से चालीस तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s21.mp3": {
+    "written": "36।",
+    "spoken": "छत्तीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s22.mp3": {
+    "written": "37।",
+    "spoken": "सैंतीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s23.mp3": {
+    "written": "38।",
+    "spoken": "अड़तीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s24.mp3": {
+    "written": "39।",
+    "spoken": "उनतालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s25.mp3": {
+    "written": "40।",
+    "spoken": "चालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s26.mp3": {
+    "written": "41 से 45 तक।",
+    "spoken": "इकतालीस से पैंतालीस तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s27.mp3": {
+    "written": "41।",
+    "spoken": "इकतालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s28.mp3": {
+    "written": "42।",
+    "spoken": "बयालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s29.mp3": {
+    "written": "43।",
+    "spoken": "तैंतालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s30.mp3": {
+    "written": "44।",
+    "spoken": "चवालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s31.mp3": {
+    "written": "45।",
+    "spoken": "पैंतालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s32.mp3": {
+    "written": "46 से 50 तक।",
+    "spoken": "छियालीस से पचास तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s33.mp3": {
+    "written": "46।",
+    "spoken": "छियालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s34.mp3": {
+    "written": "47।",
+    "spoken": "सैंतालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s35.mp3": {
+    "written": "48।",
+    "spoken": "अड़तालीस.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s36.mp3": {
+    "written": "49।",
+    "spoken": "उनचास.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s37.mp3": {
+    "written": "50।",
+    "spoken": "पचास.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s01.mp3": {
+    "written": "अब इक्यावन से सौ तक गिनें।",
+    "spoken": "अब इक्यावन से सौ तक गिनें.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s02.mp3": {
+    "written": "51 से 55 तक।",
+    "spoken": "इक्यावन से पचपन तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s03.mp3": {
+    "written": "51।",
+    "spoken": "इक्यावन.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s04.mp3": {
+    "written": "52।",
+    "spoken": "बावन.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s05.mp3": {
+    "written": "53।",
+    "spoken": "तिरपन.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s06.mp3": {
+    "written": "54।",
+    "spoken": "चौवन.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s07.mp3": {
+    "written": "55।",
+    "spoken": "पचपन.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s08.mp3": {
+    "written": "56 से 60 तक।",
+    "spoken": "छप्पन से साठ तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s09.mp3": {
+    "written": "56।",
+    "spoken": "छप्पन.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s10.mp3": {
+    "written": "57।",
+    "spoken": "सत्तावन.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s11.mp3": {
+    "written": "58।",
+    "spoken": "अट्ठावन.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s12.mp3": {
+    "written": "59।",
+    "spoken": "उनसठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s13.mp3": {
+    "written": "60।",
+    "spoken": "साठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s14.mp3": {
+    "written": "61 से 65 तक।",
+    "spoken": "इकसठ से पैंसठ तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s15.mp3": {
+    "written": "61।",
+    "spoken": "इकसठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s16.mp3": {
+    "written": "62।",
+    "spoken": "बासठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s17.mp3": {
+    "written": "63।",
+    "spoken": "तिरसठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s18.mp3": {
+    "written": "64।",
+    "spoken": "चौंसठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s19.mp3": {
+    "written": "65।",
+    "spoken": "पैंसठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s20.mp3": {
+    "written": "66 से 70 तक।",
+    "spoken": "छियासठ से सत्तर तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s21.mp3": {
+    "written": "66।",
+    "spoken": "छियासठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s22.mp3": {
+    "written": "67।",
+    "spoken": "सड़सठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s23.mp3": {
+    "written": "68।",
+    "spoken": "अड़सठ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s24.mp3": {
+    "written": "69।",
+    "spoken": "उनहत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s25.mp3": {
+    "written": "70।",
+    "spoken": "सत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s26.mp3": {
+    "written": "71 से 75 तक।",
+    "spoken": "इकहत्तर से पचहत्तर तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s27.mp3": {
+    "written": "71।",
+    "spoken": "इकहत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s28.mp3": {
+    "written": "72।",
+    "spoken": "बहत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s29.mp3": {
+    "written": "73।",
+    "spoken": "तिहत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s30.mp3": {
+    "written": "74।",
+    "spoken": "चौहत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s31.mp3": {
+    "written": "75।",
+    "spoken": "पचहत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s32.mp3": {
+    "written": "76 से 80 तक।",
+    "spoken": "छिहत्तर से अस्सी तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s33.mp3": {
+    "written": "76।",
+    "spoken": "छिहत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s34.mp3": {
+    "written": "77।",
+    "spoken": "सतहत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s35.mp3": {
+    "written": "78।",
+    "spoken": "अठहत्तर.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s36.mp3": {
+    "written": "79।",
+    "spoken": "उन्यासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s37.mp3": {
+    "written": "80।",
+    "spoken": "अस्सी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s38.mp3": {
+    "written": "81 से 85 तक।",
+    "spoken": "इक्यासी से पचासी तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s39.mp3": {
+    "written": "81।",
+    "spoken": "इक्यासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s40.mp3": {
+    "written": "82।",
+    "spoken": "बयासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s41.mp3": {
+    "written": "83।",
+    "spoken": "तिरासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s42.mp3": {
+    "written": "84।",
+    "spoken": "चौरासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s43.mp3": {
+    "written": "85।",
+    "spoken": "पचासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s44.mp3": {
+    "written": "86 से 90 तक।",
+    "spoken": "छियासी से नब्बे तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s45.mp3": {
+    "written": "86।",
+    "spoken": "छियासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s46.mp3": {
+    "written": "87।",
+    "spoken": "सत्तासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s47.mp3": {
+    "written": "88।",
+    "spoken": "अट्ठासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s48.mp3": {
+    "written": "89।",
+    "spoken": "नवासी.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s49.mp3": {
+    "written": "90।",
+    "spoken": "नब्बे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s50.mp3": {
+    "written": "91 से 95 तक।",
+    "spoken": "इक्यानवे से पंचानवे तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s51.mp3": {
+    "written": "91।",
+    "spoken": "इक्यानवे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s52.mp3": {
+    "written": "92।",
+    "spoken": "बानवे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s53.mp3": {
+    "written": "93।",
+    "spoken": "तिरानवे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s54.mp3": {
+    "written": "94।",
+    "spoken": "चौरानवे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s55.mp3": {
+    "written": "95।",
+    "spoken": "पंचानवे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s56.mp3": {
+    "written": "96 से 100 तक।",
+    "spoken": "छियानवे से सौ तक.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s57.mp3": {
+    "written": "96।",
+    "spoken": "छियानवे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s58.mp3": {
+    "written": "97।",
+    "spoken": "सत्तानवे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s59.mp3": {
+    "written": "98।",
+    "spoken": "अट्ठानवे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s60.mp3": {
+    "written": "99।",
+    "spoken": "निन्यानवे.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s61.mp3": {
+    "written": "100।",
+    "spoken": "सौ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s01.mp3": {
+    "written": "7 कहाँ है? उसे छुओ।",
+    "spoken": "सात कहाँ है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s02.mp3": {
+    "written": "15 कहाँ है? उसे छुओ।",
+    "spoken": "पंद्रह कहाँ है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s03.mp3": {
+    "written": "43 कहाँ है? उसे छुओ।",
+    "spoken": "तैंतालीस कहाँ है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s04.mp3": {
+    "written": "86 कहाँ है? उसे छुओ।",
+    "spoken": "छियासी कहाँ है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s05.mp3": {
+    "written": "100 कहाँ है? उसे छुओ।",
+    "spoken": "सौ कहाँ है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-nur-in-out-s01.mp3": {
+    "written": "यह सेब बर्तन के अंदर है।",
+    "spoken": "यह सेब बर्तन के अंदर है.",
+    "provider": "indic"
+  },
+  "math-nur-in-out-s02.mp3": {
+    "written": "यह सेब बाहर है।",
+    "spoken": "यह सेब बाहर है.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s01.mp3": {
+    "written": "यह तराज़ू है। इससे पता चलता है क्या भारी है।",
+    "spoken": "यह तराज़ू है. इससे पता चलता है क्या भारी है.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s02.mp3": {
+    "written": "पत्थर भारी है — उसकी तरफ़ नीचे चली गई।",
+    "spoken": "पत्थर भारी है, उसकी तरफ़ नीचे चली गई.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s03.mp3": {
+    "written": "रुई हल्की है — उसकी तरफ़ ऊपर है।",
+    "spoken": "रुई हल्की है, उसकी तरफ़ ऊपर है.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s04.mp3": {
+    "written": "दोनों गेंदें बराबर हैं — तराज़ू सीधी है।",
+    "spoken": "दोनों गेंदें बराबर हैं, तराज़ू सीधी है.",
+    "provider": "indic"
+  },
+  "math-nur-long-round-s01.mp3": {
+    "written": "गोल चीज़ कौन सी है? उसे छुओ।",
+    "spoken": "गोल चीज़ कौन सी है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-nur-long-round-s02.mp3": {
+    "written": "लंबी चीज़ कौन सी है? उसे छुओ।",
+    "spoken": "लंबी चीज़ कौन सी है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-nur-long-short-s01.mp3": {
+    "written": "यह छड़ी लंबी है।",
+    "spoken": "यह छड़ी लंबी है.",
+    "provider": "indic"
+  },
+  "math-nur-long-short-s02.mp3": {
+    "written": "और यह छोटी है।",
+    "spoken": "और यह छोटी है.",
+    "provider": "indic"
+  },
+  "math-nur-long-short-s03.mp3": {
+    "written": "इन दोनों में हरी वाली लंबी है।",
+    "spoken": "इन दोनों में हरी वाली लंबी है.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s01.mp3": {
+    "written": "यह पेड़ पास है।",
+    "spoken": "यह पेड़ पास है.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s02.mp3": {
+    "written": "वही पेड़ — पर यह दूर है, इसलिए छोटा दिखता है।",
+    "spoken": "वही पेड़, पर यह दूर है, इसलिए छोटा दिखता है.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s03.mp3": {
+    "written": "यह गेंद पास है।",
+    "spoken": "यह गेंद पास है.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s04.mp3": {
+    "written": "और यह गेंद दूर है।",
+    "spoken": "और यह गेंद दूर है.",
+    "provider": "indic"
+  },
+  "math-nur-one-many-s01.mp3": {
+    "written": "यहाँ एक है।",
+    "spoken": "यहाँ एक है.",
+    "provider": "indic"
+  },
+  "math-nur-one-many-s02.mp3": {
+    "written": "और यहाँ बहुत सारे हैं।",
+    "spoken": "और यहाँ बहुत सारे हैं.",
+    "provider": "indic"
+  },
+  "math-nur-one-many-s03.mp3": {
+    "written": "एक, और बहुत सारे।",
+    "spoken": "एक, और बहुत सारे.",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s01.mp3": {
+    "written": "यह पेड़ लंबा है।",
+    "spoken": "यह पेड़ लंबा है.",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s02.mp3": {
+    "written": "और यह पेड़ छोटा है।",
+    "spoken": "और यह पेड़ छोटा है.",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s03.mp3": {
+    "written": "अब ये देखो। कौन सा लंबा है?",
+    "spoken": "अब ये देखो. कौन सा लंबा है?",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s04.mp3": {
+    "written": "यह वाला लंबा है, यह छोटा।",
+    "spoken": "यह वाला लंबा है, यह छोटा.",
+    "provider": "indic"
+  },
+  "math-nur-thick-thin-s01.mp3": {
+    "written": "यह मोटी है।",
+    "spoken": "यह मोटी है.",
+    "provider": "indic"
+  },
+  "math-nur-thick-thin-s02.mp3": {
+    "written": "और यह पतली है। दोनों की लंबाई बराबर है।",
+    "spoken": "और यह पतली है. दोनों की लंबाई बराबर है.",
+    "provider": "indic"
+  },
+  "math-nur-up-down-s01.mp3": {
+    "written": "लाल गेंद ऊपर है — अलमारी के ऊपर।",
+    "spoken": "लाल गेंद ऊपर है, अलमारी के ऊपर.",
+    "provider": "indic"
+  },
+  "math-nur-up-down-s02.mp3": {
+    "written": "नीली गेंद नीचे है — फ़र्श पर।",
+    "spoken": "नीली गेंद नीचे है, फ़र्श पर.",
+    "provider": "indic"
+  },
+  "math-nur-up-down-s03.mp3": {
+    "written": "पंखा ऊपर है। चटाई नीचे है।",
+    "spoken": "पंखा ऊपर है. चटाई नीचे है.",
+    "provider": "indic"
+  },
+  "math-nur-weight-check-s01.mp3": {
+    "written": "कौन सा भारी है? उसे छुओ।",
+    "spoken": "कौन सा भारी है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-nur-weight-check-s02.mp3": {
+    "written": "अब कौन सा हल्का है? उसे छुओ।",
+    "spoken": "अब कौन सा हल्का है? उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-nur-wide-narrow-s01.mp3": {
+    "written": "यह रास्ता चौड़ा है। बस भी निकल जाए।",
+    "spoken": "यह रास्ता चौड़ा है. बस भी निकल जाए.",
+    "provider": "indic"
+  },
+  "math-nur-wide-narrow-s02.mp3": {
+    "written": "यह रास्ता पतला है। बस एक आदमी चल सकता है।",
+    "spoken": "यह रास्ता पतला है. बस एक आदमी चल सकता है.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s01.mp3": {
+    "written": "10 + 5। सोचो।",
+    "spoken": "दस जमा पाँच. सोचो.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s02.mp3": {
+    "written": "10 और 5 — 15।",
+    "spoken": "दस और पाँच, पंद्रह.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s03.mp3": {
+    "written": "12 + 6। सोचो।",
+    "spoken": "बारह जमा छह. सोचो.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s04.mp3": {
+    "written": "12 और 6 — 18।",
+    "spoken": "बारह और छह, अठारह.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s05.mp3": {
+    "written": "20 + 15। सोचो।",
+    "spoken": "बीस जमा पंद्रह. सोचो.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s06.mp3": {
+    "written": "20 और 15 — 35।",
+    "spoken": "बीस और पंद्रह, पैंतीस.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s01.mp3": {
+    "written": "पहले गिनो — 2।",
+    "spoken": "पहले गिनो, दो.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s02.mp3": {
+    "written": "अब ये गिनो — 3।",
+    "spoken": "अब ये गिनो, तीन.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s03.mp3": {
+    "written": "2 और 3 मिलकर 5।",
+    "spoken": "दो और तीन मिलकर पाँच.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s04.mp3": {
+    "written": "पहले गिनो — 4।",
+    "spoken": "पहले गिनो, चार.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s05.mp3": {
+    "written": "अब ये गिनो — 1।",
+    "spoken": "अब ये गिनो, एक.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s06.mp3": {
+    "written": "4 और 1 मिलकर 5।",
+    "spoken": "चार और एक मिलकर पाँच.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s07.mp3": {
+    "written": "पहले गिनो — 3।",
+    "spoken": "पहले गिनो, तीन.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s08.mp3": {
+    "written": "अब ये गिनो — 4।",
+    "spoken": "अब ये गिनो, चार.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s09.mp3": {
+    "written": "3 और 4 मिलकर 7।",
+    "spoken": "तीन और चार मिलकर सात.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s01.mp3": {
+    "written": "7 और 3 देखो।",
+    "spoken": "सात और तीन देखो.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s02.mp3": {
+    "written": "7, 3 से बड़ा है।",
+    "spoken": "सात, तीन से बड़ा है.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s03.mp3": {
+    "written": "2 और 8 देखो।",
+    "spoken": "दो और आठ देखो.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s04.mp3": {
+    "written": "2, 8 से छोटा है।",
+    "spoken": "दो, आठ से छोटा है.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s05.mp3": {
+    "written": "5 और 5 देखो।",
+    "spoken": "पाँच और पाँच देखो.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s06.mp3": {
+    "written": "5, 5 से बराबर है।",
+    "spoken": "पाँच, पाँच से बराबर है.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s01.mp3": {
+    "written": "यहाँ 6 हैं।",
+    "spoken": "यहाँ छह हैं.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s02.mp3": {
+    "written": "2 बराबर हिस्सों में बाँटो।",
+    "spoken": "दो बराबर हिस्सों में बाँटो.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s03.mp3": {
+    "written": "2 बराबर हिस्सों में बाँटो।",
+    "spoken": "दो बराबर हिस्सों में बाँटो.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s04.mp3": {
+    "written": "6 ÷ 2 = 3।",
+    "spoken": "छह भाग दो बराबर तीन.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s05.mp3": {
+    "written": "यहाँ 12 हैं।",
+    "spoken": "यहाँ बारह हैं.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s06.mp3": {
+    "written": "3 बराबर हिस्सों में बाँटो।",
+    "spoken": "तीन बराबर हिस्सों में बाँटो.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s07.mp3": {
+    "written": "3 बराबर हिस्सों में बाँटो।",
+    "spoken": "तीन बराबर हिस्सों में बाँटो.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s08.mp3": {
+    "written": "3 बराबर हिस्सों में बाँटो।",
+    "spoken": "तीन बराबर हिस्सों में बाँटो.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s09.mp3": {
+    "written": "12 ÷ 3 = 4।",
+    "spoken": "बारह भाग तीन बराबर चार.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s01.mp3": {
+    "written": "1 पंक्ति में 3।",
+    "spoken": "एक पंक्ति में तीन.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s02.mp3": {
+    "written": "2 पंक्ति में 3।",
+    "spoken": "दो पंक्ति में तीन.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s03.mp3": {
+    "written": "2 × 3 = 6।",
+    "spoken": "दो गुणा तीन बराबर छह.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s04.mp3": {
+    "written": "1 पंक्ति में 4।",
+    "spoken": "एक पंक्ति में चार.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s05.mp3": {
+    "written": "2 पंक्ति में 4।",
+    "spoken": "दो पंक्ति में चार.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s06.mp3": {
+    "written": "3 पंक्ति में 4।",
+    "spoken": "तीन पंक्ति में चार.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s07.mp3": {
+    "written": "3 × 4 = 12।",
+    "spoken": "तीन गुणा चार बराबर बारह.",
+    "provider": "indic"
+  },
+  "math-ukg-odd-one-out-s01.mp3": {
+    "written": "इनमें से एक अलग है। रंग देखो। उसे छुओ।",
+    "spoken": "इनमें से एक अलग है. रंग देखो. उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-ukg-odd-one-out-s02.mp3": {
+    "written": "इनमें से एक अलग है। आकार देखो। उसे छुओ।",
+    "spoken": "इनमें से एक अलग है. आकार देखो. उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-ukg-odd-one-out-s03.mp3": {
+    "written": "इनमें से एक अलग है। आकार देखो। उसे छुओ।",
+    "spoken": "इनमें से एक अलग है. आकार देखो. उसे छुओ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s01.mp3": {
+    "written": "15 - 5। सोचो।",
+    "spoken": "पंद्रह घटा पाँच. सोचो.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s02.mp3": {
+    "written": "15 में से 5 — 10।",
+    "spoken": "पंद्रह में से पाँच, दस.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s03.mp3": {
+    "written": "18 - 6। सोचो।",
+    "spoken": "अठारह घटा छह. सोचो.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s04.mp3": {
+    "written": "18 में से 6 — 12।",
+    "spoken": "अठारह में से छह, बारह.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s05.mp3": {
+    "written": "30 - 10। सोचो।",
+    "spoken": "तीस घटा दस. सोचो.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s06.mp3": {
+    "written": "30 में से 10 — 20।",
+    "spoken": "तीस में से दस, बीस.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s01.mp3": {
+    "written": "पहले गिनो — 5।",
+    "spoken": "पहले गिनो, पाँच.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s02.mp3": {
+    "written": "2 हटा दो।",
+    "spoken": "दो हटा दो.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s03.mp3": {
+    "written": "5 में से 2 गए, बचे 3।",
+    "spoken": "पाँच में से दो गए, बचे तीन.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s04.mp3": {
+    "written": "पहले गिनो — 4।",
+    "spoken": "पहले गिनो, चार.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s05.mp3": {
+    "written": "3 हटा दो।",
+    "spoken": "तीन हटा दो.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s06.mp3": {
+    "written": "4 में से 3 गए, बचे 1।",
+    "spoken": "चार में से तीन गए, बचे एक.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s07.mp3": {
+    "written": "पहले गिनो — 5।",
+    "spoken": "पहले गिनो, पाँच.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s08.mp3": {
+    "written": "1 हटा दो।",
+    "spoken": "एक हटा दो.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s09.mp3": {
+    "written": "5 में से 1 गए, बचे 4।",
+    "spoken": "पाँच में से एक गए, बचे चार.",
+    "provider": "indic"
+  },
+  "our_classroom_s1.mp3": {
+    "written": "अब हम अंदर हैं। यह हमारी कक्षा है।",
+    "spoken": "अब हम अंदर हैं. यह हमारी कक्षा है.",
+    "provider": "indic"
+  },
+  "our_classroom_s2.mp3": {
+    "written": "तुम्हारे दोस्त दरी पर बैठे हैं। उनके साथ बैठ जाओ।",
+    "spoken": "तुम्हारे दोस्त दरी पर बैठे हैं. उनके साथ बैठ जाओ.",
+    "provider": "indic"
+  },
+  "our_classroom_s3.mp3": {
+    "written": "दीदी बोर्ड के पास खड़ी हैं। आज वे हमें पढ़ाएँगी।",
+    "spoken": "दीदी बोर्ड के पास खड़ी हैं. आज वे हमें पढ़ाएँगी.",
+    "provider": "indic"
+  },
+  "our_classroom_s4.mp3": {
+    "written": "यह ब्लैकबोर्ड है। शिक्षिका इस पर लिखती हैं।",
+    "spoken": "यह ब्लैकबोर्ड है. शिक्षिका इस पर लिखती हैं.",
+    "provider": "indic"
+  },
+  "our_classroom_s5.mp3": {
+    "written": "खिड़कियाँ देखो। रोशनी वहीं से आती है।",
+    "spoken": "खिड़कियाँ देखो. रोशनी वहीं से आती है.",
+    "provider": "indic"
+  },
+  "physics_lab_s1.mp3": {
+    "written": "यह भौतिकी प्रयोगशाला है। यहाँ हम सीखते हैं चीज़ें कैसे चलती हैं।",
+    "spoken": "यह भौतिकी प्रयोगशाला है. यहाँ हम सीखते हैं चीज़ें कैसे चलती हैं.",
+    "provider": "indic"
+  },
+  "physics_lab_s2.mp3": {
+    "written": "डोरी पर लटकी वह छोटी गेंद लोलक है। यह इधर-उधर झूलती है।",
+    "spoken": "डोरी पर लटकी वह छोटी गेंद लोलक है. यह इधर-उधर झूलती है.",
+    "provider": "indic"
+  },
+  "physics_lab_s3.mp3": {
+    "written": "ढलान वाला तख़्ता रैंप है। गेंद उस पर अपने आप लुढ़कती है।",
+    "spoken": "ढलान वाला तख़्ता रैंप है. गेंद उस पर अपने आप लुढ़कती है.",
+    "provider": "indic"
+  },
+  "playground_s1.mp3": {
+    "written": "अब हम स्कूल के पीछे हैं। यह हमारा खेल का मैदान है।",
+    "spoken": "अब हम स्कूल के पीछे हैं. यह हमारा खेल का मैदान है.",
+    "provider": "indic"
+  },
+  "playground_s2.mp3": {
+    "written": "क्या तुम झूला देख सकते हो? यह आगे-पीछे जाता है।",
+    "spoken": "क्या तुम झूला देख सकते हो? यह आगे-पीछे जाता है.",
+    "provider": "indic"
+  },
+  "playground_s3.mp3": {
+    "written": "वह पीली वाली फिसलपट्टी है। हम ऊपर चढ़ते हैं और नीचे आते हैं।",
+    "spoken": "वह पीली वाली फिसलपट्टी है. हम ऊपर चढ़ते हैं और नीचे आते हैं.",
+    "provider": "indic"
+  },
+  "playground_s4.mp3": {
+    "written": "रेत का गड्ढा खोदने के लिए है। अब चलो अंदर वापस चलें।",
+    "spoken": "रेत का गड्ढा खोदने के लिए है. अब चलो अंदर वापस चलें.",
+    "provider": "indic"
+  },
+  "school_about.mp3": {
+    "written": "यह हमारा स्कूल है। हम यहाँ सीखने और खेलने आते हैं।",
+    "spoken": "यह हमारा स्कूल है. हम यहाँ सीखने और खेलने आते हैं.",
+    "provider": "indic"
+  },
+  "school_hall_s1.mp3": {
+    "written": "अब हम स्कूल के अंदर हैं। यह गलियारा है।",
+    "spoken": "अब हम स्कूल के अंदर हैं. यह गलियारा है.",
+    "provider": "indic"
+  },
+  "school_hall_s2.mp3": {
+    "written": "दोनों तरफ दरवाज़े हैं। हर दरवाज़ा अलग कमरे में जाता है।",
+    "spoken": "दोनों तरफ दरवाज़े हैं. हर दरवाज़ा अलग कमरे में जाता है.",
+    "provider": "indic"
+  },
+  "school_hall_s3.mp3": {
+    "written": "किसी दरवाज़े तक चलो, उस कमरे में जाने के लिए।",
+    "spoken": "किसी दरवाज़े तक चलो, उस कमरे में जाने के लिए.",
+    "provider": "indic"
+  },
+  "school_kitchen_s1.mp3": {
+    "written": "यह रसोई है। यहाँ हमारा गरम खाना बनता है।",
+    "spoken": "यह रसोई है. यहाँ हमारा गरम खाना बनता है.",
+    "provider": "indic"
+  },
+  "school_kitchen_s2.mp3": {
+    "written": "बड़ी मेज़ देखो। खाना उस पर तैयार रखा जाता है।",
+    "spoken": "बड़ी मेज़ देखो. खाना उस पर तैयार रखा जाता है.",
+    "provider": "indic"
+  },
+  "school_kitchen_s3.mp3": {
+    "written": "पानी घड़े में रखा है। खाने के बाद हम वही पीते हैं।",
+    "spoken": "पानी घड़े में रखा है. खाने के बाद हम वही पीते हैं.",
+    "provider": "indic"
+  },
+  "school_office_s1.mp3": {
+    "written": "यह दफ़्तर है। दीदी यहाँ रजिस्टर रखती हैं।",
+    "spoken": "यह दफ़्तर है. दीदी यहाँ रजिस्टर रखती हैं.",
+    "provider": "indic"
+  },
+  "school_office_s2.mp3": {
+    "written": "हर सुबह तुम्हारा नाम उसी रजिस्टर में लिखा जाता है।",
+    "spoken": "हर सुबह तुम्हारा नाम उसी रजिस्टर में लिखा जाता है.",
+    "provider": "indic"
+  },
+  "school_office_s3.mp3": {
+    "written": "अलमारी बंद रहती है। हमारी किताबें और खिलौने उसमें सुरक्षित रहते हैं।",
+    "spoken": "अलमारी बंद रहती है. हमारी किताबें और खिलौने उसमें सुरक्षित रहते हैं.",
+    "provider": "indic"
+  },
+  "school_tour_s1.mp3": {
+    "written": "चारों ओर देखो। यह हमारा स्कूल है और पास के घर।",
+    "spoken": "चारों ओर देखो. यह हमारा स्कूल है और पास के घर.",
+    "provider": "indic"
+  },
+  "school_tour_s2.mp3": {
+    "written": "क्या तुम ढूँढ सकते हो कि हमारा खाना कहाँ बनता है?",
+    "spoken": "क्या तुम ढूँढ सकते हो कि हमारा खाना कहाँ बनता है?",
+    "provider": "indic"
+  },
+  "solar_system_s1.mp3": {
+    "written": "हम अंतरिक्ष में तैर रहे हैं। सूरज तुम्हारे सामने है — अब घूमकर चारों ओर देखो।",
+    "spoken": "हम अंतरिक्ष में तैर रहे हैं. सूरज तुम्हारे सामने है, अब घूमकर चारों ओर देखो.",
+    "provider": "indic"
+  },
+  "solar_system_s10.mp3": {
+    "written": "वरुण सबसे दूर है, और सबसे ठंडा।",
+    "spoken": "वरुण सबसे दूर है, और सबसे ठंडा.",
+    "provider": "indic"
+  },
+  "solar_system_s11.mp3": {
+    "written": "अपने चारों ओर देखो। आठ ग्रह हमारे सूरज के चक्कर लगा रहे हैं, और हम उसी के अंदर हैं।",
+    "spoken": "अपने चारों ओर देखो. आठ ग्रह हमारे सूरज के चक्कर लगा रहे हैं, और हम उसी के अंदर हैं.",
+    "provider": "indic"
+  },
+  "solar_system_s2.mp3": {
+    "written": "अब पास आओ। यह सूरज है। यही हमें रोशनी और गर्मी देता है।",
+    "spoken": "अब पास आओ. यह सूरज है. यही हमें रोशनी और गर्मी देता है.",
+    "provider": "indic"
+  },
+  "solar_system_s3.mp3": {
+    "written": "बुध सूरज के सबसे पास है। यह छोटा है और बहुत गरम।",
+    "spoken": "बुध सूरज के सबसे पास है. यह छोटा है और बहुत गरम.",
+    "provider": "indic"
+  },
+  "solar_system_s4.mp3": {
+    "written": "शुक्र मोटे बादलों से ढका है। यह सबसे गरम ग्रह है।",
+    "spoken": "शुक्र मोटे बादलों से ढका है. यह सबसे गरम ग्रह है.",
+    "provider": "indic"
+  },
+  "solar_system_s5.mp3": {
+    "written": "यह हमारी पृथ्वी है। नीला पानी है और सफ़ेद बादल।",
+    "spoken": "यह हमारी पृथ्वी है. नीला पानी है और सफ़ेद बादल.",
+    "provider": "indic"
+  },
+  "solar_system_s6.mp3": {
+    "written": "मंगल लाल है क्योंकि उसकी धूल जंग जैसी है। वहाँ पीने का पानी नहीं है।",
+    "spoken": "मंगल लाल है क्योंकि उसकी धूल जंग जैसी है. वहाँ पीने का पानी नहीं है.",
+    "provider": "indic"
+  },
+  "solar_system_s7.mp3": {
+    "written": "बृहस्पति सबसे बड़ा है। वे धारियाँ तूफ़ान हैं।",
+    "spoken": "बृहस्पति सबसे बड़ा है. वे धारियाँ तूफ़ान हैं.",
+    "provider": "indic"
+  },
+  "solar_system_s8.mp3": {
+    "written": "शनि के छल्ले बर्फ़ और पत्थर के बने हैं।",
+    "spoken": "शनि के छल्ले बर्फ़ और पत्थर के बने हैं.",
+    "provider": "indic"
+  },
+  "solar_system_s9.mp3": {
+    "written": "अरुण अपनी करवट लेटा है, जैसे कोई गेंद लुढ़क रही हो।",
+    "spoken": "अरुण अपनी करवट लेटा है, जैसे कोई गेंद लुढ़क रही हो.",
+    "provider": "indic"
+  }
+}

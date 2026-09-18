@@ -116,7 +116,8 @@
         "en": "Animals give us many things. Let us see who gives us what.",
         "mr": "प्राणी आपल्याला खूप काही देतात. बघूया, कोण काय देतं.",
         "or": "ପଶୁମାନେ ଆମକୁ ବହୁତ କିଛି ଦିଅନ୍ତି। ଆସ ଦେଖିବା, କିଏ କଣ ଦିଏ।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s01.mp3"
     },
     {
       "highlight": "cow",
@@ -126,7 +127,8 @@
         "en": "This is a cow.",
         "mr": "ही गाय आहे.",
         "or": "ଏହା ଏକ ଗାଈ।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s02.mp3"
     },
     {
       "highlight": "milk",
@@ -137,7 +139,8 @@
         "en": "The cow gives us milk.",
         "mr": "गाय आपल्याला दूध देते.",
         "or": "ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s03.mp3"
     },
     {
       "highlight": "hen",
@@ -147,7 +150,8 @@
         "en": "This is a hen.",
         "mr": "ही कोंबडी आहे.",
         "or": "ଏହା ଏକ କୁକୁଡ଼ା।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s04.mp3"
     },
     {
       "highlight": "egg",
@@ -158,7 +162,8 @@
         "en": "The hen gives us eggs.",
         "mr": "कोंबडी आपल्याला अंडी देते.",
         "or": "କୁକୁଡ଼ା ଆମକୁ ଅଣ୍ଡା ଦିଏ।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s05.mp3"
     },
     {
       "highlight": "sheep",
@@ -168,7 +173,8 @@
         "en": "This is a sheep.",
         "mr": "ही मेंढी आहे.",
         "or": "ଏହା ଏକ ମେଣ୍ଢା।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s06.mp3"
     },
     {
       "highlight": "wool",
@@ -179,7 +185,8 @@
         "en": "The sheep gives us wool. Wool makes our sweaters.",
         "mr": "मेंढी आपल्याला लोकर देते. लोकरीपासून स्वेटर बनतो.",
         "or": "ମେଣ୍ଢା ଆମକୁ ପଶମ ଦିଏ। ପଶମରୁ ସ୍ୱେଟର ତିଆରି ହୁଏ।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s07.mp3"
     },
     {
       "highlight": "bee",
@@ -189,7 +196,8 @@
         "en": "This is a bee.",
         "mr": "ही मधमाशी आहे.",
         "or": "ଏହା ଏକ ମହୁମାଛି।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s08.mp3"
     },
     {
       "highlight": "sunflower",
@@ -200,7 +208,8 @@
         "en": "The bee collects nectar from flowers.",
         "mr": "मधमाशी फुलांमधून मकरंद गोळा करते.",
         "or": "ମହୁମାଛି ଫୁଲରୁ ରସ ସଂଗ୍ରହ କରେ।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s09.mp3"
     },
     {
       "highlight": "honey",
@@ -211,7 +220,8 @@
         "en": "The bee gives us honey.",
         "mr": "मधमाशी आपल्याला मध देते.",
         "or": "ମହୁମାଛି ଆମକୁ ମହୁ ଦିଏ।"
-      }
+      },
+      "audio": "eng-lkg-animal-products-s10.mp3"
     }
   ]
 }

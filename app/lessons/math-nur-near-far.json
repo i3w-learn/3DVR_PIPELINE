@@ -55,7 +55,8 @@
         "en": "This tree is near.",
         "mr": "हे झाड जवळ आहे.",
         "or": "ଏହି ଗଛ ପାଖରେ ଅଛି।"
-      }
+      },
+      "audio": "math-nur-near-far-s01.mp3"
     },
     {
       "show": [
@@ -70,7 +71,8 @@
         "en": "The same tree — but this one is far away, so it looks small.",
         "mr": "तेच झाड — पण हे दूर आहे, म्हणून छोटं दिसतं.",
         "or": "ସେହି ଗଛ — କିନ୍ତୁ ଏହା ଦୂରରେ ଅଛି, ତେଣୁ ଛୋଟ ଦିଶେ।"
-      }
+      },
+      "audio": "math-nur-near-far-s02.mp3"
     },
     {
       "show": [
@@ -84,7 +86,8 @@
         "en": "This ball is near.",
         "mr": "हा चेंडू जवळ आहे.",
         "or": "ଏହି ବଲ ପାଖରେ ଅଛି।"
-      }
+      },
+      "audio": "math-nur-near-far-s03.mp3"
     },
     {
       "show": [
@@ -99,7 +102,8 @@
         "en": "And this ball is far.",
         "mr": "आणि हा चेंडू दूर आहे.",
         "or": "ଆଉ ଏହି ବଲ ଦୂରରେ ଅଛି।"
-      }
+      },
+      "audio": "math-nur-near-far-s04.mp3"
     }
   ]
 }

@@ -190,7 +190,8 @@
         "en": "This is our body. Let us learn the names of its parts.",
         "mr": "हे आपलं शरीर आहे. चला, त्याच्या भागांची नावं शिकूया.",
         "or": "ଏହା ଆମ ଶରୀର। ଆସ ଏହାର ଅଙ୍ଗଗୁଡ଼ିକର ନାଁ ଶିଖିବା।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s01.mp3"
     },
     {
       "highlight": "head",
@@ -200,7 +201,8 @@
         "en": "This is the head.",
         "mr": "हे डोकं आहे.",
         "or": "ଏହା ମୁଣ୍ଡ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s02.mp3"
     },
     {
       "highlight": "hair",
@@ -210,7 +212,8 @@
         "en": "This is the hair.",
         "mr": "हे केस आहेत.",
         "or": "ଏଗୁଡ଼ିକ କେଶ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s03.mp3"
     },
     {
       "highlight": "eyes",
@@ -220,7 +223,8 @@
         "en": "These are the eyes. We see with our eyes.",
         "mr": "हे डोळे आहेत. डोळ्यांनी आपण बघतो.",
         "or": "ଏଗୁଡ଼ିକ ଆଖି। ଆଖିରେ ଆମେ ଦେଖୁ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s04.mp3"
     },
     {
       "highlight": "ears",
@@ -230,7 +234,8 @@
         "en": "These are the ears. We hear with our ears.",
         "mr": "हे कान आहेत. कानांनी आपण ऐकतो.",
         "or": "ଏଗୁଡ଼ିକ କାନ। କାନରେ ଆମେ ଶୁଣୁ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s05.mp3"
     },
     {
       "highlight": "nose",
@@ -240,7 +245,8 @@
         "en": "This is the nose. We smell with our nose.",
         "mr": "हे नाक आहे. नाकाने आपण वास घेतो.",
         "or": "ଏହା ନାକ। ନାକରେ ଆମେ ବାସନା ଶୁଙ୍ଘୁ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s06.mp3"
     },
     {
       "highlight": "mouth",
@@ -250,7 +256,8 @@
         "en": "This is the mouth. We eat and speak with our mouth.",
         "mr": "हे तोंड आहे. तोंडाने आपण खातो आणि बोलतो.",
         "or": "ଏହା ପାଟି। ପାଟିରେ ଆମେ ଖାଉ ଓ କଥା କହୁ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s07.mp3"
     },
     {
       "highlight": "hands",
@@ -260,7 +267,8 @@
         "en": "These are the hands. We do our work with our hands.",
         "mr": "हे हात आहेत. हातांनी आपण काम करतो.",
         "or": "ଏଗୁଡ଼ିକ ହାତ। ହାତରେ ଆମେ କାମ କରୁ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s08.mp3"
     },
     {
       "highlight": "tummy",
@@ -270,7 +278,8 @@
         "en": "This is the tummy.",
         "mr": "हे पोट आहे.",
         "or": "ଏହା ପେଟ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s09.mp3"
     },
     {
       "highlight": "legs",
@@ -280,7 +289,8 @@
         "en": "These are the legs. We walk with our legs.",
         "mr": "हे पाय आहेत. पायांनी आपण चालतो.",
         "or": "ଏଗୁଡ଼ିକ ଗୋଡ଼। ଗୋଡ଼ରେ ଆମେ ଚାଲୁ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s10.mp3"
     },
     {
       "highlight": "feet",
@@ -290,7 +300,8 @@
         "en": "These are the feet.",
         "mr": "ही पावलं आहेत.",
         "or": "ଏଗୁଡ଼ିକ ପାଦ।"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s11.mp3"
     },
     {
       "duration": 9000,
@@ -299,7 +310,8 @@
         "en": "Now touch your own nose! Now touch your ears!",
         "mr": "आता स्वतःच्या नाकाला हात लावा! आता स्वतःच्या कानांना हात लावा!",
         "or": "ଏବେ ନିଜ ନାକକୁ ଛୁଅଁ! ଏବେ ନିଜ କାନକୁ ଛୁଅଁ!"
-      }
+      },
+      "audio": "evs-lkg-body-parts-s12.mp3"
     }
   ]
 }

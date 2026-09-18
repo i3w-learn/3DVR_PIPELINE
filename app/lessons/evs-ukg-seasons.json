@@ -109,7 +109,8 @@
         "en": "Three seasons come every year — summer, monsoon and winter.",
         "mr": "दरवर्षी तीन ऋतू येतात — उन्हाळा, पावसाळा आणि हिवाळा.",
         "or": "ପ୍ରତିବର୍ଷ ତିନୋଟି ଋତୁ ଆସେ — ଖରାଦିନ, ବର୍ଷାଦିନ ଆଉ ଶୀତଦିନ।"
-      }
+      },
+      "audio": "evs-ukg-seasons-s01.mp3"
     },
     {
       "show": [
@@ -123,7 +124,8 @@
         "en": "In summer the sun shines strongly, and it is very hot.",
         "mr": "उन्हाळ्यात सूर्य प्रखर तळपतो, आणि खूप गरम होतं.",
         "or": "ଖରାଦିନେ ସୂର୍ଯ୍ୟ ଜୋରରେ ଚମକେ, ଆଉ ବହୁତ ଗରମ ହୁଏ।"
-      }
+      },
+      "audio": "evs-ukg-seasons-s02.mp3"
     },
     {
       "show": [
@@ -139,7 +141,8 @@
         "en": "In the monsoon the clouds come, and it rains.",
         "mr": "पावसाळ्यात ढग येतात, आणि पाऊस पडतो.",
         "or": "ବର୍ଷାଦିନେ ମେଘ ଆସେ, ଆଉ ବର୍ଷା ହୁଏ।"
-      }
+      },
+      "audio": "evs-ukg-seasons-s03.mp3"
     },
     {
       "show": [
@@ -149,13 +152,14 @@
         "umbrella"
       ],
       "highlight": "umbrella",
-      "duration": 7500,
+      "duration": 8000,
       "script": {
         "hi": "बारिश में हम छाता लेते हैं। ज़मीन पर पानी भर जाता है।",
         "en": "In the rain we carry an umbrella. Puddles fill up on the ground.",
         "mr": "पावसात आपण छत्री घेतो. जमिनीवर डबकी साचतात.",
         "or": "ବର୍ଷାରେ ଆମେ ଛତା ଧରୁ। ଭୂଇଁରେ ପାଣି ଜମିଯାଏ।"
-      }
+      },
+      "audio": "evs-ukg-seasons-s04.mp3"
     },
     {
       "show": [
@@ -163,13 +167,14 @@
         "fog"
       ],
       "highlight": "bonfire",
-      "duration": 8500,
+      "duration": 9000,
       "script": {
         "hi": "सर्दी में ठंड लगती है। कोहरा छाता है, और हम आग तापते हैं।",
         "en": "In winter it is cold. The sky is grey, and we warm ourselves by a fire.",
         "mr": "हिवाळ्यात थंडी असते. आकाश करडं असतं, आणि आपण शेकोटीजवळ शेकतो.",
         "or": "ଶୀତଦିନେ ଥଣ୍ଡା ଲାଗେ। ଆକାଶ ଧୂସର ଦିଶେ, ଆଉ ଆମେ ନିଆଁ ପାଖରେ ସେକି ହେଉ।"
-      }
+      },
+      "audio": "evs-ukg-seasons-s05.mp3"
     }
   ]
 }

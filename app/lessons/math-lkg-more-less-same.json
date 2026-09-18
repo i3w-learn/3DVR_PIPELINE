@@ -122,7 +122,8 @@
         "en": "Here are 4, and here are 2.",
         "mr": "इथे 4 आहेत, आणि इथे 2.",
         "or": "ଏଠି 4ଟି ଅଛି, ଆଉ ଏଠି 2ଟି।"
-      }
+      },
+      "audio": "math-lkg-more-less-same-s01.mp3"
     },
     {
       "show": [
@@ -142,7 +143,8 @@
         "en": "The red are more than the blue.",
         "mr": "लाल निळ्यांपेक्षा जास्त आहेत.",
         "or": "ନାଲିଗୁଡ଼ିକ ନୀଳଠାରୁ ଅଧିକ।"
-      }
+      },
+      "audio": "math-lkg-more-less-same-s02.mp3"
     },
     {
       "show": [
@@ -162,7 +164,8 @@
         "en": "Here are 2, and here are 5.",
         "mr": "इथे 2 आहेत, आणि इथे 5.",
         "or": "ଏଠି 2ଟି ଅଛି, ଆଉ ଏଠି 5ଟି।"
-      }
+      },
+      "audio": "math-lkg-more-less-same-s03.mp3"
     },
     {
       "show": [
@@ -183,7 +186,8 @@
         "en": "The red are less than the blue.",
         "mr": "लाल निळ्यांपेक्षा कमी आहेत.",
         "or": "ନାଲିଗୁଡ଼ିକ ନୀଳଠାରୁ କମ।"
-      }
+      },
+      "audio": "math-lkg-more-less-same-s04.mp3"
     },
     {
       "show": [
@@ -202,7 +206,8 @@
         "en": "Here are 3, and here are 3.",
         "mr": "इथे 3 आहेत, आणि इथे 3.",
         "or": "ଏଠି 3ଟି ଅଛି, ଆଉ ଏଠି 3ଟି।"
-      }
+      },
+      "audio": "math-lkg-more-less-same-s05.mp3"
     },
     {
       "show": [
@@ -222,7 +227,8 @@
         "en": "The red are the same as the blue.",
         "mr": "लाल आणि निळे सारखेच आहेत.",
         "or": "ନାଲି ଆଉ ନୀଳ ସମାନ।"
-      }
+      },
+      "audio": "math-lkg-more-less-same-s06.mp3"
     }
   ]
 }

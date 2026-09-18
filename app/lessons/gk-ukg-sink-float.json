@@ -64,13 +64,14 @@
         "tub"
       ],
       "highlight": "tub",
-      "duration": 6500,
+      "duration": 8500,
       "script": {
         "hi": "यह पानी का टब है। देखें क्या तैरता है, क्या डूबता है।",
         "en": "This is a tub of water. Let us see what floats and what sinks.",
         "mr": "हा पाण्याचा टब आहे. बघूया काय तरंगतं आणि काय बुडतं.",
         "or": "ଏହା ଏକ ପାଣି ଟବ। ଆସ ଦେଖିବା କଣ ଭାସେ ଆଉ କଣ ବୁଡ଼େ।"
-      }
+      },
+      "audio": "gk-ukg-sink-float-s01.mp3"
     },
     {
       "show": [
@@ -84,7 +85,8 @@
         "en": "The apple floats — it stays on top of the water.",
         "mr": "सफरचंद तरंगतं — ते पाण्यावर राहतं.",
         "or": "ସେଓ ଭାସେ — ଏହା ପାଣି ଉପରେ ରହେ।"
-      }
+      },
+      "audio": "gk-ukg-sink-float-s02.mp3"
     },
     {
       "show": [
@@ -98,7 +100,8 @@
         "en": "The egg sinks — it goes to the bottom.",
         "mr": "अंडं बुडतं — ते तळाशी जातं.",
         "or": "ଅଣ୍ଡା ବୁଡ଼େ — ଏହା ତଳକୁ ଚାଲିଯାଏ।"
-      }
+      },
+      "audio": "gk-ukg-sink-float-s03.mp3"
     },
     {
       "show": [
@@ -112,7 +115,8 @@
         "en": "The coconut floats — it stays on top of the water.",
         "mr": "नारळ तरंगतो — तो पाण्यावर राहतो.",
         "or": "ନଡ଼ିଆ ଭାସେ — ଏହା ପାଣି ଉପରେ ରହେ।"
-      }
+      },
+      "audio": "gk-ukg-sink-float-s04.mp3"
     },
     {
       "show": [
@@ -126,7 +130,8 @@
         "en": "The spoon sinks — it goes to the bottom.",
         "mr": "चमचा बुडतो — तो तळाशी जातो.",
         "or": "ଚାମଚ ବୁଡ଼େ — ଏହା ତଳକୁ ଚାଲିଯାଏ।"
-      }
+      },
+      "audio": "gk-ukg-sink-float-s05.mp3"
     }
   ]
 }

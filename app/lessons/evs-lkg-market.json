@@ -109,7 +109,8 @@
         "en": "This is the market. This is where we buy things.",
         "mr": "हा बाजार आहे. इथे आपण वस्तू विकत घेतो.",
         "or": "ଏହା ବଜାର। ଏଠି ଆମେ ଜିନିଷ କିଣୁ।"
-      }
+      },
+      "audio": "evs-lkg-market-s01.mp3"
     },
     {
       "highlight": "fruitstall",
@@ -119,7 +120,8 @@
         "en": "This is the fruit shop.",
         "mr": "हे फळांचं दुकान आहे.",
         "or": "ଏହା ଫଳ ଦୋକାନ।"
-      }
+      },
+      "audio": "evs-lkg-market-s02.mp3"
     },
     {
       "highlight": "apple",
@@ -129,7 +131,8 @@
         "en": "Here there are apples…",
         "mr": "इथे सफरचंदं मिळतात…",
         "or": "ଏଠି ସେଓ ମିଳେ…"
-      }
+      },
+      "audio": "evs-lkg-market-s03.mp3"
     },
     {
       "highlight": "banana",
@@ -139,7 +142,8 @@
         "en": "…bananas…",
         "mr": "…केळी…",
         "or": "…କଦଳୀ…"
-      }
+      },
+      "audio": "evs-lkg-market-s04.mp3"
     },
     {
       "highlight": "orange",
@@ -149,7 +153,8 @@
         "en": "…and oranges.",
         "mr": "…आणि संत्री.",
         "or": "…ଆଉ କମଳା।"
-      }
+      },
+      "audio": "evs-lkg-market-s05.mp3"
     },
     {
       "highlight": "vegstall",
@@ -159,7 +164,8 @@
         "en": "This is the vegetable shop.",
         "mr": "हे भाजीचं दुकान आहे.",
         "or": "ଏହା ପରିବା ଦୋକାନ।"
-      }
+      },
+      "audio": "evs-lkg-market-s06.mp3"
     },
     {
       "highlight": "tomato",
@@ -169,7 +175,8 @@
         "en": "Here there are tomatoes…",
         "mr": "इथे टोमॅटो…",
         "or": "ଏଠି ଟମାଟୋ…"
-      }
+      },
+      "audio": "evs-lkg-market-s07.mp3"
     },
     {
       "highlight": "brinjal",
@@ -179,7 +186,8 @@
         "en": "…brinjals…",
         "mr": "…वांगी…",
         "or": "…ବାଇଗଣ…"
-      }
+      },
+      "audio": "evs-lkg-market-s08.mp3"
     },
     {
       "highlight": "cabbage",
@@ -189,7 +197,8 @@
         "en": "…and cabbages.",
         "mr": "…आणि कोबी मिळतो.",
         "or": "…ଆଉ ବନ୍ଧାକୋବି ମିଳେ।"
-      }
+      },
+      "audio": "evs-lkg-market-s09.mp3"
     }
   ]
 }

@@ -95,7 +95,8 @@
         "en": "Look at these lines.",
         "mr": "या रेषा बघा.",
         "or": "ଏହି ରେଖାଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "math-lkg-lines-curves-s01.mp3"
     },
     {
       "highlight": "standing",
@@ -110,7 +111,8 @@
         "en": "This is a standing line.",
         "mr": "ही उभी रेषा आहे.",
         "or": "ଏହା ଠିଆ ରେଖା।"
-      }
+      },
+      "audio": "math-lkg-lines-curves-s02.mp3"
     },
     {
       "highlight": "sleeping",
@@ -125,7 +127,8 @@
         "en": "This is a sleeping line.",
         "mr": "ही आडवी रेषा आहे.",
         "or": "ଏହା ଶୋଇଥିବା ରେଖା।"
-      }
+      },
+      "audio": "math-lkg-lines-curves-s03.mp3"
     },
     {
       "highlight": "slanting",
@@ -140,7 +143,8 @@
         "en": "This is a slanting line.",
         "mr": "ही तिरकी रेषा आहे.",
         "or": "ଏହା ତେରଛା ରେଖା।"
-      }
+      },
+      "audio": "math-lkg-lines-curves-s04.mp3"
     },
     {
       "show": [
@@ -154,7 +158,8 @@
         "en": "Look at these lines.",
         "mr": "या रेषा बघा.",
         "or": "ଏହି ରେଖାଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "math-lkg-lines-curves-s05.mp3"
     },
     {
       "highlight": "zigzag",
@@ -169,7 +174,8 @@
         "en": "This is a zigzag line.",
         "mr": "ही नागमोडी — झिगझॅग रेषा आहे.",
         "or": "ଏହା ଅଙ୍କାବଙ୍କା ରେଖା।"
-      }
+      },
+      "audio": "math-lkg-lines-curves-s06.mp3"
     },
     {
       "highlight": "curve",
@@ -184,7 +190,8 @@
         "en": "This is a curved line.",
         "mr": "ही वक्र रेषा आहे.",
         "or": "ଏହା ବକ୍ର ରେଖା।"
-      }
+      },
+      "audio": "math-lkg-lines-curves-s07.mp3"
     },
     {
       "highlight": "wavy",
@@ -199,7 +206,8 @@
         "en": "This is a wavy line.",
         "mr": "ही लहरी रेषा आहे.",
         "or": "ଏହା ଢେଉଆ ରେଖା।"
-      }
+      },
+      "audio": "math-lkg-lines-curves-s08.mp3"
     }
   ]
 }

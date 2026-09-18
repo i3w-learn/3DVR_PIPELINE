@@ -57,7 +57,8 @@
         "en": "This stick is long.",
         "mr": "ही काठी लांब आहे.",
         "or": "ଏହି ବାଡ଼ି ଲମ୍ବା।"
-      }
+      },
+      "audio": "math-nur-long-short-s01.mp3"
     },
     {
       "show": [
@@ -72,7 +73,8 @@
         "en": "And this one is short.",
         "mr": "आणि ही आखूड आहे.",
         "or": "ଆଉ ଏହା ଛୋଟ।"
-      }
+      },
+      "audio": "math-nur-long-short-s02.mp3"
     },
     {
       "show": [
@@ -87,7 +89,8 @@
         "en": "Of these two, the green one is longer.",
         "mr": "या दोघांत हिरवी जास्त लांब आहे.",
         "or": "ଏହି ଦୁଇଟି ଭିତରୁ ସବୁଜଟି ଅଧିକ ଲମ୍ବା।"
-      }
+      },
+      "audio": "math-nur-long-short-s03.mp3"
     }
   ]
 }

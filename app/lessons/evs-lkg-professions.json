@@ -144,7 +144,8 @@
         "en": "Everybody has a job to do, and every job has its own tools.",
         "mr": "प्रत्येकजण आपलं काम करतो, आणि प्रत्येक कामाचं स्वतःचं साधन असतं.",
         "or": "ସମସ୍ତେ ନିଜ ନିଜ କାମ କରନ୍ତି, ଆଉ ପ୍ରତ୍ୟେକ କାମର ନିଜର ଉପକରଣ ଥାଏ।"
-      }
+      },
+      "audio": "evs-lkg-professions-s01.mp3"
     },
     {
       "highlight": "doctor",
@@ -154,7 +155,8 @@
         "en": "This is a doctor.",
         "mr": "हे डॉक्टर आहेत.",
         "or": "ଏ ଜଣେ ଡାକ୍ତର।"
-      }
+      },
+      "audio": "evs-lkg-professions-s02.mp3"
     },
     {
       "highlight": "stethoscope",
@@ -165,7 +167,8 @@
         "en": "The doctor listens to our heartbeat with a stethoscope.",
         "mr": "डॉक्टर स्टेथोस्कोपने आपल्या हृदयाचे ठोके ऐकतात.",
         "or": "ଡାକ୍ତର ଷ୍ଟେଥୋସ୍କୋପରେ ଆମ ହୃଦୟର ଧକଧକ ଶୁଣନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-professions-s03.mp3"
     },
     {
       "highlight": "teacher",
@@ -175,7 +178,8 @@
         "en": "This is a teacher.",
         "mr": "या शिक्षिका आहेत.",
         "or": "ଏ ଜଣେ ଶିକ୍ଷୟିତ୍ରୀ।"
-      }
+      },
+      "audio": "evs-lkg-professions-s04.mp3"
     },
     {
       "highlight": "book",
@@ -186,7 +190,8 @@
         "en": "The teacher teaches from a book.",
         "mr": "शिक्षिका पुस्तकातून शिकवतात.",
         "or": "ଶିକ୍ଷୟିତ୍ରୀ ବହିରୁ ପଢ଼ାନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-professions-s05.mp3"
     },
     {
       "highlight": "postman",
@@ -196,7 +201,8 @@
         "en": "This is a postman.",
         "mr": "हे पोस्टमन आहेत.",
         "or": "ଏ ଜଣେ ଡାକବାଲା।"
-      }
+      },
+      "audio": "evs-lkg-professions-s06.mp3"
     },
     {
       "highlight": "letter",
@@ -207,7 +213,8 @@
         "en": "The postman brings letters.",
         "mr": "पोस्टमन पत्रं आणतात.",
         "or": "ଡାକବାଲା ଚିଠି ଆଣନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-professions-s07.mp3"
     },
     {
       "highlight": "farmer",
@@ -217,7 +224,8 @@
         "en": "This is a farmer.",
         "mr": "हे शेतकरी आहेत.",
         "or": "ଏ ଜଣେ ଚାଷୀ।"
-      }
+      },
+      "audio": "evs-lkg-professions-s08.mp3"
     },
     {
       "highlight": "tractor",
@@ -228,7 +236,8 @@
         "en": "The farmer ploughs the field with a tractor.",
         "mr": "शेतकरी ट्रॅक्टरने शेत नांगरतात.",
         "or": "ଚାଷୀ ଟ୍ରାକ୍ଟରରେ ଜମି ହଳ କରନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-professions-s09.mp3"
     },
     {
       "highlight": "firefighter",
@@ -238,7 +247,8 @@
         "en": "This is a firefighter.",
         "mr": "हे अग्निशमन दलाचे जवान आहेत.",
         "or": "ଏ ଜଣେ ଅଗ୍ନିଶମ କର୍ମଚାରୀ।"
-      }
+      },
+      "audio": "evs-lkg-professions-s10.mp3"
     },
     {
       "highlight": "fireengine",
@@ -249,7 +259,8 @@
         "en": "The firefighter goes to put out fires in a fire engine.",
         "mr": "ते आगीचा बंब घेऊन आग विझवायला जातात.",
         "or": "ସେ ଦମକଳ ଗାଡ଼ିରେ ନିଆଁ ଲିଭାଇବାକୁ ଯାଆନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-professions-s11.mp3"
     }
   ]
 }

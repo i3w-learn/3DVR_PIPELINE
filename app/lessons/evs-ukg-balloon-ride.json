@@ -55,7 +55,8 @@
         "en": "We are in a hot air balloon. Look down over the edge of the basket.",
         "mr": "आपण गरम हवेच्या फुग्यात आहोत. टोपलीच्या कडेवरून खाली बघा.",
         "or": "ଆମେ ଗରମ ପବନ ବେଲୁନରେ ଅଛୁ। ଟୋକେଇର ଧାରରୁ ତଳକୁ ଦେଖ।"
-      }
+      },
+      "audio": "evs-ukg-balloon-ride-s01.mp3"
     },
     {
       "duration": 9000,
@@ -64,7 +65,8 @@
         "en": "Down below — a river, fields and houses. How tiny they look from up here!",
         "mr": "खाली — नदी, शेतं आणि घरं. इथून ती किती छोटी दिसतात!",
         "or": "ତଳେ — ନଦୀ, କ୍ଷେତ ଆଉ ଘର। ଏଠାରୁ ସେଗୁଡ଼ିକ କେତେ ଛୋଟ ଦିଶୁଛି!"
-      }
+      },
+      "audio": "evs-ukg-balloon-ride-s02.mp3"
     },
     {
       "highlight": "other",
@@ -74,7 +76,8 @@
         "en": "Look — another balloon is flying over there.",
         "mr": "बघा — तिकडे आणखी एक फुगा उडतो आहे.",
         "or": "ଦେଖ — ସେଠି ଆଉ ଗୋଟିଏ ବେଲୁନ ଉଡ଼ୁଛି।"
-      }
+      },
+      "audio": "evs-ukg-balloon-ride-s03.mp3"
     },
     {
       "highlight": "nearcloud",
@@ -84,7 +87,8 @@
         "en": "The clouds are right beside us.",
         "mr": "ढग अगदी आपल्या जवळ आहेत.",
         "or": "ମେଘ ଠିକ ଆମ ପାଖରେ ଅଛି।"
-      }
+      },
+      "audio": "evs-ukg-balloon-ride-s04.mp3"
     },
     {
       "highlight": "sun",
@@ -94,7 +98,8 @@
         "en": "And up above, the sun is shining.",
         "mr": "आणि वर सूर्य चमकतो आहे.",
         "or": "ଆଉ ଉପରେ ସୂର୍ଯ୍ୟ ଚମକୁଛି।"
-      }
+      },
+      "audio": "evs-ukg-balloon-ride-s05.mp3"
     }
   ]
 }

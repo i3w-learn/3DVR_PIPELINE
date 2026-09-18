@@ -99,13 +99,14 @@
   ],
   "steps": [
     {
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "ये पालतू जानवर हैं। ये हमारे साथ, हमारे घर और खेत में रहते हैं।",
         "en": "These are domestic animals. They live with us, at our homes and farms.",
         "mr": "हे पाळीव प्राणी आहेत. ते आपल्यासोबत, आपल्या घरी आणि शेतात राहतात.",
         "or": "ଏମାନେ ଗୃହପାଳିତ ପଶୁ। ସେମାନେ ଆମ ସହ, ଆମ ଘରେ ଓ ଚାଷ ଜମିରେ ରହନ୍ତି।"
-      }
+      },
+      "audio": "eng-nur-domestic-animals-s01.mp3"
     },
     {
       "highlight": "cow",
@@ -115,7 +116,8 @@
         "en": "This is a cow. The cow gives us milk.",
         "mr": "ही गाय आहे. गाय आपल्याला दूध देते.",
         "or": "ଏହା ଏକ ଗାଈ। ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ।"
-      }
+      },
+      "audio": "eng-nur-domestic-animals-s02.mp3"
     },
     {
       "highlight": "buffalo",
@@ -125,7 +127,8 @@
         "en": "This is a buffalo. The buffalo gives us milk too.",
         "mr": "ही म्हैस आहे. म्हैससुद्धा दूध देते.",
         "or": "ଏହା ଏକ ମଇଁଷି। ମଇଁଷି ମଧ୍ୟ କ୍ଷୀର ଦିଏ।"
-      }
+      },
+      "audio": "eng-nur-domestic-animals-s03.mp3"
     },
     {
       "highlight": "horse",
@@ -135,7 +138,8 @@
         "en": "This is a horse. The horse runs fast.",
         "mr": "हा घोडा आहे. घोडा वेगाने धावतो.",
         "or": "ଏହା ଏକ ଘୋଡ଼ା। ଘୋଡ଼ା ଜୋରରେ ଦୌଡ଼େ।"
-      }
+      },
+      "audio": "eng-nur-domestic-animals-s04.mp3"
     },
     {
       "highlight": "goat",
@@ -145,7 +149,8 @@
         "en": "This is a goat.",
         "mr": "ही शेळी आहे.",
         "or": "ଏହା ଏକ ଛେଳି।"
-      }
+      },
+      "audio": "eng-nur-domestic-animals-s05.mp3"
     },
     {
       "highlight": "sheep",
@@ -155,7 +160,8 @@
         "en": "This is a sheep. The sheep gives us wool.",
         "mr": "ही मेंढी आहे. मेंढी आपल्याला लोकर देते.",
         "or": "ଏହା ଏକ ମେଣ୍ଢା। ମେଣ୍ଢା ଆମକୁ ପଶମ ଦିଏ।"
-      }
+      },
+      "audio": "eng-nur-domestic-animals-s06.mp3"
     },
     {
       "highlight": "dog",
@@ -165,7 +171,8 @@
         "en": "This is a dog. The dog guards our home.",
         "mr": "हा कुत्रा आहे. कुत्रा घराची राखण करतो.",
         "or": "ଏହା ଏକ କୁକୁର। କୁକୁର ଘର ଜଗେ।"
-      }
+      },
+      "audio": "eng-nur-domestic-animals-s07.mp3"
     },
     {
       "highlight": "cat",
@@ -175,7 +182,8 @@
         "en": "This is a cat.",
         "mr": "हे मांजर आहे.",
         "or": "ଏହା ଏକ ବିଲେଇ।"
-      }
+      },
+      "audio": "eng-nur-domestic-animals-s08.mp3"
     },
     {
       "highlight": "hen",
@@ -185,7 +193,8 @@
         "en": "And this is a hen. The hen lays eggs.",
         "mr": "आणि ही कोंबडी आहे. कोंबडी अंडी देते.",
         "or": "ଆଉ ଏହା ଏକ କୁକୁଡ଼ା। କୁକୁଡ଼ା ଅଣ୍ଡା ଦିଏ।"
-      }
+      },
+      "audio": "eng-nur-domestic-animals-s09.mp3"
     }
   ]
 }

@@ -101,13 +101,14 @@
   "steps": [
     {
       "highlight": "flag",
-      "duration": 9000,
+      "duration": 10500,
       "script": {
         "hi": "भारत में बहुत तरह के लोग रहते हैं। सबकी अपनी भाषा, अपना पहनावा और अपने त्योहार हैं।",
         "en": "Many kinds of people live in India. Each has their own language, their own dress and their own festivals.",
         "mr": "भारतात खूप प्रकारचे लोक राहतात. प्रत्येकाची स्वतःची भाषा, स्वतःचा पोशाख आणि स्वतःचे सण असतात.",
         "or": "ଭାରତରେ ଅନେକ ପ୍ରକାରର ଲୋକ ରହନ୍ତି। ସମସ୍ତଙ୍କର ନିଜର ଭାଷା, ନିଜର ପୋଷାକ ଆଉ ନିଜର ପର୍ବ ଅଛି।"
-      }
+      },
+      "audio": "evs-ukg-india-culture-s01.mp3"
     },
     {
       "highlight": "namaste",
@@ -117,7 +118,8 @@
         "en": "We join our hands and say namaste.",
         "mr": "आपण हात जोडून नमस्कार करतो.",
         "or": "ଆମେ ହାତ ଯୋଡ଼ି ନମସ୍କାର କରୁ।"
-      }
+      },
+      "audio": "evs-ukg-india-culture-s02.mp3"
     },
     {
       "highlight": "turban",
@@ -127,7 +129,8 @@
         "en": "In many places, people wear a turban on their head.",
         "mr": "खूप ठिकाणी लोक डोक्यावर फेटा बांधतात.",
         "or": "ଅନେକ ଜାଗାରେ ଲୋକେ ମୁଣ୍ଡରେ ପଗଡ଼ି ପିନ୍ଧନ୍ତି।"
-      }
+      },
+      "audio": "evs-ukg-india-culture-s03.mp3"
     },
     {
       "highlight": "saree",
@@ -137,7 +140,8 @@
         "en": "Many women wear a saree.",
         "mr": "खूप स्त्रिया साडी नेसतात.",
         "or": "ଅନେକ ମହିଳା ଶାଢ଼ି ପିନ୍ଧନ୍ତି।"
-      }
+      },
+      "audio": "evs-ukg-india-culture-s04.mp3"
     },
     {
       "highlight": "tabla",
@@ -147,7 +151,8 @@
         "en": "Our music is very old. This is the tabla.",
         "mr": "आपलं संगीत खूप जुनं आहे. हा तबला आहे.",
         "or": "ଆମ ସଙ୍ଗୀତ ବହୁତ ପୁରୁଣା। ଏହା ତବଲା।"
-      }
+      },
+      "audio": "evs-ukg-india-culture-s05.mp3"
     },
     {
       "highlight": "rangoli",
@@ -157,7 +162,8 @@
         "en": "At festivals we draw a rangoli in the courtyard…",
         "mr": "सणाला आपण अंगणात रांगोळी काढतो…",
         "or": "ପର୍ବରେ ଆମେ ଅଗଣାରେ ଝୋଟି ପକାଉ…"
-      }
+      },
+      "audio": "evs-ukg-india-culture-s06.mp3"
     },
     {
       "highlight": "diya",
@@ -167,7 +173,8 @@
         "en": "…and we light diyas.",
         "mr": "…आणि पणत्या लावतो.",
         "or": "…ଆଉ ଦୀପ ଜାଳୁ।"
-      }
+      },
+      "audio": "evs-ukg-india-culture-s07.mp3"
     },
     {
       "highlight": "flag",
@@ -177,7 +184,8 @@
         "en": "We are all different, and still we are one. We are all Indian.",
         "mr": "आपण वेगवेगळे आहोत, तरीही आपण सगळे एक आहोत. आपण सगळे भारतीय आहोत.",
         "or": "ଆମେ ଅଲଗା ଅଲଗା, ତଥାପି ଆମେ ସମସ୍ତେ ଏକ। ଆମେ ସମସ୍ତେ ଭାରତୀୟ।"
-      }
+      },
+      "audio": "evs-ukg-india-culture-s08.mp3"
     }
   ]
 }

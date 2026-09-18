@@ -112,7 +112,8 @@
         "en": "Every animal has its own sound. Look at one, and listen.",
         "mr": "प्रत्येक प्राण्याचा स्वतःचा आवाज असतो. एखाद्याकडे बघा, आणि ऐका.",
         "or": "ପ୍ରତ୍ୟେକ ପଶୁର ନିଜର ଡାକ ଅଛି। ଗୋଟିଏକୁ ଦେଖ, ଆଉ ଶୁଣ।"
-      }
+      },
+      "audio": "eng-nur-animal-sounds-s01.mp3"
     },
     {
       "duration": 9000,
@@ -121,7 +122,8 @@
         "en": "What does the cow say? Find her and see.",
         "mr": "गाय कशी ओरडते? तिला शोधा आणि बघा.",
         "or": "ଗାଈ କେମିତି ଡାକେ? ତାକୁ ଖୋଜ ଆଉ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-animal-sounds-s02.mp3"
     },
     {
       "duration": 9000,
@@ -130,7 +132,8 @@
         "en": "Now find the hen.",
         "mr": "आता कोंबडी शोधा.",
         "or": "ଏବେ କୁକୁଡ଼ାକୁ ଖୋଜ।"
-      }
+      },
+      "audio": "eng-nur-animal-sounds-s03.mp3"
     }
   ]
 }

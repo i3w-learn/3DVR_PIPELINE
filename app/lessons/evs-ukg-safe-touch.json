@@ -129,7 +129,8 @@
         "en": "This is Meena. Meena's body belongs to Meena. Your body belongs to you.",
         "mr": "ही मीना आहे. मीनाचं शरीर मीनाचं स्वतःचं आहे. तुमचं शरीर तुमचं स्वतःचं आहे.",
         "or": "ଏ ହେଉଛି ମୀନା। ମୀନାର ଶରୀର ମୀନାର ନିଜର। ତୁମ ଶରୀର ତୁମର ନିଜର।"
-      }
+      },
+      "audio": "evs-ukg-safe-touch-s01.mp3"
     },
     {
       "highlight": "mother",
@@ -139,13 +140,14 @@
         "father",
         "teacher"
       ],
-      "duration": 10000,
+      "duration": 10500,
       "script": {
         "hi": "कुछ छूना अच्छा लगता है — जैसे माँ का गले लगाना, या सड़क पार करते हुए हाथ पकड़ना। इसे सुरक्षित छूना कहते हैं।",
         "en": "Some touches feel good — like a hug from mother, or holding hands to cross the road. These are safe touches.",
         "mr": "काही स्पर्श छान वाटतात — जसं आईने जवळ घेणं, किंवा रस्ता ओलांडताना हात धरणं. याला सुरक्षित स्पर्श म्हणतात.",
         "or": "କିଛି ଛୁଆଁ ଭଲ ଲାଗେ — ଯେମିତି ମାଆ କୋଳେଇ ନେବା, କିମ୍ବା ରାସ୍ତା ପାର ହେଲାବେଳେ ହାତ ଧରିବା। ଏହାକୁ ନିରାପଦ ଛୁଆଁ କୁହାଯାଏ।"
-      }
+      },
+      "audio": "evs-ukg-safe-touch-s02.mp3"
     },
     {
       "highlight": "meena",
@@ -155,13 +157,14 @@
         "father",
         "teacher"
       ],
-      "duration": 11000,
+      "duration": 13000,
       "script": {
         "hi": "अगर कोई ऐसे छुए कि तुम्हें बुरा लगे, डर लगे, या दर्द हो — वह असुरक्षित छूना है। जो हिस्से कपड़ों से ढके रहते हैं, उन्हें कोई नहीं छू सकता।",
         "en": "If anyone touches you in a way that feels bad, or scary, or that hurts — that is an unsafe touch. Nobody may touch the parts of you that your clothes cover.",
         "mr": "कोणी अशा प्रकारे स्पर्श केला की तुम्हाला वाईट वाटलं, भीती वाटली, किंवा दुखलं — तर तो असुरक्षित स्पर्श आहे. जे भाग कपड्यांनी झाकलेले असतात, त्यांना कोणीही स्पर्श करू शकत नाही.",
         "or": "କେହି ଯଦି ଏମିତି ଛୁଏଁ ଯେ ତୁମକୁ ଖରାପ ଲାଗେ, ଡର ଲାଗେ, କିମ୍ବା କଷ୍ଟ ହୁଏ — ତାହା ଅନିରାପଦ ଛୁଆଁ। ଲୁଗାରେ ଘୋଡ଼ା ରହୁଥିବା ଅଙ୍ଗକୁ କେହି ଛୁଇଁପାରିବେ ନାହିଁ।"
-      }
+      },
+      "audio": "evs-ukg-safe-touch-s03.mp3"
     },
     {
       "highlight": "no",
@@ -177,7 +180,8 @@
         "en": "Then do three things. One — say it loudly: NO!",
         "mr": "तेव्हा तीन गोष्टी करा. पहिली — मोठ्याने म्हणा: नाही!",
         "or": "ସେତେବେଳେ ତିନୋଟି କାମ କର। ପ୍ରଥମ — ଜୋରରେ କୁହ: ନା!"
-      }
+      },
+      "audio": "evs-ukg-safe-touch-s04.mp3"
     },
     {
       "highlight": "go",
@@ -193,7 +197,8 @@
         "en": "Two — go away from there.",
         "mr": "दुसरी — तिथून दूर जा.",
         "or": "ଦ୍ୱିତୀୟ — ସେଠାରୁ ଦୂରକୁ ଚାଲିଯାଅ।"
-      }
+      },
+      "audio": "evs-ukg-safe-touch-s05.mp3"
     },
     {
       "highlight": "tell",
@@ -209,7 +214,8 @@
         "en": "Three — tell a grown-up you trust.",
         "mr": "तिसरी — विश्वासातल्या मोठ्या माणसाला सांगा.",
         "or": "ତୃତୀୟ — ଭରସା କରୁଥିବା ଜଣେ ବଡ଼ଙ୍କୁ କୁହ।"
-      }
+      },
+      "audio": "evs-ukg-safe-touch-s06.mp3"
     },
     {
       "highlight": "teacher",
@@ -225,7 +231,8 @@
         "en": "Who are the grown-ups you trust? Mother, father, or your teacher.",
         "mr": "विश्वासातली मोठी माणसं कोण? आई, बाबा, किंवा तुमच्या ताई.",
         "or": "ଭରସାର ବଡ଼ମାନେ କିଏ? ମାଆ, ବାପା, କିମ୍ବା ତୁମ ଦିଦି।"
-      }
+      },
+      "audio": "evs-ukg-safe-touch-s07.mp3"
     },
     {
       "highlight": "meena",
@@ -241,7 +248,8 @@
         "en": "It is never your fault. And if one person does not listen, tell another — keep telling until someone helps.",
         "mr": "यात तुमची कधीच चूक नसते. आणि एकाने ऐकलं नाही, तर दुसऱ्याला सांगा — कोणी मदत करेपर्यंत सांगत राहा.",
         "or": "ଏଥିରେ କେବେ ବି ତୁମର ଭୁଲ ନୁହେଁ। ଆଉ ଜଣେ ନ ଶୁଣିଲେ ଆଉ ଜଣଙ୍କୁ କୁହ — କେହି ସାହାଯ୍ୟ ନ କରିବା ଯାଏଁ କହି ଚାଲ।"
-      }
+      },
+      "audio": "evs-ukg-safe-touch-s08.mp3"
     }
   ]
 }

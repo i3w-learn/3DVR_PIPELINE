@@ -61,7 +61,8 @@
         "en": "This glass is full.",
         "mr": "हा ग्लास भरलेला आहे.",
         "or": "ଏହି ଗିଲାସ ଭର୍ତ୍ତି।"
-      }
+      },
+      "audio": "math-lkg-full-empty-s01.mp3"
     },
     {
       "show": [
@@ -76,7 +77,8 @@
         "en": "And this glass is empty.",
         "mr": "आणि हा ग्लास रिकामा आहे.",
         "or": "ଆଉ ଏହି ଗିଲାସ ଖାଲି।"
-      }
+      },
+      "audio": "math-lkg-full-empty-s02.mp3"
     },
     {
       "show": [
@@ -90,7 +92,8 @@
         "en": "This bowl is full.",
         "mr": "ही वाटी भरलेली आहे.",
         "or": "ଏହି ବାଟି ଭର୍ତ୍ତି।"
-      }
+      },
+      "audio": "math-lkg-full-empty-s03.mp3"
     },
     {
       "show": [
@@ -105,7 +108,8 @@
         "en": "And this one is empty.",
         "mr": "आणि ही रिकामी आहे.",
         "or": "ଆଉ ଏହା ଖାଲି।"
-      }
+      },
+      "audio": "math-lkg-full-empty-s04.mp3"
     }
   ]
 }

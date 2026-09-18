@@ -11,7 +11,8 @@
         "en": "This is a street, with shops on both sides.",
         "mr": "हा रस्ता आहे, आणि दोन्ही बाजूंना दुकानं आहेत.",
         "or": "ଏହା ଏକ ରାସ୍ତା, ଦୁଇ ପଟେ ଦୋକାନ ଅଛି।"
-      }
+      },
+      "audio": "demo-street-s01.mp3"
     },
     {
       "duration": 8000,
@@ -20,7 +21,8 @@
         "en": "A shop, a clinic, a post office and a bank.",
         "mr": "एक दुकान, एक दवाखाना, एक टपाल कार्यालय आणि एक बँक.",
         "or": "ଗୋଟିଏ ଦୋକାନ, ଗୋଟିଏ ଡାକ୍ତରଖାନା, ଗୋଟିଏ ଡାକଘର ଆଉ ଗୋଟିଏ ବ୍ୟାଙ୍କ।"
-      }
+      },
+      "audio": "demo-street-s02.mp3"
     }
   ]
 }

@@ -105,7 +105,8 @@
         "en": "Look at 7 and 3.",
         "mr": "7 आणि 3 बघा.",
         "or": "7 ଆଉ 3 କୁ ଦେଖ।"
-      }
+      },
+      "audio": "math-ukg-compare-numbers-s01.mp3"
     },
     {
       "show": [
@@ -120,7 +121,8 @@
         "en": "7 is greater than 3.",
         "mr": "7 हा 3 पेक्षा मोठा आहे.",
         "or": "7, 3 ଠାରୁ ବଡ଼।"
-      }
+      },
+      "audio": "math-ukg-compare-numbers-s02.mp3"
     },
     {
       "show": [
@@ -135,7 +137,8 @@
         "en": "Look at 2 and 8.",
         "mr": "2 आणि 8 बघा.",
         "or": "2 ଆଉ 8 କୁ ଦେଖ।"
-      }
+      },
+      "audio": "math-ukg-compare-numbers-s03.mp3"
     },
     {
       "show": [
@@ -150,7 +153,8 @@
         "en": "2 is less than 8.",
         "mr": "2 हा 8 पेक्षा लहान आहे.",
         "or": "2, 8 ଠାରୁ ଛୋଟ।"
-      }
+      },
+      "audio": "math-ukg-compare-numbers-s04.mp3"
     },
     {
       "show": [
@@ -165,7 +169,8 @@
         "en": "Look at 5 and 5.",
         "mr": "5 आणि 5 बघा.",
         "or": "5 ଆଉ 5 କୁ ଦେଖ।"
-      }
+      },
+      "audio": "math-ukg-compare-numbers-s05.mp3"
     },
     {
       "show": [
@@ -180,7 +185,8 @@
         "en": "5 is equal to 5.",
         "mr": "5 आणि 5 समान आहेत.",
         "or": "5 ଆଉ 5 ସମାନ।"
-      }
+      },
+      "audio": "math-ukg-compare-numbers-s06.mp3"
     }
   ]
 }

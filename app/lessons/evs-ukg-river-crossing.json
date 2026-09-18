@@ -47,22 +47,24 @@
   ],
   "steps": [
     {
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "hi": "यह नदी है। नदी में पानी बहता है। हमें नदी के उस पार जाना है।",
         "en": "This is a river. Water flows in the river. We want to get to the other side.",
         "mr": "ही नदी आहे. नदीत पाणी वाहतं. आपल्याला नदीच्या पलीकडे जायचं आहे.",
         "or": "ଏହା ଏକ ନଦୀ। ନଦୀରେ ପାଣି ବହେ। ଆମକୁ ନଦୀର ସେପାରିକୁ ଯିବାର ଅଛି।"
-      }
+      },
+      "audio": "evs-ukg-river-crossing-s01.mp3"
     },
     {
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "hi": "नदी गहरी होती है और पानी तेज़ बहता है। हम कभी भी नदी में अकेले नहीं उतरते।",
         "en": "A river is deep, and the water runs fast. We never, ever step into a river on our own.",
         "mr": "नदी खोल असते आणि पाणी वेगाने वाहतं. आपण कधीही एकटे नदीत उतरत नाही.",
         "or": "ନଦୀ ଗଭୀର, ଆଉ ପାଣି ଜୋରରେ ବହେ। ଆମେ କେବେ ବି ଏକୁଟିଆ ନଦୀକୁ ଓହ୍ଲାଉ ନାହିଁ।"
-      }
+      },
+      "audio": "evs-ukg-river-crossing-s02.mp3"
     },
     {
       "highlight": "bridge",
@@ -72,7 +74,8 @@
         "en": "This is a bridge. Walking over a bridge is the safest way to cross.",
         "mr": "हा पूल आहे. पुलावरून चालत नदी पार करणं सगळ्यात सुरक्षित आहे.",
         "or": "ଏହା ଏକ ପୋଲ। ପୋଲ ଉପରେ ଚାଲି ନଦୀ ପାର ହେବା ସବୁଠାରୁ ନିରାପଦ।"
-      }
+      },
+      "audio": "evs-ukg-river-crossing-s03.mp3"
     },
     {
       "highlight": "boat",
@@ -82,7 +85,8 @@
         "en": "This is a boat. We can cross the river by boat too…",
         "mr": "ही होडी आहे. होडीनेसुद्धा नदी पार करता येते…",
         "or": "ଏହା ଏକ ଡଙ୍ଗା। ଡଙ୍ଗାରେ ମଧ୍ୟ ନଦୀ ପାର ହୋଇହୁଏ…"
-      }
+      },
+      "audio": "evs-ukg-river-crossing-s04.mp3"
     },
     {
       "highlight": "boatman",
@@ -92,7 +96,8 @@
         "en": "…but always with a grown-up, and always doing what the boatman says.",
         "mr": "…पण नेहमी मोठ्या माणसासोबत, आणि नावाड्याचं ऐकून.",
         "or": "…କିନ୍ତୁ ସବୁବେଳେ ଜଣେ ବଡ଼ଙ୍କ ସହ, ଆଉ ନାଉରିଆଙ୍କ କଥା ମାନି।"
-      }
+      },
+      "audio": "evs-ukg-river-crossing-s05.mp3"
     },
     {
       "highlight": "boat",
@@ -102,7 +107,8 @@
         "en": "In a boat we stay sitting down, and we keep our hands out of the water.",
         "mr": "होडीत आपण बसून राहतो, आणि हात पाण्यात घालत नाही.",
         "or": "ଡଙ୍ଗାରେ ଆମେ ବସି ରହୁ, ଆଉ ହାତ ପାଣିରେ ପୂରାଉ ନାହିଁ।"
-      }
+      },
+      "audio": "evs-ukg-river-crossing-s06.mp3"
     }
   ]
 }

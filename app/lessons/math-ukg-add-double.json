@@ -147,7 +147,8 @@
         "en": "10 + 5. Have a think.",
         "mr": "10 + 5. विचार करा.",
         "or": "10 + 5। ଭାବ।"
-      }
+      },
+      "audio": "math-ukg-add-double-s01.mp3"
     },
     {
       "show": [
@@ -165,7 +166,8 @@
         "en": "10 plus 5 is 15.",
         "mr": "10 अधिक 5 म्हणजे 15.",
         "or": "10 ଯୁକ୍ତ 5 ହେଲା 15।"
-      }
+      },
+      "audio": "math-ukg-add-double-s02.mp3"
     },
     {
       "show": [
@@ -179,7 +181,8 @@
         "en": "12 + 6. Have a think.",
         "mr": "12 + 6. विचार करा.",
         "or": "12 + 6। ଭାବ।"
-      }
+      },
+      "audio": "math-ukg-add-double-s03.mp3"
     },
     {
       "show": [
@@ -197,7 +200,8 @@
         "en": "12 plus 6 is 18.",
         "mr": "12 अधिक 6 म्हणजे 18.",
         "or": "12 ଯୁକ୍ତ 6 ହେଲା 18।"
-      }
+      },
+      "audio": "math-ukg-add-double-s04.mp3"
     },
     {
       "show": [
@@ -211,7 +215,8 @@
         "en": "20 + 15. Have a think.",
         "mr": "20 + 15. विचार करा.",
         "or": "20 + 15। ଭାବ।"
-      }
+      },
+      "audio": "math-ukg-add-double-s05.mp3"
     },
     {
       "show": [
@@ -229,7 +234,8 @@
         "en": "20 plus 15 is 35.",
         "mr": "20 अधिक 15 म्हणजे 35.",
         "or": "20 ଯୁକ୍ତ 15 ହେଲା 35।"
-      }
+      },
+      "audio": "math-ukg-add-double-s06.mp3"
     }
   ]
 }

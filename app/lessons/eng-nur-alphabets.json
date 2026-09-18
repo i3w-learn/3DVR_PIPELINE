@@ -801,7 +801,8 @@
         "en": "This is capital A.",
         "mr": "हे मोठं A आहे.",
         "or": "ଏହା ବଡ଼ A।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s01.mp3"
     },
     {
       "show": [
@@ -817,7 +818,8 @@
         "en": "This is small a.",
         "mr": "हे छोटं a आहे.",
         "or": "ଏହା ଛୋଟ a।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s02.mp3"
     },
     {
       "show": [
@@ -833,7 +835,8 @@
         "en": "A for Apple.",
         "mr": "A — Apple, म्हणजे सफरचंद.",
         "or": "A — Apple, ମାନେ ସେଓ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s03.mp3"
     },
     {
       "show": [
@@ -848,7 +851,8 @@
         "en": "This is capital B.",
         "mr": "हे मोठं B आहे.",
         "or": "ଏହା ବଡ଼ B।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s04.mp3"
     },
     {
       "show": [
@@ -864,7 +868,8 @@
         "en": "This is small b.",
         "mr": "हे छोटं b आहे.",
         "or": "ଏହା ଛୋଟ b।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s05.mp3"
     },
     {
       "show": [
@@ -880,7 +885,8 @@
         "en": "B for Banana.",
         "mr": "B — Banana, म्हणजे केळं.",
         "or": "B — Banana, ମାନେ କଦଳୀ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s06.mp3"
     },
     {
       "show": [
@@ -895,7 +901,8 @@
         "en": "This is capital C.",
         "mr": "हे मोठं C आहे.",
         "or": "ଏହା ବଡ଼ C।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s07.mp3"
     },
     {
       "show": [
@@ -911,7 +918,8 @@
         "en": "This is small c.",
         "mr": "हे छोटं c आहे.",
         "or": "ଏହା ଛୋଟ c।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s08.mp3"
     },
     {
       "show": [
@@ -927,7 +935,8 @@
         "en": "C for Cat.",
         "mr": "C — Cat, म्हणजे मांजर.",
         "or": "C — Cat, ମାନେ ବିଲେଇ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s09.mp3"
     },
     {
       "show": [
@@ -942,7 +951,8 @@
         "en": "This is capital D.",
         "mr": "हे मोठं D आहे.",
         "or": "ଏହା ବଡ଼ D।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s10.mp3"
     },
     {
       "show": [
@@ -958,7 +968,8 @@
         "en": "This is small d.",
         "mr": "हे छोटं d आहे.",
         "or": "ଏହା ଛୋଟ d।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s11.mp3"
     },
     {
       "show": [
@@ -974,7 +985,8 @@
         "en": "D for Dog.",
         "mr": "D — Dog, म्हणजे कुत्रा.",
         "or": "D — Dog, ମାନେ କୁକୁର।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s12.mp3"
     },
     {
       "show": [
@@ -989,7 +1001,8 @@
         "en": "This is capital E.",
         "mr": "हे मोठं E आहे.",
         "or": "ଏହା ବଡ଼ E।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s13.mp3"
     },
     {
       "show": [
@@ -1005,7 +1018,8 @@
         "en": "This is small e.",
         "mr": "हे छोटं e आहे.",
         "or": "ଏହା ଛୋଟ e।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s14.mp3"
     },
     {
       "show": [
@@ -1021,7 +1035,8 @@
         "en": "E for Elephant.",
         "mr": "E — Elephant, म्हणजे हत्ती.",
         "or": "E — Elephant, ମାନେ ହାତୀ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s15.mp3"
     },
     {
       "show": [
@@ -1036,7 +1051,8 @@
         "en": "This is capital F.",
         "mr": "हे मोठं F आहे.",
         "or": "ଏହା ବଡ଼ F।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s16.mp3"
     },
     {
       "show": [
@@ -1052,7 +1068,8 @@
         "en": "This is small f.",
         "mr": "हे छोटं f आहे.",
         "or": "ଏହା ଛୋଟ f।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s17.mp3"
     },
     {
       "show": [
@@ -1068,7 +1085,8 @@
         "en": "F for Fish.",
         "mr": "F — Fish, म्हणजे मासा.",
         "or": "F — Fish, ମାନେ ମାଛ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s18.mp3"
     },
     {
       "show": [
@@ -1083,7 +1101,8 @@
         "en": "This is capital G.",
         "mr": "हे मोठं G आहे.",
         "or": "ଏହା ବଡ଼ G।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s19.mp3"
     },
     {
       "show": [
@@ -1099,7 +1118,8 @@
         "en": "This is small g.",
         "mr": "हे छोटं g आहे.",
         "or": "ଏହା ଛୋଟ g।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s20.mp3"
     },
     {
       "show": [
@@ -1115,7 +1135,8 @@
         "en": "G for Goat.",
         "mr": "G — Goat, म्हणजे शेळी.",
         "or": "G — Goat, ମାନେ ଛେଳି।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s21.mp3"
     },
     {
       "show": [
@@ -1130,7 +1151,8 @@
         "en": "This is capital H.",
         "mr": "हे मोठं H आहे.",
         "or": "ଏହା ବଡ଼ H।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s22.mp3"
     },
     {
       "show": [
@@ -1146,7 +1168,8 @@
         "en": "This is small h.",
         "mr": "हे छोटं h आहे.",
         "or": "ଏହା ଛୋଟ h।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s23.mp3"
     },
     {
       "show": [
@@ -1162,7 +1185,8 @@
         "en": "H for Hen.",
         "mr": "H — Hen, म्हणजे कोंबडी.",
         "or": "H — Hen, ମାନେ କୁକୁଡ଼ା।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s24.mp3"
     },
     {
       "show": [
@@ -1177,7 +1201,8 @@
         "en": "This is capital I.",
         "mr": "हे मोठं I आहे.",
         "or": "ଏହା ବଡ଼ I।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s25.mp3"
     },
     {
       "show": [
@@ -1193,7 +1218,8 @@
         "en": "This is small i.",
         "mr": "हे छोटं i आहे.",
         "or": "ଏହା ଛୋଟ i।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s26.mp3"
     },
     {
       "show": [
@@ -1209,7 +1235,8 @@
         "en": "I for Ice cream.",
         "mr": "I — Ice cream, म्हणजे आईस्क्रीम.",
         "or": "I — Ice cream, ମାନେ ଆଇସକ୍ରିମ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s27.mp3"
     },
     {
       "show": [
@@ -1224,7 +1251,8 @@
         "en": "This is capital J.",
         "mr": "हे मोठं J आहे.",
         "or": "ଏହା ବଡ଼ J।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s28.mp3"
     },
     {
       "show": [
@@ -1240,7 +1268,8 @@
         "en": "This is small j.",
         "mr": "हे छोटं j आहे.",
         "or": "ଏହା ଛୋଟ j।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s29.mp3"
     },
     {
       "show": [
@@ -1256,7 +1285,8 @@
         "en": "J for Jeep.",
         "mr": "J — Jeep, म्हणजे जीप.",
         "or": "J — Jeep, ମାନେ ଜିପ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s30.mp3"
     },
     {
       "show": [
@@ -1271,7 +1301,8 @@
         "en": "This is capital K.",
         "mr": "हे मोठं K आहे.",
         "or": "ଏହା ବଡ଼ K।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s31.mp3"
     },
     {
       "show": [
@@ -1287,7 +1318,8 @@
         "en": "This is small k.",
         "mr": "हे छोटं k आहे.",
         "or": "ଏହା ଛୋଟ k।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s32.mp3"
     },
     {
       "show": [
@@ -1303,7 +1335,8 @@
         "en": "K for Kite.",
         "mr": "K — Kite, म्हणजे पतंग.",
         "or": "K — Kite, ମାନେ ଗୁଡ଼ି।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s33.mp3"
     },
     {
       "show": [
@@ -1318,7 +1351,8 @@
         "en": "This is capital L.",
         "mr": "हे मोठं L आहे.",
         "or": "ଏହା ବଡ଼ L।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s34.mp3"
     },
     {
       "show": [
@@ -1334,7 +1368,8 @@
         "en": "This is small l.",
         "mr": "हे छोटं l आहे.",
         "or": "ଏହା ଛୋଟ l।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s35.mp3"
     },
     {
       "show": [
@@ -1350,7 +1385,8 @@
         "en": "L for Lion.",
         "mr": "L — Lion, म्हणजे सिंह.",
         "or": "L — Lion, ମାନେ ସିଂହ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s36.mp3"
     },
     {
       "show": [
@@ -1365,7 +1401,8 @@
         "en": "This is capital M.",
         "mr": "हे मोठं M आहे.",
         "or": "ଏହା ବଡ଼ M।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s37.mp3"
     },
     {
       "show": [
@@ -1381,7 +1418,8 @@
         "en": "This is small m.",
         "mr": "हे छोटं m आहे.",
         "or": "ଏହା ଛୋଟ m।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s38.mp3"
     },
     {
       "show": [
@@ -1397,7 +1435,8 @@
         "en": "M for Monkey.",
         "mr": "M — Monkey, म्हणजे माकड.",
         "or": "M — Monkey, ମାନେ ମାଙ୍କଡ଼।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s39.mp3"
     },
     {
       "show": [
@@ -1412,7 +1451,8 @@
         "en": "This is capital N.",
         "mr": "हे मोठं N आहे.",
         "or": "ଏହା ବଡ଼ N।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s40.mp3"
     },
     {
       "show": [
@@ -1428,7 +1468,8 @@
         "en": "This is small n.",
         "mr": "हे छोटं n आहे.",
         "or": "ଏହା ଛୋଟ n।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s41.mp3"
     },
     {
       "show": [
@@ -1444,7 +1485,8 @@
         "en": "N for Nest.",
         "mr": "N — Nest, म्हणजे घरटं.",
         "or": "N — Nest, ମାନେ ବସା।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s42.mp3"
     },
     {
       "show": [
@@ -1459,7 +1501,8 @@
         "en": "This is capital O.",
         "mr": "हे मोठं O आहे.",
         "or": "ଏହା ବଡ଼ O।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s43.mp3"
     },
     {
       "show": [
@@ -1475,7 +1518,8 @@
         "en": "This is small o.",
         "mr": "हे छोटं o आहे.",
         "or": "ଏହା ଛୋଟ o।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s44.mp3"
     },
     {
       "show": [
@@ -1491,7 +1535,8 @@
         "en": "O for Orange.",
         "mr": "O — Orange, म्हणजे संत्रं.",
         "or": "O — Orange, ମାନେ କମଳା।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s45.mp3"
     },
     {
       "show": [
@@ -1506,7 +1551,8 @@
         "en": "This is capital P.",
         "mr": "हे मोठं P आहे.",
         "or": "ଏହା ବଡ଼ P।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s46.mp3"
     },
     {
       "show": [
@@ -1522,7 +1568,8 @@
         "en": "This is small p.",
         "mr": "हे छोटं p आहे.",
         "or": "ଏହା ଛୋଟ p।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s47.mp3"
     },
     {
       "show": [
@@ -1538,7 +1585,8 @@
         "en": "P for Parrot.",
         "mr": "P — Parrot, म्हणजे पोपट.",
         "or": "P — Parrot, ମାନେ ଶୁଆ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s48.mp3"
     },
     {
       "show": [
@@ -1553,7 +1601,8 @@
         "en": "This is capital Q.",
         "mr": "हे मोठं Q आहे.",
         "or": "ଏହା ବଡ଼ Q।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s49.mp3"
     },
     {
       "show": [
@@ -1569,7 +1618,8 @@
         "en": "This is small q.",
         "mr": "हे छोटं q आहे.",
         "or": "ଏହା ଛୋଟ q।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s50.mp3"
     },
     {
       "show": [
@@ -1585,7 +1635,8 @@
         "en": "Q for Queen.",
         "mr": "Q — Queen, म्हणजे राणी.",
         "or": "Q — Queen, ମାନେ ରାଣୀ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s51.mp3"
     },
     {
       "show": [
@@ -1600,7 +1651,8 @@
         "en": "This is capital R.",
         "mr": "हे मोठं R आहे.",
         "or": "ଏହା ବଡ଼ R।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s52.mp3"
     },
     {
       "show": [
@@ -1616,7 +1668,8 @@
         "en": "This is small r.",
         "mr": "हे छोटं r आहे.",
         "or": "ଏହା ଛୋଟ r।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s53.mp3"
     },
     {
       "show": [
@@ -1632,7 +1685,8 @@
         "en": "R for Rocket.",
         "mr": "R — Rocket, म्हणजे रॉकेट.",
         "or": "R — Rocket, ମାନେ ରକେଟ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s54.mp3"
     },
     {
       "show": [
@@ -1647,7 +1701,8 @@
         "en": "This is capital S.",
         "mr": "हे मोठं S आहे.",
         "or": "ଏହା ବଡ଼ S।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s55.mp3"
     },
     {
       "show": [
@@ -1663,7 +1718,8 @@
         "en": "This is small s.",
         "mr": "हे छोटं s आहे.",
         "or": "ଏହା ଛୋଟ s।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s56.mp3"
     },
     {
       "show": [
@@ -1679,7 +1735,8 @@
         "en": "S for Sun.",
         "mr": "S — Sun, म्हणजे सूर्य.",
         "or": "S — Sun, ମାନେ ସୂର୍ଯ୍ୟ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s57.mp3"
     },
     {
       "show": [
@@ -1694,7 +1751,8 @@
         "en": "This is capital T.",
         "mr": "हे मोठं T आहे.",
         "or": "ଏହା ବଡ଼ T।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s58.mp3"
     },
     {
       "show": [
@@ -1710,7 +1768,8 @@
         "en": "This is small t.",
         "mr": "हे छोटं t आहे.",
         "or": "ଏହା ଛୋଟ t।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s59.mp3"
     },
     {
       "show": [
@@ -1726,7 +1785,8 @@
         "en": "T for Tiger.",
         "mr": "T — Tiger, म्हणजे वाघ.",
         "or": "T — Tiger, ମାନେ ବାଘ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s60.mp3"
     },
     {
       "show": [
@@ -1741,7 +1801,8 @@
         "en": "This is capital U.",
         "mr": "हे मोठं U आहे.",
         "or": "ଏହା ବଡ଼ U।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s61.mp3"
     },
     {
       "show": [
@@ -1757,7 +1818,8 @@
         "en": "This is small u.",
         "mr": "हे छोटं u आहे.",
         "or": "ଏହା ଛୋଟ u।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s62.mp3"
     },
     {
       "show": [
@@ -1773,7 +1835,8 @@
         "en": "U for Umbrella.",
         "mr": "U — Umbrella, म्हणजे छत्री.",
         "or": "U — Umbrella, ମାନେ ଛତା।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s63.mp3"
     },
     {
       "show": [
@@ -1788,7 +1851,8 @@
         "en": "This is capital V.",
         "mr": "हे मोठं V आहे.",
         "or": "ଏହା ବଡ଼ V।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s64.mp3"
     },
     {
       "show": [
@@ -1804,7 +1868,8 @@
         "en": "This is small v.",
         "mr": "हे छोटं v आहे.",
         "or": "ଏହା ଛୋଟ v।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s65.mp3"
     },
     {
       "show": [
@@ -1820,7 +1885,8 @@
         "en": "V for Violin.",
         "mr": "V — Violin, म्हणजे व्हायोलिन.",
         "or": "V — Violin, ମାନେ ଭାୟୋଲିନ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s66.mp3"
     },
     {
       "show": [
@@ -1835,7 +1901,8 @@
         "en": "This is capital W.",
         "mr": "हे मोठं W आहे.",
         "or": "ଏହା ବଡ଼ W।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s67.mp3"
     },
     {
       "show": [
@@ -1851,7 +1918,8 @@
         "en": "This is small w.",
         "mr": "हे छोटं w आहे.",
         "or": "ଏହା ଛୋଟ w।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s68.mp3"
     },
     {
       "show": [
@@ -1867,7 +1935,8 @@
         "en": "W for Watermelon.",
         "mr": "W — Watermelon, म्हणजे कलिंगड.",
         "or": "W — Watermelon, ମାନେ ତରଭୁଜ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s69.mp3"
     },
     {
       "show": [
@@ -1882,7 +1951,8 @@
         "en": "This is capital X.",
         "mr": "हे मोठं X आहे.",
         "or": "ଏହା ବଡ଼ X।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s70.mp3"
     },
     {
       "show": [
@@ -1898,7 +1968,8 @@
         "en": "This is small x.",
         "mr": "हे छोटं x आहे.",
         "or": "ଏହା ଛୋଟ x।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s71.mp3"
     },
     {
       "show": [
@@ -1914,7 +1985,8 @@
         "en": "X for Xylophone.",
         "mr": "X — Xylophone, म्हणजे झायलोफोन.",
         "or": "X — Xylophone, ମାନେ ଜାଇଲୋଫୋନ।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s72.mp3"
     },
     {
       "show": [
@@ -1929,7 +2001,8 @@
         "en": "This is capital Y.",
         "mr": "हे मोठं Y आहे.",
         "or": "ଏହା ବଡ଼ Y।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s73.mp3"
     },
     {
       "show": [
@@ -1945,7 +2018,8 @@
         "en": "This is small y.",
         "mr": "हे छोटं y आहे.",
         "or": "ଏହା ଛୋଟ y।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s74.mp3"
     },
     {
       "show": [
@@ -1961,7 +2035,8 @@
         "en": "Y for Yarn.",
         "mr": "Y — Yarn, म्हणजे लोकरीचा गोळा.",
         "or": "Y — Yarn, ମାନେ ଉଲ ଗୋଲା।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s75.mp3"
     },
     {
       "show": [
@@ -1976,7 +2051,8 @@
         "en": "This is capital Z.",
         "mr": "हे मोठं Z आहे.",
         "or": "ଏହା ବଡ଼ Z।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s76.mp3"
     },
     {
       "show": [
@@ -1992,7 +2068,8 @@
         "en": "This is small z.",
         "mr": "हे छोटं z आहे.",
         "or": "ଏହା ଛୋଟ z।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s77.mp3"
     },
     {
       "show": [
@@ -2008,7 +2085,8 @@
         "en": "Z for Zebra.",
         "mr": "Z — Zebra, म्हणजे झेब्रा.",
         "or": "Z — Zebra, ମାନେ ଜେବ୍ରା।"
-      }
+      },
+      "audio": "eng-nur-alphabets-s78.mp3"
     }
   ]
 }

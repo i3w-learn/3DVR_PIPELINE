@@ -43,7 +43,8 @@
         "en": "This apple is IN the pot.",
         "mr": "हे सफरचंद भांड्याच्या आत आहे.",
         "or": "ଏହି ସେଓ ହାଣ୍ଡି ଭିତରେ ଅଛି।"
-      }
+      },
+      "audio": "math-nur-in-out-s01.mp3"
     },
     {
       "highlight": "outside",
@@ -54,7 +55,8 @@
         "en": "This apple is OUT.",
         "mr": "हे सफरचंद बाहेर आहे.",
         "or": "ଏହି ସେଓ ବାହାରେ ଅଛି।"
-      }
+      },
+      "audio": "math-nur-in-out-s02.mp3"
     }
   ]
 }

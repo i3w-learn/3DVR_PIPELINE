@@ -79,17 +79,19 @@
         "en": "Every wild animal has something special. Let us look.",
         "mr": "प्रत्येक जंगली प्राण्यात काहीतरी खास असतं. चला बघूया.",
         "or": "ପ୍ରତ୍ୟେକ ବଣୁଆ ପଶୁଙ୍କର କିଛି ନା କିଛି ଖାସ କଥା ଥାଏ। ଆସ ଦେଖିବା।"
-      }
+      },
+      "audio": "eng-nur-wild-animal-traits-s01.mp3"
     },
     {
       "highlight": "giraffe",
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "जिराफ़ की गर्दन बहुत लंबी है। वह ऊँचे पेड़ों के पत्ते खाता है।",
         "en": "The giraffe has a very long neck. It eats leaves from the tallest trees.",
         "mr": "जिराफाची मान खूप लांब असते. तो उंच झाडांची पानं खातो.",
         "or": "ଜିରାଫର ବେକ ବହୁତ ଲମ୍ବା। ସେ ଉଚ୍ଚ ଗଛର ପତ୍ର ଖାଏ।"
-      }
+      },
+      "audio": "eng-nur-wild-animal-traits-s02.mp3"
     },
     {
       "highlight": "elephant",
@@ -99,7 +101,8 @@
         "en": "The elephant has a long trunk. It drinks water with its trunk.",
         "mr": "हत्तीला लांब सोंड असते. सोंडेने तो पाणी पितो.",
         "or": "ହାତୀର ଲମ୍ବା ଶୁଣ୍ଢ ଥାଏ। ଶୁଣ୍ଢରେ ସେ ପାଣି ପିଏ।"
-      }
+      },
+      "audio": "eng-nur-wild-animal-traits-s03.mp3"
     },
     {
       "highlight": "zebra",
@@ -109,7 +112,8 @@
         "en": "The zebra has black and white stripes.",
         "mr": "झेब्र्याच्या अंगावर काळे-पांढरे पट्टे असतात.",
         "or": "ଜେବ୍ରାର ଦେହରେ କଳା ଧଳା ପଟା ଥାଏ।"
-      }
+      },
+      "audio": "eng-nur-wild-animal-traits-s04.mp3"
     },
     {
       "highlight": "lion",
@@ -119,7 +123,8 @@
         "en": "The lion has thick hair round its neck. It is called a mane.",
         "mr": "सिंहाच्या मानेभोवती दाट केस असतात. त्याला आयाळ म्हणतात.",
         "or": "ସିଂହର ବେକ ଚାରିପଟେ ଘନ କେଶ ଥାଏ। ତାକୁ କେଶର କୁହାଯାଏ।"
-      }
+      },
+      "audio": "eng-nur-wild-animal-traits-s05.mp3"
     },
     {
       "highlight": "rhino",
@@ -129,7 +134,8 @@
         "en": "The rhinoceros has a horn on its nose.",
         "mr": "गेंड्याच्या नाकावर शिंग असतं.",
         "or": "ଗଣ୍ଡାର ନାକ ଉପରେ ଶିଙ୍ଗ ଥାଏ।"
-      }
+      },
+      "audio": "eng-nur-wild-animal-traits-s06.mp3"
     },
     {
       "highlight": "kangaroo",
@@ -139,7 +145,8 @@
         "en": "The kangaroo carries its baby in a pouch.",
         "mr": "कांगारू आपल्या पिल्लाला पोटाच्या पिशवीत ठेवतो.",
         "or": "କଙ୍ଗାରୁ ନିଜ ଛୁଆକୁ ପେଟର ଥଳିରେ ରଖେ।"
-      }
+      },
+      "audio": "eng-nur-wild-animal-traits-s07.mp3"
     }
   ]
 }

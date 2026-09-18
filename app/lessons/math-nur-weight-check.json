@@ -76,7 +76,8 @@
         "en": "Which one is heavier? Touch it.",
         "mr": "कोणता जास्त जड आहे? त्याला स्पर्श करा.",
         "or": "କେଉଁଟି ଅଧିକ ଓଜନିଆ? ତାକୁ ଛୁଅଁ।"
-      }
+      },
+      "audio": "math-nur-weight-check-s01.mp3"
     },
     {
       "show": [
@@ -91,7 +92,8 @@
         "en": "Now, which one is lighter? Touch it.",
         "mr": "आता, कोणता जास्त हलका आहे? त्याला स्पर्श करा.",
         "or": "ଏବେ, କେଉଁଟି ଅଧିକ ହାଲୁକା? ତାକୁ ଛୁଅଁ।"
-      }
+      },
+      "audio": "math-nur-weight-check-s02.mp3"
     }
   ]
 }

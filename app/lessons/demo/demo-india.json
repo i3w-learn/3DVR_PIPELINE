@@ -18,7 +18,8 @@
         "en": "This is our national flag — the Tiranga.",
         "mr": "हा आपला राष्ट्रध्वज आहे — तिरंगा.",
         "or": "ଏହା ଆମର ଜାତୀୟ ପତାକା — ତ୍ରିରଙ୍ଗା।"
-      }
+      },
+      "audio": "demo-india-flag.mp3"
     }
   ],
   "steps": [
@@ -29,7 +30,8 @@
         "en": "This is our courtyard. In the middle is the wheel from our flag.",
         "mr": "हे आपलं प्रांगण आहे. मध्यभागी आपल्या ध्वजावरचं चक्र आहे.",
         "or": "ଏହା ଆମ ପ୍ରାଙ୍ଗଣ। ମଝିରେ ଆମ ପତାକାର ଚକ୍ର ଅଛି।"
-      }
+      },
+      "audio": "demo-india-s01.mp3"
     },
     {
       "duration": 8000,
@@ -38,7 +40,8 @@
         "en": "Our national symbols will stand on these plinths.",
         "mr": "या चौथऱ्यांवर आपली राष्ट्रीय प्रतीकं ठेवली जातील.",
         "or": "ଏହି ଚଉତରା ଉପରେ ଆମର ଜାତୀୟ ପ୍ରତୀକ ରଖାଯିବ।"
-      }
+      },
+      "audio": "demo-india-s02.mp3"
     }
   ]
 }

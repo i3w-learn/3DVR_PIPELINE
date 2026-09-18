@@ -93,7 +93,8 @@
         "en": "This is a house. A house has many parts.",
         "mr": "हे घर आहे. घराचे खूप भाग असतात.",
         "or": "ଏହା ଏକ ଘର। ଘରର ଅନେକ ଅଂଶ ଥାଏ।"
-      }
+      },
+      "audio": "evs-lkg-house-parts-s01.mp3"
     },
     {
       "highlight": "walls",
@@ -103,7 +104,8 @@
         "en": "These are the walls. They hold the house up.",
         "mr": "या भिंती आहेत. त्या घराला आधार देतात.",
         "or": "ଏଗୁଡ଼ିକ କାନ୍ଥ। ସେଗୁଡ଼ିକ ଘରକୁ ଧରି ରଖେ।"
-      }
+      },
+      "audio": "evs-lkg-house-parts-s02.mp3"
     },
     {
       "highlight": "roof",
@@ -113,7 +115,8 @@
         "en": "This is the roof. It keeps off the sun and the rain.",
         "mr": "हे छप्पर आहे. ते ऊन आणि पावसापासून वाचवतं.",
         "or": "ଏହା ଛାତ। ଏହା ଖରା ଓ ବର୍ଷାରୁ ରକ୍ଷା କରେ।"
-      }
+      },
+      "audio": "evs-lkg-house-parts-s03.mp3"
     },
     {
       "highlight": "door",
@@ -123,7 +126,8 @@
         "en": "This is the door. We go in through it.",
         "mr": "हा दरवाजा आहे. यातून आपण आत जातो.",
         "or": "ଏହା କବାଟ। ଏହା ଦେଇ ଆମେ ଭିତରକୁ ଯାଉ।"
-      }
+      },
+      "audio": "evs-lkg-house-parts-s04.mp3"
     },
     {
       "highlight": "window",
@@ -133,7 +137,8 @@
         "en": "This is the window. It lets in air and light.",
         "mr": "ही खिडकी आहे. यातून हवा आणि उजेड आत येतो.",
         "or": "ଏହା ଝରକା। ଏହା ଦେଇ ପବନ ଓ ଆଲୁଅ ଭିତରକୁ ଆସେ।"
-      }
+      },
+      "audio": "evs-lkg-house-parts-s05.mp3"
     },
     {
       "highlight": "steps",
@@ -143,7 +148,8 @@
         "en": "And these are the steps.",
         "mr": "आणि या पायऱ्या आहेत.",
         "or": "ଆଉ ଏଗୁଡ଼ିକ ପାହାଚ।"
-      }
+      },
+      "audio": "evs-lkg-house-parts-s06.mp3"
     }
   ]
 }

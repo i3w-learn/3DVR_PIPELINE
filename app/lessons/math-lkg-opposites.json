@@ -117,7 +117,8 @@
         "en": "This is big.",
         "mr": "हे मोठं आहे.",
         "or": "ଏହା ବଡ଼।"
-      }
+      },
+      "audio": "math-lkg-opposites-s01.mp3"
     },
     {
       "show": [
@@ -132,7 +133,8 @@
         "en": "And this is small — the opposite of big.",
         "mr": "आणि हे छोटं — मोठ्याच्या उलट.",
         "or": "ଆଉ ଏହା ଛୋଟ — ବଡ଼ର ଓଲଟା।"
-      }
+      },
+      "audio": "math-lkg-opposites-s02.mp3"
     },
     {
       "show": [
@@ -146,7 +148,8 @@
         "en": "This is long.",
         "mr": "हे लांब आहे.",
         "or": "ଏହା ଲମ୍ବା।"
-      }
+      },
+      "audio": "math-lkg-opposites-s03.mp3"
     },
     {
       "show": [
@@ -161,7 +164,8 @@
         "en": "And this is short — the opposite of long.",
         "mr": "आणि हे आखूड — लांबच्या उलट.",
         "or": "ଆଉ ଏହା ଛୋଟ — ଲମ୍ବାର ଓଲଟା।"
-      }
+      },
+      "audio": "math-lkg-opposites-s04.mp3"
     },
     {
       "show": [
@@ -175,7 +179,8 @@
         "en": "This is full.",
         "mr": "हे भरलेलं आहे.",
         "or": "ଏହା ଭର୍ତ୍ତି।"
-      }
+      },
+      "audio": "math-lkg-opposites-s05.mp3"
     },
     {
       "show": [
@@ -190,7 +195,8 @@
         "en": "And this is empty — the opposite of full.",
         "mr": "आणि हे रिकामं — भरलेल्याच्या उलट.",
         "or": "ଆଉ ଏହା ଖାଲି — ଭର୍ତ୍ତିର ଓଲଟା।"
-      }
+      },
+      "audio": "math-lkg-opposites-s06.mp3"
     },
     {
       "show": [
@@ -204,7 +210,8 @@
         "en": "This is hot.",
         "mr": "हे गरम आहे.",
         "or": "ଏହା ଗରମ।"
-      }
+      },
+      "audio": "math-lkg-opposites-s07.mp3"
     },
     {
       "show": [
@@ -219,7 +226,8 @@
         "en": "And this is cold — the opposite of hot.",
         "mr": "आणि हे थंड — गरमच्या उलट.",
         "or": "ଆଉ ଏହା ଥଣ୍ଡା — ଗରମର ଓଲଟା।"
-      }
+      },
+      "audio": "math-lkg-opposites-s08.mp3"
     }
   ]
 }

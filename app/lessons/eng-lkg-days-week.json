@@ -91,13 +91,14 @@
   "steps": [
     {
       "at": "mon",
-      "duration": 5500,
+      "duration": 7000,
       "script": {
         "hi": "हफ़्ते में सात दिन होते हैं। पहला दिन सोमवार।",
         "en": "There are seven days in a week. The first is Monday.",
         "mr": "आठवड्यात सात दिवस असतात. पहिला सोमवार.",
         "or": "ସପ୍ତାହରେ ସାତ ଦିନ ଥାଏ। ପ୍ରଥମ ଦିନ ସୋମବାର।"
-      }
+      },
+      "audio": "eng-lkg-days-week-s01.mp3"
     },
     {
       "at": "tue",
@@ -107,7 +108,8 @@
         "en": "After Monday comes Tuesday.",
         "mr": "सोमवारनंतर मंगळवार येतो.",
         "or": "ସୋମବାର ପରେ ମଙ୍ଗଳବାର ଆସେ।"
-      }
+      },
+      "audio": "eng-lkg-days-week-s02.mp3"
     },
     {
       "at": "wed",
@@ -117,7 +119,8 @@
         "en": "After Tuesday comes Wednesday.",
         "mr": "मंगळवारनंतर बुधवार येतो.",
         "or": "ମଙ୍ଗଳବାର ପରେ ବୁଧବାର ଆସେ।"
-      }
+      },
+      "audio": "eng-lkg-days-week-s03.mp3"
     },
     {
       "at": "thu",
@@ -127,7 +130,8 @@
         "en": "After Wednesday comes Thursday.",
         "mr": "बुधवारनंतर गुरुवार येतो.",
         "or": "ବୁଧବାର ପରେ ଗୁରୁବାର ଆସେ।"
-      }
+      },
+      "audio": "eng-lkg-days-week-s04.mp3"
     },
     {
       "at": "fri",
@@ -137,7 +141,8 @@
         "en": "After Thursday comes Friday.",
         "mr": "गुरुवारनंतर शुक्रवार येतो.",
         "or": "ଗୁରୁବାର ପରେ ଶୁକ୍ରବାର ଆସେ।"
-      }
+      },
+      "audio": "eng-lkg-days-week-s05.mp3"
     },
     {
       "at": "sat",
@@ -147,7 +152,8 @@
         "en": "After Friday comes Saturday.",
         "mr": "शुक्रवारनंतर शनिवार येतो.",
         "or": "ଶୁକ୍ରବାର ପରେ ଶନିବାର ଆସେ।"
-      }
+      },
+      "audio": "eng-lkg-days-week-s06.mp3"
     },
     {
       "at": "sun",
@@ -157,7 +163,8 @@
         "en": "After Saturday comes Sunday.",
         "mr": "शनिवारनंतर रविवार येतो.",
         "or": "ଶନିବାର ପରେ ରବିବାର ଆସେ।"
-      }
+      },
+      "audio": "eng-lkg-days-week-s07.mp3"
     },
     {
       "at": "sun",
@@ -167,7 +174,8 @@
         "en": "Monday to Sunday — that is the whole week.",
         "mr": "सोमवार ते रविवार — हा झाला पूर्ण आठवडा.",
         "or": "ସୋମବାରରୁ ରବିବାର — ଏହା ହେଲା ପୂରା ସପ୍ତାହ।"
-      }
+      },
+      "audio": "eng-lkg-days-week-s08.mp3"
     }
   ]
 }

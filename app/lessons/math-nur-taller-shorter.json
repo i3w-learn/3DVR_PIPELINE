@@ -53,7 +53,8 @@
         "en": "This tree is tall.",
         "mr": "हे झाड उंच आहे.",
         "or": "ଏହି ଗଛ ଡେଙ୍ଗା।"
-      }
+      },
+      "audio": "math-nur-taller-shorter-s01.mp3"
     },
     {
       "show": [
@@ -68,7 +69,8 @@
         "en": "And this tree is short.",
         "mr": "आणि हे झाड ठेंगणं आहे.",
         "or": "ଆଉ ଏହି ଗଛ ଗେଡ଼ା।"
-      }
+      },
+      "audio": "math-nur-taller-shorter-s02.mp3"
     },
     {
       "show": [
@@ -81,7 +83,8 @@
         "en": "Now look at these. Which one is taller?",
         "mr": "आता हे बघा. यांपैकी जास्त उंच कोणतं?",
         "or": "ଏବେ ଏଗୁଡ଼ିକୁ ଦେଖ। କେଉଁଟି ଅଧିକ ଡେଙ୍ଗା?"
-      }
+      },
+      "audio": "math-nur-taller-shorter-s03.mp3"
     },
     {
       "show": [
@@ -96,7 +99,8 @@
         "en": "This one is taller. This one is shorter.",
         "mr": "हे जास्त उंच आहे. हे जास्त ठेंगणं आहे.",
         "or": "ଏହା ଅଧିକ ଡେଙ୍ଗା। ଏହା ଅଧିକ ଗେଡ଼ା।"
-      }
+      },
+      "audio": "math-nur-taller-shorter-s04.mp3"
     }
   ]
 }
