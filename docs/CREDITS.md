@@ -34,6 +34,7 @@ Their authors must be credited wherever this application is distributed.
 
 No attribution is required for these. They are listed for the record.
 
+- Kenney — Food Kit 2.0
 - Kenney — Nature Kit 2.1
 - Openverse — "Cow - Moo 5 - 96kHz.wav" by JarredGibb
 - Openverse — "Elephant Trumpets Growls.flac" by D.jones
