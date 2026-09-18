@@ -217,6 +217,7 @@ function cardWidth(char, height) {
 function msdfGlyph(char, height, ink, script) {
   const el = document.createElement('a-entity');
   const glyphs = [...char].filter((c) => !COMBINING.test(c)).length || 1;
+  const wrap = glyphs === 1 ? 1.35 : glyphs * 1.5 + 1;
 
   el.setAttribute('text', {
     value: char,
@@ -230,10 +231,14 @@ function msdfGlyph(char, height, ink, script) {
     // the old one-size formula let the letters grow with the length of the
     // word until "Strawberry" stood taller than the card behind it. Words get
     // a size that leaves room for ascenders and descenders.
-    width: glyphs === 1 ? height * 0.85 : height * 0.46 * (glyphs + 0.35),
-    // A shade over the character count, so a glyph has a little air around it
-    // rather than touching the edge of its own block.
-    wrapCount: glyphs + 0.35,
+    width: glyphs === 1 ? height * 0.85 : height * 0.46 * wrap,
+    // For one letter, a shade over the count, so it has a little air round it.
+    // For a word, half as many again: `wrapCount` is measured in AVERAGE
+    // characters, and a word of wide ones — "Snowman", all m and w — overran a
+    // block sized for seven average letters and wrapped its last letter onto
+    // a second line, where it could not be seen. The size is unchanged; the
+    // block is simply wide enough that nothing ever wraps.
+    wrapCount: wrap,
     // MSDF atlases carry their own coverage; A-Frame's default alpha test
     // clips the thin parts of Devanagari strokes.
     alphaTest: 0.2,

@@ -1,0 +1,90 @@
+{
+  "id": "evs-ukg-balloon-ride",
+  "template": "identify",
+  "stage": "sky",
+  "objects": [
+    {
+      "id": "other",
+      "build": "balloon",
+      "params": {
+        "radius": 4.2,
+        "basket": 1.6,
+        "envelope": "#2f6fb8",
+        "stripe": "#f4ead6"
+      },
+      "position": "-17.000 -6.000 -30.000",
+      "name": {
+        "en": "Balloon",
+        "hi": "गुब्बारा"
+      },
+      "ring": 5
+    },
+    {
+      "id": "nearcloud",
+      "build": "cloud",
+      "params": {
+        "width": 9,
+        "puffs": 7,
+        "seed": 14
+      },
+      "position": "13.000 1.500 -22.000",
+      "name": {
+        "en": "Cloud",
+        "hi": "बादल"
+      },
+      "ring": 5
+    },
+    {
+      "id": "sun",
+      "build": "sundisc",
+      "params": {
+        "radius": 5
+      },
+      "position": "48.000 38.000 -90.000",
+      "name": {
+        "en": "Sun",
+        "hi": "सूरज"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "हम गरम हवा के गुब्बारे में हैं। टोकरी के किनारे से नीचे देखो।",
+        "en": "We are in a hot air balloon. Look down over the edge of the basket."
+      }
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "नीचे नदी, खेत और घर कितने छोटे दिख रहे हैं!",
+        "en": "Down below — a river, fields and houses. How tiny they look from up here!"
+      }
+    },
+    {
+      "highlight": "other",
+      "duration": 8000,
+      "script": {
+        "hi": "वह देखो, एक और गुब्बारा उड़ रहा है।",
+        "en": "Look — another balloon is flying over there."
+      }
+    },
+    {
+      "highlight": "nearcloud",
+      "duration": 8000,
+      "script": {
+        "hi": "बादल हमारे बिल्कुल पास हैं।",
+        "en": "The clouds are right beside us."
+      }
+    },
+    {
+      "highlight": "sun",
+      "duration": 8000,
+      "script": {
+        "hi": "और ऊपर सूरज चमक रहा है।",
+        "en": "And up above, the sun is shining."
+      }
+    }
+  ]
+}

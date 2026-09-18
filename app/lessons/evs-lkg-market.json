@@ -1,0 +1,177 @@
+{
+  "id": "evs-lkg-market",
+  "template": "identify",
+  "stage": "street",
+  "objects": [
+    {
+      "id": "fruitstall",
+      "build": "stall",
+      "params": {
+        "awning": "#c8402f",
+        "goods": "#e8872b, #d9433a",
+        "seed": 5
+      },
+      "position": "-1.600 0.000 -2.500",
+      "name": {
+        "en": "Fruit shop",
+        "hi": "फल की दुकान"
+      },
+      "ring": 1.5
+    },
+    {
+      "id": "vegstall",
+      "build": "stall",
+      "params": {
+        "awning": "#2f7a5a",
+        "goods": "#7fae3e, #8a4fa0",
+        "seed": 6
+      },
+      "position": "1.600 0.000 -2.500",
+      "name": {
+        "en": "Vegetable shop",
+        "hi": "सब्ज़ी की दुकान"
+      },
+      "ring": 1.5
+    },
+    {
+      "id": "apple",
+      "model": "apple",
+      "position": "-2.200 0.890 -2.050",
+      "scale": "2.81 2.81 2.81",
+      "ring": 0.161,
+      "name": {
+        "en": "Apple",
+        "hi": "सेब"
+      }
+    },
+    {
+      "id": "banana",
+      "model": "banana",
+      "position": "-1.600 0.890 -2.050",
+      "scale": "1.79 1.79 1.79",
+      "ring": 0.211,
+      "rotation": "0 90 0",
+      "name": {
+        "en": "Banana",
+        "hi": "केला"
+      }
+    },
+    {
+      "id": "orange",
+      "model": "orange",
+      "position": "-1.000 0.890 -2.050",
+      "scale": "2.85 2.85 2.85",
+      "ring": 0.161,
+      "name": {
+        "en": "Orange",
+        "hi": "संतरा"
+      }
+    },
+    {
+      "id": "tomato",
+      "model": "tomato",
+      "position": "1.000 0.890 -2.050",
+      "scale": "2.73 2.73 2.73",
+      "ring": 0.161,
+      "name": {
+        "en": "Tomato",
+        "hi": "टमाटर"
+      }
+    },
+    {
+      "id": "brinjal",
+      "model": "brinjal",
+      "position": "1.600 0.890 -2.050",
+      "scale": "1.70 1.70 1.70",
+      "ring": 0.112,
+      "name": {
+        "en": "Brinjal",
+        "hi": "बैंगन"
+      }
+    },
+    {
+      "id": "cabbage",
+      "model": "cabbage",
+      "position": "2.200 0.890 -2.050",
+      "scale": "1.34 1.34 1.34",
+      "ring": 0.186,
+      "name": {
+        "en": "Cabbage",
+        "hi": "पत्तागोभी"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "यह बाज़ार है। यहाँ हम चीज़ें ख़रीदते हैं।",
+        "en": "This is the market. This is where we buy things."
+      }
+    },
+    {
+      "highlight": "fruitstall",
+      "duration": 7000,
+      "script": {
+        "hi": "यह फल की दुकान है।",
+        "en": "This is the fruit shop."
+      }
+    },
+    {
+      "highlight": "apple",
+      "duration": 6000,
+      "script": {
+        "hi": "यहाँ सेब मिलते हैं…",
+        "en": "Here there are apples…"
+      }
+    },
+    {
+      "highlight": "banana",
+      "duration": 6000,
+      "script": {
+        "hi": "…केले…",
+        "en": "…bananas…"
+      }
+    },
+    {
+      "highlight": "orange",
+      "duration": 6000,
+      "script": {
+        "hi": "…और संतरे।",
+        "en": "…and oranges."
+      }
+    },
+    {
+      "highlight": "vegstall",
+      "duration": 7000,
+      "script": {
+        "hi": "यह सब्ज़ी की दुकान है।",
+        "en": "This is the vegetable shop."
+      }
+    },
+    {
+      "highlight": "tomato",
+      "duration": 6000,
+      "script": {
+        "hi": "यहाँ टमाटर…",
+        "en": "Here there are tomatoes…"
+      }
+    },
+    {
+      "highlight": "brinjal",
+      "duration": 6000,
+      "script": {
+        "hi": "…बैंगन…",
+        "en": "…brinjals…"
+      }
+    },
+    {
+      "highlight": "cabbage",
+      "duration": 6000,
+      "script": {
+        "hi": "…और पत्तागोभी मिलती है।",
+        "en": "…and cabbages."
+      }
+    }
+  ]
+}

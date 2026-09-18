@@ -190,15 +190,26 @@ function showName(el) {
   const base = el.object3D.position;
   const top = Number.isFinite(bounds.max.y) ? bounds.max.y - stage.object3D.getWorldPosition(new THREE.Vector3()).y : base.y + 0.2;
 
+  // Sized by how far away it is. An 8 cm card is right over an apple at arm's
+  // length and unreadable over a snowman seven metres off — it was there, and
+  // nobody could have known. The child sits at the stage's origin, so distance
+  // from the origin is distance from the eye, and the card grows with it to
+  // stay about the same size in view.
+  const away = Math.hypot(base.x, base.z);
+  const grow = Math.max(1, away / 0.9);
+
   lines.forEach((text, i) => {
+    const english = i === lines.length - 1;
     const card = document.createElement('a-entity');
     card.classList.add(NAME_LABEL, 'prop');
     card.setAttribute('glyph', {
       char: text,
-      height: i === lines.length - 1 ? 0.085 : 0.075,
-      card: i === lines.length - 1 ? '#fff6c9' : '#ffffff',
+      height: (english ? 0.085 : 0.075) * grow,
+      // The ring's own yellow, so the name and the ring read as one gesture —
+      // and because a white card over snow, or against a pale sky, vanishes.
+      card: english ? '#ffe14d' : '#fff3b0',
     });
-    card.setAttribute('position', `${base.x} ${top + 0.05 + i * 0.095} ${base.z}`);
+    card.setAttribute('position', `${base.x} ${top + (0.05 + i * 0.095) * grow} ${base.z}`);
     stage.appendChild(card);
   });
 }

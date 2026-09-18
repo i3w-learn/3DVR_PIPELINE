@@ -1,0 +1,209 @@
+{
+  "id": "math-lkg-opposites",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "big",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.3
+      },
+      "position": "-0.300 0.520 -0.800",
+      "name": {
+        "en": "Big",
+        "hi": "बड़ा"
+      }
+    },
+    {
+      "id": "small",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.1
+      },
+      "position": "0.300 0.520 -0.800",
+      "name": {
+        "en": "Small",
+        "hi": "छोटा"
+      }
+    },
+    {
+      "id": "long",
+      "build": "bar",
+      "params": {
+        "length": 0.55,
+        "thickness": 0.07,
+        "color": "#3d7ea6"
+      },
+      "position": "-0.300 0.520 -0.800",
+      "name": {
+        "en": "Long",
+        "hi": "लंबा"
+      }
+    },
+    {
+      "id": "short",
+      "build": "bar",
+      "params": {
+        "length": 0.2,
+        "thickness": 0.07,
+        "color": "#3d7ea6"
+      },
+      "position": "0.300 0.520 -0.800",
+      "name": {
+        "en": "Short",
+        "hi": "छोटा"
+      }
+    },
+    {
+      "id": "full",
+      "model": "sodaglass",
+      "position": "-0.300 0.520 -0.800",
+      "scale": "1.93 1.93 1.93",
+      "ring": 0.12,
+      "name": {
+        "en": "Full",
+        "hi": "भरा"
+      }
+    },
+    {
+      "id": "empty",
+      "model": "glass",
+      "position": "0.300 0.520 -0.800",
+      "scale": "1.93 1.93 1.93",
+      "ring": 0.093,
+      "name": {
+        "en": "Empty",
+        "hi": "ख़ाली"
+      }
+    },
+    {
+      "id": "hot",
+      "model": "teacup",
+      "position": "-0.300 0.520 -0.800",
+      "scale": "2.31 2.31 2.31",
+      "ring": 0.167,
+      "name": {
+        "en": "Hot",
+        "hi": "गरम"
+      }
+    },
+    {
+      "id": "cold",
+      "model": "icecream",
+      "position": "0.300 0.520 -0.800",
+      "scale": "1.69 1.69 1.69",
+      "ring": 0.098,
+      "name": {
+        "en": "Cold",
+        "hi": "ठंडा"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "big",
+        "small"
+      ],
+      "highlight": "big",
+      "duration": 6000,
+      "script": {
+        "hi": "यह बड़ा है।",
+        "en": "This is big."
+      }
+    },
+    {
+      "show": [
+        "big",
+        "small"
+      ],
+      "highlight": "small",
+      "against": "big",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह छोटा — बड़े का उल्टा।",
+        "en": "And this is small — the opposite of big."
+      }
+    },
+    {
+      "show": [
+        "long",
+        "short"
+      ],
+      "highlight": "long",
+      "duration": 6000,
+      "script": {
+        "hi": "यह लंबा है।",
+        "en": "This is long."
+      }
+    },
+    {
+      "show": [
+        "long",
+        "short"
+      ],
+      "highlight": "short",
+      "against": "long",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह छोटा — लंबे का उल्टा।",
+        "en": "And this is short — the opposite of long."
+      }
+    },
+    {
+      "show": [
+        "full",
+        "empty"
+      ],
+      "highlight": "full",
+      "duration": 6000,
+      "script": {
+        "hi": "यह भरा है।",
+        "en": "This is full."
+      }
+    },
+    {
+      "show": [
+        "full",
+        "empty"
+      ],
+      "highlight": "empty",
+      "against": "full",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह ख़ाली — भरे का उल्टा।",
+        "en": "And this is empty — the opposite of full."
+      }
+    },
+    {
+      "show": [
+        "hot",
+        "cold"
+      ],
+      "highlight": "hot",
+      "duration": 6000,
+      "script": {
+        "hi": "यह गरम है।",
+        "en": "This is hot."
+      }
+    },
+    {
+      "show": [
+        "hot",
+        "cold"
+      ],
+      "highlight": "cold",
+      "against": "hot",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह ठंडा — गरम का उल्टा।",
+        "en": "And this is cold — the opposite of hot."
+      }
+    }
+  ]
+}

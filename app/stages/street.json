@@ -182,7 +182,7 @@
     },
     {
       "build": "stall",
-      "position": "-2.4 0 -4.2",
+      "position": "-2.6 0 -10.5",
       "rotation": "0 62 0",
       "contact": false,
       "params": {
@@ -193,7 +193,7 @@
     },
     {
       "build": "stall",
-      "position": "2.6 0 -6.6",
+      "position": "2.6 0 -13.5",
       "rotation": "0 -58 0",
       "contact": false,
       "params": {

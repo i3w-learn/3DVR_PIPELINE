@@ -1,6 +1,6 @@
 {
-  "id": "demo-snow",
-  "template": "explore",
+  "id": "evs-ukg-snow-camp",
+  "template": "identify",
   "stage": "snow",
   "objects": [
     {
@@ -66,15 +66,40 @@
     {
       "duration": 8000,
       "script": {
-        "hi": "यह बर्फ़ है। सब कुछ सफ़ेद है।",
-        "en": "This is snow. Everything is white and quiet."
+        "hi": "हम बर्फ़ीले पहाड़ों में हैं। चारों तरफ़ बर्फ़ है।",
+        "en": "We are in the snowy mountains. There is snow all around us."
       }
     },
     {
-      "duration": 8000,
+      "highlight": "tent",
+      "duration": 7000,
       "script": {
-        "hi": "यहाँ हमारा तंबू है, और यहाँ आग।",
-        "en": "Here is our tent, and here is the fire keeping us warm."
+        "hi": "यह हमारा तंबू है। हम इसमें सोते हैं।",
+        "en": "This is our tent. We sleep inside it."
+      }
+    },
+    {
+      "highlight": "fire",
+      "duration": 7000,
+      "script": {
+        "hi": "यह आग है। यह हमें गरम रखती है।",
+        "en": "This is the fire. It keeps us warm."
+      }
+    },
+    {
+      "highlight": "pinetree",
+      "duration": 7000,
+      "script": {
+        "hi": "यह देवदार का पेड़ है। इस पर बर्फ़ जमी है।",
+        "en": "This is a pine tree, with snow on its branches."
+      }
+    },
+    {
+      "highlight": "snowman",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह हमने बनाया — स्नोमैन!",
+        "en": "And look what we made — a snowman!"
       }
     }
   ]
