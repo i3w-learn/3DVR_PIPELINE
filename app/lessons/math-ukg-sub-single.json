@@ -104,7 +104,8 @@
         "en": "Count these first — 5.",
         "mr": "आधी हे मोजा — 5.",
         "or": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 5।"
-      }
+      },
+      "audio": "math-ukg-sub-single-s01.mp3"
     },
     {
       "show": [
@@ -121,7 +122,8 @@
         "en": "Take 2 away.",
         "mr": "2 काढून घ्या.",
         "or": "2ଟି କାଢ଼ି ନିଅ।"
-      }
+      },
+      "audio": "math-ukg-sub-single-s02.mp3"
     },
     {
       "show": [
@@ -139,7 +141,8 @@
         "en": "5 take away 2 leaves 3.",
         "mr": "5 मधून 2 काढले, उरले 3.",
         "or": "5ରୁ 2 କାଢ଼ିଲେ, ରହିଲା 3।"
-      }
+      },
+      "audio": "math-ukg-sub-single-s03.mp3"
     },
     {
       "show": [
@@ -157,7 +160,8 @@
         "en": "Count these first — 4.",
         "mr": "आधी हे मोजा — 4.",
         "or": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 4।"
-      }
+      },
+      "audio": "math-ukg-sub-single-s04.mp3"
     },
     {
       "show": [
@@ -172,7 +176,8 @@
         "en": "Take 3 away.",
         "mr": "3 काढून घ्या.",
         "or": "3ଟି କାଢ଼ି ନିଅ।"
-      }
+      },
+      "audio": "math-ukg-sub-single-s05.mp3"
     },
     {
       "show": [
@@ -188,7 +193,8 @@
         "en": "4 take away 3 leaves 1.",
         "mr": "4 मधून 3 काढले, उरला 1.",
         "or": "4ରୁ 3 କାଢ଼ିଲେ, ରହିଲା 1।"
-      }
+      },
+      "audio": "math-ukg-sub-single-s06.mp3"
     },
     {
       "show": [
@@ -207,7 +213,8 @@
         "en": "Count these first — 5.",
         "mr": "आधी हे मोजा — 5.",
         "or": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 5।"
-      }
+      },
+      "audio": "math-ukg-sub-single-s07.mp3"
     },
     {
       "show": [
@@ -225,7 +232,8 @@
         "en": "Take 1 away.",
         "mr": "1 काढून घ्या.",
         "or": "1ଟି କାଢ଼ି ନିଅ।"
-      }
+      },
+      "audio": "math-ukg-sub-single-s08.mp3"
     },
     {
       "show": [
@@ -244,7 +252,8 @@
         "en": "5 take away 1 leaves 4.",
         "mr": "5 मधून 1 काढला, उरले 4.",
         "or": "5ରୁ 1 କାଢ଼ିଲେ, ରହିଲା 4।"
-      }
+      },
+      "audio": "math-ukg-sub-single-s09.mp3"
     }
   ]
 }

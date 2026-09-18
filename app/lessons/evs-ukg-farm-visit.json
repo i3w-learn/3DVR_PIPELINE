@@ -20,7 +20,8 @@
         "en": "This is a cow. She eats grass and gives us milk. Her baby is called a calf.",
         "mr": "ही गाय आहे. ती गवत खाते आणि आपल्याला दूध देते. तिच्या पिल्लाला वासरू म्हणतात.",
         "or": "ଏହା ଏକ ଗାଈ। ସେ ଘାସ ଖାଏ ଆଉ ଆମକୁ କ୍ଷୀର ଦିଏ। ତାର ଛୁଆକୁ ବାଛୁରୀ କୁହାଯାଏ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-cow.mp3"
     },
     {
       "id": "horse",
@@ -39,7 +40,8 @@
         "en": "This is a horse. The horse pulls carts and runs fast.",
         "mr": "हा घोडा आहे. घोडा गाडी ओढतो आणि वेगाने धावतो.",
         "or": "ଏହା ଏକ ଘୋଡ଼ା। ଘୋଡ଼ା ଗାଡ଼ି ଟାଣେ ଆଉ ଜୋରରେ ଦୌଡ଼େ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-horse.mp3"
     },
     {
       "id": "goat",
@@ -57,7 +59,8 @@
         "en": "This is a goat. The goat eats leaves and gives milk.",
         "mr": "ही शेळी आहे. शेळी पानं खाते आणि दूध देते.",
         "or": "ଏହା ଏକ ଛେଳି। ଛେଳି ପତ୍ର ଖାଏ ଆଉ କ୍ଷୀର ଦିଏ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-goat.mp3"
     },
     {
       "id": "sheep",
@@ -76,7 +79,8 @@
         "en": "This is a sheep. Wool is made from the sheep's coat.",
         "mr": "ही मेंढी आहे. मेंढीच्या केसांपासून लोकर बनते.",
         "or": "ଏହା ଏକ ମେଣ୍ଢା। ମେଣ୍ଢାର ଲୋମରୁ ପଶମ ତିଆରି ହୁଏ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-sheep.mp3"
     },
     {
       "id": "hen",
@@ -95,7 +99,8 @@
         "en": "This is a hen. The hen pecks grain and lays eggs.",
         "mr": "ही कोंबडी आहे. कोंबडी दाणे टिपते आणि अंडी देते.",
         "or": "ଏହା ଏକ କୁକୁଡ଼ା। କୁକୁଡ଼ା ଦାନା ଖୁମ୍ପେ ଆଉ ଅଣ୍ଡା ଦିଏ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-hen.mp3"
     },
     {
       "id": "duck",
@@ -114,7 +119,8 @@
         "en": "This is a duck. The duck swims in the pond.",
         "mr": "हे बदक आहे. बदक तळ्यात पोहतं.",
         "or": "ଏହା ଏକ ବତକ। ବତକ ପୋଖରୀରେ ପହଁରେ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-duck.mp3"
     },
     {
       "id": "donkey",
@@ -133,7 +139,8 @@
         "en": "This is a donkey. The donkey carries loads.",
         "mr": "हे गाढव आहे. गाढव ओझं वाहतं.",
         "or": "ଏହା ଏକ ଗଧ। ଗଧ ବୋଝ ବୁହେ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-donkey.mp3"
     },
     {
       "id": "dog",
@@ -151,7 +158,8 @@
         "en": "This is a dog. The dog guards the farm.",
         "mr": "हा कुत्रा आहे. कुत्रा शेताची राखण करतो.",
         "or": "ଏହା ଏକ କୁକୁର। କୁକୁର ଚାଷ ଜମି ଜଗେ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-dog.mp3"
     }
   ],
   "steps": [
@@ -162,7 +170,8 @@
         "en": "We have come to the farm. Look all around. Look at an animal, and it will tell you about itself.",
         "mr": "आपण शेतावर आलो आहोत. सगळीकडे बघा. एखाद्या प्राण्याकडे बघा, आणि तो स्वतःबद्दल सांगेल.",
         "or": "ଆମେ ଚାଷ ଜମିକୁ ଆସିଛୁ। ଚାରିଆଡ଼େ ଦେଖ। କୌଣସି ପଶୁକୁ ଦେଖ, ସେ ନିଜ ବିଷୟରେ କହିବ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-s01.mp3"
     },
     {
       "duration": 30000,
@@ -171,7 +180,8 @@
         "en": "Which animal gives us milk? Find it.",
         "mr": "कोणता प्राणी आपल्याला दूध देतो? त्याला शोधा.",
         "or": "କେଉଁ ପଶୁ ଆମକୁ କ୍ଷୀର ଦିଏ? ତାକୁ ଖୋଜ।"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-s02.mp3"
     },
     {
       "duration": 30000,
@@ -180,7 +190,8 @@
         "en": "Who lays eggs? And who gives us wool?",
         "mr": "अंडी कोण देतं? आणि लोकर कोणापासून मिळते?",
         "or": "କିଏ ଅଣ୍ଡା ଦିଏ? ଆଉ ପଶମ କାହାଠାରୁ ମିଳେ?"
-      }
+      },
+      "audio": "evs-ukg-farm-visit-s03.mp3"
     }
   ]
 }

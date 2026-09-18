@@ -57,7 +57,8 @@
         "en": "This one is big.",
         "mr": "हा मोठा आहे.",
         "or": "ଏହା ବଡ଼।"
-      }
+      },
+      "audio": "math-nur-big-small-s01.mp3"
     },
     {
       "show": [
@@ -72,7 +73,8 @@
         "en": "And this one is small.",
         "mr": "आणि हा छोटा आहे.",
         "or": "ଆଉ ଏହା ଛୋଟ।"
-      }
+      },
+      "audio": "math-nur-big-small-s02.mp3"
     },
     {
       "show": [
@@ -86,7 +88,8 @@
         "en": "This one is big too.",
         "mr": "हासुद्धा मोठा आहे.",
         "or": "ଏହା ମଧ୍ୟ ବଡ଼।"
-      }
+      },
+      "audio": "math-nur-big-small-s03.mp3"
     },
     {
       "show": [
@@ -101,7 +104,8 @@
         "en": "And this one is small.",
         "mr": "आणि हा छोटा आहे.",
         "or": "ଆଉ ଏହା ଛୋଟ।"
-      }
+      },
+      "audio": "math-nur-big-small-s04.mp3"
     }
   ]
 }

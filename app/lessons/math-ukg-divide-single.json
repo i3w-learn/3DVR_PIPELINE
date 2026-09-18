@@ -152,7 +152,8 @@
         "en": "Here are 6.",
         "mr": "इथे 6 आहेत.",
         "or": "ଏଠି 6ଟି ଅଛି।"
-      }
+      },
+      "audio": "math-ukg-divide-single-s01.mp3"
     },
     {
       "show": [
@@ -172,7 +173,8 @@
         "en": "Share them into 2 equal groups.",
         "mr": "यांचे 2 समान गट करा.",
         "or": "ଏଗୁଡ଼ିକୁ 2ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
-      }
+      },
+      "audio": "math-ukg-divide-single-s02.mp3"
     },
     {
       "show": [
@@ -192,7 +194,8 @@
         "en": "Share them into 2 equal groups.",
         "mr": "यांचे 2 समान गट करा.",
         "or": "ଏଗୁଡ଼ିକୁ 2ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
-      }
+      },
+      "audio": "math-ukg-divide-single-s03.mp3"
     },
     {
       "show": [
@@ -211,7 +214,8 @@
         "en": "6 ÷ 2 is 3.",
         "mr": "6 ÷ 2 म्हणजे 3.",
         "or": "6 ÷ 2 ହେଲା 3।"
-      }
+      },
+      "audio": "math-ukg-divide-single-s04.mp3"
     },
     {
       "show": [
@@ -236,7 +240,8 @@
         "en": "Here are 12.",
         "mr": "इथे 12 आहेत.",
         "or": "ଏଠି 12ଟି ଅଛି।"
-      }
+      },
+      "audio": "math-ukg-divide-single-s05.mp3"
     },
     {
       "show": [
@@ -262,7 +267,8 @@
         "en": "Share them into 3 equal groups.",
         "mr": "यांचे 3 समान गट करा.",
         "or": "ଏଗୁଡ଼ିକୁ 3ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
-      }
+      },
+      "audio": "math-ukg-divide-single-s06.mp3"
     },
     {
       "show": [
@@ -288,7 +294,8 @@
         "en": "Share them into 3 equal groups.",
         "mr": "यांचे 3 समान गट करा.",
         "or": "ଏଗୁଡ଼ିକୁ 3ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
-      }
+      },
+      "audio": "math-ukg-divide-single-s07.mp3"
     },
     {
       "show": [
@@ -314,7 +321,8 @@
         "en": "Share them into 3 equal groups.",
         "mr": "यांचे 3 समान गट करा.",
         "or": "ଏଗୁଡ଼ିକୁ 3ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।"
-      }
+      },
+      "audio": "math-ukg-divide-single-s08.mp3"
     },
     {
       "show": [
@@ -339,7 +347,8 @@
         "en": "12 ÷ 3 is 4.",
         "mr": "12 ÷ 3 म्हणजे 4.",
         "or": "12 ÷ 3 ହେଲା 4।"
-      }
+      },
+      "audio": "math-ukg-divide-single-s09.mp3"
     }
   ]
 }

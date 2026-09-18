@@ -107,7 +107,8 @@
         "en": "Look at these fruits.",
         "mr": "ही फळं बघा.",
         "or": "ଏହି ଫଳଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-fruits-s01.mp3"
     },
     {
       "highlight": "apple",
@@ -123,7 +124,8 @@
         "en": "This is an apple.",
         "mr": "हे सफरचंद आहे.",
         "or": "ଏହା ଏକ ସେଓ।"
-      }
+      },
+      "audio": "eng-nur-fruits-s02.mp3"
     },
     {
       "highlight": "banana",
@@ -139,7 +141,8 @@
         "en": "This is a banana.",
         "mr": "हे केळं आहे.",
         "or": "ଏହା ଏକ କଦଳୀ।"
-      }
+      },
+      "audio": "eng-nur-fruits-s03.mp3"
     },
     {
       "highlight": "orange",
@@ -155,7 +158,8 @@
         "en": "This is an orange.",
         "mr": "हे संत्रं आहे.",
         "or": "ଏହା ଏକ କମଳା।"
-      }
+      },
+      "audio": "eng-nur-fruits-s04.mp3"
     },
     {
       "highlight": "grapes",
@@ -171,7 +175,8 @@
         "en": "This is a bunch of grapes.",
         "mr": "हा द्राक्षांचा घड आहे.",
         "or": "ଏହା ଏକ ଅଙ୍ଗୁର ପେନ୍ଥା।"
-      }
+      },
+      "audio": "eng-nur-fruits-s05.mp3"
     },
     {
       "show": [
@@ -186,7 +191,8 @@
         "en": "Look at these fruits.",
         "mr": "ही फळं बघा.",
         "or": "ଏହି ଫଳଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-fruits-s06.mp3"
     },
     {
       "highlight": "pear",
@@ -202,7 +208,8 @@
         "en": "This is a pear.",
         "mr": "हे नासपती आहे.",
         "or": "ଏହା ଏକ ନାସପାତି।"
-      }
+      },
+      "audio": "eng-nur-fruits-s07.mp3"
     },
     {
       "highlight": "pineapple",
@@ -218,7 +225,8 @@
         "en": "This is a pineapple.",
         "mr": "हे अननस आहे.",
         "or": "ଏହା ଏକ ସପୁରୀ।"
-      }
+      },
+      "audio": "eng-nur-fruits-s08.mp3"
     },
     {
       "highlight": "strawberry",
@@ -234,7 +242,8 @@
         "en": "This is a strawberry.",
         "mr": "ही स्ट्रॉबेरी आहे.",
         "or": "ଏହା ଏକ ଷ୍ଟ୍ରବେରୀ।"
-      }
+      },
+      "audio": "eng-nur-fruits-s09.mp3"
     },
     {
       "highlight": "watermelon",
@@ -250,7 +259,8 @@
         "en": "This is a watermelon.",
         "mr": "हे कलिंगड आहे.",
         "or": "ଏହା ଏକ ତରଭୁଜ।"
-      }
+      },
+      "audio": "eng-nur-fruits-s10.mp3"
     }
   ]
 }

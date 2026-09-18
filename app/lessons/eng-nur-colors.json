@@ -130,7 +130,8 @@
         "en": "Look at these colours.",
         "mr": "हे रंग बघा.",
         "or": "ଏହି ରଙ୍ଗଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-colors-s01.mp3"
     },
     {
       "highlight": "red",
@@ -146,7 +147,8 @@
         "en": "This is red.",
         "mr": "हा लाल आहे.",
         "or": "ଏହା ନାଲି।"
-      }
+      },
+      "audio": "eng-nur-colors-s02.mp3"
     },
     {
       "highlight": "blue",
@@ -162,7 +164,8 @@
         "en": "This is blue.",
         "mr": "हा निळा आहे.",
         "or": "ଏହା ନୀଳ।"
-      }
+      },
+      "audio": "eng-nur-colors-s03.mp3"
     },
     {
       "highlight": "yellow",
@@ -178,7 +181,8 @@
         "en": "This is yellow.",
         "mr": "हा पिवळा आहे.",
         "or": "ଏହା ହଳଦିଆ।"
-      }
+      },
+      "audio": "eng-nur-colors-s04.mp3"
     },
     {
       "highlight": "green",
@@ -194,7 +198,8 @@
         "en": "This is green.",
         "mr": "हा हिरवा आहे.",
         "or": "ଏହା ସବୁଜ।"
-      }
+      },
+      "audio": "eng-nur-colors-s05.mp3"
     },
     {
       "show": [
@@ -209,7 +214,8 @@
         "en": "Look at these colours.",
         "mr": "हे रंग बघा.",
         "or": "ଏହି ରଙ୍ଗଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-colors-s06.mp3"
     },
     {
       "highlight": "orange",
@@ -225,7 +231,8 @@
         "en": "This is orange.",
         "mr": "हा केशरी आहे.",
         "or": "ଏହା କମଳା।"
-      }
+      },
+      "audio": "eng-nur-colors-s07.mp3"
     },
     {
       "highlight": "purple",
@@ -241,7 +248,8 @@
         "en": "This is purple.",
         "mr": "हा जांभळा आहे.",
         "or": "ଏହା ବାଇଗଣୀ।"
-      }
+      },
+      "audio": "eng-nur-colors-s08.mp3"
     },
     {
       "highlight": "pink",
@@ -257,7 +265,8 @@
         "en": "This is pink.",
         "mr": "हा गुलाबी आहे.",
         "or": "ଏହା ଗୋଲାପୀ।"
-      }
+      },
+      "audio": "eng-nur-colors-s09.mp3"
     },
     {
       "highlight": "brown",
@@ -273,7 +282,8 @@
         "en": "This is brown.",
         "mr": "हा तपकिरी आहे.",
         "or": "ଏହା ବାଦାମୀ।"
-      }
+      },
+      "audio": "eng-nur-colors-s10.mp3"
     }
   ]
 }

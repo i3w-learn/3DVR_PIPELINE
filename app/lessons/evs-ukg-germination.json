@@ -78,7 +78,8 @@
         "en": "This is a seed. We sow it in the soil and give it water.",
         "mr": "हे बी आहे. आपण ते मातीत पेरतो आणि पाणी घालतो.",
         "or": "ଏହା ଏକ ମଞ୍ଜି। ଆମେ ଏହାକୁ ମାଟିରେ ବୁଣୁ ଆଉ ପାଣି ଦେଉ।"
-      }
+      },
+      "audio": "evs-ukg-germination-s01.mp3"
     },
     {
       "at": "root",
@@ -88,7 +89,8 @@
         "en": "The seed drinks water and swells. A tiny root comes out and grows down.",
         "mr": "बी पाणी पिऊन फुगतं. त्यातून एक छोटंसं मूळ बाहेर येतं आणि खाली वाढतं.",
         "or": "ମଞ୍ଜି ପାଣି ପିଇ ଫୁଲିଯାଏ। ସେଥିରୁ ଗୋଟିଏ ଛୋଟ ଚେର ବାହାରି ତଳକୁ ବଢ଼େ।"
-      }
+      },
+      "audio": "evs-ukg-germination-s02.mp3"
     },
     {
       "at": "shoot",
@@ -98,7 +100,8 @@
         "en": "Now a shoot grows upward and peeps out of the soil.",
         "mr": "आता एक अंकुर वरच्या दिशेने वाढतो आणि मातीतून बाहेर डोकावतो.",
         "or": "ଏବେ ଗୋଟିଏ ଗଜା ଉପରକୁ ବଢ଼େ ଆଉ ମାଟିରୁ ମୁହଁ କାଢ଼େ।"
-      }
+      },
+      "audio": "evs-ukg-germination-s03.mp3"
     },
     {
       "at": "seedling",
@@ -108,7 +111,8 @@
         "en": "Two little leaves open on the shoot. This is a seedling.",
         "mr": "अंकुरावर दोन छोटी पानं उघडतात. हे रोपटं आहे.",
         "or": "ଗଜାରେ ଦୁଇଟି ଛୋଟ ପତ୍ର ଖୋଲେ। ଏହା ଏକ ଚାରା।"
-      }
+      },
+      "audio": "evs-ukg-germination-s04.mp3"
     },
     {
       "at": "plant",
@@ -118,7 +122,8 @@
         "en": "With sunlight and water, it grows into a big plant.",
         "mr": "ऊन आणि पाणी मिळालं की ते मोठं झाड बनतं.",
         "or": "ଖରା ଆଉ ପାଣି ପାଇଲେ ଏହା ବଡ଼ ଗଛ ହୋଇଯାଏ।"
-      }
+      },
+      "audio": "evs-ukg-germination-s05.mp3"
     },
     {
       "at": "plant",
@@ -128,7 +133,8 @@
         "en": "A seed growing into a plant is called germination. Try sowing a seed yourself!",
         "mr": "बीपासून रोप बनण्याला अंकुरण म्हणतात. तुम्हीसुद्धा एक बी पेरून बघा!",
         "or": "ମଞ୍ଜିରୁ ଗଛ ହେବାକୁ ଅଙ୍କୁରୋଦ୍ଗମ କୁହାଯାଏ। ତୁମେ ମଧ୍ୟ ଗୋଟିଏ ମଞ୍ଜି ବୁଣି ଦେଖ!"
-      }
+      },
+      "audio": "evs-ukg-germination-s06.mp3"
     }
   ]
 }

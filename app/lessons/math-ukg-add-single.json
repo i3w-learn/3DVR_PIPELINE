@@ -131,7 +131,8 @@
         "en": "Count these first — 2.",
         "mr": "आधी हे मोजा — 2.",
         "or": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 2।"
-      }
+      },
+      "audio": "math-ukg-add-single-s01.mp3"
     },
     {
       "show": [
@@ -151,7 +152,8 @@
         "en": "Now count these — 3.",
         "mr": "आता हे मोजा — 3.",
         "or": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ — 3।"
-      }
+      },
+      "audio": "math-ukg-add-single-s02.mp3"
     },
     {
       "show": [
@@ -171,7 +173,8 @@
         "en": "2 and 3 together make 5.",
         "mr": "2 आणि 3 मिळून 5.",
         "or": "2 ଆଉ 3 ମିଶି 5।"
-      }
+      },
+      "audio": "math-ukg-add-single-s03.mp3"
     },
     {
       "show": [
@@ -189,7 +192,8 @@
         "en": "Count these first — 4.",
         "mr": "आधी हे मोजा — 4.",
         "or": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 4।"
-      }
+      },
+      "audio": "math-ukg-add-single-s04.mp3"
     },
     {
       "show": [
@@ -209,7 +213,8 @@
         "en": "Now count these — 1.",
         "mr": "आता हे मोजा — 1.",
         "or": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ — 1।"
-      }
+      },
+      "audio": "math-ukg-add-single-s05.mp3"
     },
     {
       "show": [
@@ -229,7 +234,8 @@
         "en": "4 and 1 together make 5.",
         "mr": "4 आणि 1 मिळून 5.",
         "or": "4 ଆଉ 1 ମିଶି 5।"
-      }
+      },
+      "audio": "math-ukg-add-single-s06.mp3"
     },
     {
       "show": [
@@ -246,7 +252,8 @@
         "en": "Count these first — 3.",
         "mr": "आधी हे मोजा — 3.",
         "or": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 3।"
-      }
+      },
+      "audio": "math-ukg-add-single-s07.mp3"
     },
     {
       "show": [
@@ -268,7 +275,8 @@
         "en": "Now count these — 4.",
         "mr": "आता हे मोजा — 4.",
         "or": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ — 4।"
-      }
+      },
+      "audio": "math-ukg-add-single-s08.mp3"
     },
     {
       "show": [
@@ -290,7 +298,8 @@
         "en": "3 and 4 together make 7.",
         "mr": "3 आणि 4 मिळून 7.",
         "or": "3 ଆଉ 4 ମିଶି 7।"
-      }
+      },
+      "audio": "math-ukg-add-single-s09.mp3"
     }
   ]
 }

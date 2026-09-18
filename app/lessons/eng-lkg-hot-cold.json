@@ -61,7 +61,8 @@
         "en": "Tea is hot. Careful!",
         "mr": "चहा गरम आहे. सांभाळून!",
         "or": "ଚା ଗରମ। ସାବଧାନ!"
-      }
+      },
+      "audio": "eng-lkg-hot-cold-s01.mp3"
     },
     {
       "show": [
@@ -76,7 +77,8 @@
         "en": "Ice cream is cold.",
         "mr": "आईस्क्रीम थंड आहे.",
         "or": "ଆଇସକ୍ରିମ ଥଣ୍ଡା।"
-      }
+      },
+      "audio": "eng-lkg-hot-cold-s02.mp3"
     },
     {
       "show": [
@@ -90,7 +92,8 @@
         "en": "A pot off the stove is hot.",
         "mr": "चुलीवरून उतरवलेलं भांडं गरम असतं.",
         "or": "ଚୁଲିରୁ ଓହ୍ଲାଇଥିବା ହାଣ୍ଡି ଗରମ।"
-      }
+      },
+      "audio": "eng-lkg-hot-cold-s03.mp3"
     },
     {
       "show": [
@@ -105,7 +108,8 @@
         "en": "An ice lolly is cold.",
         "mr": "बर्फाचा गोळा थंड असतो.",
         "or": "ବରଫ କାଠି ଥଣ୍ଡା।"
-      }
+      },
+      "audio": "eng-lkg-hot-cold-s04.mp3"
     }
   ]
 }

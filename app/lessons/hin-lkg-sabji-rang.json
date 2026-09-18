@@ -141,7 +141,8 @@
         "en": "This is a tomato.",
         "mr": "हा टोमॅटो आहे.",
         "or": "ଏହା ଏକ ଟମାଟୋ।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s01.mp3"
     },
     {
       "show": [
@@ -156,7 +157,8 @@
         "en": "A tomato is red.",
         "mr": "टोमॅटो लाल असतो.",
         "or": "ଟମାଟୋ ନାଲି।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s02.mp3"
     },
     {
       "show": [
@@ -169,7 +171,8 @@
         "en": "This is a carrot.",
         "mr": "हे गाजर आहे.",
         "or": "ଏହା ଏକ ଗାଜର।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s03.mp3"
     },
     {
       "show": [
@@ -184,7 +187,8 @@
         "en": "A carrot is orange.",
         "mr": "गाजर केशरी असतं.",
         "or": "ଗାଜର କମଳା ରଙ୍ଗର।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s04.mp3"
     },
     {
       "show": [
@@ -197,7 +201,8 @@
         "en": "This is a brinjal.",
         "mr": "हे वांगं आहे.",
         "or": "ଏହା ଏକ ବାଇଗଣ।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s05.mp3"
     },
     {
       "show": [
@@ -212,7 +217,8 @@
         "en": "A brinjal is purple.",
         "mr": "वांगं जांभळं असतं.",
         "or": "ବାଇଗଣ ବାଇଗଣୀ ରଙ୍ଗର।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s06.mp3"
     },
     {
       "show": [
@@ -225,7 +231,8 @@
         "en": "This is a corn.",
         "mr": "हे मक्याचं कणीस आहे.",
         "or": "ଏହା ମକା।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s07.mp3"
     },
     {
       "show": [
@@ -240,7 +247,8 @@
         "en": "A corn is yellow.",
         "mr": "मका पिवळा असतो.",
         "or": "ମକା ହଳଦିଆ।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s08.mp3"
     },
     {
       "show": [
@@ -253,7 +261,8 @@
         "en": "This is a cabbage.",
         "mr": "हा कोबी आहे.",
         "or": "ଏହା ଏକ ବନ୍ଧାକୋବି।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s09.mp3"
     },
     {
       "show": [
@@ -268,7 +277,8 @@
         "en": "A cabbage is green.",
         "mr": "कोबी हिरवा असतो.",
         "or": "ବନ୍ଧାକୋବି ସବୁଜ।"
-      }
+      },
+      "audio": "hin-lkg-sabji-rang-s10.mp3"
     }
   ]
 }

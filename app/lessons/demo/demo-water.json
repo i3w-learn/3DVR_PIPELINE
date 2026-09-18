@@ -11,7 +11,8 @@
         "en": "This is a pond. Watch the water moving.",
         "mr": "हे तळं आहे. पाणी हलताना बघा.",
         "or": "ଏହା ଏକ ପୋଖରୀ। ପାଣି ହଲୁଥିବା ଦେଖ।"
-      }
+      },
+      "audio": "demo-water-s01.mp3"
     },
     {
       "duration": 8000,
@@ -20,7 +21,8 @@
         "en": "Reeds grow along the edge. Look across to the far bank.",
         "mr": "काठावर लव्हाळं उगवलं आहे. पलीकडच्या काठाकडे बघा.",
         "or": "କୂଳରେ ନଳ ଗଛ ବଢ଼ିଛି। ସେପାରି କୂଳକୁ ଦେଖ।"
-      }
+      },
+      "audio": "demo-water-s02.mp3"
     }
   ]
 }

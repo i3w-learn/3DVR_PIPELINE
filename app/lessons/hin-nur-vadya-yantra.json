@@ -113,7 +113,8 @@
         "en": "These are musical instruments. They make sweet music.",
         "mr": "ही संगीताची वाद्यं आहेत. यांतून मधुर संगीत निघतं.",
         "or": "ଏଗୁଡ଼ିକ ବାଦ୍ୟଯନ୍ତ୍ର। ଏଥିରୁ ମଧୁର ସଙ୍ଗୀତ ବାହାରେ।"
-      }
+      },
+      "audio": "hin-nur-vadya-yantra-s01.mp3"
     },
     {
       "highlight": "tabla",
@@ -129,7 +130,8 @@
         "en": "This is the tabla. It is played with the hands.",
         "mr": "हा तबला आहे. तो हातांनी वाजवतात.",
         "or": "ଏହା ତବଲା। ଏହାକୁ ହାତରେ ବଜାଯାଏ।"
-      }
+      },
+      "audio": "hin-nur-vadya-yantra-s02.mp3"
     },
     {
       "highlight": "dholak",
@@ -145,7 +147,8 @@
         "en": "This is the dholak. It is played on both sides.",
         "mr": "ही ढोलकी आहे. ती दोन्ही बाजूंनी वाजवतात.",
         "or": "ଏହା ଢୋଲକ। ଏହାକୁ ଦୁଇ ପଟୁ ବଜାଯାଏ।"
-      }
+      },
+      "audio": "hin-nur-vadya-yantra-s03.mp3"
     },
     {
       "highlight": "harmonium",
@@ -161,7 +164,8 @@
         "en": "This is the harmonium.",
         "mr": "ही पेटी — हार्मोनियम आहे.",
         "or": "ଏହା ହାରମୋନିୟମ।"
-      }
+      },
+      "audio": "hin-nur-vadya-yantra-s04.mp3"
     },
     {
       "highlight": "flute",
@@ -177,7 +181,8 @@
         "en": "This is the flute. We blow into it to play.",
         "mr": "ही बासरी आहे. तिच्यात फुंकर मारून वाजवतात.",
         "or": "ଏହା ବଂଶୀ। ଏଥିରେ ଫୁଙ୍କି ବଜାଯାଏ।"
-      }
+      },
+      "audio": "hin-nur-vadya-yantra-s05.mp3"
     },
     {
       "highlight": "guitar",
@@ -193,7 +198,8 @@
         "en": "This is the guitar. We pluck its strings.",
         "mr": "ही गिटार आहे. तिच्या तारा छेडून वाजवतात.",
         "or": "ଏହା ଗିଟାର। ଏହାର ତାର ଛୁଇଁ ବଜାଯାଏ।"
-      }
+      },
+      "audio": "hin-nur-vadya-yantra-s06.mp3"
     },
     {
       "highlight": "drum",
@@ -209,7 +215,8 @@
         "en": "This is the drum. It is played with sticks.",
         "mr": "हा ढोल आहे. तो काठ्यांनी वाजवतात.",
         "or": "ଏହା ଢୋଲ। ଏହାକୁ କାଠିରେ ବଜାଯାଏ।"
-      }
+      },
+      "audio": "hin-nur-vadya-yantra-s07.mp3"
     },
     {
       "highlight": "trumpet",
@@ -225,7 +232,8 @@
         "en": "This is the trumpet.",
         "mr": "ही तुतारी आहे.",
         "or": "ଏହା ତୂରୀ।"
-      }
+      },
+      "audio": "hin-nur-vadya-yantra-s08.mp3"
     },
     {
       "highlight": "violin",
@@ -241,7 +249,8 @@
         "en": "This is the violin.",
         "mr": "हे व्हायोलिन आहे.",
         "or": "ଏହା ଭାୟୋଲିନ।"
-      }
+      },
+      "audio": "hin-nur-vadya-yantra-s09.mp3"
     }
   ]
 }

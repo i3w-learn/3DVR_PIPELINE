@@ -277,13 +277,14 @@
   "steps": [
     {
       "show": [],
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "अब इक्कीस से पचास तक गिनें।",
         "en": "Now let us count from twenty-one to fifty.",
         "mr": "आता एकवीस ते पन्नास मोजूया.",
         "or": "ଏବେ ଏକୋଇଶରୁ ପଚାଶ ଯାଏଁ ଗଣିବା।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s01.mp3"
     },
     {
       "show": [
@@ -299,7 +300,8 @@
         "en": "21 to 25.",
         "mr": "21 ते 25.",
         "or": "21 ରୁ 25।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s02.mp3"
     },
     {
       "highlight": "n1",
@@ -316,7 +318,8 @@
         "en": "21.",
         "mr": "21.",
         "or": "21।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s03.mp3"
     },
     {
       "highlight": "n2",
@@ -333,7 +336,8 @@
         "en": "22.",
         "mr": "22.",
         "or": "22।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s04.mp3"
     },
     {
       "highlight": "n3",
@@ -350,7 +354,8 @@
         "en": "23.",
         "mr": "23.",
         "or": "23।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s05.mp3"
     },
     {
       "highlight": "n4",
@@ -367,7 +372,8 @@
         "en": "24.",
         "mr": "24.",
         "or": "24।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s06.mp3"
     },
     {
       "highlight": "n5",
@@ -384,7 +390,8 @@
         "en": "25.",
         "mr": "25.",
         "or": "25।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s07.mp3"
     },
     {
       "show": [
@@ -400,7 +407,8 @@
         "en": "26 to 30.",
         "mr": "26 ते 30.",
         "or": "26 ରୁ 30।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s08.mp3"
     },
     {
       "highlight": "n6",
@@ -417,7 +425,8 @@
         "en": "26.",
         "mr": "26.",
         "or": "26।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s09.mp3"
     },
     {
       "highlight": "n7",
@@ -434,7 +443,8 @@
         "en": "27.",
         "mr": "27.",
         "or": "27।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s10.mp3"
     },
     {
       "highlight": "n8",
@@ -451,7 +461,8 @@
         "en": "28.",
         "mr": "28.",
         "or": "28।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s11.mp3"
     },
     {
       "highlight": "n9",
@@ -468,7 +479,8 @@
         "en": "29.",
         "mr": "29.",
         "or": "29।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s12.mp3"
     },
     {
       "highlight": "n10",
@@ -485,7 +497,8 @@
         "en": "30.",
         "mr": "30.",
         "or": "30।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s13.mp3"
     },
     {
       "show": [
@@ -501,7 +514,8 @@
         "en": "31 to 35.",
         "mr": "31 ते 35.",
         "or": "31 ରୁ 35।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s14.mp3"
     },
     {
       "highlight": "n11",
@@ -518,7 +532,8 @@
         "en": "31.",
         "mr": "31.",
         "or": "31।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s15.mp3"
     },
     {
       "highlight": "n12",
@@ -535,7 +550,8 @@
         "en": "32.",
         "mr": "32.",
         "or": "32।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s16.mp3"
     },
     {
       "highlight": "n13",
@@ -552,7 +568,8 @@
         "en": "33.",
         "mr": "33.",
         "or": "33।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s17.mp3"
     },
     {
       "highlight": "n14",
@@ -569,7 +586,8 @@
         "en": "34.",
         "mr": "34.",
         "or": "34।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s18.mp3"
     },
     {
       "highlight": "n15",
@@ -586,7 +604,8 @@
         "en": "35.",
         "mr": "35.",
         "or": "35।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s19.mp3"
     },
     {
       "show": [
@@ -602,7 +621,8 @@
         "en": "36 to 40.",
         "mr": "36 ते 40.",
         "or": "36 ରୁ 40।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s20.mp3"
     },
     {
       "highlight": "n16",
@@ -619,7 +639,8 @@
         "en": "36.",
         "mr": "36.",
         "or": "36।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s21.mp3"
     },
     {
       "highlight": "n17",
@@ -636,7 +657,8 @@
         "en": "37.",
         "mr": "37.",
         "or": "37।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s22.mp3"
     },
     {
       "highlight": "n18",
@@ -653,7 +675,8 @@
         "en": "38.",
         "mr": "38.",
         "or": "38।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s23.mp3"
     },
     {
       "highlight": "n19",
@@ -670,7 +693,8 @@
         "en": "39.",
         "mr": "39.",
         "or": "39।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s24.mp3"
     },
     {
       "highlight": "n20",
@@ -687,7 +711,8 @@
         "en": "40.",
         "mr": "40.",
         "or": "40।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s25.mp3"
     },
     {
       "show": [
@@ -703,7 +728,8 @@
         "en": "41 to 45.",
         "mr": "41 ते 45.",
         "or": "41 ରୁ 45।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s26.mp3"
     },
     {
       "highlight": "n21",
@@ -720,7 +746,8 @@
         "en": "41.",
         "mr": "41.",
         "or": "41।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s27.mp3"
     },
     {
       "highlight": "n22",
@@ -737,7 +764,8 @@
         "en": "42.",
         "mr": "42.",
         "or": "42।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s28.mp3"
     },
     {
       "highlight": "n23",
@@ -754,7 +782,8 @@
         "en": "43.",
         "mr": "43.",
         "or": "43।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s29.mp3"
     },
     {
       "highlight": "n24",
@@ -771,7 +800,8 @@
         "en": "44.",
         "mr": "44.",
         "or": "44।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s30.mp3"
     },
     {
       "highlight": "n25",
@@ -788,7 +818,8 @@
         "en": "45.",
         "mr": "45.",
         "or": "45।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s31.mp3"
     },
     {
       "show": [
@@ -804,7 +835,8 @@
         "en": "46 to 50.",
         "mr": "46 ते 50.",
         "or": "46 ରୁ 50।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s32.mp3"
     },
     {
       "highlight": "n26",
@@ -821,7 +853,8 @@
         "en": "46.",
         "mr": "46.",
         "or": "46।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s33.mp3"
     },
     {
       "highlight": "n27",
@@ -838,7 +871,8 @@
         "en": "47.",
         "mr": "47.",
         "or": "47।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s34.mp3"
     },
     {
       "highlight": "n28",
@@ -855,7 +889,8 @@
         "en": "48.",
         "mr": "48.",
         "or": "48।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s35.mp3"
     },
     {
       "highlight": "n29",
@@ -872,7 +907,8 @@
         "en": "49.",
         "mr": "49.",
         "or": "49।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s36.mp3"
     },
     {
       "highlight": "n30",
@@ -889,7 +925,8 @@
         "en": "50.",
         "mr": "50.",
         "or": "50।"
-      }
+      },
+      "audio": "math-nur-count-21-50-s37.mp3"
     }
   ]
 }

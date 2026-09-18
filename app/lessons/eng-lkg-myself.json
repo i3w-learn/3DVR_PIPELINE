@@ -73,7 +73,8 @@
         "en": "Hello! My name is Meena. I am four years old. I am a girl.",
         "mr": "नमस्कार! माझं नाव मीना. मी चार वर्षांची आहे. मी मुलगी आहे.",
         "or": "ନମସ୍କାର! ମୋ ନାଁ ମୀନା। ମୋତେ ଚାରି ବର୍ଷ। ମୁଁ ଜଣେ ଝିଅ।"
-      }
+      },
+      "audio": "eng-lkg-myself-s01.mp3"
     },
     {
       "highlight": "mother",
@@ -83,7 +84,8 @@
         "en": "This is my mother.",
         "mr": "ही माझी आई आहे.",
         "or": "ଏ ମୋ ମାଆ।"
-      }
+      },
+      "audio": "eng-lkg-myself-s02.mp3"
     },
     {
       "highlight": "father",
@@ -93,7 +95,8 @@
         "en": "This is my father.",
         "mr": "हे माझे बाबा आहेत.",
         "or": "ଏ ମୋ ବାପା।"
-      }
+      },
+      "audio": "eng-lkg-myself-s03.mp3"
     },
     {
       "highlight": "brother",
@@ -103,7 +106,8 @@
         "en": "This is my brother, Raju.",
         "mr": "हा माझा भाऊ राजू आहे.",
         "or": "ଏ ମୋ ଭାଇ ରାଜୁ।"
-      }
+      },
+      "audio": "eng-lkg-myself-s04.mp3"
     },
     {
       "duration": 9000,
@@ -112,7 +116,8 @@
         "en": "This is my home. I live here with my family.",
         "mr": "हे माझं घर आहे. मी माझ्या कुटुंबासोबत इथे राहते.",
         "or": "ଏହା ମୋ ଘର। ମୁଁ ମୋ ପରିବାର ସହ ଏଠାରେ ରହେ।"
-      }
+      },
+      "audio": "eng-lkg-myself-s05.mp3"
     },
     {
       "highlight": "me",
@@ -122,7 +127,8 @@
         "en": "Now you tell us — what is your name? How old are you?",
         "mr": "आता तुम्ही सांगा — तुमचं नाव काय? तुम्ही किती वर्षांचे आहात?",
         "or": "ଏବେ ତୁମେ କୁହ — ତୁମ ନାଁ କଣ? ତୁମକୁ କେତେ ବର୍ଷ?"
-      }
+      },
+      "audio": "eng-lkg-myself-s06.mp3"
     }
   ]
 }

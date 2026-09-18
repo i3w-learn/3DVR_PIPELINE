@@ -115,6 +115,8 @@ export function spoken(text, lang) {
     s = s.replace(/\b(capital|small|letter) ([a-zA-Z])\b/g, (m, w, c) => `${w} ${LETTERS.en[c.toUpperCase().charCodeAt(0) - 65]}`);
     s = s.replace(/\b([AI]) (says|for|is for)\b/g, (m, c, w) => `${LETTERS.en[c.charCodeAt(0) - 65]} ${w}`);
     s = s.replace(/[ऀ-ॿ]+/g, (w) => romanise(w));
+    // The English voice was trained without a capital X — it says "ylophone".
+    s = s.replace(/X/g, 'x');
   } else {
     s = s.replace(/[A-Za-z]+/g, (w) => {
       const known = WORDS[lang]?.[w.toLowerCase()];

@@ -151,13 +151,14 @@
   "steps": [
     {
       "at": "jan",
-      "duration": 5500,
+      "duration": 7000,
       "script": {
         "hi": "साल में बारह महीने होते हैं। पहला महीना जनवरी।",
         "en": "There are twelve months in a year. The first is January.",
         "mr": "वर्षात बारा महिने असतात. पहिला जानेवारी.",
         "or": "ବର୍ଷରେ ବାର ମାସ ଥାଏ। ପ୍ରଥମ ମାସ ଜାନୁଆରୀ।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s01.mp3"
     },
     {
       "at": "feb",
@@ -167,7 +168,8 @@
         "en": "Then February.",
         "mr": "मग फेब्रुवारी.",
         "or": "ତାପରେ ଫେବୃଆରୀ।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s02.mp3"
     },
     {
       "at": "mar",
@@ -177,7 +179,8 @@
         "en": "Then March.",
         "mr": "मग मार्च.",
         "or": "ତାପରେ ମାର୍ଚ୍ଚ।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s03.mp3"
     },
     {
       "at": "apr",
@@ -187,7 +190,8 @@
         "en": "Then April.",
         "mr": "मग एप्रिल.",
         "or": "ତାପରେ ଅପ୍ରେଲ।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s04.mp3"
     },
     {
       "at": "may",
@@ -197,7 +201,8 @@
         "en": "Then May.",
         "mr": "मग मे.",
         "or": "ତାପରେ ମଇ।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s05.mp3"
     },
     {
       "at": "jun",
@@ -207,7 +212,8 @@
         "en": "Then June.",
         "mr": "मग जून.",
         "or": "ତାପରେ ଜୁନ।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s06.mp3"
     },
     {
       "at": "jul",
@@ -217,7 +223,8 @@
         "en": "Then July.",
         "mr": "मग जुलै.",
         "or": "ତାପରେ ଜୁଲାଇ।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s07.mp3"
     },
     {
       "at": "aug",
@@ -227,7 +234,8 @@
         "en": "Then August.",
         "mr": "मग ऑगस्ट.",
         "or": "ତାପରେ ଅଗଷ୍ଟ।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s08.mp3"
     },
     {
       "at": "sep",
@@ -237,7 +245,8 @@
         "en": "Then September.",
         "mr": "मग सप्टेंबर.",
         "or": "ତାପରେ ସେପ୍ଟେମ୍ବର।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s09.mp3"
     },
     {
       "at": "oct",
@@ -247,7 +256,8 @@
         "en": "Then October.",
         "mr": "मग ऑक्टोबर.",
         "or": "ତାପରେ ଅକ୍ଟୋବର।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s10.mp3"
     },
     {
       "at": "nov",
@@ -257,7 +267,8 @@
         "en": "Then November.",
         "mr": "मग नोव्हेंबर.",
         "or": "ତାପରେ ନଭେମ୍ବର।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s11.mp3"
     },
     {
       "at": "dec",
@@ -267,7 +278,8 @@
         "en": "Then December.",
         "mr": "मग डिसेंबर.",
         "or": "ତାପରେ ଡିସେମ୍ବର।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s12.mp3"
     },
     {
       "at": "dec",
@@ -277,7 +289,8 @@
         "en": "January to December — that is the whole year.",
         "mr": "जानेवारी ते डिसेंबर — हे झालं पूर्ण वर्ष.",
         "or": "ଜାନୁଆରୀରୁ ଡିସେମ୍ବର — ଏହା ହେଲା ପୂରା ବର୍ଷ।"
-      }
+      },
+      "audio": "eng-lkg-months-year-s13.mp3"
     }
   ]
 }

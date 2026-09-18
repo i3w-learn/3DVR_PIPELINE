@@ -112,7 +112,8 @@
         "en": "Every animal sound has a name.",
         "mr": "प्रत्येक प्राण्याच्या आवाजाला एक नाव असतं.",
         "or": "ପ୍ରତ୍ୟେକ ପଶୁର ଡାକର ଗୋଟିଏ ନାଁ ଅଛି।"
-      }
+      },
+      "audio": "eng-lkg-animal-sound-names-s01.mp3"
     },
     {
       "duration": 9000,
@@ -121,7 +122,8 @@
         "en": "A cow says moo. A goat bleats.",
         "mr": "गाय हंबरते. शेळी बें बें करते.",
         "or": "ଗାଈ ହମ୍ବା କରେ। ଛେଳି ମେଁ ମେଁ କରେ।"
-      }
+      },
+      "audio": "eng-lkg-animal-sound-names-s02.mp3"
     },
     {
       "duration": 9000,
@@ -130,7 +132,8 @@
         "en": "A horse neighs. A hen clucks.",
         "mr": "घोडा खिंकाळतो. कोंबडी कॉक कॉक करते.",
         "or": "ଘୋଡ଼ା ହିଁ ହିଁ କରେ। କୁକୁଡ଼ା କକ୍ କକ୍ କରେ।"
-      }
+      },
+      "audio": "eng-lkg-animal-sound-names-s03.mp3"
     }
   ]
 }

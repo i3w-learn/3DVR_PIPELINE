@@ -52,7 +52,8 @@
         "en": "The red ball is ON the table.",
         "mr": "लाल चेंडू टेबलाच्या वर आहे.",
         "or": "ନାଲି ବଲ ଟେବୁଲ ଉପରେ ଅଛି।"
-      }
+      },
+      "audio": "eng-lkg-in-on-under-s01.mp3"
     },
     {
       "highlight": "under",
@@ -63,7 +64,8 @@
         "en": "The blue ball is UNDER the table.",
         "mr": "निळा चेंडू टेबलाच्या खाली आहे.",
         "or": "ନୀଳ ବଲ ଟେବୁଲ ତଳେ ଅଛି।"
-      }
+      },
+      "audio": "eng-lkg-in-on-under-s02.mp3"
     },
     {
       "highlight": "in",
@@ -74,7 +76,8 @@
         "en": "The yellow ball is IN the tub.",
         "mr": "पिवळा चेंडू टबाच्या आत आहे.",
         "or": "ହଳଦିଆ ବଲ ଟବ ଭିତରେ ଅଛି।"
-      }
+      },
+      "audio": "eng-lkg-in-on-under-s03.mp3"
     },
     {
       "duration": 8000,
@@ -83,7 +86,8 @@
         "en": "On. Under. In.",
         "mr": "वर. खाली. आत.",
         "or": "ଉପରେ। ତଳେ। ଭିତରେ।"
-      }
+      },
+      "audio": "eng-lkg-in-on-under-s04.mp3"
     }
   ]
 }

@@ -35,18 +35,20 @@
         "en": "This one is thick.",
         "mr": "हा जाड आहे.",
         "or": "ଏହା ମୋଟା।"
-      }
+      },
+      "audio": "math-nur-thick-thin-s01.mp3"
     },
     {
       "highlight": "thin",
       "against": "thick",
-      "duration": 7000,
+      "duration": 7500,
       "script": {
         "hi": "और यह पतली है। दोनों की लंबाई बराबर है।",
         "en": "And this one is thin. They are just as long as each other.",
         "mr": "आणि हा बारीक आहे. दोन्ही सारखेच लांब आहेत.",
         "or": "ଆଉ ଏହା ସରୁ। ଦୁଇଟି ସମାନ ଲମ୍ବା।"
-      }
+      },
+      "audio": "math-nur-thick-thin-s02.mp3"
     }
   ]
 }

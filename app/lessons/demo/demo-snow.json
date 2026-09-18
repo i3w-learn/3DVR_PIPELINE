@@ -70,7 +70,8 @@
         "en": "This is snow. Everything is white and quiet.",
         "mr": "हा बर्फ आहे. सगळं पांढरं आणि शांत आहे.",
         "or": "ଏହା ବରଫ। ସବୁ କିଛି ଧଳା ଆଉ ଶାନ୍ତ।"
-      }
+      },
+      "audio": "demo-snow-s01.mp3"
     },
     {
       "duration": 8000,
@@ -79,7 +80,8 @@
         "en": "Here is our tent, and here is the fire keeping us warm.",
         "mr": "हा आपला तंबू, आणि ही आपल्याला उबदार ठेवणारी शेकोटी.",
         "or": "ଏଠି ଆମ ତମ୍ବୁ, ଆଉ ଏଠି ଆମକୁ ଉଷୁମ ରଖୁଥିବା ନିଆଁ।"
-      }
+      },
+      "audio": "demo-snow-s02.mp3"
     }
   ]
 }

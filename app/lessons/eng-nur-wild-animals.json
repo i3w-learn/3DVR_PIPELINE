@@ -103,7 +103,8 @@
         "en": "This is the forest. Wild animals live here.",
         "mr": "हे जंगल आहे. इथे जंगली प्राणी राहतात.",
         "or": "ଏହା ଜଙ୍ଗଲ। ଏଠି ବଣୁଆ ପଶୁମାନେ ରହନ୍ତି।"
-      }
+      },
+      "audio": "eng-nur-wild-animals-s01.mp3"
     },
     {
       "highlight": "lion",
@@ -113,7 +114,8 @@
         "en": "This is a lion. The lion is the king of the forest.",
         "mr": "हा सिंह आहे. सिंह जंगलाचा राजा आहे.",
         "or": "ଏହା ଏକ ସିଂହ। ସିଂହ ଜଙ୍ଗଲର ରାଜା।"
-      }
+      },
+      "audio": "eng-nur-wild-animals-s02.mp3"
     },
     {
       "highlight": "tiger",
@@ -123,7 +125,8 @@
         "en": "This is a tiger. The tiger has stripes.",
         "mr": "हा वाघ आहे. वाघाच्या अंगावर पट्टे असतात.",
         "or": "ଏହା ଏକ ବାଘ। ବାଘର ଦେହରେ ପଟା ଥାଏ।"
-      }
+      },
+      "audio": "eng-nur-wild-animals-s03.mp3"
     },
     {
       "highlight": "elephant",
@@ -133,7 +136,8 @@
         "en": "This is an elephant. The elephant is very big.",
         "mr": "हा हत्ती आहे. हत्ती खूप मोठा असतो.",
         "or": "ଏହା ଏକ ହାତୀ। ହାତୀ ବହୁତ ବଡ଼।"
-      }
+      },
+      "audio": "eng-nur-wild-animals-s04.mp3"
     },
     {
       "highlight": "giraffe",
@@ -143,7 +147,8 @@
         "en": "This is a giraffe. The giraffe is very tall.",
         "mr": "हा जिराफ आहे. जिराफ खूप उंच असतो.",
         "or": "ଏହା ଏକ ଜିରାଫ। ଜିରାଫ ବହୁତ ଡେଙ୍ଗା।"
-      }
+      },
+      "audio": "eng-nur-wild-animals-s05.mp3"
     },
     {
       "highlight": "bear",
@@ -153,7 +158,8 @@
         "en": "This is a bear.",
         "mr": "हे अस्वल आहे.",
         "or": "ଏହା ଏକ ଭାଲୁ।"
-      }
+      },
+      "audio": "eng-nur-wild-animals-s06.mp3"
     },
     {
       "highlight": "zebra",
@@ -163,7 +169,8 @@
         "en": "This is a zebra.",
         "mr": "हा झेब्रा आहे.",
         "or": "ଏହା ଏକ ଜେବ୍ରା।"
-      }
+      },
+      "audio": "eng-nur-wild-animals-s07.mp3"
     },
     {
       "highlight": "deer",
@@ -173,7 +180,8 @@
         "en": "This is a deer. The deer runs very fast.",
         "mr": "हे हरीण आहे. हरीण खूप वेगाने पळतं.",
         "or": "ଏହା ଏକ ହରିଣ। ହରିଣ ବହୁତ ଜୋରରେ ଦୌଡ଼େ।"
-      }
+      },
+      "audio": "eng-nur-wild-animals-s08.mp3"
     },
     {
       "highlight": "monkey",
@@ -183,7 +191,8 @@
         "en": "And this is a monkey. The monkey lives in the trees.",
         "mr": "आणि हे माकड आहे. माकड झाडांवर राहतं.",
         "or": "ଆଉ ଏହା ଏକ ମାଙ୍କଡ଼। ମାଙ୍କଡ଼ ଗଛରେ ରହେ।"
-      }
+      },
+      "audio": "eng-nur-wild-animals-s09.mp3"
     }
   ]
 }

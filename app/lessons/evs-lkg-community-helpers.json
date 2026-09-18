@@ -102,7 +102,8 @@
         "en": "These are our community helpers. Every one of them helps us.",
         "mr": "हे आपले मदतनीस आहेत. हे सगळे आपल्याला मदत करतात.",
         "or": "ଏମାନେ ଆମର ସାହାଯ୍ୟକାରୀ। ଏମାନେ ସମସ୍ତେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-community-helpers-s01.mp3"
     },
     {
       "highlight": "doctor",
@@ -112,7 +113,8 @@
         "en": "This is a doctor. When we are ill, the doctor makes us well.",
         "mr": "हे डॉक्टर आहेत. आपण आजारी पडलो की डॉक्टर आपल्याला बरं करतात.",
         "or": "ଏ ଜଣେ ଡାକ୍ତର। ଆମେ ଅସୁସ୍ଥ ହେଲେ ଡାକ୍ତର ଆମକୁ ଭଲ କରନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-community-helpers-s02.mp3"
     },
     {
       "highlight": "teacher",
@@ -122,7 +124,8 @@
         "en": "This is a teacher. She teaches us.",
         "mr": "या शिक्षिका आहेत. त्या आपल्याला शिकवतात.",
         "or": "ଏ ଜଣେ ଶିକ୍ଷୟିତ୍ରୀ। ସେ ଆମକୁ ପଢ଼ାନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-community-helpers-s03.mp3"
     },
     {
       "highlight": "police",
@@ -132,7 +135,8 @@
         "en": "This is a police officer. The police keep us safe.",
         "mr": "हे पोलीस आहेत. पोलीस आपलं रक्षण करतात.",
         "or": "ଏ ଜଣେ ପୋଲିସ। ପୋଲିସ ଆମକୁ ସୁରକ୍ଷା ଦିଅନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-community-helpers-s04.mp3"
     },
     {
       "highlight": "farmer",
@@ -142,7 +146,8 @@
         "en": "This is a farmer. The farmer grows our food.",
         "mr": "हे शेतकरी आहेत. शेतकरी आपल्यासाठी धान्य पिकवतात.",
         "or": "ଏ ଜଣେ ଚାଷୀ। ଚାଷୀ ଆମ ପାଇଁ ଖାଦ୍ୟ ଉପୁଜାନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-community-helpers-s05.mp3"
     },
     {
       "highlight": "firefighter",
@@ -152,7 +157,8 @@
         "en": "This is a firefighter. Firefighters put out fires.",
         "mr": "हे अग्निशमन दलाचे जवान आहेत. ते आग विझवतात.",
         "or": "ଏ ଜଣେ ଅଗ୍ନିଶମ କର୍ମଚାରୀ। ସେମାନେ ନିଆଁ ଲିଭାନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-community-helpers-s06.mp3"
     },
     {
       "highlight": "postman",
@@ -162,7 +168,8 @@
         "en": "This is a postman. The postman brings our letters.",
         "mr": "हे पोस्टमन आहेत. पोस्टमन आपली पत्रं आणतात.",
         "or": "ଏ ଜଣେ ଡାକବାଲା। ଡାକବାଲା ଆମ ଚିଠି ଆଣନ୍ତି।"
-      }
+      },
+      "audio": "evs-lkg-community-helpers-s07.mp3"
     },
     {
       "duration": 7000,
@@ -171,7 +178,8 @@
         "en": "When they help us, we say — thank you!",
         "mr": "ते आपल्याला मदत करतात, तेव्हा आपण म्हणतो — धन्यवाद!",
         "or": "ସେମାନେ ଆମକୁ ସାହାଯ୍ୟ କଲେ, ଆମେ କହୁ — ଧନ୍ୟବାଦ!"
-      }
+      },
+      "audio": "evs-lkg-community-helpers-s08.mp3"
     }
   ]
 }

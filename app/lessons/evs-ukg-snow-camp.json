@@ -70,7 +70,8 @@
         "en": "We are in the snowy mountains. There is snow all around us.",
         "mr": "आपण बर्फाळ डोंगरांमध्ये आहोत. सगळीकडे बर्फ आहे.",
         "or": "ଆମେ ବରଫ ପାହାଡ଼ରେ ଅଛୁ। ଚାରିଆଡ଼େ ବରଫ।"
-      }
+      },
+      "audio": "evs-ukg-snow-camp-s01.mp3"
     },
     {
       "highlight": "tent",
@@ -80,7 +81,8 @@
         "en": "This is our tent. We sleep inside it.",
         "mr": "हा आपला तंबू आहे. आपण यात झोपतो.",
         "or": "ଏହା ଆମ ତମ୍ବୁ। ଆମେ ଏଥିରେ ଶୋଉ।"
-      }
+      },
+      "audio": "evs-ukg-snow-camp-s02.mp3"
     },
     {
       "highlight": "fire",
@@ -90,7 +92,8 @@
         "en": "This is the fire. It keeps us warm.",
         "mr": "ही शेकोटी आहे. ती आपल्याला उबदार ठेवते.",
         "or": "ଏହା ନିଆଁ। ଏହା ଆମକୁ ଉଷୁମ ରଖେ।"
-      }
+      },
+      "audio": "evs-ukg-snow-camp-s03.mp3"
     },
     {
       "highlight": "pinetree",
@@ -100,7 +103,8 @@
         "en": "This is a pine tree, with snow on its branches.",
         "mr": "हे देवदाराचं झाड आहे. त्याच्या फांद्यांवर बर्फ साचला आहे.",
         "or": "ଏହା ଏକ ଦେବଦାରୁ ଗଛ। ଏହାର ଡାଳରେ ବରଫ ଜମିଛି।"
-      }
+      },
+      "audio": "evs-ukg-snow-camp-s04.mp3"
     },
     {
       "highlight": "snowman",
@@ -110,7 +114,8 @@
         "en": "And look what we made — a snowman!",
         "mr": "आणि बघा आपण काय बनवलं — स्नोमॅन!",
         "or": "ଆଉ ଦେଖ ଆମେ କଣ ତିଆରି କଲୁ — ସ୍ନୋମ୍ୟାନ!"
-      }
+      },
+      "audio": "evs-ukg-snow-camp-s05.mp3"
     }
   ]
 }

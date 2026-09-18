@@ -59,7 +59,8 @@
         "en": "This gate is closed. Nobody can walk through.",
         "mr": "हे फाटक बंद आहे. कोणीही आत जाऊ शकत नाही.",
         "or": "ଏହି ଫାଟକ ବନ୍ଦ। କେହି ଯାଇପାରିବେ ନାହିଁ।"
-      }
+      },
+      "audio": "math-lkg-open-close-s01.mp3"
     },
     {
       "show": [
@@ -74,7 +75,8 @@
         "en": "This gate is open. Now the way is clear.",
         "mr": "हे फाटक उघडं आहे. आता रस्ता मोकळा आहे.",
         "or": "ଏହି ଫାଟକ ଖୋଲା। ଏବେ ବାଟ ଖୋଲା ଅଛି।"
-      }
+      },
+      "audio": "math-lkg-open-close-s02.mp3"
     },
     {
       "show": [
@@ -88,7 +90,8 @@
         "en": "This door is closed.",
         "mr": "हा दरवाजा बंद आहे.",
         "or": "ଏହି କବାଟ ବନ୍ଦ।"
-      }
+      },
+      "audio": "math-lkg-open-close-s03.mp3"
     },
     {
       "show": [
@@ -103,7 +106,8 @@
         "en": "And this door is open.",
         "mr": "आणि हा दरवाजा उघडा आहे.",
         "or": "ଆଉ ଏହି କବାଟ ଖୋଲା।"
-      }
+      },
+      "audio": "math-lkg-open-close-s04.mp3"
     }
   ]
 }

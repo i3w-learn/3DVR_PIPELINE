@@ -228,13 +228,14 @@
         "smallwater",
         "smallsky"
       ],
-      "duration": 9000,
+      "duration": 11000,
       "script": {
         "hi": "हम एक जगह से दूसरी जगह कैसे जाते हैं? गाड़ियों से! कुछ सड़क पर चलती हैं, कुछ पानी पर, और कुछ आसमान में।",
         "en": "How do we go from one place to another? By transport! Some go on the road, some on water, and some in the sky.",
         "mr": "आपण एका ठिकाणाहून दुसऱ्या ठिकाणी कसे जातो? वाहनांनी! काही रस्त्यावर चालतात, काही पाण्यावर, आणि काही आकाशात.",
         "or": "ଆମେ ଗୋଟିଏ ଜାଗାରୁ ଆଉ ଗୋଟିଏ ଜାଗାକୁ କେମିତି ଯାଉ? ଯାନବାହାନରେ! କିଛି ରାସ୍ତାରେ ଚାଲେ, କିଛି ପାଣିରେ, ଆଉ କିଛି ଆକାଶରେ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s01.mp3"
     },
     {
       "show": [
@@ -251,7 +252,8 @@
         "en": "These go on the road.",
         "mr": "ही रस्त्यावर चालतात.",
         "or": "ଏଗୁଡ଼ିକ ରାସ୍ତାରେ ଚାଲେ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s02.mp3"
     },
     {
       "show": [
@@ -269,7 +271,8 @@
         "en": "This is a car.",
         "mr": "ही कार आहे.",
         "or": "ଏହା ଏକ କାର।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s03.mp3"
     },
     {
       "show": [
@@ -287,7 +290,8 @@
         "en": "This is a bus.",
         "mr": "ही बस आहे.",
         "or": "ଏହା ଏକ ବସ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s04.mp3"
     },
     {
       "show": [
@@ -305,7 +309,8 @@
         "en": "This is a bicycle.",
         "mr": "ही सायकल आहे.",
         "or": "ଏହା ଏକ ସାଇକେଲ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s05.mp3"
     },
     {
       "show": [
@@ -323,7 +328,8 @@
         "en": "This is a train.",
         "mr": "ही रेल्वेगाडी आहे.",
         "or": "ଏହା ଏକ ରେଳଗାଡ଼ି।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s06.mp3"
     },
     {
       "show": [
@@ -341,7 +347,8 @@
         "en": "This is an auto.",
         "mr": "ही रिक्षा आहे.",
         "or": "ଏହା ଏକ ଅଟୋ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s07.mp3"
     },
     {
       "show": [
@@ -356,7 +363,8 @@
         "en": "These go on the water.",
         "mr": "ही पाण्यावर चालतात.",
         "or": "ଏଗୁଡ଼ିକ ପାଣିରେ ଚାଲେ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s08.mp3"
     },
     {
       "show": [
@@ -372,7 +380,8 @@
         "en": "This is a boat.",
         "mr": "ही होडी आहे.",
         "or": "ଏହା ଏକ ଡଙ୍ଗା।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s09.mp3"
     },
     {
       "show": [
@@ -388,7 +397,8 @@
         "en": "This is a ship.",
         "mr": "हे जहाज आहे.",
         "or": "ଏହା ଏକ ଜାହାଜ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s10.mp3"
     },
     {
       "show": [
@@ -404,7 +414,8 @@
         "en": "This is a sailboat.",
         "mr": "ही शिडाची होडी आहे.",
         "or": "ଏହା ଏକ ପାଲ ଡଙ୍ଗା।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s11.mp3"
     },
     {
       "show": [
@@ -419,7 +430,8 @@
         "en": "These fly in the sky.",
         "mr": "ही आकाशात उडतात.",
         "or": "ଏଗୁଡ଼ିକ ଆକାଶରେ ଉଡ଼େ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s12.mp3"
     },
     {
       "show": [
@@ -435,7 +447,8 @@
         "en": "This is an aeroplane.",
         "mr": "हे विमान आहे.",
         "or": "ଏହା ଏକ ଉଡ଼ାଜାହାଜ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s13.mp3"
     },
     {
       "show": [
@@ -451,7 +464,8 @@
         "en": "This is a helicopter.",
         "mr": "हे हेलिकॉप्टर आहे.",
         "or": "ଏହା ଏକ ହେଲିକପ୍ଟର।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s14.mp3"
     },
     {
       "show": [
@@ -467,7 +481,8 @@
         "en": "This is a rocket.",
         "mr": "हे रॉकेट आहे.",
         "or": "ଏହା ଏକ ରକେଟ।"
-      }
+      },
+      "audio": "eng-lkg-transport-types-s15.mp3"
     }
   ]
 }

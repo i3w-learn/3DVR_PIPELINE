@@ -112,7 +112,8 @@
         "en": "Listen to the animals. Whichever one you look at will speak.",
         "mr": "प्राण्यांचे आवाज ऐका. ज्याच्याकडे बघाल, तो बोलेल.",
         "or": "ପଶୁମାନଙ୍କ ଡାକ ଶୁଣ। ଯାହାକୁ ଦେଖିବ, ସେ ଡାକିବ।"
-      }
+      },
+      "audio": "hin-nur-janvar-boliya-s01.mp3"
     },
     {
       "duration": 9000,
@@ -121,7 +122,8 @@
         "en": "The cow lows. The goat bleats.",
         "mr": "गाय हंबरते. शेळी बें बें करते.",
         "or": "ଗାଈ ହମ୍ବା କରେ। ଛେଳି ମେଁ ମେଁ କରେ।"
-      }
+      },
+      "audio": "hin-nur-janvar-boliya-s02.mp3"
     },
     {
       "duration": 9000,
@@ -130,7 +132,8 @@
         "en": "The horse neighs. The hen clucks.",
         "mr": "घोडा खिंकाळतो. कोंबडी कॉक कॉक करते.",
         "or": "ଘୋଡ଼ା ହିଁ ହିଁ କରେ। କୁକୁଡ଼ା କକ୍ କକ୍ କରେ।"
-      }
+      },
+      "audio": "hin-nur-janvar-boliya-s03.mp3"
     }
   ]
 }

@@ -126,13 +126,14 @@
   ],
   "steps": [
     {
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "हर जानवर का एक बच्चा होता है। चलो देखें किसका बच्चा कौन है।",
         "en": "Every animal has a baby. Let us see whose baby is whose.",
         "mr": "प्रत्येक प्राण्याला पिल्लू असतं. बघूया, कोणाचं पिल्लू कोणतं.",
         "or": "ପ୍ରତ୍ୟେକ ପଶୁର ଛୁଆ ଥାଏ। ଆସ ଦେଖିବା, କାହାର ଛୁଆ କିଏ।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s01.mp3"
     },
     {
       "highlight": "cow",
@@ -142,7 +143,8 @@
         "en": "This is a cow.",
         "mr": "ही गाय आहे.",
         "or": "ଏହା ଏକ ଗାଈ।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s02.mp3"
     },
     {
       "highlight": "calf",
@@ -153,7 +155,8 @@
         "en": "And this is her baby — a calf.",
         "mr": "आणि हे तिचं पिल्लू — वासरू.",
         "or": "ଆଉ ଏ ତାର ଛୁଆ — ବାଛୁରୀ।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s03.mp3"
     },
     {
       "highlight": "sheep",
@@ -163,7 +166,8 @@
         "en": "This is a sheep.",
         "mr": "ही मेंढी आहे.",
         "or": "ଏହା ଏକ ମେଣ୍ଢା।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s04.mp3"
     },
     {
       "highlight": "lamb",
@@ -174,7 +178,8 @@
         "en": "And this is her baby — a lamb.",
         "mr": "आणि हे तिचं पिल्लू — कोकरू.",
         "or": "ଆଉ ଏ ତାର ଛୁଆ — ମେଣ୍ଢା ଛୁଆ।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s05.mp3"
     },
     {
       "highlight": "dog",
@@ -184,7 +189,8 @@
         "en": "This is a dog.",
         "mr": "हा कुत्रा आहे.",
         "or": "ଏହା ଏକ କୁକୁର।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s06.mp3"
     },
     {
       "highlight": "puppy",
@@ -195,7 +201,8 @@
         "en": "And this is her baby — a puppy.",
         "mr": "आणि हे त्याचं पिल्लू — कुत्र्याचं पिल्लू.",
         "or": "ଆଉ ଏ ତାର ଛୁଆ — କୁକୁର ଛୁଆ।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s07.mp3"
     },
     {
       "highlight": "cat",
@@ -205,7 +212,8 @@
         "en": "This is a cat.",
         "mr": "हे मांजर आहे.",
         "or": "ଏହା ଏକ ବିଲେଇ।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s08.mp3"
     },
     {
       "highlight": "kitten",
@@ -216,7 +224,8 @@
         "en": "And this is her baby — a kitten.",
         "mr": "आणि हे तिचं पिल्लू — मांजराचं पिल्लू.",
         "or": "ଆଉ ଏ ତାର ଛୁଆ — ବିଲେଇ ଛୁଆ।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s09.mp3"
     },
     {
       "highlight": "hen",
@@ -226,7 +235,8 @@
         "en": "This is a hen.",
         "mr": "ही कोंबडी आहे.",
         "or": "ଏହା ଏକ କୁକୁଡ଼ା।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s10.mp3"
     },
     {
       "highlight": "chick",
@@ -237,7 +247,8 @@
         "en": "And this is her baby — a chick.",
         "mr": "आणि हे तिचं पिल्लू — कोंबडीचं पिल्लू.",
         "or": "ଆଉ ଏ ତାର ଛୁଆ — କୁକୁଡ଼ା ଛୁଆ।"
-      }
+      },
+      "audio": "evs-lkg-animal-babies-s11.mp3"
     }
   ]
 }

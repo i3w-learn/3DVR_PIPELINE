@@ -106,7 +106,8 @@
         "en": "Look at these vegetables.",
         "mr": "या भाज्या बघा.",
         "or": "ଏହି ପନିପରିବାଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s01.mp3"
     },
     {
       "highlight": "carrot",
@@ -122,7 +123,8 @@
         "en": "This is a carrot.",
         "mr": "हे गाजर आहे.",
         "or": "ଏହା ଏକ ଗାଜର।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s02.mp3"
     },
     {
       "highlight": "tomato",
@@ -138,7 +140,8 @@
         "en": "This is a tomato.",
         "mr": "हा टोमॅटो आहे.",
         "or": "ଏହା ଏକ ଟମାଟୋ।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s03.mp3"
     },
     {
       "highlight": "onion",
@@ -154,7 +157,8 @@
         "en": "This is an onion.",
         "mr": "हा कांदा आहे.",
         "or": "ଏହା ଏକ ପିଆଜ।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s04.mp3"
     },
     {
       "highlight": "corn",
@@ -170,7 +174,8 @@
         "en": "This is corn.",
         "mr": "हे मक्याचं कणीस आहे.",
         "or": "ଏହା ମକା।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s05.mp3"
     },
     {
       "show": [
@@ -185,7 +190,8 @@
         "en": "Look at these vegetables.",
         "mr": "या भाज्या बघा.",
         "or": "ଏହି ପନିପରିବାଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s06.mp3"
     },
     {
       "highlight": "cabbage",
@@ -201,7 +207,8 @@
         "en": "This is a cabbage.",
         "mr": "हा कोबी आहे.",
         "or": "ଏହା ଏକ ବନ୍ଧାକୋବି।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s07.mp3"
     },
     {
       "highlight": "cauliflower",
@@ -217,7 +224,8 @@
         "en": "This is a cauliflower.",
         "mr": "हा फ्लॉवर आहे.",
         "or": "ଏହା ଏକ ଫୁଲକୋବି।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s08.mp3"
     },
     {
       "highlight": "brinjal",
@@ -233,7 +241,8 @@
         "en": "This is a brinjal.",
         "mr": "हे वांगं आहे.",
         "or": "ଏହା ଏକ ବାଇଗଣ।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s09.mp3"
     },
     {
       "highlight": "pumpkin",
@@ -249,7 +258,8 @@
         "en": "This is a pumpkin.",
         "mr": "हा भोपळा आहे.",
         "or": "ଏହା ଏକ କଖାରୁ।"
-      }
+      },
+      "audio": "eng-nur-vegetables-s10.mp3"
     }
   ]
 }

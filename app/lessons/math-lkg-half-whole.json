@@ -83,7 +83,8 @@
         "en": "This is a whole apple.",
         "mr": "हे पूर्ण सफरचंद आहे.",
         "or": "ଏହା ଗୋଟିଏ ପୂରା ସେଓ।"
-      }
+      },
+      "audio": "math-lkg-half-whole-s01.mp3"
     },
     {
       "show": [
@@ -98,7 +99,8 @@
         "en": "And this is half of one.",
         "mr": "आणि हे त्याचं अर्धं आहे.",
         "or": "ଆଉ ଏହା ତାର ଅଧା।"
-      }
+      },
+      "audio": "math-lkg-half-whole-s02.mp3"
     },
     {
       "show": [
@@ -112,7 +114,8 @@
         "en": "This is a whole pear.",
         "mr": "हे पूर्ण नासपती आहे.",
         "or": "ଏହା ଗୋଟିଏ ପୂରା ନାସପାତି।"
-      }
+      },
+      "audio": "math-lkg-half-whole-s03.mp3"
     },
     {
       "show": [
@@ -127,7 +130,8 @@
         "en": "And this is half of one.",
         "mr": "आणि हे त्याचं अर्धं आहे.",
         "or": "ଆଉ ଏହା ତାର ଅଧା।"
-      }
+      },
+      "audio": "math-lkg-half-whole-s04.mp3"
     },
     {
       "show": [
@@ -141,7 +145,8 @@
         "en": "This is a whole coconut.",
         "mr": "हा पूर्ण नारळ आहे.",
         "or": "ଏହା ଗୋଟିଏ ପୂରା ନଡ଼ିଆ।"
-      }
+      },
+      "audio": "math-lkg-half-whole-s05.mp3"
     },
     {
       "show": [
@@ -156,7 +161,8 @@
         "en": "And this is half of one.",
         "mr": "आणि हे त्याचं अर्धं आहे.",
         "or": "ଆଉ ଏହା ତାର ଅଧା।"
-      }
+      },
+      "audio": "math-lkg-half-whole-s06.mp3"
     }
   ]
 }

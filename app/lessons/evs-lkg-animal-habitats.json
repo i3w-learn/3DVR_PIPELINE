@@ -128,13 +128,14 @@
   ],
   "steps": [
     {
-      "duration": 8000,
+      "duration": 9500,
       "script": {
         "hi": "हम घर में रहते हैं। जानवरों के भी घर होते हैं। देखो, कौन कहाँ रहता है।",
         "en": "We live in a house. Animals have homes too. Let us see who lives where.",
         "mr": "आपण घरात राहतो. प्राण्यांचीसुद्धा घरं असतात. बघूया, कोण कुठे राहतं.",
         "or": "ଆମେ ଘରେ ରହୁ। ପଶୁମାନଙ୍କର ମଧ୍ୟ ଘର ଥାଏ। ଆସ ଦେଖିବା, କିଏ କେଉଁଠି ରହେ।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s01.mp3"
     },
     {
       "highlight": "sparrow",
@@ -144,7 +145,8 @@
         "en": "This is a sparrow.",
         "mr": "ही चिमणी आहे.",
         "or": "ଏହା ଏକ ଘରଚଟିଆ।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s02.mp3"
     },
     {
       "highlight": "nest",
@@ -155,7 +157,8 @@
         "en": "The sparrow lives in a nest.",
         "mr": "चिमणी घरट्यात राहते.",
         "or": "ଘରଚଟିଆ ବସାରେ ରହେ।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s03.mp3"
     },
     {
       "highlight": "dog",
@@ -165,7 +168,8 @@
         "en": "This is a dog.",
         "mr": "हा कुत्रा आहे.",
         "or": "ଏହା ଏକ କୁକୁର।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s04.mp3"
     },
     {
       "highlight": "kennel",
@@ -176,7 +180,8 @@
         "en": "The dog lives in a kennel.",
         "mr": "कुत्रा त्याच्या घरात — केनेलमध्ये राहतो.",
         "or": "କୁକୁର ତାର କୁକୁର ଘରେ ରହେ।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s05.mp3"
     },
     {
       "highlight": "bee",
@@ -186,7 +191,8 @@
         "en": "This is a bee.",
         "mr": "ही मधमाशी आहे.",
         "or": "ଏହା ଏକ ମହୁମାଛି।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s06.mp3"
     },
     {
       "highlight": "hive",
@@ -197,7 +203,8 @@
         "en": "The bee lives in a hive.",
         "mr": "मधमाशी पोळ्यात राहते.",
         "or": "ମହୁମାଛି ମହୁଫେଣାରେ ରହେ।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s07.mp3"
     },
     {
       "highlight": "lion",
@@ -207,7 +214,8 @@
         "en": "This is a lion.",
         "mr": "हा सिंह आहे.",
         "or": "ଏହା ଏକ ସିଂହ।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s08.mp3"
     },
     {
       "highlight": "den",
@@ -218,7 +226,8 @@
         "en": "The lion lives in a den.",
         "mr": "सिंह गुहेत राहतो.",
         "or": "ସିଂହ ଗୁମ୍ଫାରେ ରହେ।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s09.mp3"
     },
     {
       "highlight": "cow",
@@ -228,7 +237,8 @@
         "en": "This is a cow.",
         "mr": "ही गाय आहे.",
         "or": "ଏହା ଏକ ଗାଈ।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s10.mp3"
     },
     {
       "highlight": "shed",
@@ -239,7 +249,8 @@
         "en": "The cow lives in a shed.",
         "mr": "गाय गोठ्यात राहते.",
         "or": "ଗାଈ ଗୁହାଳରେ ରହେ।"
-      }
+      },
+      "audio": "evs-lkg-animal-habitats-s11.mp3"
     }
   ]
 }

@@ -124,7 +124,8 @@
         "en": "This is the snake house. Snakes and other reptiles live here, behind glass.",
         "mr": "हे सर्पालय आहे. इथे साप आणि इतर सरपटणारे प्राणी काचेच्या मागे राहतात.",
         "or": "ଏହା ସାପ ଘର। ଏଠି ସାପ ଆଉ ଅନ୍ୟ ସରୀସୃପମାନେ କାଚ ପଛରେ ରହନ୍ତି।"
-      }
+      },
+      "audio": "evs-ukg-serpentarium-s01.mp3"
     },
     {
       "highlight": "tank1",
@@ -134,7 +135,8 @@
         "en": "The glass keeps us safe. We only look. We do not tap on the glass.",
         "mr": "काच आपल्याला सुरक्षित ठेवते. आपण फक्त बघतो. काचेवर टकटक करत नाही.",
         "or": "କାଚ ଆମକୁ ନିରାପଦ ରଖେ। ଆମେ କେବଳ ଦେଖୁ। କାଚକୁ ଠକ ଠକ କରୁ ନାହିଁ।"
-      }
+      },
+      "audio": "evs-ukg-serpentarium-s02.mp3"
     },
     {
       "highlight": "cobra",
@@ -145,7 +147,8 @@
         "en": "This is a cobra. It spreads its hood. The cobra is poisonous.",
         "mr": "हा नाग आहे. तो आपला फणा काढतो. नाग विषारी असतो.",
         "or": "ଏହା ଏକ ନାଗ ସାପ। ଏହା ନିଜ ଫଣା ଟେକେ। ନାଗ ସାପ ବିଷାକ୍ତ।"
-      }
+      },
+      "audio": "evs-ukg-serpentarium-s03.mp3"
     },
     {
       "highlight": "greensnake",
@@ -156,7 +159,8 @@
         "en": "This is a green snake. It lives in trees.",
         "mr": "हा हिरवा साप आहे. तो झाडांवर राहतो.",
         "or": "ଏହା ଏକ ସବୁଜ ସାପ। ଏହା ଗଛରେ ରହେ।"
-      }
+      },
+      "audio": "evs-ukg-serpentarium-s04.mp3"
     },
     {
       "highlight": "lizard",
@@ -167,7 +171,8 @@
         "en": "This is a lizard. It has four legs and a long tail.",
         "mr": "हा सरडा आहे. त्याला चार पाय आणि लांब शेपूट असतं.",
         "or": "ଏହା ଏକ ଝିଟିପିଟି। ଏହାର ଚାରୋଟି ଗୋଡ଼ ଆଉ ଗୋଟିଏ ଲମ୍ବା ଲାଞ୍ଜ ଥାଏ।"
-      }
+      },
+      "audio": "evs-ukg-serpentarium-s05.mp3"
     },
     {
       "highlight": "turtle",
@@ -178,16 +183,18 @@
         "en": "This is a turtle. It hides inside its shell.",
         "mr": "हे कासव आहे. ते आपल्या कवचात लपतं.",
         "or": "ଏହା ଏକ କଇଁଛ। ଏହା ନିଜ ଖୋଳ ଭିତରେ ଲୁଚେ।"
-      }
+      },
+      "audio": "evs-ukg-serpentarium-s06.mp3"
     },
     {
-      "duration": 10000,
+      "duration": 10500,
       "script": {
         "hi": "अगर बाहर कहीं साँप दिखे — उसे छूना नहीं, पास नहीं जाना। धीरे से दूर हटो और किसी बड़े को बताओ।",
         "en": "If you ever see a snake outside — do not touch it, do not go near. Move away slowly and tell a grown-up.",
         "mr": "बाहेर कुठे साप दिसला — तर त्याला हात लावू नका, जवळ जाऊ नका. हळूच दूर व्हा आणि मोठ्या माणसाला सांगा.",
         "or": "ବାହାରେ କେଉଁଠି ସାପ ଦେଖିଲେ — ତାକୁ ଛୁଅଁ ନାହିଁ, ପାଖକୁ ଯାଅ ନାହିଁ। ଧୀରେ ଦୂରେଇ ଯାଅ ଆଉ ଜଣେ ବଡ଼ଙ୍କୁ କୁହ।"
-      }
+      },
+      "audio": "evs-ukg-serpentarium-s07.mp3"
     }
   ]
 }

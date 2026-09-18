@@ -11,7 +11,8 @@
         "en": "This is a home. This is where we live.",
         "mr": "हे घर आहे. आपण इथे राहतो.",
         "or": "ଏହା ଏକ ଘର। ଆମେ ଏଠାରେ ରହୁ।"
-      }
+      },
+      "audio": "demo-home-s01.mp3"
     },
     {
       "duration": 8000,
@@ -20,7 +21,8 @@
         "en": "The stove, the cupboard, the mats — all in one room.",
         "mr": "चूल, कपाट, चटया — सगळं एकाच खोलीत.",
         "or": "ଚୁଲି, ଆଲମାରି, ମସିଣା — ସବୁ ଗୋଟିଏ ଘରେ।"
-      }
+      },
+      "audio": "demo-home-s02.mp3"
     }
   ]
 }

@@ -187,7 +187,8 @@
         "en": "Which one is blue? Touch it.",
         "mr": "निळा कोणता? त्याला स्पर्श करा.",
         "or": "କେଉଁଟି ନୀଳ? ତାକୁ ଛୁଅଁ।"
-      }
+      },
+      "audio": "eng-nur-colors-check-s01.mp3"
     },
     {
       "show": [
@@ -203,7 +204,8 @@
         "en": "Which one is pink? Touch it.",
         "mr": "गुलाबी कोणता? त्याला स्पर्श करा.",
         "or": "କେଉଁଟି ଗୋଲାପୀ? ତାକୁ ଛୁଅଁ।"
-      }
+      },
+      "audio": "eng-nur-colors-check-s02.mp3"
     },
     {
       "show": [
@@ -219,7 +221,8 @@
         "en": "Which one is yellow? Touch it.",
         "mr": "पिवळा कोणता? त्याला स्पर्श करा.",
         "or": "କେଉଁଟି ହଳଦିଆ? ତାକୁ ଛୁଅଁ।"
-      }
+      },
+      "audio": "eng-nur-colors-check-s03.mp3"
     }
   ]
 }

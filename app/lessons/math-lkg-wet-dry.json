@@ -94,13 +94,14 @@
         "drycloth"
       ],
       "highlight": "wetcloth",
-      "duration": 7000,
+      "duration": 9000,
       "script": {
         "hi": "यह कपड़ा अभी धुला है। इससे पानी टपक रहा है। यह गीला है।",
         "en": "This cloth has just been washed. Water is dripping from it. It is wet.",
         "mr": "हे कापड नुकतंच धुतलं आहे. त्यातून पाणी टपकत आहे. ते ओलं आहे.",
         "or": "ଏହି ଲୁଗା ଏବେ ଧୁଆ ହୋଇଛି। ଏଥିରୁ ପାଣି ଟୋପା ଟୋପା ପଡ଼ୁଛି। ଏହା ଓଦା।"
-      }
+      },
+      "audio": "math-lkg-wet-dry-s01.mp3"
     },
     {
       "show": [
@@ -115,7 +116,8 @@
         "en": "This cloth has dried in the sun. It is dry.",
         "mr": "हे कापड उन्हात वाळलं. ते कोरडं आहे.",
         "or": "ଏହି ଲୁଗା ଖରାରେ ଶୁଖିଗଲା। ଏହା ଶୁଖିଲା।"
-      }
+      },
+      "audio": "math-lkg-wet-dry-s02.mp3"
     },
     {
       "show": [
@@ -129,7 +131,8 @@
         "en": "This tub has water in it. It is wet inside.",
         "mr": "या टबात पाणी आहे. तो आतून ओला आहे.",
         "or": "ଏହି ଟବରେ ପାଣି ଅଛି। ଏହା ଭିତରୁ ଓଦା।"
-      }
+      },
+      "audio": "math-lkg-wet-dry-s03.mp3"
     },
     {
       "show": [
@@ -144,7 +147,8 @@
         "en": "This tub has no water. It is dry.",
         "mr": "या टबात पाणी नाही. तो कोरडा आहे.",
         "or": "ଏହି ଟବରେ ପାଣି ନାହିଁ। ଏହା ଶୁଖିଲା।"
-      }
+      },
+      "audio": "math-lkg-wet-dry-s04.mp3"
     },
     {
       "show": [
@@ -158,7 +162,8 @@
         "en": "It is raining. In the rain, everything gets wet.",
         "mr": "पाऊस पडतो आहे. पावसात सगळं ओलं होतं.",
         "or": "ବର୍ଷା ହେଉଛି। ବର୍ଷାରେ ସବୁ କିଛି ଓଦା ହୋଇଯାଏ।"
-      }
+      },
+      "audio": "math-lkg-wet-dry-s05.mp3"
     },
     {
       "show": [
@@ -173,7 +178,8 @@
         "en": "The sun is out. In the sun, things dry.",
         "mr": "ऊन पडलं आहे. उन्हात वस्तू वाळतात.",
         "or": "ଖରା ପଡ଼ିଛି। ଖରାରେ ଜିନିଷ ଶୁଖିଯାଏ।"
-      }
+      },
+      "audio": "math-lkg-wet-dry-s06.mp3"
     }
   ]
 }

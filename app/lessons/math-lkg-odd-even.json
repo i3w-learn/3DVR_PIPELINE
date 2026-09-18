@@ -128,7 +128,8 @@
         "en": "1 — odd, one is left over.",
         "mr": "1 — विषम, एक उरतो.",
         "or": "1 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s01.mp3"
     },
     {
       "show": [
@@ -144,7 +145,8 @@
         "en": "2 — even, every one has a pair.",
         "mr": "2 — सम, प्रत्येकाला जोडी आहे.",
         "or": "2 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s02.mp3"
     },
     {
       "show": [
@@ -161,7 +163,8 @@
         "en": "3 — odd, one is left over.",
         "mr": "3 — विषम, एक उरतो.",
         "or": "3 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s03.mp3"
     },
     {
       "show": [
@@ -179,7 +182,8 @@
         "en": "4 — even, every one has a pair.",
         "mr": "4 — सम, प्रत्येकाला जोडी आहे.",
         "or": "4 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s04.mp3"
     },
     {
       "show": [
@@ -198,7 +202,8 @@
         "en": "5 — odd, one is left over.",
         "mr": "5 — विषम, एक उरतो.",
         "or": "5 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s05.mp3"
     },
     {
       "show": [
@@ -212,13 +217,14 @@
       ],
       "tally": 6,
       "highlight": "p6",
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "6 — सम।",
         "en": "6 — even, every one has a pair.",
         "mr": "6 — सम, प्रत्येकाला जोडी आहे.",
         "or": "6 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s06.mp3"
     },
     {
       "show": [
@@ -239,7 +245,8 @@
         "en": "7 — odd, one is left over.",
         "mr": "7 — विषम, एक उरतो.",
         "or": "7 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s07.mp3"
     },
     {
       "show": [
@@ -261,7 +268,8 @@
         "en": "8 — even, every one has a pair.",
         "mr": "8 — सम, प्रत्येकाला जोडी आहे.",
         "or": "8 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s08.mp3"
     },
     {
       "show": [
@@ -284,7 +292,8 @@
         "en": "9 — odd, one is left over.",
         "mr": "9 — विषम, एक उरतो.",
         "or": "9 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s09.mp3"
     },
     {
       "show": [
@@ -308,7 +317,8 @@
         "en": "10 — even, every one has a pair.",
         "mr": "10 — सम, प्रत्येकाला जोडी आहे.",
         "or": "10 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।"
-      }
+      },
+      "audio": "math-lkg-odd-even-s10.mp3"
     }
   ]
 }

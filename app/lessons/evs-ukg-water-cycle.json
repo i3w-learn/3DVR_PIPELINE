@@ -53,7 +53,8 @@
         "en": "The sun warms the water in the pond.",
         "mr": "सूर्य तळ्यातलं पाणी गरम करतो.",
         "or": "ସୂର୍ଯ୍ୟ ପୋଖରୀର ପାଣିକୁ ଗରମ କରେ।"
-      }
+      },
+      "audio": "evs-ukg-water-cycle-s01.mp3"
     },
     {
       "at": "vapour",
@@ -63,7 +64,8 @@
         "en": "The warm water turns into vapour and rises up, up into the sky.",
         "mr": "गरम पाण्याची वाफ होते आणि ती वर, वर आकाशात जाते.",
         "or": "ଗରମ ପାଣି ବାଷ୍ପ ହୋଇ ଉପରକୁ, ଉପରକୁ ଆକାଶକୁ ଉଠେ।"
-      }
+      },
+      "audio": "evs-ukg-water-cycle-s02.mp3"
     },
     {
       "at": "cloud",
@@ -73,7 +75,8 @@
         "en": "High up it is cold, and the vapour becomes a cloud.",
         "mr": "उंचावर थंडी असते, आणि वाफेचा ढग बनतो.",
         "or": "ଉଚ୍ଚରେ ଥଣ୍ଡା, ଆଉ ବାଷ୍ପ ମେଘ ହୋଇଯାଏ।"
-      }
+      },
+      "audio": "evs-ukg-water-cycle-s03.mp3"
     },
     {
       "at": "rain",
@@ -83,7 +86,8 @@
         "en": "The cloud grows heavy and grey — and down comes the rain.",
         "mr": "ढग जड आणि करडा होतो — आणि पाऊस पडतो.",
         "or": "ମେଘ ଓଜନିଆ ଓ ଧୂସର ହୁଏ — ଆଉ ବର୍ଷା ହୁଏ।"
-      }
+      },
+      "audio": "evs-ukg-water-cycle-s04.mp3"
     },
     {
       "at": "rain",
@@ -93,7 +97,8 @@
         "en": "The rain fills the pond again. And then it all begins once more.",
         "mr": "पावसाने तळं पुन्हा भरतं. आणि मग हे सगळं पुन्हा सुरू होतं.",
         "or": "ବର୍ଷାରେ ପୋଖରୀ ପୁଣି ଭରିଯାଏ। ଆଉ ତାପରେ ଏସବୁ ପୁଣି ଆରମ୍ଭ ହୁଏ।"
-      }
+      },
+      "audio": "evs-ukg-water-cycle-s05.mp3"
     }
   ]
 }

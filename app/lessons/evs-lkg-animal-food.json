@@ -121,13 +121,14 @@
   ],
   "steps": [
     {
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "सबको भूख लगती है — जानवरों को भी। देखो, कौन क्या खाता है।",
         "en": "Everybody gets hungry — animals too. Let us see who eats what.",
         "mr": "सगळ्यांना भूक लागते — प्राण्यांनासुद्धा. बघूया, कोण काय खातं.",
         "or": "ସମସ୍ତଙ୍କୁ ଭୋକ ଲାଗେ — ପଶୁମାନଙ୍କୁ ମଧ୍ୟ। ଆସ ଦେଖିବା, କିଏ କଣ ଖାଏ।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s01.mp3"
     },
     {
       "highlight": "cow",
@@ -137,7 +138,8 @@
         "en": "This is a cow.",
         "mr": "ही गाय आहे.",
         "or": "ଏହା ଏକ ଗାଈ।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s02.mp3"
     },
     {
       "highlight": "grass",
@@ -148,7 +150,8 @@
         "en": "The cow eats grass.",
         "mr": "गाय गवत खाते.",
         "or": "ଗାଈ ଘାସ ଖାଏ।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s03.mp3"
     },
     {
       "highlight": "hen",
@@ -158,7 +161,8 @@
         "en": "This is a hen.",
         "mr": "ही कोंबडी आहे.",
         "or": "ଏହା ଏକ କୁକୁଡ଼ା।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s04.mp3"
     },
     {
       "highlight": "corn",
@@ -169,7 +173,8 @@
         "en": "The hen pecks at grain.",
         "mr": "कोंबडी दाणे टिपते.",
         "or": "କୁକୁଡ଼ା ଦାନା ଖୁମ୍ପି ଖାଏ।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s05.mp3"
     },
     {
       "highlight": "dog",
@@ -179,7 +184,8 @@
         "en": "This is a dog.",
         "mr": "हा कुत्रा आहे.",
         "or": "ଏହା ଏକ କୁକୁର।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s06.mp3"
     },
     {
       "highlight": "bone",
@@ -190,7 +196,8 @@
         "en": "The dog chews a bone.",
         "mr": "कुत्रा हाड चघळतो.",
         "or": "କୁକୁର ହାଡ଼ ଚୋବାଏ।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s07.mp3"
     },
     {
       "highlight": "cat",
@@ -200,7 +207,8 @@
         "en": "This is a cat.",
         "mr": "हे मांजर आहे.",
         "or": "ଏହା ଏକ ବିଲେଇ।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s08.mp3"
     },
     {
       "highlight": "milk",
@@ -211,7 +219,8 @@
         "en": "The cat drinks milk.",
         "mr": "मांजर दूध पितं.",
         "or": "ବିଲେଇ କ୍ଷୀର ପିଏ।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s09.mp3"
     },
     {
       "highlight": "monkey",
@@ -221,7 +230,8 @@
         "en": "This is a monkey.",
         "mr": "हे माकड आहे.",
         "or": "ଏହା ଏକ ମାଙ୍କଡ଼।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s10.mp3"
     },
     {
       "highlight": "banana",
@@ -232,7 +242,8 @@
         "en": "The monkey eats a banana.",
         "mr": "माकड केळं खातं.",
         "or": "ମାଙ୍କଡ଼ କଦଳୀ ଖାଏ।"
-      }
+      },
+      "audio": "evs-lkg-animal-food-s11.mp3"
     }
   ]
 }

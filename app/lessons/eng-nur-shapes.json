@@ -116,7 +116,8 @@
         "en": "Look at these shapes.",
         "mr": "हे आकार बघा.",
         "or": "ଏହି ଆକୃତିଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-shapes-s01.mp3"
     },
     {
       "highlight": "circle",
@@ -132,7 +133,8 @@
         "en": "This is a circle.",
         "mr": "हे वर्तुळ आहे.",
         "or": "ଏହା ଏକ ବୃତ୍ତ।"
-      }
+      },
+      "audio": "eng-nur-shapes-s02.mp3"
     },
     {
       "highlight": "square",
@@ -148,7 +150,8 @@
         "en": "This is a square.",
         "mr": "हा चौरस आहे.",
         "or": "ଏହା ଏକ ବର୍ଗ।"
-      }
+      },
+      "audio": "eng-nur-shapes-s03.mp3"
     },
     {
       "highlight": "triangle",
@@ -164,7 +167,8 @@
         "en": "This is a triangle.",
         "mr": "हा त्रिकोण आहे.",
         "or": "ଏହା ଏକ ତ୍ରିଭୁଜ।"
-      }
+      },
+      "audio": "eng-nur-shapes-s04.mp3"
     },
     {
       "highlight": "rectangle",
@@ -180,7 +184,8 @@
         "en": "This is a rectangle.",
         "mr": "हा आयत आहे.",
         "or": "ଏହା ଏକ ଆୟତ।"
-      }
+      },
+      "audio": "eng-nur-shapes-s05.mp3"
     },
     {
       "show": [
@@ -194,7 +199,8 @@
         "en": "Look at these shapes.",
         "mr": "हे आकार बघा.",
         "or": "ଏହି ଆକୃତିଗୁଡ଼ିକ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-shapes-s06.mp3"
     },
     {
       "highlight": "oval",
@@ -209,7 +215,8 @@
         "en": "This is a oval.",
         "mr": "हा लंबगोल आहे.",
         "or": "ଏହା ଏକ ଅଣ୍ଡାକାର।"
-      }
+      },
+      "audio": "eng-nur-shapes-s07.mp3"
     },
     {
       "highlight": "star",
@@ -224,7 +231,8 @@
         "en": "This is a star.",
         "mr": "हा तारा आहे.",
         "or": "ଏହା ଏକ ତାରା।"
-      }
+      },
+      "audio": "eng-nur-shapes-s08.mp3"
     },
     {
       "highlight": "diamond",
@@ -239,7 +247,8 @@
         "en": "This is a diamond.",
         "mr": "हा डायमंड आकार आहे.",
         "or": "ଏହା ଏକ ହୀରା ଆକୃତି।"
-      }
+      },
+      "audio": "eng-nur-shapes-s09.mp3"
     }
   ]
 }

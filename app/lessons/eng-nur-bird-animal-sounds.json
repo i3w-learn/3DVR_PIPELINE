@@ -20,7 +20,8 @@
         "en": "This is a crow. The crow says caw, caw.",
         "mr": "हा कावळा आहे. कावळा काव काव करतो.",
         "or": "ଏହା ଏକ କୁଆ। କୁଆ କା କା କରେ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-crow.mp3"
     },
     {
       "id": "duck",
@@ -39,7 +40,8 @@
         "en": "This is a duck. The duck says quack, quack.",
         "mr": "हे बदक आहे. बदक क्वॅक क्वॅक करतं.",
         "or": "ଏହା ଏକ ବତକ। ବତକ ପ୍ୟାକ ପ୍ୟାକ କରେ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-duck.mp3"
     },
     {
       "id": "sparrow",
@@ -58,7 +60,8 @@
         "en": "This is a sparrow. The sparrow says cheep, cheep.",
         "mr": "ही चिमणी आहे. चिमणी चिव चिव करते.",
         "or": "ଏହା ଏକ ଘରଚଟିଆ। ଘରଚଟିଆ ଚିଁ ଚିଁ କରେ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-sparrow.mp3"
     },
     {
       "id": "dog",
@@ -76,7 +79,8 @@
         "en": "This is a dog. The dog says woof, woof.",
         "mr": "हा कुत्रा आहे. कुत्रा भू भू करतो.",
         "or": "ଏହା ଏକ କୁକୁର। କୁକୁର ଭୋ ଭୋ କରେ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-dog.mp3"
     },
     {
       "id": "cat",
@@ -95,7 +99,8 @@
         "en": "This is a cat. The cat says meow.",
         "mr": "हे मांजर आहे. मांजर म्याव म्याव करतं.",
         "or": "ଏହା ଏକ ବିଲେଇ। ବିଲେଇ ମିଆଉଁ ମିଆଉଁ କରେ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-cat.mp3"
     },
     {
       "id": "pigeon",
@@ -114,7 +119,8 @@
         "en": "This is a pigeon. The pigeon says coo, coo.",
         "mr": "हे कबूतर आहे. कबूतर गुटर्गू करतं.",
         "or": "ଏହା ଏକ ପାରା। ପାରା ଗୁଟୁର ଗୁଟୁର କରେ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-pigeon.mp3"
     },
     {
       "id": "parrot",
@@ -133,7 +139,8 @@
         "en": "This is a parrot. The parrot squawks.",
         "mr": "हा पोपट आहे. पोपट मिठू मिठू करतो.",
         "or": "ଏହା ଏକ ଶୁଆ। ଶୁଆ ଟିଁ ଟିଁ କରେ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-parrot.mp3"
     },
     {
       "id": "owl",
@@ -152,7 +159,8 @@
         "en": "This is an owl. The owl says hoo, hoo.",
         "mr": "हे घुबड आहे. घुबड घू घू करतं.",
         "or": "ଏହା ଏକ ପେଚା। ପେଚା ହୁ ହୁ କରେ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-owl.mp3"
     }
   ],
   "steps": [
@@ -163,7 +171,8 @@
         "en": "Every bird and animal has its own voice. Look at one, and listen.",
         "mr": "प्रत्येक पक्ष्याचा आणि प्राण्याचा स्वतःचा आवाज असतो. एखाद्याकडे बघा, आणि ऐका.",
         "or": "ପ୍ରତ୍ୟେକ ପକ୍ଷୀ ଓ ପଶୁର ନିଜର ସ୍ୱର ଅଛି। ଗୋଟିଏକୁ ଦେଖ, ଆଉ ଶୁଣ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-s01.mp3"
     },
     {
       "duration": 10000,
@@ -172,7 +181,8 @@
         "en": "What does the crow say? Find it and see.",
         "mr": "कावळा कसा ओरडतो? त्याला शोधा आणि बघा.",
         "or": "କୁଆ କେମିତି ଡାକେ? ତାକୁ ଖୋଜ ଆଉ ଦେଖ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-s02.mp3"
     },
     {
       "duration": 10000,
@@ -181,7 +191,8 @@
         "en": "Now find the cat.",
         "mr": "आता मांजर शोधा.",
         "or": "ଏବେ ବିଲେଇକୁ ଖୋଜ।"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-s03.mp3"
     },
     {
       "duration": 10000,
@@ -190,7 +201,8 @@
         "en": "Who says hoo, hoo? Find out!",
         "mr": "घू घू कोण करतं? शोधा!",
         "or": "କିଏ ହୁ ହୁ କରେ? ଖୋଜି ଦେଖ!"
-      }
+      },
+      "audio": "eng-nur-bird-animal-sounds-s04.mp3"
     }
   ]
 }

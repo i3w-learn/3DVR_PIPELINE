@@ -202,7 +202,8 @@
         "en": "Look: म, क, स, द.",
         "mr": "बघा — म, क, स, द.",
         "or": "ଦେଖ — म, क, स, द।"
-      }
+      },
+      "audio": "hin-ukg-char-akshar-s01.mp3"
     },
     {
       "highlight": "w1",
@@ -220,7 +221,8 @@
         "en": "Together they make मकसद — a purpose.",
         "mr": "मिळून बनतो मकसद — म्हणजे हेतू.",
         "or": "ମିଶି ହେଲା मकसद — ମାନେ ଉଦ୍ଦେଶ୍ୟ।"
-      }
+      },
+      "audio": "hin-ukg-char-akshar-s02.mp3"
     },
     {
       "show": [
@@ -235,7 +237,8 @@
         "en": "Look: ब, र, ग, द.",
         "mr": "बघा — ब, र, ग, द.",
         "or": "ଦେଖ — ब, र, ग, द।"
-      }
+      },
+      "audio": "hin-ukg-char-akshar-s03.mp3"
     },
     {
       "highlight": "w2",
@@ -253,7 +256,8 @@
         "en": "Together they make बरगद — a banyan tree.",
         "mr": "मिळून बनतो बरगद — म्हणजे वडाचं झाड.",
         "or": "ମିଶି ହେଲା बरगद — ମାନେ ବର ଗଛ।"
-      }
+      },
+      "audio": "hin-ukg-char-akshar-s04.mp3"
     },
     {
       "show": [
@@ -268,7 +272,8 @@
         "en": "Look: न, ट, ख, ट.",
         "mr": "बघा — न, ट, ख, ट.",
         "or": "ଦେଖ — न, ट, ख, ट।"
-      }
+      },
+      "audio": "hin-ukg-char-akshar-s05.mp3"
     },
     {
       "highlight": "w3",
@@ -286,7 +291,8 @@
         "en": "Together they make नटखट — playful.",
         "mr": "मिळून बनतो नटखट — म्हणजे खोडकर.",
         "or": "ମିଶି ହେଲା नटखट — ମାନେ ଦୁଷ୍ଟ।"
-      }
+      },
+      "audio": "hin-ukg-char-akshar-s06.mp3"
     },
     {
       "show": [
@@ -301,7 +307,8 @@
         "en": "Look: अ, ज, ग, र.",
         "mr": "बघा — अ, ज, ग, र.",
         "or": "ଦେଖ — अ, ज, ग, र।"
-      }
+      },
+      "audio": "hin-ukg-char-akshar-s07.mp3"
     },
     {
       "highlight": "w4",
@@ -319,7 +326,8 @@
         "en": "Together they make अजगर — a python.",
         "mr": "मिळून बनतो अजगर — म्हणजे अजगर साप.",
         "or": "ମିଶି ହେଲା अजगर — ମାନେ ଅଜଗର ସାପ।"
-      }
+      },
+      "audio": "hin-ukg-char-akshar-s08.mp3"
     }
   ]
 }
