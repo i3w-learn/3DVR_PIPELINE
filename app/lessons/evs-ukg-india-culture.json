@@ -1,0 +1,167 @@
+{
+  "id": "evs-ukg-india-culture",
+  "template": "identify",
+  "stage": "india",
+  "objects": [
+    {
+      "id": "flag",
+      "build": "flagpole",
+      "params": {},
+      "position": "-6.200 0.320 -9.500",
+      "name": {
+        "en": "Our flag",
+        "hi": "हमारा झंडा"
+      },
+      "ring": 1.0
+    },
+    {
+      "id": "namaste",
+      "build": "person",
+      "params": {
+        "height": 1.6,
+        "role": "woman",
+        "pose": "namaste"
+      },
+      "position": "-1.300 0.320 -2.000",
+      "rotation": "0 25 0",
+      "name": {
+        "en": "Namaste",
+        "hi": "नमस्ते"
+      }
+    },
+    {
+      "id": "turban",
+      "build": "person",
+      "params": {
+        "height": 1.6,
+        "role": "villager",
+        "pose": "stand"
+      },
+      "position": "1.300 0.320 -2.000",
+      "rotation": "0 -25 0",
+      "name": {
+        "en": "Turban",
+        "hi": "पगड़ी"
+      }
+    },
+    {
+      "id": "saree",
+      "build": "person",
+      "params": {
+        "height": 1.6,
+        "role": "teacher",
+        "pose": "stand"
+      },
+      "position": "-3.500 0.320 -3.000",
+      "rotation": "0 43 0",
+      "name": {
+        "en": "Saree",
+        "hi": "साड़ी"
+      }
+    },
+    {
+      "id": "tabla",
+      "build": "tabla",
+      "params": {
+        "size": 0.62
+      },
+      "position": "2.300 1.170 -2.600",
+      "name": {
+        "en": "Music",
+        "hi": "संगीत"
+      },
+      "ring": 0.55
+    },
+    {
+      "id": "rangoli",
+      "build": "rangoli",
+      "params": {
+        "size": 1.7
+      },
+      "position": "0.000 0.340 -3.600",
+      "name": {
+        "en": "Rangoli",
+        "hi": "रंगोली"
+      }
+    },
+    {
+      "id": "diya",
+      "build": "diya",
+      "params": {
+        "size": 0.5
+      },
+      "position": "-2.300 1.170 -2.600",
+      "name": {
+        "en": "Festivals",
+        "hi": "त्योहार"
+      },
+      "ring": 0.45
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "flag",
+      "duration": 9000,
+      "script": {
+        "hi": "भारत में बहुत तरह के लोग रहते हैं। सबकी अपनी भाषा, अपना पहनावा और अपने त्योहार हैं।",
+        "en": "Many kinds of people live in India. Each has their own language, their own dress and their own festivals."
+      }
+    },
+    {
+      "highlight": "namaste",
+      "duration": 8000,
+      "script": {
+        "hi": "हम हाथ जोड़कर नमस्ते करते हैं।",
+        "en": "We join our hands and say namaste."
+      }
+    },
+    {
+      "highlight": "turban",
+      "duration": 8000,
+      "script": {
+        "hi": "कई जगह लोग सिर पर पगड़ी पहनते हैं।",
+        "en": "In many places, people wear a turban on their head."
+      }
+    },
+    {
+      "highlight": "saree",
+      "duration": 8000,
+      "script": {
+        "hi": "बहुत-सी महिलाएँ साड़ी पहनती हैं।",
+        "en": "Many women wear a saree."
+      }
+    },
+    {
+      "highlight": "tabla",
+      "duration": 8000,
+      "script": {
+        "hi": "हमारा संगीत बहुत पुराना है। यह तबला है।",
+        "en": "Our music is very old. This is the tabla."
+      }
+    },
+    {
+      "highlight": "rangoli",
+      "duration": 8000,
+      "script": {
+        "hi": "त्योहारों पर हम आँगन में रंगोली बनाते हैं…",
+        "en": "At festivals we draw a rangoli in the courtyard…"
+      }
+    },
+    {
+      "highlight": "diya",
+      "duration": 8000,
+      "script": {
+        "hi": "…और दीये जलाते हैं।",
+        "en": "…and we light diyas."
+      }
+    },
+    {
+      "highlight": "flag",
+      "duration": 9000,
+      "script": {
+        "hi": "हम अलग-अलग हैं, फिर भी हम सब एक हैं। हम सब भारतीय हैं।",
+        "en": "We are all different, and still we are one. We are all Indian."
+      }
+    }
+  ]
+}

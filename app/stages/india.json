@@ -29,7 +29,7 @@
     "far": 150
   },
   "start": {
-    "position": "0 1.2 5.0",
+    "position": "0 1.52 0.8",
     "facing": 0
   },
   "props": [
@@ -102,12 +102,6 @@
         "surface": "paving",
         "repeat": 4
       }
-    },
-    {
-      "build": "flagpole",
-      "position": "-6.2 0.32 -9.5",
-      "rotation": "0 0 0",
-      "params": {}
     },
     {
       "build": "plinth",

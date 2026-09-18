@@ -1,0 +1,185 @@
+{
+  "id": "evs-ukg-flowers",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "rose",
+      "model": "rose",
+      "position": "-0.420 0.520 -0.780",
+      "scale": "0.680 0.680 0.680",
+      "ring": 0.053,
+      "name": {
+        "en": "Rose",
+        "hi": "गुलाब"
+      }
+    },
+    {
+      "id": "sunflower",
+      "model": "sunflower",
+      "position": "0.000 0.520 -0.780",
+      "scale": "0.267 0.267 0.267",
+      "ring": 0.146,
+      "name": {
+        "en": "Sunflower",
+        "hi": "सूरजमुखी"
+      }
+    },
+    {
+      "id": "marigold",
+      "build": "flower",
+      "params": {
+        "kind": "marigold",
+        "height": 0.32
+      },
+      "position": "0.420 0.520 -0.780",
+      "name": {
+        "en": "Marigold",
+        "hi": "गेंदा"
+      }
+    },
+    {
+      "id": "lotus",
+      "build": "flower",
+      "params": {
+        "kind": "lotus",
+        "height": 0.3
+      },
+      "position": "-0.420 0.520 -0.780",
+      "name": {
+        "en": "Lotus",
+        "hi": "कमल"
+      }
+    },
+    {
+      "id": "hibiscus",
+      "build": "flower",
+      "params": {
+        "kind": "hibiscus",
+        "height": 0.32
+      },
+      "position": "0.000 0.520 -0.780",
+      "name": {
+        "en": "Hibiscus",
+        "hi": "गुड़हल"
+      }
+    },
+    {
+      "id": "jasmine",
+      "build": "flower",
+      "params": {
+        "kind": "jasmine",
+        "height": 0.32
+      },
+      "position": "0.420 0.520 -0.780",
+      "name": {
+        "en": "Jasmine",
+        "hi": "चमेली"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "rose",
+        "sunflower",
+        "marigold"
+      ],
+      "duration": 8000,
+      "script": {
+        "hi": "फूल पौधों पर खिलते हैं। हर फूल का अपना रंग और अपनी ख़ुशबू होती है।",
+        "en": "Flowers bloom on plants. Every flower has its own colour and its own smell."
+      }
+    },
+    {
+      "highlight": "rose",
+      "show": [
+        "rose",
+        "sunflower",
+        "marigold"
+      ],
+      "duration": 8500,
+      "script": {
+        "hi": "यह गुलाब है। गुलाब में काँटे होते हैं। इसकी ख़ुशबू बहुत अच्छी है।",
+        "en": "This is a rose. The rose has thorns. It smells lovely."
+      }
+    },
+    {
+      "highlight": "sunflower",
+      "show": [
+        "rose",
+        "sunflower",
+        "marigold"
+      ],
+      "duration": 8500,
+      "script": {
+        "hi": "यह सूरजमुखी है। यह सूरज की तरफ़ मुँह करता है।",
+        "en": "This is a sunflower. It turns its face to the sun."
+      }
+    },
+    {
+      "highlight": "marigold",
+      "show": [
+        "rose",
+        "sunflower",
+        "marigold"
+      ],
+      "duration": 8500,
+      "script": {
+        "hi": "यह गेंदा है। गेंदे की माला बनती है।",
+        "en": "This is a marigold. We make garlands from marigolds."
+      }
+    },
+    {
+      "highlight": "lotus",
+      "show": [
+        "lotus",
+        "hibiscus",
+        "jasmine"
+      ],
+      "duration": 8500,
+      "script": {
+        "hi": "यह कमल है। कमल पानी में खिलता है। यह हमारा राष्ट्रीय फूल है।",
+        "en": "This is a lotus. The lotus grows in water. It is our national flower."
+      }
+    },
+    {
+      "highlight": "hibiscus",
+      "show": [
+        "lotus",
+        "hibiscus",
+        "jasmine"
+      ],
+      "duration": 8500,
+      "script": {
+        "hi": "यह गुड़हल है। इसका रंग गहरा लाल है।",
+        "en": "This is a hibiscus. It is deep red."
+      }
+    },
+    {
+      "highlight": "jasmine",
+      "show": [
+        "lotus",
+        "hibiscus",
+        "jasmine"
+      ],
+      "duration": 8500,
+      "script": {
+        "hi": "यह चमेली है। ये छोटे सफ़ेद फूल बहुत महकते हैं।",
+        "en": "This is jasmine. These little white flowers smell very sweet."
+      }
+    },
+    {
+      "show": [
+        "lotus",
+        "hibiscus",
+        "jasmine"
+      ],
+      "duration": 8000,
+      "script": {
+        "hi": "फूल पौधे पर ही सुंदर लगते हैं। हम उन्हें बेवजह नहीं तोड़ते।",
+        "en": "Flowers look best on the plant. We do not pluck them for no reason."
+      }
+    }
+  ]
+}

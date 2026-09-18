@@ -1,0 +1,74 @@
+{
+  "id": "evs-nur-school-visit",
+  "template": "explore",
+  "stage": "school",
+  "stageOverride": {},
+  "objects": [
+    {
+      "id": "school",
+      "build": "building",
+      "position": "0 0 -26",
+      "rotation": "0 0 0",
+      "params": {
+        "floors": 3,
+        "width": 20,
+        "depth": 10,
+        "windows": 7,
+        "veranda": true,
+        "sign": "ANGANWADI KENDRA",
+        "wall": "#efe9dc",
+        "trim": "#6b2340",
+        "roof": "#d8d2c4",
+        "glass": "#7fa8c4"
+      },
+      "audio": "school_about.mp3",
+      "script": {
+        "en": "This is our school. We come here to learn and play.",
+        "hi": "यह हमारा स्कूल है। हम यहाँ सीखने और खेलने आते हैं।",
+        "mr": "ही आपली शाळा आहे. आपण इथे शिकायला आणि खेळायला येतो.",
+        "or": "ଏହା ଆମର ବିଦ୍ୟାଳୟ। ଆମେ ଏଠାରେ ଶିଖିବାକୁ ଓ ଖେଳିବାକୁ ଆସୁ।"
+      }
+    },
+    {
+      "id": "kitchen",
+      "build": "building",
+      "position": "-15 0 -22",
+      "rotation": "0 30 0",
+      "params": {
+        "floors": 1,
+        "width": 8,
+        "depth": 7,
+        "windows": 3,
+        "veranda": false,
+        "sign": "",
+        "wall": "#e6dccb",
+        "trim": "#8a6a45",
+        "roof": "#c9c0b0",
+        "glass": "#8fb4cc"
+      },
+      "audio": "kitchen_about.mp3",
+      "script": {
+        "en": "This is the kitchen. Our hot meal is cooked here.",
+        "hi": "यह रसोई है। यहाँ हमारा गरम खाना बनता है।",
+        "mr": "हे स्वयंपाकघर आहे. इथे आपलं गरम जेवण शिजतं.",
+        "or": "ଏହା ରୋଷେଇ ଘର। ଏଠାରେ ଆମର ଗରମ ଖାଦ୍ୟ ରନ୍ଧା ହୁଏ।"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 30000,
+      "script": {
+        "hi": "यह हमारा स्कूल है। चारों तरफ़ देखो। तुम्हें क्या-क्या दिखता है?",
+        "en": "This is our school. Look all around. What can you see?"
+      }
+    },
+    {
+      "duration": 30000,
+      "script": {
+        "hi": "स्कूल की बड़ी इमारत को देखो। हम यहाँ पढ़ने और खेलने आते हैं।",
+        "en": "Look at the big school building. We come here to learn and to play."
+      }
+    }
+  ]
+}

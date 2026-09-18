@@ -1,0 +1,164 @@
+{
+  "id": "evs-ukg-farm-visit",
+  "template": "explore",
+  "stage": "farmyard",
+  "objects": [
+    {
+      "id": "cow",
+      "model": "cow",
+      "position": "-3.600 0.000 -7.200",
+      "rotation": "0 62 0",
+      "ring": 1.52,
+      "name": {
+        "en": "Cow",
+        "hi": "गाय"
+      },
+      "clip": "Armature|Idle",
+      "sound": "cow.mp3",
+      "script": {
+        "hi": "यह गाय है। गाय घास खाती है और हमें दूध देती है। उसके बच्चे को बछड़ा कहते हैं।",
+        "en": "This is a cow. She eats grass and gives us milk. Her baby is called a calf."
+      }
+    },
+    {
+      "id": "horse",
+      "model": "horse",
+      "position": "3.900 0.000 -8.600",
+      "rotation": "0 -59 0",
+      "ring": 1.13,
+      "name": {
+        "en": "Horse",
+        "hi": "घोड़ा"
+      },
+      "clip": "Idle",
+      "sound": "horse.mp3",
+      "script": {
+        "hi": "यह घोड़ा है। घोड़ा गाड़ी खींचता है और तेज़ दौड़ता है।",
+        "en": "This is a horse. The horse pulls carts and runs fast."
+      }
+    },
+    {
+      "id": "goat",
+      "model": "goat",
+      "position": "-1.700 0.000 -4.800",
+      "rotation": "0 55 0",
+      "ring": 0.61,
+      "name": {
+        "en": "Goat",
+        "hi": "बकरी"
+      },
+      "sound": "goat.mp3",
+      "script": {
+        "hi": "यह बकरी है। बकरी पत्ते खाती है और दूध देती है।",
+        "en": "This is a goat. The goat eats leaves and gives milk."
+      }
+    },
+    {
+      "id": "sheep",
+      "model": "sheep",
+      "position": "1.900 0.000 -5.000",
+      "rotation": "0 -56 0",
+      "ring": 0.69,
+      "name": {
+        "en": "Sheep",
+        "hi": "भेड़"
+      },
+      "clip": "Armature|Idle",
+      "sound": "sheep.mp3",
+      "script": {
+        "hi": "यह भेड़ है। भेड़ के बालों से ऊन बनती है।",
+        "en": "This is a sheep. Wool is made from the sheep's coat."
+      }
+    },
+    {
+      "id": "hen",
+      "model": "hen",
+      "position": "2.600 0.000 -3.000",
+      "rotation": "0 -81 0",
+      "ring": 0.28,
+      "scale": "1.400 1.400 1.400",
+      "name": {
+        "en": "Hen",
+        "hi": "मुर्गी"
+      },
+      "sound": "hen.mp3",
+      "script": {
+        "hi": "यह मुर्गी है। मुर्गी दाना चुगती है और अंडे देती है।",
+        "en": "This is a hen. The hen pecks grain and lays eggs."
+      }
+    },
+    {
+      "id": "duck",
+      "model": "duck",
+      "position": "-2.800 0.000 -3.000",
+      "rotation": "0 78 0",
+      "ring": 0.41,
+      "scale": "1.400 1.400 1.400",
+      "name": {
+        "en": "Duck",
+        "hi": "बत्तख"
+      },
+      "sound": "duck.mp3",
+      "script": {
+        "hi": "यह बत्तख है। बत्तख तालाब में तैरती है।",
+        "en": "This is a duck. The duck swims in the pond."
+      }
+    },
+    {
+      "id": "donkey",
+      "model": "donkey",
+      "position": "0.400 0.000 -10.600",
+      "rotation": "0 48 0",
+      "ring": 0.85,
+      "name": {
+        "en": "Donkey",
+        "hi": "गधा"
+      },
+      "clip": "Idle",
+      "sound": "donkey.mp3",
+      "script": {
+        "hi": "यह गधा है। गधा बोझ ढोता है।",
+        "en": "This is a donkey. The donkey carries loads."
+      }
+    },
+    {
+      "id": "dog",
+      "model": "dog",
+      "position": "-0.400 0.000 -2.900",
+      "rotation": "0 33 0",
+      "ring": 0.43,
+      "name": {
+        "en": "Dog",
+        "hi": "कुत्ता"
+      },
+      "sound": "dog.mp3",
+      "script": {
+        "hi": "यह कुत्ता है। कुत्ता खेत की रखवाली करता है।",
+        "en": "This is a dog. The dog guards the farm."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 30000,
+      "script": {
+        "hi": "हम खेत पर आए हैं। चारों तरफ़ देखो। किसी जानवर को देखो, और वह अपने बारे में बताएगा।",
+        "en": "We have come to the farm. Look all around. Look at an animal, and it will tell you about itself."
+      }
+    },
+    {
+      "duration": 30000,
+      "script": {
+        "hi": "कौन-सा जानवर हमें दूध देता है? उसे ढूँढ़ो।",
+        "en": "Which animal gives us milk? Find it."
+      }
+    },
+    {
+      "duration": 30000,
+      "script": {
+        "hi": "कौन अंडे देता है? और ऊन किससे मिलती है?",
+        "en": "Who lays eggs? And who gives us wool?"
+      }
+    }
+  ]
+}

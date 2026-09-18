@@ -33,6 +33,7 @@ const ROLES = {
   soldier: { top: '#5c6b3e', bottom: '#5c6b3e', hat: 'beret', hatColor: '#7a2f2f', belt: true },
   driver: { top: '#e9ecef', bottom: '#2f3a4a', hat: 'peak', hatColor: '#2f3a4a' },
   chef: { top: '#f5f7f8', bottom: '#3a3f48', hat: 'toque', hatColor: '#f5f7f8' },
+  villager: { top: '#f1ece0', bottom: '#f1ece0', hat: 'turban', hatColor: '#e8812c' },
   queen: { top: '#7a3fa0', bottom: '#7a3fa0', saree: '#e2b33c', hair: 'bun', hat: 'crown', hatColor: '#e9b92f' },
   pilot: { top: '#22324f', bottom: '#22324f', hat: 'peak', hatColor: '#f1f3f5', belt: true },
 };
