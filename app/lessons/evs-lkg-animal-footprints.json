@@ -1,0 +1,221 @@
+{
+  "id": "evs-lkg-animal-footprints",
+  "template": "match",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "cowprints",
+      "build": "footprints",
+      "params": {
+        "kind": "cow",
+        "size": 0.55,
+        "count": 6,
+        "stride": 0.78,
+        "gait": 0.26
+      },
+      "position": "0.000 0.000 -1.300",
+      "name": {
+        "en": "Footprints",
+        "hi": "पैरों के निशान"
+      }
+    },
+    {
+      "id": "cow",
+      "model": "zebu",
+      "position": "0.000 0.000 -6.200",
+      "rotation": "0 0 0",
+      "clip": "Armature|CombinedAnim|Base Layer.001",
+      "clipSpeed": 0.8,
+      "name": {
+        "en": "Cow",
+        "hi": "गाय"
+      },
+      "ring": 1.2
+    },
+    {
+      "id": "horseprints",
+      "build": "footprints",
+      "params": {
+        "kind": "horse",
+        "size": 0.55,
+        "count": 6,
+        "stride": 0.78,
+        "gait": 0.26
+      },
+      "position": "0.000 0.000 -1.300",
+      "name": {
+        "en": "Footprints",
+        "hi": "पैरों के निशान"
+      }
+    },
+    {
+      "id": "horse",
+      "model": "realhorse",
+      "position": "0.000 0.000 -6.400",
+      "rotation": "0 0 0",
+      "clip": "Skeleton|6 Eat",
+      "clipSpeed": 0.7,
+      "name": {
+        "en": "Horse",
+        "hi": "घोड़ा"
+      },
+      "ring": 1.3
+    },
+    {
+      "id": "henprints",
+      "build": "footprints",
+      "params": {
+        "kind": "hen",
+        "size": 0.42,
+        "count": 5,
+        "stride": 0.5,
+        "gait": 0.17
+      },
+      "position": "0.000 0.000 -1.300",
+      "name": {
+        "en": "Footprints",
+        "hi": "पैरों के निशान"
+      }
+    },
+    {
+      "id": "hen",
+      "model": "realhen",
+      "position": "0.000 0.000 -4.200",
+      "rotation": "0 0 0",
+      "clip": "peck_idle2",
+      "clipSpeed": 0.45,
+      "name": {
+        "en": "Hen",
+        "hi": "मुर्गी"
+      },
+      "ring": 0.5
+    },
+    {
+      "id": "elephantprints",
+      "build": "footprints",
+      "params": {
+        "kind": "elephant",
+        "size": 0.85,
+        "count": 6,
+        "stride": 1.15,
+        "gait": 0.5
+      },
+      "position": "0.000 0.000 -1.300",
+      "name": {
+        "en": "Footprints",
+        "hi": "पैरों के निशान"
+      }
+    },
+    {
+      "id": "elephant",
+      "model": "realelephant",
+      "position": "0.000 0.000 -9.500",
+      "rotation": "0 0 0",
+      "clip": "Stand_01",
+      "clipSpeed": 0.75,
+      "name": {
+        "en": "Elephant",
+        "hi": "हाथी"
+      },
+      "ring": 2.4
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "cowprints"
+      ],
+      "highlight": "cowprints",
+      "duration": 8000,
+      "script": {
+        "hi": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+        "en": "Whose footprints are these on the ground?"
+      }
+    },
+    {
+      "show": [
+        "cowprints",
+        "cow"
+      ],
+      "highlight": "cow",
+      "partner": "cowprints",
+      "duration": 8000,
+      "script": {
+        "hi": "ये गाय के पैरों के निशान हैं!",
+        "en": "The cow made them!"
+      }
+    },
+    {
+      "show": [
+        "horseprints"
+      ],
+      "highlight": "horseprints",
+      "duration": 8000,
+      "script": {
+        "hi": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+        "en": "Whose footprints are these on the ground?"
+      }
+    },
+    {
+      "show": [
+        "horseprints",
+        "horse"
+      ],
+      "highlight": "horse",
+      "partner": "horseprints",
+      "duration": 8000,
+      "script": {
+        "hi": "ये घोड़ा के पैरों के निशान हैं!",
+        "en": "The horse made them!"
+      }
+    },
+    {
+      "show": [
+        "henprints"
+      ],
+      "highlight": "henprints",
+      "duration": 8000,
+      "script": {
+        "hi": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+        "en": "Whose footprints are these on the ground?"
+      }
+    },
+    {
+      "show": [
+        "henprints",
+        "hen"
+      ],
+      "highlight": "hen",
+      "partner": "henprints",
+      "duration": 8000,
+      "script": {
+        "hi": "ये मुर्गी के पैरों के निशान हैं!",
+        "en": "The hen made them!"
+      }
+    },
+    {
+      "show": [
+        "elephantprints"
+      ],
+      "highlight": "elephantprints",
+      "duration": 8000,
+      "script": {
+        "hi": "ज़मीन पर ये निशान किसके पैरों के हैं?",
+        "en": "Whose footprints are these on the ground?"
+      }
+    },
+    {
+      "show": [
+        "elephantprints",
+        "elephant"
+      ],
+      "highlight": "elephant",
+      "partner": "elephantprints",
+      "duration": 8000,
+      "script": {
+        "hi": "ये हाथी के पैरों के निशान हैं!",
+        "en": "The elephant made them!"
+      }
+    }
+  ]
+}

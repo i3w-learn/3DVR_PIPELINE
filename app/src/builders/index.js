@@ -35,5 +35,6 @@ import './snow.js';
 import './space.js';
 import './street.js';
 import './terrain.js';
+import './tracks.js';
 import './wall.js';
 import './water.js';

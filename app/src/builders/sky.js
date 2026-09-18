@@ -393,3 +393,49 @@ AFRAME.registerComponent('sundisc', {
     this.el.removeObject3D('mesh');
   },
 });
+
+/**
+ * An open umbrella, standing on its handle.
+ *
+ * The monsoon needs one. Rain is a cloud; what a five-year-old associates with
+ * rain is the umbrella, and it is a cone, a stick and a hook.
+ */
+AFRAME.registerComponent('umbrella', {
+  schema: {
+    size: { type: 'number', default: 1.2 },
+    canopy: { type: 'color', default: '#d9362b' },
+    stripe: { type: 'color', default: '#f4ead6' },
+    handle: { type: 'color', default: '#4a3a2a' },
+  },
+
+  ...direct,
+
+  parts() {
+    const { size: s, canopy, stripe, handle } = this.data;
+    const parts = [];
+    this.spots.push({ x: 0, z: 0, r: s * 0.5 });
+
+    // Eight panels, alternating, like the balloon's gores.
+    for (let i = 0; i < 8; i += 1) {
+      parts.push({
+        geometry: new THREE.ConeGeometry(s * 0.55, s * 0.26, 1, 1, true, (i / 8) * Math.PI * 2, Math.PI / 4),
+        matrix: place(0, s * 0.95, 0),
+        color: i % 2 ? stripe : canopy,
+        shade: [0.8, 1.08],
+      });
+    }
+
+    parts.push(rod([0, s * 0.12, 0], [0, s * 1.12, 0], s * 0.014, handle, 6));
+    parts.push({
+      geometry: new THREE.TorusGeometry(s * 0.06, s * 0.014, 5, 10, Math.PI),
+      matrix: place(s * 0.06, s * 0.12, 0, { rz: Math.PI }),
+      color: handle,
+    });
+
+    return parts;
+  },
+
+  highlightAnchor() {
+    return { object3D: this.el.object3D, radius: this.data.size * 0.6, thickness: 0.05 };
+  },
+});

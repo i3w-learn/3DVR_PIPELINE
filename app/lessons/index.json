@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T11:51:00.083Z",
+  "generated": "2026-09-18T11:56:31.174Z",
   "lessons": {
     "demo-home": "demo/demo-home.json",
     "demo-india": "demo/demo-india.json",
@@ -24,12 +24,15 @@
     "eng-nur-vegetables": "eng-nur-vegetables.json",
     "eng-ukg-behind-front": "eng-ukg-behind-front.json",
     "eng-ukg-phonics": "eng-ukg-phonics.json",
+    "evs-lkg-animal-footprints": "evs-lkg-animal-footprints.json",
     "evs-lkg-farm-animals": "demo/evs-lkg-farm-animals.json",
     "evs-lkg-farm-yard": "evs-lkg-farm-yard.json",
     "evs-lkg-healthy-food": "evs-lkg-healthy-food.json",
+    "evs-lkg-house-parts": "evs-lkg-house-parts.json",
     "evs-lkg-market": "evs-lkg-market.json",
     "evs-nur-rainbow": "evs-nur-rainbow.json",
     "evs-ukg-balloon-ride": "evs-ukg-balloon-ride.json",
+    "evs-ukg-seasons": "evs-ukg-seasons.json",
     "evs-ukg-snow-camp": "evs-ukg-snow-camp.json",
     "evs-ukg-solar-system": "evs-ukg-solar-system.json",
     "evs-ukg-village-city": "evs-ukg-village-city.json",

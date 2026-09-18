@@ -1,0 +1,137 @@
+{
+  "id": "evs-lkg-house-parts",
+  "template": "identify",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "walls",
+      "build": "housepart",
+      "params": {
+        "kind": "walls",
+        "width": 5.4,
+        "height": 2.8,
+        "depth": 4,
+        "color": "#f0e2c4"
+      },
+      "position": "0.000 0.000 -11.000",
+      "name": {
+        "en": "Wall",
+        "hi": "दीवार"
+      }
+    },
+    {
+      "id": "roof",
+      "build": "housepart",
+      "params": {
+        "kind": "roof",
+        "width": 6.2,
+        "height": 1.7,
+        "depth": 4.8,
+        "color": "#b5483a",
+        "trim": "#8e3a2e"
+      },
+      "position": "0.000 2.800 -11.000",
+      "name": {
+        "en": "Roof",
+        "hi": "छत"
+      }
+    },
+    {
+      "id": "door",
+      "build": "housepart",
+      "params": {
+        "kind": "door",
+        "width": 1.0,
+        "height": 2.0,
+        "color": "#7a4a2b",
+        "trim": "#4a2c18"
+      },
+      "position": "-1.100 0.000 -8.960",
+      "name": {
+        "en": "Door",
+        "hi": "दरवाज़ा"
+      }
+    },
+    {
+      "id": "window",
+      "build": "housepart",
+      "params": {
+        "kind": "window",
+        "width": 1.2,
+        "height": 1.0,
+        "color": "#9cc4dc",
+        "trim": "#4a2c18"
+      },
+      "position": "1.300 1.500 -8.960",
+      "name": {
+        "en": "Window",
+        "hi": "खिड़की"
+      }
+    },
+    {
+      "id": "steps",
+      "build": "housepart",
+      "params": {
+        "kind": "steps",
+        "width": 1.5,
+        "height": 0.34,
+        "depth": 0.9,
+        "color": "#b9b2a2"
+      },
+      "position": "-1.100 0.000 -8.500",
+      "name": {
+        "en": "Steps",
+        "hi": "सीढ़ी"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "यह एक घर है। घर के कई हिस्से होते हैं।",
+        "en": "This is a house. A house has many parts."
+      }
+    },
+    {
+      "highlight": "walls",
+      "duration": 7000,
+      "script": {
+        "hi": "ये दीवारें हैं। ये घर को खड़ा रखती हैं।",
+        "en": "These are the walls. They hold the house up."
+      }
+    },
+    {
+      "highlight": "roof",
+      "duration": 7000,
+      "script": {
+        "hi": "यह छत है। यह हमें धूप और बारिश से बचाती है।",
+        "en": "This is the roof. It keeps off the sun and the rain."
+      }
+    },
+    {
+      "highlight": "door",
+      "duration": 7000,
+      "script": {
+        "hi": "यह दरवाज़ा है। हम इससे अंदर जाते हैं।",
+        "en": "This is the door. We go in through it."
+      }
+    },
+    {
+      "highlight": "window",
+      "duration": 7000,
+      "script": {
+        "hi": "यह खिड़की है। इससे हवा और रोशनी आती है।",
+        "en": "This is the window. It lets in air and light."
+      }
+    },
+    {
+      "highlight": "steps",
+      "duration": 7000,
+      "script": {
+        "hi": "और ये सीढ़ियाँ हैं।",
+        "en": "And these are the steps."
+      }
+    }
+  ]
+}
