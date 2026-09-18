@@ -49,36 +49,72 @@ export function flatMaterial() {
   return land;
 }
 
-/** Soft dark patches on the ground under things. See `groundShadows`. */
+/**
+ * Soft dark patches on the ground under things. See `groundShadows`.
+ *
+ * The darkness comes from a radial gradient drawn once to a canvas: opaque in
+ * the middle, nothing at the rim. A plain dark disc has a hard edge, and from
+ * across a field that is invisible — but on a table thirty centimetres from a
+ * child's face it looked like a stain with corners.
+ */
 let shadow = null;
 
 function shadowMaterial() {
-  shadow ??= new THREE.MeshBasicMaterial({
-    color: '#0e1a12', transparent: true, opacity: 0.26, depthWrite: false, fog: true,
+  if (shadow) return shadow;
+
+  const canvas = document.createElement('canvas');
+  canvas.width = canvas.height = 64;
+  const ctx = canvas.getContext('2d');
+  const fade = ctx.createRadialGradient(32, 32, 0, 32, 32, 32);
+  fade.addColorStop(0, 'rgba(0,0,0,0.55)');
+  fade.addColorStop(0.45, 'rgba(0,0,0,0.34)');
+  fade.addColorStop(1, 'rgba(0,0,0,0)');
+  ctx.fillStyle = fade;
+  ctx.fillRect(0, 0, 64, 64);
+
+  shadow = new THREE.MeshBasicMaterial({
+    map: new THREE.CanvasTexture(canvas), color: '#0e1a12',
+    transparent: true, depthWrite: false, fog: true,
   });
   return shadow;
 }
 
 /**
- * Blob shadows: one dark disc on the ground under each thing, all one mesh.
+ * Blob shadows: one soft dark patch on the ground under each thing, all one
+ * mesh.
  *
  * Real shadow maps are off in these lands — a shadow pass doubles the draw
  * cost and a Quest cannot spare it. But with no shadow at all nothing is
  * anchored: every tree looked pasted onto the grass rather than growing out of
- * it, which was most of why the scenes read as flat. A soft dark ellipse under
+ * it, which was most of why the scenes read as flat. A soft dark patch under
  * each object is the oldest trick in games and costs one draw call per land.
  *
  * @param {{x: number, z: number, r: number}[]} spots
  */
 export function groundShadows(spots) {
-  const parts = spots.map(({ x, z, r }) => ({
-    // Slightly off-centre, away from the sun, so it reads as cast not painted.
-    geometry: new THREE.CircleGeometry(r, 14).rotateX(-Math.PI / 2),
-    matrix: place(x - r * 0.18, 0.03, z - r * 0.12, { sx: 1.25 }),
-    color: '#000000',
-  }));
+  const position = [];
+  const uv = [];
 
-  const mesh = new THREE.Mesh(mergeParts(parts), shadowMaterial());
+  for (const { x, z, r } of spots) {
+    // A quad, slightly off-centre away from the sun and stretched along it, so
+    // it reads as cast rather than painted. The gradient rounds the corners.
+    const cx = x - r * 0.18, cz = z - r * 0.12;
+    const w = r * 1.5, d = r * 1.2;
+    const corners = [[-w, -d, 0, 0], [w, -d, 1, 0], [w, d, 1, 1], [-w, d, 0, 1]];
+
+    for (const i of [0, 2, 1, 0, 3, 2]) {
+      const [dx, dz, u, v] = corners[i];
+      position.push(cx + dx, 0.03, cz + dz);
+      uv.push(u, v);
+    }
+  }
+
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute('position', new THREE.BufferAttribute(new Float32Array(position), 3));
+  geometry.setAttribute('uv', new THREE.BufferAttribute(new Float32Array(uv), 2));
+  geometry.computeBoundingSphere();
+
+  const mesh = new THREE.Mesh(geometry, shadowMaterial());
   mesh.renderOrder = 1;
   return mesh;
 }
@@ -342,6 +378,36 @@ AFRAME.registerComponent('grove', {
     }
 
     return parts;
+  },
+});
+
+/**
+ * One broadleaf tree, for a lesson that points at it.
+ *
+ * `grove` and `avenue` are scenery: many trees, one mesh, nothing to ring. A
+ * lesson about taller and shorter needs two trees it can name, so this is the
+ * same tree as an object in its own right — with a ring sized to its trunk
+ * rather than the 0.9 m default, which round a 3 m sapling is wider than the
+ * sapling.
+ */
+AFRAME.registerComponent('tree', {
+  schema: {
+    height: { type: 'number', default: 5 },
+    leaf: { type: 'color', default: '#4a8a45' },
+    trunk: { type: 'color', default: '#5d4632' },
+    seed: { type: 'number', default: 5 },
+  },
+
+  ...direct,
+
+  parts() {
+    const { height, leaf, trunk, seed } = this.data;
+    this.spots.push({ x: 0, z: 0, r: height * 0.42 });
+    return roundParts(0, 0, height, leaf, trunk, seeded(seed));
+  },
+
+  highlightAnchor() {
+    return { object3D: this.el.object3D, radius: Math.max(0.7, this.data.height * 0.26), thickness: 0.06 };
   },
 });
 

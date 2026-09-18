@@ -24,6 +24,7 @@ import './glyph.js';
 import './home.js';
 import './india.js';
 import './lab.js';
+import './measure.js';
 import './path.js';
 import './playground.js';
 import './portal.js';
