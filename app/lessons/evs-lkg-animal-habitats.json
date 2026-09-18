@@ -1,0 +1,223 @@
+{
+  "id": "evs-lkg-animal-habitats",
+  "template": "match",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "sparrow",
+      "model": "sparrow",
+      "position": "-4.300 0.000 -4.200",
+      "rotation": "0 86 0",
+      "ring": 0.39,
+      "scale": "3.200 3.200 3.200",
+      "name": {
+        "en": "Sparrow",
+        "hi": "गौरैया"
+      }
+    },
+    {
+      "id": "nest",
+      "model": "nest",
+      "position": "-3.100 0.000 -3.300",
+      "scale": "2.667 2.667 2.667",
+      "ring": 0.496,
+      "name": {
+        "en": "Nest",
+        "hi": "घोंसला"
+      }
+    },
+    {
+      "id": "dog",
+      "model": "dog",
+      "position": "-2.200 0.000 -5.600",
+      "rotation": "0 61 0",
+      "ring": 0.43,
+      "name": {
+        "en": "Dog",
+        "hi": "कुत्ता"
+      }
+    },
+    {
+      "id": "kennel",
+      "build": "kennel",
+      "params": {
+        "width": 1.0
+      },
+      "position": "-1.000 0.000 -6.400",
+      "rotation": "0 12 0",
+      "name": {
+        "en": "Kennel",
+        "hi": "कुत्ताघर"
+      },
+      "ring": 1.0
+    },
+    {
+      "id": "bee",
+      "model": "bee",
+      "position": "0.900 1.250 -3.600",
+      "rotation": "0 -54 0",
+      "ring": 0.35,
+      "scale": "3.500 3.500 3.500",
+      "name": {
+        "en": "Bee",
+        "hi": "मधुमक्खी"
+      }
+    },
+    {
+      "id": "hive",
+      "build": "hive",
+      "params": {
+        "height": 1.0
+      },
+      "position": "1.700 0.000 -4.400",
+      "name": {
+        "en": "Hive",
+        "hi": "छत्ता"
+      },
+      "ring": 0.6
+    },
+    {
+      "id": "lion",
+      "model": "lion",
+      "position": "4.400 0.000 -7.400",
+      "rotation": "0 -76 0",
+      "ring": 1.41,
+      "name": {
+        "en": "Lion",
+        "hi": "शेर"
+      }
+    },
+    {
+      "id": "den",
+      "build": "den",
+      "params": {
+        "width": 3.4
+      },
+      "position": "6.600 0.000 -10.200",
+      "rotation": "0 -30 0",
+      "name": {
+        "en": "Den",
+        "hi": "माँद"
+      },
+      "ring": 2.4
+    },
+    {
+      "id": "cow",
+      "model": "cow",
+      "position": "-5.600 0.000 -9.400",
+      "rotation": "0 81 0",
+      "ring": 1.52,
+      "name": {
+        "en": "Cow",
+        "hi": "गाय"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "shed",
+      "model": "barn",
+      "position": "-7.500 0.000 -14.500",
+      "rotation": "0 27 0",
+      "ring": 3.4,
+      "scale": "0.800 0.800 0.800",
+      "name": {
+        "en": "Shed",
+        "hi": "गौशाला"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "हम घर में रहते हैं। जानवरों के भी घर होते हैं। देखो, कौन कहाँ रहता है।",
+        "en": "We live in a house. Animals have homes too. Let us see who lives where."
+      }
+    },
+    {
+      "highlight": "sparrow",
+      "duration": 6000,
+      "script": {
+        "hi": "यह गौरैया है।",
+        "en": "This is a sparrow."
+      }
+    },
+    {
+      "highlight": "nest",
+      "partner": "sparrow",
+      "duration": 8000,
+      "script": {
+        "hi": "गौरैया घोंसले में रहती है।",
+        "en": "The sparrow lives in a nest."
+      }
+    },
+    {
+      "highlight": "dog",
+      "duration": 6000,
+      "script": {
+        "hi": "यह कुत्ता है।",
+        "en": "This is a dog."
+      }
+    },
+    {
+      "highlight": "kennel",
+      "partner": "dog",
+      "duration": 8000,
+      "script": {
+        "hi": "कुत्ता कुत्ताघर में रहता है।",
+        "en": "The dog lives in a kennel."
+      }
+    },
+    {
+      "highlight": "bee",
+      "duration": 6000,
+      "script": {
+        "hi": "यह मधुमक्खी है।",
+        "en": "This is a bee."
+      }
+    },
+    {
+      "highlight": "hive",
+      "partner": "bee",
+      "duration": 8000,
+      "script": {
+        "hi": "मधुमक्खी छत्ते में रहती है।",
+        "en": "The bee lives in a hive."
+      }
+    },
+    {
+      "highlight": "lion",
+      "duration": 6000,
+      "script": {
+        "hi": "यह शेर है।",
+        "en": "This is a lion."
+      }
+    },
+    {
+      "highlight": "den",
+      "partner": "lion",
+      "duration": 8000,
+      "script": {
+        "hi": "शेर माँद में रहता है।",
+        "en": "The lion lives in a den."
+      }
+    },
+    {
+      "highlight": "cow",
+      "duration": 6000,
+      "script": {
+        "hi": "यह गाय है।",
+        "en": "This is a cow."
+      }
+    },
+    {
+      "highlight": "shed",
+      "partner": "cow",
+      "duration": 8000,
+      "script": {
+        "hi": "गाय गौशाला में रहती है।",
+        "en": "The cow lives in a shed."
+      }
+    }
+  ]
+}

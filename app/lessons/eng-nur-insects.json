@@ -1,0 +1,201 @@
+{
+  "id": "eng-nur-insects",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "ant",
+      "model": "ant",
+      "position": "-0.540 0.520 -0.750",
+      "scale": "2.700 2.700 2.700",
+      "ring": 0.2,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Ant",
+        "hi": "चींटी"
+      }
+    },
+    {
+      "id": "bee",
+      "model": "bee",
+      "position": "-0.180 0.520 -0.750",
+      "scale": "2.700 2.700 2.700",
+      "ring": 0.227,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Bee",
+        "hi": "मधुमक्खी"
+      }
+    },
+    {
+      "id": "butterfly",
+      "model": "butterfly",
+      "position": "0.180 0.520 -0.750",
+      "scale": "2.250 2.250 2.250",
+      "ring": 0.223,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Butterfly",
+        "hi": "तितली"
+      }
+    },
+    {
+      "id": "ladybug",
+      "model": "ladybug",
+      "position": "0.540 0.520 -0.750",
+      "scale": "3.375 3.375 3.375",
+      "ring": 0.199,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Ladybird",
+        "hi": "लेडीबग"
+      }
+    },
+    {
+      "id": "dragonfly",
+      "model": "dragonfly",
+      "position": "-0.360 0.520 -0.750",
+      "scale": "2.250 2.250 2.250",
+      "ring": 0.209,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Dragonfly",
+        "hi": "व्याध पतंगा"
+      }
+    },
+    {
+      "id": "grasshopper",
+      "model": "grasshopper",
+      "position": "0.000 0.520 -0.750",
+      "scale": "2.700 2.700 2.700",
+      "ring": 0.182,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Grasshopper",
+        "hi": "टिड्डा"
+      }
+    },
+    {
+      "id": "housefly",
+      "model": "housefly",
+      "position": "0.360 0.520 -0.750",
+      "scale": "3.375 3.375 3.375",
+      "ring": 0.199,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Housefly",
+        "hi": "मक्खी"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "ant",
+        "bee",
+        "butterfly",
+        "ladybug"
+      ],
+      "duration": 9000,
+      "script": {
+        "hi": "ये कीड़े हैं। कीड़े बहुत छोटे होते हैं — यहाँ हमने इन्हें बड़ा करके दिखाया है। गिनो, हर कीड़े के छह पैर हैं।",
+        "en": "These are insects. Insects are very small — here we have made them big so you can see. Count: every insect has six legs."
+      }
+    },
+    {
+      "highlight": "ant",
+      "show": [
+        "ant",
+        "bee",
+        "butterfly",
+        "ladybug"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह चींटी है। चींटी बहुत मेहनती होती है।",
+        "en": "This is an ant. The ant works very hard."
+      }
+    },
+    {
+      "highlight": "bee",
+      "show": [
+        "ant",
+        "bee",
+        "butterfly",
+        "ladybug"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह मधुमक्खी है। मधुमक्खी शहद बनाती है।",
+        "en": "This is a bee. The bee makes honey."
+      }
+    },
+    {
+      "highlight": "butterfly",
+      "show": [
+        "ant",
+        "bee",
+        "butterfly",
+        "ladybug"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह तितली है। तितली के पंख रंग-बिरंगे हैं।",
+        "en": "This is a butterfly. The butterfly has colourful wings."
+      }
+    },
+    {
+      "highlight": "ladybug",
+      "show": [
+        "ant",
+        "bee",
+        "butterfly",
+        "ladybug"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह लेडीबग है। इसकी लाल पीठ पर काले धब्बे हैं।",
+        "en": "This is a ladybird. It has black spots on its red back."
+      }
+    },
+    {
+      "highlight": "dragonfly",
+      "show": [
+        "dragonfly",
+        "grasshopper",
+        "housefly"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह व्याध पतंगा है। यह पानी के पास उड़ता है।",
+        "en": "This is a dragonfly. It flies near water."
+      }
+    },
+    {
+      "highlight": "grasshopper",
+      "show": [
+        "dragonfly",
+        "grasshopper",
+        "housefly"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह टिड्डा है। टिड्डा ऊँचा कूदता है।",
+        "en": "This is a grasshopper. The grasshopper jumps high."
+      }
+    },
+    {
+      "highlight": "housefly",
+      "show": [
+        "dragonfly",
+        "grasshopper",
+        "housefly"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह मक्खी है। मक्खी गंदगी पर बैठती है, इसलिए खाना ढककर रखो।",
+        "en": "This is a housefly. It sits on dirt, so keep your food covered."
+      }
+    }
+  ]
+}

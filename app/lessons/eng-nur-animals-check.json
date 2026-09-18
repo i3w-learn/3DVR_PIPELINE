@@ -1,0 +1,254 @@
+{
+  "id": "eng-nur-animals-check",
+  "template": "sort",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "r1cow",
+      "model": "cow",
+      "position": "-0.420 0.520 -0.800",
+      "scale": "0.118 0.118 0.118",
+      "ring": 0.192,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Cow",
+        "hi": "गाय"
+      }
+    },
+    {
+      "id": "r1clownfish",
+      "model": "clownfish",
+      "position": "0.000 0.520 -0.800",
+      "scale": "1.000 1.000 1.000",
+      "ring": 0.191,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Fish",
+        "hi": "मछली"
+      }
+    },
+    {
+      "id": "r1lion",
+      "model": "lion",
+      "position": "0.420 0.520 -0.800",
+      "scale": "0.128 0.128 0.128",
+      "ring": 0.191,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Lion",
+        "hi": "शेर"
+      }
+    },
+    {
+      "id": "r2tiger",
+      "model": "tiger",
+      "position": "-0.420 0.520 -0.800",
+      "scale": "0.161 0.161 0.161",
+      "ring": 0.19,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Tiger",
+        "hi": "बाघ"
+      }
+    },
+    {
+      "id": "r2dog",
+      "model": "dog",
+      "position": "0.000 0.520 -0.800",
+      "scale": "0.416 0.416 0.416",
+      "ring": 0.194,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Dog",
+        "hi": "कुत्ता"
+      }
+    },
+    {
+      "id": "r2dolphin",
+      "model": "dolphin",
+      "position": "0.420 0.520 -0.800",
+      "scale": "0.136 0.136 0.136",
+      "ring": 0.196,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Dolphin",
+        "hi": "डॉल्फ़िन"
+      }
+    },
+    {
+      "id": "r3turtle",
+      "model": "turtle",
+      "position": "-0.420 0.520 -0.800",
+      "scale": "0.500 0.500 0.500",
+      "ring": 0.222,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Turtle",
+        "hi": "कछुआ"
+      }
+    },
+    {
+      "id": "r3elephant",
+      "model": "elephant",
+      "position": "0.000 0.520 -0.800",
+      "scale": "0.076 0.076 0.076",
+      "ring": 0.22,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Elephant",
+        "hi": "हाथी"
+      }
+    },
+    {
+      "id": "r3goat",
+      "model": "goat",
+      "position": "0.420 0.520 -0.800",
+      "scale": "0.294 0.294 0.294",
+      "ring": 0.192,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Goat",
+        "hi": "बकरी"
+      }
+    },
+    {
+      "id": "r4hen",
+      "model": "hen",
+      "position": "-0.420 0.520 -0.800",
+      "scale": "0.714 0.714 0.714",
+      "ring": 0.174,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Hen",
+        "hi": "मुर्गी"
+      }
+    },
+    {
+      "id": "r4whale",
+      "model": "whale",
+      "position": "0.000 0.520 -0.800",
+      "scale": "0.050 0.050 0.050",
+      "ring": 0.199,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Whale",
+        "hi": "व्हेल"
+      }
+    },
+    {
+      "id": "r4monkey",
+      "model": "monkey",
+      "position": "0.420 0.520 -0.800",
+      "scale": "0.274 0.274 0.274",
+      "ring": 0.198,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Monkey",
+        "hi": "बंदर"
+      }
+    },
+    {
+      "id": "r5octopus",
+      "model": "octopus",
+      "position": "-0.420 0.520 -0.800",
+      "scale": "0.600 0.600 0.600",
+      "ring": 0.259,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Octopus",
+        "hi": "ऑक्टोपस"
+      }
+    },
+    {
+      "id": "r5cat",
+      "model": "cat",
+      "position": "0.000 0.520 -0.800",
+      "scale": "0.938 0.938 0.938",
+      "ring": 0.179,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Cat",
+        "hi": "बिल्ली"
+      }
+    },
+    {
+      "id": "r5giraffe",
+      "model": "giraffe",
+      "position": "0.420 0.520 -0.800",
+      "scale": "0.067 0.067 0.067",
+      "ring": 0.136,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Giraffe",
+        "hi": "जिराफ़"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "r1cow",
+        "r1clownfish",
+        "r1lion"
+      ],
+      "answer": "r1clownfish",
+      "duration": 12000,
+      "script": {
+        "hi": "इनमें से कौन पानी में रहता है? उसे छुओ।",
+        "en": "Which of these lives in water? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r2tiger",
+        "r2dog",
+        "r2dolphin"
+      ],
+      "answer": "r2tiger",
+      "duration": 12000,
+      "script": {
+        "hi": "इनमें से जंगली जानवर कौन सा है?",
+        "en": "Which of these is a wild animal?"
+      }
+    },
+    {
+      "show": [
+        "r3turtle",
+        "r3elephant",
+        "r3goat"
+      ],
+      "answer": "r3goat",
+      "duration": 12000,
+      "script": {
+        "hi": "इनमें से पालतू जानवर कौन सा है? वह हमारे साथ रहता है।",
+        "en": "Which of these is a domestic animal? It lives with us."
+      }
+    },
+    {
+      "show": [
+        "r4hen",
+        "r4whale",
+        "r4monkey"
+      ],
+      "answer": "r4whale",
+      "duration": 12000,
+      "script": {
+        "hi": "इनमें से कौन समुद्र में रहता है?",
+        "en": "Which of these lives in the sea?"
+      }
+    },
+    {
+      "show": [
+        "r5octopus",
+        "r5cat",
+        "r5giraffe"
+      ],
+      "answer": "r5giraffe",
+      "duration": 12000,
+      "script": {
+        "hi": "इनमें से कौन जंगल में रहता है?",
+        "en": "Which of these lives in the forest?"
+      }
+    }
+  ]
+}

@@ -330,7 +330,7 @@ AFRAME.registerComponent('snowfall', {
  */
 let dot = null;
 
-function flake() {
+export function flake() {
   if (dot) return dot;
 
   const canvas = document.createElement('canvas');

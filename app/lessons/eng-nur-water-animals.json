@@ -1,0 +1,178 @@
+{
+  "id": "eng-nur-water-animals",
+  "template": "identify",
+  "stage": "sea",
+  "objects": [
+    {
+      "id": "fish",
+      "model": "clownfish",
+      "position": "-1.300 1.250 -2.600",
+      "rotation": "0 107 0",
+      "ring": 0.45,
+      "scale": "2.600 2.600 2.600",
+      "name": {
+        "en": "Fish",
+        "hi": "मछली"
+      },
+      "clip": "Armature|Swim"
+    },
+    {
+      "id": "turtle",
+      "model": "turtle",
+      "position": "1.500 1.000 -3.000",
+      "rotation": "0 -102 0",
+      "ring": 0.6,
+      "scale": "1.500 1.500 1.500",
+      "name": {
+        "en": "Turtle",
+        "hi": "कछुआ"
+      }
+    },
+    {
+      "id": "dolphin",
+      "model": "dolphin",
+      "position": "-4.200 2.300 -7.500",
+      "rotation": "0 109 0",
+      "ring": 1.2,
+      "name": {
+        "en": "Dolphin",
+        "hi": "डॉल्फ़िन"
+      },
+      "clip": "Armature|Swim"
+    },
+    {
+      "id": "whale",
+      "model": "whale",
+      "position": "7.500 4.200 -17.000",
+      "rotation": "0 -104 0",
+      "ring": 4.5,
+      "scale": "1.500 1.500 1.500",
+      "name": {
+        "en": "Whale",
+        "hi": "व्हेल"
+      },
+      "clip": "Armature|Swim"
+    },
+    {
+      "id": "octopus",
+      "model": "octopus",
+      "position": "3.200 0.000 -4.600",
+      "rotation": "0 -55 0",
+      "ring": 0.75,
+      "scale": "2.200 2.200 2.200",
+      "name": {
+        "en": "Octopus",
+        "hi": "ऑक्टोपस"
+      }
+    },
+    {
+      "id": "crab",
+      "model": "crab",
+      "position": "-2.600 0.000 -3.400",
+      "rotation": "0 57 0",
+      "ring": 0.55,
+      "scale": "3.200 3.200 3.200",
+      "name": {
+        "en": "Crab",
+        "hi": "केकड़ा"
+      }
+    },
+    {
+      "id": "starfish",
+      "model": "starfish",
+      "position": "0.200 0.000 -2.300",
+      "rotation": "0 -5 0",
+      "ring": 0.5,
+      "scale": "3.000 3.000 3.000",
+      "name": {
+        "en": "Starfish",
+        "hi": "तारा मछली"
+      }
+    },
+    {
+      "id": "seahorse",
+      "model": "seahorse",
+      "position": "-0.200 1.200 -4.400",
+      "rotation": "0 3 0",
+      "ring": 0.4,
+      "scale": "3.000 3.000 3.000",
+      "name": {
+        "en": "Seahorse",
+        "hi": "समुद्री घोड़ा"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "हम समुद्र के अंदर हैं। यहाँ पानी में बहुत सारे जानवर रहते हैं।",
+        "en": "We are under the sea. So many animals live here in the water."
+      }
+    },
+    {
+      "highlight": "fish",
+      "duration": 7000,
+      "script": {
+        "hi": "यह मछली है। मछली पानी में तैरती है।",
+        "en": "This is a fish. The fish swims in the water."
+      }
+    },
+    {
+      "highlight": "turtle",
+      "duration": 7000,
+      "script": {
+        "hi": "यह कछुआ है। कछुए की पीठ पर कड़ा खोल होता है।",
+        "en": "This is a turtle. The turtle has a hard shell on its back."
+      }
+    },
+    {
+      "highlight": "dolphin",
+      "duration": 7000,
+      "script": {
+        "hi": "यह डॉल्फ़िन है। डॉल्फ़िन बहुत समझदार होती है।",
+        "en": "This is a dolphin. The dolphin is very clever."
+      }
+    },
+    {
+      "highlight": "whale",
+      "duration": 8000,
+      "script": {
+        "hi": "दूर देखो — वह व्हेल है। व्हेल सबसे बड़ा जानवर है।",
+        "en": "Look far away — that is a whale. The whale is the biggest animal of all."
+      }
+    },
+    {
+      "highlight": "octopus",
+      "duration": 7000,
+      "script": {
+        "hi": "यह ऑक्टोपस है। इसकी आठ भुजाएँ हैं।",
+        "en": "This is an octopus. It has eight arms."
+      }
+    },
+    {
+      "highlight": "crab",
+      "duration": 7000,
+      "script": {
+        "hi": "यह केकड़ा है। केकड़ा टेढ़ा चलता है।",
+        "en": "This is a crab. The crab walks sideways."
+      }
+    },
+    {
+      "highlight": "starfish",
+      "duration": 7000,
+      "script": {
+        "hi": "यह तारा मछली है। यह तारे जैसी दिखती है।",
+        "en": "This is a starfish. It looks like a star."
+      }
+    },
+    {
+      "highlight": "seahorse",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह समुद्री घोड़ा है।",
+        "en": "And this is a seahorse."
+      }
+    }
+  ]
+}

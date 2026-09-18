@@ -1,0 +1,54 @@
+{
+  "id": "sea",
+  "sky": {
+    "space": true
+  },
+  "sun": {
+    "position": "2 14 3",
+    "color": "#cfeff5",
+    "intensity": 0.9
+  },
+  "light": {
+    "sky": "#bfe9f0",
+    "ground": "#2b6f86",
+    "intensity": 1.25
+  },
+  "fog": {
+    "color": "#1f6f8f",
+    "near": 6,
+    "far": 55
+  },
+  "shadows": false,
+  "start": {
+    "position": "0 1.2 0",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "seawater",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {}
+    },
+    {
+      "build": "reef",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 30,
+        "inner": 5.5,
+        "outer": 24,
+        "seed": 8
+      }
+    },
+    {
+      "build": "bubbles",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {}
+    }
+  ]
+}

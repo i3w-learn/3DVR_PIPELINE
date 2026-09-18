@@ -1,0 +1,131 @@
+{
+  "id": "eng-nur-wild-animal-traits",
+  "template": "identify",
+  "stage": "forest",
+  "objects": [
+    {
+      "id": "giraffe",
+      "model": "giraffe",
+      "position": "-5.600 0.000 -10.500",
+      "rotation": "0 98 0",
+      "ring": 1.92,
+      "name": {
+        "en": "Long neck",
+        "hi": "लंबी गर्दन"
+      }
+    },
+    {
+      "id": "elephant",
+      "model": "elephant",
+      "position": "5.600 0.000 -10.000",
+      "rotation": "0 -89 0",
+      "ring": 2.37,
+      "name": {
+        "en": "Trunk",
+        "hi": "सूँड़"
+      }
+    },
+    {
+      "id": "zebra",
+      "model": "zebra",
+      "position": "-3.400 0.000 -5.600",
+      "rotation": "0 101 0",
+      "ring": 1.1,
+      "name": {
+        "en": "Stripes",
+        "hi": "धारियाँ"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "lion",
+      "model": "lion",
+      "position": "0.000 0.000 -4.600",
+      "rotation": "0 25 0",
+      "ring": 1.41,
+      "name": {
+        "en": "Mane",
+        "hi": "अयाल"
+      }
+    },
+    {
+      "id": "rhino",
+      "model": "rhino",
+      "position": "3.600 0.000 -6.200",
+      "rotation": "0 -95 0",
+      "ring": 2.16,
+      "name": {
+        "en": "Horn",
+        "hi": "सींग"
+      }
+    },
+    {
+      "id": "kangaroo",
+      "model": "kangaroo",
+      "position": "-0.600 0.000 -8.600",
+      "rotation": "0 59 0",
+      "ring": 1.27,
+      "name": {
+        "en": "Pouch",
+        "hi": "थैली"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "हर जंगली जानवर में कुछ ख़ास होता है। चलो देखें।",
+        "en": "Every wild animal has something special. Let us look."
+      }
+    },
+    {
+      "highlight": "giraffe",
+      "duration": 8000,
+      "script": {
+        "hi": "जिराफ़ की गर्दन बहुत लंबी है। वह ऊँचे पेड़ों के पत्ते खाता है।",
+        "en": "The giraffe has a very long neck. It eats leaves from the tallest trees."
+      }
+    },
+    {
+      "highlight": "elephant",
+      "duration": 8000,
+      "script": {
+        "hi": "हाथी की लंबी सूँड़ है। सूँड़ से वह पानी पीता है।",
+        "en": "The elephant has a long trunk. It drinks water with its trunk."
+      }
+    },
+    {
+      "highlight": "zebra",
+      "duration": 8000,
+      "script": {
+        "hi": "ज़ेबरा के शरीर पर काली-सफ़ेद धारियाँ हैं।",
+        "en": "The zebra has black and white stripes."
+      }
+    },
+    {
+      "highlight": "lion",
+      "duration": 8000,
+      "script": {
+        "hi": "शेर की गर्दन पर घने बाल हैं। इसे अयाल कहते हैं।",
+        "en": "The lion has thick hair round its neck. It is called a mane."
+      }
+    },
+    {
+      "highlight": "rhino",
+      "duration": 8000,
+      "script": {
+        "hi": "गैंडे की नाक पर सींग है।",
+        "en": "The rhinoceros has a horn on its nose."
+      }
+    },
+    {
+      "highlight": "kangaroo",
+      "duration": 8000,
+      "script": {
+        "hi": "कंगारू अपने बच्चे को पेट की थैली में रखता है।",
+        "en": "The kangaroo carries its baby in a pouch."
+      }
+    }
+  ]
+}

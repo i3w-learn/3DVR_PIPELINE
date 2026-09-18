@@ -1,0 +1,171 @@
+{
+  "id": "eng-nur-wild-animals",
+  "template": "identify",
+  "stage": "forest",
+  "objects": [
+    {
+      "id": "lion",
+      "model": "lion",
+      "position": "-2.400 0.000 -5.200",
+      "rotation": "0 60 0",
+      "ring": 1.41,
+      "name": {
+        "en": "Lion",
+        "hi": "शेर"
+      }
+    },
+    {
+      "id": "tiger",
+      "model": "tiger",
+      "position": "2.500 0.000 -5.600",
+      "rotation": "0 -59 0",
+      "ring": 1.12,
+      "name": {
+        "en": "Tiger",
+        "hi": "बाघ"
+      }
+    },
+    {
+      "id": "elephant",
+      "model": "elephant",
+      "position": "-6.200 0.000 -10.500",
+      "rotation": "0 71 0",
+      "ring": 2.37,
+      "name": {
+        "en": "Elephant",
+        "hi": "हाथी"
+      }
+    },
+    {
+      "id": "giraffe",
+      "model": "giraffe",
+      "position": "6.400 0.000 -11.500",
+      "rotation": "0 -69 0",
+      "ring": 1.92,
+      "name": {
+        "en": "Giraffe",
+        "hi": "जिराफ़"
+      }
+    },
+    {
+      "id": "bear",
+      "model": "bear",
+      "position": "-0.300 0.000 -9.000",
+      "rotation": "0 42 0",
+      "ring": 1.11,
+      "name": {
+        "en": "Bear",
+        "hi": "भालू"
+      }
+    },
+    {
+      "id": "zebra",
+      "model": "zebra",
+      "position": "4.900 0.000 -7.600",
+      "rotation": "0 -78 0",
+      "ring": 1.1,
+      "name": {
+        "en": "Zebra",
+        "hi": "ज़ेबरा"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "deer",
+      "model": "deer",
+      "position": "-4.900 0.000 -6.400",
+      "rotation": "0 82 0",
+      "ring": 0.8,
+      "name": {
+        "en": "Deer",
+        "hi": "हिरण"
+      },
+      "clip": "Idle"
+    },
+    {
+      "id": "monkey",
+      "model": "monkey",
+      "position": "0.700 0.000 -3.400",
+      "rotation": "0 -37 0",
+      "ring": 0.79,
+      "scale": "1.200 1.200 1.200",
+      "name": {
+        "en": "Monkey",
+        "hi": "बंदर"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "यह जंगल है। यहाँ जंगली जानवर रहते हैं।",
+        "en": "This is the forest. Wild animals live here."
+      }
+    },
+    {
+      "highlight": "lion",
+      "duration": 7000,
+      "script": {
+        "hi": "यह शेर है। शेर जंगल का राजा है।",
+        "en": "This is a lion. The lion is the king of the forest."
+      }
+    },
+    {
+      "highlight": "tiger",
+      "duration": 7000,
+      "script": {
+        "hi": "यह बाघ है। बाघ के शरीर पर धारियाँ हैं।",
+        "en": "This is a tiger. The tiger has stripes."
+      }
+    },
+    {
+      "highlight": "elephant",
+      "duration": 7000,
+      "script": {
+        "hi": "यह हाथी है। हाथी बहुत बड़ा होता है।",
+        "en": "This is an elephant. The elephant is very big."
+      }
+    },
+    {
+      "highlight": "giraffe",
+      "duration": 7000,
+      "script": {
+        "hi": "यह जिराफ़ है। जिराफ़ बहुत लंबा होता है।",
+        "en": "This is a giraffe. The giraffe is very tall."
+      }
+    },
+    {
+      "highlight": "bear",
+      "duration": 7000,
+      "script": {
+        "hi": "यह भालू है।",
+        "en": "This is a bear."
+      }
+    },
+    {
+      "highlight": "zebra",
+      "duration": 7000,
+      "script": {
+        "hi": "यह ज़ेबरा है।",
+        "en": "This is a zebra."
+      }
+    },
+    {
+      "highlight": "deer",
+      "duration": 7000,
+      "script": {
+        "hi": "यह हिरण है। हिरण बहुत तेज़ भागता है।",
+        "en": "This is a deer. The deer runs very fast."
+      }
+    },
+    {
+      "highlight": "monkey",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह बंदर है। बंदर पेड़ों पर रहता है।",
+        "en": "And this is a monkey. The monkey lives in the trees."
+      }
+    }
+  ]
+}
