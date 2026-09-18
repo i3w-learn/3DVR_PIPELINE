@@ -1,0 +1,15 @@
+{
+  "id": "wolf",
+  "source": "Poly Pizza — \"Wolf\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/P1gU3Qkr9r",
+  "targetHeight": 0.8,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Idle",
+    "Walk",
+    "Eating"
+  ]
+}

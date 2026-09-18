@@ -79,8 +79,8 @@ AFRAME.registerComponent('counter', {
   highlightAnchor() {
     return {
       object3D: this.el.object3D,
-      radius: (this.size ?? SIZE) * 1.6,
-      thickness: 0.12,
+      radius: (this.size ?? SIZE) * 1.15,
+      thickness: 0.07,
     };
   },
 });

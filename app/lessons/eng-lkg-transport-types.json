@@ -1,0 +1,443 @@
+{
+  "id": "eng-lkg-transport-types",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "smallroad",
+      "build": "mat",
+      "params": {
+        "kind": "road",
+        "width": 0.43,
+        "depth": 0.62
+      },
+      "position": "-0.460 0.520 -0.820",
+      "name": {
+        "en": "Road",
+        "hi": "सड़क"
+      }
+    },
+    {
+      "id": "smallwater",
+      "build": "mat",
+      "params": {
+        "kind": "water",
+        "width": 0.43,
+        "depth": 0.62
+      },
+      "position": "0.000 0.520 -0.820",
+      "name": {
+        "en": "Water",
+        "hi": "पानी"
+      }
+    },
+    {
+      "id": "smallsky",
+      "build": "mat",
+      "params": {
+        "kind": "sky",
+        "width": 0.43,
+        "depth": 0.62
+      },
+      "position": "0.460 0.520 -0.820",
+      "name": {
+        "en": "Sky",
+        "hi": "आसमान"
+      }
+    },
+    {
+      "id": "road",
+      "build": "mat",
+      "params": {
+        "kind": "road",
+        "width": 1.5,
+        "depth": 0.5
+      },
+      "position": "0.000 0.520 -0.740",
+      "name": {
+        "en": "Road",
+        "hi": "सड़क"
+      }
+    },
+    {
+      "id": "water",
+      "build": "mat",
+      "params": {
+        "kind": "water",
+        "width": 1.5,
+        "depth": 0.5
+      },
+      "position": "0.000 0.520 -0.740",
+      "name": {
+        "en": "Water",
+        "hi": "पानी"
+      }
+    },
+    {
+      "id": "sky",
+      "build": "mat",
+      "params": {
+        "kind": "sky",
+        "width": 1.5,
+        "depth": 0.5
+      },
+      "position": "0.000 0.520 -0.740",
+      "name": {
+        "en": "Sky",
+        "hi": "आसमान"
+      }
+    },
+    {
+      "id": "auto",
+      "build": "autorickshaw",
+      "params": {
+        "length": 0.26
+      },
+      "position": "0.600 0.534 -0.740",
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Auto",
+        "hi": "ऑटो"
+      }
+    },
+    {
+      "id": "car",
+      "model": "car",
+      "position": "-0.600 0.534 -0.740",
+      "scale": "0.064 0.064 0.064",
+      "ring": 0.157,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Car",
+        "hi": "कार"
+      }
+    },
+    {
+      "id": "bus",
+      "model": "bus",
+      "position": "-0.300 0.534 -0.740",
+      "scale": "0.030 0.030 0.030",
+      "ring": 0.157,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Bus",
+        "hi": "बस"
+      }
+    },
+    {
+      "id": "bicycle",
+      "model": "bicycle",
+      "position": "0.000 0.534 -0.740",
+      "scale": "0.159 0.159 0.159",
+      "ring": 0.157,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Bicycle",
+        "hi": "साइकिल"
+      }
+    },
+    {
+      "id": "train",
+      "model": "train",
+      "position": "0.300 0.534 -0.740",
+      "scale": "0.034 0.034 0.034",
+      "ring": 0.157,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Train",
+        "hi": "रेलगाड़ी"
+      }
+    },
+    {
+      "id": "boat",
+      "model": "boat",
+      "position": "-0.360 0.534 -0.740",
+      "scale": "0.068 0.068 0.068",
+      "ring": 0.157,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Boat",
+        "hi": "नाव"
+      }
+    },
+    {
+      "id": "ship",
+      "model": "ship",
+      "position": "0.000 0.534 -0.740",
+      "scale": "0.014 0.014 0.014",
+      "ring": 0.157,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Ship",
+        "hi": "जहाज़"
+      }
+    },
+    {
+      "id": "sailboat",
+      "model": "sailboat",
+      "position": "0.360 0.534 -0.740",
+      "scale": "0.045 0.045 0.045",
+      "ring": 0.128,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Sailboat",
+        "hi": "पाल वाली नाव"
+      }
+    },
+    {
+      "id": "airplane",
+      "model": "airplane",
+      "position": "-0.360 0.720 -0.740",
+      "scale": "0.019 0.019 0.019",
+      "ring": 0.157,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Aeroplane",
+        "hi": "हवाई जहाज़"
+      }
+    },
+    {
+      "id": "helicopter",
+      "model": "helicopter",
+      "position": "0.000 0.720 -0.740",
+      "scale": "0.030 0.030 0.030",
+      "ring": 0.157,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Helicopter",
+        "hi": "हेलीकॉप्टर"
+      }
+    },
+    {
+      "id": "rocket",
+      "model": "rocket",
+      "position": "0.360 0.720 -0.740",
+      "scale": "0.034 0.034 0.034",
+      "ring": 0.068,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Rocket",
+        "hi": "रॉकेट"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "smallroad",
+        "smallwater",
+        "smallsky"
+      ],
+      "duration": 9000,
+      "script": {
+        "hi": "हम एक जगह से दूसरी जगह कैसे जाते हैं? गाड़ियों से! कुछ सड़क पर चलती हैं, कुछ पानी पर, और कुछ आसमान में।",
+        "en": "How do we go from one place to another? By transport! Some go on the road, some on water, and some in the sky."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "car",
+        "bus",
+        "bicycle",
+        "train",
+        "auto"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "ये सड़क पर चलती हैं।",
+        "en": "These go on the road."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "car",
+        "bus",
+        "bicycle",
+        "train",
+        "auto"
+      ],
+      "highlight": "car",
+      "duration": 6000,
+      "script": {
+        "hi": "यह कार है।",
+        "en": "This is a car."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "car",
+        "bus",
+        "bicycle",
+        "train",
+        "auto"
+      ],
+      "highlight": "bus",
+      "duration": 6000,
+      "script": {
+        "hi": "यह बस है।",
+        "en": "This is a bus."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "car",
+        "bus",
+        "bicycle",
+        "train",
+        "auto"
+      ],
+      "highlight": "bicycle",
+      "duration": 6000,
+      "script": {
+        "hi": "यह साइकिल है।",
+        "en": "This is a bicycle."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "car",
+        "bus",
+        "bicycle",
+        "train",
+        "auto"
+      ],
+      "highlight": "train",
+      "duration": 6000,
+      "script": {
+        "hi": "यह रेलगाड़ी है।",
+        "en": "This is a train."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "car",
+        "bus",
+        "bicycle",
+        "train",
+        "auto"
+      ],
+      "highlight": "auto",
+      "duration": 6000,
+      "script": {
+        "hi": "यह ऑटो है।",
+        "en": "This is an auto."
+      }
+    },
+    {
+      "show": [
+        "water",
+        "boat",
+        "ship",
+        "sailboat"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "ये पानी पर चलती हैं।",
+        "en": "These go on the water."
+      }
+    },
+    {
+      "show": [
+        "water",
+        "boat",
+        "ship",
+        "sailboat"
+      ],
+      "highlight": "boat",
+      "duration": 6000,
+      "script": {
+        "hi": "यह नाव है।",
+        "en": "This is a boat."
+      }
+    },
+    {
+      "show": [
+        "water",
+        "boat",
+        "ship",
+        "sailboat"
+      ],
+      "highlight": "ship",
+      "duration": 6000,
+      "script": {
+        "hi": "यह जहाज़ है।",
+        "en": "This is a ship."
+      }
+    },
+    {
+      "show": [
+        "water",
+        "boat",
+        "ship",
+        "sailboat"
+      ],
+      "highlight": "sailboat",
+      "duration": 6000,
+      "script": {
+        "hi": "यह पाल वाली नाव है।",
+        "en": "This is a sailboat."
+      }
+    },
+    {
+      "show": [
+        "sky",
+        "airplane",
+        "helicopter",
+        "rocket"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "ये आसमान में उड़ते हैं।",
+        "en": "These fly in the sky."
+      }
+    },
+    {
+      "show": [
+        "sky",
+        "airplane",
+        "helicopter",
+        "rocket"
+      ],
+      "highlight": "airplane",
+      "duration": 6000,
+      "script": {
+        "hi": "यह हवाई जहाज़ है।",
+        "en": "This is an aeroplane."
+      }
+    },
+    {
+      "show": [
+        "sky",
+        "airplane",
+        "helicopter",
+        "rocket"
+      ],
+      "highlight": "helicopter",
+      "duration": 6000,
+      "script": {
+        "hi": "यह हेलीकॉप्टर है।",
+        "en": "This is a helicopter."
+      }
+    },
+    {
+      "show": [
+        "sky",
+        "airplane",
+        "helicopter",
+        "rocket"
+      ],
+      "highlight": "rocket",
+      "duration": 6000,
+      "script": {
+        "hi": "यह रॉकेट है।",
+        "en": "This is a rocket."
+      }
+    }
+  ]
+}

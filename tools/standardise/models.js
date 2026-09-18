@@ -18,7 +18,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { draco, prune, simplify, textureCompress, weld } from '@gltf-transform/functions';
+import { dedup, draco, flatten, join, prune, simplify, textureCompress, weld } from '@gltf-transform/functions';
 import { MeshoptSimplifier } from 'meshoptimizer';
 import sharp from 'sharp';
 
@@ -136,6 +136,16 @@ async function standardise(id) {
   // Different sources disagree about PBR defaults and about palette; the art
   // style does not. Both are settled here, once, rather than per lesson.
   const materials = normaliseMaterials(document, sidecar);
+
+  // A fire engine arrives as 122 separate meshes — every ladder rung its own
+  // object — and each one is a draw call the headset pays for every frame. A
+  // model that does not move has no use for that structure: collapse the node
+  // tree, fold identical materials together, and join whatever then shares
+  // one. The fire engine comes out as seven. Opt-in (`join` in the sidecar),
+  // because a rigged animal's node tree is what its animation plays on.
+  if (sidecar.join) {
+    await document.transform(dedup(), flatten(), join({ keepNamed: false }));
+  }
 
   await document.transform(
     // Drop anything the file carries but no longer references.

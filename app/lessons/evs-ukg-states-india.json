@@ -1,0 +1,196 @@
+{
+  "id": "evs-ukg-states-india",
+  "template": "identify",
+  "stage": "india",
+  "notes": "No map on purpose: a hand-drawn outline of India would be wrong somewhere, and its borders are not a thing to approximate. Add one only from an approved Survey of India outline.",
+  "objects": [
+    {
+      "id": "flag",
+      "build": "flagpole",
+      "params": {},
+      "position": "-6.200 0.320 -9.500",
+      "name": {
+        "en": "Our flag",
+        "hi": "हमारा झंडा"
+      },
+      "ring": 1.0
+    },
+    {
+      "id": "rajasthan",
+      "model": "camel",
+      "position": "-6.200 0.320 -5.400",
+      "rotation": "0 80 0",
+      "ring": 0.97,
+      "scale": "0.620 0.620 0.620",
+      "name": {
+        "en": "Rajasthan",
+        "hi": "राजस्थान"
+      }
+    },
+    {
+      "id": "gujarat",
+      "model": "lion",
+      "position": "-4.600 1.170 -3.600",
+      "scale": "0.361 0.361 0.361",
+      "ring": 0.493,
+      "rotation": "0 60 0",
+      "name": {
+        "en": "Gujarat",
+        "hi": "गुजरात"
+      }
+    },
+    {
+      "id": "maharashtra",
+      "build": "mango",
+      "params": {
+        "size": 0.55
+      },
+      "position": "-2.300 1.170 -2.600",
+      "name": {
+        "en": "Maharashtra",
+        "hi": "महाराष्ट्र"
+      },
+      "ring": 0.5
+    },
+    {
+      "id": "kerala",
+      "model": "coconut",
+      "position": "2.300 1.170 -2.600",
+      "scale": "3.846 3.846 3.846",
+      "ring": 0.29,
+      "rotation": "0 30 0",
+      "name": {
+        "en": "Kerala",
+        "hi": "केरल"
+      }
+    },
+    {
+      "id": "odisha",
+      "model": "turtle",
+      "position": "4.600 1.170 -3.600",
+      "scale": "1.417 1.417 1.417",
+      "ring": 0.493,
+      "rotation": "0 60 0",
+      "name": {
+        "en": "Odisha",
+        "hi": "ओडिशा"
+      }
+    },
+    {
+      "id": "bengal",
+      "model": "tiger",
+      "position": "6.200 0.320 -5.400",
+      "rotation": "0 -80 0",
+      "ring": 1.12,
+      "name": {
+        "en": "West Bengal",
+        "hi": "पश्चिम बंगाल"
+      }
+    },
+    {
+      "id": "assam",
+      "model": "rhino",
+      "position": "-3.300 0.320 -8.200",
+      "rotation": "0 55 0",
+      "ring": 1.62,
+      "scale": "0.750 0.750 0.750",
+      "name": {
+        "en": "Assam",
+        "hi": "असम"
+      }
+    },
+    {
+      "id": "punjab",
+      "model": "tractor",
+      "position": "3.300 0.320 -8.200",
+      "rotation": "0 -55 0",
+      "ring": 1.3,
+      "scale": "0.600 0.600 0.600",
+      "name": {
+        "en": "Punjab",
+        "hi": "पंजाब"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "flag",
+      "duration": 9000,
+      "script": {
+        "hi": "भारत बहुत बड़ा देश है। इसमें अट्ठाईस राज्य हैं। हर राज्य की अपनी ख़ास बात है।",
+        "en": "India is a very big country. It has twenty-eight states. Every state has something special."
+      }
+    },
+    {
+      "highlight": "rajasthan",
+      "duration": 9000,
+      "script": {
+        "hi": "राजस्थान में रेगिस्तान है। वहाँ ऊँट चलते हैं।",
+        "en": "Rajasthan has a desert. Camels walk there."
+      }
+    },
+    {
+      "highlight": "gujarat",
+      "duration": 9000,
+      "script": {
+        "hi": "गुजरात के गिर जंगल में शेर रहते हैं।",
+        "en": "Lions live in the Gir forest of Gujarat."
+      }
+    },
+    {
+      "highlight": "maharashtra",
+      "duration": 9000,
+      "script": {
+        "hi": "महाराष्ट्र के हापुस आम बहुत मशहूर हैं।",
+        "en": "Maharashtra is famous for its Alphonso mangoes."
+      }
+    },
+    {
+      "highlight": "kerala",
+      "duration": 9000,
+      "script": {
+        "hi": "केरल में नारियल के बहुत पेड़ हैं।",
+        "en": "Kerala has many, many coconut trees."
+      }
+    },
+    {
+      "highlight": "odisha",
+      "duration": 9000,
+      "script": {
+        "hi": "ओडिशा के समुद्र तट पर हर साल लाखों कछुए आते हैं।",
+        "en": "Every year, lakhs of turtles come to the beaches of Odisha."
+      }
+    },
+    {
+      "highlight": "bengal",
+      "duration": 9000,
+      "script": {
+        "hi": "पश्चिम बंगाल के सुंदरबन में बाघ रहते हैं।",
+        "en": "Tigers live in the Sundarbans of West Bengal."
+      }
+    },
+    {
+      "highlight": "assam",
+      "duration": 9000,
+      "script": {
+        "hi": "असम में एक सींग वाला गैंडा रहता है।",
+        "en": "The one-horned rhinoceros lives in Assam."
+      }
+    },
+    {
+      "highlight": "punjab",
+      "duration": 9000,
+      "script": {
+        "hi": "पंजाब के खेतों में ख़ूब गेहूँ उगता है।",
+        "en": "The fields of Punjab grow lots of wheat."
+      }
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "तुम किस राज्य में रहते हो? अपनी दीदी से पूछो।",
+        "en": "Which state do you live in? Ask your teacher."
+      }
+    }
+  ]
+}

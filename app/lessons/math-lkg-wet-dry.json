@@ -1,0 +1,167 @@
+{
+  "id": "math-lkg-wet-dry",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "wetcloth",
+      "build": "cloth",
+      "params": {
+        "width": 0.3,
+        "wet": true
+      },
+      "position": "-0.300 0.520 -0.800",
+      "name": {
+        "en": "Wet",
+        "hi": "गीला"
+      }
+    },
+    {
+      "id": "drycloth",
+      "build": "cloth",
+      "params": {
+        "width": 0.3,
+        "wet": false
+      },
+      "position": "0.300 0.520 -0.800",
+      "name": {
+        "en": "Dry",
+        "hi": "सूखा"
+      }
+    },
+    {
+      "id": "wettub",
+      "build": "tub",
+      "params": {
+        "radius": 0.17,
+        "height": 0.14
+      },
+      "position": "-0.300 0.520 -0.800",
+      "name": {
+        "en": "Wet",
+        "hi": "गीला"
+      }
+    },
+    {
+      "id": "drytub",
+      "build": "tub",
+      "params": {
+        "radius": 0.17,
+        "height": 0.14,
+        "opacity": 0.0,
+        "water": "#4a6f88"
+      },
+      "position": "0.300 0.520 -0.800",
+      "name": {
+        "en": "Dry",
+        "hi": "सूखा"
+      }
+    },
+    {
+      "id": "rain",
+      "build": "cloud",
+      "params": {
+        "width": 0.42,
+        "puffs": 5,
+        "rain": true,
+        "seed": 4
+      },
+      "position": "-0.300 0.820 -0.800",
+      "name": {
+        "en": "Wet",
+        "hi": "गीला"
+      },
+      "ring": 0.2
+    },
+    {
+      "id": "sun",
+      "build": "sundisc",
+      "params": {
+        "radius": 0.1
+      },
+      "position": "0.300 0.820 -0.800",
+      "name": {
+        "en": "Dry",
+        "hi": "सूखा"
+      },
+      "ring": 0.2
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "wetcloth",
+        "drycloth"
+      ],
+      "highlight": "wetcloth",
+      "duration": 7000,
+      "script": {
+        "hi": "यह कपड़ा अभी धुला है। इससे पानी टपक रहा है। यह गीला है।",
+        "en": "This cloth has just been washed. Water is dripping from it. It is wet."
+      }
+    },
+    {
+      "show": [
+        "wetcloth",
+        "drycloth"
+      ],
+      "highlight": "drycloth",
+      "against": "wetcloth",
+      "duration": 7000,
+      "script": {
+        "hi": "यह कपड़ा धूप में सूख गया। यह सूखा है।",
+        "en": "This cloth has dried in the sun. It is dry."
+      }
+    },
+    {
+      "show": [
+        "wettub",
+        "drytub"
+      ],
+      "highlight": "wettub",
+      "duration": 7000,
+      "script": {
+        "hi": "इस टब में पानी है। यह अंदर से गीला है।",
+        "en": "This tub has water in it. It is wet inside."
+      }
+    },
+    {
+      "show": [
+        "wettub",
+        "drytub"
+      ],
+      "highlight": "drytub",
+      "against": "wettub",
+      "duration": 7000,
+      "script": {
+        "hi": "इस टब में पानी नहीं है। यह सूखा है।",
+        "en": "This tub has no water. It is dry."
+      }
+    },
+    {
+      "show": [
+        "rain",
+        "sun"
+      ],
+      "highlight": "rain",
+      "duration": 7000,
+      "script": {
+        "hi": "बारिश हो रही है। बारिश में सब कुछ गीला हो जाता है।",
+        "en": "It is raining. In the rain, everything gets wet."
+      }
+    },
+    {
+      "show": [
+        "rain",
+        "sun"
+      ],
+      "highlight": "sun",
+      "against": "rain",
+      "duration": 7000,
+      "script": {
+        "hi": "धूप निकली है। धूप में चीज़ें सूख जाती हैं।",
+        "en": "The sun is out. In the sun, things dry."
+      }
+    }
+  ]
+}

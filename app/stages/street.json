@@ -1,0 +1,227 @@
+{
+  "id": "street",
+  "sky": {
+    "hdri": "field.jpg",
+    "intensity": 0.95
+  },
+  "ground": {
+    "color": "grass_color.jpg",
+    "normal": "grass_normal.jpg",
+    "rough": "grass_rough.jpg",
+    "ao": "grass_ao.jpg",
+    "repeat": 80
+  },
+  "sun": {
+    "position": "7 10 5",
+    "color": "#fff3e0",
+    "intensity": 0.85
+  },
+  "light": {
+    "sky": "#dfe9ef",
+    "ground": "#b7a888",
+    "intensity": 0.85
+  },
+  "shadows": false,
+  "fog": {
+    "color": "#d3dfe8",
+    "near": 40,
+    "far": 140
+  },
+  "start": {
+    "position": "0 1.2 3.5",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "grove",
+      "position": "0 0 -16",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 95,
+        "inner": 40,
+        "outer": 100,
+        "arc": 360,
+        "facing": 0,
+        "kind": "round",
+        "height": 10,
+        "leaf": "#3a6a3c",
+        "seed": 73
+      }
+    },
+    {
+      "build": "grove",
+      "position": "0 0 -16",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 40,
+        "inner": 26,
+        "outer": 58,
+        "arc": 330,
+        "facing": 0,
+        "kind": "round",
+        "height": 8,
+        "leaf": "#3f7040",
+        "seed": 39
+      }
+    },
+    {
+      "build": "path",
+      "position": "0 0 -12",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "length": 44,
+        "width": 6.5,
+        "kerb": 0.14,
+        "surface": "paving",
+        "repeat": 14
+      }
+    },
+    {
+      "build": "building",
+      "position": "-9.2 0 -5",
+      "rotation": "0 90 0",
+      "contact": false,
+      "params": {
+        "floors": 2,
+        "width": 10,
+        "depth": 7,
+        "floorHeight": 2.9,
+        "windows": 4,
+        "veranda": true,
+        "sign": "KIRANA STORE",
+        "wall": "#f2e6cd",
+        "trim": "#8c3b2a",
+        "roof": "#cfc7b4"
+      }
+    },
+    {
+      "build": "building",
+      "position": "-9.2 0 -17",
+      "rotation": "0 90 0",
+      "contact": false,
+      "params": {
+        "floors": 2,
+        "width": 10,
+        "depth": 7,
+        "floorHeight": 2.9,
+        "windows": 4,
+        "veranda": true,
+        "sign": "CLINIC",
+        "wall": "#e8eee4",
+        "trim": "#2f6b52",
+        "roof": "#cfc7b4"
+      }
+    },
+    {
+      "build": "building",
+      "position": "9.2 0 -8",
+      "rotation": "0 -90 0",
+      "contact": false,
+      "params": {
+        "floors": 2,
+        "width": 11,
+        "depth": 7,
+        "floorHeight": 2.9,
+        "windows": 4,
+        "veranda": true,
+        "sign": "POST OFFICE",
+        "wall": "#efe3d6",
+        "trim": "#7a4a8c",
+        "roof": "#cfc7b4"
+      }
+    },
+    {
+      "build": "building",
+      "position": "9.2 0 -21",
+      "rotation": "0 -90 0",
+      "contact": false,
+      "params": {
+        "floors": 2,
+        "width": 10,
+        "depth": 7,
+        "floorHeight": 2.9,
+        "windows": 4,
+        "veranda": true,
+        "sign": "BANK",
+        "wall": "#e9ecf0",
+        "trim": "#2f4f7a",
+        "roof": "#cfc7b4"
+      }
+    },
+    {
+      "build": "building",
+      "position": "0 0 -38",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "floors": 1,
+        "width": 16,
+        "depth": 7,
+        "floorHeight": 2.9,
+        "windows": 4,
+        "veranda": true,
+        "sign": "BUS STAND",
+        "wall": "#f2ece0",
+        "trim": "#8e3047",
+        "roof": "#cfc7b4"
+      }
+    },
+    {
+      "build": "avenue",
+      "position": "0 0 -1",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "length": 32,
+        "offset": 4.15,
+        "spacing": 8
+      }
+    },
+    {
+      "build": "stall",
+      "position": "-2.6 0 -10.5",
+      "rotation": "0 62 0",
+      "contact": false,
+      "params": {
+        "awning": "#c8402f",
+        "goods": "#e8872b, #d9433a, #7fae3e, #f0c93a",
+        "seed": 1
+      }
+    },
+    {
+      "build": "stall",
+      "position": "2.6 0 -13.5",
+      "rotation": "0 -58 0",
+      "contact": false,
+      "params": {
+        "awning": "#2f7a5a",
+        "goods": "#8a4fa0, #c9d44a, #e05a3a, #f2f0e6",
+        "seed": 2
+      }
+    },
+    {
+      "build": "streetlamp",
+      "position": "-3.5 0 -10",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {}
+    },
+    {
+      "build": "streetlamp",
+      "position": "3.5 0 -2",
+      "rotation": "0 180 0",
+      "contact": false,
+      "params": {}
+    },
+    {
+      "build": "streetlamp",
+      "position": "3.5 0 -22",
+      "rotation": "0 180 0",
+      "contact": false,
+      "params": {}
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "eng-nur-find-shapes",
+  "template": "sort",
+  "stage": "classroom",
+  "objects": [
+    {
+      "id": "circle",
+      "build": "shape",
+      "params": {
+        "kind": "circle",
+        "size": 0.42,
+        "color": "#d9362b"
+      },
+      "position": "2.700 0.760 -5.200",
+      "name": {
+        "en": "Circle",
+        "hi": "गोला"
+      }
+    },
+    {
+      "id": "square",
+      "build": "shape",
+      "params": {
+        "kind": "square",
+        "size": 0.42,
+        "color": "#2f6fb8"
+      },
+      "position": "-4.250 0.920 -3.400",
+      "name": {
+        "en": "Square",
+        "hi": "वर्ग"
+      }
+    },
+    {
+      "id": "triangle",
+      "build": "shape",
+      "params": {
+        "kind": "triangle",
+        "size": 0.42,
+        "color": "#f0c52e"
+      },
+      "position": "0.900 0.000 -2.200",
+      "name": {
+        "en": "Triangle",
+        "hi": "त्रिभुज"
+      }
+    },
+    {
+      "id": "star",
+      "build": "shape",
+      "params": {
+        "kind": "star",
+        "size": 0.42,
+        "color": "#7a3fa0"
+      },
+      "position": "-3.300 1.920 -6.150",
+      "name": {
+        "en": "Star",
+        "hi": "तारा"
+      }
+    },
+    {
+      "id": "rectangle",
+      "build": "shape",
+      "params": {
+        "kind": "rectangle",
+        "size": 0.42,
+        "color": "#3f9a4a"
+      },
+      "position": "3.400 0.000 -2.000",
+      "name": {
+        "en": "Rectangle",
+        "hi": "आयत"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "answer": "circle",
+      "duration": 14000,
+      "script": {
+        "hi": "कमरे में गोला कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+        "en": "A circle is hiding in the room. Find it and touch it."
+      }
+    },
+    {
+      "answer": "square",
+      "duration": 14000,
+      "script": {
+        "hi": "कमरे में वर्ग कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+        "en": "A square is hiding in the room. Find it and touch it."
+      }
+    },
+    {
+      "answer": "triangle",
+      "duration": 14000,
+      "script": {
+        "hi": "कमरे में त्रिभुज कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+        "en": "A triangle is hiding in the room. Find it and touch it."
+      }
+    },
+    {
+      "answer": "star",
+      "duration": 14000,
+      "script": {
+        "hi": "कमरे में तारा कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+        "en": "A star is hiding in the room. Find it and touch it."
+      }
+    },
+    {
+      "answer": "rectangle",
+      "duration": 14000,
+      "script": {
+        "hi": "कमरे में आयत कहाँ छिपा है? उसे ढूँढ़ो और छुओ।",
+        "en": "A rectangle is hiding in the room. Find it and touch it."
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "deer",
+  "source": "Poly Pizza — \"Deer\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/T6Cs7tmMHJ",
+  "targetHeight": 1.3,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Idle",
+    "Walk",
+    "Eating"
+  ]
+}

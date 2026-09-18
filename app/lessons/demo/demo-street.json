@@ -1,0 +1,22 @@
+{
+  "id": "demo-street",
+  "template": "explore",
+  "stage": "street",
+  "objects": [],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "यह सड़क है। दोनों तरफ़ दुकानें हैं।",
+        "en": "This is a street, with shops on both sides."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "दुकान, दवाखाना, डाकघर और बैंक।",
+        "en": "A shop, a clinic, a post office and a bank."
+      }
+    }
+  ]
+}

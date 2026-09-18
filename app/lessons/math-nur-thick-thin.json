@@ -1,0 +1,48 @@
+{
+  "id": "math-nur-thick-thin",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "thick",
+      "build": "bar",
+      "params": {
+        "length": 0.6,
+        "thickness": 0.13,
+        "round": true,
+        "color": "#e4572e"
+      },
+      "position": "0.000 0.520 -0.980"
+    },
+    {
+      "id": "thin",
+      "build": "bar",
+      "params": {
+        "length": 0.6,
+        "thickness": 0.028,
+        "round": true,
+        "color": "#3d7ea6"
+      },
+      "position": "0.000 0.520 -0.720"
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "thick",
+      "duration": 6500,
+      "script": {
+        "hi": "यह मोटी है।",
+        "en": "This one is thick."
+      }
+    },
+    {
+      "highlight": "thin",
+      "against": "thick",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह पतली है। दोनों की लंबाई बराबर है।",
+        "en": "And this one is thin. They are just as long as each other."
+      }
+    }
+  ]
+}

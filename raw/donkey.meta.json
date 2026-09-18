@@ -1,0 +1,15 @@
+{
+  "id": "donkey",
+  "source": "Poly Pizza — \"Donkey\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/qmX6nhnvp7",
+  "targetHeight": 1.2,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Idle",
+    "Walk",
+    "Eating"
+  ]
+}

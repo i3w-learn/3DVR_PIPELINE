@@ -1,0 +1,148 @@
+{
+  "id": "evs-ukg-plant-parts",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "soil",
+      "build": "plantpart",
+      "params": {
+        "kind": "soil",
+        "height": 0.46
+      },
+      "position": "0.000 0.520 -0.780",
+      "name": {
+        "en": "Soil",
+        "hi": "मिट्टी"
+      },
+      "labelAt": "-0.500 0.540 -0.780"
+    },
+    {
+      "id": "roots",
+      "build": "plantpart",
+      "params": {
+        "kind": "roots",
+        "height": 0.46
+      },
+      "position": "0.000 0.520 -0.780",
+      "name": {
+        "en": "Roots",
+        "hi": "जड़"
+      },
+      "labelAt": "0.500 0.620 -0.780"
+    },
+    {
+      "id": "stem",
+      "build": "plantpart",
+      "params": {
+        "kind": "stem",
+        "height": 0.46
+      },
+      "position": "0.000 0.520 -0.780",
+      "name": {
+        "en": "Stem",
+        "hi": "तना"
+      },
+      "labelAt": "0.500 0.940 -0.780"
+    },
+    {
+      "id": "leaves",
+      "build": "plantpart",
+      "params": {
+        "kind": "leaves",
+        "height": 0.46
+      },
+      "position": "0.000 0.520 -0.780",
+      "name": {
+        "en": "Leaves",
+        "hi": "पत्तियाँ"
+      },
+      "labelAt": "0.500 0.840 -0.780"
+    },
+    {
+      "id": "flower",
+      "build": "plantpart",
+      "params": {
+        "kind": "flower",
+        "height": 0.46
+      },
+      "position": "0.000 0.520 -0.780",
+      "name": {
+        "en": "Flower",
+        "hi": "फूल"
+      },
+      "labelAt": "0.500 1.140 -0.780"
+    },
+    {
+      "id": "fruit",
+      "build": "plantpart",
+      "params": {
+        "kind": "fruit",
+        "height": 0.46
+      },
+      "position": "0.000 0.520 -0.780",
+      "name": {
+        "en": "Fruit",
+        "hi": "फल"
+      },
+      "labelAt": "0.500 0.860 -0.780"
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "soil",
+      "duration": 8000,
+      "script": {
+        "hi": "यह एक पौधा है। यह मिट्टी में उगता है। चलो इसके हिस्से देखें।",
+        "en": "This is a plant. It grows in the soil. Let us look at its parts."
+      }
+    },
+    {
+      "highlight": "roots",
+      "duration": 9000,
+      "script": {
+        "hi": "ये जड़ें हैं। जड़ें मिट्टी के नीचे होती हैं। वे पानी पीती हैं और पौधे को पकड़े रखती हैं।",
+        "en": "These are the roots. Roots grow under the soil. They drink water and hold the plant firm."
+      }
+    },
+    {
+      "highlight": "stem",
+      "duration": 9000,
+      "script": {
+        "hi": "यह तना है। तना पौधे को सीधा खड़ा रखता है और पानी ऊपर पहुँचाता है।",
+        "en": "This is the stem. The stem holds the plant up and carries water to the top."
+      }
+    },
+    {
+      "highlight": "leaves",
+      "duration": 9000,
+      "script": {
+        "hi": "ये पत्तियाँ हैं। पत्तियाँ धूप से पौधे का खाना बनाती हैं।",
+        "en": "These are the leaves. Leaves make food for the plant from sunlight."
+      }
+    },
+    {
+      "highlight": "flower",
+      "duration": 9000,
+      "script": {
+        "hi": "यह फूल है। फूल से फल बनता है।",
+        "en": "This is the flower. The flower turns into a fruit."
+      }
+    },
+    {
+      "highlight": "fruit",
+      "duration": 9000,
+      "script": {
+        "hi": "यह फल है। फल के अंदर बीज होते हैं।",
+        "en": "This is the fruit. Inside the fruit are the seeds."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "पौधे को बढ़ने के लिए पानी, धूप और हवा चाहिए।",
+        "en": "A plant needs water, sunlight and air to grow."
+      }
+    }
+  ]
+}

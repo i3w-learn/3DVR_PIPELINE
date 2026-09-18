@@ -1,0 +1,97 @@
+{
+  "id": "math-nur-near-far",
+  "template": "compare",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "near1",
+      "build": "tree",
+      "params": {
+        "height": 5,
+        "seed": 5
+      },
+      "position": "-2.600 0.000 -5.500"
+    },
+    {
+      "id": "far1",
+      "build": "tree",
+      "params": {
+        "height": 5,
+        "seed": 5
+      },
+      "position": "3.400 0.000 -34.000"
+    },
+    {
+      "id": "near2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.5
+      },
+      "position": "1.600 0.000 -3.600"
+    },
+    {
+      "id": "far2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.5
+      },
+      "position": "-2.400 0.000 -26.000"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "near1",
+        "far1"
+      ],
+      "highlight": "near1",
+      "duration": 6500,
+      "script": {
+        "hi": "यह पेड़ पास है।",
+        "en": "This tree is near."
+      }
+    },
+    {
+      "show": [
+        "near1",
+        "far1"
+      ],
+      "highlight": "far1",
+      "against": "near1",
+      "duration": 7500,
+      "script": {
+        "hi": "वही पेड़ — पर यह दूर है, इसलिए छोटा दिखता है।",
+        "en": "The same tree — but this one is far away, so it looks small."
+      }
+    },
+    {
+      "show": [
+        "near2",
+        "far2"
+      ],
+      "highlight": "near2",
+      "duration": 6500,
+      "script": {
+        "hi": "यह गेंद पास है।",
+        "en": "This ball is near."
+      }
+    },
+    {
+      "show": [
+        "near2",
+        "far2"
+      ],
+      "highlight": "far2",
+      "against": "near2",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह गेंद दूर है।",
+        "en": "And this ball is far."
+      }
+    }
+  ]
+}

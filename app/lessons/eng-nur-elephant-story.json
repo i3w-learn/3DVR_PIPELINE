@@ -1,0 +1,120 @@
+{
+  "id": "eng-nur-elephant-story",
+  "template": "identify",
+  "stage": "forest",
+  "objects": [
+    {
+      "id": "appu",
+      "model": "elephant",
+      "position": "-3.200 0.000 -8.200",
+      "rotation": "0 96 0",
+      "ring": 2.37,
+      "name": {
+        "en": "Appu",
+        "hi": "अप्पू"
+      }
+    },
+    {
+      "id": "sun",
+      "build": "sundisc",
+      "params": {
+        "radius": 3.2
+      },
+      "position": "-22.000 30.000 -60.000",
+      "name": {
+        "en": "Sun",
+        "hi": "सूरज"
+      }
+    },
+    {
+      "id": "monkey",
+      "model": "monkey",
+      "position": "0.400 0.000 -4.400",
+      "rotation": "0 -55 0",
+      "ring": 0.85,
+      "scale": "1.300 1.300 1.300",
+      "name": {
+        "en": "Monkey",
+        "hi": "बंदर"
+      }
+    },
+    {
+      "id": "pond",
+      "build": "pond",
+      "params": {
+        "radius": 2.3,
+        "stretch": 1.3,
+        "pads": 5,
+        "lotus": 2
+      },
+      "position": "5.200 0.000 -8.600",
+      "name": {
+        "en": "Pond",
+        "hi": "तालाब"
+      },
+      "ring": 3.0
+    },
+    {
+      "id": "deer",
+      "model": "deer",
+      "position": "7.400 0.000 -5.200",
+      "rotation": "0 -135 0",
+      "ring": 0.8,
+      "name": {
+        "en": "Deer",
+        "hi": "हिरण"
+      },
+      "clip": "Idle"
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "appu",
+      "duration": 9000,
+      "script": {
+        "hi": "यह अप्पू है। अप्पू एक हाथी है। वह जंगल में रहता है।",
+        "en": "This is Appu. Appu is an elephant. He lives in the forest."
+      }
+    },
+    {
+      "highlight": "sun",
+      "duration": 9000,
+      "script": {
+        "hi": "एक दिन बहुत गर्मी थी। सूरज तेज़ चमक रहा था। अप्पू को बहुत प्यास लगी।",
+        "en": "One day it was very hot. The sun was shining brightly. Appu was very thirsty."
+      }
+    },
+    {
+      "highlight": "monkey",
+      "duration": 9000,
+      "script": {
+        "hi": "अप्पू ने अपने दोस्त बंदर से पूछा — पानी कहाँ है? बंदर बोला — उस तरफ़ तालाब है!",
+        "en": "Appu asked his friend the monkey — where is the water? The monkey said — the pond is that way!"
+      }
+    },
+    {
+      "highlight": "pond",
+      "duration": 9000,
+      "script": {
+        "hi": "अप्पू तालाब पर गया। उसने अपनी लंबी सूँड़ से ख़ूब पानी पिया।",
+        "en": "Appu went to the pond. He drank and drank with his long trunk."
+      }
+    },
+    {
+      "highlight": "deer",
+      "duration": 9000,
+      "script": {
+        "hi": "हिरण भी प्यासा था। अप्पू ने सूँड़ में पानी भरकर उसे भी पिलाया।",
+        "en": "The deer was thirsty too. Appu filled his trunk and gave him water."
+      }
+    },
+    {
+      "highlight": "appu",
+      "duration": 9000,
+      "script": {
+        "hi": "अप्पू ख़ुश था। दोस्तों की मदद करना अच्छी बात है।",
+        "en": "Appu was happy. Helping our friends is a good thing to do."
+      }
+    }
+  ]
+}

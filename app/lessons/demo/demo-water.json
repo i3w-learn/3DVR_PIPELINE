@@ -1,0 +1,22 @@
+{
+  "id": "demo-water",
+  "template": "explore",
+  "stage": "water",
+  "objects": [],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "यह तालाब है। पानी हिल रहा है।",
+        "en": "This is a pond. Watch the water moving."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "किनारे पर घास उगी है।",
+        "en": "Reeds grow along the edge. Look across to the far bank."
+      }
+    }
+  ]
+}

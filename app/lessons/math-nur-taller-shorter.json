@@ -1,0 +1,94 @@
+{
+  "id": "math-nur-taller-shorter",
+  "template": "compare",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "tall1",
+      "build": "tree",
+      "params": {
+        "height": 8.5,
+        "seed": 3
+      },
+      "position": "-3.200 0.000 -11.000"
+    },
+    {
+      "id": "short1",
+      "build": "tree",
+      "params": {
+        "height": 3.2,
+        "seed": 8
+      },
+      "position": "2.600 0.000 -11.000"
+    },
+    {
+      "id": "tall2",
+      "build": "pine",
+      "params": {
+        "height": 9.5,
+        "seed": 4
+      },
+      "position": "-3.000 0.000 -12.000"
+    },
+    {
+      "id": "short2",
+      "build": "pine",
+      "params": {
+        "height": 3.6,
+        "seed": 7
+      },
+      "position": "2.800 0.000 -12.000"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "tall1",
+        "short1"
+      ],
+      "highlight": "tall1",
+      "duration": 6500,
+      "script": {
+        "hi": "यह पेड़ लंबा है।",
+        "en": "This tree is tall."
+      }
+    },
+    {
+      "show": [
+        "tall1",
+        "short1"
+      ],
+      "highlight": "short1",
+      "against": "tall1",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह पेड़ छोटा है।",
+        "en": "And this tree is short."
+      }
+    },
+    {
+      "show": [
+        "tall2",
+        "short2"
+      ],
+      "duration": 6500,
+      "script": {
+        "hi": "अब ये देखो। कौन सा लंबा है?",
+        "en": "Now look at these. Which one is taller?"
+      }
+    },
+    {
+      "show": [
+        "tall2",
+        "short2"
+      ],
+      "highlight": "tall2",
+      "against": "short2",
+      "duration": 7000,
+      "script": {
+        "hi": "यह वाला लंबा है, यह छोटा।",
+        "en": "This one is taller. This one is shorter."
+      }
+    }
+  ]
+}

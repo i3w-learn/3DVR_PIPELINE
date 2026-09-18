@@ -1,0 +1,15 @@
+{
+  "id": "horse",
+  "source": "Poly Pizza — \"Horse\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/qvTrSG9pZF",
+  "targetHeight": 1.6,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Idle",
+    "Walk",
+    "Eating"
+  ]
+}

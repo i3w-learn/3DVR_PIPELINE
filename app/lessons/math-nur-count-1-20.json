@@ -1,0 +1,669 @@
+{
+  "id": "math-nur-count-1-20",
+  "template": "count",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "c1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "-0.600 0.520 -0.740"
+    },
+    {
+      "id": "c2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "-0.467 0.520 -0.740"
+    },
+    {
+      "id": "c3",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "-0.333 0.520 -0.740"
+    },
+    {
+      "id": "c4",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "-0.200 0.520 -0.740"
+    },
+    {
+      "id": "c5",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "-0.067 0.520 -0.740"
+    },
+    {
+      "id": "c6",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "0.067 0.520 -0.740"
+    },
+    {
+      "id": "c7",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "0.200 0.520 -0.740"
+    },
+    {
+      "id": "c8",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "0.333 0.520 -0.740"
+    },
+    {
+      "id": "c9",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "0.467 0.520 -0.740"
+    },
+    {
+      "id": "c10",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.062
+      },
+      "position": "0.600 0.520 -0.740"
+    },
+    {
+      "id": "c11",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "-0.600 0.520 -0.930"
+    },
+    {
+      "id": "c12",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "-0.467 0.520 -0.930"
+    },
+    {
+      "id": "c13",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "-0.333 0.520 -0.930"
+    },
+    {
+      "id": "c14",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "-0.200 0.520 -0.930"
+    },
+    {
+      "id": "c15",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "-0.067 0.520 -0.930"
+    },
+    {
+      "id": "c16",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "0.067 0.520 -0.930"
+    },
+    {
+      "id": "c17",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "0.200 0.520 -0.930"
+    },
+    {
+      "id": "c18",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "0.333 0.520 -0.930"
+    },
+    {
+      "id": "c19",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "0.467 0.520 -0.930"
+    },
+    {
+      "id": "c20",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.062
+      },
+      "position": "0.600 0.520 -0.930"
+    },
+    {
+      "id": "tally",
+      "build": "glyph",
+      "params": {
+        "char": "0",
+        "height": 0.22,
+        "card": "#fdf0d5"
+      },
+      "position": "0.000 0.520 -1.150"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "c1",
+        "tally"
+      ],
+      "tally": 1,
+      "highlight": "c1",
+      "duration": 4500,
+      "script": {
+        "hi": "1।",
+        "en": "1."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "tally"
+      ],
+      "tally": 2,
+      "highlight": "c2",
+      "duration": 4500,
+      "script": {
+        "hi": "2।",
+        "en": "2."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "tally"
+      ],
+      "tally": 3,
+      "highlight": "c3",
+      "duration": 4500,
+      "script": {
+        "hi": "3।",
+        "en": "3."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "tally"
+      ],
+      "tally": 4,
+      "highlight": "c4",
+      "duration": 4500,
+      "script": {
+        "hi": "4।",
+        "en": "4."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "tally"
+      ],
+      "tally": 5,
+      "highlight": "c5",
+      "duration": 4500,
+      "script": {
+        "hi": "5।",
+        "en": "5."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "tally"
+      ],
+      "tally": 6,
+      "highlight": "c6",
+      "duration": 4500,
+      "script": {
+        "hi": "6।",
+        "en": "6."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "tally"
+      ],
+      "tally": 7,
+      "highlight": "c7",
+      "duration": 4500,
+      "script": {
+        "hi": "7।",
+        "en": "7."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "tally"
+      ],
+      "tally": 8,
+      "highlight": "c8",
+      "duration": 4500,
+      "script": {
+        "hi": "8।",
+        "en": "8."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "tally"
+      ],
+      "tally": 9,
+      "highlight": "c9",
+      "duration": 4500,
+      "script": {
+        "hi": "9।",
+        "en": "9."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "tally"
+      ],
+      "tally": 10,
+      "highlight": "c10",
+      "duration": 4500,
+      "script": {
+        "hi": "10।",
+        "en": "10."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "tally"
+      ],
+      "tally": 11,
+      "highlight": "c11",
+      "duration": 4500,
+      "script": {
+        "hi": "11।",
+        "en": "11."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12",
+        "tally"
+      ],
+      "tally": 12,
+      "highlight": "c12",
+      "duration": 4500,
+      "script": {
+        "hi": "12।",
+        "en": "12."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "tally"
+      ],
+      "tally": 13,
+      "highlight": "c13",
+      "duration": 4500,
+      "script": {
+        "hi": "13।",
+        "en": "13."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "tally"
+      ],
+      "tally": 14,
+      "highlight": "c14",
+      "duration": 4500,
+      "script": {
+        "hi": "14।",
+        "en": "14."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "tally"
+      ],
+      "tally": 15,
+      "highlight": "c15",
+      "duration": 4500,
+      "script": {
+        "hi": "15।",
+        "en": "15."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "tally"
+      ],
+      "tally": 16,
+      "highlight": "c16",
+      "duration": 4500,
+      "script": {
+        "hi": "16।",
+        "en": "16."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "tally"
+      ],
+      "tally": 17,
+      "highlight": "c17",
+      "duration": 4500,
+      "script": {
+        "hi": "17।",
+        "en": "17."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "tally"
+      ],
+      "tally": 18,
+      "highlight": "c18",
+      "duration": 4500,
+      "script": {
+        "hi": "18।",
+        "en": "18."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "tally"
+      ],
+      "tally": 19,
+      "highlight": "c19",
+      "duration": 4500,
+      "script": {
+        "hi": "19।",
+        "en": "19."
+      }
+    },
+    {
+      "show": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "tally"
+      ],
+      "tally": 20,
+      "highlight": "c20",
+      "duration": 4500,
+      "script": {
+        "hi": "20।",
+        "en": "20."
+      }
+    }
+  ]
+}

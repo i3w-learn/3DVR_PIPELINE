@@ -1,0 +1,13 @@
+{
+  "id": "sheep",
+  "source": "Poly Pizza — \"Sheep\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/C39AUXUUes",
+  "targetHeight": 0.85,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Armature|Idle"
+  ]
+}

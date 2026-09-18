@@ -1,0 +1,173 @@
+{
+  "id": "eng-nur-domestic-animals",
+  "template": "identify",
+  "stage": "farmyard",
+  "objects": [
+    {
+      "id": "cow",
+      "model": "cow",
+      "position": "-3.600 0.000 -7.400",
+      "rotation": "0 61 0",
+      "ring": 1.52,
+      "name": {
+        "en": "Cow",
+        "hi": "गाय"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "buffalo",
+      "model": "buffalo",
+      "position": "3.800 0.000 -8.200",
+      "rotation": "0 -60 0",
+      "ring": 1.37,
+      "name": {
+        "en": "Buffalo",
+        "hi": "भैंस"
+      }
+    },
+    {
+      "id": "horse",
+      "model": "horse",
+      "position": "0.300 0.000 -10.600",
+      "rotation": "0 48 0",
+      "ring": 1.13,
+      "name": {
+        "en": "Horse",
+        "hi": "घोड़ा"
+      },
+      "clip": "Idle"
+    },
+    {
+      "id": "goat",
+      "model": "goat",
+      "position": "-2.000 0.000 -4.600",
+      "rotation": "0 58 0",
+      "ring": 0.61,
+      "name": {
+        "en": "Goat",
+        "hi": "बकरी"
+      }
+    },
+    {
+      "id": "sheep",
+      "model": "sheep",
+      "position": "2.100 0.000 -4.900",
+      "rotation": "0 -58 0",
+      "ring": 0.69,
+      "name": {
+        "en": "Sheep",
+        "hi": "भेड़"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "dog",
+      "model": "dog",
+      "position": "-0.900 0.000 -3.000",
+      "rotation": "0 47 0",
+      "ring": 0.43,
+      "name": {
+        "en": "Dog",
+        "hi": "कुत्ता"
+      }
+    },
+    {
+      "id": "cat",
+      "model": "cat",
+      "position": "0.900 0.000 -3.300",
+      "rotation": "0 -45 0",
+      "ring": 0.25,
+      "scale": "1.400 1.400 1.400",
+      "name": {
+        "en": "Cat",
+        "hi": "बिल्ली"
+      }
+    },
+    {
+      "id": "hen",
+      "model": "hen",
+      "position": "2.400 0.000 -2.900",
+      "rotation": "0 -80 0",
+      "ring": 0.26,
+      "scale": "1.300 1.300 1.300",
+      "name": {
+        "en": "Hen",
+        "hi": "मुर्गी"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "ये पालतू जानवर हैं। ये हमारे साथ, हमारे घर और खेत में रहते हैं।",
+        "en": "These are domestic animals. They live with us, at our homes and farms."
+      }
+    },
+    {
+      "highlight": "cow",
+      "duration": 7000,
+      "script": {
+        "hi": "यह गाय है। गाय हमें दूध देती है।",
+        "en": "This is a cow. The cow gives us milk."
+      }
+    },
+    {
+      "highlight": "buffalo",
+      "duration": 7000,
+      "script": {
+        "hi": "यह भैंस है। भैंस भी दूध देती है।",
+        "en": "This is a buffalo. The buffalo gives us milk too."
+      }
+    },
+    {
+      "highlight": "horse",
+      "duration": 7000,
+      "script": {
+        "hi": "यह घोड़ा है। घोड़ा तेज़ दौड़ता है।",
+        "en": "This is a horse. The horse runs fast."
+      }
+    },
+    {
+      "highlight": "goat",
+      "duration": 7000,
+      "script": {
+        "hi": "यह बकरी है।",
+        "en": "This is a goat."
+      }
+    },
+    {
+      "highlight": "sheep",
+      "duration": 7000,
+      "script": {
+        "hi": "यह भेड़ है। भेड़ से हमें ऊन मिलती है।",
+        "en": "This is a sheep. The sheep gives us wool."
+      }
+    },
+    {
+      "highlight": "dog",
+      "duration": 7000,
+      "script": {
+        "hi": "यह कुत्ता है। कुत्ता घर की रखवाली करता है।",
+        "en": "This is a dog. The dog guards our home."
+      }
+    },
+    {
+      "highlight": "cat",
+      "duration": 7000,
+      "script": {
+        "hi": "यह बिल्ली है।",
+        "en": "This is a cat."
+      }
+    },
+    {
+      "highlight": "hen",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह मुर्गी है। मुर्गी अंडे देती है।",
+        "en": "And this is a hen. The hen lays eggs."
+      }
+    }
+  ]
+}

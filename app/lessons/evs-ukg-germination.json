@@ -1,0 +1,122 @@
+{
+  "id": "evs-ukg-germination",
+  "template": "sequence",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "seed",
+      "build": "sprout",
+      "params": {
+        "stage": 1,
+        "size": 0.2
+      },
+      "position": "-0.540 0.520 -0.800",
+      "name": {
+        "en": "Seed",
+        "hi": "बीज"
+      }
+    },
+    {
+      "id": "root",
+      "build": "sprout",
+      "params": {
+        "stage": 2,
+        "size": 0.2
+      },
+      "position": "-0.270 0.520 -0.800",
+      "name": {
+        "en": "Root",
+        "hi": "जड़"
+      }
+    },
+    {
+      "id": "shoot",
+      "build": "sprout",
+      "params": {
+        "stage": 3,
+        "size": 0.2
+      },
+      "position": "0.000 0.520 -0.800",
+      "name": {
+        "en": "Shoot",
+        "hi": "अंकुर"
+      }
+    },
+    {
+      "id": "seedling",
+      "build": "sprout",
+      "params": {
+        "stage": 4,
+        "size": 0.2
+      },
+      "position": "0.270 0.520 -0.800",
+      "name": {
+        "en": "Seedling",
+        "hi": "नन्हा पौधा"
+      }
+    },
+    {
+      "id": "plant",
+      "build": "sprout",
+      "params": {
+        "stage": 5,
+        "size": 0.2
+      },
+      "position": "0.540 0.520 -0.800",
+      "name": {
+        "en": "Plant",
+        "hi": "पौधा"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "at": "seed",
+      "duration": 9000,
+      "script": {
+        "hi": "यह बीज है। हम इसे मिट्टी में बोते हैं और पानी देते हैं।",
+        "en": "This is a seed. We sow it in the soil and give it water."
+      }
+    },
+    {
+      "at": "root",
+      "duration": 9000,
+      "script": {
+        "hi": "बीज पानी पीकर फूलता है। उसमें से एक छोटी जड़ नीचे की ओर निकलती है।",
+        "en": "The seed drinks water and swells. A tiny root comes out and grows down."
+      }
+    },
+    {
+      "at": "shoot",
+      "duration": 9000,
+      "script": {
+        "hi": "अब एक अंकुर ऊपर की ओर बढ़ता है और मिट्टी से बाहर झाँकता है।",
+        "en": "Now a shoot grows upward and peeps out of the soil."
+      }
+    },
+    {
+      "at": "seedling",
+      "duration": 9000,
+      "script": {
+        "hi": "अंकुर में दो नन्ही पत्तियाँ खुलती हैं। यह नन्हा पौधा है।",
+        "en": "Two little leaves open on the shoot. This is a seedling."
+      }
+    },
+    {
+      "at": "plant",
+      "duration": 9000,
+      "script": {
+        "hi": "धूप और पानी पाकर यह बड़ा पौधा बन जाता है।",
+        "en": "With sunlight and water, it grows into a big plant."
+      }
+    },
+    {
+      "at": "plant",
+      "duration": 9000,
+      "script": {
+        "hi": "बीज से पौधा बनने को अंकुरण कहते हैं। तुम भी एक बीज बोकर देखो!",
+        "en": "A seed growing into a plant is called germination. Try sowing a seed yourself!"
+      }
+    }
+  ]
+}

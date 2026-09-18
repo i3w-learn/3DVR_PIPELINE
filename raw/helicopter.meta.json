@@ -1,0 +1,11 @@
+{
+  "id": "helicopter",
+  "source": "Poly Pizza — \"Helicopter\" by Poly by Google",
+  "licence": "CC-BY",
+  "licenceVersion": "CC-BY 3.0",
+  "url": "https://poly.pizza/m/cTzINMr0WdS",
+  "targetHeight": 9.0,
+  "yaw": 180,
+  "fit": "longest",
+  "join": true
+}

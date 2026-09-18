@@ -1,0 +1,137 @@
+{
+  "id": "forest",
+  "sky": {
+    "hdri": "cloudy.jpg",
+    "intensity": 1.0
+  },
+  "ground": {
+    "color": "grass_color.jpg",
+    "normal": "grass_normal.jpg",
+    "rough": "grass_rough.jpg",
+    "ao": "grass_ao.jpg",
+    "repeat": 42
+  },
+  "sun": {
+    "position": "9 13 5",
+    "color": "#fff1d6",
+    "intensity": 1.05
+  },
+  "light": {
+    "sky": "#d6e6dc",
+    "ground": "#4f6040",
+    "intensity": 0.5
+  },
+  "fog": {
+    "color": "#c9d8cf",
+    "near": 26,
+    "far": 95
+  },
+  "shadows": true,
+  "start": {
+    "position": "0 1.2 1.5",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "grove",
+      "position": "0 0 -8",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 120,
+        "inner": 34,
+        "outer": 95,
+        "arc": 360,
+        "facing": 0,
+        "kind": "round",
+        "height": 12,
+        "leaf": "#2f5f35",
+        "seed": 61
+      }
+    },
+    {
+      "build": "grove",
+      "position": "0 0 -8",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 46,
+        "inner": 23,
+        "outer": 40,
+        "arc": 360,
+        "facing": 0,
+        "kind": "round",
+        "height": 10,
+        "leaf": "#356b3a",
+        "seed": 62
+      }
+    },
+    {
+      "build": "tree",
+      "position": "-13 0 -17",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 11,
+        "seed": 3
+      }
+    },
+    {
+      "build": "tree",
+      "position": "14 0 -18",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 12.5,
+        "seed": 4
+      }
+    },
+    {
+      "build": "tree",
+      "position": "-17 0 -5",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 10,
+        "seed": 5
+      }
+    },
+    {
+      "build": "tree",
+      "position": "17.5 0 -4",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 9.5,
+        "seed": 6
+      }
+    },
+    {
+      "build": "tree",
+      "position": "1.5 0 -25",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 13,
+        "seed": 7
+      }
+    },
+    {
+      "model": "rock",
+      "position": "6.2 0 -12.5",
+      "rotation": "0 40 0"
+    },
+    {
+      "model": "rock",
+      "position": "-7 0 -10.5",
+      "rotation": "0 200 0",
+      "scale": "0.8 0.8 0.8"
+    },
+    {
+      "model": "rock",
+      "position": "-3.5 0 -16",
+      "rotation": "0 120 0",
+      "scale": "1.2 1.2 1.2"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "evs-ukg-national-symbols",
+  "template": "identify",
+  "stage": "india",
+  "objects": [
+    {
+      "id": "flag",
+      "build": "flagpole",
+      "params": {},
+      "position": "-6.200 0.320 -9.500",
+      "name": {
+        "en": "Our flag",
+        "hi": "हमारा झंडा"
+      },
+      "ring": 1.0
+    },
+    {
+      "id": "tiger",
+      "model": "tiger",
+      "position": "-4.600 1.170 -3.600",
+      "scale": "0.482 0.482 0.482",
+      "ring": 0.522,
+      "rotation": "0 60 0",
+      "name": {
+        "en": "Tiger",
+        "hi": "बाघ"
+      }
+    },
+    {
+      "id": "peacock",
+      "build": "peacock",
+      "params": {
+        "height": 0.95
+      },
+      "position": "-2.300 1.170 -2.600",
+      "name": {
+        "en": "Peacock",
+        "hi": "मोर"
+      },
+      "ring": 0.5
+    },
+    {
+      "id": "lotus",
+      "build": "flower",
+      "params": {
+        "kind": "lotus",
+        "height": 0.62
+      },
+      "position": "2.300 1.170 -2.600",
+      "name": {
+        "en": "Lotus",
+        "hi": "कमल"
+      },
+      "ring": 0.5
+    },
+    {
+      "id": "mango",
+      "build": "mango",
+      "params": {
+        "size": 0.55
+      },
+      "position": "4.600 1.170 -3.600",
+      "name": {
+        "en": "Mango",
+        "hi": "आम"
+      },
+      "ring": 0.5
+    },
+    {
+      "id": "banyan",
+      "build": "tree",
+      "params": {
+        "height": 9,
+        "seed": 21
+      },
+      "position": "7.500 0.320 -9.000",
+      "name": {
+        "en": "Banyan tree",
+        "hi": "बरगद"
+      },
+      "ring": 2.2
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "हमारे देश का नाम भारत है। हर देश के अपने राष्ट्रीय प्रतीक होते हैं।",
+        "en": "Our country is India. Every country has its own national symbols."
+      }
+    },
+    {
+      "highlight": "flag",
+      "duration": 9000,
+      "script": {
+        "hi": "यह हमारा राष्ट्रीय ध्वज है — तिरंगा। इसमें केसरिया, सफ़ेद और हरा रंग है, और बीच में अशोक चक्र।",
+        "en": "This is our national flag — the Tiranga. It is saffron, white and green, with the Ashoka Chakra in the middle."
+      }
+    },
+    {
+      "highlight": "tiger",
+      "duration": 8000,
+      "script": {
+        "hi": "बाघ हमारा राष्ट्रीय पशु है।",
+        "en": "The tiger is our national animal."
+      }
+    },
+    {
+      "highlight": "peacock",
+      "duration": 8000,
+      "script": {
+        "hi": "मोर हमारा राष्ट्रीय पक्षी है।",
+        "en": "The peacock is our national bird."
+      }
+    },
+    {
+      "highlight": "lotus",
+      "duration": 8000,
+      "script": {
+        "hi": "कमल हमारा राष्ट्रीय फूल है।",
+        "en": "The lotus is our national flower."
+      }
+    },
+    {
+      "highlight": "mango",
+      "duration": 8000,
+      "script": {
+        "hi": "आम हमारा राष्ट्रीय फल है।",
+        "en": "The mango is our national fruit."
+      }
+    },
+    {
+      "highlight": "banyan",
+      "duration": 8000,
+      "script": {
+        "hi": "और बरगद हमारा राष्ट्रीय पेड़ है।",
+        "en": "And the banyan is our national tree."
+      }
+    },
+    {
+      "highlight": "flag",
+      "duration": 9000,
+      "script": {
+        "hi": "जब राष्ट्रगान बजता है, हम सीधे खड़े होते हैं। जय हिंद!",
+        "en": "When the national anthem plays, we stand up straight. Jai Hind!"
+      }
+    }
+  ]
+}

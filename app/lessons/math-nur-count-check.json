@@ -1,0 +1,259 @@
+{
+  "id": "math-nur-count-check",
+  "template": "sort",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "r1n4",
+      "build": "glyph",
+      "params": {
+        "char": "4",
+        "height": 0.3
+      },
+      "position": "-0.600 0.520 -0.800"
+    },
+    {
+      "id": "r1n7",
+      "build": "glyph",
+      "params": {
+        "char": "7",
+        "height": 0.3
+      },
+      "position": "-0.200 0.520 -0.800"
+    },
+    {
+      "id": "r1n2",
+      "build": "glyph",
+      "params": {
+        "char": "2",
+        "height": 0.3
+      },
+      "position": "0.200 0.520 -0.800"
+    },
+    {
+      "id": "r1n9",
+      "build": "glyph",
+      "params": {
+        "char": "9",
+        "height": 0.3
+      },
+      "position": "0.600 0.520 -0.800"
+    },
+    {
+      "id": "r2n12",
+      "build": "glyph",
+      "params": {
+        "char": "12",
+        "height": 0.3
+      },
+      "position": "-0.600 0.520 -0.800"
+    },
+    {
+      "id": "r2n18",
+      "build": "glyph",
+      "params": {
+        "char": "18",
+        "height": 0.3
+      },
+      "position": "-0.200 0.520 -0.800"
+    },
+    {
+      "id": "r2n15",
+      "build": "glyph",
+      "params": {
+        "char": "15",
+        "height": 0.3
+      },
+      "position": "0.200 0.520 -0.800"
+    },
+    {
+      "id": "r2n11",
+      "build": "glyph",
+      "params": {
+        "char": "11",
+        "height": 0.3
+      },
+      "position": "0.600 0.520 -0.800"
+    },
+    {
+      "id": "r3n34",
+      "build": "glyph",
+      "params": {
+        "char": "34",
+        "height": 0.3
+      },
+      "position": "-0.600 0.520 -0.800"
+    },
+    {
+      "id": "r3n43",
+      "build": "glyph",
+      "params": {
+        "char": "43",
+        "height": 0.3
+      },
+      "position": "-0.200 0.520 -0.800"
+    },
+    {
+      "id": "r3n40",
+      "build": "glyph",
+      "params": {
+        "char": "40",
+        "height": 0.3
+      },
+      "position": "0.200 0.520 -0.800"
+    },
+    {
+      "id": "r3n30",
+      "build": "glyph",
+      "params": {
+        "char": "30",
+        "height": 0.3
+      },
+      "position": "0.600 0.520 -0.800"
+    },
+    {
+      "id": "r4n68",
+      "build": "glyph",
+      "params": {
+        "char": "68",
+        "height": 0.3
+      },
+      "position": "-0.600 0.520 -0.800"
+    },
+    {
+      "id": "r4n86",
+      "build": "glyph",
+      "params": {
+        "char": "86",
+        "height": 0.3
+      },
+      "position": "-0.200 0.520 -0.800"
+    },
+    {
+      "id": "r4n60",
+      "build": "glyph",
+      "params": {
+        "char": "60",
+        "height": 0.3
+      },
+      "position": "0.200 0.520 -0.800"
+    },
+    {
+      "id": "r4n80",
+      "build": "glyph",
+      "params": {
+        "char": "80",
+        "height": 0.3
+      },
+      "position": "0.600 0.520 -0.800"
+    },
+    {
+      "id": "r5n100",
+      "build": "glyph",
+      "params": {
+        "char": "100",
+        "height": 0.3
+      },
+      "position": "-0.600 0.520 -0.800"
+    },
+    {
+      "id": "r5n10",
+      "build": "glyph",
+      "params": {
+        "char": "10",
+        "height": 0.3
+      },
+      "position": "-0.200 0.520 -0.800"
+    },
+    {
+      "id": "r5n90",
+      "build": "glyph",
+      "params": {
+        "char": "90",
+        "height": 0.3
+      },
+      "position": "0.200 0.520 -0.800"
+    },
+    {
+      "id": "r5n99",
+      "build": "glyph",
+      "params": {
+        "char": "99",
+        "height": 0.3
+      },
+      "position": "0.600 0.520 -0.800"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "r1n4",
+        "r1n7",
+        "r1n2",
+        "r1n9"
+      ],
+      "answer": "r1n7",
+      "duration": 10000,
+      "script": {
+        "hi": "7 कहाँ है? उसे छुओ।",
+        "en": "Where is 7? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r2n12",
+        "r2n18",
+        "r2n15",
+        "r2n11"
+      ],
+      "answer": "r2n15",
+      "duration": 10000,
+      "script": {
+        "hi": "15 कहाँ है? उसे छुओ।",
+        "en": "Where is 15? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r3n34",
+        "r3n43",
+        "r3n40",
+        "r3n30"
+      ],
+      "answer": "r3n43",
+      "duration": 10000,
+      "script": {
+        "hi": "43 कहाँ है? उसे छुओ।",
+        "en": "Where is 43? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r4n68",
+        "r4n86",
+        "r4n60",
+        "r4n80"
+      ],
+      "answer": "r4n86",
+      "duration": 10000,
+      "script": {
+        "hi": "86 कहाँ है? उसे छुओ।",
+        "en": "Where is 86? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r5n100",
+        "r5n10",
+        "r5n90",
+        "r5n99"
+      ],
+      "answer": "r5n100",
+      "duration": 10000,
+      "script": {
+        "hi": "100 कहाँ है? उसे छुओ।",
+        "en": "Where is 100? Touch it."
+      }
+    }
+  ]
+}

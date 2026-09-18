@@ -1,0 +1,1858 @@
+{
+  "id": "eng-nur-alphabets",
+  "template": "match",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "capA",
+      "build": "glyph",
+      "params": {
+        "char": "A",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smalla",
+      "build": "glyph",
+      "params": {
+        "char": "a",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "obja",
+      "model": "apple",
+      "position": "0.330 0.520 -0.720",
+      "scale": "3.226 3.226 3.226",
+      "ring": 0.174,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Apple",
+        "hi": "सेब"
+      }
+    },
+    {
+      "id": "capB",
+      "build": "glyph",
+      "params": {
+        "char": "B",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallb",
+      "build": "glyph",
+      "params": {
+        "char": "b",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objb",
+      "model": "banana",
+      "position": "0.330 0.520 -0.720",
+      "scale": "1.579 1.579 1.579",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Banana",
+        "hi": "केला"
+      }
+    },
+    {
+      "id": "capC",
+      "build": "glyph",
+      "params": {
+        "char": "C",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallc",
+      "build": "glyph",
+      "params": {
+        "char": "c",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objc",
+      "model": "cat",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.938 0.938 0.938",
+      "ring": 0.16,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Cat",
+        "hi": "बिल्ली"
+      }
+    },
+    {
+      "id": "capD",
+      "build": "glyph",
+      "params": {
+        "char": "D",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smalld",
+      "build": "glyph",
+      "params": {
+        "char": "d",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objd",
+      "model": "dog",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.416 0.416 0.416",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Dog",
+        "hi": "कुत्ता"
+      }
+    },
+    {
+      "id": "capE",
+      "build": "glyph",
+      "params": {
+        "char": "E",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smalle",
+      "build": "glyph",
+      "params": {
+        "char": "e",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "obje",
+      "model": "elephant",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.076 0.076 0.076",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Elephant",
+        "hi": "हाथी"
+      }
+    },
+    {
+      "id": "capF",
+      "build": "glyph",
+      "params": {
+        "char": "F",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallf",
+      "build": "glyph",
+      "params": {
+        "char": "f",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objf",
+      "model": "clownfish",
+      "position": "0.330 0.520 -0.720",
+      "scale": "1.000 1.000 1.000",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Fish",
+        "hi": "मछली"
+      }
+    },
+    {
+      "id": "capG",
+      "build": "glyph",
+      "params": {
+        "char": "G",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallg",
+      "build": "glyph",
+      "params": {
+        "char": "g",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objg",
+      "model": "goat",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.294 0.294 0.294",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Goat",
+        "hi": "बकरी"
+      }
+    },
+    {
+      "id": "capH",
+      "build": "glyph",
+      "params": {
+        "char": "H",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallh",
+      "build": "glyph",
+      "params": {
+        "char": "h",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objh",
+      "model": "hen",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.714 0.714 0.714",
+      "ring": 0.14,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Hen",
+        "hi": "मुर्गी"
+      }
+    },
+    {
+      "id": "capI",
+      "build": "glyph",
+      "params": {
+        "char": "I",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smalli",
+      "build": "glyph",
+      "params": {
+        "char": "i",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "obji",
+      "model": "icecream",
+      "position": "0.330 0.520 -0.720",
+      "scale": "1.875 1.875 1.875",
+      "ring": 0.102,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Ice cream",
+        "hi": "आइसक्रीम"
+      }
+    },
+    {
+      "id": "capJ",
+      "build": "glyph",
+      "params": {
+        "char": "J",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallj",
+      "build": "glyph",
+      "params": {
+        "char": "j",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objj",
+      "model": "jeep",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.075 0.075 0.075",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Jeep",
+        "hi": "जीप"
+      }
+    },
+    {
+      "id": "capK",
+      "build": "glyph",
+      "params": {
+        "char": "K",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallk",
+      "build": "glyph",
+      "params": {
+        "char": "k",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objk",
+      "model": "kite",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.333 0.333 0.333",
+      "ring": 0.174,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Kite",
+        "hi": "पतंग"
+      }
+    },
+    {
+      "id": "capL",
+      "build": "glyph",
+      "params": {
+        "char": "L",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smalll",
+      "build": "glyph",
+      "params": {
+        "char": "l",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objl",
+      "model": "lion",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.128 0.128 0.128",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Lion",
+        "hi": "शेर"
+      }
+    },
+    {
+      "id": "capM",
+      "build": "glyph",
+      "params": {
+        "char": "M",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallm",
+      "build": "glyph",
+      "params": {
+        "char": "m",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objm",
+      "model": "monkey",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.274 0.274 0.274",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Monkey",
+        "hi": "बंदर"
+      }
+    },
+    {
+      "id": "capN",
+      "build": "glyph",
+      "params": {
+        "char": "N",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smalln",
+      "build": "glyph",
+      "params": {
+        "char": "n",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objn",
+      "model": "nest",
+      "position": "0.330 0.520 -0.720",
+      "scale": "1.000 1.000 1.000",
+      "ring": 0.174,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Nest",
+        "hi": "घोंसला"
+      }
+    },
+    {
+      "id": "capO",
+      "build": "glyph",
+      "params": {
+        "char": "O",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallo",
+      "build": "glyph",
+      "params": {
+        "char": "o",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objo",
+      "model": "orange",
+      "position": "0.330 0.520 -0.720",
+      "scale": "3.297 3.297 3.297",
+      "ring": 0.174,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Orange",
+        "hi": "संतरा"
+      }
+    },
+    {
+      "id": "capP",
+      "build": "glyph",
+      "params": {
+        "char": "P",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallp",
+      "build": "glyph",
+      "params": {
+        "char": "p",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objp",
+      "model": "parrot",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.656 0.656 0.656",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Parrot",
+        "hi": "तोता"
+      }
+    },
+    {
+      "id": "capQ",
+      "build": "glyph",
+      "params": {
+        "char": "Q",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallq",
+      "build": "glyph",
+      "params": {
+        "char": "q",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objq",
+      "build": "person",
+      "params": {
+        "height": 0.3,
+        "role": "queen"
+      },
+      "position": "0.330 0.520 -0.720",
+      "name": {
+        "en": "Queen",
+        "hi": "रानी"
+      }
+    },
+    {
+      "id": "capR",
+      "build": "glyph",
+      "params": {
+        "char": "R",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallr",
+      "build": "glyph",
+      "params": {
+        "char": "r",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objr",
+      "model": "rocket",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.037 0.037 0.037",
+      "ring": 0.076,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Rocket",
+        "hi": "रॉकेट"
+      }
+    },
+    {
+      "id": "capS",
+      "build": "glyph",
+      "params": {
+        "char": "S",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smalls",
+      "build": "glyph",
+      "params": {
+        "char": "s",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objs",
+      "build": "sundisc",
+      "params": {
+        "radius": 0.085
+      },
+      "position": "0.330 0.720 -0.720",
+      "name": {
+        "en": "Sun",
+        "hi": "सूरज"
+      },
+      "ring": 0.17
+    },
+    {
+      "id": "capT",
+      "build": "glyph",
+      "params": {
+        "char": "T",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallt",
+      "build": "glyph",
+      "params": {
+        "char": "t",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objt",
+      "model": "tiger",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.161 0.161 0.161",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Tiger",
+        "hi": "बाघ"
+      }
+    },
+    {
+      "id": "capU",
+      "build": "glyph",
+      "params": {
+        "char": "U",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallu",
+      "build": "glyph",
+      "params": {
+        "char": "u",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "obju",
+      "build": "umbrella",
+      "params": {
+        "size": 0.26
+      },
+      "position": "0.330 0.520 -0.720",
+      "name": {
+        "en": "Umbrella",
+        "hi": "छाता"
+      },
+      "ring": 0.17
+    },
+    {
+      "id": "capV",
+      "build": "glyph",
+      "params": {
+        "char": "V",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallv",
+      "build": "glyph",
+      "params": {
+        "char": "v",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objv",
+      "model": "violin",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.500 0.500 0.500",
+      "ring": 0.174,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Violin",
+        "hi": "वायलिन"
+      }
+    },
+    {
+      "id": "capW",
+      "build": "glyph",
+      "params": {
+        "char": "W",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallw",
+      "build": "glyph",
+      "params": {
+        "char": "w",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objw",
+      "model": "watermelon",
+      "position": "0.330 0.520 -0.720",
+      "scale": "1.071 1.071 1.071",
+      "ring": 0.167,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Watermelon",
+        "hi": "तरबूज़"
+      }
+    },
+    {
+      "id": "capX",
+      "build": "glyph",
+      "params": {
+        "char": "X",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallx",
+      "build": "glyph",
+      "params": {
+        "char": "x",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objx",
+      "build": "xylophone",
+      "params": {
+        "size": 0.3
+      },
+      "position": "0.330 0.520 -0.720",
+      "name": {
+        "en": "Xylophone",
+        "hi": "ज़ाइलोफ़ोन"
+      }
+    },
+    {
+      "id": "capY",
+      "build": "glyph",
+      "params": {
+        "char": "Y",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smally",
+      "build": "glyph",
+      "params": {
+        "char": "y",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objy",
+      "model": "yarn",
+      "position": "0.330 0.520 -0.720",
+      "scale": "1.351 1.351 1.351",
+      "ring": 0.174,
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Yarn",
+        "hi": "ऊन का गोला"
+      }
+    },
+    {
+      "id": "capZ",
+      "build": "glyph",
+      "params": {
+        "char": "Z",
+        "height": 0.2
+      },
+      "position": "-0.420 0.520 -0.850"
+    },
+    {
+      "id": "smallz",
+      "build": "glyph",
+      "params": {
+        "char": "z",
+        "height": 0.2
+      },
+      "position": "-0.140 0.520 -0.850"
+    },
+    {
+      "id": "objz",
+      "model": "zebra",
+      "position": "0.330 0.520 -0.720",
+      "scale": "0.164 0.164 0.164",
+      "ring": 0.174,
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Zebra",
+        "hi": "ज़ेबरा"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "capA",
+        "smalla",
+        "obja"
+      ],
+      "highlight": "capA",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा A है।",
+        "en": "This is capital A."
+      }
+    },
+    {
+      "show": [
+        "capA",
+        "smalla",
+        "obja"
+      ],
+      "highlight": "smalla",
+      "partner": "capA",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा a है।",
+        "en": "This is small a."
+      }
+    },
+    {
+      "show": [
+        "capA",
+        "smalla",
+        "obja"
+      ],
+      "highlight": "obja",
+      "partner": "capA",
+      "duration": 5500,
+      "script": {
+        "hi": "A से Apple — सेब।",
+        "en": "A for Apple."
+      }
+    },
+    {
+      "show": [
+        "capB",
+        "smallb",
+        "objb"
+      ],
+      "highlight": "capB",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा B है।",
+        "en": "This is capital B."
+      }
+    },
+    {
+      "show": [
+        "capB",
+        "smallb",
+        "objb"
+      ],
+      "highlight": "smallb",
+      "partner": "capB",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा b है।",
+        "en": "This is small b."
+      }
+    },
+    {
+      "show": [
+        "capB",
+        "smallb",
+        "objb"
+      ],
+      "highlight": "objb",
+      "partner": "capB",
+      "duration": 5500,
+      "script": {
+        "hi": "B से Banana — केला।",
+        "en": "B for Banana."
+      }
+    },
+    {
+      "show": [
+        "capC",
+        "smallc",
+        "objc"
+      ],
+      "highlight": "capC",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा C है।",
+        "en": "This is capital C."
+      }
+    },
+    {
+      "show": [
+        "capC",
+        "smallc",
+        "objc"
+      ],
+      "highlight": "smallc",
+      "partner": "capC",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा c है।",
+        "en": "This is small c."
+      }
+    },
+    {
+      "show": [
+        "capC",
+        "smallc",
+        "objc"
+      ],
+      "highlight": "objc",
+      "partner": "capC",
+      "duration": 5500,
+      "script": {
+        "hi": "C से Cat — बिल्ली।",
+        "en": "C for Cat."
+      }
+    },
+    {
+      "show": [
+        "capD",
+        "smalld",
+        "objd"
+      ],
+      "highlight": "capD",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा D है।",
+        "en": "This is capital D."
+      }
+    },
+    {
+      "show": [
+        "capD",
+        "smalld",
+        "objd"
+      ],
+      "highlight": "smalld",
+      "partner": "capD",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा d है।",
+        "en": "This is small d."
+      }
+    },
+    {
+      "show": [
+        "capD",
+        "smalld",
+        "objd"
+      ],
+      "highlight": "objd",
+      "partner": "capD",
+      "duration": 5500,
+      "script": {
+        "hi": "D से Dog — कुत्ता।",
+        "en": "D for Dog."
+      }
+    },
+    {
+      "show": [
+        "capE",
+        "smalle",
+        "obje"
+      ],
+      "highlight": "capE",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा E है।",
+        "en": "This is capital E."
+      }
+    },
+    {
+      "show": [
+        "capE",
+        "smalle",
+        "obje"
+      ],
+      "highlight": "smalle",
+      "partner": "capE",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा e है।",
+        "en": "This is small e."
+      }
+    },
+    {
+      "show": [
+        "capE",
+        "smalle",
+        "obje"
+      ],
+      "highlight": "obje",
+      "partner": "capE",
+      "duration": 5500,
+      "script": {
+        "hi": "E से Elephant — हाथी।",
+        "en": "E for Elephant."
+      }
+    },
+    {
+      "show": [
+        "capF",
+        "smallf",
+        "objf"
+      ],
+      "highlight": "capF",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा F है।",
+        "en": "This is capital F."
+      }
+    },
+    {
+      "show": [
+        "capF",
+        "smallf",
+        "objf"
+      ],
+      "highlight": "smallf",
+      "partner": "capF",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा f है।",
+        "en": "This is small f."
+      }
+    },
+    {
+      "show": [
+        "capF",
+        "smallf",
+        "objf"
+      ],
+      "highlight": "objf",
+      "partner": "capF",
+      "duration": 5500,
+      "script": {
+        "hi": "F से Fish — मछली।",
+        "en": "F for Fish."
+      }
+    },
+    {
+      "show": [
+        "capG",
+        "smallg",
+        "objg"
+      ],
+      "highlight": "capG",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा G है।",
+        "en": "This is capital G."
+      }
+    },
+    {
+      "show": [
+        "capG",
+        "smallg",
+        "objg"
+      ],
+      "highlight": "smallg",
+      "partner": "capG",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा g है।",
+        "en": "This is small g."
+      }
+    },
+    {
+      "show": [
+        "capG",
+        "smallg",
+        "objg"
+      ],
+      "highlight": "objg",
+      "partner": "capG",
+      "duration": 5500,
+      "script": {
+        "hi": "G से Goat — बकरी।",
+        "en": "G for Goat."
+      }
+    },
+    {
+      "show": [
+        "capH",
+        "smallh",
+        "objh"
+      ],
+      "highlight": "capH",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा H है।",
+        "en": "This is capital H."
+      }
+    },
+    {
+      "show": [
+        "capH",
+        "smallh",
+        "objh"
+      ],
+      "highlight": "smallh",
+      "partner": "capH",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा h है।",
+        "en": "This is small h."
+      }
+    },
+    {
+      "show": [
+        "capH",
+        "smallh",
+        "objh"
+      ],
+      "highlight": "objh",
+      "partner": "capH",
+      "duration": 5500,
+      "script": {
+        "hi": "H से Hen — मुर्गी।",
+        "en": "H for Hen."
+      }
+    },
+    {
+      "show": [
+        "capI",
+        "smalli",
+        "obji"
+      ],
+      "highlight": "capI",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा I है।",
+        "en": "This is capital I."
+      }
+    },
+    {
+      "show": [
+        "capI",
+        "smalli",
+        "obji"
+      ],
+      "highlight": "smalli",
+      "partner": "capI",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा i है।",
+        "en": "This is small i."
+      }
+    },
+    {
+      "show": [
+        "capI",
+        "smalli",
+        "obji"
+      ],
+      "highlight": "obji",
+      "partner": "capI",
+      "duration": 5500,
+      "script": {
+        "hi": "I से Ice cream — आइसक्रीम।",
+        "en": "I for Ice cream."
+      }
+    },
+    {
+      "show": [
+        "capJ",
+        "smallj",
+        "objj"
+      ],
+      "highlight": "capJ",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा J है।",
+        "en": "This is capital J."
+      }
+    },
+    {
+      "show": [
+        "capJ",
+        "smallj",
+        "objj"
+      ],
+      "highlight": "smallj",
+      "partner": "capJ",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा j है।",
+        "en": "This is small j."
+      }
+    },
+    {
+      "show": [
+        "capJ",
+        "smallj",
+        "objj"
+      ],
+      "highlight": "objj",
+      "partner": "capJ",
+      "duration": 5500,
+      "script": {
+        "hi": "J से Jeep — जीप।",
+        "en": "J for Jeep."
+      }
+    },
+    {
+      "show": [
+        "capK",
+        "smallk",
+        "objk"
+      ],
+      "highlight": "capK",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा K है।",
+        "en": "This is capital K."
+      }
+    },
+    {
+      "show": [
+        "capK",
+        "smallk",
+        "objk"
+      ],
+      "highlight": "smallk",
+      "partner": "capK",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा k है।",
+        "en": "This is small k."
+      }
+    },
+    {
+      "show": [
+        "capK",
+        "smallk",
+        "objk"
+      ],
+      "highlight": "objk",
+      "partner": "capK",
+      "duration": 5500,
+      "script": {
+        "hi": "K से Kite — पतंग।",
+        "en": "K for Kite."
+      }
+    },
+    {
+      "show": [
+        "capL",
+        "smalll",
+        "objl"
+      ],
+      "highlight": "capL",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा L है।",
+        "en": "This is capital L."
+      }
+    },
+    {
+      "show": [
+        "capL",
+        "smalll",
+        "objl"
+      ],
+      "highlight": "smalll",
+      "partner": "capL",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा l है।",
+        "en": "This is small l."
+      }
+    },
+    {
+      "show": [
+        "capL",
+        "smalll",
+        "objl"
+      ],
+      "highlight": "objl",
+      "partner": "capL",
+      "duration": 5500,
+      "script": {
+        "hi": "L से Lion — शेर।",
+        "en": "L for Lion."
+      }
+    },
+    {
+      "show": [
+        "capM",
+        "smallm",
+        "objm"
+      ],
+      "highlight": "capM",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा M है।",
+        "en": "This is capital M."
+      }
+    },
+    {
+      "show": [
+        "capM",
+        "smallm",
+        "objm"
+      ],
+      "highlight": "smallm",
+      "partner": "capM",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा m है।",
+        "en": "This is small m."
+      }
+    },
+    {
+      "show": [
+        "capM",
+        "smallm",
+        "objm"
+      ],
+      "highlight": "objm",
+      "partner": "capM",
+      "duration": 5500,
+      "script": {
+        "hi": "M से Monkey — बंदर।",
+        "en": "M for Monkey."
+      }
+    },
+    {
+      "show": [
+        "capN",
+        "smalln",
+        "objn"
+      ],
+      "highlight": "capN",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा N है।",
+        "en": "This is capital N."
+      }
+    },
+    {
+      "show": [
+        "capN",
+        "smalln",
+        "objn"
+      ],
+      "highlight": "smalln",
+      "partner": "capN",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा n है।",
+        "en": "This is small n."
+      }
+    },
+    {
+      "show": [
+        "capN",
+        "smalln",
+        "objn"
+      ],
+      "highlight": "objn",
+      "partner": "capN",
+      "duration": 5500,
+      "script": {
+        "hi": "N से Nest — घोंसला।",
+        "en": "N for Nest."
+      }
+    },
+    {
+      "show": [
+        "capO",
+        "smallo",
+        "objo"
+      ],
+      "highlight": "capO",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा O है।",
+        "en": "This is capital O."
+      }
+    },
+    {
+      "show": [
+        "capO",
+        "smallo",
+        "objo"
+      ],
+      "highlight": "smallo",
+      "partner": "capO",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा o है।",
+        "en": "This is small o."
+      }
+    },
+    {
+      "show": [
+        "capO",
+        "smallo",
+        "objo"
+      ],
+      "highlight": "objo",
+      "partner": "capO",
+      "duration": 5500,
+      "script": {
+        "hi": "O से Orange — संतरा।",
+        "en": "O for Orange."
+      }
+    },
+    {
+      "show": [
+        "capP",
+        "smallp",
+        "objp"
+      ],
+      "highlight": "capP",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा P है।",
+        "en": "This is capital P."
+      }
+    },
+    {
+      "show": [
+        "capP",
+        "smallp",
+        "objp"
+      ],
+      "highlight": "smallp",
+      "partner": "capP",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा p है।",
+        "en": "This is small p."
+      }
+    },
+    {
+      "show": [
+        "capP",
+        "smallp",
+        "objp"
+      ],
+      "highlight": "objp",
+      "partner": "capP",
+      "duration": 5500,
+      "script": {
+        "hi": "P से Parrot — तोता।",
+        "en": "P for Parrot."
+      }
+    },
+    {
+      "show": [
+        "capQ",
+        "smallq",
+        "objq"
+      ],
+      "highlight": "capQ",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा Q है।",
+        "en": "This is capital Q."
+      }
+    },
+    {
+      "show": [
+        "capQ",
+        "smallq",
+        "objq"
+      ],
+      "highlight": "smallq",
+      "partner": "capQ",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा q है।",
+        "en": "This is small q."
+      }
+    },
+    {
+      "show": [
+        "capQ",
+        "smallq",
+        "objq"
+      ],
+      "highlight": "objq",
+      "partner": "capQ",
+      "duration": 5500,
+      "script": {
+        "hi": "Q से Queen — रानी।",
+        "en": "Q for Queen."
+      }
+    },
+    {
+      "show": [
+        "capR",
+        "smallr",
+        "objr"
+      ],
+      "highlight": "capR",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा R है।",
+        "en": "This is capital R."
+      }
+    },
+    {
+      "show": [
+        "capR",
+        "smallr",
+        "objr"
+      ],
+      "highlight": "smallr",
+      "partner": "capR",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा r है।",
+        "en": "This is small r."
+      }
+    },
+    {
+      "show": [
+        "capR",
+        "smallr",
+        "objr"
+      ],
+      "highlight": "objr",
+      "partner": "capR",
+      "duration": 5500,
+      "script": {
+        "hi": "R से Rocket — रॉकेट।",
+        "en": "R for Rocket."
+      }
+    },
+    {
+      "show": [
+        "capS",
+        "smalls",
+        "objs"
+      ],
+      "highlight": "capS",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा S है।",
+        "en": "This is capital S."
+      }
+    },
+    {
+      "show": [
+        "capS",
+        "smalls",
+        "objs"
+      ],
+      "highlight": "smalls",
+      "partner": "capS",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा s है।",
+        "en": "This is small s."
+      }
+    },
+    {
+      "show": [
+        "capS",
+        "smalls",
+        "objs"
+      ],
+      "highlight": "objs",
+      "partner": "capS",
+      "duration": 5500,
+      "script": {
+        "hi": "S से Sun — सूरज।",
+        "en": "S for Sun."
+      }
+    },
+    {
+      "show": [
+        "capT",
+        "smallt",
+        "objt"
+      ],
+      "highlight": "capT",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा T है।",
+        "en": "This is capital T."
+      }
+    },
+    {
+      "show": [
+        "capT",
+        "smallt",
+        "objt"
+      ],
+      "highlight": "smallt",
+      "partner": "capT",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा t है।",
+        "en": "This is small t."
+      }
+    },
+    {
+      "show": [
+        "capT",
+        "smallt",
+        "objt"
+      ],
+      "highlight": "objt",
+      "partner": "capT",
+      "duration": 5500,
+      "script": {
+        "hi": "T से Tiger — बाघ।",
+        "en": "T for Tiger."
+      }
+    },
+    {
+      "show": [
+        "capU",
+        "smallu",
+        "obju"
+      ],
+      "highlight": "capU",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा U है।",
+        "en": "This is capital U."
+      }
+    },
+    {
+      "show": [
+        "capU",
+        "smallu",
+        "obju"
+      ],
+      "highlight": "smallu",
+      "partner": "capU",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा u है।",
+        "en": "This is small u."
+      }
+    },
+    {
+      "show": [
+        "capU",
+        "smallu",
+        "obju"
+      ],
+      "highlight": "obju",
+      "partner": "capU",
+      "duration": 5500,
+      "script": {
+        "hi": "U से Umbrella — छाता।",
+        "en": "U for Umbrella."
+      }
+    },
+    {
+      "show": [
+        "capV",
+        "smallv",
+        "objv"
+      ],
+      "highlight": "capV",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा V है।",
+        "en": "This is capital V."
+      }
+    },
+    {
+      "show": [
+        "capV",
+        "smallv",
+        "objv"
+      ],
+      "highlight": "smallv",
+      "partner": "capV",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा v है।",
+        "en": "This is small v."
+      }
+    },
+    {
+      "show": [
+        "capV",
+        "smallv",
+        "objv"
+      ],
+      "highlight": "objv",
+      "partner": "capV",
+      "duration": 5500,
+      "script": {
+        "hi": "V से Violin — वायलिन।",
+        "en": "V for Violin."
+      }
+    },
+    {
+      "show": [
+        "capW",
+        "smallw",
+        "objw"
+      ],
+      "highlight": "capW",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा W है।",
+        "en": "This is capital W."
+      }
+    },
+    {
+      "show": [
+        "capW",
+        "smallw",
+        "objw"
+      ],
+      "highlight": "smallw",
+      "partner": "capW",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा w है।",
+        "en": "This is small w."
+      }
+    },
+    {
+      "show": [
+        "capW",
+        "smallw",
+        "objw"
+      ],
+      "highlight": "objw",
+      "partner": "capW",
+      "duration": 5500,
+      "script": {
+        "hi": "W से Watermelon — तरबूज़।",
+        "en": "W for Watermelon."
+      }
+    },
+    {
+      "show": [
+        "capX",
+        "smallx",
+        "objx"
+      ],
+      "highlight": "capX",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा X है।",
+        "en": "This is capital X."
+      }
+    },
+    {
+      "show": [
+        "capX",
+        "smallx",
+        "objx"
+      ],
+      "highlight": "smallx",
+      "partner": "capX",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा x है।",
+        "en": "This is small x."
+      }
+    },
+    {
+      "show": [
+        "capX",
+        "smallx",
+        "objx"
+      ],
+      "highlight": "objx",
+      "partner": "capX",
+      "duration": 5500,
+      "script": {
+        "hi": "X से Xylophone — ज़ाइलोफ़ोन।",
+        "en": "X for Xylophone."
+      }
+    },
+    {
+      "show": [
+        "capY",
+        "smally",
+        "objy"
+      ],
+      "highlight": "capY",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा Y है।",
+        "en": "This is capital Y."
+      }
+    },
+    {
+      "show": [
+        "capY",
+        "smally",
+        "objy"
+      ],
+      "highlight": "smally",
+      "partner": "capY",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा y है।",
+        "en": "This is small y."
+      }
+    },
+    {
+      "show": [
+        "capY",
+        "smally",
+        "objy"
+      ],
+      "highlight": "objy",
+      "partner": "capY",
+      "duration": 5500,
+      "script": {
+        "hi": "Y से Yarn — ऊन का गोला।",
+        "en": "Y for Yarn."
+      }
+    },
+    {
+      "show": [
+        "capZ",
+        "smallz",
+        "objz"
+      ],
+      "highlight": "capZ",
+      "duration": 4500,
+      "script": {
+        "hi": "यह बड़ा Z है।",
+        "en": "This is capital Z."
+      }
+    },
+    {
+      "show": [
+        "capZ",
+        "smallz",
+        "objz"
+      ],
+      "highlight": "smallz",
+      "partner": "capZ",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा z है।",
+        "en": "This is small z."
+      }
+    },
+    {
+      "show": [
+        "capZ",
+        "smallz",
+        "objz"
+      ],
+      "highlight": "objz",
+      "partner": "capZ",
+      "duration": 5500,
+      "script": {
+        "hi": "Z से Zebra — ज़ेबरा।",
+        "en": "Z for Zebra."
+      }
+    }
+  ]
+}

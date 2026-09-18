@@ -1,0 +1,38 @@
+{
+  "id": "demo-india",
+  "template": "explore",
+  "stage": "india",
+  "objects": [
+    {
+      "id": "flag",
+      "build": "flagpole",
+      "params": {},
+      "position": "-6.200 0.320 -9.500",
+      "name": {
+        "en": "Our flag",
+        "hi": "हमारा झंडा"
+      },
+      "ring": 1.0,
+      "script": {
+        "hi": "यह हमारा राष्ट्रीय ध्वज है — तिरंगा।",
+        "en": "This is our national flag — the Tiranga."
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "यह हमारा प्रांगण है। बीच में अशोक चक्र है।",
+        "en": "This is our courtyard. In the middle is the wheel from our flag."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "इन चबूतरों पर हमारे राष्ट्रीय चिह्न रखे जाएँगे।",
+        "en": "Our national symbols will stand on these plinths."
+      }
+    }
+  ]
+}

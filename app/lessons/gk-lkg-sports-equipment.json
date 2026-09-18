@@ -1,0 +1,316 @@
+{
+  "id": "gk-lkg-sports-equipment",
+  "template": "match",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "bat",
+      "model": "cricketbat",
+      "position": "-0.220 0.520 -0.780",
+      "scale": "0.467 0.467 0.467",
+      "ring": 0.039,
+      "name": {
+        "en": "Bat",
+        "hi": "बल्ला"
+      }
+    },
+    {
+      "id": "cricketball",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#b3261e",
+        "size": 0.09
+      },
+      "position": "0.240 0.520 -0.740",
+      "name": {
+        "en": "Ball",
+        "hi": "गेंद"
+      }
+    },
+    {
+      "id": "football",
+      "model": "soccerball",
+      "position": "-0.240 0.520 -0.700",
+      "scale": "0.909 0.909 0.909",
+      "ring": 0.115,
+      "name": {
+        "en": "Football",
+        "hi": "फ़ुटबॉल"
+      }
+    },
+    {
+      "id": "goal",
+      "build": "goal",
+      "params": {
+        "width": 0.4
+      },
+      "position": "0.220 0.520 -0.860",
+      "rotation": "0 -25 0",
+      "name": {
+        "en": "Goal",
+        "hi": "गोल"
+      }
+    },
+    {
+      "id": "racket",
+      "model": "badminton",
+      "position": "-0.240 0.520 -0.780",
+      "scale": "0.657 0.657 0.657",
+      "ring": 0.255,
+      "rotation": "0 65 0",
+      "name": {
+        "en": "Racket",
+        "hi": "रैकेट"
+      }
+    },
+    {
+      "id": "shuttle",
+      "build": "shuttle",
+      "params": {
+        "size": 0.2
+      },
+      "position": "0.240 0.520 -0.760",
+      "name": {
+        "en": "Shuttlecock",
+        "hi": "शटलकॉक"
+      }
+    },
+    {
+      "id": "stick",
+      "model": "hockeystick",
+      "position": "-0.220 0.520 -0.780",
+      "scale": "0.484 0.484 0.484",
+      "ring": 0.267,
+      "rotation": "0 90 0",
+      "name": {
+        "en": "Hockey stick",
+        "hi": "हॉकी स्टिक"
+      }
+    },
+    {
+      "id": "hockeyball",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#f4f4f0",
+        "size": 0.08
+      },
+      "position": "0.240 0.520 -0.740",
+      "name": {
+        "en": "Ball",
+        "hi": "गेंद"
+      }
+    },
+    {
+      "id": "basketball",
+      "model": "basketball",
+      "position": "-0.240 0.520 -0.700",
+      "scale": "0.823 0.823 0.823",
+      "ring": 0.116,
+      "name": {
+        "en": "Basketball",
+        "hi": "बास्केटबॉल"
+      }
+    },
+    {
+      "id": "hoop",
+      "build": "hoop",
+      "params": {
+        "height": 0.5
+      },
+      "position": "0.220 0.520 -0.900",
+      "rotation": "0 -25 0",
+      "name": {
+        "en": "Hoop",
+        "hi": "बास्केट"
+      }
+    },
+    {
+      "id": "tennisracket",
+      "model": "racket",
+      "position": "-0.240 0.520 -0.780",
+      "scale": "0.638 0.638 0.638",
+      "ring": 0.255,
+      "rotation": "0 65 0",
+      "name": {
+        "en": "Racket",
+        "hi": "रैकेट"
+      }
+    },
+    {
+      "id": "tennisball",
+      "model": "tennisball",
+      "position": "0.240 0.520 -0.740",
+      "scale": "1.429 1.429 1.429",
+      "ring": 0.058,
+      "name": {
+        "en": "Tennis ball",
+        "hi": "टेनिस गेंद"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "bat",
+        "cricketball"
+      ],
+      "duration": 8000,
+      "script": {
+        "hi": "खेलना सेहत के लिए अच्छा है। हर खेल का अपना सामान होता है।",
+        "en": "Playing games keeps us fit. Every game has its own equipment."
+      }
+    },
+    {
+      "show": [
+        "bat",
+        "cricketball"
+      ],
+      "highlight": "bat",
+      "duration": 6000,
+      "script": {
+        "hi": "यह बल्ला है।",
+        "en": "This is a bat."
+      }
+    },
+    {
+      "show": [
+        "bat",
+        "cricketball"
+      ],
+      "highlight": "cricketball",
+      "partner": "bat",
+      "duration": 8500,
+      "script": {
+        "hi": "क्रिकेट बल्ले और गेंद से खेलते हैं।",
+        "en": "Cricket is played with a bat and a ball."
+      }
+    },
+    {
+      "show": [
+        "football",
+        "goal"
+      ],
+      "highlight": "football",
+      "duration": 6000,
+      "script": {
+        "hi": "यह फ़ुटबॉल है।",
+        "en": "This is a football."
+      }
+    },
+    {
+      "show": [
+        "football",
+        "goal"
+      ],
+      "highlight": "goal",
+      "partner": "football",
+      "duration": 8500,
+      "script": {
+        "hi": "फ़ुटबॉल को पैर से मारकर गोल में डालते हैं।",
+        "en": "In football we kick the ball into the goal."
+      }
+    },
+    {
+      "show": [
+        "racket",
+        "shuttle"
+      ],
+      "highlight": "racket",
+      "duration": 6000,
+      "script": {
+        "hi": "यह रैकेट है।",
+        "en": "This is a racket."
+      }
+    },
+    {
+      "show": [
+        "racket",
+        "shuttle"
+      ],
+      "highlight": "shuttle",
+      "partner": "racket",
+      "duration": 8500,
+      "script": {
+        "hi": "बैडमिंटन रैकेट और शटलकॉक से खेलते हैं।",
+        "en": "Badminton is played with a racket and a shuttlecock."
+      }
+    },
+    {
+      "show": [
+        "stick",
+        "hockeyball"
+      ],
+      "highlight": "stick",
+      "duration": 6000,
+      "script": {
+        "hi": "यह हॉकी स्टिक है।",
+        "en": "This is a hockey stick."
+      }
+    },
+    {
+      "show": [
+        "stick",
+        "hockeyball"
+      ],
+      "highlight": "hockeyball",
+      "partner": "stick",
+      "duration": 8500,
+      "script": {
+        "hi": "हॉकी स्टिक और गेंद से खेलते हैं। हॉकी हमारा राष्ट्रीय खेल है।",
+        "en": "Hockey is played with a stick and a ball. Hockey is our national game."
+      }
+    },
+    {
+      "show": [
+        "basketball",
+        "hoop"
+      ],
+      "highlight": "basketball",
+      "duration": 6000,
+      "script": {
+        "hi": "यह बास्केटबॉल है।",
+        "en": "This is a basketball."
+      }
+    },
+    {
+      "show": [
+        "basketball",
+        "hoop"
+      ],
+      "highlight": "hoop",
+      "partner": "basketball",
+      "duration": 8500,
+      "script": {
+        "hi": "बास्केटबॉल को ऊपर बास्केट में डालते हैं।",
+        "en": "In basketball we throw the ball up into the hoop."
+      }
+    },
+    {
+      "show": [
+        "tennisracket",
+        "tennisball"
+      ],
+      "highlight": "tennisracket",
+      "duration": 6000,
+      "script": {
+        "hi": "यह रैकेट है।",
+        "en": "This is a racket."
+      }
+    },
+    {
+      "show": [
+        "tennisracket",
+        "tennisball"
+      ],
+      "highlight": "tennisball",
+      "partner": "tennisracket",
+      "duration": 8500,
+      "script": {
+        "hi": "टेनिस रैकेट और गेंद से खेलते हैं।",
+        "en": "Tennis is played with a racket and a ball."
+      }
+    }
+  ]
+}

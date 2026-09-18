@@ -1,0 +1,257 @@
+{
+  "id": "eng-lkg-months-year",
+  "template": "sequence",
+  "stage": "outdoor",
+  "objects": [
+    {
+      "id": "jan",
+      "build": "glyph",
+      "params": {
+        "char": "Jan",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "-4.432 0.000 -0.781",
+      "rotation": "0 80.0 0"
+    },
+    {
+      "id": "feb",
+      "build": "glyph",
+      "params": {
+        "char": "Feb",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "-4.093 0.000 -1.869",
+      "rotation": "0 65.5 0"
+    },
+    {
+      "id": "mar",
+      "build": "glyph",
+      "params": {
+        "char": "Mar",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "-3.493 0.000 -2.837",
+      "rotation": "0 50.9 0"
+    },
+    {
+      "id": "apr",
+      "build": "glyph",
+      "params": {
+        "char": "Apr",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "-2.668 0.000 -3.624",
+      "rotation": "0 36.4 0"
+    },
+    {
+      "id": "may",
+      "build": "glyph",
+      "params": {
+        "char": "May",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "-1.672 0.000 -4.178",
+      "rotation": "0 21.8 0"
+    },
+    {
+      "id": "jun",
+      "build": "glyph",
+      "params": {
+        "char": "Jun",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "-0.570 0.000 -4.464",
+      "rotation": "0 7.3 0"
+    },
+    {
+      "id": "jul",
+      "build": "glyph",
+      "params": {
+        "char": "Jul",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "0.570 0.000 -4.464",
+      "rotation": "0 -7.3 0"
+    },
+    {
+      "id": "aug",
+      "build": "glyph",
+      "params": {
+        "char": "Aug",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "1.672 0.000 -4.178",
+      "rotation": "0 -21.8 0"
+    },
+    {
+      "id": "sep",
+      "build": "glyph",
+      "params": {
+        "char": "Sep",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "2.668 0.000 -3.624",
+      "rotation": "0 -36.4 0"
+    },
+    {
+      "id": "oct",
+      "build": "glyph",
+      "params": {
+        "char": "Oct",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "3.493 0.000 -2.837",
+      "rotation": "0 -50.9 0"
+    },
+    {
+      "id": "nov",
+      "build": "glyph",
+      "params": {
+        "char": "Nov",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "4.093 0.000 -1.869",
+      "rotation": "0 -65.5 0"
+    },
+    {
+      "id": "dec",
+      "build": "glyph",
+      "params": {
+        "char": "Dec",
+        "height": 0.4,
+        "card": "#fdf6e6",
+        "post": 0.75
+      },
+      "position": "4.432 0.000 -0.781",
+      "rotation": "0 -80.0 0"
+    }
+  ],
+  "steps": [
+    {
+      "at": "jan",
+      "duration": 5500,
+      "script": {
+        "hi": "साल में बारह महीने होते हैं। पहला महीना जनवरी।",
+        "en": "There are twelve months in a year. The first is January."
+      }
+    },
+    {
+      "at": "feb",
+      "duration": 4500,
+      "script": {
+        "hi": "फ़रवरी।",
+        "en": "Then February."
+      }
+    },
+    {
+      "at": "mar",
+      "duration": 4500,
+      "script": {
+        "hi": "मार्च।",
+        "en": "Then March."
+      }
+    },
+    {
+      "at": "apr",
+      "duration": 4500,
+      "script": {
+        "hi": "अप्रैल।",
+        "en": "Then April."
+      }
+    },
+    {
+      "at": "may",
+      "duration": 4500,
+      "script": {
+        "hi": "मई।",
+        "en": "Then May."
+      }
+    },
+    {
+      "at": "jun",
+      "duration": 4500,
+      "script": {
+        "hi": "जून।",
+        "en": "Then June."
+      }
+    },
+    {
+      "at": "jul",
+      "duration": 4500,
+      "script": {
+        "hi": "जुलाई।",
+        "en": "Then July."
+      }
+    },
+    {
+      "at": "aug",
+      "duration": 4500,
+      "script": {
+        "hi": "अगस्त।",
+        "en": "Then August."
+      }
+    },
+    {
+      "at": "sep",
+      "duration": 4500,
+      "script": {
+        "hi": "सितंबर।",
+        "en": "Then September."
+      }
+    },
+    {
+      "at": "oct",
+      "duration": 4500,
+      "script": {
+        "hi": "अक्टूबर।",
+        "en": "Then October."
+      }
+    },
+    {
+      "at": "nov",
+      "duration": 4500,
+      "script": {
+        "hi": "नवंबर।",
+        "en": "Then November."
+      }
+    },
+    {
+      "at": "dec",
+      "duration": 4500,
+      "script": {
+        "hi": "दिसंबर।",
+        "en": "Then December."
+      }
+    },
+    {
+      "at": "dec",
+      "duration": 7000,
+      "script": {
+        "hi": "जनवरी से दिसंबर — पूरा साल।",
+        "en": "January to December — that is the whole year."
+      }
+    }
+  ]
+}

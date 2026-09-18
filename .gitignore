@@ -14,3 +14,5 @@ app/assets/audio/*/
 !app/assets/audio/.keep
 
 *.webp
+# Screenshots taken while checking scenes by eye. Not content.
+.playwright-mcp/

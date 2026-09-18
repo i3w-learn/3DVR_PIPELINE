@@ -1,0 +1,13 @@
+{
+  "id": "pig",
+  "source": "Poly Pizza — \"Pig\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/TNvG3QUFlp",
+  "targetHeight": 0.7,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Armature|Idle"
+  ]
+}

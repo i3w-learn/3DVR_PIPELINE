@@ -47,6 +47,20 @@ export async function loadLesson(lessonId) {
   }
 
   const lesson = await fetchJson(`lessons/${file}`);
+
+  // A gated lesson is built but not released. Five topics in the curriculum
+  // — body safety, places of worship, the snake house, the dinosaurs, the
+  // river — need somebody outside the build team to approve them before a
+  // child sees them, and "we will remember not to open it" is not a control.
+  // Until `gate.signedOff` is true the lesson only opens for a reviewer, who
+  // asks for it by name with `&review=1`.
+  if (lesson.gate && !lesson.gate.signedOff && !new URLSearchParams(location.search).has('review')) {
+    throw new Error(
+      `"${lessonId}" is waiting for sign-off and is locked: ${lesson.gate.needs}. ` +
+        'A reviewer can preview it by adding &review=1 to the address.'
+    );
+  }
+
   const kit = await fetchJson(`stages/${lesson.stage}.json`);
 
   const resolved = { lesson, stage: resolveStage(kit, lesson.stageOverride) };

@@ -1,0 +1,157 @@
+{
+  "id": "eng-lkg-days-week",
+  "template": "sequence",
+  "stage": "home",
+  "objects": [
+    {
+      "id": "mon",
+      "build": "glyph",
+      "params": {
+        "char": "Mon",
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
+      },
+      "position": "-2.252 0.000 -1.300",
+      "rotation": "0 60.0 0"
+    },
+    {
+      "id": "tue",
+      "build": "glyph",
+      "params": {
+        "char": "Tue",
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
+      },
+      "position": "-1.671 0.000 -1.992",
+      "rotation": "0 40.0 0"
+    },
+    {
+      "id": "wed",
+      "build": "glyph",
+      "params": {
+        "char": "Wed",
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
+      },
+      "position": "-0.889 0.000 -2.443",
+      "rotation": "0 20.0 0"
+    },
+    {
+      "id": "thu",
+      "build": "glyph",
+      "params": {
+        "char": "Thu",
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
+      },
+      "position": "0.000 0.000 -2.600",
+      "rotation": "0 -0.0 0"
+    },
+    {
+      "id": "fri",
+      "build": "glyph",
+      "params": {
+        "char": "Fri",
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
+      },
+      "position": "0.889 0.000 -2.443",
+      "rotation": "0 -20.0 0"
+    },
+    {
+      "id": "sat",
+      "build": "glyph",
+      "params": {
+        "char": "Sat",
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
+      },
+      "position": "1.671 0.000 -1.992",
+      "rotation": "0 -40.0 0"
+    },
+    {
+      "id": "sun",
+      "build": "glyph",
+      "params": {
+        "char": "Sun",
+        "height": 0.3,
+        "card": "#fdf6e6",
+        "post": 0.55
+      },
+      "position": "2.252 0.000 -1.300",
+      "rotation": "0 -60.0 0"
+    }
+  ],
+  "steps": [
+    {
+      "at": "mon",
+      "duration": 5500,
+      "script": {
+        "hi": "हफ़्ते में सात दिन होते हैं। पहला दिन सोमवार।",
+        "en": "There are seven days in a week. The first is Monday."
+      }
+    },
+    {
+      "at": "tue",
+      "duration": 5000,
+      "script": {
+        "hi": "मंगलवार।",
+        "en": "After Monday comes Tuesday."
+      }
+    },
+    {
+      "at": "wed",
+      "duration": 5000,
+      "script": {
+        "hi": "बुधवार।",
+        "en": "After Tuesday comes Wednesday."
+      }
+    },
+    {
+      "at": "thu",
+      "duration": 5000,
+      "script": {
+        "hi": "गुरुवार।",
+        "en": "After Wednesday comes Thursday."
+      }
+    },
+    {
+      "at": "fri",
+      "duration": 5000,
+      "script": {
+        "hi": "शुक्रवार।",
+        "en": "After Thursday comes Friday."
+      }
+    },
+    {
+      "at": "sat",
+      "duration": 5000,
+      "script": {
+        "hi": "शनिवार।",
+        "en": "After Friday comes Saturday."
+      }
+    },
+    {
+      "at": "sun",
+      "duration": 5000,
+      "script": {
+        "hi": "रविवार।",
+        "en": "After Saturday comes Sunday."
+      }
+    },
+    {
+      "at": "sun",
+      "duration": 7000,
+      "script": {
+        "hi": "सोमवार से रविवार — पूरा हफ़्ता।",
+        "en": "Monday to Sunday — that is the whole week."
+      }
+    }
+  ]
+}

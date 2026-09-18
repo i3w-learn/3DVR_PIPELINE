@@ -50,16 +50,6 @@ export function applyContract(document, { targetHeight, yaw = 0, fit = 'height' 
 
   const before = boundsOf(scene, document);
 
-  // Height is the right dial for anything that stands up — an animal, a tree,
-  // a fence. It is the wrong one for anything that lies flat: a boulder
-  // 4.3 m across and 1.1 m tall, scaled to "1.1 m", becomes the size of a car.
-  // Those set `fit: "longest"` in the sidecar and are measured across instead.
-  const currentSize = fit === 'longest' ? longestSide(before) : before.max[1] - before.min[1];
-
-  if (!(currentSize > 0)) {
-    throw new ContractError('STD_CONTRACT', 'Model has zero size — nothing to scale.');
-  }
-
   // A single wrapper node carries every correction. Existing nodes, skins and
   // animation channels are re-parented, not rewritten.
   const wrapper = document.createNode('contract');
@@ -69,9 +59,24 @@ export function applyContract(document, { targetHeight, yaw = 0, fit = 'height' 
   }
   scene.addChild(wrapper);
 
+  // Turn first, then measure. A bus modelled 26° off its axis has a different
+  // bounding box once it is straightened, and a scale worked out from the
+  // crooked box lands the straight bus at 8.4 m when 9 m was asked for.
+  wrapper.setRotation(yawQuaternion(yaw));
+  const turned = boundsOf(scene, document);
+
+  // Height is the right dial for anything that stands up — an animal, a tree,
+  // a fence. It is the wrong one for anything that lies flat: a boulder
+  // 4.3 m across and 1.1 m tall, scaled to "1.1 m", becomes the size of a car.
+  // Those set `fit: "longest"` in the sidecar and are measured across instead.
+  const currentSize = fit === 'longest' ? longestSide(turned) : turned.max[1] - turned.min[1];
+
+  if (!(currentSize > 0)) {
+    throw new ContractError('STD_CONTRACT', 'Model has zero size — nothing to scale.');
+  }
+
   const scale = targetHeight / currentSize;
   wrapper.setScale([scale, scale, scale]);
-  wrapper.setRotation(yawQuaternion(yaw));
 
   // Translation is applied after rotation and scale, so the offset has to be
   // measured from the already-rotated, already-scaled bounds — not the original.

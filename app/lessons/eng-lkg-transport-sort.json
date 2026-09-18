@@ -1,0 +1,207 @@
+{
+  "id": "eng-lkg-transport-sort",
+  "template": "sort",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "road",
+      "build": "mat",
+      "params": {
+        "kind": "road",
+        "width": 0.4,
+        "depth": 0.4
+      },
+      "position": "-0.460 0.520 -1.000",
+      "name": {
+        "en": "Road",
+        "hi": "सड़क"
+      }
+    },
+    {
+      "id": "water",
+      "build": "mat",
+      "params": {
+        "kind": "water",
+        "width": 0.4,
+        "depth": 0.4
+      },
+      "position": "0.000 0.520 -1.000",
+      "name": {
+        "en": "Water",
+        "hi": "पानी"
+      }
+    },
+    {
+      "id": "sky",
+      "build": "mat",
+      "params": {
+        "kind": "sky",
+        "width": 0.4,
+        "depth": 0.4
+      },
+      "position": "0.460 0.520 -1.000",
+      "name": {
+        "en": "Sky",
+        "hi": "आसमान"
+      }
+    },
+    {
+      "id": "car",
+      "model": "car",
+      "position": "0.000 0.520 -0.560",
+      "scale": "0.071 0.071 0.071",
+      "ring": 0.174,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Car",
+        "hi": "कार"
+      }
+    },
+    {
+      "id": "boat",
+      "model": "boat",
+      "position": "0.000 0.520 -0.560",
+      "scale": "0.075 0.075 0.075",
+      "ring": 0.174,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Boat",
+        "hi": "नाव"
+      }
+    },
+    {
+      "id": "airplane",
+      "model": "airplane",
+      "position": "0.000 0.520 -0.560",
+      "scale": "0.021 0.021 0.021",
+      "ring": 0.174,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Aeroplane",
+        "hi": "हवाई जहाज़"
+      }
+    },
+    {
+      "id": "bus",
+      "model": "bus",
+      "position": "0.000 0.520 -0.560",
+      "scale": "0.033 0.033 0.033",
+      "ring": 0.174,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Bus",
+        "hi": "बस"
+      }
+    },
+    {
+      "id": "helicopter",
+      "model": "helicopter",
+      "position": "0.000 0.520 -0.560",
+      "scale": "0.033 0.033 0.033",
+      "ring": 0.174,
+      "rotation": "0 40 0",
+      "name": {
+        "en": "Helicopter",
+        "hi": "हेलीकॉप्टर"
+      }
+    },
+    {
+      "id": "ship",
+      "model": "ship",
+      "position": "0.000 0.520 -0.560",
+      "scale": "0.015 0.015 0.015",
+      "ring": 0.174,
+      "rotation": "0 50 0",
+      "name": {
+        "en": "Ship",
+        "hi": "जहाज़"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "road",
+        "water",
+        "sky",
+        "car"
+      ],
+      "answer": "road",
+      "duration": 12000,
+      "script": {
+        "hi": "यह कार है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+        "en": "This is a car. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "water",
+        "sky",
+        "boat"
+      ],
+      "answer": "water",
+      "duration": 12000,
+      "script": {
+        "hi": "यह नाव है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+        "en": "This is a boat. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "water",
+        "sky",
+        "airplane"
+      ],
+      "answer": "sky",
+      "duration": 12000,
+      "script": {
+        "hi": "यह हवाई जहाज़ है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+        "en": "This is an aeroplane. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "water",
+        "sky",
+        "bus"
+      ],
+      "answer": "road",
+      "duration": 12000,
+      "script": {
+        "hi": "यह बस है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+        "en": "This is a bus. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "water",
+        "sky",
+        "helicopter"
+      ],
+      "answer": "sky",
+      "duration": 12000,
+      "script": {
+        "hi": "यह हेलीकॉप्टर है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+        "en": "This is a helicopter. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+      }
+    },
+    {
+      "show": [
+        "road",
+        "water",
+        "sky",
+        "ship"
+      ],
+      "answer": "water",
+      "duration": 12000,
+      "script": {
+        "hi": "यह जहाज़ है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
+        "en": "This is a ship. Where does it go — on the road, on the water, or in the sky? Touch the right place."
+      }
+    }
+  ]
+}

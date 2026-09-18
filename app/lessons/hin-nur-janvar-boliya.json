@@ -1,0 +1,130 @@
+{
+  "id": "hin-nur-janvar-boliya",
+  "template": "explore",
+  "stage": "farmyard",
+  "objects": [
+    {
+      "id": "cow",
+      "model": "zebu",
+      "position": "-3.6 0 -7.5",
+      "rotation": "0 35 0",
+      "clip": "Armature|CombinedAnim|Base Layer.001",
+      "audio": "cow_about.mp3",
+      "script": {
+        "en": "This is a cow. The cow gives us milk.",
+        "hi": "यह गाय है। गाय हमें दूध देती है।",
+        "mr": "ही गाय आहे. गाय आपल्याला दूध देते.",
+        "or": "ଏହା ଏକ ଗାଈ। ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ।"
+      },
+      "sound": "cow.mp3",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Armature|CombinedAnim|Base Layer.003",
+        "idle": "Armature|CombinedAnim|Base Layer.001",
+        "radius": 2.4,
+        "speed": 0.35,
+        "pause": 7000,
+        "stopDistance": 2.4,
+        "stayFor": 12000
+      }
+    },
+    {
+      "id": "horse",
+      "model": "realhorse",
+      "position": "3.8 0 -8.4",
+      "rotation": "0 -30 0",
+      "clip": "Skeleton|6 Eat",
+      "audio": "horse_about.mp3",
+      "script": {
+        "en": "This is a horse. The horse can run fast.",
+        "hi": "यह घोड़ा है। घोड़ा तेज़ दौड़ता है।",
+        "mr": "हा घोडा आहे. घोडा वेगाने धावतो.",
+        "or": "ଏହା ଏକ ଘୋଡ଼ା। ଘୋଡ଼ା ଜୋରରେ ଦୌଡ଼େ।"
+      },
+      "sound": "horse.mp3",
+      "wander": {
+        "walk": "Skeleton|Walk",
+        "idle": "Skeleton|6 Eat",
+        "radius": 2.2,
+        "speed": 0.45,
+        "pause": 8000,
+        "stopDistance": 2.6,
+        "stayFor": 12000
+      },
+      "clipSpeed": 0.7
+    },
+    {
+      "id": "goat",
+      "model": "realgoat",
+      "position": "-1.2 0 -5.2",
+      "rotation": "0 -15 0",
+      "clip": "Armature|idle",
+      "audio": "goat_about.mp3",
+      "script": {
+        "en": "This is a goat. The goat likes to climb.",
+        "hi": "यह बकरी है। बकरी चढ़ना पसंद करती है।",
+        "mr": "ही शेळी आहे. शेळीला चढायला आवडते.",
+        "or": "ଏହା ଏକ ଛେଳି। ଛେଳି ଚଢ଼ିବାକୁ ଭଲ ପାଏ।"
+      },
+      "sound": "goat.mp3",
+      "wander": {
+        "walk": "Armature|walk",
+        "idle": "Armature|idle",
+        "radius": 2.6,
+        "speed": 0.4,
+        "pause": 5000,
+        "stopDistance": 1.8,
+        "stayFor": 12000
+      },
+      "clipSpeed": 0.8
+    },
+    {
+      "id": "hen",
+      "model": "realhen",
+      "position": "-2.2 0 -3.4",
+      "rotation": "0 55 0",
+      "clip": "peck_idle2",
+      "audio": "hen_about.mp3",
+      "script": {
+        "en": "This is a hen. The hen lays eggs.",
+        "hi": "यह मुर्गी है। मुर्गी अंडे देती है।",
+        "mr": "ही कोंबडी आहे. कोंबडी अंडी देते.",
+        "or": "ଏହା ଏକ କୁକୁଡ଼ା। କୁକୁଡ଼ା ଅଣ୍ଡା ଦିଏ।"
+      },
+      "sound": "hen.mp3",
+      "wander": {
+        "walk": "walk01",
+        "idle": "peck_idle2",
+        "radius": 1.8,
+        "speed": 0.3,
+        "pause": 3500,
+        "stopDistance": 1.4,
+        "stayFor": 12000
+      },
+      "clipSpeed": 0.45
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "जानवरों की बोलियाँ सुनो। जिसे देखोगे, वह बोलेगा।",
+        "en": "Listen to the animals. Whichever one you look at will speak."
+      }
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "गाय रँभाती है। बकरी मिमियाती है।",
+        "en": "The cow lows. The goat bleats."
+      }
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "घोड़ा हिनहिनाता है। मुर्गी कुड़कुड़ाती है।",
+        "en": "The horse neighs. The hen clucks."
+      }
+    }
+  ]
+}

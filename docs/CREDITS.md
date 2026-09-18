@@ -8,13 +8,111 @@ Generated from `assets/library.json`. Do not edit by hand — run
 These assets are used under the Creative Commons Attribution licence.
 Their authors must be credited wherever this application is distributed.
 
+- **airplane** — Poly Pizza — "Airplane" by Poly by Google
+- **ambulance** — Poly Pizza — "Ambulance" by Poly by Google
+- **ant** — Poly Pizza — "Ant" by Poly by Google
+- **badminton** — Poly Pizza — "Badminton" by Poly by Google
+- **basketball** — Poly Pizza — "Basketball" by Poly by Google
+- **bear** — Poly Pizza — "Bear" by Poly by Google
+- **bee** — Poly Pizza — "Bee" by Poly by Google
+- **bicycle** — Poly Pizza — "Bicycle" by Poly by Google
+- **bone** — Poly Pizza — "Bone" by Poly by Google
+- **buffalo** — Poly Pizza — "Bull Ver" by Pixel
+- **bulldozer** — Poly Pizza — "Bulldozer" by Poly by Google
+- **bus** — Poly Pizza — "Bus" by Poly by Google
+- **butterfly** — Poly Pizza — "Butterfly" by Poly by Google
+- **camel** — Poly Pizza — "Camel" by Poly by Google
+- **cat** — Poly Pizza — "Kitten" by Poly by Google
+- **caterpillar** — Poly Pizza — "Caterpillar" by Poly by Google
+- **cheetah** — Poly Pizza — "Cheetah" by Poly by Google
+- **chick** — Poly Pizza — "Baby chick" by Poly by Google
 - **childsit** — Sketchfab — "Child sitting cross-legged" by mazenegyptbro
+- **church** — Poly Pizza — "Church" by Poly by Google
+- **cobra** — Poly Pizza — "Cobra" by Poly by Google
+- **cockroach** — Poly Pizza — "Cockroach" by Poly by Google
+- **comb** — Poly Pizza — "Comb" by Poly by Google
+- **crab** — Poly Pizza — "Crab" by Poly by Google
+- **cricketbat** — Poly Pizza — "Cricket bat" by jeremy
+- **crocodile** — Poly Pizza — "Crocodile" by Poly by Google
+- **crow** — Poly Pizza — "Crow" by Poly by Google
+- **daisy** — Poly Pizza — "Daisy" by Poly by Google
 - **didi2** — Sketchfab — "Traditional Indian Saree Model" by sam-30
+- **dog** — Poly Pizza — "Shiba inu" by Poly by Google
+- **dragonfly** — Poly Pizza — "Dragonfly" by Poly by Google
+- **drum** — Poly Pizza — "Drum" by Poly by Google
+- **duck** — Poly Pizza — "Duck" by Poly by Google
+- **dumptruck** — Poly Pizza — "Dump truck" by jeremy
+- **eagle** — Poly Pizza — "Eagle" by Poly by Google
+- **elephant** — Poly Pizza — "Elephant" by Poly by Google
+- **envelope** — Poly Pizza — "Envelopes" by Jarlan Perez
+- **firetruck** — Poly Pizza — "Fire Truck" by Ivan Klus
+- **flute** — Poly Pizza — "Flute" by Poly by Google
+- **gift** — Poly Pizza — "Xmas Gift" by Jeff Larson
+- **giraffe** — Poly Pizza — "Giraffe" by Poly by Google
+- **goat** — Poly Pizza — "Goat" by Poly by Google
+- **grasshopper** — Poly Pizza — "Grasshopper" by Poly by Google
+- **guitar** — Poly Pizza — "Acoustic guitar" by Poly by Google
+- **helicopter** — Poly Pizza — "Helicopter" by Poly by Google
+- **hen** — Poly Pizza — "Hen" by Poly by Google
+- **hippo** — Poly Pizza — "Hippopotamus" by Poly by Google
+- **hockeystick** — Poly Pizza — "Field hockey stick" by jeremy
+- **housefly** — Poly Pizza — "Fly" by Poly by Google
+- **jeep** — Poly Pizza — "Jeep" by Poly by Google
+- **jellyfish** — Poly Pizza — "Jellyfish" by Poly by Google
+- **kangaroo** — Poly Pizza — "Kangaroo" by Poly by Google
+- **kite** — Poly Pizza — "Kite" by Poly by Google
+- **ladybug** — Poly Pizza — "Ladybug" by Poly by Google
+- **lion** — Poly Pizza — "Lion" by Poly by Google
+- **lizard** — Poly Pizza — "Lizard" by madtrollstudio
+- **milkbottle** — Poly Pizza — "Jug of milk" by Poly by Google
+- **monkey** — Poly Pizza — "monkey" by Poly by Google
+- **motorcycle** — Poly Pizza — "Motorcycle" by Poly by Google
+- **mouse** — Poly Pizza — "Mouse" by Poly by Google
+- **nest** — Poly Pizza — "Birds nest" by Poly by Google
+- **octopus** — Poly Pizza — "Octopus" by Poly by Google
+- **owl** — Poly Pizza — "Great horned owl" by Poly by Google
+- **panda** — Poly Pizza — "Panda" by Poly by Google
+- **parrot** — Poly Pizza — "Parrot" by Poly by Google
+- **penguin** — Poly Pizza — "Penguin" by Poly by Google
+- **piano** — Poly Pizza — "Piano" by Poly by Google
+- **pigeon** — Poly Pizza — "Dove" by Poly by Google
+- **policecar** — Poly Pizza — "Police car" by Poly by Google
+- **puppy** — Poly Pizza — "Puppy" by Poly by Google
+- **racket** — Poly Pizza — "Tennis racket" by Poly by Google
 - **realelephant** — Sketchfab — "African Elephant"
 - **realgoat** — Sketchfab — "Animated Realistic Goat – 3D Animal Model" by AnimalMesh 3D
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
 - **realhorse** — Sketchfab — "Horse" (28 clips)
+- **rhino** — Poly Pizza — "Rhinoceros" by Poly by Google
+- **rocket** — Poly Pizza — "Rocket ship" by Poly by Google
+- **rose** — Poly Pizza — "Rose" by Poly by Google
+- **sailboat** — Poly Pizza — "Sailboat" by Poly by Google
+- **schoolbus** — Poly Pizza — "Schoolbus" by Poly by Google
+- **scooter** — Poly Pizza — "Scooter" by Poly by Google
+- **seahorse** — Poly Pizza — "Seahorse" by Poly by Google
+- **seal** — Poly Pizza — "Seal" by Poly by Google
 - **shed** — Sketchfab — "Worn Shed PBR Game-Ready" by donnichols
+- **snail** — Poly Pizza — "Snail" by Poly by Google
+- **soap** — Poly Pizza — "Soap" by Poly by Google
+- **soccerball** — Poly Pizza — "Soccer ball" by Poly by Google
+- **sparrow** — Poly Pizza — "Sparrow" by Poly by Google
+- **squirrel** — Poly Pizza — "Squirrel" by Poly by Google
+- **starfish** — Poly Pizza — "Starfish" by Poly by Google
+- **stethoscope** — Poly Pizza — "Stethoscope" by Poly by Google
+- **sunflower** — Poly Pizza — "Sunflower" by Poly by Google
+- **tennisball** — Poly Pizza — "Tennis ball" by Poly by Google
+- **tiger** — Poly Pizza — "Tiger" by Poly by Google
+- **toothbrush** — Poly Pizza — "Toothbrush" by Poly by Google
+- **towel** — Poly Pizza — "Towel" by Poly by Google
+- **tractor** — Poly Pizza — "Tractor" by Poly by Google
+- **train** — Poly Pizza — "Train" by Poly by Google
+- **trumpet** — Poly Pizza — "Trumpet" by Poly by Google
+- **tulip** — Poly Pizza — "Tulip" by Poly by Google
+- **turtle** — Poly Pizza — "Turtle" by Poly by Google
+- **violin** — Poly Pizza — "Violin" by Poly by Google
+- **wateringcan** — Poly Pizza — "Watering can" by Poly by Google
+- **xmastree** — Poly Pizza — "Christmas Tree" by Vice Cooper
+- **yarn** — Poly Pizza — "Yarn Ball v2" by sirkitree
 - **zebu** — Sketchfab — "Zebu Bull" by Mily
 - **earth.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_earth_daymap.jpg
 - **jupiter.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_jupiter.jpg
@@ -34,17 +132,62 @@ Their authors must be credited wherever this application is distributed.
 
 No attribution is required for these. They are listed for the record.
 
+- Kenney — Food Kit 2.0
 - Kenney — Nature Kit 2.1
+- Openverse — "Bee Buzzing" by JonCon_Library
+- Openverse — "Cat meow" by philsapphire
 - Openverse — "Cow - Moo 5 - 96kHz.wav" by JarredGibb
+- Openverse — "Dog barks" by 16FVolejnikovaA
+- Openverse — "Donkey Bray" by StarNinjas37
+- Openverse — "Duck Quack - Sound Effect (HD).mp3" by Tabby+Gus.
 - Openverse — "Elephant Trumpets Growls.flac" by D.jones
+- Openverse — "Frog croaking sound effect" by betterchinese
 - Openverse — "Horse" by poodaddy69
 - Openverse — "Rooster crow" by jsbarrett
+- Openverse — "White-crowned Sparrow Chirp" by Zott820
+- Openverse — "crow CAWS" by storyofthelie
+- Openverse — "owl hoot" by gadzooks
+- Openverse — "pigeon territorial coo.wav" by 5ro4
+- Openverse — "polly.mp3" by Willfree
 - Openverse — "sheep 3.mp3" by esperar
 - Poly Haven — Island Tree 01 (photoscan)
 - Poly Haven — Jacaranda Tree (photoscan)
 - Poly Haven — Kloofendal 43d Clear (Pure Sky)
 - Poly Haven — Kloofendal 48d Partly Cloudy (Pure Sky)
 - Poly Haven — Shrub 02
+- Poly Pizza — "Apatosaurus" by Quaternius
+- Poly Pizza — "Backpack" by Quaternius
+- Poly Pizza — "Barn" by Quaternius
+- Poly Pizza — "Boat" by Quaternius
+- Poly Pizza — "Book" by Quaternius
+- Poly Pizza — "Car" by Quaternius
+- Poly Pizza — "Cow" by Quaternius
+- Poly Pizza — "Cruise Ship" by Quaternius
+- Poly Pizza — "Deer" by Quaternius
+- Poly Pizza — "Dolphin" by Quaternius
+- Poly Pizza — "Donkey" by Quaternius
+- Poly Pizza — "Fish" by Quaternius
+- Poly Pizza — "Fox" by Quaternius
+- Poly Pizza — "Frog" by Quaternius
+- Poly Pizza — "Grass" by Quaternius
+- Poly Pizza — "Hay" by Quaternius
+- Poly Pizza — "Honey" by Kenney
+- Poly Pizza — "Horse" by Quaternius
+- Poly Pizza — "Parasaurolophus" by Quaternius
+- Poly Pizza — "Pig" by Quaternius
+- Poly Pizza — "Shark" by Quaternius
+- Poly Pizza — "Sheep" by Quaternius
+- Poly Pizza — "Small Bridge" by Quaternius
+- Poly Pizza — "Snake" by Quaternius
+- Poly Pizza — "Spider" by Quaternius
+- Poly Pizza — "Stegosaurus" by Quaternius
+- Poly Pizza — "T-Rex" by Quaternius
+- Poly Pizza — "Taxi" by Quaternius
+- Poly Pizza — "Triceratops" by Quaternius
+- Poly Pizza — "Truck" by Quaternius
+- Poly Pizza — "Whale" by Quaternius
+- Poly Pizza — "Wolf" by Quaternius
+- Poly Pizza — "Zebra" by Quaternius
 - ambientCG — Concrete034
 - ambientCG — Grass004
 - ambientCG — Ground037

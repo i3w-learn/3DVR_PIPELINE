@@ -1,0 +1,121 @@
+{
+  "id": "snow",
+  "sky": {
+    "hdri": "cloudy.jpg",
+    "intensity": 0.85
+  },
+  "ground": {
+    "color": "paving_color.jpg",
+    "normal": "paving_normal.jpg",
+    "rough": "paving_rough.jpg",
+    "ao": "paving_ao.jpg",
+    "repeat": 55
+  },
+  "sun": {
+    "position": "5 8 7",
+    "color": "#eaf2ff",
+    "intensity": 0.5
+  },
+  "light": {
+    "sky": "#f4f8fc",
+    "ground": "#d9e2ea",
+    "intensity": 1.35
+  },
+  "shadows": false,
+  "fog": {
+    "color": "#e6eef4",
+    "near": 14,
+    "far": 120
+  },
+  "start": {
+    "position": "0 1.2 2.4",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "hills",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "radius": 95,
+        "count": 14,
+        "height": 34,
+        "width": 36,
+        "color": "#7d8c99",
+        "haze": "#e6eef4",
+        "capped": true,
+        "seed": 4
+      }
+    },
+    {
+      "build": "grove",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 70,
+        "inner": 13,
+        "outer": 60,
+        "arc": 300,
+        "facing": 0,
+        "kind": "pine",
+        "height": 6.5,
+        "leaf": "#2f5a44",
+        "capped": true,
+        "seed": 8
+      }
+    },
+    {
+      "build": "drifts",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 30,
+        "inner": 4,
+        "outer": 36
+      }
+    },
+    {
+      "build": "snowfall",
+      "position": "0 0 -2",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {}
+    },
+    {
+      "build": "pine",
+      "position": "4.6 0 -7.5",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 5.6,
+        "capped": true,
+        "seed": 2
+      }
+    },
+    {
+      "build": "pine",
+      "position": "-6.4 0 -9",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 7.2,
+        "capped": true,
+        "seed": 6
+      }
+    },
+    {
+      "build": "pine",
+      "position": "6.8 0 -4.2",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "height": 4.4,
+        "capped": true,
+        "seed": 9
+      }
+    }
+  ]
+}

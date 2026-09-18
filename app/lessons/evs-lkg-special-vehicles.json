@@ -1,0 +1,118 @@
+{
+  "id": "evs-lkg-special-vehicles",
+  "template": "identify",
+  "stage": "road",
+  "objects": [
+    {
+      "id": "policecar",
+      "model": "policecar",
+      "position": "-2.300 0.000 -3.000",
+      "rotation": "0 77 0",
+      "ring": 2.64,
+      "name": {
+        "en": "Police car",
+        "hi": "पुलिस की गाड़ी"
+      }
+    },
+    {
+      "id": "ambulance",
+      "model": "ambulance",
+      "position": "2.400 0.000 -6.500",
+      "rotation": "0 -71 0",
+      "ring": 3.3,
+      "name": {
+        "en": "Ambulance",
+        "hi": "एम्बुलेंस"
+      }
+    },
+    {
+      "id": "fireengine",
+      "model": "firetruck",
+      "position": "-2.200 0.000 -12.500",
+      "rotation": "0 70 0",
+      "ring": 4.8,
+      "name": {
+        "en": "Fire engine",
+        "hi": "दमकल"
+      }
+    },
+    {
+      "id": "schoolbus",
+      "model": "schoolbus",
+      "position": "2.200 0.000 -19.000",
+      "rotation": "0 -70 0",
+      "ring": 4.8,
+      "name": {
+        "en": "School bus",
+        "hi": "स्कूल बस"
+      }
+    },
+    {
+      "id": "bulldozer",
+      "model": "bulldozer",
+      "position": "-2.000 0.000 -25.500",
+      "rotation": "0 70 0",
+      "ring": 3.0,
+      "name": {
+        "en": "Bulldozer",
+        "hi": "बुलडोज़र"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "कुछ गाड़ियाँ ख़ास काम करती हैं। चलो उन्हें देखें।",
+        "en": "Some vehicles do a special job. Let us look at them."
+      }
+    },
+    {
+      "highlight": "policecar",
+      "duration": 8000,
+      "script": {
+        "hi": "यह पुलिस की गाड़ी है। पुलिस इसमें हमारी मदद के लिए आती है।",
+        "en": "This is a police car. The police come in it to help us."
+      }
+    },
+    {
+      "highlight": "ambulance",
+      "duration": 8000,
+      "script": {
+        "hi": "यह एम्बुलेंस है। यह बीमार लोगों को जल्दी अस्पताल ले जाती है।",
+        "en": "This is an ambulance. It takes sick people to hospital quickly."
+      }
+    },
+    {
+      "highlight": "fireengine",
+      "duration": 8000,
+      "script": {
+        "hi": "यह दमकल है। यह आग बुझाने जाती है।",
+        "en": "This is a fire engine. It goes to put out fires."
+      }
+    },
+    {
+      "highlight": "schoolbus",
+      "duration": 8000,
+      "script": {
+        "hi": "यह स्कूल बस है। यह बच्चों को स्कूल ले जाती है।",
+        "en": "This is a school bus. It takes children to school."
+      }
+    },
+    {
+      "highlight": "bulldozer",
+      "duration": 8000,
+      "script": {
+        "hi": "और यह बुलडोज़र है। यह मिट्टी हटाता है और सड़क बनाने में मदद करता है।",
+        "en": "And this is a bulldozer. It pushes earth and helps to build roads."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "जब एम्बुलेंस या दमकल का सायरन बजे, तो सब उसे रास्ता देते हैं।",
+        "en": "When an ambulance or a fire engine sounds its siren, everybody makes way."
+      }
+    }
+  ]
+}

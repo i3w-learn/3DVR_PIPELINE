@@ -86,6 +86,16 @@ AFRAME.registerComponent('glyph', {
 
     /** Lie flat on the table instead of standing up. */
     flat: { type: 'boolean', default: false },
+
+    /**
+     * Height of a post under the card, in metres. 0 for none.
+     *
+     * A card on a table is at the right height because the table is. A card on
+     * open ground is at a child's ankles, four metres away, and reads as a
+     * sticker lying on the grass. On a post it is a signboard at eye level,
+     * which is how words are met out of doors anyway.
+     */
+    post: { type: 'number', default: 0 },
   },
 
   init() {
@@ -99,13 +109,22 @@ AFRAME.registerComponent('glyph', {
   build() {
     this.el.innerHTML = '';
 
-    const { char, height, ink, card, bare, flat } = this.data;
+    const { char, height, ink, card, bare, flat, post } = this.data;
     const width = this.data.width || cardWidth(char, height);
 
     // Standing on the table, origin at the base — the same contract every
     // downloaded model honours, so a card and a cow are placed the same way.
-    const lift = flat ? 0.006 : height / 2;
+    const lift = flat ? 0.006 : height / 2 + post;
     const face = flat ? '-90 0 0' : '0 0 0';
+
+    if (post > 0 && !flat) {
+      const pole = document.createElement('a-cylinder');
+      pole.setAttribute('radius', 0.028);
+      pole.setAttribute('height', post + height * 0.5);
+      pole.setAttribute('position', `0 ${(post + height * 0.5) / 2} -0.02`);
+      pole.setAttribute('material', { color: '#7a5a3a', roughness: 0.9, metalness: 0 });
+      this.el.appendChild(pole);
+    }
 
     if (!bare) {
       const back = document.createElement('a-box');
@@ -148,7 +167,11 @@ AFRAME.registerComponent('glyph', {
    * once. See `behaviours/highlight.js`.
    */
   highlightAnchor() {
-    const reach = Math.max(this.size?.width ?? 0.2, this.size?.height ?? 0.2);
+    // On a post the ring goes round the foot of the pole, not round a card
+    // that is a metre up in the air.
+    const reach = this.data.post > 0
+      ? 0.45
+      : Math.max(this.size?.width ?? 0.2, this.size?.height ?? 0.2);
 
     return {
       object3D: this.el.object3D,
@@ -177,7 +200,8 @@ function needsShaping(char) {
  */
 function cardWidth(char, height) {
   const glyphs = [...char].filter((c) => !COMBINING.test(c)).length || 1;
-  return Math.max(height, height * 0.72 * glyphs + height * 0.28);
+  if (glyphs === 1) return height;
+  return height * (0.54 * glyphs + 0.4);
 }
 
 /**
@@ -193,6 +217,7 @@ function cardWidth(char, height) {
 function msdfGlyph(char, height, ink, script) {
   const el = document.createElement('a-entity');
   const glyphs = [...char].filter((c) => !COMBINING.test(c)).length || 1;
+  const wrap = glyphs === 1 ? 1.35 : glyphs * 1.5 + 1;
 
   el.setAttribute('text', {
     value: char,
@@ -201,10 +226,19 @@ function msdfGlyph(char, height, ink, script) {
     align: 'center',
     anchor: 'center',
     baseline: 'center',
-    width: height * 0.85 * glyphs,
-    // A shade over the character count, so a glyph has a little air around it
-    // rather than touching the edge of its own block.
-    wrapCount: glyphs + 0.35,
+    // A single letter fills its card. A word has to be set smaller: A-Frame
+    // sizes text by fitting `wrapCount` average characters across `width`, and
+    // the old one-size formula let the letters grow with the length of the
+    // word until "Strawberry" stood taller than the card behind it. Words get
+    // a size that leaves room for ascenders and descenders.
+    width: glyphs === 1 ? height * 0.85 : height * 0.46 * wrap,
+    // For one letter, a shade over the count, so it has a little air round it.
+    // For a word, half as many again: `wrapCount` is measured in AVERAGE
+    // characters, and a word of wide ones — "Snowman", all m and w — overran a
+    // block sized for seven average letters and wrapped its last letter onto
+    // a second line, where it could not be seen. The size is unchanged; the
+    // block is simply wide enough that nothing ever wraps.
+    wrapCount: wrap,
     // MSDF atlases carry their own coverage; A-Frame's default alpha test
     // clips the thin parts of Devanagari strokes.
     alphaTest: 0.2,
@@ -231,8 +265,14 @@ function canvasGlyph(char, height, ink, script) {
   const el = document.createElement('a-entity');
   const RESOLUTION = 512;
 
+  // As wide as the word. This path was first written for a two-letter
+  // syllable and drew everything into a square, so a whole word — the name
+  // over an object, say — ran off both edges of its own texture.
+  const glyphs = [...char].filter((c) => !COMBINING.test(c)).length || 1;
+  const aspect = Math.max(1, glyphs * 0.62);
+
   const canvas = document.createElement('canvas');
-  canvas.width = RESOLUTION;
+  canvas.width = Math.round(RESOLUTION * aspect);
   canvas.height = RESOLUTION;
 
   const texture = new THREE.CanvasTexture(canvas);
@@ -240,7 +280,7 @@ function canvasGlyph(char, height, ink, script) {
   texture.anisotropy = 4;
 
   const plane = new THREE.Mesh(
-    new THREE.PlaneGeometry(height * 1.5, height * 1.5),
+    new THREE.PlaneGeometry(height * 0.95 * aspect, height * 0.95),
     new THREE.MeshBasicMaterial({ map: texture, transparent: true })
   );
 
@@ -248,12 +288,21 @@ function canvasGlyph(char, height, ink, script) {
 
   loadFace(script).then(() => {
     const ctx = canvas.getContext('2d');
-    ctx.clearRect(0, 0, RESOLUTION, RESOLUTION);
+    const family = `"${WEBFONT[script]?.family ?? 'sans-serif'}", sans-serif`;
+
+    // Start large and come down until the shaped word fits — only the shaper
+    // knows how wide conjuncts and matras really come out.
+    let size = RESOLUTION * 0.7;
+    ctx.font = `${size}px ${family}`;
+    const wide = ctx.measureText(char).width;
+    if (wide > canvas.width * 0.92) size *= (canvas.width * 0.92) / wide;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = ink;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.font = `${RESOLUTION * 0.62}px "${WEBFONT[script]?.family ?? 'sans-serif'}", sans-serif`;
-    ctx.fillText(char, RESOLUTION / 2, RESOLUTION / 2);
+    ctx.font = `${size}px ${family}`;
+    ctx.fillText(char, canvas.width / 2, canvas.height / 2);
     texture.needsUpdate = true;
   });
 

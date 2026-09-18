@@ -1,0 +1,132 @@
+{
+  "id": "math-nur-long-round",
+  "template": "sort",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "r1o1",
+      "model": "carrot",
+      "position": "-0.600 0.520 -0.780",
+      "ring": 0.104,
+      "scale": "1.76 1.76 1.76",
+      "name": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      }
+    },
+    {
+      "id": "r1o2",
+      "model": "orange",
+      "position": "-0.200 0.520 -0.780",
+      "ring": 0.167,
+      "scale": "2.96 2.96 2.96",
+      "name": {
+        "en": "Orange",
+        "hi": "संतरा"
+      }
+    },
+    {
+      "id": "r1o3",
+      "model": "banana",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.218,
+      "rotation": "0 90 0",
+      "scale": "1.85 1.85 1.85",
+      "name": {
+        "en": "Banana",
+        "hi": "केला"
+      }
+    },
+    {
+      "id": "r1o4",
+      "model": "tomato",
+      "position": "0.600 0.520 -0.780",
+      "ring": 0.167,
+      "scale": "2.84 2.84 2.84",
+      "name": {
+        "en": "Tomato",
+        "hi": "टमाटर"
+      }
+    },
+    {
+      "id": "r2o1",
+      "model": "apple",
+      "position": "-0.600 0.520 -0.780",
+      "ring": 0.167,
+      "scale": "2.92 2.92 2.92",
+      "name": {
+        "en": "Apple",
+        "hi": "सेब"
+      }
+    },
+    {
+      "id": "r2o2",
+      "model": "corn",
+      "position": "-0.200 0.520 -0.780",
+      "ring": 0.167,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Corn",
+        "hi": "भुट्टा"
+      }
+    },
+    {
+      "id": "r2o3",
+      "model": "watermelon",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.16,
+      "scale": "0.96 0.96 0.96",
+      "name": {
+        "en": "Watermelon",
+        "hi": "तरबूज़"
+      }
+    },
+    {
+      "id": "r2o4",
+      "model": "brinjal",
+      "position": "0.600 0.520 -0.780",
+      "ring": 0.089,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Brinjal",
+        "hi": "बैंगन"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "r1o1",
+        "r1o2",
+        "r1o3",
+        "r1o4"
+      ],
+      "answer": [
+        "r1o2",
+        "r1o4"
+      ],
+      "duration": 12000,
+      "script": {
+        "hi": "गोल चीज़ कौन सी है? उसे छुओ।",
+        "en": "Which thing is round? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r2o1",
+        "r2o2",
+        "r2o3",
+        "r2o4"
+      ],
+      "answer": [
+        "r2o2",
+        "r2o4"
+      ],
+      "duration": 12000,
+      "script": {
+        "hi": "लंबी चीज़ कौन सी है? उसे छुओ।",
+        "en": "Which thing is long? Touch it."
+      }
+    }
+  ]
+}

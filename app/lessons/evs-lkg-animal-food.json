@@ -1,0 +1,216 @@
+{
+  "id": "evs-lkg-animal-food",
+  "template": "match",
+  "stage": "farmyard",
+  "objects": [
+    {
+      "id": "cow",
+      "model": "cow",
+      "position": "-3.600 0.000 -6.600",
+      "rotation": "0 64 0",
+      "ring": 1.52,
+      "name": {
+        "en": "Cow",
+        "hi": "गाय"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "grass",
+      "model": "grass",
+      "position": "-2.200 0.000 -4.400",
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.256,
+      "name": {
+        "en": "Grass",
+        "hi": "घास"
+      }
+    },
+    {
+      "id": "hen",
+      "model": "hen",
+      "position": "-1.500 0.000 -4.400",
+      "rotation": "0 54 0",
+      "ring": 0.3,
+      "scale": "1.500 1.500 1.500",
+      "name": {
+        "en": "Hen",
+        "hi": "मुर्गी"
+      }
+    },
+    {
+      "id": "corn",
+      "model": "corn",
+      "position": "-0.900 0.000 -3.100",
+      "scale": "2.100 2.100 2.100",
+      "ring": 0.244,
+      "name": {
+        "en": "Grain",
+        "hi": "दाना"
+      }
+    },
+    {
+      "id": "dog",
+      "model": "dog",
+      "position": "0.400 0.000 -5.000",
+      "rotation": "0 -40 0",
+      "ring": 0.43,
+      "name": {
+        "en": "Dog",
+        "hi": "कुत्ता"
+      }
+    },
+    {
+      "id": "bone",
+      "model": "bone",
+      "position": "0.300 0.000 -3.200",
+      "scale": "1.800 1.800 1.800",
+      "ring": 0.261,
+      "name": {
+        "en": "Bone",
+        "hi": "हड्डी"
+      }
+    },
+    {
+      "id": "cat",
+      "model": "cat",
+      "position": "2.000 0.000 -4.400",
+      "rotation": "0 -59 0",
+      "ring": 0.25,
+      "scale": "1.400 1.400 1.400",
+      "name": {
+        "en": "Cat",
+        "hi": "बिल्ली"
+      }
+    },
+    {
+      "id": "milk",
+      "model": "bowl",
+      "position": "1.500 0.000 -3.000",
+      "scale": "2.667 2.667 2.667",
+      "ring": 0.232,
+      "name": {
+        "en": "Milk",
+        "hi": "दूध"
+      }
+    },
+    {
+      "id": "monkey",
+      "model": "monkey",
+      "position": "3.900 0.000 -5.600",
+      "rotation": "0 -70 0",
+      "ring": 0.79,
+      "scale": "1.200 1.200 1.200",
+      "name": {
+        "en": "Monkey",
+        "hi": "बंदर"
+      }
+    },
+    {
+      "id": "banana",
+      "model": "banana",
+      "position": "2.900 0.000 -3.600",
+      "scale": "2.632 2.632 2.632",
+      "ring": 0.29,
+      "rotation": "0 90 0",
+      "name": {
+        "en": "Banana",
+        "hi": "केला"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "सबको भूख लगती है — जानवरों को भी। देखो, कौन क्या खाता है।",
+        "en": "Everybody gets hungry — animals too. Let us see who eats what."
+      }
+    },
+    {
+      "highlight": "cow",
+      "duration": 6000,
+      "script": {
+        "hi": "यह गाय है।",
+        "en": "This is a cow."
+      }
+    },
+    {
+      "highlight": "grass",
+      "partner": "cow",
+      "duration": 7500,
+      "script": {
+        "hi": "गाय घास खाती है।",
+        "en": "The cow eats grass."
+      }
+    },
+    {
+      "highlight": "hen",
+      "duration": 6000,
+      "script": {
+        "hi": "यह मुर्गी है।",
+        "en": "This is a hen."
+      }
+    },
+    {
+      "highlight": "corn",
+      "partner": "hen",
+      "duration": 7500,
+      "script": {
+        "hi": "मुर्गी दाना चुगती है।",
+        "en": "The hen pecks at grain."
+      }
+    },
+    {
+      "highlight": "dog",
+      "duration": 6000,
+      "script": {
+        "hi": "यह कुत्ता है।",
+        "en": "This is a dog."
+      }
+    },
+    {
+      "highlight": "bone",
+      "partner": "dog",
+      "duration": 7500,
+      "script": {
+        "hi": "कुत्ता हड्डी चबाता है।",
+        "en": "The dog chews a bone."
+      }
+    },
+    {
+      "highlight": "cat",
+      "duration": 6000,
+      "script": {
+        "hi": "यह बिल्ली है।",
+        "en": "This is a cat."
+      }
+    },
+    {
+      "highlight": "milk",
+      "partner": "cat",
+      "duration": 7500,
+      "script": {
+        "hi": "बिल्ली दूध पीती है।",
+        "en": "The cat drinks milk."
+      }
+    },
+    {
+      "highlight": "monkey",
+      "duration": 6000,
+      "script": {
+        "hi": "यह बंदर है।",
+        "en": "This is a monkey."
+      }
+    },
+    {
+      "highlight": "banana",
+      "partner": "monkey",
+      "duration": 7500,
+      "script": {
+        "hi": "बंदर केला खाता है।",
+        "en": "The monkey eats a banana."
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "math-nur-one-many",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "one",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.09
+      },
+      "position": "-0.450 0.520 -0.850"
+    },
+    {
+      "id": "m1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "0.180 0.520 -0.790"
+    },
+    {
+      "id": "m2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "0.295 0.520 -0.790"
+    },
+    {
+      "id": "m3",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "0.410 0.520 -0.790"
+    },
+    {
+      "id": "m4",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "0.525 0.520 -0.790"
+    },
+    {
+      "id": "m5",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "0.180 0.520 -0.940"
+    },
+    {
+      "id": "m6",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "0.295 0.520 -0.940"
+    },
+    {
+      "id": "m7",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#3d7ea6",
+        "size": 0.075
+      },
+      "position": "0.410 0.520 -0.940"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "one"
+      ],
+      "highlight": "one",
+      "duration": 6000,
+      "script": {
+        "hi": "यहाँ एक है।",
+        "en": "Here there is one."
+      }
+    },
+    {
+      "show": [
+        "one",
+        "m1",
+        "m2",
+        "m3",
+        "m4",
+        "m5",
+        "m6",
+        "m7"
+      ],
+      "highlight": "m1",
+      "against": "one",
+      "duration": 6000,
+      "script": {
+        "hi": "और यहाँ बहुत सारे हैं।",
+        "en": "And here there are many."
+      }
+    },
+    {
+      "show": [
+        "one",
+        "m1",
+        "m2",
+        "m3",
+        "m4",
+        "m5",
+        "m6",
+        "m7"
+      ],
+      "duration": 7000,
+      "script": {
+        "hi": "एक, और बहुत सारे।",
+        "en": "One — and many."
+      }
+    }
+  ]
+}

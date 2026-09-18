@@ -1,0 +1,148 @@
+{
+  "id": "sky",
+  "sky": {
+    "hdri": "cloudy.jpg",
+    "intensity": 1.1
+  },
+  "sun": {
+    "position": "9 14 4",
+    "color": "#fff6e6",
+    "intensity": 1.0
+  },
+  "light": {
+    "sky": "#e8f2f8",
+    "ground": "#9fb08a",
+    "intensity": 0.85
+  },
+  "shadows": false,
+  "fog": {
+    "color": "#cfe0ec",
+    "near": 260,
+    "far": 950
+  },
+  "start": {
+    "position": "0 1.2 0",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "balloon",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "radius": 5.2,
+        "basket": 1.8,
+        "rim": 0.72
+      }
+    },
+    {
+      "build": "countryside",
+      "position": "0 -90 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "size": 900,
+        "field": 42
+      }
+    },
+    {
+      "build": "hills",
+      "position": "0 -90 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "radius": 430,
+        "count": 20,
+        "height": 36,
+        "width": 120,
+        "color": "#4f7a48",
+        "haze": "#b9cfc4",
+        "seed": 12
+      }
+    },
+    {
+      "build": "cloud",
+      "position": "-22 3 -34",
+      "rotation": "0 15 0",
+      "contact": false,
+      "params": {
+        "width": 16,
+        "puffs": 7,
+        "drift": 5,
+        "seed": 1
+      }
+    },
+    {
+      "build": "cloud",
+      "position": "28 -6 -52",
+      "rotation": "0 -20 0",
+      "contact": false,
+      "params": {
+        "width": 22,
+        "puffs": 8,
+        "drift": -7,
+        "seed": 2
+      }
+    },
+    {
+      "build": "cloud",
+      "position": "-46 -22 -18",
+      "rotation": "0 60 0",
+      "contact": false,
+      "params": {
+        "width": 26,
+        "puffs": 8,
+        "drift": 6,
+        "seed": 3
+      }
+    },
+    {
+      "build": "cloud",
+      "position": "12 -30 -90",
+      "rotation": "0 5 0",
+      "contact": false,
+      "params": {
+        "width": 30,
+        "puffs": 9,
+        "drift": -8,
+        "seed": 4
+      }
+    },
+    {
+      "build": "cloud",
+      "position": "55 8 10",
+      "rotation": "0 100 0",
+      "contact": false,
+      "params": {
+        "width": 20,
+        "puffs": 7,
+        "drift": 5,
+        "seed": 5
+      }
+    },
+    {
+      "build": "cloud",
+      "position": "-30 12 40",
+      "rotation": "0 -70 0",
+      "contact": false,
+      "params": {
+        "width": 18,
+        "puffs": 7,
+        "drift": -5,
+        "seed": 6
+      }
+    },
+    {
+      "build": "rainbow",
+      "position": "60 -90 -330",
+      "rotation": "0 -12 0",
+      "contact": false,
+      "params": {
+        "radius": 210,
+        "band": 9,
+        "opacity": 0.42
+      }
+    }
+  ]
+}

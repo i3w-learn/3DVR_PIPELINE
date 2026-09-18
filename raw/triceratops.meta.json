@@ -1,0 +1,14 @@
+{
+  "id": "triceratops",
+  "source": "Poly Pizza — \"Triceratops\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/IGvrUqGrRM",
+  "targetHeight": 2.6,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "Armature|Triceratops_Idle",
+    "Armature|Triceratops_Walk"
+  ]
+}

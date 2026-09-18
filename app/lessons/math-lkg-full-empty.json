@@ -1,0 +1,103 @@
+{
+  "id": "math-lkg-full-empty",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "fullglass",
+      "model": "sodaglass",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.137,
+      "scale": "2.20 2.20 2.20",
+      "name": {
+        "en": "Full",
+        "hi": "भरा"
+      }
+    },
+    {
+      "id": "emptyglass",
+      "model": "glass",
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.106,
+      "scale": "2.20 2.20 2.20",
+      "name": {
+        "en": "Empty",
+        "hi": "ख़ाली"
+      }
+    },
+    {
+      "id": "fullbowl",
+      "model": "soup",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.205,
+      "scale": "2.20 2.20 2.20",
+      "name": {
+        "en": "Full",
+        "hi": "भरा"
+      }
+    },
+    {
+      "id": "emptybowl",
+      "model": "bowl",
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.205,
+      "scale": "2.20 2.20 2.20",
+      "name": {
+        "en": "Empty",
+        "hi": "ख़ाली"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "fullglass",
+        "emptyglass"
+      ],
+      "highlight": "fullglass",
+      "duration": 6500,
+      "script": {
+        "hi": "यह गिलास भरा है।",
+        "en": "This glass is full."
+      }
+    },
+    {
+      "show": [
+        "fullglass",
+        "emptyglass"
+      ],
+      "highlight": "emptyglass",
+      "against": "fullglass",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह गिलास ख़ाली है।",
+        "en": "And this glass is empty."
+      }
+    },
+    {
+      "show": [
+        "fullbowl",
+        "emptybowl"
+      ],
+      "highlight": "fullbowl",
+      "duration": 6500,
+      "script": {
+        "hi": "यह कटोरा भरा है।",
+        "en": "This bowl is full."
+      }
+    },
+    {
+      "show": [
+        "fullbowl",
+        "emptybowl"
+      ],
+      "highlight": "emptybowl",
+      "against": "fullbowl",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह ख़ाली है।",
+        "en": "And this one is empty."
+      }
+    }
+  ]
+}

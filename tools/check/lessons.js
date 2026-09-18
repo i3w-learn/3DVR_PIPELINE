@@ -37,6 +37,7 @@ async function main() {
   }
 
   let failed = 0;
+  const locked = [];
 
   for (const lessonId of lessonIds) {
     const problems = await checkLesson(lessonId, { library, languages, glyphs });
@@ -48,6 +49,17 @@ async function main() {
     } else {
       console.log(`✓ ${lessonId}`);
     }
+
+    // Passing every rule here is not the same as being fit for a child. A
+    // gated lesson says who still has to approve it; say so every run, so the
+    // list of what is waiting cannot quietly be forgotten.
+    const gate = await gateOf(lessonId);
+    if (gate && !gate.signedOff) locked.push(`${lessonId} — ${gate.needs}`);
+  }
+
+  if (locked.length) {
+    console.log(`\n${locked.length} lesson(s) built but LOCKED until signed off (set gate.signedOff in the lesson):`);
+    for (const line of locked) console.log(`  🔒 ${line}`);
   }
 
   console.log();
@@ -56,6 +68,16 @@ async function main() {
     process.exitCode = 1;
   } else {
     console.log(`${lessonIds.length} lesson(s) passed. Frame rate is still a headset question.`);
+  }
+}
+
+/** The lesson's sign-off gate, if it has one. Unreadable lessons are rule L1's problem. */
+async function gateOf(lessonId) {
+  try {
+    const lesson = await readJson(path.join(LESSONS_DIR, lessonFiles.get(lessonId) ?? `${lessonId}.json`));
+    return lesson.gate ?? null;
+  } catch {
+    return null;
   }
 }
 

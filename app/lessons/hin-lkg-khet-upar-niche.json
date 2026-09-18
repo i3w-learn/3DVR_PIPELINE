@@ -1,0 +1,235 @@
+{
+  "id": "hin-lkg-khet-upar-niche",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "soil",
+      "build": "bar",
+      "params": {
+        "length": 1.5,
+        "thickness": 0.34,
+        "color": "#7a5230"
+      },
+      "position": "0.000 0.520 -1.000",
+      "name": {
+        "en": "Soil",
+        "hi": "मिट्टी"
+      }
+    },
+    {
+      "id": "grass",
+      "build": "bar",
+      "params": {
+        "length": 1.5,
+        "thickness": 0.05,
+        "color": "#5d9a48"
+      },
+      "position": "0.000 0.860 -1.000",
+      "name": {
+        "en": "Ground",
+        "hi": "ज़मीन"
+      }
+    },
+    {
+      "id": "carrot",
+      "model": "carrot",
+      "position": "-0.500 0.520 -0.720",
+      "scale": "1.50 1.50 1.50",
+      "ring": 0.089,
+      "name": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      }
+    },
+    {
+      "id": "radish",
+      "model": "radish",
+      "position": "0.000 0.520 -0.720",
+      "scale": "2.17 2.17 2.17",
+      "ring": 0.096,
+      "name": {
+        "en": "Radish",
+        "hi": "मूली"
+      }
+    },
+    {
+      "id": "beetroot",
+      "model": "beetroot",
+      "position": "0.500 0.520 -0.720",
+      "scale": "2.18 2.18 2.18",
+      "ring": 0.055,
+      "name": {
+        "en": "Beetroot",
+        "hi": "चुकंदर"
+      }
+    },
+    {
+      "id": "tomato",
+      "model": "tomato",
+      "position": "-0.500 0.910 -1.000",
+      "scale": "2.10 2.10 2.10",
+      "ring": 0.124,
+      "name": {
+        "en": "Tomato",
+        "hi": "टमाटर"
+      }
+    },
+    {
+      "id": "corn",
+      "model": "corn",
+      "position": "0.000 0.910 -1.000",
+      "scale": "1.20 1.20 1.20",
+      "ring": 0.149,
+      "name": {
+        "en": "Corn",
+        "hi": "भुट्टा"
+      }
+    },
+    {
+      "id": "brinjal",
+      "model": "brinjal",
+      "position": "0.500 0.910 -1.000",
+      "scale": "1.30 1.30 1.30",
+      "ring": 0.086,
+      "name": {
+        "en": "Brinjal",
+        "hi": "बैंगन"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "soil",
+        "grass",
+        "carrot",
+        "radish",
+        "beetroot",
+        "tomato",
+        "corn",
+        "brinjal"
+      ],
+      "highlight": "soil",
+      "duration": 8000,
+      "script": {
+        "hi": "यह खेत की मिट्टी है, और ऊपर ज़मीन।",
+        "en": "This is the soil of a field, and on top of it, the ground."
+      }
+    },
+    {
+      "show": [
+        "soil",
+        "grass",
+        "carrot",
+        "radish",
+        "beetroot",
+        "tomato",
+        "corn",
+        "brinjal"
+      ],
+      "highlight": "carrot",
+      "against": "grass",
+      "duration": 7000,
+      "script": {
+        "hi": "गाजर ज़मीन के नीचे उगती है।",
+        "en": "A carrot grows under the ground."
+      }
+    },
+    {
+      "show": [
+        "soil",
+        "grass",
+        "carrot",
+        "radish",
+        "beetroot",
+        "tomato",
+        "corn",
+        "brinjal"
+      ],
+      "highlight": "radish",
+      "against": "grass",
+      "duration": 6500,
+      "script": {
+        "hi": "मूली भी नीचे उगती है।",
+        "en": "A radish grows underneath too."
+      }
+    },
+    {
+      "show": [
+        "soil",
+        "grass",
+        "carrot",
+        "radish",
+        "beetroot",
+        "tomato",
+        "corn",
+        "brinjal"
+      ],
+      "highlight": "beetroot",
+      "against": "grass",
+      "duration": 6500,
+      "script": {
+        "hi": "और चुकंदर भी।",
+        "en": "And so does a beetroot."
+      }
+    },
+    {
+      "show": [
+        "soil",
+        "grass",
+        "carrot",
+        "radish",
+        "beetroot",
+        "tomato",
+        "corn",
+        "brinjal"
+      ],
+      "highlight": "tomato",
+      "against": "grass",
+      "duration": 7000,
+      "script": {
+        "hi": "टमाटर ज़मीन के ऊपर उगता है।",
+        "en": "A tomato grows above the ground."
+      }
+    },
+    {
+      "show": [
+        "soil",
+        "grass",
+        "carrot",
+        "radish",
+        "beetroot",
+        "tomato",
+        "corn",
+        "brinjal"
+      ],
+      "highlight": "corn",
+      "against": "grass",
+      "duration": 6500,
+      "script": {
+        "hi": "भुट्टा भी ऊपर उगता है।",
+        "en": "Corn grows above it too."
+      }
+    },
+    {
+      "show": [
+        "soil",
+        "grass",
+        "carrot",
+        "radish",
+        "beetroot",
+        "tomato",
+        "corn",
+        "brinjal"
+      ],
+      "highlight": "brinjal",
+      "against": "grass",
+      "duration": 6500,
+      "script": {
+        "hi": "और बैंगन भी।",
+        "en": "And so does a brinjal."
+      }
+    }
+  ]
+}

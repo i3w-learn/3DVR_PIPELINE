@@ -1,0 +1,221 @@
+{
+  "id": "evs-lkg-animal-babies",
+  "template": "match",
+  "stage": "farmyard",
+  "objects": [
+    {
+      "id": "cow",
+      "model": "cow",
+      "position": "-4.200 0.000 -7.600",
+      "rotation": "0 64 0",
+      "ring": 1.52,
+      "name": {
+        "en": "Cow",
+        "hi": "गाय"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "calf",
+      "model": "cow",
+      "position": "-2.060 0.000 -6.100",
+      "rotation": "0 54 0",
+      "ring": 0.68,
+      "scale": "0.450 0.450 0.450",
+      "name": {
+        "en": "Calf",
+        "hi": "बछड़ा"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "sheep",
+      "model": "sheep",
+      "position": "-1.900 0.000 -5.600",
+      "rotation": "0 54 0",
+      "ring": 0.69,
+      "name": {
+        "en": "Sheep",
+        "hi": "भेड़"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "lamb",
+      "model": "sheep",
+      "position": "-0.381 0.000 -4.100",
+      "rotation": "0 40 0",
+      "ring": 0.35,
+      "scale": "0.500 0.500 0.500",
+      "name": {
+        "en": "Lamb",
+        "hi": "मेमना"
+      },
+      "clip": "Armature|Idle"
+    },
+    {
+      "id": "dog",
+      "model": "dog",
+      "position": "0.000 0.000 -4.000",
+      "rotation": "0 35 0",
+      "ring": 0.43,
+      "name": {
+        "en": "Dog",
+        "hi": "कुत्ता"
+      }
+    },
+    {
+      "id": "puppy",
+      "model": "puppy",
+      "position": "1.325 0.000 -2.500",
+      "rotation": "0 7 0",
+      "ring": 0.23,
+      "name": {
+        "en": "Puppy",
+        "hi": "पिल्ला"
+      }
+    },
+    {
+      "id": "cat",
+      "model": "cat",
+      "position": "1.800 0.000 -4.200",
+      "rotation": "0 -58 0",
+      "ring": 0.25,
+      "scale": "1.400 1.400 1.400",
+      "name": {
+        "en": "Cat",
+        "hi": "बिल्ली"
+      }
+    },
+    {
+      "id": "kitten",
+      "model": "cat",
+      "position": "0.615 0.000 -2.700",
+      "rotation": "0 -48 0",
+      "ring": 0.12,
+      "scale": "0.700 0.700 0.700",
+      "name": {
+        "en": "Kitten",
+        "hi": "बिल्ली का बच्चा"
+      }
+    },
+    {
+      "id": "hen",
+      "model": "hen",
+      "position": "3.600 0.000 -5.200",
+      "rotation": "0 -70 0",
+      "ring": 0.28,
+      "scale": "1.400 1.400 1.400",
+      "name": {
+        "en": "Hen",
+        "hi": "मुर्गी"
+      }
+    },
+    {
+      "id": "chick",
+      "model": "chick",
+      "position": "2.387 0.000 -3.700",
+      "rotation": "0 -68 0",
+      "ring": 0.14,
+      "scale": "1.600 1.600 1.600",
+      "name": {
+        "en": "Chick",
+        "hi": "चूज़ा"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "हर जानवर का एक बच्चा होता है। चलो देखें किसका बच्चा कौन है।",
+        "en": "Every animal has a baby. Let us see whose baby is whose."
+      }
+    },
+    {
+      "highlight": "cow",
+      "duration": 6500,
+      "script": {
+        "hi": "यह गाय है।",
+        "en": "This is a cow."
+      }
+    },
+    {
+      "highlight": "calf",
+      "partner": "cow",
+      "duration": 7500,
+      "script": {
+        "hi": "और यह उसका बच्चा — बछड़ा।",
+        "en": "And this is her baby — a calf."
+      }
+    },
+    {
+      "highlight": "sheep",
+      "duration": 6500,
+      "script": {
+        "hi": "यह भेड़ है।",
+        "en": "This is a sheep."
+      }
+    },
+    {
+      "highlight": "lamb",
+      "partner": "sheep",
+      "duration": 7500,
+      "script": {
+        "hi": "और यह उसका बच्चा — मेमना।",
+        "en": "And this is her baby — a lamb."
+      }
+    },
+    {
+      "highlight": "dog",
+      "duration": 6500,
+      "script": {
+        "hi": "यह कुत्ता है।",
+        "en": "This is a dog."
+      }
+    },
+    {
+      "highlight": "puppy",
+      "partner": "dog",
+      "duration": 7500,
+      "script": {
+        "hi": "और यह उसका बच्चा — पिल्ला।",
+        "en": "And this is her baby — a puppy."
+      }
+    },
+    {
+      "highlight": "cat",
+      "duration": 6500,
+      "script": {
+        "hi": "यह बिल्ली है।",
+        "en": "This is a cat."
+      }
+    },
+    {
+      "highlight": "kitten",
+      "partner": "cat",
+      "duration": 7500,
+      "script": {
+        "hi": "और यह उसका बच्चा — बिल्ली का बच्चा।",
+        "en": "And this is her baby — a kitten."
+      }
+    },
+    {
+      "highlight": "hen",
+      "duration": 6500,
+      "script": {
+        "hi": "यह मुर्गी है।",
+        "en": "This is a hen."
+      }
+    },
+    {
+      "highlight": "chick",
+      "partner": "hen",
+      "duration": 7500,
+      "script": {
+        "hi": "और यह उसका बच्चा — चूज़ा।",
+        "en": "And this is her baby — a chick."
+      }
+    }
+  ]
+}

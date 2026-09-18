@@ -1,0 +1,231 @@
+{
+  "id": "evs-ukg-safe-touch",
+  "template": "identify",
+  "stage": "home",
+  "notes": "Teacher-led only: no explore mode, no headset-alone mode, and the teacher talks with the class after it. The script is a DRAFT in the shape of a standard body-safety lesson (my body is mine; safe and unsafe touch; No-Go-Tell; trusted adults; never your fault). Every sentence is for a child-protection specialist to confirm or rewrite.",
+  "gate": {
+    "signedOff": false,
+    "needs": "a child-protection specialist must write or approve this script, and the programme must decide how it is taught, before any child sees it"
+  },
+  "objects": [
+    {
+      "id": "meena",
+      "build": "person",
+      "params": {
+        "height": 1.08,
+        "role": "girl",
+        "pose": "stand"
+      },
+      "position": "-1.900 0.000 -2.700",
+      "rotation": "0 35 0",
+      "name": {
+        "en": "Meena",
+        "hi": "मीना"
+      }
+    },
+    {
+      "id": "mother",
+      "build": "person",
+      "params": {
+        "height": 1.58,
+        "role": "woman",
+        "pose": "stand"
+      },
+      "position": "-0.500 0.000 -3.300",
+      "rotation": "0 9 0",
+      "name": {
+        "en": "Mother",
+        "hi": "माँ"
+      }
+    },
+    {
+      "id": "father",
+      "build": "person",
+      "params": {
+        "height": 1.7,
+        "role": "man",
+        "pose": "stand"
+      },
+      "position": "0.600 0.000 -3.500",
+      "rotation": "0 -10 0",
+      "name": {
+        "en": "Father",
+        "hi": "पिता"
+      }
+    },
+    {
+      "id": "teacher",
+      "build": "person",
+      "params": {
+        "height": 1.6,
+        "role": "teacher",
+        "pose": "stand"
+      },
+      "position": "1.800 0.000 -3.100",
+      "rotation": "0 -30 0",
+      "name": {
+        "en": "Teacher",
+        "hi": "दीदी"
+      }
+    },
+    {
+      "id": "no",
+      "build": "glyph",
+      "params": {
+        "char": "NO",
+        "card": "#ff8a7a",
+        "height": 0.42,
+        "post": 0.75
+      },
+      "position": "-0.600 0.000 -2.900",
+      "name": {
+        "en": "Say NO",
+        "hi": "मना करो"
+      }
+    },
+    {
+      "id": "go",
+      "build": "glyph",
+      "params": {
+        "char": "GO",
+        "card": "#ffe14d",
+        "height": 0.42,
+        "post": 0.75
+      },
+      "position": "0.500 0.000 -2.900",
+      "name": {
+        "en": "Go away",
+        "hi": "दूर जाओ"
+      }
+    },
+    {
+      "id": "tell",
+      "build": "glyph",
+      "params": {
+        "char": "TELL",
+        "card": "#9fe0a8",
+        "height": 0.42,
+        "post": 0.75
+      },
+      "position": "1.600 0.000 -2.900",
+      "name": {
+        "en": "Tell",
+        "hi": "बताओ"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "meena",
+      "show": [
+        "meena",
+        "mother",
+        "father",
+        "teacher"
+      ],
+      "duration": 10000,
+      "script": {
+        "hi": "यह मीना है। मीना का शरीर मीना का अपना है। तुम्हारा शरीर तुम्हारा अपना है।",
+        "en": "This is Meena. Meena's body belongs to Meena. Your body belongs to you."
+      }
+    },
+    {
+      "highlight": "mother",
+      "show": [
+        "meena",
+        "mother",
+        "father",
+        "teacher"
+      ],
+      "duration": 10000,
+      "script": {
+        "hi": "कुछ छूना अच्छा लगता है — जैसे माँ का गले लगाना, या सड़क पार करते हुए हाथ पकड़ना। इसे सुरक्षित छूना कहते हैं।",
+        "en": "Some touches feel good — like a hug from mother, or holding hands to cross the road. These are safe touches."
+      }
+    },
+    {
+      "highlight": "meena",
+      "show": [
+        "meena",
+        "mother",
+        "father",
+        "teacher"
+      ],
+      "duration": 11000,
+      "script": {
+        "hi": "अगर कोई ऐसे छुए कि तुम्हें बुरा लगे, डर लगे, या दर्द हो — वह असुरक्षित छूना है। जो हिस्से कपड़ों से ढके रहते हैं, उन्हें कोई नहीं छू सकता।",
+        "en": "If anyone touches you in a way that feels bad, or scary, or that hurts — that is an unsafe touch. Nobody may touch the parts of you that your clothes cover."
+      }
+    },
+    {
+      "highlight": "no",
+      "show": [
+        "meena",
+        "no",
+        "go",
+        "tell"
+      ],
+      "duration": 9000,
+      "script": {
+        "hi": "तब तीन काम करो। पहला — ज़ोर से बोलो: नहीं!",
+        "en": "Then do three things. One — say it loudly: NO!"
+      }
+    },
+    {
+      "highlight": "go",
+      "show": [
+        "meena",
+        "no",
+        "go",
+        "tell"
+      ],
+      "duration": 9000,
+      "script": {
+        "hi": "दूसरा — वहाँ से दूर चले जाओ।",
+        "en": "Two — go away from there."
+      }
+    },
+    {
+      "highlight": "tell",
+      "show": [
+        "meena",
+        "no",
+        "go",
+        "tell"
+      ],
+      "duration": 9000,
+      "script": {
+        "hi": "तीसरा — किसी भरोसे वाले बड़े को बताओ।",
+        "en": "Three — tell a grown-up you trust."
+      }
+    },
+    {
+      "highlight": "teacher",
+      "show": [
+        "meena",
+        "mother",
+        "father",
+        "teacher"
+      ],
+      "duration": 10000,
+      "script": {
+        "hi": "भरोसे वाले बड़े कौन हैं? माँ, पिता, या तुम्हारी दीदी।",
+        "en": "Who are the grown-ups you trust? Mother, father, or your teacher."
+      }
+    },
+    {
+      "highlight": "meena",
+      "show": [
+        "meena",
+        "mother",
+        "father",
+        "teacher"
+      ],
+      "duration": 11000,
+      "script": {
+        "hi": "यह कभी तुम्हारी ग़लती नहीं होती। और अगर कोई न सुने, तो किसी और को बताओ — जब तक कोई मदद न करे।",
+        "en": "It is never your fault. And if one person does not listen, tell another — keep telling until someone helps."
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "eng-nur-colors-check",
+  "template": "sort",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "r1red",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#d9362b",
+        "size": 0.24
+      },
+      "position": "-0.570 0.520 -0.800",
+      "name": {
+        "en": "Red",
+        "hi": "लाल"
+      }
+    },
+    {
+      "id": "r1blue",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#2f6fb8",
+        "size": 0.24
+      },
+      "position": "-0.190 0.520 -0.800",
+      "name": {
+        "en": "Blue",
+        "hi": "नीला"
+      }
+    },
+    {
+      "id": "r1yellow",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#f0c52e",
+        "size": 0.24
+      },
+      "position": "0.190 0.520 -0.800",
+      "name": {
+        "en": "Yellow",
+        "hi": "पीला"
+      }
+    },
+    {
+      "id": "r1green",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#3f9a4a",
+        "size": 0.24
+      },
+      "position": "0.570 0.520 -0.800",
+      "name": {
+        "en": "Green",
+        "hi": "हरा"
+      }
+    },
+    {
+      "id": "r2orange",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#ef7d1a",
+        "size": 0.24
+      },
+      "position": "-0.570 0.520 -0.800",
+      "name": {
+        "en": "Orange",
+        "hi": "नारंगी"
+      }
+    },
+    {
+      "id": "r2purple",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#7a3fa0",
+        "size": 0.24
+      },
+      "position": "-0.190 0.520 -0.800",
+      "name": {
+        "en": "Purple",
+        "hi": "बैंगनी"
+      }
+    },
+    {
+      "id": "r2pink",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#ee7fa6",
+        "size": 0.24
+      },
+      "position": "0.190 0.520 -0.800",
+      "name": {
+        "en": "Pink",
+        "hi": "गुलाबी"
+      }
+    },
+    {
+      "id": "r2brown",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#7a4f2c",
+        "size": 0.24
+      },
+      "position": "0.570 0.520 -0.800",
+      "name": {
+        "en": "Brown",
+        "hi": "भूरा"
+      }
+    },
+    {
+      "id": "r3green",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#3f9a4a",
+        "size": 0.24
+      },
+      "position": "-0.570 0.520 -0.800",
+      "name": {
+        "en": "Green",
+        "hi": "हरा"
+      }
+    },
+    {
+      "id": "r3red",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#d9362b",
+        "size": 0.24
+      },
+      "position": "-0.190 0.520 -0.800",
+      "name": {
+        "en": "Red",
+        "hi": "लाल"
+      }
+    },
+    {
+      "id": "r3purple",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#7a3fa0",
+        "size": 0.24
+      },
+      "position": "0.190 0.520 -0.800",
+      "name": {
+        "en": "Purple",
+        "hi": "बैंगनी"
+      }
+    },
+    {
+      "id": "r3yellow",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#f0c52e",
+        "size": 0.24
+      },
+      "position": "0.570 0.520 -0.800",
+      "name": {
+        "en": "Yellow",
+        "hi": "पीला"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "r1red",
+        "r1blue",
+        "r1yellow",
+        "r1green"
+      ],
+      "answer": "r1blue",
+      "duration": 10000,
+      "script": {
+        "hi": "नीला वाला कौन सा है? उसे छुओ।",
+        "en": "Which one is blue? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r2orange",
+        "r2purple",
+        "r2pink",
+        "r2brown"
+      ],
+      "answer": "r2pink",
+      "duration": 10000,
+      "script": {
+        "hi": "गुलाबी वाला कौन सा है? उसे छुओ।",
+        "en": "Which one is pink? Touch it."
+      }
+    },
+    {
+      "show": [
+        "r3green",
+        "r3red",
+        "r3purple",
+        "r3yellow"
+      ],
+      "answer": "r3yellow",
+      "duration": 10000,
+      "script": {
+        "hi": "पीला वाला कौन सा है? उसे छुओ।",
+        "en": "Which one is yellow? Touch it."
+      }
+    }
+  ]
+}

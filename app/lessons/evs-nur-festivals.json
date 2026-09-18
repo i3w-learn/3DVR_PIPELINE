@@ -1,0 +1,165 @@
+{
+  "id": "evs-nur-festivals",
+  "template": "identify",
+  "stage": "home",
+  "notes": "The curriculum lists Diwali, Sankranti, Holi and Christmas. Eid is added for balance; remove the `crescent` object and its step if the programme wants only the four.",
+  "objects": [
+    {
+      "id": "rangoli",
+      "build": "rangoli",
+      "params": {
+        "size": 1.0
+      },
+      "position": "-1.150 0.035 -2.000",
+      "name": {
+        "en": "Rangoli",
+        "hi": "रंगोली"
+      }
+    },
+    {
+      "id": "diya",
+      "build": "diya",
+      "params": {
+        "size": 0.34
+      },
+      "position": "-1.150 0.060 -2.000",
+      "name": {
+        "en": "Diya",
+        "hi": "दीया"
+      },
+      "ring": 0.3
+    },
+    {
+      "id": "kite",
+      "model": "kite",
+      "position": "1.450 1.750 -5.150",
+      "scale": "1.056 1.056 1.056",
+      "ring": 0.551,
+      "rotation": "80 0 25",
+      "name": {
+        "en": "Kite",
+        "hi": "पतंग"
+      }
+    },
+    {
+      "id": "gulal",
+      "build": "gulal",
+      "params": {
+        "size": 0.7
+      },
+      "position": "0.350 0.035 -2.000",
+      "name": {
+        "en": "Colours",
+        "hi": "गुलाल"
+      }
+    },
+    {
+      "id": "xmastree",
+      "model": "xmastree",
+      "position": "-0.350 0.000 -3.900",
+      "rotation": "0 5 0",
+      "ring": 0.43,
+      "scale": "0.850 0.850 0.850",
+      "name": {
+        "en": "Christmas tree",
+        "hi": "क्रिसमस ट्री"
+      }
+    },
+    {
+      "id": "gift",
+      "model": "gift",
+      "position": "0.300 0.000 -3.500",
+      "scale": "1.333 1.333 1.333",
+      "ring": 0.172,
+      "name": {
+        "en": "Gift",
+        "hi": "उपहार"
+      }
+    },
+    {
+      "id": "crescent",
+      "build": "crescent",
+      "params": {
+        "size": 0.8
+      },
+      "position": "-1.500 0.000 -3.700",
+      "rotation": "0 20 0",
+      "name": {
+        "en": "Moon and star",
+        "hi": "चाँद-तारा"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "त्योहार ख़ुशी के दिन होते हैं। हम सब मिलकर त्योहार मनाते हैं।",
+        "en": "Festivals are happy days. We all celebrate them together."
+      }
+    },
+    {
+      "highlight": "diya",
+      "duration": 8000,
+      "script": {
+        "hi": "दिवाली रोशनी का त्योहार है। हम दीये जलाते हैं।",
+        "en": "Diwali is the festival of lights. We light diyas."
+      }
+    },
+    {
+      "highlight": "rangoli",
+      "duration": 8000,
+      "script": {
+        "hi": "और आँगन में रंगोली बनाते हैं।",
+        "en": "And we make a rangoli on the floor."
+      }
+    },
+    {
+      "highlight": "kite",
+      "duration": 8000,
+      "script": {
+        "hi": "मकर संक्रांति पर हम पतंग उड़ाते हैं।",
+        "en": "On Makar Sankranti we fly kites."
+      }
+    },
+    {
+      "highlight": "gulal",
+      "duration": 8000,
+      "script": {
+        "hi": "होली रंगों का त्योहार है। हम एक-दूसरे को गुलाल लगाते हैं।",
+        "en": "Holi is the festival of colours. We put gulal on one another."
+      }
+    },
+    {
+      "highlight": "xmastree",
+      "duration": 8000,
+      "script": {
+        "hi": "क्रिसमस पर हम क्रिसमस ट्री सजाते हैं…",
+        "en": "At Christmas we decorate a Christmas tree…"
+      }
+    },
+    {
+      "highlight": "gift",
+      "duration": 7000,
+      "script": {
+        "hi": "…और एक-दूसरे को उपहार देते हैं।",
+        "en": "…and we give each other gifts."
+      }
+    },
+    {
+      "highlight": "crescent",
+      "duration": 8000,
+      "script": {
+        "hi": "ईद पर हम चाँद देखते हैं, और सबको गले लगाकर ईद मुबारक कहते हैं।",
+        "en": "At Eid we look for the moon, and we wish everyone Eid Mubarak."
+      }
+    },
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "तुम्हारे घर में कौन-सा त्योहार मनाते हैं?",
+        "en": "Which festivals do you celebrate at your home?"
+      }
+    }
+  ]
+}

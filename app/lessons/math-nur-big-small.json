@@ -1,0 +1,99 @@
+{
+  "id": "math-nur-big-small",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "big1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.17
+      },
+      "position": "-0.400 0.520 -0.850"
+    },
+    {
+      "id": "small1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#e4572e",
+        "size": 0.07
+      },
+      "position": "-0.050 0.520 -0.850"
+    },
+    {
+      "id": "big2",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#3d7ea6",
+        "size": 0.16
+      },
+      "position": "0.280 0.520 -0.850"
+    },
+    {
+      "id": "small2",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#3d7ea6",
+        "size": 0.07
+      },
+      "position": "0.580 0.520 -0.850"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "big1",
+        "small1"
+      ],
+      "highlight": "big1",
+      "duration": 6000,
+      "script": {
+        "hi": "यह बड़ा है।",
+        "en": "This one is big."
+      }
+    },
+    {
+      "show": [
+        "big1",
+        "small1"
+      ],
+      "highlight": "small1",
+      "against": "big1",
+      "duration": 6000,
+      "script": {
+        "hi": "और यह छोटा है।",
+        "en": "And this one is small."
+      }
+    },
+    {
+      "show": [
+        "big2",
+        "small2"
+      ],
+      "highlight": "big2",
+      "duration": 6000,
+      "script": {
+        "hi": "यह भी बड़ा है।",
+        "en": "This one is big too."
+      }
+    },
+    {
+      "show": [
+        "big2",
+        "small2"
+      ],
+      "highlight": "small2",
+      "against": "big2",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह छोटा।",
+        "en": "And this one is small."
+      }
+    }
+  ]
+}

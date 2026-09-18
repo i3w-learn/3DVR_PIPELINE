@@ -1,0 +1,236 @@
+{
+  "id": "eng-nur-fruits",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "apple",
+      "model": "apple",
+      "position": "-0.600 0.520 -0.780",
+      "ring": 0.167,
+      "scale": "2.92 2.92 2.92",
+      "name": {
+        "en": "Apple",
+        "hi": "सेब"
+      }
+    },
+    {
+      "id": "banana",
+      "model": "banana",
+      "position": "-0.200 0.520 -0.780",
+      "ring": 0.218,
+      "rotation": "0 90 0",
+      "scale": "1.85 1.85 1.85",
+      "name": {
+        "en": "Banana",
+        "hi": "केला"
+      }
+    },
+    {
+      "id": "orange",
+      "model": "orange",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.167,
+      "scale": "2.96 2.96 2.96",
+      "name": {
+        "en": "Orange",
+        "hi": "संतरा"
+      }
+    },
+    {
+      "id": "grapes",
+      "model": "grapes",
+      "position": "0.600 0.520 -0.780",
+      "ring": 0.11,
+      "scale": "1.80 1.80 1.80",
+      "name": {
+        "en": "Grapes",
+        "hi": "अंगूर"
+      }
+    },
+    {
+      "id": "pear",
+      "model": "pear",
+      "position": "-0.600 0.520 -0.780",
+      "ring": 0.121,
+      "scale": "2.45 2.45 2.45",
+      "name": {
+        "en": "Pear",
+        "hi": "नाशपाती"
+      }
+    },
+    {
+      "id": "pineapple",
+      "model": "pineapple",
+      "position": "-0.200 0.520 -0.780",
+      "ring": 0.087,
+      "scale": "0.96 0.96 0.96",
+      "name": {
+        "en": "Pineapple",
+        "hi": "अनानास"
+      }
+    },
+    {
+      "id": "strawberry",
+      "model": "strawberry",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.11,
+      "scale": "4.50 4.50 4.50",
+      "name": {
+        "en": "Strawberry",
+        "hi": "स्ट्रॉबेरी"
+      }
+    },
+    {
+      "id": "watermelon",
+      "model": "watermelon",
+      "position": "0.600 0.520 -0.780",
+      "ring": 0.16,
+      "scale": "0.96 0.96 0.96",
+      "name": {
+        "en": "Watermelon",
+        "hi": "तरबूज़"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "apple",
+        "banana",
+        "orange",
+        "grapes"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये फल देखो।",
+        "en": "Look at these fruits."
+      }
+    },
+    {
+      "highlight": "apple",
+      "show": [
+        "apple",
+        "banana",
+        "orange",
+        "grapes"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह सेब है।",
+        "en": "This is an apple."
+      }
+    },
+    {
+      "highlight": "banana",
+      "show": [
+        "apple",
+        "banana",
+        "orange",
+        "grapes"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह केला है।",
+        "en": "This is a banana."
+      }
+    },
+    {
+      "highlight": "orange",
+      "show": [
+        "apple",
+        "banana",
+        "orange",
+        "grapes"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह संतरा है।",
+        "en": "This is an orange."
+      }
+    },
+    {
+      "highlight": "grapes",
+      "show": [
+        "apple",
+        "banana",
+        "orange",
+        "grapes"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह अंगूर है।",
+        "en": "This is a bunch of grapes."
+      }
+    },
+    {
+      "show": [
+        "pear",
+        "pineapple",
+        "strawberry",
+        "watermelon"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये फल देखो।",
+        "en": "Look at these fruits."
+      }
+    },
+    {
+      "highlight": "pear",
+      "show": [
+        "pear",
+        "pineapple",
+        "strawberry",
+        "watermelon"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह नाशपाती है।",
+        "en": "This is a pear."
+      }
+    },
+    {
+      "highlight": "pineapple",
+      "show": [
+        "pear",
+        "pineapple",
+        "strawberry",
+        "watermelon"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह अनानास है।",
+        "en": "This is a pineapple."
+      }
+    },
+    {
+      "highlight": "strawberry",
+      "show": [
+        "pear",
+        "pineapple",
+        "strawberry",
+        "watermelon"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह स्ट्रॉबेरी है।",
+        "en": "This is a strawberry."
+      }
+    },
+    {
+      "highlight": "watermelon",
+      "show": [
+        "pear",
+        "pineapple",
+        "strawberry",
+        "watermelon"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह तरबूज़ है।",
+        "en": "This is a watermelon."
+      }
+    }
+  ]
+}

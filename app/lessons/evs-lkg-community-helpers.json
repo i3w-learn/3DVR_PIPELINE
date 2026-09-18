@@ -1,0 +1,161 @@
+{
+  "id": "evs-lkg-community-helpers",
+  "template": "identify",
+  "stage": "street",
+  "objects": [
+    {
+      "id": "doctor",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "doctor",
+        "pose": "stand"
+      },
+      "position": "-2.785 0.000 1.550",
+      "rotation": "0 55 0",
+      "name": {
+        "en": "Doctor",
+        "hi": "डॉक्टर"
+      }
+    },
+    {
+      "id": "teacher",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "teacher",
+        "pose": "stand"
+      },
+      "position": "-1.852 0.000 0.649",
+      "rotation": "0 33 0",
+      "name": {
+        "en": "Teacher",
+        "hi": "शिक्षिका"
+      }
+    },
+    {
+      "id": "police",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "police",
+        "pose": "stand"
+      },
+      "position": "-0.649 0.000 0.162",
+      "rotation": "0 11 0",
+      "name": {
+        "en": "Police",
+        "hi": "पुलिस"
+      }
+    },
+    {
+      "id": "farmer",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "farmer",
+        "pose": "stand"
+      },
+      "position": "0.649 0.000 0.162",
+      "rotation": "0 -11 0",
+      "name": {
+        "en": "Farmer",
+        "hi": "किसान"
+      }
+    },
+    {
+      "id": "firefighter",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "firefighter",
+        "pose": "stand"
+      },
+      "position": "1.852 0.000 0.649",
+      "rotation": "0 -33 0",
+      "name": {
+        "en": "Firefighter",
+        "hi": "दमकलकर्मी"
+      }
+    },
+    {
+      "id": "postman",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "postman",
+        "pose": "stand"
+      },
+      "position": "2.785 0.000 1.550",
+      "rotation": "0 -55 0",
+      "name": {
+        "en": "Postman",
+        "hi": "डाकिया"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "ये हमारे मददगार हैं। ये सब हमारी मदद करते हैं।",
+        "en": "These are our community helpers. Every one of them helps us."
+      }
+    },
+    {
+      "highlight": "doctor",
+      "duration": 8000,
+      "script": {
+        "hi": "यह डॉक्टर हैं। जब हम बीमार होते हैं, डॉक्टर हमें ठीक करते हैं।",
+        "en": "This is a doctor. When we are ill, the doctor makes us well."
+      }
+    },
+    {
+      "highlight": "teacher",
+      "duration": 8000,
+      "script": {
+        "hi": "यह शिक्षिका हैं। वे हमें पढ़ाती हैं।",
+        "en": "This is a teacher. She teaches us."
+      }
+    },
+    {
+      "highlight": "police",
+      "duration": 8000,
+      "script": {
+        "hi": "यह पुलिस हैं। पुलिस हमारी रक्षा करती है।",
+        "en": "This is a police officer. The police keep us safe."
+      }
+    },
+    {
+      "highlight": "farmer",
+      "duration": 8000,
+      "script": {
+        "hi": "यह किसान हैं। किसान हमारे लिए अनाज उगाते हैं।",
+        "en": "This is a farmer. The farmer grows our food."
+      }
+    },
+    {
+      "highlight": "firefighter",
+      "duration": 8000,
+      "script": {
+        "hi": "यह दमकलकर्मी हैं। वे आग बुझाते हैं।",
+        "en": "This is a firefighter. Firefighters put out fires."
+      }
+    },
+    {
+      "highlight": "postman",
+      "duration": 8000,
+      "script": {
+        "hi": "यह डाकिया हैं। डाकिया हमारी चिट्ठियाँ लाते हैं।",
+        "en": "This is a postman. The postman brings our letters."
+      }
+    },
+    {
+      "duration": 7000,
+      "script": {
+        "hi": "जब ये हमारी मदद करें, तो हम कहते हैं — धन्यवाद!",
+        "en": "When they help us, we say — thank you!"
+      }
+    }
+  ]
+}

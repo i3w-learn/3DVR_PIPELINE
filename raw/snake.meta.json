@@ -1,0 +1,14 @@
+{
+  "id": "snake",
+  "source": "Poly Pizza — \"Snake\" by Quaternius",
+  "licence": "CC0",
+  "licenceVersion": "CC0 1.0",
+  "url": "https://poly.pizza/m/x9x0viZs8V",
+  "targetHeight": 0.5,
+  "yaw": 0,
+  "fit": "height",
+  "keepClips": [
+    "SnakeArmature|Snake_Idle",
+    "SnakeArmature|Snake_Walk"
+  ]
+}

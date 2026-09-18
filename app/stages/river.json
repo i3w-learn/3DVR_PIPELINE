@@ -1,0 +1,96 @@
+{
+  "id": "river",
+  "sky": {
+    "hdri": "field.jpg",
+    "intensity": 1.0
+  },
+  "ground": {
+    "color": "grass_color.jpg",
+    "normal": "grass_normal.jpg",
+    "rough": "grass_rough.jpg",
+    "ao": "grass_ao.jpg",
+    "repeat": 70
+  },
+  "sun": {
+    "position": "7 10 6",
+    "color": "#fff3dd",
+    "intensity": 0.9
+  },
+  "light": {
+    "sky": "#dfeef5",
+    "ground": "#a8b98e",
+    "intensity": 0.9
+  },
+  "shadows": false,
+  "fog": {
+    "color": "#d3e2e8",
+    "near": 45,
+    "far": 150
+  },
+  "start": {
+    "position": "0 1.2 3",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "grove",
+      "position": "0 0 -11",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 95,
+        "inner": 36,
+        "outer": 95,
+        "arc": 360,
+        "facing": 0,
+        "kind": "round",
+        "height": 10,
+        "leaf": "#3a6a3c",
+        "seed": 79
+      }
+    },
+    {
+      "build": "grove",
+      "position": "0 0 -11",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 46,
+        "inner": 17,
+        "outer": 48,
+        "arc": 200,
+        "facing": 0,
+        "kind": "round",
+        "height": 7.5,
+        "leaf": "#3f7040",
+        "seed": 23
+      }
+    },
+    {
+      "build": "grove",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 14,
+        "inner": 10,
+        "outer": 22,
+        "arc": 70,
+        "facing": 118,
+        "kind": "round",
+        "height": 6,
+        "leaf": "#4a7c44",
+        "seed": 29
+      }
+    },
+    {
+      "build": "river",
+      "position": "0 0 -9",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "width": 9
+      }
+    }
+  ]
+}

@@ -25,6 +25,9 @@
  * against. It is deliberately cooler and calmer: the eye goes to yellow first,
  * which is the order the narration speaks in.
  */
+/** Class on the name cards `ringOn` puts up, so they can be found and cleared. */
+const NAME_LABEL = 'name-label';
+
 export const RING = {
   subject: '#ffe14d',
   against: '#7fd4ff',
@@ -48,7 +51,7 @@ export function createObject(object, { tappable = false } = {}) {
     id, model, build, params,
     position, rotation, scale,
     clip, clipSpeed, wander, visible,
-    audio, script,
+    audio, script, ring: ringRadius, name, labelAt,
   } = object;
 
   const el = document.createElement('a-entity');
@@ -86,6 +89,20 @@ export function createObject(object, { tappable = false } = {}) {
 
   if (visible === false) el.setAttribute('visible', 'false');
 
+  // A built object sizes its own ring through `highlightAnchor`. A downloaded
+  // model cannot — it is a mesh, not a component — so without this an apple
+  // gets the 0.9 m ring that was sized for a cow, and on a table that is a
+  // hoop round everything at once. The lesson says how big, in metres.
+  if (ringRadius) el.dataset.ring = ringRadius;
+
+  // What it is called, shown over it while it is the one being pointed at.
+  if (name) el.dataset.name = JSON.stringify(name);
+
+  // Where the name goes, when "above it" is the wrong place. The parts of a
+  // face all share one head: a card above the eyes covers the hair, and a card
+  // above the mouth covers the nose. Those say where, beside the figure.
+  if (labelAt) el.dataset.labelAt = labelAt;
+
   if (tappable) {
     // A plain box the size of the posed model, added by `tap-target`. The
     // model's own mesh is not the hit target: three.js raycasts a skinned mesh
@@ -112,7 +129,10 @@ export function placeAll(stage, lesson, options) {
 }
 
 export function clearHighlights(stage) {
-  for (const child of stage.children) child.removeAttribute('highlight');
+  for (const child of [...stage.children]) {
+    if (child.classList.contains(NAME_LABEL)) stage.removeChild(child);
+    else child.removeAttribute('highlight');
+  }
 }
 
 /**
@@ -124,7 +144,83 @@ export function clearHighlights(stage) {
  */
 export function ring(stage, id, color = RING.subject) {
   if (!id) return;
-  stage.querySelector(`#${CSS.escape(id)}`)?.setAttribute('highlight', { color });
+  ringOn(stage.querySelector(`#${CSS.escape(id)}`), color);
+}
+
+/** Ring an element, at the size its lesson asked for if it asked. */
+export function ringOn(el, color = RING.subject) {
+  if (!el) return;
+
+  // `ring` is in metres on the table. The ring itself hangs off the object, so
+  // it inherits the object's scale — and an object shown at four times life
+  // size drew a ring four times too big, which came out as a yellow disc the
+  // width of the room. Divide the scale back out.
+  const metres = Number(el.dataset.ring);
+  const radius = metres ? metres / (el.object3D.scale.x || 1) : 0;
+  el.setAttribute('highlight', radius ? { color, radius } : { color });
+
+  // Only the thing being named gets its name. The blue ring is what it is
+  // being compared against, and two labels at once is a caption competition.
+  if (color === RING.subject) showName(el);
+}
+
+/**
+ * The name, over the object, in the scene.
+ *
+ * The teacher's tablet has always shown the script line. The child in the
+ * headset saw a ring and heard nothing — without a teacher reading aloud, a
+ * ringed apple is just an apple with a ring round it. A lesson a child can
+ * follow on their own has to say what the thing is where the child is looking.
+ *
+ * English above, Hindi below: these are LKG and UKG children, learning to read
+ * both, and the picture-with-its-word is the oldest flashcard there is. It is
+ * a `glyph` card, so Hindi with matras is shaped correctly by the same path
+ * the matra lesson uses.
+ *
+ * Placed on the stage rather than inside the object, so an object shown at
+ * two and a half times life size does not also blow its label up with it.
+ */
+const bounds = new THREE.Box3();
+
+function showName(el) {
+  const stage = el.parentNode;
+  if (!stage || !el.dataset.name) return;
+
+  const name = JSON.parse(el.dataset.name);
+  const lines = [name.hi, name.en].filter(Boolean);   // bottom line first
+
+  // Top of the object as it stands now, scale and all. A model that has not
+  // arrived yet has no box; a hand's height is a fair guess until it does.
+  bounds.setFromObject(el.object3D);
+  const base = el.object3D.position;
+  const top = Number.isFinite(bounds.max.y) ? bounds.max.y - stage.object3D.getWorldPosition(new THREE.Vector3()).y : base.y + 0.2;
+
+  // Sized by how far away it is. An 8 cm card is right over an apple at arm's
+  // length and unreadable over a snowman seven metres off — it was there, and
+  // nobody could have known. The child sits at the stage's origin, so distance
+  // from the origin is distance from the eye, and the card grows with it to
+  // stay about the same size in view.
+  const beside = el.dataset.labelAt?.split(' ').map(Number);
+  const at = beside ? { x: beside[0], z: beside[2] } : base;
+  const foot = beside ? beside[1] : top;
+
+  const away = Math.hypot(at.x, at.z);
+  const grow = Math.max(1, away / 0.9);
+
+  lines.forEach((text, i) => {
+    const english = i === lines.length - 1;
+    const card = document.createElement('a-entity');
+    card.classList.add(NAME_LABEL, 'prop');
+    card.setAttribute('glyph', {
+      char: text,
+      height: (english ? 0.085 : 0.075) * grow,
+      // The ring's own yellow, so the name and the ring read as one gesture —
+      // and because a white card over snow, or against a pale sky, vanishes.
+      card: english ? '#ffe14d' : '#fff3b0',
+    });
+    card.setAttribute('position', `${at.x} ${foot + (0.05 + i * 0.095) * grow} ${at.z}`);
+    stage.appendChild(card);
+  });
 }
 
 export function find(stage, id) {

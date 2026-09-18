@@ -1,0 +1,294 @@
+{
+  "id": "math-lkg-odd-even",
+  "template": "count",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "p1",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#6a9955",
+        "size": 0.07
+      },
+      "position": "-0.450 0.520 -0.780"
+    },
+    {
+      "id": "p2",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#b4451f",
+        "size": 0.07
+      },
+      "position": "-0.450 0.520 -0.940"
+    },
+    {
+      "id": "p3",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#6a9955",
+        "size": 0.07
+      },
+      "position": "-0.260 0.520 -0.780"
+    },
+    {
+      "id": "p4",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#b4451f",
+        "size": 0.07
+      },
+      "position": "-0.260 0.520 -0.940"
+    },
+    {
+      "id": "p5",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#6a9955",
+        "size": 0.07
+      },
+      "position": "-0.070 0.520 -0.780"
+    },
+    {
+      "id": "p6",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#b4451f",
+        "size": 0.07
+      },
+      "position": "-0.070 0.520 -0.940"
+    },
+    {
+      "id": "p7",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#6a9955",
+        "size": 0.07
+      },
+      "position": "0.120 0.520 -0.780"
+    },
+    {
+      "id": "p8",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#b4451f",
+        "size": 0.07
+      },
+      "position": "0.120 0.520 -0.940"
+    },
+    {
+      "id": "p9",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#6a9955",
+        "size": 0.07
+      },
+      "position": "0.310 0.520 -0.780"
+    },
+    {
+      "id": "p10",
+      "build": "counter",
+      "params": {
+        "shape": "bead",
+        "color": "#b4451f",
+        "size": 0.07
+      },
+      "position": "0.310 0.520 -0.940"
+    },
+    {
+      "id": "tally",
+      "build": "glyph",
+      "params": {
+        "char": "0",
+        "height": 0.2,
+        "card": "#fdf0d5"
+      },
+      "position": "0.000 0.520 -1.160"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "p1",
+        "tally"
+      ],
+      "tally": 1,
+      "highlight": "p1",
+      "duration": 5000,
+      "script": {
+        "hi": "1 — विषम।",
+        "en": "1 — odd, one is left over."
+      }
+    },
+    {
+      "show": [
+        "p1",
+        "p2",
+        "tally"
+      ],
+      "tally": 2,
+      "highlight": "p2",
+      "duration": 5000,
+      "script": {
+        "hi": "2 — सम।",
+        "en": "2 — even, every one has a pair."
+      }
+    },
+    {
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "tally"
+      ],
+      "tally": 3,
+      "highlight": "p3",
+      "duration": 5000,
+      "script": {
+        "hi": "3 — विषम।",
+        "en": "3 — odd, one is left over."
+      }
+    },
+    {
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "tally"
+      ],
+      "tally": 4,
+      "highlight": "p4",
+      "duration": 5000,
+      "script": {
+        "hi": "4 — सम।",
+        "en": "4 — even, every one has a pair."
+      }
+    },
+    {
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "tally"
+      ],
+      "tally": 5,
+      "highlight": "p5",
+      "duration": 5000,
+      "script": {
+        "hi": "5 — विषम।",
+        "en": "5 — odd, one is left over."
+      }
+    },
+    {
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "tally"
+      ],
+      "tally": 6,
+      "highlight": "p6",
+      "duration": 5000,
+      "script": {
+        "hi": "6 — सम।",
+        "en": "6 — even, every one has a pair."
+      }
+    },
+    {
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "tally"
+      ],
+      "tally": 7,
+      "highlight": "p7",
+      "duration": 5000,
+      "script": {
+        "hi": "7 — विषम।",
+        "en": "7 — odd, one is left over."
+      }
+    },
+    {
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "tally"
+      ],
+      "tally": 8,
+      "highlight": "p8",
+      "duration": 5000,
+      "script": {
+        "hi": "8 — सम।",
+        "en": "8 — even, every one has a pair."
+      }
+    },
+    {
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "tally"
+      ],
+      "tally": 9,
+      "highlight": "p9",
+      "duration": 5000,
+      "script": {
+        "hi": "9 — विषम।",
+        "en": "9 — odd, one is left over."
+      }
+    },
+    {
+      "show": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "tally"
+      ],
+      "tally": 10,
+      "highlight": "p10",
+      "duration": 5000,
+      "script": {
+        "hi": "10 — सम।",
+        "en": "10 — even, every one has a pair."
+      }
+    }
+  ]
+}

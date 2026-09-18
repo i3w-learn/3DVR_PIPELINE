@@ -1,0 +1,150 @@
+{
+  "id": "math-lkg-half-whole",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "apple",
+      "model": "apple",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.168,
+      "scale": "2.92 2.92 2.92",
+      "name": {
+        "en": "Whole",
+        "hi": "पूरा"
+      }
+    },
+    {
+      "id": "applehalf",
+      "model": "applehalf",
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.168,
+      "scale": "2.92 2.92 2.92",
+      "name": {
+        "en": "Half",
+        "hi": "आधा"
+      }
+    },
+    {
+      "id": "pear",
+      "model": "pear",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.121,
+      "scale": "2.45 2.45 2.45",
+      "name": {
+        "en": "Whole",
+        "hi": "पूरा"
+      }
+    },
+    {
+      "id": "pearhalf",
+      "model": "pearhalf",
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.121,
+      "scale": "2.45 2.45 2.45",
+      "name": {
+        "en": "Half",
+        "hi": "आधा"
+      }
+    },
+    {
+      "id": "coconut",
+      "model": "coconut",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.168,
+      "scale": "2.08 2.08 2.08",
+      "name": {
+        "en": "Whole",
+        "hi": "पूरा"
+      }
+    },
+    {
+      "id": "coconuthalf",
+      "model": "coconuthalf",
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.168,
+      "scale": "2.08 2.08 2.08",
+      "name": {
+        "en": "Half",
+        "hi": "आधा"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "apple",
+        "applehalf"
+      ],
+      "highlight": "apple",
+      "duration": 6000,
+      "script": {
+        "hi": "यह पूरा सेब है।",
+        "en": "This is a whole apple."
+      }
+    },
+    {
+      "show": [
+        "apple",
+        "applehalf"
+      ],
+      "highlight": "applehalf",
+      "against": "apple",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह आधा सेब है।",
+        "en": "And this is half of one."
+      }
+    },
+    {
+      "show": [
+        "pear",
+        "pearhalf"
+      ],
+      "highlight": "pear",
+      "duration": 6000,
+      "script": {
+        "hi": "यह पूरा नाशपाती है।",
+        "en": "This is a whole pear."
+      }
+    },
+    {
+      "show": [
+        "pear",
+        "pearhalf"
+      ],
+      "highlight": "pearhalf",
+      "against": "pear",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह आधा नाशपाती है।",
+        "en": "And this is half of one."
+      }
+    },
+    {
+      "show": [
+        "coconut",
+        "coconuthalf"
+      ],
+      "highlight": "coconut",
+      "duration": 6000,
+      "script": {
+        "hi": "यह पूरा नारियल है।",
+        "en": "This is a whole coconut."
+      }
+    },
+    {
+      "show": [
+        "coconut",
+        "coconuthalf"
+      ],
+      "highlight": "coconuthalf",
+      "against": "coconut",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह आधा नारियल है।",
+        "en": "And this is half of one."
+      }
+    }
+  ]
+}

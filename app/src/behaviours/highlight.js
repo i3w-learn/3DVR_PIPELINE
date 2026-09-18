@@ -36,7 +36,9 @@ AFRAME.registerComponent('highlight', {
     const ring = document.createElement('a-torus');
 
     ring.setAttribute('radius', this.data.radius);
-    ring.setAttribute('radius-tubular', 0.04);
+    // Thin for a small ring. The 4 cm tube is right round a cow and, round an
+    // apple, is thicker than the apple's own stalk.
+    ring.setAttribute('radius-tubular', Math.min(0.04, this.data.radius * 0.09));
     ring.setAttribute('segments-tubular', 24);
     ring.setAttribute('rotation', '-90 0 0');
     ring.setAttribute('position', '0 0.02 0');

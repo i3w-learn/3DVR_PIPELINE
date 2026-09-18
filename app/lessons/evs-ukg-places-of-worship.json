@@ -1,0 +1,115 @@
+{
+  "id": "evs-ukg-places-of-worship",
+  "template": "identify",
+  "stage": "maidan",
+  "gate": {
+    "signedOff": false,
+    "needs": "neutrality review by someone outside the build team — equal treatment of every faith shown, and whether other faiths should be added"
+  },
+  "objects": [
+    {
+      "id": "church",
+      "build": "worship",
+      "params": {
+        "kind": "church",
+        "width": 7
+      },
+      "position": "-16.059 0.000 -15.835",
+      "rotation": "0 42 0",
+      "name": {
+        "en": "Church",
+        "hi": "गिरजाघर"
+      }
+    },
+    {
+      "id": "gurdwara",
+      "build": "worship",
+      "params": {
+        "kind": "gurdwara",
+        "width": 7
+      },
+      "position": "-5.806 0.000 -21.287",
+      "rotation": "0 14 0",
+      "name": {
+        "en": "Gurdwara",
+        "hi": "गुरुद्वारा"
+      }
+    },
+    {
+      "id": "mosque",
+      "build": "worship",
+      "params": {
+        "kind": "mosque",
+        "width": 7
+      },
+      "position": "5.806 0.000 -21.287",
+      "rotation": "0 -14 0",
+      "name": {
+        "en": "Mosque",
+        "hi": "मस्जिद"
+      }
+    },
+    {
+      "id": "temple",
+      "build": "worship",
+      "params": {
+        "kind": "temple",
+        "width": 7
+      },
+      "position": "16.059 0.000 -15.835",
+      "rotation": "0 -42 0",
+      "name": {
+        "en": "Temple",
+        "hi": "मंदिर"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "लोग अलग-अलग जगहों पर प्रार्थना करते हैं। चलो उन्हें देखें।",
+        "en": "People pray in different places. Let us look at them."
+      }
+    },
+    {
+      "highlight": "church",
+      "duration": 9000,
+      "script": {
+        "hi": "यह गिरजाघर है। ईसाई यहाँ प्रार्थना करते हैं।",
+        "en": "This is a church. Christians pray here."
+      }
+    },
+    {
+      "highlight": "gurdwara",
+      "duration": 9000,
+      "script": {
+        "hi": "यह गुरुद्वारा है। सिख यहाँ प्रार्थना करते हैं।",
+        "en": "This is a gurdwara. Sikhs pray here."
+      }
+    },
+    {
+      "highlight": "mosque",
+      "duration": 9000,
+      "script": {
+        "hi": "यह मस्जिद है। मुसलमान यहाँ प्रार्थना करते हैं।",
+        "en": "This is a mosque. Muslims pray here."
+      }
+    },
+    {
+      "highlight": "temple",
+      "duration": 9000,
+      "script": {
+        "hi": "यह मंदिर है। हिंदू यहाँ प्रार्थना करते हैं।",
+        "en": "This is a temple. Hindus pray here."
+      }
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "सबकी प्रार्थना की जगह अलग है, पर हम सबका आदर करते हैं।",
+        "en": "Everyone's place of prayer is different, and we respect every one of them."
+      }
+    }
+  ]
+}
