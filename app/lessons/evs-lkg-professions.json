@@ -1,0 +1,233 @@
+{
+  "id": "evs-lkg-professions",
+  "template": "match",
+  "stage": "road",
+  "objects": [
+    {
+      "id": "doctor",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "doctor",
+        "pose": "stand"
+      },
+      "position": "-2.700 0.000 -0.800",
+      "rotation": "0 32 0",
+      "name": {
+        "en": "Doctor",
+        "hi": "डॉक्टर"
+      }
+    },
+    {
+      "id": "stethoscope",
+      "model": "stethoscope",
+      "position": "-2.200 0.000 0.600",
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.496,
+      "rotation": "0 90 0",
+      "name": {
+        "en": "Stethoscope",
+        "hi": "स्टेथोस्कोप"
+      }
+    },
+    {
+      "id": "teacher",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "teacher",
+        "pose": "stand"
+      },
+      "position": "-1.000 0.000 -1.300",
+      "rotation": "0 12 0",
+      "name": {
+        "en": "Teacher",
+        "hi": "शिक्षिका"
+      }
+    },
+    {
+      "id": "book",
+      "model": "book",
+      "position": "-0.700 0.000 0.300",
+      "scale": "2.143 2.143 2.143",
+      "ring": 0.31,
+      "name": {
+        "en": "Book",
+        "hi": "किताब"
+      }
+    },
+    {
+      "id": "postman",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "postman",
+        "pose": "stand"
+      },
+      "position": "0.800 0.000 -1.100",
+      "rotation": "0 -10 0",
+      "name": {
+        "en": "Postman",
+        "hi": "डाकिया"
+      }
+    },
+    {
+      "id": "letter",
+      "model": "envelope",
+      "position": "0.800 0.000 0.500",
+      "scale": "3.333 3.333 3.333",
+      "ring": 0.496,
+      "rotation": "0 90 0",
+      "name": {
+        "en": "Letter",
+        "hi": "चिट्ठी"
+      }
+    },
+    {
+      "id": "farmer",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "farmer",
+        "pose": "stand"
+      },
+      "position": "2.600 0.000 -2.100",
+      "rotation": "0 -25 0",
+      "name": {
+        "en": "Farmer",
+        "hi": "किसान"
+      }
+    },
+    {
+      "id": "tractor",
+      "model": "tractor",
+      "position": "2.000 0.000 -7.000",
+      "rotation": "0 -66 0",
+      "ring": 2.16,
+      "name": {
+        "en": "Tractor",
+        "hi": "ट्रैक्टर"
+      }
+    },
+    {
+      "id": "firefighter",
+      "build": "person",
+      "params": {
+        "height": 1.62,
+        "role": "firefighter",
+        "pose": "stand"
+      },
+      "position": "-2.300 0.000 -5.500",
+      "rotation": "0 14 0",
+      "name": {
+        "en": "Firefighter",
+        "hi": "दमकलकर्मी"
+      }
+    },
+    {
+      "id": "fireengine",
+      "model": "firetruck",
+      "position": "-0.900 0.000 -13.000",
+      "rotation": "0 63 0",
+      "ring": 4.8,
+      "name": {
+        "en": "Fire engine",
+        "hi": "दमकल"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "हर कोई अपना काम करता है, और हर काम का अपना औज़ार होता है।",
+        "en": "Everybody has a job to do, and every job has its own tools."
+      }
+    },
+    {
+      "highlight": "doctor",
+      "duration": 6000,
+      "script": {
+        "hi": "यह डॉक्टर हैं।",
+        "en": "This is a doctor."
+      }
+    },
+    {
+      "highlight": "stethoscope",
+      "partner": "doctor",
+      "duration": 8000,
+      "script": {
+        "hi": "डॉक्टर स्टेथोस्कोप से हमारी धड़कन सुनते हैं।",
+        "en": "The doctor listens to our heartbeat with a stethoscope."
+      }
+    },
+    {
+      "highlight": "teacher",
+      "duration": 6000,
+      "script": {
+        "hi": "यह शिक्षिका हैं।",
+        "en": "This is a teacher."
+      }
+    },
+    {
+      "highlight": "book",
+      "partner": "teacher",
+      "duration": 8000,
+      "script": {
+        "hi": "शिक्षिका किताब से पढ़ाती हैं।",
+        "en": "The teacher teaches from a book."
+      }
+    },
+    {
+      "highlight": "postman",
+      "duration": 6000,
+      "script": {
+        "hi": "यह डाकिया हैं।",
+        "en": "This is a postman."
+      }
+    },
+    {
+      "highlight": "letter",
+      "partner": "postman",
+      "duration": 8000,
+      "script": {
+        "hi": "डाकिया चिट्ठियाँ लाते हैं।",
+        "en": "The postman brings letters."
+      }
+    },
+    {
+      "highlight": "farmer",
+      "duration": 6000,
+      "script": {
+        "hi": "यह किसान हैं।",
+        "en": "This is a farmer."
+      }
+    },
+    {
+      "highlight": "tractor",
+      "partner": "farmer",
+      "duration": 8000,
+      "script": {
+        "hi": "किसान ट्रैक्टर से खेत जोतते हैं।",
+        "en": "The farmer ploughs the field with a tractor."
+      }
+    },
+    {
+      "highlight": "firefighter",
+      "duration": 6000,
+      "script": {
+        "hi": "यह दमकलकर्मी हैं।",
+        "en": "This is a firefighter."
+      }
+    },
+    {
+      "highlight": "fireengine",
+      "partner": "firefighter",
+      "duration": 8000,
+      "script": {
+        "hi": "दमकलकर्मी दमकल की गाड़ी से आग बुझाने जाते हैं।",
+        "en": "The firefighter goes to put out fires in a fire engine."
+      }
+    }
+  ]
+}

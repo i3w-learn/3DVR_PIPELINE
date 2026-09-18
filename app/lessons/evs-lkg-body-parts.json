@@ -1,0 +1,281 @@
+{
+  "id": "evs-lkg-body-parts",
+  "template": "identify",
+  "stage": "home",
+  "objects": [
+    {
+      "id": "child",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "rest",
+        "except": [
+          "head",
+          "hair",
+          "eyes",
+          "ears",
+          "nose",
+          "mouth",
+          "hands",
+          "tummy",
+          "legs",
+          "feet"
+        ]
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "My body",
+        "hi": "मेरा शरीर"
+      },
+      "labelAt": "0.780 1.450 -1.550"
+    },
+    {
+      "id": "head",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "head"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Head",
+        "hi": "सिर"
+      },
+      "labelAt": "0.780 1.300 -1.550"
+    },
+    {
+      "id": "hair",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "hair"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Hair",
+        "hi": "बाल"
+      },
+      "labelAt": "0.780 1.450 -1.550"
+    },
+    {
+      "id": "eyes",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "eyes"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Eyes",
+        "hi": "आँखें"
+      },
+      "labelAt": "0.780 1.320 -1.550"
+    },
+    {
+      "id": "ears",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "ears"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Ears",
+        "hi": "कान"
+      },
+      "labelAt": "0.780 1.270 -1.550"
+    },
+    {
+      "id": "nose",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "nose"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Nose",
+        "hi": "नाक"
+      },
+      "labelAt": "0.780 1.220 -1.550"
+    },
+    {
+      "id": "mouth",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "mouth"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Mouth",
+        "hi": "मुँह"
+      },
+      "labelAt": "0.780 1.120 -1.550"
+    },
+    {
+      "id": "hands",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "hands"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Hands",
+        "hi": "हाथ"
+      },
+      "labelAt": "0.780 0.620 -1.550"
+    },
+    {
+      "id": "tummy",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "tummy"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Tummy",
+        "hi": "पेट"
+      },
+      "labelAt": "0.780 0.820 -1.550"
+    },
+    {
+      "id": "legs",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "legs"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Legs",
+        "hi": "पैर"
+      },
+      "labelAt": "0.780 0.360 -1.550"
+    },
+    {
+      "id": "feet",
+      "build": "bodypart",
+      "params": {
+        "height": 1.5,
+        "role": "child",
+        "kind": "feet"
+      },
+      "position": "0.000 0.000 -1.550",
+      "name": {
+        "en": "Feet",
+        "hi": "पंजे"
+      },
+      "labelAt": "0.780 0.100 -1.550"
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "child",
+      "duration": 8000,
+      "script": {
+        "hi": "यह हमारा शरीर है। चलो इसके हिस्सों के नाम सीखें।",
+        "en": "This is our body. Let us learn the names of its parts."
+      }
+    },
+    {
+      "highlight": "head",
+      "duration": 7500,
+      "script": {
+        "hi": "यह सिर है।",
+        "en": "This is the head."
+      }
+    },
+    {
+      "highlight": "hair",
+      "duration": 7500,
+      "script": {
+        "hi": "ये बाल हैं।",
+        "en": "This is the hair."
+      }
+    },
+    {
+      "highlight": "eyes",
+      "duration": 7500,
+      "script": {
+        "hi": "ये आँखें हैं। आँखों से हम देखते हैं।",
+        "en": "These are the eyes. We see with our eyes."
+      }
+    },
+    {
+      "highlight": "ears",
+      "duration": 7500,
+      "script": {
+        "hi": "ये कान हैं। कानों से हम सुनते हैं।",
+        "en": "These are the ears. We hear with our ears."
+      }
+    },
+    {
+      "highlight": "nose",
+      "duration": 7500,
+      "script": {
+        "hi": "यह नाक है। नाक से हम सूँघते हैं।",
+        "en": "This is the nose. We smell with our nose."
+      }
+    },
+    {
+      "highlight": "mouth",
+      "duration": 7500,
+      "script": {
+        "hi": "यह मुँह है। मुँह से हम खाते और बोलते हैं।",
+        "en": "This is the mouth. We eat and speak with our mouth."
+      }
+    },
+    {
+      "highlight": "hands",
+      "duration": 7500,
+      "script": {
+        "hi": "ये हाथ हैं। हाथों से हम काम करते हैं।",
+        "en": "These are the hands. We do our work with our hands."
+      }
+    },
+    {
+      "highlight": "tummy",
+      "duration": 7500,
+      "script": {
+        "hi": "यह पेट है।",
+        "en": "This is the tummy."
+      }
+    },
+    {
+      "highlight": "legs",
+      "duration": 7500,
+      "script": {
+        "hi": "ये पैर हैं। पैरों से हम चलते हैं।",
+        "en": "These are the legs. We walk with our legs."
+      }
+    },
+    {
+      "highlight": "feet",
+      "duration": 7500,
+      "script": {
+        "hi": "ये पंजे हैं।",
+        "en": "These are the feet."
+      }
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "अब अपनी नाक छुओ! अब अपने कान छुओ!",
+        "en": "Now touch your own nose! Now touch your ears!"
+      }
+    }
+  ]
+}

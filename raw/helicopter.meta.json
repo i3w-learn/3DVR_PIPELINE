@@ -6,5 +6,6 @@
   "url": "https://poly.pizza/m/cTzINMr0WdS",
   "targetHeight": 9.0,
   "yaw": 180,
-  "fit": "longest"
+  "fit": "longest",
+  "join": true
 }

@@ -108,6 +108,8 @@ export async function readSidecar(id) {
     alphaMode: data.alphaMode === 'mask' ? 'mask' : null,
     // Node names to remove — a pack that ships more than we want.
     dropNodes: Array.isArray(data.dropNodes) ? data.dropNodes : null,
+    /** Collapse a static model's many meshes into one per material. */
+    join: data.join === true,
     // Material name → #rrggbb, to bring a pack into the house palette.
     palette: data.palette && typeof data.palette === 'object' ? data.palette : null,
     // Fraction of triangles to keep. A photoscanned tree arrives at 1.6

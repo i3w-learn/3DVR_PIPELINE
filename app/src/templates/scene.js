@@ -51,7 +51,7 @@ export function createObject(object, { tappable = false } = {}) {
     id, model, build, params,
     position, rotation, scale,
     clip, clipSpeed, wander, visible,
-    audio, script, ring: ringRadius, name,
+    audio, script, ring: ringRadius, name, labelAt,
   } = object;
 
   const el = document.createElement('a-entity');
@@ -97,6 +97,11 @@ export function createObject(object, { tappable = false } = {}) {
 
   // What it is called, shown over it while it is the one being pointed at.
   if (name) el.dataset.name = JSON.stringify(name);
+
+  // Where the name goes, when "above it" is the wrong place. The parts of a
+  // face all share one head: a card above the eyes covers the hair, and a card
+  // above the mouth covers the nose. Those say where, beside the figure.
+  if (labelAt) el.dataset.labelAt = labelAt;
 
   if (tappable) {
     // A plain box the size of the posed model, added by `tap-target`. The
@@ -195,7 +200,11 @@ function showName(el) {
   // nobody could have known. The child sits at the stage's origin, so distance
   // from the origin is distance from the eye, and the card grows with it to
   // stay about the same size in view.
-  const away = Math.hypot(base.x, base.z);
+  const beside = el.dataset.labelAt?.split(' ').map(Number);
+  const at = beside ? { x: beside[0], z: beside[2] } : base;
+  const foot = beside ? beside[1] : top;
+
+  const away = Math.hypot(at.x, at.z);
   const grow = Math.max(1, away / 0.9);
 
   lines.forEach((text, i) => {
@@ -209,7 +218,7 @@ function showName(el) {
       // and because a white card over snow, or against a pale sky, vanishes.
       card: english ? '#ffe14d' : '#fff3b0',
     });
-    card.setAttribute('position', `${base.x} ${top + (0.05 + i * 0.095) * grow} ${base.z}`);
+    card.setAttribute('position', `${at.x} ${foot + (0.05 + i * 0.095) * grow} ${at.z}`);
     stage.appendChild(card);
   });
 }
