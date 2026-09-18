@@ -1,0 +1,189 @@
+{
+  "id": "math-lkg-same-different",
+  "template": "sort",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "r1o1",
+      "model": "apple",
+      "position": "-0.600 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "3.0 3.0 3.0",
+      "name": {
+        "en": "Apple",
+        "hi": "सेब"
+      }
+    },
+    {
+      "id": "r1o2",
+      "model": "apple",
+      "position": "-0.200 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "3.0 3.0 3.0",
+      "name": {
+        "en": "Apple",
+        "hi": "सेब"
+      }
+    },
+    {
+      "id": "r1o3",
+      "model": "banana",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.42 1.42 1.42",
+      "name": {
+        "en": "Banana",
+        "hi": "केला"
+      }
+    },
+    {
+      "id": "r1o4",
+      "model": "apple",
+      "position": "0.600 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "3.0 3.0 3.0",
+      "name": {
+        "en": "Apple",
+        "hi": "सेब"
+      }
+    },
+    {
+      "id": "r2o1",
+      "model": "tomato",
+      "position": "-0.600 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "3.38 3.38 3.38",
+      "name": {
+        "en": "Tomato",
+        "hi": "टमाटर"
+      }
+    },
+    {
+      "id": "r2o2",
+      "model": "carrot",
+      "position": "-0.200 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      }
+    },
+    {
+      "id": "r2o3",
+      "model": "carrot",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      }
+    },
+    {
+      "id": "r2o4",
+      "model": "carrot",
+      "position": "0.600 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      }
+    },
+    {
+      "id": "r3o1",
+      "model": "cup",
+      "position": "-0.600 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "3.0 3.0 3.0",
+      "name": {
+        "en": "Cup",
+        "hi": "प्याला"
+      }
+    },
+    {
+      "id": "r3o2",
+      "model": "cup",
+      "position": "-0.200 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "3.0 3.0 3.0",
+      "name": {
+        "en": "Cup",
+        "hi": "प्याला"
+      }
+    },
+    {
+      "id": "r3o3",
+      "model": "cup",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "3.0 3.0 3.0",
+      "name": {
+        "en": "Cup",
+        "hi": "प्याला"
+      }
+    },
+    {
+      "id": "r3o4",
+      "model": "bottle",
+      "position": "0.600 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "1.13 1.13 1.13",
+      "name": {
+        "en": "Bottle",
+        "hi": "बोतल"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "r1o1",
+        "r1o2",
+        "r1o3",
+        "r1o4"
+      ],
+      "answer": [
+        "r1o3"
+      ],
+      "duration": 12000,
+      "script": {
+        "hi": "तीन एक जैसे हैं, एक अलग है। अलग वाले को छुओ।",
+        "en": "Three are the same. One is different. Touch the different one."
+      }
+    },
+    {
+      "show": [
+        "r2o1",
+        "r2o2",
+        "r2o3",
+        "r2o4"
+      ],
+      "answer": [
+        "r2o1"
+      ],
+      "duration": 12000,
+      "script": {
+        "hi": "तीन एक जैसे हैं, एक अलग है। अलग वाले को छुओ।",
+        "en": "Three are the same. One is different. Touch the different one."
+      }
+    },
+    {
+      "show": [
+        "r3o1",
+        "r3o2",
+        "r3o3",
+        "r3o4"
+      ],
+      "answer": [
+        "r3o4"
+      ],
+      "duration": 12000,
+      "script": {
+        "hi": "तीन एक जैसे हैं, एक अलग है। अलग वाले को छुओ।",
+        "en": "Three are the same. One is different. Touch the different one."
+      }
+    }
+  ]
+}

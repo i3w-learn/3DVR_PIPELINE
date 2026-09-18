@@ -1,0 +1,103 @@
+{
+  "id": "math-lkg-full-empty",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "fullglass",
+      "model": "sodaglass",
+      "position": "-0.500 0.520 -0.780",
+      "ring": 0.222,
+      "scale": "2.2 2.2 2.2",
+      "name": {
+        "en": "Full",
+        "hi": "भरा"
+      }
+    },
+    {
+      "id": "emptyglass",
+      "model": "glass",
+      "position": "-0.180 0.520 -0.780",
+      "ring": 0.19,
+      "scale": "2.2 2.2 2.2",
+      "name": {
+        "en": "Empty",
+        "hi": "ख़ाली"
+      }
+    },
+    {
+      "id": "fullbowl",
+      "model": "soup",
+      "position": "0.180 0.520 -0.780",
+      "ring": 0.238,
+      "scale": "2.2 2.2 2.2",
+      "name": {
+        "en": "Full",
+        "hi": "भरा"
+      }
+    },
+    {
+      "id": "emptybowl",
+      "model": "bowl",
+      "position": "0.540 0.520 -0.780",
+      "ring": 0.238,
+      "scale": "2.2 2.2 2.2",
+      "name": {
+        "en": "Empty",
+        "hi": "ख़ाली"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "fullglass",
+        "emptyglass"
+      ],
+      "highlight": "fullglass",
+      "duration": 6500,
+      "script": {
+        "hi": "यह गिलास भरा है।",
+        "en": "This glass is full."
+      }
+    },
+    {
+      "show": [
+        "fullglass",
+        "emptyglass"
+      ],
+      "highlight": "emptyglass",
+      "against": "fullglass",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह गिलास ख़ाली है।",
+        "en": "And this glass is empty."
+      }
+    },
+    {
+      "show": [
+        "fullbowl",
+        "emptybowl"
+      ],
+      "highlight": "fullbowl",
+      "duration": 6500,
+      "script": {
+        "hi": "यह कटोरा भरा है।",
+        "en": "This bowl is full."
+      }
+    },
+    {
+      "show": [
+        "fullbowl",
+        "emptybowl"
+      ],
+      "highlight": "emptybowl",
+      "against": "fullbowl",
+      "duration": 7000,
+      "script": {
+        "hi": "और यह ख़ाली है।",
+        "en": "And this one is empty."
+      }
+    }
+  ]
+}

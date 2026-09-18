@@ -1,0 +1,327 @@
+{
+  "id": "eng-lkg-two-letter-words",
+  "template": "match",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "w1l1",
+      "build": "glyph",
+      "params": {
+        "char": "I",
+        "height": 0.26
+      },
+      "position": "-0.500 0.520 -0.780"
+    },
+    {
+      "id": "w1l2",
+      "build": "glyph",
+      "params": {
+        "char": "N",
+        "height": 0.26
+      },
+      "position": "-0.220 0.520 -0.780"
+    },
+    {
+      "id": "w1",
+      "build": "glyph",
+      "params": {
+        "char": "IN",
+        "height": 0.3,
+        "card": "#fdf0d5"
+      },
+      "position": "0.400 0.520 -0.780"
+    },
+    {
+      "id": "w2l1",
+      "build": "glyph",
+      "params": {
+        "char": "O",
+        "height": 0.26
+      },
+      "position": "-0.500 0.520 -0.780"
+    },
+    {
+      "id": "w2l2",
+      "build": "glyph",
+      "params": {
+        "char": "N",
+        "height": 0.26
+      },
+      "position": "-0.220 0.520 -0.780"
+    },
+    {
+      "id": "w2",
+      "build": "glyph",
+      "params": {
+        "char": "ON",
+        "height": 0.3,
+        "card": "#fdf0d5"
+      },
+      "position": "0.400 0.520 -0.780"
+    },
+    {
+      "id": "w3l1",
+      "build": "glyph",
+      "params": {
+        "char": "U",
+        "height": 0.26
+      },
+      "position": "-0.500 0.520 -0.780"
+    },
+    {
+      "id": "w3l2",
+      "build": "glyph",
+      "params": {
+        "char": "P",
+        "height": 0.26
+      },
+      "position": "-0.220 0.520 -0.780"
+    },
+    {
+      "id": "w3",
+      "build": "glyph",
+      "params": {
+        "char": "UP",
+        "height": 0.3,
+        "card": "#fdf0d5"
+      },
+      "position": "0.400 0.520 -0.780"
+    },
+    {
+      "id": "w4l1",
+      "build": "glyph",
+      "params": {
+        "char": "G",
+        "height": 0.26
+      },
+      "position": "-0.500 0.520 -0.780"
+    },
+    {
+      "id": "w4l2",
+      "build": "glyph",
+      "params": {
+        "char": "O",
+        "height": 0.26
+      },
+      "position": "-0.220 0.520 -0.780"
+    },
+    {
+      "id": "w4",
+      "build": "glyph",
+      "params": {
+        "char": "GO",
+        "height": 0.3,
+        "card": "#fdf0d5"
+      },
+      "position": "0.400 0.520 -0.780"
+    },
+    {
+      "id": "w5l1",
+      "build": "glyph",
+      "params": {
+        "char": "N",
+        "height": 0.26
+      },
+      "position": "-0.500 0.520 -0.780"
+    },
+    {
+      "id": "w5l2",
+      "build": "glyph",
+      "params": {
+        "char": "O",
+        "height": 0.26
+      },
+      "position": "-0.220 0.520 -0.780"
+    },
+    {
+      "id": "w5",
+      "build": "glyph",
+      "params": {
+        "char": "NO",
+        "height": 0.3,
+        "card": "#fdf0d5"
+      },
+      "position": "0.400 0.520 -0.780"
+    },
+    {
+      "id": "w6l1",
+      "build": "glyph",
+      "params": {
+        "char": "W",
+        "height": 0.26
+      },
+      "position": "-0.500 0.520 -0.780"
+    },
+    {
+      "id": "w6l2",
+      "build": "glyph",
+      "params": {
+        "char": "E",
+        "height": 0.26
+      },
+      "position": "-0.220 0.520 -0.780"
+    },
+    {
+      "id": "w6",
+      "build": "glyph",
+      "params": {
+        "char": "WE",
+        "height": 0.3,
+        "card": "#fdf0d5"
+      },
+      "position": "0.400 0.520 -0.780"
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "w1l1",
+        "w1l2"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "देखो — I और N।",
+        "en": "Look: I and N."
+      }
+    },
+    {
+      "highlight": "w1",
+      "partner": "w1l1",
+      "show": [
+        "w1l1",
+        "w1l2",
+        "w1"
+      ],
+      "duration": 6500,
+      "script": {
+        "hi": "मिलकर बनता है IN — अंदर।",
+        "en": "Together they spell IN — in."
+      }
+    },
+    {
+      "show": [
+        "w2l1",
+        "w2l2"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "देखो — O और N।",
+        "en": "Look: O and N."
+      }
+    },
+    {
+      "highlight": "w2",
+      "partner": "w2l1",
+      "show": [
+        "w2l1",
+        "w2l2",
+        "w2"
+      ],
+      "duration": 6500,
+      "script": {
+        "hi": "मिलकर बनता है ON — ऊपर।",
+        "en": "Together they spell ON — on."
+      }
+    },
+    {
+      "show": [
+        "w3l1",
+        "w3l2"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "देखो — U और P।",
+        "en": "Look: U and P."
+      }
+    },
+    {
+      "highlight": "w3",
+      "partner": "w3l1",
+      "show": [
+        "w3l1",
+        "w3l2",
+        "w3"
+      ],
+      "duration": 6500,
+      "script": {
+        "hi": "मिलकर बनता है UP — ऊपर की ओर।",
+        "en": "Together they spell UP — up."
+      }
+    },
+    {
+      "show": [
+        "w4l1",
+        "w4l2"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "देखो — G और O।",
+        "en": "Look: G and O."
+      }
+    },
+    {
+      "highlight": "w4",
+      "partner": "w4l1",
+      "show": [
+        "w4l1",
+        "w4l2",
+        "w4"
+      ],
+      "duration": 6500,
+      "script": {
+        "hi": "मिलकर बनता है GO — जाओ।",
+        "en": "Together they spell GO — go."
+      }
+    },
+    {
+      "show": [
+        "w5l1",
+        "w5l2"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "देखो — N और O।",
+        "en": "Look: N and O."
+      }
+    },
+    {
+      "highlight": "w5",
+      "partner": "w5l1",
+      "show": [
+        "w5l1",
+        "w5l2",
+        "w5"
+      ],
+      "duration": 6500,
+      "script": {
+        "hi": "मिलकर बनता है NO — नहीं।",
+        "en": "Together they spell NO — no."
+      }
+    },
+    {
+      "show": [
+        "w6l1",
+        "w6l2"
+      ],
+      "duration": 5500,
+      "script": {
+        "hi": "देखो — W और E।",
+        "en": "Look: W and E."
+      }
+    },
+    {
+      "highlight": "w6",
+      "partner": "w6l1",
+      "show": [
+        "w6l1",
+        "w6l2",
+        "w6"
+      ],
+      "duration": 6500,
+      "script": {
+        "hi": "मिलकर बनता है WE — हम।",
+        "en": "Together they spell WE — we."
+      }
+    }
+  ]
+}

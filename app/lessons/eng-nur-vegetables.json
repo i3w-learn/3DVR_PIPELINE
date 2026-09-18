@@ -1,0 +1,235 @@
+{
+  "id": "eng-nur-vegetables",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "carrot",
+      "model": "carrot",
+      "position": "-0.600 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      }
+    },
+    {
+      "id": "tomato",
+      "model": "tomato",
+      "position": "-0.200 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "3.38 3.38 3.38",
+      "name": {
+        "en": "Tomato",
+        "hi": "टमाटर"
+      }
+    },
+    {
+      "id": "onion",
+      "model": "onion",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "3.38 3.38 3.38",
+      "name": {
+        "en": "Onion",
+        "hi": "प्याज़"
+      }
+    },
+    {
+      "id": "corn",
+      "model": "corn",
+      "position": "0.600 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Corn",
+        "hi": "भुट्टा"
+      }
+    },
+    {
+      "id": "cabbage",
+      "model": "cabbage",
+      "position": "-0.600 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "1.59 1.59 1.59",
+      "name": {
+        "en": "Cabbage",
+        "hi": "पत्तागोभी"
+      }
+    },
+    {
+      "id": "cauliflower",
+      "model": "cauliflower",
+      "position": "-0.200 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "1.59 1.59 1.59",
+      "name": {
+        "en": "Cauliflower",
+        "hi": "फूलगोभी"
+      }
+    },
+    {
+      "id": "brinjal",
+      "model": "brinjal",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Brinjal",
+        "hi": "बैंगन"
+      }
+    },
+    {
+      "id": "pumpkin",
+      "model": "pumpkin",
+      "position": "0.600 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "1.04 1.04 1.04",
+      "name": {
+        "en": "Pumpkin",
+        "hi": "कद्दू"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "carrot",
+        "tomato",
+        "onion",
+        "corn"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये सब्ज़ियाँ देखो।",
+        "en": "Look at these vegetables."
+      }
+    },
+    {
+      "highlight": "carrot",
+      "show": [
+        "carrot",
+        "tomato",
+        "onion",
+        "corn"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह गाजर है।",
+        "en": "This is a carrot."
+      }
+    },
+    {
+      "highlight": "tomato",
+      "show": [
+        "carrot",
+        "tomato",
+        "onion",
+        "corn"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह टमाटर है।",
+        "en": "This is a tomato."
+      }
+    },
+    {
+      "highlight": "onion",
+      "show": [
+        "carrot",
+        "tomato",
+        "onion",
+        "corn"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह प्याज़ है।",
+        "en": "This is an onion."
+      }
+    },
+    {
+      "highlight": "corn",
+      "show": [
+        "carrot",
+        "tomato",
+        "onion",
+        "corn"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह भुट्टा है।",
+        "en": "This is corn."
+      }
+    },
+    {
+      "show": [
+        "cabbage",
+        "cauliflower",
+        "brinjal",
+        "pumpkin"
+      ],
+      "duration": 5000,
+      "script": {
+        "hi": "ये सब्ज़ियाँ देखो।",
+        "en": "Look at these vegetables."
+      }
+    },
+    {
+      "highlight": "cabbage",
+      "show": [
+        "cabbage",
+        "cauliflower",
+        "brinjal",
+        "pumpkin"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह पत्तागोभी है।",
+        "en": "This is a cabbage."
+      }
+    },
+    {
+      "highlight": "cauliflower",
+      "show": [
+        "cabbage",
+        "cauliflower",
+        "brinjal",
+        "pumpkin"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह फूलगोभी है।",
+        "en": "This is a cauliflower."
+      }
+    },
+    {
+      "highlight": "brinjal",
+      "show": [
+        "cabbage",
+        "cauliflower",
+        "brinjal",
+        "pumpkin"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह बैंगन है।",
+        "en": "This is a brinjal."
+      }
+    },
+    {
+      "highlight": "pumpkin",
+      "show": [
+        "cabbage",
+        "cauliflower",
+        "brinjal",
+        "pumpkin"
+      ],
+      "duration": 6000,
+      "script": {
+        "hi": "यह कद्दू है।",
+        "en": "This is a pumpkin."
+      }
+    }
+  ]
+}

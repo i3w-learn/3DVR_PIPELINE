@@ -1,0 +1,103 @@
+{
+  "id": "eng-lkg-hot-cold",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "tea",
+      "model": "teacup",
+      "position": "-0.500 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "3.38 3.38 3.38",
+      "name": {
+        "en": "Hot",
+        "hi": "गरम"
+      }
+    },
+    {
+      "id": "ice",
+      "model": "icecream",
+      "position": "-0.170 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "1.69 1.69 1.69",
+      "name": {
+        "en": "Cold",
+        "hi": "ठंडा"
+      }
+    },
+    {
+      "id": "hotpot",
+      "model": "pot",
+      "position": "0.200 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "1.13 1.13 1.13",
+      "name": {
+        "en": "Hot",
+        "hi": "गरम"
+      }
+    },
+    {
+      "id": "lolly",
+      "model": "popsicle",
+      "position": "0.550 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "1.93 1.93 1.93",
+      "name": {
+        "en": "Cold",
+        "hi": "ठंडा"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "tea",
+        "ice"
+      ],
+      "highlight": "tea",
+      "duration": 6500,
+      "script": {
+        "hi": "चाय गरम है। ध्यान से!",
+        "en": "Tea is hot. Careful!"
+      }
+    },
+    {
+      "show": [
+        "tea",
+        "ice"
+      ],
+      "highlight": "ice",
+      "against": "tea",
+      "duration": 7000,
+      "script": {
+        "hi": "आइसक्रीम ठंडी है।",
+        "en": "Ice cream is cold."
+      }
+    },
+    {
+      "show": [
+        "hotpot",
+        "lolly"
+      ],
+      "highlight": "hotpot",
+      "duration": 6500,
+      "script": {
+        "hi": "चूल्हे से उतरा बर्तन गरम है।",
+        "en": "A pot off the stove is hot."
+      }
+    },
+    {
+      "show": [
+        "hotpot",
+        "lolly"
+      ],
+      "highlight": "lolly",
+      "against": "hotpot",
+      "duration": 7000,
+      "script": {
+        "hi": "बर्फ़ की कुल्फ़ी ठंडी है।",
+        "en": "An ice lolly is cold."
+      }
+    }
+  ]
+}

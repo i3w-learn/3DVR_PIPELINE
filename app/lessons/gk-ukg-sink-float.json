@@ -1,0 +1,122 @@
+{
+  "id": "gk-ukg-sink-float",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "tub",
+      "build": "tub",
+      "params": {
+        "radius": 0.46,
+        "height": 0.24,
+        "opacity": 0.4
+      },
+      "position": "0.000 0.520 -0.850"
+    },
+    {
+      "id": "apple",
+      "model": "apple",
+      "position": "0.000 0.631 -0.850",
+      "ring": 0.13,
+      "scale": "2.0 2.0 2.0",
+      "name": {
+        "en": "Floats",
+        "hi": "तैरता है"
+      }
+    },
+    {
+      "id": "egg",
+      "model": "egg",
+      "position": "0.000 0.550 -0.850",
+      "ring": 0.086,
+      "scale": "2.0 2.0 2.0",
+      "name": {
+        "en": "Sinks",
+        "hi": "डूबता है"
+      }
+    },
+    {
+      "id": "coconut",
+      "model": "coconut",
+      "position": "0.000 0.595 -0.850",
+      "ring": 0.187,
+      "scale": "2.0 2.0 2.0",
+      "name": {
+        "en": "Floats",
+        "hi": "तैरता है"
+      }
+    },
+    {
+      "id": "spoon",
+      "model": "spoon",
+      "position": "0.000 0.550 -0.850",
+      "ring": 0.23,
+      "scale": "2.0 2.0 2.0",
+      "name": {
+        "en": "Sinks",
+        "hi": "डूबता है"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "tub"
+      ],
+      "highlight": "tub",
+      "duration": 6500,
+      "script": {
+        "hi": "यह पानी का टब है। देखें क्या तैरता है, क्या डूबता है।",
+        "en": "This is a tub of water. Let us see what floats and what sinks."
+      }
+    },
+    {
+      "show": [
+        "tub",
+        "apple"
+      ],
+      "highlight": "apple",
+      "duration": 7500,
+      "script": {
+        "hi": "सेब तैरता है — पानी के ऊपर रहता है।",
+        "en": "The apple floats — it stays on top of the water."
+      }
+    },
+    {
+      "show": [
+        "tub",
+        "egg"
+      ],
+      "highlight": "egg",
+      "duration": 7500,
+      "script": {
+        "hi": "अंडा डूब जाता है — नीचे बैठ जाता है।",
+        "en": "The egg sinks — it goes to the bottom."
+      }
+    },
+    {
+      "show": [
+        "tub",
+        "coconut"
+      ],
+      "highlight": "coconut",
+      "duration": 7500,
+      "script": {
+        "hi": "नारियल तैरता है — पानी के ऊपर रहता है।",
+        "en": "The coconut floats — it stays on top of the water."
+      }
+    },
+    {
+      "show": [
+        "tub",
+        "spoon"
+      ],
+      "highlight": "spoon",
+      "duration": 7500,
+      "script": {
+        "hi": "चम्मच डूब जाता है — नीचे बैठ जाता है।",
+        "en": "The spoon sinks — it goes to the bottom."
+      }
+    }
+  ]
+}

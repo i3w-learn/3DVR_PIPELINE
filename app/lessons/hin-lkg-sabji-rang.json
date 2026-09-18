@@ -1,0 +1,254 @@
+{
+  "id": "hin-lkg-sabji-rang",
+  "template": "match",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "tomato",
+      "model": "tomato",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "3.38 3.38 3.38",
+      "name": {
+        "en": "Tomato",
+        "hi": "टमाटर"
+      }
+    },
+    {
+      "id": "ctomato",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#d9362b",
+        "size": 0.22
+      },
+      "position": "0.300 0.520 -0.780",
+      "name": {
+        "en": "Red",
+        "hi": "लाल"
+      }
+    },
+    {
+      "id": "carrot",
+      "model": "carrot",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      }
+    },
+    {
+      "id": "ccarrot",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#ef7d1a",
+        "size": 0.22
+      },
+      "position": "0.300 0.520 -0.780",
+      "name": {
+        "en": "Orange",
+        "hi": "नारंगी"
+      }
+    },
+    {
+      "id": "brinjal",
+      "model": "brinjal",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Brinjal",
+        "hi": "बैंगन"
+      }
+    },
+    {
+      "id": "cbrinjal",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#7a3fa0",
+        "size": 0.22
+      },
+      "position": "0.300 0.520 -0.780",
+      "name": {
+        "en": "Purple",
+        "hi": "बैंगनी"
+      }
+    },
+    {
+      "id": "corn",
+      "model": "corn",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.194,
+      "scale": "1.35 1.35 1.35",
+      "name": {
+        "en": "Corn",
+        "hi": "भुट्टा"
+      }
+    },
+    {
+      "id": "ccorn",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#f0c52e",
+        "size": 0.22
+      },
+      "position": "0.300 0.520 -0.780",
+      "name": {
+        "en": "Yellow",
+        "hi": "पीला"
+      }
+    },
+    {
+      "id": "cabbage",
+      "model": "cabbage",
+      "position": "-0.300 0.520 -0.780",
+      "ring": 0.195,
+      "scale": "1.59 1.59 1.59",
+      "name": {
+        "en": "Cabbage",
+        "hi": "पत्तागोभी"
+      }
+    },
+    {
+      "id": "ccabbage",
+      "build": "counter",
+      "params": {
+        "shape": "block",
+        "color": "#3f9a4a",
+        "size": 0.22
+      },
+      "position": "0.300 0.520 -0.780",
+      "name": {
+        "en": "Green",
+        "hi": "हरा"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "tomato"
+      ],
+      "highlight": "tomato",
+      "duration": 6000,
+      "script": {
+        "hi": "यह टमाटर है।",
+        "en": "This is a tomato."
+      }
+    },
+    {
+      "show": [
+        "tomato",
+        "ctomato"
+      ],
+      "highlight": "ctomato",
+      "partner": "tomato",
+      "duration": 7000,
+      "script": {
+        "hi": "टमाटर का रंग लाल है।",
+        "en": "A tomato is red."
+      }
+    },
+    {
+      "show": [
+        "carrot"
+      ],
+      "highlight": "carrot",
+      "duration": 6000,
+      "script": {
+        "hi": "यह गाजर है।",
+        "en": "This is a carrot."
+      }
+    },
+    {
+      "show": [
+        "carrot",
+        "ccarrot"
+      ],
+      "highlight": "ccarrot",
+      "partner": "carrot",
+      "duration": 7000,
+      "script": {
+        "hi": "गाजर का रंग नारंगी है।",
+        "en": "A carrot is orange."
+      }
+    },
+    {
+      "show": [
+        "brinjal"
+      ],
+      "highlight": "brinjal",
+      "duration": 6000,
+      "script": {
+        "hi": "यह बैंगन है।",
+        "en": "This is a brinjal."
+      }
+    },
+    {
+      "show": [
+        "brinjal",
+        "cbrinjal"
+      ],
+      "highlight": "cbrinjal",
+      "partner": "brinjal",
+      "duration": 7000,
+      "script": {
+        "hi": "बैंगन का रंग बैंगनी है।",
+        "en": "A brinjal is purple."
+      }
+    },
+    {
+      "show": [
+        "corn"
+      ],
+      "highlight": "corn",
+      "duration": 6000,
+      "script": {
+        "hi": "यह भुट्टा है।",
+        "en": "This is a corn."
+      }
+    },
+    {
+      "show": [
+        "corn",
+        "ccorn"
+      ],
+      "highlight": "ccorn",
+      "partner": "corn",
+      "duration": 7000,
+      "script": {
+        "hi": "भुट्टा का रंग पीला है।",
+        "en": "A corn is yellow."
+      }
+    },
+    {
+      "show": [
+        "cabbage"
+      ],
+      "highlight": "cabbage",
+      "duration": 6000,
+      "script": {
+        "hi": "यह पत्तागोभी है।",
+        "en": "This is a cabbage."
+      }
+    },
+    {
+      "show": [
+        "cabbage",
+        "ccabbage"
+      ],
+      "highlight": "ccabbage",
+      "partner": "cabbage",
+      "duration": 7000,
+      "script": {
+        "hi": "पत्तागोभी का रंग हरा है।",
+        "en": "A cabbage is green."
+      }
+    }
+  ]
+}

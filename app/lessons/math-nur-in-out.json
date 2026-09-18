@@ -1,0 +1,56 @@
+{
+  "id": "math-nur-in-out",
+  "template": "compare",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "pot",
+      "model": "pot",
+      "position": "-0.280 0.520 -0.780",
+      "ring": 0.311,
+      "scale": "1.8 1.8 1.8"
+    },
+    {
+      "id": "inside",
+      "model": "apple",
+      "position": "-0.280 0.570 -0.780",
+      "ring": 0.117,
+      "scale": "1.8 1.8 1.8",
+      "name": {
+        "en": "In",
+        "hi": "अंदर"
+      }
+    },
+    {
+      "id": "outside",
+      "model": "apple",
+      "position": "0.300 0.520 -0.780",
+      "ring": 0.117,
+      "scale": "1.8 1.8 1.8",
+      "name": {
+        "en": "Out",
+        "hi": "बाहर"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "highlight": "inside",
+      "against": "pot",
+      "duration": 7000,
+      "script": {
+        "hi": "यह सेब बर्तन के अंदर है।",
+        "en": "This apple is IN the pot."
+      }
+    },
+    {
+      "highlight": "outside",
+      "against": "inside",
+      "duration": 7000,
+      "script": {
+        "hi": "यह सेब बाहर है।",
+        "en": "This apple is OUT."
+      }
+    }
+  ]
+}
