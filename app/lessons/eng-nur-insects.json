@@ -8,8 +8,8 @@
       "model": "ant",
       "position": "-0.540 0.520 -0.750",
       "scale": "2.700 2.700 2.700",
-      "ring": 0.2,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Ant",
         "hi": "चींटी"
@@ -20,7 +20,7 @@
       "model": "bee",
       "position": "-0.180 0.520 -0.750",
       "scale": "2.700 2.700 2.700",
-      "ring": 0.227,
+      "ring": 0.157,
       "rotation": "0 40 0",
       "name": {
         "en": "Bee",
@@ -32,7 +32,7 @@
       "model": "butterfly",
       "position": "0.180 0.520 -0.750",
       "scale": "2.250 2.250 2.250",
-      "ring": 0.223,
+      "ring": 0.157,
       "rotation": "0 40 0",
       "name": {
         "en": "Butterfly",
@@ -44,8 +44,8 @@
       "model": "ladybug",
       "position": "0.540 0.520 -0.750",
       "scale": "3.375 3.375 3.375",
-      "ring": 0.199,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Ladybird",
         "hi": "लेडीबग"
@@ -56,7 +56,7 @@
       "model": "dragonfly",
       "position": "-0.360 0.520 -0.750",
       "scale": "2.250 2.250 2.250",
-      "ring": 0.209,
+      "ring": 0.157,
       "rotation": "0 40 0",
       "name": {
         "en": "Dragonfly",
@@ -68,8 +68,8 @@
       "model": "grasshopper",
       "position": "0.000 0.520 -0.750",
       "scale": "2.700 2.700 2.700",
-      "ring": 0.182,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Grasshopper",
         "hi": "टिड्डा"
@@ -80,8 +80,8 @@
       "model": "housefly",
       "position": "0.360 0.520 -0.750",
       "scale": "3.375 3.375 3.375",
-      "ring": 0.199,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Housefly",
         "hi": "मक्खी"

@@ -23,7 +23,7 @@
       "model": "stethoscope",
       "position": "-2.200 0.000 0.600",
       "scale": "1.600 1.600 1.600",
-      "ring": 0.496,
+      "ring": 0.464,
       "rotation": "0 90 0",
       "name": {
         "en": "Stethoscope",
@@ -50,7 +50,7 @@
       "model": "book",
       "position": "-0.700 0.000 0.300",
       "scale": "2.143 2.143 2.143",
-      "ring": 0.31,
+      "ring": 0.29,
       "name": {
         "en": "Book",
         "hi": "किताब"
@@ -76,7 +76,7 @@
       "model": "envelope",
       "position": "0.800 0.000 0.500",
       "scale": "3.333 3.333 3.333",
-      "ring": 0.496,
+      "ring": 0.464,
       "rotation": "0 90 0",
       "name": {
         "en": "Letter",

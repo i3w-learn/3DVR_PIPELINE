@@ -20,7 +20,7 @@
       "model": "grass",
       "position": "-2.200 0.000 -4.400",
       "scale": "1.600 1.600 1.600",
-      "ring": 0.274,
+      "ring": 0.256,
       "name": {
         "en": "Grass",
         "hi": "घास"
@@ -43,7 +43,7 @@
       "model": "corn",
       "position": "-0.900 0.000 -3.100",
       "scale": "2.100 2.100 2.100",
-      "ring": 0.26,
+      "ring": 0.244,
       "name": {
         "en": "Grain",
         "hi": "दाना"
@@ -65,7 +65,7 @@
       "model": "bone",
       "position": "0.300 0.000 -3.200",
       "scale": "1.800 1.800 1.800",
-      "ring": 0.279,
+      "ring": 0.261,
       "name": {
         "en": "Bone",
         "hi": "हड्डी"
@@ -88,7 +88,7 @@
       "model": "bowl",
       "position": "1.500 0.000 -3.000",
       "scale": "2.667 2.667 2.667",
-      "ring": 0.248,
+      "ring": 0.232,
       "name": {
         "en": "Milk",
         "hi": "दूध"
@@ -111,7 +111,7 @@
       "model": "banana",
       "position": "2.900 0.000 -3.600",
       "scale": "2.632 2.632 2.632",
-      "ring": 0.31,
+      "ring": 0.29,
       "rotation": "0 90 0",
       "name": {
         "en": "Banana",

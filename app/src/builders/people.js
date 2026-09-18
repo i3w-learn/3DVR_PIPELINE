@@ -33,6 +33,7 @@ const ROLES = {
   soldier: { top: '#5c6b3e', bottom: '#5c6b3e', hat: 'beret', hatColor: '#7a2f2f', belt: true },
   driver: { top: '#e9ecef', bottom: '#2f3a4a', hat: 'peak', hatColor: '#2f3a4a' },
   chef: { top: '#f5f7f8', bottom: '#3a3f48', hat: 'toque', hatColor: '#f5f7f8' },
+  queen: { top: '#7a3fa0', bottom: '#7a3fa0', saree: '#e2b33c', hair: 'bun', hat: 'crown', hatColor: '#e9b92f' },
   pilot: { top: '#22324f', bottom: '#22324f', hat: 'peak', hatColor: '#f1f3f5', belt: true },
 };
 
@@ -166,6 +167,13 @@ function figure({ height: h, role, skin, pose }) {
   } else if (hat === 'toque') {
     put('hat', { geometry: new THREE.CylinderGeometry(R * 0.78, R * 0.74, R * 0.9, 14), matrix: place(0, headY + R * 1.2, 0), color: hc, shade: [0.86, 1.04] });
     ball('hat', 1, 0, headY + R * 1.75, 0, hc, { sx: R * 0.98, sy: R * 0.5, sz: R * 0.98 }, [0.88, 1.04]);
+  } else if (hat === 'crown') {
+    put('hat', { geometry: new THREE.CylinderGeometry(R * 0.7, R * 0.62, R * 0.32, 14, 1, true), matrix: place(0, headY + R * 0.95, 0), color: hc, shade: [0.85, 1.1] });
+    for (let i = 0; i < 7; i += 1) {
+      const a = (i / 7) * Math.PI * 2;
+      put('hat', { geometry: new THREE.ConeGeometry(R * 0.13, R * 0.36, 4), matrix: place(Math.sin(a) * R * 0.68, headY + R * 1.27, Math.cos(a) * R * 0.68), color: hc, shade: [0.9, 1.12] });
+    }
+    ball('hat', R * 0.09, 0, headY + R * 0.97, R * 0.68, '#d9362b', {}, [1, 1]);
   } else if (hat === 'nursecap') {
     put('hat', { geometry: new THREE.BoxGeometry(R * 1.2, R * 0.42, R * 0.5), matrix: place(0, headY + R * 0.98, R * 0.1), color: '#f8fafb' });
     put('hat', { geometry: new THREE.BoxGeometry(R * 0.3, R * 0.09, 0.01), matrix: place(0, headY + R * 0.98, R * 0.36), color: '#d9362b' });

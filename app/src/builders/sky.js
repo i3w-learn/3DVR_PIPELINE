@@ -100,12 +100,16 @@ AFRAME.registerComponent('cloud', {
     });
 
     if (rain) {
+      // In proportion to the cloud, so a rain cloud the size of a hand over a
+      // table rains onto the table and not through it. At the 13 m the sky
+      // lessons use, these are the same half-metre streaks as before.
+      const u = width / 13, thick = Math.max(0.004, 0.04 * u);
       for (let i = 0; i < 34; i += 1) {
-        const drop = 0.5 + random() * 0.9;
+        const drop = (0.5 + random() * 0.9) * u;
         parts.push({
-          geometry: new THREE.BoxGeometry(0.04, drop, 0.04),
-          matrix: place((random() - 0.5) * width * 0.8, -1.2 - random() * 3.4, (random() - 0.5) * width * 0.3),
-          color: '#a8cfe4',
+          geometry: new THREE.BoxGeometry(thick, drop, thick),
+          matrix: place((random() - 0.5) * width * 0.8, (-1.2 - random() * 3.4) * u, (random() - 0.5) * width * 0.3),
+          color: width < 2 ? '#5fa8d8' : '#a8cfe4',
         });
       }
     }

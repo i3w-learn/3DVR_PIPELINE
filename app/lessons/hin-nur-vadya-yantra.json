@@ -1,0 +1,229 @@
+{
+  "id": "hin-nur-vadya-yantra",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "tabla",
+      "build": "tabla",
+      "params": {
+        "size": 0.23
+      },
+      "position": "-0.555 0.520 -0.780",
+      "name": {
+        "en": "Tabla",
+        "hi": "तबला"
+      }
+    },
+    {
+      "id": "dholak",
+      "build": "dholak",
+      "params": {
+        "size": 0.3
+      },
+      "position": "-0.185 0.520 -0.780",
+      "name": {
+        "en": "Dholak",
+        "hi": "ढोलक"
+      }
+    },
+    {
+      "id": "harmonium",
+      "build": "harmonium",
+      "params": {
+        "size": 0.3
+      },
+      "position": "0.185 0.520 -0.780",
+      "name": {
+        "en": "Harmonium",
+        "hi": "हारमोनियम"
+      }
+    },
+    {
+      "id": "flute",
+      "model": "flute",
+      "position": "0.555 0.520 -0.780",
+      "scale": "0.567 0.567 0.567",
+      "ring": 0.197,
+      "rotation": "0 20 0",
+      "name": {
+        "en": "Flute",
+        "hi": "बाँसुरी"
+      }
+    },
+    {
+      "id": "guitar",
+      "model": "guitar",
+      "position": "-0.555 0.520 -0.780",
+      "scale": "0.360 0.360 0.360",
+      "ring": 0.209,
+      "rotation": "0 70 0",
+      "name": {
+        "en": "Guitar",
+        "hi": "गिटार"
+      }
+    },
+    {
+      "id": "drum",
+      "model": "drum",
+      "position": "-0.185 0.520 -0.780",
+      "scale": "0.650 0.650 0.650",
+      "ring": 0.151,
+      "name": {
+        "en": "Drum",
+        "hi": "ढोल"
+      }
+    },
+    {
+      "id": "trumpet",
+      "model": "trumpet",
+      "position": "0.185 0.520 -0.780",
+      "scale": "0.618 0.618 0.618",
+      "ring": 0.197,
+      "rotation": "0 20 0",
+      "name": {
+        "en": "Trumpet",
+        "hi": "तुरही"
+      }
+    },
+    {
+      "id": "violin",
+      "model": "violin",
+      "position": "0.555 0.520 -0.780",
+      "scale": "0.567 0.567 0.567",
+      "ring": 0.197,
+      "rotation": "0 20 0",
+      "name": {
+        "en": "Violin",
+        "hi": "वायलिन"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "tabla",
+        "dholak",
+        "harmonium",
+        "flute"
+      ],
+      "duration": 8000,
+      "script": {
+        "hi": "ये संगीत के वाद्य यंत्र हैं। इनसे मधुर संगीत निकलता है।",
+        "en": "These are musical instruments. They make sweet music."
+      }
+    },
+    {
+      "highlight": "tabla",
+      "show": [
+        "tabla",
+        "dholak",
+        "harmonium",
+        "flute"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह तबला है। इसे हाथों से बजाते हैं।",
+        "en": "This is the tabla. It is played with the hands."
+      }
+    },
+    {
+      "highlight": "dholak",
+      "show": [
+        "tabla",
+        "dholak",
+        "harmonium",
+        "flute"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह ढोलक है। इसे दोनों तरफ़ से बजाते हैं।",
+        "en": "This is the dholak. It is played on both sides."
+      }
+    },
+    {
+      "highlight": "harmonium",
+      "show": [
+        "tabla",
+        "dholak",
+        "harmonium",
+        "flute"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह हारमोनियम है।",
+        "en": "This is the harmonium."
+      }
+    },
+    {
+      "highlight": "flute",
+      "show": [
+        "tabla",
+        "dholak",
+        "harmonium",
+        "flute"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह बाँसुरी है। इसमें फूँक मारकर बजाते हैं।",
+        "en": "This is the flute. We blow into it to play."
+      }
+    },
+    {
+      "highlight": "guitar",
+      "show": [
+        "guitar",
+        "drum",
+        "trumpet",
+        "violin"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह गिटार है। इसके तार छेड़कर बजाते हैं।",
+        "en": "This is the guitar. We pluck its strings."
+      }
+    },
+    {
+      "highlight": "drum",
+      "show": [
+        "guitar",
+        "drum",
+        "trumpet",
+        "violin"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह ढोल है। इसे डंडियों से बजाते हैं।",
+        "en": "This is the drum. It is played with sticks."
+      }
+    },
+    {
+      "highlight": "trumpet",
+      "show": [
+        "guitar",
+        "drum",
+        "trumpet",
+        "violin"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह तुरही है।",
+        "en": "This is the trumpet."
+      }
+    },
+    {
+      "highlight": "violin",
+      "show": [
+        "guitar",
+        "drum",
+        "trumpet",
+        "violin"
+      ],
+      "duration": 7500,
+      "script": {
+        "hi": "यह वायलिन है।",
+        "en": "This is the violin."
+      }
+    }
+  ]
+}

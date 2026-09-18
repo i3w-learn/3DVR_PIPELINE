@@ -1,0 +1,141 @@
+{
+  "id": "evs-nur-good-habits",
+  "template": "identify",
+  "stage": "tabletop",
+  "objects": [
+    {
+      "id": "toothbrush",
+      "model": "toothbrush",
+      "position": "-0.550 0.520 -0.780",
+      "scale": "1.579 1.579 1.579",
+      "ring": 0.174,
+      "rotation": "0 60 0",
+      "name": {
+        "en": "Toothbrush",
+        "hi": "टूथब्रश"
+      }
+    },
+    {
+      "id": "soap",
+      "model": "soap",
+      "position": "-0.270 0.520 -0.780",
+      "scale": "2.200 2.200 2.200",
+      "ring": 0.128,
+      "rotation": "0 20 0",
+      "name": {
+        "en": "Soap",
+        "hi": "साबुन"
+      }
+    },
+    {
+      "id": "towel",
+      "model": "towel",
+      "position": "0.020 0.520 -0.780",
+      "scale": "0.675 0.675 0.675",
+      "ring": 0.157,
+      "rotation": "0 20 0",
+      "name": {
+        "en": "Towel",
+        "hi": "तौलिया"
+      }
+    },
+    {
+      "id": "comb",
+      "model": "comb",
+      "position": "0.300 0.520 -0.780",
+      "scale": "1.875 1.875 1.875",
+      "ring": 0.174,
+      "rotation": "0 60 0",
+      "name": {
+        "en": "Comb",
+        "hi": "कंघी"
+      }
+    },
+    {
+      "id": "apple",
+      "model": "apple",
+      "position": "0.520 0.520 -0.660",
+      "scale": "2.151 2.151 2.151",
+      "ring": 0.116,
+      "name": {
+        "en": "Fruit",
+        "hi": "फल"
+      }
+    },
+    {
+      "id": "milk",
+      "model": "milkbottle",
+      "position": "0.620 0.520 -0.920",
+      "scale": "1.071 1.071 1.071",
+      "ring": 0.063,
+      "name": {
+        "en": "Milk",
+        "hi": "दूध"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "hi": "अच्छी आदतें हमें स्वस्थ और ख़ुश रखती हैं।",
+        "en": "Good habits keep us healthy and happy."
+      }
+    },
+    {
+      "highlight": "toothbrush",
+      "duration": 8000,
+      "script": {
+        "hi": "हम रोज़ सुबह और रात को दाँत साफ़ करते हैं।",
+        "en": "We brush our teeth every morning and every night."
+      }
+    },
+    {
+      "highlight": "soap",
+      "duration": 8000,
+      "script": {
+        "hi": "खाने से पहले और शौच के बाद हम साबुन से हाथ धोते हैं।",
+        "en": "We wash our hands with soap before we eat and after the toilet."
+      }
+    },
+    {
+      "highlight": "towel",
+      "duration": 8000,
+      "script": {
+        "hi": "हम रोज़ नहाते हैं और तौलिये से बदन पोंछते हैं।",
+        "en": "We take a bath every day and dry ourselves with a towel."
+      }
+    },
+    {
+      "highlight": "comb",
+      "duration": 8000,
+      "script": {
+        "hi": "हम अपने बालों में कंघी करते हैं।",
+        "en": "We comb our hair."
+      }
+    },
+    {
+      "highlight": "apple",
+      "duration": 8000,
+      "script": {
+        "hi": "हम फल और सब्ज़ियाँ खाते हैं…",
+        "en": "We eat fruit and vegetables…"
+      }
+    },
+    {
+      "highlight": "milk",
+      "duration": 8000,
+      "script": {
+        "hi": "…और दूध पीते हैं।",
+        "en": "…and we drink our milk."
+      }
+    },
+    {
+      "duration": 9000,
+      "script": {
+        "hi": "हम बड़ों को नमस्ते कहते हैं, और कहते हैं — कृपया, और धन्यवाद।",
+        "en": "We greet our elders, and we say — please, and thank you."
+      }
+    }
+  ]
+}

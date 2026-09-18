@@ -50,8 +50,8 @@
       "model": "car",
       "position": "0.000 0.520 -0.560",
       "scale": "0.071 0.071 0.071",
-      "ring": 0.208,
-      "rotation": "0 40 0",
+      "ring": 0.174,
+      "rotation": "0 50 0",
       "name": {
         "en": "Car",
         "hi": "कार"
@@ -62,8 +62,8 @@
       "model": "boat",
       "position": "0.000 0.520 -0.560",
       "scale": "0.075 0.075 0.075",
-      "ring": 0.209,
-      "rotation": "0 40 0",
+      "ring": 0.174,
+      "rotation": "0 50 0",
       "name": {
         "en": "Boat",
         "hi": "नाव"
@@ -74,7 +74,7 @@
       "model": "airplane",
       "position": "0.000 0.520 -0.560",
       "scale": "0.021 0.021 0.021",
-      "ring": 0.255,
+      "ring": 0.174,
       "rotation": "0 40 0",
       "name": {
         "en": "Aeroplane",
@@ -86,8 +86,8 @@
       "model": "bus",
       "position": "0.000 0.520 -0.560",
       "scale": "0.033 0.033 0.033",
-      "ring": 0.21,
-      "rotation": "0 40 0",
+      "ring": 0.174,
+      "rotation": "0 50 0",
       "name": {
         "en": "Bus",
         "hi": "बस"
@@ -98,7 +98,7 @@
       "model": "helicopter",
       "position": "0.000 0.520 -0.560",
       "scale": "0.033 0.033 0.033",
-      "ring": 0.229,
+      "ring": 0.174,
       "rotation": "0 40 0",
       "name": {
         "en": "Helicopter",
@@ -110,8 +110,8 @@
       "model": "ship",
       "position": "0.000 0.520 -0.560",
       "scale": "0.015 0.015 0.015",
-      "ring": 0.191,
-      "rotation": "0 40 0",
+      "ring": 0.174,
+      "rotation": "0 50 0",
       "name": {
         "en": "Ship",
         "hi": "जहाज़"

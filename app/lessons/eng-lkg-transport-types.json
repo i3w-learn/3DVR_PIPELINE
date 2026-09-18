@@ -105,8 +105,8 @@
       "model": "car",
       "position": "-0.600 0.534 -0.740",
       "scale": "0.064 0.064 0.064",
-      "ring": 0.187,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Car",
         "hi": "कार"
@@ -117,8 +117,8 @@
       "model": "bus",
       "position": "-0.300 0.534 -0.740",
       "scale": "0.030 0.030 0.030",
-      "ring": 0.189,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Bus",
         "hi": "बस"
@@ -129,8 +129,8 @@
       "model": "bicycle",
       "position": "0.000 0.534 -0.740",
       "scale": "0.159 0.159 0.159",
-      "ring": 0.174,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Bicycle",
         "hi": "साइकिल"
@@ -141,8 +141,8 @@
       "model": "train",
       "position": "0.300 0.534 -0.740",
       "scale": "0.034 0.034 0.034",
-      "ring": 0.173,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Train",
         "hi": "रेलगाड़ी"
@@ -153,8 +153,8 @@
       "model": "boat",
       "position": "-0.360 0.534 -0.740",
       "scale": "0.068 0.068 0.068",
-      "ring": 0.189,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Boat",
         "hi": "नाव"
@@ -165,8 +165,8 @@
       "model": "ship",
       "position": "0.000 0.534 -0.740",
       "scale": "0.014 0.014 0.014",
-      "ring": 0.171,
-      "rotation": "0 40 0",
+      "ring": 0.157,
+      "rotation": "0 50 0",
       "name": {
         "en": "Ship",
         "hi": "जहाज़"
@@ -177,7 +177,7 @@
       "model": "sailboat",
       "position": "0.360 0.534 -0.740",
       "scale": "0.045 0.045 0.045",
-      "ring": 0.152,
+      "ring": 0.128,
       "rotation": "0 40 0",
       "name": {
         "en": "Sailboat",
@@ -189,7 +189,7 @@
       "model": "airplane",
       "position": "-0.360 0.720 -0.740",
       "scale": "0.019 0.019 0.019",
-      "ring": 0.229,
+      "ring": 0.157,
       "rotation": "0 40 0",
       "name": {
         "en": "Aeroplane",
@@ -201,7 +201,7 @@
       "model": "helicopter",
       "position": "0.000 0.720 -0.740",
       "scale": "0.030 0.030 0.030",
-      "ring": 0.206,
+      "ring": 0.157,
       "rotation": "0 40 0",
       "name": {
         "en": "Helicopter",
@@ -213,7 +213,7 @@
       "model": "rocket",
       "position": "0.360 0.720 -0.740",
       "scale": "0.034 0.034 0.034",
-      "ring": 0.101,
+      "ring": 0.068,
       "rotation": "0 40 0",
       "name": {
         "en": "Rocket",
