@@ -79,6 +79,7 @@ Their authors must be credited wherever this application is distributed.
 - **policecar** — Poly Pizza — "Police car" by Poly by Google
 - **puppy** — Poly Pizza — "Puppy" by Poly by Google
 - **racket** — Poly Pizza — "Tennis racket" by Poly by Google
+- **realapatosaurus** — Sketchfab — "Apatosaurus" by toro ardido modelos 3d
 - **realbamboo** — Sketchfab — "bamboo" by evolveduk
 - **realbear** — Sketchfab — "Realistic Animated Bear 3D Model" by WildMesh 3D
 - **realbee** — Sketchfab — "Bee" by 7SkyArtist
@@ -94,16 +95,22 @@ Their authors must be credited wherever this application is distributed.
 - **realdonkey** — Sketchfab — "Realistic Animated Donkey 3D Model" by WildMesh 3D
 - **realduck** — Sketchfab — "Duck_Walk (Free)" by Nyilonelycompany
 - **realelephant** — Sketchfab — "African Elephant"
+- **realfern** — Sketchfab — "fern grass 02" by POLYSCAN
 - **realfox** — Sketchfab — "Animated Fox 3D Model" by AnimalMesh 3D
 - **realgiraffe** — Sketchfab — "Giraffe" by BlueMesh
 - **realgoat** — Sketchfab — "Animated Realistic Goat – 3D Animal Model" by AnimalMesh 3D
 - **realgrass** — Sketchfab — "Realistics grass 06" by POLYSCAN
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
 - **realhorse** — Sketchfab — "Horse" (28 clips)
+- **realjungletree** — Sketchfab — "Tree GN" by Node_λrt
+- **realkangaroo** — Sketchfab — "Kangaroo" by pergamond
+- **reallion** — Sketchfab — "realistic Lion 3d model" by Tarun.Teja
 - **reallotus** — Sketchfab — "lotus water lily" by mycmware
 - **realmangotree** — Sketchfab — "Mang Tree-01" by ASMA3D
+- **realoak** — Sketchfab — "Oak tree" by massive-graphisme
 - **realpalm** — Sketchfab — "Palm Tree Realistic" by 00amza
 - **realpalms** — Sketchfab — "Coconut Palm" by evolveduk
+- **realparasaur** — Sketchfab — "Parasaurolophus" by kenchoo
 - **realpigeon** — Sketchfab — "Animated Pigeon – 3D Animal Model" by AnimalMesh 3D
 - **realpuppy** — Sketchfab — "Dog Puppy" by kenchoo
 - **realrabbit** — Sketchfab — "Animated Rabbit – 3D Animal Model" by AnimalMesh 3D
@@ -111,7 +118,10 @@ Their authors must be credited wherever this application is distributed.
 - **realrocks** — Sketchfab — "Lowpoly Rocks - Free Download" by Loïc Norgeot
 - **realsheep** — Sketchfab — "Sheep" by kenchoo
 - **realsparrow** — Sketchfab — "Animated Sparrow – 3D Animal Model" by AnimalMesh 3D
+- **realstegosaurus** — Sketchfab — "PBR Stegasaurus (Animated)" by Ferocious Industries
 - **realtiger** — Sketchfab — "Tiger" by Blender Artist
+- **realtrex** — Sketchfab — "Animated Tyrannosaurus Rex Dinosaur Running Loop" by LasquetiSpice
+- **realtriceratops** — Sketchfab — "Triceratop" by kenchoo
 - **realzebra** — Sketchfab — "Zebra - Rigged" by Noa Seller
 - **rhino** — Poly Pizza — "Rhinoceros" by Poly by Google
 - **rocket** — Poly Pizza — "Rocket ship" by Poly by Google

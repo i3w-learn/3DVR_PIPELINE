@@ -137,7 +137,10 @@ AFRAME.registerComponent('glyph', {
       this.el.appendChild(back);
     }
 
-    const front = bare ? 0 : 0.009;
+    // Just proud of the card's face. A name card over a dinosaur thirty metres
+    // off is two metres tall, and one millimetre of clearance at that range is
+    // less than the depth buffer can tell apart — the word sank into the card.
+    const front = bare ? 0 : Math.max(0.009, 0.008 + height * 0.015);
     const glyph = this.render(char, height, ink);
 
     glyph.setAttribute('position', flat ? `0 ${lift + front} 0` : `0 ${lift} ${front}`);

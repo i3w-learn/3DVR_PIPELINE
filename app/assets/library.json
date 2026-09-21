@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T10:18:06.918Z",
+  "generated": "2026-09-21T10:30:49.577Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -1845,6 +1845,21 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "realapatosaurus": {
+      "file": "models/realapatosaurus.glb",
+      "height": 7.006,
+      "width": 3.428,
+      "depth": 25.428,
+      "triangles": 9002,
+      "meshes": 1,
+      "bytes": 705864,
+      "clips": [
+        "C4D Animation Take"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Apatosaurus\" by toro ardido modelos 3d",
+      "licence": "CC-BY"
+    },
     "realbamboo": {
       "file": "models/realbamboo.glb",
       "height": 5.5,
@@ -2071,6 +2086,19 @@
       "source": "Sketchfab — \"African Elephant\"",
       "licence": "CC-BY"
     },
+    "realfern": {
+      "file": "models/realfern.glb",
+      "height": 0.7,
+      "width": 1.999,
+      "depth": 2.151,
+      "triangles": 2128,
+      "meshes": 1,
+      "bytes": 114412,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"fern grass 02\" by POLYSCAN",
+      "licence": "CC-BY"
+    },
     "realfox": {
       "file": "models/realfox.glb",
       "height": 0.448,
@@ -2165,6 +2193,49 @@
       "source": "Sketchfab — \"Horse\" (28 clips)",
       "licence": "CC-BY"
     },
+    "realjungletree": {
+      "file": "models/realjungletree.glb",
+      "height": 13,
+      "width": 12.216,
+      "depth": 13.912,
+      "triangles": 9025,
+      "meshes": 6,
+      "bytes": 2866952,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Tree GN\" by Node_λrt",
+      "licence": "CC-BY"
+    },
+    "realkangaroo": {
+      "file": "models/realkangaroo.glb",
+      "height": 1.738,
+      "width": 0.955,
+      "depth": 1.537,
+      "triangles": 5409,
+      "meshes": 17,
+      "bytes": 82484,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Kangaroo\" by pergamond",
+      "licence": "CC-BY"
+    },
+    "reallion": {
+      "file": "models/reallion.glb",
+      "height": 1.278,
+      "width": 0.468,
+      "depth": 2.486,
+      "triangles": 9968,
+      "meshes": 10,
+      "bytes": 416420,
+      "clips": [
+        "Unreal Take"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"realistic Lion 3d model\" by Tarun.Teja",
+      "licence": "CC-BY"
+    },
     "reallotus": {
       "file": "models/reallotus.glb",
       "height": 0.154,
@@ -2191,6 +2262,19 @@
       "source": "Sketchfab — \"Mang Tree-01\" by ASMA3D",
       "licence": "CC-BY"
     },
+    "realoak": {
+      "file": "models/realoak.glb",
+      "height": 11,
+      "width": 12.38,
+      "depth": 12.612,
+      "triangles": 7112,
+      "meshes": 2,
+      "bytes": 566756,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Oak tree\" by massive-graphisme",
+      "licence": "CC-BY"
+    },
     "realpalm": {
       "file": "models/realpalm.glb",
       "height": 8,
@@ -2215,6 +2299,21 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Coconut Palm\" by evolveduk",
+      "licence": "CC-BY"
+    },
+    "realparasaur": {
+      "file": "models/realparasaur.glb",
+      "height": 3.6,
+      "width": 1.733,
+      "depth": 9.152,
+      "triangles": 8504,
+      "meshes": 1,
+      "bytes": 1157252,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Parasaurolophus\" by kenchoo",
       "licence": "CC-BY"
     },
     "realpigeon": {
@@ -2326,6 +2425,23 @@
       "source": "Sketchfab — \"Animated Sparrow – 3D Animal Model\" by AnimalMesh 3D",
       "licence": "CC-BY"
     },
+    "realstegosaurus": {
+      "file": "models/realstegosaurus.glb",
+      "height": 4,
+      "width": 1.767,
+      "depth": 7.718,
+      "triangles": 9919,
+      "meshes": 3,
+      "bytes": 1456404,
+      "clips": [
+        "IdleA",
+        "Eat",
+        "Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"PBR Stegasaurus (Animated)\" by Ferocious Industries",
+      "licence": "CC-BY"
+    },
     "realtiger": {
       "file": "models/realtiger.glb",
       "height": 1.01,
@@ -2355,6 +2471,38 @@
       "rigged": false,
       "source": "Poly Haven — Island Tree 01 (photoscan)",
       "licence": "CC0"
+    },
+    "realtrex": {
+      "file": "models/realtrex.glb",
+      "height": 4.62,
+      "width": 2.516,
+      "depth": 9.969,
+      "triangles": 8356,
+      "meshes": 1,
+      "bytes": 2036372,
+      "clips": [
+        "run",
+        "roar",
+        "idle"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Tyrannosaurus Rex Dinosaur Running Loop\" by LasquetiSpice",
+      "licence": "CC-BY"
+    },
+    "realtriceratops": {
+      "file": "models/realtriceratops.glb",
+      "height": 3,
+      "width": 1.769,
+      "depth": 7.221,
+      "triangles": 8477,
+      "meshes": 1,
+      "bytes": 989020,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Triceratop\" by kenchoo",
+      "licence": "CC-BY"
     },
     "realzebra": {
       "file": "models/realzebra.glb",

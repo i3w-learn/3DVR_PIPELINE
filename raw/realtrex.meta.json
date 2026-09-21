@@ -1,0 +1,15 @@
+{
+  "id": "realtrex",
+  "source": "Sketchfab — \"Animated Tyrannosaurus Rex Dinosaur Running Loop\" by LasquetiSpice",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/animated-tyrannosaurus-rex-dinosaur-running-loop-38007d947ae74dea83988cb0b08ee053",
+  "targetHeight": 4.6,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.7,
+  "keepClips": [
+    "idle",
+    "run",
+    "roar"
+  ]
+}

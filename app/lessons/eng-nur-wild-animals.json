@@ -5,82 +5,134 @@
   "objects": [
     {
       "id": "lion",
-      "model": "lion",
+      "model": "reallion",
       "position": "-2.400 0.000 -5.200",
       "rotation": "0 60 0",
-      "ring": 1.41,
+      "ring": 1.284,
       "name": {
         "en": "Lion",
         "hi": "शेर"
-      }
+      },
+      "scale": "0.861 0.861 0.861",
+      "clip": "Unreal Take",
+      "clipSpeed": 0.8
     },
     {
       "id": "tiger",
-      "model": "tiger",
+      "model": "realtiger",
       "position": "2.500 0.000 -5.600",
       "rotation": "0 -59 0",
-      "ring": 1.12,
+      "ring": 1.699,
       "name": {
         "en": "Tiger",
         "hi": "बाघ"
+      },
+      "clip": "Idle_Lie Prone",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Walk",
+        "idle": "Idle_Lie Prone",
+        "radius": 2.2,
+        "speed": 0.4,
+        "pause": 9000,
+        "stopDistance": 4.0,
+        "stayFor": 12000
       }
     },
     {
       "id": "elephant",
-      "model": "elephant",
+      "model": "realelephant",
       "position": "-6.200 0.000 -10.500",
       "rotation": "0 71 0",
-      "ring": 2.37,
+      "ring": 2.353,
       "name": {
         "en": "Elephant",
         "hi": "हाथी"
+      },
+      "scale": "0.899 0.899 0.899",
+      "clip": "Stand_01",
+      "clipSpeed": 0.75,
+      "wander": {
+        "walk": "Loco_WalkSlow",
+        "idle": "Stand_01",
+        "radius": 2.2,
+        "speed": 0.32,
+        "pause": 9000,
+        "turnSpeed": 40,
+        "stopDistance": 4.5,
+        "stayFor": 12000
       }
     },
     {
       "id": "giraffe",
-      "model": "giraffe",
+      "model": "realgiraffe",
       "position": "6.400 0.000 -11.500",
       "rotation": "0 -69 0",
-      "ring": 1.92,
+      "ring": 2.452,
       "name": {
         "en": "Giraffe",
         "hi": "जिराफ़"
-      }
+      },
+      "clip": "Take 01",
+      "clipSpeed": 0.7
     },
     {
       "id": "bear",
-      "model": "bear",
+      "model": "realbear",
       "position": "-0.300 0.000 -9.000",
       "rotation": "0 42 0",
-      "ring": 1.11,
+      "ring": 1.104,
       "name": {
         "en": "Bear",
         "hi": "भालू"
+      },
+      "clip": "Stand_Idle_01",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Walk",
+        "idle": "Stand_Idle_01",
+        "radius": 2.0,
+        "speed": 0.35,
+        "pause": 8000,
+        "stopDistance": 4.0,
+        "stayFor": 12000
       }
     },
     {
       "id": "zebra",
-      "model": "zebra",
+      "model": "realzebra",
       "position": "4.900 0.000 -7.600",
       "rotation": "0 -78 0",
-      "ring": 1.1,
+      "ring": 1.47,
       "name": {
         "en": "Zebra",
         "hi": "ज़ेबरा"
       },
-      "clip": "Armature|Idle"
+      "clip": "Eating",
+      "clipSpeed": 0.8
     },
     {
       "id": "deer",
-      "model": "deer",
+      "model": "realdeer",
       "position": "-4.900 0.000 -6.400",
       "rotation": "0 82 0",
-      "ring": 0.8,
+      "ring": 1.102,
       "name": {
         "en": "Deer",
         "hi": "हिरण"
       },
-      "clip": "Idle"
+      "clip": "Stand_Eating_01",
+      "scale": "1.134 1.134 1.134",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "WalkSlow",
+        "idle": "Stand_Eating_01",
+        "radius": 2.4,
+        "speed": 0.35,
+        "pause": 7000,
+        "stopDistance": 2.6,
+        "stayFor": 12000
+      }
     },
     {
       "id": "monkey",
