@@ -38,31 +38,16 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "model": "realoak",
-        "count": 95,
+        "model": "realoakfar",
+        "count": 30,
         "inner": 40,
         "outer": 100,
         "arc": 360,
         "facing": 0,
         "height": 11.5,
         "seed": 73
-      }
-    },
-    {
-      "build": "treeline",
-      "position": "0 0 -16",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "model": "realmangotree",
-        "count": 40,
-        "inner": 26,
-        "outer": 58,
-        "arc": 330,
-        "facing": 0,
-        "height": 9.2,
-        "seed": 39
-      }
+      },
+      "castShadow": false
     },
     {
       "build": "path",
@@ -200,42 +185,48 @@
       "position": "-4.15 0.08 -9.00",
       "rotation": "0 84 0",
       "scale": "0.77 0.77 0.77",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "4.15 0.08 -13.00",
       "rotation": "0 120 0",
       "scale": "0.72 0.72 0.72",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "-4.15 0.08 -17.00",
       "rotation": "0 334 0",
       "scale": "0.86 0.86 0.86",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "4.15 0.08 -21.00",
       "rotation": "0 202 0",
       "scale": "0.84 0.84 0.84",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "-4.15 0.08 -25.00",
       "rotation": "0 322 0",
       "scale": "0.86 0.86 0.86",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "4.15 0.08 -29.00",
       "rotation": "0 100 0",
       "scale": "0.75 0.75 0.75",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "build": "streetlamp",

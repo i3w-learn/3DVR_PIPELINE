@@ -39,15 +39,16 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "model": "realoak",
-        "count": 95,
+        "model": "realoakfar",
+        "count": 35,
         "inner": 34,
         "outer": 95,
         "arc": 360,
         "facing": 0,
         "height": 11.5,
         "seed": 71
-      }
+      },
+      "castShadow": false
     },
     {
       "build": "treeline",
@@ -55,15 +56,16 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "model": "realmangotree",
-        "count": 44,
+        "model": "realmangotreefar",
+        "count": 25,
         "inner": 20,
         "outer": 52,
         "arc": 250,
         "facing": 0,
         "height": 9.2,
         "seed": 33
-      }
+      },
+      "castShadow": false
     },
     {
       "build": "courtyard",

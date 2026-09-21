@@ -117,6 +117,8 @@ export async function readSidecar(id) {
     /** Collapse a static model's many meshes into one per material. */
     join: data.join === true,
     inPlace: Array.isArray(data.inPlace) ? data.inPlace : null,
+    // Fraction of a tree's leaf cards to keep, for a copy only ever seen from far off.
+    thin: typeof data.thin === 'number' ? data.thin : null,
     // Material name → #rrggbb, to bring a pack into the house palette.
     palette: data.palette && typeof data.palette === 'object' ? data.palette : null,
     // Fraction of triangles to keep. A photoscanned tree arrives at 1.6

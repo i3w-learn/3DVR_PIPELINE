@@ -1,5 +1,5 @@
 {
-  "id": "realmangotree",
+  "id": "realmangotreefar",
   "source": "Sketchfab — \"Mang Tree-01\" by ASMA3D",
   "licence": "CC-BY",
   "url": "https://sketchfab.com/3d-models/mang-tree-01-ef7943937fca4815b8a3d9da0c14e067",
@@ -7,7 +7,8 @@
   "yaw": 0,
   "alphaMode": "mask",
   "join": true,
-  "thin": 0.8,
-  "simplify": 0.85,
-  "simplifyError": 0.05
+  "from": "realmangotree",
+  "simplify": 0.18,
+  "simplifyError": 0.4,
+  "thin": 0.35
 }

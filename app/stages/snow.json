@@ -54,15 +54,16 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "model": "realfir",
-        "count": 85,
+        "model": "realfirfar",
+        "count": 40,
         "inner": 17,
         "outer": 62,
         "arc": 300,
         "facing": 0,
         "height": 8,
         "seed": 8
-      }
+      },
+      "castShadow": false
     },
     {
       "build": "drifts",
@@ -108,42 +109,24 @@
       "position": "-11.50 0 -5.00",
       "rotation": "0 64 0",
       "scale": "1.07 1.07 1.07",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realfir",
       "position": "11.00 0 -11.50",
       "rotation": "0 98 0",
       "scale": "1.21 1.21 1.21",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realfir",
       "position": "-3.00 0 -14.50",
       "rotation": "0 22 0",
       "scale": "1.29 1.29 1.29",
-      "contact": false
-    },
-    {
-      "model": "realfir",
-      "position": "3.50 0 -15.50",
-      "rotation": "0 43 0",
-      "scale": "1.00 1.00 1.00",
-      "contact": false
-    },
-    {
-      "model": "realfir",
-      "position": "-13.00 0 -13.00",
-      "rotation": "0 70 0",
-      "scale": "1.14 1.14 1.14",
-      "contact": false
-    },
-    {
-      "model": "realfir",
-      "position": "13.50 0 -3.00",
-      "rotation": "0 126 0",
-      "scale": "0.93 0.93 0.93",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     }
   ]
 }

@@ -38,31 +38,16 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "model": "realoak",
-        "count": 95,
+        "model": "realoakfar",
+        "count": 30,
         "inner": 40,
         "outer": 100,
         "arc": 360,
         "facing": 0,
         "height": 11.5,
         "seed": 73
-      }
-    },
-    {
-      "build": "treeline",
-      "position": "0 0 -16",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "model": "realmangotree",
-        "count": 40,
-        "inner": 26,
-        "outer": 58,
-        "arc": 330,
-        "facing": 0,
-        "height": 9.2,
-        "seed": 39
-      }
+      },
+      "castShadow": false
     },
     {
       "build": "path",
@@ -199,42 +184,48 @@
       "position": "-4.15 0.08 -9.00",
       "rotation": "0 211 0",
       "scale": "0.82 0.82 0.82",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "4.15 0.08 -13.00",
       "rotation": "0 260 0",
       "scale": "0.74 0.74 0.74",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "-4.15 0.08 -17.00",
       "rotation": "0 329 0",
       "scale": "0.85 0.85 0.85",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "4.15 0.08 -21.00",
       "rotation": "0 123 0",
       "scale": "0.77 0.77 0.77",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "-4.15 0.08 -25.00",
       "rotation": "0 350 0",
       "scale": "0.81 0.81 0.81",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "model": "realpalm",
       "position": "4.15 0.08 -29.00",
       "rotation": "0 167 0",
       "scale": "0.76 0.76 0.76",
-      "contact": false
+      "contact": false,
+      "castShadow": false
     },
     {
       "build": "stall",

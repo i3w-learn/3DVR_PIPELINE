@@ -187,10 +187,24 @@ export const RULES = [
     check: ({ instances, library, resolvedStage }) => {
       // Every placement counts. A tree used five times is five times the
       // geometry on screen: A-Frame does not instance gltf-model entities.
-      const geometry = instances.reduce(
+      const placed = instances.reduce(
         (sum, i) => sum + (library.models[i.model]?.triangles ?? 0),
         0
       );
+
+      // A far tree line is one light tree drawn many times. Instancing saves
+      // drawing *instructions*, not triangles: sixty trees of a thousand
+      // triangles are sixty thousand triangles on screen, and the count has to
+      // say so or a forest passes here and stutters on the device.
+      //
+      // Counted at half. The builder sorts the trees into six wedges round the
+      // child and the renderer skips the wedges out of view; a headset's field
+      // of view takes in three of the six at most.
+      const forest = (resolvedStage.props ?? [])
+        .filter((prop) => prop.build === 'treeline')
+        .reduce((sum, prop) => sum + (library.models[prop.params?.model]?.triangles ?? 0) * (prop.params?.count ?? 0), 0) / 2;
+
+      const geometry = placed + forest;
 
       // Only shadow casters are drawn twice. A prop with `castShadow: false`
       // is submitted once, which is the whole point of turning it off.

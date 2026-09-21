@@ -34,15 +34,16 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "model": "realoak",
-        "count": 90,
+        "model": "realoakfar",
+        "count": 40,
         "inner": 48,
         "outer": 105,
         "arc": 360,
         "facing": 0,
         "height": 11.5,
         "seed": 83
-      }
+      },
+      "castShadow": false
     },
     {
       "model": "rock",
