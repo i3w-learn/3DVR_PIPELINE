@@ -29,6 +29,7 @@ import { holdInPlace, keepOnlyClips } from '../lib/clips.js';
 import { normaliseMaterials } from '../lib/materials.js';
 import { smoothNormals } from '../lib/normals.js';
 import { dropNodes, keepNodes } from '../lib/subset.js';
+import { lowerArms } from '../lib/pose.js';
 import { thinCards } from '../lib/thin.js';
 import { measure } from '../lib/measure.js';
 import { MODELS_DIR, RAW_DIR, relative, shippedModel } from '../lib/paths.js';
@@ -96,6 +97,10 @@ async function standardise(id) {
   // box the contract is about to scale by.
   const subset = dropNodes(document, sidecar.dropNodes);
   subset.dropped.push(...keepNodes(document, sidecar.keepNodes).dropped);
+
+  // A figure that arrived in a T-pose gets its arms put down before it is
+  // measured: arms out, it is two metres wide and the contract sizes it wrong.
+  lowerArms(document, sidecar.armsDown);
 
   // Leaves are separate cards the simplifier cannot merge; a far copy drops
   // most of them and grows the rest. Before simplify, which then works on less.

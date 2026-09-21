@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T12:38:16.711Z",
+  "generated": "2026-09-21T12:51:24.789Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2252,6 +2252,19 @@
       "source": "Sketchfab — \"Realistic Animated Doe 3D Model\" by WildMesh 3D",
       "licence": "CC-BY"
     },
+    "realdoctor": {
+      "file": "models/realdoctor.glb",
+      "height": 1.71,
+      "width": 0.683,
+      "depth": 0.319,
+      "triangles": 10637,
+      "meshes": 10,
+      "bytes": 1527064,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Nurse Surgical Rigged\" by bachelorgkv",
+      "licence": "CC-BY"
+    },
     "realdog": {
       "file": "models/realdog.glb",
       "height": 0.62,
@@ -2382,6 +2395,21 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Conifer (medium-Poly)\" by Sereib",
+      "licence": "CC-BY"
+    },
+    "realfirefighter": {
+      "file": "models/realfirefighter.glb",
+      "height": 1.771,
+      "width": 0.641,
+      "depth": 0.514,
+      "triangles": 10539,
+      "meshes": 17,
+      "bytes": 2302320,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Firefighter\" by teacherap123",
       "licence": "CC-BY"
     },
     "realfiretruck": {
@@ -2601,6 +2629,21 @@
       "source": "Sketchfab — \"lotus water lily\" by mycmware",
       "licence": "CC-BY"
     },
+    "realman": {
+      "file": "models/realman.glb",
+      "height": 1.721,
+      "width": 1.664,
+      "depth": 0.304,
+      "triangles": 10007,
+      "meshes": 12,
+      "bytes": 1975796,
+      "clips": [
+        "mixamo.com"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Indian Man\" by Nodeaxis Interactive",
+      "licence": "CC-BY"
+    },
     "realmango": {
       "file": "models/realmango.glb",
       "height": 0.071,
@@ -2815,6 +2858,19 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Organic Pineapple (MD2 Variant)\" by JFN",
+      "licence": "CC-BY"
+    },
+    "realpolice": {
+      "file": "models/realpolice.glb",
+      "height": 1.75,
+      "width": 0.641,
+      "depth": 0.337,
+      "triangles": 11109,
+      "meshes": 3,
+      "bytes": 345352,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Indian police\" by Polymount",
       "licence": "CC-BY"
     },
     "realpolicecar": {
@@ -3032,6 +3088,21 @@
       "source": "Sketchfab — \"Forest Strawberry - Macro scan\" by Nik",
       "licence": "CC-BY"
     },
+    "realteacher": {
+      "file": "models/realteacher.glb",
+      "height": 1.623,
+      "width": 1.54,
+      "depth": 0.298,
+      "triangles": 10551,
+      "meshes": 12,
+      "bytes": 2413612,
+      "clips": [
+        "mixamo.com"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Indian Office Woman\" by Nodeaxis Interactive",
+      "licence": "CC-BY"
+    },
     "realtiger": {
       "file": "models/realtiger.glb",
       "height": 1.01,
@@ -3174,6 +3245,21 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Ballena\" by pepetrincado",
+      "licence": "CC-BY"
+    },
+    "realwoman": {
+      "file": "models/realwoman.glb",
+      "height": 1.601,
+      "width": 0.943,
+      "depth": 0.413,
+      "triangles": 11742,
+      "meshes": 2,
+      "bytes": 368000,
+      "clips": [
+        "mixamo.com"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Sareewoman\" by dk8026854",
       "licence": "CC-BY"
     },
     "realzebra": {

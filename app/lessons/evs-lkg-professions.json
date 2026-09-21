@@ -5,18 +5,15 @@
   "objects": [
     {
       "id": "doctor",
-      "build": "person",
-      "params": {
-        "height": 1.62,
-        "role": "doctor",
-        "pose": "stand"
-      },
       "position": "-2.700 0.000 -0.800",
       "rotation": "0 32 0",
       "name": {
         "en": "Doctor",
         "hi": "डॉक्टर"
-      }
+      },
+      "model": "realdoctor",
+      "scale": "0.947 0.947 0.947",
+      "ring": 0.5
     },
     {
       "id": "stethoscope",
@@ -32,18 +29,17 @@
     },
     {
       "id": "teacher",
-      "build": "person",
-      "params": {
-        "height": 1.62,
-        "role": "teacher",
-        "pose": "stand"
-      },
       "position": "-1.000 0.000 -1.300",
       "rotation": "0 12 0",
       "name": {
         "en": "Teacher",
         "hi": "शिक्षिका"
-      }
+      },
+      "model": "realteacher",
+      "scale": "0.968 0.968 0.968",
+      "ring": 0.5,
+      "clip": "mixamo.com",
+      "clipSpeed": 0.8
     },
     {
       "id": "book",
@@ -111,18 +107,17 @@
     },
     {
       "id": "firefighter",
-      "build": "person",
-      "params": {
-        "height": 1.62,
-        "role": "firefighter",
-        "pose": "stand"
-      },
       "position": "-2.300 0.000 -5.500",
       "rotation": "0 14 0",
       "name": {
         "en": "Firefighter",
         "hi": "दमकलकर्मी"
-      }
+      },
+      "model": "realfirefighter",
+      "scale": "0.915 0.915 0.915",
+      "ring": 0.5,
+      "clip": "Take 001",
+      "clipSpeed": 0.8
     },
     {
       "id": "fireengine",

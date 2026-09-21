@@ -108,6 +108,7 @@ Their authors must be credited wherever this application is distributed.
 - **realcrab** — Sketchfab — "Dancing Crab - Uca Mjoebergi" by Bohdan Lvov
 - **realcrow** — Sketchfab — "Crow" by Alexei Ostapenko
 - **realdeer** — Sketchfab — "Realistic Animated Doe 3D Model" by WildMesh 3D
+- **realdoctor** — Sketchfab — "Nurse Surgical Rigged" by bachelorgkv
 - **realdog** — Sketchfab — "Labrador Dog" by kenchoo
 - **realdolphin** — Sketchfab — "Game-Ready dolphin (Swimming)" by Allie2k
 - **realdonkey** — Sketchfab — "Realistic Animated Donkey 3D Model" by WildMesh 3D
@@ -117,6 +118,7 @@ Their authors must be credited wherever this application is distributed.
 - **realelephant** — Sketchfab — "African Elephant"
 - **realfern** — Sketchfab — "fern grass 02" by POLYSCAN
 - **realfir** — Sketchfab — "Conifer (medium-Poly)" by Sereib
+- **realfirefighter** — Sketchfab — "Firefighter" by teacherap123
 - **realfiretruck** — Sketchfab — "Zil 131 AC 40" by Phobos
 - **realfirfar** — Sketchfab — "Conifer (medium-Poly)" by Sereib
 - **realfox** — Sketchfab — "Animated Fox 3D Model" by AnimalMesh 3D
@@ -132,6 +134,7 @@ Their authors must be credited wherever this application is distributed.
 - **realkangaroo** — Sketchfab — "Kangaroo" by pergamond
 - **reallion** — Sketchfab — "realistic Lion 3d model" by Tarun.Teja
 - **reallotus** — Sketchfab — "lotus water lily" by mycmware
+- **realman** — Sketchfab — "Indian Man" by Nodeaxis Interactive
 - **realmango** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realmangotree** — Sketchfab — "Mang Tree-01" by ASMA3D
 - **realmangotreefar** — Sketchfab — "Mang Tree-01" by ASMA3D
@@ -148,6 +151,7 @@ Their authors must be credited wherever this application is distributed.
 - **realpear** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realpigeon** — Sketchfab — "Animated Pigeon – 3D Animal Model" by AnimalMesh 3D
 - **realpineapple** — Sketchfab — "Organic Pineapple (MD2 Variant)" by JFN
+- **realpolice** — Sketchfab — "Indian police" by Polymount
 - **realpolicecar** — Sketchfab — "Fairheaven LT '80 Cop Cruiser - Low poly model" by Daniel Zhabotinsky
 - **realpotato** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realpumpkin** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
@@ -163,6 +167,7 @@ Their authors must be credited wherever this application is distributed.
 - **realsparrow** — Sketchfab — "Animated Sparrow – 3D Animal Model" by AnimalMesh 3D
 - **realstegosaurus** — Sketchfab — "PBR Stegasaurus (Animated)" by Ferocious Industries
 - **realstrawberry** — Sketchfab — "Forest Strawberry - Macro scan" by Nik
+- **realteacher** — Sketchfab — "Indian Office Woman" by Nodeaxis Interactive
 - **realtiger** — Sketchfab — "Tiger" by Blender Artist
 - **realtomato** — Sketchfab — "Day#19: Tomato" by JuanG3D
 - **realtractor** — Sketchfab — "Tractor" by le0tard
@@ -172,6 +177,7 @@ Their authors must be credited wherever this application is distributed.
 - **realturtle** — Sketchfab — "Sea Turtle" by Eloi
 - **realwatermelon** — Sketchfab — "Game Ready Fruit Asset Pack" by Meerschaum Digital
 - **realwhale** — Sketchfab — "Ballena" by pepetrincado
+- **realwoman** — Sketchfab — "Sareewoman" by dk8026854
 - **realzebra** — Sketchfab — "Zebra - Rigged" by Noa Seller
 - **rhino** — Poly Pizza — "Rhinoceros" by Poly by Google
 - **rocket** — Poly Pizza — "Rocket ship" by Poly by Google

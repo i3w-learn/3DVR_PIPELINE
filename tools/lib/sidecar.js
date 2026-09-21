@@ -117,6 +117,8 @@ export async function readSidecar(id) {
     /** Collapse a static model's many meshes into one per material. */
     join: data.join === true,
     inPlace: Array.isArray(data.inPlace) ? data.inPlace : null,
+    // Degrees below horizontal to hang a T-posed figure's arms at; ~72 is relaxed.
+    armsDown: typeof data.armsDown === 'number' ? data.armsDown : null,
     // Fraction of a tree's leaf cards to keep, for a copy only ever seen from far off.
     thin: typeof data.thin === 'number' ? data.thin : null,
     // Material name → #rrggbb, to bring a pack into the house palette.

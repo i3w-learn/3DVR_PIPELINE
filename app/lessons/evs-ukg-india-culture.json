@@ -46,18 +46,15 @@
     },
     {
       "id": "saree",
-      "build": "person",
-      "params": {
-        "height": 1.6,
-        "role": "teacher",
-        "pose": "stand"
-      },
       "position": "-3.500 0.320 -3.000",
       "rotation": "0 43 0",
       "name": {
         "en": "Saree",
         "hi": "साड़ी"
-      }
+      },
+      "model": "realwoman",
+      "scale": "0.969 0.969 0.969",
+      "ring": 0.5
     },
     {
       "id": "tabla",
