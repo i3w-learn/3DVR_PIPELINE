@@ -13,16 +13,16 @@
     "stripes": 3
   },
   "sun": {
-    "position": "6 11 5",
-    "color": "#fff2da",
-    "intensity": 0.95
+    "position": "7 12 6",
+    "color": "#fff6ea",
+    "intensity": 1.15
   },
   "light": {
     "sky": "#e6eef4",
     "ground": "#bdb096",
-    "intensity": 0.95
+    "intensity": 0.42
   },
-  "shadows": false,
+  "shadows": true,
   "fog": {
     "color": "#d6e2ea",
     "near": 45,

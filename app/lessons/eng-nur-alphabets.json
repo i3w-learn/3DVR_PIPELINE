@@ -304,10 +304,10 @@
     },
     {
       "id": "objj",
-      "model": "jeep",
+      "model": "realjeep",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.075 0.075 0.075",
-      "ring": 0.174,
+      "scale": "0.083 0.083 0.083",
+      "ring": 0.18,
       "rotation": "0 55 0",
       "name": {
         "en": "Jeep",
@@ -396,10 +396,10 @@
     },
     {
       "id": "objm",
-      "model": "monkey",
+      "model": "realmonkey",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.274 0.274 0.274",
-      "ring": 0.174,
+      "scale": "0.500 0.500 0.500",
+      "ring": 0.126,
       "rotation": "0 55 0",
       "name": {
         "en": "Monkey",

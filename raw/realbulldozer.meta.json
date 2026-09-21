@@ -1,0 +1,11 @@
+{
+  "id": "realbulldozer",
+  "source": "Sketchfab — \"Bulldozer Photogrammetry\" by bertanbaday",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/bulldozer-photogrammetry-baa53594134f4a4f99d96ce4ba25492e",
+  "targetHeight": 5,
+  "yaw": 90,
+  "join": true,
+  "metallic": true,
+  "fit": "longest"
+}

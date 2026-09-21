@@ -1,0 +1,8 @@
+{
+  "id": "asphalt",
+  "source": "ambientCG — Asphalt026C",
+  "licence": "CC0",
+  "url": "https://ambientcg.com/view?id=Asphalt026C",
+  "maps": ["color", "normal", "rough", "ao"],
+  "notes": "worn tarmac — the road vehicles stand on; the pale concrete read as a white sheet"
+}

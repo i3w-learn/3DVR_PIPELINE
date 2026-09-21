@@ -21,7 +21,7 @@
     "ground": "#63704a",
     "intensity": 0.4
   },
-  "shadows": false,
+  "shadows": true,
   "fog": {
     "color": "#d3dde4",
     "near": 40,

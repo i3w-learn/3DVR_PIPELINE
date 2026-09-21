@@ -26,6 +26,9 @@ AFRAME.registerComponent('path', {
     repeat: { type: 'number', default: 8 },
 
     kerbColor: { type: 'color', default: '#d8d2c6' },
+
+    /** A broken white line down the middle — a road for vehicles, not a footpath. */
+    lane: { type: 'boolean', default: false },
   },
 
   init() {
@@ -39,7 +42,7 @@ AFRAME.registerComponent('path', {
   build() {
     this.el.innerHTML = '';
 
-    const { length, width, kerb, surface, repeat, kerbColor } = this.data;
+    const { length, width, kerb, surface, repeat, kerbColor, lane } = this.data;
 
     const strip = document.createElement('a-plane');
     strip.setAttribute('width', width);
@@ -56,6 +59,19 @@ AFRAME.registerComponent('path', {
       metalness: 0,
     });
     this.el.appendChild(strip);
+
+    if (lane) {
+      // Three metres of paint, six of gap — the rhythm of a real centre line.
+      for (let z = -length / 2 + 2; z < length / 2 - 2; z += 9) {
+        const dash = document.createElement('a-plane');
+        dash.setAttribute('width', 0.14);
+        dash.setAttribute('height', 3);
+        dash.setAttribute('rotation', '-90 0 0');
+        dash.setAttribute('position', `0 0.022 ${z + 1.5}`);
+        dash.setAttribute('material', { color: '#e9e6dc', roughness: 0.85, metalness: 0 });
+        this.el.appendChild(dash);
+      }
+    }
 
     if (!kerb) return;
 

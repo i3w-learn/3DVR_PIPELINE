@@ -1,0 +1,11 @@
+{
+  "id": "realship",
+  "source": "Sketchfab — \"Cargo Ship - V2 PBR\" by akbunnyz",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/cargo-ship-v2-pbr-109bfddb57d94cedb424ddcb42757e88",
+  "targetHeight": 20,
+  "yaw": -90,
+  "join": true,
+  "metallic": true,
+  "fit": "longest"
+}

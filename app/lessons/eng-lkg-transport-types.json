@@ -89,16 +89,15 @@
     },
     {
       "id": "auto",
-      "build": "autorickshaw",
-      "params": {
-        "length": 0.26
-      },
-      "position": "0.600 0.534 -0.740",
+      "position": "0.600 0.520 -0.740",
       "rotation": "0 40 0",
       "name": {
         "en": "Auto",
         "hi": "ऑटो"
-      }
+      },
+      "model": "realauto",
+      "scale": "0.096 0.096 0.096",
+      "ring": 0.156
     },
     {
       "id": "car",
@@ -138,10 +137,10 @@
     },
     {
       "id": "train",
-      "model": "train",
+      "model": "realtrain",
       "position": "0.300 0.534 -0.740",
-      "scale": "0.034 0.034 0.034",
-      "ring": 0.157,
+      "scale": "0.030 0.030 0.030",
+      "ring": 0.163,
       "rotation": "0 50 0",
       "name": {
         "en": "Train",
@@ -150,10 +149,10 @@
     },
     {
       "id": "boat",
-      "model": "boat",
+      "model": "realboat",
       "position": "-0.360 0.534 -0.740",
-      "scale": "0.068 0.068 0.068",
-      "ring": 0.157,
+      "scale": "0.065 0.065 0.065",
+      "ring": 0.163,
       "rotation": "0 50 0",
       "name": {
         "en": "Boat",
@@ -162,10 +161,10 @@
     },
     {
       "id": "ship",
-      "model": "ship",
+      "model": "realship",
       "position": "0.000 0.534 -0.740",
       "scale": "0.014 0.014 0.014",
-      "ring": 0.157,
+      "ring": 0.168,
       "rotation": "0 50 0",
       "name": {
         "en": "Ship",
@@ -174,10 +173,10 @@
     },
     {
       "id": "sailboat",
-      "model": "sailboat",
+      "model": "realsailboat",
       "position": "0.360 0.534 -0.740",
       "scale": "0.045 0.045 0.045",
-      "ring": 0.128,
+      "ring": 0.112,
       "rotation": "0 40 0",
       "name": {
         "en": "Sailboat",

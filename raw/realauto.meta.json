@@ -1,0 +1,11 @@
+{
+  "id": "realauto",
+  "source": "Sketchfab — \"Autorikshaw - Indian Tuk Tuk\" by bhagathartworks",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/autorikshaw-indian-tuk-tuk-5775d012693741008acff9dad410e92d",
+  "targetHeight": 2.7,
+  "yaw": 180,
+  "fit": "longest",
+  "join": true,
+  "metallic": true
+}

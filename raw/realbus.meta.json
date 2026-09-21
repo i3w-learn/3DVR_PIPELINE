@@ -1,0 +1,11 @@
+{
+  "id": "realbus",
+  "source": "Sketchfab — \"Isuzu Erga Mio bus\" by own.guest",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/isuzu-erga-mio-bus-050e8acd0bbc4da0902a8a874ef10fca",
+  "targetHeight": 9,
+  "yaw": 90,
+  "fit": "longest",
+  "join": true,
+  "metallic": true
+}

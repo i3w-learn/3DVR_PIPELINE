@@ -1,0 +1,11 @@
+{
+  "id": "realsailboat",
+  "source": "Sketchfab — \"Sailboat\" by Sergei",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/sailboat-76d0b1e24be14d2f9a524bfce3001aeb",
+  "targetHeight": 6,
+  "yaw": 0,
+  "join": true,
+  "metallic": true,
+  "fit": "height"
+}

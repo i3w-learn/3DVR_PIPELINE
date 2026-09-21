@@ -1,0 +1,11 @@
+{
+  "id": "realfiretruck",
+  "source": "Sketchfab — \"Zil 131 AC 40\" by Phobos",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/zil-131-ac-40-aac70737c4f5478ebf9e14387a123214",
+  "targetHeight": 7.5,
+  "yaw": -90,
+  "fit": "longest",
+  "join": true,
+  "metallic": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "realjeep",
+  "source": "Sketchfab — \"Jeep\" by DJMaesen",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/jeep-8dd9a0b3faa84aaa813431b44c716a6d",
+  "targetHeight": 3.6,
+  "yaw": 0,
+  "fit": "longest",
+  "join": true,
+  "metallic": true,
+  "simplify": 0.5
+}

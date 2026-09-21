@@ -41,10 +41,10 @@
     },
     {
       "id": "monkey",
-      "model": "monkey",
+      "model": "realmonkey",
       "position": "0.400 0.000 -4.400",
       "rotation": "0 -55 0",
-      "ring": 0.85,
+      "ring": 0.328,
       "scale": "1.300 1.300 1.300",
       "name": {
         "en": "Monkey",

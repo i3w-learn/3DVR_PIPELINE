@@ -5,18 +5,19 @@
   "objects": [
     {
       "id": "policecar",
-      "model": "policecar",
+      "model": "realpolicecar",
       "position": "-2.300 0.000 -3.000",
       "rotation": "0 77 0",
       "ring": 2.64,
       "name": {
         "en": "Police car",
         "hi": "पुलिस की गाड़ी"
-      }
+      },
+      "scale": "0.917 0.917 0.917"
     },
     {
       "id": "ambulance",
-      "model": "ambulance",
+      "model": "realambulance",
       "position": "2.400 0.000 -6.500",
       "rotation": "0 -71 0",
       "ring": 3.3,
@@ -27,32 +28,34 @@
     },
     {
       "id": "fireengine",
-      "model": "firetruck",
+      "model": "realfiretruck",
       "position": "-2.200 0.000 -12.500",
       "rotation": "0 70 0",
       "ring": 4.8,
       "name": {
         "en": "Fire engine",
         "hi": "दमकल"
-      }
+      },
+      "scale": "1.067 1.067 1.067"
     },
     {
       "id": "schoolbus",
-      "model": "schoolbus",
+      "model": "realschoolbus",
       "position": "2.200 0.000 -19.000",
       "rotation": "0 -70 0",
       "ring": 4.8,
       "name": {
         "en": "School bus",
         "hi": "स्कूल बस"
-      }
+      },
+      "scale": "0.889 0.889 0.889"
     },
     {
       "id": "bulldozer",
-      "model": "bulldozer",
+      "model": "realbulldozer",
       "position": "-2.000 0.000 -25.500",
       "rotation": "0 70 0",
-      "ring": 3,
+      "ring": 3.0,
       "name": {
         "en": "Bulldozer",
         "hi": "बुलडोज़र"

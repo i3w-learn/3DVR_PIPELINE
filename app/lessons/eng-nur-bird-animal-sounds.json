@@ -176,11 +176,11 @@
     },
     {
       "id": "owl",
-      "model": "owl",
+      "model": "realowl",
       "position": "4.020 0.000 -1.790",
       "rotation": "0 -96 0",
-      "ring": 0.49,
-      "scale": "1.700 1.700 1.700",
+      "ring": 0.251,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Owl",
         "hi": "उल्लू"

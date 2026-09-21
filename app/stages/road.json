@@ -12,16 +12,16 @@
     "repeat": 80
   },
   "sun": {
-    "position": "7 10 5",
-    "color": "#fff3e0",
-    "intensity": 0.85
+    "position": "5 14 -6",
+    "color": "#fff6ea",
+    "intensity": 1.2
   },
   "light": {
     "sky": "#dfe9ef",
     "ground": "#b7a888",
-    "intensity": 0.85
+    "intensity": 0.4
   },
-  "shadows": false,
+  "shadows": true,
   "fog": {
     "color": "#d3dfe8",
     "near": 40,
@@ -73,8 +73,10 @@
         "length": 44,
         "width": 6.5,
         "kerb": 0.14,
-        "surface": "paving",
-        "repeat": 14
+        "surface": "asphalt",
+        "repeat": 11,
+        "kerbColor": "#b9b4a8",
+        "lane": true
       }
     },
     {
@@ -184,7 +186,6 @@
       "position": "-4.15 0.08 -1.00",
       "rotation": "0 167 0",
       "scale": "0.76 0.76 0.76",
-      "castShadow": false,
       "contact": false
     },
     {
@@ -192,7 +193,6 @@
       "position": "4.15 0.08 -5.00",
       "rotation": "0 237 0",
       "scale": "0.88 0.88 0.88",
-      "castShadow": false,
       "contact": false
     },
     {
@@ -200,7 +200,6 @@
       "position": "-4.15 0.08 -9.00",
       "rotation": "0 84 0",
       "scale": "0.77 0.77 0.77",
-      "castShadow": false,
       "contact": false
     },
     {
@@ -208,7 +207,6 @@
       "position": "4.15 0.08 -13.00",
       "rotation": "0 120 0",
       "scale": "0.72 0.72 0.72",
-      "castShadow": false,
       "contact": false
     },
     {
@@ -216,7 +214,6 @@
       "position": "-4.15 0.08 -17.00",
       "rotation": "0 334 0",
       "scale": "0.86 0.86 0.86",
-      "castShadow": false,
       "contact": false
     },
     {
@@ -224,7 +221,6 @@
       "position": "4.15 0.08 -21.00",
       "rotation": "0 202 0",
       "scale": "0.84 0.84 0.84",
-      "castShadow": false,
       "contact": false
     },
     {
@@ -232,7 +228,6 @@
       "position": "-4.15 0.08 -25.00",
       "rotation": "0 322 0",
       "scale": "0.86 0.86 0.86",
-      "castShadow": false,
       "contact": false
     },
     {
@@ -240,7 +235,6 @@
       "position": "4.15 0.08 -29.00",
       "rotation": "0 100 0",
       "scale": "0.75 0.75 0.75",
-      "castShadow": false,
       "contact": false
     },
     {

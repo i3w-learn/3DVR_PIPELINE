@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T11:05:42.415Z",
+  "generated": "2026-09-21T12:27:16.135Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -1845,6 +1845,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "realambulance": {
+      "file": "models/realambulance.glb",
+      "height": 2.481,
+      "width": 2.563,
+      "depth": 5.5,
+      "triangles": 10365,
+      "meshes": 8,
+      "bytes": 1808080,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Shvan '92 Ambulance - Low Poly model\" by Daniel Zhabotinsky",
+      "licence": "CC-BY"
+    },
     "realant": {
       "file": "models/realant.glb",
       "height": 0.033,
@@ -1886,6 +1899,19 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realauto": {
+      "file": "models/realauto.glb",
+      "height": 1.785,
+      "width": 1.403,
+      "depth": 2.7,
+      "triangles": 8128,
+      "meshes": 1,
+      "bytes": 175536,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Autorikshaw - Indian Tuk Tuk\" by bhagathartworks",
       "licence": "CC-BY"
     },
     "realbamboo": {
@@ -2000,6 +2026,32 @@
       "source": "Sketchfab — \"Water Buffalo\" by kenchoo",
       "licence": "CC-BY"
     },
+    "realbulldozer": {
+      "file": "models/realbulldozer.glb",
+      "height": 3.441,
+      "width": 3.755,
+      "depth": 5,
+      "triangles": 4562,
+      "meshes": 1,
+      "bytes": 105328,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Bulldozer Photogrammetry\" by bertanbaday",
+      "licence": "CC-BY"
+    },
+    "realbus": {
+      "file": "models/realbus.glb",
+      "height": 2.437,
+      "width": 2.136,
+      "depth": 9,
+      "triangles": 3434,
+      "meshes": 1,
+      "bytes": 65500,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Isuzu Erga Mio bus\" by own.guest",
+      "licence": "CC-BY"
+    },
     "realbutterfly": {
       "file": "models/realbutterfly.glb",
       "height": 0.102,
@@ -2042,6 +2094,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"calf(fbx)\" by shikimika",
+      "licence": "CC-BY"
+    },
+    "realcar": {
+      "file": "models/realcar.glb",
+      "height": 1.453,
+      "width": 1.947,
+      "depth": 3.9,
+      "triangles": 9009,
+      "meshes": 8,
+      "bytes": 1720772,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Milano '95 - Low poly model\" by Daniel Zhabotinsky",
       "licence": "CC-BY"
     },
     "realcarrot": {
@@ -2306,6 +2371,45 @@
       "source": "Sketchfab — \"fern grass 02\" by POLYSCAN",
       "licence": "CC-BY"
     },
+    "realfir": {
+      "file": "models/realfir.glb",
+      "height": 7,
+      "width": 5.048,
+      "depth": 5.425,
+      "triangles": 7709,
+      "meshes": 8,
+      "bytes": 3038136,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Conifer (medium-Poly)\" by Sereib",
+      "licence": "CC-BY"
+    },
+    "realfiretruck": {
+      "file": "models/realfiretruck.glb",
+      "height": 3.11,
+      "width": 2.768,
+      "depth": 7.5,
+      "triangles": 10172,
+      "meshes": 2,
+      "bytes": 367848,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Zil 131 AC 40\" by Phobos",
+      "licence": "CC-BY"
+    },
+    "realfirfar": {
+      "file": "models/realfirfar.glb",
+      "height": 7,
+      "width": 4.542,
+      "depth": 5.553,
+      "triangles": 5241,
+      "meshes": 8,
+      "bytes": 3019572,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Conifer (medium-Poly)\" by Sereib",
+      "licence": "CC-BY"
+    },
     "realfox": {
       "file": "models/realfox.glb",
       "height": 0.448,
@@ -2415,6 +2519,19 @@
       "source": "Sketchfab — \"Horse\" (28 clips)",
       "licence": "CC-BY"
     },
+    "realjeep": {
+      "file": "models/realjeep.glb",
+      "height": 1.665,
+      "width": 1.921,
+      "depth": 3.6,
+      "triangles": 9207,
+      "meshes": 3,
+      "bytes": 1162752,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Jeep\" by DJMaesen",
+      "licence": "CC-BY"
+    },
     "realjungletree": {
       "file": "models/realjungletree.glb",
       "height": 13,
@@ -2423,6 +2540,19 @@
       "triangles": 9025,
       "meshes": 6,
       "bytes": 2866952,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Tree GN\" by Node_λrt",
+      "licence": "CC-BY"
+    },
+    "realjungletreefar": {
+      "file": "models/realjungletreefar.glb",
+      "height": 13,
+      "width": 11.849,
+      "depth": 14.002,
+      "triangles": 1805,
+      "meshes": 6,
+      "bytes": 2701760,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Tree GN\" by Node_λrt",
@@ -2497,6 +2627,32 @@
       "source": "Sketchfab — \"Mang Tree-01\" by ASMA3D",
       "licence": "CC-BY"
     },
+    "realmangotreefar": {
+      "file": "models/realmangotreefar.glb",
+      "height": 7,
+      "width": 6.917,
+      "depth": 6.524,
+      "triangles": 727,
+      "meshes": 4,
+      "bytes": 826552,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Mang Tree-01\" by ASMA3D",
+      "licence": "CC-BY"
+    },
+    "realmonkey": {
+      "file": "models/realmonkey.glb",
+      "height": 0.6,
+      "width": 0.411,
+      "depth": 0.421,
+      "triangles": 3416,
+      "meshes": 1,
+      "bytes": 536500,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Low poly monkey animal 3d model free\" by iRahulRajput",
+      "licence": "CC-BY"
+    },
     "realoak": {
       "file": "models/realoak.glb",
       "height": 11,
@@ -2505,6 +2661,19 @@
       "triangles": 7112,
       "meshes": 2,
       "bytes": 566756,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Oak tree\" by massive-graphisme",
+      "licence": "CC-BY"
+    },
+    "realoakfar": {
+      "file": "models/realoakfar.glb",
+      "height": 11,
+      "width": 11.776,
+      "depth": 12.159,
+      "triangles": 710,
+      "meshes": 2,
+      "bytes": 536968,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Oak tree\" by massive-graphisme",
@@ -2534,6 +2703,19 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realowl": {
+      "file": "models/realowl.glb",
+      "height": 0.45,
+      "width": 0.23,
+      "depth": 0.261,
+      "triangles": 7328,
+      "meshes": 1,
+      "bytes": 84608,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Common Barn Owl\" by Innovation Studio",
       "licence": "CC-BY"
     },
     "realpalm": {
@@ -2635,6 +2817,19 @@
       "source": "Sketchfab — \"Organic Pineapple (MD2 Variant)\" by JFN",
       "licence": "CC-BY"
     },
+    "realpolicecar": {
+      "file": "models/realpolicecar.glb",
+      "height": 1.486,
+      "width": 1.725,
+      "depth": 4.8,
+      "triangles": 9725,
+      "meshes": 8,
+      "bytes": 1494072,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Fairheaven LT '80 Cop Cruiser - Low poly model\" by Daniel Zhabotinsky",
+      "licence": "CC-BY"
+    },
     "realpotato": {
       "file": "models/realpotato.glb",
       "height": 0.076,
@@ -2721,6 +2916,32 @@
       "source": "Sketchfab — \"Lowpoly Rocks - Free Download\" by Loïc Norgeot",
       "licence": "CC-BY"
     },
+    "realsailboat": {
+      "file": "models/realsailboat.glb",
+      "height": 6,
+      "width": 1.244,
+      "depth": 4.155,
+      "triangles": 2532,
+      "meshes": 1,
+      "bytes": 205816,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Sailboat\" by Sergei",
+      "licence": "CC-BY"
+    },
+    "realschoolbus": {
+      "file": "models/realschoolbus.glb",
+      "height": 2.533,
+      "width": 2.123,
+      "depth": 9,
+      "triangles": 16149,
+      "meshes": 1,
+      "bytes": 853124,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"School Bus\" by Macaroni",
+      "licence": "CC-BY"
+    },
     "realseahorse": {
       "file": "models/realseahorse.glb",
       "height": 0.2,
@@ -2749,6 +2970,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Sheep\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realship": {
+      "file": "models/realship.glb",
+      "height": 5.59,
+      "width": 3.096,
+      "depth": 20,
+      "triangles": 7378,
+      "meshes": 6,
+      "bytes": 2107884,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Cargo Ship - V2 PBR\" by akbunnyz",
       "licence": "CC-BY"
     },
     "realsparrow": {
@@ -2826,6 +3060,32 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Day#19: Tomato\" by JuanG3D",
+      "licence": "CC-BY"
+    },
+    "realtractor": {
+      "file": "models/realtractor.glb",
+      "height": 2.441,
+      "width": 2.449,
+      "depth": 3.6,
+      "triangles": 9997,
+      "meshes": 9,
+      "bytes": 599124,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Tractor\" by le0tard",
+      "licence": "CC-BY"
+    },
+    "realtrain": {
+      "file": "models/realtrain.glb",
+      "height": 3.049,
+      "width": 2.047,
+      "depth": 9,
+      "triangles": 18822,
+      "meshes": 1,
+      "bytes": 508356,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Industrial train Dr14\" by Simon Pasi",
       "licence": "CC-BY"
     },
     "realtree": {
@@ -3681,6 +3941,30 @@
     }
   },
   "textures": {
+    "asphalt_ao.jpg": {
+      "file": "textures/asphalt_ao.jpg",
+      "bytes": 24025,
+      "source": "ambientCG — Asphalt026C",
+      "licence": "CC0"
+    },
+    "asphalt_color.jpg": {
+      "file": "textures/asphalt_color.jpg",
+      "bytes": 130222,
+      "source": "ambientCG — Asphalt026C",
+      "licence": "CC0"
+    },
+    "asphalt_normal.jpg": {
+      "file": "textures/asphalt_normal.jpg",
+      "bytes": 349479,
+      "source": "ambientCG — Asphalt026C",
+      "licence": "CC0"
+    },
+    "asphalt_rough.jpg": {
+      "file": "textures/asphalt_rough.jpg",
+      "bytes": 15918,
+      "source": "ambientCG — Asphalt026C",
+      "licence": "CC0"
+    },
     "earth_ao.jpg": {
       "file": "textures/earth_ao.jpg",
       "bytes": 33902,

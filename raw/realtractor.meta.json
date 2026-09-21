@@ -1,0 +1,12 @@
+{
+  "id": "realtractor",
+  "source": "Sketchfab — \"Tractor\" by le0tard",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/tractor-278fc1e0516c401eba358d3aa2e55635",
+  "targetHeight": 3.6,
+  "yaw": -90,
+  "fit": "longest",
+  "join": true,
+  "metallic": true,
+  "simplify": 0.4
+}

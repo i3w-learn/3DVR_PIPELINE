@@ -47,10 +47,10 @@
     },
     {
       "id": "car",
-      "model": "car",
+      "model": "realcar",
       "position": "0.000 0.520 -0.560",
-      "scale": "0.071 0.071 0.071",
-      "ring": 0.174,
+      "scale": "0.076 0.076 0.076",
+      "ring": 0.179,
       "rotation": "0 50 0",
       "name": {
         "en": "Car",
@@ -59,10 +59,10 @@
     },
     {
       "id": "boat",
-      "model": "boat",
+      "model": "realboat",
       "position": "0.000 0.520 -0.560",
-      "scale": "0.075 0.075 0.075",
-      "ring": 0.174,
+      "scale": "0.071 0.071 0.071",
+      "ring": 0.18,
       "rotation": "0 50 0",
       "name": {
         "en": "Boat",
@@ -83,10 +83,10 @@
     },
     {
       "id": "bus",
-      "model": "bus",
+      "model": "realbus",
       "position": "0.000 0.520 -0.560",
       "scale": "0.033 0.033 0.033",
-      "ring": 0.174,
+      "ring": 0.178,
       "rotation": "0 50 0",
       "name": {
         "en": "Bus",
@@ -107,10 +107,10 @@
     },
     {
       "id": "ship",
-      "model": "ship",
+      "model": "realship",
       "position": "0.000 0.520 -0.560",
       "scale": "0.015 0.015 0.015",
-      "ring": 0.174,
+      "ring": 0.18,
       "rotation": "0 50 0",
       "name": {
         "en": "Ship",
