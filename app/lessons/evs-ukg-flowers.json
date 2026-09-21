@@ -85,7 +85,7 @@
         "sunflower",
         "marigold"
       ],
-      "duration": 9500,
+      "duration": 11000,
       "script": {
         "hi": "फूल पौधों पर खिलते हैं। हर फूल का अपना रंग और अपनी ख़ुशबू होती है।",
         "en": "Flowers bloom on plants. Every flower has its own colour and its own smell.",
@@ -101,7 +101,7 @@
         "sunflower",
         "marigold"
       ],
-      "duration": 8500,
+      "duration": 9000,
       "script": {
         "hi": "यह गुलाब है। गुलाब में काँटे होते हैं। इसकी ख़ुशबू बहुत अच्छी है।",
         "en": "This is a rose. The rose has thorns. It smells lovely.",

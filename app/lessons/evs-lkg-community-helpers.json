@@ -96,7 +96,7 @@
   ],
   "steps": [
     {
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "ये हमारे मददगार हैं। ये सब हमारी मदद करते हैं।",
         "en": "These are our community helpers. Every one of them helps us.",
@@ -107,7 +107,7 @@
     },
     {
       "highlight": "doctor",
-      "duration": 8000,
+      "duration": 9000,
       "script": {
         "hi": "यह डॉक्टर हैं। जब हम बीमार होते हैं, डॉक्टर हमें ठीक करते हैं।",
         "en": "This is a doctor. When we are ill, the doctor makes us well.",
@@ -172,7 +172,7 @@
       "audio": "evs-lkg-community-helpers-s07.mp3"
     },
     {
-      "duration": 7000,
+      "duration": 7500,
       "script": {
         "hi": "जब ये हमारी मदद करें, तो हम कहते हैं — धन्यवाद!",
         "en": "When they help us, we say — thank you!",

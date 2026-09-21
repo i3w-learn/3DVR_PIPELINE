@@ -123,7 +123,7 @@
         "father",
         "teacher"
       ],
-      "duration": 10000,
+      "duration": 11000,
       "script": {
         "hi": "यह मीना है। मीना का शरीर मीना का अपना है। तुम्हारा शरीर तुम्हारा अपना है।",
         "en": "This is Meena. Meena's body belongs to Meena. Your body belongs to you.",
@@ -140,7 +140,7 @@
         "father",
         "teacher"
       ],
-      "duration": 10500,
+      "duration": 13500,
       "script": {
         "hi": "कुछ छूना अच्छा लगता है — जैसे माँ का गले लगाना, या सड़क पार करते हुए हाथ पकड़ना। इसे सुरक्षित छूना कहते हैं।",
         "en": "Some touches feel good — like a hug from mother, or holding hands to cross the road. These are safe touches.",
@@ -157,7 +157,7 @@
         "father",
         "teacher"
       ],
-      "duration": 13000,
+      "duration": 20000,
       "script": {
         "hi": "अगर कोई ऐसे छुए कि तुम्हें बुरा लगे, डर लगे, या दर्द हो — वह असुरक्षित छूना है। जो हिस्से कपड़ों से ढके रहते हैं, उन्हें कोई नहीं छू सकता।",
         "en": "If anyone touches you in a way that feels bad, or scary, or that hurts — that is an unsafe touch. Nobody may touch the parts of you that your clothes cover.",
@@ -242,7 +242,7 @@
         "father",
         "teacher"
       ],
-      "duration": 11000,
+      "duration": 12500,
       "script": {
         "hi": "यह कभी तुम्हारी ग़लती नहीं होती। और अगर कोई न सुने, तो किसी और को बताओ — जब तक कोई मदद न करे।",
         "en": "It is never your fault. And if one person does not listen, tell another — keep telling until someone helps.",

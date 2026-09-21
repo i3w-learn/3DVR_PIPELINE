@@ -21,7 +21,7 @@ mkdir -p "$ENGINE/models"
 if [ ! -x "$ENGINE/venv/bin/python" ]; then
   uv venv --python 3.11 "$ENGINE/venv"
   # Pinned: coqui-tts 0.24 breaks against transformers 4.50 and later.
-  uv pip install --python "$ENGINE/venv/bin/python" "coqui-tts==0.24.3" "transformers==4.46.3" "openai-whisper==20250625"
+  uv pip install --python "$ENGINE/venv/bin/python" "coqui-tts==0.24.3" "transformers==4.46.3" "mlx-whisper==0.4.3"
 fi
 
 for lang in "${LANGS[@]}"; do

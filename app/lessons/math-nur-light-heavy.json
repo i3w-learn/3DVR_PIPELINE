@@ -78,7 +78,7 @@
         "feather"
       ],
       "highlight": "scaleA",
-      "duration": 7500,
+      "duration": 8000,
       "script": {
         "hi": "यह तराज़ू है। इससे पता चलता है क्या भारी है।",
         "en": "This is a balance. It tells us which thing is heavier.",
@@ -129,7 +129,7 @@
       ],
       "highlight": "same1",
       "against": "same2",
-      "duration": 7500,
+      "duration": 8500,
       "script": {
         "hi": "दोनों गेंदें बराबर हैं — तराज़ू सीधी है।",
         "en": "These two balls weigh the same — so the balance stays level.",

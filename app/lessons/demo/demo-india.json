@@ -24,7 +24,7 @@
   ],
   "steps": [
     {
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "यह हमारा प्रांगण है। बीच में अशोक चक्र है।",
         "en": "This is our courtyard. In the middle is the wheel from our flag.",

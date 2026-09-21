@@ -91,7 +91,7 @@
     },
     {
       "at": "rain",
-      "duration": 8000,
+      "duration": 9500,
       "script": {
         "hi": "बारिश तालाब को फिर भर देती है। और यह फिर से शुरू होता है।",
         "en": "The rain fills the pond again. And then it all begins once more.",

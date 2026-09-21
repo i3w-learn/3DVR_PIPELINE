@@ -113,7 +113,7 @@
     },
     {
       "at": "wed",
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "बुधवार।",
         "en": "After Tuesday comes Wednesday.",
@@ -135,7 +135,7 @@
     },
     {
       "at": "fri",
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "शुक्रवार।",
         "en": "After Thursday comes Friday.",
@@ -146,7 +146,7 @@
     },
     {
       "at": "sat",
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "शनिवार।",
         "en": "After Friday comes Saturday.",

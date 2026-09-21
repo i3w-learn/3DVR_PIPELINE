@@ -1229,7 +1229,7 @@
       ],
       "highlight": "obji",
       "partner": "capI",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "I से Ice cream — आइसक्रीम।",
         "en": "I for Ice cream.",
@@ -1829,7 +1829,7 @@
       ],
       "highlight": "obju",
       "partner": "capU",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "U से Umbrella — छाता।",
         "en": "U for Umbrella.",
@@ -1929,7 +1929,7 @@
       ],
       "highlight": "objw",
       "partner": "capW",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "W से Watermelon — तरबूज़।",
         "en": "W for Watermelon.",
@@ -1979,7 +1979,7 @@
       ],
       "highlight": "objx",
       "partner": "capX",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "X से Xylophone — ज़ाइलोफ़ोन।",
         "en": "X for Xylophone.",
@@ -2029,7 +2029,7 @@
       ],
       "highlight": "objy",
       "partner": "capY",
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "hi": "Y से Yarn — ऊन का गोला।",
         "en": "Y for Yarn.",
@@ -2079,7 +2079,7 @@
       ],
       "highlight": "objz",
       "partner": "capZ",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "Z से Zebra — ज़ेबरा।",
         "en": "Z for Zebra.",

@@ -81,7 +81,7 @@
     },
     {
       "highlight": "sun",
-      "duration": 10000,
+      "duration": 11000,
       "script": {
         "hi": "एक दिन बहुत गर्मी थी। सूरज तेज़ चमक रहा था। अप्पू को बहुत प्यास लगी।",
         "en": "One day it was very hot. The sun was shining brightly. Appu was very thirsty.",
@@ -92,7 +92,7 @@
     },
     {
       "highlight": "monkey",
-      "duration": 9000,
+      "duration": 12500,
       "script": {
         "hi": "अप्पू ने अपने दोस्त बंदर से पूछा — पानी कहाँ है? बंदर बोला — उस तरफ़ तालाब है!",
         "en": "Appu asked his friend the monkey — where is the water? The monkey said — the pond is that way!",
@@ -114,7 +114,7 @@
     },
     {
       "highlight": "deer",
-      "duration": 9000,
+      "duration": 10000,
       "script": {
         "hi": "हिरण भी प्यासा था। अप्पू ने सूँड़ में पानी भरकर उसे भी पिलाया।",
         "en": "The deer was thirsty too. Appu filled his trunk and gave him water.",

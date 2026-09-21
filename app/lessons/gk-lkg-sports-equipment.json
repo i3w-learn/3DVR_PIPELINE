@@ -156,7 +156,7 @@
         "bat",
         "cricketball"
       ],
-      "duration": 8000,
+      "duration": 9500,
       "script": {
         "hi": "खेलना सेहत के लिए अच्छा है। हर खेल का अपना सामान होता है।",
         "en": "Playing games keeps us fit. Every game has its own equipment.",
@@ -280,7 +280,7 @@
       ],
       "highlight": "hockeyball",
       "partner": "stick",
-      "duration": 8500,
+      "duration": 9000,
       "script": {
         "hi": "हॉकी स्टिक और गेंद से खेलते हैं। हॉकी हमारा राष्ट्रीय खेल है।",
         "en": "Hockey is played with a stick and a ball. Hockey is our national game.",

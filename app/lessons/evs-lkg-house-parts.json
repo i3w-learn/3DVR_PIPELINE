@@ -131,7 +131,7 @@
     },
     {
       "highlight": "window",
-      "duration": 7000,
+      "duration": 7500,
       "script": {
         "hi": "यह खिड़की है। इससे हवा और रोशनी आती है।",
         "en": "This is the window. It lets in air and light.",

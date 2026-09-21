@@ -5,7 +5,7 @@
 
 Nobody on the build team can hear whether a thousand Marathi clips are right.
 A recogniser can at least tell whether a clip says roughly what its text says:
-each clip is transcribed (Whisper, offline, free) and compared with the line it
+each clip is transcribed (Whisper on Apple's MLX, offline, free, under a second a clip) and compared with the line it
 was made from. A low score means the voice dropped or mangled something — or
 just that the recogniser spells differently — so the output is a reading list
 for a native speaker, worst first, not a verdict.
@@ -34,10 +34,9 @@ if lang == 'or':
     typical = sorted(r[0] for r in rows)[len(rows) // 2]
     rows = [(r[0] / typical, *r[1:]) for r in rows]   # 1.0 = a normal pace; far below = words missing
 else:
-    import whisper
-    model = whisper.load_model('large-v3-turbo')
+    import mlx_whisper      # plain Whisper on the CPU took twenty seconds a clip; this takes one
     for n, (name, entry) in enumerate(sorted(manifest.items()), 1):
-        heard = model.transcribe(str(clips / name), language=lang, fp16=False)['text'].strip()
+        heard = mlx_whisper.transcribe(str(clips / name), path_or_hf_repo='mlx-community/whisper-large-v3-turbo', language=lang)['text'].strip()
         score = difflib.SequenceMatcher(None, bare(entry['spoken']), bare(heard)).ratio()
         rows.append((score, name, entry['spoken'], heard))
         if n % 100 == 0: print(f'  … {n} / {len(manifest)}', flush=True)

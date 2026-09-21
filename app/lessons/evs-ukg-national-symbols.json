@@ -83,7 +83,7 @@
   ],
   "steps": [
     {
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "hi": "हमारे देश का नाम भारत है। हर देश के अपने राष्ट्रीय प्रतीक होते हैं।",
         "en": "Our country is India. Every country has its own national symbols.",
@@ -94,7 +94,7 @@
     },
     {
       "highlight": "flag",
-      "duration": 10000,
+      "duration": 13500,
       "script": {
         "hi": "यह हमारा राष्ट्रीय ध्वज है — तिरंगा। इसमें केसरिया, सफ़ेद और हरा रंग है, और बीच में अशोक चक्र।",
         "en": "This is our national flag — the Tiranga. It is saffron, white and green, with the Ashoka Chakra in the middle.",

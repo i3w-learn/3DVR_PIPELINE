@@ -341,7 +341,7 @@
   },
   "eng-lkg-three-letter-words-s01.mp3": {
     "written": "Look: C, A, T.",
-    "spoken": "Look, see, ay, tee.",
+    "spoken": "Look, see, ayy, tee.",
     "provider": "indic"
   },
   "eng-lkg-three-letter-words-s02.mp3": {
@@ -566,17 +566,17 @@
   },
   "eng-nur-alphabets-s01.mp3": {
     "written": "This is capital A.",
-    "spoken": "This is capital ay.",
+    "spoken": "This is capital ayy.",
     "provider": "indic"
   },
   "eng-nur-alphabets-s02.mp3": {
     "written": "This is small a.",
-    "spoken": "This is small ay.",
+    "spoken": "This is small ayy.",
     "provider": "indic"
   },
   "eng-nur-alphabets-s03.mp3": {
     "written": "A for Apple.",
-    "spoken": "ay for Apple.",
+    "spoken": "ayy for Apple.",
     "provider": "indic"
   },
   "eng-nur-alphabets-s04.mp3": {
@@ -941,17 +941,17 @@
   },
   "eng-nur-alphabets-s76.mp3": {
     "written": "This is capital Z.",
-    "spoken": "This is capital zed.",
+    "spoken": "This is capital zedd.",
     "provider": "indic"
   },
   "eng-nur-alphabets-s77.mp3": {
     "written": "This is small z.",
-    "spoken": "This is small zed.",
+    "spoken": "This is small zedd.",
     "provider": "indic"
   },
   "eng-nur-alphabets-s78.mp3": {
     "written": "Z for Zebra.",
-    "spoken": "zed for Zebra.",
+    "spoken": "zedd for Zebra.",
     "provider": "indic"
   },
   "eng-nur-animal-sounds-s01.mp3": {
@@ -1621,7 +1621,7 @@
   },
   "eng-ukg-phonics-s02.mp3": {
     "written": "A says “a”. Say it with me.",
-    "spoken": "ay says a. Say it with me.",
+    "spoken": "ayy says a. Say it with me.",
     "provider": "indic"
   },
   "eng-ukg-phonics-s03.mp3": {
@@ -1771,7 +1771,7 @@
   },
   "eng-ukg-phonics-s32.mp3": {
     "written": "Z says “zuh”. Say it with me.",
-    "spoken": "zed says zuh. Say it with me.",
+    "spoken": "zedd says zuh. Say it with me.",
     "provider": "indic"
   },
   "evs-lkg-animal-babies-s01.mp3": {

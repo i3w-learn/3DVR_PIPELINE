@@ -118,7 +118,7 @@
   ],
   "steps": [
     {
-      "duration": 9000,
+      "duration": 10000,
       "script": {
         "hi": "यह सर्प-घर है। यहाँ साँप और दूसरे रेंगने वाले जानवर शीशे के पीछे रहते हैं।",
         "en": "This is the snake house. Snakes and other reptiles live here, behind glass.",
@@ -129,7 +129,7 @@
     },
     {
       "highlight": "tank1",
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "hi": "शीशा हमें सुरक्षित रखता है। हम सिर्फ़ देखते हैं, शीशे को थपथपाते नहीं।",
         "en": "The glass keeps us safe. We only look. We do not tap on the glass.",
@@ -187,7 +187,7 @@
       "audio": "evs-ukg-serpentarium-s06.mp3"
     },
     {
-      "duration": 10500,
+      "duration": 12500,
       "script": {
         "hi": "अगर बाहर कहीं साँप दिखे — उसे छूना नहीं, पास नहीं जाना। धीरे से दूर हटो और किसी बड़े को बताओ।",
         "en": "If you ever see a snake outside — do not touch it, do not go near. Move away slowly and tell a grown-up.",

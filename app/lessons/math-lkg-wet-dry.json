@@ -94,7 +94,7 @@
         "drycloth"
       ],
       "highlight": "wetcloth",
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "hi": "यह कपड़ा अभी धुला है। इससे पानी टपक रहा है। यह गीला है।",
         "en": "This cloth has just been washed. Water is dripping from it. It is wet.",

@@ -195,7 +195,7 @@
         "helicopter"
       ],
       "answer": "sky",
-      "duration": 12000,
+      "duration": 12500,
       "script": {
         "hi": "यह हेलीकॉप्टर है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
         "en": "This is a helicopter. Where does it go — on the road, on the water, or in the sky? Touch the right place.",
@@ -212,7 +212,7 @@
         "ship"
       ],
       "answer": "water",
-      "duration": 12000,
+      "duration": 12500,
       "script": {
         "hi": "यह जहाज़ है। यह कहाँ चलती है — सड़क पर, पानी पर, या आसमान में? सही जगह को छुओ।",
         "en": "This is a ship. Where does it go — on the road, on the water, or in the sky? Touch the right place.",

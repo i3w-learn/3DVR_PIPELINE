@@ -43,7 +43,7 @@
     {
       "highlight": "narrow",
       "against": "wide",
-      "duration": 7500,
+      "duration": 8000,
       "script": {
         "hi": "यह रास्ता पतला है। बस एक आदमी चल सकता है।",
         "en": "This path is narrow. Only one person can walk along it.",

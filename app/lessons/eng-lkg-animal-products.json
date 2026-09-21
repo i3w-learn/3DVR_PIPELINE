@@ -110,7 +110,7 @@
   ],
   "steps": [
     {
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "जानवर हमें बहुत कुछ देते हैं। देखो, कौन क्या देता है।",
         "en": "Animals give us many things. Let us see who gives us what.",

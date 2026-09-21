@@ -457,7 +457,7 @@
   "steps": [
     {
       "show": [],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "अब इक्यावन से सौ तक गिनें।",
         "en": "Now let us count from fifty-one to one hundred.",
@@ -474,7 +474,7 @@
         "n4",
         "n5"
       ],
-      "duration": 4500,
+      "duration": 5000,
       "script": {
         "hi": "51 से 55 तक।",
         "en": "51 to 55.",
@@ -1116,7 +1116,7 @@
         "n34",
         "n35"
       ],
-      "duration": 4500,
+      "duration": 5000,
       "script": {
         "hi": "81 से 85 तक।",
         "en": "81 to 85.",
@@ -1330,7 +1330,7 @@
         "n44",
         "n45"
       ],
-      "duration": 4500,
+      "duration": 5000,
       "script": {
         "hi": "91 से 95 तक।",
         "en": "91 to 95.",

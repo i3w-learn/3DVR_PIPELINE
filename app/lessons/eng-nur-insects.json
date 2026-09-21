@@ -96,7 +96,7 @@
         "butterfly",
         "ladybug"
       ],
-      "duration": 13000,
+      "duration": 14500,
       "script": {
         "hi": "ये कीड़े हैं। कीड़े बहुत छोटे होते हैं — यहाँ हमने इन्हें बड़ा करके दिखाया है। गिनो, हर कीड़े के छह पैर हैं।",
         "en": "These are insects. Insects are very small — here we have made them big so you can see. Count: every insect has six legs.",
@@ -164,7 +164,7 @@
         "butterfly",
         "ladybug"
       ],
-      "duration": 7500,
+      "duration": 8000,
       "script": {
         "hi": "यह लेडीबग है। इसकी लाल पीठ पर काले धब्बे हैं।",
         "en": "This is a ladybird. It has black spots on its red back.",
@@ -212,7 +212,7 @@
         "grasshopper",
         "housefly"
       ],
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "यह मक्खी है। मक्खी गंदगी पर बैठती है, इसलिए खाना ढककर रखो।",
         "en": "This is a housefly. It sits on dirt, so keep your food covered.",
