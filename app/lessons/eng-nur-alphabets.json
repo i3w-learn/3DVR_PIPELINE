@@ -23,10 +23,10 @@
     },
     {
       "id": "obja",
-      "model": "apple",
+      "model": "realapple",
       "position": "0.330 0.520 -0.720",
-      "scale": "3.226 3.226 3.226",
-      "ring": 0.174,
+      "scale": "3.750 3.750 3.750",
+      "ring": 0.158,
       "rotation": "0 35 0",
       "name": {
         "en": "Apple",
@@ -53,11 +53,11 @@
     },
     {
       "id": "objb",
-      "model": "banana",
+      "model": "realbanana",
       "position": "0.330 0.520 -0.720",
       "scale": "1.579 1.579 1.579",
-      "ring": 0.174,
-      "rotation": "0 55 0",
+      "ring": 0.18,
+      "rotation": "0 -35 0",
       "name": {
         "en": "Banana",
         "hi": "केला"
@@ -456,10 +456,10 @@
     },
     {
       "id": "objo",
-      "model": "orange",
+      "model": "realorange",
       "position": "0.330 0.520 -0.720",
-      "scale": "3.297 3.297 3.297",
-      "ring": 0.174,
+      "scale": "3.261 3.261 3.261",
+      "ring": 0.18,
       "rotation": "0 35 0",
       "name": {
         "en": "Orange",
@@ -703,10 +703,9 @@
     },
     {
       "id": "objw",
-      "model": "watermelon",
+      "model": "realwatermelon",
       "position": "0.330 0.520 -0.720",
-      "scale": "1.071 1.071 1.071",
-      "ring": 0.167,
+      "ring": 0.18,
       "rotation": "0 35 0",
       "name": {
         "en": "Watermelon",

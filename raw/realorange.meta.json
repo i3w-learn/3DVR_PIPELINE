@@ -1,0 +1,13 @@
+{
+  "id": "realorange",
+  "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/game-ready-fruit-vegetable-asset-pack-9846beef2c6b46caadc4a547a4dcd144",
+  "from": "packveg",
+  "keepNodes": [
+    "Mandarin Orange_Mandarin.001_0"
+  ],
+  "targetHeight": 0.07,
+  "fit": "height",
+  "yaw": 0
+}

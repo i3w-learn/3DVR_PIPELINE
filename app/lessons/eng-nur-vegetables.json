@@ -5,10 +5,10 @@
   "objects": [
     {
       "id": "carrot",
-      "model": "carrot",
+      "model": "realcarrot",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.104,
-      "scale": "1.76 1.76 1.76",
+      "ring": 0.211,
+      "scale": "1.956 1.956 1.956",
       "name": {
         "en": "Carrot",
         "hi": "गाजर"
@@ -16,10 +16,10 @@
     },
     {
       "id": "tomato",
-      "model": "tomato",
+      "model": "realtomato",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.167,
-      "scale": "2.84 2.84 2.84",
+      "ring": 0.162,
+      "scale": "3.800 3.800 3.800",
       "name": {
         "en": "Tomato",
         "hi": "टमाटर"
@@ -27,10 +27,10 @@
     },
     {
       "id": "onion",
-      "model": "onion",
+      "model": "realonion",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.165,
-      "scale": "3.38 3.38 3.38",
+      "ring": 0.118,
+      "scale": "3.380 3.380 3.380",
       "name": {
         "en": "Onion",
         "hi": "प्याज़"
@@ -38,10 +38,10 @@
     },
     {
       "id": "corn",
-      "model": "corn",
+      "model": "realcorn",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.167,
-      "scale": "1.35 1.35 1.35",
+      "ring": 0.162,
+      "scale": "1.350 1.350 1.350",
       "name": {
         "en": "Corn",
         "hi": "भुट्टा"
@@ -49,10 +49,10 @@
     },
     {
       "id": "cabbage",
-      "model": "cabbage",
+      "model": "realcabbage",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.167,
-      "scale": "1.21 1.21 1.21",
+      "ring": 0.162,
+      "scale": "1.178 1.178 1.178",
       "name": {
         "en": "Cabbage",
         "hi": "पत्तागोभी"
@@ -60,10 +60,10 @@
     },
     {
       "id": "cauliflower",
-      "model": "cauliflower",
+      "model": "realcauliflower",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.167,
-      "scale": "1.21 1.21 1.21",
+      "ring": 0.162,
+      "scale": "1.120 1.120 1.120",
       "name": {
         "en": "Cauliflower",
         "hi": "फूलगोभी"
@@ -71,10 +71,10 @@
     },
     {
       "id": "brinjal",
-      "model": "brinjal",
+      "model": "realbrinjal",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.089,
-      "scale": "1.35 1.35 1.35",
+      "ring": 0.162,
+      "scale": "1.080 1.080 1.080",
       "name": {
         "en": "Brinjal",
         "hi": "बैंगन"
@@ -82,10 +82,10 @@
     },
     {
       "id": "pumpkin",
-      "model": "pumpkin",
+      "model": "realpumpkin",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.167,
-      "scale": "1.04 1.04 1.04",
+      "ring": 0.138,
+      "scale": "1.082 1.082 1.082",
       "name": {
         "en": "Pumpkin",
         "hi": "कद्दू"

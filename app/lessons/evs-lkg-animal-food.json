@@ -43,10 +43,10 @@
     },
     {
       "id": "corn",
-      "model": "corn",
+      "model": "realcorn",
       "position": "-0.900 0.000 -3.100",
-      "scale": "2.100 2.100 2.100",
-      "ring": 0.244,
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.192,
       "name": {
         "en": "Grain",
         "hi": "दाना"
@@ -117,10 +117,10 @@
     },
     {
       "id": "carrot",
-      "model": "carrot",
+      "model": "realcarrot",
       "position": "2.900 0.000 -3.600",
-      "scale": "2.500 2.500 2.500",
-      "ring": 0.194,
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.173,
       "name": {
         "en": "Carrot",
         "hi": "गाजर"

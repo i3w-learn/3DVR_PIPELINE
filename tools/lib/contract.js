@@ -40,7 +40,7 @@ export class ContractError extends Error {
  * @param {{targetHeight: number, yaw: number}} sidecar
  * @returns {{scale: number, yaw: number, before: object, after: object}}
  */
-export function applyContract(document, { targetHeight, yaw = 0, fit = 'height' }) {
+export function applyContract(document, { targetHeight, yaw = 0, pitch = 0, fit = 'height' }) {
   const root = document.getRoot();
   const scene = root.getDefaultScene() ?? root.listScenes()[0];
 
@@ -62,7 +62,7 @@ export function applyContract(document, { targetHeight, yaw = 0, fit = 'height' 
   // Turn first, then measure. A bus modelled 26° off its axis has a different
   // bounding box once it is straightened, and a scale worked out from the
   // crooked box lands the straight bus at 8.4 m when 9 m was asked for.
-  wrapper.setRotation(yawQuaternion(yaw));
+  wrapper.setRotation(turnQuaternion(yaw, pitch));
   const turned = boundsOf(scene, document);
 
   // Height is the right dial for anything that stands up — an animal, a tree,
@@ -93,10 +93,20 @@ export function applyContract(document, { targetHeight, yaw = 0, fit = 'height' 
   return { scale, yaw, fit, before, after };
 }
 
-/** Quaternion for a rotation of `degrees` about Y. */
-function yawQuaternion(degrees) {
-  const half = (degrees * Math.PI) / 180 / 2;
-  return [0, Math.sin(half), 0, Math.cos(half)];
+/**
+ * Quaternion for tipping a model over by `pitch` about X, then turning it by
+ * `yaw` about Y.
+ *
+ * Pitch is for the thing that was modelled standing up and lies down in life:
+ * a cob of corn arrives on its end like a rocket. Almost nothing needs it.
+ */
+function turnQuaternion(yaw, pitch) {
+  const y = (yaw * Math.PI) / 180 / 2;
+  const x = (pitch * Math.PI) / 180 / 2;
+  const [sy, cy, sx, cx] = [Math.sin(y), Math.cos(y), Math.sin(x), Math.cos(x)];
+
+  // q = qYaw * qPitch
+  return [cy * sx, sy * cx, -sy * sx, cy * cx];
 }
 
 const longestSide = (b) => Math.max(b.max[0] - b.min[0], b.max[1] - b.min[1], b.max[2] - b.min[2]);

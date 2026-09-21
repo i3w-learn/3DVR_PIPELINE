@@ -243,8 +243,21 @@ function showName(el) {
 
   // Top of the object as it stands now, scale and all. A model that has not
   // arrived yet has no box; a hand's height is a fair guess until it does.
-  const peak = posedTop(el.object3D);
+  // The first step can start before the model has arrived. The ring and the
+  // contact shadow are already there, so measuring finds *something* — a box
+  // two centimetres tall — and the card goes up inside the apple. Guess for
+  // now, and put it up again, properly, once there is a mesh to measure.
+  const waiting = el.hasAttribute('gltf-model') && !el.getObject3D('mesh');
+  const peak = waiting ? NaN : posedTop(el.object3D);
   const base = el.object3D.position;
+
+  if (waiting) {
+    el.addEventListener('model-loaded', () => {
+      if (!el.hasAttribute('highlight') || el.parentNode !== stage) return;
+      for (const card of stage.querySelectorAll(`.${NAME_LABEL}`)) card.remove();
+      showName(el);
+    }, { once: true });
+  }
   const top = Number.isFinite(peak) ? peak - stage.object3D.getWorldPosition(new THREE.Vector3()).y : base.y + 0.2;
 
   // Sized by how far away it is. An 8 cm card is right over an apple at arm's

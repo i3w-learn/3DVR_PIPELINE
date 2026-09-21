@@ -33,10 +33,10 @@
     },
     {
       "id": "carrot",
-      "model": "carrot",
+      "model": "realcarrot",
       "position": "-0.500 0.520 -0.720",
-      "scale": "1.50 1.50 1.50",
-      "ring": 0.089,
+      "scale": "1.667 1.667 1.667",
+      "ring": 0.18,
       "name": {
         "en": "Carrot",
         "hi": "गाजर"
@@ -66,10 +66,10 @@
     },
     {
       "id": "tomato",
-      "model": "tomato",
+      "model": "realtomato",
       "position": "-0.500 0.910 -1.000",
-      "scale": "2.10 2.10 2.10",
-      "ring": 0.124,
+      "scale": "2.810 2.810 2.810",
+      "ring": 0.12,
       "name": {
         "en": "Tomato",
         "hi": "टमाटर"
@@ -77,10 +77,10 @@
     },
     {
       "id": "corn",
-      "model": "corn",
+      "model": "realcorn",
       "position": "0.000 0.910 -1.000",
-      "scale": "1.20 1.20 1.20",
-      "ring": 0.149,
+      "scale": "1.200 1.200 1.200",
+      "ring": 0.144,
       "name": {
         "en": "Corn",
         "hi": "भुट्टा"
@@ -88,10 +88,10 @@
     },
     {
       "id": "brinjal",
-      "model": "brinjal",
+      "model": "realbrinjal",
       "position": "0.500 0.910 -1.000",
-      "scale": "1.30 1.30 1.30",
-      "ring": 0.086,
+      "scale": "1.040 1.040 1.040",
+      "ring": 0.156,
       "name": {
         "en": "Brinjal",
         "hi": "बैंगन"

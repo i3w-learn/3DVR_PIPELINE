@@ -56,10 +56,10 @@
     },
     {
       "id": "kerala",
-      "model": "coconut",
+      "model": "realcoconut",
       "position": "2.300 1.170 -2.600",
-      "scale": "3.846 3.846 3.846",
-      "ring": 0.29,
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.105,
       "rotation": "0 30 0",
       "name": {
         "en": "Kerala",

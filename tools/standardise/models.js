@@ -28,7 +28,7 @@ import { applyContract, ContractError } from '../lib/contract.js';
 import { holdInPlace, keepOnlyClips } from '../lib/clips.js';
 import { normaliseMaterials } from '../lib/materials.js';
 import { smoothNormals } from '../lib/normals.js';
-import { dropNodes } from '../lib/subset.js';
+import { dropNodes, keepNodes } from '../lib/subset.js';
 import { measure } from '../lib/measure.js';
 import { MODELS_DIR, RAW_DIR, relative, shippedModel } from '../lib/paths.js';
 
@@ -86,7 +86,7 @@ async function main() {
  */
 async function standardise(id) {
   const sidecar = await readSidecar(id);
-  const source = await findRawFile(id);
+  const source = await findRawFile(sidecar.from ?? id);
 
   const document = await readDocument(source);
 
@@ -94,6 +94,7 @@ async function standardise(id) {
   // thing, and the parts we are not keeping must not influence the bounding
   // box the contract is about to scale by.
   const subset = dropNodes(document, sidecar.dropNodes);
+  subset.dropped.push(...keepNodes(document, sidecar.keepNodes).dropped);
 
   // Photoscanned assets arrive at film resolution — one tree can be 1.6 million
   // triangles against a whole-scene budget of 150,000. Simplifying is what
