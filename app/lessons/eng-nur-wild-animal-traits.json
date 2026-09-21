@@ -73,7 +73,7 @@
   ],
   "steps": [
     {
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "हर जंगली जानवर में कुछ ख़ास होता है। चलो देखें।",
         "en": "Every wild animal has something special. Let us look.",
@@ -117,7 +117,7 @@
     },
     {
       "highlight": "lion",
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "शेर की गर्दन पर घने बाल हैं। इसे अयाल कहते हैं।",
         "en": "The lion has thick hair round its neck. It is called a mane.",

@@ -69,7 +69,7 @@
     },
     {
       "at": "bow",
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "hi": "इसमें सात रंग हैं — लाल, नारंगी, पीला, हरा…",
         "en": "It has seven colours. From the top: red, orange, yellow, green…",

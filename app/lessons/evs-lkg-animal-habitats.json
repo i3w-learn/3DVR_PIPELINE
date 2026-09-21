@@ -128,7 +128,7 @@
   ],
   "steps": [
     {
-      "duration": 9500,
+      "duration": 10000,
       "script": {
         "hi": "हम घर में रहते हैं। जानवरों के भी घर होते हैं। देखो, कौन कहाँ रहता है।",
         "en": "We live in a house. Animals have homes too. Let us see who lives where.",

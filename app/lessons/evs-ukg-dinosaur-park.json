@@ -66,7 +66,7 @@
   ],
   "steps": [
     {
-      "duration": 15500,
+      "duration": 16500,
       "script": {
         "hi": "यह डायनासोर पार्क है। ये डायनासोर के पुतले हैं — असली नहीं। डायनासोर बहुत, बहुत पहले रहते थे। आज कोई डायनासोर ज़िंदा नहीं है।",
         "en": "This is the dinosaur park. These are models of dinosaurs — they are not real. Dinosaurs lived a very, very long time ago. No dinosaur is alive today.",
@@ -110,7 +110,7 @@
     },
     {
       "highlight": "apatosaurus",
-      "duration": 11000,
+      "duration": 12000,
       "script": {
         "hi": "यह अपैटोसॉरस है। इसकी गर्दन बहुत लंबी थी। यह सबसे बड़े डायनासोरों में से एक था।",
         "en": "This is Apatosaurus. It had a very long neck. It was one of the biggest dinosaurs of all.",
@@ -121,7 +121,7 @@
     },
     {
       "highlight": "trex",
-      "duration": 9500,
+      "duration": 10000,
       "script": {
         "hi": "यह टी-रेक्स है। इसके दाँत बहुत बड़े थे। यह दूसरे जानवरों को खाता था।",
         "en": "This is T-Rex. It had very big teeth. It ate other animals.",
@@ -131,7 +131,7 @@
       "audio": "evs-ukg-dinosaur-park-s06.mp3"
     },
     {
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "hi": "हमें डायनासोर के बारे में उनकी हड्डियों से पता चला, जो ज़मीन के नीचे मिलीं।",
         "en": "We know about dinosaurs from their bones, which were found under the ground.",

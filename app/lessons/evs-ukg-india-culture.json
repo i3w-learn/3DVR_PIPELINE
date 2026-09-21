@@ -101,7 +101,7 @@
   "steps": [
     {
       "highlight": "flag",
-      "duration": 10500,
+      "duration": 13000,
       "script": {
         "hi": "भारत में बहुत तरह के लोग रहते हैं। सबकी अपनी भाषा, अपना पहनावा और अपने त्योहार हैं।",
         "en": "Many kinds of people live in India. Each has their own language, their own dress and their own festivals.",
@@ -178,7 +178,7 @@
     },
     {
       "highlight": "flag",
-      "duration": 9000,
+      "duration": 10000,
       "script": {
         "hi": "हम अलग-अलग हैं, फिर भी हम सब एक हैं। हम सब भारतीय हैं।",
         "en": "We are all different, and still we are one. We are all Indian.",

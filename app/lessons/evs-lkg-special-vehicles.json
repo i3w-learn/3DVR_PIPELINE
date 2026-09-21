@@ -116,7 +116,7 @@
     },
     {
       "highlight": "bulldozer",
-      "duration": 8000,
+      "duration": 9500,
       "script": {
         "hi": "और यह बुलडोज़र है। यह मिट्टी हटाता है और सड़क बनाने में मदद करता है।",
         "en": "And this is a bulldozer. It pushes earth and helps to build roads.",
@@ -126,7 +126,7 @@
       "audio": "evs-lkg-special-vehicles-s06.mp3"
     },
     {
-      "duration": 8000,
+      "duration": 10000,
       "script": {
         "hi": "जब एम्बुलेंस या दमकल का सायरन बजे, तो सब उसे रास्ता देते हैं।",
         "en": "When an ambulance or a fire engine sounds its siren, everybody makes way.",

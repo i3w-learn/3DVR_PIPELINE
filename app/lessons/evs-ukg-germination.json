@@ -83,7 +83,7 @@
     },
     {
       "at": "root",
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "hi": "बीज पानी पीकर फूलता है। उसमें से एक छोटी जड़ नीचे की ओर निकलती है।",
         "en": "The seed drinks water and swells. A tiny root comes out and grows down.",
@@ -127,7 +127,7 @@
     },
     {
       "at": "plant",
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "hi": "बीज से पौधा बनने को अंकुरण कहते हैं। तुम भी एक बीज बोकर देखो!",
         "en": "A seed growing into a plant is called germination. Try sowing a seed yourself!",

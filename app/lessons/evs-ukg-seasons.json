@@ -103,7 +103,7 @@
   "steps": [
     {
       "show": [],
-      "duration": 8000,
+      "duration": 8500,
       "script": {
         "hi": "साल में तीन मौसम आते हैं — गर्मी, बरसात और सर्दी।",
         "en": "Three seasons come every year — summer, monsoon and winter.",
@@ -167,7 +167,7 @@
         "fog"
       ],
       "highlight": "bonfire",
-      "duration": 9000,
+      "duration": 10000,
       "script": {
         "hi": "सर्दी में ठंड लगती है। कोहरा छाता है, और हम आग तापते हैं।",
         "en": "In winter it is cold. The sky is grey, and we warm ourselves by a fire.",

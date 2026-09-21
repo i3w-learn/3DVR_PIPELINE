@@ -247,7 +247,7 @@
         "p4",
         "p5"
       ],
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "अब ये अक्षर देखो।",
         "en": "Now look at these letters.",
@@ -265,7 +265,7 @@
         "p4",
         "p5"
       ],
-      "duration": 5000,
+      "duration": 6000,
       "script": {
         "hi": "A की ध्वनि — a।",
         "en": "A says “a”. Say it with me.",
@@ -283,7 +283,7 @@
         "p4",
         "p5"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "B की ध्वनि — buh।",
         "en": "B says “buh”. Say it with me.",
@@ -301,7 +301,7 @@
         "p4",
         "p5"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "C की ध्वनि — kuh।",
         "en": "C says “kuh”. Say it with me.",
@@ -319,7 +319,7 @@
         "p4",
         "p5"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "D की ध्वनि — duh।",
         "en": "D says “duh”. Say it with me.",
@@ -337,7 +337,7 @@
         "p4",
         "p5"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "E की ध्वनि — eh।",
         "en": "E says “eh”. Say it with me.",
@@ -354,7 +354,7 @@
         "p9",
         "p10"
       ],
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "अब ये अक्षर देखो।",
         "en": "Now look at these letters.",
@@ -372,7 +372,7 @@
         "p9",
         "p10"
       ],
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "hi": "F की ध्वनि — fuh।",
         "en": "F says “fuh”. Say it with me.",
@@ -390,7 +390,7 @@
         "p9",
         "p10"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "G की ध्वनि — guh।",
         "en": "G says “guh”. Say it with me.",
@@ -408,7 +408,7 @@
         "p9",
         "p10"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "H की ध्वनि — huh।",
         "en": "H says “huh”. Say it with me.",
@@ -426,7 +426,7 @@
         "p9",
         "p10"
       ],
-      "duration": 5000,
+      "duration": 6500,
       "script": {
         "hi": "I की ध्वनि — ih।",
         "en": "I says “ih”. Say it with me.",
@@ -444,7 +444,7 @@
         "p9",
         "p10"
       ],
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "hi": "J की ध्वनि — juh।",
         "en": "J says “juh”. Say it with me.",
@@ -461,7 +461,7 @@
         "p14",
         "p15"
       ],
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "अब ये अक्षर देखो।",
         "en": "Now look at these letters.",
@@ -479,7 +479,7 @@
         "p14",
         "p15"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "K की ध्वनि — kuh।",
         "en": "K says “kuh”. Say it with me.",
@@ -497,7 +497,7 @@
         "p14",
         "p15"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "L की ध्वनि — luh।",
         "en": "L says “luh”. Say it with me.",
@@ -515,7 +515,7 @@
         "p14",
         "p15"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "M की ध्वनि — muh।",
         "en": "M says “muh”. Say it with me.",
@@ -533,7 +533,7 @@
         "p14",
         "p15"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "N की ध्वनि — nuh।",
         "en": "N says “nuh”. Say it with me.",
@@ -551,7 +551,7 @@
         "p14",
         "p15"
       ],
-      "duration": 5000,
+      "duration": 6000,
       "script": {
         "hi": "O की ध्वनि — oh।",
         "en": "O says “oh”. Say it with me.",
@@ -568,7 +568,7 @@
         "p19",
         "p20"
       ],
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "अब ये अक्षर देखो।",
         "en": "Now look at these letters.",
@@ -586,7 +586,7 @@
         "p19",
         "p20"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "P की ध्वनि — puh।",
         "en": "P says “puh”. Say it with me.",
@@ -604,7 +604,7 @@
         "p19",
         "p20"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "Q की ध्वनि — kwuh।",
         "en": "Q says “kwuh”. Say it with me.",
@@ -622,7 +622,7 @@
         "p19",
         "p20"
       ],
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "hi": "R की ध्वनि — ruh।",
         "en": "R says “ruh”. Say it with me.",
@@ -640,7 +640,7 @@
         "p19",
         "p20"
       ],
-      "duration": 5000,
+      "duration": 6000,
       "script": {
         "hi": "S की ध्वनि — sss।",
         "en": "S says “sss”. Say it with me.",
@@ -658,7 +658,7 @@
         "p19",
         "p20"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "T की ध्वनि — tuh।",
         "en": "T says “tuh”. Say it with me.",
@@ -675,7 +675,7 @@
         "p24",
         "p25"
       ],
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "अब ये अक्षर देखो।",
         "en": "Now look at these letters.",
@@ -693,7 +693,7 @@
         "p24",
         "p25"
       ],
-      "duration": 5000,
+      "duration": 6000,
       "script": {
         "hi": "U की ध्वनि — uh।",
         "en": "U says “uh”. Say it with me.",
@@ -729,7 +729,7 @@
         "p24",
         "p25"
       ],
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "hi": "W की ध्वनि — wuh।",
         "en": "W says “wuh”. Say it with me.",
@@ -747,7 +747,7 @@
         "p24",
         "p25"
       ],
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "X की ध्वनि — ks।",
         "en": "X says “ks”. Say it with me.",
@@ -765,7 +765,7 @@
         "p24",
         "p25"
       ],
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "hi": "Y की ध्वनि — yuh।",
         "en": "Y says “yuh”. Say it with me.",
@@ -778,7 +778,7 @@
       "show": [
         "p26"
       ],
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "अब ये अक्षर देखो।",
         "en": "Now look at these letters.",
@@ -792,7 +792,7 @@
       "show": [
         "p26"
       ],
-      "duration": 5000,
+      "duration": 6500,
       "script": {
         "hi": "Z की ध्वनि — zuh।",
         "en": "Z says “zuh”. Say it with me.",

@@ -27,7 +27,7 @@
       "audio": "physics_lab_s1.mp3"
     },
     {
-      "duration": 9000,
+      "duration": 10000,
       "script": {
         "en": "That little ball on a string is a pendulum. It swings to and fro.",
         "hi": "डोरी पर लटकी वह छोटी गेंद लोलक है। यह इधर-उधर झूलती है।",
@@ -38,7 +38,7 @@
       "highlight": "apparatus"
     },
     {
-      "duration": 9000,
+      "duration": 9500,
       "script": {
         "en": "The sloping board is a ramp. A ball rolls down it by itself.",
         "hi": "ढलान वाला तख़्ता रैंप है। गेंद उस पर अपने आप लुढ़कती है।",

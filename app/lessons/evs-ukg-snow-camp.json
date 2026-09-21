@@ -97,7 +97,7 @@
     },
     {
       "highlight": "pinetree",
-      "duration": 7000,
+      "duration": 8500,
       "script": {
         "hi": "यह देवदार का पेड़ है। इस पर बर्फ़ जमी है।",
         "en": "This is a pine tree, with snow on its branches.",

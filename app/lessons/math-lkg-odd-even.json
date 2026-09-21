@@ -139,7 +139,7 @@
       ],
       "tally": 2,
       "highlight": "p2",
-      "duration": 5000,
+      "duration": 6000,
       "script": {
         "hi": "2 — सम।",
         "en": "2 — even, every one has a pair.",
@@ -176,7 +176,7 @@
       ],
       "tally": 4,
       "highlight": "p4",
-      "duration": 5000,
+      "duration": 6000,
       "script": {
         "hi": "4 — सम।",
         "en": "4 — even, every one has a pair.",
@@ -196,7 +196,7 @@
       ],
       "tally": 5,
       "highlight": "p5",
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "5 — विषम।",
         "en": "5 — odd, one is left over.",
@@ -217,7 +217,7 @@
       ],
       "tally": 6,
       "highlight": "p6",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "hi": "6 — सम।",
         "en": "6 — even, every one has a pair.",
@@ -262,7 +262,7 @@
       ],
       "tally": 8,
       "highlight": "p8",
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "8 — सम।",
         "en": "8 — even, every one has a pair.",
@@ -286,7 +286,7 @@
       ],
       "tally": 9,
       "highlight": "p9",
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "9 — विषम।",
         "en": "9 — odd, one is left over.",
@@ -311,7 +311,7 @@
       ],
       "tally": 10,
       "highlight": "p10",
-      "duration": 5000,
+      "duration": 5500,
       "script": {
         "hi": "10 — सम।",
         "en": "10 — even, every one has a pair.",

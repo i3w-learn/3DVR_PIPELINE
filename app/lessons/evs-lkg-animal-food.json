@@ -121,7 +121,7 @@
   ],
   "steps": [
     {
-      "duration": 8500,
+      "duration": 9000,
       "script": {
         "hi": "सबको भूख लगती है — जानवरों को भी। देखो, कौन क्या खाता है।",
         "en": "Everybody gets hungry — animals too. Let us see who eats what.",

@@ -1,0 +1,5242 @@
+{
+  "chem_lab_s1.mp3": {
+    "written": "ଏହା ରସାୟନ ପରୀକ୍ଷାଗାର। ଏଠାରେ ଆମେ ପରୀକ୍ଷଣ କରୁ।",
+    "spoken": "ଏହା ରସାୟନ ପରୀକ୍ଷାଗାର. ଏଠାରେ ଆମେ ପରୀକ୍ଷଣ କରୁ.",
+    "provider": "indic"
+  },
+  "chem_lab_s2.mp3": {
+    "written": "ଥାକରେ ଥିବା କାଚ ବୋତଲ ଦେଖ। ଆମେ ସେଗୁଡ଼ିକୁ ଏକା କେବେ ଛୁଇଁ ନାହିଁ।",
+    "spoken": "ଥାକରେ ଥିବା କାଚ ବୋତଲ ଦେଖ. ଆମେ ସେଗୁଡ଼ିକୁ ଏକା କେବେ ଛୁଇଁ ନାହିଁ.",
+    "provider": "indic"
+  },
+  "chem_lab_s3.mp3": {
+    "written": "ଷ୍ଟାଣ୍ଡରେ ଥିବା ଲମ୍ବା ନଳୀକୁ ପରୀକ୍ଷା ନଳୀ କୁହାଯାଏ।",
+    "spoken": "ଷ୍ଟାଣ୍ଡରେ ଥିବା ଲମ୍ବା ନଳୀକୁ ପରୀକ୍ଷା ନଳୀ କୁହାଯାଏ.",
+    "provider": "indic"
+  },
+  "cow_about.mp3": {
+    "written": "ଏହା ଏକ ଗାଈ। ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ।",
+    "spoken": "ଏହା ଏକ ଗାଈ. ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ.",
+    "provider": "indic"
+  },
+  "cow.mp3": {
+    "written": "ଏହା ଏକ ଗାଈ।",
+    "spoken": "ଏହା ଏକ ଗାଈ.",
+    "provider": "indic"
+  },
+  "demo-home-s01.mp3": {
+    "written": "ଏହା ଏକ ଘର। ଆମେ ଏଠାରେ ରହୁ।",
+    "spoken": "ଏହା ଏକ ଘର. ଆମେ ଏଠାରେ ରହୁ.",
+    "provider": "indic"
+  },
+  "demo-home-s02.mp3": {
+    "written": "ଚୁଲି, ଆଲମାରି, ମସିଣା — ସବୁ ଗୋଟିଏ ଘରେ।",
+    "spoken": "ଚୁଲି, ଆଲମାରି, ମସିଣା, ସବୁ ଗୋଟିଏ ଘରେ.",
+    "provider": "indic"
+  },
+  "demo-india-flag.mp3": {
+    "written": "ଏହା ଆମର ଜାତୀୟ ପତାକା — ତ୍ରିରଙ୍ଗା।",
+    "spoken": "ଏହା ଆମର ଜାତୀୟ ପତାକା, ତ୍ରିରଙ୍ଗା.",
+    "provider": "indic"
+  },
+  "demo-india-s01.mp3": {
+    "written": "ଏହା ଆମ ପ୍ରାଙ୍ଗଣ। ମଝିରେ ଆମ ପତାକାର ଚକ୍ର ଅଛି।",
+    "spoken": "ଏହା ଆମ ପ୍ରାଙ୍ଗଣ. ମଝିରେ ଆମ ପତାକାର ଚକ୍ର ଅଛି.",
+    "provider": "indic"
+  },
+  "demo-india-s02.mp3": {
+    "written": "ଏହି ଚଉତରା ଉପରେ ଆମର ଜାତୀୟ ପ୍ରତୀକ ରଖାଯିବ।",
+    "spoken": "ଏହି ଚଉତରା ଉପରେ ଆମର ଜାତୀୟ ପ୍ରତୀକ ରଖାଯିବ.",
+    "provider": "indic"
+  },
+  "demo-sky-s01.mp3": {
+    "written": "ଆମେ ବେଲୁନରେ ଅଛୁ। ତଳକୁ ଦେଖ — ଭୂଇଁ ବହୁତ ତଳେ।",
+    "spoken": "ଆମେ ବେଲୁନରେ ଅଛୁ. ତଳକୁ ଦେଖ, ଭୂଇଁ ବହୁତ ତଳେ.",
+    "provider": "indic"
+  },
+  "demo-sky-s02.mp3": {
+    "written": "ମେଘ ଆମ ପାଖ ଦେଇ ଯାଉଛି। ମୁଣ୍ଡ ବୁଲାଇ ଚାରିଆଡ଼େ ଦେଖ।",
+    "spoken": "ମେଘ ଆମ ପାଖ ଦେଇ ଯାଉଛି. ମୁଣ୍ଡ ବୁଲାଇ ଚାରିଆଡ଼େ ଦେଖ.",
+    "provider": "indic"
+  },
+  "demo-snow-s01.mp3": {
+    "written": "ଏହା ବରଫ। ସବୁ କିଛି ଧଳା ଆଉ ଶାନ୍ତ।",
+    "spoken": "ଏହା ବରଫ. ସବୁ କିଛି ଧଳା ଆଉ ଶାନ୍ତ.",
+    "provider": "indic"
+  },
+  "demo-snow-s02.mp3": {
+    "written": "ଏଠି ଆମ ତମ୍ବୁ, ଆଉ ଏଠି ଆମକୁ ଉଷୁମ ରଖୁଥିବା ନିଆଁ।",
+    "spoken": "ଏଠି ଆମ ତମ୍ବୁ, ଆଉ ଏଠି ଆମକୁ ଉଷୁମ ରଖୁଥିବା ନିଆଁ.",
+    "provider": "indic"
+  },
+  "demo-street-s01.mp3": {
+    "written": "ଏହା ଏକ ରାସ୍ତା, ଦୁଇ ପଟେ ଦୋକାନ ଅଛି।",
+    "spoken": "ଏହା ଏକ ରାସ୍ତା, ଦୁଇ ପଟେ ଦୋକାନ ଅଛି.",
+    "provider": "indic"
+  },
+  "demo-street-s02.mp3": {
+    "written": "ଗୋଟିଏ ଦୋକାନ, ଗୋଟିଏ ଡାକ୍ତରଖାନା, ଗୋଟିଏ ଡାକଘର ଆଉ ଗୋଟିଏ ବ୍ୟାଙ୍କ।",
+    "spoken": "ଗୋଟିଏ ଦୋକାନ, ଗୋଟିଏ ଡାକ୍ତରଖାନା, ଗୋଟିଏ ଡାକଘର ଆଉ ଗୋଟିଏ ବ୍ୟାଙ୍କ.",
+    "provider": "indic"
+  },
+  "demo-water-s01.mp3": {
+    "written": "ଏହା ଏକ ପୋଖରୀ। ପାଣି ହଲୁଥିବା ଦେଖ।",
+    "spoken": "ଏହା ଏକ ପୋଖରୀ. ପାଣି ହଲୁଥିବା ଦେଖ.",
+    "provider": "indic"
+  },
+  "demo-water-s02.mp3": {
+    "written": "କୂଳରେ ନଳ ଗଛ ବଢ଼ିଛି। ସେପାରି କୂଳକୁ ଦେଖ।",
+    "spoken": "କୂଳରେ ନଳ ଗଛ ବଢ଼ିଛି. ସେପାରି କୂଳକୁ ଦେଖ.",
+    "provider": "indic"
+  },
+  "elephant_about.mp3": {
+    "written": "ଏହା ଏକ ହାତୀ। ହାତୀ ବହୁତ ବଡ଼।",
+    "spoken": "ଏହା ଏକ ହାତୀ. ହାତୀ ବହୁତ ବଡ଼.",
+    "provider": "indic"
+  },
+  "elephant.mp3": {
+    "written": "ଏହା ଏକ ହାତୀ।",
+    "spoken": "ଏହା ଏକ ହାତୀ.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s01.mp3": {
+    "written": "ପଶୁମାନେ ଆମକୁ ବହୁତ କିଛି ଦିଅନ୍ତି। ଆସ ଦେଖିବା, କିଏ କଣ ଦିଏ।",
+    "spoken": "ପଶୁମାନେ ଆମକୁ ବହୁତ କିଛି ଦିଅନ୍ତି. ଆସ ଦେଖିବା, କିଏ କଣ ଦିଏ.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s02.mp3": {
+    "written": "ଏହା ଏକ ଗାଈ।",
+    "spoken": "ଏହା ଏକ ଗାଈ.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s03.mp3": {
+    "written": "ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ।",
+    "spoken": "ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s04.mp3": {
+    "written": "ଏହା ଏକ କୁକୁଡ଼ା।",
+    "spoken": "ଏହା ଏକ କୁକୁଡ଼ା.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s05.mp3": {
+    "written": "କୁକୁଡ଼ା ଆମକୁ ଅଣ୍ଡା ଦିଏ।",
+    "spoken": "କୁକୁଡ଼ା ଆମକୁ ଅଣ୍ଡା ଦିଏ.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s06.mp3": {
+    "written": "ଏହା ଏକ ମେଣ୍ଢା।",
+    "spoken": "ଏହା ଏକ ମେଣ୍ଢା.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s07.mp3": {
+    "written": "ମେଣ୍ଢା ଆମକୁ ପଶମ ଦିଏ। ପଶମରୁ ସ୍ୱେଟର ତିଆରି ହୁଏ।",
+    "spoken": "ମେଣ୍ଢା ଆମକୁ ପଶମ ଦିଏ. ପଶମରୁ ସ୍ୱେଟର ତିଆରି ହୁଏ.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s08.mp3": {
+    "written": "ଏହା ଏକ ମହୁମାଛି।",
+    "spoken": "ଏହା ଏକ ମହୁମାଛି.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s09.mp3": {
+    "written": "ମହୁମାଛି ଫୁଲରୁ ରସ ସଂଗ୍ରହ କରେ।",
+    "spoken": "ମହୁମାଛି ଫୁଲରୁ ରସ ସଂଗ୍ରହ କରେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-products-s10.mp3": {
+    "written": "ମହୁମାଛି ଆମକୁ ମହୁ ଦିଏ।",
+    "spoken": "ମହୁମାଛି ଆମକୁ ମହୁ ଦିଏ.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-sound-names-s01.mp3": {
+    "written": "ପ୍ରତ୍ୟେକ ପଶୁର ଡାକର ଗୋଟିଏ ନାଁ ଅଛି।",
+    "spoken": "ପ୍ରତ୍ୟେକ ପଶୁର ଡାକର ଗୋଟିଏ ନାଁ ଅଛି.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-sound-names-s02.mp3": {
+    "written": "ଗାଈ ହମ୍ବା କରେ। ଛେଳି ମେଁ ମେଁ କରେ।",
+    "spoken": "ଗାଈ ହମ୍ବା କରେ. ଛେଳି ମେଁ ମେଁ କରେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-animal-sound-names-s03.mp3": {
+    "written": "ଘୋଡ଼ା ହିଁ ହିଁ କରେ। କୁକୁଡ଼ା କକ୍ କକ୍ କରେ।",
+    "spoken": "ଘୋଡ଼ା ହିଁ ହିଁ କରେ. କୁକୁଡ଼ା କକ୍ କକ୍ କରେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s01.mp3": {
+    "written": "ସପ୍ତାହରେ ସାତ ଦିନ ଥାଏ। ପ୍ରଥମ ଦିନ ସୋମବାର।",
+    "spoken": "ସପ୍ତାହରେ ସାତ ଦିନ ଥାଏ. ପ୍ରଥମ ଦିନ ସୋମବାର.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s02.mp3": {
+    "written": "ସୋମବାର ପରେ ମଙ୍ଗଳବାର ଆସେ।",
+    "spoken": "ସୋମବାର ପରେ ମଙ୍ଗଳବାର ଆସେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s03.mp3": {
+    "written": "ମଙ୍ଗଳବାର ପରେ ବୁଧବାର ଆସେ।",
+    "spoken": "ମଙ୍ଗଳବାର ପରେ ବୁଧବାର ଆସେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s04.mp3": {
+    "written": "ବୁଧବାର ପରେ ଗୁରୁବାର ଆସେ।",
+    "spoken": "ବୁଧବାର ପରେ ଗୁରୁବାର ଆସେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s05.mp3": {
+    "written": "ଗୁରୁବାର ପରେ ଶୁକ୍ରବାର ଆସେ।",
+    "spoken": "ଗୁରୁବାର ପରେ ଶୁକ୍ରବାର ଆସେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s06.mp3": {
+    "written": "ଶୁକ୍ରବାର ପରେ ଶନିବାର ଆସେ।",
+    "spoken": "ଶୁକ୍ରବାର ପରେ ଶନିବାର ଆସେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s07.mp3": {
+    "written": "ଶନିବାର ପରେ ରବିବାର ଆସେ।",
+    "spoken": "ଶନିବାର ପରେ ରବିବାର ଆସେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-days-week-s08.mp3": {
+    "written": "ସୋମବାରରୁ ରବିବାର — ଏହା ହେଲା ପୂରା ସପ୍ତାହ।",
+    "spoken": "ସୋମବାରରୁ ରବିବାର, ଏହା ହେଲା ପୂରା ସପ୍ତାହ.",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s01.mp3": {
+    "written": "ଚା ଗରମ। ସାବଧାନ!",
+    "spoken": "ଚା ଗରମ. ସାବଧାନ!",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s02.mp3": {
+    "written": "ଆଇସକ୍ରିମ ଥଣ୍ଡା।",
+    "spoken": "ଆଇସକ୍ରିମ ଥଣ୍ଡା.",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s03.mp3": {
+    "written": "ଚୁଲିରୁ ଓହ୍ଲାଇଥିବା ହାଣ୍ଡି ଗରମ।",
+    "spoken": "ଚୁଲିରୁ ଓହ୍ଲାଇଥିବା ହାଣ୍ଡି ଗରମ.",
+    "provider": "indic"
+  },
+  "eng-lkg-hot-cold-s04.mp3": {
+    "written": "ବରଫ କାଠି ଥଣ୍ଡା।",
+    "spoken": "ବରଫ କାଠି ଥଣ୍ଡା.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s01.mp3": {
+    "written": "ନାଲି ବଲ ଟେବୁଲ ଉପରେ ଅଛି।",
+    "spoken": "ନାଲି ବଲ ଟେବୁଲ ଉପରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s02.mp3": {
+    "written": "ନୀଳ ବଲ ଟେବୁଲ ତଳେ ଅଛି।",
+    "spoken": "ନୀଳ ବଲ ଟେବୁଲ ତଳେ ଅଛି.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s03.mp3": {
+    "written": "ହଳଦିଆ ବଲ ଟବ ଭିତରେ ଅଛି।",
+    "spoken": "ହଳଦିଆ ବଲ ଟବ ଭିତରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "eng-lkg-in-on-under-s04.mp3": {
+    "written": "ଉପରେ। ତଳେ। ଭିତରେ।",
+    "spoken": "ଉପରେ. ତଳେ. ଭିତରେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s01.mp3": {
+    "written": "ବର୍ଷରେ ବାର ମାସ ଥାଏ। ପ୍ରଥମ ମାସ ଜାନୁଆରୀ।",
+    "spoken": "ବର୍ଷରେ ବାର ମାସ ଥାଏ. ପ୍ରଥମ ମାସ ଜାନୁଆରୀ.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s02.mp3": {
+    "written": "ତାପରେ ଫେବୃଆରୀ।",
+    "spoken": "ତାପରେ ଫେବୃଆରୀ.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s03.mp3": {
+    "written": "ତାପରେ ମାର୍ଚ୍ଚ।",
+    "spoken": "ତାପରେ ମାର୍ଚ୍ଚ.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s04.mp3": {
+    "written": "ତାପରେ ଅପ୍ରେଲ।",
+    "spoken": "ତାପରେ ଅପ୍ରେଲ.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s05.mp3": {
+    "written": "ତାପରେ ମଇ।",
+    "spoken": "ତାପରେ ମଇ.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s06.mp3": {
+    "written": "ତାପରେ ଜୁନ।",
+    "spoken": "ତାପରେ ଜୁନ.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s07.mp3": {
+    "written": "ତାପରେ ଜୁଲାଇ।",
+    "spoken": "ତାପରେ ଜୁଲାଇ.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s08.mp3": {
+    "written": "ତାପରେ ଅଗଷ୍ଟ।",
+    "spoken": "ତାପରେ ଅଗଷ୍ଟ.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s09.mp3": {
+    "written": "ତାପରେ ସେପ୍ଟେମ୍ବର।",
+    "spoken": "ତାପରେ ସେପ୍ଟେମ୍ବର.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s10.mp3": {
+    "written": "ତାପରେ ଅକ୍ଟୋବର।",
+    "spoken": "ତାପରେ ଅକ୍ଟୋବର.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s11.mp3": {
+    "written": "ତାପରେ ନଭେମ୍ବର।",
+    "spoken": "ତାପରେ ନଭେମ୍ବର.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s12.mp3": {
+    "written": "ତାପରେ ଡିସେମ୍ବର।",
+    "spoken": "ତାପରେ ଡିସେମ୍ବର.",
+    "provider": "indic"
+  },
+  "eng-lkg-months-year-s13.mp3": {
+    "written": "ଜାନୁଆରୀରୁ ଡିସେମ୍ବର — ଏହା ହେଲା ପୂରା ବର୍ଷ।",
+    "spoken": "ଜାନୁଆରୀରୁ ଡିସେମ୍ବର, ଏହା ହେଲା ପୂରା ବର୍ଷ.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s01.mp3": {
+    "written": "ନମସ୍କାର! ମୋ ନାଁ ମୀନା। ମୋତେ ଚାରି ବର୍ଷ। ମୁଁ ଜଣେ ଝିଅ।",
+    "spoken": "ନମସ୍କାର! ମୋ ନାଁ ମୀନା. ମୋତେ ଚାରି ବର୍ଷ. ମୁଁ ଜଣେ ଝିଅ.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s02.mp3": {
+    "written": "ଏ ମୋ ମାଆ।",
+    "spoken": "ଏ ମୋ ମାଆ.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s03.mp3": {
+    "written": "ଏ ମୋ ବାପା।",
+    "spoken": "ଏ ମୋ ବାପା.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s04.mp3": {
+    "written": "ଏ ମୋ ଭାଇ ରାଜୁ।",
+    "spoken": "ଏ ମୋ ଭାଇ ରାଜୁ.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s05.mp3": {
+    "written": "ଏହା ମୋ ଘର। ମୁଁ ମୋ ପରିବାର ସହ ଏଠାରେ ରହେ।",
+    "spoken": "ଏହା ମୋ ଘର. ମୁଁ ମୋ ପରିବାର ସହ ଏଠାରେ ରହେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-myself-s06.mp3": {
+    "written": "ଏବେ ତୁମେ କୁହ — ତୁମ ନାଁ କଣ? ତୁମକୁ କେତେ ବର୍ଷ?",
+    "spoken": "ଏବେ ତୁମେ କୁହ, ତୁମ ନାଁ କଣ? ତୁମକୁ କେତେ ବର୍ଷ?",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s01.mp3": {
+    "written": "ଦେଖ — C, A, T।",
+    "spoken": "ଦେଖ, ସି, ଏ,ଟି.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s02.mp3": {
+    "written": "ମିଶି ହେଲା CAT — ମାନେ ବିଲେଇ।",
+    "spoken": "ମିଶି ହେଲା କ୍ୟାଟ, ମାନେ ବିଲେଇ.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s03.mp3": {
+    "written": "ଦେଖ — D, O, G।",
+    "spoken": "ଦେଖ, ଡି, ଓ, ଜି.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s04.mp3": {
+    "written": "ମିଶି ହେଲା DOG — ମାନେ କୁକୁର।",
+    "spoken": "ମିଶି ହେଲା ଡଗ, ମାନେ କୁକୁର.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s05.mp3": {
+    "written": "ଦେଖ — S, U, N।",
+    "spoken": "ଦେଖ, ଏସ, ୟୁ, ଏନ.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s06.mp3": {
+    "written": "ମିଶି ହେଲା SUN — ମାନେ ସୂର୍ଯ୍ୟ।",
+    "spoken": "ମିଶି ହେଲା ସନ, ମାନେ ସୂର୍ଯ୍ୟ.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s07.mp3": {
+    "written": "ଦେଖ — C, U, P।",
+    "spoken": "ଦେଖ, ସି, ୟୁ, ପି.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s08.mp3": {
+    "written": "ମିଶି ହେଲା CUP — ମାନେ କପ।",
+    "spoken": "ମିଶି ହେଲା କପ, ମାନେ କପ.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s09.mp3": {
+    "written": "ଦେଖ — H, E, N।",
+    "spoken": "ଦେଖ, ଏଚ, ଇ, ଏନ.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s10.mp3": {
+    "written": "ମିଶି ହେଲା HEN — ମାନେ କୁକୁଡ଼ା।",
+    "spoken": "ମିଶି ହେଲା ହେନ, ମାନେ କୁକୁଡ଼ା.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s11.mp3": {
+    "written": "ଦେଖ — B, U, S।",
+    "spoken": "ଦେଖ, ବି, ୟୁ, ଏସ.",
+    "provider": "indic"
+  },
+  "eng-lkg-three-letter-words-s12.mp3": {
+    "written": "ମିଶି ହେଲା BUS — ମାନେ ବସ।",
+    "spoken": "ମିଶି ହେଲା ବସ, ମାନେ ବସ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s01.mp3": {
+    "written": "ଏହା ଏକ କାର। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।",
+    "spoken": "ଏହା ଏକ କାର. ଏହା କେଉଁଠି ଚାଲେ, ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s02.mp3": {
+    "written": "ଏହା ଏକ ଡଙ୍ଗା। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।",
+    "spoken": "ଏହା ଏକ ଡଙ୍ଗା. ଏହା କେଉଁଠି ଚାଲେ, ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s03.mp3": {
+    "written": "ଏହା ଏକ ଉଡ଼ାଜାହାଜ। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।",
+    "spoken": "ଏହା ଏକ ଉଡ଼ାଜାହାଜ. ଏହା କେଉଁଠି ଚାଲେ, ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s04.mp3": {
+    "written": "ଏହା ଏକ ବସ। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।",
+    "spoken": "ଏହା ଏକ ବସ. ଏହା କେଉଁଠି ଚାଲେ, ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s05.mp3": {
+    "written": "ଏହା ଏକ ହେଲିକପ୍ଟର। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।",
+    "spoken": "ଏହା ଏକ ହେଲିକପ୍ଟର. ଏହା କେଉଁଠି ଚାଲେ, ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-sort-s06.mp3": {
+    "written": "ଏହା ଏକ ଜାହାଜ। ଏହା କେଉଁଠି ଚାଲେ — ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ।",
+    "spoken": "ଏହା ଏକ ଜାହାଜ. ଏହା କେଉଁଠି ଚାଲେ, ରାସ୍ତାରେ, ପାଣିରେ, ନା ଆକାଶରେ? ଠିକ ଜାଗାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s01.mp3": {
+    "written": "ଆମେ ଗୋଟିଏ ଜାଗାରୁ ଆଉ ଗୋଟିଏ ଜାଗାକୁ କେମିତି ଯାଉ? ଯାନବାହାନରେ! କିଛି ରାସ୍ତାରେ ଚାଲେ, କିଛି ପାଣିରେ, ଆଉ କିଛି ଆକାଶରେ।",
+    "spoken": "ଆମେ ଗୋଟିଏ ଜାଗାରୁ ଆଉ ଗୋଟିଏ ଜାଗାକୁ କେମିତି ଯାଉ? ଯାନବାହାନରେ! କିଛି ରାସ୍ତାରେ ଚାଲେ, କିଛି ପାଣିରେ, ଆଉ କିଛି ଆକାଶରେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s02.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ରାସ୍ତାରେ ଚାଲେ।",
+    "spoken": "ଏଗୁଡ଼ିକ ରାସ୍ତାରେ ଚାଲେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s03.mp3": {
+    "written": "ଏହା ଏକ କାର।",
+    "spoken": "ଏହା ଏକ କାର.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s04.mp3": {
+    "written": "ଏହା ଏକ ବସ।",
+    "spoken": "ଏହା ଏକ ବସ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s05.mp3": {
+    "written": "ଏହା ଏକ ସାଇକେଲ।",
+    "spoken": "ଏହା ଏକ ସାଇକେଲ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s06.mp3": {
+    "written": "ଏହା ଏକ ରେଳଗାଡ଼ି।",
+    "spoken": "ଏହା ଏକ ରେଳଗାଡ଼ି.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s07.mp3": {
+    "written": "ଏହା ଏକ ଅଟୋ।",
+    "spoken": "ଏହା ଏକ ଅଟୋ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s08.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ପାଣିରେ ଚାଲେ।",
+    "spoken": "ଏଗୁଡ଼ିକ ପାଣିରେ ଚାଲେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s09.mp3": {
+    "written": "ଏହା ଏକ ଡଙ୍ଗା।",
+    "spoken": "ଏହା ଏକ ଡଙ୍ଗା.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s10.mp3": {
+    "written": "ଏହା ଏକ ଜାହାଜ।",
+    "spoken": "ଏହା ଏକ ଜାହାଜ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s11.mp3": {
+    "written": "ଏହା ଏକ ପାଲ ଡଙ୍ଗା।",
+    "spoken": "ଏହା ଏକ ପାଲ ଡଙ୍ଗା.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s12.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ଆକାଶରେ ଉଡ଼େ।",
+    "spoken": "ଏଗୁଡ଼ିକ ଆକାଶରେ ଉଡ଼େ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s13.mp3": {
+    "written": "ଏହା ଏକ ଉଡ଼ାଜାହାଜ।",
+    "spoken": "ଏହା ଏକ ଉଡ଼ାଜାହାଜ.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s14.mp3": {
+    "written": "ଏହା ଏକ ହେଲିକପ୍ଟର।",
+    "spoken": "ଏହା ଏକ ହେଲିକପ୍ଟର.",
+    "provider": "indic"
+  },
+  "eng-lkg-transport-types-s15.mp3": {
+    "written": "ଏହା ଏକ ରକେଟ।",
+    "spoken": "ଏହା ଏକ ରକେଟ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s01.mp3": {
+    "written": "ଦେଖ — I ଆଉ N।",
+    "spoken": "ଦେଖ, ଆଇ ଆଉ ଏନ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s02.mp3": {
+    "written": "ମିଶି ହେଲା IN — ମାନେ ଭିତରେ।",
+    "spoken": "ମିଶି ହେଲା ଇନ, ମାନେ ଭିତରେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s03.mp3": {
+    "written": "ଦେଖ — O ଆଉ N।",
+    "spoken": "ଦେଖ, ଓ ଆଉ ଏନ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s04.mp3": {
+    "written": "ମିଶି ହେଲା ON — ମାନେ ଉପରେ।",
+    "spoken": "ମିଶି ହେଲା ଅନ, ମାନେ ଉପରେ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s05.mp3": {
+    "written": "ଦେଖ — U ଆଉ P।",
+    "spoken": "ଦେଖ, ୟୁ ଆଉ ପି.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s06.mp3": {
+    "written": "ମିଶି ହେଲା UP — ମାନେ ଉପରକୁ।",
+    "spoken": "ମିଶି ହେଲା ଅପ, ମାନେ ଉପରକୁ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s07.mp3": {
+    "written": "ଦେଖ — G ଆଉ O।",
+    "spoken": "ଦେଖ, ଜି ଆଉ ଓ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s08.mp3": {
+    "written": "ମିଶି ହେଲା GO — ମାନେ ଯାଅ।",
+    "spoken": "ମିଶି ହେଲା ଗୋ, ମାନେ ଯାଅ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s09.mp3": {
+    "written": "ଦେଖ — N ଆଉ O।",
+    "spoken": "ଦେଖ, ଏନ ଆଉ ଓ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s10.mp3": {
+    "written": "ମିଶି ହେଲା NO — ମାନେ ନା।",
+    "spoken": "ମିଶି ହେଲା ନୋ, ମାନେ ନା.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s11.mp3": {
+    "written": "ଦେଖ — W ଆଉ E।",
+    "spoken": "ଦେଖ, ଡବ୍ଲ୍ୟୁ ଆଉ ଇ.",
+    "provider": "indic"
+  },
+  "eng-lkg-two-letter-words-s12.mp3": {
+    "written": "ମିଶି ହେଲା WE — ମାନେ ଆମେ।",
+    "spoken": "ମିଶି ହେଲା ୱି, ମାନେ ଆମେ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s01.mp3": {
+    "written": "ଏହା ବଡ଼ A।",
+    "spoken": "ଏହା ବଡ଼ ଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s02.mp3": {
+    "written": "ଏହା ଛୋଟ a।",
+    "spoken": "ଏହା ଛୋଟ ଆ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s03.mp3": {
+    "written": "A — Apple, ମାନେ ସେଓ।",
+    "spoken": "ଏ, ଆପଲ, ମାନେ ସେଓ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s04.mp3": {
+    "written": "ଏହା ବଡ଼ B।",
+    "spoken": "ଏହା ବଡ଼ ବି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s05.mp3": {
+    "written": "ଏହା ଛୋଟ b।",
+    "spoken": "ଏହା ଛୋଟ ବି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s06.mp3": {
+    "written": "B — Banana, ମାନେ କଦଳୀ।",
+    "spoken": "ବି, ବନାନା, ମାନେ କଦଳୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s07.mp3": {
+    "written": "ଏହା ବଡ଼ C।",
+    "spoken": "ଏହା ବଡ଼ ସି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s08.mp3": {
+    "written": "ଏହା ଛୋଟ c।",
+    "spoken": "ଏହା ଛୋଟ ସି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s09.mp3": {
+    "written": "C — Cat, ମାନେ ବିଲେଇ।",
+    "spoken": "ସି, କ୍ୟାଟ, ମାନେ ବିଲେଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s10.mp3": {
+    "written": "ଏହା ବଡ଼ D।",
+    "spoken": "ଏହା ବଡ଼ ଡି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s11.mp3": {
+    "written": "ଏହା ଛୋଟ d।",
+    "spoken": "ଏହା ଛୋଟ ଡି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s12.mp3": {
+    "written": "D — Dog, ମାନେ କୁକୁର।",
+    "spoken": "ଡି, ଡଗ, ମାନେ କୁକୁର.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s13.mp3": {
+    "written": "ଏହା ବଡ଼ E।",
+    "spoken": "ଏହା ବଡ଼ ଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s14.mp3": {
+    "written": "ଏହା ଛୋଟ e।",
+    "spoken": "ଏହା ଛୋଟ ଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s15.mp3": {
+    "written": "E — Elephant, ମାନେ ହାତୀ।",
+    "spoken": "ଇ, ଏଲିଫାଣ୍ଟ, ମାନେ ହାତୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s16.mp3": {
+    "written": "ଏହା ବଡ଼ F।",
+    "spoken": "ଏହା ବଡ଼ ଏଫ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s17.mp3": {
+    "written": "ଏହା ଛୋଟ f।",
+    "spoken": "ଏହା ଛୋଟ ଏଫ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s18.mp3": {
+    "written": "F — Fish, ମାନେ ମାଛ।",
+    "spoken": "ଏଫ, ଫିସ, ମାନେ ମାଛ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s19.mp3": {
+    "written": "ଏହା ବଡ଼ G।",
+    "spoken": "ଏହା ବଡ଼ ଜି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s20.mp3": {
+    "written": "ଏହା ଛୋଟ g।",
+    "spoken": "ଏହା ଛୋଟ ଜି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s21.mp3": {
+    "written": "G — Goat, ମାନେ ଛେଳି।",
+    "spoken": "ଜି, ଗୋଟ, ମାନେ ଛେଳି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s22.mp3": {
+    "written": "ଏହା ବଡ଼ H।",
+    "spoken": "ଏହା ବଡ଼ ଏଚ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s23.mp3": {
+    "written": "ଏହା ଛୋଟ h।",
+    "spoken": "ଏହା ଛୋଟ ଏଚ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s24.mp3": {
+    "written": "H — Hen, ମାନେ କୁକୁଡ଼ା।",
+    "spoken": "ଏଚ, ହେନ, ମାନେ କୁକୁଡ଼ା.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s25.mp3": {
+    "written": "ଏହା ବଡ଼ I।",
+    "spoken": "ଏହା ବଡ଼ ଆଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s26.mp3": {
+    "written": "ଏହା ଛୋଟ i।",
+    "spoken": "ଏହା ଛୋଟ ଆଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s27.mp3": {
+    "written": "I — Ice cream, ମାନେ ଆଇସକ୍ରିମ।",
+    "spoken": "ଆଇ, ଆଇସ କ୍ରିମ, ମାନେ ଆଇସକ୍ରିମ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s28.mp3": {
+    "written": "ଏହା ବଡ଼ J।",
+    "spoken": "ଏହା ବଡ଼ ଜେ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s29.mp3": {
+    "written": "ଏହା ଛୋଟ j।",
+    "spoken": "ଏହା ଛୋଟ ଜେ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s30.mp3": {
+    "written": "J — Jeep, ମାନେ ଜିପ।",
+    "spoken": "ଜେ, ଜିପ, ମାନେ ଜିପ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s31.mp3": {
+    "written": "ଏହା ବଡ଼ K।",
+    "spoken": "ଏହା ବଡ଼ କେ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s32.mp3": {
+    "written": "ଏହା ଛୋଟ k।",
+    "spoken": "ଏହା ଛୋଟ କେ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s33.mp3": {
+    "written": "K — Kite, ମାନେ ଗୁଡ଼ି।",
+    "spoken": "କେ, କାଇଟ, ମାନେ ଗୁଡ଼ି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s34.mp3": {
+    "written": "ଏହା ବଡ଼ L।",
+    "spoken": "ଏହା ବଡ଼ ଏଲ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s35.mp3": {
+    "written": "ଏହା ଛୋଟ l।",
+    "spoken": "ଏହା ଛୋଟ ଏଲ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s36.mp3": {
+    "written": "L — Lion, ମାନେ ସିଂହ।",
+    "spoken": "ଏଲ, ଲାୟନ, ମାନେ ସିଂହ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s37.mp3": {
+    "written": "ଏହା ବଡ଼ M।",
+    "spoken": "ଏହା ବଡ଼ ଏମ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s38.mp3": {
+    "written": "ଏହା ଛୋଟ m।",
+    "spoken": "ଏହା ଛୋଟ ଏମ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s39.mp3": {
+    "written": "M — Monkey, ମାନେ ମାଙ୍କଡ଼।",
+    "spoken": "ଏମ, ମଙ୍କି, ମାନେ ମାଙ୍କଡ଼.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s40.mp3": {
+    "written": "ଏହା ବଡ଼ N।",
+    "spoken": "ଏହା ବଡ଼ ଏନ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s41.mp3": {
+    "written": "ଏହା ଛୋଟ n।",
+    "spoken": "ଏହା ଛୋଟ ଏନ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s42.mp3": {
+    "written": "N — Nest, ମାନେ ବସା।",
+    "spoken": "ଏନ, ନେଷ୍ଟ, ମାନେ ବସା.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s43.mp3": {
+    "written": "ଏହା ବଡ଼ O।",
+    "spoken": "ଏହା ବଡ଼ ଓ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s44.mp3": {
+    "written": "ଏହା ଛୋଟ o।",
+    "spoken": "ଏହା ଛୋଟ ଓ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s45.mp3": {
+    "written": "O — Orange, ମାନେ କମଳା।",
+    "spoken": "ଓ, ଅରେଞ୍ଜ, ମାନେ କମଳା.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s46.mp3": {
+    "written": "ଏହା ବଡ଼ P।",
+    "spoken": "ଏହା ବଡ଼ ପି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s47.mp3": {
+    "written": "ଏହା ଛୋଟ p।",
+    "spoken": "ଏହା ଛୋଟ ପି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s48.mp3": {
+    "written": "P — Parrot, ମାନେ ଶୁଆ।",
+    "spoken": "ପି, ପ୍ୟାରଟ, ମାନେ ଶୁଆ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s49.mp3": {
+    "written": "ଏହା ବଡ଼ Q।",
+    "spoken": "ଏହା ବଡ଼ କ୍ୟୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s50.mp3": {
+    "written": "ଏହା ଛୋଟ q।",
+    "spoken": "ଏହା ଛୋଟ କ୍ୟୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s51.mp3": {
+    "written": "Q — Queen, ମାନେ ରାଣୀ।",
+    "spoken": "କ୍ୟୁ, କୁଇନ, ମାନେ ରାଣୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s52.mp3": {
+    "written": "ଏହା ବଡ଼ R।",
+    "spoken": "ଏହା ବଡ଼ ଆର.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s53.mp3": {
+    "written": "ଏହା ଛୋଟ r।",
+    "spoken": "ଏହା ଛୋଟ ଆର.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s54.mp3": {
+    "written": "R — Rocket, ମାନେ ରକେଟ।",
+    "spoken": "ଆର, ରକେଟ, ମାନେ ରକେଟ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s55.mp3": {
+    "written": "ଏହା ବଡ଼ S।",
+    "spoken": "ଏହା ବଡ଼ ଏସ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s56.mp3": {
+    "written": "ଏହା ଛୋଟ s।",
+    "spoken": "ଏହା ଛୋଟ ଏସ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s57.mp3": {
+    "written": "S — Sun, ମାନେ ସୂର୍ଯ୍ୟ।",
+    "spoken": "ଏସ, ସନ, ମାନେ ସୂର୍ଯ୍ୟ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s58.mp3": {
+    "written": "ଏହା ବଡ଼ T।",
+    "spoken": "ଏହା ବଡ଼ଟି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s59.mp3": {
+    "written": "ଏହା ଛୋଟ t।",
+    "spoken": "ଏହା ଛୋଟଟି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s60.mp3": {
+    "written": "T — Tiger, ମାନେ ବାଘ।",
+    "spoken": "ଟି, ଟାଇଗର, ମାନେ ବାଘ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s61.mp3": {
+    "written": "ଏହା ବଡ଼ U।",
+    "spoken": "ଏହା ବଡ଼ ୟୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s62.mp3": {
+    "written": "ଏହା ଛୋଟ u।",
+    "spoken": "ଏହା ଛୋଟ ୟୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s63.mp3": {
+    "written": "U — Umbrella, ମାନେ ଛତା।",
+    "spoken": "ୟୁ, ଅମ୍ବ୍ରେଲା, ମାନେ ଛତା.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s64.mp3": {
+    "written": "ଏହା ବଡ଼ V।",
+    "spoken": "ଏହା ବଡ଼ ଭି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s65.mp3": {
+    "written": "ଏହା ଛୋଟ v।",
+    "spoken": "ଏହା ଛୋଟ ଭି.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s66.mp3": {
+    "written": "V — Violin, ମାନେ ଭାୟୋଲିନ।",
+    "spoken": "ଭି, ଭାୟୋଲିନ, ମାନେ ଭାୟୋଲିନ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s67.mp3": {
+    "written": "ଏହା ବଡ଼ W।",
+    "spoken": "ଏହା ବଡ଼ ଡବ୍ଲ୍ୟୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s68.mp3": {
+    "written": "ଏହା ଛୋଟ w।",
+    "spoken": "ଏହା ଛୋଟ ଡବ୍ଲ୍ୟୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s69.mp3": {
+    "written": "W — Watermelon, ମାନେ ତରଭୁଜ।",
+    "spoken": "ଡବ୍ଲ୍ୟୁ, ୱାଟରମେଲନ, ମାନେ ତରଭୁଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s70.mp3": {
+    "written": "ଏହା ବଡ଼ X।",
+    "spoken": "ଏହା ବଡ଼ ଏକ୍ସ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s71.mp3": {
+    "written": "ଏହା ଛୋଟ x।",
+    "spoken": "ଏହା ଛୋଟ ଏକ୍ସ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s72.mp3": {
+    "written": "X — Xylophone, ମାନେ ଜାଇଲୋଫୋନ।",
+    "spoken": "ଏକ୍ସ, ଜାଇଲୋଫୋନ, ମାନେ ଜାଇଲୋଫୋନ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s73.mp3": {
+    "written": "ଏହା ବଡ଼ Y।",
+    "spoken": "ଏହା ବଡ଼ ୱାଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s74.mp3": {
+    "written": "ଏହା ଛୋଟ y।",
+    "spoken": "ଏହା ଛୋଟ ୱାଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s75.mp3": {
+    "written": "Y — Yarn, ମାନେ ଉଲ ଗୋଲା।",
+    "spoken": "ୱାଇ, ୟାର୍ନ, ମାନେ ଉଲ ଗୋଲା.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s76.mp3": {
+    "written": "ଏହା ବଡ଼ Z।",
+    "spoken": "ଏହା ବଡ଼ ଜେଡ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s77.mp3": {
+    "written": "ଏହା ଛୋଟ z।",
+    "spoken": "ଏହା ଛୋଟ ଜେଡ.",
+    "provider": "indic"
+  },
+  "eng-nur-alphabets-s78.mp3": {
+    "written": "Z — Zebra, ମାନେ ଜେବ୍ରା।",
+    "spoken": "ଜେଡ, ଜେବ୍ରା, ମାନେ ଜେବ୍ରା.",
+    "provider": "indic"
+  },
+  "eng-nur-animal-sounds-s01.mp3": {
+    "written": "ପ୍ରତ୍ୟେକ ପଶୁର ନିଜର ଡାକ ଅଛି। ଗୋଟିଏକୁ ଦେଖ, ଆଉ ଶୁଣ।",
+    "spoken": "ପ୍ରତ୍ୟେକ ପଶୁର ନିଜର ଡାକ ଅଛି. ଗୋଟିଏକୁ ଦେଖ, ଆଉ ଶୁଣ.",
+    "provider": "indic"
+  },
+  "eng-nur-animal-sounds-s02.mp3": {
+    "written": "ଗାଈ କେମିତି ଡାକେ? ତାକୁ ଖୋଜ ଆଉ ଦେଖ।",
+    "spoken": "ଗାଈ କେମିତି ଡାକେ? ତାକୁ ଖୋଜ ଆଉ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-animal-sounds-s03.mp3": {
+    "written": "ଏବେ କୁକୁଡ଼ାକୁ ଖୋଜ।",
+    "spoken": "ଏବେ କୁକୁଡ଼ାକୁ ଖୋଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s01.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ କିଏ ପାଣିରେ ରହେ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ କିଏ ପାଣିରେ ରହେ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s02.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ବଣୁଆ ପଶୁ?",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ବଣୁଆ ପଶୁ?",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s03.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ଗୃହପାଳିତ ପଶୁ? ସେ ଆମ ସହ ରହେ।",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ଗୃହପାଳିତ ପଶୁ? ସେ ଆମ ସହ ରହେ.",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s04.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ କିଏ ସମୁଦ୍ରରେ ରହେ?",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ କିଏ ସମୁଦ୍ରରେ ରହେ?",
+    "provider": "indic"
+  },
+  "eng-nur-animals-check-s05.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ କିଏ ଜଙ୍ଗଲରେ ରହେ?",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ କିଏ ଜଙ୍ଗଲରେ ରହେ?",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-cat.mp3": {
+    "written": "ଏହା ଏକ ବିଲେଇ। ବିଲେଇ ମିଆଉଁ ମିଆଉଁ କରେ।",
+    "spoken": "ଏହା ଏକ ବିଲେଇ. ବିଲେଇ ମିଆଉଁ ମିଆଉଁ କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-crow.mp3": {
+    "written": "ଏହା ଏକ କୁଆ। କୁଆ କା କା କରେ।",
+    "spoken": "ଏହା ଏକ କୁଆ. କୁଆ କା କା କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-dog.mp3": {
+    "written": "ଏହା ଏକ କୁକୁର। କୁକୁର ଭୋ ଭୋ କରେ।",
+    "spoken": "ଏହା ଏକ କୁକୁର. କୁକୁର ଭୋ ଭୋ କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-duck.mp3": {
+    "written": "ଏହା ଏକ ବତକ। ବତକ ପ୍ୟାକ ପ୍ୟାକ କରେ।",
+    "spoken": "ଏହା ଏକ ବତକ. ବତକ ପ୍ୟାକ ପ୍ୟାକ କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-owl.mp3": {
+    "written": "ଏହା ଏକ ପେଚା। ପେଚା ହୁ ହୁ କରେ।",
+    "spoken": "ଏହା ଏକ ପେଚା. ପେଚା ହୁ ହୁ କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-parrot.mp3": {
+    "written": "ଏହା ଏକ ଶୁଆ। ଶୁଆ ଟିଁ ଟିଁ କରେ।",
+    "spoken": "ଏହା ଏକ ଶୁଆ. ଶୁଆଟିଁଟିଁ କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-pigeon.mp3": {
+    "written": "ଏହା ଏକ ପାରା। ପାରା ଗୁଟୁର ଗୁଟୁର କରେ।",
+    "spoken": "ଏହା ଏକ ପାରା. ପାରା ଗୁଟୁର ଗୁଟୁର କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s01.mp3": {
+    "written": "ପ୍ରତ୍ୟେକ ପକ୍ଷୀ ଓ ପଶୁର ନିଜର ସ୍ୱର ଅଛି। ଗୋଟିଏକୁ ଦେଖ, ଆଉ ଶୁଣ।",
+    "spoken": "ପ୍ରତ୍ୟେକ ପକ୍ଷୀ ଓ ପଶୁର ନିଜର ସ୍ୱର ଅଛି. ଗୋଟିଏକୁ ଦେଖ, ଆଉ ଶୁଣ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s02.mp3": {
+    "written": "କୁଆ କେମିତି ଡାକେ? ତାକୁ ଖୋଜ ଆଉ ଦେଖ।",
+    "spoken": "କୁଆ କେମିତି ଡାକେ? ତାକୁ ଖୋଜ ଆଉ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s03.mp3": {
+    "written": "ଏବେ ବିଲେଇକୁ ଖୋଜ।",
+    "spoken": "ଏବେ ବିଲେଇକୁ ଖୋଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-s04.mp3": {
+    "written": "କିଏ ହୁ ହୁ କରେ? ଖୋଜି ଦେଖ!",
+    "spoken": "କିଏ ହୁ ହୁ କରେ? ଖୋଜି ଦେଖ!",
+    "provider": "indic"
+  },
+  "eng-nur-bird-animal-sounds-sparrow.mp3": {
+    "written": "ଏହା ଏକ ଘରଚଟିଆ। ଘରଚଟିଆ ଚିଁ ଚିଁ କରେ।",
+    "spoken": "ଏହା ଏକ ଘରଚଟିଆ. ଘରଚଟିଆ ଚିଁ ଚିଁ କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s01.mp3": {
+    "written": "ଏମାନେ ପକ୍ଷୀ। ପକ୍ଷୀମାନଙ୍କର ଡେଣା ଥାଏ, ଆଉ ସେମାନେ ଉଡ଼ନ୍ତି।",
+    "spoken": "ଏମାନେ ପକ୍ଷୀ. ପକ୍ଷୀମାନଙ୍କର ଡେଣା ଥାଏ, ଆଉ ସେମାନେ ଉଡ଼ନ୍ତି.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s02.mp3": {
+    "written": "ଏହା ଏକ କୁଆ। କୁଆ କଳା।",
+    "spoken": "ଏହା ଏକ କୁଆ. କୁଆ କଳା.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s03.mp3": {
+    "written": "ଏହା ଏକ ଘରଚଟିଆ। ଏହା ଗୋଟିଏ ଛୋଟ ପକ୍ଷୀ।",
+    "spoken": "ଏହା ଏକ ଘରଚଟିଆ. ଏହା ଗୋଟିଏ ଛୋଟ ପକ୍ଷୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s04.mp3": {
+    "written": "ଏହା ଏକ ପାରା।",
+    "spoken": "ଏହା ଏକ ପାରା.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s05.mp3": {
+    "written": "ଏହା ଏକ ଶୁଆ। ଶୁଆର ପର ରଙ୍ଗବେରଙ୍ଗ।",
+    "spoken": "ଏହା ଏକ ଶୁଆ. ଶୁଆର ପର ରଙ୍ଗବେରଙ୍ଗ.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s06.mp3": {
+    "written": "ଏହା ଏକ ମୟୂର। ମୟୂର ଆମର ଜାତୀୟ ପକ୍ଷୀ।",
+    "spoken": "ଏହା ଏକ ମୟୂର. ମୟୂର ଆମର ଜାତୀୟ ପକ୍ଷୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s07.mp3": {
+    "written": "ଏହା ଏକ ପେଚା। ପେଚା ରାତିରେ ଜାଗି ରହେ।",
+    "spoken": "ଏହା ଏକ ପେଚା. ପେଚା ରାତିରେ ଜାଗି ରହେ.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s08.mp3": {
+    "written": "ଏହା ଏକ ବତକ। ବତକ ପାଣିରେ ପହଁରେ।",
+    "spoken": "ଏହା ଏକ ବତକ. ବତକ ପାଣିରେ ପହଁରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-birds-s09.mp3": {
+    "written": "ଏହା ଏକ ଚିଲ। ଚିଲ ବହୁତ ଉଚ୍ଚରେ ଉଡ଼େ।",
+    "spoken": "ଏହା ଏକ ଚିଲ. ଚିଲ ବହୁତ ଉଚ୍ଚରେ ଉଡ଼େ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-check-s01.mp3": {
+    "written": "କେଉଁଟି ନୀଳ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "କେଉଁଟି ନୀଳ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-check-s02.mp3": {
+    "written": "କେଉଁଟି ଗୋଲାପୀ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "କେଉଁଟି ଗୋଲାପୀ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-check-s03.mp3": {
+    "written": "କେଉଁଟି ହଳଦିଆ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "କେଉଁଟି ହଳଦିଆ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s01.mp3": {
+    "written": "ଏହି ରଙ୍ଗଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ରଙ୍ଗଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s02.mp3": {
+    "written": "ଏହା ନାଲି।",
+    "spoken": "ଏହା ନାଲି.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s03.mp3": {
+    "written": "ଏହା ନୀଳ।",
+    "spoken": "ଏହା ନୀଳ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s04.mp3": {
+    "written": "ଏହା ହଳଦିଆ।",
+    "spoken": "ଏହା ହଳଦିଆ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s05.mp3": {
+    "written": "ଏହା ସବୁଜ।",
+    "spoken": "ଏହା ସବୁଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s06.mp3": {
+    "written": "ଏହି ରଙ୍ଗଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ରଙ୍ଗଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s07.mp3": {
+    "written": "ଏହା କମଳା।",
+    "spoken": "ଏହା କମଳା.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s08.mp3": {
+    "written": "ଏହା ବାଇଗଣୀ।",
+    "spoken": "ଏହା ବାଇଗଣୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s09.mp3": {
+    "written": "ଏହା ଗୋଲାପୀ।",
+    "spoken": "ଏହା ଗୋଲାପୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-colors-s10.mp3": {
+    "written": "ଏହା ବାଦାମୀ।",
+    "spoken": "ଏହା ବାଦାମୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s01.mp3": {
+    "written": "ଏମାନେ ଗୃହପାଳିତ ପଶୁ। ସେମାନେ ଆମ ସହ, ଆମ ଘରେ ଓ ଚାଷ ଜମିରେ ରହନ୍ତି।",
+    "spoken": "ଏମାନେ ଗୃହପାଳିତ ପଶୁ. ସେମାନେ ଆମ ସହ, ଆମ ଘରେ ଓ ଚାଷ ଜମିରେ ରହନ୍ତି.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s02.mp3": {
+    "written": "ଏହା ଏକ ଗାଈ। ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ।",
+    "spoken": "ଏହା ଏକ ଗାଈ. ଗାଈ ଆମକୁ କ୍ଷୀର ଦିଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s03.mp3": {
+    "written": "ଏହା ଏକ ମଇଁଷି। ମଇଁଷି ମଧ୍ୟ କ୍ଷୀର ଦିଏ।",
+    "spoken": "ଏହା ଏକ ମଇଁଷି. ମଇଁଷି ମଧ୍ୟ କ୍ଷୀର ଦିଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s04.mp3": {
+    "written": "ଏହା ଏକ ଘୋଡ଼ା। ଘୋଡ଼ା ଜୋରରେ ଦୌଡ଼େ।",
+    "spoken": "ଏହା ଏକ ଘୋଡ଼ା. ଘୋଡ଼ା ଜୋରରେ ଦୌଡ଼େ.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s05.mp3": {
+    "written": "ଏହା ଏକ ଛେଳି।",
+    "spoken": "ଏହା ଏକ ଛେଳି.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s06.mp3": {
+    "written": "ଏହା ଏକ ମେଣ୍ଢା। ମେଣ୍ଢା ଆମକୁ ପଶମ ଦିଏ।",
+    "spoken": "ଏହା ଏକ ମେଣ୍ଢା. ମେଣ୍ଢା ଆମକୁ ପଶମ ଦିଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s07.mp3": {
+    "written": "ଏହା ଏକ କୁକୁର। କୁକୁର ଘର ଜଗେ।",
+    "spoken": "ଏହା ଏକ କୁକୁର. କୁକୁର ଘର ଜଗେ.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s08.mp3": {
+    "written": "ଏହା ଏକ ବିଲେଇ।",
+    "spoken": "ଏହା ଏକ ବିଲେଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-domestic-animals-s09.mp3": {
+    "written": "ଆଉ ଏହା ଏକ କୁକୁଡ଼ା। କୁକୁଡ଼ା ଅଣ୍ଡା ଦିଏ।",
+    "spoken": "ଆଉ ଏହା ଏକ କୁକୁଡ଼ା. କୁକୁଡ଼ା ଅଣ୍ଡା ଦିଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s01.mp3": {
+    "written": "ଏ ହେଉଛି ଅପ୍ପୁ। ଅପ୍ପୁ ଗୋଟିଏ ହାତୀ। ସେ ଜଙ୍ଗଲରେ ରହେ।",
+    "spoken": "ଏ ହେଉଛି ଅପ୍ପୁ. ଅପ୍ପୁ ଗୋଟିଏ ହାତୀ. ସେ ଜଙ୍ଗଲରେ ରହେ.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s02.mp3": {
+    "written": "ଦିନେ ବହୁତ ଗରମ ହେଉଥିଲା। ସୂର୍ଯ୍ୟ ଖୁବ ଜୋରରେ ଚମକୁଥିଲା। ଅପ୍ପୁକୁ ବହୁତ ଶୋଷ ଲାଗିଲା।",
+    "spoken": "ଦିନେ ବହୁତ ଗରମ ହେଉଥିଲା. ସୂର୍ଯ୍ୟ ଖୁବ ଜୋରରେ ଚମକୁଥିଲା. ଅପ୍ପୁକୁ ବହୁତ ଶୋଷ ଲାଗିଲା.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s03.mp3": {
+    "written": "ଅପ୍ପୁ ତା ସାଙ୍ଗ ମାଙ୍କଡ଼କୁ ପଚାରିଲା — ପାଣି କେଉଁଠି ଅଛି? ମାଙ୍କଡ଼ କହିଲା — ପୋଖରୀ ସେପଟେ ଅଛି!",
+    "spoken": "ଅପ୍ପୁ ତା ସାଙ୍ଗ ମାଙ୍କଡ଼କୁ ପଚାରିଲା, ପାଣି କେଉଁଠି ଅଛି? ମାଙ୍କଡ଼ କହିଲା, ପୋଖରୀ ସେପଟେ ଅଛି!",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s04.mp3": {
+    "written": "ଅପ୍ପୁ ପୋଖରୀକୁ ଗଲା। ସେ ନିଜର ଲମ୍ବା ଶୁଣ୍ଢରେ ବହୁତ ପାଣି ପିଇଲା।",
+    "spoken": "ଅପ୍ପୁ ପୋଖରୀକୁ ଗଲା. ସେ ନିଜର ଲମ୍ବା ଶୁଣ୍ଢରେ ବହୁତ ପାଣି ପିଇଲା.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s05.mp3": {
+    "written": "ହରିଣକୁ ମଧ୍ୟ ଶୋଷ ଲାଗିଥିଲା। ଅପ୍ପୁ ଶୁଣ୍ଢରେ ପାଣି ଭରି ତାକୁ ମଧ୍ୟ ପିଆଇଲା।",
+    "spoken": "ହରିଣକୁ ମଧ୍ୟ ଶୋଷ ଲାଗିଥିଲା. ଅପ୍ପୁ ଶୁଣ୍ଢରେ ପାଣି ଭରି ତାକୁ ମଧ୍ୟ ପିଆଇଲା.",
+    "provider": "indic"
+  },
+  "eng-nur-elephant-story-s06.mp3": {
+    "written": "ଅପ୍ପୁ ଖୁସି ହେଲା। ସାଙ୍ଗମାନଙ୍କୁ ସାହାଯ୍ୟ କରିବା ଭଲ କଥା।",
+    "spoken": "ଅପ୍ପୁ ଖୁସି ହେଲା. ସାଙ୍ଗମାନଙ୍କୁ ସାହାଯ୍ୟ କରିବା ଭଲ କଥା.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s01.mp3": {
+    "written": "ଘର ଭିତରେ ଗୋଟିଏ ବୃତ୍ତ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।",
+    "spoken": "ଘର ଭିତରେ ଗୋଟିଏ ବୃତ୍ତ ଲୁଚିଛି. ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s02.mp3": {
+    "written": "ଘର ଭିତରେ ଗୋଟିଏ ବର୍ଗ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।",
+    "spoken": "ଘର ଭିତରେ ଗୋଟିଏ ବର୍ଗ ଲୁଚିଛି. ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s03.mp3": {
+    "written": "ଘର ଭିତରେ ଗୋଟିଏ ତ୍ରିଭୁଜ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।",
+    "spoken": "ଘର ଭିତରେ ଗୋଟିଏ ତ୍ରିଭୁଜ ଲୁଚିଛି. ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s04.mp3": {
+    "written": "ଘର ଭିତରେ ଗୋଟିଏ ତାରା ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।",
+    "spoken": "ଘର ଭିତରେ ଗୋଟିଏ ତାରା ଲୁଚିଛି. ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-find-shapes-s05.mp3": {
+    "written": "ଘର ଭିତରେ ଗୋଟିଏ ଆୟତ ଲୁଚିଛି। ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ।",
+    "spoken": "ଘର ଭିତରେ ଗୋଟିଏ ଆୟତ ଲୁଚିଛି. ତାକୁ ଖୋଜ ଆଉ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s01.mp3": {
+    "written": "ଏହି ଫଳଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ଫଳଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s02.mp3": {
+    "written": "ଏହା ଏକ ସେଓ।",
+    "spoken": "ଏହା ଏକ ସେଓ.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s03.mp3": {
+    "written": "ଏହା ଏକ କଦଳୀ।",
+    "spoken": "ଏହା ଏକ କଦଳୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s04.mp3": {
+    "written": "ଏହା ଏକ କମଳା।",
+    "spoken": "ଏହା ଏକ କମଳା.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s05.mp3": {
+    "written": "ଏହା ଏକ ଅଙ୍ଗୁର ପେନ୍ଥା।",
+    "spoken": "ଏହା ଏକ ଅଙ୍ଗୁର ପେନ୍ଥା.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s06.mp3": {
+    "written": "ଏହି ଫଳଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ଫଳଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s07.mp3": {
+    "written": "ଏହା ଏକ ନାସପାତି।",
+    "spoken": "ଏହା ଏକ ନାସପାତି.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s08.mp3": {
+    "written": "ଏହା ଏକ ସପୁରୀ।",
+    "spoken": "ଏହା ଏକ ସପୁରୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s09.mp3": {
+    "written": "ଏହା ଏକ ଷ୍ଟ୍ରବେରୀ।",
+    "spoken": "ଏହା ଏକ ଷ୍ଟ୍ରବେରୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-fruits-s10.mp3": {
+    "written": "ଏହା ଏକ ତରଭୁଜ।",
+    "spoken": "ଏହା ଏକ ତରଭୁଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s01.mp3": {
+    "written": "ଏମାନେ କୀଟପତଙ୍ଗ। କୀଟପତଙ୍ଗ ବହୁତ ଛୋଟ — ଏଠି ଆମେ ସେମାନଙ୍କୁ ବଡ଼ କରି ଦେଖାଇଛୁ। ଗଣ — ପ୍ରତ୍ୟେକ କୀଟର ଛଅଟି ଗୋଡ଼ ଥାଏ।",
+    "spoken": "ଏମାନେ କୀଟପତଙ୍ଗ. କୀଟପତଙ୍ଗ ବହୁତ ଛୋଟ, ଏଠି ଆମେ ସେମାନଙ୍କୁ ବଡ଼ କରି ଦେଖାଇଛୁ. ଗଣ, ପ୍ରତ୍ୟେକ କୀଟର ଛଅଟି ଗୋଡ଼ ଥାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s02.mp3": {
+    "written": "ଏହା ଏକ ପିମ୍ପୁଡ଼ି। ପିମ୍ପୁଡ଼ି ବହୁତ ପରିଶ୍ରମ କରେ।",
+    "spoken": "ଏହା ଏକ ପିମ୍ପୁଡ଼ି. ପିମ୍ପୁଡ଼ି ବହୁତ ପରିଶ୍ରମ କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s03.mp3": {
+    "written": "ଏହା ଏକ ମହୁମାଛି। ମହୁମାଛି ମହୁ ତିଆରି କରେ।",
+    "spoken": "ଏହା ଏକ ମହୁମାଛି. ମହୁମାଛି ମହୁ ତିଆରି କରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s04.mp3": {
+    "written": "ଏହା ଏକ ପ୍ରଜାପତି। ପ୍ରଜାପତିର ଡେଣା ରଙ୍ଗବେରଙ୍ଗ।",
+    "spoken": "ଏହା ଏକ ପ୍ରଜାପତି. ପ୍ରଜାପତିର ଡେଣା ରଙ୍ଗବେରଙ୍ଗ.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s05.mp3": {
+    "written": "ଏହା ଏକ ଲେଡିବଗ। ଏହାର ନାଲି ପିଠିରେ କଳା ଦାଗ ଥାଏ।",
+    "spoken": "ଏହା ଏକ ଲେଡିବଗ. ଏହାର ନାଲି ପିଠିରେ କଳା ଦାଗ ଥାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s06.mp3": {
+    "written": "ଏହା ଏକ କଙ୍କି। ଏହା ପାଣି ପାଖରେ ଉଡ଼େ।",
+    "spoken": "ଏହା ଏକ କଙ୍କି. ଏହା ପାଣି ପାଖରେ ଉଡ଼େ.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s07.mp3": {
+    "written": "ଏହା ଏକ ଝିଣ୍ଟିକା। ଝିଣ୍ଟିକା ଉଚ୍ଚକୁ ଡିଏଁ।",
+    "spoken": "ଏହା ଏକ ଝିଣ୍ଟିକା. ଝିଣ୍ଟିକା ଉଚ୍ଚକୁ ଡିଏଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-insects-s08.mp3": {
+    "written": "ଏହା ଏକ ମାଛି। ଏହା ମଇଳା ଉପରେ ବସେ, ତେଣୁ ଖାଦ୍ୟକୁ ଘୋଡ଼ାଇ ରଖ।",
+    "spoken": "ଏହା ଏକ ମାଛି. ଏହା ମଇଳା ଉପରେ ବସେ, ତେଣୁ ଖାଦ୍ୟକୁ ଘୋଡ଼ାଇ ରଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-check-s01.mp3": {
+    "written": "କେଉଁଟି ତ୍ରିଭୁଜ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "କେଉଁଟି ତ୍ରିଭୁଜ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-check-s02.mp3": {
+    "written": "କେଉଁଟି ବୃତ୍ତ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "କେଉଁଟି ବୃତ୍ତ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-check-s03.mp3": {
+    "written": "କେଉଁଟି ତାରା? ତାକୁ ଛୁଅଁ।",
+    "spoken": "କେଉଁଟି ତାରା? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s01.mp3": {
+    "written": "ଏହି ଆକୃତିଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ଆକୃତିଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s02.mp3": {
+    "written": "ଏହା ଏକ ବୃତ୍ତ।",
+    "spoken": "ଏହା ଏକ ବୃତ୍ତ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s03.mp3": {
+    "written": "ଏହା ଏକ ବର୍ଗ।",
+    "spoken": "ଏହା ଏକ ବର୍ଗ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s04.mp3": {
+    "written": "ଏହା ଏକ ତ୍ରିଭୁଜ।",
+    "spoken": "ଏହା ଏକ ତ୍ରିଭୁଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s05.mp3": {
+    "written": "ଏହା ଏକ ଆୟତ।",
+    "spoken": "ଏହା ଏକ ଆୟତ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s06.mp3": {
+    "written": "ଏହି ଆକୃତିଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ଆକୃତିଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s07.mp3": {
+    "written": "ଏହା ଏକ ଅଣ୍ଡାକାର।",
+    "spoken": "ଏହା ଏକ ଅଣ୍ଡାକାର.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s08.mp3": {
+    "written": "ଏହା ଏକ ତାରା।",
+    "spoken": "ଏହା ଏକ ତାରା.",
+    "provider": "indic"
+  },
+  "eng-nur-shapes-s09.mp3": {
+    "written": "ଏହା ଏକ ହୀରା ଆକୃତି।",
+    "spoken": "ଏହା ଏକ ହୀରା ଆକୃତି.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s01.mp3": {
+    "written": "ଏହି ପନିପରିବାଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ପନିପରିବାଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s02.mp3": {
+    "written": "ଏହା ଏକ ଗାଜର।",
+    "spoken": "ଏହା ଏକ ଗାଜର.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s03.mp3": {
+    "written": "ଏହା ଏକ ଟମାଟୋ।",
+    "spoken": "ଏହା ଏକ ଟମାଟୋ.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s04.mp3": {
+    "written": "ଏହା ଏକ ପିଆଜ।",
+    "spoken": "ଏହା ଏକ ପିଆଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s05.mp3": {
+    "written": "ଏହା ମକା।",
+    "spoken": "ଏହା ମକା.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s06.mp3": {
+    "written": "ଏହି ପନିପରିବାଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ପନିପରିବାଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s07.mp3": {
+    "written": "ଏହା ଏକ ବନ୍ଧାକୋବି।",
+    "spoken": "ଏହା ଏକ ବନ୍ଧାକୋବି.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s08.mp3": {
+    "written": "ଏହା ଏକ ଫୁଲକୋବି।",
+    "spoken": "ଏହା ଏକ ଫୁଲକୋବି.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s09.mp3": {
+    "written": "ଏହା ଏକ ବାଇଗଣ।",
+    "spoken": "ଏହା ଏକ ବାଇଗଣ.",
+    "provider": "indic"
+  },
+  "eng-nur-vegetables-s10.mp3": {
+    "written": "ଏହା ଏକ କଖାରୁ।",
+    "spoken": "ଏହା ଏକ କଖାରୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s01.mp3": {
+    "written": "ଆମେ ସମୁଦ୍ର ଭିତରେ ଅଛୁ। ଏଠି ପାଣିରେ ବହୁତ ପ୍ରାଣୀ ରହନ୍ତି।",
+    "spoken": "ଆମେ ସମୁଦ୍ର ଭିତରେ ଅଛୁ. ଏଠି ପାଣିରେ ବହୁତ ପ୍ରାଣୀ ରହନ୍ତି.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s02.mp3": {
+    "written": "ଏହା ଏକ ମାଛ। ମାଛ ପାଣିରେ ପହଁରେ।",
+    "spoken": "ଏହା ଏକ ମାଛ. ମାଛ ପାଣିରେ ପହଁରେ.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s03.mp3": {
+    "written": "ଏହା ଏକ କଇଁଛ। କଇଁଛର ପିଠିରେ ଟାଣ ଖୋଳ ଥାଏ।",
+    "spoken": "ଏହା ଏକ କଇଁଛ. କଇଁଛର ପିଠିରେ ଟାଣ ଖୋଳ ଥାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s04.mp3": {
+    "written": "ଏହା ଏକ ଡଲଫିନ। ଡଲଫିନ ବହୁତ ବୁଦ୍ଧିମାନ।",
+    "spoken": "ଏହା ଏକ ଡଲଫିନ. ଡଲଫିନ ବହୁତ ବୁଦ୍ଧିମାନ.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s05.mp3": {
+    "written": "ଦୂରକୁ ଦେଖ — ତାହା ଏକ ତିମି। ତିମି ସବୁଠାରୁ ବଡ଼ ପ୍ରାଣୀ।",
+    "spoken": "ଦୂରକୁ ଦେଖ, ତାହା ଏକ ତିମି. ତିମି ସବୁଠାରୁ ବଡ଼ ପ୍ରାଣୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s06.mp3": {
+    "written": "ଏହା ଏକ ଅକ୍ଟୋପସ। ଏହାର ଆଠଟି ବାହୁ ଥାଏ।",
+    "spoken": "ଏହା ଏକ ଅକ୍ଟୋପସ. ଏହାର ଆଠଟି ବାହୁ ଥାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s07.mp3": {
+    "written": "ଏହା ଏକ କଙ୍କଡ଼ା। କଙ୍କଡ଼ା ବଙ୍କା ହୋଇ ଚାଲେ।",
+    "spoken": "ଏହା ଏକ କଙ୍କଡ଼ା. କଙ୍କଡ଼ା ବଙ୍କା ହୋଇ ଚାଲେ.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s08.mp3": {
+    "written": "ଏହା ଏକ ତାରାମାଛ। ଏହା ତାରା ପରି ଦେଖାଯାଏ।",
+    "spoken": "ଏହା ଏକ ତାରାମାଛ. ଏହା ତାରା ପରି ଦେଖାଯାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-water-animals-s09.mp3": {
+    "written": "ଆଉ ଏହା ଏକ ସମୁଦ୍ର ଘୋଡ଼ା।",
+    "spoken": "ଆଉ ଏହା ଏକ ସମୁଦ୍ର ଘୋଡ଼ା.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s01.mp3": {
+    "written": "ପ୍ରତ୍ୟେକ ବଣୁଆ ପଶୁଙ୍କର କିଛି ନା କିଛି ଖାସ କଥା ଥାଏ। ଆସ ଦେଖିବା।",
+    "spoken": "ପ୍ରତ୍ୟେକ ବଣୁଆ ପଶୁଙ୍କର କିଛି ନା କିଛି ଖାସ କଥା ଥାଏ. ଆସ ଦେଖିବା.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s02.mp3": {
+    "written": "ଜିରାଫର ବେକ ବହୁତ ଲମ୍ବା। ସେ ଉଚ୍ଚ ଗଛର ପତ୍ର ଖାଏ।",
+    "spoken": "ଜିରାଫର ବେକ ବହୁତ ଲମ୍ବା. ସେ ଉଚ୍ଚ ଗଛର ପତ୍ର ଖାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s03.mp3": {
+    "written": "ହାତୀର ଲମ୍ବା ଶୁଣ୍ଢ ଥାଏ। ଶୁଣ୍ଢରେ ସେ ପାଣି ପିଏ।",
+    "spoken": "ହାତୀର ଲମ୍ବା ଶୁଣ୍ଢ ଥାଏ. ଶୁଣ୍ଢରେ ସେ ପାଣି ପିଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s04.mp3": {
+    "written": "ଜେବ୍ରାର ଦେହରେ କଳା ଧଳା ପଟା ଥାଏ।",
+    "spoken": "ଜେବ୍ରାର ଦେହରେ କଳା ଧଳା ପଟା ଥାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s05.mp3": {
+    "written": "ସିଂହର ବେକ ଚାରିପଟେ ଘନ କେଶ ଥାଏ। ତାକୁ କେଶର କୁହାଯାଏ।",
+    "spoken": "ସିଂହର ବେକ ଚାରିପଟେ ଘନ କେଶ ଥାଏ. ତାକୁ କେଶର କୁହାଯାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s06.mp3": {
+    "written": "ଗଣ୍ଡାର ନାକ ଉପରେ ଶିଙ୍ଗ ଥାଏ।",
+    "spoken": "ଗଣ୍ଡାର ନାକ ଉପରେ ଶିଙ୍ଗ ଥାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animal-traits-s07.mp3": {
+    "written": "କଙ୍ଗାରୁ ନିଜ ଛୁଆକୁ ପେଟର ଥଳିରେ ରଖେ।",
+    "spoken": "କଙ୍ଗାରୁ ନିଜ ଛୁଆକୁ ପେଟର ଥଳିରେ ରଖେ.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s01.mp3": {
+    "written": "ଏହା ଜଙ୍ଗଲ। ଏଠି ବଣୁଆ ପଶୁମାନେ ରହନ୍ତି।",
+    "spoken": "ଏହା ଜଙ୍ଗଲ. ଏଠି ବଣୁଆ ପଶୁମାନେ ରହନ୍ତି.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s02.mp3": {
+    "written": "ଏହା ଏକ ସିଂହ। ସିଂହ ଜଙ୍ଗଲର ରାଜା।",
+    "spoken": "ଏହା ଏକ ସିଂହ. ସିଂହ ଜଙ୍ଗଲର ରାଜା.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s03.mp3": {
+    "written": "ଏହା ଏକ ବାଘ। ବାଘର ଦେହରେ ପଟା ଥାଏ।",
+    "spoken": "ଏହା ଏକ ବାଘ. ବାଘର ଦେହରେ ପଟା ଥାଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s04.mp3": {
+    "written": "ଏହା ଏକ ହାତୀ। ହାତୀ ବହୁତ ବଡ଼।",
+    "spoken": "ଏହା ଏକ ହାତୀ. ହାତୀ ବହୁତ ବଡ଼.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s05.mp3": {
+    "written": "ଏହା ଏକ ଜିରାଫ। ଜିରାଫ ବହୁତ ଡେଙ୍ଗା।",
+    "spoken": "ଏହା ଏକ ଜିରାଫ. ଜିରାଫ ବହୁତ ଡେଙ୍ଗା.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s06.mp3": {
+    "written": "ଏହା ଏକ ଭାଲୁ।",
+    "spoken": "ଏହା ଏକ ଭାଲୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s07.mp3": {
+    "written": "ଏହା ଏକ ଜେବ୍ରା।",
+    "spoken": "ଏହା ଏକ ଜେବ୍ରା.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s08.mp3": {
+    "written": "ଏହା ଏକ ହରିଣ। ହରିଣ ବହୁତ ଜୋରରେ ଦୌଡ଼େ।",
+    "spoken": "ଏହା ଏକ ହରିଣ. ହରିଣ ବହୁତ ଜୋରରେ ଦୌଡ଼େ.",
+    "provider": "indic"
+  },
+  "eng-nur-wild-animals-s09.mp3": {
+    "written": "ଆଉ ଏହା ଏକ ମାଙ୍କଡ଼। ମାଙ୍କଡ଼ ଗଛରେ ରହେ।",
+    "spoken": "ଆଉ ଏହା ଏକ ମାଙ୍କଡ଼. ମାଙ୍କଡ଼ ଗଛରେ ରହେ.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s01.mp3": {
+    "written": "ଏଠି ଗୋଟିଏ ପଥର ଅଛି, ଆଉ ଏଠି ଗୋଟିଏ କୁକୁଡ଼ା।",
+    "spoken": "ଏଠି ଗୋଟିଏ ପଥର ଅଛି, ଆଉ ଏଠି ଗୋଟିଏ କୁକୁଡ଼ା.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s02.mp3": {
+    "written": "କୁକୁଡ଼ା ପଥରର ଆଗରେ ଅଛି।",
+    "spoken": "କୁକୁଡ଼ା ପଥରର ଆଗରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s03.mp3": {
+    "written": "ଏବେ ଏହାକୁ ଦେଖ।",
+    "spoken": "ଏବେ ଏହାକୁ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s04.mp3": {
+    "written": "କୁକୁଡ଼ା ପଥରର ପଛରେ ଅଛି।",
+    "spoken": "କୁକୁଡ଼ା ପଥରର ପଛରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "eng-ukg-behind-front-s05.mp3": {
+    "written": "ଆଗରେ, ଆଉ ପଛରେ। ଏହା ମନେ ରଖ।",
+    "spoken": "ଆଗରେ, ଆଉ ପଛରେ. ଏହା ମନେ ରଖ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s01.mp3": {
+    "written": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s02.mp3": {
+    "written": "A ର ଧ୍ୱନି — a। ମୋ ସହ କୁହ।",
+    "spoken": "ଏ ର ଧ୍ୱନି, ଆ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s03.mp3": {
+    "written": "B ର ଧ୍ୱନି — buh। ମୋ ସହ କୁହ।",
+    "spoken": "ବି ର ଧ୍ୱନି, ବ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s04.mp3": {
+    "written": "C ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।",
+    "spoken": "ସି ର ଧ୍ୱନି, କ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s05.mp3": {
+    "written": "D ର ଧ୍ୱନି — duh। ମୋ ସହ କୁହ।",
+    "spoken": "ଡି ର ଧ୍ୱନି, ଡ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s06.mp3": {
+    "written": "E ର ଧ୍ୱନି — eh। ମୋ ସହ କୁହ।",
+    "spoken": "ଇ ର ଧ୍ୱନି, ଏ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s07.mp3": {
+    "written": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s08.mp3": {
+    "written": "F ର ଧ୍ୱନି — fuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏଫ ର ଧ୍ୱନି, ଫ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s09.mp3": {
+    "written": "G ର ଧ୍ୱନି — guh। ମୋ ସହ କୁହ।",
+    "spoken": "ଜି ର ଧ୍ୱନି, ଗ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s10.mp3": {
+    "written": "H ର ଧ୍ୱନି — huh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏଚ ର ଧ୍ୱନି, ହ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s11.mp3": {
+    "written": "I ର ଧ୍ୱନି — ih। ମୋ ସହ କୁହ।",
+    "spoken": "ଆଇ ର ଧ୍ୱନି, ଇ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s12.mp3": {
+    "written": "J ର ଧ୍ୱନି — juh। ମୋ ସହ କୁହ।",
+    "spoken": "ଜେ ର ଧ୍ୱନି, ଜ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s13.mp3": {
+    "written": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s14.mp3": {
+    "written": "K ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।",
+    "spoken": "କେ ର ଧ୍ୱନି, କ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s15.mp3": {
+    "written": "L ର ଧ୍ୱନି — luh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏଲ ର ଧ୍ୱନି, ଲ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s16.mp3": {
+    "written": "M ର ଧ୍ୱନି — muh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏମ ର ଧ୍ୱନି, ମ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s17.mp3": {
+    "written": "N ର ଧ୍ୱନି — nuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏନ ର ଧ୍ୱନି, ନ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s18.mp3": {
+    "written": "O ର ଧ୍ୱନି — oh। ମୋ ସହ କୁହ।",
+    "spoken": "ଓ ର ଧ୍ୱନି, ଅ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s19.mp3": {
+    "written": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s20.mp3": {
+    "written": "P ର ଧ୍ୱନି — puh। ମୋ ସହ କୁହ।",
+    "spoken": "ପି ର ଧ୍ୱନି, ପ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s21.mp3": {
+    "written": "Q ର ଧ୍ୱନି — kwuh। ମୋ ସହ କୁହ।",
+    "spoken": "କ୍ୟୁ ର ଧ୍ୱନି, କ୍ୱ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s22.mp3": {
+    "written": "R ର ଧ୍ୱନି — ruh। ମୋ ସହ କୁହ।",
+    "spoken": "ଆର ର ଧ୍ୱନି, ର. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s23.mp3": {
+    "written": "S ର ଧ୍ୱନି — sss। ମୋ ସହ କୁହ।",
+    "spoken": "ଏସ ର ଧ୍ୱନି, ସ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s24.mp3": {
+    "written": "T ର ଧ୍ୱନି — tuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଟି ର ଧ୍ୱନି, ଟ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s25.mp3": {
+    "written": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s26.mp3": {
+    "written": "U ର ଧ୍ୱନି — uh। ମୋ ସହ କୁହ।",
+    "spoken": "ୟୁ ର ଧ୍ୱନି, ଅ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s27.mp3": {
+    "written": "V ର ଧ୍ୱନି — vuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଭି ର ଧ୍ୱନି, ଭ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s28.mp3": {
+    "written": "W ର ଧ୍ୱନି — wuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଡବ୍ଲ୍ୟୁ ର ଧ୍ୱନି, ୱ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s29.mp3": {
+    "written": "X ର ଧ୍ୱନି — ks। ମୋ ସହ କୁହ।",
+    "spoken": "ଏକ୍ସ ର ଧ୍ୱନି, କ୍ସ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s30.mp3": {
+    "written": "Y ର ଧ୍ୱନି — yuh। ମୋ ସହ କୁହ।",
+    "spoken": "ୱାଇ ର ଧ୍ୱନି, ୟ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s31.mp3": {
+    "written": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏବେ ଏହି ଅକ୍ଷରଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "eng-ukg-phonics-s32.mp3": {
+    "written": "Z ର ଧ୍ୱନି — zuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଜେଡ ର ଧ୍ୱନି, ଜ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s01.mp3": {
+    "written": "ପ୍ରତ୍ୟେକ ପଶୁର ଛୁଆ ଥାଏ। ଆସ ଦେଖିବା, କାହାର ଛୁଆ କିଏ।",
+    "spoken": "ପ୍ରତ୍ୟେକ ପଶୁର ଛୁଆ ଥାଏ. ଆସ ଦେଖିବା, କାହାର ଛୁଆ କିଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s02.mp3": {
+    "written": "ଏହା ଏକ ଗାଈ।",
+    "spoken": "ଏହା ଏକ ଗାଈ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s03.mp3": {
+    "written": "ଆଉ ଏ ତାର ଛୁଆ — ବାଛୁରୀ।",
+    "spoken": "ଆଉ ଏ ତାର ଛୁଆ, ବାଛୁରୀ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s04.mp3": {
+    "written": "ଏହା ଏକ ମେଣ୍ଢା।",
+    "spoken": "ଏହା ଏକ ମେଣ୍ଢା.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s05.mp3": {
+    "written": "ଆଉ ଏ ତାର ଛୁଆ — ମେଣ୍ଢା ଛୁଆ।",
+    "spoken": "ଆଉ ଏ ତାର ଛୁଆ, ମେଣ୍ଢା ଛୁଆ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s06.mp3": {
+    "written": "ଏହା ଏକ କୁକୁର।",
+    "spoken": "ଏହା ଏକ କୁକୁର.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s07.mp3": {
+    "written": "ଆଉ ଏ ତାର ଛୁଆ — କୁକୁର ଛୁଆ।",
+    "spoken": "ଆଉ ଏ ତାର ଛୁଆ, କୁକୁର ଛୁଆ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s08.mp3": {
+    "written": "ଏହା ଏକ ବିଲେଇ।",
+    "spoken": "ଏହା ଏକ ବିଲେଇ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s09.mp3": {
+    "written": "ଆଉ ଏ ତାର ଛୁଆ — ବିଲେଇ ଛୁଆ।",
+    "spoken": "ଆଉ ଏ ତାର ଛୁଆ, ବିଲେଇ ଛୁଆ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s10.mp3": {
+    "written": "ଏହା ଏକ କୁକୁଡ଼ା।",
+    "spoken": "ଏହା ଏକ କୁକୁଡ଼ା.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-babies-s11.mp3": {
+    "written": "ଆଉ ଏ ତାର ଛୁଆ — କୁକୁଡ଼ା ଛୁଆ।",
+    "spoken": "ଆଉ ଏ ତାର ଛୁଆ, କୁକୁଡ଼ା ଛୁଆ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s01.mp3": {
+    "written": "ସମସ୍ତଙ୍କୁ ଭୋକ ଲାଗେ — ପଶୁମାନଙ୍କୁ ମଧ୍ୟ। ଆସ ଦେଖିବା, କିଏ କଣ ଖାଏ।",
+    "spoken": "ସମସ୍ତଙ୍କୁ ଭୋକ ଲାଗେ, ପଶୁମାନଙ୍କୁ ମଧ୍ୟ. ଆସ ଦେଖିବା, କିଏ କଣ ଖାଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s02.mp3": {
+    "written": "ଏହା ଏକ ଗାଈ।",
+    "spoken": "ଏହା ଏକ ଗାଈ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s03.mp3": {
+    "written": "ଗାଈ ଘାସ ଖାଏ।",
+    "spoken": "ଗାଈ ଘାସ ଖାଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s04.mp3": {
+    "written": "ଏହା ଏକ କୁକୁଡ଼ା।",
+    "spoken": "ଏହା ଏକ କୁକୁଡ଼ା.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s05.mp3": {
+    "written": "କୁକୁଡ଼ା ଦାନା ଖୁମ୍ପି ଖାଏ।",
+    "spoken": "କୁକୁଡ଼ା ଦାନା ଖୁମ୍ପି ଖାଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s06.mp3": {
+    "written": "ଏହା ଏକ କୁକୁର।",
+    "spoken": "ଏହା ଏକ କୁକୁର.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s07.mp3": {
+    "written": "କୁକୁର ହାଡ଼ ଚୋବାଏ।",
+    "spoken": "କୁକୁର ହାଡ଼ ଚୋବାଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s08.mp3": {
+    "written": "ଏହା ଏକ ବିଲେଇ।",
+    "spoken": "ଏହା ଏକ ବିଲେଇ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s09.mp3": {
+    "written": "ବିଲେଇ କ୍ଷୀର ପିଏ।",
+    "spoken": "ବିଲେଇ କ୍ଷୀର ପିଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s10.mp3": {
+    "written": "ଏହା ଏକ ମାଙ୍କଡ଼।",
+    "spoken": "ଏହା ଏକ ମାଙ୍କଡ଼.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-food-s11.mp3": {
+    "written": "ମାଙ୍କଡ଼ କଦଳୀ ଖାଏ।",
+    "spoken": "ମାଙ୍କଡ଼ କଦଳୀ ଖାଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s01.mp3": {
+    "written": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?",
+    "spoken": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s02.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ଗାଈର!",
+    "spoken": "ଏଗୁଡ଼ିକ ଗାଈର!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s03.mp3": {
+    "written": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?",
+    "spoken": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s04.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ଘୋଡ଼ାର!",
+    "spoken": "ଏଗୁଡ଼ିକ ଘୋଡ଼ାର!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s05.mp3": {
+    "written": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?",
+    "spoken": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s06.mp3": {
+    "written": "ଏଗୁଡ଼ିକ କୁକୁଡ଼ାର!",
+    "spoken": "ଏଗୁଡ଼ିକ କୁକୁଡ଼ାର!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s07.mp3": {
+    "written": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?",
+    "spoken": "ଭୂଇଁ ଉପରେ ଏଗୁଡ଼ିକ କାହାର ପାଦଚିହ୍ନ?",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-footprints-s08.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ହାତୀର!",
+    "spoken": "ଏଗୁଡ଼ିକ ହାତୀର!",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s01.mp3": {
+    "written": "ଆମେ ଘରେ ରହୁ। ପଶୁମାନଙ୍କର ମଧ୍ୟ ଘର ଥାଏ। ଆସ ଦେଖିବା, କିଏ କେଉଁଠି ରହେ।",
+    "spoken": "ଆମେ ଘରେ ରହୁ. ପଶୁମାନଙ୍କର ମଧ୍ୟ ଘର ଥାଏ. ଆସ ଦେଖିବା, କିଏ କେଉଁଠି ରହେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s02.mp3": {
+    "written": "ଏହା ଏକ ଘରଚଟିଆ।",
+    "spoken": "ଏହା ଏକ ଘରଚଟିଆ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s03.mp3": {
+    "written": "ଘରଚଟିଆ ବସାରେ ରହେ।",
+    "spoken": "ଘରଚଟିଆ ବସାରେ ରହେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s04.mp3": {
+    "written": "ଏହା ଏକ କୁକୁର।",
+    "spoken": "ଏହା ଏକ କୁକୁର.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s05.mp3": {
+    "written": "କୁକୁର ତାର କୁକୁର ଘରେ ରହେ।",
+    "spoken": "କୁକୁର ତାର କୁକୁର ଘରେ ରହେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s06.mp3": {
+    "written": "ଏହା ଏକ ମହୁମାଛି।",
+    "spoken": "ଏହା ଏକ ମହୁମାଛି.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s07.mp3": {
+    "written": "ମହୁମାଛି ମହୁଫେଣାରେ ରହେ।",
+    "spoken": "ମହୁମାଛି ମହୁଫେଣାରେ ରହେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s08.mp3": {
+    "written": "ଏହା ଏକ ସିଂହ।",
+    "spoken": "ଏହା ଏକ ସିଂହ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s09.mp3": {
+    "written": "ସିଂହ ଗୁମ୍ଫାରେ ରହେ।",
+    "spoken": "ସିଂହ ଗୁମ୍ଫାରେ ରହେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s10.mp3": {
+    "written": "ଏହା ଏକ ଗାଈ।",
+    "spoken": "ଏହା ଏକ ଗାଈ.",
+    "provider": "indic"
+  },
+  "evs-lkg-animal-habitats-s11.mp3": {
+    "written": "ଗାଈ ଗୁହାଳରେ ରହେ।",
+    "spoken": "ଗାଈ ଗୁହାଳରେ ରହେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s01.mp3": {
+    "written": "ଏହା ଆମ ଶରୀର। ଆସ ଏହାର ଅଙ୍ଗଗୁଡ଼ିକର ନାଁ ଶିଖିବା।",
+    "spoken": "ଏହା ଆମ ଶରୀର. ଆସ ଏହାର ଅଙ୍ଗଗୁଡ଼ିକର ନାଁ ଶିଖିବା.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s02.mp3": {
+    "written": "ଏହା ମୁଣ୍ଡ।",
+    "spoken": "ଏହା ମୁଣ୍ଡ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s03.mp3": {
+    "written": "ଏଗୁଡ଼ିକ କେଶ।",
+    "spoken": "ଏଗୁଡ଼ିକ କେଶ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s04.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ଆଖି। ଆଖିରେ ଆମେ ଦେଖୁ।",
+    "spoken": "ଏଗୁଡ଼ିକ ଆଖି. ଆଖିରେ ଆମେ ଦେଖୁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s05.mp3": {
+    "written": "ଏଗୁଡ଼ିକ କାନ। କାନରେ ଆମେ ଶୁଣୁ।",
+    "spoken": "ଏଗୁଡ଼ିକ କାନ. କାନରେ ଆମେ ଶୁଣୁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s06.mp3": {
+    "written": "ଏହା ନାକ। ନାକରେ ଆମେ ବାସନା ଶୁଙ୍ଘୁ।",
+    "spoken": "ଏହା ନାକ. ନାକରେ ଆମେ ବାସନା ଶୁଙ୍ଘୁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s07.mp3": {
+    "written": "ଏହା ପାଟି। ପାଟିରେ ଆମେ ଖାଉ ଓ କଥା କହୁ।",
+    "spoken": "ଏହା ପାଟି. ପାଟିରେ ଆମେ ଖାଉ ଓ କଥା କହୁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s08.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ହାତ। ହାତରେ ଆମେ କାମ କରୁ।",
+    "spoken": "ଏଗୁଡ଼ିକ ହାତ. ହାତରେ ଆମେ କାମ କରୁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s09.mp3": {
+    "written": "ଏହା ପେଟ।",
+    "spoken": "ଏହା ପେଟ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s10.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ଗୋଡ଼। ଗୋଡ଼ରେ ଆମେ ଚାଲୁ।",
+    "spoken": "ଏଗୁଡ଼ିକ ଗୋଡ଼. ଗୋଡ଼ରେ ଆମେ ଚାଲୁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s11.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ପାଦ।",
+    "spoken": "ଏଗୁଡ଼ିକ ପାଦ.",
+    "provider": "indic"
+  },
+  "evs-lkg-body-parts-s12.mp3": {
+    "written": "ଏବେ ନିଜ ନାକକୁ ଛୁଅଁ! ଏବେ ନିଜ କାନକୁ ଛୁଅଁ!",
+    "spoken": "ଏବେ ନିଜ ନାକକୁ ଛୁଅଁ! ଏବେ ନିଜ କାନକୁ ଛୁଅଁ!",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s01.mp3": {
+    "written": "ଏମାନେ ଆମର ସାହାଯ୍ୟକାରୀ। ଏମାନେ ସମସ୍ତେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତି।",
+    "spoken": "ଏମାନେ ଆମର ସାହାଯ୍ୟକାରୀ. ଏମାନେ ସମସ୍ତେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s02.mp3": {
+    "written": "ଏ ଜଣେ ଡାକ୍ତର। ଆମେ ଅସୁସ୍ଥ ହେଲେ ଡାକ୍ତର ଆମକୁ ଭଲ କରନ୍ତି।",
+    "spoken": "ଏ ଜଣେ ଡାକ୍ତର. ଆମେ ଅସୁସ୍ଥ ହେଲେ ଡାକ୍ତର ଆମକୁ ଭଲ କରନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s03.mp3": {
+    "written": "ଏ ଜଣେ ଶିକ୍ଷୟିତ୍ରୀ। ସେ ଆମକୁ ପଢ଼ାନ୍ତି।",
+    "spoken": "ଏ ଜଣେ ଶିକ୍ଷୟିତ୍ରୀ. ସେ ଆମକୁ ପଢ଼ାନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s04.mp3": {
+    "written": "ଏ ଜଣେ ପୋଲିସ। ପୋଲିସ ଆମକୁ ସୁରକ୍ଷା ଦିଅନ୍ତି।",
+    "spoken": "ଏ ଜଣେ ପୋଲିସ. ପୋଲିସ ଆମକୁ ସୁରକ୍ଷା ଦିଅନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s05.mp3": {
+    "written": "ଏ ଜଣେ ଚାଷୀ। ଚାଷୀ ଆମ ପାଇଁ ଖାଦ୍ୟ ଉପୁଜାନ୍ତି।",
+    "spoken": "ଏ ଜଣେ ଚାଷୀ. ଚାଷୀ ଆମ ପାଇଁ ଖାଦ୍ୟ ଉପୁଜାନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s06.mp3": {
+    "written": "ଏ ଜଣେ ଅଗ୍ନିଶମ କର୍ମଚାରୀ। ସେମାନେ ନିଆଁ ଲିଭାନ୍ତି।",
+    "spoken": "ଏ ଜଣେ ଅଗ୍ନିଶମ କର୍ମଚାରୀ. ସେମାନେ ନିଆଁ ଲିଭାନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s07.mp3": {
+    "written": "ଏ ଜଣେ ଡାକବାଲା। ଡାକବାଲା ଆମ ଚିଠି ଆଣନ୍ତି।",
+    "spoken": "ଏ ଜଣେ ଡାକବାଲା. ଡାକବାଲା ଆମ ଚିଠି ଆଣନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-community-helpers-s08.mp3": {
+    "written": "ସେମାନେ ଆମକୁ ସାହାଯ୍ୟ କଲେ, ଆମେ କହୁ — ଧନ୍ୟବାଦ!",
+    "spoken": "ସେମାନେ ଆମକୁ ସାହାଯ୍ୟ କଲେ, ଆମେ କହୁ, ଧନ୍ୟବାଦ!",
+    "provider": "indic"
+  },
+  "evs-lkg-healthy-food-s01.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ସ୍ୱାସ୍ଥ୍ୟକର ଖାଦ୍ୟ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ସ୍ୱାସ୍ଥ୍ୟକର ଖାଦ୍ୟ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-healthy-food-s02.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ସ୍ୱାସ୍ଥ୍ୟକର ଖାଦ୍ୟ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ସ୍ୱାସ୍ଥ୍ୟକର ଖାଦ୍ୟ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-healthy-food-s03.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ସ୍ୱାସ୍ଥ୍ୟକର ଖାଦ୍ୟ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ କେଉଁଟି ସ୍ୱାସ୍ଥ୍ୟକର ଖାଦ୍ୟ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s01.mp3": {
+    "written": "ଏହା ଏକ ଘର। ଘରର ଅନେକ ଅଂଶ ଥାଏ।",
+    "spoken": "ଏହା ଏକ ଘର. ଘରର ଅନେକ ଅଂଶ ଥାଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s02.mp3": {
+    "written": "ଏଗୁଡ଼ିକ କାନ୍ଥ। ସେଗୁଡ଼ିକ ଘରକୁ ଧରି ରଖେ।",
+    "spoken": "ଏଗୁଡ଼ିକ କାନ୍ଥ. ସେଗୁଡ଼ିକ ଘରକୁ ଧରି ରଖେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s03.mp3": {
+    "written": "ଏହା ଛାତ। ଏହା ଖରା ଓ ବର୍ଷାରୁ ରକ୍ଷା କରେ।",
+    "spoken": "ଏହା ଛାତ. ଏହା ଖରା ଓ ବର୍ଷାରୁ ରକ୍ଷା କରେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s04.mp3": {
+    "written": "ଏହା କବାଟ। ଏହା ଦେଇ ଆମେ ଭିତରକୁ ଯାଉ।",
+    "spoken": "ଏହା କବାଟ. ଏହା ଦେଇ ଆମେ ଭିତରକୁ ଯାଉ.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s05.mp3": {
+    "written": "ଏହା ଝରକା। ଏହା ଦେଇ ପବନ ଓ ଆଲୁଅ ଭିତରକୁ ଆସେ।",
+    "spoken": "ଏହା ଝରକା. ଏହା ଦେଇ ପବନ ଓ ଆଲୁଅ ଭିତରକୁ ଆସେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-house-parts-s06.mp3": {
+    "written": "ଆଉ ଏଗୁଡ଼ିକ ପାହାଚ।",
+    "spoken": "ଆଉ ଏଗୁଡ଼ିକ ପାହାଚ.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s01.mp3": {
+    "written": "ଏହା ବଜାର। ଏଠି ଆମେ ଜିନିଷ କିଣୁ।",
+    "spoken": "ଏହା ବଜାର. ଏଠି ଆମେ ଜିନିଷ କିଣୁ.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s02.mp3": {
+    "written": "ଏହା ଫଳ ଦୋକାନ।",
+    "spoken": "ଏହା ଫଳ ଦୋକାନ.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s03.mp3": {
+    "written": "ଏଠି ସେଓ ମିଳେ…",
+    "spoken": "ଏଠି ସେଓ ମିଳେ,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s04.mp3": {
+    "written": "…କଦଳୀ…",
+    "spoken": ",କଦଳୀ,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s05.mp3": {
+    "written": "…ଆଉ କମଳା।",
+    "spoken": ",ଆଉ କମଳା.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s06.mp3": {
+    "written": "ଏହା ପରିବା ଦୋକାନ।",
+    "spoken": "ଏହା ପରିବା ଦୋକାନ.",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s07.mp3": {
+    "written": "ଏଠି ଟମାଟୋ…",
+    "spoken": "ଏଠି ଟମାଟୋ,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s08.mp3": {
+    "written": "…ବାଇଗଣ…",
+    "spoken": ",ବାଇଗଣ,",
+    "provider": "indic"
+  },
+  "evs-lkg-market-s09.mp3": {
+    "written": "…ଆଉ ବନ୍ଧାକୋବି ମିଳେ।",
+    "spoken": ",ଆଉ ବନ୍ଧାକୋବି ମିଳେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s01.mp3": {
+    "written": "ସମସ୍ତେ ନିଜ ନିଜ କାମ କରନ୍ତି, ଆଉ ପ୍ରତ୍ୟେକ କାମର ନିଜର ଉପକରଣ ଥାଏ।",
+    "spoken": "ସମସ୍ତେ ନିଜ ନିଜ କାମ କରନ୍ତି, ଆଉ ପ୍ରତ୍ୟେକ କାମର ନିଜର ଉପକରଣ ଥାଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s02.mp3": {
+    "written": "ଏ ଜଣେ ଡାକ୍ତର।",
+    "spoken": "ଏ ଜଣେ ଡାକ୍ତର.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s03.mp3": {
+    "written": "ଡାକ୍ତର ଷ୍ଟେଥୋସ୍କୋପରେ ଆମ ହୃଦୟର ଧକଧକ ଶୁଣନ୍ତି।",
+    "spoken": "ଡାକ୍ତର ଷ୍ଟେଥୋସ୍କୋପରେ ଆମ ହୃଦୟର ଧକଧକ ଶୁଣନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s04.mp3": {
+    "written": "ଏ ଜଣେ ଶିକ୍ଷୟିତ୍ରୀ।",
+    "spoken": "ଏ ଜଣେ ଶିକ୍ଷୟିତ୍ରୀ.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s05.mp3": {
+    "written": "ଶିକ୍ଷୟିତ୍ରୀ ବହିରୁ ପଢ଼ାନ୍ତି।",
+    "spoken": "ଶିକ୍ଷୟିତ୍ରୀ ବହିରୁ ପଢ଼ାନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s06.mp3": {
+    "written": "ଏ ଜଣେ ଡାକବାଲା।",
+    "spoken": "ଏ ଜଣେ ଡାକବାଲା.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s07.mp3": {
+    "written": "ଡାକବାଲା ଚିଠି ଆଣନ୍ତି।",
+    "spoken": "ଡାକବାଲା ଚିଠି ଆଣନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s08.mp3": {
+    "written": "ଏ ଜଣେ ଚାଷୀ।",
+    "spoken": "ଏ ଜଣେ ଚାଷୀ.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s09.mp3": {
+    "written": "ଚାଷୀ ଟ୍ରାକ୍ଟରରେ ଜମି ହଳ କରନ୍ତି।",
+    "spoken": "ଚାଷୀ ଟ୍ରାକ୍ଟରରେ ଜମି ହଳ କରନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s10.mp3": {
+    "written": "ଏ ଜଣେ ଅଗ୍ନିଶମ କର୍ମଚାରୀ।",
+    "spoken": "ଏ ଜଣେ ଅଗ୍ନିଶମ କର୍ମଚାରୀ.",
+    "provider": "indic"
+  },
+  "evs-lkg-professions-s11.mp3": {
+    "written": "ସେ ଦମକଳ ଗାଡ଼ିରେ ନିଆଁ ଲିଭାଇବାକୁ ଯାଆନ୍ତି।",
+    "spoken": "ସେ ଦମକଳ ଗାଡ଼ିରେ ନିଆଁ ଲିଭାଇବାକୁ ଯାଆନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s01.mp3": {
+    "written": "କିଛି ଗାଡ଼ି ଖାସ କାମ କରେ। ଆସ ସେଗୁଡ଼ିକୁ ଦେଖିବା।",
+    "spoken": "କିଛି ଗାଡ଼ି ଖାସ କାମ କରେ. ଆସ ସେଗୁଡ଼ିକୁ ଦେଖିବା.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s02.mp3": {
+    "written": "ଏହା ପୋଲିସ ଗାଡ଼ି। ପୋଲିସ ଏଥିରେ ଆମକୁ ସାହାଯ୍ୟ କରିବାକୁ ଆସନ୍ତି।",
+    "spoken": "ଏହା ପୋଲିସ ଗାଡ଼ି. ପୋଲିସ ଏଥିରେ ଆମକୁ ସାହାଯ୍ୟ କରିବାକୁ ଆସନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s03.mp3": {
+    "written": "ଏହା ଆମ୍ବୁଲାନ୍ସ। ଏହା ଅସୁସ୍ଥ ଲୋକଙ୍କୁ ଶୀଘ୍ର ଡାକ୍ତରଖାନା ନିଏ।",
+    "spoken": "ଏହା ଆମ୍ବୁଲାନ୍ସ. ଏହା ଅସୁସ୍ଥ ଲୋକଙ୍କୁ ଶୀଘ୍ର ଡାକ୍ତରଖାନା ନିଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s04.mp3": {
+    "written": "ଏହା ଦମକଳ ଗାଡ଼ି। ଏହା ନିଆଁ ଲିଭାଇବାକୁ ଯାଏ।",
+    "spoken": "ଏହା ଦମକଳ ଗାଡ଼ି. ଏହା ନିଆଁ ଲିଭାଇବାକୁ ଯାଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s05.mp3": {
+    "written": "ଏହା ସ୍କୁଲ ବସ। ଏହା ପିଲାମାନଙ୍କୁ ସ୍କୁଲ ନିଏ।",
+    "spoken": "ଏହା ସ୍କୁଲ ବସ. ଏହା ପିଲାମାନଙ୍କୁ ସ୍କୁଲ ନିଏ.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s06.mp3": {
+    "written": "ଆଉ ଏହା ବୁଲଡୋଜର। ଏହା ମାଟି ଠେଲେ ଓ ରାସ୍ତା ତିଆରିରେ ସାହାଯ୍ୟ କରେ।",
+    "spoken": "ଆଉ ଏହା ବୁଲଡୋଜର. ଏହା ମାଟି ଠେଲେ ଓ ରାସ୍ତା ତିଆରିରେ ସାହାଯ୍ୟ କରେ.",
+    "provider": "indic"
+  },
+  "evs-lkg-special-vehicles-s07.mp3": {
+    "written": "ଆମ୍ବୁଲାନ୍ସ କିମ୍ବା ଦମକଳର ସାଇରନ ବାଜିଲେ, ସମସ୍ତେ ତାକୁ ବାଟ ଛାଡ଼ନ୍ତି।",
+    "spoken": "ଆମ୍ବୁଲାନ୍ସ କିମ୍ବା ଦମକଳର ସାଇରନ ବାଜିଲେ, ସମସ୍ତେ ତାକୁ ବାଟ ଛାଡ଼ନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s01.mp3": {
+    "written": "ପର୍ବ ହେଉଛି ଖୁସିର ଦିନ। ଆମେ ସମସ୍ତେ ମିଶି ପର୍ବ ପାଳୁ।",
+    "spoken": "ପର୍ବ ହେଉଛି ଖୁସିର ଦିନ. ଆମେ ସମସ୍ତେ ମିଶି ପର୍ବ ପାଳୁ.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s02.mp3": {
+    "written": "ଦୀପାବଳି ଆଲୁଅର ପର୍ବ। ଆମେ ଦୀପ ଜାଳୁ।",
+    "spoken": "ଦୀପାବଳି ଆଲୁଅର ପର୍ବ. ଆମେ ଦୀପ ଜାଳୁ.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s03.mp3": {
+    "written": "ଆଉ ଅଗଣାରେ ଝୋଟି ଚିତା ପକାଉ।",
+    "spoken": "ଆଉ ଅଗଣାରେ ଝୋଟି ଚିତା ପକାଉ.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s04.mp3": {
+    "written": "ମକର ସଂକ୍ରାନ୍ତିରେ ଆମେ ଗୁଡ଼ି ଉଡ଼ାଉ।",
+    "spoken": "ମକର ସଂକ୍ରାନ୍ତିରେ ଆମେ ଗୁଡ଼ି ଉଡ଼ାଉ.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s05.mp3": {
+    "written": "ହୋଲି ରଙ୍ଗର ପର୍ବ। ଆମେ ପରସ୍ପରକୁ ଅବିର ଲଗାଉ।",
+    "spoken": "ହୋଲି ରଙ୍ଗର ପର୍ବ. ଆମେ ପରସ୍ପରକୁ ଅବିର ଲଗାଉ.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s06.mp3": {
+    "written": "ବଡ଼ଦିନରେ ଆମେ କ୍ରିସମାସ ଗଛ ସଜାଉ…",
+    "spoken": "ବଡ଼ଦିନରେ ଆମେ କ୍ରିସମାସ ଗଛ ସଜାଉ,",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s07.mp3": {
+    "written": "…ଆଉ ପରସ୍ପରକୁ ଉପହାର ଦେଉ।",
+    "spoken": ",ଆଉ ପରସ୍ପରକୁ ଉପହାର ଦେଉ.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s08.mp3": {
+    "written": "ଇଦରେ ଆମେ ଜହ୍ନ ଦେଖୁ, ଆଉ ସମସ୍ତଙ୍କୁ ଇଦ ମୁବାରକ କହୁ।",
+    "spoken": "ଇଦରେ ଆମେ ଜହ୍ନ ଦେଖୁ, ଆଉ ସମସ୍ତଙ୍କୁ ଇଦ ମୁବାରକ କହୁ.",
+    "provider": "indic"
+  },
+  "evs-nur-festivals-s09.mp3": {
+    "written": "ତୁମ ଘରେ କେଉଁ ପର୍ବ ପାଳନ୍ତି?",
+    "spoken": "ତୁମ ଘରେ କେଉଁ ପର୍ବ ପାଳନ୍ତି?",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s01.mp3": {
+    "written": "ଭଲ ଅଭ୍ୟାସ ଆମକୁ ସୁସ୍ଥ ଓ ଖୁସି ରଖେ।",
+    "spoken": "ଭଲ ଅଭ୍ୟାସ ଆମକୁ ସୁସ୍ଥ ଓ ଖୁସି ରଖେ.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s02.mp3": {
+    "written": "ଆମେ ପ୍ରତିଦିନ ସକାଳେ ଓ ରାତିରେ ଦାନ୍ତ ଘଷୁ।",
+    "spoken": "ଆମେ ପ୍ରତିଦିନ ସକାଳେ ଓ ରାତିରେ ଦାନ୍ତ ଘଷୁ.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s03.mp3": {
+    "written": "ଖାଇବା ଆଗରୁ ଓ ଶୌଚ ପରେ ଆମେ ସାବୁନରେ ହାତ ଧୋଉ।",
+    "spoken": "ଖାଇବା ଆଗରୁ ଓ ଶୌଚ ପରେ ଆମେ ସାବୁନରେ ହାତ ଧୋଉ.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s04.mp3": {
+    "written": "ଆମେ ପ୍ରତିଦିନ ଗାଧୋଉ ଆଉ ତଉଲିଆରେ ଦେହ ପୋଛୁ।",
+    "spoken": "ଆମେ ପ୍ରତିଦିନ ଗାଧୋଉ ଆଉ ତଉଲିଆରେ ଦେହ ପୋଛୁ.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s05.mp3": {
+    "written": "ଆମେ କେଶ କୁଣ୍ଡାଉ।",
+    "spoken": "ଆମେ କେଶ କୁଣ୍ଡାଉ.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s06.mp3": {
+    "written": "ଆମେ ଫଳ ଓ ପନିପରିବା ଖାଉ…",
+    "spoken": "ଆମେ ଫଳ ଓ ପନିପରିବା ଖାଉ,",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s07.mp3": {
+    "written": "…ଆଉ କ୍ଷୀର ପିଉ।",
+    "spoken": ",ଆଉ କ୍ଷୀର ପିଉ.",
+    "provider": "indic"
+  },
+  "evs-nur-good-habits-s08.mp3": {
+    "written": "ଆମେ ବଡ଼ମାନଙ୍କୁ ନମସ୍କାର କରୁ, ଆଉ କହୁ — ଦୟାକରି, ଆଉ ଧନ୍ୟବାଦ।",
+    "spoken": "ଆମେ ବଡ଼ମାନଙ୍କୁ ନମସ୍କାର କରୁ, ଆଉ କହୁ, ଦୟାକରି, ଆଉ ଧନ୍ୟବାଦ.",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s01.mp3": {
+    "written": "ପ୍ରଥମେ ବର୍ଷା ହେଲା।",
+    "spoken": "ପ୍ରଥମେ ବର୍ଷା ହେଲା.",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s02.mp3": {
+    "written": "ତାପରେ ଖରା ପଡ଼ିଲା।",
+    "spoken": "ତାପରେ ଖରା ପଡ଼ିଲା.",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s03.mp3": {
+    "written": "ଆଉ ଦେଖ — ଇନ୍ଦ୍ରଧନୁ!",
+    "spoken": "ଆଉ ଦେଖ, ଇନ୍ଦ୍ରଧନୁ!",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s04.mp3": {
+    "written": "ଏଥିରେ ସାତଟି ରଙ୍ଗ ଥାଏ। ଉପରୁ — ନାଲି, କମଳା, ହଳଦିଆ, ସବୁଜ…",
+    "spoken": "ଏଥିରେ ସାତଟି ରଙ୍ଗ ଥାଏ. ଉପରୁ, ନାଲି, କମଳା, ହଳଦିଆ, ସବୁଜ,",
+    "provider": "indic"
+  },
+  "evs-nur-rainbow-s05.mp3": {
+    "written": "…ନୀଳ, ଘନ ନୀଳ ଆଉ ବାଇଗଣୀ।",
+    "spoken": ",ନୀଳ, ଘନ ନୀଳ ଆଉ ବାଇଗଣୀ.",
+    "provider": "indic"
+  },
+  "evs-nur-school-visit-s01.mp3": {
+    "written": "ଏହା ଆମ ସ୍କୁଲ। ଚାରିଆଡ଼େ ଦେଖ। ତୁମକୁ କଣ କଣ ଦିଶୁଛି?",
+    "spoken": "ଏହା ଆମ ସ୍କୁଲ. ଚାରିଆଡ଼େ ଦେଖ. ତୁମକୁ କଣ କଣ ଦିଶୁଛି?",
+    "provider": "indic"
+  },
+  "evs-nur-school-visit-s02.mp3": {
+    "written": "ସ୍କୁଲର ବଡ଼ କୋଠାକୁ ଦେଖ। ଆମେ ଏଠାକୁ ପଢ଼ିବାକୁ ଓ ଖେଳିବାକୁ ଆସୁ।",
+    "spoken": "ସ୍କୁଲର ବଡ଼ କୋଠାକୁ ଦେଖ. ଆମେ ଏଠାକୁ ପଢ଼ିବାକୁ ଓ ଖେଳିବାକୁ ଆସୁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s01.mp3": {
+    "written": "ଆମେ ଗରମ ପବନ ବେଲୁନରେ ଅଛୁ। ଟୋକେଇର ଧାରରୁ ତଳକୁ ଦେଖ।",
+    "spoken": "ଆମେ ଗରମ ପବନ ବେଲୁନରେ ଅଛୁ. ଟୋକେଇର ଧାରରୁ ତଳକୁ ଦେଖ.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s02.mp3": {
+    "written": "ତଳେ — ନଦୀ, କ୍ଷେତ ଆଉ ଘର। ଏଠାରୁ ସେଗୁଡ଼ିକ କେତେ ଛୋଟ ଦିଶୁଛି!",
+    "spoken": "ତଳେ, ନଦୀ, କ୍ଷେତ ଆଉ ଘର. ଏଠାରୁ ସେଗୁଡ଼ିକ କେତେ ଛୋଟ ଦିଶୁଛି!",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s03.mp3": {
+    "written": "ଦେଖ — ସେଠି ଆଉ ଗୋଟିଏ ବେଲୁନ ଉଡ଼ୁଛି।",
+    "spoken": "ଦେଖ, ସେଠି ଆଉ ଗୋଟିଏ ବେଲୁନ ଉଡ଼ୁଛି.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s04.mp3": {
+    "written": "ମେଘ ଠିକ ଆମ ପାଖରେ ଅଛି।",
+    "spoken": "ମେଘ ଠିକ ଆମ ପାଖରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "evs-ukg-balloon-ride-s05.mp3": {
+    "written": "ଆଉ ଉପରେ ସୂର୍ଯ୍ୟ ଚମକୁଛି।",
+    "spoken": "ଆଉ ଉପରେ ସୂର୍ଯ୍ୟ ଚମକୁଛି.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s01.mp3": {
+    "written": "ଏହା ଡାଇନୋସର ପାର୍କ। ଏଗୁଡ଼ିକ ଡାଇନୋସରର ମୂର୍ତ୍ତି — ଏମାନେ ପ୍ରକୃତ ନୁହନ୍ତି। ଡାଇନୋସର ବହୁତ, ବହୁତ ଆଗରୁ ଥିଲେ। ଆଜି କୌଣସି ଡାଇନୋସର ବଞ୍ଚି ନାହାନ୍ତି।",
+    "spoken": "ଏହା ଡାଇନୋସର ପାର୍କ. ଏଗୁଡ଼ିକ ଡାଇନୋସରର ମୂର୍ତ୍ତି, ଏମାନେ ପ୍ରକୃତ ନୁହନ୍ତି. ଡାଇନୋସର ବହୁତ, ବହୁତ ଆଗରୁ ଥିଲେ. ଆଜି କୌଣସି ଡାଇନୋସର ବଞ୍ଚି ନାହାନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s02.mp3": {
+    "written": "ଏହା ଟ୍ରାଇସେରାଟପ୍ସ। ଏହାର ତିନୋଟି ଶିଙ୍ଗ ଥିଲା। ଏହା ଗଛପତ୍ର ଖାଉଥିଲା।",
+    "spoken": "ଏହା ଟ୍ରାଇସେରାଟପ୍ସ. ଏହାର ତିନୋଟି ଶିଙ୍ଗ ଥିଲା. ଏହା ଗଛପତ୍ର ଖାଉଥିଲା.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s03.mp3": {
+    "written": "ଏହା ଷ୍ଟେଗୋସରସ। ଏହାର ପିଠିରେ ବଡ଼ ବଡ଼ ପ୍ଲେଟ ଥିଲା।",
+    "spoken": "ଏହା ଷ୍ଟେଗୋସରସ. ଏହାର ପିଠିରେ ବଡ଼ ବଡ଼ ପ୍ଲେଟ ଥିଲା.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s04.mp3": {
+    "written": "ଏହି ଡାଇନୋସରର ମୁଣ୍ଡରେ ଗୋଟିଏ ଲମ୍ବା ଚୂଳ ଥିଲା।",
+    "spoken": "ଏହି ଡାଇନୋସରର ମୁଣ୍ଡରେ ଗୋଟିଏ ଲମ୍ବା ଚୂଳ ଥିଲା.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s05.mp3": {
+    "written": "ଏହା ଆପାଟୋସରସ। ଏହାର ବେକ ବହୁତ ଲମ୍ବା ଥିଲା। ଏହା ସବୁଠାରୁ ବଡ଼ ଡାଇନୋସରମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଥିଲା।",
+    "spoken": "ଏହା ଆପାଟୋସରସ. ଏହାର ବେକ ବହୁତ ଲମ୍ବା ଥିଲା. ଏହା ସବୁଠାରୁ ବଡ଼ ଡାଇନୋସରମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଥିଲା.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s06.mp3": {
+    "written": "ଏହା ଟି-ରେକ୍ସ। ଏହାର ଦାନ୍ତ ବହୁତ ବଡ଼ ଥିଲା। ଏହା ଅନ୍ୟ ପଶୁଙ୍କୁ ଖାଉଥିଲା।",
+    "spoken": "ଏହାଟି-ରେକ୍ସ. ଏହାର ଦାନ୍ତ ବହୁତ ବଡ଼ ଥିଲା. ଏହା ଅନ୍ୟ ପଶୁଙ୍କୁ ଖାଉଥିଲା.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s07.mp3": {
+    "written": "ଡାଇନୋସର ବିଷୟରେ ଆମେ ସେମାନଙ୍କ ହାଡ଼ରୁ ଜାଣିଲୁ, ଯାହା ମାଟି ତଳୁ ମିଳିଥିଲା।",
+    "spoken": "ଡାଇନୋସର ବିଷୟରେ ଆମେ ସେମାନଙ୍କ ହାଡ଼ରୁ ଜାଣିଲୁ, ଯାହା ମାଟି ତଳୁ ମିଳିଥିଲା.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-cow.mp3": {
+    "written": "ଏହା ଏକ ଗାଈ। ସେ ଘାସ ଖାଏ ଆଉ ଆମକୁ କ୍ଷୀର ଦିଏ। ତାର ଛୁଆକୁ ବାଛୁରୀ କୁହାଯାଏ।",
+    "spoken": "ଏହା ଏକ ଗାଈ. ସେ ଘାସ ଖାଏ ଆଉ ଆମକୁ କ୍ଷୀର ଦିଏ. ତାର ଛୁଆକୁ ବାଛୁରୀ କୁହାଯାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-dog.mp3": {
+    "written": "ଏହା ଏକ କୁକୁର। କୁକୁର ଚାଷ ଜମି ଜଗେ।",
+    "spoken": "ଏହା ଏକ କୁକୁର. କୁକୁର ଚାଷ ଜମି ଜଗେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-donkey.mp3": {
+    "written": "ଏହା ଏକ ଗଧ। ଗଧ ବୋଝ ବୁହେ।",
+    "spoken": "ଏହା ଏକ ଗଧ. ଗଧ ବୋଝ ବୁହେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-duck.mp3": {
+    "written": "ଏହା ଏକ ବତକ। ବତକ ପୋଖରୀରେ ପହଁରେ।",
+    "spoken": "ଏହା ଏକ ବତକ. ବତକ ପୋଖରୀରେ ପହଁରେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-goat.mp3": {
+    "written": "ଏହା ଏକ ଛେଳି। ଛେଳି ପତ୍ର ଖାଏ ଆଉ କ୍ଷୀର ଦିଏ।",
+    "spoken": "ଏହା ଏକ ଛେଳି. ଛେଳି ପତ୍ର ଖାଏ ଆଉ କ୍ଷୀର ଦିଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-hen.mp3": {
+    "written": "ଏହା ଏକ କୁକୁଡ଼ା। କୁକୁଡ଼ା ଦାନା ଖୁମ୍ପେ ଆଉ ଅଣ୍ଡା ଦିଏ।",
+    "spoken": "ଏହା ଏକ କୁକୁଡ଼ା. କୁକୁଡ଼ା ଦାନା ଖୁମ୍ପେ ଆଉ ଅଣ୍ଡା ଦିଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-horse.mp3": {
+    "written": "ଏହା ଏକ ଘୋଡ଼ା। ଘୋଡ଼ା ଗାଡ଼ି ଟାଣେ ଆଉ ଜୋରରେ ଦୌଡ଼େ।",
+    "spoken": "ଏହା ଏକ ଘୋଡ଼ା. ଘୋଡ଼ା ଗାଡ଼ି ଟାଣେ ଆଉ ଜୋରରେ ଦୌଡ଼େ.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-s01.mp3": {
+    "written": "ଆମେ ଚାଷ ଜମିକୁ ଆସିଛୁ। ଚାରିଆଡ଼େ ଦେଖ। କୌଣସି ପଶୁକୁ ଦେଖ, ସେ ନିଜ ବିଷୟରେ କହିବ।",
+    "spoken": "ଆମେ ଚାଷ ଜମିକୁ ଆସିଛୁ. ଚାରିଆଡ଼େ ଦେଖ. କୌଣସି ପଶୁକୁ ଦେଖ, ସେ ନିଜ ବିଷୟରେ କହିବ.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-s02.mp3": {
+    "written": "କେଉଁ ପଶୁ ଆମକୁ କ୍ଷୀର ଦିଏ? ତାକୁ ଖୋଜ।",
+    "spoken": "କେଉଁ ପଶୁ ଆମକୁ କ୍ଷୀର ଦିଏ? ତାକୁ ଖୋଜ.",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-s03.mp3": {
+    "written": "କିଏ ଅଣ୍ଡା ଦିଏ? ଆଉ ପଶମ କାହାଠାରୁ ମିଳେ?",
+    "spoken": "କିଏ ଅଣ୍ଡା ଦିଏ? ଆଉ ପଶମ କାହାଠାରୁ ମିଳେ?",
+    "provider": "indic"
+  },
+  "evs-ukg-farm-visit-sheep.mp3": {
+    "written": "ଏହା ଏକ ମେଣ୍ଢା। ମେଣ୍ଢାର ଲୋମରୁ ପଶମ ତିଆରି ହୁଏ।",
+    "spoken": "ଏହା ଏକ ମେଣ୍ଢା. ମେଣ୍ଢାର ଲୋମରୁ ପଶମ ତିଆରି ହୁଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s01.mp3": {
+    "written": "ଫୁଲ ଗଛରେ ଫୁଟେ। ପ୍ରତ୍ୟେକ ଫୁଲର ନିଜର ରଙ୍ଗ ଆଉ ନିଜର ବାସନା ଥାଏ।",
+    "spoken": "ଫୁଲ ଗଛରେ ଫୁଟେ. ପ୍ରତ୍ୟେକ ଫୁଲର ନିଜର ରଙ୍ଗ ଆଉ ନିଜର ବାସନା ଥାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s02.mp3": {
+    "written": "ଏହା ଏକ ଗୋଲାପ। ଗୋଲାପରେ କଣ୍ଟା ଥାଏ। ଏହାର ବାସନା ବହୁତ ଭଲ।",
+    "spoken": "ଏହା ଏକ ଗୋଲାପ. ଗୋଲାପରେ କଣ୍ଟା ଥାଏ. ଏହାର ବାସନା ବହୁତ ଭଲ.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s03.mp3": {
+    "written": "ଏହା ଏକ ସୂର୍ଯ୍ୟମୁଖୀ। ଏହା ସୂର୍ଯ୍ୟ ଆଡ଼କୁ ମୁହଁ କରେ।",
+    "spoken": "ଏହା ଏକ ସୂର୍ଯ୍ୟମୁଖୀ. ଏହା ସୂର୍ଯ୍ୟ ଆଡ଼କୁ ମୁହଁ କରେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s04.mp3": {
+    "written": "ଏହା ଏକ ଗେଣ୍ଡୁ ଫୁଲ। ଗେଣ୍ଡୁ ଫୁଲରେ ମାଳ ଗୁନ୍ଥାଯାଏ।",
+    "spoken": "ଏହା ଏକ ଗେଣ୍ଡୁ ଫୁଲ. ଗେଣ୍ଡୁ ଫୁଲରେ ମାଳ ଗୁନ୍ଥାଯାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s05.mp3": {
+    "written": "ଏହା ଏକ ପଦ୍ମ। ପଦ୍ମ ପାଣିରେ ଫୁଟେ। ଏହା ଆମର ଜାତୀୟ ଫୁଲ।",
+    "spoken": "ଏହା ଏକ ପଦ୍ମ. ପଦ୍ମ ପାଣିରେ ଫୁଟେ. ଏହା ଆମର ଜାତୀୟ ଫୁଲ.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s06.mp3": {
+    "written": "ଏହା ଏକ ମନ୍ଦାର ଫୁଲ। ଏହାର ରଙ୍ଗ ଗାଢ଼ ନାଲି।",
+    "spoken": "ଏହା ଏକ ମନ୍ଦାର ଫୁଲ. ଏହାର ରଙ୍ଗ ଗାଢ଼ ନାଲି.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s07.mp3": {
+    "written": "ଏହା ମଲ୍ଲୀ ଫୁଲ। ଏହି ଛୋଟ ଧଳା ଫୁଲଗୁଡ଼ିକ ବହୁତ ମହକେ।",
+    "spoken": "ଏହା ମଲ୍ଲୀ ଫୁଲ. ଏହି ଛୋଟ ଧଳା ଫୁଲଗୁଡ଼ିକ ବହୁତ ମହକେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-flowers-s08.mp3": {
+    "written": "ଫୁଲ ଗଛରେ ହିଁ ସୁନ୍ଦର ଦିଶେ। ଆମେ ବିନା କାରଣରେ ଫୁଲ ତୋଳୁ ନାହିଁ।",
+    "spoken": "ଫୁଲ ଗଛରେ ହିଁ ସୁନ୍ଦର ଦିଶେ. ଆମେ ବିନା କାରଣରେ ଫୁଲ ତୋଳୁ ନାହିଁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s01.mp3": {
+    "written": "ଏହା ଏକ ମଞ୍ଜି। ଆମେ ଏହାକୁ ମାଟିରେ ବୁଣୁ ଆଉ ପାଣି ଦେଉ।",
+    "spoken": "ଏହା ଏକ ମଞ୍ଜି. ଆମେ ଏହାକୁ ମାଟିରେ ବୁଣୁ ଆଉ ପାଣି ଦେଉ.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s02.mp3": {
+    "written": "ମଞ୍ଜି ପାଣି ପିଇ ଫୁଲିଯାଏ। ସେଥିରୁ ଗୋଟିଏ ଛୋଟ ଚେର ବାହାରି ତଳକୁ ବଢ଼େ।",
+    "spoken": "ମଞ୍ଜି ପାଣି ପିଇ ଫୁଲିଯାଏ. ସେଥିରୁ ଗୋଟିଏ ଛୋଟ ଚେର ବାହାରି ତଳକୁ ବଢ଼େ.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s03.mp3": {
+    "written": "ଏବେ ଗୋଟିଏ ଗଜା ଉପରକୁ ବଢ଼େ ଆଉ ମାଟିରୁ ମୁହଁ କାଢ଼େ।",
+    "spoken": "ଏବେ ଗୋଟିଏ ଗଜା ଉପରକୁ ବଢ଼େ ଆଉ ମାଟିରୁ ମୁହଁ କାଢ଼େ.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s04.mp3": {
+    "written": "ଗଜାରେ ଦୁଇଟି ଛୋଟ ପତ୍ର ଖୋଲେ। ଏହା ଏକ ଚାରା।",
+    "spoken": "ଗଜାରେ ଦୁଇଟି ଛୋଟ ପତ୍ର ଖୋଲେ. ଏହା ଏକ ଚାରା.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s05.mp3": {
+    "written": "ଖରା ଆଉ ପାଣି ପାଇଲେ ଏହା ବଡ଼ ଗଛ ହୋଇଯାଏ।",
+    "spoken": "ଖରା ଆଉ ପାଣି ପାଇଲେ ଏହା ବଡ଼ ଗଛ ହୋଇଯାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-germination-s06.mp3": {
+    "written": "ମଞ୍ଜିରୁ ଗଛ ହେବାକୁ ଅଙ୍କୁରୋଦ୍ଗମ କୁହାଯାଏ। ତୁମେ ମଧ୍ୟ ଗୋଟିଏ ମଞ୍ଜି ବୁଣି ଦେଖ!",
+    "spoken": "ମଞ୍ଜିରୁ ଗଛ ହେବାକୁ ଅଙ୍କୁରୋଦ୍ଗମ କୁହାଯାଏ. ତୁମେ ମଧ୍ୟ ଗୋଟିଏ ମଞ୍ଜି ବୁଣି ଦେଖ!",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s01.mp3": {
+    "written": "ଭାରତରେ ଅନେକ ପ୍ରକାରର ଲୋକ ରହନ୍ତି। ସମସ୍ତଙ୍କର ନିଜର ଭାଷା, ନିଜର ପୋଷାକ ଆଉ ନିଜର ପର୍ବ ଅଛି।",
+    "spoken": "ଭାରତରେ ଅନେକ ପ୍ରକାରର ଲୋକ ରହନ୍ତି. ସମସ୍ତଙ୍କର ନିଜର ଭାଷା, ନିଜର ପୋଷାକ ଆଉ ନିଜର ପର୍ବ ଅଛି.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s02.mp3": {
+    "written": "ଆମେ ହାତ ଯୋଡ଼ି ନମସ୍କାର କରୁ।",
+    "spoken": "ଆମେ ହାତ ଯୋଡ଼ି ନମସ୍କାର କରୁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s03.mp3": {
+    "written": "ଅନେକ ଜାଗାରେ ଲୋକେ ମୁଣ୍ଡରେ ପଗଡ଼ି ପିନ୍ଧନ୍ତି।",
+    "spoken": "ଅନେକ ଜାଗାରେ ଲୋକେ ମୁଣ୍ଡରେ ପଗଡ଼ି ପିନ୍ଧନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s04.mp3": {
+    "written": "ଅନେକ ମହିଳା ଶାଢ଼ି ପିନ୍ଧନ୍ତି।",
+    "spoken": "ଅନେକ ମହିଳା ଶାଢ଼ି ପିନ୍ଧନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s05.mp3": {
+    "written": "ଆମ ସଙ୍ଗୀତ ବହୁତ ପୁରୁଣା। ଏହା ତବଲା।",
+    "spoken": "ଆମ ସଙ୍ଗୀତ ବହୁତ ପୁରୁଣା. ଏହା ତବଲା.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s06.mp3": {
+    "written": "ପର୍ବରେ ଆମେ ଅଗଣାରେ ଝୋଟି ପକାଉ…",
+    "spoken": "ପର୍ବରେ ଆମେ ଅଗଣାରେ ଝୋଟି ପକାଉ,",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s07.mp3": {
+    "written": "…ଆଉ ଦୀପ ଜାଳୁ।",
+    "spoken": ",ଆଉ ଦୀପ ଜାଳୁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-india-culture-s08.mp3": {
+    "written": "ଆମେ ଅଲଗା ଅଲଗା, ତଥାପି ଆମେ ସମସ୍ତେ ଏକ। ଆମେ ସମସ୍ତେ ଭାରତୀୟ।",
+    "spoken": "ଆମେ ଅଲଗା ଅଲଗା, ତଥାପି ଆମେ ସମସ୍ତେ ଏକ. ଆମେ ସମସ୍ତେ ଭାରତୀୟ.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s01.mp3": {
+    "written": "ଆମ ଦେଶର ନାଁ ଭାରତ। ପ୍ରତ୍ୟେକ ଦେଶର ନିଜର ଜାତୀୟ ପ୍ରତୀକ ଥାଏ।",
+    "spoken": "ଆମ ଦେଶର ନାଁ ଭାରତ. ପ୍ରତ୍ୟେକ ଦେଶର ନିଜର ଜାତୀୟ ପ୍ରତୀକ ଥାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s02.mp3": {
+    "written": "ଏହା ଆମର ଜାତୀୟ ପତାକା — ତ୍ରିରଙ୍ଗା। ଏଥିରେ ଗେରୁଆ, ଧଳା ଆଉ ସବୁଜ ରଙ୍ଗ ଅଛି, ଆଉ ମଝିରେ ଅଶୋକ ଚକ୍ର।",
+    "spoken": "ଏହା ଆମର ଜାତୀୟ ପତାକା, ତ୍ରିରଙ୍ଗା. ଏଥିରେ ଗେରୁଆ, ଧଳା ଆଉ ସବୁଜ ରଙ୍ଗ ଅଛି, ଆଉ ମଝିରେ ଅଶୋକ ଚକ୍ର.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s03.mp3": {
+    "written": "ବାଘ ଆମର ଜାତୀୟ ପଶୁ।",
+    "spoken": "ବାଘ ଆମର ଜାତୀୟ ପଶୁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s04.mp3": {
+    "written": "ମୟୂର ଆମର ଜାତୀୟ ପକ୍ଷୀ।",
+    "spoken": "ମୟୂର ଆମର ଜାତୀୟ ପକ୍ଷୀ.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s05.mp3": {
+    "written": "ପଦ୍ମ ଆମର ଜାତୀୟ ଫୁଲ।",
+    "spoken": "ପଦ୍ମ ଆମର ଜାତୀୟ ଫୁଲ.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s06.mp3": {
+    "written": "ଆମ୍ବ ଆମର ଜାତୀୟ ଫଳ।",
+    "spoken": "ଆମ୍ବ ଆମର ଜାତୀୟ ଫଳ.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s07.mp3": {
+    "written": "ଆଉ ବର ଗଛ ଆମର ଜାତୀୟ ବୃକ୍ଷ।",
+    "spoken": "ଆଉ ବର ଗଛ ଆମର ଜାତୀୟ ବୃକ୍ଷ.",
+    "provider": "indic"
+  },
+  "evs-ukg-national-symbols-s08.mp3": {
+    "written": "ଜାତୀୟ ସଙ୍ଗୀତ ବାଜିଲେ ଆମେ ସିଧା ଠିଆ ହେଉ। ଜୟ ହିନ୍ଦ!",
+    "spoken": "ଜାତୀୟ ସଙ୍ଗୀତ ବାଜିଲେ ଆମେ ସିଧା ଠିଆ ହେଉ. ଜୟ ହିନ୍ଦ!",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s01.mp3": {
+    "written": "ଲୋକେ ଅଲଗା ଅଲଗା ଜାଗାରେ ପ୍ରାର୍ଥନା କରନ୍ତି। ଆସ ସେଗୁଡ଼ିକୁ ଦେଖିବା।",
+    "spoken": "ଲୋକେ ଅଲଗା ଅଲଗା ଜାଗାରେ ପ୍ରାର୍ଥନା କରନ୍ତି. ଆସ ସେଗୁଡ଼ିକୁ ଦେଖିବା.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s02.mp3": {
+    "written": "ଏହା ଏକ ଗୀର୍ଜା। ଖ୍ରୀଷ୍ଟିଆନମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି।",
+    "spoken": "ଏହା ଏକ ଗୀର୍ଜା. ଖ୍ରୀଷ୍ଟିଆନମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s03.mp3": {
+    "written": "ଏହା ଏକ ଗୁରୁଦ୍ୱାର। ଶିଖମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି।",
+    "spoken": "ଏହା ଏକ ଗୁରୁଦ୍ୱାର. ଶିଖମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s04.mp3": {
+    "written": "ଏହା ଏକ ମସଜିଦ। ମୁସଲମାନମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି।",
+    "spoken": "ଏହା ଏକ ମସଜିଦ. ମୁସଲମାନମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s05.mp3": {
+    "written": "ଏହା ଏକ ମନ୍ଦିର। ହିନ୍ଦୁମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି।",
+    "spoken": "ଏହା ଏକ ମନ୍ଦିର. ହିନ୍ଦୁମାନେ ଏଠାରେ ପ୍ରାର୍ଥନା କରନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-places-of-worship-s06.mp3": {
+    "written": "ସମସ୍ତଙ୍କର ପ୍ରାର୍ଥନା ସ୍ଥାନ ଅଲଗା, ଆଉ ଆମେ ସବୁଗୁଡ଼ିକୁ ସମ୍ମାନ କରୁ।",
+    "spoken": "ସମସ୍ତଙ୍କର ପ୍ରାର୍ଥନା ସ୍ଥାନ ଅଲଗା, ଆଉ ଆମେ ସବୁଗୁଡ଼ିକୁ ସମ୍ମାନ କରୁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s01.mp3": {
+    "written": "ଏହା ଏକ ଗଛ। ଏହା ମାଟିରେ ବଢ଼େ। ଆସ ଏହାର ଅଂଶଗୁଡ଼ିକ ଦେଖିବା।",
+    "spoken": "ଏହା ଏକ ଗଛ. ଏହା ମାଟିରେ ବଢ଼େ. ଆସ ଏହାର ଅଂଶଗୁଡ଼ିକ ଦେଖିବା.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s02.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ଚେର। ଚେର ମାଟି ତଳେ ଥାଏ। ସେଗୁଡ଼ିକ ପାଣି ଶୋଷେ ଆଉ ଗଛକୁ ଧରି ରଖେ।",
+    "spoken": "ଏଗୁଡ଼ିକ ଚେର. ଚେର ମାଟି ତଳେ ଥାଏ. ସେଗୁଡ଼ିକ ପାଣି ଶୋଷେ ଆଉ ଗଛକୁ ଧରି ରଖେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s03.mp3": {
+    "written": "ଏହା କାଣ୍ଡ। କାଣ୍ଡ ଗଛକୁ ସିଧା ଠିଆ ରଖେ ଆଉ ପାଣି ଉପରକୁ ନିଏ।",
+    "spoken": "ଏହା କାଣ୍ଡ. କାଣ୍ଡ ଗଛକୁ ସିଧା ଠିଆ ରଖେ ଆଉ ପାଣି ଉପରକୁ ନିଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s04.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ପତ୍ର। ପତ୍ର ଖରାରୁ ଗଛ ପାଇଁ ଖାଦ୍ୟ ତିଆରି କରେ।",
+    "spoken": "ଏଗୁଡ଼ିକ ପତ୍ର. ପତ୍ର ଖରାରୁ ଗଛ ପାଇଁ ଖାଦ୍ୟ ତିଆରି କରେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s05.mp3": {
+    "written": "ଏହା ଫୁଲ। ଫୁଲରୁ ଫଳ ହୁଏ।",
+    "spoken": "ଏହା ଫୁଲ. ଫୁଲରୁ ଫଳ ହୁଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s06.mp3": {
+    "written": "ଏହା ଫଳ। ଫଳ ଭିତରେ ମଞ୍ଜି ଥାଏ।",
+    "spoken": "ଏହା ଫଳ. ଫଳ ଭିତରେ ମଞ୍ଜି ଥାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-plant-parts-s07.mp3": {
+    "written": "ଗଛ ବଢ଼ିବା ପାଇଁ ପାଣି, ଖରା ଆଉ ପବନ ଦରକାର।",
+    "spoken": "ଗଛ ବଢ଼ିବା ପାଇଁ ପାଣି, ଖରା ଆଉ ପବନ ଦରକାର.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s01.mp3": {
+    "written": "ଏହା ଏକ ନଦୀ। ନଦୀରେ ପାଣି ବହେ। ଆମକୁ ନଦୀର ସେପାରିକୁ ଯିବାର ଅଛି।",
+    "spoken": "ଏହା ଏକ ନଦୀ. ନଦୀରେ ପାଣି ବହେ. ଆମକୁ ନଦୀର ସେପାରିକୁ ଯିବାର ଅଛି.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s02.mp3": {
+    "written": "ନଦୀ ଗଭୀର, ଆଉ ପାଣି ଜୋରରେ ବହେ। ଆମେ କେବେ ବି ଏକୁଟିଆ ନଦୀକୁ ଓହ୍ଲାଉ ନାହିଁ।",
+    "spoken": "ନଦୀ ଗଭୀର, ଆଉ ପାଣି ଜୋରରେ ବହେ. ଆମେ କେବେ ବି ଏକୁଟିଆ ନଦୀକୁ ଓହ୍ଲାଉ ନାହିଁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s03.mp3": {
+    "written": "ଏହା ଏକ ପୋଲ। ପୋଲ ଉପରେ ଚାଲି ନଦୀ ପାର ହେବା ସବୁଠାରୁ ନିରାପଦ।",
+    "spoken": "ଏହା ଏକ ପୋଲ. ପୋଲ ଉପରେ ଚାଲି ନଦୀ ପାର ହେବା ସବୁଠାରୁ ନିରାପଦ.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s04.mp3": {
+    "written": "ଏହା ଏକ ଡଙ୍ଗା। ଡଙ୍ଗାରେ ମଧ୍ୟ ନଦୀ ପାର ହୋଇହୁଏ…",
+    "spoken": "ଏହା ଏକ ଡଙ୍ଗା. ଡଙ୍ଗାରେ ମଧ୍ୟ ନଦୀ ପାର ହୋଇହୁଏ,",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s05.mp3": {
+    "written": "…କିନ୍ତୁ ସବୁବେଳେ ଜଣେ ବଡ଼ଙ୍କ ସହ, ଆଉ ନାଉରିଆଙ୍କ କଥା ମାନି।",
+    "spoken": ",କିନ୍ତୁ ସବୁବେଳେ ଜଣେ ବଡ଼ଙ୍କ ସହ, ଆଉ ନାଉରିଆଙ୍କ କଥା ମାନି.",
+    "provider": "indic"
+  },
+  "evs-ukg-river-crossing-s06.mp3": {
+    "written": "ଡଙ୍ଗାରେ ଆମେ ବସି ରହୁ, ଆଉ ହାତ ପାଣିରେ ପୂରାଉ ନାହିଁ।",
+    "spoken": "ଡଙ୍ଗାରେ ଆମେ ବସି ରହୁ, ଆଉ ହାତ ପାଣିରେ ପୂରାଉ ନାହିଁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s01.mp3": {
+    "written": "ଏ ହେଉଛି ମୀନା। ମୀନାର ଶରୀର ମୀନାର ନିଜର। ତୁମ ଶରୀର ତୁମର ନିଜର।",
+    "spoken": "ଏ ହେଉଛି ମୀନା. ମୀନାର ଶରୀର ମୀନାର ନିଜର. ତୁମ ଶରୀର ତୁମର ନିଜର.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s02.mp3": {
+    "written": "କିଛି ଛୁଆଁ ଭଲ ଲାଗେ — ଯେମିତି ମାଆ କୋଳେଇ ନେବା, କିମ୍ବା ରାସ୍ତା ପାର ହେଲାବେଳେ ହାତ ଧରିବା। ଏହାକୁ ନିରାପଦ ଛୁଆଁ କୁହାଯାଏ।",
+    "spoken": "କିଛି ଛୁଆଁ ଭଲ ଲାଗେ, ଯେମିତି ମାଆ କୋଳେଇ ନେବା, କିମ୍ବା ରାସ୍ତା ପାର ହେଲାବେଳେ ହାତ ଧରିବା. ଏହାକୁ ନିରାପଦ ଛୁଆଁ କୁହାଯାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s03.mp3": {
+    "written": "କେହି ଯଦି ଏମିତି ଛୁଏଁ ଯେ ତୁମକୁ ଖରାପ ଲାଗେ, ଡର ଲାଗେ, କିମ୍ବା କଷ୍ଟ ହୁଏ — ତାହା ଅନିରାପଦ ଛୁଆଁ। ଲୁଗାରେ ଘୋଡ଼ା ରହୁଥିବା ଅଙ୍ଗକୁ କେହି ଛୁଇଁପାରିବେ ନାହିଁ।",
+    "spoken": "କେହି ଯଦି ଏମିତି ଛୁଏଁ ଯେ ତୁମକୁ ଖରାପ ଲାଗେ, ଡର ଲାଗେ, କିମ୍ବା କଷ୍ଟ ହୁଏ, ତାହା ଅନିରାପଦ ଛୁଆଁ. ଲୁଗାରେ ଘୋଡ଼ା ରହୁଥିବା ଅଙ୍ଗକୁ କେହି ଛୁଇଁପାରିବେ ନାହିଁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s04.mp3": {
+    "written": "ସେତେବେଳେ ତିନୋଟି କାମ କର। ପ୍ରଥମ — ଜୋରରେ କୁହ: ନା!",
+    "spoken": "ସେତେବେଳେ ତିନୋଟି କାମ କର. ପ୍ରଥମ, ଜୋରରେ କୁହ, ନା!",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s05.mp3": {
+    "written": "ଦ୍ୱିତୀୟ — ସେଠାରୁ ଦୂରକୁ ଚାଲିଯାଅ।",
+    "spoken": "ଦ୍ୱିତୀୟ, ସେଠାରୁ ଦୂରକୁ ଚାଲିଯାଅ.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s06.mp3": {
+    "written": "ତୃତୀୟ — ଭରସା କରୁଥିବା ଜଣେ ବଡ଼ଙ୍କୁ କୁହ।",
+    "spoken": "ତୃତୀୟ, ଭରସା କରୁଥିବା ଜଣେ ବଡ଼ଙ୍କୁ କୁହ.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s07.mp3": {
+    "written": "ଭରସାର ବଡ଼ମାନେ କିଏ? ମାଆ, ବାପା, କିମ୍ବା ତୁମ ଦିଦି।",
+    "spoken": "ଭରସାର ବଡ଼ମାନେ କିଏ? ମାଆ, ବାପା, କିମ୍ବା ତୁମ ଦିଦି.",
+    "provider": "indic"
+  },
+  "evs-ukg-safe-touch-s08.mp3": {
+    "written": "ଏଥିରେ କେବେ ବି ତୁମର ଭୁଲ ନୁହେଁ। ଆଉ ଜଣେ ନ ଶୁଣିଲେ ଆଉ ଜଣଙ୍କୁ କୁହ — କେହି ସାହାଯ୍ୟ ନ କରିବା ଯାଏଁ କହି ଚାଲ।",
+    "spoken": "ଏଥିରେ କେବେ ବି ତୁମର ଭୁଲ ନୁହେଁ. ଆଉ ଜଣେ ନ ଶୁଣିଲେ ଆଉ ଜଣଙ୍କୁ କୁହ, କେହି ସାହାଯ୍ୟ ନ କରିବା ଯାଏଁ କହି ଚାଲ.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s01.mp3": {
+    "written": "ପ୍ରତିବର୍ଷ ତିନୋଟି ଋତୁ ଆସେ — ଖରାଦିନ, ବର୍ଷାଦିନ ଆଉ ଶୀତଦିନ।",
+    "spoken": "ପ୍ରତିବର୍ଷ ତିନୋଟି ଋତୁ ଆସେ, ଖରାଦିନ, ବର୍ଷାଦିନ ଆଉ ଶୀତଦିନ.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s02.mp3": {
+    "written": "ଖରାଦିନେ ସୂର୍ଯ୍ୟ ଜୋରରେ ଚମକେ, ଆଉ ବହୁତ ଗରମ ହୁଏ।",
+    "spoken": "ଖରାଦିନେ ସୂର୍ଯ୍ୟ ଜୋରରେ ଚମକେ, ଆଉ ବହୁତ ଗରମ ହୁଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s03.mp3": {
+    "written": "ବର୍ଷାଦିନେ ମେଘ ଆସେ, ଆଉ ବର୍ଷା ହୁଏ।",
+    "spoken": "ବର୍ଷାଦିନେ ମେଘ ଆସେ, ଆଉ ବର୍ଷା ହୁଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s04.mp3": {
+    "written": "ବର୍ଷାରେ ଆମେ ଛତା ଧରୁ। ଭୂଇଁରେ ପାଣି ଜମିଯାଏ।",
+    "spoken": "ବର୍ଷାରେ ଆମେ ଛତା ଧରୁ. ଭୂଇଁରେ ପାଣି ଜମିଯାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-seasons-s05.mp3": {
+    "written": "ଶୀତଦିନେ ଥଣ୍ଡା ଲାଗେ। ଆକାଶ ଧୂସର ଦିଶେ, ଆଉ ଆମେ ନିଆଁ ପାଖରେ ସେକି ହେଉ।",
+    "spoken": "ଶୀତଦିନେ ଥଣ୍ଡା ଲାଗେ. ଆକାଶ ଧୂସର ଦିଶେ, ଆଉ ଆମେ ନିଆଁ ପାଖରେ ସେକି ହେଉ.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s01.mp3": {
+    "written": "ଏହା ସାପ ଘର। ଏଠି ସାପ ଆଉ ଅନ୍ୟ ସରୀସୃପମାନେ କାଚ ପଛରେ ରହନ୍ତି।",
+    "spoken": "ଏହା ସାପ ଘର. ଏଠି ସାପ ଆଉ ଅନ୍ୟ ସରୀସୃପମାନେ କାଚ ପଛରେ ରହନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s02.mp3": {
+    "written": "କାଚ ଆମକୁ ନିରାପଦ ରଖେ। ଆମେ କେବଳ ଦେଖୁ। କାଚକୁ ଠକ ଠକ କରୁ ନାହିଁ।",
+    "spoken": "କାଚ ଆମକୁ ନିରାପଦ ରଖେ. ଆମେ କେବଳ ଦେଖୁ. କାଚକୁ ଠକ ଠକ କରୁ ନାହିଁ.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s03.mp3": {
+    "written": "ଏହା ଏକ ନାଗ ସାପ। ଏହା ନିଜ ଫଣା ଟେକେ। ନାଗ ସାପ ବିଷାକ୍ତ।",
+    "spoken": "ଏହା ଏକ ନାଗ ସାପ. ଏହା ନିଜ ଫଣା ଟେକେ. ନାଗ ସାପ ବିଷାକ୍ତ.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s04.mp3": {
+    "written": "ଏହା ଏକ ସବୁଜ ସାପ। ଏହା ଗଛରେ ରହେ।",
+    "spoken": "ଏହା ଏକ ସବୁଜ ସାପ. ଏହା ଗଛରେ ରହେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s05.mp3": {
+    "written": "ଏହା ଏକ ଝିଟିପିଟି। ଏହାର ଚାରୋଟି ଗୋଡ଼ ଆଉ ଗୋଟିଏ ଲମ୍ବା ଲାଞ୍ଜ ଥାଏ।",
+    "spoken": "ଏହା ଏକ ଝିଟିପିଟି. ଏହାର ଚାରୋଟି ଗୋଡ଼ ଆଉ ଗୋଟିଏ ଲମ୍ବା ଲାଞ୍ଜ ଥାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s06.mp3": {
+    "written": "ଏହା ଏକ କଇଁଛ। ଏହା ନିଜ ଖୋଳ ଭିତରେ ଲୁଚେ।",
+    "spoken": "ଏହା ଏକ କଇଁଛ. ଏହା ନିଜ ଖୋଳ ଭିତରେ ଲୁଚେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-serpentarium-s07.mp3": {
+    "written": "ବାହାରେ କେଉଁଠି ସାପ ଦେଖିଲେ — ତାକୁ ଛୁଅଁ ନାହିଁ, ପାଖକୁ ଯାଅ ନାହିଁ। ଧୀରେ ଦୂରେଇ ଯାଅ ଆଉ ଜଣେ ବଡ଼ଙ୍କୁ କୁହ।",
+    "spoken": "ବାହାରେ କେଉଁଠି ସାପ ଦେଖିଲେ, ତାକୁ ଛୁଅଁ ନାହିଁ, ପାଖକୁ ଯାଅ ନାହିଁ. ଧୀରେ ଦୂରେଇ ଯାଅ ଆଉ ଜଣେ ବଡ଼ଙ୍କୁ କୁହ.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s01.mp3": {
+    "written": "ଆମେ ବରଫ ପାହାଡ଼ରେ ଅଛୁ। ଚାରିଆଡ଼େ ବରଫ।",
+    "spoken": "ଆମେ ବରଫ ପାହାଡ଼ରେ ଅଛୁ. ଚାରିଆଡ଼େ ବରଫ.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s02.mp3": {
+    "written": "ଏହା ଆମ ତମ୍ବୁ। ଆମେ ଏଥିରେ ଶୋଉ।",
+    "spoken": "ଏହା ଆମ ତମ୍ବୁ. ଆମେ ଏଥିରେ ଶୋଉ.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s03.mp3": {
+    "written": "ଏହା ନିଆଁ। ଏହା ଆମକୁ ଉଷୁମ ରଖେ।",
+    "spoken": "ଏହା ନିଆଁ. ଏହା ଆମକୁ ଉଷୁମ ରଖେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s04.mp3": {
+    "written": "ଏହା ଏକ ଦେବଦାରୁ ଗଛ। ଏହାର ଡାଳରେ ବରଫ ଜମିଛି।",
+    "spoken": "ଏହା ଏକ ଦେବଦାରୁ ଗଛ. ଏହାର ଡାଳରେ ବରଫ ଜମିଛି.",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s05.mp3": {
+    "written": "ଆଉ ଦେଖ ଆମେ କଣ ତିଆରି କଲୁ — ସ୍ନୋମ୍ୟାନ!",
+    "spoken": "ଆଉ ଦେଖ ଆମେ କଣ ତିଆରି କଲୁ, ସ୍ନୋମ୍ୟାନ!",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s01.mp3": {
+    "written": "ଭାରତ ବହୁତ ବଡ଼ ଦେଶ। ଏଥିରେ ଅଠେଇଶଟି ରାଜ୍ୟ ଅଛି। ପ୍ରତ୍ୟେକ ରାଜ୍ୟର କିଛି ଖାସ କଥା ଅଛି।",
+    "spoken": "ଭାରତ ବହୁତ ବଡ଼ ଦେଶ. ଏଥିରେ ଅଠେଇଶଟି ରାଜ୍ୟ ଅଛି. ପ୍ରତ୍ୟେକ ରାଜ୍ୟର କିଛି ଖାସ କଥା ଅଛି.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s02.mp3": {
+    "written": "ରାଜସ୍ଥାନରେ ମରୁଭୂମି ଅଛି। ସେଠି ଓଟ ଚାଲନ୍ତି।",
+    "spoken": "ରାଜସ୍ଥାନରେ ମରୁଭୂମି ଅଛି. ସେଠି ଓଟ ଚାଲନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s03.mp3": {
+    "written": "ଗୁଜରାଟର ଗିର ଜଙ୍ଗଲରେ ସିଂହ ରହନ୍ତି।",
+    "spoken": "ଗୁଜରାଟର ଗିର ଜଙ୍ଗଲରେ ସିଂହ ରହନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s04.mp3": {
+    "written": "ମହାରାଷ୍ଟ୍ରର ହାପୁସ ଆମ୍ବ ବହୁତ ପ୍ରସିଦ୍ଧ।",
+    "spoken": "ମହାରାଷ୍ଟ୍ରର ହାପୁସ ଆମ୍ବ ବହୁତ ପ୍ରସିଦ୍ଧ.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s05.mp3": {
+    "written": "କେରଳରେ ବହୁତ ନଡ଼ିଆ ଗଛ ଅଛି।",
+    "spoken": "କେରଳରେ ବହୁତ ନଡ଼ିଆ ଗଛ ଅଛି.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s06.mp3": {
+    "written": "ଓଡ଼ିଶାର ସମୁଦ୍ର କୂଳକୁ ପ୍ରତିବର୍ଷ ଲକ୍ଷ ଲକ୍ଷ କଇଁଛ ଆସନ୍ତି।",
+    "spoken": "ଓଡ଼ିଶାର ସମୁଦ୍ର କୂଳକୁ ପ୍ରତିବର୍ଷ ଲକ୍ଷ ଲକ୍ଷ କଇଁଛ ଆସନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s07.mp3": {
+    "written": "ପଶ୍ଚିମବଙ୍ଗର ସୁନ୍ଦରବନରେ ବାଘ ରହନ୍ତି।",
+    "spoken": "ପଶ୍ଚିମବଙ୍ଗର ସୁନ୍ଦରବନରେ ବାଘ ରହନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s08.mp3": {
+    "written": "ଆସାମରେ ଏକ ଶିଙ୍ଗିଆ ଗଣ୍ଡା ରହେ।",
+    "spoken": "ଆସାମରେ ଏକ ଶିଙ୍ଗିଆ ଗଣ୍ଡା ରହେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s09.mp3": {
+    "written": "ପଞ୍ଜାବର କ୍ଷେତରେ ବହୁତ ଗହମ ଫଳେ।",
+    "spoken": "ପଞ୍ଜାବର କ୍ଷେତରେ ବହୁତ ଗହମ ଫଳେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-states-india-s10.mp3": {
+    "written": "ତୁମେ କେଉଁ ରାଜ୍ୟରେ ରୁହ? ତୁମ ଦିଦିଙ୍କୁ ପଚାର।",
+    "spoken": "ତୁମେ କେଉଁ ରାଜ୍ୟରେ ରୁହ? ତୁମ ଦିଦିଙ୍କୁ ପଚାର.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s01.mp3": {
+    "written": "ଏହା ଏକ ଗାଁ। ଘରଗୁଡ଼ିକ ନିଚା, ଆଉ ପରସ୍ପରଠାରୁ ଦୂରରେ।",
+    "spoken": "ଏହା ଏକ ଗାଁ. ଘରଗୁଡ଼ିକ ନିଚା, ଆଉ ପରସ୍ପରଠାରୁ ଦୂରରେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s02.mp3": {
+    "written": "କେବଳ ଗୋଟିଏ ମହଲା, ଆଉ ଆଗରେ ବାରଣ୍ଡା।",
+    "spoken": "କେବଳ ଗୋଟିଏ ମହଲା, ଆଉ ଆଗରେ ବାରଣ୍ଡା.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s03.mp3": {
+    "written": "ଏବେ ଏହା ଏକ ସହର। କୋଠାଗୁଡ଼ିକ ଉଚ୍ଚ।",
+    "spoken": "ଏବେ ଏହା ଏକ ସହର. କୋଠାଗୁଡ଼ିକ ଉଚ୍ଚ.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s04.mp3": {
+    "written": "ଚାରି ମହଲା, ପାଞ୍ଚ ମହଲା — ଗୋଟିଏ ଉପରେ ଆଉ ଗୋଟିଏ।",
+    "spoken": "ଚାରି ମହଲା, ପାଞ୍ଚ ମହଲା, ଗୋଟିଏ ଉପରେ ଆଉ ଗୋଟିଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-village-city-s05.mp3": {
+    "written": "ଗାଁରେ ନିଚା, ସହରରେ ଉଚ୍ଚ — ଆଉ ଦୁଇ ଜାଗାରେ ଲୋକ ରହନ୍ତି।",
+    "spoken": "ଗାଁରେ ନିଚା, ସହରରେ ଉଚ୍ଚ, ଆଉ ଦୁଇ ଜାଗାରେ ଲୋକ ରହନ୍ତି.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s01.mp3": {
+    "written": "ସୂର୍ଯ୍ୟ ପୋଖରୀର ପାଣିକୁ ଗରମ କରେ।",
+    "spoken": "ସୂର୍ଯ୍ୟ ପୋଖରୀର ପାଣିକୁ ଗରମ କରେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s02.mp3": {
+    "written": "ଗରମ ପାଣି ବାଷ୍ପ ହୋଇ ଉପରକୁ, ଉପରକୁ ଆକାଶକୁ ଉଠେ।",
+    "spoken": "ଗରମ ପାଣି ବାଷ୍ପ ହୋଇ ଉପରକୁ, ଉପରକୁ ଆକାଶକୁ ଉଠେ.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s03.mp3": {
+    "written": "ଉଚ୍ଚରେ ଥଣ୍ଡା, ଆଉ ବାଷ୍ପ ମେଘ ହୋଇଯାଏ।",
+    "spoken": "ଉଚ୍ଚରେ ଥଣ୍ଡା, ଆଉ ବାଷ୍ପ ମେଘ ହୋଇଯାଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s04.mp3": {
+    "written": "ମେଘ ଓଜନିଆ ଓ ଧୂସର ହୁଏ — ଆଉ ବର୍ଷା ହୁଏ।",
+    "spoken": "ମେଘ ଓଜନିଆ ଓ ଧୂସର ହୁଏ, ଆଉ ବର୍ଷା ହୁଏ.",
+    "provider": "indic"
+  },
+  "evs-ukg-water-cycle-s05.mp3": {
+    "written": "ବର୍ଷାରେ ପୋଖରୀ ପୁଣି ଭରିଯାଏ। ଆଉ ତାପରେ ଏସବୁ ପୁଣି ଆରମ୍ଭ ହୁଏ।",
+    "spoken": "ବର୍ଷାରେ ପୋଖରୀ ପୁଣି ଭରିଯାଏ. ଆଉ ତାପରେ ଏସବୁ ପୁଣି ଆରମ୍ଭ ହୁଏ.",
+    "provider": "indic"
+  },
+  "farm_yard_s1.mp3": {
+    "written": "ଅଗଣାରେ ଚାରିଆଡ଼େ ଦେଖ। ତୁମେ କଣ ଦେଖୁଛ?",
+    "spoken": "ଅଗଣାରେ ଚାରିଆଡ଼େ ଦେଖ. ତୁମେ କଣ ଦେଖୁଛ?",
+    "provider": "indic"
+  },
+  "farm_yard_s2.mp3": {
+    "written": "ଆମକୁ କ୍ଷୀର ଦେଉଥିବା ପ୍ରାଣୀକୁ ଖୋଜି ପାରିବ କି?",
+    "spoken": "ଆମକୁ କ୍ଷୀର ଦେଉଥିବା ପ୍ରାଣୀକୁ ଖୋଜି ପାରିବ କି?",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s01.mp3": {
+    "written": "ଖେଳିଲେ ଆମେ ସୁସ୍ଥ ରହୁ। ପ୍ରତ୍ୟେକ ଖେଳର ନିଜର ସରଞ୍ଜାମ ଥାଏ।",
+    "spoken": "ଖେଳିଲେ ଆମେ ସୁସ୍ଥ ରହୁ. ପ୍ରତ୍ୟେକ ଖେଳର ନିଜର ସରଞ୍ଜାମ ଥାଏ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s02.mp3": {
+    "written": "ଏହା ଏକ ବ୍ୟାଟ।",
+    "spoken": "ଏହା ଏକ ବ୍ୟାଟ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s03.mp3": {
+    "written": "କ୍ରିକେଟ ବ୍ୟାଟ ଆଉ ବଲରେ ଖେଳାଯାଏ।",
+    "spoken": "କ୍ରିକେଟ ବ୍ୟାଟ ଆଉ ବଲରେ ଖେଳାଯାଏ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s04.mp3": {
+    "written": "ଏହା ଏକ ଫୁଟବଲ।",
+    "spoken": "ଏହା ଏକ ଫୁଟବଲ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s05.mp3": {
+    "written": "ଫୁଟବଲରେ ବଲକୁ ଗୋଡ଼ରେ ମାରି ଗୋଲ ଭିତରକୁ ପଠାଯାଏ।",
+    "spoken": "ଫୁଟବଲରେ ବଲକୁ ଗୋଡ଼ରେ ମାରି ଗୋଲ ଭିତରକୁ ପଠାଯାଏ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s06.mp3": {
+    "written": "ଏହା ଏକ ର୍ୟାକେଟ।",
+    "spoken": "ଏହା ଏକ ର୍ୟାକେଟ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s07.mp3": {
+    "written": "ବ୍ୟାଡମିଣ୍ଟନ ର୍ୟାକେଟ ଆଉ ଶଟଲକକରେ ଖେଳାଯାଏ।",
+    "spoken": "ବ୍ୟାଡମିଣ୍ଟନ ର୍ୟାକେଟ ଆଉ ଶଟଲକକରେ ଖେଳାଯାଏ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s08.mp3": {
+    "written": "ଏହା ଏକ ହକି ଷ୍ଟିକ।",
+    "spoken": "ଏହା ଏକ ହକି ଷ୍ଟିକ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s09.mp3": {
+    "written": "ହକି ଷ୍ଟିକ ଆଉ ବଲରେ ଖେଳାଯାଏ। ହକି ଆମର ଜାତୀୟ ଖେଳ।",
+    "spoken": "ହକି ଷ୍ଟିକ ଆଉ ବଲରେ ଖେଳାଯାଏ. ହକି ଆମର ଜାତୀୟ ଖେଳ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s10.mp3": {
+    "written": "ଏହା ଏକ ବାସ୍କେଟବଲ।",
+    "spoken": "ଏହା ଏକ ବାସ୍କେଟବଲ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s11.mp3": {
+    "written": "ବାସ୍କେଟବଲରେ ବଲକୁ ଉପରେ ଥିବା ବାସ୍କେଟରେ ପକାଯାଏ।",
+    "spoken": "ବାସ୍କେଟବଲରେ ବଲକୁ ଉପରେ ଥିବା ବାସ୍କେଟରେ ପକାଯାଏ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s12.mp3": {
+    "written": "ଏହା ଏକ ର୍ୟାକେଟ।",
+    "spoken": "ଏହା ଏକ ର୍ୟାକେଟ.",
+    "provider": "indic"
+  },
+  "gk-lkg-sports-equipment-s13.mp3": {
+    "written": "ଟେନିସ ର୍ୟାକେଟ ଆଉ ବଲରେ ଖେଳାଯାଏ।",
+    "spoken": "ଟେନିସ ର୍ୟାକେଟ ଆଉ ବଲରେ ଖେଳାଯାଏ.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s01.mp3": {
+    "written": "ଏହା ଏକ ପାଣି ଟବ। ଆସ ଦେଖିବା କଣ ଭାସେ ଆଉ କଣ ବୁଡ଼େ।",
+    "spoken": "ଏହା ଏକ ପାଣି ଟବ. ଆସ ଦେଖିବା କଣ ଭାସେ ଆଉ କଣ ବୁଡ଼େ.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s02.mp3": {
+    "written": "ସେଓ ଭାସେ — ଏହା ପାଣି ଉପରେ ରହେ।",
+    "spoken": "ସେଓ ଭାସେ, ଏହା ପାଣି ଉପରେ ରହେ.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s03.mp3": {
+    "written": "ଅଣ୍ଡା ବୁଡ଼େ — ଏହା ତଳକୁ ଚାଲିଯାଏ।",
+    "spoken": "ଅଣ୍ଡା ବୁଡ଼େ, ଏହା ତଳକୁ ଚାଲିଯାଏ.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s04.mp3": {
+    "written": "ନଡ଼ିଆ ଭାସେ — ଏହା ପାଣି ଉପରେ ରହେ।",
+    "spoken": "ନଡ଼ିଆ ଭାସେ, ଏହା ପାଣି ଉପରେ ରହେ.",
+    "provider": "indic"
+  },
+  "gk-ukg-sink-float-s05.mp3": {
+    "written": "ଚାମଚ ବୁଡ଼େ — ଏହା ତଳକୁ ଚାଲିଯାଏ।",
+    "spoken": "ଚାମଚ ବୁଡ଼େ, ଏହା ତଳକୁ ଚାଲିଯାଏ.",
+    "provider": "indic"
+  },
+  "goat_about.mp3": {
+    "written": "ଏହା ଏକ ଛେଳି। ଛେଳି ଚଢ଼ିବାକୁ ଭଲ ପାଏ।",
+    "spoken": "ଏହା ଏକ ଛେଳି. ଛେଳି ଚଢ଼ିବାକୁ ଭଲ ପାଏ.",
+    "provider": "indic"
+  },
+  "hen_about.mp3": {
+    "written": "ଏହା ଏକ କୁକୁଡ଼ା। କୁକୁଡ଼ା ଅଣ୍ଡା ଦିଏ।",
+    "spoken": "ଏହା ଏକ କୁକୁଡ଼ା. କୁକୁଡ଼ା ଅଣ୍ଡା ଦିଏ.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s01.mp3": {
+    "written": "ଏହା କ୍ଷେତର ମାଟି, ଆଉ ତା ଉପରେ ଭୂଇଁ।",
+    "spoken": "ଏହା କ୍ଷେତର ମାଟି, ଆଉ ତା ଉପରେ ଭୂଇଁ.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s02.mp3": {
+    "written": "ଗାଜର ମାଟି ତଳେ ବଢ଼େ।",
+    "spoken": "ଗାଜର ମାଟି ତଳେ ବଢ଼େ.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s03.mp3": {
+    "written": "ମୂଳା ମଧ୍ୟ ତଳେ ବଢ଼େ।",
+    "spoken": "ମୂଳା ମଧ୍ୟ ତଳେ ବଢ଼େ.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s04.mp3": {
+    "written": "ଆଉ ବିଟ ମଧ୍ୟ।",
+    "spoken": "ଆଉ ବିଟ ମଧ୍ୟ.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s05.mp3": {
+    "written": "ଟମାଟୋ ମାଟି ଉପରେ ଫଳେ।",
+    "spoken": "ଟମାଟୋ ମାଟି ଉପରେ ଫଳେ.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s06.mp3": {
+    "written": "ମକା ମଧ୍ୟ ଉପରେ ଫଳେ।",
+    "spoken": "ମକା ମଧ୍ୟ ଉପରେ ଫଳେ.",
+    "provider": "indic"
+  },
+  "hin-lkg-khet-upar-niche-s07.mp3": {
+    "written": "ଆଉ ବାଇଗଣ ମଧ୍ୟ।",
+    "spoken": "ଆଉ ବାଇଗଣ ମଧ୍ୟ.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s01.mp3": {
+    "written": "ଏହା ଏକ ଟମାଟୋ।",
+    "spoken": "ଏହା ଏକ ଟମାଟୋ.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s02.mp3": {
+    "written": "ଟମାଟୋ ନାଲି।",
+    "spoken": "ଟମାଟୋ ନାଲି.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s03.mp3": {
+    "written": "ଏହା ଏକ ଗାଜର।",
+    "spoken": "ଏହା ଏକ ଗାଜର.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s04.mp3": {
+    "written": "ଗାଜର କମଳା ରଙ୍ଗର।",
+    "spoken": "ଗାଜର କମଳା ରଙ୍ଗର.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s05.mp3": {
+    "written": "ଏହା ଏକ ବାଇଗଣ।",
+    "spoken": "ଏହା ଏକ ବାଇଗଣ.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s06.mp3": {
+    "written": "ବାଇଗଣ ବାଇଗଣୀ ରଙ୍ଗର।",
+    "spoken": "ବାଇଗଣ ବାଇଗଣୀ ରଙ୍ଗର.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s07.mp3": {
+    "written": "ଏହା ମକା।",
+    "spoken": "ଏହା ମକା.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s08.mp3": {
+    "written": "ମକା ହଳଦିଆ।",
+    "spoken": "ମକା ହଳଦିଆ.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s09.mp3": {
+    "written": "ଏହା ଏକ ବନ୍ଧାକୋବି।",
+    "spoken": "ଏହା ଏକ ବନ୍ଧାକୋବି.",
+    "provider": "indic"
+  },
+  "hin-lkg-sabji-rang-s10.mp3": {
+    "written": "ବନ୍ଧାକୋବି ସବୁଜ।",
+    "spoken": "ବନ୍ଧାକୋବି ସବୁଜ.",
+    "provider": "indic"
+  },
+  "hin-nur-janvar-boliya-s01.mp3": {
+    "written": "ପଶୁମାନଙ୍କ ଡାକ ଶୁଣ। ଯାହାକୁ ଦେଖିବ, ସେ ଡାକିବ।",
+    "spoken": "ପଶୁମାନଙ୍କ ଡାକ ଶୁଣ. ଯାହାକୁ ଦେଖିବ, ସେ ଡାକିବ.",
+    "provider": "indic"
+  },
+  "hin-nur-janvar-boliya-s02.mp3": {
+    "written": "ଗାଈ ହମ୍ବା କରେ। ଛେଳି ମେଁ ମେଁ କରେ।",
+    "spoken": "ଗାଈ ହମ୍ବା କରେ. ଛେଳି ମେଁ ମେଁ କରେ.",
+    "provider": "indic"
+  },
+  "hin-nur-janvar-boliya-s03.mp3": {
+    "written": "ଘୋଡ଼ା ହିଁ ହିଁ କରେ। କୁକୁଡ଼ା କକ୍ କକ୍ କରେ।",
+    "spoken": "ଘୋଡ଼ା ହିଁ ହିଁ କରେ. କୁକୁଡ଼ା କକ୍ କକ୍ କରେ.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s01.mp3": {
+    "written": "ଏଗୁଡ଼ିକ ବାଦ୍ୟଯନ୍ତ୍ର। ଏଥିରୁ ମଧୁର ସଙ୍ଗୀତ ବାହାରେ।",
+    "spoken": "ଏଗୁଡ଼ିକ ବାଦ୍ୟଯନ୍ତ୍ର. ଏଥିରୁ ମଧୁର ସଙ୍ଗୀତ ବାହାରେ.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s02.mp3": {
+    "written": "ଏହା ତବଲା। ଏହାକୁ ହାତରେ ବଜାଯାଏ।",
+    "spoken": "ଏହା ତବଲା. ଏହାକୁ ହାତରେ ବଜାଯାଏ.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s03.mp3": {
+    "written": "ଏହା ଢୋଲକ। ଏହାକୁ ଦୁଇ ପଟୁ ବଜାଯାଏ।",
+    "spoken": "ଏହା ଢୋଲକ. ଏହାକୁ ଦୁଇ ପଟୁ ବଜାଯାଏ.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s04.mp3": {
+    "written": "ଏହା ହାରମୋନିୟମ।",
+    "spoken": "ଏହା ହାରମୋନିୟମ.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s05.mp3": {
+    "written": "ଏହା ବଂଶୀ। ଏଥିରେ ଫୁଙ୍କି ବଜାଯାଏ।",
+    "spoken": "ଏହା ବଂଶୀ. ଏଥିରେ ଫୁଙ୍କି ବଜାଯାଏ.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s06.mp3": {
+    "written": "ଏହା ଗିଟାର। ଏହାର ତାର ଛୁଇଁ ବଜାଯାଏ।",
+    "spoken": "ଏହା ଗିଟାର. ଏହାର ତାର ଛୁଇଁ ବଜାଯାଏ.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s07.mp3": {
+    "written": "ଏହା ଢୋଲ। ଏହାକୁ କାଠିରେ ବଜାଯାଏ।",
+    "spoken": "ଏହା ଢୋଲ. ଏହାକୁ କାଠିରେ ବଜାଯାଏ.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s08.mp3": {
+    "written": "ଏହା ତୂରୀ।",
+    "spoken": "ଏହା ତୂରୀ.",
+    "provider": "indic"
+  },
+  "hin-nur-vadya-yantra-s09.mp3": {
+    "written": "ଏହା ଭାୟୋଲିନ।",
+    "spoken": "ଏହା ଭାୟୋଲିନ.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s01.mp3": {
+    "written": "ଦେଖ — म, क, स, द।",
+    "spoken": "ଦେଖ, ମ, କ, ସ, ଦ.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s02.mp3": {
+    "written": "ମିଶି ହେଲା मकसद — ମାନେ ଉଦ୍ଦେଶ୍ୟ।",
+    "spoken": "ମିଶି ହେଲା ମକସଦ, ମାନେ ଉଦ୍ଦେଶ୍ୟ.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s03.mp3": {
+    "written": "ଦେଖ — ब, र, ग, द।",
+    "spoken": "ଦେଖ, ବ, ର, ଗ, ଦ.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s04.mp3": {
+    "written": "ମିଶି ହେଲା बरगद — ମାନେ ବର ଗଛ।",
+    "spoken": "ମିଶି ହେଲା ବରଗଦ, ମାନେ ବର ଗଛ.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s05.mp3": {
+    "written": "ଦେଖ — न, ट, ख, ट।",
+    "spoken": "ଦେଖ, ନ, ଟ, ଖ, ଟ.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s06.mp3": {
+    "written": "ମିଶି ହେଲା नटखट — ମାନେ ଦୁଷ୍ଟ।",
+    "spoken": "ମିଶି ହେଲା ନଟଖଟ, ମାନେ ଦୁଷ୍ଟ.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s07.mp3": {
+    "written": "ଦେଖ — अ, ज, ग, र।",
+    "spoken": "ଦେଖ, ଅ, ଜ, ଗ, ର.",
+    "provider": "indic"
+  },
+  "hin-ukg-char-akshar-s08.mp3": {
+    "written": "ମିଶି ହେଲା अजगर — ମାନେ ଅଜଗର ସାପ।",
+    "spoken": "ମିଶି ହେଲା ଅଜଗର, ମାନେ ଅଜଗର ସାପ.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s01.mp3": {
+    "written": "ଦେଖ — न, ल।",
+    "spoken": "ଦେଖ, ନ, ଲ.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s02.mp3": {
+    "written": "ମିଶି ହେଲା नल — ମାନେ ପାଣି କଳ।",
+    "spoken": "ମିଶି ହେଲା ନଲ, ମାନେ ପାଣି କଳ.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s03.mp3": {
+    "written": "ଦେଖ — क, ल।",
+    "spoken": "ଦେଖ, କ, ଲ.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s04.mp3": {
+    "written": "ମିଶି ହେଲା कल — ମାନେ ଗତକାଲି।",
+    "spoken": "ମିଶି ହେଲା କଲ, ମାନେ ଗତକାଲି.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s05.mp3": {
+    "written": "ଦେଖ — घ, र।",
+    "spoken": "ଦେଖ, ଘ, ର.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s06.mp3": {
+    "written": "ମିଶି ହେଲା घर — ମାନେ ଘର।",
+    "spoken": "ମିଶି ହେଲା ଘର, ମାନେ ଘର.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s07.mp3": {
+    "written": "ଦେଖ — ज, ल।",
+    "spoken": "ଦେଖ, ଜ, ଲ.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s08.mp3": {
+    "written": "ମିଶି ହେଲା जल — ମାନେ ପାଣି।",
+    "spoken": "ମିଶି ହେଲା ଜଲ, ମାନେ ପାଣି.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s09.mp3": {
+    "written": "ଦେଖ — म, न।",
+    "spoken": "ଦେଖ, ମ, ନ.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s10.mp3": {
+    "written": "ମିଶି ହେଲା मन — ମାନେ ମନ।",
+    "spoken": "ମିଶି ହେଲା ମନ, ମାନେ ମନ.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s11.mp3": {
+    "written": "ଦେଖ — ब, स।",
+    "spoken": "ଦେଖ, ବ, ସ.",
+    "provider": "indic"
+  },
+  "hin-ukg-do-akshar-s12.mp3": {
+    "written": "ମିଶି ହେଲା बस — ମାନେ ବସ।",
+    "spoken": "ମିଶି ହେଲା ବସ, ମାନେ ବସ.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s01.mp3": {
+    "written": "ଏହା क। ଏହାକୁ ମନେ ରଖ।",
+    "spoken": "ଏହା କ. ଏହାକୁ ମନେ ରଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s02.mp3": {
+    "written": "ଏହା ा ମାତ୍ରା।",
+    "spoken": "ଏହା ଆ ମାତ୍ରା.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s03.mp3": {
+    "written": "क ରେ ा ମାତ୍ରା ଲାଗିଲା — का।",
+    "spoken": "କ ରେ ଆ ମାତ୍ରା ଲାଗିଲା, କା.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s04.mp3": {
+    "written": "ଏହା ि ମାତ୍ରା।",
+    "spoken": "ଏହା ଇ ମାତ୍ରା.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s05.mp3": {
+    "written": "क ରେ ि ମାତ୍ରା ଲାଗିଲା — कि।",
+    "spoken": "କ ରେ ଇ ମାତ୍ରା ଲାଗିଲା, କି.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s06.mp3": {
+    "written": "ଏହା ी ମାତ୍ରା।",
+    "spoken": "ଏହା ଈ ମାତ୍ରା.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s07.mp3": {
+    "written": "क ରେ ी ମାତ୍ରା ଲାଗିଲା — की।",
+    "spoken": "କ ରେ ଈ ମାତ୍ରା ଲାଗିଲା, କୀ.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s08.mp3": {
+    "written": "ଏହା ु ମାତ୍ରା।",
+    "spoken": "ଏହା ଉ ମାତ୍ରା.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s09.mp3": {
+    "written": "क ରେ ु ମାତ୍ରା ଲାଗିଲା — कु।",
+    "spoken": "କ ରେ ଉ ମାତ୍ରା ଲାଗିଲା, କୁ.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s10.mp3": {
+    "written": "ଏହା े ମାତ୍ରା।",
+    "spoken": "ଏହା ଏ ମାତ୍ରା.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s11.mp3": {
+    "written": "क ରେ े ମାତ୍ରା ଲାଗିଲା — के।",
+    "spoken": "କ ରେ ଏ ମାତ୍ରା ଲାଗିଲା, କେ.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s12.mp3": {
+    "written": "ଏହା ो ମାତ୍ରା।",
+    "spoken": "ଏହା ଓ ମାତ୍ରା.",
+    "provider": "indic"
+  },
+  "hin-ukg-matra-s13.mp3": {
+    "written": "क ରେ ो ମାତ୍ରା ଲାଗିଲା — को।",
+    "spoken": "କ ରେ ଓ ମାତ୍ରା ଲାଗିଲା, କୋ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s01.mp3": {
+    "written": "ଏବେ ଏହି ସ୍ୱରବର୍ଣ୍ଣଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏବେ ଏହି ସ୍ୱରବର୍ଣ୍ଣଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s02.mp3": {
+    "written": "ଏହା अ। କୁହ — अ।",
+    "spoken": "ଏହା ଅ. କୁହ, ଅ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s03.mp3": {
+    "written": "ଏହା आ। କୁହ — आ।",
+    "spoken": "ଏହା ଆ. କୁହ, ଆ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s04.mp3": {
+    "written": "ଏହା इ। କୁହ — इ।",
+    "spoken": "ଏହା ଇ. କୁହ, ଇ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s05.mp3": {
+    "written": "ଏହା ई। କୁହ — ई।",
+    "spoken": "ଏହା ଈ. କୁହ, ଈ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s06.mp3": {
+    "written": "ଏହା उ। କୁହ — उ।",
+    "spoken": "ଏହା ଉ. କୁହ, ଉ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s07.mp3": {
+    "written": "ଏହା ऊ। କୁହ — ऊ।",
+    "spoken": "ଏହା ଊ. କୁହ, ଊ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s08.mp3": {
+    "written": "ଏବେ ଏହି ସ୍ୱରବର୍ଣ୍ଣଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏବେ ଏହି ସ୍ୱରବର୍ଣ୍ଣଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s09.mp3": {
+    "written": "ଏହା ऋ। କୁହ — ऋ।",
+    "spoken": "ଏହା ଋ. କୁହ, ଋ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s10.mp3": {
+    "written": "ଏହା ए। କୁହ — ए।",
+    "spoken": "ଏହା ଏ. କୁହ, ଏ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s11.mp3": {
+    "written": "ଏହା ऐ। କୁହ — ऐ।",
+    "spoken": "ଏହା ଐ. କୁହ, ଐ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s12.mp3": {
+    "written": "ଏହା ओ। କୁହ — ओ।",
+    "spoken": "ଏହା ଓ. କୁହ, ଓ.",
+    "provider": "indic"
+  },
+  "hin-ukg-swar-s13.mp3": {
+    "written": "ଏହା औ। କୁହ — औ।",
+    "spoken": "ଏହା ଔ. କୁହ, ଔ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s01.mp3": {
+    "written": "ଦେଖ — क, म, ल।",
+    "spoken": "ଦେଖ, କ, ମ, ଲ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s02.mp3": {
+    "written": "ମିଶି ହେଲା कमल — ମାନେ ପଦ୍ମ।",
+    "spoken": "ମିଶି ହେଲା କମଲ, ମାନେ ପଦ୍ମ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s03.mp3": {
+    "written": "ଦେଖ — न, म, क।",
+    "spoken": "ଦେଖ, ନ, ମ, କ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s04.mp3": {
+    "written": "ମିଶି ହେଲା नमक — ମାନେ ଲୁଣ।",
+    "spoken": "ମିଶି ହେଲା ନମକ, ମାନେ ଲୁଣ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s05.mp3": {
+    "written": "ଦେଖ — स, र, ल।",
+    "spoken": "ଦେଖ, ସ, ର, ଲ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s06.mp3": {
+    "written": "ମିଶି ହେଲା सरल — ମାନେ ସହଜ।",
+    "spoken": "ମିଶି ହେଲା ସରଲ, ମାନେ ସହଜ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s07.mp3": {
+    "written": "ଦେଖ — म, क, र।",
+    "spoken": "ଦେଖ, ମ, କ, ର.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s08.mp3": {
+    "written": "ମିଶି ହେଲା मकर — ମାନେ କୁମ୍ଭୀର।",
+    "spoken": "ମିଶି ହେଲା ମକର, ମାନେ କୁମ୍ଭୀର.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s09.mp3": {
+    "written": "ଦେଖ — च, म, क।",
+    "spoken": "ଦେଖ, ଚ, ମ, କ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s10.mp3": {
+    "written": "ମିଶି ହେଲା चमक — ମାନେ ଚମକ।",
+    "spoken": "ମିଶି ହେଲା ଚମକ, ମାନେ ଚମକ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s11.mp3": {
+    "written": "ଦେଖ — भ, व, न।",
+    "spoken": "ଦେଖ, ଭ, ଵ, ନ.",
+    "provider": "indic"
+  },
+  "hin-ukg-teen-akshar-s12.mp3": {
+    "written": "ମିଶି ହେଲା भवन — ମାନେ କୋଠା।",
+    "spoken": "ମିଶି ହେଲା ଭଵନ, ମାନେ କୋଠା.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s01.mp3": {
+    "written": "ଏବେ क ବର୍ଗ ଦେଖ।",
+    "spoken": "ଏବେ କ ବର୍ଗ ଦେଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s02.mp3": {
+    "written": "ଏହା क।",
+    "spoken": "ଏହା କ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s03.mp3": {
+    "written": "ଏହା ख।",
+    "spoken": "ଏହା ଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s04.mp3": {
+    "written": "ଏହା ग।",
+    "spoken": "ଏହା ଗ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s05.mp3": {
+    "written": "ଏହା घ।",
+    "spoken": "ଏହା ଘ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s06.mp3": {
+    "written": "ଏହା ङ।",
+    "spoken": "ଏହା ଙ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s07.mp3": {
+    "written": "ଏବେ च ବର୍ଗ ଦେଖ।",
+    "spoken": "ଏବେ ଚ ବର୍ଗ ଦେଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s08.mp3": {
+    "written": "ଏହା च।",
+    "spoken": "ଏହା ଚ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s09.mp3": {
+    "written": "ଏହା छ।",
+    "spoken": "ଏହା ଛ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s10.mp3": {
+    "written": "ଏହା ज।",
+    "spoken": "ଏହା ଜ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s11.mp3": {
+    "written": "ଏହା झ।",
+    "spoken": "ଏହା ଝ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s12.mp3": {
+    "written": "ଏହା ञ।",
+    "spoken": "ଏହା ଞ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s13.mp3": {
+    "written": "ଏବେ ट ବର୍ଗ ଦେଖ।",
+    "spoken": "ଏବେ ଟ ବର୍ଗ ଦେଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s14.mp3": {
+    "written": "ଏହା ट।",
+    "spoken": "ଏହା ଟ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s15.mp3": {
+    "written": "ଏହା ठ।",
+    "spoken": "ଏହା ଠ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s16.mp3": {
+    "written": "ଏହା ड।",
+    "spoken": "ଏହା ଡ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s17.mp3": {
+    "written": "ଏହା ढ।",
+    "spoken": "ଏହା ଢ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s18.mp3": {
+    "written": "ଏହା ण।",
+    "spoken": "ଏହା ଣ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s19.mp3": {
+    "written": "ଏବେ त ବର୍ଗ ଦେଖ।",
+    "spoken": "ଏବେ ତ ବର୍ଗ ଦେଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s20.mp3": {
+    "written": "ଏହା त।",
+    "spoken": "ଏହା ତ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s21.mp3": {
+    "written": "ଏହା थ।",
+    "spoken": "ଏହା ଥ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s22.mp3": {
+    "written": "ଏହା द।",
+    "spoken": "ଏହା ଦ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s23.mp3": {
+    "written": "ଏହା ध।",
+    "spoken": "ଏହା ଧ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s24.mp3": {
+    "written": "ଏହା न।",
+    "spoken": "ଏହା ନ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s25.mp3": {
+    "written": "ଏବେ प ବର୍ଗ ଦେଖ।",
+    "spoken": "ଏବେ ପ ବର୍ଗ ଦେଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s26.mp3": {
+    "written": "ଏହା प।",
+    "spoken": "ଏହା ପ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s27.mp3": {
+    "written": "ଏହା फ।",
+    "spoken": "ଏହା ଫ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s28.mp3": {
+    "written": "ଏହା ब।",
+    "spoken": "ଏହା ବ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s29.mp3": {
+    "written": "ଏହା भ।",
+    "spoken": "ଏହା ଭ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s30.mp3": {
+    "written": "ଏହା म।",
+    "spoken": "ଏହା ମ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s31.mp3": {
+    "written": "ଏବେ य, र, ल, व ଦେଖ।",
+    "spoken": "ଏବେ ଯ, ର, ଲ, ଵ ଦେଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s32.mp3": {
+    "written": "ଏହା य।",
+    "spoken": "ଏହା ଯ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s33.mp3": {
+    "written": "ଏହା र।",
+    "spoken": "ଏହା ର.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s34.mp3": {
+    "written": "ଏହା ल।",
+    "spoken": "ଏହା ଲ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s35.mp3": {
+    "written": "ଏହା व।",
+    "spoken": "ଏହା ଵ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s36.mp3": {
+    "written": "ଏବେ श, ष, स, ह ଦେଖ।",
+    "spoken": "ଏବେ ଶ, ଷ, ସ, ହ ଦେଖ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s37.mp3": {
+    "written": "ଏହା श।",
+    "spoken": "ଏହା ଶ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s38.mp3": {
+    "written": "ଏହା ष।",
+    "spoken": "ଏହା ଷ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s39.mp3": {
+    "written": "ଏହା स।",
+    "spoken": "ଏହା ସ.",
+    "provider": "indic"
+  },
+  "hin-ukg-vyanjan-s40.mp3": {
+    "written": "ଏହା ह।",
+    "spoken": "ଏହା ହ.",
+    "provider": "indic"
+  },
+  "horse_about.mp3": {
+    "written": "ଏହା ଏକ ଘୋଡ଼ା। ଘୋଡ଼ା ଜୋରରେ ଦୌଡ଼େ।",
+    "spoken": "ଏହା ଏକ ଘୋଡ଼ା. ଘୋଡ଼ା ଜୋରରେ ଦୌଡ଼େ.",
+    "provider": "indic"
+  },
+  "horse.mp3": {
+    "written": "ଏହା ଏକ ଘୋଡ଼ା।",
+    "spoken": "ଏହା ଏକ ଘୋଡ଼ା.",
+    "provider": "indic"
+  },
+  "kitchen_about.mp3": {
+    "written": "ଏହା ରୋଷେଇ ଘର। ଏଠାରେ ଆମର ଗରମ ଖାଦ୍ୟ ରନ୍ଧା ହୁଏ।",
+    "spoken": "ଏହା ରୋଷେଇ ଘର. ଏଠାରେ ଆମର ଗରମ ଖାଦ୍ୟ ରନ୍ଧା ହୁଏ.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s01.mp3": {
+    "written": "ଏହି ଗିଲାସ ଭର୍ତ୍ତି।",
+    "spoken": "ଏହି ଗିଲାସ ଭର୍ତ୍ତି.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s02.mp3": {
+    "written": "ଆଉ ଏହି ଗିଲାସ ଖାଲି।",
+    "spoken": "ଆଉ ଏହି ଗିଲାସ ଖାଲି.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s03.mp3": {
+    "written": "ଏହି ବାଟି ଭର୍ତ୍ତି।",
+    "spoken": "ଏହି ବାଟି ଭର୍ତ୍ତି.",
+    "provider": "indic"
+  },
+  "math-lkg-full-empty-s04.mp3": {
+    "written": "ଆଉ ଏହା ଖାଲି।",
+    "spoken": "ଆଉ ଏହା ଖାଲି.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s01.mp3": {
+    "written": "ଏହା ଗୋଟିଏ ପୂରା ସେଓ।",
+    "spoken": "ଏହା ଗୋଟିଏ ପୂରା ସେଓ.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s02.mp3": {
+    "written": "ଆଉ ଏହା ତାର ଅଧା।",
+    "spoken": "ଆଉ ଏହା ତାର ଅଧା.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s03.mp3": {
+    "written": "ଏହା ଗୋଟିଏ ପୂରା ନାସପାତି।",
+    "spoken": "ଏହା ଗୋଟିଏ ପୂରା ନାସପାତି.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s04.mp3": {
+    "written": "ଆଉ ଏହା ତାର ଅଧା।",
+    "spoken": "ଆଉ ଏହା ତାର ଅଧା.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s05.mp3": {
+    "written": "ଏହା ଗୋଟିଏ ପୂରା ନଡ଼ିଆ।",
+    "spoken": "ଏହା ଗୋଟିଏ ପୂରା ନଡ଼ିଆ.",
+    "provider": "indic"
+  },
+  "math-lkg-half-whole-s06.mp3": {
+    "written": "ଆଉ ଏହା ତାର ଅଧା।",
+    "spoken": "ଆଉ ଏହା ତାର ଅଧା.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s01.mp3": {
+    "written": "ଏହି ରେଖାଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ରେଖାଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s02.mp3": {
+    "written": "ଏହା ଠିଆ ରେଖା।",
+    "spoken": "ଏହା ଠିଆ ରେଖା.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s03.mp3": {
+    "written": "ଏହା ଶୋଇଥିବା ରେଖା।",
+    "spoken": "ଏହା ଶୋଇଥିବା ରେଖା.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s04.mp3": {
+    "written": "ଏହା ତେରଛା ରେଖା।",
+    "spoken": "ଏହା ତେରଛା ରେଖା.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s05.mp3": {
+    "written": "ଏହି ରେଖାଗୁଡ଼ିକ ଦେଖ।",
+    "spoken": "ଏହି ରେଖାଗୁଡ଼ିକ ଦେଖ.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s06.mp3": {
+    "written": "ଏହା ଅଙ୍କାବଙ୍କା ରେଖା।",
+    "spoken": "ଏହା ଅଙ୍କାବଙ୍କା ରେଖା.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s07.mp3": {
+    "written": "ଏହା ବକ୍ର ରେଖା।",
+    "spoken": "ଏହା ବକ୍ର ରେଖା.",
+    "provider": "indic"
+  },
+  "math-lkg-lines-curves-s08.mp3": {
+    "written": "ଏହା ଢେଉଆ ରେଖା।",
+    "spoken": "ଏହା ଢେଉଆ ରେଖା.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s01.mp3": {
+    "written": "ଏଠି 4ଟି ଅଛି, ଆଉ ଏଠି 2ଟି।",
+    "spoken": "ଏଠି ଚାରିଟି ଅଛି, ଆଉ ଏଠି ଦୁଇଟି.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s02.mp3": {
+    "written": "ନାଲିଗୁଡ଼ିକ ନୀଳଠାରୁ ଅଧିକ।",
+    "spoken": "ନାଲିଗୁଡ଼ିକ ନୀଳଠାରୁ ଅଧିକ.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s03.mp3": {
+    "written": "ଏଠି 2ଟି ଅଛି, ଆଉ ଏଠି 5ଟି।",
+    "spoken": "ଏଠି ଦୁଇଟି ଅଛି, ଆଉ ଏଠି ପାଞ୍ଚଟି.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s04.mp3": {
+    "written": "ନାଲିଗୁଡ଼ିକ ନୀଳଠାରୁ କମ।",
+    "spoken": "ନାଲିଗୁଡ଼ିକ ନୀଳଠାରୁ କମ.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s05.mp3": {
+    "written": "ଏଠି 3ଟି ଅଛି, ଆଉ ଏଠି 3ଟି।",
+    "spoken": "ଏଠି ତିନିଟି ଅଛି, ଆଉ ଏଠି ତିନିଟି.",
+    "provider": "indic"
+  },
+  "math-lkg-more-less-same-s06.mp3": {
+    "written": "ନାଲି ଆଉ ନୀଳ ସମାନ।",
+    "spoken": "ନାଲି ଆଉ ନୀଳ ସମାନ.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s01.mp3": {
+    "written": "1 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।",
+    "spoken": "ଏକ, ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s02.mp3": {
+    "written": "2 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।",
+    "spoken": "ଦୁଇ, ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s03.mp3": {
+    "written": "3 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।",
+    "spoken": "ତିନି, ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s04.mp3": {
+    "written": "4 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।",
+    "spoken": "ଚାରି, ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s05.mp3": {
+    "written": "5 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।",
+    "spoken": "ପାଞ୍ଚ, ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s06.mp3": {
+    "written": "6 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।",
+    "spoken": "ଛଅ, ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s07.mp3": {
+    "written": "7 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।",
+    "spoken": "ସାତ, ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s08.mp3": {
+    "written": "8 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।",
+    "spoken": "ଆଠ, ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s09.mp3": {
+    "written": "9 — ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ।",
+    "spoken": "ନଅ, ଅଯୁଗ୍ମ, ଗୋଟିଏ ବଳିଯାଏ.",
+    "provider": "indic"
+  },
+  "math-lkg-odd-even-s10.mp3": {
+    "written": "10 — ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି।",
+    "spoken": "ଦଶ, ଯୁଗ୍ମ, ସମସ୍ତଙ୍କର ଯୋଡ଼ି ଅଛି.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s01.mp3": {
+    "written": "ଏହି ଫାଟକ ବନ୍ଦ। କେହି ଯାଇପାରିବେ ନାହିଁ।",
+    "spoken": "ଏହି ଫାଟକ ବନ୍ଦ. କେହି ଯାଇପାରିବେ ନାହିଁ.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s02.mp3": {
+    "written": "ଏହି ଫାଟକ ଖୋଲା। ଏବେ ବାଟ ଖୋଲା ଅଛି।",
+    "spoken": "ଏହି ଫାଟକ ଖୋଲା. ଏବେ ବାଟ ଖୋଲା ଅଛି.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s03.mp3": {
+    "written": "ଏହି କବାଟ ବନ୍ଦ।",
+    "spoken": "ଏହି କବାଟ ବନ୍ଦ.",
+    "provider": "indic"
+  },
+  "math-lkg-open-close-s04.mp3": {
+    "written": "ଆଉ ଏହି କବାଟ ଖୋଲା।",
+    "spoken": "ଆଉ ଏହି କବାଟ ଖୋଲା.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s01.mp3": {
+    "written": "ଏହା ବଡ଼।",
+    "spoken": "ଏହା ବଡ଼.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s02.mp3": {
+    "written": "ଆଉ ଏହା ଛୋଟ — ବଡ଼ର ଓଲଟା।",
+    "spoken": "ଆଉ ଏହା ଛୋଟ, ବଡ଼ର ଓଲଟା.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s03.mp3": {
+    "written": "ଏହା ଲମ୍ବା।",
+    "spoken": "ଏହା ଲମ୍ବା.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s04.mp3": {
+    "written": "ଆଉ ଏହା ଛୋଟ — ଲମ୍ବାର ଓଲଟା।",
+    "spoken": "ଆଉ ଏହା ଛୋଟ, ଲମ୍ବାର ଓଲଟା.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s05.mp3": {
+    "written": "ଏହା ଭର୍ତ୍ତି।",
+    "spoken": "ଏହା ଭର୍ତ୍ତି.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s06.mp3": {
+    "written": "ଆଉ ଏହା ଖାଲି — ଭର୍ତ୍ତିର ଓଲଟା।",
+    "spoken": "ଆଉ ଏହା ଖାଲି, ଭର୍ତ୍ତିର ଓଲଟା.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s07.mp3": {
+    "written": "ଏହା ଗରମ।",
+    "spoken": "ଏହା ଗରମ.",
+    "provider": "indic"
+  },
+  "math-lkg-opposites-s08.mp3": {
+    "written": "ଆଉ ଏହା ଥଣ୍ଡା — ଗରମର ଓଲଟା।",
+    "spoken": "ଆଉ ଏହା ଥଣ୍ଡା, ଗରମର ଓଲଟା.",
+    "provider": "indic"
+  },
+  "math-lkg-same-different-s01.mp3": {
+    "written": "ତିନୋଟି ସମାନ। ଗୋଟିଏ ଅଲଗା। ଅଲଗାଟିକୁ ଛୁଅଁ।",
+    "spoken": "ତିନୋଟି ସମାନ. ଗୋଟିଏ ଅଲଗା. ଅଲଗାଟିକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-lkg-same-different-s02.mp3": {
+    "written": "ତିନୋଟି ସମାନ। ଗୋଟିଏ ଅଲଗା। ଅଲଗାଟିକୁ ଛୁଅଁ।",
+    "spoken": "ତିନୋଟି ସମାନ. ଗୋଟିଏ ଅଲଗା. ଅଲଗାଟିକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-lkg-same-different-s03.mp3": {
+    "written": "ତିନୋଟି ସମାନ। ଗୋଟିଏ ଅଲଗା। ଅଲଗାଟିକୁ ଛୁଅଁ।",
+    "spoken": "ତିନୋଟି ସମାନ. ଗୋଟିଏ ଅଲଗା. ଅଲଗାଟିକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s01.mp3": {
+    "written": "ଏହି ଲୁଗା ଏବେ ଧୁଆ ହୋଇଛି। ଏଥିରୁ ପାଣି ଟୋପା ଟୋପା ପଡ଼ୁଛି। ଏହା ଓଦା।",
+    "spoken": "ଏହି ଲୁଗା ଏବେ ଧୁଆ ହୋଇଛି. ଏଥିରୁ ପାଣି ଟୋପା ଟୋପା ପଡ଼ୁଛି. ଏହା ଓଦା.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s02.mp3": {
+    "written": "ଏହି ଲୁଗା ଖରାରେ ଶୁଖିଗଲା। ଏହା ଶୁଖିଲା।",
+    "spoken": "ଏହି ଲୁଗା ଖରାରେ ଶୁଖିଗଲା. ଏହା ଶୁଖିଲା.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s03.mp3": {
+    "written": "ଏହି ଟବରେ ପାଣି ଅଛି। ଏହା ଭିତରୁ ଓଦା।",
+    "spoken": "ଏହି ଟବରେ ପାଣି ଅଛି. ଏହା ଭିତରୁ ଓଦା.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s04.mp3": {
+    "written": "ଏହି ଟବରେ ପାଣି ନାହିଁ। ଏହା ଶୁଖିଲା।",
+    "spoken": "ଏହି ଟବରେ ପାଣି ନାହିଁ. ଏହା ଶୁଖିଲା.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s05.mp3": {
+    "written": "ବର୍ଷା ହେଉଛି। ବର୍ଷାରେ ସବୁ କିଛି ଓଦା ହୋଇଯାଏ।",
+    "spoken": "ବର୍ଷା ହେଉଛି. ବର୍ଷାରେ ସବୁ କିଛି ଓଦା ହୋଇଯାଏ.",
+    "provider": "indic"
+  },
+  "math-lkg-wet-dry-s06.mp3": {
+    "written": "ଖରା ପଡ଼ିଛି। ଖରାରେ ଜିନିଷ ଶୁଖିଯାଏ।",
+    "spoken": "ଖରା ପଡ଼ିଛି. ଖରାରେ ଜିନିଷ ଶୁଖିଯାଏ.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s01.mp3": {
+    "written": "ଏହା ବଡ଼।",
+    "spoken": "ଏହା ବଡ଼.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s02.mp3": {
+    "written": "ଆଉ ଏହା ଛୋଟ।",
+    "spoken": "ଆଉ ଏହା ଛୋଟ.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s03.mp3": {
+    "written": "ଏହା ମଧ୍ୟ ବଡ଼।",
+    "spoken": "ଏହା ମଧ୍ୟ ବଡ଼.",
+    "provider": "indic"
+  },
+  "math-nur-big-small-s04.mp3": {
+    "written": "ଆଉ ଏହା ଛୋଟ।",
+    "spoken": "ଆଉ ଏହା ଛୋଟ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s01.mp3": {
+    "written": "1।",
+    "spoken": "ଏକ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s02.mp3": {
+    "written": "2।",
+    "spoken": "ଦୁଇ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s03.mp3": {
+    "written": "3।",
+    "spoken": "ତିନି.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s04.mp3": {
+    "written": "4।",
+    "spoken": "ଚାରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s05.mp3": {
+    "written": "5।",
+    "spoken": "ପାଞ୍ଚ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s06.mp3": {
+    "written": "6।",
+    "spoken": "ଛଅ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s07.mp3": {
+    "written": "7।",
+    "spoken": "ସାତ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s08.mp3": {
+    "written": "8।",
+    "spoken": "ଆଠ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s09.mp3": {
+    "written": "9।",
+    "spoken": "ନଅ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s10.mp3": {
+    "written": "10।",
+    "spoken": "ଦଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s11.mp3": {
+    "written": "11।",
+    "spoken": "ଏଗାର.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s12.mp3": {
+    "written": "12।",
+    "spoken": "ବାର.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s13.mp3": {
+    "written": "13।",
+    "spoken": "ତେର.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s14.mp3": {
+    "written": "14।",
+    "spoken": "ଚଉଦ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s15.mp3": {
+    "written": "15।",
+    "spoken": "ପନ୍ଦର.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s16.mp3": {
+    "written": "16।",
+    "spoken": "ଷୋହଳ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s17.mp3": {
+    "written": "17।",
+    "spoken": "ସତର.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s18.mp3": {
+    "written": "18।",
+    "spoken": "ଅଠର.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s19.mp3": {
+    "written": "19।",
+    "spoken": "ଉଣେଇଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-1-20-s20.mp3": {
+    "written": "20।",
+    "spoken": "କୋଡ଼ିଏ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s01.mp3": {
+    "written": "ଏବେ ଏକୋଇଶରୁ ପଚାଶ ଯାଏଁ ଗଣିବା।",
+    "spoken": "ଏବେ ଏକୋଇଶରୁ ପଚାଶ ଯାଏଁ ଗଣିବା.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s02.mp3": {
+    "written": "21 ରୁ 25।",
+    "spoken": "ଏକୋଇଶ ରୁ ପଚିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s03.mp3": {
+    "written": "21।",
+    "spoken": "ଏକୋଇଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s04.mp3": {
+    "written": "22।",
+    "spoken": "ବାଇଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s05.mp3": {
+    "written": "23।",
+    "spoken": "ତେଇଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s06.mp3": {
+    "written": "24।",
+    "spoken": "ଚବିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s07.mp3": {
+    "written": "25।",
+    "spoken": "ପଚିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s08.mp3": {
+    "written": "26 ରୁ 30।",
+    "spoken": "ଛବିଶ ରୁ ତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s09.mp3": {
+    "written": "26।",
+    "spoken": "ଛବିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s10.mp3": {
+    "written": "27।",
+    "spoken": "ସତେଇଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s11.mp3": {
+    "written": "28।",
+    "spoken": "ଅଠେଇଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s12.mp3": {
+    "written": "29।",
+    "spoken": "ଅଣତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s13.mp3": {
+    "written": "30।",
+    "spoken": "ତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s14.mp3": {
+    "written": "31 ରୁ 35।",
+    "spoken": "ଏକତିରିଶ ରୁ ପଇଁତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s15.mp3": {
+    "written": "31।",
+    "spoken": "ଏକତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s16.mp3": {
+    "written": "32।",
+    "spoken": "ବତିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s17.mp3": {
+    "written": "33।",
+    "spoken": "ତେତିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s18.mp3": {
+    "written": "34।",
+    "spoken": "ଚଉତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s19.mp3": {
+    "written": "35।",
+    "spoken": "ପଇଁତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s20.mp3": {
+    "written": "36 ରୁ 40।",
+    "spoken": "ଛତିଶ ରୁ ଚାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s21.mp3": {
+    "written": "36।",
+    "spoken": "ଛତିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s22.mp3": {
+    "written": "37।",
+    "spoken": "ସଇଁତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s23.mp3": {
+    "written": "38।",
+    "spoken": "ଅଠତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s24.mp3": {
+    "written": "39।",
+    "spoken": "ଅଣଚାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s25.mp3": {
+    "written": "40।",
+    "spoken": "ଚାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s26.mp3": {
+    "written": "41 ରୁ 45।",
+    "spoken": "ଏକଚାଳିଶ ରୁ ପଇଁଚାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s27.mp3": {
+    "written": "41।",
+    "spoken": "ଏକଚାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s28.mp3": {
+    "written": "42।",
+    "spoken": "ବୟାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s29.mp3": {
+    "written": "43।",
+    "spoken": "ତେୟାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s30.mp3": {
+    "written": "44।",
+    "spoken": "ଚଉରାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s31.mp3": {
+    "written": "45।",
+    "spoken": "ପଇଁଚାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s32.mp3": {
+    "written": "46 ରୁ 50।",
+    "spoken": "ଛୟାଳିଶ ରୁ ପଚାଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s33.mp3": {
+    "written": "46।",
+    "spoken": "ଛୟାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s34.mp3": {
+    "written": "47।",
+    "spoken": "ସତଚାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s35.mp3": {
+    "written": "48।",
+    "spoken": "ଅଠଚାଳିଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s36.mp3": {
+    "written": "49।",
+    "spoken": "ଅଣଚାଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-21-50-s37.mp3": {
+    "written": "50।",
+    "spoken": "ପଚାଶ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s01.mp3": {
+    "written": "ଏବେ ଏକାବନରୁ ଶହେ ଯାଏଁ ଗଣିବା।",
+    "spoken": "ଏବେ ଏକାବନରୁ ଶହେ ଯାଏଁ ଗଣିବା.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s02.mp3": {
+    "written": "51 ରୁ 55।",
+    "spoken": "ଏକାବନ ରୁ ପଞ୍ଚାବନ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s03.mp3": {
+    "written": "51।",
+    "spoken": "ଏକାବନ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s04.mp3": {
+    "written": "52।",
+    "spoken": "ବାଉନ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s05.mp3": {
+    "written": "53।",
+    "spoken": "ତେପନ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s06.mp3": {
+    "written": "54।",
+    "spoken": "ଚଉବନ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s07.mp3": {
+    "written": "55।",
+    "spoken": "ପଞ୍ଚାବନ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s08.mp3": {
+    "written": "56 ରୁ 60।",
+    "spoken": "ଛପନ ରୁ ଷାଠିଏ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s09.mp3": {
+    "written": "56।",
+    "spoken": "ଛପନ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s10.mp3": {
+    "written": "57।",
+    "spoken": "ସତାବନ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s11.mp3": {
+    "written": "58।",
+    "spoken": "ଅଠାବନ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s12.mp3": {
+    "written": "59।",
+    "spoken": "ଅଣଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s13.mp3": {
+    "written": "60।",
+    "spoken": "ଷାଠିଏ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s14.mp3": {
+    "written": "61 ରୁ 65।",
+    "spoken": "ଏକଷଠି ରୁ ପଞ୍ଚଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s15.mp3": {
+    "written": "61।",
+    "spoken": "ଏକଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s16.mp3": {
+    "written": "62।",
+    "spoken": "ବାଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s17.mp3": {
+    "written": "63।",
+    "spoken": "ତେଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s18.mp3": {
+    "written": "64।",
+    "spoken": "ଚଉଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s19.mp3": {
+    "written": "65।",
+    "spoken": "ପଞ୍ଚଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s20.mp3": {
+    "written": "66 ରୁ 70।",
+    "spoken": "ଛଅଷଠି ରୁ ସତୁରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s21.mp3": {
+    "written": "66।",
+    "spoken": "ଛଅଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s22.mp3": {
+    "written": "67।",
+    "spoken": "ସତଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s23.mp3": {
+    "written": "68।",
+    "spoken": "ଅଠଷଠି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s24.mp3": {
+    "written": "69।",
+    "spoken": "ଅଣସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s25.mp3": {
+    "written": "70।",
+    "spoken": "ସତୁରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s26.mp3": {
+    "written": "71 ରୁ 75।",
+    "spoken": "ଏକସ୍ତରି ରୁ ପଞ୍ଚସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s27.mp3": {
+    "written": "71।",
+    "spoken": "ଏକସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s28.mp3": {
+    "written": "72।",
+    "spoken": "ବାସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s29.mp3": {
+    "written": "73।",
+    "spoken": "ତେସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s30.mp3": {
+    "written": "74।",
+    "spoken": "ଚଉସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s31.mp3": {
+    "written": "75।",
+    "spoken": "ପଞ୍ଚସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s32.mp3": {
+    "written": "76 ରୁ 80।",
+    "spoken": "ଛଅସ୍ତରି ରୁ ଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s33.mp3": {
+    "written": "76।",
+    "spoken": "ଛଅସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s34.mp3": {
+    "written": "77।",
+    "spoken": "ସତସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s35.mp3": {
+    "written": "78।",
+    "spoken": "ଅଠସ୍ତରି.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s36.mp3": {
+    "written": "79।",
+    "spoken": "ଅଣାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s37.mp3": {
+    "written": "80।",
+    "spoken": "ଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s38.mp3": {
+    "written": "81 ରୁ 85।",
+    "spoken": "ଏକାଅଶୀ ରୁ ପଞ୍ଚାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s39.mp3": {
+    "written": "81।",
+    "spoken": "ଏକାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s40.mp3": {
+    "written": "82।",
+    "spoken": "ବୟାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s41.mp3": {
+    "written": "83।",
+    "spoken": "ତେୟାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s42.mp3": {
+    "written": "84।",
+    "spoken": "ଚଉରାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s43.mp3": {
+    "written": "85।",
+    "spoken": "ପଞ୍ଚାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s44.mp3": {
+    "written": "86 ରୁ 90।",
+    "spoken": "ଛୟାଅଶୀ ରୁ ନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s45.mp3": {
+    "written": "86।",
+    "spoken": "ଛୟାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s46.mp3": {
+    "written": "87।",
+    "spoken": "ସତାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s47.mp3": {
+    "written": "88।",
+    "spoken": "ଅଠାଅଶୀ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s48.mp3": {
+    "written": "89।",
+    "spoken": "ଅଣାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s49.mp3": {
+    "written": "90।",
+    "spoken": "ନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s50.mp3": {
+    "written": "91 ରୁ 95।",
+    "spoken": "ଏକାନବେ ରୁ ପଞ୍ଚାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s51.mp3": {
+    "written": "91।",
+    "spoken": "ଏକାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s52.mp3": {
+    "written": "92।",
+    "spoken": "ବୟାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s53.mp3": {
+    "written": "93।",
+    "spoken": "ତେୟାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s54.mp3": {
+    "written": "94।",
+    "spoken": "ଚଉରାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s55.mp3": {
+    "written": "95।",
+    "spoken": "ପଞ୍ଚାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s56.mp3": {
+    "written": "96 ରୁ 100।",
+    "spoken": "ଛୟାନବେ ରୁ ଶହେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s57.mp3": {
+    "written": "96।",
+    "spoken": "ଛୟାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s58.mp3": {
+    "written": "97।",
+    "spoken": "ସତାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s59.mp3": {
+    "written": "98।",
+    "spoken": "ଅଠାନବେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s60.mp3": {
+    "written": "99।",
+    "spoken": "ଅନେଶ୍ୱତ.",
+    "provider": "indic"
+  },
+  "math-nur-count-51-100-s61.mp3": {
+    "written": "100।",
+    "spoken": "ଶହେ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s01.mp3": {
+    "written": "7 କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ସାତ କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s02.mp3": {
+    "written": "15 କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ପନ୍ଦର କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s03.mp3": {
+    "written": "43 କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ତେୟାଳିଶ କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s04.mp3": {
+    "written": "86 କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଛୟାଅଶୀ କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-nur-count-check-s05.mp3": {
+    "written": "100 କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଶହେ କେଉଁଠି ଅଛି? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-nur-in-out-s01.mp3": {
+    "written": "ଏହି ସେଓ ହାଣ୍ଡି ଭିତରେ ଅଛି।",
+    "spoken": "ଏହି ସେଓ ହାଣ୍ଡି ଭିତରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "math-nur-in-out-s02.mp3": {
+    "written": "ଏହି ସେଓ ବାହାରେ ଅଛି।",
+    "spoken": "ଏହି ସେଓ ବାହାରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s01.mp3": {
+    "written": "ଏହା ତରାଜୁ। କେଉଁ ଜିନିଷ ଓଜନିଆ ତାହା ଏହା କହେ।",
+    "spoken": "ଏହା ତରାଜୁ. କେଉଁ ଜିନିଷ ଓଜନିଆ ତାହା ଏହା କହେ.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s02.mp3": {
+    "written": "ପଥର ଓଜନିଆ — ତାର ପଟ ତଳକୁ ଗଲା।",
+    "spoken": "ପଥର ଓଜନିଆ, ତାର ପଟ ତଳକୁ ଗଲା.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s03.mp3": {
+    "written": "ତୁଳା ହାଲୁକା — ତାର ପଟ ଉପରକୁ ଗଲା।",
+    "spoken": "ତୁଳା ହାଲୁକା, ତାର ପଟ ଉପରକୁ ଗଲା.",
+    "provider": "indic"
+  },
+  "math-nur-light-heavy-s04.mp3": {
+    "written": "ଏହି ଦୁଇଟି ବଲର ଓଜନ ସମାନ — ତେଣୁ ତରାଜୁ ସମାନ ରହେ।",
+    "spoken": "ଏହି ଦୁଇଟି ବଲର ଓଜନ ସମାନ, ତେଣୁ ତରାଜୁ ସମାନ ରହେ.",
+    "provider": "indic"
+  },
+  "math-nur-long-round-s01.mp3": {
+    "written": "କେଉଁ ଜିନିଷ ଗୋଲ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "କେଉଁ ଜିନିଷ ଗୋଲ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-nur-long-round-s02.mp3": {
+    "written": "କେଉଁ ଜିନିଷ ଲମ୍ବା? ତାକୁ ଛୁଅଁ।",
+    "spoken": "କେଉଁ ଜିନିଷ ଲମ୍ବା? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-nur-long-short-s01.mp3": {
+    "written": "ଏହି ବାଡ଼ି ଲମ୍ବା।",
+    "spoken": "ଏହି ବାଡ଼ି ଲମ୍ବା.",
+    "provider": "indic"
+  },
+  "math-nur-long-short-s02.mp3": {
+    "written": "ଆଉ ଏହା ଛୋଟ।",
+    "spoken": "ଆଉ ଏହା ଛୋଟ.",
+    "provider": "indic"
+  },
+  "math-nur-long-short-s03.mp3": {
+    "written": "ଏହି ଦୁଇଟି ଭିତରୁ ସବୁଜଟି ଅଧିକ ଲମ୍ବା।",
+    "spoken": "ଏହି ଦୁଇଟି ଭିତରୁ ସବୁଜଟି ଅଧିକ ଲମ୍ବା.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s01.mp3": {
+    "written": "ଏହି ଗଛ ପାଖରେ ଅଛି।",
+    "spoken": "ଏହି ଗଛ ପାଖରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s02.mp3": {
+    "written": "ସେହି ଗଛ — କିନ୍ତୁ ଏହା ଦୂରରେ ଅଛି, ତେଣୁ ଛୋଟ ଦିଶେ।",
+    "spoken": "ସେହି ଗଛ, କିନ୍ତୁ ଏହା ଦୂରରେ ଅଛି, ତେଣୁ ଛୋଟ ଦିଶେ.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s03.mp3": {
+    "written": "ଏହି ବଲ ପାଖରେ ଅଛି।",
+    "spoken": "ଏହି ବଲ ପାଖରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "math-nur-near-far-s04.mp3": {
+    "written": "ଆଉ ଏହି ବଲ ଦୂରରେ ଅଛି।",
+    "spoken": "ଆଉ ଏହି ବଲ ଦୂରରେ ଅଛି.",
+    "provider": "indic"
+  },
+  "math-nur-one-many-s01.mp3": {
+    "written": "ଏଠି ଗୋଟିଏ ଅଛି।",
+    "spoken": "ଏଠି ଗୋଟିଏ ଅଛି.",
+    "provider": "indic"
+  },
+  "math-nur-one-many-s02.mp3": {
+    "written": "ଆଉ ଏଠି ବହୁତ ଅଛି।",
+    "spoken": "ଆଉ ଏଠି ବହୁତ ଅଛି.",
+    "provider": "indic"
+  },
+  "math-nur-one-many-s03.mp3": {
+    "written": "ଗୋଟିଏ — ଆଉ ଅନେକ।",
+    "spoken": "ଗୋଟିଏ, ଆଉ ଅନେକ.",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s01.mp3": {
+    "written": "ଏହି ଗଛ ଡେଙ୍ଗା।",
+    "spoken": "ଏହି ଗଛ ଡେଙ୍ଗା.",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s02.mp3": {
+    "written": "ଆଉ ଏହି ଗଛ ଗେଡ଼ା।",
+    "spoken": "ଆଉ ଏହି ଗଛ ଗେଡ଼ା.",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s03.mp3": {
+    "written": "ଏବେ ଏଗୁଡ଼ିକୁ ଦେଖ। କେଉଁଟି ଅଧିକ ଡେଙ୍ଗା?",
+    "spoken": "ଏବେ ଏଗୁଡ଼ିକୁ ଦେଖ. କେଉଁଟି ଅଧିକ ଡେଙ୍ଗା?",
+    "provider": "indic"
+  },
+  "math-nur-taller-shorter-s04.mp3": {
+    "written": "ଏହା ଅଧିକ ଡେଙ୍ଗା। ଏହା ଅଧିକ ଗେଡ଼ା।",
+    "spoken": "ଏହା ଅଧିକ ଡେଙ୍ଗା. ଏହା ଅଧିକ ଗେଡ଼ା.",
+    "provider": "indic"
+  },
+  "math-nur-thick-thin-s01.mp3": {
+    "written": "ଏହା ମୋଟା।",
+    "spoken": "ଏହା ମୋଟା.",
+    "provider": "indic"
+  },
+  "math-nur-thick-thin-s02.mp3": {
+    "written": "ଆଉ ଏହା ସରୁ। ଦୁଇଟି ସମାନ ଲମ୍ବା।",
+    "spoken": "ଆଉ ଏହା ସରୁ. ଦୁଇଟି ସମାନ ଲମ୍ବା.",
+    "provider": "indic"
+  },
+  "math-nur-up-down-s01.mp3": {
+    "written": "ନାଲି ବଲ ଉପରେ ଅଛି — ଆଲମାରି ଉପରେ।",
+    "spoken": "ନାଲି ବଲ ଉପରେ ଅଛି, ଆଲମାରି ଉପରେ.",
+    "provider": "indic"
+  },
+  "math-nur-up-down-s02.mp3": {
+    "written": "ନୀଳ ବଲ ତଳେ ଅଛି — ଚଟାଣ ଉପରେ।",
+    "spoken": "ନୀଳ ବଲ ତଳେ ଅଛି, ଚଟାଣ ଉପରେ.",
+    "provider": "indic"
+  },
+  "math-nur-up-down-s03.mp3": {
+    "written": "ଉପରକୁ ଦେଖ — ପଙ୍ଖା ଉପରେ ଅଛି। ତଳକୁ ଦେଖ — ମସିଣା ତଳେ ଅଛି।",
+    "spoken": "ଉପରକୁ ଦେଖ, ପଙ୍ଖା ଉପରେ ଅଛି. ତଳକୁ ଦେଖ, ମସିଣା ତଳେ ଅଛି.",
+    "provider": "indic"
+  },
+  "math-nur-weight-check-s01.mp3": {
+    "written": "କେଉଁଟି ଅଧିକ ଓଜନିଆ? ତାକୁ ଛୁଅଁ।",
+    "spoken": "କେଉଁଟି ଅଧିକ ଓଜନିଆ? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-nur-weight-check-s02.mp3": {
+    "written": "ଏବେ, କେଉଁଟି ଅଧିକ ହାଲୁକା? ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଏବେ, କେଉଁଟି ଅଧିକ ହାଲୁକା? ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-nur-wide-narrow-s01.mp3": {
+    "written": "ଏହି ରାସ୍ତା ଓସାରିଆ। ଏଥିରେ ବସ ଯାଇପାରିବ।",
+    "spoken": "ଏହି ରାସ୍ତା ଓସାରିଆ. ଏଥିରେ ବସ ଯାଇପାରିବ.",
+    "provider": "indic"
+  },
+  "math-nur-wide-narrow-s02.mp3": {
+    "written": "ଏହି ବାଟ ସରୁ। ଏଥିରେ କେବଳ ଜଣେ ଲୋକ ଚାଲିପାରିବ।",
+    "spoken": "ଏହି ବାଟ ସରୁ. ଏଥିରେ କେବଳ ଜଣେ ଲୋକ ଚାଲିପାରିବ.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s01.mp3": {
+    "written": "10 + 5। ଭାବ।",
+    "spoken": "ଦଶ ଯୁକ୍ତ ପାଞ୍ଚ. ଭାବ.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s02.mp3": {
+    "written": "10 ଯୁକ୍ତ 5 ହେଲା 15।",
+    "spoken": "ଦଶ ଯୁକ୍ତ ପାଞ୍ଚ ହେଲା ପନ୍ଦର.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s03.mp3": {
+    "written": "12 + 6। ଭାବ।",
+    "spoken": "ବାର ଯୁକ୍ତ ଛଅ. ଭାବ.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s04.mp3": {
+    "written": "12 ଯୁକ୍ତ 6 ହେଲା 18।",
+    "spoken": "ବାର ଯୁକ୍ତ ଛଅ ହେଲା ଅଠର.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s05.mp3": {
+    "written": "20 + 15। ଭାବ।",
+    "spoken": "କୋଡ଼ିଏ ଯୁକ୍ତ ପନ୍ଦର. ଭାବ.",
+    "provider": "indic"
+  },
+  "math-ukg-add-double-s06.mp3": {
+    "written": "20 ଯୁକ୍ତ 15 ହେଲା 35।",
+    "spoken": "କୋଡ଼ିଏ ଯୁକ୍ତ ପନ୍ଦର ହେଲା ପଇଁତିରିଶ.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s01.mp3": {
+    "written": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 2।",
+    "spoken": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ, ଦୁଇ.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s02.mp3": {
+    "written": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ — 3।",
+    "spoken": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ, ତିନି.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s03.mp3": {
+    "written": "2 ଆଉ 3 ମିଶି 5।",
+    "spoken": "ଦୁଇ ଆଉ ତିନି ମିଶି ପାଞ୍ଚ.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s04.mp3": {
+    "written": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 4।",
+    "spoken": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ, ଚାରି.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s05.mp3": {
+    "written": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ — 1।",
+    "spoken": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ, ଏକ.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s06.mp3": {
+    "written": "4 ଆଉ 1 ମିଶି 5।",
+    "spoken": "ଚାରି ଆଉ ଏକ ମିଶି ପାଞ୍ଚ.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s07.mp3": {
+    "written": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 3।",
+    "spoken": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ, ତିନି.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s08.mp3": {
+    "written": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ — 4।",
+    "spoken": "ଏବେ ଏଗୁଡ଼ିକ ଗଣ, ଚାରି.",
+    "provider": "indic"
+  },
+  "math-ukg-add-single-s09.mp3": {
+    "written": "3 ଆଉ 4 ମିଶି 7।",
+    "spoken": "ତିନି ଆଉ ଚାରି ମିଶି ସାତ.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s01.mp3": {
+    "written": "7 ଆଉ 3 କୁ ଦେଖ।",
+    "spoken": "ସାତ ଆଉ ତିନି କୁ ଦେଖ.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s02.mp3": {
+    "written": "7, 3 ଠାରୁ ବଡ଼।",
+    "spoken": "ସାତ, ତିନି ଠାରୁ ବଡ଼.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s03.mp3": {
+    "written": "2 ଆଉ 8 କୁ ଦେଖ।",
+    "spoken": "ଦୁଇ ଆଉ ଆଠ କୁ ଦେଖ.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s04.mp3": {
+    "written": "2, 8 ଠାରୁ ଛୋଟ।",
+    "spoken": "ଦୁଇ, ଆଠ ଠାରୁ ଛୋଟ.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s05.mp3": {
+    "written": "5 ଆଉ 5 କୁ ଦେଖ।",
+    "spoken": "ପାଞ୍ଚ ଆଉ ପାଞ୍ଚ କୁ ଦେଖ.",
+    "provider": "indic"
+  },
+  "math-ukg-compare-numbers-s06.mp3": {
+    "written": "5 ଆଉ 5 ସମାନ।",
+    "spoken": "ପାଞ୍ଚ ଆଉ ପାଞ୍ଚ ସମାନ.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s01.mp3": {
+    "written": "ଏଠି 6ଟି ଅଛି।",
+    "spoken": "ଏଠି ଛଅଟି ଅଛି.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s02.mp3": {
+    "written": "ଏଗୁଡ଼ିକୁ 2ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।",
+    "spoken": "ଏଗୁଡ଼ିକୁ ଦୁଇଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s03.mp3": {
+    "written": "ଏଗୁଡ଼ିକୁ 2ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।",
+    "spoken": "ଏଗୁଡ଼ିକୁ ଦୁଇଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s04.mp3": {
+    "written": "6 ÷ 2 ହେଲା 3।",
+    "spoken": "ଛଅ ଭାଗ ଦୁଇ ହେଲା ତିନି.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s05.mp3": {
+    "written": "ଏଠି 12ଟି ଅଛି।",
+    "spoken": "ଏଠି ବାରଟି ଅଛି.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s06.mp3": {
+    "written": "ଏଗୁଡ଼ିକୁ 3ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।",
+    "spoken": "ଏଗୁଡ଼ିକୁ ତିନିଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s07.mp3": {
+    "written": "ଏଗୁଡ଼ିକୁ 3ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।",
+    "spoken": "ଏଗୁଡ଼ିକୁ ତିନିଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s08.mp3": {
+    "written": "ଏଗୁଡ଼ିକୁ 3ଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ।",
+    "spoken": "ଏଗୁଡ଼ିକୁ ତିନିଟି ସମାନ ଭାଗରେ ବାଣ୍ଟ.",
+    "provider": "indic"
+  },
+  "math-ukg-divide-single-s09.mp3": {
+    "written": "12 ÷ 3 ହେଲା 4।",
+    "spoken": "ବାର ଭାଗ ତିନି ହେଲା ଚାରି.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s01.mp3": {
+    "written": "3ଟିର 1 ଧାଡ଼ି।",
+    "spoken": "ତିନିଟିର ଏକ ଧାଡ଼ି.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s02.mp3": {
+    "written": "3ଟିର 2 ଧାଡ଼ି।",
+    "spoken": "ତିନିଟିର ଦୁଇ ଧାଡ଼ି.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s03.mp3": {
+    "written": "2 × 3 ହେଲା 6।",
+    "spoken": "ଦୁଇ ଗୁଣନ ତିନି ହେଲା ଛଅ.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s04.mp3": {
+    "written": "4ଟିର 1 ଧାଡ଼ି।",
+    "spoken": "ଚାରିଟିର ଏକ ଧାଡ଼ି.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s05.mp3": {
+    "written": "4ଟିର 2 ଧାଡ଼ି।",
+    "spoken": "ଚାରିଟିର ଦୁଇ ଧାଡ଼ି.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s06.mp3": {
+    "written": "4ଟିର 3 ଧାଡ଼ି।",
+    "spoken": "ଚାରିଟିର ତିନି ଧାଡ଼ି.",
+    "provider": "indic"
+  },
+  "math-ukg-multiply-single-s07.mp3": {
+    "written": "3 × 4 ହେଲା 12।",
+    "spoken": "ତିନି ଗୁଣନ ଚାରି ହେଲା ବାର.",
+    "provider": "indic"
+  },
+  "math-ukg-odd-one-out-s01.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଅଲଗା — ରଙ୍ଗ ଦେଖ। ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଅଲଗା, ରଙ୍ଗ ଦେଖ. ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-ukg-odd-one-out-s02.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଅଲଗା — ଆକୃତି ଦେଖ। ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଅଲଗା, ଆକୃତି ଦେଖ. ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-ukg-odd-one-out-s03.mp3": {
+    "written": "ଏମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଅଲଗା — ଆକୃତି ଦେଖ। ତାକୁ ଛୁଅଁ।",
+    "spoken": "ଏମାନଙ୍କ ଭିତରୁ ଗୋଟିଏ ଅଲଗା, ଆକୃତି ଦେଖ. ତାକୁ ଛୁଅଁ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s01.mp3": {
+    "written": "15 - 5। ଭାବ।",
+    "spoken": "ପନ୍ଦର ବିଯୁକ୍ତ ପାଞ୍ଚ. ଭାବ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s02.mp3": {
+    "written": "15 ବିଯୁକ୍ତ 5 ହେଲା 10।",
+    "spoken": "ପନ୍ଦର ବିଯୁକ୍ତ ପାଞ୍ଚ ହେଲା ଦଶ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s03.mp3": {
+    "written": "18 - 6। ଭାବ।",
+    "spoken": "ଅଠର ବିଯୁକ୍ତ ଛଅ. ଭାବ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s04.mp3": {
+    "written": "18 ବିଯୁକ୍ତ 6 ହେଲା 12।",
+    "spoken": "ଅଠର ବିଯୁକ୍ତ ଛଅ ହେଲା ବାର.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s05.mp3": {
+    "written": "30 - 10। ଭାବ।",
+    "spoken": "ତିରିଶ ବିଯୁକ୍ତ ଦଶ. ଭାବ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-double-s06.mp3": {
+    "written": "30 ବିଯୁକ୍ତ 10 ହେଲା 20।",
+    "spoken": "ତିରିଶ ବିଯୁକ୍ତ ଦଶ ହେଲା କୋଡ଼ିଏ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s01.mp3": {
+    "written": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 5।",
+    "spoken": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ, ପାଞ୍ଚ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s02.mp3": {
+    "written": "2ଟି କାଢ଼ି ନିଅ।",
+    "spoken": "ଦୁଇଟି କାଢ଼ି ନିଅ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s03.mp3": {
+    "written": "5ରୁ 2 କାଢ଼ିଲେ, ରହିଲା 3।",
+    "spoken": "ପାଞ୍ଚ ରୁ ଦୁଇ କାଢ଼ିଲେ, ରହିଲା ତିନି.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s04.mp3": {
+    "written": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 4।",
+    "spoken": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ, ଚାରି.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s05.mp3": {
+    "written": "3ଟି କାଢ଼ି ନିଅ।",
+    "spoken": "ତିନିଟି କାଢ଼ି ନିଅ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s06.mp3": {
+    "written": "4ରୁ 3 କାଢ଼ିଲେ, ରହିଲା 1।",
+    "spoken": "ଚାରି ରୁ ତିନି କାଢ଼ିଲେ, ରହିଲା ଏକ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s07.mp3": {
+    "written": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ — 5।",
+    "spoken": "ପ୍ରଥମେ ଏଗୁଡ଼ିକ ଗଣ, ପାଞ୍ଚ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s08.mp3": {
+    "written": "1ଟି କାଢ଼ି ନିଅ।",
+    "spoken": "ଏକଟି କାଢ଼ି ନିଅ.",
+    "provider": "indic"
+  },
+  "math-ukg-sub-single-s09.mp3": {
+    "written": "5ରୁ 1 କାଢ଼ିଲେ, ରହିଲା 4।",
+    "spoken": "ପାଞ୍ଚ ରୁ ଏକ କାଢ଼ିଲେ, ରହିଲା ଚାରି.",
+    "provider": "indic"
+  },
+  "our_classroom_s1.mp3": {
+    "written": "ବର୍ତ୍ତମାନ ଆମେ ଭିତରେ। ଏହା ଆମର ଶ୍ରେଣୀ କକ୍ଷ।",
+    "spoken": "ବର୍ତ୍ତମାନ ଆମେ ଭିତରେ. ଏହା ଆମର ଶ୍ରେଣୀ କକ୍ଷ.",
+    "provider": "indic"
+  },
+  "our_classroom_s2.mp3": {
+    "written": "ତୁମର ସାଙ୍ଗମାନେ ଚଟାଣିରେ ବସିଛନ୍ତି। ସେମାନଙ୍କ ସହ ବସ।",
+    "spoken": "ତୁମର ସାଙ୍ଗମାନେ ଚଟାଣିରେ ବସିଛନ୍ତି. ସେମାନଙ୍କ ସହ ବସ.",
+    "provider": "indic"
+  },
+  "our_classroom_s3.mp3": {
+    "written": "ଦିଦି ବୋର୍ଡ ପାଖରେ ଠିଆ ହୋଇଛନ୍ତି। ଆଜି ସେ ଆମକୁ ପଢ଼ାଇବେ।",
+    "spoken": "ଦିଦି ବୋର୍ଡ ପାଖରେ ଠିଆ ହୋଇଛନ୍ତି. ଆଜି ସେ ଆମକୁ ପଢ଼ାଇବେ.",
+    "provider": "indic"
+  },
+  "our_classroom_s4.mp3": {
+    "written": "ଏହା ବ୍ଲାକବୋର୍ଡ। ଶିକ୍ଷୟିତ୍ରୀ ଏଥିରେ ଲେଖନ୍ତି।",
+    "spoken": "ଏହା ବ୍ଲାକବୋର୍ଡ. ଶିକ୍ଷୟିତ୍ରୀ ଏଥିରେ ଲେଖନ୍ତି.",
+    "provider": "indic"
+  },
+  "our_classroom_s5.mp3": {
+    "written": "ଝରକା ଦେଖ। ଆଲୋକ ସେଠାରୁ ଆସେ।",
+    "spoken": "ଝରକା ଦେଖ. ଆଲୋକ ସେଠାରୁ ଆସେ.",
+    "provider": "indic"
+  },
+  "physics_lab_s1.mp3": {
+    "written": "ଏହା ପଦାର୍ଥ ବିଜ୍ଞାନ ପରୀକ୍ଷାଗାର। ଏଠାରେ ଜିନିଷ କିପରି ଚଳେ ଶିଖୁ।",
+    "spoken": "ଏହା ପଦାର୍ଥ ବିଜ୍ଞାନ ପରୀକ୍ଷାଗାର. ଏଠାରେ ଜିନିଷ କିପରି ଚଳେ ଶିଖୁ.",
+    "provider": "indic"
+  },
+  "physics_lab_s2.mp3": {
+    "written": "ସୂତାରେ ଝୁଲୁଥିବା ସେହି ଛୋଟ ବଲଟି ଦୋଳକ। ଏହା ଏପାଖ ସେପାଖ ଝୁଲେ।",
+    "spoken": "ସୂତାରେ ଝୁଲୁଥିବା ସେହି ଛୋଟ ବଲଟି ଦୋଳକ. ଏହା ଏପାଖ ସେପାଖ ଝୁଲେ.",
+    "provider": "indic"
+  },
+  "physics_lab_s3.mp3": {
+    "written": "ଢାଲୁ ଫଳକଟି ରାମ୍ପ। ବଲ ସେଥିରେ ନିଜେ ଗଡ଼େ।",
+    "spoken": "ଢାଲୁ ଫଳକଟି ରାମ୍ପ. ବଲ ସେଥିରେ ନିଜେ ଗଡ଼େ.",
+    "provider": "indic"
+  },
+  "playground_s1.mp3": {
+    "written": "ବର୍ତ୍ତମାନ ଆମେ ବିଦ୍ୟାଳୟ ପଛରେ। ଏହା ଆମର ଖେଳ ପଡ଼ିଆ।",
+    "spoken": "ବର୍ତ୍ତମାନ ଆମେ ବିଦ୍ୟାଳୟ ପଛରେ. ଏହା ଆମର ଖେଳ ପଡ଼ିଆ.",
+    "provider": "indic"
+  },
+  "playground_s2.mp3": {
+    "written": "ଦୋଳି ଦେଖି ପାରୁଛ କି? ଏହା ଆଗ ପଛ ଯାଏ।",
+    "spoken": "ଦୋଳି ଦେଖି ପାରୁଛ କି? ଏହା ଆଗ ପଛ ଯାଏ.",
+    "provider": "indic"
+  },
+  "playground_s3.mp3": {
+    "written": "ସେହି ହଳଦିଆଟି ଖସଣା। ଆମେ ଉପରକୁ ଚଢ଼ି ତଳକୁ ଆସୁ।",
+    "spoken": "ସେହି ହଳଦିଆଟି ଖସଣା. ଆମେ ଉପରକୁ ଚଢ଼ି ତଳକୁ ଆସୁ.",
+    "provider": "indic"
+  },
+  "playground_s4.mp3": {
+    "written": "ବାଲି ଗାତ ଖୋଳିବା ପାଇଁ। ବର୍ତ୍ତମାନ ଭିତରକୁ ଫେରିବା।",
+    "spoken": "ବାଲି ଗାତ ଖୋଳିବା ପାଇଁ. ବର୍ତ୍ତମାନ ଭିତରକୁ ଫେରିବା.",
+    "provider": "indic"
+  },
+  "school_about.mp3": {
+    "written": "ଏହା ଆମର ବିଦ୍ୟାଳୟ। ଆମେ ଏଠାରେ ଶିଖିବାକୁ ଓ ଖେଳିବାକୁ ଆସୁ।",
+    "spoken": "ଏହା ଆମର ବିଦ୍ୟାଳୟ. ଆମେ ଏଠାରେ ଶିଖିବାକୁ ଓ ଖେଳିବାକୁ ଆସୁ.",
+    "provider": "indic"
+  },
+  "school_hall_s1.mp3": {
+    "written": "ବର୍ତ୍ତମାନ ଆମେ ବିଦ୍ୟାଳୟ ଭିତରେ। ଏହା ଗଳି।",
+    "spoken": "ବର୍ତ୍ତମାନ ଆମେ ବିଦ୍ୟାଳୟ ଭିତରେ. ଏହା ଗଳି.",
+    "provider": "indic"
+  },
+  "school_hall_s2.mp3": {
+    "written": "ଦୁଇ ପାଖରେ କବାଟ ଅଛି। ପ୍ରତ୍ୟେକ କବାଟ ଅଲଗା ଘରକୁ ଯାଏ।",
+    "spoken": "ଦୁଇ ପାଖରେ କବାଟ ଅଛି. ପ୍ରତ୍ୟେକ କବାଟ ଅଲଗା ଘରକୁ ଯାଏ.",
+    "provider": "indic"
+  },
+  "school_hall_s3.mp3": {
+    "written": "କୌଣସି କବାଟ ପାଖକୁ ଚାଲ, ସେହି ଘରକୁ ଯିବା ପାଇଁ।",
+    "spoken": "କୌଣସି କବାଟ ପାଖକୁ ଚାଲ, ସେହି ଘରକୁ ଯିବା ପାଇଁ.",
+    "provider": "indic"
+  },
+  "school_kitchen_s1.mp3": {
+    "written": "ଏହା ରୋଷେଇ ଘର। ଏଠାରେ ଆମର ଗରମ ଖାଦ୍ୟ ରନ୍ଧା ହୁଏ।",
+    "spoken": "ଏହା ରୋଷେଇ ଘର. ଏଠାରେ ଆମର ଗରମ ଖାଦ୍ୟ ରନ୍ଧା ହୁଏ.",
+    "provider": "indic"
+  },
+  "school_kitchen_s2.mp3": {
+    "written": "ବଡ଼ ଟେବୁଲ ଦେଖ। ଖାଦ୍ୟ ସେଥିରେ ପ୍ରସ୍ତୁତ ରଖାଯାଏ।",
+    "spoken": "ବଡ଼ ଟେବୁଲ ଦେଖ. ଖାଦ୍ୟ ସେଥିରେ ପ୍ରସ୍ତୁତ ରଖାଯାଏ.",
+    "provider": "indic"
+  },
+  "school_kitchen_s3.mp3": {
+    "written": "ପାଣି ମାଠିଆରେ ରଖା ଯାଇଛି। ଖାଇବା ପରେ ଆମେ ତାହା ପିଉ।",
+    "spoken": "ପାଣି ମାଠିଆରେ ରଖା ଯାଇଛି. ଖାଇବା ପରେ ଆମେ ତାହା ପିଉ.",
+    "provider": "indic"
+  },
+  "school_office_s1.mp3": {
+    "written": "ଏହା କାର୍ଯ୍ୟାଳୟ। ଦିଦି ଏଠାରେ ହାଜିରା ଖାତା ରଖନ୍ତି।",
+    "spoken": "ଏହା କାର୍ଯ୍ୟାଳୟ. ଦିଦି ଏଠାରେ ହାଜିରା ଖାତା ରଖନ୍ତି.",
+    "provider": "indic"
+  },
+  "school_office_s2.mp3": {
+    "written": "ପ୍ରତିଦିନ ସକାଳେ ତୁମର ନାମ ସେହି ଖାତାରେ ଲେଖା ହୁଏ।",
+    "spoken": "ପ୍ରତିଦିନ ସକାଳେ ତୁମର ନାମ ସେହି ଖାତାରେ ଲେଖା ହୁଏ.",
+    "provider": "indic"
+  },
+  "school_office_s3.mp3": {
+    "written": "ଆଲମାରୀ ବନ୍ଦ ଥାଏ। ଆମର ବହି ଓ ଖେଳନା ସେଥିରେ ସୁରକ୍ଷିତ ରହେ।",
+    "spoken": "ଆଲମାରୀ ବନ୍ଦ ଥାଏ. ଆମର ବହି ଓ ଖେଳନା ସେଥିରେ ସୁରକ୍ଷିତ ରହେ.",
+    "provider": "indic"
+  },
+  "school_tour_s1.mp3": {
+    "written": "ଚାରିଆଡ଼େ ଦେଖ। ଏହା ଆମର ବିଦ୍ୟାଳୟ ଓ ପାଖର ଘର।",
+    "spoken": "ଚାରିଆଡ଼େ ଦେଖ. ଏହା ଆମର ବିଦ୍ୟାଳୟ ଓ ପାଖର ଘର.",
+    "provider": "indic"
+  },
+  "school_tour_s2.mp3": {
+    "written": "ଆମର ଖାଦ୍ୟ କେଉଁଠି ରନ୍ଧା ହୁଏ ଖୋଜି ପାରିବ କି?",
+    "spoken": "ଆମର ଖାଦ୍ୟ କେଉଁଠି ରନ୍ଧା ହୁଏ ଖୋଜି ପାରିବ କି?",
+    "provider": "indic"
+  },
+  "solar_system_s1.mp3": {
+    "written": "ଆମେ ମହାକାଶରେ ଭାସୁଛେ। ସୂର୍ଯ୍ୟ ତୁମ ଆଗରେ — ବର୍ତ୍ତମାନ ବୁଲି ଚାରିଆଡ଼େ ଦେଖ।",
+    "spoken": "ଆମେ ମହାକାଶରେ ଭାସୁଛେ. ସୂର୍ଯ୍ୟ ତୁମ ଆଗରେ, ବର୍ତ୍ତମାନ ବୁଲି ଚାରିଆଡ଼େ ଦେଖ.",
+    "provider": "indic"
+  },
+  "solar_system_s10.mp3": {
+    "written": "ନେପଚୁନ ସବୁଠାରୁ ଦୂରରେ, ଓ ସବୁଠାରୁ ଥଣ୍ଡା।",
+    "spoken": "ନେପଚୁନ ସବୁଠାରୁ ଦୂରରେ, ଓ ସବୁଠାରୁ ଥଣ୍ଡା.",
+    "provider": "indic"
+  },
+  "solar_system_s11.mp3": {
+    "written": "ନିଜ ଚାରିପଟେ ଦେଖ। ଆଠଟି ଗ୍ରହ ଆମ ସୂର୍ଯ୍ୟ ଚାରିପଟେ ବୁଲୁଛନ୍ତି, ଆଉ ଆମେ ତା ଭିତରେ।",
+    "spoken": "ନିଜ ଚାରିପଟେ ଦେଖ. ଆଠଟି ଗ୍ରହ ଆମ ସୂର୍ଯ୍ୟ ଚାରିପଟେ ବୁଲୁଛନ୍ତି, ଆଉ ଆମେ ତା ଭିତରେ.",
+    "provider": "indic"
+  },
+  "solar_system_s2.mp3": {
+    "written": "ବର୍ତ୍ତମାନ ପାଖକୁ ଆସ। ଏହା ସୂର୍ଯ୍ୟ। ସେ ଆମକୁ ଆଲୋକ ଓ ଉତ୍ତାପ ଦିଏ।",
+    "spoken": "ବର୍ତ୍ତମାନ ପାଖକୁ ଆସ. ଏହା ସୂର୍ଯ୍ୟ. ସେ ଆମକୁ ଆଲୋକ ଓ ଉତ୍ତାପ ଦିଏ.",
+    "provider": "indic"
+  },
+  "solar_system_s3.mp3": {
+    "written": "ବୁଧ ସୂର୍ଯ୍ୟର ସବୁଠାରୁ ପାଖରେ। ଏହା ଛୋଟ ଓ ବହୁତ ଗରମ।",
+    "spoken": "ବୁଧ ସୂର୍ଯ୍ୟର ସବୁଠାରୁ ପାଖରେ. ଏହା ଛୋଟ ଓ ବହୁତ ଗରମ.",
+    "provider": "indic"
+  },
+  "solar_system_s4.mp3": {
+    "written": "ଶୁକ୍ର ଘନ ମେଘରେ ଢଙ୍କା। ଏହା ସବୁଠାରୁ ଗରମ ଗ୍ରହ।",
+    "spoken": "ଶୁକ୍ର ଘନ ମେଘରେ ଢଙ୍କା. ଏହା ସବୁଠାରୁ ଗରମ ଗ୍ରହ.",
+    "provider": "indic"
+  },
+  "solar_system_s5.mp3": {
+    "written": "ଏହା ଆମର ପୃଥିବୀ। ନୀଳ ହେଉଛି ପାଣି ଓ ଧଳା ହେଉଛି ମେଘ।",
+    "spoken": "ଏହା ଆମର ପୃଥିବୀ. ନୀଳ ହେଉଛି ପାଣି ଓ ଧଳା ହେଉଛି ମେଘ.",
+    "provider": "indic"
+  },
+  "solar_system_s6.mp3": {
+    "written": "ମଙ୍ଗଳ ଲାଲ, କାରଣ ତାର ଧୂଳି କଳଙ୍କି। ସେଠାରେ ପିଇବା ପାଣି ନାହିଁ।",
+    "spoken": "ମଙ୍ଗଳ ଲାଲ, କାରଣ ତାର ଧୂଳି କଳଙ୍କି. ସେଠାରେ ପିଇବା ପାଣି ନାହିଁ.",
+    "provider": "indic"
+  },
+  "solar_system_s7.mp3": {
+    "written": "ବୃହସ୍ପତି ସବୁଠାରୁ ବଡ଼। ସେହି ଧାରୀଗୁଡ଼ିକ ଝଡ଼।",
+    "spoken": "ବୃହସ୍ପତି ସବୁଠାରୁ ବଡ଼. ସେହି ଧାରୀଗୁଡ଼ିକ ଝଡ଼.",
+    "provider": "indic"
+  },
+  "solar_system_s8.mp3": {
+    "written": "ଶନିର କଡ଼ ବରଫ ଓ ପଥରରେ ତିଆରି।",
+    "spoken": "ଶନିର କଡ଼ ବରଫ ଓ ପଥରରେ ତିଆରି.",
+    "provider": "indic"
+  },
+  "solar_system_s9.mp3": {
+    "written": "ୟୁରାନସ୍ ପାର୍ଶ୍ୱରେ ଶୋଇଛି, ଗଡ଼ୁଥିବା ବଲ ପରି।",
+    "spoken": "ୟୁରାନସ୍ ପାର୍ଶ୍ୱରେ ଶୋଇଛି, ଗଡ଼ୁଥିବା ବଲ ପରି.",
+    "provider": "indic"
+  }
+}

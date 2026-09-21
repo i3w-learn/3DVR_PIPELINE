@@ -165,7 +165,7 @@
   ],
   "steps": [
     {
-      "duration": 10000,
+      "duration": 11000,
       "script": {
         "hi": "हर पक्षी और जानवर की अपनी आवाज़ होती है। किसी को देखो, और सुनो।",
         "en": "Every bird and animal has its own voice. Look at one, and listen.",

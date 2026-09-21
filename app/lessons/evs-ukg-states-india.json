@@ -115,7 +115,7 @@
   "steps": [
     {
       "highlight": "flag",
-      "duration": 11500,
+      "duration": 12000,
       "script": {
         "hi": "भारत बहुत बड़ा देश है। इसमें अट्ठाईस राज्य हैं। हर राज्य की अपनी ख़ास बात है।",
         "en": "India is a very big country. It has twenty-eight states. Every state has something special.",

@@ -129,6 +129,9 @@ export function spoken(text, lang) {
 
   // The danda is shared by both scripts and lives in the Devanagari block, so
   // it goes first or the sentence loses its full stops.
+  // The Marathi voice has no single letter ॲ, but it knows both halves of it.
+  if (lang === 'mr') s = s.replace(/ॲ/g, 'अॅ');
+
   if (lang === 'or') s = devanagariToOdia(s.replace(/[।॥]/g, '.')).replace(/\s+ଟି/g, 'ଟି');
 
   // Punctuation the models know: . , ? ! and little else.

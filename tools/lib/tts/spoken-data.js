@@ -28,7 +28,11 @@ export const SIGNS = {
 /** The names of the English letters, as each script writes them. */
 const DEVANAGARI_LETTERS = 'ए बी सी डी ई एफ़ जी एच आई जे के एल एम एन ओ पी क्यू आर एस टी यू वी डब्ल्यू एक्स वाई ज़ेड'.split(' ');
 export const LETTERS = {
-  en: 'ay bee see dee ee eff jee aitch eye jay kay ell em en oh pee cue ar ess tee you vee double-you ex why zed'.split(' '),
+  // Spelt for THIS voice, by ear: each was spoken and played to a recogniser.
+  // "ay" came back as "I" and "zed" as a hiss; "ayy" and "zedd" came back right.
+  // Single letters are still the weakest thing this voice does — the alphabet
+  // and phonics lessons are the first ones a reviewer should listen to.
+  en: 'ayy bee see dee ee eff jee aitch eye jay kay ell em en oh pee cue ar ess tee you vee double-you ex why zedd'.split(' '),
   hi: DEVANAGARI_LETTERS,
   mr: DEVANAGARI_LETTERS,
   or: 'ଏ ବି ସି ଡି ଇ ଏଫ ଜି ଏଚ ଆଇ ଜେ କେ ଏଲ ଏମ ଏନ ଓ ପି କ୍ୟୁ ଆର ଏସ ଟି ୟୁ ଭି ଡବ୍ଲ୍ୟୁ ଏକ୍ସ ୱାଇ ଜେଡ'.split(' '),

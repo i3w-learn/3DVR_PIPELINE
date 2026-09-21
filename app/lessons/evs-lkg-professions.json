@@ -138,7 +138,7 @@
   ],
   "steps": [
     {
-      "duration": 8000,
+      "duration": 9500,
       "script": {
         "hi": "हर कोई अपना काम करता है, और हर काम का अपना औज़ार होता है।",
         "en": "Everybody has a job to do, and every job has its own tools.",

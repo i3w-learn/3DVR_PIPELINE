@@ -99,7 +99,7 @@
   ],
   "steps": [
     {
-      "duration": 8500,
+      "duration": 10000,
       "script": {
         "hi": "ये पालतू जानवर हैं। ये हमारे साथ, हमारे घर और खेत में रहते हैं।",
         "en": "These are domestic animals. They live with us, at our homes and farms.",
