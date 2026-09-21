@@ -66,6 +66,51 @@ export function dropNodes(document, patterns) {
   return { dropped };
 }
 
+/**
+ * The other way round: keep only the named meshes out of a pack of many.
+ *
+ * A scanned fruit pack is sixteen fruits in one file, laid out for a product
+ * shot. A lesson wants the apple. Listing fifteen things to drop would break
+ * the day the pack gains a seventeenth, so this names what stays.
+ *
+ * Names are matched exactly, not as substrings: "Potato" must not also keep
+ * "Russet Potato". Only mesh-bearing nodes are judged; the empty parents that
+ * hold them are structure and stay.
+ *
+ * @param {import('@gltf-transform/core').Document} document
+ * @param {string[] | null} names  exact node names to keep
+ * @returns {{kept: string[], dropped: string[]}}
+ */
+export function keepNodes(document, names) {
+  if (!names?.length) return { kept: [], dropped: [] };
+
+  const wanted = new Set(names);
+  const kept = [];
+  const dropped = [];
+
+  for (const node of document.getRoot().listNodes()) {
+    if (!node.getMesh()) continue;
+
+    if (wanted.has(node.getName())) {
+      kept.push(node.getName());
+      continue;
+    }
+
+    dropped.push(node.getName());
+    detach(node);
+  }
+
+  const missed = names.filter((name) => !kept.includes(name));
+  if (missed.length) {
+    throw new SubsetError(
+      'STD_SUBSET',
+      `keepNodes found no mesh named: ${missed.join(', ')}. Present: ${[...kept, ...dropped].slice(0, 20).join(', ')}…`
+    );
+  }
+
+  return { kept, dropped };
+}
+
 function detach(node) {
   for (const child of node.listChildren()) detach(child);
   node.dispose();

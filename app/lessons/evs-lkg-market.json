@@ -35,10 +35,10 @@
     },
     {
       "id": "apple",
-      "model": "apple",
+      "model": "realapple",
       "position": "-2.200 0.890 -2.050",
-      "scale": "2.81 2.81 2.81",
-      "ring": 0.161,
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.067,
       "name": {
         "en": "Apple",
         "hi": "सेब"
@@ -46,11 +46,11 @@
     },
     {
       "id": "banana",
-      "model": "banana",
+      "model": "realbanana",
       "position": "-1.600 0.890 -2.050",
-      "scale": "1.79 1.79 1.79",
-      "ring": 0.211,
-      "rotation": "0 90 0",
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.182,
+      "rotation": "0 0 0",
       "name": {
         "en": "Banana",
         "hi": "केला"
@@ -58,10 +58,10 @@
     },
     {
       "id": "orange",
-      "model": "orange",
+      "model": "realorange",
       "position": "-1.000 0.890 -2.050",
-      "scale": "2.85 2.85 2.85",
-      "ring": 0.161,
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.088,
       "name": {
         "en": "Orange",
         "hi": "संतरा"
@@ -69,10 +69,10 @@
     },
     {
       "id": "tomato",
-      "model": "tomato",
+      "model": "realtomato",
       "position": "1.000 0.890 -2.050",
-      "scale": "2.73 2.73 2.73",
-      "ring": 0.161,
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.068,
       "name": {
         "en": "Tomato",
         "hi": "टमाटर"
@@ -80,10 +80,10 @@
     },
     {
       "id": "brinjal",
-      "model": "brinjal",
+      "model": "realbrinjal",
       "position": "1.600 0.890 -2.050",
-      "scale": "1.70 1.70 1.70",
-      "ring": 0.112,
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.24,
       "name": {
         "en": "Brinjal",
         "hi": "बैंगन"
@@ -91,10 +91,10 @@
     },
     {
       "id": "cabbage",
-      "model": "cabbage",
+      "model": "realcabbage",
       "position": "2.200 0.890 -2.050",
-      "scale": "1.34 1.34 1.34",
-      "ring": 0.186,
+      "scale": "1.424 1.424 1.424",
+      "ring": 0.196,
       "name": {
         "en": "Cabbage",
         "hi": "पत्तागोभी"

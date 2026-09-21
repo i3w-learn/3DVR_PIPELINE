@@ -1,0 +1,15 @@
+{
+  "id": "realrabbit",
+  "source": "Sketchfab — \"Animated Rabbit – 3D Animal Model\" by AnimalMesh 3D",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/animated-rabbit-3d-animal-model-244017d76f804d6eaa0dd2c33bcff50f",
+  "targetHeight": 0.25,
+  "yaw": 90,
+  "smoothAngle": 60,
+  "keepClips": [
+    "Rabbit|jackrabbit_idle_eating",
+    "Rabbit|jackrabbit_walk_fwd_01",
+    "Rabbit|jackrabbit_idle_03"
+  ],
+  "simplify": 0.6
+}

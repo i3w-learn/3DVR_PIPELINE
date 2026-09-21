@@ -5,70 +5,103 @@
   "objects": [
     {
       "id": "giraffe",
-      "model": "giraffe",
+      "model": "realgiraffe",
       "position": "-5.600 0.000 -10.500",
       "rotation": "0 98 0",
-      "ring": 1.92,
+      "ring": 2.452,
       "name": {
         "en": "Long neck",
         "hi": "लंबी गर्दन"
-      }
+      },
+      "clip": "Take 01",
+      "clipSpeed": 0.7
     },
     {
       "id": "elephant",
-      "model": "elephant",
+      "model": "realelephant",
       "position": "5.600 0.000 -10.000",
       "rotation": "0 -89 0",
-      "ring": 2.37,
+      "ring": 2.353,
       "name": {
         "en": "Trunk",
         "hi": "सूँड़"
+      },
+      "scale": "0.899 0.899 0.899",
+      "clip": "Stand_01",
+      "clipSpeed": 0.75,
+      "wander": {
+        "walk": "Loco_WalkSlow",
+        "idle": "Stand_01",
+        "radius": 2.2,
+        "speed": 0.32,
+        "pause": 9000,
+        "turnSpeed": 40,
+        "stopDistance": 4.5,
+        "stayFor": 12000
       }
     },
     {
       "id": "zebra",
-      "model": "zebra",
+      "model": "realzebra",
       "position": "-3.400 0.000 -5.600",
       "rotation": "0 101 0",
-      "ring": 1.1,
+      "ring": 1.47,
       "name": {
         "en": "Stripes",
         "hi": "धारियाँ"
       },
-      "clip": "Armature|Idle"
+      "clip": "Eating",
+      "clipSpeed": 0.8
     },
     {
       "id": "lion",
-      "model": "lion",
+      "model": "reallion",
       "position": "0.000 0.000 -4.600",
       "rotation": "0 25 0",
-      "ring": 1.41,
+      "ring": 1.284,
       "name": {
         "en": "Mane",
         "hi": "अयाल"
-      }
+      },
+      "scale": "0.861 0.861 0.861",
+      "clip": "Unreal Take",
+      "clipSpeed": 0.8
     },
     {
       "id": "rhino",
-      "model": "rhino",
+      "model": "realrhino",
       "position": "3.600 0.000 -6.200",
       "rotation": "0 -95 0",
-      "ring": 2.16,
+      "ring": 2.357,
       "name": {
         "en": "Horn",
         "hi": "सींग"
+      },
+      "clip": "Animation",
+      "clipSpeed": 0.7,
+      "wander": {
+        "walk": "Animation",
+        "idle": "Animation",
+        "radius": 2.4,
+        "speed": 0.4,
+        "pause": 700,
+        "stopDistance": 4.5,
+        "stayFor": 12000
       }
     },
     {
       "id": "kangaroo",
-      "model": "kangaroo",
+      "model": "realkangaroo",
       "position": "-0.600 0.000 -8.600",
       "rotation": "0 59 0",
-      "ring": 1.27,
+      "ring": 0.796,
       "name": {
         "en": "Pouch",
         "hi": "थैली"
-      }
+      },
+      "scale": "0.863 0.863 0.863",
+      "clip": "Animation",
+      "clipSpeed": 0.8
     }
   ],
   "steps": [

@@ -1,8 +1,8 @@
 {
   "id": "river",
   "sky": {
-    "hdri": "field.jpg",
-    "intensity": 1.0
+    "hdri": "cloudy.jpg",
+    "intensity": 1.15
   },
   "ground": {
     "color": "grass_color.jpg",
@@ -12,19 +12,19 @@
     "repeat": 70
   },
   "sun": {
-    "position": "7 10 6",
+    "position": "9 12 5",
     "color": "#fff3dd",
-    "intensity": 0.9
+    "intensity": 1.0
   },
   "light": {
-    "sky": "#dfeef5",
-    "ground": "#a8b98e",
-    "intensity": 0.9
+    "sky": "#dbe6ee",
+    "ground": "#63704a",
+    "intensity": 0.4
   },
   "shadows": false,
   "fog": {
-    "color": "#d3e2e8",
-    "near": 45,
+    "color": "#d3dde4",
+    "near": 40,
     "far": 150
   },
   "start": {
@@ -33,64 +33,278 @@
   },
   "props": [
     {
-      "build": "grove",
-      "position": "0 0 -11",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "count": 95,
-        "inner": 36,
-        "outer": 95,
-        "arc": 360,
-        "facing": 0,
-        "kind": "round",
-        "height": 10,
-        "leaf": "#3a6a3c",
-        "seed": 79
-      }
-    },
-    {
-      "build": "grove",
-      "position": "0 0 -11",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "count": 46,
-        "inner": 17,
-        "outer": 48,
-        "arc": 200,
-        "facing": 0,
-        "kind": "round",
-        "height": 7.5,
-        "leaf": "#3f7040",
-        "seed": 23
-      }
-    },
-    {
-      "build": "grove",
+      "build": "treeline",
       "position": "0 0 0",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "count": 14,
-        "inner": 10,
-        "outer": 22,
-        "arc": 70,
-        "facing": 118,
-        "kind": "round",
-        "height": 6,
-        "leaf": "#4a7c44",
-        "seed": 29
+        "model": "realmangotree",
+        "count": 120,
+        "inner": 32,
+        "outer": 100,
+        "arc": 360,
+        "height": 10,
+        "seed": 9
       }
     },
     {
-      "build": "river",
+      "build": "waterbody",
       "position": "0 0 -9",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "width": 9
+        "shape": "river",
+        "width": 9,
+        "length": 170,
+        "flow": 0.22,
+        "color": "#2a5a5e"
       }
+    },
+    {
+      "model": "realmangotree",
+      "position": "-17.00 0 -20.00",
+      "rotation": "0 238 0",
+      "scale": "1.20 1.20 1.20"
+    },
+    {
+      "model": "realmangotree",
+      "position": "-5.00 0 -23.00",
+      "rotation": "0 249 0",
+      "scale": "1.00 1.00 1.00"
+    },
+    {
+      "model": "realmangotree",
+      "position": "8.00 0 -21.50",
+      "rotation": "0 90 0",
+      "scale": "1.15 1.15 1.15"
+    },
+    {
+      "model": "realmangotree",
+      "position": "21.00 0 -19.00",
+      "rotation": "0 349 0",
+      "scale": "1.05 1.05 1.05"
+    },
+    {
+      "model": "realmangotree",
+      "position": "-22.00 0 3.50",
+      "rotation": "0 286 0",
+      "scale": "1.00 1.00 1.00"
+    },
+    {
+      "model": "realmangotree",
+      "position": "20.00 0 4.50",
+      "rotation": "0 96 0",
+      "scale": "1.10 1.10 1.10"
+    },
+    {
+      "model": "realbamboo",
+      "position": "-12.00 0 -16.50",
+      "rotation": "0 229 0",
+      "scale": "1.00 1.00 1.00"
+    },
+    {
+      "model": "realbamboo",
+      "position": "14.50 0 -17.00",
+      "rotation": "0 260 0",
+      "scale": "1.10 1.10 1.10"
+    },
+    {
+      "model": "realbamboo",
+      "position": "-24.00 0 -15.50",
+      "rotation": "0 97 0",
+      "scale": "0.90 0.90 0.90"
+    },
+    {
+      "model": "realbamboo",
+      "position": "27.00 0 -2.00",
+      "rotation": "0 67 0",
+      "scale": "1.00 1.00 1.00"
+    },
+    {
+      "model": "realgrass",
+      "position": "-4.20 0 -14.82",
+      "rotation": "0 108 0",
+      "scale": "1.14 1.14 1.14",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-25.98 0 -2.65",
+      "rotation": "0 303 0",
+      "scale": "1.48 1.48 1.48",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-10.18 0 -15.37",
+      "rotation": "0 201 0",
+      "scale": "1.03 1.03 1.03",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "25.78 0 -2.94",
+      "rotation": "0 21 0",
+      "scale": "1.25 1.25 1.25",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "25.44 0 -14.63",
+      "rotation": "0 312 0",
+      "scale": "1.05 1.05 1.05",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-8.89 0 -3.27",
+      "rotation": "0 46 0",
+      "scale": "0.94 0.94 0.94",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-15.15 0 -15.10",
+      "rotation": "0 188 0",
+      "scale": "0.91 0.91 0.91",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-6.67 0 -3.10",
+      "rotation": "0 247 0",
+      "scale": "1.48 1.48 1.48",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "17.28 0 -14.55",
+      "rotation": "0 321 0",
+      "scale": "1.13 1.13 1.13",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-17.98 0 -2.60",
+      "rotation": "0 127 0",
+      "scale": "1.39 1.39 1.39",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "11.72 0 -14.57",
+      "rotation": "0 283 0",
+      "scale": "1.28 1.28 1.28",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-15.78 0 -2.55",
+      "rotation": "0 309 0",
+      "scale": "1.43 1.43 1.43",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-21.92 0 -14.45",
+      "rotation": "0 262 0",
+      "scale": "0.97 0.97 0.97",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "24.06 0 -3.34",
+      "rotation": "0 131 0",
+      "scale": "1.32 1.32 1.32",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-4.12 0 -15.40",
+      "rotation": "0 266 0",
+      "scale": "1.19 1.19 1.19",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-16.88 0 -2.81",
+      "rotation": "0 116 0",
+      "scale": "0.94 0.94 0.94",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-1.08 0 -15.12",
+      "rotation": "0 37 0",
+      "scale": "1.27 1.27 1.27",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realgrass",
+      "position": "-11.43 0 -2.59",
+      "rotation": "0 8 0",
+      "scale": "1.02 1.02 1.02",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realrocks",
+      "position": "-9.00 0 -3.80",
+      "rotation": "0 35 0",
+      "scale": "1.00 1.00 1.00",
+      "contact": false
+    },
+    {
+      "model": "realrocks",
+      "position": "11.50 0 -4.00",
+      "rotation": "0 137 0",
+      "scale": "1.30 1.30 1.30",
+      "contact": false
+    },
+    {
+      "model": "realrocks",
+      "position": "-3.50 0 -14.10",
+      "rotation": "0 210 0",
+      "scale": "1.20 1.20 1.20",
+      "contact": false
+    },
+    {
+      "model": "realrocks",
+      "position": "16.00 0 -14.30",
+      "rotation": "0 228 0",
+      "scale": "0.90 0.90 0.90",
+      "contact": false
+    },
+    {
+      "model": "realrocks",
+      "position": "2.50 0 -7.50",
+      "rotation": "0 127 0",
+      "scale": "0.80 0.80 0.80",
+      "contact": false
+    },
+    {
+      "model": "realrocks",
+      "position": "-6.50 0 -10.00",
+      "rotation": "0 30 0",
+      "scale": "0.70 0.70 0.70",
+      "contact": false
     }
   ]
 }

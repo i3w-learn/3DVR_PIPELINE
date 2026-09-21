@@ -33,36 +33,34 @@
   },
   "props": [
     {
-      "build": "grove",
+      "build": "treeline",
       "position": "0 0 -16",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
+        "model": "realoak",
         "count": 95,
         "inner": 40,
         "outer": 100,
         "arc": 360,
         "facing": 0,
-        "kind": "round",
-        "height": 10,
-        "leaf": "#3a6a3c",
+        "height": 11.5,
         "seed": 73
       }
     },
     {
-      "build": "grove",
+      "build": "treeline",
       "position": "0 0 -16",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
+        "model": "realmangotree",
         "count": 40,
         "inner": 26,
         "outer": 58,
         "arc": 330,
         "facing": 0,
-        "kind": "round",
-        "height": 8,
-        "leaf": "#3f7040",
+        "height": 9.2,
         "seed": 39
       }
     },
@@ -177,8 +175,73 @@
       "params": {
         "length": 32,
         "offset": 4.15,
-        "spacing": 8
+        "spacing": 8,
+        "bare": true
       }
+    },
+    {
+      "model": "realpalm",
+      "position": "-4.15 0.08 -1.00",
+      "rotation": "0 167 0",
+      "scale": "0.76 0.76 0.76",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realpalm",
+      "position": "4.15 0.08 -5.00",
+      "rotation": "0 237 0",
+      "scale": "0.88 0.88 0.88",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realpalm",
+      "position": "-4.15 0.08 -9.00",
+      "rotation": "0 84 0",
+      "scale": "0.77 0.77 0.77",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realpalm",
+      "position": "4.15 0.08 -13.00",
+      "rotation": "0 120 0",
+      "scale": "0.72 0.72 0.72",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realpalm",
+      "position": "-4.15 0.08 -17.00",
+      "rotation": "0 334 0",
+      "scale": "0.86 0.86 0.86",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realpalm",
+      "position": "4.15 0.08 -21.00",
+      "rotation": "0 202 0",
+      "scale": "0.84 0.84 0.84",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realpalm",
+      "position": "-4.15 0.08 -25.00",
+      "rotation": "0 322 0",
+      "scale": "0.86 0.86 0.86",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realpalm",
+      "position": "4.15 0.08 -29.00",
+      "rotation": "0 100 0",
+      "scale": "0.75 0.75 0.75",
+      "castShadow": false,
+      "contact": false
     },
     {
       "build": "streetlamp",

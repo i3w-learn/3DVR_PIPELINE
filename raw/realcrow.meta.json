@@ -1,0 +1,10 @@
+{
+  "id": "realcrow",
+  "source": "Sketchfab — \"Crow\" by Alexei Ostapenko",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/crow-d5a9b0df4da3493688b63ce42c8a83e2",
+  "targetHeight": 0.9,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest"
+}

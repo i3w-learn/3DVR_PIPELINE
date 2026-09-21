@@ -2,14 +2,14 @@
   "id": "dinopark",
   "sky": {
     "hdri": "cloudy.jpg",
-    "intensity": 1.0
+    "intensity": 1.1
   },
   "ground": {
     "color": "grass_color.jpg",
     "normal": "grass_normal.jpg",
     "rough": "grass_rough.jpg",
     "ao": "grass_ao.jpg",
-    "repeat": 42
+    "repeat": 60
   },
   "sun": {
     "position": "9 13 5",
@@ -19,12 +19,12 @@
   "light": {
     "sky": "#d6e6dc",
     "ground": "#4f6040",
-    "intensity": 0.5
+    "intensity": 0.45
   },
   "fog": {
     "color": "#c9d8cf",
-    "near": 26,
-    "far": 95
+    "near": 30,
+    "far": 120
   },
   "shadows": true,
   "start": {
@@ -33,95 +33,106 @@
   },
   "props": [
     {
-      "build": "grove",
-      "position": "0 0 -8",
+      "build": "treeline",
+      "position": "0 0 0",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "count": 120,
-        "inner": 34,
+        "model": "realoak",
+        "count": 95,
+        "inner": 30,
         "outer": 95,
         "arc": 360,
-        "facing": 0,
-        "kind": "round",
         "height": 12,
-        "leaf": "#2f5f35",
         "seed": 61
       }
     },
     {
-      "build": "grove",
-      "position": "0 0 -8",
+      "build": "treeline",
+      "position": "0 0 0",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "count": 46,
-        "inner": 23,
-        "outer": 40,
+        "model": "realjungletree",
+        "count": 55,
+        "inner": 27,
+        "outer": 70,
         "arc": 360,
-        "facing": 0,
-        "kind": "round",
-        "height": 10,
-        "leaf": "#356b3a",
+        "height": 14,
         "seed": 62
       }
     },
     {
-      "build": "tree",
-      "position": "-13 0 -17",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "height": 11,
-        "seed": 3
-      }
+      "model": "realoak",
+      "position": "-23.00 0 -23.00",
+      "rotation": "0 40 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": false,
+      "contact": false
     },
     {
-      "build": "tree",
-      "position": "14 0 -18",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "height": 12.5,
-        "seed": 4
-      }
-    },
-    {
-      "build": "tree",
-      "position": "-17 0 -5",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "height": 10,
-        "seed": 5
-      }
-    },
-    {
-      "build": "tree",
-      "position": "17.5 0 -4",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "height": 9.5,
-        "seed": 6
-      }
-    },
-    {
-      "model": "rock",
-      "position": "6.2 0 -12.5",
-      "rotation": "0 40 0"
-    },
-    {
-      "model": "rock",
-      "position": "-7 0 -10.5",
+      "model": "realjungletree",
+      "position": "24.00 0 -24.00",
       "rotation": "0 200 0",
-      "scale": "0.8 0.8 0.8"
+      "scale": "1.00 1.00 1.00",
+      "castShadow": false,
+      "contact": false
     },
     {
-      "model": "rock",
-      "position": "-3.5 0 -16",
-      "rotation": "0 120 0",
-      "scale": "1.2 1.2 1.2"
+      "model": "realoak",
+      "position": "-17.50 0 -4.50",
+      "rotation": "0 130 0",
+      "scale": "0.90 0.90 0.90",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realjungletree",
+      "position": "18.00 0 -3.50",
+      "rotation": "0 75 0",
+      "scale": "0.85 0.85 0.85",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realfern",
+      "position": "-9.50 0 -14.00",
+      "rotation": "0 20 0",
+      "scale": "1.50 1.50 1.50",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realfern",
+      "position": "9.00 0 -15.00",
+      "rotation": "0 140 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realfern",
+      "position": "-12.00 0 -7.50",
+      "rotation": "0 250 0",
+      "scale": "1.30 1.30 1.30",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realfern",
+      "position": "12.00 0 -8.00",
+      "rotation": "0 95 0",
+      "scale": "1.50 1.50 1.50",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realfern",
+      "position": "-12.20 0 -16.00",
+      "rotation": "0 310 0",
+      "scale": "1.20 1.20 1.20",
+      "castShadow": false,
+      "contact": false
     },
     {
       "model": "fence",

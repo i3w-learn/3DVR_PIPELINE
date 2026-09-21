@@ -5,10 +5,10 @@
   "objects": [
     {
       "id": "r1o1",
-      "model": "apple",
+      "model": "realapple",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.167,
-      "scale": "2.92 2.92 2.92",
+      "ring": 0.143,
+      "scale": "3.394 3.394 3.394",
       "name": {
         "en": "Apple",
         "hi": "सेब"
@@ -16,10 +16,10 @@
     },
     {
       "id": "r1o2",
-      "model": "apple",
+      "model": "realapple",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.167,
-      "scale": "2.92 2.92 2.92",
+      "ring": 0.143,
+      "scale": "3.394 3.394 3.394",
       "name": {
         "en": "Apple",
         "hi": "सेब"
@@ -27,11 +27,11 @@
     },
     {
       "id": "r1o3",
-      "model": "banana",
+      "model": "realbanana",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.218,
-      "rotation": "0 90 0",
-      "scale": "1.85 1.85 1.85",
+      "ring": 0.211,
+      "rotation": "0 0 0",
+      "scale": "1.850 1.850 1.850",
       "name": {
         "en": "Banana",
         "hi": "केला"
@@ -39,10 +39,10 @@
     },
     {
       "id": "r1o4",
-      "model": "apple",
+      "model": "realapple",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.167,
-      "scale": "2.92 2.92 2.92",
+      "ring": 0.143,
+      "scale": "3.394 3.394 3.394",
       "name": {
         "en": "Apple",
         "hi": "सेब"
@@ -50,10 +50,10 @@
     },
     {
       "id": "r2o1",
-      "model": "tomato",
+      "model": "realtomato",
       "position": "-0.600 0.520 -0.780",
-      "ring": 0.167,
-      "scale": "2.84 2.84 2.84",
+      "ring": 0.162,
+      "scale": "3.800 3.800 3.800",
       "name": {
         "en": "Tomato",
         "hi": "टमाटर"
@@ -61,10 +61,10 @@
     },
     {
       "id": "r2o2",
-      "model": "carrot",
+      "model": "realcarrot",
       "position": "-0.200 0.520 -0.780",
-      "ring": 0.104,
-      "scale": "1.76 1.76 1.76",
+      "ring": 0.211,
+      "scale": "1.956 1.956 1.956",
       "name": {
         "en": "Carrot",
         "hi": "गाजर"
@@ -72,10 +72,10 @@
     },
     {
       "id": "r2o3",
-      "model": "carrot",
+      "model": "realcarrot",
       "position": "0.200 0.520 -0.780",
-      "ring": 0.104,
-      "scale": "1.76 1.76 1.76",
+      "ring": 0.211,
+      "scale": "1.956 1.956 1.956",
       "name": {
         "en": "Carrot",
         "hi": "गाजर"
@@ -83,10 +83,10 @@
     },
     {
       "id": "r2o4",
-      "model": "carrot",
+      "model": "realcarrot",
       "position": "0.600 0.520 -0.780",
-      "ring": 0.104,
-      "scale": "1.76 1.76 1.76",
+      "ring": 0.211,
+      "scale": "1.956 1.956 1.956",
       "name": {
         "en": "Carrot",
         "hi": "गाजर"

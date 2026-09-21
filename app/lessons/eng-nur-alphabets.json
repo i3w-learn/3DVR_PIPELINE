@@ -23,10 +23,10 @@
     },
     {
       "id": "obja",
-      "model": "apple",
+      "model": "realapple",
       "position": "0.330 0.520 -0.720",
-      "scale": "3.226 3.226 3.226",
-      "ring": 0.174,
+      "scale": "3.750 3.750 3.750",
+      "ring": 0.158,
       "rotation": "0 35 0",
       "name": {
         "en": "Apple",
@@ -53,11 +53,11 @@
     },
     {
       "id": "objb",
-      "model": "banana",
+      "model": "realbanana",
       "position": "0.330 0.520 -0.720",
       "scale": "1.579 1.579 1.579",
-      "ring": 0.174,
-      "rotation": "0 55 0",
+      "ring": 0.18,
+      "rotation": "0 -35 0",
       "name": {
         "en": "Banana",
         "hi": "केला"
@@ -83,15 +83,17 @@
     },
     {
       "id": "objc",
-      "model": "cat",
+      "model": "realcat",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.938 0.938 0.938",
-      "ring": 0.16,
+      "scale": "0.682 0.682 0.682",
+      "ring": 0.18,
       "rotation": "0 35 0",
       "name": {
         "en": "Cat",
         "hi": "बिल्ली"
-      }
+      },
+      "clip": "Take 001",
+      "clipSpeed": 0.8
     },
     {
       "id": "capD",
@@ -113,15 +115,17 @@
     },
     {
       "id": "objd",
-      "model": "dog",
+      "model": "realdog",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.416 0.416 0.416",
-      "ring": 0.174,
+      "scale": "0.246 0.246 0.246",
+      "ring": 0.18,
       "rotation": "0 55 0",
       "name": {
         "en": "Dog",
         "hi": "कुत्ता"
-      }
+      },
+      "clip": "Animation",
+      "clipSpeed": 0.8
     },
     {
       "id": "capE",
@@ -143,15 +147,17 @@
     },
     {
       "id": "obje",
-      "model": "elephant",
+      "model": "realelephant",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.076 0.076 0.076",
-      "ring": 0.174,
+      "scale": "0.069 0.069 0.069",
+      "ring": 0.18,
       "rotation": "0 55 0",
       "name": {
         "en": "Elephant",
         "hi": "हाथी"
-      }
+      },
+      "clip": "Stand_01",
+      "clipSpeed": 0.75
     },
     {
       "id": "capF",
@@ -173,15 +179,16 @@
     },
     {
       "id": "objf",
-      "model": "clownfish",
+      "model": "realclownfish",
       "position": "0.330 0.520 -0.720",
-      "scale": "1.000 1.000 1.000",
-      "ring": 0.174,
+      "ring": 0.18,
       "rotation": "0 55 0",
       "name": {
         "en": "Fish",
         "hi": "मछली"
-      }
+      },
+      "clip": "swim cycle",
+      "clipSpeed": 0.8
     },
     {
       "id": "capG",
@@ -203,15 +210,17 @@
     },
     {
       "id": "objg",
-      "model": "goat",
+      "model": "realgoat",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.294 0.294 0.294",
-      "ring": 0.174,
+      "scale": "0.302 0.302 0.302",
+      "ring": 0.18,
       "rotation": "0 55 0",
       "name": {
         "en": "Goat",
         "hi": "बकरी"
-      }
+      },
+      "clip": "Armature|idle",
+      "clipSpeed": 0.8
     },
     {
       "id": "capH",
@@ -233,15 +242,17 @@
     },
     {
       "id": "objh",
-      "model": "hen",
+      "model": "realhen",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.714 0.714 0.714",
-      "ring": 0.14,
+      "scale": "0.662 0.662 0.662",
+      "ring": 0.177,
       "rotation": "0 35 0",
       "name": {
         "en": "Hen",
         "hi": "मुर्गी"
-      }
+      },
+      "clip": "peck_idle2",
+      "clipSpeed": 0.45
     },
     {
       "id": "capI",
@@ -353,15 +364,17 @@
     },
     {
       "id": "objl",
-      "model": "lion",
+      "model": "reallion",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.128 0.128 0.128",
-      "ring": 0.174,
+      "scale": "0.121 0.121 0.121",
+      "ring": 0.181,
       "rotation": "0 55 0",
       "name": {
         "en": "Lion",
         "hi": "शेर"
-      }
+      },
+      "clip": "Unreal Take",
+      "clipSpeed": 0.8
     },
     {
       "id": "capM",
@@ -443,10 +456,10 @@
     },
     {
       "id": "objo",
-      "model": "orange",
+      "model": "realorange",
       "position": "0.330 0.520 -0.720",
-      "scale": "3.297 3.297 3.297",
-      "ring": 0.174,
+      "scale": "3.261 3.261 3.261",
+      "ring": 0.18,
       "rotation": "0 35 0",
       "name": {
         "en": "Orange",
@@ -473,15 +486,17 @@
     },
     {
       "id": "objp",
-      "model": "parrot",
+      "model": "realparrot",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.656 0.656 0.656",
-      "ring": 0.174,
+      "scale": "0.472 0.472 0.472",
+      "ring": 0.18,
       "rotation": "0 55 0",
       "name": {
         "en": "Parrot",
         "hi": "तोता"
-      }
+      },
+      "clip": "Land",
+      "clipSpeed": 0.6
     },
     {
       "id": "capQ",
@@ -595,15 +610,17 @@
     },
     {
       "id": "objt",
-      "model": "tiger",
+      "model": "realtiger",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.161 0.161 0.161",
-      "ring": 0.174,
+      "scale": "0.105 0.105 0.105",
+      "ring": 0.18,
       "rotation": "0 55 0",
       "name": {
         "en": "Tiger",
         "hi": "बाघ"
-      }
+      },
+      "clip": "Idle_Lie Prone",
+      "clipSpeed": 0.8
     },
     {
       "id": "capU",
@@ -686,10 +703,9 @@
     },
     {
       "id": "objw",
-      "model": "watermelon",
+      "model": "realwatermelon",
       "position": "0.330 0.520 -0.720",
-      "scale": "1.071 1.071 1.071",
-      "ring": 0.167,
+      "ring": 0.18,
       "rotation": "0 35 0",
       "name": {
         "en": "Watermelon",
@@ -776,15 +792,17 @@
     },
     {
       "id": "objz",
-      "model": "zebra",
+      "model": "realzebra",
       "position": "0.330 0.520 -0.720",
-      "scale": "0.164 0.164 0.164",
-      "ring": 0.174,
+      "scale": "0.123 0.123 0.123",
+      "ring": 0.18,
       "rotation": "0 55 0",
       "name": {
         "en": "Zebra",
         "hi": "ज़ेबरा"
-      }
+      },
+      "clip": "Eating",
+      "clipSpeed": 0.8
     }
   ],
   "steps": [

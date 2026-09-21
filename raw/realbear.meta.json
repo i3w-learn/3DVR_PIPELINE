@@ -1,0 +1,14 @@
+{
+  "id": "realbear",
+  "source": "Sketchfab — \"Realistic Animated Bear 3D Model\" by WildMesh 3D",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/realistic-animated-bear-3d-model-bffc3c87d2d148ff8533e1cc8a11c9f1",
+  "targetHeight": 1.2,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "Stand_Idle_01",
+    "Walk",
+    "Stand_Eating_01"
+  ]
+}

@@ -5,15 +5,15 @@
   "objects": [
     {
       "id": "cow",
-      "model": "cow",
+      "model": "zebu",
       "position": "-3.600 0.000 -7.200",
       "rotation": "0 62 0",
-      "ring": 1.52,
+      "ring": 1.38,
       "name": {
         "en": "Cow",
         "hi": "गाय"
       },
-      "clip": "Armature|Idle",
+      "clip": "Armature|CombinedAnim|Base Layer.001",
       "sound": "cow.mp3",
       "script": {
         "hi": "यह गाय है। गाय घास खाती है और हमें दूध देती है। उसके बच्चे को बछड़ा कहते हैं।",
@@ -21,19 +21,29 @@
         "mr": "ही गाय आहे. ती गवत खाते आणि आपल्याला दूध देते. तिच्या पिल्लाला वासरू म्हणतात.",
         "or": "ଏହା ଏକ ଗାଈ। ସେ ଘାସ ଖାଏ ଆଉ ଆମକୁ କ୍ଷୀର ଦିଏ। ତାର ଛୁଆକୁ ବାଛୁରୀ କୁହାଯାଏ।"
       },
-      "audio": "evs-ukg-farm-visit-cow.mp3"
+      "audio": "evs-ukg-farm-visit-cow.mp3",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Armature|CombinedAnim|Base Layer.003",
+        "idle": "Armature|CombinedAnim|Base Layer.001",
+        "radius": 2.0,
+        "speed": 0.35,
+        "pause": 7000,
+        "stopDistance": 2.4,
+        "stayFor": 12000
+      }
     },
     {
       "id": "horse",
-      "model": "horse",
+      "model": "realhorse",
       "position": "3.900 0.000 -8.600",
       "rotation": "0 -59 0",
-      "ring": 1.13,
+      "ring": 1.515,
       "name": {
         "en": "Horse",
         "hi": "घोड़ा"
       },
-      "clip": "Idle",
+      "clip": "Skeleton|6 Eat",
       "sound": "horse.mp3",
       "script": {
         "hi": "यह घोड़ा है। घोड़ा गाड़ी खींचता है और तेज़ दौड़ता है।",
@@ -41,14 +51,24 @@
         "mr": "हा घोडा आहे. घोडा गाडी ओढतो आणि वेगाने धावतो.",
         "or": "ଏହା ଏକ ଘୋଡ଼ା। ଘୋଡ଼ା ଗାଡ଼ି ଟାଣେ ଆଉ ଜୋରରେ ଦୌଡ଼େ।"
       },
-      "audio": "evs-ukg-farm-visit-horse.mp3"
+      "audio": "evs-ukg-farm-visit-horse.mp3",
+      "clipSpeed": 0.7,
+      "wander": {
+        "walk": "Skeleton|Walk",
+        "idle": "Skeleton|6 Eat",
+        "radius": 2.0,
+        "speed": 0.45,
+        "pause": 8000,
+        "stopDistance": 2.6,
+        "stayFor": 12000
+      }
     },
     {
       "id": "goat",
-      "model": "goat",
+      "model": "realgoat",
       "position": "-1.700 0.000 -4.800",
       "rotation": "0 55 0",
-      "ring": 0.61,
+      "ring": 0.634,
       "name": {
         "en": "Goat",
         "hi": "बकरी"
@@ -60,19 +80,31 @@
         "mr": "ही शेळी आहे. शेळी पानं खाते आणि दूध देते.",
         "or": "ଏହା ଏକ ଛେଳି। ଛେଳି ପତ୍ର ଖାଏ ଆଉ କ୍ଷୀର ଦିଏ।"
       },
-      "audio": "evs-ukg-farm-visit-goat.mp3"
+      "audio": "evs-ukg-farm-visit-goat.mp3",
+      "scale": "1.062 1.062 1.062",
+      "clip": "Armature|idle",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Armature|walk",
+        "idle": "Armature|idle",
+        "radius": 2.0,
+        "speed": 0.4,
+        "pause": 5000,
+        "stopDistance": 1.8,
+        "stayFor": 12000
+      }
     },
     {
       "id": "sheep",
-      "model": "sheep",
+      "model": "realsheep",
       "position": "1.900 0.000 -5.000",
       "rotation": "0 -56 0",
-      "ring": 0.69,
+      "ring": 0.686,
       "name": {
         "en": "Sheep",
         "hi": "भेड़"
       },
-      "clip": "Armature|Idle",
+      "clip": "Animation",
       "sound": "sheep.mp3",
       "script": {
         "hi": "यह भेड़ है। भेड़ के बालों से ऊन बनती है।",
@@ -80,15 +112,16 @@
         "mr": "ही मेंढी आहे. मेंढीच्या केसांपासून लोकर बनते.",
         "or": "ଏହା ଏକ ମେଣ୍ଢା। ମେଣ୍ଢାର ଲୋମରୁ ପଶମ ତିଆରି ହୁଏ।"
       },
-      "audio": "evs-ukg-farm-visit-sheep.mp3"
+      "audio": "evs-ukg-farm-visit-sheep.mp3",
+      "clipSpeed": 0.8
     },
     {
       "id": "hen",
-      "model": "hen",
+      "model": "realhen",
       "position": "2.600 0.000 -3.000",
       "rotation": "0 -81 0",
-      "ring": 0.28,
-      "scale": "1.400 1.400 1.400",
+      "ring": 0.347,
+      "scale": "1.298 1.298 1.298",
       "name": {
         "en": "Hen",
         "hi": "मुर्गी"
@@ -100,15 +133,26 @@
         "mr": "ही कोंबडी आहे. कोंबडी दाणे टिपते आणि अंडी देते.",
         "or": "ଏହା ଏକ କୁକୁଡ଼ା। କୁକୁଡ଼ା ଦାନା ଖୁମ୍ପେ ଆଉ ଅଣ୍ଡା ଦିଏ।"
       },
-      "audio": "evs-ukg-farm-visit-hen.mp3"
+      "audio": "evs-ukg-farm-visit-hen.mp3",
+      "clip": "peck_idle2",
+      "clipSpeed": 0.45,
+      "wander": {
+        "walk": "walk01",
+        "idle": "peck_idle2",
+        "radius": 1.4,
+        "speed": 0.3,
+        "pause": 3500,
+        "stopDistance": 1.4,
+        "stayFor": 12000
+      }
     },
     {
       "id": "duck",
-      "model": "duck",
+      "model": "realduck",
       "position": "-2.800 0.000 -3.000",
       "rotation": "0 78 0",
-      "ring": 0.41,
-      "scale": "1.400 1.400 1.400",
+      "ring": 0.47,
+      "scale": "1.463 1.463 1.463",
       "name": {
         "en": "Duck",
         "hi": "बत्तख"
@@ -120,19 +164,30 @@
         "mr": "हे बदक आहे. बदक तळ्यात पोहतं.",
         "or": "ଏହା ଏକ ବତକ। ବତକ ପୋଖରୀରେ ପହଁରେ।"
       },
-      "audio": "evs-ukg-farm-visit-duck.mp3"
+      "audio": "evs-ukg-farm-visit-duck.mp3",
+      "clip": "walk",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "walk",
+        "idle": "walk",
+        "radius": 1.5,
+        "speed": 0.22,
+        "pause": 900,
+        "stopDistance": 1.4,
+        "stayFor": 12000
+      }
     },
     {
       "id": "donkey",
-      "model": "donkey",
+      "model": "realdonkey",
       "position": "0.400 0.000 -10.600",
       "rotation": "0 48 0",
-      "ring": 0.85,
+      "ring": 0.698,
       "name": {
         "en": "Donkey",
         "hi": "गधा"
       },
-      "clip": "Idle",
+      "clip": "H_Eat",
       "sound": "donkey.mp3",
       "script": {
         "hi": "यह गधा है। गधा बोझ ढोता है।",
@@ -140,14 +195,24 @@
         "mr": "हे गाढव आहे. गाढव ओझं वाहतं.",
         "or": "ଏହା ଏକ ଗଧ। ଗଧ ବୋଝ ବୁହେ।"
       },
-      "audio": "evs-ukg-farm-visit-donkey.mp3"
+      "audio": "evs-ukg-farm-visit-donkey.mp3",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "H_Walk",
+        "idle": "H_Eat",
+        "radius": 1.8,
+        "speed": 0.4,
+        "pause": 8000,
+        "stopDistance": 2.4,
+        "stayFor": 12000
+      }
     },
     {
       "id": "dog",
-      "model": "dog",
+      "model": "realdog",
       "position": "-0.400 0.000 -2.900",
       "rotation": "0 33 0",
-      "ring": 0.43,
+      "ring": 0.71,
       "name": {
         "en": "Dog",
         "hi": "कुत्ता"
@@ -159,7 +224,9 @@
         "mr": "हा कुत्रा आहे. कुत्रा शेताची राखण करतो.",
         "or": "ଏହା ଏକ କୁକୁର। କୁକୁର ଚାଷ ଜମି ଜଗେ।"
       },
-      "audio": "evs-ukg-farm-visit-dog.mp3"
+      "audio": "evs-ukg-farm-visit-dog.mp3",
+      "clip": "Animation",
+      "clipSpeed": 0.8
     }
   ],
   "steps": [

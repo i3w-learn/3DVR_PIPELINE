@@ -5,53 +5,58 @@
   "objects": [
     {
       "id": "fish",
-      "model": "clownfish",
+      "model": "realclownfish",
       "position": "-1.300 1.250 -2.600",
       "rotation": "0 107 0",
-      "ring": 0.45,
+      "ring": 0.468,
       "scale": "2.600 2.600 2.600",
       "name": {
         "en": "Fish",
         "hi": "मछली"
       },
-      "clip": "Armature|Swim"
+      "clip": "swim cycle",
+      "clipSpeed": 0.8
     },
     {
       "id": "turtle",
-      "model": "turtle",
+      "model": "realturtle",
       "position": "1.500 1.000 -3.000",
       "rotation": "0 -102 0",
-      "ring": 0.6,
-      "scale": "1.500 1.500 1.500",
+      "ring": 0.532,
       "name": {
         "en": "Turtle",
         "hi": "कछुआ"
-      }
+      },
+      "clip": "Armature|Tortue Anim",
+      "clipSpeed": 0.7
     },
     {
       "id": "dolphin",
-      "model": "dolphin",
+      "model": "realdolphin",
       "position": "-4.200 2.300 -7.500",
       "rotation": "0 109 0",
-      "ring": 1.2,
+      "ring": 1.073,
       "name": {
         "en": "Dolphin",
         "hi": "डॉल्फ़िन"
       },
-      "clip": "Armature|Swim"
+      "clip": "Take 001",
+      "scale": "0.830 0.830 0.830",
+      "clipSpeed": 0.7
     },
     {
       "id": "whale",
-      "model": "whale",
+      "model": "realwhale",
       "position": "7.500 4.200 -17.000",
       "rotation": "0 -104 0",
-      "ring": 4.5,
-      "scale": "1.500 1.500 1.500",
+      "ring": 4.409,
+      "scale": "1.224 1.224 1.224",
       "name": {
         "en": "Whale",
         "hi": "व्हेल"
       },
-      "clip": "Armature|Swim"
+      "clip": "Take 001",
+      "clipSpeed": 0.6
     },
     {
       "id": "octopus",
@@ -67,15 +72,17 @@
     },
     {
       "id": "crab",
-      "model": "crab",
+      "model": "realcrab",
       "position": "-2.600 0.000 -3.400",
       "rotation": "0 57 0",
-      "ring": 0.55,
-      "scale": "3.200 3.200 3.200",
+      "ring": 0.437,
+      "scale": "3.000 3.000 3.000",
       "name": {
         "en": "Crab",
         "hi": "केकड़ा"
-      }
+      },
+      "clip": "Dance",
+      "clipSpeed": 0.6
     },
     {
       "id": "starfish",
@@ -91,15 +98,17 @@
     },
     {
       "id": "seahorse",
-      "model": "seahorse",
+      "model": "realseahorse",
       "position": "-0.200 1.200 -4.400",
       "rotation": "0 3 0",
-      "ring": 0.4,
+      "ring": 0.142,
       "scale": "3.000 3.000 3.000",
       "name": {
         "en": "Seahorse",
         "hi": "समुद्री घोड़ा"
-      }
+      },
+      "clip": "ArmatureAction",
+      "clipSpeed": 0.7
     }
   ],
   "steps": [

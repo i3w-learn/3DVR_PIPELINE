@@ -26,3 +26,7 @@ raw/*.bin
 
 # Narration engine: a Python venv and ~6 GB of open voice models. Rebuilt by tools/tts/setup.sh.
 .tts/
+
+# Secrets (the Sketchfab token). Never committed.
+.env
+.env.*

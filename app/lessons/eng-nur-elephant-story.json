@@ -5,13 +5,26 @@
   "objects": [
     {
       "id": "appu",
-      "model": "elephant",
+      "model": "realelephant",
       "position": "-3.200 0.000 -8.200",
       "rotation": "0 96 0",
-      "ring": 2.37,
+      "ring": 2.353,
       "name": {
         "en": "Appu",
         "hi": "अप्पू"
+      },
+      "scale": "0.899 0.899 0.899",
+      "clip": "Stand_01",
+      "clipSpeed": 0.75,
+      "wander": {
+        "walk": "Loco_WalkSlow",
+        "idle": "Stand_01",
+        "radius": 2.2,
+        "speed": 0.32,
+        "pause": 9000,
+        "turnSpeed": 40,
+        "stopDistance": 4.5,
+        "stayFor": 12000
       }
     },
     {
@@ -40,12 +53,11 @@
     },
     {
       "id": "pond",
-      "build": "pond",
+      "build": "waterbody",
       "params": {
+        "shape": "pond",
         "radius": 2.3,
-        "stretch": 1.3,
-        "pads": 5,
-        "lotus": 2
+        "stretch": 1.3
       },
       "position": "5.200 0.000 -8.600",
       "name": {
@@ -56,15 +68,26 @@
     },
     {
       "id": "deer",
-      "model": "deer",
+      "model": "realdeer",
       "position": "7.400 0.000 -5.200",
       "rotation": "0 -135 0",
-      "ring": 0.8,
+      "ring": 1.102,
       "name": {
         "en": "Deer",
         "hi": "हिरण"
       },
-      "clip": "Idle"
+      "clip": "Stand_Eating_01",
+      "scale": "1.134 1.134 1.134",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "WalkSlow",
+        "idle": "Stand_Eating_01",
+        "radius": 2.4,
+        "speed": 0.35,
+        "pause": 7000,
+        "stopDistance": 2.6,
+        "stayFor": 12000
+      }
     }
   ],
   "steps": [

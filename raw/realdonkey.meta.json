@@ -1,0 +1,15 @@
+{
+  "id": "realdonkey",
+  "source": "Sketchfab — \"Realistic Animated Donkey 3D Model\" by WildMesh 3D",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/realistic-animated-donkey-3d-model-2b4086035df94d9e88fd0f18d34b3872",
+  "targetHeight": 1.2,
+  "yaw": -90,
+  "smoothAngle": 60,
+  "keepClips": [
+    "H_Idle_01",
+    "H_Walk",
+    "H_Eat"
+  ],
+  "simplify": 0.36
+}

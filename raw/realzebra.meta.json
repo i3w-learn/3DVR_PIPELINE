@@ -1,0 +1,15 @@
+{
+  "id": "realzebra",
+  "source": "Sketchfab — \"Zebra - Rigged\" by Noa Seller",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/zebra-rigged-5d6ff2749afc438b9989f91ecb242574",
+  "targetHeight": 1.4,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "Idle01",
+    "Eating",
+    "Trot"
+  ],
+  "simplify": 0.55
+}

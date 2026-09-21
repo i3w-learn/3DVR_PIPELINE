@@ -1,0 +1,13 @@
+{
+  "id": "realdeer",
+  "source": "Sketchfab — \"Realistic Animated Doe 3D Model\" by WildMesh 3D",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/realistic-animated-doe-3d-model-b6172618aa304473a4cf7b9246c0a218",
+  "targetHeight": 1.15,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "Stand_Eating_01",
+    "WalkSlow"
+  ]
+}

@@ -9,59 +9,83 @@
   "objects": [
     {
       "id": "triceratops",
-      "model": "triceratops",
-      "position": "-9.000 0.000 -8.500",
-      "rotation": "0 112 0",
-      "ring": 4,
+      "model": "realtriceratops",
+      "position": "-10.500 0.000 -9.000",
+      "rotation": "0 75 0",
+      "ring": 3.394,
       "name": {
         "en": "Triceratops",
         "hi": "ट्राइसेराटॉप्स"
-      }
+      },
+      "scale": "0.940 0.940 0.940",
+      "clip": "Animation",
+      "clipSpeed": 0.7
     },
     {
       "id": "stegosaurus",
-      "model": "stegosaurus",
-      "position": "9.500 0.000 -9.000",
-      "rotation": "0 -112 0",
-      "ring": 3.93,
+      "model": "realstegosaurus",
+      "position": "10.500 0.000 -9.000",
+      "rotation": "0 -75 0",
+      "ring": 2.894,
       "name": {
         "en": "Stegosaurus",
         "hi": "स्टेगोसॉरस"
+      },
+      "scale": "0.750 0.750 0.750",
+      "clip": "IdleA",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Walk",
+        "idle": "IdleA",
+        "radius": 1.8,
+        "speed": 0.5,
+        "pause": 9000,
+        "turnSpeed": 30,
+        "stopDistance": 7.0,
+        "stayFor": 12000
       }
     },
     {
       "id": "parasaur",
-      "model": "parasaur",
-      "position": "-16.000 0.000 -13.500",
-      "rotation": "0 117 0",
-      "ring": 3.68,
+      "model": "realparasaur",
+      "position": "-7.000 0.000 -16.000",
+      "rotation": "0 70 0",
+      "ring": 3.798,
       "name": {
         "en": "Parasaurolophus",
         "hi": "पैरासॉरोलोफ़स"
-      }
+      },
+      "scale": "0.830 0.830 0.830",
+      "clip": "Animation",
+      "clipSpeed": 0.7
     },
     {
       "id": "apatosaurus",
-      "model": "apatosaurus",
-      "position": "8.000 0.000 -22.500",
-      "rotation": "0 52 0",
-      "ring": 10.8,
-      "scale": "0.800 0.800 0.800",
+      "model": "realapatosaurus",
+      "position": "0.000 0.000 -27.000",
+      "rotation": "0 35 0",
+      "ring": 8.9,
+      "scale": "0.700 0.700 0.700",
       "name": {
         "en": "Apatosaurus",
         "hi": "अपैटोसॉरस"
-      }
+      },
+      "clip": "C4D Animation Take",
+      "clipSpeed": 0.7
     },
     {
       "id": "trex",
-      "model": "trex",
-      "position": "-4.000 0.000 -17.500",
-      "rotation": "0 97 0",
-      "ring": 5.17,
+      "model": "realtrex",
+      "position": "7.500 0.000 -16.000",
+      "rotation": "0 -70 0",
+      "ring": 4.361,
       "name": {
         "en": "T-Rex",
         "hi": "टी-रेक्स"
-      }
+      },
+      "scale": "0.875 0.875 0.875",
+      "clip": "idle",
+      "clipSpeed": 0.8
     }
   ],
   "steps": [

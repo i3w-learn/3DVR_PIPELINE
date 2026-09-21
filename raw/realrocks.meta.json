@@ -1,0 +1,27 @@
+{
+  "id": "realrocks",
+  "source": "Sketchfab — \"Lowpoly Rocks - Free Download\" by Loïc Norgeot",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/lowpoly-rocks-free-download-76a820b39ae44a44981facde1ce2947d",
+  "targetHeight": 1.6,
+  "yaw": 0,
+  "fit": "longest",
+  "join": true,
+  "dropNodes": [
+    "Object_14",
+    "Object_16",
+    "Object_18",
+    "Object_20",
+    "Object_22",
+    "Object_24",
+    "Object_26",
+    "Object_28",
+    "Object_30",
+    "Object_32",
+    "Object_34",
+    "Object_36",
+    "Object_38",
+    "Object_40",
+    "Object_42"
+  ]
+}

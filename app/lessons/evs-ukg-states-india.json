@@ -29,15 +29,17 @@
     },
     {
       "id": "gujarat",
-      "model": "lion",
+      "model": "reallion",
       "position": "-4.600 1.170 -3.600",
-      "scale": "0.361 0.361 0.361",
-      "ring": 0.493,
+      "scale": "0.311 0.311 0.311",
+      "ring": 0.463,
       "rotation": "0 60 0",
       "name": {
         "en": "Gujarat",
         "hi": "गुजरात"
-      }
+      },
+      "clip": "Unreal Take",
+      "clipSpeed": 0.8
     },
     {
       "id": "maharashtra",
@@ -54,10 +56,10 @@
     },
     {
       "id": "kerala",
-      "model": "coconut",
+      "model": "realcoconut",
       "position": "2.300 1.170 -2.600",
-      "scale": "3.846 3.846 3.846",
-      "ring": 0.29,
+      "scale": "1.600 1.600 1.600",
+      "ring": 0.105,
       "rotation": "0 30 0",
       "name": {
         "en": "Kerala",
@@ -66,38 +68,44 @@
     },
     {
       "id": "odisha",
-      "model": "turtle",
+      "model": "realturtle",
       "position": "4.600 1.170 -3.600",
-      "scale": "1.417 1.417 1.417",
-      "ring": 0.493,
+      "scale": "0.929 0.929 0.929",
+      "ring": 0.502,
       "rotation": "0 60 0",
       "name": {
         "en": "Odisha",
         "hi": "ओडिशा"
-      }
+      },
+      "clip": "Armature|Tortue Anim",
+      "clipSpeed": 0.7
     },
     {
       "id": "bengal",
-      "model": "tiger",
+      "model": "realtiger",
       "position": "6.200 0.320 -5.400",
       "rotation": "0 -80 0",
-      "ring": 1.12,
+      "ring": 1.699,
       "name": {
         "en": "West Bengal",
         "hi": "पश्चिम बंगाल"
-      }
+      },
+      "clip": "Idle_Lie Prone",
+      "clipSpeed": 0.8
     },
     {
       "id": "assam",
-      "model": "rhino",
+      "model": "realrhino",
       "position": "-3.300 0.320 -8.200",
       "rotation": "0 55 0",
-      "ring": 1.62,
-      "scale": "0.750 0.750 0.750",
+      "ring": 1.768,
+      "scale": "0.754 0.754 0.754",
       "name": {
         "en": "Assam",
         "hi": "असम"
-      }
+      },
+      "clip": "Animation",
+      "clipSpeed": 0.7
     },
     {
       "id": "punjab",

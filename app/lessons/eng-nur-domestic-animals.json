@@ -5,96 +5,151 @@
   "objects": [
     {
       "id": "cow",
-      "model": "cow",
-      "position": "-3.600 0.000 -7.400",
-      "rotation": "0 61 0",
-      "ring": 1.52,
+      "model": "zebu",
+      "position": "-3.800 0.000 -7.600",
+      "rotation": "0 35 0",
       "name": {
         "en": "Cow",
         "hi": "गाय"
       },
-      "clip": "Armature|Idle"
+      "ring": 1.37,
+      "clip": "Armature|CombinedAnim|Base Layer.001",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Armature|CombinedAnim|Base Layer.003",
+        "idle": "Armature|CombinedAnim|Base Layer.001",
+        "radius": 2.2,
+        "speed": 0.35,
+        "pause": 7000,
+        "stopDistance": 2.4,
+        "stayFor": 12000
+      },
+      "sound": "cow.mp3"
     },
     {
       "id": "buffalo",
-      "model": "buffalo",
-      "position": "3.800 0.000 -8.200",
-      "rotation": "0 -60 0",
-      "ring": 1.37,
+      "model": "realbuffalo",
+      "position": "4.200 0.000 -8.600",
+      "rotation": "0 -40 0",
       "name": {
         "en": "Buffalo",
         "hi": "भैंस"
-      }
+      },
+      "ring": 1.79,
+      "clip": "Animation",
+      "clipSpeed": 0.7
     },
     {
       "id": "horse",
-      "model": "horse",
-      "position": "0.300 0.000 -10.600",
-      "rotation": "0 48 0",
-      "ring": 1.13,
+      "model": "realhorse",
+      "position": "0.400 0.000 -11.000",
+      "rotation": "0 -30 0",
       "name": {
         "en": "Horse",
         "hi": "घोड़ा"
       },
-      "clip": "Idle"
+      "ring": 1.56,
+      "clip": "Skeleton|6 Eat",
+      "clipSpeed": 0.7,
+      "wander": {
+        "walk": "Skeleton|Walk",
+        "idle": "Skeleton|6 Eat",
+        "radius": 2.2,
+        "speed": 0.45,
+        "pause": 8000,
+        "stopDistance": 2.6,
+        "stayFor": 12000
+      },
+      "sound": "horse.mp3"
     },
     {
       "id": "goat",
-      "model": "goat",
-      "position": "-2.000 0.000 -4.600",
-      "rotation": "0 58 0",
-      "ring": 0.61,
+      "model": "realgoat",
+      "position": "-1.600 0.000 -5.000",
+      "rotation": "0 -15 0",
       "name": {
         "en": "Goat",
         "hi": "बकरी"
-      }
+      },
+      "ring": 0.6,
+      "clip": "Armature|idle",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Armature|walk",
+        "idle": "Armature|idle",
+        "radius": 2.2,
+        "speed": 0.4,
+        "pause": 5000,
+        "stopDistance": 1.8,
+        "stayFor": 12000
+      },
+      "sound": "goat.mp3"
     },
     {
       "id": "sheep",
-      "model": "sheep",
-      "position": "2.100 0.000 -4.900",
-      "rotation": "0 -58 0",
-      "ring": 0.69,
+      "model": "realsheep",
+      "position": "2.300 0.000 -5.400",
+      "rotation": "0 -35 0",
       "name": {
         "en": "Sheep",
         "hi": "भेड़"
       },
-      "clip": "Armature|Idle"
+      "ring": 0.69,
+      "clip": "Animation",
+      "clipSpeed": 0.8,
+      "sound": "sheep.mp3"
     },
     {
       "id": "dog",
-      "model": "dog",
-      "position": "-0.900 0.000 -3.000",
-      "rotation": "0 47 0",
-      "ring": 0.43,
+      "model": "realdog",
+      "position": "-0.700 0.000 -3.200",
+      "rotation": "0 25 0",
       "name": {
         "en": "Dog",
         "hi": "कुत्ता"
-      }
+      },
+      "ring": 0.73,
+      "clip": "Animation",
+      "clipSpeed": 0.8,
+      "sound": "dog.mp3"
     },
     {
       "id": "cat",
-      "model": "cat",
-      "position": "0.900 0.000 -3.300",
-      "rotation": "0 -45 0",
-      "ring": 0.25,
-      "scale": "1.400 1.400 1.400",
+      "model": "realcat",
+      "position": "1.000 0.000 -3.000",
+      "rotation": "0 -30 0",
       "name": {
         "en": "Cat",
         "hi": "बिल्ली"
-      }
+      },
+      "ring": 0.29,
+      "clip": "Take 001",
+      "clipSpeed": 0.8,
+      "scale": "1.1 1.1 1.1",
+      "sound": "cat.mp3"
     },
     {
       "id": "hen",
-      "model": "hen",
-      "position": "2.400 0.000 -2.900",
-      "rotation": "0 -80 0",
-      "ring": 0.26,
-      "scale": "1.300 1.300 1.300",
+      "model": "realhen",
+      "position": "2.700 0.000 -3.300",
+      "rotation": "0 -50 0",
       "name": {
         "en": "Hen",
         "hi": "मुर्गी"
-      }
+      },
+      "ring": 0.27,
+      "clip": "peck_idle2",
+      "clipSpeed": 0.45,
+      "wander": {
+        "walk": "walk01",
+        "idle": "peck_idle2",
+        "radius": 1.6,
+        "speed": 0.3,
+        "pause": 3500,
+        "stopDistance": 1.4,
+        "stayFor": 12000
+      },
+      "sound": "hen.mp3"
     }
   ],
   "steps": [

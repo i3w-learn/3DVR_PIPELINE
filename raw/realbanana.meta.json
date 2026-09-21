@@ -1,0 +1,13 @@
+{
+  "id": "realbanana",
+  "source": "Sketchfab — \"Game Ready Fruit Asset Pack\" by Meerschaum Digital",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/game-ready-fruit-asset-pack-105da0b01b414fceb2feac631b0f64e8",
+  "from": "packfruit",
+  "keepNodes": [
+    "Banana_Banana PBR_0"
+  ],
+  "targetHeight": 0.19,
+  "fit": "longest",
+  "yaw": 0
+}

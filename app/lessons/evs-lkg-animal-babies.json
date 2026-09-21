@@ -5,123 +5,141 @@
   "objects": [
     {
       "id": "cow",
-      "model": "cow",
+      "model": "zebu",
       "position": "-4.200 0.000 -7.600",
       "rotation": "0 64 0",
-      "ring": 1.52,
+      "ring": 1.38,
       "name": {
         "en": "Cow",
         "hi": "गाय"
       },
-      "clip": "Armature|Idle"
+      "clip": "Armature|CombinedAnim|Base Layer.001",
+      "clipSpeed": 0.8
     },
     {
       "id": "calf",
-      "model": "cow",
+      "model": "realcalf",
       "position": "-2.060 0.000 -6.100",
       "rotation": "0 54 0",
-      "ring": 0.68,
-      "scale": "0.450 0.450 0.450",
+      "ring": 0.634,
       "name": {
         "en": "Calf",
         "hi": "बछड़ा"
       },
-      "clip": "Armature|Idle"
+      "clip": "root|bodyAction",
+      "clipSpeed": 0.8
     },
     {
       "id": "sheep",
-      "model": "sheep",
+      "model": "realsheep",
       "position": "-1.900 0.000 -5.600",
       "rotation": "0 54 0",
-      "ring": 0.69,
+      "ring": 0.686,
       "name": {
         "en": "Sheep",
         "hi": "भेड़"
       },
-      "clip": "Armature|Idle"
+      "clip": "Animation",
+      "clipSpeed": 0.8
     },
     {
       "id": "lamb",
-      "model": "sheep",
+      "model": "realsheep",
       "position": "-0.381 0.000 -4.100",
       "rotation": "0 40 0",
-      "ring": 0.35,
+      "ring": 0.343,
       "scale": "0.500 0.500 0.500",
       "name": {
         "en": "Lamb",
         "hi": "मेमना"
       },
-      "clip": "Armature|Idle"
+      "clip": "Animation",
+      "clipSpeed": 0.8
     },
     {
       "id": "dog",
-      "model": "dog",
+      "model": "realdog",
       "position": "0.000 0.000 -4.000",
       "rotation": "0 35 0",
-      "ring": 0.43,
+      "ring": 0.71,
       "name": {
         "en": "Dog",
         "hi": "कुत्ता"
-      }
+      },
+      "clip": "Animation",
+      "clipSpeed": 0.8
     },
     {
       "id": "puppy",
-      "model": "puppy",
+      "model": "realpuppy",
       "position": "1.325 0.000 -2.500",
       "rotation": "0 7 0",
-      "ring": 0.23,
+      "ring": 0.272,
       "name": {
         "en": "Puppy",
         "hi": "पिल्ला"
-      }
+      },
+      "clip": "Animation",
+      "clipSpeed": 0.8,
+      "castShadow": false
     },
     {
       "id": "cat",
-      "model": "cat",
+      "model": "realcat",
       "position": "1.800 0.000 -4.200",
       "rotation": "0 -58 0",
-      "ring": 0.25,
-      "scale": "1.400 1.400 1.400",
+      "ring": 0.371,
+      "scale": "1.404 1.404 1.404",
       "name": {
         "en": "Cat",
         "hi": "बिल्ली"
-      }
+      },
+      "clip": "Take 001",
+      "clipSpeed": 0.8
     },
     {
       "id": "kitten",
-      "model": "cat",
+      "model": "realcat",
       "position": "0.615 0.000 -2.700",
       "rotation": "0 -48 0",
-      "ring": 0.12,
-      "scale": "0.700 0.700 0.700",
+      "ring": 0.185,
+      "scale": "0.702 0.702 0.702",
       "name": {
         "en": "Kitten",
         "hi": "बिल्ली का बच्चा"
-      }
+      },
+      "clip": "Take 001",
+      "clipSpeed": 0.8,
+      "castShadow": false
     },
     {
       "id": "hen",
-      "model": "hen",
+      "model": "realhen",
       "position": "3.600 0.000 -5.200",
       "rotation": "0 -70 0",
-      "ring": 0.28,
-      "scale": "1.400 1.400 1.400",
+      "ring": 0.347,
+      "scale": "1.298 1.298 1.298",
       "name": {
         "en": "Hen",
         "hi": "मुर्गी"
-      }
+      },
+      "clip": "peck_idle2",
+      "clipSpeed": 0.45
     },
     {
       "id": "chick",
-      "model": "chick",
+      "model": "realchick",
       "position": "2.387 0.000 -3.700",
       "rotation": "0 -68 0",
-      "ring": 0.14,
+      "ring": 0.095,
       "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Chick",
         "hi": "चूज़ा"
-      }
+      },
+      "clip": "Take 001",
+      "clipSpeed": 0.8,
+      "castShadow": false
     }
   ],
   "steps": [

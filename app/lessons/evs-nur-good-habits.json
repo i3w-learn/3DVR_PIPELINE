@@ -53,10 +53,10 @@
     },
     {
       "id": "apple",
-      "model": "apple",
+      "model": "realapple",
       "position": "0.520 0.520 -0.660",
-      "scale": "2.151 2.151 2.151",
-      "ring": 0.116,
+      "scale": "2.501 2.501 2.501",
+      "ring": 0.105,
       "name": {
         "en": "Fruit",
         "hi": "फल"

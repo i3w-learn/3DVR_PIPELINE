@@ -1875,13 +1875,13 @@
     "provider": "indic"
   },
   "evs-lkg-animal-food-s10.mp3": {
-    "written": "This is a monkey.",
-    "spoken": "This is a monkey.",
+    "written": "This is a rabbit.",
+    "spoken": "This is a rabbit.",
     "provider": "indic"
   },
   "evs-lkg-animal-food-s11.mp3": {
-    "written": "The monkey eats a banana.",
-    "spoken": "The monkey eats a banana.",
+    "written": "The rabbit eats a carrot.",
+    "spoken": "The rabbit eats a carrot.",
     "provider": "indic"
   },
   "evs-lkg-animal-footprints-s01.mp3": {

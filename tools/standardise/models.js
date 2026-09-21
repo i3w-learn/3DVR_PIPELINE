@@ -18,17 +18,17 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { dedup, draco, flatten, join, prune, simplify, textureCompress, weld } from '@gltf-transform/functions';
+import { dedup, draco, flatten, join, metalRough, prune, simplify, textureCompress, weld } from '@gltf-transform/functions';
 import { MeshoptSimplifier } from 'meshoptimizer';
 import sharp from 'sharp';
 
 import { readSidecar, SidecarError } from '../lib/sidecar.js';
 import { readDocument, writeDocument } from '../lib/gltf-io.js';
 import { applyContract, ContractError } from '../lib/contract.js';
-import { keepOnlyClips } from '../lib/clips.js';
+import { holdInPlace, keepOnlyClips } from '../lib/clips.js';
 import { normaliseMaterials } from '../lib/materials.js';
 import { smoothNormals } from '../lib/normals.js';
-import { dropNodes } from '../lib/subset.js';
+import { dropNodes, keepNodes } from '../lib/subset.js';
 import { measure } from '../lib/measure.js';
 import { MODELS_DIR, RAW_DIR, relative, shippedModel } from '../lib/paths.js';
 
@@ -86,7 +86,7 @@ async function main() {
  */
 async function standardise(id) {
   const sidecar = await readSidecar(id);
-  const source = await findRawFile(id);
+  const source = await findRawFile(sidecar.from ?? id);
 
   const document = await readDocument(source);
 
@@ -94,6 +94,7 @@ async function standardise(id) {
   // thing, and the parts we are not keeping must not influence the bounding
   // box the contract is about to scale by.
   const subset = dropNodes(document, sidecar.dropNodes);
+  subset.dropped.push(...keepNodes(document, sidecar.keepNodes).dropped);
 
   // Photoscanned assets arrive at film resolution — one tree can be 1.6 million
   // triangles against a whole-scene budget of 150,000. Simplifying is what
@@ -125,6 +126,7 @@ async function standardise(id) {
   // Before compression: unused clips are pure weight, and Draco does not
   // touch keyframe data.
   const clips = await keepOnlyClips(document, sidecar.keepClips);
+  holdInPlace(document, sidecar.inPlace);
 
   // Flat-shaded models show every triangle on what should be a curved flank.
   // Smoothing runs after simplify, so it is smoothing the geometry that
@@ -132,6 +134,14 @@ async function standardise(id) {
   const smoothed = sidecar.smoothAngle
     ? smoothNormals(document, { angle: sidecar.smoothAngle })
     : { primitives: 0 };
+
+  // Older Sketchfab exports describe their surfaces with specular/glossiness,
+  // an extension three.js no longer reads. Nothing errors: the model simply
+  // loads with no colour at all, a white plaster cast of a bear. Convert it to
+  // the metal/rough model everything else uses, textures and all.
+  if (document.getRoot().listExtensionsUsed().some((e) => e.extensionName === 'KHR_materials_pbrSpecularGlossiness')) {
+    await document.transform(metalRough());
+  }
 
   // Different sources disagree about PBR defaults and about palette; the art
   // style does not. Both are settled here, once, rather than per lesson.

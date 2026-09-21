@@ -5,39 +5,45 @@
   "objects": [
     {
       "id": "ant",
-      "model": "ant",
+      "model": "realant",
       "position": "-0.540 0.520 -0.750",
       "scale": "2.700 2.700 2.700",
-      "ring": 0.157,
+      "ring": 0.162,
       "rotation": "0 50 0",
       "name": {
         "en": "Ant",
         "hi": "चींटी"
-      }
+      },
+      "clip": "CINEMA_4D_Main",
+      "clipSpeed": 0.7
     },
     {
       "id": "bee",
-      "model": "bee",
+      "model": "realbee",
       "position": "-0.180 0.520 -0.750",
-      "scale": "2.700 2.700 2.700",
-      "ring": 0.157,
+      "scale": "3.750 3.750 3.750",
+      "ring": 0.162,
       "rotation": "0 40 0",
       "name": {
         "en": "Bee",
         "hi": "मधुमक्खी"
-      }
+      },
+      "clip": "Fly",
+      "clipSpeed": 1.0
     },
     {
       "id": "butterfly",
-      "model": "butterfly",
+      "model": "realbutterfly",
       "position": "0.180 0.520 -0.750",
-      "scale": "2.250 2.250 2.250",
-      "ring": 0.157,
+      "scale": "0.294 0.294 0.294",
+      "ring": 0.162,
       "rotation": "0 40 0",
       "name": {
         "en": "Butterfly",
         "hi": "तितली"
-      }
+      },
+      "clip": "Butterfly (Rigged)Action",
+      "clipSpeed": 0.8
     },
     {
       "id": "ladybug",
@@ -65,15 +71,17 @@
     },
     {
       "id": "grasshopper",
-      "model": "grasshopper",
+      "model": "realgrasshopper",
       "position": "0.000 0.520 -0.750",
-      "scale": "2.700 2.700 2.700",
-      "ring": 0.157,
+      "scale": "3.462 3.462 3.462",
+      "ring": 0.162,
       "rotation": "0 50 0",
       "name": {
         "en": "Grasshopper",
         "hi": "टिड्डा"
-      }
+      },
+      "clip": "Take 001",
+      "clipSpeed": 0.6
     },
     {
       "id": "housefly",

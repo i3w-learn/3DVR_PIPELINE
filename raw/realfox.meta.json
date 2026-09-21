@@ -1,0 +1,15 @@
+{
+  "id": "realfox",
+  "source": "Sketchfab — \"Animated Fox 3D Model\" by AnimalMesh 3D",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/animated-fox-3d-model-7b7d4f07d47a444ab6c08b62adfd4aff",
+  "targetHeight": 0.45,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "A3_Stand_Idle_01",
+    "Loco_Walk",
+    "A2_Stand_Eating_01"
+  ],
+  "simplify": 0.35
+}

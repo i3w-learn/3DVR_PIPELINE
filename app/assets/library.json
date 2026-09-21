@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T07:47:42.392Z",
+  "generated": "2026-09-21T11:05:42.415Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -1845,6 +1845,438 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "realant": {
+      "file": "models/realant.glb",
+      "height": 0.033,
+      "width": 0.098,
+      "depth": 0.1,
+      "triangles": 6464,
+      "meshes": 1,
+      "bytes": 560516,
+      "clips": [
+        "CINEMA_4D_Main"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"(муравей) Ant Rig VFX\" by rayray",
+      "licence": "CC-BY"
+    },
+    "realapatosaurus": {
+      "file": "models/realapatosaurus.glb",
+      "height": 7.006,
+      "width": 3.428,
+      "depth": 25.428,
+      "triangles": 9002,
+      "meshes": 1,
+      "bytes": 705864,
+      "clips": [
+        "C4D Animation Take"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Apatosaurus\" by toro ardido modelos 3d",
+      "licence": "CC-BY"
+    },
+    "realapple": {
+      "file": "models/realapple.glb",
+      "height": 0.08,
+      "width": 0.07,
+      "depth": 0.069,
+      "triangles": 2472,
+      "meshes": 1,
+      "bytes": 172148,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realbamboo": {
+      "file": "models/realbamboo.glb",
+      "height": 5.5,
+      "width": 3.064,
+      "depth": 3.112,
+      "triangles": 2180,
+      "meshes": 2,
+      "bytes": 495556,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"bamboo\" by evolveduk",
+      "licence": "CC-BY"
+    },
+    "realbanana": {
+      "file": "models/realbanana.glb",
+      "height": 0.044,
+      "width": 0.19,
+      "depth": 0.136,
+      "triangles": 384,
+      "meshes": 1,
+      "bytes": 397084,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realbear": {
+      "file": "models/realbear.glb",
+      "height": 1.201,
+      "width": 0.625,
+      "depth": 1.841,
+      "triangles": 7508,
+      "meshes": 3,
+      "bytes": 1070704,
+      "clips": [
+        "Stand_Eating_01",
+        "Stand_Idle_01",
+        "Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Realistic Animated Bear 3D Model\" by WildMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realbee": {
+      "file": "models/realbee.glb",
+      "height": 0.06,
+      "width": 0.04,
+      "depth": 0.072,
+      "triangles": 5726,
+      "meshes": 4,
+      "bytes": 743028,
+      "clips": [
+        "Fly"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Bee\" by 7SkyArtist",
+      "licence": "CC-BY"
+    },
+    "realboat": {
+      "file": "models/realboat.glb",
+      "height": 1.226,
+      "width": 4.119,
+      "depth": 4.2,
+      "triangles": 5484,
+      "meshes": 1,
+      "bytes": 472684,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Old Rowboat\" by TooManyDemons",
+      "licence": "CC-BY"
+    },
+    "realbridge": {
+      "file": "models/realbridge.glb",
+      "height": 3.144,
+      "width": 1.802,
+      "depth": 13,
+      "triangles": 5498,
+      "meshes": 1,
+      "bytes": 549484,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Old bridge\" by NoodlePoodle",
+      "licence": "CC-BY"
+    },
+    "realbrinjal": {
+      "file": "models/realbrinjal.glb",
+      "height": 0.059,
+      "width": 0.25,
+      "depth": 0.056,
+      "triangles": 2432,
+      "meshes": 1,
+      "bytes": 113908,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Eggplant (Game Ready / 2K PBR)\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realbuffalo": {
+      "file": "models/realbuffalo.glb",
+      "height": 1.498,
+      "width": 0.703,
+      "depth": 2.991,
+      "triangles": 6037,
+      "meshes": 3,
+      "bytes": 1177992,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Water Buffalo\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realbutterfly": {
+      "file": "models/realbutterfly.glb",
+      "height": 0.102,
+      "width": 0.917,
+      "depth": 0.304,
+      "triangles": 1696,
+      "meshes": 4,
+      "bytes": 884008,
+      "clips": [
+        "Butterfly (Rigged)Action.001",
+        "Butterfly (Rigged)Action"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Realistic 3D Butterfly Animation\" by TBnNepal",
+      "licence": "CC-BY"
+    },
+    "realcabbage": {
+      "file": "models/realcabbage.glb",
+      "height": 0.16,
+      "width": 0.221,
+      "depth": 0.229,
+      "triangles": 3072,
+      "meshes": 1,
+      "bytes": 400672,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realcalf": {
+      "file": "models/realcalf.glb",
+      "height": 0.802,
+      "width": 0.345,
+      "depth": 1.057,
+      "triangles": 6581,
+      "meshes": 5,
+      "bytes": 131480,
+      "clips": [
+        "root|bodyAction"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"calf(fbx)\" by shikimika",
+      "licence": "CC-BY"
+    },
+    "realcarrot": {
+      "file": "models/realcarrot.glb",
+      "height": 0.033,
+      "width": 0.113,
+      "depth": 0.18,
+      "triangles": 1920,
+      "meshes": 1,
+      "bytes": 308192,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realcat": {
+      "file": "models/realcat.glb",
+      "height": 0.319,
+      "width": 0.295,
+      "depth": 0.44,
+      "triangles": 4053,
+      "meshes": 3,
+      "bytes": 841324,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"An Animated Cat\" by Evil_Katz",
+      "licence": "CC-BY"
+    },
+    "realcauliflower": {
+      "file": "models/realcauliflower.glb",
+      "height": 0.16,
+      "width": 0.2,
+      "depth": 0.241,
+      "triangles": 6040,
+      "meshes": 1,
+      "bytes": 108368,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Cauliflower\" by RG36c",
+      "licence": "CC-BY"
+    },
+    "realchick": {
+      "file": "models/realchick.glb",
+      "height": 0.101,
+      "width": 0.058,
+      "depth": 0.099,
+      "triangles": 1778,
+      "meshes": 1,
+      "bytes": 504320,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Chick\" by FourthGreen",
+      "licence": "CC-BY"
+    },
+    "realclownfish": {
+      "file": "models/realclownfish.glb",
+      "height": 0.151,
+      "width": 0.056,
+      "depth": 0.3,
+      "triangles": 1605,
+      "meshes": 1,
+      "bytes": 222628,
+      "clips": [
+        "swim cycle"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Clownfish\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realcoconut": {
+      "file": "models/realcoconut.glb",
+      "height": 0.14,
+      "width": 0.109,
+      "depth": 0.106,
+      "triangles": 1680,
+      "meshes": 1,
+      "bytes": 565180,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"coconut\" by viettextures",
+      "licence": "CC-BY"
+    },
+    "realcorn": {
+      "file": "models/realcorn.glb",
+      "height": 0.067,
+      "width": 0.2,
+      "depth": 0.066,
+      "triangles": 13778,
+      "meshes": 2,
+      "bytes": 45292,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Real Corn On The Cob\" by EdgarEncinas2022",
+      "licence": "CC-BY"
+    },
+    "realcrab": {
+      "file": "models/realcrab.glb",
+      "height": 0.207,
+      "width": 0.243,
+      "depth": 0.195,
+      "triangles": 3082,
+      "meshes": 1,
+      "bytes": 752112,
+      "clips": [
+        "Dance"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Dancing Crab - Uca Mjoebergi\" by Bohdan Lvov",
+      "licence": "CC-BY"
+    },
+    "realcrow": {
+      "file": "models/realcrow.glb",
+      "height": 0.176,
+      "width": 0.903,
+      "depth": 0.483,
+      "triangles": 2208,
+      "meshes": 1,
+      "bytes": 1142020,
+      "clips": [
+        "root|TakeOff"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Crow\" by Alexei Ostapenko",
+      "licence": "CC-BY"
+    },
+    "realdeer": {
+      "file": "models/realdeer.glb",
+      "height": 1.15,
+      "width": 0.325,
+      "depth": 1.62,
+      "triangles": 5216,
+      "meshes": 3,
+      "bytes": 682668,
+      "clips": [
+        "Stand_Eating_01",
+        "WalkSlow"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Realistic Animated Doe 3D Model\" by WildMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realdog": {
+      "file": "models/realdog.glb",
+      "height": 0.62,
+      "width": 0.294,
+      "depth": 1.222,
+      "triangles": 6326,
+      "meshes": 2,
+      "bytes": 1014852,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Labrador Dog\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realdolphin": {
+      "file": "models/realdolphin.glb",
+      "height": 0.87,
+      "width": 0.843,
+      "depth": 2.155,
+      "triangles": 1416,
+      "meshes": 1,
+      "bytes": 154072,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Game-Ready dolphin (Swimming)\" by Allie2k",
+      "licence": "CC-BY"
+    },
+    "realdonkey": {
+      "file": "models/realdonkey.glb",
+      "height": 1.188,
+      "width": 1.15,
+      "depth": 1.113,
+      "triangles": 6954,
+      "meshes": 7,
+      "bytes": 847556,
+      "clips": [
+        "H_Idle_01",
+        "H_Walk",
+        "H_Eat"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Realistic Animated Donkey 3D Model\" by WildMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realduck": {
+      "file": "models/realduck.glb",
+      "height": 0.402,
+      "width": 0.238,
+      "depth": 0.535,
+      "triangles": 4165,
+      "meshes": 1,
+      "bytes": 274896,
+      "clips": [
+        "walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Duck_Walk (Free)\" by Nyilonelycompany",
+      "licence": "CC-BY"
+    },
+    "realeagle": {
+      "file": "models/realeagle.glb",
+      "height": 0.695,
+      "width": 1.311,
+      "depth": 0.794,
+      "triangles": 3858,
+      "meshes": 1,
+      "bytes": 1717020,
+      "clips": [
+        "motion4"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"animated EAGLE\" by Asim3d",
+      "licence": "CC-BY"
+    },
+    "realegg": {
+      "file": "models/realegg.glb",
+      "height": 0.06,
+      "width": 0.047,
+      "depth": 0.047,
+      "triangles": 2000,
+      "meshes": 1,
+      "bytes": 324448,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Egg\" by Bandit",
+      "licence": "CC-BY"
+    },
     "realelephant": {
       "file": "models/realelephant.glb",
       "height": 3.113,
@@ -1861,6 +2293,51 @@
       "source": "Sketchfab — \"African Elephant\"",
       "licence": "CC-BY"
     },
+    "realfern": {
+      "file": "models/realfern.glb",
+      "height": 0.7,
+      "width": 1.999,
+      "depth": 2.151,
+      "triangles": 2128,
+      "meshes": 1,
+      "bytes": 114412,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"fern grass 02\" by POLYSCAN",
+      "licence": "CC-BY"
+    },
+    "realfox": {
+      "file": "models/realfox.glb",
+      "height": 0.448,
+      "width": 0.176,
+      "depth": 0.72,
+      "triangles": 6830,
+      "meshes": 2,
+      "bytes": 916128,
+      "clips": [
+        "A2_Stand_Eating_01",
+        "A3_Stand_Idle_01",
+        "Loco_Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Fox 3D Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realgiraffe": {
+      "file": "models/realgiraffe.glb",
+      "height": 4.5,
+      "width": 0.873,
+      "depth": 4.087,
+      "triangles": 3542,
+      "meshes": 1,
+      "bytes": 310264,
+      "clips": [
+        "Take 01"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Giraffe\" by BlueMesh",
+      "licence": "CC-BY"
+    },
     "realgoat": {
       "file": "models/realgoat.glb",
       "height": 0.753,
@@ -1875,6 +2352,34 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Animated Realistic Goat – 3D Animal Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realgrass": {
+      "file": "models/realgrass.glb",
+      "height": 0.9,
+      "width": 2.533,
+      "depth": 2.532,
+      "triangles": 1965,
+      "meshes": 1,
+      "bytes": 81012,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Realistics grass 06\" by POLYSCAN",
+      "licence": "CC-BY"
+    },
+    "realgrasshopper": {
+      "file": "models/realgrasshopper.glb",
+      "height": 0.048,
+      "width": 0.044,
+      "depth": 0.078,
+      "triangles": 1666,
+      "meshes": 1,
+      "bytes": 481456,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Low Poly Grasshopper ( Animated 3D Asset )\" by Pascal Chaumette",
       "licence": "CC-BY"
     },
     "realhen": {
@@ -1910,6 +2415,419 @@
       "source": "Sketchfab — \"Horse\" (28 clips)",
       "licence": "CC-BY"
     },
+    "realjungletree": {
+      "file": "models/realjungletree.glb",
+      "height": 13,
+      "width": 12.216,
+      "depth": 13.912,
+      "triangles": 9025,
+      "meshes": 6,
+      "bytes": 2866952,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Tree GN\" by Node_λrt",
+      "licence": "CC-BY"
+    },
+    "realkangaroo": {
+      "file": "models/realkangaroo.glb",
+      "height": 1.738,
+      "width": 0.955,
+      "depth": 1.537,
+      "triangles": 5409,
+      "meshes": 17,
+      "bytes": 82484,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Kangaroo\" by pergamond",
+      "licence": "CC-BY"
+    },
+    "reallion": {
+      "file": "models/reallion.glb",
+      "height": 1.278,
+      "width": 0.468,
+      "depth": 2.486,
+      "triangles": 9968,
+      "meshes": 10,
+      "bytes": 416420,
+      "clips": [
+        "Unreal Take"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"realistic Lion 3d model\" by Tarun.Teja",
+      "licence": "CC-BY"
+    },
+    "reallotus": {
+      "file": "models/reallotus.glb",
+      "height": 0.154,
+      "width": 0.55,
+      "depth": 0.55,
+      "triangles": 2879,
+      "meshes": 1,
+      "bytes": 97272,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"lotus water lily\" by mycmware",
+      "licence": "CC-BY"
+    },
+    "realmango": {
+      "file": "models/realmango.glb",
+      "height": 0.071,
+      "width": 0.12,
+      "depth": 0.09,
+      "triangles": 1856,
+      "meshes": 1,
+      "bytes": 170516,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realmangotree": {
+      "file": "models/realmangotree.glb",
+      "height": 7,
+      "width": 6.888,
+      "depth": 6.484,
+      "triangles": 5440,
+      "meshes": 4,
+      "bytes": 863484,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Mang Tree-01\" by ASMA3D",
+      "licence": "CC-BY"
+    },
+    "realoak": {
+      "file": "models/realoak.glb",
+      "height": 11,
+      "width": 12.38,
+      "depth": 12.612,
+      "triangles": 7112,
+      "meshes": 2,
+      "bytes": 566756,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Oak tree\" by massive-graphisme",
+      "licence": "CC-BY"
+    },
+    "realonion": {
+      "file": "models/realonion.glb",
+      "height": 0.08,
+      "width": 0.058,
+      "depth": 0.057,
+      "triangles": 1500,
+      "meshes": 1,
+      "bytes": 70440,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Onion scan\" by epipolar",
+      "licence": "CC-BY"
+    },
+    "realorange": {
+      "file": "models/realorange.glb",
+      "height": 0.07,
+      "width": 0.088,
+      "depth": 0.092,
+      "triangles": 768,
+      "meshes": 1,
+      "bytes": 266968,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realpalm": {
+      "file": "models/realpalm.glb",
+      "height": 8,
+      "width": 4.116,
+      "depth": 4.058,
+      "triangles": 1812,
+      "meshes": 1,
+      "bytes": 214476,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Palm Tree Realistic\" by 00amza",
+      "licence": "CC-BY"
+    },
+    "realpalms": {
+      "file": "models/realpalms.glb",
+      "height": 9,
+      "width": 9.018,
+      "depth": 5.762,
+      "triangles": 6630,
+      "meshes": 5,
+      "bytes": 1458824,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Coconut Palm\" by evolveduk",
+      "licence": "CC-BY"
+    },
+    "realparasaur": {
+      "file": "models/realparasaur.glb",
+      "height": 3.6,
+      "width": 1.733,
+      "depth": 9.152,
+      "triangles": 8504,
+      "meshes": 1,
+      "bytes": 1157252,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Parasaurolophus\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realparrot": {
+      "file": "models/realparrot.glb",
+      "height": 0.364,
+      "width": 0.635,
+      "depth": 0.31,
+      "triangles": 2162,
+      "meshes": 1,
+      "bytes": 278848,
+      "clips": [
+        "Land"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"parrot rebuilt\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realpear": {
+      "file": "models/realpear.glb",
+      "height": 0.1,
+      "width": 0.056,
+      "depth": 0.052,
+      "triangles": 992,
+      "meshes": 1,
+      "bytes": 319792,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realpigeon": {
+      "file": "models/realpigeon.glb",
+      "height": 0.28,
+      "width": 0.475,
+      "depth": 0.363,
+      "triangles": 3452,
+      "meshes": 1,
+      "bytes": 1133132,
+      "clips": [
+        "SKM_Pigeon|SKM_Pigeon|Pigeon_Bite",
+        "SKM_Pigeon|SKM_Pigeon|Pigeon_Look",
+        "SKM_Pigeon|SKM_Pigeon|Pigeon_Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Pigeon – 3D Animal Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realpineapple": {
+      "file": "models/realpineapple.glb",
+      "height": 0.3,
+      "width": 0.173,
+      "depth": 0.206,
+      "triangles": 6212,
+      "meshes": 1,
+      "bytes": 172488,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Organic Pineapple (MD2 Variant)\" by JFN",
+      "licence": "CC-BY"
+    },
+    "realpotato": {
+      "file": "models/realpotato.glb",
+      "height": 0.076,
+      "width": 0.088,
+      "depth": 0.1,
+      "triangles": 768,
+      "meshes": 1,
+      "bytes": 227812,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realpumpkin": {
+      "file": "models/realpumpkin.glb",
+      "height": 0.25,
+      "width": 0.212,
+      "depth": 0.209,
+      "triangles": 1088,
+      "meshes": 1,
+      "bytes": 175408,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realpuppy": {
+      "file": "models/realpuppy.glb",
+      "height": 0.3,
+      "width": 0.112,
+      "depth": 0.454,
+      "triangles": 5936,
+      "meshes": 1,
+      "bytes": 693812,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Dog Puppy\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realrabbit": {
+      "file": "models/realrabbit.glb",
+      "height": 0.249,
+      "width": 0.098,
+      "depth": 0.207,
+      "triangles": 4916,
+      "meshes": 2,
+      "bytes": 964412,
+      "clips": [
+        "Rabbit|jackrabbit_idle_03",
+        "Rabbit|jackrabbit_idle_eating",
+        "Rabbit|jackrabbit_walk_fwd_01"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Rabbit – 3D Animal Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realrhino": {
+      "file": "models/realrhino.glb",
+      "height": 1.69,
+      "width": 1.074,
+      "depth": 3.905,
+      "triangles": 6482,
+      "meshes": 1,
+      "bytes": 745812,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Rhinoceros Walking Animal Loop\" by LasquetiSpice",
+      "licence": "CC-BY"
+    },
+    "realrocks": {
+      "file": "models/realrocks.glb",
+      "height": 0.194,
+      "width": 1.023,
+      "depth": 1.6,
+      "triangles": 2000,
+      "meshes": 5,
+      "bytes": 111808,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Lowpoly Rocks - Free Download\" by Loïc Norgeot",
+      "licence": "CC-BY"
+    },
+    "realseahorse": {
+      "file": "models/realseahorse.glb",
+      "height": 0.2,
+      "width": 0.047,
+      "depth": 0.079,
+      "triangles": 4508,
+      "meshes": 1,
+      "bytes": 172192,
+      "clips": [
+        "ArmatureAction"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Smoothie 3D + Blender Seahorse\" by Jimmy Gunawan",
+      "licence": "CC-BY"
+    },
+    "realsheep": {
+      "file": "models/realsheep.glb",
+      "height": 0.85,
+      "width": 0.312,
+      "depth": 1.143,
+      "triangles": 2290,
+      "meshes": 1,
+      "bytes": 1038204,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Sheep\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realsparrow": {
+      "file": "models/realsparrow.glb",
+      "height": 0.13,
+      "width": 0.301,
+      "depth": 0.251,
+      "triangles": 2145,
+      "meshes": 1,
+      "bytes": 437200,
+      "clips": [
+        "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Bite",
+        "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Jump",
+        "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Look"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Sparrow – 3D Animal Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realstegosaurus": {
+      "file": "models/realstegosaurus.glb",
+      "height": 4,
+      "width": 1.767,
+      "depth": 7.718,
+      "triangles": 9919,
+      "meshes": 3,
+      "bytes": 1456404,
+      "clips": [
+        "IdleA",
+        "Eat",
+        "Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"PBR Stegasaurus (Animated)\" by Ferocious Industries",
+      "licence": "CC-BY"
+    },
+    "realstrawberry": {
+      "file": "models/realstrawberry.glb",
+      "height": 0.04,
+      "width": 0.021,
+      "depth": 0.023,
+      "triangles": 4510,
+      "meshes": 1,
+      "bytes": 192176,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Forest Strawberry - Macro scan\" by Nik",
+      "licence": "CC-BY"
+    },
+    "realtiger": {
+      "file": "models/realtiger.glb",
+      "height": 1.01,
+      "width": 1.192,
+      "depth": 2.86,
+      "triangles": 4650,
+      "meshes": 1,
+      "bytes": 1888800,
+      "clips": [
+        "Eat",
+        "Idle_Lie Prone",
+        "Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Tiger\" by Blender Artist",
+      "licence": "CC-BY"
+    },
+    "realtomato": {
+      "file": "models/realtomato.glb",
+      "height": 0.07,
+      "width": 0.081,
+      "depth": 0.08,
+      "triangles": 5596,
+      "meshes": 1,
+      "bytes": 44196,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Day#19: Tomato\" by JuanG3D",
+      "licence": "CC-BY"
+    },
     "realtree": {
       "file": "models/realtree.glb",
       "height": 6.5,
@@ -1922,6 +2840,98 @@
       "rigged": false,
       "source": "Poly Haven — Island Tree 01 (photoscan)",
       "licence": "CC0"
+    },
+    "realtrex": {
+      "file": "models/realtrex.glb",
+      "height": 4.62,
+      "width": 2.516,
+      "depth": 9.969,
+      "triangles": 8356,
+      "meshes": 1,
+      "bytes": 2036372,
+      "clips": [
+        "run",
+        "roar",
+        "idle"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Tyrannosaurus Rex Dinosaur Running Loop\" by LasquetiSpice",
+      "licence": "CC-BY"
+    },
+    "realtriceratops": {
+      "file": "models/realtriceratops.glb",
+      "height": 3,
+      "width": 1.769,
+      "depth": 7.221,
+      "triangles": 8477,
+      "meshes": 1,
+      "bytes": 989020,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Triceratop\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realturtle": {
+      "file": "models/realturtle.glb",
+      "height": 0.404,
+      "width": 0.823,
+      "depth": 0.901,
+      "triangles": 6876,
+      "meshes": 1,
+      "bytes": 874168,
+      "clips": [
+        "Armature|Tortue Anim"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Sea Turtle\" by Eloi",
+      "licence": "CC-BY"
+    },
+    "realwatermelon": {
+      "file": "models/realwatermelon.glb",
+      "height": 0.237,
+      "width": 0.3,
+      "depth": 0.275,
+      "triangles": 768,
+      "meshes": 1,
+      "bytes": 275476,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Game Ready Fruit Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realwhale": {
+      "file": "models/realwhale.glb",
+      "height": 2.442,
+      "width": 4.337,
+      "depth": 6.005,
+      "triangles": 9280,
+      "meshes": 1,
+      "bytes": 372288,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Ballena\" by pepetrincado",
+      "licence": "CC-BY"
+    },
+    "realzebra": {
+      "file": "models/realzebra.glb",
+      "height": 1.391,
+      "width": 0.547,
+      "depth": 2.435,
+      "triangles": 6768,
+      "meshes": 1,
+      "bytes": 1051056,
+      "clips": [
+        "Eating",
+        "Idle01",
+        "Trot"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Zebra - Rigged\" by Noa Seller",
+      "licence": "CC-BY"
     },
     "rhino": {
       "file": "models/rhino.glb",
@@ -4474,11 +5484,11 @@
       },
       "evs-lkg-animal-food-s10.mp3": {
         "file": "audio/en/evs-lkg-animal-food-s10.mp3",
-        "bytes": 10257
+        "bytes": 10153
       },
       "evs-lkg-animal-food-s11.mp3": {
         "file": "audio/en/evs-lkg-animal-food-s11.mp3",
-        "bytes": 12242
+        "bytes": 13287
       },
       "evs-lkg-animal-footprints-s01.mp3": {
         "file": "audio/en/evs-lkg-animal-footprints-s01.mp3",
@@ -8672,11 +9682,11 @@
       },
       "evs-lkg-animal-food-s10.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s10.mp3",
-        "bytes": 8481
+        "bytes": 9212
       },
       "evs-lkg-animal-food-s11.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s11.mp3",
-        "bytes": 10570
+        "bytes": 12033
       },
       "evs-lkg-animal-footprints-s01.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s01.mp3",
@@ -12866,11 +13876,11 @@
       },
       "evs-lkg-animal-food-s10.mp3": {
         "file": "audio/mr/evs-lkg-animal-food-s10.mp3",
-        "bytes": 9212
+        "bytes": 9003
       },
       "evs-lkg-animal-food-s11.mp3": {
         "file": "audio/mr/evs-lkg-animal-food-s11.mp3",
-        "bytes": 9944
+        "bytes": 10570
       },
       "evs-lkg-animal-footprints-s01.mp3": {
         "file": "audio/mr/evs-lkg-animal-footprints-s01.mp3",
@@ -17060,11 +18070,11 @@
       },
       "evs-lkg-animal-food-s10.mp3": {
         "file": "audio/or/evs-lkg-animal-food-s10.mp3",
-        "bytes": 10048
+        "bytes": 9421
       },
       "evs-lkg-animal-food-s11.mp3": {
         "file": "audio/or/evs-lkg-animal-food-s11.mp3",
-        "bytes": 12138
+        "bytes": 10466
       },
       "evs-lkg-animal-footprints-s01.mp3": {
         "file": "audio/or/evs-lkg-animal-footprints-s01.mp3",

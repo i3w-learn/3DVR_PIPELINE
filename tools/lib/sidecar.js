@@ -95,6 +95,8 @@ export async function readSidecar(id) {
     // How far to turn the model so it faces +Z. Not measurable — a human looks
     // at it once and writes the number down.
     yaw: data.yaw ?? 0,
+    // Degrees about X, applied before yaw: lays down what was modelled on end.
+    pitch: data.pitch ?? 0,
     // Clips a lesson will actually play. Everything else is dropped, which is
     // the difference between a 1.6 MB cow and a 0.3 MB one. null keeps all.
     keepClips: Array.isArray(data.keepClips) ? data.keepClips : null,
@@ -108,8 +110,13 @@ export async function readSidecar(id) {
     alphaMode: data.alphaMode === 'mask' ? 'mask' : null,
     // Node names to remove — a pack that ships more than we want.
     dropNodes: Array.isArray(data.dropNodes) ? data.dropNodes : null,
+    // The other way round: the only meshes to keep, by exact node name.
+    keepNodes: Array.isArray(data.keepNodes) ? data.keepNodes : null,
+    // Another id's download to read from — sixteen fruits come out of one pack.
+    from: typeof data.from === 'string' ? data.from : null,
     /** Collapse a static model's many meshes into one per material. */
     join: data.join === true,
+    inPlace: Array.isArray(data.inPlace) ? data.inPlace : null,
     // Material name → #rrggbb, to bring a pack into the house palette.
     palette: data.palette && typeof data.palette === 'object' ? data.palette : null,
     // Fraction of triangles to keep. A photoscanned tree arrives at 1.6

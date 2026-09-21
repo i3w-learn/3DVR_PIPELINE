@@ -5,21 +5,19 @@
   "objects": [
     {
       "id": "near1",
-      "build": "tree",
-      "params": {
-        "height": 5,
-        "seed": 5
-      },
-      "position": "-2.600 0.000 -5.500"
+      "position": "-2.600 0.000 -5.500",
+      "model": "realmangotree",
+      "scale": "0.714 0.714 0.714",
+      "castShadow": false,
+      "ring": 1.082
     },
     {
       "id": "far1",
-      "build": "tree",
-      "params": {
-        "height": 5,
-        "seed": 5
-      },
-      "position": "3.400 0.000 -34.000"
+      "position": "3.400 0.000 -34.000",
+      "model": "realmangotree",
+      "scale": "0.714 0.714 0.714",
+      "castShadow": false,
+      "ring": 1.082
     },
     {
       "id": "near2",

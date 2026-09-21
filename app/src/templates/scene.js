@@ -181,6 +181,58 @@ export function ringOn(el, color = RING.subject) {
  * two and a half times life size does not also blow its label up with it.
  */
 const bounds = new THREE.Box3();
+const vertex = new THREE.Vector3();
+
+/**
+ * The top of the model as it stands now, in world space.
+ *
+ * `Box3.setFromObject` measures a skinned animal as it was modelled, not as
+ * its skeleton holds it. That put the elephant's name at its belly and the
+ * giraffe's two metres over its head. The vertices have to be asked directly,
+ * the way `seat-on-ground` asks for the lowest one; every fifth is plenty for
+ * a height.
+ */
+function posedTop(root) {
+  let top = -Infinity;
+
+  root.updateWorldMatrix(true, true);
+  root.traverse((object) => {
+    if (!object.isMesh) return;
+
+    if (!object.isSkinnedMesh) {
+      bounds.setFromObject(object);
+      if (bounds.max.y > top) top = bounds.max.y;
+      return;
+    }
+
+    const count = object.geometry?.getAttribute('position')?.count ?? 0;
+    for (let i = 0; i < count; i += 5) {
+      object.getVertexPosition(i, vertex);
+      object.localToWorld(vertex);
+      if (vertex.y > top) top = vertex.y;
+    }
+  });
+
+  return top;
+}
+
+/**
+ * A name card that stays over an animal that walks.
+ *
+ * The card is placed once, where the animal stood when it was named. An animal
+ * that then strolls off leaves its name hanging over empty grass — and in
+ * `explore` it strolls straight to the child. So the card copies the animal's
+ * place on the ground every frame; its height it keeps.
+ */
+AFRAME.registerComponent('name-follow', {
+  schema: { type: 'selector' },
+  tick() {
+    const target = this.data?.object3D;
+    if (!target) return;
+    this.el.object3D.position.x = target.position.x;
+    this.el.object3D.position.z = target.position.z;
+  },
+});
 
 function showName(el) {
   const stage = el.parentNode;
@@ -191,9 +243,22 @@ function showName(el) {
 
   // Top of the object as it stands now, scale and all. A model that has not
   // arrived yet has no box; a hand's height is a fair guess until it does.
-  bounds.setFromObject(el.object3D);
+  // The first step can start before the model has arrived. The ring and the
+  // contact shadow are already there, so measuring finds *something* — a box
+  // two centimetres tall — and the card goes up inside the apple. Guess for
+  // now, and put it up again, properly, once there is a mesh to measure.
+  const waiting = el.hasAttribute('gltf-model') && !el.getObject3D('mesh');
+  const peak = waiting ? NaN : posedTop(el.object3D);
   const base = el.object3D.position;
-  const top = Number.isFinite(bounds.max.y) ? bounds.max.y - stage.object3D.getWorldPosition(new THREE.Vector3()).y : base.y + 0.2;
+
+  if (waiting) {
+    el.addEventListener('model-loaded', () => {
+      if (!el.hasAttribute('highlight') || el.parentNode !== stage) return;
+      for (const card of stage.querySelectorAll(`.${NAME_LABEL}`)) card.remove();
+      showName(el);
+    }, { once: true });
+  }
+  const top = Number.isFinite(peak) ? peak - stage.object3D.getWorldPosition(new THREE.Vector3()).y : base.y + 0.2;
 
   // Sized by how far away it is. An 8 cm card is right over an apple at arm's
   // length and unreadable over a snowman seven metres off — it was there, and
@@ -207,6 +272,10 @@ function showName(el) {
   const away = Math.hypot(at.x, at.z);
   const grow = Math.max(1, away / 0.9);
 
+  // Turned to face the child. A card over a dinosaur well off to one side was
+  // squarely facing nobody, and read as a slanted yellow plank.
+  const turn = THREE.MathUtils.radToDeg(Math.atan2(-at.x, -at.z));
+
   lines.forEach((text, i) => {
     const english = i === lines.length - 1;
     const card = document.createElement('a-entity');
@@ -219,6 +288,8 @@ function showName(el) {
       card: english ? '#ffe14d' : '#fff3b0',
     });
     card.setAttribute('position', `${at.x} ${foot + (0.05 + i * 0.095) * grow} ${at.z}`);
+    card.setAttribute('rotation', `0 ${turn} 0`);
+    if (!beside && el.hasAttribute('wander') && el.id) card.setAttribute('name-follow', `#${CSS.escape(el.id)}`);
     stage.appendChild(card);
   });
 }

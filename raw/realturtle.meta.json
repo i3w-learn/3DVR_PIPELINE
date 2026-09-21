@@ -1,0 +1,13 @@
+{
+  "id": "realturtle",
+  "source": "Sketchfab — \"Sea Turtle\" by Eloi",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/sea-turtle-23dcb315dea44f5082b020b04710bd31",
+  "targetHeight": 0.9,
+  "yaw": 180,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "inPlace": [
+    "Bone_00"
+  ]
+}
