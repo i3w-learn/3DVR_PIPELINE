@@ -46,6 +46,18 @@ the right language, an English word inside a Hindi sentence is spelt the way it
 sounds, and a Hindi letter inside an Odia sentence is written in Odia script.
 The lesson file is never changed.
 
+Two things the free voice does badly, and what the spoken form does about them:
+
+- **One word on its own.** "तीन." came back from the recogniser as "बीम", and
+  "five." as "bye". With a few words of run-up the same number is clear, so a
+  one-word line is spoken with a lead-in — "Now say, three." / "अब बोलो, तीन." —
+  which is also what a teacher does when she holds up a card.
+- **Letters it was never taught.** The English voice has no capital X, the
+  Marathi voice no ॲ, and the Odia voice knows ଡ଼ only as one joined letter, not
+  as a letter plus a dot. Each is rewritten into something the voice knows. The
+  engine prints any letter it is about to skip — read that output; a full run's
+  warnings scroll past, and that is how 226 Odia clips said ବଡ for ବଡ଼.
+
 If a line still contains something the voice cannot say, the narration tool
 prints it. Add the word to `tools/lib/tts/spoken-data.js` and run again.
 
