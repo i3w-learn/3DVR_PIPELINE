@@ -120,8 +120,8 @@
     {
       "id": "eagle",
       "model": "realeagle",
-      "position": "3.928 0.000 -1.749",
-      "rotation": "0 -96 0",
+      "position": "4.600 2.400 -4.800",
+      "rotation": "0 -40 0",
       "ring": 1.03,
       "scale": "1.309 1.309 1.309",
       "name": {

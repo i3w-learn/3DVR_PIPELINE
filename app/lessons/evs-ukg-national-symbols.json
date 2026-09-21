@@ -16,15 +16,17 @@
     },
     {
       "id": "tiger",
-      "model": "tiger",
+      "model": "realtiger",
       "position": "-4.600 1.170 -3.600",
-      "scale": "0.482 0.482 0.482",
-      "ring": 0.522,
+      "scale": "0.477 0.477 0.477",
+      "ring": 0.819,
       "rotation": "0 60 0",
       "name": {
         "en": "Tiger",
         "hi": "बाघ"
-      }
+      },
+      "clip": "Idle_Lie Prone",
+      "clipSpeed": 0.8
     },
     {
       "id": "peacock",

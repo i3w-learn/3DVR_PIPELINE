@@ -1,0 +1,10 @@
+{
+  "id": "realclownfish",
+  "source": "Sketchfab — \"Clownfish\" by kenchoo",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/clownfish-e6db2c191bf346398087ba27de9b8a0a",
+  "targetHeight": 0.3,
+  "yaw": 180,
+  "smoothAngle": 60,
+  "fit": "longest"
+}

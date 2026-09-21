@@ -74,3 +74,43 @@ export async function keepOnlyClips(document, keep) {
 
   return { kept: keep, dropped };
 }
+
+/**
+ * Keep an animal on its spot while its clip plays.
+ *
+ * Some clips carry the animal along as well as moving its limbs: the sea
+ * turtle's swim cycle swims it four metres off and snaps it back. In a lesson
+ * the *lesson* decides where a thing is — `wander` walks it, a position places
+ * it — so a clip that also moves it puts the turtle somewhere the ring and the
+ * name card are not.
+ *
+ * Dropping the translation track of the named bones leaves them at their rest
+ * position; every rotation, which is the swimming, is untouched.
+ *
+ * @param {import('@gltf-transform/core').Document} document
+ * @param {string[] | null} bones  node names whose translation tracks to drop
+ * @returns {string[]} the bones that were actually held
+ */
+export function holdInPlace(document, bones) {
+  if (!bones?.length) return [];
+
+  const wanted = new Set(bones);
+  const held = new Set();
+
+  for (const animation of document.getRoot().listAnimations()) {
+    for (const channel of animation.listChannels()) {
+      const name = channel.getTargetNode()?.getName();
+      if (channel.getTargetPath() !== 'translation' || !wanted.has(name)) continue;
+
+      channel.dispose();
+      held.add(name);
+    }
+  }
+
+  const missing = bones.filter((name) => !held.has(name));
+  if (missing.length) {
+    throw new ClipError('STD_CONTRACT', `inPlace names bone(s) with no translation track: ${missing.join(', ')}.`);
+  }
+
+  return [...held];
+}

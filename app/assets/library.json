@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T10:43:02.092Z",
+  "generated": "2026-09-21T10:54:55.442Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -1845,6 +1845,21 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "realant": {
+      "file": "models/realant.glb",
+      "height": 0.033,
+      "width": 0.098,
+      "depth": 0.1,
+      "triangles": 6464,
+      "meshes": 1,
+      "bytes": 560516,
+      "clips": [
+        "CINEMA_4D_Main"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"(муравей) Ant Rig VFX\" by rayray",
+      "licence": "CC-BY"
+    },
     "realapatosaurus": {
       "file": "models/realapatosaurus.glb",
       "height": 7.006,
@@ -2007,6 +2022,36 @@
       "source": "Sketchfab — \"Animated Chick\" by FourthGreen",
       "licence": "CC-BY"
     },
+    "realclownfish": {
+      "file": "models/realclownfish.glb",
+      "height": 0.151,
+      "width": 0.056,
+      "depth": 0.3,
+      "triangles": 1605,
+      "meshes": 1,
+      "bytes": 222628,
+      "clips": [
+        "swim cycle"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Clownfish\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realcrab": {
+      "file": "models/realcrab.glb",
+      "height": 0.207,
+      "width": 0.243,
+      "depth": 0.195,
+      "triangles": 3082,
+      "meshes": 1,
+      "bytes": 752112,
+      "clips": [
+        "Dance"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Dancing Crab - Uca Mjoebergi\" by Bohdan Lvov",
+      "licence": "CC-BY"
+    },
     "realcrow": {
       "file": "models/realcrow.glb",
       "height": 0.176,
@@ -2053,6 +2098,21 @@
       "source": "Sketchfab — \"Labrador Dog\" by kenchoo",
       "licence": "CC-BY"
     },
+    "realdolphin": {
+      "file": "models/realdolphin.glb",
+      "height": 0.87,
+      "width": 0.843,
+      "depth": 2.155,
+      "triangles": 1416,
+      "meshes": 1,
+      "bytes": 154072,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Game-Ready dolphin (Swimming)\" by Allie2k",
+      "licence": "CC-BY"
+    },
     "realdonkey": {
       "file": "models/realdonkey.glb",
       "height": 1.188,
@@ -2092,7 +2152,7 @@
       "depth": 0.794,
       "triangles": 3858,
       "meshes": 1,
-      "bytes": 1716980,
+      "bytes": 1717020,
       "clips": [
         "motion4"
       ],
@@ -2188,6 +2248,21 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Realistics grass 06\" by POLYSCAN",
+      "licence": "CC-BY"
+    },
+    "realgrasshopper": {
+      "file": "models/realgrasshopper.glb",
+      "height": 0.048,
+      "width": 0.044,
+      "depth": 0.078,
+      "triangles": 1666,
+      "meshes": 1,
+      "bytes": 481456,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Low Poly Grasshopper ( Animated 3D Asset )\" by Pascal Chaumette",
       "licence": "CC-BY"
     },
     "realhen": {
@@ -2349,11 +2424,11 @@
     "realparrot": {
       "file": "models/realparrot.glb",
       "height": 0.364,
-      "width": 0.31,
-      "depth": 0.635,
+      "width": 0.635,
+      "depth": 0.31,
       "triangles": 2162,
       "meshes": 1,
-      "bytes": 278788,
+      "bytes": 278848,
       "clips": [
         "Land"
       ],
@@ -2436,6 +2511,21 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Lowpoly Rocks - Free Download\" by Loïc Norgeot",
+      "licence": "CC-BY"
+    },
+    "realseahorse": {
+      "file": "models/realseahorse.glb",
+      "height": 0.2,
+      "width": 0.047,
+      "depth": 0.079,
+      "triangles": 4508,
+      "meshes": 1,
+      "bytes": 172192,
+      "clips": [
+        "ArmatureAction"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Smoothie 3D + Blender Seahorse\" by Jimmy Gunawan",
       "licence": "CC-BY"
     },
     "realsheep": {
@@ -2547,6 +2637,36 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Triceratop\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realturtle": {
+      "file": "models/realturtle.glb",
+      "height": 0.404,
+      "width": 0.823,
+      "depth": 0.901,
+      "triangles": 6876,
+      "meshes": 1,
+      "bytes": 874168,
+      "clips": [
+        "Armature|Tortue Anim"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Sea Turtle\" by Eloi",
+      "licence": "CC-BY"
+    },
+    "realwhale": {
+      "file": "models/realwhale.glb",
+      "height": 2.442,
+      "width": 4.337,
+      "depth": 6.005,
+      "triangles": 9280,
+      "meshes": 1,
+      "bytes": 372288,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Ballena\" by pepetrincado",
       "licence": "CC-BY"
     },
     "realzebra": {

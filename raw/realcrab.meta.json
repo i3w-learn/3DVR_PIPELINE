@@ -1,0 +1,13 @@
+{
+  "id": "realcrab",
+  "source": "Sketchfab — \"Dancing Crab - Uca Mjoebergi\" by Bohdan Lvov",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/dancing-crab-uca-mjoebergi-280863886fee409ab3c8168f07caa89f",
+  "targetHeight": 0.25,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "dropNodes": [
+    "pPlane1"
+  ]
+}

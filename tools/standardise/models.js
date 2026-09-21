@@ -25,7 +25,7 @@ import sharp from 'sharp';
 import { readSidecar, SidecarError } from '../lib/sidecar.js';
 import { readDocument, writeDocument } from '../lib/gltf-io.js';
 import { applyContract, ContractError } from '../lib/contract.js';
-import { keepOnlyClips } from '../lib/clips.js';
+import { holdInPlace, keepOnlyClips } from '../lib/clips.js';
 import { normaliseMaterials } from '../lib/materials.js';
 import { smoothNormals } from '../lib/normals.js';
 import { dropNodes } from '../lib/subset.js';
@@ -125,6 +125,7 @@ async function standardise(id) {
   // Before compression: unused clips are pure weight, and Draco does not
   // touch keyframe data.
   const clips = await keepOnlyClips(document, sidecar.keepClips);
+  holdInPlace(document, sidecar.inPlace);
 
   // Flat-shaded models show every triangle on what should be a curved flank.
   // Smoothing runs after simplify, so it is smoothing the geometry that

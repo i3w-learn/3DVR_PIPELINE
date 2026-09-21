@@ -1,0 +1,11 @@
+{
+  "id": "realwhale",
+  "source": "Sketchfab — \"Ballena\" by pepetrincado",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/ballena-8554d9c0cea14e30a5ac1dc220cabf66",
+  "targetHeight": 6,
+  "yaw": 90,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.5
+}

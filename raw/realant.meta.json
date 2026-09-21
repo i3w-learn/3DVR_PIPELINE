@@ -1,0 +1,10 @@
+{
+  "id": "realant",
+  "source": "Sketchfab — \"(муравей) Ant Rig VFX\" by rayray",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/ant-rig-vfx-ea4047922b5644fdb48b5ac910974241",
+  "targetHeight": 0.1,
+  "yaw": 180,
+  "smoothAngle": 60,
+  "fit": "longest"
+}
