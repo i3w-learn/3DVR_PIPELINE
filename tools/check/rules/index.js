@@ -290,7 +290,9 @@ export const RULES = [
     check: ({ kit }) => {
       // Reuse is the rule: one tree model at five positions and scales reads
       // as five trees. A fifth distinct prop means rethink the scene.
-      const distinct = new Set(kit.props.map((p) => p.model));
+      // Built props have no model — they are made from numbers and cost no
+      // download — so they are not what this rule is rationing.
+      const distinct = new Set(kit.props.map((p) => p.model).filter(Boolean));
 
       return distinct.size <= BUDGET.distinctProps
         ? []

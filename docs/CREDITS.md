@@ -79,8 +79,11 @@ Their authors must be credited wherever this application is distributed.
 - **policecar** — Poly Pizza — "Police car" by Poly by Google
 - **puppy** — Poly Pizza — "Puppy" by Poly by Google
 - **racket** — Poly Pizza — "Tennis racket" by Poly by Google
+- **realbamboo** — Sketchfab — "bamboo" by evolveduk
 - **realbear** — Sketchfab — "Realistic Animated Bear 3D Model" by WildMesh 3D
 - **realbee** — Sketchfab — "Bee" by 7SkyArtist
+- **realboat** — Sketchfab — "Old Rowboat" by TooManyDemons
+- **realbridge** — Sketchfab — "Old bridge" by NoodlePoodle
 - **realbuffalo** — Sketchfab — "Water Buffalo" by kenchoo
 - **realbutterfly** — Sketchfab — "Realistic 3D Butterfly Animation" by TBnNepal
 - **realcalf** — Sketchfab — "calf(fbx)" by shikimika
@@ -94,12 +97,18 @@ Their authors must be credited wherever this application is distributed.
 - **realfox** — Sketchfab — "Animated Fox 3D Model" by AnimalMesh 3D
 - **realgiraffe** — Sketchfab — "Giraffe" by BlueMesh
 - **realgoat** — Sketchfab — "Animated Realistic Goat – 3D Animal Model" by AnimalMesh 3D
+- **realgrass** — Sketchfab — "Realistics grass 06" by POLYSCAN
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
 - **realhorse** — Sketchfab — "Horse" (28 clips)
+- **reallotus** — Sketchfab — "lotus water lily" by mycmware
+- **realmangotree** — Sketchfab — "Mang Tree-01" by ASMA3D
+- **realpalm** — Sketchfab — "Palm Tree Realistic" by 00amza
+- **realpalms** — Sketchfab — "Coconut Palm" by evolveduk
 - **realpigeon** — Sketchfab — "Animated Pigeon – 3D Animal Model" by AnimalMesh 3D
 - **realpuppy** — Sketchfab — "Dog Puppy" by kenchoo
 - **realrabbit** — Sketchfab — "Animated Rabbit – 3D Animal Model" by AnimalMesh 3D
 - **realrhino** — Sketchfab — "Animated Rhinoceros Walking Animal Loop" by LasquetiSpice
+- **realrocks** — Sketchfab — "Lowpoly Rocks - Free Download" by Loïc Norgeot
 - **realsheep** — Sketchfab — "Sheep" by kenchoo
 - **realsparrow** — Sketchfab — "Animated Sparrow – 3D Animal Model" by AnimalMesh 3D
 - **realtiger** — Sketchfab — "Tiger" by Blender Artist

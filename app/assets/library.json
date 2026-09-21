@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T10:08:10.080Z",
+  "generated": "2026-09-21T10:18:06.918Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -1845,6 +1845,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "realbamboo": {
+      "file": "models/realbamboo.glb",
+      "height": 5.5,
+      "width": 3.064,
+      "depth": 3.112,
+      "triangles": 2180,
+      "meshes": 2,
+      "bytes": 495556,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"bamboo\" by evolveduk",
+      "licence": "CC-BY"
+    },
     "realbear": {
       "file": "models/realbear.glb",
       "height": 1.201,
@@ -1875,6 +1888,32 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Bee\" by 7SkyArtist",
+      "licence": "CC-BY"
+    },
+    "realboat": {
+      "file": "models/realboat.glb",
+      "height": 1.226,
+      "width": 4.119,
+      "depth": 4.2,
+      "triangles": 5484,
+      "meshes": 1,
+      "bytes": 472684,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Old Rowboat\" by TooManyDemons",
+      "licence": "CC-BY"
+    },
+    "realbridge": {
+      "file": "models/realbridge.glb",
+      "height": 3.144,
+      "width": 1.802,
+      "depth": 13,
+      "triangles": 5498,
+      "meshes": 1,
+      "bytes": 549484,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Old bridge\" by NoodlePoodle",
       "licence": "CC-BY"
     },
     "realbuffalo": {
@@ -2080,6 +2119,19 @@
       "source": "Sketchfab — \"Animated Realistic Goat – 3D Animal Model\" by AnimalMesh 3D",
       "licence": "CC-BY"
     },
+    "realgrass": {
+      "file": "models/realgrass.glb",
+      "height": 0.9,
+      "width": 2.533,
+      "depth": 2.532,
+      "triangles": 1965,
+      "meshes": 1,
+      "bytes": 81012,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Realistics grass 06\" by POLYSCAN",
+      "licence": "CC-BY"
+    },
     "realhen": {
       "file": "models/realhen.glb",
       "height": 0.453,
@@ -2111,6 +2163,58 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Horse\" (28 clips)",
+      "licence": "CC-BY"
+    },
+    "reallotus": {
+      "file": "models/reallotus.glb",
+      "height": 0.154,
+      "width": 0.55,
+      "depth": 0.55,
+      "triangles": 2879,
+      "meshes": 1,
+      "bytes": 97272,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"lotus water lily\" by mycmware",
+      "licence": "CC-BY"
+    },
+    "realmangotree": {
+      "file": "models/realmangotree.glb",
+      "height": 7,
+      "width": 6.888,
+      "depth": 6.484,
+      "triangles": 5440,
+      "meshes": 4,
+      "bytes": 863484,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Mang Tree-01\" by ASMA3D",
+      "licence": "CC-BY"
+    },
+    "realpalm": {
+      "file": "models/realpalm.glb",
+      "height": 8,
+      "width": 4.116,
+      "depth": 4.058,
+      "triangles": 1812,
+      "meshes": 1,
+      "bytes": 214476,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Palm Tree Realistic\" by 00amza",
+      "licence": "CC-BY"
+    },
+    "realpalms": {
+      "file": "models/realpalms.glb",
+      "height": 9,
+      "width": 9.018,
+      "depth": 5.762,
+      "triangles": 6630,
+      "meshes": 5,
+      "bytes": 1458824,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Coconut Palm\" by evolveduk",
       "licence": "CC-BY"
     },
     "realpigeon": {
@@ -2175,6 +2279,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Animated Rhinoceros Walking Animal Loop\" by LasquetiSpice",
+      "licence": "CC-BY"
+    },
+    "realrocks": {
+      "file": "models/realrocks.glb",
+      "height": 0.194,
+      "width": 1.023,
+      "depth": 1.6,
+      "triangles": 2000,
+      "meshes": 5,
+      "bytes": 111808,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Lowpoly Rocks - Free Download\" by Loïc Norgeot",
       "licence": "CC-BY"
     },
     "realsheep": {

@@ -230,6 +230,13 @@ export class LessonSync {
       // says "and let it move".
       if (prop.clip) el.setAttribute('animation-mixer', { clip: prop.clip, loop: 'repeat' });
 
+      // A land can have life of its own — ducks on the pond, whatever the lesson
+      // is about. A kit that names nothing here behaves exactly as before.
+      if (prop.clip && prop.wander) {
+        el.setAttribute('animation-mixer', { clip: prop.clip, loop: 'repeat', timeScale: prop.clipSpeed ?? 1 });
+        el.setAttribute('wander', prop.wander);
+      }
+
       el.setAttribute('position', prop.position);
       el.setAttribute('rotation', prop.rotation ?? '0 0 0');
       el.setAttribute('scale', prop.scale ?? '1 1 1');
