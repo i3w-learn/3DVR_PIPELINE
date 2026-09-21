@@ -1,0 +1,14 @@
+{
+  "id": "realsparrow",
+  "source": "Sketchfab — \"Animated Sparrow – 3D Animal Model\" by AnimalMesh 3D",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/animated-sparrow-3d-animal-model-026d23b0c0954f328694cb339ade4045",
+  "targetHeight": 0.13,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Look",
+    "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Jump",
+    "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Bite"
+  ]
+}

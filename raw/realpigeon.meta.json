@@ -1,0 +1,14 @@
+{
+  "id": "realpigeon",
+  "source": "Sketchfab — \"Animated Pigeon – 3D Animal Model\" by AnimalMesh 3D",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/animated-pigeon-3d-animal-model-23f46fbe433a4e4e8d3ee3c2b20522d5",
+  "targetHeight": 0.28,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "SKM_Pigeon|SKM_Pigeon|Pigeon_Look",
+    "SKM_Pigeon|SKM_Pigeon|Pigeon_Walk",
+    "SKM_Pigeon|SKM_Pigeon|Pigeon_Bite"
+  ]
+}

@@ -79,16 +79,31 @@ Their authors must be credited wherever this application is distributed.
 - **policecar** — Poly Pizza — "Police car" by Poly by Google
 - **puppy** — Poly Pizza — "Puppy" by Poly by Google
 - **racket** — Poly Pizza — "Tennis racket" by Poly by Google
+- **realbear** — Sketchfab — "Realistic Animated Bear 3D Model" by WildMesh 3D
+- **realbee** — Sketchfab — "Bee" by 7SkyArtist
 - **realbuffalo** — Sketchfab — "Water Buffalo" by kenchoo
+- **realbutterfly** — Sketchfab — "Realistic 3D Butterfly Animation" by TBnNepal
+- **realcalf** — Sketchfab — "calf(fbx)" by shikimika
 - **realcat** — Sketchfab — "An Animated Cat" by Evil_Katz
+- **realchick** — Sketchfab — "Animated Chick" by FourthGreen
+- **realdeer** — Sketchfab — "Realistic Animated Doe 3D Model" by WildMesh 3D
 - **realdog** — Sketchfab — "Labrador Dog" by kenchoo
 - **realdonkey** — Sketchfab — "Realistic Animated Donkey 3D Model" by WildMesh 3D
 - **realduck** — Sketchfab — "Duck_Walk (Free)" by Nyilonelycompany
 - **realelephant** — Sketchfab — "African Elephant"
+- **realfox** — Sketchfab — "Animated Fox 3D Model" by AnimalMesh 3D
+- **realgiraffe** — Sketchfab — "Giraffe" by BlueMesh
 - **realgoat** — Sketchfab — "Animated Realistic Goat – 3D Animal Model" by AnimalMesh 3D
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
 - **realhorse** — Sketchfab — "Horse" (28 clips)
+- **realpigeon** — Sketchfab — "Animated Pigeon – 3D Animal Model" by AnimalMesh 3D
+- **realpuppy** — Sketchfab — "Dog Puppy" by kenchoo
+- **realrabbit** — Sketchfab — "Animated Rabbit – 3D Animal Model" by AnimalMesh 3D
+- **realrhino** — Sketchfab — "Animated Rhinoceros Walking Animal Loop" by LasquetiSpice
 - **realsheep** — Sketchfab — "Sheep" by kenchoo
+- **realsparrow** — Sketchfab — "Animated Sparrow – 3D Animal Model" by AnimalMesh 3D
+- **realtiger** — Sketchfab — "Tiger" by Blender Artist
+- **realzebra** — Sketchfab — "Zebra - Rigged" by Noa Seller
 - **rhino** — Poly Pizza — "Rhinoceros" by Poly by Google
 - **rocket** — Poly Pizza — "Rocket ship" by Poly by Google
 - **rose** — Poly Pizza — "Rose" by Poly by Google

@@ -182,6 +182,24 @@ export function ringOn(el, color = RING.subject) {
  */
 const bounds = new THREE.Box3();
 
+/**
+ * A name card that stays over an animal that walks.
+ *
+ * The card is placed once, where the animal stood when it was named. An animal
+ * that then strolls off leaves its name hanging over empty grass — and in
+ * `explore` it strolls straight to the child. So the card copies the animal's
+ * place on the ground every frame; its height it keeps.
+ */
+AFRAME.registerComponent('name-follow', {
+  schema: { type: 'selector' },
+  tick() {
+    const target = this.data?.object3D;
+    if (!target) return;
+    this.el.object3D.position.x = target.position.x;
+    this.el.object3D.position.z = target.position.z;
+  },
+});
+
 function showName(el) {
   const stage = el.parentNode;
   if (!stage || !el.dataset.name) return;
@@ -219,6 +237,7 @@ function showName(el) {
       card: english ? '#ffe14d' : '#fff3b0',
     });
     card.setAttribute('position', `${at.x} ${foot + (0.05 + i * 0.095) * grow} ${at.z}`);
+    if (!beside && el.hasAttribute('wander') && el.id) card.setAttribute('name-follow', `#${CSS.escape(el.id)}`);
     stage.appendChild(card);
   });
 }

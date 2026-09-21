@@ -5,15 +5,16 @@
   "objects": [
     {
       "id": "cow",
-      "model": "cow",
+      "model": "zebu",
       "position": "-3.600 0.000 -6.600",
       "rotation": "0 64 0",
-      "ring": 1.52,
+      "ring": 1.38,
       "name": {
         "en": "Cow",
         "hi": "गाय"
       },
-      "clip": "Armature|Idle"
+      "clip": "Armature|CombinedAnim|Base Layer.001",
+      "clipSpeed": 0.8
     },
     {
       "id": "grass",
@@ -28,15 +29,17 @@
     },
     {
       "id": "hen",
-      "model": "hen",
+      "model": "realhen",
       "position": "-1.500 0.000 -4.400",
       "rotation": "0 54 0",
-      "ring": 0.3,
-      "scale": "1.500 1.500 1.500",
+      "ring": 0.371,
+      "scale": "1.391 1.391 1.391",
       "name": {
         "en": "Hen",
         "hi": "मुर्गी"
-      }
+      },
+      "clip": "peck_idle2",
+      "clipSpeed": 0.45
     },
     {
       "id": "corn",
@@ -51,14 +54,16 @@
     },
     {
       "id": "dog",
-      "model": "dog",
+      "model": "realdog",
       "position": "0.400 0.000 -5.000",
       "rotation": "0 -40 0",
-      "ring": 0.43,
+      "ring": 0.71,
       "name": {
         "en": "Dog",
         "hi": "कुत्ता"
-      }
+      },
+      "clip": "Animation",
+      "clipSpeed": 0.8
     },
     {
       "id": "bone",
@@ -73,15 +78,17 @@
     },
     {
       "id": "cat",
-      "model": "cat",
+      "model": "realcat",
       "position": "2.000 0.000 -4.400",
       "rotation": "0 -59 0",
-      "ring": 0.25,
-      "scale": "1.400 1.400 1.400",
+      "ring": 0.371,
+      "scale": "1.404 1.404 1.404",
       "name": {
         "en": "Cat",
         "hi": "बिल्ली"
-      }
+      },
+      "clip": "Take 001",
+      "clipSpeed": 0.8
     },
     {
       "id": "milk",
@@ -95,27 +102,28 @@
       }
     },
     {
-      "id": "monkey",
-      "model": "monkey",
+      "id": "rabbit",
+      "model": "realrabbit",
       "position": "3.900 0.000 -5.600",
       "rotation": "0 -70 0",
-      "ring": 0.79,
-      "scale": "1.200 1.200 1.200",
+      "ring": 0.35,
+      "scale": "1.600 1.600 1.600",
       "name": {
-        "en": "Monkey",
-        "hi": "बंदर"
-      }
+        "en": "Rabbit",
+        "hi": "खरगोश"
+      },
+      "clip": "Rabbit|jackrabbit_idle_eating",
+      "clipSpeed": 0.8
     },
     {
-      "id": "banana",
-      "model": "banana",
+      "id": "carrot",
+      "model": "carrot",
       "position": "2.900 0.000 -3.600",
-      "scale": "2.632 2.632 2.632",
-      "ring": 0.29,
-      "rotation": "0 90 0",
+      "scale": "2.500 2.500 2.500",
+      "ring": 0.194,
       "name": {
-        "en": "Banana",
-        "hi": "केला"
+        "en": "Carrot",
+        "hi": "गाजर"
       }
     }
   ],
@@ -223,25 +231,25 @@
       "audio": "evs-lkg-animal-food-s09.mp3"
     },
     {
-      "highlight": "monkey",
+      "highlight": "rabbit",
       "duration": 6000,
       "script": {
-        "hi": "यह बंदर है।",
-        "en": "This is a monkey.",
-        "mr": "हे माकड आहे.",
-        "or": "ଏହା ଏକ ମାଙ୍କଡ଼।"
+        "en": "This is a rabbit.",
+        "hi": "यह खरगोश है।",
+        "mr": "हा ससा आहे.",
+        "or": "ଏହା ଏକ ଠେକୁଆ।"
       },
       "audio": "evs-lkg-animal-food-s10.mp3"
     },
     {
-      "highlight": "banana",
-      "partner": "monkey",
+      "highlight": "carrot",
+      "partner": "rabbit",
       "duration": 7500,
       "script": {
-        "hi": "बंदर केला खाता है।",
-        "en": "The monkey eats a banana.",
-        "mr": "माकड केळं खातं.",
-        "or": "ମାଙ୍କଡ଼ କଦଳୀ ଖାଏ।"
+        "en": "The rabbit eats a carrot.",
+        "hi": "खरगोश गाजर खाता है।",
+        "mr": "ससा गाजर खातो.",
+        "or": "ଠେକୁଆ ଗାଜର ଖାଏ।"
       },
       "audio": "evs-lkg-animal-food-s11.mp3"
     }

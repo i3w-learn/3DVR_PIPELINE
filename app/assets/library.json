@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T09:55:41.292Z",
+  "generated": "2026-09-21T10:08:10.080Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -1845,6 +1845,38 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "realbear": {
+      "file": "models/realbear.glb",
+      "height": 1.201,
+      "width": 0.625,
+      "depth": 1.841,
+      "triangles": 7508,
+      "meshes": 3,
+      "bytes": 1070704,
+      "clips": [
+        "Stand_Eating_01",
+        "Stand_Idle_01",
+        "Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Realistic Animated Bear 3D Model\" by WildMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realbee": {
+      "file": "models/realbee.glb",
+      "height": 0.06,
+      "width": 0.04,
+      "depth": 0.072,
+      "triangles": 5726,
+      "meshes": 4,
+      "bytes": 743028,
+      "clips": [
+        "Fly"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Bee\" by 7SkyArtist",
+      "licence": "CC-BY"
+    },
     "realbuffalo": {
       "file": "models/realbuffalo.glb",
       "height": 1.498,
@@ -1860,19 +1892,81 @@
       "source": "Sketchfab — \"Water Buffalo\" by kenchoo",
       "licence": "CC-BY"
     },
+    "realbutterfly": {
+      "file": "models/realbutterfly.glb",
+      "height": 0.102,
+      "width": 0.917,
+      "depth": 0.304,
+      "triangles": 1696,
+      "meshes": 4,
+      "bytes": 884008,
+      "clips": [
+        "Butterfly (Rigged)Action.001",
+        "Butterfly (Rigged)Action"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Realistic 3D Butterfly Animation\" by TBnNepal",
+      "licence": "CC-BY"
+    },
+    "realcalf": {
+      "file": "models/realcalf.glb",
+      "height": 0.802,
+      "width": 0.345,
+      "depth": 1.057,
+      "triangles": 6581,
+      "meshes": 5,
+      "bytes": 131480,
+      "clips": [
+        "root|bodyAction"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"calf(fbx)\" by shikimika",
+      "licence": "CC-BY"
+    },
     "realcat": {
       "file": "models/realcat.glb",
       "height": 0.319,
-      "width": 0.44,
-      "depth": 0.295,
+      "width": 0.295,
+      "depth": 0.44,
       "triangles": 4053,
       "meshes": 3,
-      "bytes": 841268,
+      "bytes": 841324,
       "clips": [
         "Take 001"
       ],
       "rigged": true,
       "source": "Sketchfab — \"An Animated Cat\" by Evil_Katz",
+      "licence": "CC-BY"
+    },
+    "realchick": {
+      "file": "models/realchick.glb",
+      "height": 0.101,
+      "width": 0.058,
+      "depth": 0.099,
+      "triangles": 1778,
+      "meshes": 1,
+      "bytes": 504320,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Chick\" by FourthGreen",
+      "licence": "CC-BY"
+    },
+    "realdeer": {
+      "file": "models/realdeer.glb",
+      "height": 1.15,
+      "width": 0.325,
+      "depth": 1.62,
+      "triangles": 5216,
+      "meshes": 3,
+      "bytes": 682668,
+      "clips": [
+        "Stand_Eating_01",
+        "WalkSlow"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Realistic Animated Doe 3D Model\" by WildMesh 3D",
       "licence": "CC-BY"
     },
     "realdog": {
@@ -1893,11 +1987,11 @@
     "realdonkey": {
       "file": "models/realdonkey.glb",
       "height": 1.188,
-      "width": 1.113,
-      "depth": 1.15,
+      "width": 1.15,
+      "depth": 1.113,
       "triangles": 6954,
       "meshes": 7,
-      "bytes": 847660,
+      "bytes": 847556,
       "clips": [
         "H_Idle_01",
         "H_Walk",
@@ -1936,6 +2030,38 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"African Elephant\"",
+      "licence": "CC-BY"
+    },
+    "realfox": {
+      "file": "models/realfox.glb",
+      "height": 0.448,
+      "width": 0.176,
+      "depth": 0.72,
+      "triangles": 6830,
+      "meshes": 2,
+      "bytes": 916128,
+      "clips": [
+        "A2_Stand_Eating_01",
+        "A3_Stand_Idle_01",
+        "Loco_Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Fox 3D Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realgiraffe": {
+      "file": "models/realgiraffe.glb",
+      "height": 4.5,
+      "width": 0.873,
+      "depth": 4.087,
+      "triangles": 3542,
+      "meshes": 1,
+      "bytes": 310264,
+      "clips": [
+        "Take 01"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Giraffe\" by BlueMesh",
       "licence": "CC-BY"
     },
     "realgoat": {
@@ -1987,6 +2113,70 @@
       "source": "Sketchfab — \"Horse\" (28 clips)",
       "licence": "CC-BY"
     },
+    "realpigeon": {
+      "file": "models/realpigeon.glb",
+      "height": 0.28,
+      "width": 0.475,
+      "depth": 0.363,
+      "triangles": 3452,
+      "meshes": 1,
+      "bytes": 1133132,
+      "clips": [
+        "SKM_Pigeon|SKM_Pigeon|Pigeon_Bite",
+        "SKM_Pigeon|SKM_Pigeon|Pigeon_Look",
+        "SKM_Pigeon|SKM_Pigeon|Pigeon_Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Pigeon – 3D Animal Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realpuppy": {
+      "file": "models/realpuppy.glb",
+      "height": 0.3,
+      "width": 0.112,
+      "depth": 0.454,
+      "triangles": 5936,
+      "meshes": 1,
+      "bytes": 693812,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Dog Puppy\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realrabbit": {
+      "file": "models/realrabbit.glb",
+      "height": 0.249,
+      "width": 0.098,
+      "depth": 0.207,
+      "triangles": 4916,
+      "meshes": 2,
+      "bytes": 964412,
+      "clips": [
+        "Rabbit|jackrabbit_idle_03",
+        "Rabbit|jackrabbit_idle_eating",
+        "Rabbit|jackrabbit_walk_fwd_01"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Rabbit – 3D Animal Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realrhino": {
+      "file": "models/realrhino.glb",
+      "height": 1.69,
+      "width": 1.074,
+      "depth": 3.905,
+      "triangles": 6482,
+      "meshes": 1,
+      "bytes": 745812,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Rhinoceros Walking Animal Loop\" by LasquetiSpice",
+      "licence": "CC-BY"
+    },
     "realsheep": {
       "file": "models/realsheep.glb",
       "height": 0.85,
@@ -2002,6 +2192,40 @@
       "source": "Sketchfab — \"Sheep\" by kenchoo",
       "licence": "CC-BY"
     },
+    "realsparrow": {
+      "file": "models/realsparrow.glb",
+      "height": 0.13,
+      "width": 0.301,
+      "depth": 0.251,
+      "triangles": 2145,
+      "meshes": 1,
+      "bytes": 437200,
+      "clips": [
+        "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Bite",
+        "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Jump",
+        "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Look"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Animated Sparrow – 3D Animal Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realtiger": {
+      "file": "models/realtiger.glb",
+      "height": 1.01,
+      "width": 1.192,
+      "depth": 2.86,
+      "triangles": 4650,
+      "meshes": 1,
+      "bytes": 1888800,
+      "clips": [
+        "Eat",
+        "Idle_Lie Prone",
+        "Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Tiger\" by Blender Artist",
+      "licence": "CC-BY"
+    },
     "realtree": {
       "file": "models/realtree.glb",
       "height": 6.5,
@@ -2014,6 +2238,23 @@
       "rigged": false,
       "source": "Poly Haven — Island Tree 01 (photoscan)",
       "licence": "CC0"
+    },
+    "realzebra": {
+      "file": "models/realzebra.glb",
+      "height": 1.391,
+      "width": 0.547,
+      "depth": 2.435,
+      "triangles": 6768,
+      "meshes": 1,
+      "bytes": 1051056,
+      "clips": [
+        "Eating",
+        "Idle01",
+        "Trot"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Zebra - Rigged\" by Noa Seller",
+      "licence": "CC-BY"
     },
     "rhino": {
       "file": "models/rhino.glb",
@@ -4566,11 +4807,11 @@
       },
       "evs-lkg-animal-food-s10.mp3": {
         "file": "audio/en/evs-lkg-animal-food-s10.mp3",
-        "bytes": 10257
+        "bytes": 10153
       },
       "evs-lkg-animal-food-s11.mp3": {
         "file": "audio/en/evs-lkg-animal-food-s11.mp3",
-        "bytes": 12242
+        "bytes": 13287
       },
       "evs-lkg-animal-footprints-s01.mp3": {
         "file": "audio/en/evs-lkg-animal-footprints-s01.mp3",
@@ -8764,11 +9005,11 @@
       },
       "evs-lkg-animal-food-s10.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s10.mp3",
-        "bytes": 8481
+        "bytes": 9212
       },
       "evs-lkg-animal-food-s11.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s11.mp3",
-        "bytes": 10570
+        "bytes": 12033
       },
       "evs-lkg-animal-footprints-s01.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s01.mp3",
@@ -12958,11 +13199,11 @@
       },
       "evs-lkg-animal-food-s10.mp3": {
         "file": "audio/mr/evs-lkg-animal-food-s10.mp3",
-        "bytes": 9212
+        "bytes": 9003
       },
       "evs-lkg-animal-food-s11.mp3": {
         "file": "audio/mr/evs-lkg-animal-food-s11.mp3",
-        "bytes": 9944
+        "bytes": 10570
       },
       "evs-lkg-animal-footprints-s01.mp3": {
         "file": "audio/mr/evs-lkg-animal-footprints-s01.mp3",
@@ -17152,11 +17393,11 @@
       },
       "evs-lkg-animal-food-s10.mp3": {
         "file": "audio/or/evs-lkg-animal-food-s10.mp3",
-        "bytes": 10048
+        "bytes": 9421
       },
       "evs-lkg-animal-food-s11.mp3": {
         "file": "audio/or/evs-lkg-animal-food-s11.mp3",
-        "bytes": 12138
+        "bytes": 10466
       },
       "evs-lkg-animal-footprints-s01.mp3": {
         "file": "audio/or/evs-lkg-animal-footprints-s01.mp3",

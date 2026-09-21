@@ -18,7 +18,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { dedup, draco, flatten, join, prune, simplify, textureCompress, weld } from '@gltf-transform/functions';
+import { dedup, draco, flatten, join, metalRough, prune, simplify, textureCompress, weld } from '@gltf-transform/functions';
 import { MeshoptSimplifier } from 'meshoptimizer';
 import sharp from 'sharp';
 
@@ -132,6 +132,14 @@ async function standardise(id) {
   const smoothed = sidecar.smoothAngle
     ? smoothNormals(document, { angle: sidecar.smoothAngle })
     : { primitives: 0 };
+
+  // Older Sketchfab exports describe their surfaces with specular/glossiness,
+  // an extension three.js no longer reads. Nothing errors: the model simply
+  // loads with no colour at all, a white plaster cast of a bear. Convert it to
+  // the metal/rough model everything else uses, textures and all.
+  if (document.getRoot().listExtensionsUsed().some((e) => e.extensionName === 'KHR_materials_pbrSpecularGlossiness')) {
+    await document.transform(metalRough());
+  }
 
   // Different sources disagree about PBR defaults and about palette; the art
   // style does not. Both are settled here, once, rather than per lesson.

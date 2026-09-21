@@ -5,15 +5,16 @@
   "objects": [
     {
       "id": "cow",
-      "model": "cow",
+      "model": "zebu",
       "position": "-3.400 0.000 -6.800",
       "rotation": "0 62 0",
-      "ring": 1.52,
+      "ring": 1.38,
       "name": {
         "en": "Cow",
         "hi": "गाय"
       },
-      "clip": "Armature|Idle"
+      "clip": "Armature|CombinedAnim|Base Layer.001",
+      "clipSpeed": 0.8
     },
     {
       "id": "milk",
@@ -28,15 +29,17 @@
     },
     {
       "id": "hen",
-      "model": "hen",
+      "model": "realhen",
       "position": "-0.900 0.000 -5.400",
       "rotation": "0 44 0",
-      "ring": 0.3,
-      "scale": "1.500 1.500 1.500",
+      "ring": 0.371,
+      "scale": "1.391 1.391 1.391",
       "name": {
         "en": "Hen",
         "hi": "मुर्गी"
-      }
+      },
+      "clip": "peck_idle2",
+      "clipSpeed": 0.45
     },
     {
       "id": "egg",
@@ -51,15 +54,16 @@
     },
     {
       "id": "sheep",
-      "model": "sheep",
+      "model": "realsheep",
       "position": "1.500 0.000 -6.200",
       "rotation": "0 -49 0",
-      "ring": 0.69,
+      "ring": 0.686,
       "name": {
         "en": "Sheep",
         "hi": "भेड़"
       },
-      "clip": "Armature|Idle"
+      "clip": "Animation",
+      "clipSpeed": 0.8
     },
     {
       "id": "wool",
@@ -86,15 +90,17 @@
     },
     {
       "id": "bee",
-      "model": "bee",
+      "model": "realbee",
       "position": "3.300 1.350 -4.600",
       "rotation": "0 -71 0",
-      "ring": 0.4,
-      "scale": "4.000 4.000 4.000",
+      "ring": 0.069,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Bee",
         "hi": "मधुमक्खी"
-      }
+      },
+      "clip": "Fly",
+      "clipSpeed": 1.0
     },
     {
       "id": "honey",

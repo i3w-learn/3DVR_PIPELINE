@@ -1,0 +1,14 @@
+{
+  "id": "realgiraffe",
+  "source": "Sketchfab — \"Giraffe\" by BlueMesh",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/giraffe-522c042aad9f4348a74c2985ec3f99f9",
+  "targetHeight": 4.5,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "dropNodes": [
+    "Circle",
+    "Sphere",
+    "Lamp"
+  ]
+}

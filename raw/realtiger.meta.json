@@ -1,0 +1,14 @@
+{
+  "id": "realtiger",
+  "source": "Sketchfab — \"Tiger\" by Blender Artist",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/tiger-67bbedd727a047869ef7c7b608445484",
+  "targetHeight": 1,
+  "yaw": 90,
+  "smoothAngle": 60,
+  "keepClips": [
+    "Idle_Lie Prone",
+    "Walk",
+    "Eat"
+  ]
+}
