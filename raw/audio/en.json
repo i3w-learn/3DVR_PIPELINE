@@ -2136,17 +2136,17 @@
   },
   "evs-lkg-market-s03.mp3": {
     "written": "Here there are apples…",
-    "spoken": "Here there are apples,",
+    "spoken": "Here there are apples.",
     "provider": "indic"
   },
   "evs-lkg-market-s04.mp3": {
     "written": "…bananas…",
-    "spoken": ",bananas,",
+    "spoken": "Now say, bananas.",
     "provider": "indic"
   },
   "evs-lkg-market-s05.mp3": {
     "written": "…and oranges.",
-    "spoken": ",and oranges.",
+    "spoken": "and oranges.",
     "provider": "indic"
   },
   "evs-lkg-market-s06.mp3": {
@@ -2156,17 +2156,17 @@
   },
   "evs-lkg-market-s07.mp3": {
     "written": "Here there are tomatoes…",
-    "spoken": "Here there are tomatoes,",
+    "spoken": "Here there are tomatoes.",
     "provider": "indic"
   },
   "evs-lkg-market-s08.mp3": {
     "written": "…brinjals…",
-    "spoken": ",brinjals,",
+    "spoken": "Now say, brinjals.",
     "provider": "indic"
   },
   "evs-lkg-market-s09.mp3": {
     "written": "…and cabbages.",
-    "spoken": ",and cabbages.",
+    "spoken": "and cabbages.",
     "provider": "indic"
   },
   "evs-lkg-professions-s01.mp3": {
@@ -2286,12 +2286,12 @@
   },
   "evs-nur-festivals-s06.mp3": {
     "written": "At Christmas we decorate a Christmas tree…",
-    "spoken": "At Christmas we decorate a Christmas tree,",
+    "spoken": "At Christmas we decorate a Christmas tree.",
     "provider": "indic"
   },
   "evs-nur-festivals-s07.mp3": {
     "written": "…and we give each other gifts.",
-    "spoken": ",and we give each other gifts.",
+    "spoken": "and we give each other gifts.",
     "provider": "indic"
   },
   "evs-nur-festivals-s08.mp3": {
@@ -2331,12 +2331,12 @@
   },
   "evs-nur-good-habits-s06.mp3": {
     "written": "We eat fruit and vegetables…",
-    "spoken": "We eat fruit and vegetables,",
+    "spoken": "We eat fruit and vegetables.",
     "provider": "indic"
   },
   "evs-nur-good-habits-s07.mp3": {
     "written": "…and we drink our milk.",
-    "spoken": ",and we drink our milk.",
+    "spoken": "and we drink our milk.",
     "provider": "indic"
   },
   "evs-nur-good-habits-s08.mp3": {
@@ -2361,12 +2361,12 @@
   },
   "evs-nur-rainbow-s04.mp3": {
     "written": "It has seven colours. From the top: red, orange, yellow, green…",
-    "spoken": "It has seven colours. From the top, red, orange, yellow, green,",
+    "spoken": "It has seven colours. From the top, red, orange, yellow, green.",
     "provider": "indic"
   },
   "evs-nur-rainbow-s05.mp3": {
     "written": "…blue, indigo and violet.",
-    "spoken": ",blue, indigo and violet.",
+    "spoken": "blue, indigo and violet.",
     "provider": "indic"
   },
   "evs-nur-school-visit-s01.mp3": {
@@ -2591,12 +2591,12 @@
   },
   "evs-ukg-india-culture-s06.mp3": {
     "written": "At festivals we draw a rangoli in the courtyard…",
-    "spoken": "At festivals we draw a rangoli in the courtyard,",
+    "spoken": "At festivals we draw a rangoli in the courtyard.",
     "provider": "indic"
   },
   "evs-ukg-india-culture-s07.mp3": {
     "written": "…and we light diyas.",
-    "spoken": ",and we light diyas.",
+    "spoken": "and we light diyas.",
     "provider": "indic"
   },
   "evs-ukg-india-culture-s08.mp3": {
@@ -2726,12 +2726,12 @@
   },
   "evs-ukg-river-crossing-s04.mp3": {
     "written": "This is a boat. We can cross the river by boat too…",
-    "spoken": "This is a boat. We can cross the river by boat too,",
+    "spoken": "This is a boat. We can cross the river by boat too.",
     "provider": "indic"
   },
   "evs-ukg-river-crossing-s05.mp3": {
     "written": "…but always with a grown-up, and always doing what the boatman says.",
-    "spoken": ",but always with a grown-up, and always doing what the boatman says.",
+    "spoken": "but always with a grown-up, and always doing what the boatman says.",
     "provider": "indic"
   },
   "evs-ukg-river-crossing-s06.mp3": {
@@ -4021,102 +4021,102 @@
   },
   "math-nur-count-1-20-s01.mp3": {
     "written": "1.",
-    "spoken": "one.",
+    "spoken": "Now say, one.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s02.mp3": {
     "written": "2.",
-    "spoken": "two.",
+    "spoken": "Now say, two.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s03.mp3": {
     "written": "3.",
-    "spoken": "three.",
+    "spoken": "Now say, three.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s04.mp3": {
     "written": "4.",
-    "spoken": "four.",
+    "spoken": "Now say, four.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s05.mp3": {
     "written": "5.",
-    "spoken": "five.",
+    "spoken": "Now say, five.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s06.mp3": {
     "written": "6.",
-    "spoken": "six.",
+    "spoken": "Now say, six.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s07.mp3": {
     "written": "7.",
-    "spoken": "seven.",
+    "spoken": "Now say, seven.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s08.mp3": {
     "written": "8.",
-    "spoken": "eight.",
+    "spoken": "Now say, eight.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s09.mp3": {
     "written": "9.",
-    "spoken": "nine.",
+    "spoken": "Now say, nine.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s10.mp3": {
     "written": "10.",
-    "spoken": "ten.",
+    "spoken": "Now say, ten.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s11.mp3": {
     "written": "11.",
-    "spoken": "eleven.",
+    "spoken": "Now say, eleven.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s12.mp3": {
     "written": "12.",
-    "spoken": "twelve.",
+    "spoken": "Now say, twelve.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s13.mp3": {
     "written": "13.",
-    "spoken": "thirteen.",
+    "spoken": "Now say, thirteen.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s14.mp3": {
     "written": "14.",
-    "spoken": "fourteen.",
+    "spoken": "Now say, fourteen.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s15.mp3": {
     "written": "15.",
-    "spoken": "fifteen.",
+    "spoken": "Now say, fifteen.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s16.mp3": {
     "written": "16.",
-    "spoken": "sixteen.",
+    "spoken": "Now say, sixteen.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s17.mp3": {
     "written": "17.",
-    "spoken": "seventeen.",
+    "spoken": "Now say, seventeen.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s18.mp3": {
     "written": "18.",
-    "spoken": "eighteen.",
+    "spoken": "Now say, eighteen.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s19.mp3": {
     "written": "19.",
-    "spoken": "nineteen.",
+    "spoken": "Now say, nineteen.",
     "provider": "indic"
   },
   "math-nur-count-1-20-s20.mp3": {
     "written": "20.",
-    "spoken": "twenty.",
+    "spoken": "Now say, twenty.",
     "provider": "indic"
   },
   "math-nur-count-21-50-s01.mp3": {
@@ -4181,7 +4181,7 @@
   },
   "math-nur-count-21-50-s13.mp3": {
     "written": "30.",
-    "spoken": "thirty.",
+    "spoken": "Now say, thirty.",
     "provider": "indic"
   },
   "math-nur-count-21-50-s14.mp3": {
@@ -4241,7 +4241,7 @@
   },
   "math-nur-count-21-50-s25.mp3": {
     "written": "40.",
-    "spoken": "forty.",
+    "spoken": "Now say, forty.",
     "provider": "indic"
   },
   "math-nur-count-21-50-s26.mp3": {
@@ -4301,7 +4301,7 @@
   },
   "math-nur-count-21-50-s37.mp3": {
     "written": "50.",
-    "spoken": "fifty.",
+    "spoken": "Now say, fifty.",
     "provider": "indic"
   },
   "math-nur-count-51-100-s01.mp3": {
@@ -4366,7 +4366,7 @@
   },
   "math-nur-count-51-100-s13.mp3": {
     "written": "60.",
-    "spoken": "sixty.",
+    "spoken": "Now say, sixty.",
     "provider": "indic"
   },
   "math-nur-count-51-100-s14.mp3": {
@@ -4426,7 +4426,7 @@
   },
   "math-nur-count-51-100-s25.mp3": {
     "written": "70.",
-    "spoken": "seventy.",
+    "spoken": "Now say, seventy.",
     "provider": "indic"
   },
   "math-nur-count-51-100-s26.mp3": {
@@ -4486,7 +4486,7 @@
   },
   "math-nur-count-51-100-s37.mp3": {
     "written": "80.",
-    "spoken": "eighty.",
+    "spoken": "Now say, eighty.",
     "provider": "indic"
   },
   "math-nur-count-51-100-s38.mp3": {
@@ -4546,7 +4546,7 @@
   },
   "math-nur-count-51-100-s49.mp3": {
     "written": "90.",
-    "spoken": "ninety.",
+    "spoken": "Now say, ninety.",
     "provider": "indic"
   },
   "math-nur-count-51-100-s50.mp3": {

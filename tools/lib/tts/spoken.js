@@ -33,6 +33,9 @@ function numberWords(n, lang) {
   return `${ONES[Math.floor(n / 100)]} hundred${rest ? ` and ${numberWords(rest, 'en')}` : ''}`;
 }
 
+/** Said before a line that is a single word. */
+const LEAD_IN = { en: 'Now say', hi: 'अब बोलो', mr: 'आता म्हणा', or: 'ଏବେ କୁହ' };
+
 const DEVANAGARI_DIGITS = '०१२३४५६७८९';
 const ODIA_DIGITS = '୦୧୨୩୪୫୬୭୮୯';
 
@@ -144,6 +147,20 @@ export function spoken(text, lang) {
     .replace(/([.,?!])\1+/g, '$1')
     .replace(/\s+/g, ' ')
     .trim();
+
+  // A line that begins or ends mid-thought — "…bananas…" — must not begin with a comma.
+  s = s.replace(/^[\s.,]+/, '').replace(/,\s*$/, '.');
+
+  // One word on its own is the thing this voice does worst: "तीन." came back from
+  // the recogniser as "बीम", "five." as "bye". Given a few words of run-up the
+  // same number is clear every time, so a one-word line gets a lead-in — which is
+  // also what a teacher does when she holds up a card: "Now say — three."
+  if (!/\s/.test(s.replace(/[.,?!]/g, '').trim())) s = `${LEAD_IN[lang]}, ${s}`;
+
+  // The Odia voice knows ଡ଼ and ଢ଼ only as single letters. Unicode's own tidy form
+  // splits them into a letter and a dot, the dot is not in the voice's alphabet, and
+  // so ବଡ଼ (big) was being said as ବଡ in every fifth clip. It has no ? or ! either.
+  if (lang === 'or') s = s.replace(/\u0b21\u0b3c/g, '\u0b5c').replace(/\u0b22\u0b3c/g, '\u0b5d').replace(/\u0b3c/g, '').replace(/[?!]/g, '.');
 
   const own = { en: /[A-Za-z]/, hi: /[ऀ-ॿ]/, mr: /[ऀ-ॿ]/, or: /[଀-୿]/ }[lang];
   const leftover = [...new Set([...s].filter((c) => !own.test(c) && !/[\s.,?!-]/.test(c)))];
