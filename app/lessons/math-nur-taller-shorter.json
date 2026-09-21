@@ -5,39 +5,35 @@
   "objects": [
     {
       "id": "tall1",
-      "build": "tree",
-      "params": {
-        "height": 8.5,
-        "seed": 3
-      },
-      "position": "-3.200 0.000 -11.000"
+      "position": "-3.200 0.000 -11.000",
+      "model": "realoak",
+      "scale": "0.818 0.818 0.818",
+      "castShadow": false,
+      "ring": 2.2
     },
     {
       "id": "short1",
-      "build": "tree",
-      "params": {
-        "height": 3.2,
-        "seed": 8
-      },
-      "position": "2.600 0.000 -11.000"
+      "position": "2.600 0.000 -11.000",
+      "model": "realoak",
+      "scale": "0.309 0.309 0.309",
+      "castShadow": false,
+      "ring": 0.842
     },
     {
       "id": "tall2",
-      "build": "pine",
-      "params": {
-        "height": 9.5,
-        "seed": 4
-      },
-      "position": "-3.000 0.000 -12.000"
+      "position": "-3.000 0.000 -12.000",
+      "model": "realpalm",
+      "scale": "1.188 1.188 1.188",
+      "castShadow": false,
+      "ring": 1.075
     },
     {
       "id": "short2",
-      "build": "pine",
-      "params": {
-        "height": 3.6,
-        "seed": 7
-      },
-      "position": "2.800 0.000 -12.000"
+      "position": "2.800 0.000 -12.000",
+      "model": "realpalm",
+      "scale": "0.450 0.450 0.450",
+      "castShadow": false,
+      "ring": 0.407
     }
   ],
   "steps": [

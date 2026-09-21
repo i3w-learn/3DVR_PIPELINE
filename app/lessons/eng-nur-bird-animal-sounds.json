@@ -5,11 +5,11 @@
   "objects": [
     {
       "id": "crow",
-      "model": "crow",
+      "model": "realcrow",
       "position": "-3.015 0.000 -1.342",
       "rotation": "0 96 0",
-      "ring": 0.42,
-      "scale": "1.800 1.800 1.800",
+      "ring": 0.65,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Crow",
         "hi": "कौआ"
@@ -21,15 +21,17 @@
         "mr": "हा कावळा आहे. कावळा काव काव करतो.",
         "or": "ଏହା ଏକ କୁଆ। କୁଆ କା କା କରେ।"
       },
-      "audio": "eng-nur-bird-animal-sounds-crow.mp3"
+      "audio": "eng-nur-bird-animal-sounds-crow.mp3",
+      "clip": "root|TakeOff",
+      "clipSpeed": 0.6
     },
     {
       "id": "duck",
-      "model": "duck",
+      "model": "realduck",
       "position": "-3.225 0.000 -2.993",
       "rotation": "0 77 0",
-      "ring": 0.5,
-      "scale": "1.700 1.700 1.700",
+      "ring": 0.514,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Duck",
         "hi": "बत्तख"
@@ -41,15 +43,26 @@
         "mr": "हे बदक आहे. बदक क्वॅक क्वॅक करतं.",
         "or": "ଏହା ଏକ ବତକ। ବତକ ପ୍ୟାକ ପ୍ୟାକ କରେ।"
       },
-      "audio": "eng-nur-bird-animal-sounds-duck.mp3"
+      "audio": "eng-nur-bird-animal-sounds-duck.mp3",
+      "clip": "walk",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "walk",
+        "idle": "walk",
+        "radius": 1.5,
+        "speed": 0.22,
+        "pause": 900,
+        "stopDistance": 1.4,
+        "stayFor": 12000
+      }
     },
     {
       "id": "sparrow",
-      "model": "sparrow",
+      "model": "realsparrow",
       "position": "-1.564 0.000 -2.906",
       "rotation": "0 58 0",
-      "ring": 0.44,
-      "scale": "3.600 3.600 3.600",
+      "ring": 0.289,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Sparrow",
         "hi": "गौरैया"
@@ -61,14 +74,16 @@
         "mr": "ही चिमणी आहे. चिमणी चिव चिव करते.",
         "or": "ଏହା ଏକ ଘରଚଟିଆ। ଘରଚଟିଆ ଚିଁ ଚିଁ କରେ।"
       },
-      "audio": "eng-nur-bird-animal-sounds-sparrow.mp3"
+      "audio": "eng-nur-bird-animal-sounds-sparrow.mp3",
+      "clip": "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Look",
+      "clipSpeed": 0.8
     },
     {
       "id": "dog",
-      "model": "dog",
+      "model": "realdog",
       "position": "-0.721 0.000 -4.341",
       "rotation": "0 39 0",
-      "ring": 0.43,
+      "ring": 0.71,
       "name": {
         "en": "Dog",
         "hi": "कुत्ता"
@@ -80,15 +95,17 @@
         "mr": "हा कुत्रा आहे. कुत्रा भू भू करतो.",
         "or": "ଏହା ଏକ କୁକୁର। କୁକୁର ଭୋ ଭୋ କରେ।"
       },
-      "audio": "eng-nur-bird-animal-sounds-dog.mp3"
+      "audio": "eng-nur-bird-animal-sounds-dog.mp3",
+      "clip": "Animation",
+      "clipSpeed": 0.8
     },
     {
       "id": "cat",
-      "model": "cat",
+      "model": "realcat",
       "position": "0.541 0.000 -3.255",
       "rotation": "0 -39 0",
-      "ring": 0.26,
-      "scale": "1.500 1.500 1.500",
+      "ring": 0.397,
+      "scale": "1.505 1.505 1.505",
       "name": {
         "en": "Cat",
         "hi": "बिल्ली"
@@ -100,15 +117,17 @@
         "mr": "हे मांजर आहे. मांजर म्याव म्याव करतं.",
         "or": "ଏହା ଏକ ବିଲେଇ। ବିଲେଇ ମିଆଉଁ ମିଆଉଁ କରେ।"
       },
-      "audio": "eng-nur-bird-animal-sounds-cat.mp3"
+      "audio": "eng-nur-bird-animal-sounds-cat.mp3",
+      "clip": "Take 001",
+      "clipSpeed": 0.8
     },
     {
       "id": "pigeon",
-      "model": "pigeon",
+      "model": "realpigeon",
       "position": "2.085 0.000 -3.875",
       "rotation": "0 -58 0",
-      "ring": 0.36,
-      "scale": "2.200 2.200 2.200",
+      "ring": 0.456,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Pigeon",
         "hi": "कबूतर"
@@ -120,15 +139,26 @@
         "mr": "हे कबूतर आहे. कबूतर गुटर्गू करतं.",
         "or": "ଏହା ଏକ ପାରା। ପାରା ଗୁଟୁର ଗୁଟୁର କରେ।"
       },
-      "audio": "eng-nur-bird-animal-sounds-pigeon.mp3"
+      "audio": "eng-nur-bird-animal-sounds-pigeon.mp3",
+      "clip": "SKM_Pigeon|SKM_Pigeon|Pigeon_Look",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "SKM_Pigeon|SKM_Pigeon|Pigeon_Walk",
+        "idle": "SKM_Pigeon|SKM_Pigeon|Pigeon_Look",
+        "radius": 1.2,
+        "speed": 0.2,
+        "pause": 4000,
+        "stopDistance": 1.2,
+        "stayFor": 12000
+      }
     },
     {
       "id": "parrot",
-      "model": "parrot",
+      "model": "realparrot",
       "position": "2.419 0.000 -2.245",
       "rotation": "0 -77 0",
-      "ring": 0.55,
-      "scale": "2.000 2.000 2.000",
+      "ring": 0.61,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Parrot",
         "hi": "तोता"
@@ -140,7 +170,9 @@
         "mr": "हा पोपट आहे. पोपट मिठू मिठू करतो.",
         "or": "ଏହା ଏକ ଶୁଆ। ଶୁଆ ଟିଁ ଟିଁ କରେ।"
       },
-      "audio": "eng-nur-bird-animal-sounds-parrot.mp3"
+      "audio": "eng-nur-bird-animal-sounds-parrot.mp3",
+      "clip": "Land",
+      "clipSpeed": 0.6
     },
     {
       "id": "owl",

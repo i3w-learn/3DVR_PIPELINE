@@ -90,10 +90,12 @@ Their authors must be credited wherever this application is distributed.
 - **realcalf** — Sketchfab — "calf(fbx)" by shikimika
 - **realcat** — Sketchfab — "An Animated Cat" by Evil_Katz
 - **realchick** — Sketchfab — "Animated Chick" by FourthGreen
+- **realcrow** — Sketchfab — "Crow" by Alexei Ostapenko
 - **realdeer** — Sketchfab — "Realistic Animated Doe 3D Model" by WildMesh 3D
 - **realdog** — Sketchfab — "Labrador Dog" by kenchoo
 - **realdonkey** — Sketchfab — "Realistic Animated Donkey 3D Model" by WildMesh 3D
 - **realduck** — Sketchfab — "Duck_Walk (Free)" by Nyilonelycompany
+- **realeagle** — Sketchfab — "animated EAGLE" by Asim3d
 - **realelephant** — Sketchfab — "African Elephant"
 - **realfern** — Sketchfab — "fern grass 02" by POLYSCAN
 - **realfox** — Sketchfab — "Animated Fox 3D Model" by AnimalMesh 3D
@@ -111,6 +113,7 @@ Their authors must be credited wherever this application is distributed.
 - **realpalm** — Sketchfab — "Palm Tree Realistic" by 00amza
 - **realpalms** — Sketchfab — "Coconut Palm" by evolveduk
 - **realparasaur** — Sketchfab — "Parasaurolophus" by kenchoo
+- **realparrot** — Sketchfab — "parrot rebuilt" by kenchoo
 - **realpigeon** — Sketchfab — "Animated Pigeon – 3D Animal Model" by AnimalMesh 3D
 - **realpuppy** — Sketchfab — "Dog Puppy" by kenchoo
 - **realrabbit** — Sketchfab — "Animated Rabbit – 3D Animal Model" by AnimalMesh 3D

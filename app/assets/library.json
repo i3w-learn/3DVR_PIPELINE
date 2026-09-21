@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T10:30:49.577Z",
+  "generated": "2026-09-21T10:43:02.092Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2007,6 +2007,21 @@
       "source": "Sketchfab — \"Animated Chick\" by FourthGreen",
       "licence": "CC-BY"
     },
+    "realcrow": {
+      "file": "models/realcrow.glb",
+      "height": 0.176,
+      "width": 0.903,
+      "depth": 0.483,
+      "triangles": 2208,
+      "meshes": 1,
+      "bytes": 1142020,
+      "clips": [
+        "root|TakeOff"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Crow\" by Alexei Ostapenko",
+      "licence": "CC-BY"
+    },
     "realdeer": {
       "file": "models/realdeer.glb",
       "height": 1.15,
@@ -2068,6 +2083,21 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Duck_Walk (Free)\" by Nyilonelycompany",
+      "licence": "CC-BY"
+    },
+    "realeagle": {
+      "file": "models/realeagle.glb",
+      "height": 0.695,
+      "width": 1.311,
+      "depth": 0.794,
+      "triangles": 3858,
+      "meshes": 1,
+      "bytes": 1716980,
+      "clips": [
+        "motion4"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"animated EAGLE\" by Asim3d",
       "licence": "CC-BY"
     },
     "realelephant": {
@@ -2314,6 +2344,21 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Parasaurolophus\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realparrot": {
+      "file": "models/realparrot.glb",
+      "height": 0.364,
+      "width": 0.31,
+      "depth": 0.635,
+      "triangles": 2162,
+      "meshes": 1,
+      "bytes": 278788,
+      "clips": [
+        "Land"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"parrot rebuilt\" by kenchoo",
       "licence": "CC-BY"
     },
     "realpigeon": {

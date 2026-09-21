@@ -5,51 +5,68 @@
   "objects": [
     {
       "id": "crow",
-      "model": "crow",
+      "model": "realcrow",
       "position": "-3.015 0.000 -1.342",
       "rotation": "0 96 0",
-      "ring": 0.42,
-      "scale": "1.800 1.800 1.800",
+      "ring": 0.65,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Crow",
         "hi": "कौआ"
-      }
+      },
+      "clip": "root|TakeOff",
+      "clipSpeed": 0.6
     },
     {
       "id": "sparrow",
-      "model": "sparrow",
+      "model": "realsparrow",
       "position": "-3.152 0.000 -2.925",
       "rotation": "0 77 0",
-      "ring": 0.44,
-      "scale": "3.600 3.600 3.600",
+      "ring": 0.289,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Sparrow",
         "hi": "गौरैया"
-      }
+      },
+      "clip": "SKM_Sparrow|SKM_Sparrow|SKM_Sparrow|Sparrow_Look",
+      "clipSpeed": 0.8
     },
     {
       "id": "pigeon",
-      "model": "pigeon",
+      "model": "realpigeon",
       "position": "-1.564 0.000 -2.906",
       "rotation": "0 58 0",
-      "ring": 0.36,
-      "scale": "2.200 2.200 2.200",
+      "ring": 0.456,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Pigeon",
         "hi": "कबूतर"
+      },
+      "clip": "SKM_Pigeon|SKM_Pigeon|Pigeon_Look",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "SKM_Pigeon|SKM_Pigeon|Pigeon_Walk",
+        "idle": "SKM_Pigeon|SKM_Pigeon|Pigeon_Look",
+        "radius": 1.2,
+        "speed": 0.2,
+        "pause": 4000,
+        "stopDistance": 1.2,
+        "stayFor": 12000
       }
     },
     {
       "id": "parrot",
-      "model": "parrot",
+      "model": "realparrot",
       "position": "-0.704 0.000 -4.242",
       "rotation": "0 39 0",
-      "ring": 0.55,
-      "scale": "2.000 2.000 2.000",
+      "ring": 0.61,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Parrot",
         "hi": "तोता"
-      }
+      },
+      "clip": "Land",
+      "clipSpeed": 0.6
     },
     {
       "id": "peacock",
@@ -79,27 +96,40 @@
     },
     {
       "id": "duck",
-      "model": "duck",
+      "model": "realduck",
       "position": "2.419 0.000 -2.245",
       "rotation": "0 -77 0",
-      "ring": 0.5,
-      "scale": "1.700 1.700 1.700",
+      "ring": 0.514,
+      "scale": "1.600 1.600 1.600",
       "name": {
         "en": "Duck",
         "hi": "बत्तख"
+      },
+      "clip": "walk",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "walk",
+        "idle": "walk",
+        "radius": 1.5,
+        "speed": 0.22,
+        "pause": 900,
+        "stopDistance": 1.4,
+        "stayFor": 12000
       }
     },
     {
       "id": "eagle",
-      "model": "eagle",
+      "model": "realeagle",
       "position": "3.928 0.000 -1.749",
       "rotation": "0 -96 0",
-      "ring": 0.56,
-      "scale": "1.300 1.300 1.300",
+      "ring": 1.03,
+      "scale": "1.309 1.309 1.309",
       "name": {
         "en": "Eagle",
         "hi": "चील"
-      }
+      },
+      "clip": "motion4",
+      "clipSpeed": 0.7
     }
   ],
   "steps": [

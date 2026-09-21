@@ -68,17 +68,15 @@
     },
     {
       "id": "banyan",
-      "build": "tree",
-      "params": {
-        "height": 9,
-        "seed": 21
-      },
       "position": "7.500 0.320 -9.000",
       "name": {
         "en": "Banyan tree",
         "hi": "बरगद"
       },
-      "ring": 2.2
+      "ring": 2.067,
+      "model": "realjungletree",
+      "scale": "0.769 0.769 0.769",
+      "castShadow": false
     }
   ],
   "steps": [

@@ -34,36 +34,34 @@
   },
   "props": [
     {
-      "build": "grove",
+      "build": "treeline",
       "position": "0 0 -6",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
+        "model": "realoak",
         "count": 95,
         "inner": 34,
         "outer": 95,
         "arc": 360,
         "facing": 0,
-        "kind": "round",
-        "height": 10,
-        "leaf": "#3a6a3c",
+        "height": 11.5,
         "seed": 71
       }
     },
     {
-      "build": "grove",
+      "build": "treeline",
       "position": "0 0 -6",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
+        "model": "realmangotree",
         "count": 44,
         "inner": 20,
         "outer": 52,
         "arc": 250,
         "facing": 0,
-        "kind": "round",
-        "height": 8,
-        "leaf": "#3f7040",
+        "height": 9.2,
         "seed": 33
       }
     },

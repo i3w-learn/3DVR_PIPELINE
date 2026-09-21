@@ -118,12 +118,14 @@ AFRAME.registerComponent('avenue', {
     height: { type: 'number', default: 5.2 },
     leaf: { type: 'color', default: '#4a8a45' },
     seed: { type: 'number', default: 61 },
+    /** Only the squares of earth — for a land that stands real trees in them. */
+    bare: { type: 'boolean', default: false },
   },
 
   ...direct,
 
   parts() {
-    const { length, offset, spacing, height, leaf, seed } = this.data;
+    const { length, offset, spacing, height, leaf, seed, bare } = this.data;
     const random = seeded(seed);
     const parts = [];
 
@@ -136,6 +138,7 @@ AFRAME.registerComponent('avenue', {
           geometry: new THREE.BoxGeometry(1.1, 0.1, 1.1), matrix: place(x, 0.05, zz), color: '#6e5a40',
         });
         const h = height * (0.85 + random() * 0.3);
+        if (bare) continue;
         parts.push(...roundParts(x, zz, h, hazed(leaf, '#9fc25f', random() * 0.35), '#5d4632', random));
         this.spots.push({ x, z: zz, r: h * 0.42 });
       }

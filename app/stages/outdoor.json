@@ -29,19 +29,18 @@
   "shadows": true,
   "props": [
     {
-      "build": "grove",
+      "build": "treeline",
       "position": "0 0 -10",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
+        "model": "realoak",
         "count": 90,
         "inner": 48,
         "outer": 105,
         "arc": 360,
         "facing": 0,
-        "kind": "round",
-        "height": 10,
-        "leaf": "#3a6a3c",
+        "height": 11.5,
         "seed": 83
       }
     },
@@ -72,24 +71,20 @@
       "rotation": "0 90 0"
     },
     {
-      "build": "tree",
+      "model": "realoak",
       "position": "13 0 -19",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "height": 9.5,
-        "seed": 16
-      }
+      "rotation": "0 156 0",
+      "scale": "0.86 0.86 0.86",
+      "castShadow": false,
+      "contact": false
     },
     {
-      "build": "tree",
+      "model": "realoak",
       "position": "-16 0 -23",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "height": 8.6,
-        "seed": 17
-      }
+      "rotation": "0 28 0",
+      "scale": "0.78 0.78 0.78",
+      "castShadow": false,
+      "contact": false
     }
   ]
 }
