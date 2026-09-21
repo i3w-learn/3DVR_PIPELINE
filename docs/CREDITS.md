@@ -79,10 +79,16 @@ Their authors must be credited wherever this application is distributed.
 - **policecar** — Poly Pizza — "Police car" by Poly by Google
 - **puppy** — Poly Pizza — "Puppy" by Poly by Google
 - **racket** — Poly Pizza — "Tennis racket" by Poly by Google
+- **realbuffalo** — Sketchfab — "Water Buffalo" by kenchoo
+- **realcat** — Sketchfab — "An Animated Cat" by Evil_Katz
+- **realdog** — Sketchfab — "Labrador Dog" by kenchoo
+- **realdonkey** — Sketchfab — "Realistic Animated Donkey 3D Model" by WildMesh 3D
+- **realduck** — Sketchfab — "Duck_Walk (Free)" by Nyilonelycompany
 - **realelephant** — Sketchfab — "African Elephant"
 - **realgoat** — Sketchfab — "Animated Realistic Goat – 3D Animal Model" by AnimalMesh 3D
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
 - **realhorse** — Sketchfab — "Horse" (28 clips)
+- **realsheep** — Sketchfab — "Sheep" by kenchoo
 - **rhino** — Poly Pizza — "Rhinoceros" by Poly by Google
 - **rocket** — Poly Pizza — "Rocket ship" by Poly by Google
 - **rose** — Poly Pizza — "Rose" by Poly by Google

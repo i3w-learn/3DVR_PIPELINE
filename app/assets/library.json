@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T07:47:42.392Z",
+  "generated": "2026-09-21T09:55:41.292Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -1845,6 +1845,83 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "realbuffalo": {
+      "file": "models/realbuffalo.glb",
+      "height": 1.498,
+      "width": 0.703,
+      "depth": 2.991,
+      "triangles": 6037,
+      "meshes": 3,
+      "bytes": 1177992,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Water Buffalo\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realcat": {
+      "file": "models/realcat.glb",
+      "height": 0.319,
+      "width": 0.44,
+      "depth": 0.295,
+      "triangles": 4053,
+      "meshes": 3,
+      "bytes": 841268,
+      "clips": [
+        "Take 001"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"An Animated Cat\" by Evil_Katz",
+      "licence": "CC-BY"
+    },
+    "realdog": {
+      "file": "models/realdog.glb",
+      "height": 0.62,
+      "width": 0.294,
+      "depth": 1.222,
+      "triangles": 6326,
+      "meshes": 2,
+      "bytes": 1014852,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Labrador Dog\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realdonkey": {
+      "file": "models/realdonkey.glb",
+      "height": 1.188,
+      "width": 1.113,
+      "depth": 1.15,
+      "triangles": 6954,
+      "meshes": 7,
+      "bytes": 847660,
+      "clips": [
+        "H_Idle_01",
+        "H_Walk",
+        "H_Eat"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Realistic Animated Donkey 3D Model\" by WildMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realduck": {
+      "file": "models/realduck.glb",
+      "height": 0.402,
+      "width": 0.238,
+      "depth": 0.535,
+      "triangles": 4165,
+      "meshes": 1,
+      "bytes": 274896,
+      "clips": [
+        "walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Duck_Walk (Free)\" by Nyilonelycompany",
+      "licence": "CC-BY"
+    },
     "realelephant": {
       "file": "models/realelephant.glb",
       "height": 3.113,
@@ -1908,6 +1985,21 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Horse\" (28 clips)",
+      "licence": "CC-BY"
+    },
+    "realsheep": {
+      "file": "models/realsheep.glb",
+      "height": 0.85,
+      "width": 0.312,
+      "depth": 1.143,
+      "triangles": 2290,
+      "meshes": 1,
+      "bytes": 1038204,
+      "clips": [
+        "Animation"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Sheep\" by kenchoo",
       "licence": "CC-BY"
     },
     "realtree": {
