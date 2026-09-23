@@ -1,0 +1,11 @@
+{
+  "id": "peacocksketchfab",
+  "source": "Sketchfab \u2014 \"Peacock 3D Model\" by Pratham Ambre",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/peacock-3d-model-28890ebd5b7a400d85a1477007053bd0",
+  "targetHeight": 1.2,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.4,
+  "notes": "Trial. Cartoon-style peacock with fan open. Rigged + idle/walk via Tripo API from a lightened copy."
+}

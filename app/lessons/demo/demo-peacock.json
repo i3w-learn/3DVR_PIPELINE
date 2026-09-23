@@ -1,0 +1,99 @@
+{
+  "id": "demo-peacock",
+  "template": "explore",
+  "stage": "forest",
+  "objects": [
+    {
+      "id": "drawn",
+      "build": "peacock",
+      "params": {
+        "height": 1.25
+      },
+      "position": "-3.900 0.000 -4.200",
+      "rotation": "0 0 0",
+      "ring": 0.55,
+      "name": {
+        "en": "Drawn (now)",
+        "hi": "अभी वाला"
+      }
+    },
+    {
+      "id": "tripo",
+      "model": "peacocktripo",
+      "position": "-1.300 0.000 -4.200",
+      "rotation": "0 -70 0",
+      "scale": "1.04 1.04 1.04",
+      "ring": 0.55,
+      "name": {
+        "en": "Tripo",
+        "hi": "Tripo"
+      },
+      "clip": "preset:idle",
+      "clipSpeed": 1,
+      "wander": {
+        "walk": "preset:walk",
+        "idle": "preset:idle",
+        "radius": 2.0,
+        "speed": 0.35,
+        "pause": 6000,
+        "stopDistance": 2.2,
+        "stayFor": 10000
+      }
+    },
+    {
+      "id": "meshy",
+      "model": "peacockmeshy",
+      "position": "1.300 0.000 -4.200",
+      "rotation": "0 -30 0",
+      "scale": "1.04 1.04 1.04",
+      "ring": 0.55,
+      "name": {
+        "en": "Meshy",
+        "hi": "Meshy"
+      },
+      "clip": "preset:idle",
+      "clipSpeed": 1,
+      "wander": {
+        "walk": "preset:walk",
+        "idle": "preset:idle",
+        "radius": 2.0,
+        "speed": 0.35,
+        "pause": 6000,
+        "stopDistance": 2.2,
+        "stayFor": 10000
+      }
+    },
+    {
+      "id": "sketchfab",
+      "model": "peacocksketchfab",
+      "position": "3.900 0.000 -4.200",
+      "rotation": "0 -20 0",
+      "scale": "1.04 1.04 1.04",
+      "ring": 0.55,
+      "name": {
+        "en": "Sketchfab",
+        "hi": "Sketchfab"
+      },
+      "clip": "preset:idle",
+      "clipSpeed": 1,
+      "wander": {
+        "walk": "preset:walk",
+        "idle": "preset:idle",
+        "radius": 2.0,
+        "speed": 0.35,
+        "pause": 6000,
+        "stopDistance": 2.2,
+        "stayFor": 10000
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 6000,
+      "script": {
+        "en": "Four peacocks. Drawn, Tripo, Meshy, Sketchfab. The last three walk.",
+        "hi": "चार मोर। बना हुआ, Tripo, Meshy, Sketchfab। आख़िरी तीन चलते हैं।"
+      }
+    }
+  ]
+}
