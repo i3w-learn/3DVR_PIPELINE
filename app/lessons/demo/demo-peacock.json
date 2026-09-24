@@ -33,7 +33,7 @@
       "wander": {
         "walk": "preset:walk",
         "idle": "preset:idle",
-        "radius": 2.0,
+        "radius": 2,
         "speed": 0.35,
         "pause": 6000,
         "stopDistance": 2.2,
@@ -56,7 +56,7 @@
       "wander": {
         "walk": "preset:walk",
         "idle": "preset:idle",
-        "radius": 2.0,
+        "radius": 2,
         "speed": 0.35,
         "pause": 6000,
         "stopDistance": 2.2,
@@ -79,7 +79,7 @@
       "wander": {
         "walk": "preset:walk",
         "idle": "preset:idle",
-        "radius": 2.0,
+        "radius": 2,
         "speed": 0.35,
         "pause": 6000,
         "stopDistance": 2.2,
@@ -93,7 +93,8 @@
       "script": {
         "en": "Four peacocks. Drawn, Tripo, Meshy, Sketchfab. The last three walk.",
         "hi": "चार मोर। बना हुआ, Tripo, Meshy, Sketchfab। आख़िरी तीन चलते हैं।"
-      }
+      },
+      "audio": "demo-peacock-s01.mp3"
     }
   ]
 }

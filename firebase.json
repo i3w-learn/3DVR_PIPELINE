@@ -1,0 +1,163 @@
+{
+  "hosting": {
+    "target": "vr",
+    "public": "app",
+    "ignore": [
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(glb|gltf|bin|hdr|mp3|jpg|png|webp|wasm)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(html|js|css|json)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/farmyard",
+        "destination": "/?lesson=eng-lkg-animal-products&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/school",
+        "destination": "/?lesson=evs-nur-school-visit&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/solar",
+        "destination": "/?lesson=evs-ukg-solar-system&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/playground",
+        "destination": "/?lesson=gk-lkg-playground&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/forest",
+        "destination": "/?lesson=demo-peacock&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/road",
+        "destination": "/?lesson=evs-lkg-professions&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/street",
+        "destination": "/?lesson=demo-street&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/india",
+        "destination": "/?lesson=demo-india&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/snow",
+        "destination": "/?lesson=demo-snow&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/pond",
+        "destination": "/?lesson=demo-water&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/sky",
+        "destination": "/?lesson=demo-sky&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/home",
+        "destination": "/?lesson=demo-home&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/sea",
+        "destination": "/?lesson=eng-nur-water-animals&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/tabletop",
+        "destination": "/?lesson=eng-lkg-hot-cold&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/classroom",
+        "destination": "/?lesson=gk-lkg-our-classroom&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/outdoor",
+        "destination": "/?lesson=evs-lkg-farm-animals&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/river",
+        "destination": "/?lesson=evs-ukg-river-crossing&review&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/maidan",
+        "destination": "/?lesson=evs-ukg-places-of-worship&review&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/dinopark",
+        "destination": "/?lesson=evs-ukg-dinosaur-park&review&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/snakes",
+        "destination": "/?lesson=evs-ukg-serpentarium&review&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/chemlab",
+        "destination": "/?lesson=gk-lkg-chem-lab&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/physicslab",
+        "destination": "/?lesson=gk-lkg-physics-lab&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/hall",
+        "destination": "/?lesson=gk-lkg-school-hall&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/kitchen",
+        "destination": "/?lesson=gk-lkg-school-kitchen&role=teacher",
+        "type": 302
+      },
+      {
+        "source": "/office",
+        "destination": "/?lesson=gk-lkg-school-office&role=teacher",
+        "type": 302
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/lands",
+        "destination": "/lands.html"
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@
  * One builder file per land, so a change to the snow field cannot disturb the
  * sky and nobody has to read four unrelated components to find one.
  *
- * Nothing here is downloaded. A stylised pine is a stack of cones and a child
+ * Only the fire pit is downloaded. A stylised pine is a stack of cones and a child
  * recognises it by its silhouette; a tent is a prism with a door cut in it.
  * Only the shapes that carry recognition have to be modelled, and none of
  * these do.
@@ -119,92 +119,224 @@ AFRAME.registerComponent('tent', {
 });
 
 /**
- * A campfire. Logs leaning into a cone, stones round them, a flame above.
+ * A campfire: a real ring of stones and logs, and a fire built here.
  *
- * The flame is emissive rather than lit: a real point light here would cost a
- * shadow pass for something the size of a hand.
+ * The stones and logs are a scanned model. A drawn log is a brown cylinder,
+ * and every child has sat next to a real one. The fire is the one thing that
+ * cannot be downloaded: a flame is motion, not a shape. So it is made here —
+ * a few tongues that lick upward out of step with each other, embers that
+ * rise and go out, and a warm light that wavers over the snow. The light
+ * casts no shadow (that pass would cost more than the whole camp), but it is
+ * what makes the tent and the snowman look warmed rather than pasted in.
  */
+const FLAME_VERT = /* glsl */ `
+  uniform float time;
+  varying float vH;
+  varying float vFlick;
+  varying float vEdge;
+  void main() {
+    vH = uv.y;
+    // Soft at the silhouette, so a tongue reads as glowing gas, not a shape.
+    vec3 n = normalize(normalMatrix * normal);
+    vEdge = abs(n.z);
+    // Sway that grows with height: the base is pinned, the tip wanders.
+    float sway = vH * vH;
+    vec3 p = position;
+    p.x += sin(time * 6.0 + position.y * 9.0) * 0.06 * sway;
+    p.z += cos(time * 5.2 + position.y * 7.0) * 0.05 * sway;
+    p.y *= 1.0 + sin(time * 9.0 + position.x * 20.0) * 0.08 * sway;
+    vFlick = 0.5 + 0.5 * sin(time * 13.0 + position.y * 15.0 + position.x * 30.0);
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(p, 1.0);
+  }
+`;
+
+const FLAME_FRAG = /* glsl */ `
+  uniform vec3 core;
+  uniform vec3 flame;
+  varying float vH;
+  varying float vFlick;
+  varying float vEdge;
+  void main() {
+    // White-hot at the base, orange through the middle, dark red at the tip.
+    vec3 c = mix(core, flame, smoothstep(0.0, 0.45, vH));
+    c = mix(c, vec3(0.55, 0.08, 0.02), smoothstep(0.55, 1.0, vH));
+    float a = pow(1.0 - vH, 1.3);
+    a *= 0.7 + 0.3 * vFlick;
+    a *= mix(0.3, 1.0, pow(vEdge, 0.7));
+    gl_FragColor = vec4(c, a);
+  }
+`;
+
+/** A tongue of flame: a teardrop turned on a lathe, fat low and pointed high. */
+function tongueGeometry(radius, height) {
+  const points = [];
+  for (let i = 0; i <= 14; i += 1) {
+    const t = i / 14;
+    const r = radius * Math.pow(Math.sin(Math.PI * Math.min(t, 0.999)), 0.75) * (1 - 0.55 * t);
+    points.push(new THREE.Vector2(Math.max(r, 0.001), t * height));
+  }
+  const geometry = new THREE.LatheGeometry(points, 10);
+  // uv.y is the height fraction the shader fades and colours by.
+  const uv = geometry.getAttribute('uv');
+  const pos = geometry.getAttribute('position');
+  for (let i = 0; i < uv.count; i += 1) uv.setY(i, pos.getY(i) / height);
+  return geometry;
+}
+
 AFRAME.registerComponent('campfire', {
   schema: {
     radius: { type: 'number', default: 0.55 },
-    log: { type: 'color', default: '#5d4530' },
-    stone: { type: 'color', default: '#8d8579' },
-    flame: { type: 'color', default: '#f2913d' },
+    flame: { type: 'color', default: '#ff7a1f' },
+    core: { type: 'color', default: '#fff3b0' },
     lit: { type: 'boolean', default: true },
   },
 
-  init() { this.build(); },
-  update() { this.build(); },
+  init() {
+    this.time = Math.random() * 100;
+    this.build();
+  },
+
+  update() {
+    this.build();
+  },
 
   build() {
-    const { radius, log, stone, flame, lit } = this.data;
-    const parts = [];
+    const { radius, flame, core, lit } = this.data;
+    this.clear();
 
-    for (let i = 0; i < 6; i += 1) {
-      const a = (i / 6) * Math.PI * 2;
-      parts.push({
-        geometry: new THREE.CylinderGeometry(0.05, 0.065, radius * 2, 6),
-        matrix: place(Math.cos(a) * radius * 0.4, radius * 0.46, Math.sin(a) * radius * 0.4, {
-          rx: Math.sin(a) * 0.62, rz: -Math.cos(a) * 0.62,
-        }),
-        color: log,
-      });
-    }
-
-    // Stones round the edge — what says "this fire is contained" to a child.
-    for (let i = 0; i < 10; i += 1) {
-      const a = (i / 10) * Math.PI * 2;
-      parts.push({
-        geometry: new THREE.IcosahedronGeometry(0.11, 0),
-        matrix: place(Math.cos(a) * radius * 1.05, 0.05, Math.sin(a) * radius * 1.05, { sy: 0.7 }),
-        color: stone,
-      });
-    }
+    // The pit. The model is 0.94 m across; the lesson says how wide it is.
+    const pit = document.createElement('a-entity');
+    pit.setAttribute('gltf-model', 'assets/models/realbonfire.glb');
+    const s = (radius * 2) / 0.94;
+    pit.setAttribute('scale', `${s} ${s} ${s}`);
+    this.el.appendChild(pit);
 
     // Melted ground: a dark ring where the snow has gone.
-    parts.push({
-      geometry: new THREE.CircleGeometry(radius * 1.5, 14),
-      matrix: place(0, 0.012, 0, { rx: -Math.PI / 2 }),
-      color: '#6b6258',
-    });
+    const melt = new THREE.Mesh(
+      new THREE.CircleGeometry(radius * 1.3, 24),
+      new THREE.MeshStandardMaterial({ color: '#6f675e', roughness: 1 })
+    );
+    melt.rotation.x = -Math.PI / 2;
+    melt.position.y = 0.012;
+    melt.receiveShadow = true;
+    this.el.setObject3D('melt', melt);
 
-    this.el.getObject3D('mesh')?.geometry.dispose();
-    this.el.setObject3D('mesh', new THREE.Mesh(mergeParts(parts), flatMaterial()));
-
-    this.el.innerHTML = '';
     if (!lit) return;
 
-    for (let i = 0; i < 3; i += 1) {
-      const el = document.createElement('a-cone');
-      el.setAttribute('radius-bottom', 0.22 - i * 0.06);
-      el.setAttribute('radius-top', 0);
-      el.setAttribute('height', 0.62 - i * 0.14);
-      el.setAttribute('segments-radial', 6);
-      el.setAttribute('position', `0 ${0.5 + i * 0.1} 0`);
-      el.setAttribute('material', {
-        color: i ? '#f6c445' : flame,
-        emissive: i ? '#f6c445' : flame,
-        emissiveIntensity: 0.9,
-        opacity: 0.88,
-        transparent: true,
-        flatShading: true,
-      });
-      // A fire that does not move is a sculpture of a fire.
-      el.setAttribute('animation', {
-        property: 'scale',
-        to: `${0.9 - i * 0.05} ${1.22 + i * 0.08} ${0.9 - i * 0.05}`,
-        dir: 'alternate',
-        loop: true,
-        dur: 430 + i * 140,
-        easing: 'easeInOutSine',
-      });
-      this.el.appendChild(el);
+    const fire = new THREE.Group();
+    this.uniforms = {
+      time: { value: 0 },
+      core: { value: new THREE.Color(core) },
+      flame: { value: new THREE.Color(flame) },
+    };
+    const material = new THREE.ShaderMaterial({
+      uniforms: this.uniforms,
+      vertexShader: FLAME_VERT,
+      fragmentShader: FLAME_FRAG,
+      transparent: true,
+      depthWrite: false,
+      side: THREE.DoubleSide,
+    });
+
+    // Five tongues: one tall in the middle, four shorter leaning outward.
+    this.tongues = [];
+    const base = radius * 0.28;
+    const specs = [
+      [0, 0, 0.26, 0.95, 0],
+      [0.09, 0.05, 0.19, 0.7, 0.28],
+      [-0.08, 0.07, 0.17, 0.62, -0.3],
+      [0.03, -0.1, 0.18, 0.66, 0.22],
+      [-0.05, -0.06, 0.15, 0.55, -0.2],
+    ];
+    for (const [x, z, r, h, lean] of specs) {
+      const mesh = new THREE.Mesh(tongueGeometry(r * radius * 2.1, h * radius * 1.9), material);
+      mesh.position.set(x * radius * 2, 0.05, z * radius * 2);
+      mesh.rotation.z = lean;
+      mesh.rotation.y = Math.random() * Math.PI;
+      mesh.userData.phase = Math.random() * Math.PI * 2;
+      mesh.userData.rate = 5 + Math.random() * 4;
+      fire.add(mesh);
+      this.tongues.push(mesh);
     }
+
+    // Embers: small points of orange that drift up and go out.
+    this.embers = [];
+    const emberGeometry = new THREE.IcosahedronGeometry(0.012, 0);
+    for (let i = 0; i < 14; i += 1) {
+      const ember = new THREE.Mesh(
+        emberGeometry,
+        new THREE.MeshBasicMaterial({ color: '#ffb347', transparent: true, opacity: 1 })
+      );
+      ember.userData.life = Math.random();
+      ember.userData.speed = 0.35 + Math.random() * 0.4;
+      ember.userData.drift = (Math.random() - 0.5) * 0.4;
+      ember.userData.spin = Math.random() * Math.PI * 2;
+      fire.add(ember);
+      this.embers.push(ember);
+    }
+
+    // The glow on everything nearby. No shadow map, deliberately.
+    this.light = new THREE.PointLight(0xff9a3c, 2.2, radius * 22, 2);
+    this.light.position.set(0, 0.5, 0);
+    fire.add(this.light);
+
+    this.el.setObject3D('fire', fire);
+    this.base = base;
+  },
+
+  tick(_, delta) {
+    if (!this.tongues) return;
+    this.time += delta / 1000;
+    const t = this.time;
+    this.uniforms.time.value = t;
+
+    for (const tongue of this.tongues) {
+      const { phase, rate } = tongue.userData;
+      const flick = 1 + 0.16 * Math.sin(t * rate + phase) + 0.08 * Math.sin(t * rate * 2.3 + phase);
+      tongue.scale.set(1 + 0.06 * Math.sin(t * 3 + phase), flick, 1 + 0.06 * Math.cos(t * 3.4 + phase));
+    }
+
+    const { radius } = this.data;
+    for (const ember of this.embers) {
+      const u = ember.userData;
+      u.life += (delta / 1000) * u.speed * 0.6;
+      if (u.life > 1) {
+        u.life = 0;
+        u.drift = (Math.random() - 0.5) * 0.4;
+        u.spin = Math.random() * Math.PI * 2;
+      }
+      const y = 0.15 + u.life * 1.3;
+      const r = radius * 0.25 * (1 - u.life * 0.5);
+      ember.position.set(
+        Math.cos(u.spin + u.life * 4) * r + u.drift * u.life,
+        y,
+        Math.sin(u.spin + u.life * 4) * r
+      );
+      ember.material.opacity = Math.max(0, 1 - u.life) * (0.6 + 0.4 * Math.sin(t * 20 + u.spin));
+    }
+
+    // A fire's light breathes; steady light looks like a lamp.
+    this.light.intensity = 2.1 + 0.45 * Math.sin(t * 9.1) + 0.25 * Math.sin(t * 23.7);
+  },
+
+  clear() {
+    this.el.innerHTML = '';
+    for (const key of ['melt', 'fire']) {
+      const obj = this.el.getObject3D(key);
+      if (!obj) continue;
+      obj.traverse((o) => {
+        o.geometry?.dispose();
+        if (o.material && o.material !== this.tongues?.[0]?.material) o.material.dispose?.();
+      });
+      this.el.removeObject3D(key);
+    }
+    this.tongues = null;
+    this.embers = null;
+    this.light = null;
   },
 
   remove() {
-    this.el.getObject3D('mesh')?.geometry.dispose();
-    this.el.removeObject3D('mesh');
+    this.clear();
   },
 });
 

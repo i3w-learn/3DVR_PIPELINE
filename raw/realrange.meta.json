@@ -1,0 +1,12 @@
+{
+  "id": "realrange",
+  "source": "Sketchfab — \"Snow Mountain Pack 01\" by perryfactor6177258",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/snow-mountain-pack-01-8860df71b32e47eaa20d239b91aad940",
+  "targetHeight": 40,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.35,
+  "simplifyError": 0.02,
+  "join": true
+}

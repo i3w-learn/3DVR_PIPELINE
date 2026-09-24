@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "ai-powered-479515"
+  },
+  "targets": {
+    "ai-powered-479515": {
+      "hosting": {
+        "vr": ["i3wvr"]
+      }
+    }
+  }
+}
