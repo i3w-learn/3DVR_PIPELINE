@@ -21,6 +21,15 @@ import { startTeacher } from './roles/teacher.js';
 const transport = new LocalTransport();
 
 const params = new URLSearchParams(location.search);
+
+// A bare address is a person, not a headset. Send them to the list of lands
+// and let them pick one. A headset that must wait for a teacher's tablet says
+// so explicitly with ?role=headset, so nothing is lost by making the front
+// door a menu.
+if (!params.has('lesson') && !params.has('role')) {
+  location.replace('lands.html');
+}
+
 const role = params.get('role') ?? 'headset';
 const lessonId = params.get('lesson') ?? 'evs-lkg-farm-yard';
 const lang = params.get('lang') ?? 'en';
