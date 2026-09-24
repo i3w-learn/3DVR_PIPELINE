@@ -35,33 +35,29 @@
     },
     {
       "id": "mother",
-      "build": "person",
-      "params": {
-        "height": 1.58,
-        "role": "woman",
-        "pose": "namaste"
-      },
       "position": "-1.700 0.000 -3.100",
       "rotation": "0 29 0",
       "name": {
         "en": "Mother",
         "hi": "माँ"
-      }
+      },
+      "model": "realwoman",
+      "scale": "0.957 0.957 0.957",
+      "ring": 0.5
     },
     {
       "id": "father",
-      "build": "person",
-      "params": {
-        "height": 1.7,
-        "role": "man",
-        "pose": "stand"
-      },
       "position": "0.850 0.000 -3.000",
       "rotation": "0 -16 0",
       "name": {
         "en": "Father",
         "hi": "पिता"
-      }
+      },
+      "model": "realman",
+      "scale": "0.988 0.988 0.988",
+      "ring": 0.5,
+      "clip": "mixamo.com",
+      "clipSpeed": 0.8
     }
   ],
   "steps": [

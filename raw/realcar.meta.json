@@ -1,0 +1,12 @@
+{
+  "id": "realcar",
+  "source": "Sketchfab — \"Milano '95 - Low poly model\" by Daniel Zhabotinsky",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/milano-95-low-poly-model-122a22d210234596ad23623588d0d166",
+  "targetHeight": 3.9,
+  "yaw": -90,
+  "fit": "longest",
+  "join": true,
+  "metallic": true,
+  "simplify": 0.5
+}

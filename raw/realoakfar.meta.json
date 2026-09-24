@@ -1,0 +1,14 @@
+{
+  "id": "realoakfar",
+  "source": "Sketchfab — \"Oak tree\" by massive-graphisme",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/oak-tree-3dc59560f2d24345bdbe65c44636453b",
+  "targetHeight": 11,
+  "yaw": 0,
+  "alphaMode": "mask",
+  "join": true,
+  "from": "realoak",
+  "simplify": 0.12,
+  "simplifyError": 0.4,
+  "thin": 0.3
+}

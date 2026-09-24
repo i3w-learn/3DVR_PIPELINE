@@ -6,5 +6,8 @@
   "targetHeight": 7,
   "yaw": 0,
   "alphaMode": "mask",
-  "join": true
+  "join": true,
+  "thin": 0.8,
+  "simplify": 0.85,
+  "simplifyError": 0.05
 }

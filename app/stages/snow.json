@@ -12,16 +12,16 @@
     "repeat": 55
   },
   "sun": {
-    "position": "5 8 7",
-    "color": "#eaf2ff",
-    "intensity": 0.5
+    "position": "6 9 7",
+    "color": "#f3f6ff",
+    "intensity": 0.95
   },
   "light": {
     "sky": "#f4f8fc",
     "ground": "#d9e2ea",
-    "intensity": 1.35
+    "intensity": 0.62
   },
-  "shadows": false,
+  "shadows": true,
   "fog": {
     "color": "#e6eef4",
     "near": 14,
@@ -49,22 +49,21 @@
       }
     },
     {
-      "build": "grove",
+      "build": "treeline",
       "position": "0 0 0",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "count": 70,
-        "inner": 13,
-        "outer": 60,
+        "model": "realfirfar",
+        "count": 40,
+        "inner": 17,
+        "outer": 62,
         "arc": 300,
         "facing": 0,
-        "kind": "pine",
-        "height": 6.5,
-        "leaf": "#2f5a44",
-        "capped": true,
+        "height": 8,
         "seed": 8
-      }
+      },
+      "castShadow": false
     },
     {
       "build": "drifts",
@@ -85,37 +84,49 @@
       "params": {}
     },
     {
-      "build": "pine",
-      "position": "4.6 0 -7.5",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "height": 5.6,
-        "capped": true,
-        "seed": 2
-      }
+      "model": "realfir",
+      "position": "4.60 0 -7.50",
+      "rotation": "0 116 0",
+      "scale": "0.92 0.92 0.92",
+      "contact": false
     },
     {
-      "build": "pine",
-      "position": "-6.4 0 -9",
-      "rotation": "0 0 0",
-      "contact": false,
-      "params": {
-        "height": 7.2,
-        "capped": true,
-        "seed": 6
-      }
+      "model": "realfir",
+      "position": "-6.40 0 -9.00",
+      "rotation": "0 189 0",
+      "scale": "1.18 1.18 1.18",
+      "contact": false
     },
     {
-      "build": "pine",
-      "position": "6.8 0 -4.2",
-      "rotation": "0 0 0",
+      "model": "realfir",
+      "position": "6.80 0 -4.20",
+      "rotation": "0 192 0",
+      "scale": "0.72 0.72 0.72",
+      "contact": false
+    },
+    {
+      "model": "realfir",
+      "position": "-11.50 0 -5.00",
+      "rotation": "0 64 0",
+      "scale": "1.07 1.07 1.07",
       "contact": false,
-      "params": {
-        "height": 4.4,
-        "capped": true,
-        "seed": 9
-      }
+      "castShadow": false
+    },
+    {
+      "model": "realfir",
+      "position": "11.00 0 -11.50",
+      "rotation": "0 98 0",
+      "scale": "1.21 1.21 1.21",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realfir",
+      "position": "-3.00 0 -14.50",
+      "rotation": "0 22 0",
+      "scale": "1.29 1.29 1.29",
+      "contact": false,
+      "castShadow": false
     }
   ]
 }

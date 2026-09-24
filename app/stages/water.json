@@ -21,7 +21,7 @@
     "ground": "#63704a",
     "intensity": 0.4
   },
-  "shadows": false,
+  "shadows": true,
   "fog": {
     "color": "#d3dde4",
     "near": 40,
@@ -38,14 +38,15 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "model": "realmangotree",
-        "count": 110,
+        "model": "realmangotreefar",
+        "count": 45,
         "inner": 30,
         "outer": 95,
         "arc": 360,
         "height": 10,
         "seed": 5
-      }
+      },
+      "castShadow": false
     },
     {
       "build": "waterbody",
@@ -80,19 +81,15 @@
       "model": "realmangotree",
       "position": "9.50 0 -23.50",
       "rotation": "0 231 0",
-      "scale": "1.10 1.10 1.10"
+      "scale": "1.10 1.10 1.10",
+      "castShadow": false
     },
     {
       "model": "realmangotree",
       "position": "-19.00 0 -3.00",
       "rotation": "0 260 0",
-      "scale": "0.95 0.95 0.95"
-    },
-    {
-      "model": "realmangotree",
-      "position": "19.50 0 -4.00",
-      "rotation": "0 300 0",
-      "scale": "1.00 1.00 1.00"
+      "scale": "0.95 0.95 0.95",
+      "castShadow": false
     },
     {
       "model": "realgrass",
@@ -155,62 +152,6 @@
       "position": "-8.04 0 -17.94",
       "rotation": "0 42 0",
       "scale": "1.23 1.23 1.23",
-      "contact": false,
-      "castShadow": false
-    },
-    {
-      "model": "realgrass",
-      "position": "-3.69 0 -18.99",
-      "rotation": "0 147 0",
-      "scale": "1.04 1.04 1.04",
-      "contact": false,
-      "castShadow": false
-    },
-    {
-      "model": "realgrass",
-      "position": "14.35 0 -9.40",
-      "rotation": "0 55 0",
-      "scale": "0.96 0.96 0.96",
-      "contact": false,
-      "castShadow": false
-    },
-    {
-      "model": "realgrass",
-      "position": "8.11 0 -17.87",
-      "rotation": "0 350 0",
-      "scale": "1.47 1.47 1.47",
-      "contact": false,
-      "castShadow": false
-    },
-    {
-      "model": "realgrass",
-      "position": "13.84 0 -10.97",
-      "rotation": "0 240 0",
-      "scale": "1.45 1.45 1.45",
-      "contact": false,
-      "castShadow": false
-    },
-    {
-      "model": "realgrass",
-      "position": "-10.58 0 -4.81",
-      "rotation": "0 289 0",
-      "scale": "1.15 1.15 1.15",
-      "contact": false,
-      "castShadow": false
-    },
-    {
-      "model": "realgrass",
-      "position": "-10.36 0 -17.44",
-      "rotation": "0 44 0",
-      "scale": "1.06 1.06 1.06",
-      "contact": false,
-      "castShadow": false
-    },
-    {
-      "model": "realgrass",
-      "position": "-5.04 0 -3.68",
-      "rotation": "0 60 0",
-      "scale": "1.15 1.15 1.15",
       "contact": false,
       "castShadow": false
     },

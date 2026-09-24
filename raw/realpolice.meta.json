@@ -1,0 +1,12 @@
+{
+  "id": "realpolice",
+  "source": "Sketchfab — \"Indian police\" by Polymount",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/indian-police-02992f6e0baa4f3e9cbc3323164ece16",
+  "targetHeight": 1.75,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.35,
+  "keepClips": [],
+  "armsDown": 74
+}

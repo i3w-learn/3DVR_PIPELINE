@@ -79,9 +79,11 @@ Their authors must be credited wherever this application is distributed.
 - **policecar** — Poly Pizza — "Police car" by Poly by Google
 - **puppy** — Poly Pizza — "Puppy" by Poly by Google
 - **racket** — Poly Pizza — "Tennis racket" by Poly by Google
+- **realambulance** — Sketchfab — "Shvan '92 Ambulance - Low Poly model" by Daniel Zhabotinsky
 - **realant** — Sketchfab — "(муравей) Ant Rig VFX" by rayray
 - **realapatosaurus** — Sketchfab — "Apatosaurus" by toro ardido modelos 3d
 - **realapple** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
+- **realauto** — Sketchfab — "Autorikshaw - Indian Tuk Tuk" by bhagathartworks
 - **realbamboo** — Sketchfab — "bamboo" by evolveduk
 - **realbanana** — Sketchfab — "Game Ready Fruit Asset Pack" by Meerschaum Digital
 - **realbear** — Sketchfab — "Realistic Animated Bear 3D Model" by WildMesh 3D
@@ -90,9 +92,12 @@ Their authors must be credited wherever this application is distributed.
 - **realbridge** — Sketchfab — "Old bridge" by NoodlePoodle
 - **realbrinjal** — Sketchfab — "Eggplant (Game Ready / 2K PBR)" by Meerschaum Digital
 - **realbuffalo** — Sketchfab — "Water Buffalo" by kenchoo
+- **realbulldozer** — Sketchfab — "Bulldozer Photogrammetry" by bertanbaday
+- **realbus** — Sketchfab — "Isuzu Erga Mio bus" by own.guest
 - **realbutterfly** — Sketchfab — "Realistic 3D Butterfly Animation" by TBnNepal
 - **realcabbage** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realcalf** — Sketchfab — "calf(fbx)" by shikimika
+- **realcar** — Sketchfab — "Milano '95 - Low poly model" by Daniel Zhabotinsky
 - **realcarrot** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realcat** — Sketchfab — "An Animated Cat" by Evil_Katz
 - **realcauliflower** — Sketchfab — "Cauliflower" by RG36c
@@ -103,6 +108,7 @@ Their authors must be credited wherever this application is distributed.
 - **realcrab** — Sketchfab — "Dancing Crab - Uca Mjoebergi" by Bohdan Lvov
 - **realcrow** — Sketchfab — "Crow" by Alexei Ostapenko
 - **realdeer** — Sketchfab — "Realistic Animated Doe 3D Model" by WildMesh 3D
+- **realdoctor** — Sketchfab — "Nurse Surgical Rigged" by bachelorgkv
 - **realdog** — Sketchfab — "Labrador Dog" by kenchoo
 - **realdolphin** — Sketchfab — "Game-Ready dolphin (Swimming)" by Allie2k
 - **realdonkey** — Sketchfab — "Realistic Animated Donkey 3D Model" by WildMesh 3D
@@ -111,6 +117,10 @@ Their authors must be credited wherever this application is distributed.
 - **realegg** — Sketchfab — "Egg" by Bandit
 - **realelephant** — Sketchfab — "African Elephant"
 - **realfern** — Sketchfab — "fern grass 02" by POLYSCAN
+- **realfir** — Sketchfab — "Conifer (medium-Poly)" by Sereib
+- **realfirefighter** — Sketchfab — "Firefighter" by teacherap123
+- **realfiretruck** — Sketchfab — "Zil 131 AC 40" by Phobos
+- **realfirfar** — Sketchfab — "Conifer (medium-Poly)" by Sereib
 - **realfox** — Sketchfab — "Animated Fox 3D Model" by AnimalMesh 3D
 - **realgiraffe** — Sketchfab — "Giraffe" by BlueMesh
 - **realgoat** — Sketchfab — "Animated Realistic Goat – 3D Animal Model" by AnimalMesh 3D
@@ -118,15 +128,22 @@ Their authors must be credited wherever this application is distributed.
 - **realgrasshopper** — Sketchfab — "Low Poly Grasshopper ( Animated 3D Asset )" by Pascal Chaumette
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
 - **realhorse** — Sketchfab — "Horse" (28 clips)
+- **realjeep** — Sketchfab — "Jeep" by DJMaesen
 - **realjungletree** — Sketchfab — "Tree GN" by Node_λrt
+- **realjungletreefar** — Sketchfab — "Tree GN" by Node_λrt
 - **realkangaroo** — Sketchfab — "Kangaroo" by pergamond
 - **reallion** — Sketchfab — "realistic Lion 3d model" by Tarun.Teja
 - **reallotus** — Sketchfab — "lotus water lily" by mycmware
+- **realman** — Sketchfab — "Indian Man" by Nodeaxis Interactive
 - **realmango** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realmangotree** — Sketchfab — "Mang Tree-01" by ASMA3D
+- **realmangotreefar** — Sketchfab — "Mang Tree-01" by ASMA3D
+- **realmonkey** — Sketchfab — "Low poly monkey animal 3d model free" by iRahulRajput
 - **realoak** — Sketchfab — "Oak tree" by massive-graphisme
+- **realoakfar** — Sketchfab — "Oak tree" by massive-graphisme
 - **realonion** — Sketchfab — "Onion scan" by epipolar
 - **realorange** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
+- **realowl** — Sketchfab — "Common Barn Owl" by Innovation Studio
 - **realpalm** — Sketchfab — "Palm Tree Realistic" by 00amza
 - **realpalms** — Sketchfab — "Coconut Palm" by evolveduk
 - **realparasaur** — Sketchfab — "Parasaurolophus" by kenchoo
@@ -134,24 +151,33 @@ Their authors must be credited wherever this application is distributed.
 - **realpear** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realpigeon** — Sketchfab — "Animated Pigeon – 3D Animal Model" by AnimalMesh 3D
 - **realpineapple** — Sketchfab — "Organic Pineapple (MD2 Variant)" by JFN
+- **realpolice** — Sketchfab — "Indian police" by Polymount
+- **realpolicecar** — Sketchfab — "Fairheaven LT '80 Cop Cruiser - Low poly model" by Daniel Zhabotinsky
 - **realpotato** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realpumpkin** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realpuppy** — Sketchfab — "Dog Puppy" by kenchoo
 - **realrabbit** — Sketchfab — "Animated Rabbit – 3D Animal Model" by AnimalMesh 3D
 - **realrhino** — Sketchfab — "Animated Rhinoceros Walking Animal Loop" by LasquetiSpice
 - **realrocks** — Sketchfab — "Lowpoly Rocks - Free Download" by Loïc Norgeot
+- **realsailboat** — Sketchfab — "Sailboat" by Sergei
+- **realschoolbus** — Sketchfab — "School Bus" by Macaroni
 - **realseahorse** — Sketchfab — "Smoothie 3D + Blender Seahorse" by Jimmy Gunawan
 - **realsheep** — Sketchfab — "Sheep" by kenchoo
+- **realship** — Sketchfab — "Cargo Ship - V2 PBR" by akbunnyz
 - **realsparrow** — Sketchfab — "Animated Sparrow – 3D Animal Model" by AnimalMesh 3D
 - **realstegosaurus** — Sketchfab — "PBR Stegasaurus (Animated)" by Ferocious Industries
 - **realstrawberry** — Sketchfab — "Forest Strawberry - Macro scan" by Nik
+- **realteacher** — Sketchfab — "Indian Office Woman" by Nodeaxis Interactive
 - **realtiger** — Sketchfab — "Tiger" by Blender Artist
 - **realtomato** — Sketchfab — "Day#19: Tomato" by JuanG3D
+- **realtractor** — Sketchfab — "Tractor" by le0tard
+- **realtrain** — Sketchfab — "Industrial train Dr14" by Simon Pasi
 - **realtrex** — Sketchfab — "Animated Tyrannosaurus Rex Dinosaur Running Loop" by LasquetiSpice
 - **realtriceratops** — Sketchfab — "Triceratop" by kenchoo
 - **realturtle** — Sketchfab — "Sea Turtle" by Eloi
 - **realwatermelon** — Sketchfab — "Game Ready Fruit Asset Pack" by Meerschaum Digital
 - **realwhale** — Sketchfab — "Ballena" by pepetrincado
+- **realwoman** — Sketchfab — "Sareewoman" by dk8026854
 - **realzebra** — Sketchfab — "Zebra - Rigged" by Noa Seller
 - **rhino** — Poly Pizza — "Rhinoceros" by Poly by Google
 - **rocket** — Poly Pizza — "Rocket ship" by Poly by Google
@@ -258,6 +284,7 @@ No attribution is required for these. They are listed for the record.
 - Poly Pizza — "Whale" by Quaternius
 - Poly Pizza — "Wolf" by Quaternius
 - Poly Pizza — "Zebra" by Quaternius
+- ambientCG — Asphalt026C
 - ambientCG — Concrete034
 - ambientCG — Grass004
 - ambientCG — Ground037

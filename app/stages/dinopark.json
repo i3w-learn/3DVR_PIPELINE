@@ -38,14 +38,15 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "model": "realoak",
-        "count": 95,
+        "model": "realoakfar",
+        "count": 40,
         "inner": 30,
         "outer": 95,
         "arc": 360,
         "height": 12,
         "seed": 61
-      }
+      },
+      "castShadow": false
     },
     {
       "build": "treeline",
@@ -53,14 +54,15 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "model": "realjungletree",
-        "count": 55,
+        "model": "realjungletreefar",
+        "count": 20,
         "inner": 27,
         "outer": 70,
         "arc": 360,
         "height": 14,
         "seed": 62
-      }
+      },
+      "castShadow": false
     },
     {
       "model": "realoak",
@@ -115,22 +117,6 @@
       "position": "-12.00 0 -7.50",
       "rotation": "0 250 0",
       "scale": "1.30 1.30 1.30",
-      "castShadow": false,
-      "contact": false
-    },
-    {
-      "model": "realfern",
-      "position": "12.00 0 -8.00",
-      "rotation": "0 95 0",
-      "scale": "1.50 1.50 1.50",
-      "castShadow": false,
-      "contact": false
-    },
-    {
-      "model": "realfern",
-      "position": "-12.20 0 -16.00",
-      "rotation": "0 310 0",
-      "scale": "1.20 1.20 1.20",
       "castShadow": false,
       "contact": false
     },

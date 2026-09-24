@@ -5,48 +5,41 @@
   "objects": [
     {
       "id": "doctor",
-      "build": "person",
-      "params": {
-        "height": 1.62,
-        "role": "doctor",
-        "pose": "stand"
-      },
       "position": "-2.785 0.000 1.550",
       "rotation": "0 55 0",
       "name": {
         "en": "Doctor",
         "hi": "डॉक्टर"
-      }
+      },
+      "model": "realdoctor",
+      "scale": "0.947 0.947 0.947",
+      "ring": 0.5
     },
     {
       "id": "teacher",
-      "build": "person",
-      "params": {
-        "height": 1.62,
-        "role": "teacher",
-        "pose": "stand"
-      },
       "position": "-1.852 0.000 0.649",
       "rotation": "0 33 0",
       "name": {
         "en": "Teacher",
         "hi": "शिक्षिका"
-      }
+      },
+      "model": "realteacher",
+      "scale": "0.968 0.968 0.968",
+      "ring": 0.5,
+      "clip": "mixamo.com",
+      "clipSpeed": 0.8
     },
     {
       "id": "police",
-      "build": "person",
-      "params": {
-        "height": 1.62,
-        "role": "police",
-        "pose": "stand"
-      },
       "position": "-0.649 0.000 0.162",
       "rotation": "0 11 0",
       "name": {
         "en": "Police",
         "hi": "पुलिस"
-      }
+      },
+      "model": "realpolice",
+      "scale": "0.926 0.926 0.926",
+      "ring": 0.5
     },
     {
       "id": "farmer",
@@ -65,18 +58,17 @@
     },
     {
       "id": "firefighter",
-      "build": "person",
-      "params": {
-        "height": 1.62,
-        "role": "firefighter",
-        "pose": "stand"
-      },
       "position": "1.852 0.000 0.649",
       "rotation": "0 -33 0",
       "name": {
         "en": "Firefighter",
         "hi": "दमकलकर्मी"
-      }
+      },
+      "model": "realfirefighter",
+      "scale": "0.915 0.915 0.915",
+      "ring": 0.5,
+      "clip": "Take 001",
+      "clipSpeed": 0.8
     },
     {
       "id": "postman",

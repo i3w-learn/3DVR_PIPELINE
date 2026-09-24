@@ -1,0 +1,12 @@
+{
+  "id": "realtrain",
+  "source": "Sketchfab — \"Industrial train Dr14\" by Simon Pasi",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/industrial-train-dr14-54b78d37edc248a380c5112935465dbb",
+  "targetHeight": 9,
+  "yaw": 0,
+  "join": true,
+  "metallic": true,
+  "fit": "longest",
+  "simplify": 0.5
+}

@@ -1,0 +1,12 @@
+{
+  "id": "realpolicecar",
+  "source": "Sketchfab — \"Fairheaven LT '80 Cop Cruiser - Low poly model\" by Daniel Zhabotinsky",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/fairheaven-lt-80-cop-cruiser-low-poly-model-61766c1e6e1e4b2b803c174f33433a74",
+  "targetHeight": 4.8,
+  "yaw": -90,
+  "fit": "longest",
+  "join": true,
+  "metallic": true,
+  "simplify": 0.5
+}

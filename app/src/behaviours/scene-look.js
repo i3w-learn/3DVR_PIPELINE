@@ -123,6 +123,11 @@ AFRAME.registerComponent('shadowed', {
   init() {
     this.apply = this.apply.bind(this);
     this.el.addEventListener('model-loaded', this.apply);
+    // A built prop — a road, a row of shops — makes its meshes a moment after
+    // it is attached, some of them on child entities. Walking once at init
+    // finds nothing, and the road then took no shadow from anything standing
+    // on it. `object3dset` bubbles up from every child as its mesh arrives.
+    this.el.addEventListener('object3dset', this.apply);
     this.apply();
   },
 
@@ -136,5 +141,6 @@ AFRAME.registerComponent('shadowed', {
 
   remove() {
     this.el.removeEventListener('model-loaded', this.apply);
+    this.el.removeEventListener('object3dset', this.apply);
   },
 });

@@ -154,8 +154,14 @@ export class LessonSync {
 
     // Lesson objects sit on the ground the same way the kit's props do. The
     // template places them; how they meet the ground is the stage's business.
+    //
+    // An object may opt out of the sun's shadow pass (`castShadow: false`), as
+    // a prop can. The checker has always counted it that way; until now the
+    // scene ignored it and drew the second pass regardless.
+    const objects = new Map(loaded.lesson.objects.map((object) => [object.id, object]));
     for (const el of stageEl.children) {
-      if (!el.classList.contains('prop')) this.#groundIt(el, loaded.stage);
+      if (el.classList.contains('prop')) continue;
+      this.#groundIt(el, loaded.stage, objects.get(el.id)?.castShadow !== false);
     }
 
     this.#loaded = loaded;

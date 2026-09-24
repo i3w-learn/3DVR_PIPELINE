@@ -1,0 +1,12 @@
+{
+  "id": "realschoolbus",
+  "source": "Sketchfab — \"School Bus\" by Macaroni",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/school-bus-a959ee8ce17d434f9fdbc93cad199a21",
+  "targetHeight": 9,
+  "yaw": 0,
+  "fit": "longest",
+  "join": true,
+  "metallic": true,
+  "simplify": 0.6
+}

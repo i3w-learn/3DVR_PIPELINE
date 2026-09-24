@@ -3,17 +3,14 @@
  *
  * The first pond and river were flat blue sheets with block trees round them,
  * and beside the programme's own farm — scanned trees, a real sky — they looked
- * like a different product. These two components are the fix, and both are
- * made of light rather than of geometry, which is why they are cheap:
+ * like a different product. These two components are the fix:
  *
  * - `waterbody` is one flat sheet. What makes it water is that it mirrors the
  *   sky it sits under (the land's captured sky is already the scene's
  *   environment map) and that its surface is never still: a ripple pattern
  *   drifts across it as a normal map, so the reflection shivers.
- * - `treeline` is a photograph of a real tree, taken once, when the land loads,
- *   by rendering the actual tree model to a texture. A hundred distant trees
- *   are then a hundred flat cards facing the child — 200 triangles, against
- *   half a million for a hundred real ones.
+ * - `treeline` is the far forest: one real tree, thinned for distance, drawn
+ *   many times in a single batch. Solid from every side — see its own note.
  */
 
 import { seeded } from './random.js';
@@ -129,16 +126,26 @@ AFRAME.registerComponent('waterbody', {
 });
 
 /**
- * A far tree line: one real tree, photographed once, shown many times.
+ * A far tree line: one real tree, stood up many times.
  *
- * Every card faces the origin, because that is where the child sits and stays.
- * Cards differ in size, in a slight lean of tint, and are flipped at random, so
- * the eye does not find the repeat.
+ * These were photographs on cards once — two triangles a tree. From the
+ * child's seat that held; the moment anyone walked, a forest turned edge-on
+ * and showed itself to be paper. Everything in a land is solid now.
+ *
+ * What makes a hundred solid trees affordable is two things. The model is the
+ * `…far` copy of a near tree: the same trunk and boughs with most of the leaf
+ * cards thinned away (`thin` in its sidecar), about a thousand triangles. And
+ * they are drawn *instanced*: the tree is handed to the graphics chip once,
+ * with a list of places to put it, so sixty trees cost a handful of drawing
+ * instructions rather than sixty.
+ *
+ * They take no part in the shadow pass. They stand outside the sun's shadow
+ * box anyway, and would be submitted to it only to be clipped out.
  */
 AFRAME.registerComponent('treeline', {
   schema: {
-    model: { type: 'string', default: 'realmangotree' },
-    count: { type: 'number', default: 90 },
+    model: { type: 'string', default: 'realmangotreefar' },
+    count: { type: 'number', default: 60 },
     inner: { type: 'number', default: 34 },
     outer: { type: 'number', default: 95 },
     /** Degrees of arc the trees fill, centred on `facing`; 360 is all round. */
@@ -156,83 +163,64 @@ AFRAME.registerComponent('treeline', {
     loader.load(`assets/models/${this.data.model}.glb`, (gltf) => {
       // The entity may have been torn down while the model was on its way.
       if (!this.el.parentNode) return;
-      this.plant(this.photograph(gltf.scene));
+      this.plant(gltf.scene);
     });
   },
 
-  /** Render the tree, side on and evenly lit, into a texture with a clear background. */
-  photograph(tree) {
-    const renderer = this.el.sceneEl.renderer;
-    const box = new THREE.Box3().setFromObject(tree);
-    const size = box.getSize(new THREE.Vector3()), centre = box.getCenter(new THREE.Vector3());
-    this.aspect = Math.max(size.x, size.z) / size.y;
-
-    const studio = new THREE.Scene();
-    studio.add(tree, new THREE.AmbientLight('#dfe8ee', 0.85));
-    const sun = new THREE.DirectionalLight('#fff4dd', 1.5);
-    sun.position.set(3, 6, 5);
-    studio.add(sun);
-
-    const half = Math.max(size.x, size.z) / 2;
-    const camera = new THREE.OrthographicCamera(-half, half, size.y / 2, -size.y / 2, 0.1, size.z + half * 4 + 10);
-    camera.position.set(centre.x, centre.y, centre.z + half * 2 + 5);
-    camera.lookAt(centre);
-
-    const target = new THREE.WebGLRenderTarget(512, 512, { samples: 4 });
-    const before = { target: renderer.getRenderTarget(), colour: renderer.getClearColor(new THREE.Color()), alpha: renderer.getClearAlpha(), xr: renderer.xr.enabled };
-
-    // Off-screen, and with XR switched off for the one frame: in a headset the
-    // renderer would otherwise try to draw the studio through the headset's eyes.
-    renderer.xr.enabled = false;
-    renderer.setRenderTarget(target);
-    renderer.setClearColor(0x000000, 0);
-    renderer.clear();
-    renderer.render(studio, camera);
-    renderer.setRenderTarget(before.target);
-    renderer.setClearColor(before.colour, before.alpha);
-    renderer.xr.enabled = before.xr;
-
-    tree.traverse((o) => { o.geometry?.dispose(); });
-    this.target = target;
-    return target.texture;
-  },
-
-  plant(texture) {
+  plant(tree) {
     const { count, inner, outer, arc, facing, height, seed } = this.data;
     const random = seeded(seed);
-    const position = [], uv = [], colour = [];
 
+    tree.updateMatrixWorld(true);
+    const tall = new THREE.Box3().setFromObject(tree).getSize(new THREE.Vector3()).y || 1;
+
+    // Where each tree stands, how tall it is, and which way it is turned —
+    // sorted into six wedges round the child. A batch is drawn or skipped as a
+    // whole, so one batch all the way round would always be drawn in full,
+    // including the half of the forest behind the child's head. In wedges, the
+    // ones out of view are skipped, and about half the trees are drawn at once.
+    const WEDGES = 6;
+    const wedges = Array.from({ length: WEDGES }, () => []);
+    const at = new THREE.Vector3(), turn = new THREE.Quaternion(), size = new THREE.Vector3(), up = new THREE.Vector3(0, 1, 0);
     for (let i = 0; i < count; i += 1) {
       const angle = THREE.MathUtils.degToRad(facing + (random() - 0.5) * arc);
       const r = inner + Math.sqrt(random()) * (outer - inner);
-      const x = Math.sin(angle) * r, z = -Math.cos(angle) * r;
-      const h = height * (0.75 + random() * 0.55), w = (h * this.aspect) / 2;
-      // The card's own left and right, square-on to a viewer at the origin.
-      const tx = -z / r, tz = x / r;
-      const flip = random() < 0.5 ? 1 : 0, tint = 0.7 + random() * 0.2;
+      const k = (height * (0.75 + random() * 0.55)) / tall;
 
-      const corners = [[-1, 0, flip ? 1 : 0, 0], [1, 0, flip ? 0 : 1, 0], [1, 1, flip ? 0 : 1, 1], [-1, 1, flip ? 1 : 0, 1]];
-      for (const c of [0, 1, 2, 0, 2, 3]) {
-        const [side, up, u, v] = corners[c];
-        position.push(x + tx * w * side, up * h - 0.05, z + tz * w * side);
-        uv.push(u, v); colour.push(tint, tint, tint * 0.97);
-      }
+      at.set(Math.sin(angle) * r, -0.05, -Math.cos(angle) * r);
+      turn.setFromAxisAngle(up, random() * Math.PI * 2);
+      size.set(k, k, k);
+
+      const wedge = Math.floor((((angle / (Math.PI * 2)) % 1) + 1) % 1 * WEDGES);
+      wedges[wedge].push(new THREE.Matrix4().compose(at, turn, size));
     }
 
-    const geometry = new THREE.BufferGeometry();
-    geometry.setAttribute('position', new THREE.Float32BufferAttribute(position, 3));
-    geometry.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2));
-    geometry.setAttribute('color', new THREE.Float32BufferAttribute(colour, 3));
-    geometry.computeBoundingSphere();
+    // One instanced mesh per wedge per part of the tree (bark, leaves).
+    const grove = new THREE.Group();
+    const placed = new THREE.Matrix4();
+    tree.traverse((part) => {
+      if (!part.isMesh) return;
 
-    const material = new THREE.MeshBasicMaterial({ map: texture, vertexColors: true, alphaTest: 0.35, side: THREE.DoubleSide });
-    this.el.setObject3D('mesh', new THREE.Mesh(geometry, material));
+      for (const spots of wedges) {
+        if (!spots.length) continue;
+
+        const copies = new THREE.InstancedMesh(part.geometry, part.material, spots.length);
+        spots.forEach((spot, i) => copies.setMatrixAt(i, placed.multiplyMatrices(spot, part.matrixWorld)));
+        copies.instanceMatrix.needsUpdate = true;
+        copies.computeBoundingSphere();
+        grove.add(copies);
+      }
+    });
+
+    this.el.setObject3D('mesh', grove);
   },
 
   remove() {
-    const mesh = this.el.getObject3D('mesh');
-    mesh?.geometry.dispose(); mesh?.material.dispose();
-    this.target?.dispose();
+    this.el.getObject3D('mesh')?.traverse((part) => {
+      if (!part.isMesh) return;
+      part.geometry.dispose();
+      for (const material of [].concat(part.material)) { material.map?.dispose(); material.dispose(); }
+    });
     this.el.removeObject3D('mesh');
   },
 });

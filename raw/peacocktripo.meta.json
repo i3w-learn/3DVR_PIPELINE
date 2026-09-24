@@ -1,0 +1,11 @@
+{
+  "id": "peacocktripo",
+  "source": "Tripo AI \u2014 text-to-3D, free plan, generated 2026-09-23 (trial, not shipped)",
+  "licence": "CC-BY",
+  "url": "https://www.tripo3d.ai/",
+  "targetHeight": 1.2,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "notes": "AI-generated trial (text prompt), rigged + idle/walk via Tripo API. A photo-based retry (raw/peacocktripo-v2-*.glb) came out flat and twisted and is not used.",
+  "simplify": 0.5
+}

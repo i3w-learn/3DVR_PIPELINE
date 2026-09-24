@@ -1,9 +1,14 @@
 # VR Learning for Pre-Primary — Product Requirements Document
 
-**Version** 0.3 (draft for team review)
+**Version** 0.4 (draft for team review)
 **Date** August 2026
 **Owner** i3w
 **Status** For discussion — open questions listed in §12
+
+**Changed in 0.4** — the rejection of WebRTC as the control transport written out
+in full (Appendix A), and open question 7 pointed at it, so that settling the
+live-gaze question does not reopen the MQTT decision. No change to scope, cost, or
+delivery phases.
 
 **Changed in 0.3** — a named build order for the first eleven lessons (§4.2), so
 content work can start before the headset decision lands; the role switch made
@@ -803,7 +808,9 @@ Optional, if the free route proves insufficient: freelance modelling for Indian-
    the narration and pacing need without any streaming. What remains open is
    whether anyone needs to see a *specific child's actual gaze* — a different and
    much more expensive feature, requiring WebRTC as a separate channel. Assumed
-   out of scope for v1 unless the pilot shows a need.
+   out of scope for v1 unless the pilot shows a need. Appendix A records why that
+   channel would sit *alongside* MQTT rather than replace it, so deciding this
+   question does not reopen the transport choice.
 8. **Class size per session** — is 25 simultaneous headsets real, or is the pilot smaller?
 
 ---
@@ -814,7 +821,51 @@ Optional, if the free route proves insufficient: freelance modelling for Indian-
 
 **MQTT over raw WebSocket.** Both work. MQTT's retained messages and Last Will directly solve mid-lesson reconnect and dead-headset detection — the two hardest problems in this system — at the cost of one extra process. Raw WebSocket means roughly 500–800 lines of reconnect, acknowledgement, and timeout code written and debugged in-house.
 
-**MQTT over WebRTC.** WebRTC is peer-to-peer and exists to traverse NAT across the internet. On an isolated LAN broadcasting to 25 subscribers, it delivers a 25-connection mesh, still requires a signalling channel, and solves a problem this system does not have. It is the right tool only for the deferred live-video feature.
+**MQTT over WebRTC.** MQTT is the transport for every classroom control message.
+WebRTC was considered for that job and rejected. The reasoning is recorded at
+length because the question recurs, and because the answer is not "WebRTC is
+worse" — it is that WebRTC solves a different problem.
+
+*What WebRTC is for.* It exists to connect two machines that are strangers to one
+another across the public internet — each behind a router, neither holding an
+address the other can dial. Almost all of WebRTC's complexity (ICE, STUN, TURN,
+the SDP offer/answer exchange) is spent on that single problem. Here the problem
+does not arise: the tablet and every headset sit on the same isolated LAN and hold
+a DHCP address from the same router (§5.1). WebRTC's central value would be paid
+for and never used.
+
+*Fan-out.* The tablet publishes one `class/state` message and the broker copies it
+to every subscriber; the tablet never learns how many headsets exist (§5.2). Over
+WebRTC there is no broker, so the tablet holds a separate peer connection per
+headset — 25 handshakes, 25 pieces of state, 25 independent failure modes. The
+mesh grows with the class, which makes the tablet's code sensitive to a number it
+currently ignores.
+
+*It does not remove the server.* Two peers cannot connect until something has
+introduced them, and that signalling channel is a server. The Pi stays either way.
+The real trade is not broker versus no broker — it is a mature broker configured
+in six lines (§5.6) against a signalling server we write, debug, and maintain
+ourselves.
+
+*It has neither of the features this system leans on.* Retained messages and Last
+Will are the whole answer to mid-lesson rejoin and dead-headset detection — the
+two hardest problems here (§5.2) — and both arrive as configuration rather than as
+code. A WebRTC data channel is a bare pipe: no retention, no will, no ordering
+guarantee. Choosing it means writing the same 500–800 lines that raw WebSocket
+would demand, with ICE and SDP on top.
+
+*The payload is the wrong shape for it.* A `class/state` message is roughly a
+hundred bytes and changes every few seconds; the busiest traffic in the room is a
+heartbeat of a few dozen bytes, once per second per headset (§5.4). WebRTC is
+engineered for continuous media at megabits per second under a sub-100 ms latency
+budget. None of that engineering helps a message this small, and all of it still
+has to be operated.
+
+*Where it is the right tool.* Streaming a specific child's actual view to the
+teacher is a media problem, and MQTT cannot do it at all. That is open question 7,
+and it is out of scope for v1. If the pilot establishes a need, WebRTC arrives as
+a **second channel alongside** MQTT — it does not replace the control plane, and
+this section should not be read as closing that door.
 
 **One web app in two roles, over a separate native tablet app.** The teacher has to
 see the lesson, so the tablet has to render the scene. The scene is A-Frame, which

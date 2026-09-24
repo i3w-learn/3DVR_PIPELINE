@@ -1,0 +1,12 @@
+{
+  "id": "realambulance",
+  "source": "Sketchfab — \"Shvan '92 Ambulance - Low Poly model\" by Daniel Zhabotinsky",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/shvan-92-ambulance-low-poly-model-2856dd3c61f940909dced9a5c0379484",
+  "targetHeight": 5.5,
+  "yaw": -90,
+  "fit": "longest",
+  "join": true,
+  "metallic": true,
+  "simplify": 0.4
+}
