@@ -1,0 +1,18 @@
+{
+  "id": "lobby",
+  "template": "lobby",
+  "stage": "forest",
+  "objects": [],
+  "steps": [
+    {
+      "duration": 600000,
+      "script": {
+        "en": "Look at a place, and it will take you there.",
+        "hi": "किसी जगह को देखो, और वह तुम्हें वहाँ ले जाएगी।",
+        "mr": "एखाद्या जागेकडे बघ, आणि ती तुला तिथे घेऊन जाईल.",
+        "or": "ଗୋଟିଏ ଜାଗାକୁ ଦେଖ, ଆଉ ତାହା ତୁମକୁ ସେଠାକୁ ନେଇଯିବ।"
+      },
+      "audio": "lobby-s01.mp3"
+    }
+  ]
+}

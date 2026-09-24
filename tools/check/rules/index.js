@@ -30,7 +30,7 @@ export const BUDGET = {
  * "Unknown template" on a headset — exactly the class of failure this file
  * exists to catch on a laptop. It is written now, so it is back.
  */
-export const TEMPLATES = ['identify', 'explore', 'compare', 'count', 'match', 'sort', 'sequence'];
+export const TEMPLATES = ['identify', 'explore', 'compare', 'count', 'match', 'sort', 'sequence', 'lobby'];
 
 /** A-Frame vec3 strings: "x y z", decimals and negatives allowed. */
 const VEC3 = /^-?\d+(\.\d+)?( -?\d+(\.\d+)?){2}$/;

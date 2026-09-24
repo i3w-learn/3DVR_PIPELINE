@@ -17,7 +17,7 @@ export class ControlBar {
   #position;
   #handlers;
 
-  /** @param {{onPause, onResume, onBack, onNext, onBlackout}} handlers */
+  /** @param {{onPause, onResume, onBack, onNext, onBlackout, onLands}} handlers */
   constructor(root, handlers) {
     this.#root = root;
     this.#handlers = handlers;
@@ -42,6 +42,7 @@ export class ControlBar {
         <!-- Nothing else on screen says these exist, and a teacher will not
              guess them. Small, and out of the way of the five real controls. -->
         <span class="hint">W A S D walk · drag to look · scroll to zoom · tap an animal</span>
+        <button data-action="lands">⌂ Lands</button>
         <button data-action="back">◀ Back</button>
         <button data-action="pause">❚❚ Pause</button>
         <button data-action="next">Next ▶</button>
@@ -63,6 +64,7 @@ export class ControlBar {
       button.blur();
 
       const handler = {
+        lands: this.#handlers.onLands,
         back: this.#handlers.onBack,
         pause: this.#handlers.onPause,
         next: this.#handlers.onNext,

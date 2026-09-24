@@ -1,0 +1,30 @@
+{
+  "_comment": "Every land, in the order the lobby and the web list show them. One showcase lesson per land. Names in the four narration languages.",
+  "lands": [
+    { "id": "forest",     "lesson": "demo-peacock",               "group": "realistic", "name": { "en": "Forest",        "hi": "जंगल",          "mr": "जंगल",          "or": "ଜଙ୍ଗଲ" } },
+    { "id": "snow",       "lesson": "demo-snow",                  "group": "realistic", "name": { "en": "Snow",          "hi": "बर्फ़",          "mr": "बर्फ",          "or": "ବରଫ" } },
+    { "id": "road",       "lesson": "evs-lkg-professions",        "group": "realistic", "name": { "en": "Road",          "hi": "सड़क",          "mr": "रस्ता",         "or": "ରାସ୍ତା" } },
+    { "id": "street",     "lesson": "demo-street",                "group": "realistic", "name": { "en": "Street",        "hi": "गली",           "mr": "गल्ली",         "or": "ଗଳି" } },
+    { "id": "india",      "lesson": "demo-india",                 "group": "realistic", "name": { "en": "India",         "hi": "भारत",          "mr": "भारत",          "or": "ଭାରତ" } },
+    { "id": "pond",       "lesson": "demo-water",                 "group": "realistic", "name": { "en": "Pond",          "hi": "तालाब",         "mr": "तळं",           "or": "ପୋଖରୀ" } },
+    { "id": "river",      "lesson": "evs-ukg-river-crossing",     "group": "realistic", "review": true, "name": { "en": "River", "hi": "नदी",   "mr": "नदी",           "or": "ନଦୀ" } },
+    { "id": "maidan",     "lesson": "evs-ukg-places-of-worship",  "group": "realistic", "review": true, "name": { "en": "Maidan", "hi": "मैदान", "mr": "मैदान",         "or": "ମଇଦାନ" } },
+    { "id": "outdoor",    "lesson": "evs-lkg-farm-animals",       "group": "half",      "name": { "en": "Open ground",   "hi": "खुला मैदान",    "mr": "मोकळं मैदान",   "or": "ଖୋଲା ପଡ଼ିଆ" } },
+    { "id": "dinopark",   "lesson": "evs-ukg-dinosaur-park",      "group": "half",      "review": true, "name": { "en": "Dinosaur park", "hi": "डायनासोर पार्क", "mr": "डायनासोर पार्क", "or": "ଡାଇନୋସର ପାର୍କ" } },
+    { "id": "farmyard",   "lesson": "eng-lkg-animal-products",    "group": "original",  "name": { "en": "Farmyard",      "hi": "खेत",           "mr": "शेत",           "or": "ଚାଷ ଜମି" } },
+    { "id": "school",     "lesson": "evs-nur-school-visit",       "group": "original",  "name": { "en": "School",        "hi": "स्कूल",         "mr": "शाळा",          "or": "ସ୍କୁଲ" } },
+    { "id": "solar",      "lesson": "evs-ukg-solar-system",       "group": "original",  "name": { "en": "Solar system",  "hi": "सौर मंडल",      "mr": "सूर्यमाला",     "or": "ସୌର ମଣ୍ଡଳ" } },
+    { "id": "playground", "lesson": "gk-lkg-playground",          "group": "original",  "name": { "en": "Playground",    "hi": "खेल का मैदान",  "mr": "खेळाचं मैदान",  "or": "ଖେଳ ପଡ଼ିଆ" } },
+    { "id": "tabletop",   "lesson": "eng-lkg-hot-cold",           "group": "drawn",     "name": { "en": "Table room",    "hi": "मेज़ वाला कमरा", "mr": "टेबलची खोली",   "or": "ଟେବୁଲ ଘର" } },
+    { "id": "home",       "lesson": "demo-home",                  "group": "drawn",     "name": { "en": "Home",          "hi": "घर",            "mr": "घर",            "or": "ଘର" } },
+    { "id": "classroom",  "lesson": "gk-lkg-our-classroom",       "group": "drawn",     "name": { "en": "Classroom",     "hi": "कक्षा",         "mr": "वर्ग",          "or": "ଶ୍ରେଣୀ ଗୃହ" } },
+    { "id": "sea",        "lesson": "eng-nur-water-animals",      "group": "drawn",     "name": { "en": "Under the sea", "hi": "समुद्र के नीचे", "mr": "समुद्राखाली",   "or": "ସମୁଦ୍ର ତଳେ" } },
+    { "id": "sky",        "lesson": "demo-sky",                   "group": "drawn",     "name": { "en": "Sky",           "hi": "आसमान",         "mr": "आकाश",          "or": "ଆକାଶ" } },
+    { "id": "snakes",     "lesson": "evs-ukg-serpentarium",       "group": "drawn",     "review": true, "name": { "en": "Snake house", "hi": "साँप घर", "mr": "साप घर",        "or": "ସାପ ଘର" } },
+    { "id": "chemlab",    "lesson": "gk-lkg-chem-lab",            "group": "unused",    "name": { "en": "Chemistry lab", "hi": "रसायन प्रयोगशाला", "mr": "रसायन प्रयोगशाळा", "or": "ରସାୟନ ଲ୍ୟାବ" } },
+    { "id": "physicslab", "lesson": "gk-lkg-physics-lab",         "group": "unused",    "name": { "en": "Physics lab",   "hi": "भौतिकी प्रयोगशाला", "mr": "भौतिकशास्त्र प्रयोगशाळा", "or": "ପଦାର୍ଥ ବିଜ୍ଞାନ ଲ୍ୟାବ" } },
+    { "id": "hall",       "lesson": "gk-lkg-school-hall",         "group": "unused",    "name": { "en": "Hall",          "hi": "हॉल",           "mr": "हॉल",           "or": "ହଲ" } },
+    { "id": "kitchen",    "lesson": "gk-lkg-school-kitchen",      "group": "unused",    "name": { "en": "Kitchen",       "hi": "रसोई",          "mr": "स्वयंपाकघर",    "or": "ରୋଷେଇ ଘର" } },
+    { "id": "office",     "lesson": "gk-lkg-school-office",       "group": "unused",    "name": { "en": "Office",        "hi": "दफ़्तर",         "mr": "कार्यालय",      "or": "ଅଫିସ" } }
+  ]
+}

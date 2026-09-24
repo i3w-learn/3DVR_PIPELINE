@@ -3739,6 +3739,11 @@
     "spoken": "This is the kitchen. Our hot meal is cooked here.",
     "provider": "indic"
   },
+  "lobby-s01.mp3": {
+    "written": "Look at a place, and it will take you there.",
+    "spoken": "Look at a place, and it will take you there.",
+    "provider": "indic"
+  },
   "math-lkg-full-empty-s01.mp3": {
     "written": "This glass is full.",
     "spoken": "This glass is full.",

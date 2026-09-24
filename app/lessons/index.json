@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T12:12:42.211Z",
+  "generated": "2026-09-24T14:37:54.614Z",
   "lessons": {
     "demo-home": "demo/demo-home.json",
     "demo-india": "demo/demo-india.json",
@@ -94,6 +94,7 @@
     "hin-ukg-swar": "hin-ukg-swar.json",
     "hin-ukg-teen-akshar": "hin-ukg-teen-akshar.json",
     "hin-ukg-vyanjan": "hin-ukg-vyanjan.json",
+    "lobby": "demo/lobby.json",
     "math-lkg-full-empty": "math-lkg-full-empty.json",
     "math-lkg-half-whole": "math-lkg-half-whole.json",
     "math-lkg-lines-curves": "math-lkg-lines-curves.json",

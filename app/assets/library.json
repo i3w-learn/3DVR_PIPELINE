@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T12:12:41.894Z",
+  "generated": "2026-09-24T14:40:14.487Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -4514,6 +4514,10 @@
         "file": "audio/en/demo-india-s02.mp3",
         "bytes": 18616
       },
+      "demo-peacock-s01.mp3": {
+        "file": "audio/en/demo-peacock-s01.mp3",
+        "bytes": 33558
+      },
       "demo-sky-s01.mp3": {
         "file": "audio/en/demo-sky-s01.mp3",
         "bytes": 22796
@@ -7466,6 +7470,10 @@
         "file": "audio/en/kitchen_about.mp3",
         "bytes": 22378
       },
+      "lobby-s01.mp3": {
+        "file": "audio/en/lobby-s01.mp3",
+        "bytes": 15586
+      },
       "math-lkg-full-empty-s01.mp3": {
         "file": "audio/en/math-lkg-full-empty-s01.mp3",
         "bytes": 11093
@@ -8723,6 +8731,10 @@
       "demo-india-s02.mp3": {
         "file": "audio/hi/demo-india-s02.mp3",
         "bytes": 16317
+      },
+      "demo-peacock-s01.mp3": {
+        "file": "audio/hi/demo-peacock-s01.mp3",
+        "bytes": 22587
       },
       "demo-sky-s01.mp3": {
         "file": "audio/hi/demo-sky-s01.mp3",
@@ -11672,6 +11684,10 @@
         "file": "audio/hi/kitchen_about.mp3",
         "bytes": 18721
       },
+      "lobby-s01.mp3": {
+        "file": "audio/hi/lobby-s01.mp3",
+        "bytes": 16422
+      },
       "math-lkg-full-empty-s01.mp3": {
         "file": "audio/hi/math-lkg-full-empty-s01.mp3",
         "bytes": 9003
@@ -12925,6 +12941,10 @@
       "demo-india-s02.mp3": {
         "file": "audio/mr/demo-india-s02.mp3",
         "bytes": 22482
+      },
+      "demo-peacock-s01.mp3": {
+        "file": "audio/mr/demo-peacock-s01.mp3",
+        "bytes": 25304
       },
       "demo-sky-s01.mp3": {
         "file": "audio/mr/demo-sky-s01.mp3",
@@ -15874,6 +15894,10 @@
         "file": "audio/mr/kitchen_about.mp3",
         "bytes": 22169
       },
+      "lobby-s01.mp3": {
+        "file": "audio/mr/lobby-s01.mp3",
+        "bytes": 21751
+      },
       "math-lkg-full-empty-s01.mp3": {
         "file": "audio/mr/math-lkg-full-empty-s01.mp3",
         "bytes": 12660
@@ -17127,6 +17151,10 @@
       "demo-india-s02.mp3": {
         "file": "audio/or/demo-india-s02.mp3",
         "bytes": 20915
+      },
+      "demo-peacock-s01.mp3": {
+        "file": "audio/or/demo-peacock-s01.mp3",
+        "bytes": 25095
       },
       "demo-sky-s01.mp3": {
         "file": "audio/or/demo-sky-s01.mp3",
@@ -20075,6 +20103,10 @@
       "kitchen_about.mp3": {
         "file": "audio/or/kitchen_about.mp3",
         "bytes": 23945
+      },
+      "lobby-s01.mp3": {
+        "file": "audio/or/lobby-s01.mp3",
+        "bytes": 22064
       },
       "math-lkg-full-empty-s01.mp3": {
         "file": "audio/or/math-lkg-full-empty-s01.mp3",

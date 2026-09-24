@@ -106,7 +106,9 @@ AFRAME.registerComponent('tap-target', {
   remove() {
     cancelAnimationFrame(this.pending);
     this.el.removeEventListener('model-loaded', this.build);
-    this.box?.remove();
+    // A lesson is torn down by emptying the stage, so by the time this runs
+    // the box may already be off the tree; removing it again throws.
+    if (this.box?.parentNode) this.box.remove();
   },
 });
 

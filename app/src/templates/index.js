@@ -19,6 +19,7 @@ import identify from './identify.js';
 import match from './match.js';
 import sequence from './sequence.js';
 import sort from './sort.js';
+import lobby from './lobby.js';
 
 const TEMPLATES = {
   [identify.name]: identify,
@@ -28,6 +29,7 @@ const TEMPLATES = {
   [match.name]: match,
   [sort.name]: sort,
   [sequence.name]: sequence,
+  [lobby.name]: lobby,
 };
 
 export function getTemplate(name) {
