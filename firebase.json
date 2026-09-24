@@ -46,6 +46,11 @@
     ],
     "redirects": [
       {
+        "source": "/vr",
+        "destination": "/?lesson=lobby&role=teacher",
+        "type": 302
+      },
+      {
         "source": "/farmyard",
         "destination": "/?lesson=eng-lkg-animal-products&role=teacher",
         "type": 302

@@ -15,6 +15,34 @@ import { Session } from '../core/session.js';
 import { TOPIC } from '../core/transport.js';
 import { ControlBar } from '../ui/control-bar.js';
 
+/** The lesson that is the menu of lands. */
+const LOBBY = 'lobby';
+
+function showError(error) {
+  document.querySelector('#error').textContent = error.message;
+}
+
+/**
+ * The way back to the lobby from inside a land: a small card low on the
+ * child's left, on the rig so it stays put while the teacher walks. Looking
+ * at it fuses, exactly like looking at a land in the lobby.
+ */
+function homeTile(elements) {
+  let tile = document.querySelector('#home-tile');
+  if (tile) return tile;
+  tile = document.createElement('a-entity');
+  tile.setAttribute('id', 'home-tile');
+  tile.setAttribute('position', '-0.6 -0.42 -0.95');
+  tile.setAttribute('rotation', '22 28 0');
+  const face = document.createElement('a-entity');
+  face.classList.add('clickable');
+  face.setAttribute('glyph', { char: 'Lands', height: 0.09, card: '#ffe14d' });
+  face.addEventListener('click', () => elements.scene.emit('land-pick', { lesson: LOBBY }, false));
+  tile.appendChild(face);
+  document.querySelector('#rig').appendChild(tile);
+  return tile;
+}
+
 export async function startTeacher({ transport, session, elements, controlsRoot, lessonId }) {
   // Two sessions, deliberately.
   //
@@ -44,6 +72,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
     onNext: () => next(),
     onPause: () => togglePause(),
     onBlackout: () => transport.publish(TOPIC.command, { cmd: 'blackout' }),
+    onLands: () => enter(LOBBY).catch(showError),
   });
 
   /** Publish where the class now is, then start that step's countdown. */
@@ -102,6 +131,9 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
     lesson = loaded.lesson;
     session.lesson = lesson.id;
 
+    // The way home is not shown while you are home.
+    homeTile(elements).setAttribute('visible', lesson.id !== LOBBY);
+
     // The URL is deliberately left alone.
     //
     // It was briefly rewritten as you walked, so that a refresh put you back
@@ -116,10 +148,16 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
   // A portal is a spot on the floor; only the teacher's camera can reach one,
   // because only she walks.
   elements.scene.addEventListener('portal-enter', (event) => {
-    enter(event.detail.to).catch((error) => {
-      document.querySelector('#error').textContent = error.message;
-    });
+    enter(event.detail.to).catch(showError);
   });
+
+  // A card in the lobby, or the small home tile inside a land. Same door as a
+  // portal: the class goes where the teacher's finger went.
+  elements.scene.addEventListener('land-pick', (event) => {
+    enter(event.detail.lesson).catch(showError);
+  });
+
+  homeTile(elements).setAttribute('visible', lesson.id !== LOBBY);
 
   session.lesson = lesson.id;
   go(0);

@@ -37,6 +37,10 @@
   header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 8px; }
   h1 { font-size: 28px; margin: 0; letter-spacing: -0.01em; }
   header p { margin: 0; color: var(--muted); }
+  a.vr {
+    margin-left: auto; background: var(--accent); color: var(--accent-ink); text-decoration: none;
+    padding: 10px 18px; border-radius: 999px; font-weight: 600;
+  }
   .lang { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0 24px; }
   .lang button {
     border: 1px solid var(--line); background: var(--card); color: var(--ink);
@@ -64,6 +68,7 @@
   <header>
     <h1>VR Lands</h1>
     <p>Every place a lesson can happen. Tap one to walk in.</p>
+    <a class="vr" id="start-vr" href="./?lesson=lobby&amp;role=teacher">Start in VR</a>
   </header>
 
   <div class="lang" role="group" aria-label="Narration language">
@@ -81,56 +86,27 @@
 </main>
 
 <script>
-  const GROUPS = [
-    { title: 'Realistic', dot: 'var(--done)', lands: [
-      { name: 'Forest', lesson: 'demo-peacock', note: 'Peacocks under real trees', lessons: 3 },
-      { name: 'Road', lesson: 'evs-lkg-professions', note: 'Real vehicles and people on tarmac', lessons: 2 },
-      { name: 'Street', lesson: 'demo-street', note: 'Shops on both sides', lessons: 2 },
-      { name: 'India', lesson: 'demo-india', note: 'Courtyard with the wheel and flag', lessons: 3 },
-      { name: 'Snow', lesson: 'demo-snow', note: 'Mountains, camp, igloo, fire', lessons: 1 },
-      { name: 'Pond', lesson: 'demo-water', note: 'Ducks on moving water', lessons: 1 },
-      { name: 'River', lesson: 'evs-ukg-river-crossing', note: 'Bridge, boat and crossing', lessons: 1, review: true },
-      { name: 'Maidan', lesson: 'evs-ukg-places-of-worship', note: 'Places of worship on open ground', lessons: 1, review: true },
-    ]},
-    { title: 'Half done', dot: 'var(--half)', lands: [
-      { name: 'Open ground', lesson: 'evs-lkg-farm-animals', note: 'Real animals, a few drawn props left', lessons: 13 },
-      { name: 'Dinosaur park', lesson: 'evs-ukg-dinosaur-park', note: 'Dinosaur models behind a fence', lessons: 1, review: true },
-    ]},
-    { title: 'Still drawn', dot: 'var(--drawn)', lands: [
-      { name: 'Tabletop room', lesson: 'eng-lkg-hot-cold', note: 'Most lessons play here', lessons: 59 },
-      { name: 'Home', lesson: 'demo-home', note: 'A room with bed, cupboard and fan', lessons: 5 },
-      { name: 'Classroom', lesson: 'gk-lkg-our-classroom', note: 'Blackboard, mats, a teacher', lessons: 4 },
-      { name: 'Under the sea', lesson: 'eng-nur-water-animals', note: 'Fish, whale, octopus, crab', lessons: 1 },
-      { name: 'Sky', lesson: 'demo-sky', note: 'A balloon ride above fields', lessons: 1 },
-      { name: 'Serpentarium', lesson: 'evs-ukg-serpentarium', note: 'Snakes behind glass', lessons: 1, review: true },
-    ]},
-    { title: 'Original scenes', dot: 'var(--orig)', lands: [
-      { name: 'Farmyard', lesson: 'eng-lkg-animal-products', note: 'The first scene, unchanged', lessons: 8 },
-      { name: 'School', lesson: 'evs-nur-school-visit', note: 'The school building and gate', lessons: 1 },
-      { name: 'Solar system', lesson: 'evs-ukg-solar-system', note: 'Planets around the sun', lessons: 1 },
-      { name: 'Playground', lesson: 'gk-lkg-playground', note: 'Behind the school', lessons: 0 },
-    ]},
-    { title: 'Built, no lesson yet', dot: 'var(--unused)', lands: [
-      { name: 'Chemistry lab', lesson: 'gk-lkg-chem-lab', note: 'Benches and bottles', lessons: 0 },
-      { name: 'Physics lab', lesson: 'gk-lkg-physics-lab', note: 'Benches and a blackboard', lessons: 0 },
-      { name: 'Hall', lesson: 'gk-lkg-school-hall', note: 'The school corridor', lessons: 0 },
-      { name: 'Kitchen', lesson: 'gk-lkg-school-kitchen', note: 'Where the hot meal is cooked', lessons: 0 },
-      { name: 'Office', lesson: 'gk-lkg-school-office', note: 'Where the register is kept', lessons: 0 },
-    ]},
-  ];
+  const GROUP = {
+    realistic: { title: 'Realistic', dot: 'var(--done)' },
+    half: { title: 'Half done', dot: 'var(--half)' },
+    drawn: { title: 'Still drawn', dot: 'var(--drawn)' },
+    original: { title: 'Original scenes', dot: 'var(--orig)' },
+    unused: { title: 'Built, no lesson yet', dot: 'var(--unused)' },
+  };
+  let GROUPS = [];
 
   let lang = 'en';
   try { lang = localStorage.getItem('vr-lands-lang') || 'en'; } catch {}
 
   function href(land) {
     const q = new URLSearchParams({ lesson: land.lesson, role: 'teacher' });
+    const vr = document.getElementById('start-vr');
+    vr.href = './?' + new URLSearchParams({ lesson: 'lobby', role: 'teacher', ...(lang !== 'en' ? { lang } : {}) });
     if (lang !== 'en') q.set('lang', lang);
     let s = `./?${q}`;
     if (land.review) s += '&review';
     return s;
   }
-
-  function plural(n) { return n === 1 ? '1 lesson' : `${n} lessons`; }
 
   function render() {
     const root = document.getElementById('groups');
@@ -147,9 +123,9 @@
         a.className = 'card';
         a.href = href(land);
         a.innerHTML = `<b></b><span></span><small></small>`;
-        a.querySelector('b').textContent = land.name;
-        a.querySelector('span').textContent = land.note;
-        a.querySelector('small').textContent = plural(land.lessons) + (land.review ? ' · locked, opens for review' : '');
+        a.querySelector('b').textContent = land.name[lang] ?? land.name.en;
+        a.querySelector('span').textContent = land.name.en;
+        a.querySelector('small').textContent = land.review ? 'Locked, opens for review' : '';
         grid.appendChild(a);
       }
       root.appendChild(grid);
@@ -167,7 +143,15 @@
     render();
   });
 
-  render();
+  fetch('lands.json', { cache: 'no-cache' })
+    .then((r) => r.json())
+    .then(({ lands }) => {
+      GROUPS = Object.entries(GROUP).map(([key, g]) => ({ ...g, lands: lands.filter((l) => l.group === key) }));
+      render();
+    })
+    .catch((error) => {
+      document.getElementById('groups').textContent = `Could not load the list of lands: ${error.message}`;
+    });
 </script>
 </body>
 </html>

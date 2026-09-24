@@ -35,6 +35,7 @@ const lessonId = params.get('lesson') ?? 'evs-lkg-farm-yard';
 const lang = params.get('lang') ?? 'en';
 
 document.body.dataset.role = role;
+document.body.dataset.lang = lang;
 
 const scene = document.querySelector('a-scene');
 
