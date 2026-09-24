@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T12:51:24.789Z",
+  "generated": "2026-09-24T12:12:41.894Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -1635,6 +1635,54 @@
       "source": "Poly Pizza — \"Parrot\" by Poly by Google",
       "licence": "CC-BY"
     },
+    "peacockmeshy": {
+      "file": "models/peacockmeshy.glb",
+      "height": 1.2,
+      "width": 0.387,
+      "depth": 1.759,
+      "triangles": 15344,
+      "meshes": 1,
+      "bytes": 788460,
+      "clips": [
+        "preset:idle",
+        "preset:walk"
+      ],
+      "rigged": true,
+      "source": "Meshy — text-to-3D (Meshy 6 Lite), free plan, generated 2026-09-23 (trial, not shipped)",
+      "licence": "CC-BY"
+    },
+    "peacocksketchfab": {
+      "file": "models/peacocksketchfab.glb",
+      "height": 1.2,
+      "width": 1.422,
+      "depth": 0.748,
+      "triangles": 34096,
+      "meshes": 22,
+      "bytes": 1447312,
+      "clips": [
+        "preset:idle",
+        "preset:walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Peacock 3D Model\" by Pratham Ambre",
+      "licence": "CC-BY"
+    },
+    "peacocktripo": {
+      "file": "models/peacocktripo.glb",
+      "height": 1.209,
+      "width": 0.431,
+      "depth": 1.289,
+      "triangles": 14250,
+      "meshes": 1,
+      "bytes": 1168412,
+      "clips": [
+        "preset:idle",
+        "preset:walk"
+      ],
+      "rigged": true,
+      "source": "Tripo AI — text-to-3D, free plan, generated 2026-09-23 (trial, not shipped)",
+      "licence": "CC-BY"
+    },
     "pear": {
       "file": "models/pear.glb",
       "height": 0.11,
@@ -1983,6 +2031,19 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Old Rowboat\" by TooManyDemons",
+      "licence": "CC-BY"
+    },
+    "realbonfire": {
+      "file": "models/realbonfire.glb",
+      "height": 0.5,
+      "width": 0.944,
+      "depth": 0.924,
+      "triangles": 1810,
+      "meshes": 1,
+      "bytes": 350672,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Bonfire\" by ToxaGrom",
       "licence": "CC-BY"
     },
     "realbridge": {
@@ -2547,6 +2608,19 @@
       "source": "Sketchfab — \"Horse\" (28 clips)",
       "licence": "CC-BY"
     },
+    "realigloo": {
+      "file": "models/realigloo.glb",
+      "height": 2,
+      "width": 6.943,
+      "depth": 6.943,
+      "triangles": 902,
+      "meshes": 2,
+      "bytes": 431192,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Igloo\" by Vera4Art",
+      "licence": "CC-BY"
+    },
     "realjeep": {
       "file": "models/realjeep.glb",
       "height": 1.665,
@@ -2817,6 +2891,19 @@
       "source": "Sketchfab — \"parrot rebuilt\" by kenchoo",
       "licence": "CC-BY"
     },
+    "realpeak": {
+      "file": "models/realpeak.glb",
+      "height": 39.997,
+      "width": 171.067,
+      "depth": 170.979,
+      "triangles": 5645,
+      "meshes": 1,
+      "bytes": 439924,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Snow Mountain\" by hkp941111",
+      "licence": "CC-BY"
+    },
     "realpear": {
       "file": "models/realpear.glb",
       "height": 0.1,
@@ -2944,6 +3031,19 @@
       "source": "Sketchfab — \"Animated Rabbit – 3D Animal Model\" by AnimalMesh 3D",
       "licence": "CC-BY"
     },
+    "realrange": {
+      "file": "models/realrange.glb",
+      "height": 40.005,
+      "width": 247.938,
+      "depth": 516.096,
+      "triangles": 8515,
+      "meshes": 2,
+      "bytes": 1442332,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Snow Mountain Pack 01\" by perryfactor6177258",
+      "licence": "CC-BY"
+    },
     "realrhino": {
       "file": "models/realrhino.glb",
       "height": 1.69,
@@ -3041,6 +3141,19 @@
       "source": "Sketchfab — \"Cargo Ship - V2 PBR\" by akbunnyz",
       "licence": "CC-BY"
     },
+    "realsnowman": {
+      "file": "models/realsnowman.glb",
+      "height": 1.45,
+      "width": 1.516,
+      "depth": 0.876,
+      "triangles": 8892,
+      "meshes": 1,
+      "bytes": 246008,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Snowman\" by alixor22",
+      "licence": "CC-BY"
+    },
     "realsparrow": {
       "file": "models/realsparrow.glb",
       "height": 0.13,
@@ -3101,6 +3214,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Indian Office Woman\" by Nodeaxis Interactive",
+      "licence": "CC-BY"
+    },
+    "realtent": {
+      "file": "models/realtent.glb",
+      "height": 1.5,
+      "width": 2.346,
+      "depth": 2.326,
+      "triangles": 553,
+      "meshes": 1,
+      "bytes": 106012,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Tent\" by Tactical_Beard",
       "licence": "CC-BY"
     },
     "realtiger": {
@@ -4403,6 +4529,10 @@
       "demo-snow-s02.mp3": {
         "file": "audio/en/demo-snow-s02.mp3",
         "bytes": 19139
+      },
+      "demo-snow-s03.mp3": {
+        "file": "audio/en/demo-snow-s03.mp3",
+        "bytes": 40037
       },
       "demo-street-s01.mp3": {
         "file": "audio/en/demo-street-s01.mp3",
@@ -6644,6 +6774,10 @@
         "file": "audio/en/evs-ukg-snow-camp-s05.mp3",
         "bytes": 15482
       },
+      "evs-ukg-snow-camp-s06.mp3": {
+        "file": "audio/en/evs-ukg-snow-camp-s06.mp3",
+        "bytes": 40037
+      },
       "evs-ukg-states-india-s01.mp3": {
         "file": "audio/en/evs-ukg-states-india-s01.mp3",
         "bytes": 40350
@@ -8605,6 +8739,10 @@
       "demo-snow-s02.mp3": {
         "file": "audio/hi/demo-snow-s02.mp3",
         "bytes": 13705
+      },
+      "demo-snow-s03.mp3": {
+        "file": "audio/hi/demo-snow-s03.mp3",
+        "bytes": 31886
       },
       "demo-street-s01.mp3": {
         "file": "audio/hi/demo-street-s01.mp3",
@@ -10842,6 +10980,10 @@
         "file": "audio/hi/evs-ukg-snow-camp-s05.mp3",
         "bytes": 12242
       },
+      "evs-ukg-snow-camp-s06.mp3": {
+        "file": "audio/hi/evs-ukg-snow-camp-s06.mp3",
+        "bytes": 31886
+      },
       "evs-ukg-states-india-s01.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s01.mp3",
         "bytes": 28961
@@ -12799,6 +12941,10 @@
       "demo-snow-s02.mp3": {
         "file": "audio/mr/demo-snow-s02.mp3",
         "bytes": 23214
+      },
+      "demo-snow-s03.mp3": {
+        "file": "audio/mr/demo-snow-s03.mp3",
+        "bytes": 43171
       },
       "demo-street-s01.mp3": {
         "file": "audio/mr/demo-street-s01.mp3",
@@ -15036,6 +15182,10 @@
         "file": "audio/mr/evs-ukg-snow-camp-s05.mp3",
         "bytes": 21855
       },
+      "evs-ukg-snow-camp-s06.mp3": {
+        "file": "audio/mr/evs-ukg-snow-camp-s06.mp3",
+        "bytes": 43171
+      },
       "evs-ukg-states-india-s01.mp3": {
         "file": "audio/mr/evs-ukg-states-india-s01.mp3",
         "bytes": 43276
@@ -16993,6 +17143,10 @@
       "demo-snow-s02.mp3": {
         "file": "audio/or/demo-snow-s02.mp3",
         "bytes": 23214
+      },
+      "demo-snow-s03.mp3": {
+        "file": "audio/or/demo-snow-s03.mp3",
+        "bytes": 41813
       },
       "demo-street-s01.mp3": {
         "file": "audio/or/demo-street-s01.mp3",
@@ -19229,6 +19383,10 @@
       "evs-ukg-snow-camp-s05.mp3": {
         "file": "audio/or/evs-ukg-snow-camp-s05.mp3",
         "bytes": 17989
+      },
+      "evs-ukg-snow-camp-s06.mp3": {
+        "file": "audio/or/evs-ukg-snow-camp-s06.mp3",
+        "bytes": 41813
       },
       "evs-ukg-states-india-s01.mp3": {
         "file": "audio/or/evs-ukg-states-india-s01.mp3",

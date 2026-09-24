@@ -30,3 +30,6 @@ raw/*.bin
 # Secrets (the Sketchfab token). Never committed.
 .env
 .env.*
+
+# Firebase deploy cache
+.firebase/

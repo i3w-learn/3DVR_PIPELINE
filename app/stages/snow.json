@@ -25,7 +25,7 @@
   "fog": {
     "color": "#e6eef4",
     "near": 14,
-    "far": 120
+    "far": 170
   },
   "start": {
     "position": "0 1.2 2.4",
@@ -33,20 +33,60 @@
   },
   "props": [
     {
-      "build": "hills",
-      "position": "0 0 0",
-      "rotation": "0 0 0",
+      "model": "realrange",
+      "position": "0.0 -0.3 -88.0",
+      "rotation": "0 90 0",
+      "scale": "0.3 1 0.3",
       "contact": false,
-      "params": {
-        "radius": 95,
-        "count": 14,
-        "height": 34,
-        "width": 36,
-        "color": "#7d8c99",
-        "haze": "#e6eef4",
-        "capped": true,
-        "seed": 4
-      }
+      "castShadow": false
+    },
+    {
+      "model": "realrange",
+      "position": "89.9 -0.3 3.1",
+      "rotation": "0 182 0",
+      "scale": "0.3 1 0.3",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realrange",
+      "position": "3.0 -0.3 85.9",
+      "rotation": "0 268 0",
+      "scale": "0.3 1 0.3",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realrange",
+      "position": "-91.9 -0.3 3.2",
+      "rotation": "0 358 0",
+      "scale": "0.3 1 0.3",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realpeak",
+      "position": "69.1 -0.3 -66.7",
+      "rotation": "0 138 0",
+      "scale": "0.35 1.15 0.35",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realpeak",
+      "position": "33.5 -0.3 92.1",
+      "rotation": "0 120 0",
+      "scale": "0.35 1 0.35",
+      "contact": false,
+      "castShadow": false
+    },
+    {
+      "model": "realpeak",
+      "position": "-82.3 -0.3 -47.5",
+      "rotation": "0 180 0",
+      "scale": "0.35 1.1 0.35",
+      "contact": false,
+      "castShadow": false
     },
     {
       "build": "treeline",
@@ -99,7 +139,7 @@
     },
     {
       "model": "realfir",
-      "position": "6.80 0 -4.20",
+      "position": "10.00 0 -7.20",
       "rotation": "0 192 0",
       "scale": "0.72 0.72 0.72",
       "contact": false

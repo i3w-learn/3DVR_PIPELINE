@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VR Lands</title>
+<meta name="description" content="Every land in the VR learning programme, one tap to open.">
+<!--
+  The front door for a reviewer. Every land the programme has, grouped by how
+  finished it looks, each one a tap away. The links carry role=teacher so a
+  laptop shows the lesson straight away instead of waiting for a headset pair.
+  Nothing here is needed by a child; a headset never opens this page.
+-->
+<style>
+  :root {
+    --bg: #f4f6f9; --card: #ffffff; --ink: #14203a; --muted: #5c6b85;
+    --line: #dfe5ee; --accent: #1f6feb; --accent-ink: #ffffff;
+    --done: #1a8f5a; --half: #c77d12; --drawn: #a63d3d; --orig: #5b52c9; --unused: #7a8699;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1522; --card: #171f30; --ink: #eef2f8; --muted: #9aa8c0;
+      --line: #263049; --accent: #5b9cff; --accent-ink: #0b1220;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1522; --card: #171f30; --ink: #eef2f8; --muted: #9aa8c0;
+    --line: #263049; --accent: #5b9cff; --accent-ink: #0b1220;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.45 -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  }
+  main { max-width: 1080px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 8px; }
+  h1 { font-size: 28px; margin: 0; letter-spacing: -0.01em; }
+  header p { margin: 0; color: var(--muted); }
+  .lang { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0 24px; }
+  .lang button {
+    border: 1px solid var(--line); background: var(--card); color: var(--ink);
+    padding: 6px 12px; border-radius: 999px; font: inherit; cursor: pointer;
+  }
+  .lang button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 28px 0 10px; display: flex; align-items: center; gap: 8px; }
+  h2::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--dot, var(--muted)); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+  a.card {
+    display: block; background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px 16px; color: inherit; text-decoration: none; min-height: 88px;
+    transition: transform 120ms ease, box-shadow 120ms ease;
+  }
+  a.card:hover, a.card:focus-visible { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(20, 32, 58, 0.12); outline: none; border-color: var(--accent); }
+  .card b { display: block; font-size: 18px; margin-bottom: 4px; }
+  .card span { color: var(--muted); font-size: 14px; }
+  .card small { display: block; margin-top: 8px; color: var(--muted); font-size: 12px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+  footer code { background: var(--card); border: 1px solid var(--line); padding: 1px 6px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>VR Lands</h1>
+    <p>Every place a lesson can happen. Tap one to walk in.</p>
+  </header>
+
+  <div class="lang" role="group" aria-label="Narration language">
+    <button data-lang="en" aria-pressed="true">English</button>
+    <button data-lang="hi" aria-pressed="false">हिन्दी</button>
+    <button data-lang="mr" aria-pressed="false">मराठी</button>
+    <button data-lang="or" aria-pressed="false">ଓଡ଼ିଆ</button>
+  </div>
+
+  <div id="groups"></div>
+
+  <footer>
+    Add <code>&amp;lang=hi</code> to any link to switch the voice. Locked lessons open here with <code>&amp;review</code>; they still need sign-off before a child sees them.
+  </footer>
+</main>
+
+<script>
+  const GROUPS = [
+    { title: 'Realistic', dot: 'var(--done)', lands: [
+      { name: 'Forest', lesson: 'demo-peacock', note: 'Peacocks under real trees', lessons: 3 },
+      { name: 'Road', lesson: 'evs-lkg-professions', note: 'Real vehicles and people on tarmac', lessons: 2 },
+      { name: 'Street', lesson: 'demo-street', note: 'Shops on both sides', lessons: 2 },
+      { name: 'India', lesson: 'demo-india', note: 'Courtyard with the wheel and flag', lessons: 3 },
+      { name: 'Snow', lesson: 'demo-snow', note: 'Mountains, camp, igloo, fire', lessons: 1 },
+      { name: 'Pond', lesson: 'demo-water', note: 'Ducks on moving water', lessons: 1 },
+      { name: 'River', lesson: 'evs-ukg-river-crossing', note: 'Bridge, boat and crossing', lessons: 1, review: true },
+      { name: 'Maidan', lesson: 'evs-ukg-places-of-worship', note: 'Places of worship on open ground', lessons: 1, review: true },
+    ]},
+    { title: 'Half done', dot: 'var(--half)', lands: [
+      { name: 'Open ground', lesson: 'evs-lkg-farm-animals', note: 'Real animals, a few drawn props left', lessons: 13 },
+      { name: 'Dinosaur park', lesson: 'evs-ukg-dinosaur-park', note: 'Dinosaur models behind a fence', lessons: 1, review: true },
+    ]},
+    { title: 'Still drawn', dot: 'var(--drawn)', lands: [
+      { name: 'Tabletop room', lesson: 'eng-lkg-hot-cold', note: 'Most lessons play here', lessons: 59 },
+      { name: 'Home', lesson: 'demo-home', note: 'A room with bed, cupboard and fan', lessons: 5 },
+      { name: 'Classroom', lesson: 'gk-lkg-our-classroom', note: 'Blackboard, mats, a teacher', lessons: 4 },
+      { name: 'Under the sea', lesson: 'eng-nur-water-animals', note: 'Fish, whale, octopus, crab', lessons: 1 },
+      { name: 'Sky', lesson: 'demo-sky', note: 'A balloon ride above fields', lessons: 1 },
+      { name: 'Serpentarium', lesson: 'evs-ukg-serpentarium', note: 'Snakes behind glass', lessons: 1, review: true },
+    ]},
+    { title: 'Original scenes', dot: 'var(--orig)', lands: [
+      { name: 'Farmyard', lesson: 'eng-lkg-animal-products', note: 'The first scene, unchanged', lessons: 8 },
+      { name: 'School', lesson: 'evs-nur-school-visit', note: 'The school building and gate', lessons: 1 },
+      { name: 'Solar system', lesson: 'evs-ukg-solar-system', note: 'Planets around the sun', lessons: 1 },
+      { name: 'Playground', lesson: 'gk-lkg-playground', note: 'Behind the school', lessons: 0 },
+    ]},
+    { title: 'Built, no lesson yet', dot: 'var(--unused)', lands: [
+      { name: 'Chemistry lab', lesson: 'gk-lkg-chem-lab', note: 'Benches and bottles', lessons: 0 },
+      { name: 'Physics lab', lesson: 'gk-lkg-physics-lab', note: 'Benches and a blackboard', lessons: 0 },
+      { name: 'Hall', lesson: 'gk-lkg-school-hall', note: 'The school corridor', lessons: 0 },
+      { name: 'Kitchen', lesson: 'gk-lkg-school-kitchen', note: 'Where the hot meal is cooked', lessons: 0 },
+      { name: 'Office', lesson: 'gk-lkg-school-office', note: 'Where the register is kept', lessons: 0 },
+    ]},
+  ];
+
+  let lang = 'en';
+  try { lang = localStorage.getItem('vr-lands-lang') || 'en'; } catch {}
+
+  function href(land) {
+    const q = new URLSearchParams({ lesson: land.lesson, role: 'teacher' });
+    if (lang !== 'en') q.set('lang', lang);
+    let s = `./?${q}`;
+    if (land.review) s += '&review';
+    return s;
+  }
+
+  function plural(n) { return n === 1 ? '1 lesson' : `${n} lessons`; }
+
+  function render() {
+    const root = document.getElementById('groups');
+    root.innerHTML = '';
+    for (const group of GROUPS) {
+      const h = document.createElement('h2');
+      h.textContent = group.title;
+      h.style.setProperty('--dot', group.dot);
+      root.appendChild(h);
+      const grid = document.createElement('div');
+      grid.className = 'grid';
+      for (const land of group.lands) {
+        const a = document.createElement('a');
+        a.className = 'card';
+        a.href = href(land);
+        a.innerHTML = `<b></b><span></span><small></small>`;
+        a.querySelector('b').textContent = land.name;
+        a.querySelector('span').textContent = land.note;
+        a.querySelector('small').textContent = plural(land.lessons) + (land.review ? ' · locked, opens for review' : '');
+        grid.appendChild(a);
+      }
+      root.appendChild(grid);
+    }
+    for (const b of document.querySelectorAll('.lang button')) {
+      b.setAttribute('aria-pressed', String(b.dataset.lang === lang));
+    }
+  }
+
+  document.querySelector('.lang').addEventListener('click', (e) => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    lang = b.dataset.lang;
+    try { localStorage.setItem('vr-lands-lang', lang); } catch {}
+    render();
+  });
+
+  render();
+</script>
+</body>
+</html>

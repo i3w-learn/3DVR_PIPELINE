@@ -1,0 +1,12 @@
+{
+  "id": "realpeak",
+  "source": "Sketchfab — \"Snow Mountain\" by hkp941111",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/snow-mountain-e84a8e5edb2040c591be36350e2536f5",
+  "targetHeight": 40,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.4,
+  "simplifyError": 0.02,
+  "join": true
+}

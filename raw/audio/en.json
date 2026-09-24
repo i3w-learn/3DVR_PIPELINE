@@ -49,6 +49,11 @@
     "spoken": "Our national symbols will stand on these plinths.",
     "provider": "indic"
   },
+  "demo-peacock-s01.mp3": {
+    "written": "Four peacocks. Drawn, Tripo, Meshy, Sketchfab. The last three walk.",
+    "spoken": "Four peacocks. Drawn, Tripo, Meshy, Sketchfab. The last three walk.",
+    "provider": "indic"
+  },
   "demo-sky-s01.mp3": {
     "written": "We are in the balloon. Look down — the ground is far below.",
     "spoken": "We are in the balloon. Look down, the ground is far below.",
@@ -67,6 +72,11 @@
   "demo-snow-s02.mp3": {
     "written": "Here is our tent, and here is the fire keeping us warm.",
     "spoken": "Here is our tent, and here is the fire keeping us warm.",
+    "provider": "indic"
+  },
+  "demo-snow-s03.mp3": {
+    "written": "This is an igloo. It is a house made of snow blocks. In very cold places, people stay warm inside it.",
+    "spoken": "This is an igloo. It is a house made of snow blocks. In very cold places, people stay warm inside it.",
     "provider": "indic"
   },
   "demo-street-s01.mp3": {
@@ -2862,6 +2872,11 @@
   "evs-ukg-snow-camp-s05.mp3": {
     "written": "And look what we made — a snowman!",
     "spoken": "And look what we made, a snowman!",
+    "provider": "indic"
+  },
+  "evs-ukg-snow-camp-s06.mp3": {
+    "written": "This is an igloo. It is a house made of snow blocks. In very cold places, people stay warm inside it.",
+    "spoken": "This is an igloo. It is a house made of snow blocks. In very cold places, people stay warm inside it.",
     "provider": "indic"
   },
   "evs-ukg-states-india-s01.mp3": {

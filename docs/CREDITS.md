@@ -73,6 +73,9 @@ Their authors must be credited wherever this application is distributed.
 - **owl** — Poly Pizza — "Great horned owl" by Poly by Google
 - **panda** — Poly Pizza — "Panda" by Poly by Google
 - **parrot** — Poly Pizza — "Parrot" by Poly by Google
+- **peacockmeshy** — Meshy — text-to-3D (Meshy 6 Lite), free plan, generated 2026-09-23 (trial, not shipped)
+- **peacocksketchfab** — Sketchfab — "Peacock 3D Model" by Pratham Ambre
+- **peacocktripo** — Tripo AI — text-to-3D, free plan, generated 2026-09-23 (trial, not shipped)
 - **penguin** — Poly Pizza — "Penguin" by Poly by Google
 - **piano** — Poly Pizza — "Piano" by Poly by Google
 - **pigeon** — Poly Pizza — "Dove" by Poly by Google
@@ -89,6 +92,7 @@ Their authors must be credited wherever this application is distributed.
 - **realbear** — Sketchfab — "Realistic Animated Bear 3D Model" by WildMesh 3D
 - **realbee** — Sketchfab — "Bee" by 7SkyArtist
 - **realboat** — Sketchfab — "Old Rowboat" by TooManyDemons
+- **realbonfire** — Sketchfab — "Bonfire" by ToxaGrom
 - **realbridge** — Sketchfab — "Old bridge" by NoodlePoodle
 - **realbrinjal** — Sketchfab — "Eggplant (Game Ready / 2K PBR)" by Meerschaum Digital
 - **realbuffalo** — Sketchfab — "Water Buffalo" by kenchoo
@@ -128,6 +132,7 @@ Their authors must be credited wherever this application is distributed.
 - **realgrasshopper** — Sketchfab — "Low Poly Grasshopper ( Animated 3D Asset )" by Pascal Chaumette
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
 - **realhorse** — Sketchfab — "Horse" (28 clips)
+- **realigloo** — Sketchfab — "Igloo" by Vera4Art
 - **realjeep** — Sketchfab — "Jeep" by DJMaesen
 - **realjungletree** — Sketchfab — "Tree GN" by Node_λrt
 - **realjungletreefar** — Sketchfab — "Tree GN" by Node_λrt
@@ -148,6 +153,7 @@ Their authors must be credited wherever this application is distributed.
 - **realpalms** — Sketchfab — "Coconut Palm" by evolveduk
 - **realparasaur** — Sketchfab — "Parasaurolophus" by kenchoo
 - **realparrot** — Sketchfab — "parrot rebuilt" by kenchoo
+- **realpeak** — Sketchfab — "Snow Mountain" by hkp941111
 - **realpear** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realpigeon** — Sketchfab — "Animated Pigeon – 3D Animal Model" by AnimalMesh 3D
 - **realpineapple** — Sketchfab — "Organic Pineapple (MD2 Variant)" by JFN
@@ -157,6 +163,7 @@ Their authors must be credited wherever this application is distributed.
 - **realpumpkin** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realpuppy** — Sketchfab — "Dog Puppy" by kenchoo
 - **realrabbit** — Sketchfab — "Animated Rabbit – 3D Animal Model" by AnimalMesh 3D
+- **realrange** — Sketchfab — "Snow Mountain Pack 01" by perryfactor6177258
 - **realrhino** — Sketchfab — "Animated Rhinoceros Walking Animal Loop" by LasquetiSpice
 - **realrocks** — Sketchfab — "Lowpoly Rocks - Free Download" by Loïc Norgeot
 - **realsailboat** — Sketchfab — "Sailboat" by Sergei
@@ -164,10 +171,12 @@ Their authors must be credited wherever this application is distributed.
 - **realseahorse** — Sketchfab — "Smoothie 3D + Blender Seahorse" by Jimmy Gunawan
 - **realsheep** — Sketchfab — "Sheep" by kenchoo
 - **realship** — Sketchfab — "Cargo Ship - V2 PBR" by akbunnyz
+- **realsnowman** — Sketchfab — "Snowman" by alixor22
 - **realsparrow** — Sketchfab — "Animated Sparrow – 3D Animal Model" by AnimalMesh 3D
 - **realstegosaurus** — Sketchfab — "PBR Stegasaurus (Animated)" by Ferocious Industries
 - **realstrawberry** — Sketchfab — "Forest Strawberry - Macro scan" by Nik
 - **realteacher** — Sketchfab — "Indian Office Woman" by Nodeaxis Interactive
+- **realtent** — Sketchfab — "Tent" by Tactical_Beard
 - **realtiger** — Sketchfab — "Tiger" by Blender Artist
 - **realtomato** — Sketchfab — "Day#19: Tomato" by JuanG3D
 - **realtractor** — Sketchfab — "Tractor" by le0tard

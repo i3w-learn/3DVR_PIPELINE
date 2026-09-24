@@ -5,19 +5,15 @@
   "objects": [
     {
       "id": "tent",
-      "build": "tent",
-      "params": {
-        "width": 2.9,
-        "depth": 3.4,
-        "height": 2
-      },
       "position": "-2.600 0.000 -5.200",
-      "rotation": "0 32 0",
+      "rotation": "0 302 0",
       "name": {
         "en": "Tent",
         "hi": "तंबू"
       },
-      "ring": 1.9
+      "ring": 1.9,
+      "model": "realtent",
+      "scale": "1.3 1.3 1.3"
     },
     {
       "id": "fire",
@@ -34,32 +30,38 @@
     },
     {
       "id": "snowman",
-      "build": "snowman",
-      "params": {
-        "height": 1.45
-      },
       "position": "2.700 0.000 -4.600",
       "rotation": "0 -24 0",
       "name": {
         "en": "Snowman",
         "hi": "स्नोमैन"
       },
-      "ring": 0.7
+      "ring": 0.9,
+      "model": "realsnowman"
     },
     {
       "id": "pinetree",
-      "build": "pine",
-      "params": {
-        "height": 4.6,
-        "capped": true,
-        "seed": 12
-      },
       "position": "-0.400 0.000 -8.500",
       "name": {
         "en": "Pine tree",
         "hi": "देवदार"
       },
-      "ring": 1.3
+      "ring": 1.2,
+      "model": "realfir"
+    },
+    {
+      "id": "igloo",
+      "model": "realigloo",
+      "position": "5.600 0.000 -6.400",
+      "rotation": "0 -30 0",
+      "scale": "0.62 0.8 0.62",
+      "name": {
+        "en": "Igloo",
+        "hi": "इग्लू",
+        "mr": "इग्लू",
+        "or": "ଇଗ୍ଲୁ"
+      },
+      "ring": 2.4
     }
   ],
   "steps": [
@@ -82,6 +84,17 @@
         "or": "ଏଠି ଆମ ତମ୍ବୁ, ଆଉ ଏଠି ଆମକୁ ଉଷୁମ ରଖୁଥିବା ନିଆଁ।"
       },
       "audio": "demo-snow-s02.mp3"
+    },
+    {
+      "highlight": "igloo",
+      "duration": 9000,
+      "script": {
+        "hi": "यह इग्लू है। यह बर्फ़ के टुकड़ों से बना घर है। बहुत ठंडी जगहों में लोग इसके अंदर गरम रहते हैं।",
+        "en": "This is an igloo. It is a house made of snow blocks. In very cold places, people stay warm inside it.",
+        "mr": "हे इग्लू आहे. बर्फाच्या ठोकळ्यांनी बनवलेलं घर. खूप थंड ठिकाणी लोक याच्या आत उबदार राहतात.",
+        "or": "ଏହା ଇଗ୍ଲୁ। ଏହା ବରଫ ଖଣ୍ଡରେ ତିଆରି ଘର। ବହୁତ ଥଣ୍ଡା ଜାଗାରେ ଲୋକେ ଏହା ଭିତରେ ଉଷୁମ ରହନ୍ତି।"
+      },
+      "audio": "demo-snow-s03.mp3"
     }
   ]
 }
