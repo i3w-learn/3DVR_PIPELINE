@@ -42,6 +42,7 @@ import './sea.js';
 import './shapes.js';
 import './sky.js';
 import './snow.js';
+import './volcano.js';
 import './space.js';
 import './sports.js';
 import './street.js';

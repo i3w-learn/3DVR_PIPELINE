@@ -32,7 +32,7 @@ function homeTile(elements) {
   if (tile) return tile;
   tile = document.createElement('a-entity');
   tile.setAttribute('id', 'home-tile');
-  tile.setAttribute('position', '-0.6 -0.42 -0.95');
+  tile.setAttribute('position', '-0.85 -0.5 -1.0');
   tile.setAttribute('rotation', '22 28 0');
   const face = document.createElement('a-entity');
   face.classList.add('clickable');

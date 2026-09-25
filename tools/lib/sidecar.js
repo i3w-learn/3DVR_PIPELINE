@@ -105,6 +105,9 @@ export async function readSidecar(id) {
     fit: data.fit === 'longest' ? 'longest' : 'height',
     // Opt out of the flat, non-metal art style. Almost nothing should.
     metallic: data.metallic === true,
+    // Multiplier on every material's glow. A scan whose emissive map is its
+    // whole albedo lights up like a lamp; 0.3 keeps the lava and dims the rock.
+    emissive: typeof data.emissive === 'number' ? data.emissive : null,
     // "mask" turns blended cut-outs (leaves, grass cards) into alpha-tested
     // ones: cheaper, sorted-free, and they cast shadows properly.
     alphaMode: data.alphaMode === 'mask' ? 'mask' : null,

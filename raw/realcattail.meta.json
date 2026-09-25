@@ -1,0 +1,12 @@
+{
+  "id": "realcattail",
+  "source": "Sketchfab — \"Cattails\" by AlkaliDragon",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/cattails-2f35ed566d3d4d74abd6e7c48d82f8eb",
+  "targetHeight": 1.6,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.5,
+  "simplifyError": 0.02,
+  "join": true
+}

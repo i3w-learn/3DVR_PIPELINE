@@ -104,8 +104,10 @@ Their authors must be credited wherever this application is distributed.
 - **realcar** — Sketchfab — "Milano '95 - Low poly model" by Daniel Zhabotinsky
 - **realcarrot** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realcat** — Sketchfab — "An Animated Cat" by Evil_Katz
+- **realcattail** — Sketchfab — "Cattails" by AlkaliDragon
 - **realcauliflower** — Sketchfab — "Cauliflower" by RG36c
 - **realchick** — Sketchfab — "Animated Chick" by FourthGreen
+- **realcliff** — Sketchfab — "Cliff" by DJMaesen
 - **realclownfish** — Sketchfab — "Clownfish" by kenchoo
 - **realcoconut** — Sketchfab — "coconut" by viettextures
 - **realcorn** — Sketchfab — "Real Corn On The Cob" by EdgarEncinas2022
@@ -143,6 +145,7 @@ Their authors must be credited wherever this application is distributed.
 - **realmango** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realmangotree** — Sketchfab — "Mang Tree-01" by ASMA3D
 - **realmangotreefar** — Sketchfab — "Mang Tree-01" by ASMA3D
+- **realmesa** — Sketchfab — "Table Mountain" by re-lar
 - **realmonkey** — Sketchfab — "Low poly monkey animal 3d model free" by iRahulRajput
 - **realoak** — Sketchfab — "Oak tree" by massive-graphisme
 - **realoakfar** — Sketchfab — "Oak tree" by massive-graphisme
@@ -164,6 +167,7 @@ Their authors must be credited wherever this application is distributed.
 - **realpuppy** — Sketchfab — "Dog Puppy" by kenchoo
 - **realrabbit** — Sketchfab — "Animated Rabbit – 3D Animal Model" by AnimalMesh 3D
 - **realrange** — Sketchfab — "Snow Mountain Pack 01" by perryfactor6177258
+- **realreeds** — Sketchfab — "Reed Plants Pack" by Nicholas-3D
 - **realrhino** — Sketchfab — "Animated Rhinoceros Walking Animal Loop" by LasquetiSpice
 - **realrocks** — Sketchfab — "Lowpoly Rocks - Free Download" by Loïc Norgeot
 - **realsailboat** — Sketchfab — "Sailboat" by Sergei
@@ -175,6 +179,7 @@ Their authors must be credited wherever this application is distributed.
 - **realsparrow** — Sketchfab — "Animated Sparrow – 3D Animal Model" by AnimalMesh 3D
 - **realstegosaurus** — Sketchfab — "PBR Stegasaurus (Animated)" by Ferocious Industries
 - **realstrawberry** — Sketchfab — "Forest Strawberry - Macro scan" by Nik
+- **realstumps** — Sketchfab — "Scanned Stump Collection" by That's Cool Jack
 - **realteacher** — Sketchfab — "Indian Office Woman" by Nodeaxis Interactive
 - **realtent** — Sketchfab — "Tent" by Tactical_Beard
 - **realtiger** — Sketchfab — "Tiger" by Blender Artist
@@ -184,6 +189,7 @@ Their authors must be credited wherever this application is distributed.
 - **realtrex** — Sketchfab — "Animated Tyrannosaurus Rex Dinosaur Running Loop" by LasquetiSpice
 - **realtriceratops** — Sketchfab — "Triceratop" by kenchoo
 - **realturtle** — Sketchfab — "Sea Turtle" by Eloi
+- **realvolcano** — Sketchfab — "Vulcão em erupção - Erupting volcano" by Walter Araujo
 - **realwatermelon** — Sketchfab — "Game Ready Fruit Asset Pack" by Meerschaum Digital
 - **realwhale** — Sketchfab — "Ballena" by pepetrincado
 - **realwoman** — Sketchfab — "Sareewoman" by dk8026854
