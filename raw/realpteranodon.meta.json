@@ -1,0 +1,14 @@
+{
+  "id": "realpteranodon",
+  "source": "Sketchfab — \"Pteranodon (Animated)\" by Chistodrako._.",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/pteranodon-animated-7d7683df41d1405283f160e81a5dff1b",
+  "targetHeight": 1.6,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "flying"
+  ],
+  "simplify": 0.4,
+  "simplifyError": 0.02
+}

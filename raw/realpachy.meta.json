@@ -1,0 +1,16 @@
+{
+  "id": "realpachy",
+  "source": "Sketchfab — \"PBR Pachycephalasaurus (Animated)\" by Ferocious Industries",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/pbr-pachycephalasaurus-animated-6eea5cee4afa4730bf75c6329a43e56d",
+  "targetHeight": 2.4,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "IdleA",
+    "EatLow",
+    "Walk"
+  ],
+  "simplify": 0.3,
+  "simplifyError": 0.02
+}

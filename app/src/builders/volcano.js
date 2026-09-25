@@ -17,6 +17,59 @@
 /** A soft lump of smoke: a low-detail sphere, so a plume of forty is cheap. */
 const PUFF = new THREE.IcosahedronGeometry(1, 1);
 
+
+/**
+ * Smoke that is soft at the edges.
+ *
+ * A grey sphere is a ball. The same sphere fading out where its surface turns
+ * away from the eye is a cloud: the silhouette dissolves and neighbouring
+ * puffs merge. One small shader, lit by a single sun direction so the column
+ * is brighter on the sunny side, with the per-puff colour the plume sets.
+ */
+function smokeMaterial() {
+  return new THREE.ShaderMaterial({
+    uniforms: {
+      sun: { value: new THREE.Vector3(0.5, 0.8, 0.3).normalize() },
+      opacity: { value: 0.78 },
+    },
+    vertexShader: /* glsl */ `
+      varying vec3 vNormal;
+      varying vec3 vView;
+      varying vec3 vTint;
+      void main() {
+        vec3 tint = vec3(1.0);
+        #ifdef USE_INSTANCING_COLOR
+          tint = instanceColor;
+        #endif
+        vTint = tint;
+        mat4 model = modelMatrix;
+        #ifdef USE_INSTANCING
+          model = modelMatrix * instanceMatrix;
+        #endif
+        vec4 world = model * vec4(position, 1.0);
+        vNormal = normalize(mat3(model) * normal);
+        vView = normalize(cameraPosition - world.xyz);
+        gl_Position = projectionMatrix * viewMatrix * world;
+      }
+    `,
+    fragmentShader: /* glsl */ `
+      uniform vec3 sun;
+      uniform float opacity;
+      varying vec3 vNormal;
+      varying vec3 vView;
+      varying vec3 vTint;
+      void main() {
+        float lit = 0.7 + 0.4 * max(0.0, dot(normalize(vNormal), sun));
+        float edge = max(0.0, dot(normalize(vNormal), normalize(vView)));
+        float a = smoothstep(0.05, 0.75, edge) * opacity;
+        gl_FragColor = vec4(vTint * lit, a);
+      }
+    `,
+    transparent: true,
+    depthWrite: false,
+  });
+}
+
 AFRAME.registerComponent('eruption', {
   schema: {
     /** How high the plume climbs above the crater, in metres. */
@@ -25,8 +78,8 @@ AFRAME.registerComponent('eruption', {
     puffs: { type: 'number', default: 40 },
     /** Which way the wind leans the column, in metres of drift at the top. */
     wind: { type: 'vec2', default: { x: 18, y: 4 } },
-    smoke: { type: 'color', default: '#3f3c3a' },
-    ash: { type: 'color', default: '#8a8580' },
+    smoke: { type: 'color', default: '#6a625c' },
+    ash: { type: 'color', default: '#b3aca5' },
     glow: { type: 'color', default: '#ff5a1a' },
     /** Lumps of lava in the air at once. */
     bombs: { type: 'number', default: 7 },
@@ -53,17 +106,13 @@ AFRAME.registerComponent('eruption', {
     // mesh for all of them: forty puffs, one draw call.
     this.smokeColor = new THREE.Color(smoke);
     this.ashColor = new THREE.Color(ash);
-    this.plume = new THREE.InstancedMesh(
-      PUFF,
-      new THREE.MeshLambertMaterial({ color: '#ffffff', transparent: true, opacity: 0.82, depthWrite: false }),
-      puffs
-    );
+    this.plume = new THREE.InstancedMesh(PUFF, smokeMaterial(), puffs);
     this.plume.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
     this.puffs = [];
     for (let i = 0; i < puffs; i += 1) {
       this.puffs.push({
         life: i / puffs, // staggered, so the column is full from the first frame
-        rate: 0.05 + Math.random() * 0.04,
+        rate: 0.04 + Math.random() * 0.03,
         spin: Math.random() * Math.PI * 2,
         wobble: Math.random() * Math.PI * 2,
         size: 0.8 + Math.random() * 0.5,
@@ -89,7 +138,7 @@ AFRAME.registerComponent('eruption', {
     // Lava bombs: thrown up in arcs, falling back on the slopes. Instanced too.
     this.rocks = new THREE.InstancedMesh(
       new THREE.IcosahedronGeometry(1, 0),
-      new THREE.MeshBasicMaterial({ color: '#ffb347' }),
+      new THREE.MeshBasicMaterial({ color: '#e0521a' }),
       bombs
     );
     this.rocks.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
@@ -114,7 +163,7 @@ AFRAME.registerComponent('eruption', {
     u.vx = Math.cos(angle) * spread;
     u.vz = Math.sin(angle) * spread;
     u.vy = 28 + Math.random() * 16;
-    u.size = mouth * (0.08 + Math.random() * 0.08);
+    u.size = mouth * (0.05 + Math.random() * 0.05);
     // Falls to the slope, which is below the crater; a little past the apex.
     u.flight = (2 * u.vy) / 20 * (1.15 + Math.random() * 0.4);
     u.t = 0;
@@ -136,7 +185,7 @@ AFRAME.registerComponent('eruption', {
       // Fast out of the mouth, slowing as it spreads; leaning with the wind.
       const rise = 1 - (1 - l) * (1 - l);
       const y = rise * height;
-      const spread = mouth * 0.5 + l * l * height * 0.5;
+      const spread = mouth * 0.6 + l * l * height * 0.7;
       const wob = Math.sin(t * 0.6 + u.wobble) * mouth * 0.15;
       dummy.position.set(
         Math.cos(u.spin) * spread * 0.5 + wind.x * l * l + wob,
@@ -146,7 +195,7 @@ AFRAME.registerComponent('eruption', {
       // No per-instance opacity, so a puff fades by shrinking away at the end
       // of its life and growing in at the start.
       const fade = l < 0.08 ? l / 0.08 : 1 - Math.max(0, (l - 0.6) / 0.4);
-      const s = (mouth * 0.45 + l * height * 0.24) * u.size * (0.2 + 0.8 * fade);
+      const s = (mouth * 0.55 + l * height * 0.3) * u.size * (0.25 + 0.75 * fade);
       dummy.scale.set(s, s * 0.85, s);
       dummy.updateMatrix();
       this.plume.setMatrixAt(i, dummy.matrix);

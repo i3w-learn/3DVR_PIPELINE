@@ -152,6 +152,7 @@ Their authors must be credited wherever this application is distributed.
 - **realonion** — Sketchfab — "Onion scan" by epipolar
 - **realorange** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realowl** — Sketchfab — "Common Barn Owl" by Innovation Studio
+- **realpachy** — Sketchfab — "PBR Pachycephalasaurus (Animated)" by Ferocious Industries
 - **realpalm** — Sketchfab — "Palm Tree Realistic" by 00amza
 - **realpalms** — Sketchfab — "Coconut Palm" by evolveduk
 - **realparasaur** — Sketchfab — "Parasaurolophus" by kenchoo
@@ -163,10 +164,12 @@ Their authors must be credited wherever this application is distributed.
 - **realpolice** — Sketchfab — "Indian police" by Polymount
 - **realpolicecar** — Sketchfab — "Fairheaven LT '80 Cop Cruiser - Low poly model" by Daniel Zhabotinsky
 - **realpotato** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
+- **realpteranodon** — Sketchfab — "Pteranodon (Animated)" by Chistodrako._.
 - **realpumpkin** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realpuppy** — Sketchfab — "Dog Puppy" by kenchoo
 - **realrabbit** — Sketchfab — "Animated Rabbit – 3D Animal Model" by AnimalMesh 3D
 - **realrange** — Sketchfab — "Snow Mountain Pack 01" by perryfactor6177258
+- **realraptor** — Sketchfab — "PBR Velociraptor (Animated)" by Ferocious Industries
 - **realreeds** — Sketchfab — "Reed Plants Pack" by Nicholas-3D
 - **realrhino** — Sketchfab — "Animated Rhinoceros Walking Animal Loop" by LasquetiSpice
 - **realrocks** — Sketchfab — "Lowpoly Rocks - Free Download" by Loïc Norgeot
@@ -237,7 +240,10 @@ Their authors must be credited wherever this application is distributed.
 - **sun.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_sun.jpg
 - **uranus.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_uranus.jpg
 - **venus.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_venus_surface.jpg
+- **dinogrowl.mp3** — Openverse — "Baby Dinosaur" by FK_Prod
+- **dinoroar.mp3** — Openverse — "Large Dinosaur Roar" by BESTROFLMAN
 - **goat.mp3** — Openverse — "Baby Goat Bleating" by OBXJohn
+- **pteranodon.mp3** — Openverse — "Pterodactyl by Louie the Cat.wav" by bunker2001
 
 ## Public domain (CC0)
 
@@ -245,6 +251,7 @@ No attribution is required for these. They are listed for the record.
 
 - Kenney — Food Kit 2.0
 - Kenney — Nature Kit 2.1
+- Openverse — "Alien Raptor Screeching" by Scpsea
 - Openverse — "Bee Buzzing" by JonCon_Library
 - Openverse — "Cat meow" by philsapphire
 - Openverse — "Cow - Moo 5 - 96kHz.wav" by JarredGibb
@@ -255,6 +262,7 @@ No attribution is required for these. They are listed for the record.
 - Openverse — "Frog croaking sound effect" by betterchinese
 - Openverse — "Horse" by poodaddy69
 - Openverse — "Rooster crow" by jsbarrett
+- Openverse — "Scary Monster Roar #2" by NicknameLarry
 - Openverse — "White-crowned Sparrow Chirp" by Zott820
 - Openverse — "crow CAWS" by storyofthelie
 - Openverse — "owl hoot" by gadzooks

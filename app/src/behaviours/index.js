@@ -19,3 +19,4 @@ import './tap-target.js';
 import './view-fade.js';
 import './viewer-rig.js';
 import './wander.js';
+import './orbit.js';

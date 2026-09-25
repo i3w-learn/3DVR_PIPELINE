@@ -203,8 +203,13 @@ export const RULES = [
       const forest = (resolvedStage.props ?? [])
         .filter((prop) => prop.build === 'treeline')
         .reduce((sum, prop) => sum + (library.models[prop.params?.model]?.triangles ?? 0) * (prop.params?.count ?? 0), 0) / 2;
+      // A grass field is drawn clumps, twelve triangles each, batched and
+      // wedged like the tree line — so counted the same way, at half.
+      const grass = (resolvedStage.props ?? [])
+        .filter((prop) => prop.build === 'grassfield')
+        .reduce((sum, prop) => sum + 12 * (prop.params?.count ?? 300), 0) / 2;
 
-      const geometry = placed + forest;
+      const geometry = placed + forest + grass;
 
       // Only shadow casters are drawn twice. A prop with `castShadow: false`
       // is submitted once, which is the whole point of turning it off.

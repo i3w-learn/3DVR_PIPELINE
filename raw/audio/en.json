@@ -2450,6 +2450,21 @@
     "provider": "indic"
   },
   "evs-ukg-dinosaur-park-s08.mp3": {
+    "written": "This is Pachycephalosaurus. It had a thick, round head, like a helmet.",
+    "spoken": "This is Pachycephalosaurus. It had a thick, round head, like a helmet.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s09.mp3": {
+    "written": "This is Velociraptor. It was small and very fast, and it had feathers.",
+    "spoken": "This is Velociraptor. It was small and very fast, and it had feathers.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s10.mp3": {
+    "written": "Look up! That is a Pteranodon. It could fly. It is not a dinosaur, but it lived with them.",
+    "spoken": "Look up! That is a Pteranodon. It could fly. It is not a dinosaur, but it lived with them.",
+    "provider": "indic"
+  },
+  "evs-ukg-dinosaur-park-s11.mp3": {
     "written": "We know about dinosaurs from their bones, which were found under the ground.",
     "spoken": "We know about dinosaurs from their bones, which were found under the ground.",
     "provider": "indic"

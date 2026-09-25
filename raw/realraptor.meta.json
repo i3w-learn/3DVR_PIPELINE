@@ -1,0 +1,16 @@
+{
+  "id": "realraptor",
+  "source": "Sketchfab — \"PBR Velociraptor (Animated)\" by Ferocious Industries",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/pbr-velociraptor-animated-8f1744af7b0847a2aabe3df90be802f0",
+  "targetHeight": 1.7,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "keepClips": [
+    "Idle_01",
+    "Sniff",
+    "Walk"
+  ],
+  "simplify": 0.45,
+  "simplifyError": 0.02
+}
