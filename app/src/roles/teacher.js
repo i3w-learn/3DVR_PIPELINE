@@ -134,12 +134,12 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
    * different lesson id in the same message is a different land, and every
    * headset rebuilds without a word of new protocol.
    */
-  async function enter(nextLessonId) {
+  async function enter(nextLessonId, review = false) {
     if (nextLessonId === lesson.id) return;
 
     // Loaded before anything is published. Publishing first and failing to
     // load would leave the class staring at a lesson that does not exist.
-    const loaded = await loadLesson(nextLessonId);
+    const loaded = await loadLesson(nextLessonId, { review });
 
     lesson = loaded.lesson;
     session.lesson = lesson.id;
@@ -167,7 +167,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
   // A card in the lobby, or the small home tile inside a land. Same door as a
   // portal: the class goes where the teacher's finger went.
   elements.scene.addEventListener('land-pick', (event) => {
-    enter(event.detail.lesson).catch(showError);
+    enter(event.detail.lesson, event.detail.review === true).catch(showError);
   });
 
   setHomeTile(elements, lesson.id !== LOBBY);
