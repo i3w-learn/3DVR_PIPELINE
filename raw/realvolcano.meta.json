@@ -1,0 +1,13 @@
+{
+  "id": "realvolcano",
+  "source": "Sketchfab — \"Vulcão em erupção - Erupting volcano\" by Walter Araujo",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/vulcao-em-erupcao-erupting-volcano-fe36561470994889b7f7f6a3e6c1a538",
+  "targetHeight": 45,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "emissive": 0.3,
+  "simplify": 0.35,
+  "simplifyError": 0.02,
+  "join": true
+}

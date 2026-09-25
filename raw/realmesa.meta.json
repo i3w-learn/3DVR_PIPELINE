@@ -1,0 +1,15 @@
+{
+  "id": "realmesa",
+  "source": "Sketchfab — \"Table Mountain\" by re-lar",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/table-mountain-e7f346475de845968628106b26b914cb",
+  "targetHeight": 45,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "dropNodes": [
+    "Object_6"
+  ],
+  "notes": "Object_6 is a flat layer of adornments floating at 5–13 m; dropped.",
+  "simplify": 0.6,
+  "simplifyError": 0.02
+}

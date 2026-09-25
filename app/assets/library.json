@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T14:40:14.487Z",
+  "generated": "2026-09-25T08:06:12.744Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2198,6 +2198,19 @@
       "source": "Sketchfab — \"An Animated Cat\" by Evil_Katz",
       "licence": "CC-BY"
     },
+    "realcattail": {
+      "file": "models/realcattail.glb",
+      "height": 1.6,
+      "width": 0.606,
+      "depth": 0.689,
+      "triangles": 1227,
+      "meshes": 1,
+      "bytes": 12740,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Cattails\" by AlkaliDragon",
+      "licence": "CC-BY"
+    },
     "realcauliflower": {
       "file": "models/realcauliflower.glb",
       "height": 0.16,
@@ -2224,6 +2237,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Animated Chick\" by FourthGreen",
+      "licence": "CC-BY"
+    },
+    "realcliff": {
+      "file": "models/realcliff.glb",
+      "height": 3,
+      "width": 7.376,
+      "depth": 7.995,
+      "triangles": 5746,
+      "meshes": 1,
+      "bytes": 593740,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Cliff\" by DJMaesen",
       "licence": "CC-BY"
     },
     "realclownfish": {
@@ -2757,6 +2783,19 @@
       "source": "Sketchfab — \"Mang Tree-01\" by ASMA3D",
       "licence": "CC-BY"
     },
+    "realmesa": {
+      "file": "models/realmesa.glb",
+      "height": 45.001,
+      "width": 117.819,
+      "depth": 119.645,
+      "triangles": 2916,
+      "meshes": 1,
+      "bytes": 317240,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Table Mountain\" by re-lar",
+      "licence": "CC-BY"
+    },
     "realmonkey": {
       "file": "models/realmonkey.glb",
       "height": 0.6,
@@ -3044,6 +3083,19 @@
       "source": "Sketchfab — \"Snow Mountain Pack 01\" by perryfactor6177258",
       "licence": "CC-BY"
     },
+    "realreeds": {
+      "file": "models/realreeds.glb",
+      "height": 2,
+      "width": 5.549,
+      "depth": 1.046,
+      "triangles": 1619,
+      "meshes": 10,
+      "bytes": 460388,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Reed Plants Pack\" by Nicholas-3D",
+      "licence": "CC-BY"
+    },
     "realrhino": {
       "file": "models/realrhino.glb",
       "height": 1.69,
@@ -3201,6 +3253,19 @@
       "source": "Sketchfab — \"Forest Strawberry - Macro scan\" by Nik",
       "licence": "CC-BY"
     },
+    "realstumps": {
+      "file": "models/realstumps.glb",
+      "height": 0.9,
+      "width": 3.032,
+      "depth": 5.504,
+      "triangles": 3802,
+      "meshes": 3,
+      "bytes": 843684,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Scanned Stump Collection\" by That's Cool Jack",
+      "licence": "CC-BY"
+    },
     "realteacher": {
       "file": "models/realteacher.glb",
       "height": 1.623,
@@ -3343,6 +3408,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Sea Turtle\" by Eloi",
+      "licence": "CC-BY"
+    },
+    "realvolcano": {
+      "file": "models/realvolcano.glb",
+      "height": 44.999,
+      "width": 117.129,
+      "depth": 98.483,
+      "triangles": 7840,
+      "meshes": 1,
+      "bytes": 274796,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Vulcão em erupção - Erupting volcano\" by Walter Araujo",
       "licence": "CC-BY"
     },
     "realwatermelon": {
@@ -6416,26 +6494,30 @@
       },
       "evs-ukg-dinosaur-park-s02.mp3": {
         "file": "audio/en/evs-ukg-dinosaur-park-s02.mp3",
-        "bytes": 28438
+        "bytes": 52784
       },
       "evs-ukg-dinosaur-park-s03.mp3": {
         "file": "audio/en/evs-ukg-dinosaur-park-s03.mp3",
-        "bytes": 26453
+        "bytes": 28438
       },
       "evs-ukg-dinosaur-park-s04.mp3": {
         "file": "audio/en/evs-ukg-dinosaur-park-s04.mp3",
-        "bytes": 16840
+        "bytes": 26453
       },
       "evs-ukg-dinosaur-park-s05.mp3": {
         "file": "audio/en/evs-ukg-dinosaur-park-s05.mp3",
-        "bytes": 37842
+        "bytes": 16840
       },
       "evs-ukg-dinosaur-park-s06.mp3": {
         "file": "audio/en/evs-ukg-dinosaur-park-s06.mp3",
-        "bytes": 29901
+        "bytes": 37842
       },
       "evs-ukg-dinosaur-park-s07.mp3": {
         "file": "audio/en/evs-ukg-dinosaur-park-s07.mp3",
+        "bytes": 29901
+      },
+      "evs-ukg-dinosaur-park-s08.mp3": {
+        "file": "audio/en/evs-ukg-dinosaur-park-s08.mp3",
         "bytes": 22587
       },
       "evs-ukg-farm-visit-cow.mp3": {
@@ -10630,26 +10712,30 @@
       },
       "evs-ukg-dinosaur-park-s02.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s02.mp3",
-        "bytes": 24990
+        "bytes": 46933
       },
       "evs-ukg-dinosaur-park-s03.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s03.mp3",
-        "bytes": 20079
+        "bytes": 24990
       },
       "evs-ukg-dinosaur-park-s04.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s04.mp3",
-        "bytes": 15690
+        "bytes": 20079
       },
       "evs-ukg-dinosaur-park-s05.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s05.mp3",
-        "bytes": 29588
+        "bytes": 15690
       },
       "evs-ukg-dinosaur-park-s06.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s06.mp3",
-        "bytes": 26975
+        "bytes": 29588
       },
       "evs-ukg-dinosaur-park-s07.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s07.mp3",
+        "bytes": 26975
+      },
+      "evs-ukg-dinosaur-park-s08.mp3": {
+        "file": "audio/hi/evs-ukg-dinosaur-park-s08.mp3",
         "bytes": 22482
       },
       "evs-ukg-farm-visit-cow.mp3": {
@@ -14840,26 +14926,30 @@
       },
       "evs-ukg-dinosaur-park-s02.mp3": {
         "file": "audio/mr/evs-ukg-dinosaur-park-s02.mp3",
-        "bytes": 29483
+        "bytes": 68876
       },
       "evs-ukg-dinosaur-park-s03.mp3": {
         "file": "audio/mr/evs-ukg-dinosaur-park-s03.mp3",
-        "bytes": 25930
+        "bytes": 29483
       },
       "evs-ukg-dinosaur-park-s04.mp3": {
         "file": "audio/mr/evs-ukg-dinosaur-park-s04.mp3",
-        "bytes": 17989
+        "bytes": 25930
       },
       "evs-ukg-dinosaur-park-s05.mp3": {
         "file": "audio/mr/evs-ukg-dinosaur-park-s05.mp3",
-        "bytes": 40037
+        "bytes": 17989
       },
       "evs-ukg-dinosaur-park-s06.mp3": {
         "file": "audio/mr/evs-ukg-dinosaur-park-s06.mp3",
-        "bytes": 32409
+        "bytes": 40037
       },
       "evs-ukg-dinosaur-park-s07.mp3": {
         "file": "audio/mr/evs-ukg-dinosaur-park-s07.mp3",
+        "bytes": 32409
+      },
+      "evs-ukg-dinosaur-park-s08.mp3": {
+        "file": "audio/mr/evs-ukg-dinosaur-park-s08.mp3",
         "bytes": 31991
       },
       "evs-ukg-farm-visit-cow.mp3": {
@@ -19050,26 +19140,30 @@
       },
       "evs-ukg-dinosaur-park-s02.mp3": {
         "file": "audio/or/evs-ukg-dinosaur-park-s02.mp3",
-        "bytes": 30424
+        "bytes": 60726
       },
       "evs-ukg-dinosaur-park-s03.mp3": {
         "file": "audio/or/evs-ukg-dinosaur-park-s03.mp3",
-        "bytes": 26348
+        "bytes": 30424
       },
       "evs-ukg-dinosaur-park-s04.mp3": {
         "file": "audio/or/evs-ukg-dinosaur-park-s04.mp3",
-        "bytes": 20810
+        "bytes": 26348
       },
       "evs-ukg-dinosaur-park-s05.mp3": {
         "file": "audio/or/evs-ukg-dinosaur-park-s05.mp3",
-        "bytes": 42753
+        "bytes": 20810
       },
       "evs-ukg-dinosaur-park-s06.mp3": {
         "file": "audio/or/evs-ukg-dinosaur-park-s06.mp3",
-        "bytes": 34290
+        "bytes": 42753
       },
       "evs-ukg-dinosaur-park-s07.mp3": {
         "file": "audio/or/evs-ukg-dinosaur-park-s07.mp3",
+        "bytes": 34290
+      },
+      "evs-ukg-dinosaur-park-s08.mp3": {
+        "file": "audio/or/evs-ukg-dinosaur-park-s08.mp3",
         "bytes": 32618
       },
       "evs-ukg-farm-visit-cow.mp3": {

@@ -47,10 +47,10 @@ export class MaterialError extends Error {
 
 /**
  * @param {import('@gltf-transform/core').Document} document
- * @param {{metallic?: boolean, palette?: Record<string, string>}} sidecar
+ * @param {{metallic?: boolean, emissive?: number|null, palette?: Record<string, string>}} sidecar
  * @returns {{delit: number, recoloured: string[]}}
  */
-export function normaliseMaterials(document, { metallic = false, palette = null, alphaMode = null } = {}) {
+export function normaliseMaterials(document, { metallic = false, emissive = null, palette = null, alphaMode = null } = {}) {
   const materials = document.getRoot().listMaterials();
   const names = materials.map((m) => m.getName());
 
@@ -80,6 +80,10 @@ export function normaliseMaterials(document, { metallic = false, palette = null,
       material.setAlphaMode('MASK');
       material.setAlphaCutoff(0.5);
       masked += 1;
+    }
+
+    if (emissive !== null) {
+      material.setEmissiveFactor(material.getEmissiveFactor().map((c) => c * emissive));
     }
 
     if (!metallic && material.getMetallicFactor() !== STYLE.metallic) {
