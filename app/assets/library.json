@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T08:06:12.744Z",
+  "generated": "2026-09-25T08:12:24.168Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2203,9 +2203,9 @@
       "height": 1.6,
       "width": 0.606,
       "depth": 0.689,
-      "triangles": 1227,
+      "triangles": 785,
       "meshes": 1,
-      "bytes": 12740,
+      "bytes": 10456,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Cattails\" by AlkaliDragon",
@@ -3412,12 +3412,12 @@
     },
     "realvolcano": {
       "file": "models/realvolcano.glb",
-      "height": 44.999,
-      "width": 117.129,
-      "depth": 98.483,
-      "triangles": 7840,
+      "height": 44.998,
+      "width": 117.389,
+      "depth": 98.702,
+      "triangles": 4928,
       "meshes": 1,
-      "bytes": 274796,
+      "bytes": 262748,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Vulcão em erupção - Erupting volcano\" by Walter Araujo",

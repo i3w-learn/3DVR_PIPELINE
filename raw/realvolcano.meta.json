@@ -7,7 +7,7 @@
   "yaw": 0,
   "smoothAngle": 60,
   "emissive": 0.3,
-  "simplify": 0.35,
+  "simplify": 0.22,
   "simplifyError": 0.02,
   "join": true
 }
