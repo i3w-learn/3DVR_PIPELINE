@@ -10,8 +10,8 @@
     {
       "id": "triceratops",
       "model": "realtriceratops",
-      "position": "-10.500 0.000 -9.000",
-      "rotation": "0 75 0",
+      "position": "-16.000 0.000 -13.000",
+      "rotation": "0 25 0",
       "ring": 3.394,
       "name": {
         "en": "Triceratops",
@@ -25,8 +25,8 @@
     {
       "id": "stegosaurus",
       "model": "realstegosaurus",
-      "position": "10.500 0.000 -9.000",
-      "rotation": "0 -75 0",
+      "position": "17.000 0.000 -12.000",
+      "rotation": "0 -35 0",
       "ring": 2.894,
       "name": {
         "en": "Stegosaurus",
@@ -50,8 +50,8 @@
     {
       "id": "parasaur",
       "model": "realparasaur",
-      "position": "-7.000 0.000 -16.000",
-      "rotation": "0 70 0",
+      "position": "-4.500 0.000 -21.000",
+      "rotation": "0 10 0",
       "ring": 3.798,
       "name": {
         "en": "Parasaurolophus",
@@ -65,8 +65,8 @@
     {
       "id": "apatosaurus",
       "model": "realapatosaurus",
-      "position": "-3.000 0.000 -19.000",
-      "rotation": "0 30 0",
+      "position": "3.000 0.000 -26.000",
+      "rotation": "0 -15 0",
       "ring": 4.5,
       "scale": "1.35 1.35 1.35",
       "name": {
@@ -75,16 +75,38 @@
         "mr": "अपॅटोसॉरस",
         "or": "ଆପାଟୋସରସ"
       },
-      "clip": "C4D Animation Take",
-      "clipSpeed": 0.6,
       "castShadow": false,
-      "sound": "dinoroar.mp3"
+      "sound": "dinoroar.mp3",
+      "legwalk": {
+        "hips": "b_0019_058, b_001A_072, b_0008_090, b_0009_0103",
+        "knees": "b_001F_059, b_0020_073, b_000F_091, b_0013_0104",
+        "root": "Root_01",
+        "swing": 13,
+        "lift": 11,
+        "stride": 3.2,
+        "bob": 0.05,
+        "neck": "b_0002_02, b_0006_03, b_000B_04, b_0018_05, b_001E_06, b_002C_07, b_0036_08, b_003A_09, b_0046_010, b_0048_011, b_004A_012",
+        "tail": "b_000A_0116, b_0017_0117, b_001D_0118, b_002B_0119, b_0035_0120, b_0039_0121, b_0045_0122, b_0047_0123, b_0049_0124",
+        "jaw": "b_005A_014",
+        "neckSway": 1.6,
+        "tailSway": 2.2,
+        "jawOpen": 7
+      },
+      "wander": {
+        "walk": "legs",
+        "radius": 5,
+        "speed": 0.3,
+        "pause": 7000,
+        "turnSpeed": 16,
+        "stopDistance": 11,
+        "stayFor": 14000
+      }
     },
     {
       "id": "trex",
       "model": "realtrex",
-      "position": "7.500 0.000 -16.000",
-      "rotation": "0 -70 0",
+      "position": "15.000 0.000 -21.000",
+      "rotation": "0 -30 0",
       "ring": 4.361,
       "name": {
         "en": "T-Rex",
@@ -99,7 +121,7 @@
     {
       "id": "pachy",
       "model": "realpachy",
-      "position": "-2.500 0.000 -12.500",
+      "position": "-10.000 0.000 -17.500",
       "rotation": "0 15 0",
       "clip": "EatLow",
       "clipSpeed": 0.8,
@@ -125,7 +147,7 @@
     {
       "id": "raptor",
       "model": "realraptor",
-      "position": "4.000 0.000 -10.500",
+      "position": "9.000 0.000 -14.000",
       "rotation": "0 -20 0",
       "clip": "Idle_01",
       "clipSpeed": 0.8,
@@ -151,7 +173,7 @@
     {
       "id": "pteranodon",
       "model": "realpteranodon",
-      "position": "0.000 10.000 -18.000",
+      "position": "0.000 11.000 -20.000",
       "rotation": "0 0 0",
       "clip": "flying",
       "clipSpeed": 0.9,

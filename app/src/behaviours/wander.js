@@ -98,7 +98,7 @@ AFRAME.registerComponent('wander', {
 
     this.moving = true;
     this.playClip(this.data.walk);
-    if (!this.data.idle) this.el.setAttribute('animation-mixer', { timeScale: this.walkScale ?? 1 });
+    if (!this.data.idle && this.el.components['animation-mixer']) this.el.setAttribute('animation-mixer', { timeScale: this.walkScale ?? 1 });
 
     return true;
   },
@@ -115,7 +115,7 @@ AFRAME.registerComponent('wander', {
     if (this.data.idle && !initial) this.playClip(this.data.idle);
     // An animal whose pack has only a walk cycle would march on the spot
     // while it rests. Slowing the mixer almost to a stop reads as standing.
-    if (!this.data.idle) this.el.setAttribute('animation-mixer', { timeScale: 0.04 });
+    if (!this.data.idle && this.el.components['animation-mixer']) this.el.setAttribute('animation-mixer', { timeScale: 0.04 });
 
     // An animal that has just been called stays put and faces the child —
     // wandering off mid-sentence would undo the whole point of calling it.
@@ -143,7 +143,7 @@ AFRAME.registerComponent('wander', {
 
       this.moving = true;
       if (this.data.walk) this.playClip(this.data.walk);
-      if (!this.data.idle) this.el.setAttribute('animation-mixer', { timeScale: this.walkScale ?? 1 });
+      if (!this.data.idle && this.el.components['animation-mixer']) this.el.setAttribute('animation-mixer', { timeScale: this.walkScale ?? 1 });
       return;
     }
 

@@ -50,7 +50,7 @@ export function createObject(object, { tappable = false } = {}) {
   const {
     id, model, build, params,
     position, rotation, scale,
-    clip, clipSpeed, wander, orbit, visible,
+    clip, clipSpeed, wander, orbit, legwalk, visible,
     audio, script, ring: ringRadius, name, labelAt,
   } = object;
 
@@ -90,6 +90,13 @@ export function createObject(object, { tappable = false } = {}) {
   // A flyer circles the spot the lesson gave it. Not tied to a clip: a bird
   // with only a flap cycle still needs to go somewhere.
   if (orbit) el.setAttribute('orbit', orbit);
+
+  // A walk built here, for a rig whose pack has none. It needs `wander` to
+  // know when the animal is moving; on its own it does nothing.
+  if (legwalk) el.setAttribute('legwalk', legwalk);
+  // Only wandering animals move; a wanderer with no clip still needs its
+  // walk driven, so `wander` is set whether or not there is a clip.
+  if (wander && !clip) el.setAttribute('wander', wander);
 
   if (visible === false) el.setAttribute('visible', 'false');
 
