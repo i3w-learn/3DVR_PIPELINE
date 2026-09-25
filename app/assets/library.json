@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T08:14:51.347Z",
+  "generated": "2026-09-25T08:33:58.370Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2874,6 +2874,23 @@
       "source": "Sketchfab — \"Common Barn Owl\" by Innovation Studio",
       "licence": "CC-BY"
     },
+    "realpachy": {
+      "file": "models/realpachy.glb",
+      "height": 2.4,
+      "width": 1.794,
+      "depth": 3.865,
+      "triangles": 7831,
+      "meshes": 4,
+      "bytes": 2235684,
+      "clips": [
+        "IdleA",
+        "EatLow",
+        "Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"PBR Pachycephalasaurus (Animated)\" by Ferocious Industries",
+      "licence": "CC-BY"
+    },
     "realpalm": {
       "file": "models/realpalm.glb",
       "height": 8,
@@ -3025,6 +3042,21 @@
       "source": "Sketchfab — \"Game Ready Fruit & Vegetable Asset Pack\" by Meerschaum Digital",
       "licence": "CC-BY"
     },
+    "realpteranodon": {
+      "file": "models/realpteranodon.glb",
+      "height": 1.595,
+      "width": 10.14,
+      "depth": 3.869,
+      "triangles": 5397,
+      "meshes": 1,
+      "bytes": 1595372,
+      "clips": [
+        "flying"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Pteranodon (Animated)\" by Chistodrako._.",
+      "licence": "CC-BY"
+    },
     "realpumpkin": {
       "file": "models/realpumpkin.glb",
       "height": 0.25,
@@ -3081,6 +3113,23 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Snow Mountain Pack 01\" by perryfactor6177258",
+      "licence": "CC-BY"
+    },
+    "realraptor": {
+      "file": "models/realraptor.glb",
+      "height": 1.7,
+      "width": 1.035,
+      "depth": 3.201,
+      "triangles": 6788,
+      "meshes": 2,
+      "bytes": 2469116,
+      "clips": [
+        "Sniff",
+        "Idle_01",
+        "Walk"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"PBR Velociraptor (Animated)\" by Ferocious Industries",
       "licence": "CC-BY"
     },
     "realreeds": {
@@ -4447,6 +4496,12 @@
       "source": "Openverse — \"Bee Buzzing\" by JonCon_Library",
       "licence": "CC0"
     },
+    "bigroar.mp3": {
+      "file": "sfx/bigroar.mp3",
+      "bytes": 22892,
+      "source": "Openverse — \"Scary Monster Roar #2\" by NicknameLarry",
+      "licence": "CC0"
+    },
     "cat.mp3": {
       "file": "sfx/cat.mp3",
       "bytes": 12372,
@@ -4464,6 +4519,18 @@
       "bytes": 18433,
       "source": "Openverse — \"crow CAWS\" by storyofthelie",
       "licence": "CC0"
+    },
+    "dinogrowl.mp3": {
+      "file": "sfx/dinogrowl.mp3",
+      "bytes": 32492,
+      "source": "Openverse — \"Baby Dinosaur\" by FK_Prod",
+      "licence": "CC-BY"
+    },
+    "dinoroar.mp3": {
+      "file": "sfx/dinoroar.mp3",
+      "bytes": 13484,
+      "source": "Openverse — \"Large Dinosaur Roar\" by BESTROFLMAN",
+      "licence": "CC-BY"
     },
     "dog.mp3": {
       "file": "sfx/dog.mp3",
@@ -4529,6 +4596,18 @@
       "file": "sfx/pigeon.mp3",
       "bytes": 35569,
       "source": "Openverse — \"pigeon territorial coo.wav\" by 5ro4",
+      "licence": "CC0"
+    },
+    "pteranodon.mp3": {
+      "file": "sfx/pteranodon.mp3",
+      "bytes": 12332,
+      "source": "Openverse — \"Pterodactyl by Louie the Cat.wav\" by bunker2001",
+      "licence": "CC-BY"
+    },
+    "raptorcall.mp3": {
+      "file": "sfx/raptorcall.mp3",
+      "bytes": 31916,
+      "source": "Openverse — \"Alien Raptor Screeching\" by Scpsea",
       "licence": "CC0"
     },
     "rooster.mp3": {
@@ -6518,6 +6597,18 @@
       },
       "evs-ukg-dinosaur-park-s08.mp3": {
         "file": "audio/en/evs-ukg-dinosaur-park-s08.mp3",
+        "bytes": 30319
+      },
+      "evs-ukg-dinosaur-park-s09.mp3": {
+        "file": "audio/en/evs-ukg-dinosaur-park-s09.mp3",
+        "bytes": 28543
+      },
+      "evs-ukg-dinosaur-park-s10.mp3": {
+        "file": "audio/en/evs-ukg-dinosaur-park-s10.mp3",
+        "bytes": 35648
+      },
+      "evs-ukg-dinosaur-park-s11.mp3": {
+        "file": "audio/en/evs-ukg-dinosaur-park-s11.mp3",
         "bytes": 22587
       },
       "evs-ukg-farm-visit-cow.mp3": {
@@ -10736,6 +10827,18 @@
       },
       "evs-ukg-dinosaur-park-s08.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s08.mp3",
+        "bytes": 24363
+      },
+      "evs-ukg-dinosaur-park-s09.mp3": {
+        "file": "audio/hi/evs-ukg-dinosaur-park-s09.mp3",
+        "bytes": 23527
+      },
+      "evs-ukg-dinosaur-park-s10.mp3": {
+        "file": "audio/hi/evs-ukg-dinosaur-park-s10.mp3",
+        "bytes": 35753
+      },
+      "evs-ukg-dinosaur-park-s11.mp3": {
+        "file": "audio/hi/evs-ukg-dinosaur-park-s11.mp3",
         "bytes": 22482
       },
       "evs-ukg-farm-visit-cow.mp3": {
@@ -14950,6 +15053,18 @@
       },
       "evs-ukg-dinosaur-park-s08.mp3": {
         "file": "audio/mr/evs-ukg-dinosaur-park-s08.mp3",
+        "bytes": 33036
+      },
+      "evs-ukg-dinosaur-park-s09.mp3": {
+        "file": "audio/mr/evs-ukg-dinosaur-park-s09.mp3",
+        "bytes": 34708
+      },
+      "evs-ukg-dinosaur-park-s10.mp3": {
+        "file": "audio/mr/evs-ukg-dinosaur-park-s10.mp3",
+        "bytes": 42753
+      },
+      "evs-ukg-dinosaur-park-s11.mp3": {
+        "file": "audio/mr/evs-ukg-dinosaur-park-s11.mp3",
         "bytes": 31991
       },
       "evs-ukg-farm-visit-cow.mp3": {
@@ -19164,6 +19279,18 @@
       },
       "evs-ukg-dinosaur-park-s08.mp3": {
         "file": "audio/or/evs-ukg-dinosaur-park-s08.mp3",
+        "bytes": 32095
+      },
+      "evs-ukg-dinosaur-park-s09.mp3": {
+        "file": "audio/or/evs-ukg-dinosaur-park-s09.mp3",
+        "bytes": 32409
+      },
+      "evs-ukg-dinosaur-park-s10.mp3": {
+        "file": "audio/or/evs-ukg-dinosaur-park-s10.mp3",
+        "bytes": 48291
+      },
+      "evs-ukg-dinosaur-park-s11.mp3": {
+        "file": "audio/or/evs-ukg-dinosaur-park-s11.mp3",
         "bytes": 32618
       },
       "evs-ukg-farm-visit-cow.mp3": {

@@ -19,7 +19,8 @@
       },
       "scale": "0.940 0.940 0.940",
       "clip": "Animation",
-      "clipSpeed": 0.6
+      "clipSpeed": 0.6,
+      "sound": "dinogrowl.mp3"
     },
     {
       "id": "stegosaurus",
@@ -43,7 +44,8 @@
         "turnSpeed": 25,
         "stopDistance": 7,
         "stayFor": 14000
-      }
+      },
+      "sound": "dinogrowl.mp3"
     },
     {
       "id": "parasaur",
@@ -57,7 +59,8 @@
       },
       "scale": "0.830 0.830 0.830",
       "clip": "Animation",
-      "clipSpeed": 0.6
+      "clipSpeed": 0.6,
+      "sound": "dinogrowl.mp3"
     },
     {
       "id": "apatosaurus",
@@ -71,7 +74,9 @@
         "hi": "अपैटोसॉरस"
       },
       "clip": "C4D Animation Take",
-      "clipSpeed": 0.6
+      "clipSpeed": 0.6,
+      "castShadow": false,
+      "sound": "dinoroar.mp3"
     },
     {
       "id": "trex",
@@ -85,7 +90,85 @@
       },
       "scale": "0.875 0.875 0.875",
       "clip": "idle",
-      "clipSpeed": 0.6
+      "clipSpeed": 0.6,
+      "castShadow": false,
+      "sound": "dinoroar.mp3"
+    },
+    {
+      "id": "pachy",
+      "model": "realpachy",
+      "position": "-2.500 0.000 -12.500",
+      "rotation": "0 15 0",
+      "clip": "EatLow",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Walk",
+        "idle": "EatLow",
+        "radius": 2.5,
+        "speed": 0.55,
+        "pause": 8000,
+        "turnSpeed": 30,
+        "stopDistance": 5,
+        "stayFor": 12000
+      },
+      "name": {
+        "en": "Pachycephalosaurus",
+        "hi": "पैकीसेफेलोसॉरस",
+        "mr": "पॅकीसेफॅलोसॉरस",
+        "or": "ପାକିସେଫାଲୋସରସ"
+      },
+      "ring": 1.6,
+      "sound": "dinogrowl.mp3"
+    },
+    {
+      "id": "raptor",
+      "model": "realraptor",
+      "position": "4.000 0.000 -10.500",
+      "rotation": "0 -20 0",
+      "clip": "Idle_01",
+      "clipSpeed": 0.8,
+      "wander": {
+        "walk": "Walk",
+        "idle": "Sniff",
+        "radius": 3,
+        "speed": 0.7,
+        "pause": 7000,
+        "turnSpeed": 40,
+        "stopDistance": 4.5,
+        "stayFor": 10000
+      },
+      "name": {
+        "en": "Velociraptor",
+        "hi": "वेलोसिरैप्टर",
+        "mr": "व्हेलोसिरॅप्टर",
+        "or": "ଭେଲୋସିରାପ୍ଟର"
+      },
+      "ring": 1.2,
+      "sound": "raptorcall.mp3"
+    },
+    {
+      "id": "pteranodon",
+      "model": "realpteranodon",
+      "position": "0.000 10.000 -18.000",
+      "rotation": "0 0 0",
+      "clip": "flying",
+      "clipSpeed": 0.9,
+      "castShadow": false,
+      "name": {
+        "en": "Pteranodon",
+        "hi": "टेरानोडॉन",
+        "mr": "टेरॅनोडॉन",
+        "or": "ଟେରାନୋଡନ"
+      },
+      "ring": 2.2,
+      "sound": "pteranodon.mp3",
+      "orbit": {
+        "radius": 14,
+        "period": 48,
+        "clockwise": true,
+        "bank": 14,
+        "bob": 1.5
+      }
     }
   ],
   "steps": [
@@ -165,6 +248,39 @@
       "audio": "evs-ukg-dinosaur-park-s07.mp3"
     },
     {
+      "highlight": "pachy",
+      "duration": 8000,
+      "script": {
+        "en": "This is Pachycephalosaurus. It had a thick, round head, like a helmet.",
+        "hi": "यह पैकीसेफेलोसॉरस है। इसका सिर मोटा और गोल था, जैसे हेलमेट।",
+        "mr": "हा पॅकीसेफॅलोसॉरस आहे. त्याचं डोकं जाड आणि गोल होतं, हेल्मेटसारखं.",
+        "or": "ଏହା ପାକିସେଫାଲୋସରସ। ଏହାର ମୁଣ୍ଡ ମୋଟା ଆଉ ଗୋଲ ଥିଲା, ହେଲମେଟ ପରି।"
+      },
+      "audio": "evs-ukg-dinosaur-park-s08.mp3"
+    },
+    {
+      "highlight": "raptor",
+      "duration": 8000,
+      "script": {
+        "en": "This is Velociraptor. It was small and very fast, and it had feathers.",
+        "hi": "यह वेलोसिरैप्टर है। यह छोटा और बहुत तेज़ था, और इसके पंख थे।",
+        "mr": "हा व्हेलोसिरॅप्टर आहे. तो लहान आणि खूप वेगवान होता, आणि त्याला पिसं होती.",
+        "or": "ଏହା ଭେଲୋସିରାପ୍ଟର। ଏହା ଛୋଟ ଆଉ ବହୁତ ଦ୍ରୁତ ଥିଲା, ଆଉ ଏହାର ପର ଥିଲା।"
+      },
+      "audio": "evs-ukg-dinosaur-park-s09.mp3"
+    },
+    {
+      "highlight": "pteranodon",
+      "duration": 9000,
+      "script": {
+        "en": "Look up! That is a Pteranodon. It could fly. It is not a dinosaur, but it lived with them.",
+        "hi": "ऊपर देखो! वह टेरानोडॉन है। यह उड़ सकता था। यह डायनासोर नहीं है, पर उनके साथ रहता था।",
+        "mr": "वर बघ! तो टेरॅनोडॉन आहे. तो उडू शकत होता. तो डायनासोर नाही, पण त्यांच्यासोबत राहत होता.",
+        "or": "ଉପରକୁ ଦେଖ! ସେଇଟା ଟେରାନୋଡନ। ଏହା ଉଡ଼ି ପାରୁଥିଲା। ଏହା ଡାଇନୋସର ନୁହେଁ, କିନ୍ତୁ ସେମାନଙ୍କ ସହିତ ରହୁଥିଲା।"
+      },
+      "audio": "evs-ukg-dinosaur-park-s10.mp3"
+    },
+    {
       "duration": 9500,
       "script": {
         "hi": "हमें डायनासोर के बारे में उनकी हड्डियों से पता चला, जो ज़मीन के नीचे मिलीं।",
@@ -172,7 +288,7 @@
         "mr": "डायनासोरबद्दल आपल्याला त्यांच्या हाडांवरून कळलं, जी जमिनीखाली सापडली.",
         "or": "ଡାଇନୋସର ବିଷୟରେ ଆମେ ସେମାନଙ୍କ ହାଡ଼ରୁ ଜାଣିଲୁ, ଯାହା ମାଟି ତଳୁ ମିଳିଥିଲା।"
       },
-      "audio": "evs-ukg-dinosaur-park-s08.mp3"
+      "audio": "evs-ukg-dinosaur-park-s11.mp3"
     }
   ]
 }

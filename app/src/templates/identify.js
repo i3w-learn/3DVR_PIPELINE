@@ -16,6 +16,33 @@
 
 import { applyShow, clearHighlights, placeAll, ring, teardown } from './scene.js';
 
+
+/** Who was last called over, so it can be sent back when the step moves on. */
+let called = null;
+
+/**
+ * The animal being talked about walks up to the child.
+ *
+ * In `explore` the child calls an animal by tapping it; here the teacher
+ * calls it by moving to its step. Same walk, same arrival. Only an animal
+ * that has a walk cycle (`wander` in the lesson) can come; the rest stand
+ * where they are, ringed, as before.
+ */
+function comeOver(stage, id) {
+  if (called && called !== id) {
+    stage.querySelector(`#${CSS.escape(called)}`)?.components?.wander?.release();
+    called = null;
+  }
+  const el = id ? stage.querySelector(`#${CSS.escape(id)}`) : null;
+  const wander = el?.components?.wander;
+  if (!wander) return;
+  const camera = el.sceneEl.camera;
+  if (!camera) return;
+  if (wander.approach(camera.getWorldPosition(new THREE.Vector3())) === true) called = id;
+  // The animal's own sound is its answer to being called.
+  el.emit('identify-called', { id }, true);
+}
+
 export default {
   name: 'identify',
 
@@ -45,6 +72,7 @@ export default {
     clearHighlights(stage);
     ring(stage, step.highlight);
     applyShow(stage, lesson, step);
+    comeOver(stage, step.highlight);
   },
 
   teardown,

@@ -50,7 +50,7 @@ export function createObject(object, { tappable = false } = {}) {
   const {
     id, model, build, params,
     position, rotation, scale,
-    clip, clipSpeed, wander, visible,
+    clip, clipSpeed, wander, orbit, visible,
     audio, script, ring: ringRadius, name, labelAt,
   } = object;
 
@@ -86,6 +86,10 @@ export function createObject(object, { tappable = false } = {}) {
     // contradict each other.
     if (wander) el.setAttribute('wander', wander);
   }
+
+  // A flyer circles the spot the lesson gave it. Not tied to a clip: a bird
+  // with only a flap cycle still needs to go somewhere.
+  if (orbit) el.setAttribute('orbit', orbit);
 
   if (visible === false) el.setAttribute('visible', 'false');
 

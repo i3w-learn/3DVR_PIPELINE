@@ -76,6 +76,17 @@ export class LessonSync {
       this.#onChoice?.(event.detail);
     });
 
+    // In `identify` the teacher's step calls an animal over; its sound plays
+    // as it sets off, the way a tapped animal's does. The narration stays
+    // with the step.
+    this.#elements.stage.addEventListener('identify-called', (event) => {
+      const object = this.#loaded?.lesson.objects.find((o) => o.id === event.detail.id);
+      const sfx = this.#elements.sfx;
+      if (!object?.sound || !sfx) return;
+      sfx.components?.sound?.stopSound();
+      sfx.setAttribute('src', `assets/sfx/${object.sound}`);
+      sfx.components?.sound?.playSound();
+    });
     // An animal that was called speaks on arrival, not on being picked.
     this.#elements.stage.addEventListener('wander-arrived', (event) => {
       if (event.detail.id === this.#awaiting) this.#narrate(event.detail.id);
