@@ -19,7 +19,7 @@
       },
       "scale": "0.940 0.940 0.940",
       "clip": "Animation",
-      "clipSpeed": 0.7
+      "clipSpeed": 0.6
     },
     {
       "id": "stegosaurus",
@@ -32,17 +32,17 @@
         "hi": "स्टेगोसॉरस"
       },
       "scale": "0.750 0.750 0.750",
-      "clip": "IdleA",
-      "clipSpeed": 0.8,
+      "clip": "Eat",
+      "clipSpeed": 0.7,
       "wander": {
         "walk": "Walk",
-        "idle": "IdleA",
-        "radius": 1.8,
-        "speed": 0.5,
-        "pause": 9000,
-        "turnSpeed": 30,
+        "idle": "Eat",
+        "radius": 2.2,
+        "speed": 0.45,
+        "pause": 10000,
+        "turnSpeed": 25,
         "stopDistance": 7,
-        "stayFor": 12000
+        "stayFor": 14000
       }
     },
     {
@@ -57,7 +57,7 @@
       },
       "scale": "0.830 0.830 0.830",
       "clip": "Animation",
-      "clipSpeed": 0.7
+      "clipSpeed": 0.6
     },
     {
       "id": "apatosaurus",
@@ -71,7 +71,7 @@
         "hi": "अपैटोसॉरस"
       },
       "clip": "C4D Animation Take",
-      "clipSpeed": 0.7
+      "clipSpeed": 0.6
     },
     {
       "id": "trex",
@@ -85,7 +85,7 @@
       },
       "scale": "0.875 0.875 0.875",
       "clip": "idle",
-      "clipSpeed": 0.8
+      "clipSpeed": 0.6
     }
   ],
   "steps": [
