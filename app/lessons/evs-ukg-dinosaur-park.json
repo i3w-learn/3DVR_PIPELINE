@@ -41,7 +41,7 @@
         "radius": 2.2,
         "speed": 0.45,
         "pause": 10000,
-        "turnSpeed": 25,
+        "turnSpeed": 12,
         "stopDistance": 7,
         "stayFor": 14000
       },
@@ -97,9 +97,12 @@
         "radius": 5,
         "speed": 0.3,
         "pause": 7000,
-        "turnSpeed": 16,
-        "stopDistance": 11,
+        "turnSpeed": 7,
+        "stopDistance": 16,
         "stayFor": 14000
+      },
+      "blink": {
+        "eyes": "b_005E_024, b_0061_030"
       }
     },
     {
@@ -116,7 +119,11 @@
       "clip": "idle",
       "clipSpeed": 0.6,
       "castShadow": false,
-      "sound": "dinoroar.mp3"
+      "sound": "dinoroar.mp3",
+      "blink": {
+        "lids": "bn_LeftUpperEyeLid.15_15, bn_LeftLowerEyeLid.18_18, bn_RightUpperEyeLid.19_19, bn_RightLowerEyeLid.22_22",
+        "angle": 30
+      }
     },
     {
       "id": "pachy",
@@ -131,7 +138,7 @@
         "radius": 2.5,
         "speed": 0.55,
         "pause": 8000,
-        "turnSpeed": 30,
+        "turnSpeed": 14,
         "stopDistance": 5,
         "stayFor": 12000
       },
@@ -157,7 +164,7 @@
         "radius": 3,
         "speed": 0.7,
         "pause": 7000,
-        "turnSpeed": 40,
+        "turnSpeed": 24,
         "stopDistance": 4.5,
         "stayFor": 10000
       },
@@ -168,7 +175,10 @@
         "or": "ଭେଲୋସିରାପ୍ଟର"
       },
       "ring": 1.2,
-      "sound": "raptorcall.mp3"
+      "sound": "raptorcall.mp3",
+      "blink": {
+        "eyes": "Eye.R_010, Eye.L_012"
+      }
     },
     {
       "id": "pteranodon",
@@ -192,6 +202,10 @@
         "clockwise": true,
         "bank": 14,
         "bob": 1.5
+      },
+      "blink": {
+        "lids": "L_upperEyelid.25_25, L_lowerEyelid.26_26, R_upperEyelid.27_27, R_lowerEyelid.28_28",
+        "angle": 30
       }
     }
   ],

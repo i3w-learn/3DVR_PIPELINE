@@ -13,6 +13,22 @@
  * walking. The bones are named in the lesson because this rig's names are
  * hexadecimal and nobody should have to read them twice.
  */
+
+/**
+ * three.js renames nodes as it loads a glTF: spaces become underscores and
+ * anything that is not a word character or a dash is dropped, so a bone the
+ * file calls "Eye.R_010" is "EyeR_010" in the scene. A lesson names bones as
+ * the file does; this looks them up the way the loader left them.
+ */
+function findBone(root, name) {
+  const asIs = name.trim();
+  return (
+    root.getObjectByName(asIs) ??
+    root.getObjectByName(asIs.replace(/\s/g, '_').replace(/[^\w-]/g, '')) ??
+    null
+  );
+}
+
 AFRAME.registerComponent('legwalk', {
   schema: {
     /** Four hip bones: front-left, front-right, back-left, back-right. */
@@ -59,7 +75,7 @@ AFRAME.registerComponent('legwalk', {
 
   bind() {
     const root = this.el.object3D;
-    const find = (name) => root.getObjectByName(name) ?? null;
+    const find = (name) => findBone(root, name);
     const grab = (names) => names.map((n) => {
       const bone = find(n.trim());
       return bone ? { bone, rest: bone.quaternion.clone() } : null;

@@ -188,22 +188,29 @@ AFRAME.registerComponent('wander', {
     this.step.subVectors(this.target, object.position);
     this.step.y = 0;
 
-    if (this.step.length() < 0.15) {
+    if (this.step.length() < 0.15 + this.currentSpeed() * 0.6) {
       // Announce the arrival before resting, so whatever was waiting on it —
       // the narration — can start exactly when the animal stops.
       if (this.called) this.el.emit('wander-arrived', { id: this.el.id }, true);
       return this.rest();
     }
 
-    // Turn first, then walk. An animal that slides sideways into its new
-    // heading is the other half of the same wrongness this fixes.
+    // Turn toward where it is going, and walk the way it faces. An animal
+    // that slides sideways into its new heading is the other half of the
+    // same wrongness this fixes: the body goes where the feet point, so a
+    // change of direction is a curve, not a pivot. It slows while the turn
+    // is sharp, the way a heavy animal has to.
     const heading = Math.atan2(this.step.x, this.step.z);
     const turn = ((this.data.turnSpeed * Math.PI) / 180) * seconds;
     // Wrapped, or a long-running scene accumulates hundreds of degrees and the
     // shortest-way-round maths starts fighting itself.
     object.rotation.y = wrap(approach(object.rotation.y, heading, turn));
 
-    object.position.addScaledVector(this.step.normalize(), this.currentSpeed() * seconds);
+    const error = Math.abs(wrap(heading - object.rotation.y));
+    const ease = 0.3 + 0.7 * Math.max(0, Math.cos(error));
+    this.forward ??= new THREE.Vector3();
+    this.forward.set(Math.sin(object.rotation.y), 0, Math.cos(object.rotation.y));
+    object.position.addScaledVector(this.forward, this.currentSpeed() * ease * seconds);
   },
 
   currentSpeed() {

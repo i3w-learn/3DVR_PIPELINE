@@ -50,7 +50,7 @@ export function createObject(object, { tappable = false } = {}) {
   const {
     id, model, build, params,
     position, rotation, scale,
-    clip, clipSpeed, wander, orbit, legwalk, visible,
+    clip, clipSpeed, wander, orbit, legwalk, blink, visible,
     audio, script, ring: ringRadius, name, labelAt,
   } = object;
 
@@ -94,6 +94,9 @@ export function createObject(object, { tappable = false } = {}) {
   // A walk built here, for a rig whose pack has none. It needs `wander` to
   // know when the animal is moving; on its own it does nothing.
   if (legwalk) el.setAttribute('legwalk', legwalk);
+
+  // Eyes that close now and then, on rigs that have lids or eyeballs.
+  if (blink) el.setAttribute('blink', blink);
   // Only wandering animals move; a wanderer with no clip still needs its
   // walk driven, so `wander` is set whether or not there is a clip.
   if (wander && !clip) el.setAttribute('wander', wander);
