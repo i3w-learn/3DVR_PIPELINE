@@ -136,6 +136,15 @@ AFRAME.registerComponent('shadowed', {
       if (!object.isMesh) return;
       object.castShadow = this.data.cast;
       object.receiveShadow = this.data.receive;
+      // A cut-out leaf has a hard, stair-stepped edge at its alpha cutoff.
+      // With multisampling on, alpha-to-coverage lets the edge dissolve
+      // across the samples instead, and a canopy stops looking like paper.
+      for (const material of [].concat(object.material)) {
+        if (material && material.alphaTest > 0 && !material.alphaToCoverage) {
+          material.alphaToCoverage = true;
+          material.needsUpdate = true;
+        }
+      }
     });
   },
 

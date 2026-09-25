@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T09:02:46.963Z",
+  "generated": "2026-09-25T11:39:23.871Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2663,11 +2663,11 @@
     "realjungletree": {
       "file": "models/realjungletree.glb",
       "height": 13,
-      "width": 12.263,
-      "depth": 13.953,
-      "triangles": 5779,
+      "width": 12.134,
+      "depth": 13.734,
+      "triangles": 4407,
       "meshes": 6,
-      "bytes": 2791272,
+      "bytes": 2767304,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Tree GN\" by Node_λrt",
@@ -2812,11 +2812,11 @@
     "realoak": {
       "file": "models/realoak.glb",
       "height": 11,
-      "width": 12.732,
-      "depth": 13.091,
-      "triangles": 5058,
+      "width": 12.796,
+      "depth": 13.157,
+      "triangles": 3371,
       "meshes": 2,
-      "bytes": 557216,
+      "bytes": 550296,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Oak tree\" by massive-graphisme",

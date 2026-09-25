@@ -8,6 +8,6 @@
   "alphaMode": "mask",
   "join": true,
   "thin": 0.75,
-  "simplify": 0.75,
+  "simplify": 0.5,
   "simplifyError": 0.05
 }

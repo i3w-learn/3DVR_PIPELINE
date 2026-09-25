@@ -111,9 +111,9 @@
       "contact": false,
       "params": {
         "model": "realoakfar",
-        "count": 22,
-        "inner": 30,
-        "outer": 95,
+        "count": 10,
+        "inner": 42,
+        "outer": 96,
         "arc": 360,
         "height": 12,
         "seed": 61
@@ -127,13 +127,41 @@
       "contact": false,
       "params": {
         "model": "realjungletreefar",
-        "count": 10,
-        "inner": 27,
-        "outer": 70,
+        "count": 6,
+        "inner": 42,
+        "outer": 96,
         "arc": 360,
         "height": 14,
         "seed": 62
       },
+      "castShadow": false
+    },
+    {
+      "model": "realoak",
+      "position": "-24.00 0.00 -24.00",
+      "rotation": "0 40 0",
+      "scale": "1 1 1",
+      "castShadow": false
+    },
+    {
+      "model": "realjungletree",
+      "position": "26.00 0.00 -27.00",
+      "rotation": "0 200 0",
+      "scale": "1 1 1",
+      "castShadow": false
+    },
+    {
+      "model": "realoak",
+      "position": "-20.00 0.00 -6.00",
+      "rotation": "0 130 0",
+      "scale": "0.9 0.9 0.9",
+      "castShadow": false
+    },
+    {
+      "model": "realjungletree",
+      "position": "22.00 0.00 -5.00",
+      "rotation": "0 75 0",
+      "scale": "0.85 0.85 0.85",
       "castShadow": false
     },
     {
@@ -151,19 +179,12 @@
       "castShadow": false
     },
     {
-      "model": "realpalm",
-      "position": "-12.00 0.00 -32.00",
-      "rotation": "0 90 0",
-      "scale": "1.2 1.2 1.2",
-      "castShadow": false
-    },
-    {
       "build": "grassfield",
       "position": "0 0 0",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "count": 640,
+        "count": 420,
         "inner": 1.2,
         "outer": 40,
         "height": 0.72,
