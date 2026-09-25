@@ -41,7 +41,7 @@
         "radius": 2.2,
         "speed": 0.45,
         "pause": 10000,
-        "turnSpeed": 12,
+        "turnSpeed": 18,
         "stopDistance": 7,
         "stayFor": 14000
       },
@@ -75,29 +75,32 @@
         "mr": "अपॅटोसॉरस",
         "or": "ଆପାଟୋସରସ"
       },
-      "castShadow": false,
+      "castShadow": true,
       "sound": "dinoroar.mp3",
       "legwalk": {
         "hips": "b_0019_058, b_001A_072, b_0008_090, b_0009_0103",
         "knees": "b_001F_059, b_0020_073, b_000F_091, b_0013_0104",
         "root": "Root_01",
-        "swing": 13,
-        "lift": 11,
+        "swing": 14,
+        "lift": 12,
         "stride": 3.2,
-        "bob": 0.05,
+        "bob": 0.06,
         "neck": "b_0002_02, b_0006_03, b_000B_04, b_0018_05, b_001E_06, b_002C_07, b_0036_08, b_003A_09, b_0046_010, b_0048_011, b_004A_012",
         "tail": "b_000A_0116, b_0017_0117, b_001D_0118, b_002B_0119, b_0035_0120, b_0039_0121, b_0045_0122, b_0047_0123, b_0049_0124",
         "jaw": "b_005A_014",
         "neckSway": 1.6,
         "tailSway": 2.2,
-        "jawOpen": 7
+        "jawOpen": 7,
+        "width": 2.8,
+        "grazeEvery": 30,
+        "grazeDip": 3.4
       },
       "wander": {
         "walk": "legs",
         "radius": 5,
         "speed": 0.3,
         "pause": 7000,
-        "turnSpeed": 7,
+        "turnSpeed": 20,
         "stopDistance": 16,
         "stayFor": 14000
       },
@@ -138,7 +141,7 @@
         "radius": 2.5,
         "speed": 0.55,
         "pause": 8000,
-        "turnSpeed": 14,
+        "turnSpeed": 22,
         "stopDistance": 5,
         "stayFor": 12000
       },
@@ -164,7 +167,7 @@
         "radius": 3,
         "speed": 0.7,
         "pause": 7000,
-        "turnSpeed": 24,
+        "turnSpeed": 35,
         "stopDistance": 4.5,
         "stayFor": 10000
       },
@@ -330,8 +333,8 @@
     }
   ],
   "budget": {
-    "triangles": 240000,
+    "triangles": 250000,
     "drawCalls": 140,
-    "why": "Raised by Manas on 2026-09-25: full trees matter more here than the standard cap. Test on the headset before release."
+    "why": "Raised by Manas on 2026-09-25: full trees and a shadow under the Apatosaurus matter more here than the standard cap. Test on the headset before release."
   }
 }
