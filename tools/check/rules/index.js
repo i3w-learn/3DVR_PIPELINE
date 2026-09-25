@@ -184,7 +184,7 @@ export const RULES = [
   {
     id: 'VAL_L9',
     title: 'triangle budget',
-    check: ({ instances, library, resolvedStage }) => {
+    check: ({ instances, library, resolvedStage, lesson }) => {
       // Every placement counts. A tree used five times is five times the
       // geometry on screen: A-Frame does not instance gltf-model entities.
       const placed = instances.reduce(
@@ -227,12 +227,18 @@ export const RULES = [
       // a guess that ran 25% under what the device actually saw.
       const total = resolvedStage.shadows === false ? geometry : geometry + casting;
 
-      return total <= BUDGET.triangles
+      // A lesson may carry its own cap, set on purpose and saying why. The
+      // dinosaur park does: full trees were judged worth more than the
+      // standard headroom, and it must be measured on the headset before it
+      // ships. The default stays the default for everything else.
+      const cap = lesson.budget?.triangles ?? BUDGET.triangles;
+
+      return total <= cap
         ? []
         : [
             `${total.toLocaleString()} triangles on screen ` +
               `(${geometry.toLocaleString()} of geometry${resolvedStage.shadows === false ? '' : ' + shadow pass'}); ` +
-              `budget is ${BUDGET.triangles.toLocaleString()}`,
+              `budget is ${cap.toLocaleString()}`,
           ];
     },
   },
@@ -240,7 +246,7 @@ export const RULES = [
   {
     id: 'VAL_L10',
     title: 'draw-call budget (proxy)',
-    check: ({ instances, library }) => {
+    check: ({ instances, library, lesson }) => {
       // A proxy, not a promise: one primitive is roughly one draw call, but
       // the renderer decides. 72 fps is only ever measured on the headset.
       const meshes = instances.reduce((sum, i) => sum + (library.models[i.model]?.meshes ?? 0), 0);
@@ -248,9 +254,11 @@ export const RULES = [
       const highlightRing = 1;
       const total = meshes + ground + highlightRing;
 
-      return total <= BUDGET.drawCalls
+      const cap = lesson.budget?.drawCalls ?? BUDGET.drawCalls;
+
+      return total <= cap
         ? []
-        : [`${total} draw calls (proxy); budget is ${BUDGET.drawCalls}`];
+        : [`${total} draw calls (proxy); budget is ${cap}`];
     },
   },
 

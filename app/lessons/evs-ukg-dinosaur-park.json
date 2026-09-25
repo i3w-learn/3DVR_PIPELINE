@@ -328,5 +328,10 @@
       },
       "audio": "evs-ukg-dinosaur-park-s11.mp3"
     }
-  ]
+  ],
+  "budget": {
+    "triangles": 240000,
+    "drawCalls": 140,
+    "why": "Raised by Manas on 2026-09-25: full trees matter more here than the standard cap. Test on the headset before release."
+  }
 }

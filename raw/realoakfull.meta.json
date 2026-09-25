@@ -1,0 +1,14 @@
+{
+  "id": "realoakfull",
+  "source": "Sketchfab — \"Oak tree\" by massive-graphisme",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/oak-tree-3dc59560f2d24345bdbe65c44636453b",
+  "targetHeight": 11,
+  "yaw": 0,
+  "alphaMode": "mask",
+  "join": true,
+  "simplify": 0.9,
+  "simplifyError": 0.01,
+  "from": "realoak",
+  "notes": "Full canopy of realoak, for the dinosaur park only: Manas raised that land budget on 2026-09-25 and asked for full trees."
+}

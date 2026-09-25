@@ -1,0 +1,14 @@
+{
+  "id": "realjunglefull",
+  "source": "Sketchfab — \"Tree GN\" by Node_λrt",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/tree-gn-40da979cb23f492583ec89c4196cff4e",
+  "targetHeight": 13,
+  "yaw": 0,
+  "alphaMode": "mask",
+  "join": true,
+  "simplify": 0.45,
+  "simplifyError": 0.01,
+  "from": "realjungletree",
+  "notes": "Full canopy of realjungletree, for the dinosaur park only: Manas raised that land budget on 2026-09-25 and asked for full trees."
+}

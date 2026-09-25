@@ -111,7 +111,7 @@
       "contact": false,
       "params": {
         "model": "realoakfar",
-        "count": 10,
+        "count": 16,
         "inner": 42,
         "outer": 96,
         "arc": 360,
@@ -127,7 +127,7 @@
       "contact": false,
       "params": {
         "model": "realjungletreefar",
-        "count": 6,
+        "count": 8,
         "inner": 42,
         "outer": 96,
         "arc": 360,
@@ -137,46 +137,60 @@
       "castShadow": false
     },
     {
-      "model": "realoak",
+      "model": "realoakfull",
       "position": "-24.00 0.00 -24.00",
       "rotation": "0 40 0",
-      "scale": "1 1 1",
-      "castShadow": false
+      "scale": "1 1 1"
     },
     {
-      "model": "realjungletree",
+      "model": "realjunglefull",
       "position": "26.00 0.00 -27.00",
       "rotation": "0 200 0",
-      "scale": "1 1 1",
-      "castShadow": false
+      "scale": "1 1 1"
     },
     {
-      "model": "realoak",
-      "position": "-20.00 0.00 -6.00",
+      "model": "realoakfull",
+      "position": "-21.00 0.00 -6.00",
       "rotation": "0 130 0",
-      "scale": "0.9 0.9 0.9",
-      "castShadow": false
+      "scale": "0.9 0.9 0.9"
     },
     {
-      "model": "realjungletree",
-      "position": "22.00 0.00 -5.00",
+      "model": "realjunglefull",
+      "position": "23.00 0.00 -5.00",
       "rotation": "0 75 0",
-      "scale": "0.85 0.85 0.85",
+      "scale": "0.85 0.85 0.85"
+    },
+    {
+      "model": "realoakfull",
+      "position": "-8.00 0.00 -34.00",
+      "rotation": "0 300 0",
+      "scale": "1.05 1.05 1.05",
       "castShadow": false
     },
     {
-      "model": "realpalm",
-      "position": "-19.00 0.00 -12.00",
-      "rotation": "0 60 0",
+      "model": "realjunglefull",
+      "position": "10.00 0.00 -36.00",
+      "rotation": "0 20 0",
       "scale": "1 1 1",
       "castShadow": false
     },
     {
       "model": "realpalm",
-      "position": "21.00 0.00 -14.00",
+      "position": "-15.00 0.00 -15.00",
+      "rotation": "0 60 0",
+      "scale": "1 1 1"
+    },
+    {
+      "model": "realpalm",
+      "position": "19.00 0.00 -16.00",
       "rotation": "0 180 0",
-      "scale": "1.1 1.1 1.1",
-      "castShadow": false
+      "scale": "1.1 1.1 1.1"
+    },
+    {
+      "model": "realpalm",
+      "position": "-3.00 0.00 -31.00",
+      "rotation": "0 90 0",
+      "scale": "1.2 1.2 1.2"
     },
     {
       "build": "grassfield",
@@ -184,7 +198,7 @@
       "rotation": "0 0 0",
       "contact": false,
       "params": {
-        "count": 420,
+        "count": 640,
         "inner": 1.2,
         "outer": 40,
         "height": 0.72,
