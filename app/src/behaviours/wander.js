@@ -61,6 +61,8 @@ AFRAME.registerComponent('wander', {
   },
 
   init() {
+    // Remembered before rest() slows the mixer, so setOff() can restore it.
+    this.walkScale = this.el.getAttribute('animation-mixer')?.timeScale ?? 1;
     this.home = this.el.object3D.position.clone();
     this.target = new THREE.Vector3();
     this.step = new THREE.Vector3();
@@ -96,6 +98,7 @@ AFRAME.registerComponent('wander', {
 
     this.moving = true;
     this.playClip(this.data.walk);
+    if (!this.data.idle) this.el.setAttribute('animation-mixer', { timeScale: this.walkScale ?? 1 });
 
     return true;
   },
@@ -110,6 +113,9 @@ AFRAME.registerComponent('wander', {
   rest(initial = false) {
     this.moving = false;
     if (this.data.idle && !initial) this.playClip(this.data.idle);
+    // An animal whose pack has only a walk cycle would march on the spot
+    // while it rests. Slowing the mixer almost to a stop reads as standing.
+    if (!this.data.idle) this.el.setAttribute('animation-mixer', { timeScale: 0.04 });
 
     // An animal that has just been called stays put and faces the child —
     // wandering off mid-sentence would undo the whole point of calling it.
@@ -137,6 +143,7 @@ AFRAME.registerComponent('wander', {
 
       this.moving = true;
       if (this.data.walk) this.playClip(this.data.walk);
+      if (!this.data.idle) this.el.setAttribute('animation-mixer', { timeScale: this.walkScale ?? 1 });
       return;
     }
 
