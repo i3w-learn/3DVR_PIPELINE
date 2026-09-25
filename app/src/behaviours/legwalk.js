@@ -43,6 +43,11 @@ AFRAME.registerComponent('legwalk', {
     lift: { type: 'number', default: 12 },
     /** Metres travelled per full stride cycle. Sets the leg speed. */
     stride: { type: 'number', default: 2.6 },
+    /** Hip to hip, in metres. Sets how fast the feet step when it turns. */
+    width: { type: 'number', default: 2.4 },
+    /** Seconds between grazes, and how far the head goes down (degrees per neck bone). */
+    grazeEvery: { type: 'number', default: 28 },
+    grazeDip: { type: 'number', default: 3.4 },
     /** Body rise per stride, in metres. */
     bob: { type: 'number', default: 0.06 },
     /** Neck bones from the shoulders to the head, in order. */
@@ -89,6 +94,19 @@ AFRAME.registerComponent('legwalk', {
       jaw: this.data.jaw ? grab([this.data.jaw])[0] : null,
     };
     this.rootY = this.bones.root ? this.bones.root.position.y : 0;
+    this.rootRest = this.bones.root ? this.bones.root.quaternion.clone() : null;
+    // The body's own forward axis (world +Z, the way every model faces),
+    // taken into the root bone's frame so the roll is about the spine.
+    this.along = new THREE.Vector3(0, 0, 1);
+    if (this.bones.root) {
+      const inv = this.bones.root.getWorldQuaternion(new THREE.Quaternion()).invert();
+      this.along.applyQuaternion(inv).normalize();
+    }
+    // Leg length, from the hip's height above the ground it stands on. The
+    // stride the feet can take without sliding follows from it.
+    const hip = this.bones.hips.find(Boolean);
+    this.legLength = hip ? Math.max(0.5, hip.bone.getWorldPosition(new THREE.Vector3()).y - this.el.object3D.position.y) : 1;
+    this.prevYaw = this.el.object3D.rotation.y;
     const missing = [...this.data.hips, ...this.data.knees, ...this.data.neck, ...this.data.tail].filter((n) => !find(n.trim()));
     if (missing.length) console.warn('[legwalk] bones not found:', missing.join(', '));
   },
@@ -118,27 +136,50 @@ AFRAME.registerComponent('legwalk', {
     const dt = delta / 1000;
     const wander = this.el.components.wander;
     const moving = wander?.moving === true;
-    const speed = moving ? wander.currentSpeed() : 0;
+    // The feet step for two reasons: the body going forward, and the body
+    // turning on the spot, where the outer feet travel round the inner ones.
+    // Both are paced from what actually happened this frame, so the feet
+    // never march while the animal stands.
+    const yaw = this.el.object3D.rotation.y;
+    let dyaw = yaw - this.prevYaw;
+    while (dyaw > Math.PI) dyaw -= Math.PI * 2;
+    while (dyaw < -Math.PI) dyaw += Math.PI * 2;
+    this.prevYaw = yaw;
+    const forwardSpeed = moving ? wander.currentSpeed() * (wander.aligned ?? 1) : 0;
+    const turningSpeed = dt > 0 ? (Math.abs(dyaw) / dt) * this.data.width * 0.5 : 0;
+    const speed = forwardSpeed + turningSpeed;
+    const stepping = speed > 0.03;
+
+    // The swing the feet can make without sliding: the body covers one
+    // stride per cycle while each foot spends half the cycle planted, so the
+    // hip sweeps through the angle whose chord is that distance.
+    const { swing, lift, bob, width } = this.data;
+    const theta = Math.min(swing, THREE.MathUtils.radToDeg(Math.asin(Math.min(0.9, this.data.stride / (2 * this.legLength)))));
+    const effStride = 2 * this.legLength * Math.sin(THREE.MathUtils.degToRad(theta));
 
     // Ease in and out, so a stop is a settle and not a freeze.
-    this.blend += ((moving ? 1 : 0) - this.blend) * Math.min(1, dt * 3);
-    if (moving) this.phase += (speed / this.data.stride) * Math.PI * 2 * dt;
+    this.blend += ((stepping ? 1 : 0) - this.blend) * Math.min(1, dt * 3);
+    if (stepping) this.phase += (speed / effStride) * Math.PI * 2 * dt;
     // Once stopped, let the legs finish the half-stride they were on.
-    else if (this.blend > 0.01) this.phase += (this.data.stride * 0.15 / this.data.stride) * Math.PI * 2 * dt;
+    else if (this.blend > 0.01) this.phase += 0.15 * Math.PI * 2 * dt;
 
-    const { swing, lift, bob } = this.data;
     const b = this.blend;
-    // Diagonal gait: front-left with back-right, front-right with back-left.
-    const offsets = [0, Math.PI, Math.PI, 0];
+    // Lateral-sequence gait, the walk of every heavy four-legged animal:
+    // back-left, front-left, back-right, front-right, a quarter cycle apart.
+    // Order here is front-left, front-right, back-left, back-right.
+    const offsets = [Math.PI / 2, (3 * Math.PI) / 2, 0, Math.PI];
     this.bones.hips.forEach((hip, i) => {
       const s = Math.sin(this.phase + offsets[i]);
-      this.swingBone(hip, swing * s * b);
+      this.swingBone(hip, theta * s * b);
       // Knee bends as the leg comes forward, straight as it bears weight.
       const forward = Math.max(0, Math.cos(this.phase + offsets[i]));
       this.swingBone(this.bones.knees[i], -lift * forward * b);
     });
     if (this.bones.root) {
+      // Rises a little twice a cycle, and rolls onto whichever side is
+      // bearing the weight, so the body moves with the legs and not above them.
       this.bones.root.position.y = this.rootY + bob * Math.abs(Math.sin(this.phase * 2)) * b;
+      this.roll = 2.2 * Math.sin(this.phase) * b;
     }
 
     // The slow life of the rest of the animal: a neck that roams, a tail that
@@ -149,11 +190,19 @@ AFRAME.registerComponent('legwalk', {
     const t = this.life;
     const { neckSway, tailSway, jawOpen } = this.data;
     const n = this.bones.neck.length;
+    // Grazing: every so often, standing still, the head goes down to the
+    // grass and stays a while, chewing. The single most sauropod thing it
+    // can do, and the thing a child waits for.
+    const { grazeEvery, grazeDip } = this.data;
+    const g = Math.max(0, Math.sin((t * Math.PI * 2) / grazeEvery));
+    const graze = g * g * (1 - b);
     this.bones.neck.forEach((entry, i) => {
       const along = i / Math.max(1, n - 1);
       // Head dips toward the ground and rises, and looks left and right.
-      const nod = neckSway * (Math.sin(t * 0.45 + along * 1.2) * 0.9 + Math.sin(t * 0.17) * 0.6);
-      const turn = neckSway * 0.8 * Math.sin(t * 0.3 + along * 0.8);
+      const roam = neckSway * (Math.sin(t * 0.45 + along * 1.2) * 0.9 + Math.sin(t * 0.17) * 0.6);
+      const turn = neckSway * 0.8 * Math.sin(t * 0.3 + along * 0.8) * (1 - graze * 0.7);
+      // Walking, the neck is held; grazing, it curves down bone by bone.
+      const nod = roam * (1 - b * 0.6) + grazeDip * graze * (0.4 + 0.6 * along);
       this.swingBone(entry, nod, turn);
     });
     const m = this.bones.tail.length;
@@ -163,16 +212,21 @@ AFRAME.registerComponent('legwalk', {
       this.swingBone(entry, 0, sway);
     });
     if (this.bones.jaw) {
-      // Chews for a few seconds, then rests, on a slow cycle.
-      const chewing = Math.sin(t * 0.35) > 0.2 ? 1 : 0;
+      // Chews while the head is down in the grass, and now and then otherwise.
+      const chewing = graze > 0.5 || Math.sin(t * 0.35) > 0.6 ? 1 : 0;
       const open = jawOpen * chewing * Math.max(0, Math.sin(t * 2.4));
       this.swingBone(this.bones.jaw, open);
+    }
+    // The roll goes on last, on the root, about the animal's own length.
+    if (this.bones.root && this.rootRest) {
+      const q = this.q.setFromAxisAngle(this.along, THREE.MathUtils.degToRad(this.roll ?? 0));
+      this.bones.root.quaternion.copy(this.rootRest).multiply(q);
     }
   },
 
   remove() {
     if (!this.bones) return;
     for (const entry of [...this.bones.hips, ...this.bones.knees, ...this.bones.neck, ...this.bones.tail, this.bones.jaw]) if (entry) entry.bone.quaternion.copy(entry.rest);
-    if (this.bones.root) this.bones.root.position.y = this.rootY;
+    if (this.bones.root) { this.bones.root.position.y = this.rootY; if (this.rootRest) this.bones.root.quaternion.copy(this.rootRest); }
   },
 });

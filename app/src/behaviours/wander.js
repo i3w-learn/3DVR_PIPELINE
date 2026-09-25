@@ -112,6 +112,8 @@ AFRAME.registerComponent('wander', {
   /** Stand still for a while, then pick somewhere to go. */
   rest(initial = false) {
     this.moving = false;
+    this.yawRate = 0;
+    this.aligned = 1;
     if (this.data.idle && !initial) this.playClip(this.data.idle);
     // An animal whose pack has only a walk cycle would march on the spot
     // while it rests. Slowing the mixer almost to a stop reads as standing.
@@ -204,13 +206,18 @@ AFRAME.registerComponent('wander', {
     const turn = ((this.data.turnSpeed * Math.PI) / 180) * seconds;
     // Wrapped, or a long-running scene accumulates hundreds of degrees and the
     // shortest-way-round maths starts fighting itself.
+    const before = object.rotation.y;
     object.rotation.y = wrap(approach(object.rotation.y, heading, turn));
 
+    // Face the way first. Within twenty degrees it walks at full pace;
+    // beyond sixty it stands and steps round, the way a heavy animal turns.
+    // The rate it turned at is kept for whoever paces the legs.
     const error = Math.abs(wrap(heading - object.rotation.y));
-    const ease = 0.3 + 0.7 * Math.max(0, Math.cos(error));
+    this.aligned = THREE.MathUtils.clamp(1 - (error - 0.35) / 0.7, 0, 1);
+    this.yawRate = seconds > 0 ? wrap(object.rotation.y - before) / seconds : 0;
     this.forward ??= new THREE.Vector3();
     this.forward.set(Math.sin(object.rotation.y), 0, Math.cos(object.rotation.y));
-    object.position.addScaledVector(this.forward, this.currentSpeed() * ease * seconds);
+    object.position.addScaledVector(this.forward, this.currentSpeed() * this.aligned * seconds);
   },
 
   currentSpeed() {
