@@ -26,6 +26,10 @@ function showError(error) {
  * The way back to the lobby from inside a land: a small card low on the
  * child's left, on the rig so it stays put while the teacher walks. Looking
  * at it fuses, exactly like looking at a land in the lobby.
+ *
+ * Only in VR. On a flat screen the control bar has a Lands button and the
+ * card is a yellow tag sitting on the grass; in a headset there is no bar,
+ * and the card is the only door.
  */
 function homeTile(elements) {
   let tile = document.querySelector('#home-tile');
@@ -40,7 +44,16 @@ function homeTile(elements) {
   face.addEventListener('click', () => elements.scene.emit('land-pick', { lesson: LOBBY }, false));
   tile.appendChild(face);
   document.querySelector('#rig').appendChild(tile);
+  elements.scene.addEventListener('enter-vr', () => tile.setAttribute('visible', tile.dataset.away === 'true'));
+  elements.scene.addEventListener('exit-vr', () => tile.setAttribute('visible', false));
   return tile;
+}
+
+/** Remember whether we are away from the lobby; show the tile only in VR. */
+function setHomeTile(elements, away) {
+  const tile = homeTile(elements);
+  tile.dataset.away = String(away);
+  tile.setAttribute('visible', away && elements.scene.is('vr-mode'));
 }
 
 export async function startTeacher({ transport, session, elements, controlsRoot, lessonId }) {
@@ -132,7 +145,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
     session.lesson = lesson.id;
 
     // The way home is not shown while you are home.
-    homeTile(elements).setAttribute('visible', lesson.id !== LOBBY);
+    setHomeTile(elements, lesson.id !== LOBBY);
 
     // The URL is deliberately left alone.
     //
@@ -157,7 +170,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
     enter(event.detail.lesson).catch(showError);
   });
 
-  homeTile(elements).setAttribute('visible', lesson.id !== LOBBY);
+  setHomeTile(elements, lesson.id !== LOBBY);
 
   session.lesson = lesson.id;
   go(0);

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T08:12:24.168Z",
+  "generated": "2026-09-25T08:14:51.347Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2578,9 +2578,9 @@
       "height": 0.9,
       "width": 2.533,
       "depth": 2.532,
-      "triangles": 1965,
+      "triangles": 2112,
       "meshes": 1,
-      "bytes": 81012,
+      "bytes": 82500,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Realistics grass 06\" by POLYSCAN",
