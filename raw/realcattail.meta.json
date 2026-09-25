@@ -6,7 +6,7 @@
   "targetHeight": 1.6,
   "yaw": 0,
   "smoothAngle": 60,
-  "simplify": 0.5,
+  "simplify": 0.32,
   "simplifyError": 0.02,
   "join": true
 }
