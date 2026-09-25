@@ -61,6 +61,12 @@ scene.addEventListener('lesson-error', (event) => {
 });
 
 scene.addEventListener('loaded', async () => {
+  // Sharper in the headset. By default WebXR renders at the device's
+  // "recommended" size, which on a Quest is below the panel's pixels, and the
+  // upscale reads as a blurry, pixelated picture. 1.2x costs GPU time and
+  // buys clarity; it has to be set before a session starts, so here, once.
+  scene.renderer?.xr?.setFramebufferScaleFactor?.(1.2);
+
   // Walking is a review tool, not a feature of the lesson. The headset never
   // gets it — see preview-move for why that line matters.
   //
