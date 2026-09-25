@@ -33,8 +33,23 @@
   },
   "props": [
     {
+      "build": "mist",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "params": {
+        "count": 80,
+        "inner": 50,
+        "outer": 140,
+        "size": 16,
+        "height": 3,
+        "opacity": 0.2,
+        "color": "#d4dddb"
+      }
+    },
+    {
       "model": "realvolcano",
-      "position": "72.00 -1.00 -112.00",
+      "position": "72.00 -3.50 -112.00",
       "rotation": "0 0 0",
       "scale": "0.8 1.05 0.8",
       "castShadow": false,
@@ -42,13 +57,13 @@
     },
     {
       "build": "eruption",
-      "position": "72.00 46.30 -112.00",
+      "position": "72.00 43.80 -112.00",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
         "height": 70,
         "mouth": 5.5,
-        "puffs": 56,
+        "puffs": 90,
         "wind": {
           "x": -20,
           "y": 4
@@ -58,7 +73,7 @@
     },
     {
       "model": "realvolcano",
-      "position": "-92.00 -1.00 78.00",
+      "position": "-92.00 -3.50 78.00",
       "rotation": "0 140 0",
       "scale": "0.7 0.95 0.7",
       "castShadow": false,
@@ -66,13 +81,13 @@
     },
     {
       "build": "eruption",
-      "position": "-92.00 41.80 78.00",
+      "position": "-92.00 39.30 78.00",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
         "height": 48,
         "mouth": 4.5,
-        "puffs": 30,
+        "puffs": 48,
         "wind": {
           "x": 12,
           "y": -8
@@ -82,7 +97,7 @@
     },
     {
       "model": "realvolcano",
-      "position": "108.00 -1.00 14.00",
+      "position": "108.00 -3.50 14.00",
       "rotation": "0 250 0",
       "scale": "0.6 0.85 0.6",
       "castShadow": false,
@@ -90,13 +105,13 @@
     },
     {
       "build": "eruption",
-      "position": "108.00 37.30 14.00",
+      "position": "108.00 34.80 14.00",
       "rotation": "0 0 0",
       "contact": false,
       "params": {
         "height": 40,
         "mouth": 4,
-        "puffs": 24,
+        "puffs": 38,
         "wind": {
           "x": -6,
           "y": -14
