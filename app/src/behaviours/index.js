@@ -21,3 +21,4 @@ import './viewer-rig.js';
 import './wander.js';
 import './orbit.js';
 import './legwalk.js';
+import './blink.js';
