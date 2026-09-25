@@ -33,7 +33,7 @@ function lessonIndex() {
  * @param {string} lessonId
  * @returns {Promise<{lesson: object, stage: object}>}
  */
-export async function loadLesson(lessonId) {
+export async function loadLesson(lessonId, { review = false } = {}) {
   if (cache.has(lessonId)) return cache.get(lessonId);
 
   const index = await lessonIndex();
@@ -53,8 +53,10 @@ export async function loadLesson(lessonId) {
   // river — need somebody outside the build team to approve them before a
   // child sees them, and "we will remember not to open it" is not a control.
   // Until `gate.signedOff` is true the lesson only opens for a reviewer, who
-  // asks for it by name with `&review=1`.
-  if (lesson.gate && !lesson.gate.signedOff && !new URLSearchParams(location.search).has('review')) {
+  // asks for it by name with `&review=1` — or walks in from the lobby, whose
+  // card for a locked land says so.
+  const reviewing = review || new URLSearchParams(location.search).has('review');
+  if (lesson.gate && !lesson.gate.signedOff && !reviewing) {
     throw new Error(
       `"${lessonId}" is waiting for sign-off and is locked: ${lesson.gate.needs}. ` +
         'A reviewer can preview it by adding &review=1 to the address.'
