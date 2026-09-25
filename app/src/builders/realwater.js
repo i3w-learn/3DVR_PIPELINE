@@ -142,6 +142,25 @@ AFRAME.registerComponent('waterbody', {
  * They take no part in the shadow pass. They stand outside the sun's shadow
  * box anyway, and would be submitted to it only to be clipped out.
  */
+
+/** A soft radial darkening, drawn once and shared by every tree ring. */
+let shadowTexture = null;
+function shadowDisc() {
+  if (shadowTexture) return shadowTexture;
+  const SIZE = 128;
+  const canvas = document.createElement('canvas');
+  canvas.width = canvas.height = SIZE;
+  const ctx = canvas.getContext('2d');
+  const g = ctx.createRadialGradient(SIZE / 2, SIZE / 2, 0, SIZE / 2, SIZE / 2, SIZE / 2);
+  g.addColorStop(0, 'rgba(0,0,0,1)');
+  g.addColorStop(0.55, 'rgba(0,0,0,0.5)');
+  g.addColorStop(1, 'rgba(0,0,0,0)');
+  ctx.fillStyle = g;
+  ctx.fillRect(0, 0, SIZE, SIZE);
+  shadowTexture = new THREE.CanvasTexture(canvas);
+  return shadowTexture;
+}
+
 AFRAME.registerComponent('treeline', {
   schema: {
     model: { type: 'string', default: 'realmangotreefar' },
@@ -197,6 +216,29 @@ AFRAME.registerComponent('treeline', {
 
     // One instanced mesh per wedge per part of the tree (bark, leaves).
     const grove = new THREE.Group();
+
+    // A soft dark disc under every tree, one batch per wedge. Without it the
+    // whole ring stands a centimetre above the grass; with it, each trunk
+    // meets the ground. Same idea as `contact-shadow`, drawn here in bulk.
+    const disc = new THREE.CircleGeometry(1, 20);
+    disc.rotateX(-Math.PI / 2);
+    const shade = new THREE.MeshBasicMaterial({
+      map: shadowDisc(), transparent: true, opacity: 0.3, depthWrite: false, toneMapped: false,
+    });
+    const foot = new THREE.Vector3(), spin = new THREE.Quaternion(), grown = new THREE.Vector3();
+    for (const spots of wedges) {
+      if (!spots.length) continue;
+      const discs = new THREE.InstancedMesh(disc, shade, spots.length);
+      spots.forEach((spot, i) => {
+        spot.decompose(foot, spin, grown);
+        const r = tall * grown.x * 0.22;
+        discs.setMatrixAt(i, new THREE.Matrix4().compose(foot.setY(0.02), spin, new THREE.Vector3(r, 1, r)));
+      });
+      discs.instanceMatrix.needsUpdate = true;
+      discs.renderOrder = 1;
+      discs.computeBoundingSphere();
+      grove.add(discs);
+    }
     const placed = new THREE.Matrix4();
     tree.traverse((part) => {
       if (!part.isMesh) return;
