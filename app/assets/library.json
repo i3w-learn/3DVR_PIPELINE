@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T11:39:23.871Z",
+  "generated": "2026-09-25T11:45:02.051Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2660,6 +2660,19 @@
       "source": "Sketchfab — \"Jeep\" by DJMaesen",
       "licence": "CC-BY"
     },
+    "realjunglefull": {
+      "file": "models/realjunglefull.glb",
+      "height": 13,
+      "width": 12.216,
+      "depth": 13.912,
+      "triangles": 12306,
+      "meshes": 6,
+      "bytes": 2926304,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Tree GN\" by Node_λrt",
+      "licence": "CC-BY"
+    },
     "realjungletree": {
       "file": "models/realjungletree.glb",
       "height": 13,
@@ -2830,6 +2843,19 @@
       "triangles": 722,
       "meshes": 2,
       "bytes": 535040,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Oak tree\" by massive-graphisme",
+      "licence": "CC-BY"
+    },
+    "realoakfull": {
+      "file": "models/realoakfull.glb",
+      "height": 11,
+      "width": 12.38,
+      "depth": 12.612,
+      "triangles": 6400,
+      "meshes": 2,
+      "bytes": 563960,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Oak tree\" by massive-graphisme",

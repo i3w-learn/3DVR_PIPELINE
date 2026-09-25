@@ -136,6 +136,7 @@ Their authors must be credited wherever this application is distributed.
 - **realhorse** — Sketchfab — "Horse" (28 clips)
 - **realigloo** — Sketchfab — "Igloo" by Vera4Art
 - **realjeep** — Sketchfab — "Jeep" by DJMaesen
+- **realjunglefull** — Sketchfab — "Tree GN" by Node_λrt
 - **realjungletree** — Sketchfab — "Tree GN" by Node_λrt
 - **realjungletreefar** — Sketchfab — "Tree GN" by Node_λrt
 - **realkangaroo** — Sketchfab — "Kangaroo" by pergamond
@@ -149,6 +150,7 @@ Their authors must be credited wherever this application is distributed.
 - **realmonkey** — Sketchfab — "Low poly monkey animal 3d model free" by iRahulRajput
 - **realoak** — Sketchfab — "Oak tree" by massive-graphisme
 - **realoakfar** — Sketchfab — "Oak tree" by massive-graphisme
+- **realoakfull** — Sketchfab — "Oak tree" by massive-graphisme
 - **realonion** — Sketchfab — "Onion scan" by epipolar
 - **realorange** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realowl** — Sketchfab — "Common Barn Owl" by Innovation Studio
