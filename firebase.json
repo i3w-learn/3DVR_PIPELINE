@@ -92,7 +92,7 @@
       },
       {
         "source": "/beach",
-        "destination": "/?lesson=demo-letters&role=teacher",
+        "destination": "/?lesson=eng-nur-letters-a-e&role=teacher",
         "type": 302
       },
       {

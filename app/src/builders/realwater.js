@@ -71,6 +71,11 @@ AFRAME.registerComponent('waterbody', {
     /** Metres a second the ripples drift. A pond breathes; a river goes somewhere. */
     flow: { type: 'number', default: 0.05 },
     mud: { type: 'color', default: '#5f5138' },
+    /**
+     * Metres the surface rises and falls. A river is flat; the sea is not, and
+     * a flat sea in a headset is a sheet of glass. Only a river strip swells.
+     */
+    swell: { type: 'number', default: 0 },
   },
 
   init() {
@@ -86,8 +91,12 @@ AFRAME.registerComponent('waterbody', {
     bank.position.y = 0.035;
     this.el.setObject3D('bank', bank);
 
-    const sheet = river ? new THREE.PlaneGeometry(length, width) : new THREE.CircleGeometry(radius, 56);
+    // A swelling sea needs vertices to move; a flat one needs none.
+    const sheet = river
+      ? new THREE.PlaneGeometry(length, width, this.data.swell ? 140 : 1, this.data.swell ? 70 : 1)
+      : new THREE.CircleGeometry(radius, 56);
     sheet.rotateX(-Math.PI / 2);
+    this.sheet = river && this.data.swell ? sheet : null;
     if (!river) sheet.scale(stretch, 1, 1);
 
     const normalMap = rippleTexture().clone();
@@ -111,6 +120,24 @@ AFRAME.registerComponent('waterbody', {
     const map = this.material?.normalMap;
     if (!map) return;
     const t = time / 1000;
+
+    // Long low swells from two directions, and a short chop across them.
+    // Cheap enough per frame at this vertex count, and it is what turns a
+    // sheet of glass into water in a headset, where a flat plane is flat.
+    if (this.sheet) {
+      const a = this.data.swell;
+      const pos = this.sheet.attributes.position;
+      for (let i = 0; i < pos.count; i += 1) {
+        const x = pos.getX(i);
+        const z = pos.getZ(i);
+        pos.setY(i,
+          a * Math.sin(x / 6.5 + z / 22 + t * 0.85) +
+          a * 0.6 * Math.sin(z / 4.2 - x / 15 - t * 1.25) +
+          a * 0.35 * Math.sin((x + z) / 2.6 + t * 1.9));
+      }
+      pos.needsUpdate = true;
+      this.sheet.computeVertexNormals();
+    }
     // A river runs along its length; a pond only drifts, and wanders as it does.
     if (this.data.shape === 'river') map.offset.set(-t * this.data.flow, Math.sin(t * 0.21) * 0.02);
     else map.offset.set(t * this.data.flow * 0.6 + Math.sin(t * 0.13) * 0.03, t * this.data.flow);

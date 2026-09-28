@@ -1,0 +1,761 @@
+{
+  "id": "eng-nur-letters-p-t",
+  "template": "match",
+  "stage": "beach",
+  "notes": "Letters P to T on the letter beach. One big letter drops out of the sky; the real things for it arrive on the sand the way they would in life. One sitting of the alphabet; the old tabletop alphabet did all 26 in one go.",
+  "budget": {
+    "triangles": 285000,
+    "drawCalls": 120,
+    "why": "Every thing for five or six letters is placed, but a step shows one letter and at most its three things; the checker counts them all at once. The beach itself is heavier than the other lands on purpose: modelled palms instead of cut-outs, because the cut-outs read as stickers in the headset."
+  },
+  "objects": [
+    {
+      "id": "letterP",
+      "build": "letter3d",
+      "params": {
+        "char": "P",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "parrot",
+      "model": "realparrot",
+      "position": "-2.3 0 -3.6",
+      "scale": "1.6 1.6 1.6",
+      "name": {
+        "en": "Parrot",
+        "hi": "तोता",
+        "mr": "पोपट",
+        "or": "ଶୁଆ"
+      },
+      "clip": "Land",
+      "sound": "parrot.mp3",
+      "arrive": {
+        "how": "fly",
+        "side": -1,
+        "from": 9,
+        "duration": 3.5
+      },
+      "ring": 0.4,
+      "castShadow": false
+    },
+    {
+      "id": "pumpkin",
+      "model": "realpumpkin",
+      "position": "2.6 0 -3.4",
+      "scale": "3 3 3",
+      "name": {
+        "en": "Pumpkin",
+        "hi": "कद्दू",
+        "mr": "भोपळा",
+        "or": "କଖାରୁ"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.45,
+      "castShadow": false
+    },
+    {
+      "id": "policecar",
+      "model": "realpolicecar",
+      "position": "3.6 0 -7.2",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Police car",
+        "hi": "पुलिस की गाड़ी",
+        "mr": "पोलीस गाडी",
+        "or": "ପୋଲିସ ଗାଡ଼ି"
+      },
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 11,
+        "duration": 4.5
+      },
+      "ring": 1.4
+    },
+    {
+      "id": "letterQ",
+      "build": "letter3d",
+      "params": {
+        "char": "Q",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "queen",
+      "model": "realqueen",
+      "position": "0.3 0 -4.4",
+      "scale": "2.4 2.4 2.4",
+      "name": {
+        "en": "Queen",
+        "hi": "रानी",
+        "mr": "राणी",
+        "or": "ରାଣୀ"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.6
+    },
+    {
+      "id": "letterR",
+      "build": "letter3d",
+      "params": {
+        "char": "R",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "rabbit",
+      "model": "realrabbit",
+      "position": "-2.5 0 -3.9",
+      "scale": "2 2 2",
+      "name": {
+        "en": "Rabbit",
+        "hi": "खरगोश",
+        "mr": "ससा",
+        "or": "ଠେକୁଆ"
+      },
+      "clip": "Rabbit|jackrabbit_walk_fwd_01",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 6,
+        "duration": 4,
+        "idle": "Rabbit|jackrabbit_idle_03"
+      },
+      "ring": 0.45,
+      "castShadow": false
+    },
+    {
+      "id": "rocket",
+      "model": "realrocket",
+      "position": "3.2 2.6 -7.5",
+      "scale": "1.6 1.6 1.6",
+      "name": {
+        "en": "Rocket",
+        "hi": "रॉकेट",
+        "mr": "रॉकेट",
+        "or": "ରକେଟ୍"
+      },
+      "arrive": {
+        "how": "launch",
+        "from": 0,
+        "duration": 3
+      },
+      "ring": 0.8
+    },
+    {
+      "id": "rhino",
+      "model": "realrhino",
+      "position": "-1.5 0 -8.8",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Rhino",
+        "hi": "गैंडा",
+        "mr": "गेंडा",
+        "or": "ଗଣ୍ଡା"
+      },
+      "clip": "Animation",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 10,
+        "duration": 5.5
+      },
+      "ring": 1.4
+    },
+    {
+      "id": "letterS",
+      "build": "letter3d",
+      "params": {
+        "char": "S",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "sheep",
+      "model": "realsheep",
+      "position": "2.6 0 -3.4",
+      "scale": "1.2 1.2 1.2",
+      "name": {
+        "en": "Sheep",
+        "hi": "भेड़",
+        "mr": "मेंढी",
+        "or": "ମେଣ୍ଢା"
+      },
+      "clip": "Animation",
+      "sound": "sheep.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 7,
+        "duration": 4.5
+      },
+      "ring": 0.6
+    },
+    {
+      "id": "starfish",
+      "model": "realstarfish",
+      "position": "-2.4 0 -3.1",
+      "scale": "4 4 4",
+      "name": {
+        "en": "Starfish",
+        "hi": "तारा मछली",
+        "mr": "तारामासा",
+        "or": "ତାରା ମାଛ"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.3,
+      "castShadow": false
+    },
+    {
+      "id": "ship",
+      "model": "realship",
+      "position": "-4 0.05 -34",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Ship",
+        "hi": "जहाज़",
+        "mr": "जहाज",
+        "or": "ଜାହାଜ"
+      },
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 30,
+        "duration": 9
+      },
+      "ring": 3.5,
+      "castShadow": false
+    },
+    {
+      "id": "letterT",
+      "build": "letter3d",
+      "params": {
+        "char": "T",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "tiger",
+      "model": "realtiger",
+      "position": "0.6 0 -5.6",
+      "scale": "1.1 1.1 1.1",
+      "name": {
+        "en": "Tiger",
+        "hi": "बाघ",
+        "mr": "वाघ",
+        "or": "ବାଘ"
+      },
+      "clip": "Walk",
+      "sound": "bigroar.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 9,
+        "duration": 5,
+        "idle": "Idle_Lie Prone"
+      },
+      "ring": 1
+    },
+    {
+      "id": "turtle",
+      "model": "realturtle",
+      "position": "2.6 0 -3.4",
+      "scale": "1.6 1.6 1.6",
+      "name": {
+        "en": "Turtle",
+        "hi": "कछुआ",
+        "mr": "कासव",
+        "or": "କଇଁଛ"
+      },
+      "clip": "Armature|Tortue Anim",
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 5,
+        "duration": 6
+      },
+      "ring": 0.5,
+      "castShadow": false
+    },
+    {
+      "id": "tomato",
+      "model": "realtomato",
+      "position": "-2.5 0 -3.9",
+      "scale": "6 6 6",
+      "name": {
+        "en": "Tomato",
+        "hi": "टमाटर",
+        "mr": "टोमॅटो",
+        "or": "ଟମାଟୋ"
+      },
+      "arrive": {
+        "how": "fall",
+        "from": 4.2
+      },
+      "ring": 0.3,
+      "castShadow": false
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "letterP"
+      ],
+      "highlight": "letterP",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital P.",
+        "hi": "यह बड़ा P है।",
+        "mr": "हे मोठं P आहे.",
+        "or": "ଏହା ବଡ଼ P।"
+      },
+      "audio": "eng-nur-letters-p-t-s01.mp3"
+    },
+    {
+      "show": [
+        "letterP"
+      ],
+      "highlight": "letterP",
+      "duration": 5500,
+      "script": {
+        "en": "P says “puh”. Say it with me.",
+        "hi": "P की ध्वनि — puh।",
+        "mr": "P चा आवाज — puh. माझ्यासोबत म्हणा.",
+        "or": "P ର ଧ୍ୱନି — puh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-p-t-s02.mp3"
+    },
+    {
+      "show": [
+        "letterP",
+        "parrot"
+      ],
+      "highlight": "parrot",
+      "partner": "letterP",
+      "duration": 6500,
+      "script": {
+        "en": "P for Parrot.",
+        "hi": "P से Parrot — तोता।",
+        "mr": "P — Parrot, म्हणजे पोपट.",
+        "or": "P — Parrot, ମାନେ ଶୁଆ।"
+      },
+      "audio": "eng-nur-letters-p-t-s03.mp3"
+    },
+    {
+      "show": [
+        "letterP",
+        "parrot",
+        "pumpkin"
+      ],
+      "highlight": "pumpkin",
+      "partner": "letterP",
+      "duration": 6000,
+      "script": {
+        "en": "P for Pumpkin.",
+        "hi": "P से Pumpkin — कद्दू।",
+        "mr": "P — Pumpkin, म्हणजे भोपळा.",
+        "or": "P — Pumpkin, ମାନେ କଖାରୁ।"
+      },
+      "audio": "eng-nur-letters-p-t-s04.mp3"
+    },
+    {
+      "show": [
+        "letterP",
+        "parrot",
+        "pumpkin",
+        "policecar"
+      ],
+      "highlight": "policecar",
+      "partner": "letterP",
+      "duration": 7500,
+      "script": {
+        "en": "P for Police car.",
+        "hi": "P से Police car — पुलिस की गाड़ी।",
+        "mr": "P — Police car, म्हणजे पोलीस गाडी.",
+        "or": "P — Police car, ମାନେ ପୋଲିସ ଗାଡ଼ି।"
+      },
+      "audio": "eng-nur-letters-p-t-s05.mp3"
+    },
+    {
+      "show": [
+        "letterP",
+        "parrot",
+        "pumpkin",
+        "policecar"
+      ],
+      "highlight": "letterP",
+      "duration": 7000,
+      "script": {
+        "en": "P. Parrot, Pumpkin, Police car.",
+        "hi": "P। तोता, कद्दू, पुलिस की गाड़ी।",
+        "mr": "P. पोपट, भोपळा, पोलीस गाडी.",
+        "or": "P। ଶୁଆ, କଖାରୁ, ପୋଲିସ ଗାଡ଼ି।"
+      },
+      "audio": "eng-nur-letters-p-t-s06.mp3"
+    },
+    {
+      "show": [
+        "letterQ"
+      ],
+      "highlight": "letterQ",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital Q.",
+        "hi": "यह बड़ा Q है।",
+        "mr": "हे मोठं Q आहे.",
+        "or": "ଏହା ବଡ଼ Q।"
+      },
+      "audio": "eng-nur-letters-p-t-s07.mp3"
+    },
+    {
+      "show": [
+        "letterQ"
+      ],
+      "highlight": "letterQ",
+      "duration": 5500,
+      "script": {
+        "en": "Q says “kwuh”. Say it with me.",
+        "hi": "Q की ध्वनि — kwuh।",
+        "mr": "Q चा आवाज — kwuh. माझ्यासोबत म्हणा.",
+        "or": "Q ର ଧ୍ୱନି — kwuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-p-t-s08.mp3"
+    },
+    {
+      "show": [
+        "letterQ",
+        "queen"
+      ],
+      "highlight": "queen",
+      "partner": "letterQ",
+      "duration": 6000,
+      "script": {
+        "en": "Q for Queen.",
+        "hi": "Q से Queen — रानी।",
+        "mr": "Q — Queen, म्हणजे राणी.",
+        "or": "Q — Queen, ମାନେ ରାଣୀ।"
+      },
+      "audio": "eng-nur-letters-p-t-s09.mp3"
+    },
+    {
+      "show": [
+        "letterQ",
+        "queen"
+      ],
+      "highlight": "letterQ",
+      "duration": 7000,
+      "script": {
+        "en": "Q. Queen.",
+        "hi": "Q। रानी।",
+        "mr": "Q. राणी.",
+        "or": "Q। ରାଣୀ।"
+      },
+      "audio": "eng-nur-letters-p-t-s10.mp3"
+    },
+    {
+      "show": [
+        "letterR"
+      ],
+      "highlight": "letterR",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital R.",
+        "hi": "यह बड़ा R है।",
+        "mr": "हे मोठं R आहे.",
+        "or": "ଏହା ବଡ଼ R।"
+      },
+      "audio": "eng-nur-letters-p-t-s11.mp3"
+    },
+    {
+      "show": [
+        "letterR"
+      ],
+      "highlight": "letterR",
+      "duration": 5500,
+      "script": {
+        "en": "R says “ruh”. Say it with me.",
+        "hi": "R की ध्वनि — ruh।",
+        "mr": "R चा आवाज — ruh. माझ्यासोबत म्हणा.",
+        "or": "R ର ଧ୍ୱନି — ruh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-p-t-s12.mp3"
+    },
+    {
+      "show": [
+        "letterR",
+        "rabbit"
+      ],
+      "highlight": "rabbit",
+      "partner": "letterR",
+      "duration": 7000,
+      "script": {
+        "en": "R for Rabbit.",
+        "hi": "R से Rabbit — खरगोश।",
+        "mr": "R — Rabbit, म्हणजे ससा.",
+        "or": "R — Rabbit, ମାନେ ଠେକୁଆ।"
+      },
+      "audio": "eng-nur-letters-p-t-s13.mp3"
+    },
+    {
+      "show": [
+        "letterR",
+        "rabbit",
+        "rocket"
+      ],
+      "highlight": "rocket",
+      "partner": "letterR",
+      "duration": 6000,
+      "script": {
+        "en": "R for Rocket.",
+        "hi": "R से Rocket — रॉकेट।",
+        "mr": "R — Rocket, म्हणजे रॉकेट.",
+        "or": "R — Rocket, ମାନେ ରକେଟ୍।"
+      },
+      "audio": "eng-nur-letters-p-t-s14.mp3"
+    },
+    {
+      "show": [
+        "letterR",
+        "rabbit",
+        "rocket",
+        "rhino"
+      ],
+      "highlight": "rhino",
+      "partner": "letterR",
+      "duration": 8500,
+      "script": {
+        "en": "R for Rhino.",
+        "hi": "R से Rhino — गैंडा।",
+        "mr": "R — Rhino, म्हणजे गेंडा.",
+        "or": "R — Rhino, ମାନେ ଗଣ୍ଡା।"
+      },
+      "audio": "eng-nur-letters-p-t-s15.mp3"
+    },
+    {
+      "show": [
+        "letterR",
+        "rabbit",
+        "rocket",
+        "rhino"
+      ],
+      "highlight": "letterR",
+      "duration": 7000,
+      "script": {
+        "en": "R. Rabbit, Rocket, Rhino.",
+        "hi": "R। खरगोश, रॉकेट, गैंडा।",
+        "mr": "R. ससा, रॉकेट, गेंडा.",
+        "or": "R। ଠେକୁଆ, ରକେଟ୍, ଗଣ୍ଡା।"
+      },
+      "audio": "eng-nur-letters-p-t-s16.mp3"
+    },
+    {
+      "show": [
+        "letterS"
+      ],
+      "highlight": "letterS",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital S.",
+        "hi": "यह बड़ा S है।",
+        "mr": "हे मोठं S आहे.",
+        "or": "ଏହା ବଡ଼ S।"
+      },
+      "audio": "eng-nur-letters-p-t-s17.mp3"
+    },
+    {
+      "show": [
+        "letterS"
+      ],
+      "highlight": "letterS",
+      "duration": 5500,
+      "script": {
+        "en": "S says “sss”. Say it with me.",
+        "hi": "S की ध्वनि — sss।",
+        "mr": "S चा आवाज — sss. माझ्यासोबत म्हणा.",
+        "or": "S ର ଧ୍ୱନି — sss। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-p-t-s18.mp3"
+    },
+    {
+      "show": [
+        "letterS",
+        "sheep"
+      ],
+      "highlight": "sheep",
+      "partner": "letterS",
+      "duration": 7500,
+      "script": {
+        "en": "S for Sheep.",
+        "hi": "S से Sheep — भेड़।",
+        "mr": "S — Sheep, म्हणजे मेंढी.",
+        "or": "S — Sheep, ମାନେ ମେଣ୍ଢା।"
+      },
+      "audio": "eng-nur-letters-p-t-s19.mp3"
+    },
+    {
+      "show": [
+        "letterS",
+        "sheep",
+        "starfish"
+      ],
+      "highlight": "starfish",
+      "partner": "letterS",
+      "duration": 6000,
+      "script": {
+        "en": "S for Starfish.",
+        "hi": "S से Starfish — तारा मछली।",
+        "mr": "S — Starfish, म्हणजे तारामासा.",
+        "or": "S — Starfish, ମାନେ ତାରା ମାଛ।"
+      },
+      "audio": "eng-nur-letters-p-t-s20.mp3"
+    },
+    {
+      "show": [
+        "letterS",
+        "sheep",
+        "starfish",
+        "ship"
+      ],
+      "highlight": "ship",
+      "partner": "letterS",
+      "duration": 12000,
+      "script": {
+        "en": "S for Ship.",
+        "hi": "S से Ship — जहाज़।",
+        "mr": "S — Ship, म्हणजे जहाज.",
+        "or": "S — Ship, ମାନେ ଜାହାଜ।"
+      },
+      "audio": "eng-nur-letters-p-t-s21.mp3"
+    },
+    {
+      "show": [
+        "letterS",
+        "sheep",
+        "starfish",
+        "ship"
+      ],
+      "highlight": "letterS",
+      "duration": 7000,
+      "script": {
+        "en": "S. Sheep, Starfish, Ship.",
+        "hi": "S। भेड़, तारा मछली, जहाज़।",
+        "mr": "S. मेंढी, तारामासा, जहाज.",
+        "or": "S। ମେଣ୍ଢା, ତାରା ମାଛ, ଜାହାଜ।"
+      },
+      "audio": "eng-nur-letters-p-t-s22.mp3"
+    },
+    {
+      "show": [
+        "letterT"
+      ],
+      "highlight": "letterT",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital T.",
+        "hi": "यह बड़ा T है।",
+        "mr": "हे मोठं T आहे.",
+        "or": "ଏହା ବଡ଼ T।"
+      },
+      "audio": "eng-nur-letters-p-t-s23.mp3"
+    },
+    {
+      "show": [
+        "letterT"
+      ],
+      "highlight": "letterT",
+      "duration": 5500,
+      "script": {
+        "en": "T says “tuh”. Say it with me.",
+        "hi": "T की ध्वनि — tuh।",
+        "mr": "T चा आवाज — tuh. माझ्यासोबत म्हणा.",
+        "or": "T ର ଧ୍ୱନି — tuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-p-t-s24.mp3"
+    },
+    {
+      "show": [
+        "letterT",
+        "tiger"
+      ],
+      "highlight": "tiger",
+      "partner": "letterT",
+      "duration": 8000,
+      "script": {
+        "en": "T for Tiger.",
+        "hi": "T से Tiger — बाघ।",
+        "mr": "T — Tiger, म्हणजे वाघ.",
+        "or": "T — Tiger, ମାନେ ବାଘ।"
+      },
+      "audio": "eng-nur-letters-p-t-s25.mp3"
+    },
+    {
+      "show": [
+        "letterT",
+        "tiger",
+        "turtle"
+      ],
+      "highlight": "turtle",
+      "partner": "letterT",
+      "duration": 9000,
+      "script": {
+        "en": "T for Turtle.",
+        "hi": "T से Turtle — कछुआ।",
+        "mr": "T — Turtle, म्हणजे कासव.",
+        "or": "T — Turtle, ମାନେ କଇଁଛ।"
+      },
+      "audio": "eng-nur-letters-p-t-s26.mp3"
+    },
+    {
+      "show": [
+        "letterT",
+        "tiger",
+        "turtle",
+        "tomato"
+      ],
+      "highlight": "tomato",
+      "partner": "letterT",
+      "duration": 6000,
+      "script": {
+        "en": "T for Tomato.",
+        "hi": "T से Tomato — टमाटर।",
+        "mr": "T — Tomato, म्हणजे टोमॅटो.",
+        "or": "T — Tomato, ମାନେ ଟମାଟୋ।"
+      },
+      "audio": "eng-nur-letters-p-t-s27.mp3"
+    },
+    {
+      "show": [
+        "letterT",
+        "tiger",
+        "turtle",
+        "tomato"
+      ],
+      "highlight": "letterT",
+      "duration": 7000,
+      "script": {
+        "en": "T. Tiger, Turtle, Tomato.",
+        "hi": "T। बाघ, कछुआ, टमाटर।",
+        "mr": "T. वाघ, कासव, टोमॅटो.",
+        "or": "T। ବାଘ, କଇଁଛ, ଟମାଟୋ।"
+      },
+      "audio": "eng-nur-letters-p-t-s28.mp3"
+    }
+  ]
+}

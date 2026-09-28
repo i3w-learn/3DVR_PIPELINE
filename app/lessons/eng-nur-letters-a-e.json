@@ -1,15 +1,20 @@
 {
-  "id": "demo-letters",
+  "id": "eng-nur-letters-a-e",
   "template": "match",
   "stage": "beach",
-  "notes": "The letter beach, letters A to E. One big letter drops out of the sky; three real things for it arrive on the sand the way they would in life. Demo for the letter lessons that will replace the tabletop alphabet.",
+  "notes": "Letters A to E on the letter beach. One big letter drops out of the sky; the real things for it arrive on the sand the way they would in life. One sitting of the alphabet; the old tabletop alphabet did all 26 in one go.",
+  "budget": {
+    "triangles": 285000,
+    "drawCalls": 120,
+    "why": "Every thing for five or six letters is placed, but a step shows one letter and at most its three things; the checker counts them all at once. The beach itself is heavier than the other lands on purpose: modelled palms instead of cut-outs, because the cut-outs read as stickers in the headset."
+  },
   "objects": [
     {
       "id": "letterA",
       "build": "letter3d",
       "params": {
         "char": "A",
-        "height": 3.0,
+        "height": 3,
         "depth": 0.4
       },
       "position": "0 3.0 -6.8"
@@ -17,7 +22,7 @@
     {
       "id": "apple",
       "model": "realapple",
-      "position": "-2.6 0 -4.2",
+      "position": "-2.5 0 -3.9",
       "scale": "7 7 7",
       "name": {
         "en": "Apple",
@@ -27,7 +32,7 @@
       },
       "arrive": {
         "how": "fall",
-        "from": 4.5
+        "from": 4.2
       },
       "ring": 0.35,
       "castShadow": false
@@ -77,7 +82,7 @@
       "build": "letter3d",
       "params": {
         "char": "B",
-        "height": 3.0,
+        "height": 3,
         "depth": 0.4
       },
       "position": "0 3.0 -6.8"
@@ -85,7 +90,7 @@
     {
       "id": "banana",
       "model": "realbanana",
-      "position": "-2.4 0 -3.9",
+      "position": "-2.5 0 -3.9",
       "scale": "8 8 8",
       "name": {
         "en": "Banana",
@@ -95,7 +100,7 @@
       },
       "arrive": {
         "how": "fall",
-        "from": 4
+        "from": 4.2
       },
       "ring": 0.3,
       "castShadow": false
@@ -147,7 +152,7 @@
       "build": "letter3d",
       "params": {
         "char": "C",
-        "height": 3.0,
+        "height": 3,
         "depth": 0.4
       },
       "position": "0 3.0 -6.8"
@@ -221,7 +226,7 @@
       "build": "letter3d",
       "params": {
         "char": "D",
-        "height": 3.0,
+        "height": 3,
         "depth": 0.4
       },
       "position": "0 3.0 -6.8"
@@ -295,7 +300,7 @@
       "build": "letter3d",
       "params": {
         "char": "E",
-        "height": 3.0,
+        "height": 3,
         "depth": 0.4
       },
       "position": "0 3.0 -6.8"
@@ -374,7 +379,7 @@
         "mr": "हे मोठं A आहे.",
         "or": "ଏହା ବଡ଼ A।"
       },
-      "audio": "demo-letters-s01.mp3"
+      "audio": "eng-nur-letters-a-e-s01.mp3"
     },
     {
       "show": [
@@ -388,7 +393,7 @@
         "mr": "A चा आवाज — a. माझ्यासोबत म्हणा.",
         "or": "A ର ଧ୍ୱନି — a। ମୋ ସହ କୁହ।"
       },
-      "audio": "demo-letters-s02.mp3"
+      "audio": "eng-nur-letters-a-e-s02.mp3"
     },
     {
       "show": [
@@ -404,7 +409,7 @@
         "mr": "A — Apple, म्हणजे सफरचंद.",
         "or": "A — Apple, ମାନେ ସେଓ।"
       },
-      "audio": "demo-letters-s03.mp3"
+      "audio": "eng-nur-letters-a-e-s03.mp3"
     },
     {
       "show": [
@@ -421,7 +426,7 @@
         "mr": "A — Ant, म्हणजे मुंगी.",
         "or": "A — Ant, ମାନେ ପିମ୍ପୁଡ଼ି।"
       },
-      "audio": "demo-letters-s04.mp3"
+      "audio": "eng-nur-letters-a-e-s04.mp3"
     },
     {
       "show": [
@@ -432,14 +437,14 @@
       ],
       "highlight": "ambulance",
       "partner": "letterA",
-      "duration": 7500,
+      "duration": 7000,
       "script": {
         "en": "A for Ambulance.",
         "hi": "A से Ambulance — एम्बुलेंस।",
         "mr": "A — Ambulance, म्हणजे रुग्णवाहिका.",
         "or": "A — Ambulance, ମାନେ ଆମ୍ବୁଲାନ୍ସ।"
       },
-      "audio": "demo-letters-s05.mp3"
+      "audio": "eng-nur-letters-a-e-s05.mp3"
     },
     {
       "show": [
@@ -456,7 +461,7 @@
         "mr": "A. सफरचंद, मुंगी, रुग्णवाहिका.",
         "or": "A। ସେଓ, ପିମ୍ପୁଡ଼ି, ଆମ୍ବୁଲାନ୍ସ।"
       },
-      "audio": "demo-letters-s06.mp3"
+      "audio": "eng-nur-letters-a-e-s06.mp3"
     },
     {
       "show": [
@@ -470,7 +475,7 @@
         "mr": "हे मोठं B आहे.",
         "or": "ଏହା ବଡ଼ B।"
       },
-      "audio": "demo-letters-s07.mp3"
+      "audio": "eng-nur-letters-a-e-s07.mp3"
     },
     {
       "show": [
@@ -484,7 +489,7 @@
         "mr": "B चा आवाज — buh. माझ्यासोबत म्हणा.",
         "or": "B ର ଧ୍ୱନି — buh। ମୋ ସହ କୁହ।"
       },
-      "audio": "demo-letters-s08.mp3"
+      "audio": "eng-nur-letters-a-e-s08.mp3"
     },
     {
       "show": [
@@ -500,7 +505,7 @@
         "mr": "B — Banana, म्हणजे केळं.",
         "or": "B — Banana, ମାନେ କଦଳୀ।"
       },
-      "audio": "demo-letters-s09.mp3"
+      "audio": "eng-nur-letters-a-e-s09.mp3"
     },
     {
       "show": [
@@ -510,14 +515,14 @@
       ],
       "highlight": "bear",
       "partner": "letterB",
-      "duration": 7500,
+      "duration": 8000,
       "script": {
         "en": "B for Bear.",
         "hi": "B से Bear — भालू।",
         "mr": "B — Bear, म्हणजे अस्वल.",
         "or": "B — Bear, ମାନେ ଭାଲୁ।"
       },
-      "audio": "demo-letters-s10.mp3"
+      "audio": "eng-nur-letters-a-e-s10.mp3"
     },
     {
       "show": [
@@ -528,14 +533,14 @@
       ],
       "highlight": "butterfly",
       "partner": "letterB",
-      "duration": 7500,
+      "duration": 7000,
       "script": {
         "en": "B for Butterfly.",
         "hi": "B से Butterfly — तितली।",
         "mr": "B — Butterfly, म्हणजे फुलपाखरू.",
         "or": "B — Butterfly, ମାନେ ପ୍ରଜାପତି।"
       },
-      "audio": "demo-letters-s11.mp3"
+      "audio": "eng-nur-letters-a-e-s11.mp3"
     },
     {
       "show": [
@@ -552,7 +557,7 @@
         "mr": "B. केळं, अस्वल, फुलपाखरू.",
         "or": "B। କଦଳୀ, ଭାଲୁ, ପ୍ରଜାପତି।"
       },
-      "audio": "demo-letters-s12.mp3"
+      "audio": "eng-nur-letters-a-e-s12.mp3"
     },
     {
       "show": [
@@ -566,7 +571,7 @@
         "mr": "हे मोठं C आहे.",
         "or": "ଏହା ବଡ଼ C।"
       },
-      "audio": "demo-letters-s13.mp3"
+      "audio": "eng-nur-letters-a-e-s13.mp3"
     },
     {
       "show": [
@@ -580,7 +585,7 @@
         "mr": "C चा आवाज — kuh. माझ्यासोबत म्हणा.",
         "or": "C ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।"
       },
-      "audio": "demo-letters-s14.mp3"
+      "audio": "eng-nur-letters-a-e-s14.mp3"
     },
     {
       "show": [
@@ -596,7 +601,7 @@
         "mr": "C — Cat, म्हणजे मांजर.",
         "or": "C — Cat, ମାନେ ବିଲେଇ।"
       },
-      "audio": "demo-letters-s15.mp3"
+      "audio": "eng-nur-letters-a-e-s15.mp3"
     },
     {
       "show": [
@@ -606,14 +611,14 @@
       ],
       "highlight": "crow",
       "partner": "letterC",
-      "duration": 7500,
+      "duration": 6500,
       "script": {
         "en": "C for Crow.",
         "hi": "C से Crow — कौआ।",
         "mr": "C — Crow, म्हणजे कावळा.",
         "or": "C — Crow, ମାନେ କାଉ।"
       },
-      "audio": "demo-letters-s16.mp3"
+      "audio": "eng-nur-letters-a-e-s16.mp3"
     },
     {
       "show": [
@@ -631,7 +636,7 @@
         "mr": "C — Crab, म्हणजे खेकडा.",
         "or": "C — Crab, ମାନେ କଙ୍କଡ଼ା।"
       },
-      "audio": "demo-letters-s17.mp3"
+      "audio": "eng-nur-letters-a-e-s17.mp3"
     },
     {
       "show": [
@@ -648,7 +653,7 @@
         "mr": "C. मांजर, कावळा, खेकडा.",
         "or": "C। ବିଲେଇ, କାଉ, କଙ୍କଡ଼ା।"
       },
-      "audio": "demo-letters-s18.mp3"
+      "audio": "eng-nur-letters-a-e-s18.mp3"
     },
     {
       "show": [
@@ -662,7 +667,7 @@
         "mr": "हे मोठं D आहे.",
         "or": "ଏହା ବଡ଼ D।"
       },
-      "audio": "demo-letters-s19.mp3"
+      "audio": "eng-nur-letters-a-e-s19.mp3"
     },
     {
       "show": [
@@ -676,7 +681,7 @@
         "mr": "D चा आवाज — duh. माझ्यासोबत म्हणा.",
         "or": "D ର ଧ୍ୱନି — duh। ମୋ ସହ କୁହ।"
       },
-      "audio": "demo-letters-s20.mp3"
+      "audio": "eng-nur-letters-a-e-s20.mp3"
     },
     {
       "show": [
@@ -685,14 +690,14 @@
       ],
       "highlight": "dog",
       "partner": "letterD",
-      "duration": 7500,
+      "duration": 7000,
       "script": {
         "en": "D for Dog.",
         "hi": "D से Dog — कुत्ता।",
         "mr": "D — Dog, म्हणजे कुत्रा.",
         "or": "D — Dog, ମାନେ କୁକୁର।"
       },
-      "audio": "demo-letters-s21.mp3"
+      "audio": "eng-nur-letters-a-e-s21.mp3"
     },
     {
       "show": [
@@ -709,7 +714,7 @@
         "mr": "D — Duck, म्हणजे बदक.",
         "or": "D — Duck, ମାନେ ବତକ।"
       },
-      "audio": "demo-letters-s22.mp3"
+      "audio": "eng-nur-letters-a-e-s22.mp3"
     },
     {
       "show": [
@@ -727,7 +732,7 @@
         "mr": "D — Dolphin, म्हणजे डॉल्फिन.",
         "or": "D — Dolphin, ମାନେ ଡଲଫିନ୍।"
       },
-      "audio": "demo-letters-s23.mp3"
+      "audio": "eng-nur-letters-a-e-s23.mp3"
     },
     {
       "show": [
@@ -744,7 +749,7 @@
         "mr": "D. कुत्रा, बदक, डॉल्फिन.",
         "or": "D। କୁକୁର, ବତକ, ଡଲଫିନ୍।"
       },
-      "audio": "demo-letters-s24.mp3"
+      "audio": "eng-nur-letters-a-e-s24.mp3"
     },
     {
       "show": [
@@ -758,7 +763,7 @@
         "mr": "हे मोठं E आहे.",
         "or": "ଏହା ବଡ଼ E।"
       },
-      "audio": "demo-letters-s25.mp3"
+      "audio": "eng-nur-letters-a-e-s25.mp3"
     },
     {
       "show": [
@@ -772,7 +777,7 @@
         "mr": "E चा आवाज — eh. माझ्यासोबत म्हणा.",
         "or": "E ର ଧ୍ୱନି — eh। ମୋ ସହ କୁହ।"
       },
-      "audio": "demo-letters-s26.mp3"
+      "audio": "eng-nur-letters-a-e-s26.mp3"
     },
     {
       "show": [
@@ -788,7 +793,7 @@
         "mr": "E — Elephant, म्हणजे हत्ती.",
         "or": "E — Elephant, ମାନେ ହାତୀ।"
       },
-      "audio": "demo-letters-s27.mp3"
+      "audio": "eng-nur-letters-a-e-s27.mp3"
     },
     {
       "show": [
@@ -798,14 +803,14 @@
       ],
       "highlight": "eagle",
       "partner": "letterE",
-      "duration": 7500,
+      "duration": 7000,
       "script": {
         "en": "E for Eagle.",
         "hi": "E से Eagle — चील।",
         "mr": "E — Eagle, म्हणजे गरुड.",
         "or": "E — Eagle, ମାନେ ଚିଲ।"
       },
-      "audio": "demo-letters-s28.mp3"
+      "audio": "eng-nur-letters-a-e-s28.mp3"
     },
     {
       "show": [
@@ -823,7 +828,7 @@
         "mr": "E — Egg, म्हणजे अंडं.",
         "or": "E — Egg, ମାନେ ଅଣ୍ଡା।"
       },
-      "audio": "demo-letters-s29.mp3"
+      "audio": "eng-nur-letters-a-e-s29.mp3"
     },
     {
       "show": [
@@ -840,12 +845,7 @@
         "mr": "E. हत्ती, गरुड, अंडं.",
         "or": "E। ହାତୀ, ଚିଲ, ଅଣ୍ଡା।"
       },
-      "audio": "demo-letters-s30.mp3"
+      "audio": "eng-nur-letters-a-e-s30.mp3"
     }
-  ],
-  "budget": {
-    "triangles": 170000,
-    "drawCalls": 100,
-    "why": "Fifteen things for five letters are placed, but a step shows one letter and at most its three things; the checker counts all of them at once."
-  }
+  ]
 }

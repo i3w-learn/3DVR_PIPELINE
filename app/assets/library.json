@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T08:32:38.224Z",
+  "generated": "2026-09-28T09:04:14.611Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2601,6 +2601,19 @@
       "source": "Sketchfab — \"Low Poly Grasshopper ( Animated 3D Asset )\" by Pascal Chaumette",
       "licence": "CC-BY"
     },
+    "realhelicopter": {
+      "file": "models/realhelicopter.glb",
+      "height": 3.2,
+      "width": 7.983,
+      "depth": 7.663,
+      "triangles": 9613,
+      "meshes": 3,
+      "bytes": 431140,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Helicopter\" by irs1182",
+      "licence": "CC-BY"
+    },
     "realhen": {
       "file": "models/realhen.glb",
       "height": 0.453,
@@ -2738,6 +2751,19 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Kite\" by Micheus",
+      "licence": "CC-BY"
+    },
+    "reallemon": {
+      "file": "models/reallemon.glb",
+      "height": 0.08,
+      "width": 0.121,
+      "depth": 0.081,
+      "triangles": 896,
+      "meshes": 1,
+      "bytes": 112808,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Lemon (Game Ready / 2K PBR)\" by Meerschaum Digital",
       "licence": "CC-BY"
     },
     "reallion": {
@@ -2969,6 +2995,19 @@
       "source": "Sketchfab — \"Palm Tree Realistic\" by 00amza",
       "licence": "CC-BY"
     },
+    "realpalmfar": {
+      "file": "models/realpalmfar.glb",
+      "height": 8,
+      "width": 3.505,
+      "depth": 3.312,
+      "triangles": 7056,
+      "meshes": 2,
+      "bytes": 461080,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Realistic Palm Tree 4 Free\" by Next Spring",
+      "licence": "CC-BY"
+    },
     "realpalms": {
       "file": "models/realpalms.glb",
       "height": 9,
@@ -2980,6 +3019,19 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Coconut Palm\" by evolveduk",
+      "licence": "CC-BY"
+    },
+    "realpalmtree": {
+      "file": "models/realpalmtree.glb",
+      "height": 9,
+      "width": 8.061,
+      "depth": 8.332,
+      "triangles": 13961,
+      "meshes": 3,
+      "bytes": 766656,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Realistic Palm Tree Free\" by Next Spring",
       "licence": "CC-BY"
     },
     "realparasaur": {
@@ -3155,9 +3207,9 @@
       "height": 0.5,
       "width": 0.229,
       "depth": 0.229,
-      "triangles": 17504,
+      "triangles": 6126,
       "meshes": 1,
-      "bytes": 250676,
+      "bytes": 200948,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Chess Piece Queen\" by Amine Hosseini",
@@ -3589,6 +3641,19 @@
       "source": "Sketchfab — \"Beach Umbrella\" by stealth86",
       "licence": "CC-BY"
     },
+    "realvan": {
+      "file": "models/realvan.glb",
+      "height": 2.1,
+      "width": 3.978,
+      "depth": 1.92,
+      "triangles": 6963,
+      "meshes": 16,
+      "bytes": 904508,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"French delivery van - Low poly model\" by Daniel Zhabotinsky",
+      "licence": "CC-BY"
+    },
     "realviolin": {
       "file": "models/realviolin.glb",
       "height": 0.6,
@@ -3671,14 +3736,27 @@
       "source": "Sketchfab — \"Toy Xylophone\" by Brian Trepanier",
       "licence": "CC-BY"
     },
+    "realyak": {
+      "file": "models/realyak.glb",
+      "height": 1.6,
+      "width": 0.974,
+      "depth": 3.496,
+      "triangles": 5938,
+      "meshes": 1,
+      "bytes": 62552,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"yak\" by toro ardido modelos 3d",
+      "licence": "CC-BY"
+    },
     "realyarn": {
       "file": "models/realyarn.glb",
       "height": 0.14,
       "width": 0.14,
       "depth": 0.14,
-      "triangles": 37984,
+      "triangles": 13294,
       "meshes": 1,
-      "bytes": 583980,
+      "bytes": 465332,
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Yarn Ball\" by mikedludlam",
@@ -4876,126 +4954,6 @@
         "file": "audio/en/demo-india-s02.mp3",
         "bytes": 18616
       },
-      "demo-letters-s01.mp3": {
-        "file": "audio/en/demo-letters-s01.mp3",
-        "bytes": 11615
-      },
-      "demo-letters-s02.mp3": {
-        "file": "audio/en/demo-letters-s02.mp3",
-        "bytes": 15690
-      },
-      "demo-letters-s03.mp3": {
-        "file": "audio/en/demo-letters-s03.mp3",
-        "bytes": 9003
-      },
-      "demo-letters-s04.mp3": {
-        "file": "audio/en/demo-letters-s04.mp3",
-        "bytes": 9212
-      },
-      "demo-letters-s05.mp3": {
-        "file": "audio/en/demo-letters-s05.mp3",
-        "bytes": 11093
-      },
-      "demo-letters-s06.mp3": {
-        "file": "audio/en/demo-letters-s06.mp3",
-        "bytes": 16735
-      },
-      "demo-letters-s07.mp3": {
-        "file": "audio/en/demo-letters-s07.mp3",
-        "bytes": 10884
-      },
-      "demo-letters-s08.mp3": {
-        "file": "audio/en/demo-letters-s08.mp3",
-        "bytes": 16735
-      },
-      "demo-letters-s09.mp3": {
-        "file": "audio/en/demo-letters-s09.mp3",
-        "bytes": 9630
-      },
-      "demo-letters-s10.mp3": {
-        "file": "audio/en/demo-letters-s10.mp3",
-        "bytes": 8794
-      },
-      "demo-letters-s11.mp3": {
-        "file": "audio/en/demo-letters-s11.mp3",
-        "bytes": 10988
-      },
-      "demo-letters-s12.mp3": {
-        "file": "audio/en/demo-letters-s12.mp3",
-        "bytes": 17153
-      },
-      "demo-letters-s13.mp3": {
-        "file": "audio/en/demo-letters-s13.mp3",
-        "bytes": 10988
-      },
-      "demo-letters-s14.mp3": {
-        "file": "audio/en/demo-letters-s14.mp3",
-        "bytes": 16735
-      },
-      "demo-letters-s15.mp3": {
-        "file": "audio/en/demo-letters-s15.mp3",
-        "bytes": 9317
-      },
-      "demo-letters-s16.mp3": {
-        "file": "audio/en/demo-letters-s16.mp3",
-        "bytes": 9108
-      },
-      "demo-letters-s17.mp3": {
-        "file": "audio/en/demo-letters-s17.mp3",
-        "bytes": 9212
-      },
-      "demo-letters-s18.mp3": {
-        "file": "audio/en/demo-letters-s18.mp3",
-        "bytes": 17049
-      },
-      "demo-letters-s19.mp3": {
-        "file": "audio/en/demo-letters-s19.mp3",
-        "bytes": 11302
-      },
-      "demo-letters-s20.mp3": {
-        "file": "audio/en/demo-letters-s20.mp3",
-        "bytes": 17153
-      },
-      "demo-letters-s21.mp3": {
-        "file": "audio/en/demo-letters-s21.mp3",
-        "bytes": 9630
-      },
-      "demo-letters-s22.mp3": {
-        "file": "audio/en/demo-letters-s22.mp3",
-        "bytes": 9630
-      },
-      "demo-letters-s23.mp3": {
-        "file": "audio/en/demo-letters-s23.mp3",
-        "bytes": 10153
-      },
-      "demo-letters-s24.mp3": {
-        "file": "audio/en/demo-letters-s24.mp3",
-        "bytes": 17571
-      },
-      "demo-letters-s25.mp3": {
-        "file": "audio/en/demo-letters-s25.mp3",
-        "bytes": 11093
-      },
-      "demo-letters-s26.mp3": {
-        "file": "audio/en/demo-letters-s26.mp3",
-        "bytes": 15899
-      },
-      "demo-letters-s27.mp3": {
-        "file": "audio/en/demo-letters-s27.mp3",
-        "bytes": 9630
-      },
-      "demo-letters-s28.mp3": {
-        "file": "audio/en/demo-letters-s28.mp3",
-        "bytes": 9003
-      },
-      "demo-letters-s29.mp3": {
-        "file": "audio/en/demo-letters-s29.mp3",
-        "bytes": 8899
-      },
-      "demo-letters-s30.mp3": {
-        "file": "audio/en/demo-letters-s30.mp3",
-        "bytes": 18094
-      },
       "demo-peacock-s01.mp3": {
         "file": "audio/en/demo-peacock-s01.mp3",
         "bytes": 33558
@@ -6051,6 +6009,570 @@
       "eng-nur-insects-s08.mp3": {
         "file": "audio/en/eng-nur-insects-s08.mp3",
         "bytes": 27184
+      },
+      "eng-nur-letters-a-e-s01.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s01.mp3",
+        "bytes": 11615
+      },
+      "eng-nur-letters-a-e-s02.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s02.mp3",
+        "bytes": 15690
+      },
+      "eng-nur-letters-a-e-s03.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s03.mp3",
+        "bytes": 9003
+      },
+      "eng-nur-letters-a-e-s04.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s04.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-a-e-s05.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s05.mp3",
+        "bytes": 11093
+      },
+      "eng-nur-letters-a-e-s06.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s06.mp3",
+        "bytes": 16735
+      },
+      "eng-nur-letters-a-e-s07.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s07.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-a-e-s08.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s08.mp3",
+        "bytes": 16735
+      },
+      "eng-nur-letters-a-e-s09.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s09.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-a-e-s10.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s10.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-a-e-s11.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s11.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-a-e-s12.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s12.mp3",
+        "bytes": 17153
+      },
+      "eng-nur-letters-a-e-s13.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s13.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-a-e-s14.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s14.mp3",
+        "bytes": 16735
+      },
+      "eng-nur-letters-a-e-s15.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s15.mp3",
+        "bytes": 9317
+      },
+      "eng-nur-letters-a-e-s16.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s16.mp3",
+        "bytes": 9108
+      },
+      "eng-nur-letters-a-e-s17.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s17.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-a-e-s18.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s18.mp3",
+        "bytes": 17049
+      },
+      "eng-nur-letters-a-e-s19.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s19.mp3",
+        "bytes": 11302
+      },
+      "eng-nur-letters-a-e-s20.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s20.mp3",
+        "bytes": 17153
+      },
+      "eng-nur-letters-a-e-s21.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s21.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-a-e-s22.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s22.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-a-e-s23.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s23.mp3",
+        "bytes": 10153
+      },
+      "eng-nur-letters-a-e-s24.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s24.mp3",
+        "bytes": 17571
+      },
+      "eng-nur-letters-a-e-s25.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s25.mp3",
+        "bytes": 11093
+      },
+      "eng-nur-letters-a-e-s26.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s26.mp3",
+        "bytes": 15899
+      },
+      "eng-nur-letters-a-e-s27.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s27.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-a-e-s28.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s28.mp3",
+        "bytes": 9003
+      },
+      "eng-nur-letters-a-e-s29.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s29.mp3",
+        "bytes": 8899
+      },
+      "eng-nur-letters-a-e-s30.mp3": {
+        "file": "audio/en/eng-nur-letters-a-e-s30.mp3",
+        "bytes": 18094
+      },
+      "eng-nur-letters-f-j-s01.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s01.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-f-j-s02.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s02.mp3",
+        "bytes": 16317
+      },
+      "eng-nur-letters-f-j-s03.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s03.mp3",
+        "bytes": 9108
+      },
+      "eng-nur-letters-f-j-s04.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s04.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-f-j-s05.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s05.mp3",
+        "bytes": 12138
+      },
+      "eng-nur-letters-f-j-s06.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s06.mp3",
+        "bytes": 20184
+      },
+      "eng-nur-letters-f-j-s07.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s07.mp3",
+        "bytes": 11093
+      },
+      "eng-nur-letters-f-j-s08.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s08.mp3",
+        "bytes": 16108
+      },
+      "eng-nur-letters-f-j-s09.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s09.mp3",
+        "bytes": 9108
+      },
+      "eng-nur-letters-f-j-s10.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s10.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-f-j-s11.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s11.mp3",
+        "bytes": 11406
+      },
+      "eng-nur-letters-f-j-s12.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s12.mp3",
+        "bytes": 19139
+      },
+      "eng-nur-letters-f-j-s13.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s13.mp3",
+        "bytes": 12765
+      },
+      "eng-nur-letters-f-j-s14.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s14.mp3",
+        "bytes": 16422
+      },
+      "eng-nur-letters-f-j-s15.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s15.mp3",
+        "bytes": 9317
+      },
+      "eng-nur-letters-f-j-s16.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s16.mp3",
+        "bytes": 10257
+      },
+      "eng-nur-letters-f-j-s17.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s17.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-f-j-s18.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s18.mp3",
+        "bytes": 19139
+      },
+      "eng-nur-letters-f-j-s19.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s19.mp3",
+        "bytes": 11929
+      },
+      "eng-nur-letters-f-j-s20.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s20.mp3",
+        "bytes": 15482
+      },
+      "eng-nur-letters-f-j-s21.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s21.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-f-j-s22.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s22.mp3",
+        "bytes": 10466
+      },
+      "eng-nur-letters-f-j-s23.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s23.mp3",
+        "bytes": 9526
+      },
+      "eng-nur-letters-f-j-s24.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s24.mp3",
+        "bytes": 15899
+      },
+      "eng-nur-letters-f-j-s25.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s25.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-f-j-s26.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s26.mp3",
+        "bytes": 16317
+      },
+      "eng-nur-letters-f-j-s27.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s27.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-f-j-s28.mp3": {
+        "file": "audio/en/eng-nur-letters-f-j-s28.mp3",
+        "bytes": 10466
+      },
+      "eng-nur-letters-k-o-s01.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s01.mp3",
+        "bytes": 11302
+      },
+      "eng-nur-letters-k-o-s02.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s02.mp3",
+        "bytes": 15899
+      },
+      "eng-nur-letters-k-o-s03.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s03.mp3",
+        "bytes": 10257
+      },
+      "eng-nur-letters-k-o-s04.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s04.mp3",
+        "bytes": 8899
+      },
+      "eng-nur-letters-k-o-s05.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s05.mp3",
+        "bytes": 14437
+      },
+      "eng-nur-letters-k-o-s06.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s06.mp3",
+        "bytes": 11302
+      },
+      "eng-nur-letters-k-o-s07.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s07.mp3",
+        "bytes": 17153
+      },
+      "eng-nur-letters-k-o-s08.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s08.mp3",
+        "bytes": 10257
+      },
+      "eng-nur-letters-k-o-s09.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s09.mp3",
+        "bytes": 10362
+      },
+      "eng-nur-letters-k-o-s10.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s10.mp3",
+        "bytes": 9944
+      },
+      "eng-nur-letters-k-o-s11.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s11.mp3",
+        "bytes": 17676
+      },
+      "eng-nur-letters-k-o-s12.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s12.mp3",
+        "bytes": 11511
+      },
+      "eng-nur-letters-k-o-s13.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s13.mp3",
+        "bytes": 16840
+      },
+      "eng-nur-letters-k-o-s14.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s14.mp3",
+        "bytes": 9526
+      },
+      "eng-nur-letters-k-o-s15.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s15.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-k-o-s16.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s16.mp3",
+        "bytes": 15064
+      },
+      "eng-nur-letters-k-o-s17.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s17.mp3",
+        "bytes": 11406
+      },
+      "eng-nur-letters-k-o-s18.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s18.mp3",
+        "bytes": 16944
+      },
+      "eng-nur-letters-k-o-s19.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s19.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-k-o-s20.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s20.mp3",
+        "bytes": 10466
+      },
+      "eng-nur-letters-k-o-s21.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s21.mp3",
+        "bytes": 15899
+      },
+      "eng-nur-letters-k-o-s22.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s22.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-k-o-s23.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s23.mp3",
+        "bytes": 15690
+      },
+      "eng-nur-letters-k-o-s24.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s24.mp3",
+        "bytes": 10048
+      },
+      "eng-nur-letters-k-o-s25.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s25.mp3",
+        "bytes": 9317
+      },
+      "eng-nur-letters-k-o-s26.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s26.mp3",
+        "bytes": 9421
+      },
+      "eng-nur-letters-k-o-s27.mp3": {
+        "file": "audio/en/eng-nur-letters-k-o-s27.mp3",
+        "bytes": 19243
+      },
+      "eng-nur-letters-p-t-s01.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s01.mp3",
+        "bytes": 10675
+      },
+      "eng-nur-letters-p-t-s02.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s02.mp3",
+        "bytes": 15899
+      },
+      "eng-nur-letters-p-t-s03.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s03.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-p-t-s04.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s04.mp3",
+        "bytes": 10153
+      },
+      "eng-nur-letters-p-t-s05.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s05.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-p-t-s06.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s06.mp3",
+        "bytes": 19557
+      },
+      "eng-nur-letters-p-t-s07.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s07.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-p-t-s08.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s08.mp3",
+        "bytes": 16944
+      },
+      "eng-nur-letters-p-t-s09.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s09.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-p-t-s10.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s10.mp3",
+        "bytes": 12138
+      },
+      "eng-nur-letters-p-t-s11.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s11.mp3",
+        "bytes": 11406
+      },
+      "eng-nur-letters-p-t-s12.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s12.mp3",
+        "bytes": 17049
+      },
+      "eng-nur-letters-p-t-s13.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s13.mp3",
+        "bytes": 9944
+      },
+      "eng-nur-letters-p-t-s14.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s14.mp3",
+        "bytes": 10362
+      },
+      "eng-nur-letters-p-t-s15.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s15.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-p-t-s16.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s16.mp3",
+        "bytes": 19661
+      },
+      "eng-nur-letters-p-t-s17.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s17.mp3",
+        "bytes": 11824
+      },
+      "eng-nur-letters-p-t-s18.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s18.mp3",
+        "bytes": 15377
+      },
+      "eng-nur-letters-p-t-s19.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s19.mp3",
+        "bytes": 9003
+      },
+      "eng-nur-letters-p-t-s20.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s20.mp3",
+        "bytes": 11093
+      },
+      "eng-nur-letters-p-t-s21.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s21.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-p-t-s22.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s22.mp3",
+        "bytes": 18407
+      },
+      "eng-nur-letters-p-t-s23.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s23.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-p-t-s24.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s24.mp3",
+        "bytes": 16108
+      },
+      "eng-nur-letters-p-t-s25.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s25.mp3",
+        "bytes": 9735
+      },
+      "eng-nur-letters-p-t-s26.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s26.mp3",
+        "bytes": 9526
+      },
+      "eng-nur-letters-p-t-s27.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s27.mp3",
+        "bytes": 10048
+      },
+      "eng-nur-letters-p-t-s28.mp3": {
+        "file": "audio/en/eng-nur-letters-p-t-s28.mp3",
+        "bytes": 16213
+      },
+      "eng-nur-letters-u-z-s01.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s01.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-u-z-s02.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s02.mp3",
+        "bytes": 15482
+      },
+      "eng-nur-letters-u-z-s03.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s03.mp3",
+        "bytes": 9735
+      },
+      "eng-nur-letters-u-z-s04.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s04.mp3",
+        "bytes": 11824
+      },
+      "eng-nur-letters-u-z-s05.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s05.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-u-z-s06.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s06.mp3",
+        "bytes": 17989
+      },
+      "eng-nur-letters-u-z-s07.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s07.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-u-z-s08.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s08.mp3",
+        "bytes": 10675
+      },
+      "eng-nur-letters-u-z-s09.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s09.mp3",
+        "bytes": 17258
+      },
+      "eng-nur-letters-u-z-s10.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s10.mp3",
+        "bytes": 12451
+      },
+      "eng-nur-letters-u-z-s11.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s11.mp3",
+        "bytes": 17153
+      },
+      "eng-nur-letters-u-z-s12.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s12.mp3",
+        "bytes": 12138
+      },
+      "eng-nur-letters-u-z-s13.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s13.mp3",
+        "bytes": 10779
+      },
+      "eng-nur-letters-u-z-s14.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s14.mp3",
+        "bytes": 16317
+      },
+      "eng-nur-letters-u-z-s15.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s15.mp3",
+        "bytes": 10362
+      },
+      "eng-nur-letters-u-z-s16.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s16.mp3",
+        "bytes": 16526
+      },
+      "eng-nur-letters-u-z-s17.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s17.mp3",
+        "bytes": 11615
+      },
+      "eng-nur-letters-u-z-s18.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s18.mp3",
+        "bytes": 13810
+      },
+      "eng-nur-letters-u-z-s19.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s19.mp3",
+        "bytes": 11720
+      },
+      "eng-nur-letters-u-z-s20.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s20.mp3",
+        "bytes": 17049
+      },
+      "eng-nur-letters-u-z-s21.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s21.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-u-z-s22.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s22.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-u-z-s23.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s23.mp3",
+        "bytes": 15586
+      },
+      "eng-nur-letters-u-z-s24.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s24.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-u-z-s25.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s25.mp3",
+        "bytes": 16004
+      },
+      "eng-nur-letters-u-z-s26.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s26.mp3",
+        "bytes": 10048
+      },
+      "eng-nur-letters-u-z-s27.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s27.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-u-z-s28.mp3": {
+        "file": "audio/en/eng-nur-letters-u-z-s28.mp3",
+        "bytes": 13914
       },
       "eng-nur-shapes-check-s01.mp3": {
         "file": "audio/en/eng-nur-shapes-check-s01.mp3",
@@ -9230,126 +9752,6 @@
         "file": "audio/hi/demo-india-s02.mp3",
         "bytes": 16317
       },
-      "demo-letters-s01.mp3": {
-        "file": "audio/hi/demo-letters-s01.mp3",
-        "bytes": 7958
-      },
-      "demo-letters-s02.mp3": {
-        "file": "audio/hi/demo-letters-s02.mp3",
-        "bytes": 8690
-      },
-      "demo-letters-s03.mp3": {
-        "file": "audio/hi/demo-letters-s03.mp3",
-        "bytes": 9630
-      },
-      "demo-letters-s04.mp3": {
-        "file": "audio/hi/demo-letters-s04.mp3",
-        "bytes": 8690
-      },
-      "demo-letters-s05.mp3": {
-        "file": "audio/hi/demo-letters-s05.mp3",
-        "bytes": 9421
-      },
-      "demo-letters-s06.mp3": {
-        "file": "audio/hi/demo-letters-s06.mp3",
-        "bytes": 14437
-      },
-      "demo-letters-s07.mp3": {
-        "file": "audio/hi/demo-letters-s07.mp3",
-        "bytes": 7958
-      },
-      "demo-letters-s08.mp3": {
-        "file": "audio/hi/demo-letters-s08.mp3",
-        "bytes": 9003
-      },
-      "demo-letters-s09.mp3": {
-        "file": "audio/hi/demo-letters-s09.mp3",
-        "bytes": 10362
-      },
-      "demo-letters-s10.mp3": {
-        "file": "audio/hi/demo-letters-s10.mp3",
-        "bytes": 8481
-      },
-      "demo-letters-s11.mp3": {
-        "file": "audio/hi/demo-letters-s11.mp3",
-        "bytes": 8794
-      },
-      "demo-letters-s12.mp3": {
-        "file": "audio/hi/demo-letters-s12.mp3",
-        "bytes": 14228
-      },
-      "demo-letters-s13.mp3": {
-        "file": "audio/hi/demo-letters-s13.mp3",
-        "bytes": 8063
-      },
-      "demo-letters-s14.mp3": {
-        "file": "audio/hi/demo-letters-s14.mp3",
-        "bytes": 9108
-      },
-      "demo-letters-s15.mp3": {
-        "file": "audio/hi/demo-letters-s15.mp3",
-        "bytes": 9735
-      },
-      "demo-letters-s16.mp3": {
-        "file": "audio/hi/demo-letters-s16.mp3",
-        "bytes": 8272
-      },
-      "demo-letters-s17.mp3": {
-        "file": "audio/hi/demo-letters-s17.mp3",
-        "bytes": 9212
-      },
-      "demo-letters-s18.mp3": {
-        "file": "audio/hi/demo-letters-s18.mp3",
-        "bytes": 14123
-      },
-      "demo-letters-s19.mp3": {
-        "file": "audio/hi/demo-letters-s19.mp3",
-        "bytes": 8272
-      },
-      "demo-letters-s20.mp3": {
-        "file": "audio/hi/demo-letters-s20.mp3",
-        "bytes": 9526
-      },
-      "demo-letters-s21.mp3": {
-        "file": "audio/hi/demo-letters-s21.mp3",
-        "bytes": 10048
-      },
-      "demo-letters-s22.mp3": {
-        "file": "audio/hi/demo-letters-s22.mp3",
-        "bytes": 9212
-      },
-      "demo-letters-s23.mp3": {
-        "file": "audio/hi/demo-letters-s23.mp3",
-        "bytes": 9421
-      },
-      "demo-letters-s24.mp3": {
-        "file": "audio/hi/demo-letters-s24.mp3",
-        "bytes": 15168
-      },
-      "demo-letters-s25.mp3": {
-        "file": "audio/hi/demo-letters-s25.mp3",
-        "bytes": 8167
-      },
-      "demo-letters-s26.mp3": {
-        "file": "audio/hi/demo-letters-s26.mp3",
-        "bytes": 8585
-      },
-      "demo-letters-s27.mp3": {
-        "file": "audio/hi/demo-letters-s27.mp3",
-        "bytes": 10570
-      },
-      "demo-letters-s28.mp3": {
-        "file": "audio/hi/demo-letters-s28.mp3",
-        "bytes": 8376
-      },
-      "demo-letters-s29.mp3": {
-        "file": "audio/hi/demo-letters-s29.mp3",
-        "bytes": 8167
-      },
-      "demo-letters-s30.mp3": {
-        "file": "audio/hi/demo-letters-s30.mp3",
-        "bytes": 13287
-      },
       "demo-peacock-s01.mp3": {
         "file": "audio/hi/demo-peacock-s01.mp3",
         "bytes": 22587
@@ -10401,6 +10803,570 @@
       "eng-nur-insects-s08.mp3": {
         "file": "audio/hi/eng-nur-insects-s08.mp3",
         "bytes": 24468
+      },
+      "eng-nur-letters-a-e-s01.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s01.mp3",
+        "bytes": 7958
+      },
+      "eng-nur-letters-a-e-s02.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s02.mp3",
+        "bytes": 8690
+      },
+      "eng-nur-letters-a-e-s03.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s03.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-a-e-s04.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s04.mp3",
+        "bytes": 8690
+      },
+      "eng-nur-letters-a-e-s05.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s05.mp3",
+        "bytes": 9421
+      },
+      "eng-nur-letters-a-e-s06.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s06.mp3",
+        "bytes": 14437
+      },
+      "eng-nur-letters-a-e-s07.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s07.mp3",
+        "bytes": 7958
+      },
+      "eng-nur-letters-a-e-s08.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s08.mp3",
+        "bytes": 9003
+      },
+      "eng-nur-letters-a-e-s09.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s09.mp3",
+        "bytes": 10362
+      },
+      "eng-nur-letters-a-e-s10.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s10.mp3",
+        "bytes": 8481
+      },
+      "eng-nur-letters-a-e-s11.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s11.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-a-e-s12.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s12.mp3",
+        "bytes": 14228
+      },
+      "eng-nur-letters-a-e-s13.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s13.mp3",
+        "bytes": 8063
+      },
+      "eng-nur-letters-a-e-s14.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s14.mp3",
+        "bytes": 9108
+      },
+      "eng-nur-letters-a-e-s15.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s15.mp3",
+        "bytes": 9735
+      },
+      "eng-nur-letters-a-e-s16.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s16.mp3",
+        "bytes": 8272
+      },
+      "eng-nur-letters-a-e-s17.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s17.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-a-e-s18.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s18.mp3",
+        "bytes": 14123
+      },
+      "eng-nur-letters-a-e-s19.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s19.mp3",
+        "bytes": 8272
+      },
+      "eng-nur-letters-a-e-s20.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s20.mp3",
+        "bytes": 9526
+      },
+      "eng-nur-letters-a-e-s21.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s21.mp3",
+        "bytes": 10048
+      },
+      "eng-nur-letters-a-e-s22.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s22.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-a-e-s23.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s23.mp3",
+        "bytes": 9421
+      },
+      "eng-nur-letters-a-e-s24.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s24.mp3",
+        "bytes": 15168
+      },
+      "eng-nur-letters-a-e-s25.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s25.mp3",
+        "bytes": 8167
+      },
+      "eng-nur-letters-a-e-s26.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s26.mp3",
+        "bytes": 8585
+      },
+      "eng-nur-letters-a-e-s27.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s27.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-a-e-s28.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s28.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-a-e-s29.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s29.mp3",
+        "bytes": 8167
+      },
+      "eng-nur-letters-a-e-s30.mp3": {
+        "file": "audio/hi/eng-nur-letters-a-e-s30.mp3",
+        "bytes": 13287
+      },
+      "eng-nur-letters-f-j-s01.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s01.mp3",
+        "bytes": 8481
+      },
+      "eng-nur-letters-f-j-s02.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s02.mp3",
+        "bytes": 9421
+      },
+      "eng-nur-letters-f-j-s03.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s03.mp3",
+        "bytes": 9317
+      },
+      "eng-nur-letters-f-j-s04.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s04.mp3",
+        "bytes": 9735
+      },
+      "eng-nur-letters-f-j-s05.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s05.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-f-j-s06.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s06.mp3",
+        "bytes": 14646
+      },
+      "eng-nur-letters-f-j-s07.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s07.mp3",
+        "bytes": 8063
+      },
+      "eng-nur-letters-f-j-s08.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s08.mp3",
+        "bytes": 9317
+      },
+      "eng-nur-letters-f-j-s09.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s09.mp3",
+        "bytes": 10153
+      },
+      "eng-nur-letters-f-j-s10.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s10.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-f-j-s11.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s11.mp3",
+        "bytes": 9108
+      },
+      "eng-nur-letters-f-j-s12.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s12.mp3",
+        "bytes": 14228
+      },
+      "eng-nur-letters-f-j-s13.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s13.mp3",
+        "bytes": 8481
+      },
+      "eng-nur-letters-f-j-s14.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s14.mp3",
+        "bytes": 9317
+      },
+      "eng-nur-letters-f-j-s15.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s15.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-f-j-s16.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s16.mp3",
+        "bytes": 8690
+      },
+      "eng-nur-letters-f-j-s17.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s17.mp3",
+        "bytes": 10153
+      },
+      "eng-nur-letters-f-j-s18.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s18.mp3",
+        "bytes": 15064
+      },
+      "eng-nur-letters-f-j-s19.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s19.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-f-j-s20.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s20.mp3",
+        "bytes": 8899
+      },
+      "eng-nur-letters-f-j-s21.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s21.mp3",
+        "bytes": 9421
+      },
+      "eng-nur-letters-f-j-s22.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s22.mp3",
+        "bytes": 12451
+      },
+      "eng-nur-letters-f-j-s23.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s23.mp3",
+        "bytes": 9003
+      },
+      "eng-nur-letters-f-j-s24.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s24.mp3",
+        "bytes": 14855
+      },
+      "eng-nur-letters-f-j-s25.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s25.mp3",
+        "bytes": 8272
+      },
+      "eng-nur-letters-f-j-s26.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s26.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-f-j-s27.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s27.mp3",
+        "bytes": 10362
+      },
+      "eng-nur-letters-f-j-s28.mp3": {
+        "file": "audio/hi/eng-nur-letters-f-j-s28.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-k-o-s01.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s01.mp3",
+        "bytes": 8063
+      },
+      "eng-nur-letters-k-o-s02.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s02.mp3",
+        "bytes": 8899
+      },
+      "eng-nur-letters-k-o-s03.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s03.mp3",
+        "bytes": 9317
+      },
+      "eng-nur-letters-k-o-s04.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s04.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-k-o-s05.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s05.mp3",
+        "bytes": 12974
+      },
+      "eng-nur-letters-k-o-s06.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s06.mp3",
+        "bytes": 8272
+      },
+      "eng-nur-letters-k-o-s07.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s07.mp3",
+        "bytes": 9003
+      },
+      "eng-nur-letters-k-o-s08.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s08.mp3",
+        "bytes": 10257
+      },
+      "eng-nur-letters-k-o-s09.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s09.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-k-o-s10.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s10.mp3",
+        "bytes": 9421
+      },
+      "eng-nur-letters-k-o-s11.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s11.mp3",
+        "bytes": 14228
+      },
+      "eng-nur-letters-k-o-s12.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s12.mp3",
+        "bytes": 8481
+      },
+      "eng-nur-letters-k-o-s13.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s13.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-k-o-s14.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s14.mp3",
+        "bytes": 10257
+      },
+      "eng-nur-letters-k-o-s15.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s15.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-k-o-s16.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s16.mp3",
+        "bytes": 11720
+      },
+      "eng-nur-letters-k-o-s17.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s17.mp3",
+        "bytes": 8481
+      },
+      "eng-nur-letters-k-o-s18.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s18.mp3",
+        "bytes": 9526
+      },
+      "eng-nur-letters-k-o-s19.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s19.mp3",
+        "bytes": 9944
+      },
+      "eng-nur-letters-k-o-s20.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s20.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-k-o-s21.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s21.mp3",
+        "bytes": 12451
+      },
+      "eng-nur-letters-k-o-s22.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s22.mp3",
+        "bytes": 8063
+      },
+      "eng-nur-letters-k-o-s23.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s23.mp3",
+        "bytes": 8585
+      },
+      "eng-nur-letters-k-o-s24.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s24.mp3",
+        "bytes": 9944
+      },
+      "eng-nur-letters-k-o-s25.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s25.mp3",
+        "bytes": 8585
+      },
+      "eng-nur-letters-k-o-s26.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s26.mp3",
+        "bytes": 8585
+      },
+      "eng-nur-letters-k-o-s27.mp3": {
+        "file": "audio/hi/eng-nur-letters-k-o-s27.mp3",
+        "bytes": 13914
+      },
+      "eng-nur-letters-p-t-s01.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s01.mp3",
+        "bytes": 8063
+      },
+      "eng-nur-letters-p-t-s02.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s02.mp3",
+        "bytes": 8899
+      },
+      "eng-nur-letters-p-t-s03.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s03.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-p-t-s04.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s04.mp3",
+        "bytes": 8272
+      },
+      "eng-nur-letters-p-t-s05.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s05.mp3",
+        "bytes": 10675
+      },
+      "eng-nur-letters-p-t-s06.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s06.mp3",
+        "bytes": 15377
+      },
+      "eng-nur-letters-p-t-s07.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s07.mp3",
+        "bytes": 8585
+      },
+      "eng-nur-letters-p-t-s08.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s08.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-p-t-s09.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s09.mp3",
+        "bytes": 10048
+      },
+      "eng-nur-letters-p-t-s10.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s10.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-p-t-s11.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s11.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-p-t-s12.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s12.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-p-t-s13.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s13.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-p-t-s14.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s14.mp3",
+        "bytes": 10153
+      },
+      "eng-nur-letters-p-t-s15.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s15.mp3",
+        "bytes": 9003
+      },
+      "eng-nur-letters-p-t-s16.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s16.mp3",
+        "bytes": 14541
+      },
+      "eng-nur-letters-p-t-s17.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s17.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-p-t-s18.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s18.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-p-t-s19.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s19.mp3",
+        "bytes": 8167
+      },
+      "eng-nur-letters-p-t-s20.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s20.mp3",
+        "bytes": 10362
+      },
+      "eng-nur-letters-p-t-s21.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s21.mp3",
+        "bytes": 8481
+      },
+      "eng-nur-letters-p-t-s22.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s22.mp3",
+        "bytes": 14959
+      },
+      "eng-nur-letters-p-t-s23.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s23.mp3",
+        "bytes": 7958
+      },
+      "eng-nur-letters-p-t-s24.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s24.mp3",
+        "bytes": 8690
+      },
+      "eng-nur-letters-p-t-s25.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s25.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-p-t-s26.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s26.mp3",
+        "bytes": 8690
+      },
+      "eng-nur-letters-p-t-s27.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s27.mp3",
+        "bytes": 9003
+      },
+      "eng-nur-letters-p-t-s28.mp3": {
+        "file": "audio/hi/eng-nur-letters-p-t-s28.mp3",
+        "bytes": 14959
+      },
+      "eng-nur-letters-u-z-s01.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s01.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-u-z-s02.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s02.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-u-z-s03.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s03.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-u-z-s04.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s04.mp3",
+        "bytes": 10153
+      },
+      "eng-nur-letters-u-z-s05.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s05.mp3",
+        "bytes": 8272
+      },
+      "eng-nur-letters-u-z-s06.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s06.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-u-z-s07.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s07.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-u-z-s08.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s08.mp3",
+        "bytes": 8272
+      },
+      "eng-nur-letters-u-z-s09.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s09.mp3",
+        "bytes": 12347
+      },
+      "eng-nur-letters-u-z-s10.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s10.mp3",
+        "bytes": 9317
+      },
+      "eng-nur-letters-u-z-s11.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s11.mp3",
+        "bytes": 10048
+      },
+      "eng-nur-letters-u-z-s12.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s12.mp3",
+        "bytes": 12660
+      },
+      "eng-nur-letters-u-z-s13.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s13.mp3",
+        "bytes": 9526
+      },
+      "eng-nur-letters-u-z-s14.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s14.mp3",
+        "bytes": 12974
+      },
+      "eng-nur-letters-u-z-s15.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s15.mp3",
+        "bytes": 8899
+      },
+      "eng-nur-letters-u-z-s16.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s16.mp3",
+        "bytes": 9526
+      },
+      "eng-nur-letters-u-z-s17.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s17.mp3",
+        "bytes": 13496
+      },
+      "eng-nur-letters-u-z-s18.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s18.mp3",
+        "bytes": 12033
+      },
+      "eng-nur-letters-u-z-s19.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s19.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-u-z-s20.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s20.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-u-z-s21.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s21.mp3",
+        "bytes": 11615
+      },
+      "eng-nur-letters-u-z-s22.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s22.mp3",
+        "bytes": 8585
+      },
+      "eng-nur-letters-u-z-s23.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s23.mp3",
+        "bytes": 13183
+      },
+      "eng-nur-letters-u-z-s24.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s24.mp3",
+        "bytes": 8690
+      },
+      "eng-nur-letters-u-z-s25.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s25.mp3",
+        "bytes": 10048
+      },
+      "eng-nur-letters-u-z-s26.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s26.mp3",
+        "bytes": 10675
+      },
+      "eng-nur-letters-u-z-s27.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s27.mp3",
+        "bytes": 9108
+      },
+      "eng-nur-letters-u-z-s28.mp3": {
+        "file": "audio/hi/eng-nur-letters-u-z-s28.mp3",
+        "bytes": 12869
       },
       "eng-nur-shapes-check-s01.mp3": {
         "file": "audio/hi/eng-nur-shapes-check-s01.mp3",
@@ -13576,126 +14542,6 @@
         "file": "audio/mr/demo-india-s02.mp3",
         "bytes": 22482
       },
-      "demo-letters-s01.mp3": {
-        "file": "audio/mr/demo-letters-s01.mp3",
-        "bytes": 11511
-      },
-      "demo-letters-s02.mp3": {
-        "file": "audio/mr/demo-letters-s02.mp3",
-        "bytes": 18303
-      },
-      "demo-letters-s03.mp3": {
-        "file": "audio/mr/demo-letters-s03.mp3",
-        "bytes": 16631
-      },
-      "demo-letters-s04.mp3": {
-        "file": "audio/mr/demo-letters-s04.mp3",
-        "bytes": 11197
-      },
-      "demo-letters-s05.mp3": {
-        "file": "audio/mr/demo-letters-s05.mp3",
-        "bytes": 15273
-      },
-      "demo-letters-s06.mp3": {
-        "file": "audio/mr/demo-letters-s06.mp3",
-        "bytes": 19975
-      },
-      "demo-letters-s07.mp3": {
-        "file": "audio/mr/demo-letters-s07.mp3",
-        "bytes": 12660
-      },
-      "demo-letters-s08.mp3": {
-        "file": "audio/mr/demo-letters-s08.mp3",
-        "bytes": 19139
-      },
-      "demo-letters-s09.mp3": {
-        "file": "audio/mr/demo-letters-s09.mp3",
-        "bytes": 14541
-      },
-      "demo-letters-s10.mp3": {
-        "file": "audio/mr/demo-letters-s10.mp3",
-        "bytes": 15064
-      },
-      "demo-letters-s11.mp3": {
-        "file": "audio/mr/demo-letters-s11.mp3",
-        "bytes": 15690
-      },
-      "demo-letters-s12.mp3": {
-        "file": "audio/mr/demo-letters-s12.mp3",
-        "bytes": 19243
-      },
-      "demo-letters-s13.mp3": {
-        "file": "audio/mr/demo-letters-s13.mp3",
-        "bytes": 10570
-      },
-      "demo-letters-s14.mp3": {
-        "file": "audio/mr/demo-letters-s14.mp3",
-        "bytes": 18198
-      },
-      "demo-letters-s15.mp3": {
-        "file": "audio/mr/demo-letters-s15.mp3",
-        "bytes": 15377
-      },
-      "demo-letters-s16.mp3": {
-        "file": "audio/mr/demo-letters-s16.mp3",
-        "bytes": 13287
-      },
-      "demo-letters-s17.mp3": {
-        "file": "audio/mr/demo-letters-s17.mp3",
-        "bytes": 14855
-      },
-      "demo-letters-s18.mp3": {
-        "file": "audio/mr/demo-letters-s18.mp3",
-        "bytes": 18303
-      },
-      "demo-letters-s19.mp3": {
-        "file": "audio/mr/demo-letters-s19.mp3",
-        "bytes": 10570
-      },
-      "demo-letters-s20.mp3": {
-        "file": "audio/mr/demo-letters-s20.mp3",
-        "bytes": 19139
-      },
-      "demo-letters-s21.mp3": {
-        "file": "audio/mr/demo-letters-s21.mp3",
-        "bytes": 13810
-      },
-      "demo-letters-s22.mp3": {
-        "file": "audio/mr/demo-letters-s22.mp3",
-        "bytes": 14646
-      },
-      "demo-letters-s23.mp3": {
-        "file": "audio/mr/demo-letters-s23.mp3",
-        "bytes": 15168
-      },
-      "demo-letters-s24.mp3": {
-        "file": "audio/mr/demo-letters-s24.mp3",
-        "bytes": 18407
-      },
-      "demo-letters-s25.mp3": {
-        "file": "audio/mr/demo-letters-s25.mp3",
-        "bytes": 11720
-      },
-      "demo-letters-s26.mp3": {
-        "file": "audio/mr/demo-letters-s26.mp3",
-        "bytes": 19243
-      },
-      "demo-letters-s27.mp3": {
-        "file": "audio/mr/demo-letters-s27.mp3",
-        "bytes": 17258
-      },
-      "demo-letters-s28.mp3": {
-        "file": "audio/mr/demo-letters-s28.mp3",
-        "bytes": 13496
-      },
-      "demo-letters-s29.mp3": {
-        "file": "audio/mr/demo-letters-s29.mp3",
-        "bytes": 11511
-      },
-      "demo-letters-s30.mp3": {
-        "file": "audio/mr/demo-letters-s30.mp3",
-        "bytes": 15690
-      },
       "demo-peacock-s01.mp3": {
         "file": "audio/mr/demo-peacock-s01.mp3",
         "bytes": 25304
@@ -14747,6 +15593,570 @@
       "eng-nur-insects-s08.mp3": {
         "file": "audio/mr/eng-nur-insects-s08.mp3",
         "bytes": 29588
+      },
+      "eng-nur-letters-a-e-s01.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s01.mp3",
+        "bytes": 11511
+      },
+      "eng-nur-letters-a-e-s02.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s02.mp3",
+        "bytes": 18303
+      },
+      "eng-nur-letters-a-e-s03.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s03.mp3",
+        "bytes": 16631
+      },
+      "eng-nur-letters-a-e-s04.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s04.mp3",
+        "bytes": 11197
+      },
+      "eng-nur-letters-a-e-s05.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s05.mp3",
+        "bytes": 15273
+      },
+      "eng-nur-letters-a-e-s06.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s06.mp3",
+        "bytes": 19975
+      },
+      "eng-nur-letters-a-e-s07.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s07.mp3",
+        "bytes": 12660
+      },
+      "eng-nur-letters-a-e-s08.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s08.mp3",
+        "bytes": 19139
+      },
+      "eng-nur-letters-a-e-s09.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s09.mp3",
+        "bytes": 14541
+      },
+      "eng-nur-letters-a-e-s10.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s10.mp3",
+        "bytes": 15064
+      },
+      "eng-nur-letters-a-e-s11.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s11.mp3",
+        "bytes": 15690
+      },
+      "eng-nur-letters-a-e-s12.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s12.mp3",
+        "bytes": 19243
+      },
+      "eng-nur-letters-a-e-s13.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s13.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-a-e-s14.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s14.mp3",
+        "bytes": 18198
+      },
+      "eng-nur-letters-a-e-s15.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s15.mp3",
+        "bytes": 15377
+      },
+      "eng-nur-letters-a-e-s16.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s16.mp3",
+        "bytes": 13287
+      },
+      "eng-nur-letters-a-e-s17.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s17.mp3",
+        "bytes": 14855
+      },
+      "eng-nur-letters-a-e-s18.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s18.mp3",
+        "bytes": 18303
+      },
+      "eng-nur-letters-a-e-s19.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s19.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-a-e-s20.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s20.mp3",
+        "bytes": 19139
+      },
+      "eng-nur-letters-a-e-s21.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s21.mp3",
+        "bytes": 13810
+      },
+      "eng-nur-letters-a-e-s22.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s22.mp3",
+        "bytes": 14646
+      },
+      "eng-nur-letters-a-e-s23.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s23.mp3",
+        "bytes": 15168
+      },
+      "eng-nur-letters-a-e-s24.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s24.mp3",
+        "bytes": 18407
+      },
+      "eng-nur-letters-a-e-s25.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s25.mp3",
+        "bytes": 11720
+      },
+      "eng-nur-letters-a-e-s26.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s26.mp3",
+        "bytes": 19243
+      },
+      "eng-nur-letters-a-e-s27.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s27.mp3",
+        "bytes": 17258
+      },
+      "eng-nur-letters-a-e-s28.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s28.mp3",
+        "bytes": 13496
+      },
+      "eng-nur-letters-a-e-s29.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s29.mp3",
+        "bytes": 11511
+      },
+      "eng-nur-letters-a-e-s30.mp3": {
+        "file": "audio/mr/eng-nur-letters-a-e-s30.mp3",
+        "bytes": 15690
+      },
+      "eng-nur-letters-f-j-s01.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s01.mp3",
+        "bytes": 12138
+      },
+      "eng-nur-letters-f-j-s02.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s02.mp3",
+        "bytes": 20706
+      },
+      "eng-nur-letters-f-j-s03.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s03.mp3",
+        "bytes": 15064
+      },
+      "eng-nur-letters-f-j-s04.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s04.mp3",
+        "bytes": 15064
+      },
+      "eng-nur-letters-f-j-s05.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s05.mp3",
+        "bytes": 18825
+      },
+      "eng-nur-letters-f-j-s06.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s06.mp3",
+        "bytes": 21019
+      },
+      "eng-nur-letters-f-j-s07.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s07.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-f-j-s08.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s08.mp3",
+        "bytes": 18825
+      },
+      "eng-nur-letters-f-j-s09.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s09.mp3",
+        "bytes": 16213
+      },
+      "eng-nur-letters-f-j-s10.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s10.mp3",
+        "bytes": 15064
+      },
+      "eng-nur-letters-f-j-s11.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s11.mp3",
+        "bytes": 13810
+      },
+      "eng-nur-letters-f-j-s12.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s12.mp3",
+        "bytes": 18616
+      },
+      "eng-nur-letters-f-j-s13.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s13.mp3",
+        "bytes": 12556
+      },
+      "eng-nur-letters-f-j-s14.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s14.mp3",
+        "bytes": 18721
+      },
+      "eng-nur-letters-f-j-s15.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s15.mp3",
+        "bytes": 15273
+      },
+      "eng-nur-letters-f-j-s16.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s16.mp3",
+        "bytes": 13705
+      },
+      "eng-nur-letters-f-j-s17.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s17.mp3",
+        "bytes": 15273
+      },
+      "eng-nur-letters-f-j-s18.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s18.mp3",
+        "bytes": 18094
+      },
+      "eng-nur-letters-f-j-s19.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s19.mp3",
+        "bytes": 11511
+      },
+      "eng-nur-letters-f-j-s20.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s20.mp3",
+        "bytes": 19766
+      },
+      "eng-nur-letters-f-j-s21.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s21.mp3",
+        "bytes": 13601
+      },
+      "eng-nur-letters-f-j-s22.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s22.mp3",
+        "bytes": 18094
+      },
+      "eng-nur-letters-f-j-s23.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s23.mp3",
+        "bytes": 13601
+      },
+      "eng-nur-letters-f-j-s24.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s24.mp3",
+        "bytes": 17780
+      },
+      "eng-nur-letters-f-j-s25.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s25.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-f-j-s26.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s26.mp3",
+        "bytes": 19766
+      },
+      "eng-nur-letters-f-j-s27.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s27.mp3",
+        "bytes": 14750
+      },
+      "eng-nur-letters-f-j-s28.mp3": {
+        "file": "audio/mr/eng-nur-letters-f-j-s28.mp3",
+        "bytes": 10779
+      },
+      "eng-nur-letters-k-o-s01.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s01.mp3",
+        "bytes": 12242
+      },
+      "eng-nur-letters-k-o-s02.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s02.mp3",
+        "bytes": 18721
+      },
+      "eng-nur-letters-k-o-s03.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s03.mp3",
+        "bytes": 13601
+      },
+      "eng-nur-letters-k-o-s04.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s04.mp3",
+        "bytes": 15899
+      },
+      "eng-nur-letters-k-o-s05.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s05.mp3",
+        "bytes": 14855
+      },
+      "eng-nur-letters-k-o-s06.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s06.mp3",
+        "bytes": 11824
+      },
+      "eng-nur-letters-k-o-s07.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s07.mp3",
+        "bytes": 19348
+      },
+      "eng-nur-letters-k-o-s08.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s08.mp3",
+        "bytes": 13914
+      },
+      "eng-nur-letters-k-o-s09.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s09.mp3",
+        "bytes": 14959
+      },
+      "eng-nur-letters-k-o-s10.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s10.mp3",
+        "bytes": 12765
+      },
+      "eng-nur-letters-k-o-s11.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s11.mp3",
+        "bytes": 16840
+      },
+      "eng-nur-letters-k-o-s12.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s12.mp3",
+        "bytes": 12556
+      },
+      "eng-nur-letters-k-o-s13.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s13.mp3",
+        "bytes": 18825
+      },
+      "eng-nur-letters-k-o-s14.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s14.mp3",
+        "bytes": 13914
+      },
+      "eng-nur-letters-k-o-s15.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s15.mp3",
+        "bytes": 13601
+      },
+      "eng-nur-letters-k-o-s16.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s16.mp3",
+        "bytes": 13392
+      },
+      "eng-nur-letters-k-o-s17.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s17.mp3",
+        "bytes": 11929
+      },
+      "eng-nur-letters-k-o-s18.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s18.mp3",
+        "bytes": 19034
+      },
+      "eng-nur-letters-k-o-s19.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s19.mp3",
+        "bytes": 15064
+      },
+      "eng-nur-letters-k-o-s20.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s20.mp3",
+        "bytes": 14437
+      },
+      "eng-nur-letters-k-o-s21.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s21.mp3",
+        "bytes": 14750
+      },
+      "eng-nur-letters-k-o-s22.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s22.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-k-o-s23.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s23.mp3",
+        "bytes": 18512
+      },
+      "eng-nur-letters-k-o-s24.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s24.mp3",
+        "bytes": 16108
+      },
+      "eng-nur-letters-k-o-s25.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s25.mp3",
+        "bytes": 14750
+      },
+      "eng-nur-letters-k-o-s26.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s26.mp3",
+        "bytes": 12451
+      },
+      "eng-nur-letters-k-o-s27.mp3": {
+        "file": "audio/mr/eng-nur-letters-k-o-s27.mp3",
+        "bytes": 15482
+      },
+      "eng-nur-letters-p-t-s01.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s01.mp3",
+        "bytes": 11302
+      },
+      "eng-nur-letters-p-t-s02.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s02.mp3",
+        "bytes": 19348
+      },
+      "eng-nur-letters-p-t-s03.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s03.mp3",
+        "bytes": 15377
+      },
+      "eng-nur-letters-p-t-s04.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s04.mp3",
+        "bytes": 13914
+      },
+      "eng-nur-letters-p-t-s05.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s05.mp3",
+        "bytes": 15690
+      },
+      "eng-nur-letters-p-t-s06.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s06.mp3",
+        "bytes": 19661
+      },
+      "eng-nur-letters-p-t-s07.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s07.mp3",
+        "bytes": 12765
+      },
+      "eng-nur-letters-p-t-s08.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s08.mp3",
+        "bytes": 19452
+      },
+      "eng-nur-letters-p-t-s09.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s09.mp3",
+        "bytes": 13705
+      },
+      "eng-nur-letters-p-t-s10.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s10.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-p-t-s11.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s11.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-p-t-s12.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s12.mp3",
+        "bytes": 19870
+      },
+      "eng-nur-letters-p-t-s13.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s13.mp3",
+        "bytes": 13287
+      },
+      "eng-nur-letters-p-t-s14.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s14.mp3",
+        "bytes": 16213
+      },
+      "eng-nur-letters-p-t-s15.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s15.mp3",
+        "bytes": 12556
+      },
+      "eng-nur-letters-p-t-s16.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s16.mp3",
+        "bytes": 16944
+      },
+      "eng-nur-letters-p-t-s17.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s17.mp3",
+        "bytes": 12033
+      },
+      "eng-nur-letters-p-t-s18.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s18.mp3",
+        "bytes": 18930
+      },
+      "eng-nur-letters-p-t-s19.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s19.mp3",
+        "bytes": 12974
+      },
+      "eng-nur-letters-p-t-s20.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s20.mp3",
+        "bytes": 14750
+      },
+      "eng-nur-letters-p-t-s21.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s21.mp3",
+        "bytes": 14646
+      },
+      "eng-nur-letters-p-t-s22.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s22.mp3",
+        "bytes": 20184
+      },
+      "eng-nur-letters-p-t-s23.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s23.mp3",
+        "bytes": 12765
+      },
+      "eng-nur-letters-p-t-s24.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s24.mp3",
+        "bytes": 19243
+      },
+      "eng-nur-letters-p-t-s25.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s25.mp3",
+        "bytes": 15482
+      },
+      "eng-nur-letters-p-t-s26.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s26.mp3",
+        "bytes": 13287
+      },
+      "eng-nur-letters-p-t-s27.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s27.mp3",
+        "bytes": 16422
+      },
+      "eng-nur-letters-p-t-s28.mp3": {
+        "file": "audio/mr/eng-nur-letters-p-t-s28.mp3",
+        "bytes": 19243
+      },
+      "eng-nur-letters-u-z-s01.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s01.mp3",
+        "bytes": 11929
+      },
+      "eng-nur-letters-u-z-s02.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s02.mp3",
+        "bytes": 19452
+      },
+      "eng-nur-letters-u-z-s03.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s03.mp3",
+        "bytes": 18094
+      },
+      "eng-nur-letters-u-z-s04.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s04.mp3",
+        "bytes": 10779
+      },
+      "eng-nur-letters-u-z-s05.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s05.mp3",
+        "bytes": 11720
+      },
+      "eng-nur-letters-u-z-s06.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s06.mp3",
+        "bytes": 19139
+      },
+      "eng-nur-letters-u-z-s07.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s07.mp3",
+        "bytes": 17049
+      },
+      "eng-nur-letters-u-z-s08.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s08.mp3",
+        "bytes": 14437
+      },
+      "eng-nur-letters-u-z-s09.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s09.mp3",
+        "bytes": 14541
+      },
+      "eng-nur-letters-u-z-s10.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s10.mp3",
+        "bytes": 12138
+      },
+      "eng-nur-letters-u-z-s11.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s11.mp3",
+        "bytes": 20810
+      },
+      "eng-nur-letters-u-z-s12.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s12.mp3",
+        "bytes": 19452
+      },
+      "eng-nur-letters-u-z-s13.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s13.mp3",
+        "bytes": 15377
+      },
+      "eng-nur-letters-u-z-s14.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s14.mp3",
+        "bytes": 15899
+      },
+      "eng-nur-letters-u-z-s15.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s15.mp3",
+        "bytes": 12869
+      },
+      "eng-nur-letters-u-z-s16.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s16.mp3",
+        "bytes": 19034
+      },
+      "eng-nur-letters-u-z-s17.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s17.mp3",
+        "bytes": 19348
+      },
+      "eng-nur-letters-u-z-s18.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s18.mp3",
+        "bytes": 12242
+      },
+      "eng-nur-letters-u-z-s19.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s19.mp3",
+        "bytes": 11093
+      },
+      "eng-nur-letters-u-z-s20.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s20.mp3",
+        "bytes": 19766
+      },
+      "eng-nur-letters-u-z-s21.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s21.mp3",
+        "bytes": 20184
+      },
+      "eng-nur-letters-u-z-s22.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s22.mp3",
+        "bytes": 14855
+      },
+      "eng-nur-letters-u-z-s23.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s23.mp3",
+        "bytes": 17362
+      },
+      "eng-nur-letters-u-z-s24.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s24.mp3",
+        "bytes": 11929
+      },
+      "eng-nur-letters-u-z-s25.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s25.mp3",
+        "bytes": 21019
+      },
+      "eng-nur-letters-u-z-s26.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s26.mp3",
+        "bytes": 18303
+      },
+      "eng-nur-letters-u-z-s27.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s27.mp3",
+        "bytes": 15899
+      },
+      "eng-nur-letters-u-z-s28.mp3": {
+        "file": "audio/mr/eng-nur-letters-u-z-s28.mp3",
+        "bytes": 15482
       },
       "eng-nur-shapes-check-s01.mp3": {
         "file": "audio/mr/eng-nur-shapes-check-s01.mp3",
@@ -17922,126 +19332,6 @@
         "file": "audio/or/demo-india-s02.mp3",
         "bytes": 20915
       },
-      "demo-letters-s01.mp3": {
-        "file": "audio/or/demo-letters-s01.mp3",
-        "bytes": 8376
-      },
-      "demo-letters-s02.mp3": {
-        "file": "audio/or/demo-letters-s02.mp3",
-        "bytes": 17049
-      },
-      "demo-letters-s03.mp3": {
-        "file": "audio/or/demo-letters-s03.mp3",
-        "bytes": 13078
-      },
-      "demo-letters-s04.mp3": {
-        "file": "audio/or/demo-letters-s04.mp3",
-        "bytes": 12033
-      },
-      "demo-letters-s05.mp3": {
-        "file": "audio/or/demo-letters-s05.mp3",
-        "bytes": 12242
-      },
-      "demo-letters-s06.mp3": {
-        "file": "audio/or/demo-letters-s06.mp3",
-        "bytes": 17571
-      },
-      "demo-letters-s07.mp3": {
-        "file": "audio/or/demo-letters-s07.mp3",
-        "bytes": 8794
-      },
-      "demo-letters-s08.mp3": {
-        "file": "audio/or/demo-letters-s08.mp3",
-        "bytes": 18616
-      },
-      "demo-letters-s09.mp3": {
-        "file": "audio/or/demo-letters-s09.mp3",
-        "bytes": 13183
-      },
-      "demo-letters-s10.mp3": {
-        "file": "audio/or/demo-letters-s10.mp3",
-        "bytes": 10048
-      },
-      "demo-letters-s11.mp3": {
-        "file": "audio/or/demo-letters-s11.mp3",
-        "bytes": 11824
-      },
-      "demo-letters-s12.mp3": {
-        "file": "audio/or/demo-letters-s12.mp3",
-        "bytes": 15482
-      },
-      "demo-letters-s13.mp3": {
-        "file": "audio/or/demo-letters-s13.mp3",
-        "bytes": 8481
-      },
-      "demo-letters-s14.mp3": {
-        "file": "audio/or/demo-letters-s14.mp3",
-        "bytes": 17989
-      },
-      "demo-letters-s15.mp3": {
-        "file": "audio/or/demo-letters-s15.mp3",
-        "bytes": 13183
-      },
-      "demo-letters-s16.mp3": {
-        "file": "audio/or/demo-letters-s16.mp3",
-        "bytes": 10779
-      },
-      "demo-letters-s17.mp3": {
-        "file": "audio/or/demo-letters-s17.mp3",
-        "bytes": 12138
-      },
-      "demo-letters-s18.mp3": {
-        "file": "audio/or/demo-letters-s18.mp3",
-        "bytes": 16213
-      },
-      "demo-letters-s19.mp3": {
-        "file": "audio/or/demo-letters-s19.mp3",
-        "bytes": 8376
-      },
-      "demo-letters-s20.mp3": {
-        "file": "audio/or/demo-letters-s20.mp3",
-        "bytes": 18407
-      },
-      "demo-letters-s21.mp3": {
-        "file": "audio/or/demo-letters-s21.mp3",
-        "bytes": 12138
-      },
-      "demo-letters-s22.mp3": {
-        "file": "audio/or/demo-letters-s22.mp3",
-        "bytes": 10988
-      },
-      "demo-letters-s23.mp3": {
-        "file": "audio/or/demo-letters-s23.mp3",
-        "bytes": 10988
-      },
-      "demo-letters-s24.mp3": {
-        "file": "audio/or/demo-letters-s24.mp3",
-        "bytes": 16317
-      },
-      "demo-letters-s25.mp3": {
-        "file": "audio/or/demo-letters-s25.mp3",
-        "bytes": 8063
-      },
-      "demo-letters-s26.mp3": {
-        "file": "audio/or/demo-letters-s26.mp3",
-        "bytes": 17989
-      },
-      "demo-letters-s27.mp3": {
-        "file": "audio/or/demo-letters-s27.mp3",
-        "bytes": 14646
-      },
-      "demo-letters-s28.mp3": {
-        "file": "audio/or/demo-letters-s28.mp3",
-        "bytes": 10048
-      },
-      "demo-letters-s29.mp3": {
-        "file": "audio/or/demo-letters-s29.mp3",
-        "bytes": 10988
-      },
-      "demo-letters-s30.mp3": {
-        "file": "audio/or/demo-letters-s30.mp3",
-        "bytes": 14541
-      },
       "demo-peacock-s01.mp3": {
         "file": "audio/or/demo-peacock-s01.mp3",
         "bytes": 25095
@@ -19093,6 +20383,570 @@
       "eng-nur-insects-s08.mp3": {
         "file": "audio/or/eng-nur-insects-s08.mp3",
         "bytes": 27393
+      },
+      "eng-nur-letters-a-e-s01.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s01.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-a-e-s02.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s02.mp3",
+        "bytes": 17049
+      },
+      "eng-nur-letters-a-e-s03.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s03.mp3",
+        "bytes": 13078
+      },
+      "eng-nur-letters-a-e-s04.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s04.mp3",
+        "bytes": 12033
+      },
+      "eng-nur-letters-a-e-s05.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s05.mp3",
+        "bytes": 12242
+      },
+      "eng-nur-letters-a-e-s06.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s06.mp3",
+        "bytes": 17571
+      },
+      "eng-nur-letters-a-e-s07.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s07.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-a-e-s08.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s08.mp3",
+        "bytes": 18616
+      },
+      "eng-nur-letters-a-e-s09.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s09.mp3",
+        "bytes": 13183
+      },
+      "eng-nur-letters-a-e-s10.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s10.mp3",
+        "bytes": 10048
+      },
+      "eng-nur-letters-a-e-s11.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s11.mp3",
+        "bytes": 11824
+      },
+      "eng-nur-letters-a-e-s12.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s12.mp3",
+        "bytes": 15482
+      },
+      "eng-nur-letters-a-e-s13.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s13.mp3",
+        "bytes": 8481
+      },
+      "eng-nur-letters-a-e-s14.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s14.mp3",
+        "bytes": 17989
+      },
+      "eng-nur-letters-a-e-s15.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s15.mp3",
+        "bytes": 13183
+      },
+      "eng-nur-letters-a-e-s16.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s16.mp3",
+        "bytes": 10779
+      },
+      "eng-nur-letters-a-e-s17.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s17.mp3",
+        "bytes": 12138
+      },
+      "eng-nur-letters-a-e-s18.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s18.mp3",
+        "bytes": 16213
+      },
+      "eng-nur-letters-a-e-s19.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s19.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-a-e-s20.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s20.mp3",
+        "bytes": 18407
+      },
+      "eng-nur-letters-a-e-s21.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s21.mp3",
+        "bytes": 12138
+      },
+      "eng-nur-letters-a-e-s22.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s22.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-a-e-s23.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s23.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-a-e-s24.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s24.mp3",
+        "bytes": 16317
+      },
+      "eng-nur-letters-a-e-s25.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s25.mp3",
+        "bytes": 8063
+      },
+      "eng-nur-letters-a-e-s26.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s26.mp3",
+        "bytes": 17989
+      },
+      "eng-nur-letters-a-e-s27.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s27.mp3",
+        "bytes": 14646
+      },
+      "eng-nur-letters-a-e-s28.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s28.mp3",
+        "bytes": 10048
+      },
+      "eng-nur-letters-a-e-s29.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s29.mp3",
+        "bytes": 10988
+      },
+      "eng-nur-letters-a-e-s30.mp3": {
+        "file": "audio/or/eng-nur-letters-a-e-s30.mp3",
+        "bytes": 14541
+      },
+      "eng-nur-letters-f-j-s01.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s01.mp3",
+        "bytes": 8899
+      },
+      "eng-nur-letters-f-j-s02.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s02.mp3",
+        "bytes": 17571
+      },
+      "eng-nur-letters-f-j-s03.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s03.mp3",
+        "bytes": 12869
+      },
+      "eng-nur-letters-f-j-s04.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s04.mp3",
+        "bytes": 13496
+      },
+      "eng-nur-letters-f-j-s05.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s05.mp3",
+        "bytes": 13078
+      },
+      "eng-nur-letters-f-j-s06.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s06.mp3",
+        "bytes": 20497
+      },
+      "eng-nur-letters-f-j-s07.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s07.mp3",
+        "bytes": 8063
+      },
+      "eng-nur-letters-f-j-s08.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s08.mp3",
+        "bytes": 17885
+      },
+      "eng-nur-letters-f-j-s09.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s09.mp3",
+        "bytes": 13287
+      },
+      "eng-nur-letters-f-j-s10.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s10.mp3",
+        "bytes": 11929
+      },
+      "eng-nur-letters-f-j-s11.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s11.mp3",
+        "bytes": 10779
+      },
+      "eng-nur-letters-f-j-s12.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s12.mp3",
+        "bytes": 15273
+      },
+      "eng-nur-letters-f-j-s13.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s13.mp3",
+        "bytes": 10466
+      },
+      "eng-nur-letters-f-j-s14.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s14.mp3",
+        "bytes": 17676
+      },
+      "eng-nur-letters-f-j-s15.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s15.mp3",
+        "bytes": 13287
+      },
+      "eng-nur-letters-f-j-s16.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s16.mp3",
+        "bytes": 11511
+      },
+      "eng-nur-letters-f-j-s17.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s17.mp3",
+        "bytes": 14332
+      },
+      "eng-nur-letters-f-j-s18.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s18.mp3",
+        "bytes": 18512
+      },
+      "eng-nur-letters-f-j-s19.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s19.mp3",
+        "bytes": 8585
+      },
+      "eng-nur-letters-f-j-s20.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s20.mp3",
+        "bytes": 17153
+      },
+      "eng-nur-letters-f-j-s21.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s21.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-f-j-s22.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s22.mp3",
+        "bytes": 17153
+      },
+      "eng-nur-letters-f-j-s23.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s23.mp3",
+        "bytes": 11406
+      },
+      "eng-nur-letters-f-j-s24.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s24.mp3",
+        "bytes": 16840
+      },
+      "eng-nur-letters-f-j-s25.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s25.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-f-j-s26.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s26.mp3",
+        "bytes": 18512
+      },
+      "eng-nur-letters-f-j-s27.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s27.mp3",
+        "bytes": 12242
+      },
+      "eng-nur-letters-f-j-s28.mp3": {
+        "file": "audio/or/eng-nur-letters-f-j-s28.mp3",
+        "bytes": 9944
+      },
+      "eng-nur-letters-k-o-s01.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s01.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-k-o-s02.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s02.mp3",
+        "bytes": 17153
+      },
+      "eng-nur-letters-k-o-s03.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s03.mp3",
+        "bytes": 11720
+      },
+      "eng-nur-letters-k-o-s04.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s04.mp3",
+        "bytes": 12556
+      },
+      "eng-nur-letters-k-o-s05.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s05.mp3",
+        "bytes": 12347
+      },
+      "eng-nur-letters-k-o-s06.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s06.mp3",
+        "bytes": 9526
+      },
+      "eng-nur-letters-k-o-s07.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s07.mp3",
+        "bytes": 17467
+      },
+      "eng-nur-letters-k-o-s08.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s08.mp3",
+        "bytes": 13496
+      },
+      "eng-nur-letters-k-o-s09.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s09.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-k-o-s10.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s10.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-k-o-s11.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s11.mp3",
+        "bytes": 16631
+      },
+      "eng-nur-letters-k-o-s12.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s12.mp3",
+        "bytes": 9421
+      },
+      "eng-nur-letters-k-o-s13.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s13.mp3",
+        "bytes": 17467
+      },
+      "eng-nur-letters-k-o-s14.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s14.mp3",
+        "bytes": 13810
+      },
+      "eng-nur-letters-k-o-s15.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s15.mp3",
+        "bytes": 11615
+      },
+      "eng-nur-letters-k-o-s16.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s16.mp3",
+        "bytes": 13287
+      },
+      "eng-nur-letters-k-o-s17.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s17.mp3",
+        "bytes": 9630
+      },
+      "eng-nur-letters-k-o-s18.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s18.mp3",
+        "bytes": 17989
+      },
+      "eng-nur-letters-k-o-s19.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s19.mp3",
+        "bytes": 14437
+      },
+      "eng-nur-letters-k-o-s20.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s20.mp3",
+        "bytes": 11720
+      },
+      "eng-nur-letters-k-o-s21.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s21.mp3",
+        "bytes": 12974
+      },
+      "eng-nur-letters-k-o-s22.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s22.mp3",
+        "bytes": 9003
+      },
+      "eng-nur-letters-k-o-s23.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s23.mp3",
+        "bytes": 17049
+      },
+      "eng-nur-letters-k-o-s24.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s24.mp3",
+        "bytes": 14750
+      },
+      "eng-nur-letters-k-o-s25.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s25.mp3",
+        "bytes": 10675
+      },
+      "eng-nur-letters-k-o-s26.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s26.mp3",
+        "bytes": 10675
+      },
+      "eng-nur-letters-k-o-s27.mp3": {
+        "file": "audio/or/eng-nur-letters-k-o-s27.mp3",
+        "bytes": 15168
+      },
+      "eng-nur-letters-p-t-s01.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s01.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-p-t-s02.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s02.mp3",
+        "bytes": 16944
+      },
+      "eng-nur-letters-p-t-s03.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s03.mp3",
+        "bytes": 12660
+      },
+      "eng-nur-letters-p-t-s04.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s04.mp3",
+        "bytes": 10675
+      },
+      "eng-nur-letters-p-t-s05.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s05.mp3",
+        "bytes": 11929
+      },
+      "eng-nur-letters-p-t-s06.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s06.mp3",
+        "bytes": 17676
+      },
+      "eng-nur-letters-p-t-s07.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s07.mp3",
+        "bytes": 8376
+      },
+      "eng-nur-letters-p-t-s08.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s08.mp3",
+        "bytes": 17258
+      },
+      "eng-nur-letters-p-t-s09.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s09.mp3",
+        "bytes": 12451
+      },
+      "eng-nur-letters-p-t-s10.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s10.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-p-t-s11.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s11.mp3",
+        "bytes": 8899
+      },
+      "eng-nur-letters-p-t-s12.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s12.mp3",
+        "bytes": 17989
+      },
+      "eng-nur-letters-p-t-s13.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s13.mp3",
+        "bytes": 12138
+      },
+      "eng-nur-letters-p-t-s14.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s14.mp3",
+        "bytes": 12242
+      },
+      "eng-nur-letters-p-t-s15.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s15.mp3",
+        "bytes": 12138
+      },
+      "eng-nur-letters-p-t-s16.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s16.mp3",
+        "bytes": 15899
+      },
+      "eng-nur-letters-p-t-s17.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s17.mp3",
+        "bytes": 9212
+      },
+      "eng-nur-letters-p-t-s18.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s18.mp3",
+        "bytes": 17885
+      },
+      "eng-nur-letters-p-t-s19.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s19.mp3",
+        "bytes": 11406
+      },
+      "eng-nur-letters-p-t-s20.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s20.mp3",
+        "bytes": 12347
+      },
+      "eng-nur-letters-p-t-s21.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s21.mp3",
+        "bytes": 12556
+      },
+      "eng-nur-letters-p-t-s22.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s22.mp3",
+        "bytes": 18721
+      },
+      "eng-nur-letters-p-t-s23.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s23.mp3",
+        "bytes": 9108
+      },
+      "eng-nur-letters-p-t-s24.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s24.mp3",
+        "bytes": 17571
+      },
+      "eng-nur-letters-p-t-s25.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s25.mp3",
+        "bytes": 12974
+      },
+      "eng-nur-letters-p-t-s26.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s26.mp3",
+        "bytes": 10884
+      },
+      "eng-nur-letters-p-t-s27.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s27.mp3",
+        "bytes": 11824
+      },
+      "eng-nur-letters-p-t-s28.mp3": {
+        "file": "audio/or/eng-nur-letters-p-t-s28.mp3",
+        "bytes": 16422
+      },
+      "eng-nur-letters-u-z-s01.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s01.mp3",
+        "bytes": 8794
+      },
+      "eng-nur-letters-u-z-s02.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s02.mp3",
+        "bytes": 17258
+      },
+      "eng-nur-letters-u-z-s03.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s03.mp3",
+        "bytes": 13392
+      },
+      "eng-nur-letters-u-z-s04.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s04.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-u-z-s05.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s05.mp3",
+        "bytes": 8481
+      },
+      "eng-nur-letters-u-z-s06.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s06.mp3",
+        "bytes": 17571
+      },
+      "eng-nur-letters-u-z-s07.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s07.mp3",
+        "bytes": 15273
+      },
+      "eng-nur-letters-u-z-s08.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s08.mp3",
+        "bytes": 10570
+      },
+      "eng-nur-letters-u-z-s09.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s09.mp3",
+        "bytes": 13705
+      },
+      "eng-nur-letters-u-z-s10.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s10.mp3",
+        "bytes": 9839
+      },
+      "eng-nur-letters-u-z-s11.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s11.mp3",
+        "bytes": 19557
+      },
+      "eng-nur-letters-u-z-s12.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s12.mp3",
+        "bytes": 17362
+      },
+      "eng-nur-letters-u-z-s13.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s13.mp3",
+        "bytes": 12451
+      },
+      "eng-nur-letters-u-z-s14.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s14.mp3",
+        "bytes": 14541
+      },
+      "eng-nur-letters-u-z-s15.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s15.mp3",
+        "bytes": 8690
+      },
+      "eng-nur-letters-u-z-s16.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s16.mp3",
+        "bytes": 19348
+      },
+      "eng-nur-letters-u-z-s17.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s17.mp3",
+        "bytes": 18721
+      },
+      "eng-nur-letters-u-z-s18.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s18.mp3",
+        "bytes": 12765
+      },
+      "eng-nur-letters-u-z-s19.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s19.mp3",
+        "bytes": 9421
+      },
+      "eng-nur-letters-u-z-s20.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s20.mp3",
+        "bytes": 19034
+      },
+      "eng-nur-letters-u-z-s21.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s21.mp3",
+        "bytes": 17153
+      },
+      "eng-nur-letters-u-z-s22.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s22.mp3",
+        "bytes": 11197
+      },
+      "eng-nur-letters-u-z-s23.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s23.mp3",
+        "bytes": 14437
+      },
+      "eng-nur-letters-u-z-s24.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s24.mp3",
+        "bytes": 13392
+      },
+      "eng-nur-letters-u-z-s25.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s25.mp3",
+        "bytes": 18930
+      },
+      "eng-nur-letters-u-z-s26.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s26.mp3",
+        "bytes": 14228
+      },
+      "eng-nur-letters-u-z-s27.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s27.mp3",
+        "bytes": 12242
+      },
+      "eng-nur-letters-u-z-s28.mp3": {
+        "file": "audio/or/eng-nur-letters-u-z-s28.mp3",
+        "bytes": 13810
       },
       "eng-nur-shapes-check-s01.mp3": {
         "file": "audio/or/eng-nur-shapes-check-s01.mp3",

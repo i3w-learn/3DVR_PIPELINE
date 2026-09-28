@@ -1,0 +1,682 @@
+{
+  "id": "eng-nur-letters-u-z",
+  "template": "match",
+  "stage": "beach",
+  "notes": "Letters U to Z on the letter beach. One big letter drops out of the sky; the real things for it arrive on the sand the way they would in life. One sitting of the alphabet; the old tabletop alphabet did all 26 in one go.",
+  "budget": {
+    "triangles": 285000,
+    "drawCalls": 120,
+    "why": "Every thing for five or six letters is placed, but a step shows one letter and at most its three things; the checker counts them all at once. The beach itself is heavier than the other lands on purpose: modelled palms instead of cut-outs, because the cut-outs read as stickers in the headset."
+  },
+  "objects": [
+    {
+      "id": "letterU",
+      "build": "letter3d",
+      "params": {
+        "char": "U",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "umbrella",
+      "model": "realumbrella",
+      "position": "2.4 0 -4.2",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Umbrella",
+        "hi": "छाता",
+        "mr": "छत्री",
+        "or": "ଛତା"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.9
+    },
+    {
+      "id": "letterV",
+      "build": "letter3d",
+      "params": {
+        "char": "V",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "violin",
+      "model": "realviolin",
+      "position": "-2.5 0 -3.9",
+      "scale": "1.6 1.6 1.6",
+      "name": {
+        "en": "Violin",
+        "hi": "वायलिन",
+        "mr": "व्हायोलिन",
+        "or": "ଭାୟୋଲିନ୍"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.5,
+      "castShadow": false
+    },
+    {
+      "id": "van",
+      "model": "realvan",
+      "position": "3.6 0 -7.2",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Van",
+        "hi": "वैन",
+        "mr": "व्हॅन",
+        "or": "ଭ୍ୟାନ୍"
+      },
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 11,
+        "duration": 4.5
+      },
+      "ring": 1.4
+    },
+    {
+      "id": "letterW",
+      "build": "letter3d",
+      "params": {
+        "char": "W",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "watermelon",
+      "model": "realwatermelon",
+      "position": "2.6 0 -3.4",
+      "scale": "2.5 2.5 2.5",
+      "name": {
+        "en": "Watermelon",
+        "hi": "तरबूज़",
+        "mr": "कलिंगड",
+        "or": "ତରଭୁଜ"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.4,
+      "castShadow": false
+    },
+    {
+      "id": "whale",
+      "model": "realwhale",
+      "position": "0.8 0.1 -17",
+      "scale": "1.2 1.2 1.2",
+      "name": {
+        "en": "Whale",
+        "hi": "व्हेल",
+        "mr": "देवमासा",
+        "or": "ତିମି"
+      },
+      "clip": "Take 001",
+      "arrive": {
+        "how": "leap",
+        "from": 2.4,
+        "duration": 2.6,
+        "again": 6
+      },
+      "ring": 1.6,
+      "castShadow": false
+    },
+    {
+      "id": "letterX",
+      "build": "letter3d",
+      "params": {
+        "char": "X",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "xylophone",
+      "model": "realxylophone",
+      "position": "0.4 0 -3.8",
+      "scale": "2.5 2.5 2.5",
+      "name": {
+        "en": "Xylophone",
+        "hi": "ज़ाइलोफ़ोन",
+        "mr": "झायलोफोन",
+        "or": "ଜାଇଲୋଫୋନ୍"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.5,
+      "castShadow": false
+    },
+    {
+      "id": "letterY",
+      "build": "letter3d",
+      "params": {
+        "char": "Y",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "yarn",
+      "model": "realyarn",
+      "position": "-2.5 0 -3.9",
+      "scale": "4 4 4",
+      "name": {
+        "en": "Yarn",
+        "hi": "ऊन का गोला",
+        "mr": "लोकरीचा गोळा",
+        "or": "ଊଲ ଗୋଲା"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.35,
+      "castShadow": false
+    },
+    {
+      "id": "yak",
+      "model": "realyak",
+      "position": "0.6 0 -5.6",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Yak",
+        "hi": "याक",
+        "mr": "याक",
+        "or": "ୟାକ"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 1.1
+    },
+    {
+      "id": "letterZ",
+      "build": "letter3d",
+      "params": {
+        "char": "Z",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "zebra",
+      "model": "realzebra",
+      "position": "-1.2 0 -6",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Zebra",
+        "hi": "ज़ेबरा",
+        "mr": "झेब्रा",
+        "or": "ଜେବ୍ରା"
+      },
+      "clip": "Trot",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 9,
+        "duration": 4.5,
+        "idle": "Idle01"
+      },
+      "ring": 1.1
+    },
+    {
+      "id": "zebu",
+      "model": "zebu",
+      "position": "3.6 0 -7.2",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Zebu",
+        "hi": "बैल",
+        "mr": "बैल",
+        "or": "ବଳଦ"
+      },
+      "clip": "Armature|CombinedAnim|Base Layer.001",
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 9,
+        "duration": 5
+      },
+      "ring": 1.2
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "letterU"
+      ],
+      "highlight": "letterU",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital U.",
+        "hi": "यह बड़ा U है।",
+        "mr": "हे मोठं U आहे.",
+        "or": "ଏହା ବଡ଼ U।"
+      },
+      "audio": "eng-nur-letters-u-z-s01.mp3"
+    },
+    {
+      "show": [
+        "letterU"
+      ],
+      "highlight": "letterU",
+      "duration": 5500,
+      "script": {
+        "en": "U says “uh”. Say it with me.",
+        "hi": "U की ध्वनि — uh।",
+        "mr": "U चा आवाज — uh. माझ्यासोबत म्हणा.",
+        "or": "U ର ଧ୍ୱନି — uh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-u-z-s02.mp3"
+    },
+    {
+      "show": [
+        "letterU",
+        "umbrella"
+      ],
+      "highlight": "umbrella",
+      "partner": "letterU",
+      "duration": 6000,
+      "script": {
+        "en": "U for Umbrella.",
+        "hi": "U से Umbrella — छाता।",
+        "mr": "U — Umbrella, म्हणजे छत्री.",
+        "or": "U — Umbrella, ମାନେ ଛତା।"
+      },
+      "audio": "eng-nur-letters-u-z-s03.mp3"
+    },
+    {
+      "show": [
+        "letterU",
+        "umbrella"
+      ],
+      "highlight": "letterU",
+      "duration": 7000,
+      "script": {
+        "en": "U. Umbrella.",
+        "hi": "U। छाता।",
+        "mr": "U. छत्री.",
+        "or": "U। ଛତା।"
+      },
+      "audio": "eng-nur-letters-u-z-s04.mp3"
+    },
+    {
+      "show": [
+        "letterV"
+      ],
+      "highlight": "letterV",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital V.",
+        "hi": "यह बड़ा V है।",
+        "mr": "हे मोठं V आहे.",
+        "or": "ଏହା ବଡ଼ V।"
+      },
+      "audio": "eng-nur-letters-u-z-s05.mp3"
+    },
+    {
+      "show": [
+        "letterV"
+      ],
+      "highlight": "letterV",
+      "duration": 5500,
+      "script": {
+        "en": "V says “vuh”. Say it with me.",
+        "hi": "V की ध्वनि — vuh।",
+        "mr": "V चा आवाज — vuh. माझ्यासोबत म्हणा.",
+        "or": "V ର ଧ୍ୱନି — vuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-u-z-s06.mp3"
+    },
+    {
+      "show": [
+        "letterV",
+        "violin"
+      ],
+      "highlight": "violin",
+      "partner": "letterV",
+      "duration": 6000,
+      "script": {
+        "en": "V for Violin.",
+        "hi": "V से Violin — वायलिन।",
+        "mr": "V — Violin, म्हणजे व्हायोलिन.",
+        "or": "V — Violin, ମାନେ ଭାୟୋଲିନ୍।"
+      },
+      "audio": "eng-nur-letters-u-z-s07.mp3"
+    },
+    {
+      "show": [
+        "letterV",
+        "violin",
+        "van"
+      ],
+      "highlight": "van",
+      "partner": "letterV",
+      "duration": 7500,
+      "script": {
+        "en": "V for Van.",
+        "hi": "V से Van — वैन।",
+        "mr": "V — Van, म्हणजे व्हॅन.",
+        "or": "V — Van, ମାନେ ଭ୍ୟାନ୍।"
+      },
+      "audio": "eng-nur-letters-u-z-s08.mp3"
+    },
+    {
+      "show": [
+        "letterV",
+        "violin",
+        "van"
+      ],
+      "highlight": "letterV",
+      "duration": 7000,
+      "script": {
+        "en": "V. Violin, Van.",
+        "hi": "V। वायलिन, वैन।",
+        "mr": "V. व्हायोलिन, व्हॅन.",
+        "or": "V। ଭାୟୋଲିନ୍, ଭ୍ୟାନ୍।"
+      },
+      "audio": "eng-nur-letters-u-z-s09.mp3"
+    },
+    {
+      "show": [
+        "letterW"
+      ],
+      "highlight": "letterW",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital W.",
+        "hi": "यह बड़ा W है।",
+        "mr": "हे मोठं W आहे.",
+        "or": "ଏହା ବଡ଼ W।"
+      },
+      "audio": "eng-nur-letters-u-z-s10.mp3"
+    },
+    {
+      "show": [
+        "letterW"
+      ],
+      "highlight": "letterW",
+      "duration": 5500,
+      "script": {
+        "en": "W says “wuh”. Say it with me.",
+        "hi": "W की ध्वनि — wuh।",
+        "mr": "W चा आवाज — wuh. माझ्यासोबत म्हणा.",
+        "or": "W ର ଧ୍ୱନି — wuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-u-z-s11.mp3"
+    },
+    {
+      "show": [
+        "letterW",
+        "watermelon"
+      ],
+      "highlight": "watermelon",
+      "partner": "letterW",
+      "duration": 6000,
+      "script": {
+        "en": "W for Watermelon.",
+        "hi": "W से Watermelon — तरबूज़।",
+        "mr": "W — Watermelon, म्हणजे कलिंगड.",
+        "or": "W — Watermelon, ମାନେ ତରଭୁଜ।"
+      },
+      "audio": "eng-nur-letters-u-z-s12.mp3"
+    },
+    {
+      "show": [
+        "letterW",
+        "watermelon",
+        "whale"
+      ],
+      "highlight": "whale",
+      "partner": "letterW",
+      "duration": 6000,
+      "script": {
+        "en": "W for Whale.",
+        "hi": "W से Whale — व्हेल।",
+        "mr": "W — Whale, म्हणजे देवमासा.",
+        "or": "W — Whale, ମାନେ ତିମି।"
+      },
+      "audio": "eng-nur-letters-u-z-s13.mp3"
+    },
+    {
+      "show": [
+        "letterW",
+        "watermelon",
+        "whale"
+      ],
+      "highlight": "letterW",
+      "duration": 7000,
+      "script": {
+        "en": "W. Watermelon, Whale.",
+        "hi": "W। तरबूज़, व्हेल।",
+        "mr": "W. कलिंगड, देवमासा.",
+        "or": "W। ତରଭୁଜ, ତିମି।"
+      },
+      "audio": "eng-nur-letters-u-z-s14.mp3"
+    },
+    {
+      "show": [
+        "letterX"
+      ],
+      "highlight": "letterX",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital X.",
+        "hi": "यह बड़ा X है।",
+        "mr": "हे मोठं X आहे.",
+        "or": "ଏହା ବଡ଼ X।"
+      },
+      "audio": "eng-nur-letters-u-z-s15.mp3"
+    },
+    {
+      "show": [
+        "letterX"
+      ],
+      "highlight": "letterX",
+      "duration": 5500,
+      "script": {
+        "en": "X says “ks”. Say it with me.",
+        "hi": "X की ध्वनि — ks।",
+        "mr": "X चा आवाज — ks. माझ्यासोबत म्हणा.",
+        "or": "X ର ଧ୍ୱନି — ks। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-u-z-s16.mp3"
+    },
+    {
+      "show": [
+        "letterX",
+        "xylophone"
+      ],
+      "highlight": "xylophone",
+      "partner": "letterX",
+      "duration": 6000,
+      "script": {
+        "en": "X for Xylophone.",
+        "hi": "X से Xylophone — ज़ाइलोफ़ोन।",
+        "mr": "X — Xylophone, म्हणजे झायलोफोन.",
+        "or": "X — Xylophone, ମାନେ ଜାଇଲୋଫୋନ୍।"
+      },
+      "audio": "eng-nur-letters-u-z-s17.mp3"
+    },
+    {
+      "show": [
+        "letterX",
+        "xylophone"
+      ],
+      "highlight": "letterX",
+      "duration": 7000,
+      "script": {
+        "en": "X. Xylophone.",
+        "hi": "X। ज़ाइलोफ़ोन।",
+        "mr": "X. झायलोफोन.",
+        "or": "X। ଜାଇଲୋଫୋନ୍।"
+      },
+      "audio": "eng-nur-letters-u-z-s18.mp3"
+    },
+    {
+      "show": [
+        "letterY"
+      ],
+      "highlight": "letterY",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital Y.",
+        "hi": "यह बड़ा Y है।",
+        "mr": "हे मोठं Y आहे.",
+        "or": "ଏହା ବଡ଼ Y।"
+      },
+      "audio": "eng-nur-letters-u-z-s19.mp3"
+    },
+    {
+      "show": [
+        "letterY"
+      ],
+      "highlight": "letterY",
+      "duration": 5500,
+      "script": {
+        "en": "Y says “yuh”. Say it with me.",
+        "hi": "Y की ध्वनि — yuh।",
+        "mr": "Y चा आवाज — yuh. माझ्यासोबत म्हणा.",
+        "or": "Y ର ଧ୍ୱନି — yuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-u-z-s20.mp3"
+    },
+    {
+      "show": [
+        "letterY",
+        "yarn"
+      ],
+      "highlight": "yarn",
+      "partner": "letterY",
+      "duration": 6000,
+      "script": {
+        "en": "Y for Yarn.",
+        "hi": "Y से Yarn — ऊन का गोला।",
+        "mr": "Y — Yarn, म्हणजे लोकरीचा गोळा.",
+        "or": "Y — Yarn, ମାନେ ଊଲ ଗୋଲା।"
+      },
+      "audio": "eng-nur-letters-u-z-s21.mp3"
+    },
+    {
+      "show": [
+        "letterY",
+        "yarn",
+        "yak"
+      ],
+      "highlight": "yak",
+      "partner": "letterY",
+      "duration": 6000,
+      "script": {
+        "en": "Y for Yak.",
+        "hi": "Y से Yak — याक।",
+        "mr": "Y — Yak, म्हणजे याक.",
+        "or": "Y — Yak, ମାନେ ୟାକ।"
+      },
+      "audio": "eng-nur-letters-u-z-s22.mp3"
+    },
+    {
+      "show": [
+        "letterY",
+        "yarn",
+        "yak"
+      ],
+      "highlight": "letterY",
+      "duration": 7000,
+      "script": {
+        "en": "Y. Yarn, Yak.",
+        "hi": "Y। ऊन का गोला, याक।",
+        "mr": "Y. लोकरीचा गोळा, याक.",
+        "or": "Y। ଊଲ ଗୋଲା, ୟାକ।"
+      },
+      "audio": "eng-nur-letters-u-z-s23.mp3"
+    },
+    {
+      "show": [
+        "letterZ"
+      ],
+      "highlight": "letterZ",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital Z.",
+        "hi": "यह बड़ा Z है।",
+        "mr": "हे मोठं Z आहे.",
+        "or": "ଏହା ବଡ଼ Z।"
+      },
+      "audio": "eng-nur-letters-u-z-s24.mp3"
+    },
+    {
+      "show": [
+        "letterZ"
+      ],
+      "highlight": "letterZ",
+      "duration": 5500,
+      "script": {
+        "en": "Z says “zuh”. Say it with me.",
+        "hi": "Z की ध्वनि — zuh।",
+        "mr": "Z चा आवाज — zuh. माझ्यासोबत म्हणा.",
+        "or": "Z ର ଧ୍ୱନି — zuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-u-z-s25.mp3"
+    },
+    {
+      "show": [
+        "letterZ",
+        "zebra"
+      ],
+      "highlight": "zebra",
+      "partner": "letterZ",
+      "duration": 7500,
+      "script": {
+        "en": "Z for Zebra.",
+        "hi": "Z से Zebra — ज़ेबरा।",
+        "mr": "Z — Zebra, म्हणजे झेब्रा.",
+        "or": "Z — Zebra, ମାନେ ଜେବ୍ରା।"
+      },
+      "audio": "eng-nur-letters-u-z-s26.mp3"
+    },
+    {
+      "show": [
+        "letterZ",
+        "zebra",
+        "zebu"
+      ],
+      "highlight": "zebu",
+      "partner": "letterZ",
+      "duration": 8000,
+      "script": {
+        "en": "Z for Zebu.",
+        "hi": "Z से Zebu — बैल।",
+        "mr": "Z — Zebu, म्हणजे बैल.",
+        "or": "Z — Zebu, ମାନେ ବଳଦ।"
+      },
+      "audio": "eng-nur-letters-u-z-s27.mp3"
+    },
+    {
+      "show": [
+        "letterZ",
+        "zebra",
+        "zebu"
+      ],
+      "highlight": "letterZ",
+      "duration": 7000,
+      "script": {
+        "en": "Z. Zebra, Zebu.",
+        "hi": "Z। ज़ेबरा, बैल।",
+        "mr": "Z. झेब्रा, बैल.",
+        "or": "Z। ଜେବ୍ରା, ବଳଦ।"
+      },
+      "audio": "eng-nur-letters-u-z-s28.mp3"
+    }
+  ]
+}

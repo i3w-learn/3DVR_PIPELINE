@@ -1,0 +1,710 @@
+{
+  "id": "eng-nur-letters-k-o",
+  "template": "match",
+  "stage": "beach",
+  "notes": "Letters K to O on the letter beach. One big letter drops out of the sky; the real things for it arrive on the sand the way they would in life. One sitting of the alphabet; the old tabletop alphabet did all 26 in one go.",
+  "budget": {
+    "triangles": 285000,
+    "drawCalls": 120,
+    "why": "Every thing for five or six letters is placed, but a step shows one letter and at most its three things; the checker counts them all at once. The beach itself is heavier than the other lands on purpose: modelled palms instead of cut-outs, because the cut-outs read as stickers in the headset."
+  },
+  "objects": [
+    {
+      "id": "letterK",
+      "build": "letter3d",
+      "params": {
+        "char": "K",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "kangaroo",
+      "model": "realkangaroo",
+      "position": "-1.6 0 -5.6",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Kangaroo",
+        "hi": "कंगारू",
+        "mr": "कांगारू",
+        "or": "କାଙ୍ଗାରୁ"
+      },
+      "clip": "Animation",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 8,
+        "duration": 4.5
+      },
+      "ring": 0.9
+    },
+    {
+      "id": "kite",
+      "model": "realkite",
+      "position": "2.8 2.6 -5.2",
+      "scale": "1.4 1.4 1.4",
+      "name": {
+        "en": "Kite",
+        "hi": "पतंग",
+        "mr": "पतंग",
+        "or": "ଗୁଡ଼ି"
+      },
+      "arrive": {
+        "how": "fly",
+        "side": 1,
+        "from": 12,
+        "duration": 4.5
+      },
+      "ring": 0.7,
+      "castShadow": false
+    },
+    {
+      "id": "letterL",
+      "build": "letter3d",
+      "params": {
+        "char": "L",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "lion",
+      "model": "reallion",
+      "position": "0.6 0 -5.6",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Lion",
+        "hi": "शेर",
+        "mr": "सिंह",
+        "or": "ସିଂହ"
+      },
+      "clip": "Unreal Take",
+      "sound": "bigroar.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 9,
+        "duration": 5
+      },
+      "ring": 1.1
+    },
+    {
+      "id": "lotus",
+      "model": "reallotus",
+      "position": "2.6 0 -3.4",
+      "scale": "3 3 3",
+      "name": {
+        "en": "Lotus",
+        "hi": "कमल",
+        "mr": "कमळ",
+        "or": "ପଦ୍ମ"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.35,
+      "castShadow": false
+    },
+    {
+      "id": "lemon",
+      "model": "reallemon",
+      "position": "-2.5 0 -3.9",
+      "scale": "6 6 6",
+      "name": {
+        "en": "Lemon",
+        "hi": "नींबू",
+        "mr": "लिंबू",
+        "or": "ଲେମ୍ବୁ"
+      },
+      "arrive": {
+        "how": "fall",
+        "from": 4.2
+      },
+      "ring": 0.3,
+      "castShadow": false
+    },
+    {
+      "id": "letterM",
+      "build": "letter3d",
+      "params": {
+        "char": "M",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "monkey",
+      "model": "realmonkey",
+      "position": "-2.2 0 -4.6",
+      "scale": "1.2 1.2 1.2",
+      "name": {
+        "en": "Monkey",
+        "hi": "बंदर",
+        "mr": "माकड",
+        "or": "ମାଙ୍କଡ଼"
+      },
+      "arrive": {
+        "how": "fall",
+        "from": 4.5,
+        "duration": 1
+      },
+      "ring": 0.5
+    },
+    {
+      "id": "mango",
+      "model": "realmango",
+      "position": "2.6 0 -3.4",
+      "scale": "6 6 6",
+      "name": {
+        "en": "Mango",
+        "hi": "आम",
+        "mr": "आंबा",
+        "or": "ଆମ୍ବ"
+      },
+      "arrive": {
+        "how": "fall",
+        "from": 4.2
+      },
+      "ring": 0.3,
+      "castShadow": false
+    },
+    {
+      "id": "letterN",
+      "build": "letter3d",
+      "params": {
+        "char": "N",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "nest",
+      "model": "realnest",
+      "position": "-2.5 0 -3.9",
+      "scale": "3 3 3",
+      "name": {
+        "en": "Nest",
+        "hi": "घोंसला",
+        "mr": "घरटं",
+        "or": "ବସା"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.4,
+      "castShadow": false
+    },
+    {
+      "id": "nurse",
+      "model": "realdoctor",
+      "position": "1.2 0 -5",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Nurse",
+        "hi": "नर्स",
+        "mr": "परिचारिका",
+        "or": "ନର୍ସ"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.6
+    },
+    {
+      "id": "letterO",
+      "build": "letter3d",
+      "params": {
+        "char": "O",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "orange",
+      "model": "realorange",
+      "position": "-2.5 0 -3.9",
+      "scale": "7 7 7",
+      "name": {
+        "en": "Orange",
+        "hi": "संतरा",
+        "mr": "संत्रं",
+        "or": "କମଳା"
+      },
+      "arrive": {
+        "how": "fall",
+        "from": 4.2
+      },
+      "ring": 0.3,
+      "castShadow": false
+    },
+    {
+      "id": "owl",
+      "model": "realowl",
+      "position": "0.6 0 -4.6",
+      "scale": "2 2 2",
+      "name": {
+        "en": "Owl",
+        "hi": "उल्लू",
+        "mr": "घुबड",
+        "or": "ପେଚା"
+      },
+      "sound": "owl.mp3",
+      "arrive": {
+        "how": "fly",
+        "side": 1,
+        "from": 9,
+        "duration": 3.5
+      },
+      "ring": 0.5,
+      "castShadow": false
+    },
+    {
+      "id": "onion",
+      "model": "realonion",
+      "position": "2.6 0 -3.4",
+      "scale": "6 6 6",
+      "name": {
+        "en": "Onion",
+        "hi": "प्याज़",
+        "mr": "कांदा",
+        "or": "ପିଆଜ"
+      },
+      "arrive": {
+        "how": "fall",
+        "from": 4.2
+      },
+      "ring": 0.3,
+      "castShadow": false
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "letterK"
+      ],
+      "highlight": "letterK",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital K.",
+        "hi": "यह बड़ा K है।",
+        "mr": "हे मोठं K आहे.",
+        "or": "ଏହା ବଡ଼ K।"
+      },
+      "audio": "eng-nur-letters-k-o-s01.mp3"
+    },
+    {
+      "show": [
+        "letterK"
+      ],
+      "highlight": "letterK",
+      "duration": 5500,
+      "script": {
+        "en": "K says “kuh”. Say it with me.",
+        "hi": "K की ध्वनि — kuh।",
+        "mr": "K चा आवाज — kuh. माझ्यासोबत म्हणा.",
+        "or": "K ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-k-o-s02.mp3"
+    },
+    {
+      "show": [
+        "letterK",
+        "kangaroo"
+      ],
+      "highlight": "kangaroo",
+      "partner": "letterK",
+      "duration": 7500,
+      "script": {
+        "en": "K for Kangaroo.",
+        "hi": "K से Kangaroo — कंगारू।",
+        "mr": "K — Kangaroo, म्हणजे कांगारू.",
+        "or": "K — Kangaroo, ମାନେ କାଙ୍ଗାରୁ।"
+      },
+      "audio": "eng-nur-letters-k-o-s03.mp3"
+    },
+    {
+      "show": [
+        "letterK",
+        "kangaroo",
+        "kite"
+      ],
+      "highlight": "kite",
+      "partner": "letterK",
+      "duration": 7500,
+      "script": {
+        "en": "K for Kite.",
+        "hi": "K से Kite — पतंग।",
+        "mr": "K — Kite, म्हणजे पतंग.",
+        "or": "K — Kite, ମାନେ ଗୁଡ଼ି।"
+      },
+      "audio": "eng-nur-letters-k-o-s04.mp3"
+    },
+    {
+      "show": [
+        "letterK",
+        "kangaroo",
+        "kite"
+      ],
+      "highlight": "letterK",
+      "duration": 7000,
+      "script": {
+        "en": "K. Kangaroo, Kite.",
+        "hi": "K। कंगारू, पतंग।",
+        "mr": "K. कांगारू, पतंग.",
+        "or": "K। କାଙ୍ଗାରୁ, ଗୁଡ଼ି।"
+      },
+      "audio": "eng-nur-letters-k-o-s05.mp3"
+    },
+    {
+      "show": [
+        "letterL"
+      ],
+      "highlight": "letterL",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital L.",
+        "hi": "यह बड़ा L है।",
+        "mr": "हे मोठं L आहे.",
+        "or": "ଏହା ବଡ଼ L।"
+      },
+      "audio": "eng-nur-letters-k-o-s06.mp3"
+    },
+    {
+      "show": [
+        "letterL"
+      ],
+      "highlight": "letterL",
+      "duration": 5500,
+      "script": {
+        "en": "L says “luh”. Say it with me.",
+        "hi": "L की ध्वनि — luh।",
+        "mr": "L चा आवाज — luh. माझ्यासोबत म्हणा.",
+        "or": "L ର ଧ୍ୱନି — luh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-k-o-s07.mp3"
+    },
+    {
+      "show": [
+        "letterL",
+        "lion"
+      ],
+      "highlight": "lion",
+      "partner": "letterL",
+      "duration": 8000,
+      "script": {
+        "en": "L for Lion.",
+        "hi": "L से Lion — शेर।",
+        "mr": "L — Lion, म्हणजे सिंह.",
+        "or": "L — Lion, ମାନେ ସିଂହ।"
+      },
+      "audio": "eng-nur-letters-k-o-s08.mp3"
+    },
+    {
+      "show": [
+        "letterL",
+        "lion",
+        "lotus"
+      ],
+      "highlight": "lotus",
+      "partner": "letterL",
+      "duration": 6000,
+      "script": {
+        "en": "L for Lotus.",
+        "hi": "L से Lotus — कमल।",
+        "mr": "L — Lotus, म्हणजे कमळ.",
+        "or": "L — Lotus, ମାନେ ପଦ୍ମ।"
+      },
+      "audio": "eng-nur-letters-k-o-s09.mp3"
+    },
+    {
+      "show": [
+        "letterL",
+        "lion",
+        "lotus",
+        "lemon"
+      ],
+      "highlight": "lemon",
+      "partner": "letterL",
+      "duration": 6000,
+      "script": {
+        "en": "L for Lemon.",
+        "hi": "L से Lemon — नींबू।",
+        "mr": "L — Lemon, म्हणजे लिंबू.",
+        "or": "L — Lemon, ମାନେ ଲେମ୍ବୁ।"
+      },
+      "audio": "eng-nur-letters-k-o-s10.mp3"
+    },
+    {
+      "show": [
+        "letterL",
+        "lion",
+        "lotus",
+        "lemon"
+      ],
+      "highlight": "letterL",
+      "duration": 7000,
+      "script": {
+        "en": "L. Lion, Lotus, Lemon.",
+        "hi": "L। शेर, कमल, नींबू।",
+        "mr": "L. सिंह, कमळ, लिंबू.",
+        "or": "L। ସିଂହ, ପଦ୍ମ, ଲେମ୍ବୁ।"
+      },
+      "audio": "eng-nur-letters-k-o-s11.mp3"
+    },
+    {
+      "show": [
+        "letterM"
+      ],
+      "highlight": "letterM",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital M.",
+        "hi": "यह बड़ा M है।",
+        "mr": "हे मोठं M आहे.",
+        "or": "ଏହା ବଡ଼ M।"
+      },
+      "audio": "eng-nur-letters-k-o-s12.mp3"
+    },
+    {
+      "show": [
+        "letterM"
+      ],
+      "highlight": "letterM",
+      "duration": 5500,
+      "script": {
+        "en": "M says “muh”. Say it with me.",
+        "hi": "M की ध्वनि — muh।",
+        "mr": "M चा आवाज — muh. माझ्यासोबत म्हणा.",
+        "or": "M ର ଧ୍ୱନି — muh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-k-o-s13.mp3"
+    },
+    {
+      "show": [
+        "letterM",
+        "monkey"
+      ],
+      "highlight": "monkey",
+      "partner": "letterM",
+      "duration": 6000,
+      "script": {
+        "en": "M for Monkey.",
+        "hi": "M से Monkey — बंदर।",
+        "mr": "M — Monkey, म्हणजे माकड.",
+        "or": "M — Monkey, ମାନେ ମାଙ୍କଡ଼।"
+      },
+      "audio": "eng-nur-letters-k-o-s14.mp3"
+    },
+    {
+      "show": [
+        "letterM",
+        "monkey",
+        "mango"
+      ],
+      "highlight": "mango",
+      "partner": "letterM",
+      "duration": 6000,
+      "script": {
+        "en": "M for Mango.",
+        "hi": "M से Mango — आम।",
+        "mr": "M — Mango, म्हणजे आंबा.",
+        "or": "M — Mango, ମାନେ ଆମ୍ବ।"
+      },
+      "audio": "eng-nur-letters-k-o-s15.mp3"
+    },
+    {
+      "show": [
+        "letterM",
+        "monkey",
+        "mango"
+      ],
+      "highlight": "letterM",
+      "duration": 7000,
+      "script": {
+        "en": "M. Monkey, Mango.",
+        "hi": "M। बंदर, आम।",
+        "mr": "M. माकड, आंबा.",
+        "or": "M। ମାଙ୍କଡ଼, ଆମ୍ବ।"
+      },
+      "audio": "eng-nur-letters-k-o-s16.mp3"
+    },
+    {
+      "show": [
+        "letterN"
+      ],
+      "highlight": "letterN",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital N.",
+        "hi": "यह बड़ा N है।",
+        "mr": "हे मोठं N आहे.",
+        "or": "ଏହା ବଡ଼ N।"
+      },
+      "audio": "eng-nur-letters-k-o-s17.mp3"
+    },
+    {
+      "show": [
+        "letterN"
+      ],
+      "highlight": "letterN",
+      "duration": 5500,
+      "script": {
+        "en": "N says “nuh”. Say it with me.",
+        "hi": "N की ध्वनि — nuh।",
+        "mr": "N चा आवाज — nuh. माझ्यासोबत म्हणा.",
+        "or": "N ର ଧ୍ୱନି — nuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-k-o-s18.mp3"
+    },
+    {
+      "show": [
+        "letterN",
+        "nest"
+      ],
+      "highlight": "nest",
+      "partner": "letterN",
+      "duration": 6000,
+      "script": {
+        "en": "N for Nest.",
+        "hi": "N से Nest — घोंसला।",
+        "mr": "N — Nest, म्हणजे घरटं.",
+        "or": "N — Nest, ମାନେ ବସା।"
+      },
+      "audio": "eng-nur-letters-k-o-s19.mp3"
+    },
+    {
+      "show": [
+        "letterN",
+        "nest",
+        "nurse"
+      ],
+      "highlight": "nurse",
+      "partner": "letterN",
+      "duration": 6000,
+      "script": {
+        "en": "N for Nurse.",
+        "hi": "N से Nurse — नर्स।",
+        "mr": "N — Nurse, म्हणजे परिचारिका.",
+        "or": "N — Nurse, ମାନେ ନର୍ସ।"
+      },
+      "audio": "eng-nur-letters-k-o-s20.mp3"
+    },
+    {
+      "show": [
+        "letterN",
+        "nest",
+        "nurse"
+      ],
+      "highlight": "letterN",
+      "duration": 7000,
+      "script": {
+        "en": "N. Nest, Nurse.",
+        "hi": "N। घोंसला, नर्स।",
+        "mr": "N. घरटं, परिचारिका.",
+        "or": "N। ବସା, ନର୍ସ।"
+      },
+      "audio": "eng-nur-letters-k-o-s21.mp3"
+    },
+    {
+      "show": [
+        "letterO"
+      ],
+      "highlight": "letterO",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital O.",
+        "hi": "यह बड़ा O है।",
+        "mr": "हे मोठं O आहे.",
+        "or": "ଏହା ବଡ଼ O।"
+      },
+      "audio": "eng-nur-letters-k-o-s22.mp3"
+    },
+    {
+      "show": [
+        "letterO"
+      ],
+      "highlight": "letterO",
+      "duration": 5500,
+      "script": {
+        "en": "O says “oh”. Say it with me.",
+        "hi": "O की ध्वनि — oh।",
+        "mr": "O चा आवाज — oh. माझ्यासोबत म्हणा.",
+        "or": "O ର ଧ୍ୱନି — oh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-k-o-s23.mp3"
+    },
+    {
+      "show": [
+        "letterO",
+        "orange"
+      ],
+      "highlight": "orange",
+      "partner": "letterO",
+      "duration": 6000,
+      "script": {
+        "en": "O for Orange.",
+        "hi": "O से Orange — संतरा।",
+        "mr": "O — Orange, म्हणजे संत्रं.",
+        "or": "O — Orange, ମାନେ କମଳା।"
+      },
+      "audio": "eng-nur-letters-k-o-s24.mp3"
+    },
+    {
+      "show": [
+        "letterO",
+        "orange",
+        "owl"
+      ],
+      "highlight": "owl",
+      "partner": "letterO",
+      "duration": 6500,
+      "script": {
+        "en": "O for Owl.",
+        "hi": "O से Owl — उल्लू।",
+        "mr": "O — Owl, म्हणजे घुबड.",
+        "or": "O — Owl, ମାନେ ପେଚା।"
+      },
+      "audio": "eng-nur-letters-k-o-s25.mp3"
+    },
+    {
+      "show": [
+        "letterO",
+        "orange",
+        "owl",
+        "onion"
+      ],
+      "highlight": "onion",
+      "partner": "letterO",
+      "duration": 6000,
+      "script": {
+        "en": "O for Onion.",
+        "hi": "O से Onion — प्याज़।",
+        "mr": "O — Onion, म्हणजे कांदा.",
+        "or": "O — Onion, ମାନେ ପିଆଜ।"
+      },
+      "audio": "eng-nur-letters-k-o-s26.mp3"
+    },
+    {
+      "show": [
+        "letterO",
+        "orange",
+        "owl",
+        "onion"
+      ],
+      "highlight": "letterO",
+      "duration": 7000,
+      "script": {
+        "en": "O. Orange, Owl, Onion.",
+        "hi": "O। संतरा, उल्लू, प्याज़।",
+        "mr": "O. संत्रं, घुबड, कांदा.",
+        "or": "O। କମଳା, ପେଚା, ପିଆଜ।"
+      },
+      "audio": "eng-nur-letters-k-o-s27.mp3"
+    }
+  ]
+}

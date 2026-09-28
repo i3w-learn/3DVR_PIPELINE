@@ -18,6 +18,7 @@ import './building.js';
 import './cloth.js';
 import './counter.js';
 import './door.js';
+import './dunes.js';
 import './festival.js';
 import './flagpole.js';
 import './furniture.js';

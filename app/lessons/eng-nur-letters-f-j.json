@@ -1,0 +1,767 @@
+{
+  "id": "eng-nur-letters-f-j",
+  "template": "match",
+  "stage": "beach",
+  "notes": "Letters F to J on the letter beach. One big letter drops out of the sky; the real things for it arrive on the sand the way they would in life. One sitting of the alphabet; the old tabletop alphabet did all 26 in one go.",
+  "budget": {
+    "triangles": 285000,
+    "drawCalls": 120,
+    "why": "Every thing for five or six letters is placed, but a step shows one letter and at most its three things; the checker counts them all at once. The beach itself is heavier than the other lands on purpose: modelled palms instead of cut-outs, because the cut-outs read as stickers in the headset."
+  },
+  "objects": [
+    {
+      "id": "letterF",
+      "build": "letter3d",
+      "params": {
+        "char": "F",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "fox",
+      "model": "realfox",
+      "position": "-2.5 0 -3.9",
+      "scale": "1.4 1.4 1.4",
+      "name": {
+        "en": "Fox",
+        "hi": "लोमड़ी",
+        "mr": "कोल्हा",
+        "or": "କୋକିଶିଆଳି"
+      },
+      "clip": "Loco_Walk",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 8,
+        "duration": 4.5,
+        "idle": "A3_Stand_Idle_01"
+      },
+      "ring": 0.6
+    },
+    {
+      "id": "fish",
+      "model": "realclownfish",
+      "position": "0.4 0.1 -13.8",
+      "scale": "4 4 4",
+      "name": {
+        "en": "Fish",
+        "hi": "मछली",
+        "mr": "मासा",
+        "or": "ମାଛ"
+      },
+      "clip": "swim cycle",
+      "arrive": {
+        "how": "leap",
+        "from": 0.9,
+        "duration": 1.4,
+        "again": 3
+      },
+      "ring": 0.5,
+      "castShadow": false
+    },
+    {
+      "id": "fireengine",
+      "model": "realfiretruck",
+      "position": "3.6 0 -7.2",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Fire engine",
+        "hi": "दमकल",
+        "mr": "अग्निशामक गाडी",
+        "or": "ଦମକଳ ଗାଡ଼ି"
+      },
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 12,
+        "duration": 4.5
+      },
+      "ring": 1.8
+    },
+    {
+      "id": "letterG",
+      "build": "letter3d",
+      "params": {
+        "char": "G",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "goat",
+      "model": "realgoat",
+      "position": "2.6 0 -3.4",
+      "scale": "1.2 1.2 1.2",
+      "name": {
+        "en": "Goat",
+        "hi": "बकरी",
+        "mr": "बकरी",
+        "or": "ଛେଳି"
+      },
+      "clip": "Armature|walk",
+      "sound": "goat.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 7,
+        "duration": 4.5,
+        "idle": "Armature|idle"
+      },
+      "ring": 0.6
+    },
+    {
+      "id": "giraffe",
+      "model": "realgiraffe",
+      "position": "-1.5 0 -8.8",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Giraffe",
+        "hi": "जिराफ़",
+        "mr": "जिराफ",
+        "or": "ଜିରାଫ୍"
+      },
+      "clip": "Take 01",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 11,
+        "duration": 6
+      },
+      "ring": 1.4
+    },
+    {
+      "id": "grasshopper",
+      "model": "realgrasshopper",
+      "position": "-2.6 0 -3.2",
+      "scale": "8 8 8",
+      "name": {
+        "en": "Grasshopper",
+        "hi": "टिड्डा",
+        "mr": "टोळ",
+        "or": "ଝିଙ୍କ"
+      },
+      "clip": "Take 001",
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.35,
+      "castShadow": false
+    },
+    {
+      "id": "letterH",
+      "build": "letter3d",
+      "params": {
+        "char": "H",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "hen",
+      "model": "realhen",
+      "position": "-2.5 0 -3.9",
+      "scale": "1.6 1.6 1.6",
+      "name": {
+        "en": "Hen",
+        "hi": "मुर्गी",
+        "mr": "कोंबडी",
+        "or": "କୁକୁଡ଼ା"
+      },
+      "clip": "walk01",
+      "sound": "hen.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 6,
+        "duration": 4.5,
+        "idle": "peck_idle2"
+      },
+      "ring": 0.45,
+      "castShadow": false
+    },
+    {
+      "id": "horse",
+      "model": "realhorse",
+      "position": "0.6 0 -5.6",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Horse",
+        "hi": "घोड़ा",
+        "mr": "घोडा",
+        "or": "ଘୋଡ଼ା"
+      },
+      "clip": "Skeleton|Walk",
+      "sound": "horse.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 9,
+        "duration": 5,
+        "idle": "Skeleton|1 Ilde"
+      },
+      "ring": 1.2
+    },
+    {
+      "id": "helicopter",
+      "model": "realhelicopter",
+      "position": "5.6 4.8 -10.5",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Helicopter",
+        "hi": "हेलीकॉप्टर",
+        "mr": "हेलिकॉप्टर",
+        "or": "ହେଲିକପ୍ଟର"
+      },
+      "arrive": {
+        "how": "fly",
+        "side": 1,
+        "from": 16,
+        "duration": 5
+      },
+      "ring": 2
+    },
+    {
+      "id": "letterI",
+      "build": "letter3d",
+      "params": {
+        "char": "I",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "igloo",
+      "model": "realigloo",
+      "position": "-1.5 0 -8.8",
+      "scale": "0.9 0.9 0.9",
+      "name": {
+        "en": "Igloo",
+        "hi": "इग्लू",
+        "mr": "इग्लू",
+        "or": "ଇଗ୍ଲୁ"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 1.2
+    },
+    {
+      "id": "icecream",
+      "model": "realicecream",
+      "position": "2.6 0 -3.4",
+      "scale": "3 3 3",
+      "name": {
+        "en": "Ice cream",
+        "hi": "आइसक्रीम",
+        "mr": "आइस्क्रीम",
+        "or": "ଆଇସକ୍ରିମ"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.35,
+      "castShadow": false
+    },
+    {
+      "id": "insect",
+      "model": "realbee",
+      "position": "-2.4 1.0 -3.4",
+      "scale": "6 6 6",
+      "name": {
+        "en": "Insect",
+        "hi": "कीड़ा",
+        "mr": "किडा",
+        "or": "ପୋକ"
+      },
+      "clip": "Fly",
+      "sound": "bee.mp3",
+      "arrive": {
+        "how": "fly",
+        "side": -1,
+        "from": 8,
+        "duration": 3.5
+      },
+      "ring": 0.3,
+      "castShadow": false
+    },
+    {
+      "id": "letterJ",
+      "build": "letter3d",
+      "params": {
+        "char": "J",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "jeep",
+      "model": "realjeep",
+      "position": "0.8 0 -6.8",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Jeep",
+        "hi": "जीप",
+        "mr": "जीप",
+        "or": "ଜିପ୍"
+      },
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 11,
+        "duration": 4.5
+      },
+      "ring": 1.3
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "letterF"
+      ],
+      "highlight": "letterF",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital F.",
+        "hi": "यह बड़ा F है।",
+        "mr": "हे मोठं F आहे.",
+        "or": "ଏହା ବଡ଼ F।"
+      },
+      "audio": "eng-nur-letters-f-j-s01.mp3"
+    },
+    {
+      "show": [
+        "letterF"
+      ],
+      "highlight": "letterF",
+      "duration": 5500,
+      "script": {
+        "en": "F says “fuh”. Say it with me.",
+        "hi": "F की ध्वनि — fuh।",
+        "mr": "F चा आवाज — fuh. माझ्यासोबत म्हणा.",
+        "or": "F ର ଧ୍ୱନି — fuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-f-j-s02.mp3"
+    },
+    {
+      "show": [
+        "letterF",
+        "fox"
+      ],
+      "highlight": "fox",
+      "partner": "letterF",
+      "duration": 7500,
+      "script": {
+        "en": "F for Fox.",
+        "hi": "F से Fox — लोमड़ी।",
+        "mr": "F — Fox, म्हणजे कोल्हा.",
+        "or": "F — Fox, ମାନେ କୋକିଶିଆଳି।"
+      },
+      "audio": "eng-nur-letters-f-j-s03.mp3"
+    },
+    {
+      "show": [
+        "letterF",
+        "fox",
+        "fish"
+      ],
+      "highlight": "fish",
+      "partner": "letterF",
+      "duration": 6000,
+      "script": {
+        "en": "F for Fish.",
+        "hi": "F से Fish — मछली।",
+        "mr": "F — Fish, म्हणजे मासा.",
+        "or": "F — Fish, ମାନେ ମାଛ।"
+      },
+      "audio": "eng-nur-letters-f-j-s04.mp3"
+    },
+    {
+      "show": [
+        "letterF",
+        "fox",
+        "fish",
+        "fireengine"
+      ],
+      "highlight": "fireengine",
+      "partner": "letterF",
+      "duration": 7500,
+      "script": {
+        "en": "F for Fire engine.",
+        "hi": "F से Fire engine — दमकल।",
+        "mr": "F — Fire engine, म्हणजे अग्निशामक गाडी.",
+        "or": "F — Fire engine, ମାନେ ଦମକଳ ଗାଡ଼ି।"
+      },
+      "audio": "eng-nur-letters-f-j-s05.mp3"
+    },
+    {
+      "show": [
+        "letterF",
+        "fox",
+        "fish",
+        "fireengine"
+      ],
+      "highlight": "letterF",
+      "duration": 7000,
+      "script": {
+        "en": "F. Fox, Fish, Fire engine.",
+        "hi": "F। लोमड़ी, मछली, दमकल।",
+        "mr": "F. कोल्हा, मासा, अग्निशामक गाडी.",
+        "or": "F। କୋକିଶିଆଳି, ମାଛ, ଦମକଳ ଗାଡ଼ି।"
+      },
+      "audio": "eng-nur-letters-f-j-s06.mp3"
+    },
+    {
+      "show": [
+        "letterG"
+      ],
+      "highlight": "letterG",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital G.",
+        "hi": "यह बड़ा G है।",
+        "mr": "हे मोठं G आहे.",
+        "or": "ଏହା ବଡ଼ G।"
+      },
+      "audio": "eng-nur-letters-f-j-s07.mp3"
+    },
+    {
+      "show": [
+        "letterG"
+      ],
+      "highlight": "letterG",
+      "duration": 5500,
+      "script": {
+        "en": "G says “guh”. Say it with me.",
+        "hi": "G की ध्वनि — guh।",
+        "mr": "G चा आवाज — guh. माझ्यासोबत म्हणा.",
+        "or": "G ର ଧ୍ୱନି — guh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-f-j-s08.mp3"
+    },
+    {
+      "show": [
+        "letterG",
+        "goat"
+      ],
+      "highlight": "goat",
+      "partner": "letterG",
+      "duration": 7500,
+      "script": {
+        "en": "G for Goat.",
+        "hi": "G से Goat — बकरी।",
+        "mr": "G — Goat, म्हणजे बकरी.",
+        "or": "G — Goat, ମାନେ ଛେଳି।"
+      },
+      "audio": "eng-nur-letters-f-j-s09.mp3"
+    },
+    {
+      "show": [
+        "letterG",
+        "goat",
+        "giraffe"
+      ],
+      "highlight": "giraffe",
+      "partner": "letterG",
+      "duration": 9000,
+      "script": {
+        "en": "G for Giraffe.",
+        "hi": "G से Giraffe — जिराफ़।",
+        "mr": "G — Giraffe, म्हणजे जिराफ.",
+        "or": "G — Giraffe, ମାନେ ଜିରାଫ୍।"
+      },
+      "audio": "eng-nur-letters-f-j-s10.mp3"
+    },
+    {
+      "show": [
+        "letterG",
+        "goat",
+        "giraffe",
+        "grasshopper"
+      ],
+      "highlight": "grasshopper",
+      "partner": "letterG",
+      "duration": 6000,
+      "script": {
+        "en": "G for Grasshopper.",
+        "hi": "G से Grasshopper — टिड्डा।",
+        "mr": "G — Grasshopper, म्हणजे टोळ.",
+        "or": "G — Grasshopper, ମାନେ ଝିଙ୍କ।"
+      },
+      "audio": "eng-nur-letters-f-j-s11.mp3"
+    },
+    {
+      "show": [
+        "letterG",
+        "goat",
+        "giraffe",
+        "grasshopper"
+      ],
+      "highlight": "letterG",
+      "duration": 7000,
+      "script": {
+        "en": "G. Goat, Giraffe, Grasshopper.",
+        "hi": "G। बकरी, जिराफ़, टिड्डा।",
+        "mr": "G. बकरी, जिराफ, टोळ.",
+        "or": "G। ଛେଳି, ଜିରାଫ୍, ଝିଙ୍କ।"
+      },
+      "audio": "eng-nur-letters-f-j-s12.mp3"
+    },
+    {
+      "show": [
+        "letterH"
+      ],
+      "highlight": "letterH",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital H.",
+        "hi": "यह बड़ा H है।",
+        "mr": "हे मोठं H आहे.",
+        "or": "ଏହା ବଡ଼ H।"
+      },
+      "audio": "eng-nur-letters-f-j-s13.mp3"
+    },
+    {
+      "show": [
+        "letterH"
+      ],
+      "highlight": "letterH",
+      "duration": 5500,
+      "script": {
+        "en": "H says “huh”. Say it with me.",
+        "hi": "H की ध्वनि — huh।",
+        "mr": "H चा आवाज — huh. माझ्यासोबत म्हणा.",
+        "or": "H ର ଧ୍ୱନି — huh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-f-j-s14.mp3"
+    },
+    {
+      "show": [
+        "letterH",
+        "hen"
+      ],
+      "highlight": "hen",
+      "partner": "letterH",
+      "duration": 7500,
+      "script": {
+        "en": "H for Hen.",
+        "hi": "H से Hen — मुर्गी।",
+        "mr": "H — Hen, म्हणजे कोंबडी.",
+        "or": "H — Hen, ମାନେ କୁକୁଡ଼ା।"
+      },
+      "audio": "eng-nur-letters-f-j-s15.mp3"
+    },
+    {
+      "show": [
+        "letterH",
+        "hen",
+        "horse"
+      ],
+      "highlight": "horse",
+      "partner": "letterH",
+      "duration": 8000,
+      "script": {
+        "en": "H for Horse.",
+        "hi": "H से Horse — घोड़ा।",
+        "mr": "H — Horse, म्हणजे घोडा.",
+        "or": "H — Horse, ମାନେ ଘୋଡ଼ା।"
+      },
+      "audio": "eng-nur-letters-f-j-s16.mp3"
+    },
+    {
+      "show": [
+        "letterH",
+        "hen",
+        "horse",
+        "helicopter"
+      ],
+      "highlight": "helicopter",
+      "partner": "letterH",
+      "duration": 8000,
+      "script": {
+        "en": "H for Helicopter.",
+        "hi": "H से Helicopter — हेलीकॉप्टर।",
+        "mr": "H — Helicopter, म्हणजे हेलिकॉप्टर.",
+        "or": "H — Helicopter, ମାନେ ହେଲିକପ୍ଟର।"
+      },
+      "audio": "eng-nur-letters-f-j-s17.mp3"
+    },
+    {
+      "show": [
+        "letterH",
+        "hen",
+        "horse",
+        "helicopter"
+      ],
+      "highlight": "letterH",
+      "duration": 7000,
+      "script": {
+        "en": "H. Hen, Horse, Helicopter.",
+        "hi": "H। मुर्गी, घोड़ा, हेलीकॉप्टर।",
+        "mr": "H. कोंबडी, घोडा, हेलिकॉप्टर.",
+        "or": "H। କୁକୁଡ଼ା, ଘୋଡ଼ା, ହେଲିକପ୍ଟର।"
+      },
+      "audio": "eng-nur-letters-f-j-s18.mp3"
+    },
+    {
+      "show": [
+        "letterI"
+      ],
+      "highlight": "letterI",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital I.",
+        "hi": "यह बड़ा I है।",
+        "mr": "हे मोठं I आहे.",
+        "or": "ଏହା ବଡ଼ I।"
+      },
+      "audio": "eng-nur-letters-f-j-s19.mp3"
+    },
+    {
+      "show": [
+        "letterI"
+      ],
+      "highlight": "letterI",
+      "duration": 5500,
+      "script": {
+        "en": "I says “ih”. Say it with me.",
+        "hi": "I की ध्वनि — ih।",
+        "mr": "I चा आवाज — ih. माझ्यासोबत म्हणा.",
+        "or": "I ର ଧ୍ୱନି — ih। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-f-j-s20.mp3"
+    },
+    {
+      "show": [
+        "letterI",
+        "igloo"
+      ],
+      "highlight": "igloo",
+      "partner": "letterI",
+      "duration": 6000,
+      "script": {
+        "en": "I for Igloo.",
+        "hi": "I से Igloo — इग्लू।",
+        "mr": "I — Igloo, म्हणजे इग्लू.",
+        "or": "I — Igloo, ମାନେ ଇଗ୍ଲୁ।"
+      },
+      "audio": "eng-nur-letters-f-j-s21.mp3"
+    },
+    {
+      "show": [
+        "letterI",
+        "igloo",
+        "icecream"
+      ],
+      "highlight": "icecream",
+      "partner": "letterI",
+      "duration": 6000,
+      "script": {
+        "en": "I for Ice cream.",
+        "hi": "I से Ice cream — आइसक्रीम।",
+        "mr": "I — Ice cream, म्हणजे आइस्क्रीम.",
+        "or": "I — Ice cream, ମାନେ ଆଇସକ୍ରିମ।"
+      },
+      "audio": "eng-nur-letters-f-j-s22.mp3"
+    },
+    {
+      "show": [
+        "letterI",
+        "igloo",
+        "icecream",
+        "insect"
+      ],
+      "highlight": "insect",
+      "partner": "letterI",
+      "duration": 6500,
+      "script": {
+        "en": "I for Insect.",
+        "hi": "I से Insect — कीड़ा।",
+        "mr": "I — Insect, म्हणजे किडा.",
+        "or": "I — Insect, ମାନେ ପୋକ।"
+      },
+      "audio": "eng-nur-letters-f-j-s23.mp3"
+    },
+    {
+      "show": [
+        "letterI",
+        "igloo",
+        "icecream",
+        "insect"
+      ],
+      "highlight": "letterI",
+      "duration": 7000,
+      "script": {
+        "en": "I. Igloo, Ice cream, Insect.",
+        "hi": "I। इग्लू, आइसक्रीम, कीड़ा।",
+        "mr": "I. इग्लू, आइस्क्रीम, किडा.",
+        "or": "I। ଇଗ୍ଲୁ, ଆଇସକ୍ରିମ, ପୋକ।"
+      },
+      "audio": "eng-nur-letters-f-j-s24.mp3"
+    },
+    {
+      "show": [
+        "letterJ"
+      ],
+      "highlight": "letterJ",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital J.",
+        "hi": "यह बड़ा J है।",
+        "mr": "हे मोठं J आहे.",
+        "or": "ଏହା ବଡ଼ J।"
+      },
+      "audio": "eng-nur-letters-f-j-s25.mp3"
+    },
+    {
+      "show": [
+        "letterJ"
+      ],
+      "highlight": "letterJ",
+      "duration": 5500,
+      "script": {
+        "en": "J says “juh”. Say it with me.",
+        "hi": "J की ध्वनि — juh।",
+        "mr": "J चा आवाज — juh. माझ्यासोबत म्हणा.",
+        "or": "J ର ଧ୍ୱନି — juh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "eng-nur-letters-f-j-s26.mp3"
+    },
+    {
+      "show": [
+        "letterJ",
+        "jeep"
+      ],
+      "highlight": "jeep",
+      "partner": "letterJ",
+      "duration": 7500,
+      "script": {
+        "en": "J for Jeep.",
+        "hi": "J से Jeep — जीप।",
+        "mr": "J — Jeep, म्हणजे जीप.",
+        "or": "J — Jeep, ମାନେ ଜିପ୍।"
+      },
+      "audio": "eng-nur-letters-f-j-s27.mp3"
+    },
+    {
+      "show": [
+        "letterJ",
+        "jeep"
+      ],
+      "highlight": "letterJ",
+      "duration": 7000,
+      "script": {
+        "en": "J. Jeep.",
+        "hi": "J। जीप।",
+        "mr": "J. जीप.",
+        "or": "J। ଜିପ୍।"
+      },
+      "audio": "eng-nur-letters-f-j-s28.mp3"
+    }
+  ]
+}

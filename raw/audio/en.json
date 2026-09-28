@@ -49,156 +49,6 @@
     "spoken": "Our national symbols will stand on these plinths.",
     "provider": "indic"
   },
-  "demo-letters-s01.mp3": {
-    "written": "This is capital A.",
-    "spoken": "This is capital ayy.",
-    "provider": "indic"
-  },
-  "demo-letters-s02.mp3": {
-    "written": "A says “a”. Say it with me.",
-    "spoken": "ayy says a. Say it with me.",
-    "provider": "indic"
-  },
-  "demo-letters-s03.mp3": {
-    "written": "A for Apple.",
-    "spoken": "ayy for Apple.",
-    "provider": "indic"
-  },
-  "demo-letters-s04.mp3": {
-    "written": "A for Ant.",
-    "spoken": "ayy for Ant.",
-    "provider": "indic"
-  },
-  "demo-letters-s05.mp3": {
-    "written": "A for Ambulance.",
-    "spoken": "ayy for Ambulance.",
-    "provider": "indic"
-  },
-  "demo-letters-s06.mp3": {
-    "written": "A. Apple, Ant, Ambulance.",
-    "spoken": "A. Apple, Ant, Ambulance.",
-    "provider": "indic"
-  },
-  "demo-letters-s07.mp3": {
-    "written": "This is capital B.",
-    "spoken": "This is capital bee.",
-    "provider": "indic"
-  },
-  "demo-letters-s08.mp3": {
-    "written": "B says “buh”. Say it with me.",
-    "spoken": "bee says buh. Say it with me.",
-    "provider": "indic"
-  },
-  "demo-letters-s09.mp3": {
-    "written": "B for Banana.",
-    "spoken": "bee for Banana.",
-    "provider": "indic"
-  },
-  "demo-letters-s10.mp3": {
-    "written": "B for Bear.",
-    "spoken": "bee for Bear.",
-    "provider": "indic"
-  },
-  "demo-letters-s11.mp3": {
-    "written": "B for Butterfly.",
-    "spoken": "bee for Butterfly.",
-    "provider": "indic"
-  },
-  "demo-letters-s12.mp3": {
-    "written": "B. Banana, Bear, Butterfly.",
-    "spoken": "bee. Banana, Bear, Butterfly.",
-    "provider": "indic"
-  },
-  "demo-letters-s13.mp3": {
-    "written": "This is capital C.",
-    "spoken": "This is capital see.",
-    "provider": "indic"
-  },
-  "demo-letters-s14.mp3": {
-    "written": "C says “kuh”. Say it with me.",
-    "spoken": "see says kuh. Say it with me.",
-    "provider": "indic"
-  },
-  "demo-letters-s15.mp3": {
-    "written": "C for Cat.",
-    "spoken": "see for Cat.",
-    "provider": "indic"
-  },
-  "demo-letters-s16.mp3": {
-    "written": "C for Crow.",
-    "spoken": "see for Crow.",
-    "provider": "indic"
-  },
-  "demo-letters-s17.mp3": {
-    "written": "C for Crab.",
-    "spoken": "see for Crab.",
-    "provider": "indic"
-  },
-  "demo-letters-s18.mp3": {
-    "written": "C. Cat, Crow, Crab.",
-    "spoken": "see. Cat, Crow, Crab.",
-    "provider": "indic"
-  },
-  "demo-letters-s19.mp3": {
-    "written": "This is capital D.",
-    "spoken": "This is capital dee.",
-    "provider": "indic"
-  },
-  "demo-letters-s20.mp3": {
-    "written": "D says “duh”. Say it with me.",
-    "spoken": "dee says duh. Say it with me.",
-    "provider": "indic"
-  },
-  "demo-letters-s21.mp3": {
-    "written": "D for Dog.",
-    "spoken": "dee for Dog.",
-    "provider": "indic"
-  },
-  "demo-letters-s22.mp3": {
-    "written": "D for Duck.",
-    "spoken": "dee for Duck.",
-    "provider": "indic"
-  },
-  "demo-letters-s23.mp3": {
-    "written": "D for Dolphin.",
-    "spoken": "dee for Dolphin.",
-    "provider": "indic"
-  },
-  "demo-letters-s24.mp3": {
-    "written": "D. Dog, Duck, Dolphin.",
-    "spoken": "dee. Dog, Duck, Dolphin.",
-    "provider": "indic"
-  },
-  "demo-letters-s25.mp3": {
-    "written": "This is capital E.",
-    "spoken": "This is capital ee.",
-    "provider": "indic"
-  },
-  "demo-letters-s26.mp3": {
-    "written": "E says “eh”. Say it with me.",
-    "spoken": "ee says eh. Say it with me.",
-    "provider": "indic"
-  },
-  "demo-letters-s27.mp3": {
-    "written": "E for Elephant.",
-    "spoken": "ee for Elephant.",
-    "provider": "indic"
-  },
-  "demo-letters-s28.mp3": {
-    "written": "E for Eagle.",
-    "spoken": "ee for Eagle.",
-    "provider": "indic"
-  },
-  "demo-letters-s29.mp3": {
-    "written": "E for Egg.",
-    "spoken": "ee for Egg.",
-    "provider": "indic"
-  },
-  "demo-letters-s30.mp3": {
-    "written": "E. Elephant, Eagle, Egg.",
-    "spoken": "ee. Elephant, Eagle, Egg.",
-    "provider": "indic"
-  },
   "demo-peacock-s01.mp3": {
     "written": "Four peacocks. Drawn, Tripo, Meshy, Sketchfab. The last three walk.",
     "spoken": "Four peacocks. Drawn, Tripo, Meshy, Sketchfab. The last three walk.",
@@ -1512,6 +1362,711 @@
   "eng-nur-insects-s08.mp3": {
     "written": "This is a housefly. It sits on dirt, so keep your food covered.",
     "spoken": "This is a housefly. It sits on dirt, so keep your food covered.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s01.mp3": {
+    "written": "This is capital A.",
+    "spoken": "This is capital ayy.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s02.mp3": {
+    "written": "A says “a”. Say it with me.",
+    "spoken": "ayy says a. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s03.mp3": {
+    "written": "A for Apple.",
+    "spoken": "ayy for Apple.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s04.mp3": {
+    "written": "A for Ant.",
+    "spoken": "ayy for Ant.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s05.mp3": {
+    "written": "A for Ambulance.",
+    "spoken": "ayy for Ambulance.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s06.mp3": {
+    "written": "A. Apple, Ant, Ambulance.",
+    "spoken": "A. Apple, Ant, Ambulance.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s07.mp3": {
+    "written": "This is capital B.",
+    "spoken": "This is capital bee.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s08.mp3": {
+    "written": "B says “buh”. Say it with me.",
+    "spoken": "bee says buh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s09.mp3": {
+    "written": "B for Banana.",
+    "spoken": "bee for Banana.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s10.mp3": {
+    "written": "B for Bear.",
+    "spoken": "bee for Bear.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s11.mp3": {
+    "written": "B for Butterfly.",
+    "spoken": "bee for Butterfly.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s12.mp3": {
+    "written": "B. Banana, Bear, Butterfly.",
+    "spoken": "bee. Banana, Bear, Butterfly.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s13.mp3": {
+    "written": "This is capital C.",
+    "spoken": "This is capital see.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s14.mp3": {
+    "written": "C says “kuh”. Say it with me.",
+    "spoken": "see says kuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s15.mp3": {
+    "written": "C for Cat.",
+    "spoken": "see for Cat.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s16.mp3": {
+    "written": "C for Crow.",
+    "spoken": "see for Crow.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s17.mp3": {
+    "written": "C for Crab.",
+    "spoken": "see for Crab.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s18.mp3": {
+    "written": "C. Cat, Crow, Crab.",
+    "spoken": "see. Cat, Crow, Crab.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s19.mp3": {
+    "written": "This is capital D.",
+    "spoken": "This is capital dee.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s20.mp3": {
+    "written": "D says “duh”. Say it with me.",
+    "spoken": "dee says duh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s21.mp3": {
+    "written": "D for Dog.",
+    "spoken": "dee for Dog.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s22.mp3": {
+    "written": "D for Duck.",
+    "spoken": "dee for Duck.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s23.mp3": {
+    "written": "D for Dolphin.",
+    "spoken": "dee for Dolphin.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s24.mp3": {
+    "written": "D. Dog, Duck, Dolphin.",
+    "spoken": "dee. Dog, Duck, Dolphin.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s25.mp3": {
+    "written": "This is capital E.",
+    "spoken": "This is capital ee.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s26.mp3": {
+    "written": "E says “eh”. Say it with me.",
+    "spoken": "ee says eh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s27.mp3": {
+    "written": "E for Elephant.",
+    "spoken": "ee for Elephant.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s28.mp3": {
+    "written": "E for Eagle.",
+    "spoken": "ee for Eagle.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s29.mp3": {
+    "written": "E for Egg.",
+    "spoken": "ee for Egg.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s30.mp3": {
+    "written": "E. Elephant, Eagle, Egg.",
+    "spoken": "ee. Elephant, Eagle, Egg.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s01.mp3": {
+    "written": "This is capital F.",
+    "spoken": "This is capital eff.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s02.mp3": {
+    "written": "F says “fuh”. Say it with me.",
+    "spoken": "eff says fuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s03.mp3": {
+    "written": "F for Fox.",
+    "spoken": "eff for Fox.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s04.mp3": {
+    "written": "F for Fish.",
+    "spoken": "eff for Fish.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s05.mp3": {
+    "written": "F for Fire engine.",
+    "spoken": "eff for Fire engine.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s06.mp3": {
+    "written": "F. Fox, Fish, Fire engine.",
+    "spoken": "eff. Fox, Fish, Fire engine.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s07.mp3": {
+    "written": "This is capital G.",
+    "spoken": "This is capital jee.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s08.mp3": {
+    "written": "G says “guh”. Say it with me.",
+    "spoken": "jee says guh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s09.mp3": {
+    "written": "G for Goat.",
+    "spoken": "jee for Goat.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s10.mp3": {
+    "written": "G for Giraffe.",
+    "spoken": "jee for Giraffe.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s11.mp3": {
+    "written": "G for Grasshopper.",
+    "spoken": "jee for Grasshopper.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s12.mp3": {
+    "written": "G. Goat, Giraffe, Grasshopper.",
+    "spoken": "jee. Goat, Giraffe, Grasshopper.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s13.mp3": {
+    "written": "This is capital H.",
+    "spoken": "This is capital aitch.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s14.mp3": {
+    "written": "H says “huh”. Say it with me.",
+    "spoken": "aitch says huh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s15.mp3": {
+    "written": "H for Hen.",
+    "spoken": "aitch for Hen.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s16.mp3": {
+    "written": "H for Horse.",
+    "spoken": "aitch for Horse.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s17.mp3": {
+    "written": "H for Helicopter.",
+    "spoken": "aitch for Helicopter.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s18.mp3": {
+    "written": "H. Hen, Horse, Helicopter.",
+    "spoken": "aitch. Hen, Horse, Helicopter.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s19.mp3": {
+    "written": "This is capital I.",
+    "spoken": "This is capital eye.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s20.mp3": {
+    "written": "I says “ih”. Say it with me.",
+    "spoken": "eye says ih. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s21.mp3": {
+    "written": "I for Igloo.",
+    "spoken": "eye for Igloo.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s22.mp3": {
+    "written": "I for Ice cream.",
+    "spoken": "eye for Ice cream.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s23.mp3": {
+    "written": "I for Insect.",
+    "spoken": "eye for Insect.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s24.mp3": {
+    "written": "I. Igloo, Ice cream, Insect.",
+    "spoken": "I. Igloo, Ice cream, Insect.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s25.mp3": {
+    "written": "This is capital J.",
+    "spoken": "This is capital jay.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s26.mp3": {
+    "written": "J says “juh”. Say it with me.",
+    "spoken": "jay says juh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s27.mp3": {
+    "written": "J for Jeep.",
+    "spoken": "jay for Jeep.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s28.mp3": {
+    "written": "J. Jeep.",
+    "spoken": "jay. Jeep.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s01.mp3": {
+    "written": "This is capital K.",
+    "spoken": "This is capital kay.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s02.mp3": {
+    "written": "K says “kuh”. Say it with me.",
+    "spoken": "kay says kuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s03.mp3": {
+    "written": "K for Kangaroo.",
+    "spoken": "kay for Kangaroo.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s04.mp3": {
+    "written": "K for Kite.",
+    "spoken": "kay for Kite.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s05.mp3": {
+    "written": "K. Kangaroo, Kite.",
+    "spoken": "kay. Kangaroo, Kite.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s06.mp3": {
+    "written": "This is capital L.",
+    "spoken": "This is capital ell.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s07.mp3": {
+    "written": "L says “luh”. Say it with me.",
+    "spoken": "ell says luh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s08.mp3": {
+    "written": "L for Lion.",
+    "spoken": "ell for Lion.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s09.mp3": {
+    "written": "L for Lotus.",
+    "spoken": "ell for Lotus.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s10.mp3": {
+    "written": "L for Lemon.",
+    "spoken": "ell for Lemon.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s11.mp3": {
+    "written": "L. Lion, Lotus, Lemon.",
+    "spoken": "ell. Lion, Lotus, Lemon.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s12.mp3": {
+    "written": "This is capital M.",
+    "spoken": "This is capital em.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s13.mp3": {
+    "written": "M says “muh”. Say it with me.",
+    "spoken": "em says muh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s14.mp3": {
+    "written": "M for Monkey.",
+    "spoken": "em for Monkey.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s15.mp3": {
+    "written": "M for Mango.",
+    "spoken": "em for Mango.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s16.mp3": {
+    "written": "M. Monkey, Mango.",
+    "spoken": "em. Monkey, Mango.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s17.mp3": {
+    "written": "This is capital N.",
+    "spoken": "This is capital en.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s18.mp3": {
+    "written": "N says “nuh”. Say it with me.",
+    "spoken": "en says nuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s19.mp3": {
+    "written": "N for Nest.",
+    "spoken": "en for Nest.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s20.mp3": {
+    "written": "N for Nurse.",
+    "spoken": "en for Nurse.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s21.mp3": {
+    "written": "N. Nest, Nurse.",
+    "spoken": "en. Nest, Nurse.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s22.mp3": {
+    "written": "This is capital O.",
+    "spoken": "This is capital oh.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s23.mp3": {
+    "written": "O says “oh”. Say it with me.",
+    "spoken": "oh says oh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s24.mp3": {
+    "written": "O for Orange.",
+    "spoken": "oh for Orange.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s25.mp3": {
+    "written": "O for Owl.",
+    "spoken": "oh for Owl.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s26.mp3": {
+    "written": "O for Onion.",
+    "spoken": "oh for Onion.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s27.mp3": {
+    "written": "O. Orange, Owl, Onion.",
+    "spoken": "oh. Orange, Owl, Onion.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s01.mp3": {
+    "written": "This is capital P.",
+    "spoken": "This is capital pee.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s02.mp3": {
+    "written": "P says “puh”. Say it with me.",
+    "spoken": "pee says puh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s03.mp3": {
+    "written": "P for Parrot.",
+    "spoken": "pee for Parrot.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s04.mp3": {
+    "written": "P for Pumpkin.",
+    "spoken": "pee for Pumpkin.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s05.mp3": {
+    "written": "P for Police car.",
+    "spoken": "pee for Police car.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s06.mp3": {
+    "written": "P. Parrot, Pumpkin, Police car.",
+    "spoken": "pee. Parrot, Pumpkin, Police car.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s07.mp3": {
+    "written": "This is capital Q.",
+    "spoken": "This is capital cue.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s08.mp3": {
+    "written": "Q says “kwuh”. Say it with me.",
+    "spoken": "cue says kwuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s09.mp3": {
+    "written": "Q for Queen.",
+    "spoken": "cue for Queen.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s10.mp3": {
+    "written": "Q. Queen.",
+    "spoken": "cue. Queen.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s11.mp3": {
+    "written": "This is capital R.",
+    "spoken": "This is capital ar.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s12.mp3": {
+    "written": "R says “ruh”. Say it with me.",
+    "spoken": "ar says ruh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s13.mp3": {
+    "written": "R for Rabbit.",
+    "spoken": "ar for Rabbit.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s14.mp3": {
+    "written": "R for Rocket.",
+    "spoken": "ar for Rocket.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s15.mp3": {
+    "written": "R for Rhino.",
+    "spoken": "ar for Rhino.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s16.mp3": {
+    "written": "R. Rabbit, Rocket, Rhino.",
+    "spoken": "ar. Rabbit, Rocket, Rhino.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s17.mp3": {
+    "written": "This is capital S.",
+    "spoken": "This is capital ess.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s18.mp3": {
+    "written": "S says “sss”. Say it with me.",
+    "spoken": "ess says sss. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s19.mp3": {
+    "written": "S for Sheep.",
+    "spoken": "ess for Sheep.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s20.mp3": {
+    "written": "S for Starfish.",
+    "spoken": "ess for Starfish.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s21.mp3": {
+    "written": "S for Ship.",
+    "spoken": "ess for Ship.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s22.mp3": {
+    "written": "S. Sheep, Starfish, Ship.",
+    "spoken": "ess. Sheep, Starfish, Ship.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s23.mp3": {
+    "written": "This is capital T.",
+    "spoken": "This is capital tee.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s24.mp3": {
+    "written": "T says “tuh”. Say it with me.",
+    "spoken": "tee says tuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s25.mp3": {
+    "written": "T for Tiger.",
+    "spoken": "tee for Tiger.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s26.mp3": {
+    "written": "T for Turtle.",
+    "spoken": "tee for Turtle.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s27.mp3": {
+    "written": "T for Tomato.",
+    "spoken": "tee for Tomato.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s28.mp3": {
+    "written": "T. Tiger, Turtle, Tomato.",
+    "spoken": "tee. Tiger, Turtle, Tomato.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s01.mp3": {
+    "written": "This is capital U.",
+    "spoken": "This is capital you.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s02.mp3": {
+    "written": "U says “uh”. Say it with me.",
+    "spoken": "you says uh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s03.mp3": {
+    "written": "U for Umbrella.",
+    "spoken": "you for Umbrella.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s04.mp3": {
+    "written": "U. Umbrella.",
+    "spoken": "you. Umbrella.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s05.mp3": {
+    "written": "This is capital V.",
+    "spoken": "This is capital vee.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s06.mp3": {
+    "written": "V says “vuh”. Say it with me.",
+    "spoken": "vee says vuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s07.mp3": {
+    "written": "V for Violin.",
+    "spoken": "vee for Violin.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s08.mp3": {
+    "written": "V for Van.",
+    "spoken": "vee for Van.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s09.mp3": {
+    "written": "V. Violin, Van.",
+    "spoken": "vee. Violin, Van.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s10.mp3": {
+    "written": "This is capital W.",
+    "spoken": "This is capital double-you.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s11.mp3": {
+    "written": "W says “wuh”. Say it with me.",
+    "spoken": "double-you says wuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s12.mp3": {
+    "written": "W for Watermelon.",
+    "spoken": "double-you for Watermelon.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s13.mp3": {
+    "written": "W for Whale.",
+    "spoken": "double-you for Whale.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s14.mp3": {
+    "written": "W. Watermelon, Whale.",
+    "spoken": "double-you. Watermelon, Whale.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s15.mp3": {
+    "written": "This is capital X.",
+    "spoken": "This is capital ex.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s16.mp3": {
+    "written": "X says “ks”. Say it with me.",
+    "spoken": "ex says ks. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s17.mp3": {
+    "written": "X for Xylophone.",
+    "spoken": "ex for xylophone.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s18.mp3": {
+    "written": "X. Xylophone.",
+    "spoken": "ex. xylophone.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s19.mp3": {
+    "written": "This is capital Y.",
+    "spoken": "This is capital why.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s20.mp3": {
+    "written": "Y says “yuh”. Say it with me.",
+    "spoken": "why says yuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s21.mp3": {
+    "written": "Y for Yarn.",
+    "spoken": "why for Yarn.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s22.mp3": {
+    "written": "Y for Yak.",
+    "spoken": "why for Yak.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s23.mp3": {
+    "written": "Y. Yarn, Yak.",
+    "spoken": "why. Yarn, Yak.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s24.mp3": {
+    "written": "This is capital Z.",
+    "spoken": "This is capital zedd.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s25.mp3": {
+    "written": "Z says “zuh”. Say it with me.",
+    "spoken": "zedd says zuh. Say it with me.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s26.mp3": {
+    "written": "Z for Zebra.",
+    "spoken": "zedd for Zebra.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s27.mp3": {
+    "written": "Z for Zebu.",
+    "spoken": "zedd for Zebu.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s28.mp3": {
+    "written": "Z. Zebra, Zebu.",
+    "spoken": "zedd. Zebra, Zebu.",
     "provider": "indic"
   },
   "eng-nur-shapes-check-s01.mp3": {

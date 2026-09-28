@@ -132,6 +132,7 @@ Their authors must be credited wherever this application is distributed.
 - **realgoat** — Sketchfab — "Animated Realistic Goat – 3D Animal Model" by AnimalMesh 3D
 - **realgrass** — Sketchfab — "Realistics grass 06" by POLYSCAN
 - **realgrasshopper** — Sketchfab — "Low Poly Grasshopper ( Animated 3D Asset )" by Pascal Chaumette
+- **realhelicopter** — Sketchfab — "Helicopter" by irs1182
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
 - **realhorse** — Sketchfab — "Horse" (28 clips)
 - **realicecream** — Sketchfab — "Ice Cream Cone" by brendenfairchild
@@ -142,6 +143,7 @@ Their authors must be credited wherever this application is distributed.
 - **realjungletreefar** — Sketchfab — "Tree GN" by Node_λrt
 - **realkangaroo** — Sketchfab — "Kangaroo" by pergamond
 - **realkite** — Sketchfab — "Kite" by Micheus
+- **reallemon** — Sketchfab — "Lemon (Game Ready / 2K PBR)" by Meerschaum Digital
 - **reallion** — Sketchfab — "realistic Lion 3d model" by Tarun.Teja
 - **reallotus** — Sketchfab — "lotus water lily" by mycmware
 - **realman** — Sketchfab — "Indian Man" by Nodeaxis Interactive
@@ -159,7 +161,9 @@ Their authors must be credited wherever this application is distributed.
 - **realowl** — Sketchfab — "Common Barn Owl" by Innovation Studio
 - **realpachy** — Sketchfab — "PBR Pachycephalasaurus (Animated)" by Ferocious Industries
 - **realpalm** — Sketchfab — "Palm Tree Realistic" by 00amza
+- **realpalmfar** — Sketchfab — "Realistic Palm Tree 4 Free" by Next Spring
 - **realpalms** — Sketchfab — "Coconut Palm" by evolveduk
+- **realpalmtree** — Sketchfab — "Realistic Palm Tree Free" by Next Spring
 - **realparasaur** — Sketchfab — "Parasaurolophus" by kenchoo
 - **realparrot** — Sketchfab — "parrot rebuilt" by kenchoo
 - **realpeak** — Sketchfab — "Snow Mountain" by hkp941111
@@ -184,9 +188,11 @@ Their authors must be credited wherever this application is distributed.
 - **realschoolbus** — Sketchfab — "School Bus" by Macaroni
 - **realseahorse** — Sketchfab — "Smoothie 3D + Blender Seahorse" by Jimmy Gunawan
 - **realsheep** — Sketchfab — "Sheep" by kenchoo
+- **realshell** — Sketchfab — "Sea Shell (Photogrammetry)" by Meshfinder
 - **realship** — Sketchfab — "Cargo Ship - V2 PBR" by akbunnyz
 - **realsnowman** — Sketchfab — "Snowman" by alixor22
 - **realsparrow** — Sketchfab — "Animated Sparrow – 3D Animal Model" by AnimalMesh 3D
+- **realstarfish** — Sketchfab — "Starfish" by Rigsters
 - **realstegosaurus** — Sketchfab — "PBR Stegasaurus (Animated)" by Ferocious Industries
 - **realstrawberry** — Sketchfab — "Forest Strawberry - Macro scan" by Nik
 - **realstumps** — Sketchfab — "Scanned Stump Collection" by That's Cool Jack
@@ -200,12 +206,14 @@ Their authors must be credited wherever this application is distributed.
 - **realtriceratops** — Sketchfab — "Triceratop" by kenchoo
 - **realturtle** — Sketchfab — "Sea Turtle" by Eloi
 - **realumbrella** — Sketchfab — "Beach Umbrella" by stealth86
+- **realvan** — Sketchfab — "French delivery van - Low poly model" by Daniel Zhabotinsky
 - **realviolin** — Sketchfab — "Violin" by RafalTlalka
 - **realvolcano** — Sketchfab — "Vulcão em erupção - Erupting volcano" by Walter Araujo
 - **realwatermelon** — Sketchfab — "Game Ready Fruit Asset Pack" by Meerschaum Digital
 - **realwhale** — Sketchfab — "Ballena" by pepetrincado
 - **realwoman** — Sketchfab — "Sareewoman" by dk8026854
 - **realxylophone** — Sketchfab — "Toy Xylophone" by Brian Trepanier
+- **realyak** — Sketchfab — "yak" by toro ardido modelos 3d
 - **realyarn** — Sketchfab — "Yarn Ball" by mikedludlam
 - **realzebra** — Sketchfab — "Zebra - Rigged" by Noa Seller
 - **rhino** — Poly Pizza — "Rhinoceros" by Poly by Google

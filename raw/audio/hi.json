@@ -49,156 +49,6 @@
     "spoken": "इन चबूतरों पर हमारे राष्ट्रीय चिह्न रखे जाएँगे.",
     "provider": "indic"
   },
-  "demo-letters-s01.mp3": {
-    "written": "यह बड़ा A है।",
-    "spoken": "यह बड़ा ए है.",
-    "provider": "indic"
-  },
-  "demo-letters-s02.mp3": {
-    "written": "A की ध्वनि — a।",
-    "spoken": "ए की ध्वनि, ऐ.",
-    "provider": "indic"
-  },
-  "demo-letters-s03.mp3": {
-    "written": "A से Apple — सेब।",
-    "spoken": "ए से ऐपल, सेब.",
-    "provider": "indic"
-  },
-  "demo-letters-s04.mp3": {
-    "written": "A से Ant — चींटी।",
-    "spoken": "ए से Ant, चींटी.",
-    "provider": "indic"
-  },
-  "demo-letters-s05.mp3": {
-    "written": "A से Ambulance — एम्बुलेंस।",
-    "spoken": "ए से Ambulance, एम्बुलेंस.",
-    "provider": "indic"
-  },
-  "demo-letters-s06.mp3": {
-    "written": "A। सेब, चींटी, एम्बुलेंस।",
-    "spoken": "ए. सेब, चींटी, एम्बुलेंस.",
-    "provider": "indic"
-  },
-  "demo-letters-s07.mp3": {
-    "written": "यह बड़ा B है।",
-    "spoken": "यह बड़ा बी है.",
-    "provider": "indic"
-  },
-  "demo-letters-s08.mp3": {
-    "written": "B की ध्वनि — buh।",
-    "spoken": "बी की ध्वनि, ब.",
-    "provider": "indic"
-  },
-  "demo-letters-s09.mp3": {
-    "written": "B से Banana — केला।",
-    "spoken": "बी से बनाना, केला.",
-    "provider": "indic"
-  },
-  "demo-letters-s10.mp3": {
-    "written": "B से Bear — भालू।",
-    "spoken": "बी से Bear, भालू.",
-    "provider": "indic"
-  },
-  "demo-letters-s11.mp3": {
-    "written": "B से Butterfly — तितली।",
-    "spoken": "बी से Butterfly, तितली.",
-    "provider": "indic"
-  },
-  "demo-letters-s12.mp3": {
-    "written": "B। केला, भालू, तितली।",
-    "spoken": "बी. केला, भालू, तितली.",
-    "provider": "indic"
-  },
-  "demo-letters-s13.mp3": {
-    "written": "यह बड़ा C है।",
-    "spoken": "यह बड़ा सी है.",
-    "provider": "indic"
-  },
-  "demo-letters-s14.mp3": {
-    "written": "C की ध्वनि — kuh।",
-    "spoken": "सी की ध्वनि, क.",
-    "provider": "indic"
-  },
-  "demo-letters-s15.mp3": {
-    "written": "C से Cat — बिल्ली।",
-    "spoken": "सी से कैट, बिल्ली.",
-    "provider": "indic"
-  },
-  "demo-letters-s16.mp3": {
-    "written": "C से Crow — कौआ।",
-    "spoken": "सी से Crow, कौआ.",
-    "provider": "indic"
-  },
-  "demo-letters-s17.mp3": {
-    "written": "C से Crab — केकड़ा।",
-    "spoken": "सी से Crab, केकड़ा.",
-    "provider": "indic"
-  },
-  "demo-letters-s18.mp3": {
-    "written": "C। बिल्ली, कौआ, केकड़ा।",
-    "spoken": "सी. बिल्ली, कौआ, केकड़ा.",
-    "provider": "indic"
-  },
-  "demo-letters-s19.mp3": {
-    "written": "यह बड़ा D है।",
-    "spoken": "यह बड़ा डी है.",
-    "provider": "indic"
-  },
-  "demo-letters-s20.mp3": {
-    "written": "D की ध्वनि — duh।",
-    "spoken": "डी की ध्वनि, ड.",
-    "provider": "indic"
-  },
-  "demo-letters-s21.mp3": {
-    "written": "D से Dog — कुत्ता।",
-    "spoken": "डी से डॉग, कुत्ता.",
-    "provider": "indic"
-  },
-  "demo-letters-s22.mp3": {
-    "written": "D से Duck — बत्तख।",
-    "spoken": "डी से Duck, बत्तख.",
-    "provider": "indic"
-  },
-  "demo-letters-s23.mp3": {
-    "written": "D से Dolphin — डॉल्फ़िन।",
-    "spoken": "डी से Dolphin, डॉल्फ़िन.",
-    "provider": "indic"
-  },
-  "demo-letters-s24.mp3": {
-    "written": "D। कुत्ता, बत्तख, डॉल्फ़िन।",
-    "spoken": "डी. कुत्ता, बत्तख, डॉल्फ़िन.",
-    "provider": "indic"
-  },
-  "demo-letters-s25.mp3": {
-    "written": "यह बड़ा E है।",
-    "spoken": "यह बड़ा ई है.",
-    "provider": "indic"
-  },
-  "demo-letters-s26.mp3": {
-    "written": "E की ध्वनि — eh।",
-    "spoken": "ई की ध्वनि, ए.",
-    "provider": "indic"
-  },
-  "demo-letters-s27.mp3": {
-    "written": "E से Elephant — हाथी।",
-    "spoken": "ई से एलिफ़ेंट, हाथी.",
-    "provider": "indic"
-  },
-  "demo-letters-s28.mp3": {
-    "written": "E से Eagle — चील।",
-    "spoken": "ई से Eagle, चील.",
-    "provider": "indic"
-  },
-  "demo-letters-s29.mp3": {
-    "written": "E से Egg — अंडा।",
-    "spoken": "ई से Egg, अंडा.",
-    "provider": "indic"
-  },
-  "demo-letters-s30.mp3": {
-    "written": "E। हाथी, चील, अंडा।",
-    "spoken": "ई. हाथी, चील, अंडा.",
-    "provider": "indic"
-  },
   "demo-peacock-s01.mp3": {
     "written": "चार मोर। बना हुआ, Tripo, Meshy, Sketchfab। आख़िरी तीन चलते हैं।",
     "spoken": "चार मोर. बना हुआ, Tripo, Meshy, Sketchfab. आख़िरी तीन चलते हैं.",
@@ -1512,6 +1362,711 @@
   "eng-nur-insects-s08.mp3": {
     "written": "यह मक्खी है। मक्खी गंदगी पर बैठती है, इसलिए खाना ढककर रखो।",
     "spoken": "यह मक्खी है. मक्खी गंदगी पर बैठती है, इसलिए खाना ढककर रखो.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s01.mp3": {
+    "written": "यह बड़ा A है।",
+    "spoken": "यह बड़ा ए है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s02.mp3": {
+    "written": "A की ध्वनि — a।",
+    "spoken": "ए की ध्वनि, ऐ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s03.mp3": {
+    "written": "A से Apple — सेब।",
+    "spoken": "ए से ऐपल, सेब.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s04.mp3": {
+    "written": "A से Ant — चींटी।",
+    "spoken": "ए से Ant, चींटी.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s05.mp3": {
+    "written": "A से Ambulance — एम्बुलेंस।",
+    "spoken": "ए से Ambulance, एम्बुलेंस.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s06.mp3": {
+    "written": "A। सेब, चींटी, एम्बुलेंस।",
+    "spoken": "ए. सेब, चींटी, एम्बुलेंस.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s07.mp3": {
+    "written": "यह बड़ा B है।",
+    "spoken": "यह बड़ा बी है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s08.mp3": {
+    "written": "B की ध्वनि — buh।",
+    "spoken": "बी की ध्वनि, ब.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s09.mp3": {
+    "written": "B से Banana — केला।",
+    "spoken": "बी से बनाना, केला.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s10.mp3": {
+    "written": "B से Bear — भालू।",
+    "spoken": "बी से Bear, भालू.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s11.mp3": {
+    "written": "B से Butterfly — तितली।",
+    "spoken": "बी से Butterfly, तितली.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s12.mp3": {
+    "written": "B। केला, भालू, तितली।",
+    "spoken": "बी. केला, भालू, तितली.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s13.mp3": {
+    "written": "यह बड़ा C है।",
+    "spoken": "यह बड़ा सी है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s14.mp3": {
+    "written": "C की ध्वनि — kuh।",
+    "spoken": "सी की ध्वनि, क.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s15.mp3": {
+    "written": "C से Cat — बिल्ली।",
+    "spoken": "सी से कैट, बिल्ली.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s16.mp3": {
+    "written": "C से Crow — कौआ।",
+    "spoken": "सी से Crow, कौआ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s17.mp3": {
+    "written": "C से Crab — केकड़ा।",
+    "spoken": "सी से Crab, केकड़ा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s18.mp3": {
+    "written": "C। बिल्ली, कौआ, केकड़ा।",
+    "spoken": "सी. बिल्ली, कौआ, केकड़ा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s19.mp3": {
+    "written": "यह बड़ा D है।",
+    "spoken": "यह बड़ा डी है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s20.mp3": {
+    "written": "D की ध्वनि — duh।",
+    "spoken": "डी की ध्वनि, ड.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s21.mp3": {
+    "written": "D से Dog — कुत्ता।",
+    "spoken": "डी से डॉग, कुत्ता.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s22.mp3": {
+    "written": "D से Duck — बत्तख।",
+    "spoken": "डी से Duck, बत्तख.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s23.mp3": {
+    "written": "D से Dolphin — डॉल्फ़िन।",
+    "spoken": "डी से Dolphin, डॉल्फ़िन.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s24.mp3": {
+    "written": "D। कुत्ता, बत्तख, डॉल्फ़िन।",
+    "spoken": "डी. कुत्ता, बत्तख, डॉल्फ़िन.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s25.mp3": {
+    "written": "यह बड़ा E है।",
+    "spoken": "यह बड़ा ई है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s26.mp3": {
+    "written": "E की ध्वनि — eh।",
+    "spoken": "ई की ध्वनि, ए.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s27.mp3": {
+    "written": "E से Elephant — हाथी।",
+    "spoken": "ई से एलिफ़ेंट, हाथी.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s28.mp3": {
+    "written": "E से Eagle — चील।",
+    "spoken": "ई से Eagle, चील.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s29.mp3": {
+    "written": "E से Egg — अंडा।",
+    "spoken": "ई से Egg, अंडा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s30.mp3": {
+    "written": "E। हाथी, चील, अंडा।",
+    "spoken": "ई. हाथी, चील, अंडा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s01.mp3": {
+    "written": "यह बड़ा F है।",
+    "spoken": "यह बड़ा एफ़ है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s02.mp3": {
+    "written": "F की ध्वनि — fuh।",
+    "spoken": "एफ़ की ध्वनि, फ़.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s03.mp3": {
+    "written": "F से Fox — लोमड़ी।",
+    "spoken": "एफ़ से Fox, लोमड़ी.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s04.mp3": {
+    "written": "F से Fish — मछली।",
+    "spoken": "एफ़ से फ़िश, मछली.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s05.mp3": {
+    "written": "F से Fire engine — दमकल।",
+    "spoken": "एफ़ से Fire engine, दमकल.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s06.mp3": {
+    "written": "F। लोमड़ी, मछली, दमकल।",
+    "spoken": "एफ़. लोमड़ी, मछली, दमकल.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s07.mp3": {
+    "written": "यह बड़ा G है।",
+    "spoken": "यह बड़ा जी है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s08.mp3": {
+    "written": "G की ध्वनि — guh।",
+    "spoken": "जी की ध्वनि, ग.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s09.mp3": {
+    "written": "G से Goat — बकरी।",
+    "spoken": "जी से गोट, बकरी.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s10.mp3": {
+    "written": "G से Giraffe — जिराफ़।",
+    "spoken": "जी से Giraffe, जिराफ़.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s11.mp3": {
+    "written": "G से Grasshopper — टिड्डा।",
+    "spoken": "जी से Grasshopper, टिड्डा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s12.mp3": {
+    "written": "G। बकरी, जिराफ़, टिड्डा।",
+    "spoken": "जी. बकरी, जिराफ़, टिड्डा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s13.mp3": {
+    "written": "यह बड़ा H है।",
+    "spoken": "यह बड़ा एच है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s14.mp3": {
+    "written": "H की ध्वनि — huh।",
+    "spoken": "एच की ध्वनि, ह.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s15.mp3": {
+    "written": "H से Hen — मुर्गी।",
+    "spoken": "एच से हेन, मुर्गी.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s16.mp3": {
+    "written": "H से Horse — घोड़ा।",
+    "spoken": "एच से Horse, घोड़ा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s17.mp3": {
+    "written": "H से Helicopter — हेलीकॉप्टर।",
+    "spoken": "एच से Helicopter, हेलीकॉप्टर.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s18.mp3": {
+    "written": "H। मुर्गी, घोड़ा, हेलीकॉप्टर।",
+    "spoken": "एच. मुर्गी, घोड़ा, हेलीकॉप्टर.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s19.mp3": {
+    "written": "यह बड़ा I है।",
+    "spoken": "यह बड़ा आई है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s20.mp3": {
+    "written": "I की ध्वनि — ih।",
+    "spoken": "आई की ध्वनि, इ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s21.mp3": {
+    "written": "I से Igloo — इग्लू।",
+    "spoken": "आई से Igloo, इग्लू.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s22.mp3": {
+    "written": "I से Ice cream — आइसक्रीम।",
+    "spoken": "आई से आइस क्रीम, आइसक्रीम.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s23.mp3": {
+    "written": "I से Insect — कीड़ा।",
+    "spoken": "आई से Insect, कीड़ा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s24.mp3": {
+    "written": "I। इग्लू, आइसक्रीम, कीड़ा।",
+    "spoken": "आई. इग्लू, आइसक्रीम, कीड़ा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s25.mp3": {
+    "written": "यह बड़ा J है।",
+    "spoken": "यह बड़ा जे है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s26.mp3": {
+    "written": "J की ध्वनि — juh।",
+    "spoken": "जे की ध्वनि, ज.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s27.mp3": {
+    "written": "J से Jeep — जीप।",
+    "spoken": "जे से जीप, जीप.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s28.mp3": {
+    "written": "J। जीप।",
+    "spoken": "जे. जीप.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s01.mp3": {
+    "written": "यह बड़ा K है।",
+    "spoken": "यह बड़ा के है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s02.mp3": {
+    "written": "K की ध्वनि — kuh।",
+    "spoken": "के की ध्वनि, क.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s03.mp3": {
+    "written": "K से Kangaroo — कंगारू।",
+    "spoken": "के से Kangaroo, कंगारू.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s04.mp3": {
+    "written": "K से Kite — पतंग।",
+    "spoken": "के से काइट, पतंग.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s05.mp3": {
+    "written": "K। कंगारू, पतंग।",
+    "spoken": "के. कंगारू, पतंग.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s06.mp3": {
+    "written": "यह बड़ा L है।",
+    "spoken": "यह बड़ा एल है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s07.mp3": {
+    "written": "L की ध्वनि — luh।",
+    "spoken": "एल की ध्वनि, ल.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s08.mp3": {
+    "written": "L से Lion — शेर।",
+    "spoken": "एल से लायन, शेर.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s09.mp3": {
+    "written": "L से Lotus — कमल।",
+    "spoken": "एल से लोटस, कमल.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s10.mp3": {
+    "written": "L से Lemon — नींबू।",
+    "spoken": "एल से Lemon, नींबू.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s11.mp3": {
+    "written": "L। शेर, कमल, नींबू।",
+    "spoken": "एल. शेर, कमल, नींबू.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s12.mp3": {
+    "written": "यह बड़ा M है।",
+    "spoken": "यह बड़ा एम है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s13.mp3": {
+    "written": "M की ध्वनि — muh।",
+    "spoken": "एम की ध्वनि, म.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s14.mp3": {
+    "written": "M से Monkey — बंदर।",
+    "spoken": "एम से मंकी, बंदर.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s15.mp3": {
+    "written": "M से Mango — आम।",
+    "spoken": "एम से Mango, आम.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s16.mp3": {
+    "written": "M। बंदर, आम।",
+    "spoken": "एम. बंदर, आम.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s17.mp3": {
+    "written": "यह बड़ा N है।",
+    "spoken": "यह बड़ा एन है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s18.mp3": {
+    "written": "N की ध्वनि — nuh।",
+    "spoken": "एन की ध्वनि, न.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s19.mp3": {
+    "written": "N से Nest — घोंसला।",
+    "spoken": "एन से नेस्ट, घोंसला.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s20.mp3": {
+    "written": "N से Nurse — नर्स।",
+    "spoken": "एन से Nurse, नर्स.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s21.mp3": {
+    "written": "N। घोंसला, नर्स।",
+    "spoken": "एन. घोंसला, नर्स.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s22.mp3": {
+    "written": "यह बड़ा O है।",
+    "spoken": "यह बड़ा ओ है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s23.mp3": {
+    "written": "O की ध्वनि — oh।",
+    "spoken": "ओ की ध्वनि, ऑ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s24.mp3": {
+    "written": "O से Orange — संतरा।",
+    "spoken": "ओ से ऑरेंज, संतरा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s25.mp3": {
+    "written": "O से Owl — उल्लू।",
+    "spoken": "ओ से Owl, उल्लू.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s26.mp3": {
+    "written": "O से Onion — प्याज़।",
+    "spoken": "ओ से Onion, प्याज़.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s27.mp3": {
+    "written": "O। संतरा, उल्लू, प्याज़।",
+    "spoken": "ओ. संतरा, उल्लू, प्याज़.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s01.mp3": {
+    "written": "यह बड़ा P है।",
+    "spoken": "यह बड़ा पी है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s02.mp3": {
+    "written": "P की ध्वनि — puh।",
+    "spoken": "पी की ध्वनि, प.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s03.mp3": {
+    "written": "P से Parrot — तोता।",
+    "spoken": "पी से पैरट, तोता.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s04.mp3": {
+    "written": "P से Pumpkin — कद्दू।",
+    "spoken": "पी से Pumpkin, कद्दू.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s05.mp3": {
+    "written": "P से Police car — पुलिस की गाड़ी।",
+    "spoken": "पी से Police car, पुलिस की गाड़ी.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s06.mp3": {
+    "written": "P। तोता, कद्दू, पुलिस की गाड़ी।",
+    "spoken": "पी. तोता, कद्दू, पुलिस की गाड़ी.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s07.mp3": {
+    "written": "यह बड़ा Q है।",
+    "spoken": "यह बड़ा क्यू है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s08.mp3": {
+    "written": "Q की ध्वनि — kwuh।",
+    "spoken": "क्यू की ध्वनि, क्व.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s09.mp3": {
+    "written": "Q से Queen — रानी।",
+    "spoken": "क्यू से क्वीन, रानी.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s10.mp3": {
+    "written": "Q। रानी।",
+    "spoken": "क्यू. रानी.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s11.mp3": {
+    "written": "यह बड़ा R है।",
+    "spoken": "यह बड़ा आर है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s12.mp3": {
+    "written": "R की ध्वनि — ruh।",
+    "spoken": "आर की ध्वनि, र.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s13.mp3": {
+    "written": "R से Rabbit — खरगोश।",
+    "spoken": "आर से Rabbit, खरगोश.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s14.mp3": {
+    "written": "R से Rocket — रॉकेट।",
+    "spoken": "आर से रॉकेट, रॉकेट.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s15.mp3": {
+    "written": "R से Rhino — गैंडा।",
+    "spoken": "आर से Rhino, गैंडा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s16.mp3": {
+    "written": "R। खरगोश, रॉकेट, गैंडा।",
+    "spoken": "आर. खरगोश, रॉकेट, गैंडा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s17.mp3": {
+    "written": "यह बड़ा S है।",
+    "spoken": "यह बड़ा एस है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s18.mp3": {
+    "written": "S की ध्वनि — sss।",
+    "spoken": "एस की ध्वनि, स.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s19.mp3": {
+    "written": "S से Sheep — भेड़।",
+    "spoken": "एस से Sheep, भेड़.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s20.mp3": {
+    "written": "S से Starfish — तारा मछली।",
+    "spoken": "एस से Starfish, तारा मछली.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s21.mp3": {
+    "written": "S से Ship — जहाज़।",
+    "spoken": "एस से Ship, जहाज़.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s22.mp3": {
+    "written": "S। भेड़, तारा मछली, जहाज़।",
+    "spoken": "एस. भेड़, तारा मछली, जहाज़.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s23.mp3": {
+    "written": "यह बड़ा T है।",
+    "spoken": "यह बड़ा टी है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s24.mp3": {
+    "written": "T की ध्वनि — tuh।",
+    "spoken": "टी की ध्वनि, ट.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s25.mp3": {
+    "written": "T से Tiger — बाघ।",
+    "spoken": "टी से टाइगर, बाघ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s26.mp3": {
+    "written": "T से Turtle — कछुआ।",
+    "spoken": "टी से Turtle, कछुआ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s27.mp3": {
+    "written": "T से Tomato — टमाटर।",
+    "spoken": "टी से Tomato, टमाटर.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s28.mp3": {
+    "written": "T। बाघ, कछुआ, टमाटर।",
+    "spoken": "टी. बाघ, कछुआ, टमाटर.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s01.mp3": {
+    "written": "यह बड़ा U है।",
+    "spoken": "यह बड़ा यू है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s02.mp3": {
+    "written": "U की ध्वनि — uh।",
+    "spoken": "यू की ध्वनि, अ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s03.mp3": {
+    "written": "U से Umbrella — छाता।",
+    "spoken": "यू से अम्ब्रेला, छाता.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s04.mp3": {
+    "written": "U। छाता।",
+    "spoken": "यू. छाता.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s05.mp3": {
+    "written": "यह बड़ा V है।",
+    "spoken": "यह बड़ा वी है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s06.mp3": {
+    "written": "V की ध्वनि — vuh।",
+    "spoken": "वी की ध्वनि, व.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s07.mp3": {
+    "written": "V से Violin — वायलिन।",
+    "spoken": "वी से वायलिन, वायलिन.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s08.mp3": {
+    "written": "V से Van — वैन।",
+    "spoken": "वी से Van, वैन.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s09.mp3": {
+    "written": "V। वायलिन, वैन।",
+    "spoken": "वी. वायलिन, वैन.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s10.mp3": {
+    "written": "यह बड़ा W है।",
+    "spoken": "यह बड़ा डब्ल्यू है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s11.mp3": {
+    "written": "W की ध्वनि — wuh।",
+    "spoken": "डब्ल्यू की ध्वनि, व.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s12.mp3": {
+    "written": "W से Watermelon — तरबूज़।",
+    "spoken": "डब्ल्यू से वॉटरमेलन, तरबूज़.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s13.mp3": {
+    "written": "W से Whale — व्हेल।",
+    "spoken": "डब्ल्यू से Whale, व्हेल.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s14.mp3": {
+    "written": "W। तरबूज़, व्हेल।",
+    "spoken": "डब्ल्यू. तरबूज़, व्हेल.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s15.mp3": {
+    "written": "यह बड़ा X है।",
+    "spoken": "यह बड़ा एक्स है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s16.mp3": {
+    "written": "X की ध्वनि — ks।",
+    "spoken": "एक्स की ध्वनि, क्स.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s17.mp3": {
+    "written": "X से Xylophone — ज़ाइलोफ़ोन।",
+    "spoken": "एक्स से ज़ाइलोफ़ोन, ज़ाइलोफ़ोन.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s18.mp3": {
+    "written": "X। ज़ाइलोफ़ोन।",
+    "spoken": "एक्स. ज़ाइलोफ़ोन.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s19.mp3": {
+    "written": "यह बड़ा Y है।",
+    "spoken": "यह बड़ा वाई है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s20.mp3": {
+    "written": "Y की ध्वनि — yuh।",
+    "spoken": "वाई की ध्वनि, य.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s21.mp3": {
+    "written": "Y से Yarn — ऊन का गोला।",
+    "spoken": "वाई से यार्न, ऊन का गोला.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s22.mp3": {
+    "written": "Y से Yak — याक।",
+    "spoken": "वाई से Yak, याक.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s23.mp3": {
+    "written": "Y। ऊन का गोला, याक।",
+    "spoken": "वाई. ऊन का गोला, याक.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s24.mp3": {
+    "written": "यह बड़ा Z है।",
+    "spoken": "यह बड़ा ज़ेड है.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s25.mp3": {
+    "written": "Z की ध्वनि — zuh।",
+    "spoken": "ज़ेड की ध्वनि, ज़.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s26.mp3": {
+    "written": "Z से Zebra — ज़ेबरा।",
+    "spoken": "ज़ेड से ज़ेबरा, ज़ेबरा.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s27.mp3": {
+    "written": "Z से Zebu — बैल।",
+    "spoken": "ज़ेड से Zebu, बैल.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s28.mp3": {
+    "written": "Z। ज़ेबरा, बैल।",
+    "spoken": "ज़ेड. ज़ेबरा, बैल.",
     "provider": "indic"
   },
   "eng-nur-shapes-check-s01.mp3": {
