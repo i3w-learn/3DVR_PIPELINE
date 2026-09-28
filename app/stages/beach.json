@@ -1,0 +1,103 @@
+{
+  "id": "beach",
+  "_comment": "The letter place. White sand underfoot, the sea ahead, and an empty sky for a letter to float in. Nothing else in the curriculum is a beach, so the child knows where they are: this is where letters live. The sea is a long water strip laid across the front; the child never walks, so its far edge is the horizon.",
+  "sky": {
+    "hdri": "beach.jpg",
+    "intensity": 1.1
+  },
+  "ground": {
+    "color": "sand_color.jpg",
+    "normal": "sand_normal.jpg",
+    "rough": "sand_rough.jpg",
+    "ao": "sand_ao.jpg",
+    "repeat": 34
+  },
+  "sun": {
+    "position": "9 15 -5",
+    "color": "#fff3e0",
+    "intensity": 1.25
+  },
+  "light": {
+    "sky": "#cfe4f2",
+    "ground": "#d8c9a0",
+    "intensity": 0.4
+  },
+  "fog": {
+    "color": "#dcebf3",
+    "near": 40,
+    "far": 150
+  },
+  "shadows": true,
+  "start": {
+    "position": "0 1.2 2.0",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "waterbody",
+      "params": {
+        "shape": "river",
+        "length": 260,
+        "width": 110,
+        "color": "#2b7f93",
+        "flow": 0.04,
+        "mud": "#cbb98f"
+      },
+      "position": "0 0 -68",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realpalm",
+      "position": "-7.5 0 -6",
+      "rotation": "0 25 0",
+      "scale": "1.15 1.15 1.15"
+    },
+    {
+      "model": "realpalms",
+      "position": "8.5 0 -7",
+      "rotation": "0 -40 0",
+      "scale": "1.1 1.1 1.1"
+    },
+    {
+      "model": "realpalm",
+      "position": "-11 0 -1",
+      "rotation": "0 140 0",
+      "scale": "1.0 1.0 1.0"
+    },
+    {
+      "model": "realpalms",
+      "position": "12 0 1",
+      "rotation": "0 200 0",
+      "scale": "0.95 0.95 0.95"
+    },
+    {
+      "model": "realrocks",
+      "position": "-5 0 -10",
+      "rotation": "0 60 0",
+      "scale": "0.9 0.9 0.9"
+    },
+    {
+      "model": "realrocks",
+      "position": "6.5 0 -11",
+      "rotation": "0 -110 0",
+      "scale": "0.7 0.7 0.7"
+    },
+    {
+      "build": "treeline",
+      "params": {
+        "model": "realpalm",
+        "count": 20,
+        "inner": 16,
+        "outer": 30,
+        "arc": 150,
+        "facing": 180,
+        "height": 7,
+        "seed": 5
+      },
+      "position": "0 0 0",
+      "castShadow": false,
+      "contact": false
+    }
+  ]
+}

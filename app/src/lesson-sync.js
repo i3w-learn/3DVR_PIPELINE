@@ -79,18 +79,27 @@ export class LessonSync {
     // In `identify` the teacher's step calls an animal over; its sound plays
     // as it sets off, the way a tapped animal's does. The narration stays
     // with the step.
-    this.#elements.stage.addEventListener('identify-called', (event) => {
-      const object = this.#loaded?.lesson.objects.find((o) => o.id === event.detail.id);
-      const sfx = this.#elements.sfx;
-      if (!object?.sound || !sfx) return;
-      sfx.components?.sound?.stopSound();
-      sfx.setAttribute('src', `assets/sfx/${object.sound}`);
-      sfx.components?.sound?.playSound();
+    this.#elements.stage.addEventListener('identify-called', (event) => this.#sound(event.detail.id));
+    // A thing that walked, flew or fell in makes its noise when it gets there.
+    // Only the first time: a dolphin that leaps every few seconds does not
+    // squeak every few seconds.
+    this.#elements.stage.addEventListener('arrived', (event) => {
+      if (event.detail.first) this.#sound(event.detail.id);
     });
     // An animal that was called speaks on arrival, not on being picked.
     this.#elements.stage.addEventListener('wander-arrived', (event) => {
       if (event.detail.id === this.#awaiting) this.#narrate(event.detail.id);
     });
+  }
+
+  /** The object's own noise, if the lesson gave it one. */
+  #sound(id) {
+    const object = this.#loaded?.lesson.objects.find((o) => o.id === id);
+    const sfx = this.#elements.sfx;
+    if (!object?.sound || !sfx) return;
+    sfx.components?.sound?.stopSound();
+    sfx.setAttribute('src', `assets/sfx/${object.sound}`);
+    sfx.components?.sound?.playSound();
   }
 
   /** Loud, not silent: a content error must reach the person who can fix it. */

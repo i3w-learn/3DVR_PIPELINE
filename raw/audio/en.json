@@ -49,6 +49,156 @@
     "spoken": "Our national symbols will stand on these plinths.",
     "provider": "indic"
   },
+  "demo-letters-s01.mp3": {
+    "written": "This is capital A.",
+    "spoken": "This is capital ayy.",
+    "provider": "indic"
+  },
+  "demo-letters-s02.mp3": {
+    "written": "A says “a”. Say it with me.",
+    "spoken": "ayy says a. Say it with me.",
+    "provider": "indic"
+  },
+  "demo-letters-s03.mp3": {
+    "written": "A for Apple.",
+    "spoken": "ayy for Apple.",
+    "provider": "indic"
+  },
+  "demo-letters-s04.mp3": {
+    "written": "A for Ant.",
+    "spoken": "ayy for Ant.",
+    "provider": "indic"
+  },
+  "demo-letters-s05.mp3": {
+    "written": "A for Ambulance.",
+    "spoken": "ayy for Ambulance.",
+    "provider": "indic"
+  },
+  "demo-letters-s06.mp3": {
+    "written": "A. Apple, Ant, Ambulance.",
+    "spoken": "A. Apple, Ant, Ambulance.",
+    "provider": "indic"
+  },
+  "demo-letters-s07.mp3": {
+    "written": "This is capital B.",
+    "spoken": "This is capital bee.",
+    "provider": "indic"
+  },
+  "demo-letters-s08.mp3": {
+    "written": "B says “buh”. Say it with me.",
+    "spoken": "bee says buh. Say it with me.",
+    "provider": "indic"
+  },
+  "demo-letters-s09.mp3": {
+    "written": "B for Banana.",
+    "spoken": "bee for Banana.",
+    "provider": "indic"
+  },
+  "demo-letters-s10.mp3": {
+    "written": "B for Bear.",
+    "spoken": "bee for Bear.",
+    "provider": "indic"
+  },
+  "demo-letters-s11.mp3": {
+    "written": "B for Butterfly.",
+    "spoken": "bee for Butterfly.",
+    "provider": "indic"
+  },
+  "demo-letters-s12.mp3": {
+    "written": "B. Banana, Bear, Butterfly.",
+    "spoken": "bee. Banana, Bear, Butterfly.",
+    "provider": "indic"
+  },
+  "demo-letters-s13.mp3": {
+    "written": "This is capital C.",
+    "spoken": "This is capital see.",
+    "provider": "indic"
+  },
+  "demo-letters-s14.mp3": {
+    "written": "C says “kuh”. Say it with me.",
+    "spoken": "see says kuh. Say it with me.",
+    "provider": "indic"
+  },
+  "demo-letters-s15.mp3": {
+    "written": "C for Cat.",
+    "spoken": "see for Cat.",
+    "provider": "indic"
+  },
+  "demo-letters-s16.mp3": {
+    "written": "C for Crow.",
+    "spoken": "see for Crow.",
+    "provider": "indic"
+  },
+  "demo-letters-s17.mp3": {
+    "written": "C for Crab.",
+    "spoken": "see for Crab.",
+    "provider": "indic"
+  },
+  "demo-letters-s18.mp3": {
+    "written": "C. Cat, Crow, Crab.",
+    "spoken": "see. Cat, Crow, Crab.",
+    "provider": "indic"
+  },
+  "demo-letters-s19.mp3": {
+    "written": "This is capital D.",
+    "spoken": "This is capital dee.",
+    "provider": "indic"
+  },
+  "demo-letters-s20.mp3": {
+    "written": "D says “duh”. Say it with me.",
+    "spoken": "dee says duh. Say it with me.",
+    "provider": "indic"
+  },
+  "demo-letters-s21.mp3": {
+    "written": "D for Dog.",
+    "spoken": "dee for Dog.",
+    "provider": "indic"
+  },
+  "demo-letters-s22.mp3": {
+    "written": "D for Duck.",
+    "spoken": "dee for Duck.",
+    "provider": "indic"
+  },
+  "demo-letters-s23.mp3": {
+    "written": "D for Dolphin.",
+    "spoken": "dee for Dolphin.",
+    "provider": "indic"
+  },
+  "demo-letters-s24.mp3": {
+    "written": "D. Dog, Duck, Dolphin.",
+    "spoken": "dee. Dog, Duck, Dolphin.",
+    "provider": "indic"
+  },
+  "demo-letters-s25.mp3": {
+    "written": "This is capital E.",
+    "spoken": "This is capital ee.",
+    "provider": "indic"
+  },
+  "demo-letters-s26.mp3": {
+    "written": "E says “eh”. Say it with me.",
+    "spoken": "ee says eh. Say it with me.",
+    "provider": "indic"
+  },
+  "demo-letters-s27.mp3": {
+    "written": "E for Elephant.",
+    "spoken": "ee for Elephant.",
+    "provider": "indic"
+  },
+  "demo-letters-s28.mp3": {
+    "written": "E for Eagle.",
+    "spoken": "ee for Eagle.",
+    "provider": "indic"
+  },
+  "demo-letters-s29.mp3": {
+    "written": "E for Egg.",
+    "spoken": "ee for Egg.",
+    "provider": "indic"
+  },
+  "demo-letters-s30.mp3": {
+    "written": "E. Elephant, Eagle, Egg.",
+    "spoken": "ee. Elephant, Eagle, Egg.",
+    "provider": "indic"
+  },
   "demo-peacock-s01.mp3": {
     "written": "Four peacocks. Drawn, Tripo, Meshy, Sketchfab. The last three walk.",
     "spoken": "Four peacocks. Drawn, Tripo, Meshy, Sketchfab. The last three walk.",

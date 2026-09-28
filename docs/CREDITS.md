@@ -134,12 +134,14 @@ Their authors must be credited wherever this application is distributed.
 - **realgrasshopper** — Sketchfab — "Low Poly Grasshopper ( Animated 3D Asset )" by Pascal Chaumette
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
 - **realhorse** — Sketchfab — "Horse" (28 clips)
+- **realicecream** — Sketchfab — "Ice Cream Cone" by brendenfairchild
 - **realigloo** — Sketchfab — "Igloo" by Vera4Art
 - **realjeep** — Sketchfab — "Jeep" by DJMaesen
 - **realjunglefull** — Sketchfab — "Tree GN" by Node_λrt
 - **realjungletree** — Sketchfab — "Tree GN" by Node_λrt
 - **realjungletreefar** — Sketchfab — "Tree GN" by Node_λrt
 - **realkangaroo** — Sketchfab — "Kangaroo" by pergamond
+- **realkite** — Sketchfab — "Kite" by Micheus
 - **reallion** — Sketchfab — "realistic Lion 3d model" by Tarun.Teja
 - **reallotus** — Sketchfab — "lotus water lily" by mycmware
 - **realman** — Sketchfab — "Indian Man" by Nodeaxis Interactive
@@ -148,6 +150,7 @@ Their authors must be credited wherever this application is distributed.
 - **realmangotreefar** — Sketchfab — "Mang Tree-01" by ASMA3D
 - **realmesa** — Sketchfab — "Table Mountain" by re-lar
 - **realmonkey** — Sketchfab — "Low poly monkey animal 3d model free" by iRahulRajput
+- **realnest** — Sketchfab — "Bird's Nest" by ToxaGrom
 - **realoak** — Sketchfab — "Oak tree" by massive-graphisme
 - **realoakfar** — Sketchfab — "Oak tree" by massive-graphisme
 - **realoakfull** — Sketchfab — "Oak tree" by massive-graphisme
@@ -169,11 +172,13 @@ Their authors must be credited wherever this application is distributed.
 - **realpteranodon** — Sketchfab — "Pteranodon (Animated)" by Chistodrako._.
 - **realpumpkin** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realpuppy** — Sketchfab — "Dog Puppy" by kenchoo
+- **realqueen** — Sketchfab — "Chess Piece Queen" by Amine Hosseini
 - **realrabbit** — Sketchfab — "Animated Rabbit – 3D Animal Model" by AnimalMesh 3D
 - **realrange** — Sketchfab — "Snow Mountain Pack 01" by perryfactor6177258
 - **realraptor** — Sketchfab — "PBR Velociraptor (Animated)" by Ferocious Industries
 - **realreeds** — Sketchfab — "Reed Plants Pack" by Nicholas-3D
 - **realrhino** — Sketchfab — "Animated Rhinoceros Walking Animal Loop" by LasquetiSpice
+- **realrocket** — Sketchfab — "Rocket" by farooq.smurf
 - **realrocks** — Sketchfab — "Lowpoly Rocks - Free Download" by Loïc Norgeot
 - **realsailboat** — Sketchfab — "Sailboat" by Sergei
 - **realschoolbus** — Sketchfab — "School Bus" by Macaroni
@@ -194,10 +199,14 @@ Their authors must be credited wherever this application is distributed.
 - **realtrex** — Sketchfab — "Animated Tyrannosaurus Rex Dinosaur Running Loop" by LasquetiSpice
 - **realtriceratops** — Sketchfab — "Triceratop" by kenchoo
 - **realturtle** — Sketchfab — "Sea Turtle" by Eloi
+- **realumbrella** — Sketchfab — "Beach Umbrella" by stealth86
+- **realviolin** — Sketchfab — "Violin" by RafalTlalka
 - **realvolcano** — Sketchfab — "Vulcão em erupção - Erupting volcano" by Walter Araujo
 - **realwatermelon** — Sketchfab — "Game Ready Fruit Asset Pack" by Meerschaum Digital
 - **realwhale** — Sketchfab — "Ballena" by pepetrincado
 - **realwoman** — Sketchfab — "Sareewoman" by dk8026854
+- **realxylophone** — Sketchfab — "Toy Xylophone" by Brian Trepanier
+- **realyarn** — Sketchfab — "Yarn Ball" by mikedludlam
 - **realzebra** — Sketchfab — "Zebra - Rigged" by Noa Seller
 - **rhino** — Poly Pizza — "Rhinoceros" by Poly by Google
 - **rocket** — Poly Pizza — "Rocket ship" by Poly by Google
@@ -271,11 +280,14 @@ No attribution is required for these. They are listed for the record.
 - Openverse — "pigeon territorial coo.wav" by 5ro4
 - Openverse — "polly.mp3" by Willfree
 - Openverse — "sheep 3.mp3" by esperar
+- Poly Haven — Aerial Beach 01
+- Poly Haven — Belfast Sunset (Pure Sky)
 - Poly Haven — Island Tree 01 (photoscan)
 - Poly Haven — Jacaranda Tree (photoscan)
 - Poly Haven — Kloofendal 43d Clear (Pure Sky)
 - Poly Haven — Kloofendal 48d Partly Cloudy (Pure Sky)
 - Poly Haven — Shrub 02
+- Poly Haven — Syferfontein 1d Clear (Pure Sky)
 - Poly Pizza — "Apatosaurus" by Quaternius
 - Poly Pizza — "Backpack" by Quaternius
 - Poly Pizza — "Barn" by Quaternius

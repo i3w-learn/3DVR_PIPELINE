@@ -49,6 +49,156 @@
     "spoken": "ଏହି ଚଉତରା ଉପରେ ଆମର ଜାତୀୟ ପ୍ରତୀକ ରଖାଯିବ.",
     "provider": "indic"
   },
+  "demo-letters-s01.mp3": {
+    "written": "ଏହା ବଡ଼ A।",
+    "spoken": "ଏହା ବଡ଼ ଏ.",
+    "provider": "indic"
+  },
+  "demo-letters-s02.mp3": {
+    "written": "A ର ଧ୍ୱନି — a। ମୋ ସହ କୁହ।",
+    "spoken": "ଏ ର ଧ୍ୱନି, ଆ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "demo-letters-s03.mp3": {
+    "written": "A — Apple, ମାନେ ସେଓ।",
+    "spoken": "ଏ, ଆପଲ, ମାନେ ସେଓ.",
+    "provider": "indic"
+  },
+  "demo-letters-s04.mp3": {
+    "written": "A — Ant, ମାନେ ପିମ୍ପୁଡ଼ି।",
+    "spoken": "ଏ, Ant, ମାନେ ପିମ୍ପୁଡ଼ି.",
+    "provider": "indic"
+  },
+  "demo-letters-s05.mp3": {
+    "written": "A — Ambulance, ମାନେ ଆମ୍ବୁଲାନ୍ସ।",
+    "spoken": "ଏ, Ambulance, ମାନେ ଆମ୍ବୁଲାନ୍ସ.",
+    "provider": "indic"
+  },
+  "demo-letters-s06.mp3": {
+    "written": "A। ସେଓ, ପିମ୍ପୁଡ଼ି, ଆମ୍ବୁଲାନ୍ସ।",
+    "spoken": "ଏ. ସେଓ, ପିମ୍ପୁଡ଼ି, ଆମ୍ବୁଲାନ୍ସ.",
+    "provider": "indic"
+  },
+  "demo-letters-s07.mp3": {
+    "written": "ଏହା ବଡ଼ B।",
+    "spoken": "ଏହା ବଡ଼ ବି.",
+    "provider": "indic"
+  },
+  "demo-letters-s08.mp3": {
+    "written": "B ର ଧ୍ୱନି — buh। ମୋ ସହ କୁହ।",
+    "spoken": "ବି ର ଧ୍ୱନି, ବ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "demo-letters-s09.mp3": {
+    "written": "B — Banana, ମାନେ କଦଳୀ।",
+    "spoken": "ବି, ବନାନା, ମାନେ କଦଳୀ.",
+    "provider": "indic"
+  },
+  "demo-letters-s10.mp3": {
+    "written": "B — Bear, ମାନେ ଭାଲୁ।",
+    "spoken": "ବି, Bear, ମାନେ ଭାଲୁ.",
+    "provider": "indic"
+  },
+  "demo-letters-s11.mp3": {
+    "written": "B — Butterfly, ମାନେ ପ୍ରଜାପତି।",
+    "spoken": "ବି, Butterfly, ମାନେ ପ୍ରଜାପତି.",
+    "provider": "indic"
+  },
+  "demo-letters-s12.mp3": {
+    "written": "B। କଦଳୀ, ଭାଲୁ, ପ୍ରଜାପତି।",
+    "spoken": "ବି. କଦଳୀ, ଭାଲୁ, ପ୍ରଜାପତି.",
+    "provider": "indic"
+  },
+  "demo-letters-s13.mp3": {
+    "written": "ଏହା ବଡ଼ C।",
+    "spoken": "ଏହା ବଡ଼ ସି.",
+    "provider": "indic"
+  },
+  "demo-letters-s14.mp3": {
+    "written": "C ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।",
+    "spoken": "ସି ର ଧ୍ୱନି, କ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "demo-letters-s15.mp3": {
+    "written": "C — Cat, ମାନେ ବିଲେଇ।",
+    "spoken": "ସି, କ୍ୟାଟ, ମାନେ ବିଲେଇ.",
+    "provider": "indic"
+  },
+  "demo-letters-s16.mp3": {
+    "written": "C — Crow, ମାନେ କାଉ।",
+    "spoken": "ସି, Crow, ମାନେ କାଉ.",
+    "provider": "indic"
+  },
+  "demo-letters-s17.mp3": {
+    "written": "C — Crab, ମାନେ କଙ୍କଡ଼ା।",
+    "spoken": "ସି, Crab, ମାନେ କଙ୍କଡ଼ା.",
+    "provider": "indic"
+  },
+  "demo-letters-s18.mp3": {
+    "written": "C। ବିଲେଇ, କାଉ, କଙ୍କଡ଼ା।",
+    "spoken": "ସି. ବିଲେଇ, କାଉ, କଙ୍କଡ଼ା.",
+    "provider": "indic"
+  },
+  "demo-letters-s19.mp3": {
+    "written": "ଏହା ବଡ଼ D।",
+    "spoken": "ଏହା ବଡ଼ ଡି.",
+    "provider": "indic"
+  },
+  "demo-letters-s20.mp3": {
+    "written": "D ର ଧ୍ୱନି — duh। ମୋ ସହ କୁହ।",
+    "spoken": "ଡି ର ଧ୍ୱନି, ଡ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "demo-letters-s21.mp3": {
+    "written": "D — Dog, ମାନେ କୁକୁର।",
+    "spoken": "ଡି, ଡଗ, ମାନେ କୁକୁର.",
+    "provider": "indic"
+  },
+  "demo-letters-s22.mp3": {
+    "written": "D — Duck, ମାନେ ବତକ।",
+    "spoken": "ଡି, Duck, ମାନେ ବତକ.",
+    "provider": "indic"
+  },
+  "demo-letters-s23.mp3": {
+    "written": "D — Dolphin, ମାନେ ଡଲଫିନ୍।",
+    "spoken": "ଡି, Dolphin, ମାନେ ଡଲଫିନ୍.",
+    "provider": "indic"
+  },
+  "demo-letters-s24.mp3": {
+    "written": "D। କୁକୁର, ବତକ, ଡଲଫିନ୍।",
+    "spoken": "ଡି. କୁକୁର, ବତକ, ଡଲଫିନ୍.",
+    "provider": "indic"
+  },
+  "demo-letters-s25.mp3": {
+    "written": "ଏହା ବଡ଼ E।",
+    "spoken": "ଏହା ବଡ଼ ଇ.",
+    "provider": "indic"
+  },
+  "demo-letters-s26.mp3": {
+    "written": "E ର ଧ୍ୱନି — eh। ମୋ ସହ କୁହ।",
+    "spoken": "ଇ ର ଧ୍ୱନି, ଏ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "demo-letters-s27.mp3": {
+    "written": "E — Elephant, ମାନେ ହାତୀ।",
+    "spoken": "ଇ, ଏଲିଫାଣ୍ଟ, ମାନେ ହାତୀ.",
+    "provider": "indic"
+  },
+  "demo-letters-s28.mp3": {
+    "written": "E — Eagle, ମାନେ ଚିଲ।",
+    "spoken": "ଇ, Eagle, ମାନେ ଚିଲ.",
+    "provider": "indic"
+  },
+  "demo-letters-s29.mp3": {
+    "written": "E — Egg, ମାନେ ଅଣ୍ଡା।",
+    "spoken": "ଇ, Egg, ମାନେ ଅଣ୍ଡା.",
+    "provider": "indic"
+  },
+  "demo-letters-s30.mp3": {
+    "written": "E। ହାତୀ, ଚିଲ, ଅଣ୍ଡା।",
+    "spoken": "ଇ. ହାତୀ, ଚିଲ, ଅଣ୍ଡା.",
+    "provider": "indic"
+  },
   "demo-peacock-s01.mp3": {
     "written": "ଚାରିଟି ମୟୂର। ଅଙ୍କିତ, Tripo, Meshy, Sketchfab। ଶେଷ ତିନୋଟି ଚାଲନ୍ତି।",
     "spoken": "ଚାରିଟି ମୟୂର. ଅଙ୍କିତ, Tripo, Meshy, Sketchfab. ଶେଷ ତିନୋଟି ଚାଲନ୍ତି.",

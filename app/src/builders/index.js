@@ -27,6 +27,7 @@ import './habitat.js';
 import './home.js';
 import './india.js';
 import './lab.js';
+import './letter3d.js';
 import './measure.js';
 import './music.js';
 import './path.js';

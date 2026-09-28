@@ -1,0 +1,8 @@
+{
+  "id": "sand",
+  "source": "Poly Haven — Aerial Beach 01",
+  "licence": "CC0",
+  "url": "https://polyhaven.com/a/aerial_beach_01",
+  "maps": ["color", "normal", "rough", "ao"],
+  "notes": "nor_gl (OpenGL green-up convention) — the one three.js expects"
+}

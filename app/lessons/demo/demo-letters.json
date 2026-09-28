@@ -1,0 +1,851 @@
+{
+  "id": "demo-letters",
+  "template": "match",
+  "stage": "beach",
+  "notes": "The letter beach, letters A to E. One big letter drops out of the sky; three real things for it arrive on the sand the way they would in life. Demo for the letter lessons that will replace the tabletop alphabet.",
+  "objects": [
+    {
+      "id": "letterA",
+      "build": "letter3d",
+      "params": {
+        "char": "A",
+        "height": 3.0,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "apple",
+      "model": "realapple",
+      "position": "-2.6 0 -4.2",
+      "scale": "7 7 7",
+      "name": {
+        "en": "Apple",
+        "hi": "सेब",
+        "mr": "सफरचंद",
+        "or": "ସେଓ"
+      },
+      "arrive": {
+        "how": "fall",
+        "from": 4.5
+      },
+      "ring": 0.35,
+      "castShadow": false
+    },
+    {
+      "id": "ant",
+      "model": "realant",
+      "position": "0.3 0 -3.3",
+      "scale": "12 12 12",
+      "name": {
+        "en": "Ant",
+        "hi": "चींटी",
+        "mr": "मुंगी",
+        "or": "ପିମ୍ପୁଡ଼ି"
+      },
+      "clip": "CINEMA_4D_Main",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 6,
+        "duration": 4.5
+      },
+      "ring": 0.35,
+      "castShadow": false
+    },
+    {
+      "id": "ambulance",
+      "model": "realambulance",
+      "position": "3.6 0 -7",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Ambulance",
+        "hi": "एम्बुलेंस",
+        "mr": "रुग्णवाहिका",
+        "or": "ଆମ୍ବୁଲାନ୍ସ"
+      },
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 11,
+        "duration": 4
+      },
+      "ring": 1.6
+    },
+    {
+      "id": "letterB",
+      "build": "letter3d",
+      "params": {
+        "char": "B",
+        "height": 3.0,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "banana",
+      "model": "realbanana",
+      "position": "-2.4 0 -3.9",
+      "scale": "8 8 8",
+      "name": {
+        "en": "Banana",
+        "hi": "केला",
+        "mr": "केळं",
+        "or": "କଦଳୀ"
+      },
+      "arrive": {
+        "how": "fall",
+        "from": 4
+      },
+      "ring": 0.3,
+      "castShadow": false
+    },
+    {
+      "id": "bear",
+      "model": "realbear",
+      "position": "0.7 0 -6.4",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Bear",
+        "hi": "भालू",
+        "mr": "अस्वल",
+        "or": "ଭାଲୁ"
+      },
+      "clip": "Walk",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 8,
+        "duration": 5,
+        "idle": "Stand_Idle_01"
+      },
+      "ring": 1
+    },
+    {
+      "id": "butterfly",
+      "model": "realbutterfly",
+      "position": "2.5 1.3 -3.6",
+      "scale": "5 5 5",
+      "name": {
+        "en": "Butterfly",
+        "hi": "तितली",
+        "mr": "फुलपाखरू",
+        "or": "ପ୍ରଜାପତି"
+      },
+      "clip": "Butterfly (Rigged)Action",
+      "arrive": {
+        "how": "fly",
+        "side": 1,
+        "from": 9,
+        "duration": 4
+      },
+      "ring": 0.35,
+      "castShadow": false
+    },
+    {
+      "id": "letterC",
+      "build": "letter3d",
+      "params": {
+        "char": "C",
+        "height": 3.0,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "cat",
+      "model": "realcat",
+      "position": "-2.3 0 -3.7",
+      "scale": "1.7 1.7 1.7",
+      "name": {
+        "en": "Cat",
+        "hi": "बिल्ली",
+        "mr": "मांजर",
+        "or": "ବିଲେଇ"
+      },
+      "clip": "Take 001",
+      "sound": "cat.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 7,
+        "duration": 4.5
+      },
+      "ring": 0.5
+    },
+    {
+      "id": "crow",
+      "model": "realcrow",
+      "position": "0.7 0 -4.9",
+      "scale": "2.5 2.5 2.5",
+      "name": {
+        "en": "Crow",
+        "hi": "कौआ",
+        "mr": "कावळा",
+        "or": "କାଉ"
+      },
+      "clip": "root|TakeOff",
+      "sound": "crow.mp3",
+      "arrive": {
+        "how": "fly",
+        "side": 1,
+        "from": 10,
+        "duration": 3.5
+      },
+      "ring": 0.4,
+      "castShadow": false
+    },
+    {
+      "id": "crab",
+      "model": "realcrab",
+      "position": "2.7 0 -3.1",
+      "scale": "4 4 4",
+      "name": {
+        "en": "Crab",
+        "hi": "केकड़ा",
+        "mr": "खेकडा",
+        "or": "କଙ୍କଡ଼ା"
+      },
+      "clip": "Dance",
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 6,
+        "duration": 4.5
+      },
+      "ring": 0.5,
+      "castShadow": false
+    },
+    {
+      "id": "letterD",
+      "build": "letter3d",
+      "params": {
+        "char": "D",
+        "height": 3.0,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "dog",
+      "model": "realdog",
+      "position": "-2.3 0 -4.3",
+      "scale": "1.2 1.2 1.2",
+      "name": {
+        "en": "Dog",
+        "hi": "कुत्ता",
+        "mr": "कुत्रा",
+        "or": "କୁକୁର"
+      },
+      "clip": "Animation",
+      "sound": "dog.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 8,
+        "duration": 4
+      },
+      "ring": 0.6
+    },
+    {
+      "id": "duck",
+      "model": "realduck",
+      "position": "2.6 0 -3.5",
+      "scale": "1.8 1.8 1.8",
+      "name": {
+        "en": "Duck",
+        "hi": "बत्तख",
+        "mr": "बदक",
+        "or": "ବତକ"
+      },
+      "clip": "walk",
+      "sound": "duck.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": 1,
+        "from": 6,
+        "duration": 4.5
+      },
+      "ring": 0.45,
+      "castShadow": false
+    },
+    {
+      "id": "dolphin",
+      "model": "realdolphin",
+      "position": "0.6 0.1 -14.5",
+      "scale": "1.4 1.4 1.4",
+      "name": {
+        "en": "Dolphin",
+        "hi": "डॉल्फ़िन",
+        "mr": "डॉल्फिन",
+        "or": "ଡଲଫିନ୍"
+      },
+      "clip": "Take 001",
+      "arrive": {
+        "how": "leap",
+        "from": 1.8,
+        "duration": 2,
+        "again": 4
+      },
+      "ring": 0.9,
+      "castShadow": false
+    },
+    {
+      "id": "letterE",
+      "build": "letter3d",
+      "params": {
+        "char": "E",
+        "height": 3.0,
+        "depth": 0.4
+      },
+      "position": "0 3.0 -6.8"
+    },
+    {
+      "id": "elephant",
+      "model": "realelephant",
+      "position": "-1.4 0 -9.5",
+      "scale": "1 1 1",
+      "name": {
+        "en": "Elephant",
+        "hi": "हाथी",
+        "mr": "हत्ती",
+        "or": "ହାତୀ"
+      },
+      "clip": "Loco_WalkSlow",
+      "sound": "elephant.mp3",
+      "arrive": {
+        "how": "walk",
+        "side": -1,
+        "from": 10,
+        "duration": 6,
+        "idle": "Stand_01"
+      },
+      "ring": 2.2
+    },
+    {
+      "id": "eagle",
+      "model": "realeagle",
+      "position": "2.9 2.3 -5.6",
+      "scale": "1.3 1.3 1.3",
+      "name": {
+        "en": "Eagle",
+        "hi": "चील",
+        "mr": "गरुड",
+        "or": "ଚିଲ"
+      },
+      "clip": "motion4",
+      "arrive": {
+        "how": "fly",
+        "side": 1,
+        "from": 12,
+        "duration": 4
+      },
+      "ring": 0.6,
+      "castShadow": false
+    },
+    {
+      "id": "egg",
+      "model": "realegg",
+      "position": "-2.8 0 -3.2",
+      "scale": "5 5 5",
+      "name": {
+        "en": "Egg",
+        "hi": "अंडा",
+        "mr": "अंडं",
+        "or": "ଅଣ୍ଡା"
+      },
+      "arrive": {
+        "how": "pop"
+      },
+      "ring": 0.25,
+      "castShadow": false
+    }
+  ],
+  "steps": [
+    {
+      "show": [
+        "letterA"
+      ],
+      "highlight": "letterA",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital A.",
+        "hi": "यह बड़ा A है।",
+        "mr": "हे मोठं A आहे.",
+        "or": "ଏହା ବଡ଼ A।"
+      },
+      "audio": "demo-letters-s01.mp3"
+    },
+    {
+      "show": [
+        "letterA"
+      ],
+      "highlight": "letterA",
+      "duration": 5500,
+      "script": {
+        "en": "A says “a”. Say it with me.",
+        "hi": "A की ध्वनि — a।",
+        "mr": "A चा आवाज — a. माझ्यासोबत म्हणा.",
+        "or": "A ର ଧ୍ୱନି — a। ମୋ ସହ କୁହ।"
+      },
+      "audio": "demo-letters-s02.mp3"
+    },
+    {
+      "show": [
+        "letterA",
+        "apple"
+      ],
+      "highlight": "apple",
+      "partner": "letterA",
+      "duration": 6000,
+      "script": {
+        "en": "A for Apple.",
+        "hi": "A से Apple — सेब।",
+        "mr": "A — Apple, म्हणजे सफरचंद.",
+        "or": "A — Apple, ମାନେ ସେଓ।"
+      },
+      "audio": "demo-letters-s03.mp3"
+    },
+    {
+      "show": [
+        "letterA",
+        "apple",
+        "ant"
+      ],
+      "highlight": "ant",
+      "partner": "letterA",
+      "duration": 7500,
+      "script": {
+        "en": "A for Ant.",
+        "hi": "A से Ant — चींटी।",
+        "mr": "A — Ant, म्हणजे मुंगी.",
+        "or": "A — Ant, ମାନେ ପିମ୍ପୁଡ଼ି।"
+      },
+      "audio": "demo-letters-s04.mp3"
+    },
+    {
+      "show": [
+        "letterA",
+        "apple",
+        "ant",
+        "ambulance"
+      ],
+      "highlight": "ambulance",
+      "partner": "letterA",
+      "duration": 7500,
+      "script": {
+        "en": "A for Ambulance.",
+        "hi": "A से Ambulance — एम्बुलेंस।",
+        "mr": "A — Ambulance, म्हणजे रुग्णवाहिका.",
+        "or": "A — Ambulance, ମାନେ ଆମ୍ବୁଲାନ୍ସ।"
+      },
+      "audio": "demo-letters-s05.mp3"
+    },
+    {
+      "show": [
+        "letterA",
+        "apple",
+        "ant",
+        "ambulance"
+      ],
+      "highlight": "letterA",
+      "duration": 7000,
+      "script": {
+        "en": "A. Apple, Ant, Ambulance.",
+        "hi": "A। सेब, चींटी, एम्बुलेंस।",
+        "mr": "A. सफरचंद, मुंगी, रुग्णवाहिका.",
+        "or": "A। ସେଓ, ପିମ୍ପୁଡ଼ି, ଆମ୍ବୁଲାନ୍ସ।"
+      },
+      "audio": "demo-letters-s06.mp3"
+    },
+    {
+      "show": [
+        "letterB"
+      ],
+      "highlight": "letterB",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital B.",
+        "hi": "यह बड़ा B है।",
+        "mr": "हे मोठं B आहे.",
+        "or": "ଏହା ବଡ଼ B।"
+      },
+      "audio": "demo-letters-s07.mp3"
+    },
+    {
+      "show": [
+        "letterB"
+      ],
+      "highlight": "letterB",
+      "duration": 5500,
+      "script": {
+        "en": "B says “buh”. Say it with me.",
+        "hi": "B की ध्वनि — buh।",
+        "mr": "B चा आवाज — buh. माझ्यासोबत म्हणा.",
+        "or": "B ର ଧ୍ୱନି — buh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "demo-letters-s08.mp3"
+    },
+    {
+      "show": [
+        "letterB",
+        "banana"
+      ],
+      "highlight": "banana",
+      "partner": "letterB",
+      "duration": 6000,
+      "script": {
+        "en": "B for Banana.",
+        "hi": "B से Banana — केला।",
+        "mr": "B — Banana, म्हणजे केळं.",
+        "or": "B — Banana, ମାନେ କଦଳୀ।"
+      },
+      "audio": "demo-letters-s09.mp3"
+    },
+    {
+      "show": [
+        "letterB",
+        "banana",
+        "bear"
+      ],
+      "highlight": "bear",
+      "partner": "letterB",
+      "duration": 7500,
+      "script": {
+        "en": "B for Bear.",
+        "hi": "B से Bear — भालू।",
+        "mr": "B — Bear, म्हणजे अस्वल.",
+        "or": "B — Bear, ମାନେ ଭାଲୁ।"
+      },
+      "audio": "demo-letters-s10.mp3"
+    },
+    {
+      "show": [
+        "letterB",
+        "banana",
+        "bear",
+        "butterfly"
+      ],
+      "highlight": "butterfly",
+      "partner": "letterB",
+      "duration": 7500,
+      "script": {
+        "en": "B for Butterfly.",
+        "hi": "B से Butterfly — तितली।",
+        "mr": "B — Butterfly, म्हणजे फुलपाखरू.",
+        "or": "B — Butterfly, ମାନେ ପ୍ରଜାପତି।"
+      },
+      "audio": "demo-letters-s11.mp3"
+    },
+    {
+      "show": [
+        "letterB",
+        "banana",
+        "bear",
+        "butterfly"
+      ],
+      "highlight": "letterB",
+      "duration": 7000,
+      "script": {
+        "en": "B. Banana, Bear, Butterfly.",
+        "hi": "B। केला, भालू, तितली।",
+        "mr": "B. केळं, अस्वल, फुलपाखरू.",
+        "or": "B। କଦଳୀ, ଭାଲୁ, ପ୍ରଜାପତି।"
+      },
+      "audio": "demo-letters-s12.mp3"
+    },
+    {
+      "show": [
+        "letterC"
+      ],
+      "highlight": "letterC",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital C.",
+        "hi": "यह बड़ा C है।",
+        "mr": "हे मोठं C आहे.",
+        "or": "ଏହା ବଡ଼ C।"
+      },
+      "audio": "demo-letters-s13.mp3"
+    },
+    {
+      "show": [
+        "letterC"
+      ],
+      "highlight": "letterC",
+      "duration": 5500,
+      "script": {
+        "en": "C says “kuh”. Say it with me.",
+        "hi": "C की ध्वनि — kuh।",
+        "mr": "C चा आवाज — kuh. माझ्यासोबत म्हणा.",
+        "or": "C ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "demo-letters-s14.mp3"
+    },
+    {
+      "show": [
+        "letterC",
+        "cat"
+      ],
+      "highlight": "cat",
+      "partner": "letterC",
+      "duration": 7500,
+      "script": {
+        "en": "C for Cat.",
+        "hi": "C से Cat — बिल्ली।",
+        "mr": "C — Cat, म्हणजे मांजर.",
+        "or": "C — Cat, ମାନେ ବିଲେଇ।"
+      },
+      "audio": "demo-letters-s15.mp3"
+    },
+    {
+      "show": [
+        "letterC",
+        "cat",
+        "crow"
+      ],
+      "highlight": "crow",
+      "partner": "letterC",
+      "duration": 7500,
+      "script": {
+        "en": "C for Crow.",
+        "hi": "C से Crow — कौआ।",
+        "mr": "C — Crow, म्हणजे कावळा.",
+        "or": "C — Crow, ମାନେ କାଉ।"
+      },
+      "audio": "demo-letters-s16.mp3"
+    },
+    {
+      "show": [
+        "letterC",
+        "cat",
+        "crow",
+        "crab"
+      ],
+      "highlight": "crab",
+      "partner": "letterC",
+      "duration": 7500,
+      "script": {
+        "en": "C for Crab.",
+        "hi": "C से Crab — केकड़ा।",
+        "mr": "C — Crab, म्हणजे खेकडा.",
+        "or": "C — Crab, ମାନେ କଙ୍କଡ଼ା।"
+      },
+      "audio": "demo-letters-s17.mp3"
+    },
+    {
+      "show": [
+        "letterC",
+        "cat",
+        "crow",
+        "crab"
+      ],
+      "highlight": "letterC",
+      "duration": 7000,
+      "script": {
+        "en": "C. Cat, Crow, Crab.",
+        "hi": "C। बिल्ली, कौआ, केकड़ा।",
+        "mr": "C. मांजर, कावळा, खेकडा.",
+        "or": "C। ବିଲେଇ, କାଉ, କଙ୍କଡ଼ା।"
+      },
+      "audio": "demo-letters-s18.mp3"
+    },
+    {
+      "show": [
+        "letterD"
+      ],
+      "highlight": "letterD",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital D.",
+        "hi": "यह बड़ा D है।",
+        "mr": "हे मोठं D आहे.",
+        "or": "ଏହା ବଡ଼ D।"
+      },
+      "audio": "demo-letters-s19.mp3"
+    },
+    {
+      "show": [
+        "letterD"
+      ],
+      "highlight": "letterD",
+      "duration": 5500,
+      "script": {
+        "en": "D says “duh”. Say it with me.",
+        "hi": "D की ध्वनि — duh।",
+        "mr": "D चा आवाज — duh. माझ्यासोबत म्हणा.",
+        "or": "D ର ଧ୍ୱନି — duh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "demo-letters-s20.mp3"
+    },
+    {
+      "show": [
+        "letterD",
+        "dog"
+      ],
+      "highlight": "dog",
+      "partner": "letterD",
+      "duration": 7500,
+      "script": {
+        "en": "D for Dog.",
+        "hi": "D से Dog — कुत्ता।",
+        "mr": "D — Dog, म्हणजे कुत्रा.",
+        "or": "D — Dog, ମାନେ କୁକୁର।"
+      },
+      "audio": "demo-letters-s21.mp3"
+    },
+    {
+      "show": [
+        "letterD",
+        "dog",
+        "duck"
+      ],
+      "highlight": "duck",
+      "partner": "letterD",
+      "duration": 7500,
+      "script": {
+        "en": "D for Duck.",
+        "hi": "D से Duck — बत्तख।",
+        "mr": "D — Duck, म्हणजे बदक.",
+        "or": "D — Duck, ମାନେ ବତକ।"
+      },
+      "audio": "demo-letters-s22.mp3"
+    },
+    {
+      "show": [
+        "letterD",
+        "dog",
+        "duck",
+        "dolphin"
+      ],
+      "highlight": "dolphin",
+      "partner": "letterD",
+      "duration": 6000,
+      "script": {
+        "en": "D for Dolphin.",
+        "hi": "D से Dolphin — डॉल्फ़िन।",
+        "mr": "D — Dolphin, म्हणजे डॉल्फिन.",
+        "or": "D — Dolphin, ମାନେ ଡଲଫିନ୍।"
+      },
+      "audio": "demo-letters-s23.mp3"
+    },
+    {
+      "show": [
+        "letterD",
+        "dog",
+        "duck",
+        "dolphin"
+      ],
+      "highlight": "letterD",
+      "duration": 7000,
+      "script": {
+        "en": "D. Dog, Duck, Dolphin.",
+        "hi": "D। कुत्ता, बत्तख, डॉल्फ़िन।",
+        "mr": "D. कुत्रा, बदक, डॉल्फिन.",
+        "or": "D। କୁକୁର, ବତକ, ଡଲଫିନ୍।"
+      },
+      "audio": "demo-letters-s24.mp3"
+    },
+    {
+      "show": [
+        "letterE"
+      ],
+      "highlight": "letterE",
+      "duration": 4500,
+      "script": {
+        "en": "This is capital E.",
+        "hi": "यह बड़ा E है।",
+        "mr": "हे मोठं E आहे.",
+        "or": "ଏହା ବଡ଼ E।"
+      },
+      "audio": "demo-letters-s25.mp3"
+    },
+    {
+      "show": [
+        "letterE"
+      ],
+      "highlight": "letterE",
+      "duration": 5500,
+      "script": {
+        "en": "E says “eh”. Say it with me.",
+        "hi": "E की ध्वनि — eh।",
+        "mr": "E चा आवाज — eh. माझ्यासोबत म्हणा.",
+        "or": "E ର ଧ୍ୱନି — eh। ମୋ ସହ କୁହ।"
+      },
+      "audio": "demo-letters-s26.mp3"
+    },
+    {
+      "show": [
+        "letterE",
+        "elephant"
+      ],
+      "highlight": "elephant",
+      "partner": "letterE",
+      "duration": 9000,
+      "script": {
+        "en": "E for Elephant.",
+        "hi": "E से Elephant — हाथी।",
+        "mr": "E — Elephant, म्हणजे हत्ती.",
+        "or": "E — Elephant, ମାନେ ହାତୀ।"
+      },
+      "audio": "demo-letters-s27.mp3"
+    },
+    {
+      "show": [
+        "letterE",
+        "elephant",
+        "eagle"
+      ],
+      "highlight": "eagle",
+      "partner": "letterE",
+      "duration": 7500,
+      "script": {
+        "en": "E for Eagle.",
+        "hi": "E से Eagle — चील।",
+        "mr": "E — Eagle, म्हणजे गरुड.",
+        "or": "E — Eagle, ମାନେ ଚିଲ।"
+      },
+      "audio": "demo-letters-s28.mp3"
+    },
+    {
+      "show": [
+        "letterE",
+        "elephant",
+        "eagle",
+        "egg"
+      ],
+      "highlight": "egg",
+      "partner": "letterE",
+      "duration": 6000,
+      "script": {
+        "en": "E for Egg.",
+        "hi": "E से Egg — अंडा।",
+        "mr": "E — Egg, म्हणजे अंडं.",
+        "or": "E — Egg, ମାନେ ଅଣ୍ଡା।"
+      },
+      "audio": "demo-letters-s29.mp3"
+    },
+    {
+      "show": [
+        "letterE",
+        "elephant",
+        "eagle",
+        "egg"
+      ],
+      "highlight": "letterE",
+      "duration": 7000,
+      "script": {
+        "en": "E. Elephant, Eagle, Egg.",
+        "hi": "E। हाथी, चील, अंडा।",
+        "mr": "E. हत्ती, गरुड, अंडं.",
+        "or": "E। ହାତୀ, ଚିଲ, ଅଣ୍ଡା।"
+      },
+      "audio": "demo-letters-s30.mp3"
+    }
+  ],
+  "budget": {
+    "triangles": 170000,
+    "drawCalls": 100,
+    "why": "Fifteen things for five letters are placed, but a step shows one letter and at most its three things; the checker counts all of them at once."
+  }
+}

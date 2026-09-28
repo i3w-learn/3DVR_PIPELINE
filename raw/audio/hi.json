@@ -49,6 +49,156 @@
     "spoken": "इन चबूतरों पर हमारे राष्ट्रीय चिह्न रखे जाएँगे.",
     "provider": "indic"
   },
+  "demo-letters-s01.mp3": {
+    "written": "यह बड़ा A है।",
+    "spoken": "यह बड़ा ए है.",
+    "provider": "indic"
+  },
+  "demo-letters-s02.mp3": {
+    "written": "A की ध्वनि — a।",
+    "spoken": "ए की ध्वनि, ऐ.",
+    "provider": "indic"
+  },
+  "demo-letters-s03.mp3": {
+    "written": "A से Apple — सेब।",
+    "spoken": "ए से ऐपल, सेब.",
+    "provider": "indic"
+  },
+  "demo-letters-s04.mp3": {
+    "written": "A से Ant — चींटी।",
+    "spoken": "ए से Ant, चींटी.",
+    "provider": "indic"
+  },
+  "demo-letters-s05.mp3": {
+    "written": "A से Ambulance — एम्बुलेंस।",
+    "spoken": "ए से Ambulance, एम्बुलेंस.",
+    "provider": "indic"
+  },
+  "demo-letters-s06.mp3": {
+    "written": "A। सेब, चींटी, एम्बुलेंस।",
+    "spoken": "ए. सेब, चींटी, एम्बुलेंस.",
+    "provider": "indic"
+  },
+  "demo-letters-s07.mp3": {
+    "written": "यह बड़ा B है।",
+    "spoken": "यह बड़ा बी है.",
+    "provider": "indic"
+  },
+  "demo-letters-s08.mp3": {
+    "written": "B की ध्वनि — buh।",
+    "spoken": "बी की ध्वनि, ब.",
+    "provider": "indic"
+  },
+  "demo-letters-s09.mp3": {
+    "written": "B से Banana — केला।",
+    "spoken": "बी से बनाना, केला.",
+    "provider": "indic"
+  },
+  "demo-letters-s10.mp3": {
+    "written": "B से Bear — भालू।",
+    "spoken": "बी से Bear, भालू.",
+    "provider": "indic"
+  },
+  "demo-letters-s11.mp3": {
+    "written": "B से Butterfly — तितली।",
+    "spoken": "बी से Butterfly, तितली.",
+    "provider": "indic"
+  },
+  "demo-letters-s12.mp3": {
+    "written": "B। केला, भालू, तितली।",
+    "spoken": "बी. केला, भालू, तितली.",
+    "provider": "indic"
+  },
+  "demo-letters-s13.mp3": {
+    "written": "यह बड़ा C है।",
+    "spoken": "यह बड़ा सी है.",
+    "provider": "indic"
+  },
+  "demo-letters-s14.mp3": {
+    "written": "C की ध्वनि — kuh।",
+    "spoken": "सी की ध्वनि, क.",
+    "provider": "indic"
+  },
+  "demo-letters-s15.mp3": {
+    "written": "C से Cat — बिल्ली।",
+    "spoken": "सी से कैट, बिल्ली.",
+    "provider": "indic"
+  },
+  "demo-letters-s16.mp3": {
+    "written": "C से Crow — कौआ।",
+    "spoken": "सी से Crow, कौआ.",
+    "provider": "indic"
+  },
+  "demo-letters-s17.mp3": {
+    "written": "C से Crab — केकड़ा।",
+    "spoken": "सी से Crab, केकड़ा.",
+    "provider": "indic"
+  },
+  "demo-letters-s18.mp3": {
+    "written": "C। बिल्ली, कौआ, केकड़ा।",
+    "spoken": "सी. बिल्ली, कौआ, केकड़ा.",
+    "provider": "indic"
+  },
+  "demo-letters-s19.mp3": {
+    "written": "यह बड़ा D है।",
+    "spoken": "यह बड़ा डी है.",
+    "provider": "indic"
+  },
+  "demo-letters-s20.mp3": {
+    "written": "D की ध्वनि — duh।",
+    "spoken": "डी की ध्वनि, ड.",
+    "provider": "indic"
+  },
+  "demo-letters-s21.mp3": {
+    "written": "D से Dog — कुत्ता।",
+    "spoken": "डी से डॉग, कुत्ता.",
+    "provider": "indic"
+  },
+  "demo-letters-s22.mp3": {
+    "written": "D से Duck — बत्तख।",
+    "spoken": "डी से Duck, बत्तख.",
+    "provider": "indic"
+  },
+  "demo-letters-s23.mp3": {
+    "written": "D से Dolphin — डॉल्फ़िन।",
+    "spoken": "डी से Dolphin, डॉल्फ़िन.",
+    "provider": "indic"
+  },
+  "demo-letters-s24.mp3": {
+    "written": "D। कुत्ता, बत्तख, डॉल्फ़िन।",
+    "spoken": "डी. कुत्ता, बत्तख, डॉल्फ़िन.",
+    "provider": "indic"
+  },
+  "demo-letters-s25.mp3": {
+    "written": "यह बड़ा E है।",
+    "spoken": "यह बड़ा ई है.",
+    "provider": "indic"
+  },
+  "demo-letters-s26.mp3": {
+    "written": "E की ध्वनि — eh।",
+    "spoken": "ई की ध्वनि, ए.",
+    "provider": "indic"
+  },
+  "demo-letters-s27.mp3": {
+    "written": "E से Elephant — हाथी।",
+    "spoken": "ई से एलिफ़ेंट, हाथी.",
+    "provider": "indic"
+  },
+  "demo-letters-s28.mp3": {
+    "written": "E से Eagle — चील।",
+    "spoken": "ई से Eagle, चील.",
+    "provider": "indic"
+  },
+  "demo-letters-s29.mp3": {
+    "written": "E से Egg — अंडा।",
+    "spoken": "ई से Egg, अंडा.",
+    "provider": "indic"
+  },
+  "demo-letters-s30.mp3": {
+    "written": "E। हाथी, चील, अंडा।",
+    "spoken": "ई. हाथी, चील, अंडा.",
+    "provider": "indic"
+  },
   "demo-peacock-s01.mp3": {
     "written": "चार मोर। बना हुआ, Tripo, Meshy, Sketchfab। आख़िरी तीन चलते हैं।",
     "spoken": "चार मोर. बना हुआ, Tripo, Meshy, Sketchfab. आख़िरी तीन चलते हैं.",

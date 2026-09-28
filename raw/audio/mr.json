@@ -49,6 +49,156 @@
     "spoken": "या चौथऱ्यांवर आपली राष्ट्रीय प्रतीकं ठेवली जातील.",
     "provider": "indic"
   },
+  "demo-letters-s01.mp3": {
+    "written": "हे मोठं A आहे.",
+    "spoken": "हे मोठं ए आहे.",
+    "provider": "indic"
+  },
+  "demo-letters-s02.mp3": {
+    "written": "A चा आवाज — a. माझ्यासोबत म्हणा.",
+    "spoken": "ए चा आवाज, ऐ. माझ्यासोबत म्हणा.",
+    "provider": "indic"
+  },
+  "demo-letters-s03.mp3": {
+    "written": "A — Apple, म्हणजे सफरचंद.",
+    "spoken": "ए, अॅपल, म्हणजे सफरचंद.",
+    "provider": "indic"
+  },
+  "demo-letters-s04.mp3": {
+    "written": "A — Ant, म्हणजे मुंगी.",
+    "spoken": "ए, Ant, म्हणजे मुंगी.",
+    "provider": "indic"
+  },
+  "demo-letters-s05.mp3": {
+    "written": "A — Ambulance, म्हणजे रुग्णवाहिका.",
+    "spoken": "ए, Ambulance, म्हणजे रुग्णवाहिका.",
+    "provider": "indic"
+  },
+  "demo-letters-s06.mp3": {
+    "written": "A. सफरचंद, मुंगी, रुग्णवाहिका.",
+    "spoken": "ए. सफरचंद, मुंगी, रुग्णवाहिका.",
+    "provider": "indic"
+  },
+  "demo-letters-s07.mp3": {
+    "written": "हे मोठं B आहे.",
+    "spoken": "हे मोठं बी आहे.",
+    "provider": "indic"
+  },
+  "demo-letters-s08.mp3": {
+    "written": "B चा आवाज — buh. माझ्यासोबत म्हणा.",
+    "spoken": "बी चा आवाज, ब. माझ्यासोबत म्हणा.",
+    "provider": "indic"
+  },
+  "demo-letters-s09.mp3": {
+    "written": "B — Banana, म्हणजे केळं.",
+    "spoken": "बी, बनाना, म्हणजे केळं.",
+    "provider": "indic"
+  },
+  "demo-letters-s10.mp3": {
+    "written": "B — Bear, म्हणजे अस्वल.",
+    "spoken": "बी, Bear, म्हणजे अस्वल.",
+    "provider": "indic"
+  },
+  "demo-letters-s11.mp3": {
+    "written": "B — Butterfly, म्हणजे फुलपाखरू.",
+    "spoken": "बी, Butterfly, म्हणजे फुलपाखरू.",
+    "provider": "indic"
+  },
+  "demo-letters-s12.mp3": {
+    "written": "B. केळं, अस्वल, फुलपाखरू.",
+    "spoken": "बी. केळं, अस्वल, फुलपाखरू.",
+    "provider": "indic"
+  },
+  "demo-letters-s13.mp3": {
+    "written": "हे मोठं C आहे.",
+    "spoken": "हे मोठं सी आहे.",
+    "provider": "indic"
+  },
+  "demo-letters-s14.mp3": {
+    "written": "C चा आवाज — kuh. माझ्यासोबत म्हणा.",
+    "spoken": "सी चा आवाज, क. माझ्यासोबत म्हणा.",
+    "provider": "indic"
+  },
+  "demo-letters-s15.mp3": {
+    "written": "C — Cat, म्हणजे मांजर.",
+    "spoken": "सी, कॅट, म्हणजे मांजर.",
+    "provider": "indic"
+  },
+  "demo-letters-s16.mp3": {
+    "written": "C — Crow, म्हणजे कावळा.",
+    "spoken": "सी, Crow, म्हणजे कावळा.",
+    "provider": "indic"
+  },
+  "demo-letters-s17.mp3": {
+    "written": "C — Crab, म्हणजे खेकडा.",
+    "spoken": "सी, Crab, म्हणजे खेकडा.",
+    "provider": "indic"
+  },
+  "demo-letters-s18.mp3": {
+    "written": "C. मांजर, कावळा, खेकडा.",
+    "spoken": "सी. मांजर, कावळा, खेकडा.",
+    "provider": "indic"
+  },
+  "demo-letters-s19.mp3": {
+    "written": "हे मोठं D आहे.",
+    "spoken": "हे मोठं डी आहे.",
+    "provider": "indic"
+  },
+  "demo-letters-s20.mp3": {
+    "written": "D चा आवाज — duh. माझ्यासोबत म्हणा.",
+    "spoken": "डी चा आवाज, ड. माझ्यासोबत म्हणा.",
+    "provider": "indic"
+  },
+  "demo-letters-s21.mp3": {
+    "written": "D — Dog, म्हणजे कुत्रा.",
+    "spoken": "डी, डॉग, म्हणजे कुत्रा.",
+    "provider": "indic"
+  },
+  "demo-letters-s22.mp3": {
+    "written": "D — Duck, म्हणजे बदक.",
+    "spoken": "डी, Duck, म्हणजे बदक.",
+    "provider": "indic"
+  },
+  "demo-letters-s23.mp3": {
+    "written": "D — Dolphin, म्हणजे डॉल्फिन.",
+    "spoken": "डी, Dolphin, म्हणजे डॉल्फिन.",
+    "provider": "indic"
+  },
+  "demo-letters-s24.mp3": {
+    "written": "D. कुत्रा, बदक, डॉल्फिन.",
+    "spoken": "डी. कुत्रा, बदक, डॉल्फिन.",
+    "provider": "indic"
+  },
+  "demo-letters-s25.mp3": {
+    "written": "हे मोठं E आहे.",
+    "spoken": "हे मोठं ई आहे.",
+    "provider": "indic"
+  },
+  "demo-letters-s26.mp3": {
+    "written": "E चा आवाज — eh. माझ्यासोबत म्हणा.",
+    "spoken": "ई चा आवाज, ए. माझ्यासोबत म्हणा.",
+    "provider": "indic"
+  },
+  "demo-letters-s27.mp3": {
+    "written": "E — Elephant, म्हणजे हत्ती.",
+    "spoken": "ई, एलिफ़ेंट, म्हणजे हत्ती.",
+    "provider": "indic"
+  },
+  "demo-letters-s28.mp3": {
+    "written": "E — Eagle, म्हणजे गरुड.",
+    "spoken": "ई, Eagle, म्हणजे गरुड.",
+    "provider": "indic"
+  },
+  "demo-letters-s29.mp3": {
+    "written": "E — Egg, म्हणजे अंडं.",
+    "spoken": "ई, Egg, म्हणजे अंडं.",
+    "provider": "indic"
+  },
+  "demo-letters-s30.mp3": {
+    "written": "E. हत्ती, गरुड, अंडं.",
+    "spoken": "ई. हत्ती, गरुड, अंडं.",
+    "provider": "indic"
+  },
   "demo-peacock-s01.mp3": {
     "written": "चार मोर. काढलेला, Tripo, Meshy, Sketchfab. शेवटचे तीन चालतात.",
     "spoken": "चार मोर. काढलेला, Tripo, Meshy, Sketchfab. शेवटचे तीन चालतात.",
