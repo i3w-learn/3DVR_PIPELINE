@@ -3,7 +3,7 @@
   "_comment": "The letter place. White sand underfoot, the sea ahead, and an empty sky for a letter to float in. Nothing else in the curriculum is a beach, so the child knows where they are: this is where letters live. The sea is a long water strip laid across the front; the child never walks, so its far edge is the horizon.",
   "sky": {
     "hdri": "beach.jpg",
-    "intensity": 1.1
+    "intensity": 1.15
   },
   "ground": {
     "color": "sand_color.jpg",
@@ -18,14 +18,14 @@
     "intensity": 1.25
   },
   "light": {
-    "sky": "#cfe4f2",
-    "ground": "#d8c9a0",
-    "intensity": 0.4
+    "sky": "#d6e8f4",
+    "ground": "#e0d2ab",
+    "intensity": 0.45
   },
   "fog": {
-    "color": "#dcebf3",
-    "near": 40,
-    "far": 150
+    "color": "#e6dfd4",
+    "near": 45,
+    "far": 160
   },
   "shadows": true,
   "start": {
@@ -39,11 +39,22 @@
         "shape": "river",
         "length": 260,
         "width": 110,
-        "color": "#2b7f93",
-        "flow": 0.04,
-        "mud": "#cbb98f"
+        "color": "#3390a4",
+        "flow": 0.05,
+        "mud": "#d2c19a"
       },
       "position": "0 0 -68",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "build": "shore",
+      "params": {
+        "length": 240,
+        "reach": 3.0,
+        "period": 7.5
+      },
+      "position": "0 0 -13",
       "castShadow": false,
       "contact": false
     },
@@ -72,18 +83,6 @@
       "scale": "0.95 0.95 0.95"
     },
     {
-      "model": "realrocks",
-      "position": "-5 0 -10",
-      "rotation": "0 60 0",
-      "scale": "0.9 0.9 0.9"
-    },
-    {
-      "model": "realrocks",
-      "position": "6.5 0 -11",
-      "rotation": "0 -110 0",
-      "scale": "0.7 0.7 0.7"
-    },
-    {
       "build": "treeline",
       "params": {
         "model": "realpalm",
@@ -98,6 +97,52 @@
       "position": "0 0 0",
       "castShadow": false,
       "contact": false
+    },
+    {
+      "model": "realshell",
+      "position": "-3.9 0 -2.6",
+      "rotation": "0 40 0",
+      "scale": "2.4 2.4 2.4",
+      "castShadow": false
+    },
+    {
+      "model": "realshell",
+      "position": "3.6 0 -2.2",
+      "rotation": "0 -70 0",
+      "scale": "2.2 2.2 2.2",
+      "castShadow": false
+    },
+    {
+      "model": "realshell",
+      "position": "5.2 0 -4.8",
+      "rotation": "0 15 0",
+      "scale": "2.6 2.6 2.6",
+      "castShadow": false
+    },
+    {
+      "model": "realshell",
+      "position": "-1.6 0 -12.2",
+      "rotation": "0 120 0",
+      "scale": "1.8 1.8 1.8",
+      "castShadow": false
+    },
+    {
+      "model": "realshell",
+      "position": "2.4 0 -11.8",
+      "rotation": "0 200 0",
+      "scale": "1.8 1.8 1.8",
+      "castShadow": false
+    },
+    {
+      "model": "realstarfish",
+      "position": "4.3 0 -4.4",
+      "rotation": "0 25 0",
+      "scale": "2.6 2.6 2.6",
+      "castShadow": false
     }
-  ]
+  ],
+  "shadow": {
+    "extent": 18,
+    "mapSize": 3072
+  }
 }

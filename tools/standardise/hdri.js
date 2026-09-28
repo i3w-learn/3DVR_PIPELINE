@@ -35,12 +35,15 @@ const RAW_HDRI = path.join(RAW_DIR, 'hdri');
 const HDRI_DIR = path.join(ASSETS_DIR, 'hdri');
 
 /**
- * 2048×1024 is the smallest equirect that does not show its pixels when it
- * fills a headset's field of view. The sky is mostly smooth gradient, so JPEG
- * carries it at a quality that would be too low for a texture with detail.
+ * 4096×2048. A headset shows about 100° across ~1800 pixels, so a 2048-wide
+ * sky (5.7 px per degree) is drawn at a third of the panel's resolution and
+ * its pixels show along the horizon — Manas saw them. 4096 doubles that for
+ * ~200 KB. The sky is mostly smooth gradient, so JPEG carries it at a quality
+ * that would be too low for a texture with detail. A source smaller than
+ * this is not enlarged: fetch it at 4k (`--res 4k`).
  */
-const WIDTH = 2048;
-const QUALITY = 86;
+const WIDTH = 4096;
+const QUALITY = 90;
 
 async function main() {
   const requested = process.argv.slice(2);
@@ -63,13 +66,13 @@ async function main() {
     const target = path.join(HDRI_DIR, `${id}.jpg`);
 
     await sharp(pixels, { raw: { width, height, channels: 3 } })
-      .resize(WIDTH, WIDTH / 2, { fit: 'fill' })
+      .resize(Math.min(WIDTH, width), Math.min(WIDTH, width) / 2, { fit: 'fill' })
       .jpeg({ quality: QUALITY, mozjpeg: true })
       .toFile(target);
 
     const { size } = await fs.stat(target);
     console.log(
-      `  ✓ ${id.padEnd(12)} ${width}×${height} HDR → ${WIDTH}×${WIDTH / 2} JPEG  ${(size / 1024).toFixed(0)} KB`
+      `  ✓ ${id.padEnd(12)} ${width}×${height} HDR → ${Math.min(WIDTH, width)}×${Math.min(WIDTH, width) / 2} JPEG  ${(size / 1024).toFixed(0)} KB`
     );
   }
 

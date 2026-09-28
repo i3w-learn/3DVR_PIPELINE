@@ -223,6 +223,15 @@ export class LessonSync {
     // Fog tinted to the horizon is the cheapest distance cue there is: distant
     // trees fade into the sky instead of standing out as cut-outs. It also
     // hides the edge of the ground plane for free.
+    // How sharp the shadows are. The shadow map is one fixed-size picture
+    // stretched over a box; a land whose things all sit close in can ask for
+    // a tighter box and a bigger map, and its shadow edges stop looking like
+    // steps — which in a headset they did.
+    scene.setAttribute('scene-look', {
+      shadowExtent: stage.shadow?.extent ?? 28,
+      shadowMapSize: stage.shadow?.mapSize ?? 2048,
+    });
+
     if (stage.fog) {
       scene.setAttribute('fog', {
         type: 'linear',

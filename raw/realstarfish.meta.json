@@ -1,0 +1,11 @@
+{
+  "id": "realstarfish",
+  "source": "Sketchfab — \"Starfish\" by Rigsters",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/starfish-7f791ca21f494f548e9d6657d6c6507c",
+  "targetHeight": 0.05,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.3,
+  "simplifyError": 0.02
+}

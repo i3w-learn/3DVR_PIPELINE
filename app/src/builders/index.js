@@ -40,6 +40,7 @@ import './realwater.js';
 import './river.js';
 import './room.js';
 import './sea.js';
+import './shore.js';
 import './shapes.js';
 import './sky.js';
 import './snow.js';
