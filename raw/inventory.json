@@ -1,0 +1,716 @@
+{
+  "_about": "One line per object still to make. Hand-edit `from`, `uid`, `status`, `note`. Everything else in docs/OBJECT-INVENTORY.md is worked out by `npm run content:inventory`. `from`: sketchfab | tripo | build | switch. `status` you set: to find | lead | checked in VR. The script itself reports switch only, and drops a row once every lesson uses the realistic model.",
+  "_statuses": [
+    "to find",
+    "lead",
+    "switch only",
+    "checked in VR"
+  ],
+  "airplane": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "applehalf": {
+    "from": "sketchfab",
+    "uid": "3502a77a4acd44868bd79839d243f2ae",
+    "lead": "Sliced apple — ¡Jacques (CC Attribution, 6,208 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "badminton": {
+    "from": "sketchfab",
+    "uid": "795e4cca2e544d7ab86a8e5c7ded2362",
+    "lead": "Badminton Racket And Shuttlecock (Low Poly) — game_travel (CC Attribution, 5,158 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "barn": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "basketball": {
+    "from": "sketchfab",
+    "uid": "eb172b5f4e544f428c2bcd8d3f067a91",
+    "lead": "Basketball — Ika3D (CC Attribution, 3,072 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "beetroot": {
+    "from": "sketchfab",
+    "uid": "aa4c6b8578c54d0eb92cc8cf5ba96a78",
+    "lead": "Beetroot — Antoine Dresen (CC Attribution, 31,114 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "bicycle": {
+    "from": "sketchfab",
+    "uid": "da6507928c0c4a5c8776008cdb9f747e",
+    "lead": "Classic Bicycle | LowPoly | Game ready — by__Rx (CC Attribution, 19,822 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "bone": {
+    "from": "sketchfab",
+    "uid": "d5c4c243ce0143098e42d01df90634df",
+    "lead": "Tasty Bone — Crodattilo (CC Attribution, 252 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "book": {
+    "from": "sketchfab",
+    "uid": "06d5a80a04fc4c5ab552759e9a97d91a",
+    "lead": "Medieval Fantasy Book — Pixel (CC Attribution, 54,788 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "bottle": {
+    "from": "sketchfab",
+    "uid": "efa1c4c1f2a947659ded2e61e20eff31",
+    "lead": "Plastic Water Bottle — Jeremy E. Grayson (CC Attribution, 10,296 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "bowl": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "burger": {
+    "from": "sketchfab",
+    "uid": "b4cc15417d58445ebb698229d6161e61",
+    "lead": "HAMBURGER — gelmi.com.br (CC Attribution, 71,181 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "camel": {
+    "from": "sketchfab",
+    "uid": "99af7daa5baf450ea7b809937937e6d5",
+    "lead": "Camel — eb78 (CC Attribution, 25,914 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "candybar": {
+    "from": "sketchfab",
+    "uid": "32e0201d12be42b3b15557f2f576ea3e",
+    "lead": "Hershey's Chocolate Bar Unwrapped — Yanez Designs (CC Attribution, 856 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "cobra": {
+    "from": "sketchfab",
+    "uid": "49ae8dec5fea4219ba7dba89016352d8",
+    "lead": "Cobra Staff — Kanna-Nakajima (CC Attribution, 2,692 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "coconuthalf": {
+    "from": "sketchfab",
+    "uid": "7cee3e952c944fba8a672aab149ce4d0",
+    "lead": "coconut Half _ANIL — aniljaco (CC Attribution, 62,429 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "comb": {
+    "from": "sketchfab",
+    "uid": "9e23db8b1dbe473280e541d0bc4d5ace",
+    "lead": "Short Hair Combed Back (With Bones) — zHairezt (CC Attribution, 7,934 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "cricketbat": {
+    "from": "sketchfab",
+    "uid": "354bb14074cd4d83985d391f94619e08",
+    "lead": "Cricket Bat — omkar.jawake (CC Attribution, 244 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "cup": {
+    "from": "sketchfab",
+    "uid": "c286ac7a17ac401d80880e120b7e9acb",
+    "lead": "Kawaii Skeleton Cat Cup — AnixMoonLight (CC Attribution, 51,838 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "donut": {
+    "from": "sketchfab",
+    "uid": "0279c25ef4884f99af7894f9a0710331",
+    "lead": "Coffee and donuts — Ivan Dnistrian (CC Attribution, 87,720 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "dragonfly": {
+    "from": "sketchfab",
+    "uid": "3cbbe9177ae24f1a8ca953ca7eb8bb86",
+    "lead": "Dragonfly — 7SkyArtist (CC Attribution, 15,702 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "drum": {
+    "from": "sketchfab",
+    "uid": "0b6775113093414c8174982c4d9337a4",
+    "lead": "Concrete Barrier / Drum Barrel / Fences — Myjato (CC Attribution, 13,236 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "envelope": {
+    "from": "sketchfab",
+    "uid": "303f54d7a6e84aad9af3f341c2fa4ad7",
+    "lead": "Papers & Envelopes — Michael V (CC Attribution, 460 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "flute": {
+    "from": "sketchfab",
+    "uid": "a2cc58abc88a49dba56e5bcfa03d89be",
+    "lead": "\"THE PAN FLUTE\" — ColdSaturNight (CC Attribution, 38,266 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "fries": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "gift": {
+    "from": "sketchfab",
+    "uid": "ad99e7faf07c45d9b57324b4a0e94c53",
+    "lead": "Game Ready | Free Christmas Gifts — Saritasa (CC Attribution, 10,024 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "glass": {
+    "from": "sketchfab",
+    "uid": "7669b27d4e634e7b9cd114d50c33af97",
+    "lead": "Glass of Tea — Tiago Lopes (CC Attribution, 3,673 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "grapes": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "guitar": {
+    "from": "sketchfab",
+    "uid": "c0ae96b52bed4f5791cf6cea9f213694",
+    "lead": "Classical Guitar - PS1 Low Poly — Wersaus33 (CC Attribution, 268 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "helicopter": {
+    "from": "sketchfab",
+    "uid": "bb65bdfde2c54007a52dfbe1d91d930d",
+    "lead": "Hind Attack Helicopter — Ashley Aslett (CC Attribution, 35,315 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "hockeystick": {
+    "from": "sketchfab",
+    "uid": "3f6b365520474d6c8353b40afece41dd",
+    "lead": "Hockey Stick — Duznot (CC Attribution, 124 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "honey": {
+    "from": "sketchfab",
+    "uid": "162373021f9147dea70043fc0521b0fe",
+    "lead": "CC0 - Honey Dipper — plaggy (CC Attribution, 1,472 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "housefly": {
+    "from": "sketchfab",
+    "uid": "cd8e96659de94fa79c9e6ea1a191c853",
+    "lead": "Butterfly - Blend, FBX file — ngocvu13120 (CC Attribution, 6,284 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "icecream": {
+    "from": "sketchfab",
+    "uid": "8d283399dde7478f8aa977b48a427c36",
+    "lead": "ICECREAM — gelmi.com.br (CC Attribution, 61,604 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "kite": {
+    "from": "sketchfab",
+    "uid": "ef454e3700a7462eb27af245e685529a",
+    "lead": "Medieval Kite Shield — iedalton (CC Attribution, 5,644 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "ladybug": {
+    "from": "sketchfab",
+    "uid": "0eb4c5bef51849cfa7bb1c6c0943a93a",
+    "lead": "Ladybug Bikini — Daniel Pachon (CC Attribution, 63,036 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "lizard": {
+    "from": "sketchfab",
+    "uid": "a710eb3eaeab4200a2ff83abc9b0c4db",
+    "lead": "Lizardman — DJMaesen (CC Attribution, 6,582 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "lollipop": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "milk": {
+    "from": "sketchfab",
+    "uid": "5b1e483e1f9d4d3d98bda551b7caef76",
+    "lead": "Drinking Milk — Mike (CC Attribution, 22,344 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "milkbottle": {
+    "from": "sketchfab",
+    "uid": "5e8d71045e2040ba8f6619d86d204cf5",
+    "lead": "Milk — Multipainkiller Studio (CC Attribution, 1,952 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "nest": {
+    "from": "sketchfab",
+    "uid": "430a2d149c49414ca66df5acfacfa4ed",
+    "lead": "Osprey Nest Concept — Ryley Burnett (CC Attribution, 72,466 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "octopus": {
+    "from": "sketchfab",
+    "uid": "06034af18d0b4f5fa0d5efdb475b5bb7",
+    "lead": "WoP - Octopus Pirate King (High Poly) — Doctor A. (CC Attribution, 90,880 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "pearhalf": {
+    "from": "sketchfab",
+    "uid": "da32b18414974e32b5402d270e26dc66",
+    "lead": "Japanese Pear Hosui（豊水）half 2 — Akiko_NAKAMURA (CC Attribution, 50,000 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "popsicle": {
+    "from": "sketchfab",
+    "uid": "ea06ce6c179a4676a1e9329f3b7ee127",
+    "lead": "POPSICLE — gelmi.com.br (CC Attribution, 2,216 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "pot": {
+    "from": "sketchfab",
+    "uid": "851f78fc9a994cd5a1c392ce28c9e414",
+    "lead": "3DDecember 2021 - Copper Pots and Pans — Jack Kelly (CC Attribution, 50,368 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "racket": {
+    "from": "sketchfab",
+    "uid": "fab5950b1b6f441da6a73c314f0cd04e",
+    "lead": "Tennis Court (Animation) — Yanez Designs (CC Attribution, 39,116 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "radish": {
+    "from": "sketchfab",
+    "uid": "761f7878c9ad4d90a7000776425dc01a",
+    "lead": "Radish Leaf 01 — POLYSCAN (CC Attribution, 700 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "rock": {
+    "from": "sketchfab",
+    "uid": "c2208f5ccc004f1681d27de67fe75799",
+    "lead": "Desert | Rocks | Stones | Pack — YadroGames (CC Attribution, 13,777 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "rocket": {
+    "from": "sketchfab",
+    "uid": "94000688843242f79a44686d086663b0",
+    "lead": "Toy Rocketship — Smoggybeard (CC Attribution, 65,200 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "rose": {
+    "from": "sketchfab",
+    "uid": "65df7c2d34ca47d4ae0c0e2b91850ee7",
+    "lead": "rose flower — SCANIMAT (CC Attribution, 50,036 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "snake": {
+    "from": "sketchfab",
+    "uid": "794b77a3e4654a669cf259d20dc89ec7",
+    "lead": "Snake Statue — Ville Seppänen (CC Attribution, 5,052 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "soap": {
+    "from": "sketchfab",
+    "uid": "fb7a4f1e7ea24c5296998b0761b21054",
+    "lead": "Soap Dish / Duck Soap Dish — Renend Studio (CC Attribution, 2,772 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "soccerball": {
+    "from": "sketchfab",
+    "uid": "46c91864ef384158b0078e20bdbfe3e9",
+    "lead": "Soccer Ball — typhomnt (CC Attribution, 7,044 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "sodacan": {
+    "from": "sketchfab",
+    "uid": "4e0be610db9646929d8be84491f1a72f",
+    "lead": "Soda Cans — Yanez Designs (CC Attribution, 14,048 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "sodaglass": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "soup": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "spoon": {
+    "from": "sketchfab",
+    "uid": "069b86d4b4a2492e92eb3349805479f9",
+    "lead": "Spoon SW388 (Low&High Poly) — Martin Trafas (CC Attribution, 35,438 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "starfish": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "stethoscope": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "sunflower": {
+    "from": "sketchfab",
+    "uid": "3a9514b8df044abe809432201b8f1c6e",
+    "lead": "Sunflower — zvanstone (CC Attribution, 1,008 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "teacup": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "tennisball": {
+    "from": "sketchfab",
+    "uid": "edc344dcc65440ea97b5eae84f1957a4",
+    "lead": "Tennis Ball — Tentrox (CC Attribution, 1,520 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "toothbrush": {
+    "from": "sketchfab",
+    "uid": "3d334e0398ce44a598573a819e0daa79",
+    "lead": "Toothbrush — charlesmconard (CC Attribution, 84,128 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "towel": {
+    "from": "sketchfab",
+    "uid": "d33491d3eaf845a78028afa842bf9970",
+    "lead": "Towel — andree (CC Attribution, 8,404 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "trumpet": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "violin": {
+    "from": "sketchfab",
+    "uid": "2213cfb2fc9c4c29a2c73b01b59c177c",
+    "lead": "stylized violin — demmerize (CC Attribution, 4,977 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "xmastree": {
+    "from": "sketchfab",
+    "uid": "36868988285f4b60b3e389e1aa1bab3f",
+    "lead": "Christmas Ball — Ivanix88 (CC Attribution, 49,482 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "yarn": {
+    "from": "sketchfab",
+    "uid": "92479d2e4c7f4ac389a4ea2338ff60ea",
+    "lead": "yarn_ball — lililaz (CC Attribution, 37,984 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "fence": {
+    "from": "sketchfab",
+    "uid": "0cbf546419cf499cbabfee3af0916215",
+    "lead": "Fences | Concretes | Metal | Desert | Old | Pack — YadroGames (CC Attribution, 2,476 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "person-girl": {
+    "from": "tripo",
+    "uid": "",
+    "lead": "no free hit on Sketchfab",
+    "status": "to find",
+    "note": "needs a rigged, posable figure; toy figure from code until then"
+  },
+  "person-child": {
+    "from": "tripo",
+    "uid": "",
+    "lead": "no free hit on Sketchfab",
+    "status": "to find",
+    "note": "needs a rigged, posable figure; toy figure from code until then"
+  },
+  "person-woman": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": "needs a rigged, posable figure; toy figure from code until then"
+  },
+  "person-man": {
+    "from": "sketchfab",
+    "uid": "54b9e050d0d6424b848a04bec02a85d0",
+    "lead": "Indian Man In Dhoti — anandmohan662 (CC Attribution, 21,604 faces)",
+    "status": "lead",
+    "note": "needs a rigged, posable figure; toy figure from code until then"
+  },
+  "person-teacher": {
+    "from": "sketchfab",
+    "uid": "2b24fd414b9a4fbb9ffb5ffdd4e6a4e5",
+    "lead": "Animated Female Teacher for Narration — LasquetiSpice (CC Attribution, 14,204 faces)",
+    "status": "lead",
+    "note": "needs a rigged, posable figure; toy figure from code until then"
+  },
+  "person-postman": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": "needs a rigged, posable figure; toy figure from code until then"
+  },
+  "person-farmer": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": "needs a rigged, posable figure; toy figure from code until then"
+  },
+  "person-villager": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": "needs a rigged, posable figure; toy figure from code until then"
+  },
+  "person-queen": {
+    "from": "sketchfab",
+    "uid": "f766562cc5ed466fb28e4f99f97248ed",
+    "lead": "Blood Queen | Rigged | Lost Ark — TopNotch Assets (CC Attribution, 70,413 faces)",
+    "status": "lead",
+    "note": "needs a rigged, posable figure; toy figure from code until then"
+  },
+  "peacock": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "flower": {
+    "from": "sketchfab",
+    "uid": "",
+    "lead": "",
+    "status": "to find",
+    "note": ""
+  },
+  "campfire": {
+    "from": "sketchfab",
+    "uid": "1f6834effb514d4c8a0fd34accb88251",
+    "lead": "Campfire — Mandrake (CC Attribution, 19,964 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "kennel": {
+    "from": "sketchfab",
+    "uid": "33a3c9e65187430897c967b90905209b",
+    "lead": "Building No.7 (RCMP Police Dog Kennel and Run) — pcdawson (CC Attribution, 0 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "hive": {
+    "from": "sketchfab",
+    "uid": "79e7f4b1d2db4e72bb51c804683da6bd",
+    "lead": "Beehive box — blenderboom (CC Attribution, 94,576 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "den": {
+    "from": "tripo",
+    "uid": "",
+    "lead": "no free hit on Sketchfab",
+    "status": "to find",
+    "note": ""
+  },
+  "tabla": {
+    "from": "sketchfab",
+    "uid": "91185ba35ece4a3792bbda7a205c830a",
+    "lead": "Surfboard / Tabla de surf — jose908abt (CC Attribution, 7,744 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "dholak": {
+    "from": "sketchfab",
+    "uid": "63e525022c344d1fba336c5765ff5300",
+    "lead": "Dholak — gps.saluja80 (CC Attribution, 636 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "harmonium": {
+    "from": "sketchfab",
+    "uid": "8c691db40a3e47da8c14952e345b6615",
+    "lead": "INDIAN HARMONIUM — anandmohan662 (CC Attribution, 19,303 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "xylophone": {
+    "from": "sketchfab",
+    "uid": "b9c057311d0c44eab7a4556eccdba708",
+    "lead": "Kid's Xylophone — pamruta (CC Attribution, 15,480 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "umbrella": {
+    "from": "sketchfab",
+    "uid": "ae0abff9bb9d4bb3b2ef634b8bc539d5",
+    "lead": "Umbrella — Tatiana Sumarokova (CC Attribution, 26,669 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "balloon": {
+    "from": "sketchfab",
+    "uid": "ab7a88ee339a4a1b9c36ddbae44ae4a2",
+    "lead": "Viva Balloon — KevinAz61 (CC Attribution, 32,053 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "stall": {
+    "from": "sketchfab",
+    "uid": "7d9b2922dd0941dab820c4763078c789",
+    "lead": "Medieval Food Stall — SpatialNeglect (CC Attribution, 25,283 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "gate": {
+    "from": "sketchfab",
+    "uid": "8a2802a1bac441149b309f0d2c3f3ce0",
+    "lead": "Garden Gateway — Defne Tuncer (CC Attribution, 5,164 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "door": {
+    "from": "sketchfab",
+    "uid": "7359ae35ee664739aaaab25726ca4792",
+    "lead": "Medieval Door Pack — Thangzy (CC Attribution, 50,978 faces)",
+    "status": "lead",
+    "note": ""
+  },
+  "apple": {
+    "from": "switch",
+    "uid": "",
+    "lead": "realapple is already on disk",
+    "status": "to find",
+    "note": "point the lesson at the real model and re-check the triangle budget"
+  },
+  "bus": {
+    "from": "switch",
+    "uid": "",
+    "lead": "realbus is already on disk",
+    "status": "to find",
+    "note": "point the lesson at the real model and re-check the triangle budget"
+  },
+  "car": {
+    "from": "switch",
+    "uid": "",
+    "lead": "realcar is already on disk",
+    "status": "to find",
+    "note": "point the lesson at the real model and re-check the triangle budget"
+  },
+  "coconut": {
+    "from": "switch",
+    "uid": "",
+    "lead": "realcoconut is already on disk",
+    "status": "to find",
+    "note": "point the lesson at the real model and re-check the triangle budget"
+  },
+  "grass": {
+    "from": "switch",
+    "uid": "",
+    "lead": "realgrass is already on disk",
+    "status": "to find",
+    "note": "point the lesson at the real model and re-check the triangle budget"
+  },
+  "pear": {
+    "from": "switch",
+    "uid": "",
+    "lead": "realpear is already on disk",
+    "status": "to find",
+    "note": "point the lesson at the real model and re-check the triangle budget"
+  },
+  "turtle": {
+    "from": "switch",
+    "uid": "",
+    "lead": "realturtle is already on disk",
+    "status": "to find",
+    "note": "point the lesson at the real model and re-check the triangle budget"
+  },
+  "mango": {
+    "from": "switch",
+    "uid": "",
+    "lead": "realmango is on disk, unused",
+    "status": "to find",
+    "note": "the code-drawn mango in two lessons can use it"
+  }
+}
