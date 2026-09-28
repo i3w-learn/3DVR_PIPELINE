@@ -48,7 +48,7 @@ for (const [lang, name] of Object.entries(LANGS)) {
     box.innerHTML = `<h3>${label}<span class="tag">${id === 'today' ? 'current' : 'woman'.replace('woman', ['Mary','Divya','Sunita','Debjani'].includes(id) ? 'woman' : 'man')}</span></h3>`;
     LINES[lang].forEach((text, i) => {
       const row = document.createElement('div'); row.className = 'line';
-      row.innerHTML = `<span>${text}</span><audio controls preload="none" src="assets/audio/samples/${lang}-${id}-${i + 1}.mp3"></audio>`;
+      row.innerHTML = `<span>${text}</span><audio controls preload="none" src="assets/voice-samples/${lang}-${id}-${i + 1}.mp3"></audio>`;
       box.appendChild(row);
     });
     root.appendChild(box);

@@ -77,20 +77,47 @@ export const parlerVoice = {
       const env = { ...process.env, ...(await dotenv()) };
       const { stdout } = await run(PYTHON, args, { maxBuffer: 64 * 1024 * 1024, env });
 
-      const complaints = stdout.split('\n').filter((line) => line.startsWith('!'));
-      if (complaints.length) console.warn(`\n${complaints.length} line(s) came out empty:\n${complaints.slice(0, 30).join('\n')}\n`);
+      // Lines that came out as silence get a second go, one at a time: a
+      // batch pads every line to the longest, and now and then a short line
+      // in a long batch comes out empty. On its own it does not.
+      const empties = stdout.split('\n').filter((l) => l.startsWith('! empty ')).map((l) => l.slice(8).trim());
+      if (empties.length) {
+        console.warn(`\n${empties.length} line(s) came out empty; recording them again one by one.`);
+        const retry = jobs.filter((j) => empties.includes(j.wav));
+        await fs.writeFile(path.join(scratch, 'retry.json'), JSON.stringify(retry));
+        const again = [SCRIPT, lang, path.join(scratch, 'retry.json'), ...args.slice(3)];
+        await run(PYTHON, again, { maxBuffer: 64 * 1024 * 1024, env }).catch((e) => console.warn(`retry failed: ${e.message}`));
+      }
 
-      // The same finishing as the other engines: a short lead-in so the first
-      // syllable is not clipped, a tail, and one loudness for every clip.
+      // The same finishing as the other engines — a short lead-in so the first
+      // syllable is not clipped, a tail, one loudness for every clip — after
+      // trimming the silence the model leaves at both ends. Lines are spoken
+      // several at a time, padded to the longest, and the padding comes out
+      // as up to two seconds of nothing before a short line.
+      //
+      // One clip the encoder chokes on must not lose the other thousand: a
+      // failure is retried plainly, and if that fails too the line is
+      // reported and skipped, so the run finishes and the manifest is written.
+      const trim = 'silenceremove=start_periods=1:start_silence=0.12:start_threshold=-40dB';
+      const failed = [];
       for (const [i, line] of lines.entries()) {
-        await run('ffmpeg', [
-          '-y', '-loglevel', 'error', '-i', jobs[i].wav,
-          '-af', 'adelay=200,apad=pad_dur=0.25,afade=t=in:d=0.05,loudnorm=I=-19:TP=-2',
-          '-ac', '1', '-ar', '22050', '-codec:a', 'libmp3lame', '-b:a', '40k',
-          line.target,
+        const encode = (filter) => run('ffmpeg', [
+          '-y', '-loglevel', 'error', '-i', jobs[i].wav, '-af', filter,
+          '-ac', '1', '-ar', '22050', '-codec:a', 'libmp3lame', '-b:a', '40k', line.target,
         ]);
+        try {
+          await encode(`${trim},areverse,${trim},areverse,adelay=200,apad=pad_dur=0.25,afade=t=in:d=0.05,loudnorm=I=-19:TP=-2`);
+        } catch {
+          try {
+            await encode('adelay=200,apad=pad_dur=0.25,volume=-3dB');
+          } catch (error) {
+            failed.push(line.target);
+            console.warn(`could not encode ${path.basename(line.target)}: ${error.message.split('\n')[0]}`);
+          }
+        }
         progress(i + 1, lines.length);
       }
+      if (failed.length) console.warn(`\n${failed.length} clip(s) were not written; run again without --force to fill them.`);
     } finally {
       await fs.rm(scratch, { recursive: true, force: true });
     }

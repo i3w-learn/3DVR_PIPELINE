@@ -74,6 +74,7 @@ def main():
     voice = voice or VOICES.get(lang, ["Mary"])[0]
     caption = caption or CAPTION.format(voice=voice)
 
+    import numpy as np
     import torch
     import soundfile as sf
     from parler_tts import ParlerTTSForConditionalGeneration
@@ -95,36 +96,48 @@ def main():
 
     jobs = json.load(open(jobs_file, encoding="utf-8"))
     rate = model.config.sampling_rate
+    tokenizer.padding_side = "left"
 
-    for job in jobs:
-        text = job["text"].strip()
-        prompt = tokenizer(text, return_tensors="pt").to(device)
+    # Several lines per pass. One line at a time is ~8 s each on this laptop's
+    # GPU; a batch of six is not six times slower. The model tells us how long
+    # each clip really is, so the padding never reaches the file.
+    BATCH = 6
+
+    def speak(batch):
+        prompt = tokenizer([j["text"].strip() for j in batch], return_tensors="pt", padding=True).to(device)
+        n = len(batch)
         with torch.no_grad():
-            try:
-                out = model.generate(
-                    input_ids=description.input_ids,
-                    attention_mask=description.attention_mask,
-                    prompt_input_ids=prompt.input_ids,
-                    prompt_attention_mask=prompt.attention_mask,
-                )
-            except RuntimeError:
-                if device == "cpu":
-                    raise
-                # The GPU path can trip on an odd length; do this one on the CPU.
-                model.to("cpu")
-                out = model.generate(
-                    input_ids=description.input_ids.cpu(),
-                    attention_mask=description.attention_mask.cpu(),
-                    prompt_input_ids=prompt.input_ids.cpu(),
-                    prompt_attention_mask=prompt.attention_mask.cpu(),
-                )
-                model.to(device)
-        audio = out.cpu().numpy().squeeze()
-        if audio.ndim == 0 or audio.size < rate // 20:
-            print(f"! nothing came out for: {text}")
-        sf.write(job["wav"], audio, rate)
-        print(f"ok {job['wav']}")
+            out = model.generate(
+                input_ids=description.input_ids.repeat(n, 1),
+                attention_mask=description.attention_mask.repeat(n, 1),
+                prompt_input_ids=prompt.input_ids,
+                prompt_attention_mask=prompt.attention_mask,
+                return_dict_in_generate=True,
+            )
+        for k, job in enumerate(batch):
+            length = int(out.audios_length[k]) if hasattr(out, "audios_length") else out.sequences.shape[-1]
+            audio = out.sequences[k, :length].cpu().numpy().squeeze()
+            # A NaN in the samples crashes the mp3 encoder outright (LAME's
+            # psymodel assertion) and took a whole language's run down with
+            # it. Scrub, clip, and report anything that is silence so the
+            # caller can record that line again on its own.
+            audio = np.nan_to_num(np.atleast_1d(audio).astype(np.float32), nan=0.0, posinf=0.0, neginf=0.0)
+            audio = np.clip(audio, -1.0, 1.0)
+            if audio.size < rate // 20 or float(np.abs(audio).max()) < 1e-4:
+                print(f"! empty {job['wav']}")
+                audio = np.zeros(rate // 4, dtype=np.float32)
+            sf.write(job["wav"], audio, rate)
+            print(f"ok {job['wav']}")
         sys.stdout.flush()
+
+    for start in range(0, len(jobs), BATCH):
+        batch = jobs[start:start + BATCH]
+        try:
+            speak(batch)
+        except Exception as error:  # noqa: BLE001 — a batch that trips is done one by one
+            print(f"# batch fell back to single lines: {error}", file=sys.stderr)
+            for job in batch:
+                speak([job])
 
 
 if __name__ == "__main__":

@@ -333,7 +333,7 @@
         "letterP"
       ],
       "highlight": "letterP",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "en": "P says “puh”. Say it with me.",
         "hi": "P की ध्वनि — puh।",
@@ -429,7 +429,7 @@
         "letterQ"
       ],
       "highlight": "letterQ",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "en": "Q says “kwuh”. Say it with me.",
         "hi": "Q की ध्वनि — kwuh।",
@@ -488,7 +488,7 @@
         "letterR"
       ],
       "highlight": "letterR",
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "en": "R says “ruh”. Say it with me.",
         "hi": "R की ध्वनि — ruh।",
@@ -584,7 +584,7 @@
         "letterS"
       ],
       "highlight": "letterS",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "en": "S says “sss”. Say it with me.",
         "hi": "S की ध्वनि — sss।",
@@ -680,7 +680,7 @@
         "letterT"
       ],
       "highlight": "letterT",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "en": "T says “tuh”. Say it with me.",
         "hi": "T की ध्वनि — tuh।",

@@ -271,7 +271,7 @@
         "letterU"
       ],
       "highlight": "letterU",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "en": "U says “uh”. Say it with me.",
         "hi": "U की ध्वनि — uh।",
@@ -330,7 +330,7 @@
         "letterV"
       ],
       "highlight": "letterV",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "en": "V says “vuh”. Say it with me.",
         "hi": "V की ध्वनि — vuh।",
@@ -407,7 +407,7 @@
         "letterW"
       ],
       "highlight": "letterW",
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "en": "W says “wuh”. Say it with me.",
         "hi": "W की ध्वनि — wuh।",
@@ -484,7 +484,7 @@
         "letterX"
       ],
       "highlight": "letterX",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "en": "X says “ks”. Say it with me.",
         "hi": "X की ध्वनि — ks।",
@@ -543,7 +543,7 @@
         "letterY"
       ],
       "highlight": "letterY",
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "en": "Y says “yuh”. Say it with me.",
         "hi": "Y की ध्वनि — yuh।",
@@ -559,7 +559,7 @@
       ],
       "highlight": "yarn",
       "partner": "letterY",
-      "duration": 6000,
+      "duration": 6500,
       "script": {
         "en": "Y for Yarn.",
         "hi": "Y से Yarn — ऊन का गोला।",
@@ -620,7 +620,7 @@
         "letterZ"
       ],
       "highlight": "letterZ",
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "en": "Z says “zuh”. Say it with me.",
         "hi": "Z की ध्वनि — zuh।",

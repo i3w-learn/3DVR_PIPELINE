@@ -339,7 +339,7 @@
         "letterF"
       ],
       "highlight": "letterF",
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "en": "F says “fuh”. Say it with me.",
         "hi": "F की ध्वनि — fuh।",
@@ -435,7 +435,7 @@
         "letterG"
       ],
       "highlight": "letterG",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "en": "G says “guh”. Say it with me.",
         "hi": "G की ध्वनि — guh।",
@@ -531,7 +531,7 @@
         "letterH"
       ],
       "highlight": "letterH",
-      "duration": 5500,
+      "duration": 6000,
       "script": {
         "en": "H says “huh”. Say it with me.",
         "hi": "H की ध्वनि — huh।",
@@ -627,7 +627,7 @@
         "letterI"
       ],
       "highlight": "letterI",
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "en": "I says “ih”. Say it with me.",
         "hi": "I की ध्वनि — ih।",
@@ -723,7 +723,7 @@
         "letterJ"
       ],
       "highlight": "letterJ",
-      "duration": 5500,
+      "duration": 6500,
       "script": {
         "en": "J says “juh”. Say it with me.",
         "hi": "J की ध्वनि — juh।",
