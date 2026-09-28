@@ -11,6 +11,7 @@ raw/**/*
 !raw/translations/*.json
 !raw/audio/*.json
 !raw/audio/*.tsv
+!raw/inventory.json
 raw/*.glb
 raw/*.gltf
 raw/*.bin
