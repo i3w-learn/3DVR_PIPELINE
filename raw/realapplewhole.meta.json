@@ -1,0 +1,17 @@
+{
+  "id": "realapplewhole",
+  "source": "Sketchfab — \"Sliced apple\" by ¡Jacques",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/sliced-apple-3502a77a4acd44868bd79839d243f2ae",
+  "targetHeight": 0.08,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "from": "realapplecut",
+  "keepPieces": {
+    "x": [
+      null,
+      0.9
+    ]
+  },
+  "fit": "height"
+}

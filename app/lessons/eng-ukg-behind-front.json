@@ -5,7 +5,8 @@
   "objects": [
     {
       "id": "rockA",
-      "model": "rock",
+      "model": "realboulder",
+      "scale": "0.700 0.700 0.700",
       "position": "-1.400 0.000 -3.400"
     },
     {
@@ -16,7 +17,8 @@
     },
     {
       "id": "rockB",
-      "model": "rock",
+      "model": "realboulder",
+      "scale": "0.700 0.700 0.700",
       "position": "1.400 0.000 -3.400"
     },
     {

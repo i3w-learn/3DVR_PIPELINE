@@ -1,0 +1,16 @@
+{
+  "id": "realfodder",
+  "source": "Sketchfab — \"Hay bale\" by NoodlePoodle",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/hay-bale-e01a6a0f9ed843279adfac2427c99679",
+  "targetHeight": 0.9,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "palette": {
+    "Hay_bale_latestHay_bale1": "#7fc23a"
+  },
+  "simplify": 0.1,
+  "simplifyError": 0.03,
+  "notes": "A hay bale, tinted green by the palette so it reads as cut grass: real grass cannot be seen against a grass field."
+}

@@ -126,8 +126,19 @@ For anything a 3-year-old already recognises: **download before generating**.
 
 - CC0 preferred. Every licence recorded in the sidecar. CC-BY is allowed if
   attribution is written down; CC-BY-NC is not.
-- One art style: stylised low-poly, flat or lightly shaded. A realistic cow
-  beside a cartoon hen is rejected, however convenient.
+- One art style, and it is **realistic**. Decided on 21 September 2026: the
+  farmyard, with its scanned animals, real shadows and natural movement, is
+  the look every land is brought up to. A cartoon hen beside a realistic cow
+  is rejected, however convenient. The rule is the same one this document
+  started with; the style it names has changed. (It used to say "stylised
+  low-poly". By 29 September 2026 every model a lesson shows is a realistic
+  one, and the drawn twins they replaced have been deleted.)
+- Things that are **meant** to be simple stay drawn by code: letters,
+  numerals, counters, mats, shapes, the planets. So do the few things no free
+  realistic model covers yet — see `docs/OBJECT-REPORT.md` for the list.
+- No see-through glass in a model, and no brand names. The first costs the
+  headset a second drawing of the whole scene (`tools/lib/materials.js` takes
+  it off at intake); the second puts a company's logo in a classroom.
 - Rigged if it must move. Never auto-rig animals (auto-riggers are humanoid).
 - One word, lowercase filename when it lands in `/raw`: `cow.glb`.
 

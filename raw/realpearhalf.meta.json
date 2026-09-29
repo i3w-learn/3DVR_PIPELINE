@@ -1,0 +1,12 @@
+{
+  "id": "realpearhalf",
+  "source": "Sketchfab — \"Japanese Pear Hosui（豊水）half 2\" by Akiko_NAKAMURA",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/japanese-pear-hosuihalf-2-da32b18414974e32b5402d270e26dc66",
+  "targetHeight": 0.1,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.15,
+  "simplifyError": 0.02,
+  "fit": "longest"
+}

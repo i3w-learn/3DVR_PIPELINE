@@ -8,6 +8,6 @@
   "smoothAngle": 60,
   "fit": "longest",
   "simplify": 0.35,
-  "simplifyError": 0.03,
+  "simplifyError": 0.01,
   "pitch": 90
 }

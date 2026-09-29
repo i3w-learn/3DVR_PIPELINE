@@ -11,28 +11,19 @@ Their authors must be credited wherever this application is distributed.
 - **airplane** — Poly Pizza — "Airplane" by Poly by Google
 - **ambulance** — Poly Pizza — "Ambulance" by Poly by Google
 - **ant** — Poly Pizza — "Ant" by Poly by Google
-- **badminton** — Poly Pizza — "Badminton" by Poly by Google
 - **basketball** — Poly Pizza — "Basketball" by Poly by Google
 - **bear** — Poly Pizza — "Bear" by Poly by Google
 - **bee** — Poly Pizza — "Bee" by Poly by Google
 - **bicycle** — Poly Pizza — "Bicycle" by Poly by Google
-- **bone** — Poly Pizza — "Bone" by Poly by Google
-- **buffalo** — Poly Pizza — "Bull Ver" by Pixel
-- **bulldozer** — Poly Pizza — "Bulldozer" by Poly by Google
 - **bus** — Poly Pizza — "Bus" by Poly by Google
 - **butterfly** — Poly Pizza — "Butterfly" by Poly by Google
-- **camel** — Poly Pizza — "Camel" by Poly by Google
 - **cat** — Poly Pizza — "Kitten" by Poly by Google
 - **caterpillar** — Poly Pizza — "Caterpillar" by Poly by Google
 - **cheetah** — Poly Pizza — "Cheetah" by Poly by Google
-- **chick** — Poly Pizza — "Baby chick" by Poly by Google
 - **childsit** — Sketchfab — "Child sitting cross-legged" by mazenegyptbro
 - **church** — Poly Pizza — "Church" by Poly by Google
-- **cobra** — Poly Pizza — "Cobra" by Poly by Google
 - **cockroach** — Poly Pizza — "Cockroach" by Poly by Google
-- **comb** — Poly Pizza — "Comb" by Poly by Google
 - **crab** — Poly Pizza — "Crab" by Poly by Google
-- **cricketbat** — Poly Pizza — "Cricket bat" by jeremy
 - **crocodile** — Poly Pizza — "Crocodile" by Poly by Google
 - **crow** — Poly Pizza — "Crow" by Poly by Google
 - **daisy** — Poly Pizza — "Daisy" by Poly by Google
@@ -44,10 +35,7 @@ Their authors must be credited wherever this application is distributed.
 - **dumptruck** — Poly Pizza — "Dump truck" by jeremy
 - **eagle** — Poly Pizza — "Eagle" by Poly by Google
 - **elephant** — Poly Pizza — "Elephant" by Poly by Google
-- **envelope** — Poly Pizza — "Envelopes" by Jarlan Perez
-- **firetruck** — Poly Pizza — "Fire Truck" by Ivan Klus
 - **flute** — Poly Pizza — "Flute" by Poly by Google
-- **gift** — Poly Pizza — "Xmas Gift" by Jeff Larson
 - **giraffe** — Poly Pizza — "Giraffe" by Poly by Google
 - **goat** — Poly Pizza — "Goat" by Poly by Google
 - **grasshopper** — Poly Pizza — "Grasshopper" by Poly by Google
@@ -55,7 +43,6 @@ Their authors must be credited wherever this application is distributed.
 - **helicopter** — Poly Pizza — "Helicopter" by Poly by Google
 - **hen** — Poly Pizza — "Hen" by Poly by Google
 - **hippo** — Poly Pizza — "Hippopotamus" by Poly by Google
-- **hockeystick** — Poly Pizza — "Field hockey stick" by jeremy
 - **housefly** — Poly Pizza — "Fly" by Poly by Google
 - **jeep** — Poly Pizza — "Jeep" by Poly by Google
 - **jellyfish** — Poly Pizza — "Jellyfish" by Poly by Google
@@ -63,13 +50,10 @@ Their authors must be credited wherever this application is distributed.
 - **kite** — Poly Pizza — "Kite" by Poly by Google
 - **ladybug** — Poly Pizza — "Ladybug" by Poly by Google
 - **lion** — Poly Pizza — "Lion" by Poly by Google
-- **lizard** — Poly Pizza — "Lizard" by madtrollstudio
-- **milkbottle** — Poly Pizza — "Jug of milk" by Poly by Google
 - **monkey** — Poly Pizza — "monkey" by Poly by Google
 - **motorcycle** — Poly Pizza — "Motorcycle" by Poly by Google
 - **mouse** — Poly Pizza — "Mouse" by Poly by Google
 - **nest** — Poly Pizza — "Birds nest" by Poly by Google
-- **octopus** — Poly Pizza — "Octopus" by Poly by Google
 - **owl** — Poly Pizza — "Great horned owl" by Poly by Google
 - **panda** — Poly Pizza — "Panda" by Poly by Google
 - **parrot** — Poly Pizza — "Parrot" by Poly by Google
@@ -78,27 +62,34 @@ Their authors must be credited wherever this application is distributed.
 - **peacocktripo** — Tripo AI — text-to-3D, free plan, generated 2026-09-23 (trial, not shipped)
 - **penguin** — Poly Pizza — "Penguin" by Poly by Google
 - **piano** — Poly Pizza — "Piano" by Poly by Google
-- **pigeon** — Poly Pizza — "Dove" by Poly by Google
 - **policecar** — Poly Pizza — "Police car" by Poly by Google
-- **puppy** — Poly Pizza — "Puppy" by Poly by Google
 - **racket** — Poly Pizza — "Tennis racket" by Poly by Google
 - **realairplane** — Sketchfab — "A320" by manilov.ap
 - **realambulance** — Sketchfab — "Shvan '92 Ambulance - Low Poly model" by Daniel Zhabotinsky
 - **realant** — Sketchfab — "(муравей) Ant Rig VFX" by rayray
 - **realapatosaurus** — Sketchfab — "Apatosaurus" by toro ardido modelos 3d
 - **realapple** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
+- **realapplehalf** — Sketchfab — "Sliced apple" by ¡Jacques
+- **realapplewhole** — Sketchfab — "Sliced apple" by ¡Jacques
 - **realauto** — Sketchfab — "Autorikshaw - Indian Tuk Tuk" by bhagathartworks
 - **realbadminton** — Sketchfab — "badminton racket" by timmy
+- **realballoon** — Sketchfab — "Circus Hot Air Balloon" by Jeffrey
 - **realbamboo** — Sketchfab — "bamboo" by evolveduk
 - **realbanana** — Sketchfab — "Game Ready Fruit Asset Pack" by Meerschaum Digital
 - **realbansuri** — Sketchfab — "Basuri" by VR Bro
+- **realbarn** — Sketchfab — "Barn" by patrakeevasveta
+- **realbasket** — Sketchfab — "Wicker basket" by Incg5764
 - **realbasketball** — Sketchfab — "Basketball Classic Standard Ball" by HQ3DMOD
 - **realbear** — Sketchfab — "Realistic Animated Bear 3D Model" by WildMesh 3D
 - **realbee** — Sketchfab — "Bee" by 7SkyArtist
+- **realbeetroot** — Sketchfab — "Red Beetroot" by Bsmercantile5
 - **realbicycle** — Sketchfab — "Classic Bicycle | LowPoly | Game ready" by by__Rx
 - **realboat** — Sketchfab — "Old Rowboat" by TooManyDemons
+- **realbone** — Sketchfab — "Femur" by Siesta
 - **realbonfire** — Sketchfab — "Bonfire" by ToxaGrom
 - **realbook** — Sketchfab — "Old Closed book" by Habib Siddick
+- **realbottle** — Sketchfab — "Hydro Flask®, Red Hydroflask Water Bottle" by Liam.Bailey
+- **realboulder** — Sketchfab — "Rock Boulder 2 (game ready asset)" by Aparicio Silva 3D
 - **realbowl** — Sketchfab — "Bowl with Soup" by mornaista
 - **realbridge** — Sketchfab — "Old bridge" by NoodlePoodle
 - **realbrinjal** — Sketchfab — "Eggplant (Game Ready / 2K PBR)" by Meerschaum Digital
@@ -121,6 +112,7 @@ Their authors must be credited wherever this application is distributed.
 - **realclownfish** — Sketchfab — "Clownfish" by kenchoo
 - **realcobra** — Sketchfab — "King Cobra" by Yanez Designs
 - **realcoconut** — Sketchfab — "coconut" by viettextures
+- **realcoconuthalf** — Sketchfab — "coconut Half _ANIL" by aniljaco
 - **realcomb** — Sketchfab — "CC0 - Hair Comb 6" by plaggy
 - **realcorn** — Sketchfab — "Real Corn On The Cob" by EdgarEncinas2022
 - **realcrab** — Sketchfab — "Dancing Crab - Uca Mjoebergi" by Bohdan Lvov
@@ -129,6 +121,8 @@ Their authors must be credited wherever this application is distributed.
 - **realcrow** — Sketchfab — "Crow" by Alexei Ostapenko
 - **realcup** — Sketchfab — "Coffee Mug (School Project)" by Ole Gunnar Isager
 - **realdeer** — Sketchfab — "Realistic Animated Doe 3D Model" by WildMesh 3D
+- **realden** — Sketchfab — "Cave entrance" by meumh
+- **realdhol** — Sketchfab — "Bihu Dhol" by Dangor maina
 - **realdoctor** — Sketchfab — "Nurse Surgical Rigged" by bachelorgkv
 - **realdog** — Sketchfab — "Labrador Dog" by kenchoo
 - **realdolphin** — Sketchfab — "Game-Ready dolphin (Swimming)" by Allie2k
@@ -140,33 +134,43 @@ Their authors must be credited wherever this application is distributed.
 - **realegg** — Sketchfab — "Egg" by Bandit
 - **realelephant** — Sketchfab — "African Elephant"
 - **realenvelope** — Sketchfab — "Envelope" by DrewA
+- **realfence** — Sketchfab — "Fence (Wood)" by trentspi
 - **realfern** — Sketchfab — "fern grass 02" by POLYSCAN
 - **realfir** — Sketchfab — "Conifer (medium-Poly)" by Sereib
 - **realfirefighter** — Sketchfab — "Firefighter" by teacherap123
 - **realfiretruck** — Sketchfab — "Zil 131 AC 40" by Phobos
 - **realfirfar** — Sketchfab — "Conifer (medium-Poly)" by Sereib
+- **realfodder** — Sketchfab — "Hay bale" by NoodlePoodle
 - **realfox** — Sketchfab — "Animated Fox 3D Model" by AnimalMesh 3D
 - **realfries** — Sketchfab — "French fries tray" by Emm
 - **realgift** — Sketchfab — "Gift Box" by MaX3Dd
 - **realgiraffe** — Sketchfab — "Giraffe" by BlueMesh
+- **realglass** — Sketchfab — "Tall Drinking Glass" by AleixoAlonso
 - **realgoat** — Sketchfab — "Animated Realistic Goat – 3D Animal Model" by AnimalMesh 3D
+- **realgrapes** — Sketchfab — "Grapes bowl" by alban
 - **realgrass** — Sketchfab — "Realistics grass 06" by POLYSCAN
 - **realgrasshopper** — Sketchfab — "Low Poly Grasshopper ( Animated 3D Asset )" by Pascal Chaumette
 - **realgreensnake** — Sketchfab — "Green tree python" by noahthepidge
 - **realguitar** — Sketchfab — "DD Acoustic Guitar" by piscopancer
+- **realharmonium** — Sketchfab — "INDIAN HARMONIUM" by anandmohan662
 - **realhelicopter** — Sketchfab — "Helicopter" by irs1182
 - **realhen** — Sketchfab — "ANIMAL & FOOD | Chicken Model (CS2)" by gettan
+- **realhibiscus** — Sketchfab — "Hibiscous Flower" by _j.did
+- **realhive** — Sketchfab — "Beehive" by Tomas Rubianes
 - **realhockeystick** — Sketchfab — "Field Hockey Stick Model" by Selvaraj
 - **realhoney** — Sketchfab — "CC0 - Honey Pot" by plaggy
 - **realhorse** — Sketchfab — "Horse" (28 clips)
 - **realhousefly** — Sketchfab — "Fly" by victorberdugo1
 - **realicecream** — Sketchfab — "Ice Cream Cone" by brendenfairchild
 - **realigloo** — Sketchfab — "Igloo" by Vera4Art
+- **realjasmine** — Sketchfab — "Jasmine" by SCADL & Co
 - **realjeep** — Sketchfab — "Jeep" by DJMaesen
+- **realjuice** — Sketchfab — "Orange Juice" by tvdn164
 - **realjunglefull** — Sketchfab — "Tree GN" by Node_λrt
 - **realjungletree** — Sketchfab — "Tree GN" by Node_λrt
 - **realjungletreefar** — Sketchfab — "Tree GN" by Node_λrt
 - **realkangaroo** — Sketchfab — "Kangaroo" by pergamond
+- **realkennel** — Sketchfab — "Dog House Free" by donnichols
 - **realkite** — Sketchfab — "Kite" by Micheus
 - **realladybug** — Sketchfab — "CC0 - Ladybug plastic" by plaggy
 - **reallemon** — Sketchfab — "Lemon (Game Ready / 2K PBR)" by Meerschaum Digital
@@ -180,12 +184,14 @@ Their authors must be credited wherever this application is distributed.
 - **realmangotreefar** — Sketchfab — "Mang Tree-01" by ASMA3D
 - **realmesa** — Sketchfab — "Table Mountain" by re-lar
 - **realmilkbottle** — Sketchfab — "Milk Container - Low Poly" by iKamik
+- **realmilkbowl** — Sketchfab — "Bowl with Soup" by mornaista
 - **realmilkcarton** — Sketchfab — "Milk Carton" by Chris
 - **realmonkey** — Sketchfab — "Low poly monkey animal 3d model free" by iRahulRajput
 - **realnest** — Sketchfab — "Bird's Nest" by ToxaGrom
 - **realoak** — Sketchfab — "Oak tree" by massive-graphisme
 - **realoakfar** — Sketchfab — "Oak tree" by massive-graphisme
 - **realoakfull** — Sketchfab — "Oak tree" by massive-graphisme
+- **realoctopus** — Sketchfab — "pulpo Octopus Model" by Rieleto
 - **realonion** — Sketchfab — "Onion scan" by epipolar
 - **realorange** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
 - **realowl** — Sketchfab — "Common Barn Owl" by Innovation Studio
@@ -198,6 +204,8 @@ Their authors must be credited wherever this application is distributed.
 - **realparrot** — Sketchfab — "parrot rebuilt" by kenchoo
 - **realpeak** — Sketchfab — "Snow Mountain" by hkp941111
 - **realpear** — Sketchfab — "Game Ready Fruit & Vegetable Asset Pack" by Meerschaum Digital
+- **realpearhalf** — Sketchfab — "Japanese Pear Hosui（豊水）half 2" by Akiko_NAKAMURA
+- **realpearwhole** — Sketchfab — "pear" by koyama
 - **realpigeon** — Sketchfab — "Animated Pigeon – 3D Animal Model" by AnimalMesh 3D
 - **realpineapple** — Sketchfab — "Organic Pineapple (MD2 Variant)" by JFN
 - **realpolice** — Sketchfab — "Indian police" by Polymount
@@ -239,6 +247,7 @@ Their authors must be credited wherever this application is distributed.
 - **realstrawberry** — Sketchfab — "Forest Strawberry - Macro scan" by Nik
 - **realstumps** — Sketchfab — "Scanned Stump Collection" by That's Cool Jack
 - **realsunflower** — Sketchfab — "Sunflower" by zvanstone
+- **realtabla** — Sketchfab — "Tabla (Bayan)" by 868nabeel
 - **realteacher** — Sketchfab — "Indian Office Woman" by Nodeaxis Interactive
 - **realteacup** — Sketchfab — "Low Poly Tea Set" by Plankius
 - **realtennisball** — Sketchfab — "Tennis Ball" by Tentrox
@@ -269,31 +278,22 @@ Their authors must be credited wherever this application is distributed.
 - **rocket** — Poly Pizza — "Rocket ship" by Poly by Google
 - **rose** — Poly Pizza — "Rose" by Poly by Google
 - **sailboat** — Poly Pizza — "Sailboat" by Poly by Google
-- **schoolbus** — Poly Pizza — "Schoolbus" by Poly by Google
 - **scooter** — Poly Pizza — "Scooter" by Poly by Google
-- **seahorse** — Poly Pizza — "Seahorse" by Poly by Google
 - **seal** — Poly Pizza — "Seal" by Poly by Google
 - **shed** — Sketchfab — "Worn Shed PBR Game-Ready" by donnichols
 - **snail** — Poly Pizza — "Snail" by Poly by Google
-- **soap** — Poly Pizza — "Soap" by Poly by Google
-- **soccerball** — Poly Pizza — "Soccer ball" by Poly by Google
 - **sparrow** — Poly Pizza — "Sparrow" by Poly by Google
 - **squirrel** — Poly Pizza — "Squirrel" by Poly by Google
 - **starfish** — Poly Pizza — "Starfish" by Poly by Google
-- **stethoscope** — Poly Pizza — "Stethoscope" by Poly by Google
 - **sunflower** — Poly Pizza — "Sunflower" by Poly by Google
 - **tennisball** — Poly Pizza — "Tennis ball" by Poly by Google
 - **tiger** — Poly Pizza — "Tiger" by Poly by Google
-- **toothbrush** — Poly Pizza — "Toothbrush" by Poly by Google
-- **towel** — Poly Pizza — "Towel" by Poly by Google
-- **tractor** — Poly Pizza — "Tractor" by Poly by Google
 - **train** — Poly Pizza — "Train" by Poly by Google
 - **trumpet** — Poly Pizza — "Trumpet" by Poly by Google
 - **tulip** — Poly Pizza — "Tulip" by Poly by Google
 - **turtle** — Poly Pizza — "Turtle" by Poly by Google
 - **violin** — Poly Pizza — "Violin" by Poly by Google
 - **wateringcan** — Poly Pizza — "Watering can" by Poly by Google
-- **xmastree** — Poly Pizza — "Christmas Tree" by Vice Cooper
 - **yarn** — Poly Pizza — "Yarn Ball v2" by sirkitree
 - **zebu** — Sketchfab — "Zebu Bull" by Mily
 - **earth.webp** — Solar System Scope — solarsystemscope.com/textures — 2k_earth_daymap.jpg
@@ -345,35 +345,21 @@ No attribution is required for these. They are listed for the record.
 - Poly Haven — Kloofendal 48d Partly Cloudy (Pure Sky)
 - Poly Haven — Shrub 02
 - Poly Haven — Syferfontein 1d Clear (Pure Sky)
-- Poly Pizza — "Apatosaurus" by Quaternius
 - Poly Pizza — "Backpack" by Quaternius
-- Poly Pizza — "Barn" by Quaternius
 - Poly Pizza — "Boat" by Quaternius
-- Poly Pizza — "Book" by Quaternius
 - Poly Pizza — "Car" by Quaternius
 - Poly Pizza — "Cow" by Quaternius
 - Poly Pizza — "Cruise Ship" by Quaternius
-- Poly Pizza — "Deer" by Quaternius
 - Poly Pizza — "Dolphin" by Quaternius
-- Poly Pizza — "Donkey" by Quaternius
-- Poly Pizza — "Fish" by Quaternius
 - Poly Pizza — "Fox" by Quaternius
 - Poly Pizza — "Frog" by Quaternius
 - Poly Pizza — "Grass" by Quaternius
-- Poly Pizza — "Hay" by Quaternius
-- Poly Pizza — "Honey" by Kenney
 - Poly Pizza — "Horse" by Quaternius
-- Poly Pizza — "Parasaurolophus" by Quaternius
 - Poly Pizza — "Pig" by Quaternius
 - Poly Pizza — "Shark" by Quaternius
 - Poly Pizza — "Sheep" by Quaternius
-- Poly Pizza — "Small Bridge" by Quaternius
-- Poly Pizza — "Snake" by Quaternius
 - Poly Pizza — "Spider" by Quaternius
-- Poly Pizza — "Stegosaurus" by Quaternius
-- Poly Pizza — "T-Rex" by Quaternius
 - Poly Pizza — "Taxi" by Quaternius
-- Poly Pizza — "Triceratops" by Quaternius
 - Poly Pizza — "Truck" by Quaternius
 - Poly Pizza — "Whale" by Quaternius
 - Poly Pizza — "Wolf" by Quaternius

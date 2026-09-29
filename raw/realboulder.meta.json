@@ -1,0 +1,11 @@
+{
+  "id": "realboulder",
+  "source": "Sketchfab — \"Rock Boulder 2 (game ready asset)\" by Aparicio Silva 3D",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/rock-boulder-2-game-ready-asset-70fd18ec2a4a4d378d9d8c1ba878dcbc",
+  "targetHeight": 0.6,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.4,
+  "simplifyError": 0.01
+}

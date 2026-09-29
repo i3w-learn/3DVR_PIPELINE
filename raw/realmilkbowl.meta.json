@@ -1,0 +1,21 @@
+{
+  "id": "realmilkbowl",
+  "source": "Sketchfab — \"Bowl with Soup\" by mornaista",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/bowl-with-soup-de4ecf2c5040488ab98d214a0d9362cc",
+  "targetHeight": 0.15,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "from": "realsoup",
+  "palette": {
+    "T_Soup": "#fbfaf3",
+    "M_Bowl_Empty": "#ffffff"
+  },
+  "plain": [
+    "T_Soup"
+  ],
+  "notes": "The soup bowl with its soup painted white: a bowl of milk for the cat.",
+  "simplify": 0.25,
+  "simplifyError": 0.01
+}

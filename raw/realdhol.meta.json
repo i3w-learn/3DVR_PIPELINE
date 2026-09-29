@@ -1,0 +1,14 @@
+{
+  "id": "realdhol",
+  "source": "Sketchfab — \"Bihu Dhol\" by Dangor maina",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/bihu-dhol-dd6c6c194ee741b3ab3a104108c9f597",
+  "targetHeight": 0.4,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.12,
+  "simplifyError": 0.02,
+  "fit": "longest",
+  "join": true,
+  "weldTolerance": 0.0005
+}

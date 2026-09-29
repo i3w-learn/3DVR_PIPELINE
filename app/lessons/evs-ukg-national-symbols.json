@@ -43,11 +43,8 @@
     },
     {
       "id": "lotus",
-      "build": "flower",
-      "params": {
-        "kind": "lotus",
-        "height": 0.62
-      },
+      "model": "reallotus",
+      "scale": "1.200 1.200 1.200",
       "position": "2.300 1.170 -2.600",
       "name": {
         "en": "Lotus",

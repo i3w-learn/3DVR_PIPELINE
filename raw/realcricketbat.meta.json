@@ -7,7 +7,7 @@
   "yaw": 69,
   "smoothAngle": 60,
   "simplify": 0.25,
-  "simplifyError": 0.03,
+  "simplifyError": 0.02,
   "roll": -66,
   "pitch": -52
 }

@@ -1,0 +1,12 @@
+{
+  "id": "realbottle",
+  "source": "Sketchfab — \"Hydro Flask®, Red Hydroflask Water Bottle\" by Liam.Bailey",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/hydro-flask-red-hydroflask-water-bottle-28fea94e02dc4465a696bf3eb821c05e",
+  "targetHeight": 0.24,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.3,
+  "simplifyError": 0.01,
+  "join": true
+}
