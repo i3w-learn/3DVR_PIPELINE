@@ -40,11 +40,8 @@
     },
     {
       "id": "lotus",
-      "build": "flower",
-      "params": {
-        "kind": "lotus",
-        "height": 0.3
-      },
+      "model": "reallotus",
+      "scale": "0.600 0.600 0.600",
       "position": "-0.420 0.520 -0.780",
       "name": {
         "en": "Lotus",
@@ -53,11 +50,8 @@
     },
     {
       "id": "hibiscus",
-      "build": "flower",
-      "params": {
-        "kind": "hibiscus",
-        "height": 0.32
-      },
+      "model": "realhibiscus",
+      "scale": "1.000 1.000 1.000",
       "position": "0.000 0.520 -0.780",
       "name": {
         "en": "Hibiscus",
@@ -66,11 +60,8 @@
     },
     {
       "id": "jasmine",
-      "build": "flower",
-      "params": {
-        "kind": "jasmine",
-        "height": 0.32
-      },
+      "model": "realjasmine",
+      "scale": "1.000 1.000 1.000",
       "position": "0.420 0.520 -0.780",
       "name": {
         "en": "Jasmine",

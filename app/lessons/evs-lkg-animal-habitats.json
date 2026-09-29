@@ -43,10 +43,8 @@
     },
     {
       "id": "kennel",
-      "build": "kennel",
-      "params": {
-        "width": 1
-      },
+      "model": "realkennel",
+      "scale": "1.150 1.150 1.150",
       "position": "-1.000 0.000 -6.400",
       "rotation": "0 12 0",
       "name": {
@@ -71,10 +69,8 @@
     },
     {
       "id": "hive",
-      "build": "hive",
-      "params": {
-        "height": 1
-      },
+      "model": "realhive",
+      "scale": "1.000 1.000 1.000",
       "position": "1.700 0.000 -4.400",
       "name": {
         "en": "Hive",
@@ -98,10 +94,8 @@
     },
     {
       "id": "den",
-      "build": "den",
-      "params": {
-        "width": 3.4
-      },
+      "model": "realden",
+      "scale": "1.270 1.270 1.270",
       "position": "6.600 0.000 -10.200",
       "rotation": "0 -30 0",
       "name": {
@@ -134,11 +128,11 @@
     },
     {
       "id": "shed",
-      "model": "barn",
+      "model": "realbarn",
       "position": "-7.500 0.000 -14.500",
       "rotation": "0 27 0",
       "ring": 3.4,
-      "scale": "0.800 0.800 0.800",
+      "scale": "1.300 1.300 1.300",
       "name": {
         "en": "Shed",
         "hi": "गौशाला"

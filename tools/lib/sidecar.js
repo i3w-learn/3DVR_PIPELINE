@@ -117,6 +117,10 @@ export async function readSidecar(id) {
     dropNodes: Array.isArray(data.dropNodes) ? data.dropNodes : null,
     // The other way round: the only meshes to keep, by exact node name.
     keepNodes: Array.isArray(data.keepNodes) ? data.keepNodes : null,
+    // Loose pieces of one mesh, chosen by where they are. See subset.js.
+    keepPieces: data.keepPieces && typeof data.keepPieces === 'object' ? data.keepPieces : null,
+    // Materials that drop their texture and take their palette colour alone.
+    plain: Array.isArray(data.plain) ? data.plain : null,
     // Another id's download to read from — sixteen fruits come out of one pack.
     from: typeof data.from === 'string' ? data.from : null,
     /** Collapse a static model's many meshes into one per material. */

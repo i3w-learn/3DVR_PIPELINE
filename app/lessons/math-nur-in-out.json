@@ -5,10 +5,10 @@
   "objects": [
     {
       "id": "pot",
-      "model": "pot",
+      "model": "realbasket",
       "position": "-0.280 0.520 -0.780",
       "ring": 0.268,
-      "scale": "1.80 1.80 1.80"
+      "scale": "1.440 1.440 1.440"
     },
     {
       "id": "inside",

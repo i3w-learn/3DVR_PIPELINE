@@ -1,0 +1,12 @@
+{
+  "id": "realgrapes",
+  "source": "Sketchfab — \"Grapes bowl\" by alban",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/grapes-bowl-48d4517b7d6b41c6bf57a19696e447ec",
+  "targetHeight": 0.2,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.25,
+  "simplifyError": 0.02,
+  "fit": "longest"
+}

@@ -5,13 +5,8 @@
   "objects": [
     {
       "id": "other",
-      "build": "balloon",
-      "params": {
-        "radius": 4.2,
-        "basket": 1.6,
-        "envelope": "#2f6fb8",
-        "stripe": "#f4ead6"
-      },
+      "model": "realballoon",
+      "scale": "1.200 1.200 1.200",
       "position": "-17.000 -6.000 -30.000",
       "name": {
         "en": "Balloon",

@@ -1,0 +1,14 @@
+{
+  "id": "realjuice",
+  "source": "Sketchfab — \"Orange Juice\" by tvdn164",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/orange-juice-7955c65e40b345b782d6a833f0c41acb",
+  "targetHeight": 0.14,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "dropNodes": [
+    "Sweep__1",
+    "Sweep_Mat.1_1",
+    "Sweep_Mat.2_0"
+  ]
+}

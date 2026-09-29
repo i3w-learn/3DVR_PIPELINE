@@ -39,10 +39,10 @@
     },
     {
       "id": "grapes",
-      "model": "grapes",
+      "model": "realgrapes",
       "position": "0.600 0.520 -0.780",
       "ring": 0.11,
-      "scale": "1.80 1.80 1.80",
+      "scale": "1.500 1.500 1.500",
       "name": {
         "en": "Grapes",
         "hi": "अंगूर"

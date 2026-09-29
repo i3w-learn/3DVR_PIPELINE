@@ -20,6 +20,7 @@
     "content:translations": "node tools/build/translations.js",
     "content:timing": "node tools/build/step-timing.js",
     "content:status": "node tools/build/status.js",
+    "content:objects": "node tools/build/object-report.js",
     "content:letters": "node tools/build/letters.js"
   },
   "dependencies": {

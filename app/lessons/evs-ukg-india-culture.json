@@ -58,10 +58,8 @@
     },
     {
       "id": "tabla",
-      "build": "tabla",
-      "params": {
-        "size": 0.62
-      },
+      "model": "realtabla",
+      "scale": "2.070 2.070 2.070",
       "position": "2.300 1.170 -2.600",
       "name": {
         "en": "Music",

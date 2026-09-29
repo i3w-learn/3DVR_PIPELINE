@@ -170,9 +170,9 @@
     },
     {
       "id": "r5octopus",
-      "model": "octopus",
+      "model": "realoctopus",
       "position": "-0.420 0.520 -0.800",
-      "scale": "0.600 0.600 0.600",
+      "scale": "0.430 0.430 0.430",
       "ring": 0.174,
       "rotation": "0 35 0",
       "name": {

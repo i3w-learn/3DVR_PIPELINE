@@ -1,0 +1,11 @@
+{
+  "id": "realharmonium",
+  "source": "Sketchfab — \"INDIAN HARMONIUM\" by anandmohan662",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/indian-harmonium-8c691db40a3e47da8c14952e345b6615",
+  "targetHeight": 0.6,
+  "yaw": -90,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "join": true
+}

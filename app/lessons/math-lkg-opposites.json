@@ -61,9 +61,9 @@
     },
     {
       "id": "full",
-      "model": "sodaglass",
+      "model": "realjuice",
       "position": "-0.300 0.520 -0.800",
-      "scale": "1.93 1.93 1.93",
+      "scale": "1.930 1.930 1.930",
       "ring": 0.12,
       "name": {
         "en": "Full",
@@ -72,9 +72,9 @@
     },
     {
       "id": "empty",
-      "model": "glass",
+      "model": "realglass",
       "position": "0.300 0.520 -0.800",
-      "scale": "1.93 1.93 1.93",
+      "scale": "1.930 1.930 1.930",
       "ring": 0.093,
       "name": {
         "en": "Empty",

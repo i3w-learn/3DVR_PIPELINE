@@ -29,8 +29,25 @@
  * and shadows that work. Set `alphaMode: "mask"` in the sidecar for anything
  * cut out of a texture; leave it alone for glass.
  *
+ * **Glass, and why it must not be "transmissive".** A glTF glass usually says
+ * `KHR_materials_transmission`: light really passes through. To draw that the
+ * renderer paints the whole scene once into a buffer, then again with the glass
+ * bending it — every lesson with a tumbler on the table costs two scenes, on a
+ * headset that can barely afford one. The first bottle brought in this way
+ * turned the table under it into a mirror of the sky.
+ *
+ * So glass here is thin and blended: the extension is taken off, the material
+ * is set to `BLEND`, and it is made see-through by its alpha alone. It reads as
+ * glass to a five-year-old and costs what a leaf costs.
+ *
  * A model that genuinely should be metal sets `metallic: true`.
  */
+
+/** The most solid a glass may be. Thicker than this and the drink inside it cannot be seen. */
+const GLASS_ALPHA = 0.3;
+
+/** Extensions that only make sense alongside transmission. */
+const GLASS_EXTENSIONS = ['KHR_materials_transmission', 'KHR_materials_volume', 'KHR_materials_ior'];
 
 /** Fully rough, fully non-metal: the flat look the art direction asks for. */
 const STYLE = {
@@ -50,7 +67,7 @@ export class MaterialError extends Error {
  * @param {{metallic?: boolean, emissive?: number|null, palette?: Record<string, string>}} sidecar
  * @returns {{delit: number, recoloured: string[]}}
  */
-export function normaliseMaterials(document, { metallic = false, emissive = null, palette = null, alphaMode = null } = {}) {
+export function normaliseMaterials(document, { metallic = false, emissive = null, palette = null, alphaMode = null, plain = null } = {}) {
   const materials = document.getRoot().listMaterials();
   const names = materials.map((m) => m.getName());
 
@@ -73,9 +90,20 @@ export function normaliseMaterials(document, { metallic = false, emissive = null
 
   let delit = 0;
   let masked = 0;
+  let glazed = 0;
   const recoloured = [];
 
   for (const material of materials) {
+    if (material.getExtension('KHR_materials_transmission')) {
+      for (const name of GLASS_EXTENSIONS) material.getExtension(name)?.dispose();
+
+      const [r, g, b, a] = material.getBaseColorFactor();
+      material.setAlphaMode('BLEND');
+      material.setBaseColorFactor([r, g, b, Math.min(a, GLASS_ALPHA)]);
+      glazed += 1;
+      continue; // glass keeps its own shine; none of the rules below are for it
+    }
+
     if (alphaMode === 'mask' && material.getAlphaMode() === 'BLEND') {
       material.setAlphaMode('MASK');
       material.setAlphaCutoff(0.5);
@@ -102,6 +130,12 @@ export function normaliseMaterials(document, { metallic = false, emissive = null
     const hex = palette?.[material.getName()];
     if (!hex) continue;
 
+    // A palette colour multiplies the texture under it: green over straw is
+    // cut grass, but white over a picture of soup is still soup. A material
+    // named in `plain` gives its picture up and takes the colour alone — which
+    // is how a bowl of soup becomes a bowl of milk.
+    if (plain?.includes(material.getName())) material.setBaseColorTexture(null);
+
     // glTF stores base colour in LINEAR space; the hex a person writes down is
     // sRGB, because that is what a colour picker shows. Converting here means
     // the value in the sidecar is the value that appears on screen.
@@ -111,7 +145,15 @@ export function normaliseMaterials(document, { metallic = false, emissive = null
     recoloured.push(material.getName());
   }
 
-  return { delit, masked, recoloured };
+  // Off the file as well as off the materials, or the loader still switches
+  // the transmission pass on for an extension nothing uses.
+  if (glazed) {
+    for (const extension of document.getRoot().listExtensionsUsed()) {
+      if (GLASS_EXTENSIONS.includes(extension.extensionName)) extension.dispose();
+    }
+  }
+
+  return { delit, masked, glazed, recoloured };
 }
 
 /** "#6b4f34" → linear [r, g, b], each 0–1. */

@@ -1,0 +1,12 @@
+{
+  "id": "realpearwhole",
+  "source": "Sketchfab — \"pear\" by koyama",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/pear-f30bb81bc8d34db78d8da225b3cb847f",
+  "targetHeight": 0.1,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.3,
+  "simplifyError": 0.02,
+  "fit": "longest"
+}

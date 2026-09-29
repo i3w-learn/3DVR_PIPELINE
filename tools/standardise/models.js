@@ -28,7 +28,7 @@ import { applyContract, ContractError } from '../lib/contract.js';
 import { holdInPlace, keepOnlyClips } from '../lib/clips.js';
 import { normaliseMaterials } from '../lib/materials.js';
 import { smoothNormals } from '../lib/normals.js';
-import { dropNodes, keepNodes } from '../lib/subset.js';
+import { dropNodes, keepNodes, keepPieces } from '../lib/subset.js';
 import { lowerArms } from '../lib/pose.js';
 import { thinCards } from '../lib/thin.js';
 import { measure } from '../lib/measure.js';
@@ -97,6 +97,7 @@ async function standardise(id) {
   // box the contract is about to scale by.
   const subset = dropNodes(document, sidecar.dropNodes);
   subset.dropped.push(...keepNodes(document, sidecar.keepNodes).dropped);
+  keepPieces(document, sidecar.keepPieces);
 
   // A figure that arrived in a T-pose gets its arms put down before it is
   // measured: arms out, it is two metres wide and the contract sizes it wrong.
@@ -115,6 +116,22 @@ async function standardise(id) {
   // separate cards, so locking every border leaves nothing to collapse and the
   // reduction stalls at 40% instead of reaching 1%.
   if (sidecar.simplify) {
+    // A hard-edged model gives every face its own copy of each corner, one per
+    // normal. Nothing welds, every triangle is an island with a border all the
+    // way round, and the simplifier — which will not cross a border — returns
+    // the mesh it was given: a drum went in at 76,616 triangles and came out at
+    // 76,184. The normals are about to be recomputed by `smoothAngle` anyway,
+    // so when that is set they are dropped here and the corners can meet.
+    if (sidecar.smoothAngle) {
+      for (const mesh of document.getRoot().listMeshes()) {
+        for (const primitive of mesh.listPrimitives()) {
+          if (primitive.listTargets().length) continue; // morph targets index by vertex
+          primitive.setAttribute('NORMAL', null);
+          primitive.setAttribute('TANGENT', null);
+        }
+      }
+    }
+
     await MeshoptSimplifier.ready;
     await document.transform(
       weld({ tolerance: sidecar.weldTolerance }),
@@ -125,6 +142,21 @@ async function standardise(id) {
         lockBorder: false,
       })
     );
+
+    // Give the normals back as blanks for `smoothNormals` to fill in. A
+    // primitive with no normals at all is drawn flat-shaded by the loader,
+    // which is the faceted look smoothing exists to remove.
+    for (const mesh of document.getRoot().listMeshes()) {
+      for (const primitive of mesh.listPrimitives()) {
+        const position = primitive.getAttribute('POSITION');
+        if (!position || primitive.getAttribute('NORMAL')) continue;
+
+        primitive.setAttribute(
+          'NORMAL',
+          document.createAccessor().setType('VEC3').setArray(new Float32Array(position.getCount() * 3))
+        );
+      }
+    }
   }
 
   // Contract LAST of the geometry passes, because simplifying moves vertices:

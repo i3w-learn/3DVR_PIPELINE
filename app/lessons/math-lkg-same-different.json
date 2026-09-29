@@ -127,7 +127,7 @@
     },
     {
       "id": "r3o4",
-      "model": "bottle",
+      "model": "realbottle",
       "position": "0.600 0.520 -0.780",
       "ring": 0.049,
       "scale": "1.46 1.46 1.46",

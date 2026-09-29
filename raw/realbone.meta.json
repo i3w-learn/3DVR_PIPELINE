@@ -1,0 +1,10 @@
+{
+  "id": "realbone",
+  "source": "Sketchfab — \"Femur\" by Siesta",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/femur-49d43892e2dd4497ac79c309f8bfb29d",
+  "targetHeight": 0.35,
+  "yaw": 90,
+  "smoothAngle": 60,
+  "fit": "longest"
+}
