@@ -43,6 +43,8 @@ const run = promisify(execFile);
 
 /** Below this the recogniser heard something else than the line. */
 const GOOD_ENOUGH = 0.6;
+/** At or above this it heard the line, and nothing more. */
+const HEARD_RIGHT = 0.8;
 /** Silence the encoder adds at each end of a clip, in seconds. */
 const PADDING = 0.45;
 /** A clip this many times faster or slower than the usual pace is cut short, or rambling. */
@@ -89,21 +91,26 @@ async function main() {
   // padding and breath, and says little about how fast the voice talks.
   const paces = rows.filter((r) => letters(r.text) >= 20).map((r) => pace(r.text, r.seconds)).sort((a, b) => a - b);
   const usual = paces[Math.floor(paces.length / 2)];
-  const offPace = (text, length) => {
+  // Too fast is a line cut short, and is wrong whatever was heard of it: half
+  // a sentence can still score 0.8. Too slow is only wrong if something else
+  // was heard as well — "Look, ma, ka, sa, da." takes its time because it is
+  // five things said one by one, and the recogniser heard exactly those five.
+  const offPace = (text, length, score) => {
     const p = pace(text, length) / usual;
-    return letters(text) >= 6 && (p > TOO_FAST || p < TOO_SLOW);
+    return letters(text) >= 6 && (p > TOO_FAST || (p < TOO_SLOW && score < HEARD_RIGHT));
   };
 
-  const inEnglishLetters = (heard) => latin(heard) > letters(heard) - latin(heard);
+  // Only a language with a script of its own can be written down in the wrong one.
+  const inEnglishLetters = (heard) => lang !== 'en' && latin(heard) > letters(heard) - latin(heard);
 
   const bad = rows.filter((row) =>
-    offPace(row.text, row.seconds) || (row.score < GOOD_ENOUGH && !inEnglishLetters(row.heard))
+    offPace(row.text, row.seconds, row.score) || (row.score < GOOD_ENOUGH && !inEnglishLetters(row.heard))
   );
 
   console.log(
     `${rows.length} clips in ${lang}; the usual pace is ${usual.toFixed(1)} letters a second.\n` +
-      `${bad.length} to record again: ${bad.filter((r) => offPace(r.text, r.seconds)).length} cut short or rambling, ` +
-      `${bad.filter((r) => !offPace(r.text, r.seconds)).length} misheard.`
+      `${bad.length} to record again: ${bad.filter((r) => offPace(r.text, r.seconds, r.score)).length} cut short or rambling, ` +
+      `${bad.filter((r) => !offPace(r.text, r.seconds, r.score)).length} misheard.`
   );
   if (dry || !bad.length) {
     for (const row of bad) console.log(`  ${row.score.toFixed(2)}  ${row.seconds.toFixed(1)}s  ${row.clip}  ${row.text}`);
@@ -111,7 +118,7 @@ async function main() {
   }
 
   const scratch = await fs.mkdtemp(path.join(os.tmpdir(), 'retakes-'));
-  const best = new Map(bad.map((row) => [row.clip, { ...row, file: null, fine: !offPace(row.text, row.seconds) && row.score >= GOOD_ENOUGH }]));
+  const best = new Map(bad.map((row) => [row.clip, { ...row, file: null, fine: !offPace(row.text, row.seconds, row.score) && row.score >= GOOD_ENOUGH }]));
 
   process.env.PARLER_BATCH = '1';
 
@@ -139,8 +146,8 @@ async function main() {
       let better = 0;
       for (const candidate of heard) {
         const current = best.get(candidate.name);
-        const wrongPace = offPace(candidate.text, candidate.seconds);
-        const currentWrongPace = offPace(current.text, current.seconds);
+        const wrongPace = offPace(candidate.text, candidate.seconds, candidate.score);
+        const currentWrongPace = offPace(current.text, current.seconds, current.score);
 
         // A clip at the right pace beats one that is not, whatever the scores
         // say: noise can score a lucky 0.2, half a sentence can score 0.6.
@@ -177,7 +184,9 @@ async function main() {
     const still = [...best.values()].filter((b) => !b.fine);
     console.log(
       `\n${replaced} clip(s) replaced in ${relative(folder)}. ` +
-        `${still.length} still not right after ${takes} take(s) — a person should hear these:`
+        (still.length
+          ? `${still.length} still not right after ${takes} take(s) — a person should hear these:`
+          : 'Every one of them came out right.')
     );
     for (const row of still) console.log(`  ${row.score.toFixed(2)}  ${row.clip}  ${row.text}  →  ${row.heard}`);
   } finally {

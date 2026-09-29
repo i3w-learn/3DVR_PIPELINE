@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T10:31:54.753Z",
+  "generated": "2026-09-29T11:06:02.286Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -6573,7 +6573,7 @@
       },
       "eng-nur-letters-k-o-s20.mp3": {
         "file": "audio/en/eng-nur-letters-k-o-s20.mp3",
-        "bytes": 11981
+        "bytes": 10805
       },
       "eng-nur-letters-k-o-s21.mp3": {
         "file": "audio/en/eng-nur-letters-k-o-s21.mp3",
@@ -6609,7 +6609,7 @@
       },
       "eng-nur-letters-p-t-s02.mp3": {
         "file": "audio/en/eng-nur-letters-p-t-s02.mp3",
-        "bytes": 3622
+        "bytes": 17989
       },
       "eng-nur-letters-p-t-s03.mp3": {
         "file": "audio/en/eng-nur-letters-p-t-s03.mp3",
@@ -6749,7 +6749,7 @@
       },
       "eng-nur-letters-u-z-s09.mp3": {
         "file": "audio/en/eng-nur-letters-u-z-s09.mp3",
-        "bytes": 14332
+        "bytes": 13679
       },
       "eng-nur-letters-u-z-s10.mp3": {
         "file": "audio/en/eng-nur-letters-u-z-s10.mp3",
@@ -7221,7 +7221,7 @@
       },
       "evs-lkg-animal-food-s04.mp3": {
         "file": "audio/en/evs-lkg-animal-food-s04.mp3",
-        "bytes": 3099
+        "bytes": 9891
       },
       "evs-lkg-animal-food-s05.mp3": {
         "file": "audio/en/evs-lkg-animal-food-s05.mp3",
@@ -8381,7 +8381,7 @@
       },
       "hin-ukg-do-akshar-s03.mp3": {
         "file": "audio/en/hin-ukg-do-akshar-s03.mp3",
-        "bytes": 13026
+        "bytes": 12112
       },
       "hin-ukg-do-akshar-s04.mp3": {
         "file": "audio/en/hin-ukg-do-akshar-s04.mp3",
@@ -8397,7 +8397,7 @@
       },
       "hin-ukg-do-akshar-s07.mp3": {
         "file": "audio/en/hin-ukg-do-akshar-s07.mp3",
-        "bytes": 13156
+        "bytes": 12503
       },
       "hin-ukg-do-akshar-s08.mp3": {
         "file": "audio/en/hin-ukg-do-akshar-s08.mp3",
@@ -9125,7 +9125,7 @@
       },
       "math-nur-count-21-50-s16.mp3": {
         "file": "audio/en/math-nur-count-21-50-s16.mp3",
-        "bytes": 9108
+        "bytes": 9499
       },
       "math-nur-count-21-50-s17.mp3": {
         "file": "audio/en/math-nur-count-21-50-s17.mp3",
