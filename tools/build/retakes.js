@@ -55,6 +55,13 @@ const TOO_FAST = 1.9;
 const TOO_SLOW = 0.45;
 /** Where nothing can be heard, slow has to be slower before it counts: some lines are slow on purpose. */
 const TOO_SLOW_UNHEARD = 0.33;
+/** A line this short has no pace to speak of; it is judged by the clock. */
+const SHORT_LINE = 6;
+/** Seconds of speech a short line may take, and the least it can. "This is ga." is one and a bit. */
+const SHORT_LINE_MOST = 2.6;
+const SHORT_LINE_LEAST = 0.25;
+/** About what a short line should take, for choosing between two takes of it. */
+const SHORT_LINE_USUAL = 1.2;
 
 const PYTHON = path.join(ROOT, '.tts', 'venv', 'bin', 'python');
 const LISTEN = path.join(ROOT, 'tools', 'tts', 'check_clips.py');
@@ -109,11 +116,24 @@ async function main() {
   // was heard as well — "Look, ma, ka, sa, da." takes its time because it is
   // five things said one by one, and the recogniser heard exactly those five.
   const offPace = (text, length, score) => {
+    // Two words give the voice very little to hold on to, and it fills the
+    // silence: the Odia voice took five seconds over "ଏହା ଗ", this is ga.
+    if (letters(text) < SHORT_LINE) {
+      const speech = length - PADDING;
+      if (speech < SHORT_LINE_LEAST) return true;
+      return speech > SHORT_LINE_MOST && (deaf || score < HEARD_RIGHT);
+    }
+
     const p = pace(text, length) / usual;
-    if (letters(text) < 6) return false;
     if (deaf) return p > TOO_FAST || p < TOO_SLOW_UNHEARD;
     return p > TOO_FAST || (p < TOO_SLOW && score < HEARD_RIGHT);
   };
+
+  /** How far a clip's length is from what its line should take. Only used to choose between takes. */
+  const adrift = (text, length) =>
+    letters(text) < SHORT_LINE
+      ? Math.abs(length - PADDING - SHORT_LINE_USUAL)
+      : Math.abs(Math.log(pace(text, length) / usual));
 
   // Only a language with a script of its own can be written down in the wrong one.
   const inEnglishLetters = (heard) => lang !== 'en' && latin(heard) > letters(heard) - latin(heard);
@@ -172,7 +192,13 @@ async function main() {
 
         // A clip at the right pace beats one that is not, whatever the scores
         // say: noise can score a lucky 0.2, half a sentence can score 0.6.
-        const wins = wrongPace !== currentWrongPace ? !wrongPace : candidate.score > current.score;
+        // Where nothing can be heard, the take nearer the right length wins.
+        const wins =
+          wrongPace !== currentWrongPace
+            ? !wrongPace
+            : deaf
+              ? adrift(candidate.text, candidate.seconds) < adrift(current.text, current.seconds)
+              : candidate.score > current.score;
         if (!wins) continue;
 
         better += 1;
