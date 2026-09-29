@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T08:55:14.400Z",
+  "generated": "2026-09-29T09:58:43.828Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -9967,15 +9967,15 @@
     "hi": {
       "chem_lab_s1.mp3": {
         "file": "audio/hi/chem_lab_s1.mp3",
-        "bytes": 19557
+        "bytes": 22299
       },
       "chem_lab_s2.mp3": {
         "file": "audio/hi/chem_lab_s2.mp3",
-        "bytes": 24050
+        "bytes": 28961
       },
       "chem_lab_s3.mp3": {
         "file": "audio/hi/chem_lab_s3.mp3",
-        "bytes": 15899
+        "bytes": 18903
       },
       "cow_about.mp3": {
         "file": "audio/hi/cow_about.mp3",
@@ -9983,7 +9983,7 @@
       },
       "cow.mp3": {
         "file": "audio/hi/cow.mp3",
-        "bytes": 7958
+        "bytes": 7801
       },
       "demo-home-s01.mp3": {
         "file": "audio/hi/demo-home-s01.mp3",
@@ -10007,7 +10007,7 @@
       },
       "demo-peacock-s01.mp3": {
         "file": "audio/hi/demo-peacock-s01.mp3",
-        "bytes": 31181
+        "bytes": 30659
       },
       "demo-sky-s01.mp3": {
         "file": "audio/hi/demo-sky-s01.mp3",
@@ -10047,11 +10047,11 @@
       },
       "elephant_about.mp3": {
         "file": "audio/hi/elephant_about.mp3",
-        "bytes": 14959
+        "bytes": 15508
       },
       "elephant.mp3": {
         "file": "audio/hi/elephant.mp3",
-        "bytes": 8167
+        "bytes": 6234
       },
       "eng-lkg-animal-products-s01.mp3": {
         "file": "audio/hi/eng-lkg-animal-products-s01.mp3",
@@ -11071,11 +11071,11 @@
       },
       "eng-nur-letters-a-e-s04.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s04.mp3",
-        "bytes": 10805
+        "bytes": 10283
       },
       "eng-nur-letters-a-e-s05.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s05.mp3",
-        "bytes": 13418
+        "bytes": 14463
       },
       "eng-nur-letters-a-e-s06.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s06.mp3",
@@ -11095,11 +11095,11 @@
       },
       "eng-nur-letters-a-e-s10.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s10.mp3",
-        "bytes": 10022
+        "bytes": 10936
       },
       "eng-nur-letters-a-e-s11.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s11.mp3",
-        "bytes": 12503
+        "bytes": 10805
       },
       "eng-nur-letters-a-e-s12.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s12.mp3",
@@ -11119,11 +11119,11 @@
       },
       "eng-nur-letters-a-e-s16.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s16.mp3",
-        "bytes": 12112
+        "bytes": 10022
       },
       "eng-nur-letters-a-e-s17.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s17.mp3",
-        "bytes": 10022
+        "bytes": 10414
       },
       "eng-nur-letters-a-e-s18.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s18.mp3",
@@ -11143,11 +11143,11 @@
       },
       "eng-nur-letters-a-e-s22.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s22.mp3",
-        "bytes": 9499
+        "bytes": 10283
       },
       "eng-nur-letters-a-e-s23.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s23.mp3",
-        "bytes": 11720
+        "bytes": 10414
       },
       "eng-nur-letters-a-e-s24.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s24.mp3",
@@ -11167,611 +11167,611 @@
       },
       "eng-nur-letters-a-e-s28.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s28.mp3",
-        "bytes": 9891
+        "bytes": 11459
       },
       "eng-nur-letters-a-e-s29.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s29.mp3",
-        "bytes": 0
+        "bytes": 10675
       },
       "eng-nur-letters-a-e-s30.mp3": {
         "file": "audio/hi/eng-nur-letters-a-e-s30.mp3",
-        "bytes": 13287
+        "bytes": 12895
       },
       "eng-nur-letters-f-j-s01.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s01.mp3",
-        "bytes": 8481
+        "bytes": 7671
       },
       "eng-nur-letters-f-j-s02.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s02.mp3",
-        "bytes": 9421
+        "bytes": 10022
       },
       "eng-nur-letters-f-j-s03.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s03.mp3",
-        "bytes": 9317
+        "bytes": 11981
       },
       "eng-nur-letters-f-j-s04.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s04.mp3",
-        "bytes": 9735
+        "bytes": 10414
       },
       "eng-nur-letters-f-j-s05.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s05.mp3",
-        "bytes": 8794
+        "bytes": 11328
       },
       "eng-nur-letters-f-j-s06.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s06.mp3",
-        "bytes": 14646
+        "bytes": 14071
       },
       "eng-nur-letters-f-j-s07.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s07.mp3",
-        "bytes": 8063
+        "bytes": 9499
       },
       "eng-nur-letters-f-j-s08.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s08.mp3",
-        "bytes": 9317
+        "bytes": 10022
       },
       "eng-nur-letters-f-j-s09.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s09.mp3",
-        "bytes": 10153
+        "bytes": 10675
       },
       "eng-nur-letters-f-j-s10.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s10.mp3",
-        "bytes": 8794
+        "bytes": 11067
       },
       "eng-nur-letters-f-j-s11.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s11.mp3",
-        "bytes": 9108
+        "bytes": 13548
       },
       "eng-nur-letters-f-j-s12.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s12.mp3",
-        "bytes": 14228
+        "bytes": 13418
       },
       "eng-nur-letters-f-j-s13.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s13.mp3",
-        "bytes": 8481
+        "bytes": 7018
       },
       "eng-nur-letters-f-j-s14.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s14.mp3",
-        "bytes": 9317
+        "bytes": 11197
       },
       "eng-nur-letters-f-j-s15.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s15.mp3",
-        "bytes": 9630
+        "bytes": 10022
       },
       "eng-nur-letters-f-j-s16.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s16.mp3",
-        "bytes": 8690
+        "bytes": 11981
       },
       "eng-nur-letters-f-j-s17.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s17.mp3",
-        "bytes": 10153
+        "bytes": 15246
       },
       "eng-nur-letters-f-j-s18.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s18.mp3",
-        "bytes": 15064
+        "bytes": 14724
       },
       "eng-nur-letters-f-j-s19.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s19.mp3",
-        "bytes": 8376
+        "bytes": 7671
       },
       "eng-nur-letters-f-j-s20.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s20.mp3",
-        "bytes": 8899
+        "bytes": 13156
       },
       "eng-nur-letters-f-j-s21.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s21.mp3",
-        "bytes": 9421
+        "bytes": 9369
       },
       "eng-nur-letters-f-j-s22.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s22.mp3",
-        "bytes": 12451
+        "bytes": 17859
       },
       "eng-nur-letters-f-j-s23.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s23.mp3",
-        "bytes": 9003
+        "bytes": 4928
       },
       "eng-nur-letters-f-j-s24.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s24.mp3",
-        "bytes": 14855
+        "bytes": 13679
       },
       "eng-nur-letters-f-j-s25.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s25.mp3",
-        "bytes": 8272
+        "bytes": 7410
       },
       "eng-nur-letters-f-j-s26.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s26.mp3",
-        "bytes": 9212
+        "bytes": 10022
       },
       "eng-nur-letters-f-j-s27.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s27.mp3",
-        "bytes": 10362
+        "bytes": 8977
       },
       "eng-nur-letters-f-j-s28.mp3": {
         "file": "audio/hi/eng-nur-letters-f-j-s28.mp3",
-        "bytes": 9630
+        "bytes": 5581
       },
       "eng-nur-letters-k-o-s01.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s01.mp3",
-        "bytes": 8063
+        "bytes": 7801
       },
       "eng-nur-letters-k-o-s02.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s02.mp3",
-        "bytes": 8899
+        "bytes": 9891
       },
       "eng-nur-letters-k-o-s03.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s03.mp3",
-        "bytes": 9317
+        "bytes": 11459
       },
       "eng-nur-letters-k-o-s04.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s04.mp3",
-        "bytes": 9839
+        "bytes": 10544
       },
       "eng-nur-letters-k-o-s05.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s05.mp3",
-        "bytes": 12974
+        "bytes": 10936
       },
       "eng-nur-letters-k-o-s06.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s06.mp3",
-        "bytes": 8272
+        "bytes": 8193
       },
       "eng-nur-letters-k-o-s07.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s07.mp3",
-        "bytes": 9003
+        "bytes": 9238
       },
       "eng-nur-letters-k-o-s08.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s08.mp3",
-        "bytes": 10257
+        "bytes": 9891
       },
       "eng-nur-letters-k-o-s09.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s09.mp3",
-        "bytes": 9839
+        "bytes": 14071
       },
       "eng-nur-letters-k-o-s10.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s10.mp3",
-        "bytes": 9421
+        "bytes": 10544
       },
       "eng-nur-letters-k-o-s11.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s11.mp3",
-        "bytes": 14228
+        "bytes": 12242
       },
       "eng-nur-letters-k-o-s12.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s12.mp3",
-        "bytes": 8481
+        "bytes": 13418
       },
       "eng-nur-letters-k-o-s13.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s13.mp3",
-        "bytes": 9212
+        "bytes": 10152
       },
       "eng-nur-letters-k-o-s14.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s14.mp3",
-        "bytes": 10257
+        "bytes": 10152
       },
       "eng-nur-letters-k-o-s15.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s15.mp3",
-        "bytes": 8376
+        "bytes": 12112
       },
       "eng-nur-letters-k-o-s16.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s16.mp3",
-        "bytes": 11720
+        "bytes": 10936
       },
       "eng-nur-letters-k-o-s17.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s17.mp3",
-        "bytes": 8481
+        "bytes": 8324
       },
       "eng-nur-letters-k-o-s18.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s18.mp3",
-        "bytes": 9526
+        "bytes": 9238
       },
       "eng-nur-letters-k-o-s19.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s19.mp3",
-        "bytes": 9944
+        "bytes": 9891
       },
       "eng-nur-letters-k-o-s20.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s20.mp3",
-        "bytes": 8794
+        "bytes": 10805
       },
       "eng-nur-letters-k-o-s21.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s21.mp3",
-        "bytes": 12451
+        "bytes": 11197
       },
       "eng-nur-letters-k-o-s22.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s22.mp3",
-        "bytes": 8063
+        "bytes": 7540
       },
       "eng-nur-letters-k-o-s23.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s23.mp3",
-        "bytes": 8585
+        "bytes": 9761
       },
       "eng-nur-letters-k-o-s24.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s24.mp3",
-        "bytes": 9944
+        "bytes": 11720
       },
       "eng-nur-letters-k-o-s25.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s25.mp3",
-        "bytes": 8585
+        "bytes": 9630
       },
       "eng-nur-letters-k-o-s26.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s26.mp3",
-        "bytes": 8585
+        "bytes": 12634
       },
       "eng-nur-letters-k-o-s27.mp3": {
         "file": "audio/hi/eng-nur-letters-k-o-s27.mp3",
-        "bytes": 13914
+        "bytes": 12503
       },
       "eng-nur-letters-p-t-s01.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s01.mp3",
-        "bytes": 8063
+        "bytes": 7671
       },
       "eng-nur-letters-p-t-s02.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s02.mp3",
-        "bytes": 8899
+        "bytes": 10936
       },
       "eng-nur-letters-p-t-s03.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s03.mp3",
-        "bytes": 9630
+        "bytes": 9761
       },
       "eng-nur-letters-p-t-s04.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s04.mp3",
-        "bytes": 8272
+        "bytes": 11720
       },
       "eng-nur-letters-p-t-s05.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s05.mp3",
-        "bytes": 10675
+        "bytes": 13287
       },
       "eng-nur-letters-p-t-s06.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s06.mp3",
-        "bytes": 15377
+        "bytes": 16030
       },
       "eng-nur-letters-p-t-s07.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s07.mp3",
-        "bytes": 8585
+        "bytes": 8846
       },
       "eng-nur-letters-p-t-s08.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s08.mp3",
-        "bytes": 8794
+        "bytes": 10544
       },
       "eng-nur-letters-p-t-s09.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s09.mp3",
-        "bytes": 10048
+        "bytes": 11459
       },
       "eng-nur-letters-p-t-s10.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s10.mp3",
-        "bytes": 9839
+        "bytes": 6365
       },
       "eng-nur-letters-p-t-s11.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s11.mp3",
-        "bytes": 8376
+        "bytes": 9630
       },
       "eng-nur-letters-p-t-s12.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s12.mp3",
-        "bytes": 9630
+        "bytes": 10805
       },
       "eng-nur-letters-p-t-s13.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s13.mp3",
-        "bytes": 9212
+        "bytes": 12112
       },
       "eng-nur-letters-p-t-s14.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s14.mp3",
-        "bytes": 10153
+        "bytes": 12112
       },
       "eng-nur-letters-p-t-s15.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s15.mp3",
-        "bytes": 9003
+        "bytes": 13418
       },
       "eng-nur-letters-p-t-s16.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s16.mp3",
-        "bytes": 14541
+        "bytes": 14071
       },
       "eng-nur-letters-p-t-s17.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s17.mp3",
-        "bytes": 8376
+        "bytes": 8454
       },
       "eng-nur-letters-p-t-s18.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s18.mp3",
-        "bytes": 9212
+        "bytes": 9630
       },
       "eng-nur-letters-p-t-s19.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s19.mp3",
-        "bytes": 8167
+        "bytes": 10152
       },
       "eng-nur-letters-p-t-s20.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s20.mp3",
-        "bytes": 10362
+        "bytes": 12634
       },
       "eng-nur-letters-p-t-s21.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s21.mp3",
-        "bytes": 8481
+        "bytes": 11589
       },
       "eng-nur-letters-p-t-s22.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s22.mp3",
-        "bytes": 14959
+        "bytes": 14593
       },
       "eng-nur-letters-p-t-s23.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s23.mp3",
-        "bytes": 7958
+        "bytes": 7671
       },
       "eng-nur-letters-p-t-s24.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s24.mp3",
-        "bytes": 8690
+        "bytes": 10805
       },
       "eng-nur-letters-p-t-s25.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s25.mp3",
-        "bytes": 9839
+        "bytes": 8846
       },
       "eng-nur-letters-p-t-s26.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s26.mp3",
-        "bytes": 8690
+        "bytes": 11067
       },
       "eng-nur-letters-p-t-s27.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s27.mp3",
-        "bytes": 9003
+        "bytes": 10805
       },
       "eng-nur-letters-p-t-s28.mp3": {
         "file": "audio/hi/eng-nur-letters-p-t-s28.mp3",
-        "bytes": 14959
+        "bytes": 12503
       },
       "eng-nur-letters-u-z-s01.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s01.mp3",
-        "bytes": 8376
+        "bytes": 8716
       },
       "eng-nur-letters-u-z-s02.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s02.mp3",
-        "bytes": 8794
+        "bytes": 9499
       },
       "eng-nur-letters-u-z-s03.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s03.mp3",
-        "bytes": 10988
+        "bytes": 13287
       },
       "eng-nur-letters-u-z-s04.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s04.mp3",
-        "bytes": 10153
+        "bytes": 6887
       },
       "eng-nur-letters-u-z-s05.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s05.mp3",
-        "bytes": 8272
+        "bytes": 7801
       },
       "eng-nur-letters-u-z-s06.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s06.mp3",
-        "bytes": 8794
+        "bytes": 9238
       },
       "eng-nur-letters-u-z-s07.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s07.mp3",
-        "bytes": 10570
+        "bytes": 12503
       },
       "eng-nur-letters-u-z-s08.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s08.mp3",
-        "bytes": 8272
+        "bytes": 7279
       },
       "eng-nur-letters-u-z-s09.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s09.mp3",
-        "bytes": 12347
+        "bytes": 9369
       },
       "eng-nur-letters-u-z-s10.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s10.mp3",
-        "bytes": 9317
+        "bytes": 8977
       },
       "eng-nur-letters-u-z-s11.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s11.mp3",
-        "bytes": 10048
+        "bytes": 10152
       },
       "eng-nur-letters-u-z-s12.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s12.mp3",
-        "bytes": 12660
+        "bytes": 14724
       },
       "eng-nur-letters-u-z-s13.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s13.mp3",
-        "bytes": 9526
+        "bytes": 12112
       },
       "eng-nur-letters-u-z-s14.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s14.mp3",
-        "bytes": 12974
+        "bytes": 11197
       },
       "eng-nur-letters-u-z-s15.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s15.mp3",
-        "bytes": 8899
+        "bytes": 8716
       },
       "eng-nur-letters-u-z-s16.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s16.mp3",
-        "bytes": 9526
+        "bytes": 11067
       },
       "eng-nur-letters-u-z-s17.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s17.mp3",
-        "bytes": 13496
+        "bytes": 12765
       },
       "eng-nur-letters-u-z-s18.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s18.mp3",
-        "bytes": 12033
+        "bytes": 9108
       },
       "eng-nur-letters-u-z-s19.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s19.mp3",
-        "bytes": 8794
+        "bytes": 8063
       },
       "eng-nur-letters-u-z-s20.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s20.mp3",
-        "bytes": 9212
+        "bytes": 10414
       },
       "eng-nur-letters-u-z-s21.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s21.mp3",
-        "bytes": 11615
+        "bytes": 13810
       },
       "eng-nur-letters-u-z-s22.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s22.mp3",
-        "bytes": 8585
+        "bytes": 10544
       },
       "eng-nur-letters-u-z-s23.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s23.mp3",
-        "bytes": 13183
+        "bytes": 12503
       },
       "eng-nur-letters-u-z-s24.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s24.mp3",
-        "bytes": 8690
+        "bytes": 10152
       },
       "eng-nur-letters-u-z-s25.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s25.mp3",
-        "bytes": 10048
+        "bytes": 10414
       },
       "eng-nur-letters-u-z-s26.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s26.mp3",
-        "bytes": 10675
+        "bytes": 12373
       },
       "eng-nur-letters-u-z-s27.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s27.mp3",
-        "bytes": 9108
+        "bytes": 11981
       },
       "eng-nur-letters-u-z-s28.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s28.mp3",
-        "bytes": 12869
+        "bytes": 12503
       },
       "eng-nur-shapes-check-s01.mp3": {
         "file": "audio/hi/eng-nur-shapes-check-s01.mp3",
-        "bytes": 13287
+        "bytes": 9891
       },
       "eng-nur-shapes-check-s02.mp3": {
         "file": "audio/hi/eng-nur-shapes-check-s02.mp3",
-        "bytes": 12974
+        "bytes": 13287
       },
       "eng-nur-shapes-check-s03.mp3": {
         "file": "audio/hi/eng-nur-shapes-check-s03.mp3",
-        "bytes": 12556
+        "bytes": 12895
       },
       "eng-nur-shapes-s01.mp3": {
         "file": "audio/hi/eng-nur-shapes-s01.mp3",
-        "bytes": 9317
+        "bytes": 7540
       },
       "eng-nur-shapes-s02.mp3": {
         "file": "audio/hi/eng-nur-shapes-s02.mp3",
-        "bytes": 7854
+        "bytes": 7410
       },
       "eng-nur-shapes-s03.mp3": {
         "file": "audio/hi/eng-nur-shapes-s03.mp3",
-        "bytes": 8063
+        "bytes": 6756
       },
       "eng-nur-shapes-s04.mp3": {
         "file": "audio/hi/eng-nur-shapes-s04.mp3",
-        "bytes": 8167
+        "bytes": 7671
       },
       "eng-nur-shapes-s05.mp3": {
         "file": "audio/hi/eng-nur-shapes-s05.mp3",
-        "bytes": 8063
+        "bytes": 9108
       },
       "eng-nur-shapes-s06.mp3": {
         "file": "audio/hi/eng-nur-shapes-s06.mp3",
-        "bytes": 9317
+        "bytes": 7801
       },
       "eng-nur-shapes-s07.mp3": {
         "file": "audio/hi/eng-nur-shapes-s07.mp3",
-        "bytes": 9003
+        "bytes": 12242
       },
       "eng-nur-shapes-s08.mp3": {
         "file": "audio/hi/eng-nur-shapes-s08.mp3",
-        "bytes": 7749
+        "bytes": 7279
       },
       "eng-nur-shapes-s09.mp3": {
         "file": "audio/hi/eng-nur-shapes-s09.mp3",
-        "bytes": 7958
+        "bytes": 7540
       },
       "eng-nur-vegetables-s01.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s01.mp3",
-        "bytes": 9108
+        "bytes": 9630
       },
       "eng-nur-vegetables-s02.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s02.mp3",
-        "bytes": 8272
+        "bytes": 8585
       },
       "eng-nur-vegetables-s03.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s03.mp3",
-        "bytes": 8585
+        "bytes": 9499
       },
       "eng-nur-vegetables-s04.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s04.mp3",
-        "bytes": 8167
+        "bytes": 7540
       },
       "eng-nur-vegetables-s05.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s05.mp3",
-        "bytes": 7854
+        "bytes": 7279
       },
       "eng-nur-vegetables-s06.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s06.mp3",
-        "bytes": 9108
+        "bytes": 8324
       },
       "eng-nur-vegetables-s07.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s07.mp3",
-        "bytes": 9212
+        "bytes": 8716
       },
       "eng-nur-vegetables-s08.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s08.mp3",
-        "bytes": 8690
+        "bytes": 10805
       },
       "eng-nur-vegetables-s09.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s09.mp3",
-        "bytes": 8481
+        "bytes": 9499
       },
       "eng-nur-vegetables-s10.mp3": {
         "file": "audio/hi/eng-nur-vegetables-s10.mp3",
-        "bytes": 7854
+        "bytes": 7932
       },
       "eng-nur-water-animals-s01.mp3": {
         "file": "audio/hi/eng-nur-water-animals-s01.mp3",
-        "bytes": 22169
+        "bytes": 26610
       },
       "eng-nur-water-animals-s02.mp3": {
         "file": "audio/hi/eng-nur-water-animals-s02.mp3",
-        "bytes": 16631
+        "bytes": 17597
       },
       "eng-nur-water-animals-s03.mp3": {
         "file": "audio/hi/eng-nur-water-animals-s03.mp3",
-        "bytes": 18825
+        "bytes": 21254
       },
       "eng-nur-water-animals-s04.mp3": {
         "file": "audio/hi/eng-nur-water-animals-s04.mp3",
-        "bytes": 18303
+        "bytes": 21646
       },
       "eng-nur-water-animals-s05.mp3": {
         "file": "audio/hi/eng-nur-water-animals-s05.mp3",
-        "bytes": 19243
+        "bytes": 23867
       },
       "eng-nur-water-animals-s06.mp3": {
         "file": "audio/hi/eng-nur-water-animals-s06.mp3",
-        "bytes": 15795
+        "bytes": 17467
       },
       "eng-nur-water-animals-s07.mp3": {
         "file": "audio/hi/eng-nur-water-animals-s07.mp3",
-        "bytes": 15795
+        "bytes": 16552
       },
       "eng-nur-water-animals-s08.mp3": {
         "file": "audio/hi/eng-nur-water-animals-s08.mp3",
-        "bytes": 17153
+        "bytes": 19948
       },
       "eng-nur-water-animals-s09.mp3": {
         "file": "audio/hi/eng-nur-water-animals-s09.mp3",
-        "bytes": 10257
+        "bytes": 12242
       },
       "eng-nur-wild-animal-traits-s01.mp3": {
         "file": "audio/hi/eng-nur-wild-animal-traits-s01.mp3",
-        "bytes": 19557
+        "bytes": 20993
       },
       "eng-nur-wild-animal-traits-s02.mp3": {
         "file": "audio/hi/eng-nur-wild-animal-traits-s02.mp3",
-        "bytes": 22796
+        "bytes": 36275
       },
       "eng-nur-wild-animal-traits-s03.mp3": {
         "file": "audio/hi/eng-nur-wild-animal-traits-s03.mp3",
-        "bytes": 19870
+        "bytes": 23605
       },
       "eng-nur-wild-animal-traits-s04.mp3": {
         "file": "audio/hi/eng-nur-wild-animal-traits-s04.mp3",
-        "bytes": 15586
+        "bytes": 17205
       },
       "eng-nur-wild-animal-traits-s05.mp3": {
         "file": "audio/hi/eng-nur-wild-animal-traits-s05.mp3",
-        "bytes": 19243
+        "bytes": 22430
       },
       "eng-nur-wild-animal-traits-s06.mp3": {
         "file": "audio/hi/eng-nur-wild-animal-traits-s06.mp3",
-        "bytes": 11093
+        "bytes": 12895
       },
       "eng-nur-wild-animal-traits-s07.mp3": {
         "file": "audio/hi/eng-nur-wild-animal-traits-s07.mp3",
-        "bytes": 17676
+        "bytes": 19426
       },
       "eng-nur-wild-animals-s01.mp3": {
         "file": "audio/hi/eng-nur-wild-animals-s01.mp3",
@@ -11779,55 +11779,55 @@
       },
       "eng-nur-wild-animals-s02.mp3": {
         "file": "audio/hi/eng-nur-wild-animals-s02.mp3",
-        "bytes": 16526
+        "bytes": 15899
       },
       "eng-nur-wild-animals-s03.mp3": {
         "file": "audio/hi/eng-nur-wild-animals-s03.mp3",
-        "bytes": 18512
+        "bytes": 17205
       },
       "eng-nur-wild-animals-s04.mp3": {
         "file": "audio/hi/eng-nur-wild-animals-s04.mp3",
-        "bytes": 16317
+        "bytes": 18120
       },
       "eng-nur-wild-animals-s05.mp3": {
         "file": "audio/hi/eng-nur-wild-animals-s05.mp3",
-        "bytes": 16735
+        "bytes": 17467
       },
       "eng-nur-wild-animals-s06.mp3": {
         "file": "audio/hi/eng-nur-wild-animals-s06.mp3",
-        "bytes": 8063
+        "bytes": 7801
       },
       "eng-nur-wild-animals-s07.mp3": {
         "file": "audio/hi/eng-nur-wild-animals-s07.mp3",
-        "bytes": 8063
+        "bytes": 8846
       },
       "eng-nur-wild-animals-s08.mp3": {
         "file": "audio/hi/eng-nur-wild-animals-s08.mp3",
-        "bytes": 16526
+        "bytes": 18512
       },
       "eng-nur-wild-animals-s09.mp3": {
         "file": "audio/hi/eng-nur-wild-animals-s09.mp3",
-        "bytes": 17467
+        "bytes": 17859
       },
       "eng-ukg-behind-front-s01.mp3": {
         "file": "audio/hi/eng-ukg-behind-front-s01.mp3",
-        "bytes": 12033
+        "bytes": 15246
       },
       "eng-ukg-behind-front-s02.mp3": {
         "file": "audio/hi/eng-ukg-behind-front-s02.mp3",
-        "bytes": 11720
+        "bytes": 10152
       },
       "eng-ukg-behind-front-s03.mp3": {
         "file": "audio/hi/eng-ukg-behind-front-s03.mp3",
-        "bytes": 7540
+        "bytes": 7932
       },
       "eng-ukg-behind-front-s04.mp3": {
         "file": "audio/hi/eng-ukg-behind-front-s04.mp3",
-        "bytes": 11302
+        "bytes": 9761
       },
       "eng-ukg-behind-front-s05.mp3": {
         "file": "audio/hi/eng-ukg-behind-front-s05.mp3",
-        "bytes": 11511
+        "bytes": 10022
       },
       "eng-ukg-phonics-s01.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s01.mp3",
@@ -11835,95 +11835,95 @@
       },
       "eng-ukg-phonics-s02.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s02.mp3",
-        "bytes": 8690
+        "bytes": 9499
       },
       "eng-ukg-phonics-s03.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s03.mp3",
-        "bytes": 9003
+        "bytes": 10152
       },
       "eng-ukg-phonics-s04.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s04.mp3",
-        "bytes": 9108
+        "bytes": 9499
       },
       "eng-ukg-phonics-s05.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s05.mp3",
-        "bytes": 9526
+        "bytes": 10414
       },
       "eng-ukg-phonics-s06.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s06.mp3",
-        "bytes": 8585
+        "bytes": 9630
       },
       "eng-ukg-phonics-s07.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s07.mp3",
-        "bytes": 9630
+        "bytes": 8846
       },
       "eng-ukg-phonics-s08.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s08.mp3",
-        "bytes": 9421
+        "bytes": 10022
       },
       "eng-ukg-phonics-s09.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s09.mp3",
-        "bytes": 9317
+        "bytes": 9891
       },
       "eng-ukg-phonics-s10.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s10.mp3",
-        "bytes": 9317
+        "bytes": 10152
       },
       "eng-ukg-phonics-s11.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s11.mp3",
-        "bytes": 8899
+        "bytes": 10544
       },
       "eng-ukg-phonics-s12.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s12.mp3",
-        "bytes": 9212
+        "bytes": 11328
       },
       "eng-ukg-phonics-s13.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s13.mp3",
-        "bytes": 9630
+        "bytes": 8193
       },
       "eng-ukg-phonics-s14.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s14.mp3",
-        "bytes": 8899
+        "bytes": 9761
       },
       "eng-ukg-phonics-s15.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s15.mp3",
-        "bytes": 9003
+        "bytes": 9630
       },
       "eng-ukg-phonics-s16.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s16.mp3",
-        "bytes": 9212
+        "bytes": 9238
       },
       "eng-ukg-phonics-s17.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s17.mp3",
-        "bytes": 9526
+        "bytes": 9499
       },
       "eng-ukg-phonics-s18.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s18.mp3",
-        "bytes": 8585
+        "bytes": 9630
       },
       "eng-ukg-phonics-s19.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s19.mp3",
-        "bytes": 9630
+        "bytes": 10283
       },
       "eng-ukg-phonics-s20.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s20.mp3",
-        "bytes": 8899
+        "bytes": 9630
       },
       "eng-ukg-phonics-s21.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s21.mp3",
-        "bytes": 8794
+        "bytes": 10152
       },
       "eng-ukg-phonics-s22.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s22.mp3",
-        "bytes": 9630
+        "bytes": 9369
       },
       "eng-ukg-phonics-s23.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s23.mp3",
-        "bytes": 9212
+        "bytes": 10152
       },
       "eng-ukg-phonics-s24.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s24.mp3",
-        "bytes": 8690
+        "bytes": 10283
       },
       "eng-ukg-phonics-s25.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s25.mp3",
@@ -11931,487 +11931,487 @@
       },
       "eng-ukg-phonics-s26.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s26.mp3",
-        "bytes": 8794
+        "bytes": 11067
       },
       "eng-ukg-phonics-s27.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s27.mp3",
-        "bytes": 8794
+        "bytes": 9761
       },
       "eng-ukg-phonics-s28.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s28.mp3",
-        "bytes": 10048
+        "bytes": 11459
       },
       "eng-ukg-phonics-s29.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s29.mp3",
-        "bytes": 9526
+        "bytes": 10936
       },
       "eng-ukg-phonics-s30.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s30.mp3",
-        "bytes": 9212
+        "bytes": 7932
       },
       "eng-ukg-phonics-s31.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s31.mp3",
-        "bytes": 9630
+        "bytes": 8977
       },
       "eng-ukg-phonics-s32.mp3": {
         "file": "audio/hi/eng-ukg-phonics-s32.mp3",
-        "bytes": 10048
+        "bytes": 10805
       },
       "evs-lkg-animal-babies-s01.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s01.mp3",
-        "bytes": 23109
+        "bytes": 28569
       },
       "evs-lkg-animal-babies-s02.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s02.mp3",
-        "bytes": 7958
+        "bytes": 7540
       },
       "evs-lkg-animal-babies-s03.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s03.mp3",
-        "bytes": 11720
+        "bytes": 11981
       },
       "evs-lkg-animal-babies-s04.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s04.mp3",
-        "bytes": 7749
+        "bytes": 7279
       },
       "evs-lkg-animal-babies-s05.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s05.mp3",
-        "bytes": 11615
+        "bytes": 12503
       },
       "evs-lkg-animal-babies-s06.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s06.mp3",
-        "bytes": 8063
+        "bytes": 7018
       },
       "evs-lkg-animal-babies-s07.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s07.mp3",
-        "bytes": 11197
+        "bytes": 12242
       },
       "evs-lkg-animal-babies-s08.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s08.mp3",
-        "bytes": 8167
+        "bytes": 7148
       },
       "evs-lkg-animal-babies-s09.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s09.mp3",
-        "bytes": 14019
+        "bytes": 15638
       },
       "evs-lkg-animal-babies-s10.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s10.mp3",
-        "bytes": 8272
+        "bytes": 8977
       },
       "evs-lkg-animal-babies-s11.mp3": {
         "file": "audio/hi/evs-lkg-animal-babies-s11.mp3",
-        "bytes": 11720
+        "bytes": 13026
       },
       "evs-lkg-animal-food-s01.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s01.mp3",
-        "bytes": 23423
+        "bytes": 24781
       },
       "evs-lkg-animal-food-s02.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s02.mp3",
-        "bytes": 7958
+        "bytes": 27001
       },
       "evs-lkg-animal-food-s03.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s03.mp3",
-        "bytes": 10884
+        "bytes": 9499
       },
       "evs-lkg-animal-food-s04.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s04.mp3",
-        "bytes": 8272
+        "bytes": 7279
       },
       "evs-lkg-animal-food-s05.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s05.mp3",
-        "bytes": 10570
+        "bytes": 10022
       },
       "evs-lkg-animal-food-s06.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s06.mp3",
-        "bytes": 8063
+        "bytes": 7018
       },
       "evs-lkg-animal-food-s07.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s07.mp3",
-        "bytes": 10779
+        "bytes": 9238
       },
       "evs-lkg-animal-food-s08.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s08.mp3",
-        "bytes": 8167
+        "bytes": 6626
       },
       "evs-lkg-animal-food-s09.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s09.mp3",
-        "bytes": 9735
+        "bytes": 10414
       },
       "evs-lkg-animal-food-s10.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s10.mp3",
-        "bytes": 9212
+        "bytes": 9108
       },
       "evs-lkg-animal-food-s11.mp3": {
         "file": "audio/hi/evs-lkg-animal-food-s11.mp3",
-        "bytes": 12033
+        "bytes": 4536
       },
       "evs-lkg-animal-footprints-s01.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s01.mp3",
-        "bytes": 13914
+        "bytes": 14332
       },
       "evs-lkg-animal-footprints-s02.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s02.mp3",
-        "bytes": 12451
+        "bytes": 14854
       },
       "evs-lkg-animal-footprints-s03.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s03.mp3",
-        "bytes": 13914
+        "bytes": 19034
       },
       "evs-lkg-animal-footprints-s04.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s04.mp3",
-        "bytes": 12765
+        "bytes": 13810
       },
       "evs-lkg-animal-footprints-s05.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s05.mp3",
-        "bytes": 13914
+        "bytes": 15508
       },
       "evs-lkg-animal-footprints-s06.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s06.mp3",
-        "bytes": 12347
+        "bytes": 15638
       },
       "evs-lkg-animal-footprints-s07.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s07.mp3",
-        "bytes": 13914
+        "bytes": 20471
       },
       "evs-lkg-animal-footprints-s08.mp3": {
         "file": "audio/hi/evs-lkg-animal-footprints-s08.mp3",
-        "bytes": 12974
+        "bytes": 12503
       },
       "evs-lkg-animal-habitats-s01.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s01.mp3",
-        "bytes": 27811
+        "bytes": 31181
       },
       "evs-lkg-animal-habitats-s02.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s02.mp3",
-        "bytes": 8585
+        "bytes": 7932
       },
       "evs-lkg-animal-habitats-s03.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s03.mp3",
-        "bytes": 11406
+        "bytes": 11328
       },
       "evs-lkg-animal-habitats-s04.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s04.mp3",
-        "bytes": 8063
+        "bytes": 9238
       },
       "evs-lkg-animal-habitats-s05.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s05.mp3",
-        "bytes": 11929
+        "bytes": 11981
       },
       "evs-lkg-animal-habitats-s06.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s06.mp3",
-        "bytes": 9526
+        "bytes": 10152
       },
       "evs-lkg-animal-habitats-s07.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s07.mp3",
-        "bytes": 12138
+        "bytes": 13026
       },
       "evs-lkg-animal-habitats-s08.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s08.mp3",
-        "bytes": 7958
+        "bytes": 7540
       },
       "evs-lkg-animal-habitats-s09.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s09.mp3",
-        "bytes": 10257
+        "bytes": 9630
       },
       "evs-lkg-animal-habitats-s10.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s10.mp3",
-        "bytes": 7958
+        "bytes": 7540
       },
       "evs-lkg-animal-habitats-s11.mp3": {
         "file": "audio/hi/evs-lkg-animal-habitats-s11.mp3",
-        "bytes": 11197
+        "bytes": 12634
       },
       "evs-lkg-body-parts-s01.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s01.mp3",
-        "bytes": 20810
+        "bytes": 20210
       },
       "evs-lkg-body-parts-s02.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s02.mp3",
-        "bytes": 7227
+        "bytes": 7540
       },
       "evs-lkg-body-parts-s03.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s03.mp3",
-        "bytes": 7436
+        "bytes": 7279
       },
       "evs-lkg-body-parts-s04.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s04.mp3",
-        "bytes": 16944
+        "bytes": 15899
       },
       "evs-lkg-body-parts-s05.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s05.mp3",
-        "bytes": 14959
+        "bytes": 15377
       },
       "evs-lkg-body-parts-s06.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s06.mp3",
-        "bytes": 16004
+        "bytes": 14201
       },
       "evs-lkg-body-parts-s07.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s07.mp3",
-        "bytes": 16840
+        "bytes": 18642
       },
       "evs-lkg-body-parts-s08.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s08.mp3",
-        "bytes": 16213
+        "bytes": 16814
       },
       "evs-lkg-body-parts-s09.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s09.mp3",
-        "bytes": 7227
+        "bytes": 6626
       },
       "evs-lkg-body-parts-s10.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s10.mp3",
-        "bytes": 14855
+        "bytes": 15377
       },
       "evs-lkg-body-parts-s11.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s11.mp3",
-        "bytes": 7645
+        "bytes": 9238
       },
       "evs-lkg-body-parts-s12.mp3": {
         "file": "audio/hi/evs-lkg-body-parts-s12.mp3",
-        "bytes": 17467
+        "bytes": 15377
       },
       "evs-lkg-community-helpers-s01.mp3": {
         "file": "audio/hi/evs-lkg-community-helpers-s01.mp3",
-        "bytes": 18616
+        "bytes": 19165
       },
       "evs-lkg-community-helpers-s02.mp3": {
         "file": "audio/hi/evs-lkg-community-helpers-s02.mp3",
-        "bytes": 21646
+        "bytes": 24128
       },
       "evs-lkg-community-helpers-s03.mp3": {
         "file": "audio/hi/evs-lkg-community-helpers-s03.mp3",
-        "bytes": 15482
+        "bytes": 16161
       },
       "evs-lkg-community-helpers-s04.mp3": {
         "file": "audio/hi/evs-lkg-community-helpers-s04.mp3",
-        "bytes": 16004
+        "bytes": 19034
       },
       "evs-lkg-community-helpers-s05.mp3": {
         "file": "audio/hi/evs-lkg-community-helpers-s05.mp3",
-        "bytes": 19348
+        "bytes": 20993
       },
       "evs-lkg-community-helpers-s06.mp3": {
         "file": "audio/hi/evs-lkg-community-helpers-s06.mp3",
-        "bytes": 16317
+        "bytes": 19818
       },
       "evs-lkg-community-helpers-s07.mp3": {
         "file": "audio/hi/evs-lkg-community-helpers-s07.mp3",
-        "bytes": 18198
+        "bytes": 21777
       },
       "evs-lkg-community-helpers-s08.mp3": {
         "file": "audio/hi/evs-lkg-community-helpers-s08.mp3",
-        "bytes": 17676
+        "bytes": 20340
       },
       "evs-lkg-healthy-food-s01.mp3": {
         "file": "audio/hi/evs-lkg-healthy-food-s01.mp3",
-        "bytes": 16108
+        "bytes": 21646
       },
       "evs-lkg-healthy-food-s02.mp3": {
         "file": "audio/hi/evs-lkg-healthy-food-s02.mp3",
-        "bytes": 16108
+        "bytes": 19818
       },
       "evs-lkg-healthy-food-s03.mp3": {
         "file": "audio/hi/evs-lkg-healthy-food-s03.mp3",
-        "bytes": 16108
+        "bytes": 21908
       },
       "evs-lkg-house-parts-s01.mp3": {
         "file": "audio/hi/evs-lkg-house-parts-s01.mp3",
-        "bytes": 17467
+        "bytes": 19034
       },
       "evs-lkg-house-parts-s02.mp3": {
         "file": "audio/hi/evs-lkg-house-parts-s02.mp3",
-        "bytes": 17258
+        "bytes": 17989
       },
       "evs-lkg-house-parts-s03.mp3": {
         "file": "audio/hi/evs-lkg-house-parts-s03.mp3",
-        "bytes": 19034
+        "bytes": 24389
       },
       "evs-lkg-house-parts-s04.mp3": {
         "file": "audio/hi/evs-lkg-house-parts-s04.mp3",
-        "bytes": 16317
+        "bytes": 18773
       },
       "evs-lkg-house-parts-s05.mp3": {
         "file": "audio/hi/evs-lkg-house-parts-s05.mp3",
-        "bytes": 17467
+        "bytes": 18381
       },
       "evs-lkg-house-parts-s06.mp3": {
         "file": "audio/hi/evs-lkg-house-parts-s06.mp3",
-        "bytes": 9003
+        "bytes": 9238
       },
       "evs-lkg-market-s01.mp3": {
         "file": "audio/hi/evs-lkg-market-s01.mp3",
-        "bytes": 17467
+        "bytes": 19295
       },
       "evs-lkg-market-s02.mp3": {
         "file": "audio/hi/evs-lkg-market-s02.mp3",
-        "bytes": 9212
+        "bytes": 9108
       },
       "evs-lkg-market-s03.mp3": {
         "file": "audio/hi/evs-lkg-market-s03.mp3",
-        "bytes": 9317
+        "bytes": 9630
       },
       "evs-lkg-market-s04.mp3": {
         "file": "audio/hi/evs-lkg-market-s04.mp3",
-        "bytes": 8794
+        "bytes": 9108
       },
       "evs-lkg-market-s05.mp3": {
         "file": "audio/hi/evs-lkg-market-s05.mp3",
-        "bytes": 7854
+        "bytes": 7410
       },
       "evs-lkg-market-s06.mp3": {
         "file": "audio/hi/evs-lkg-market-s06.mp3",
-        "bytes": 10048
+        "bytes": 11067
       },
       "evs-lkg-market-s07.mp3": {
         "file": "audio/hi/evs-lkg-market-s07.mp3",
-        "bytes": 7958
+        "bytes": 9238
       },
       "evs-lkg-market-s08.mp3": {
         "file": "audio/hi/evs-lkg-market-s08.mp3",
-        "bytes": 9212
+        "bytes": 10936
       },
       "evs-lkg-market-s09.mp3": {
         "file": "audio/hi/evs-lkg-market-s09.mp3",
-        "bytes": 10153
+        "bytes": 12765
       },
       "evs-lkg-professions-s01.mp3": {
         "file": "audio/hi/evs-lkg-professions-s01.mp3",
-        "bytes": 20079
+        "bytes": 23736
       },
       "evs-lkg-professions-s02.mp3": {
         "file": "audio/hi/evs-lkg-professions-s02.mp3",
-        "bytes": 8167
+        "bytes": 7671
       },
       "evs-lkg-professions-s03.mp3": {
         "file": "audio/hi/evs-lkg-professions-s03.mp3",
-        "bytes": 15377
+        "bytes": 17728
       },
       "evs-lkg-professions-s04.mp3": {
         "file": "audio/hi/evs-lkg-professions-s04.mp3",
-        "bytes": 9108
+        "bytes": 7932
       },
       "evs-lkg-professions-s05.mp3": {
         "file": "audio/hi/evs-lkg-professions-s05.mp3",
-        "bytes": 11720
+        "bytes": 12895
       },
       "evs-lkg-professions-s06.mp3": {
         "file": "audio/hi/evs-lkg-professions-s06.mp3",
-        "bytes": 8272
+        "bytes": 9499
       },
       "evs-lkg-professions-s07.mp3": {
         "file": "audio/hi/evs-lkg-professions-s07.mp3",
-        "bytes": 10675
+        "bytes": 12242
       },
       "evs-lkg-professions-s08.mp3": {
         "file": "audio/hi/evs-lkg-professions-s08.mp3",
-        "bytes": 8376
+        "bytes": 7410
       },
       "evs-lkg-professions-s09.mp3": {
         "file": "audio/hi/evs-lkg-professions-s09.mp3",
-        "bytes": 13183
+        "bytes": 13679
       },
       "evs-lkg-professions-s10.mp3": {
         "file": "audio/hi/evs-lkg-professions-s10.mp3",
-        "bytes": 9735
+        "bytes": 9108
       },
       "evs-lkg-professions-s11.mp3": {
         "file": "audio/hi/evs-lkg-professions-s11.mp3",
-        "bytes": 17153
+        "bytes": 21646
       },
       "evs-lkg-special-vehicles-s01.mp3": {
         "file": "audio/hi/evs-lkg-special-vehicles-s01.mp3",
-        "bytes": 19870
+        "bytes": 23214
       },
       "evs-lkg-special-vehicles-s02.mp3": {
         "file": "audio/hi/evs-lkg-special-vehicles-s02.mp3",
-        "bytes": 21333
+        "bytes": 23214
       },
       "evs-lkg-special-vehicles-s03.mp3": {
         "file": "audio/hi/evs-lkg-special-vehicles-s03.mp3",
-        "bytes": 21960
+        "bytes": 37450
       },
       "evs-lkg-special-vehicles-s04.mp3": {
         "file": "audio/hi/evs-lkg-special-vehicles-s04.mp3",
-        "bytes": 17153
+        "bytes": 18250
       },
       "evs-lkg-special-vehicles-s05.mp3": {
         "file": "audio/hi/evs-lkg-special-vehicles-s05.mp3",
-        "bytes": 18825
+        "bytes": 20340
       },
       "evs-lkg-special-vehicles-s06.mp3": {
         "file": "audio/hi/evs-lkg-special-vehicles-s06.mp3",
-        "bytes": 23841
+        "bytes": 30920
       },
       "evs-lkg-special-vehicles-s07.mp3": {
         "file": "audio/hi/evs-lkg-special-vehicles-s07.mp3",
-        "bytes": 20706
+        "bytes": 27524
       },
       "evs-nur-festivals-s01.mp3": {
         "file": "audio/hi/evs-nur-festivals-s01.mp3",
-        "bytes": 21960
+        "bytes": 23083
       },
       "evs-nur-festivals-s02.mp3": {
         "file": "audio/hi/evs-nur-festivals-s02.mp3",
-        "bytes": 20079
+        "bytes": 18773
       },
       "evs-nur-festivals-s03.mp3": {
         "file": "audio/hi/evs-nur-festivals-s03.mp3",
-        "bytes": 12347
+        "bytes": 13810
       },
       "evs-nur-festivals-s04.mp3": {
         "file": "audio/hi/evs-nur-festivals-s04.mp3",
-        "bytes": 14228
+        "bytes": 16683
       },
       "evs-nur-festivals-s05.mp3": {
         "file": "audio/hi/evs-nur-festivals-s05.mp3",
-        "bytes": 21646
+        "bytes": 25565
       },
       "evs-nur-festivals-s06.mp3": {
         "file": "audio/hi/evs-nur-festivals-s06.mp3",
-        "bytes": 13601
+        "bytes": 15116
       },
       "evs-nur-festivals-s07.mp3": {
         "file": "audio/hi/evs-nur-festivals-s07.mp3",
-        "bytes": 12138
+        "bytes": 14724
       },
       "evs-nur-festivals-s08.mp3": {
         "file": "audio/hi/evs-nur-festivals-s08.mp3",
-        "bytes": 20497
+        "bytes": 28308
       },
       "evs-nur-festivals-s09.mp3": {
         "file": "audio/hi/evs-nur-festivals-s09.mp3",
-        "bytes": 13705
+        "bytes": 16814
       },
       "evs-nur-good-habits-s01.mp3": {
         "file": "audio/hi/evs-nur-good-habits-s01.mp3",
-        "bytes": 14541
+        "bytes": 18120
       },
       "evs-nur-good-habits-s02.mp3": {
         "file": "audio/hi/evs-nur-good-habits-s02.mp3",
-        "bytes": 15064
+        "bytes": 21385
       },
       "evs-nur-good-habits-s03.mp3": {
         "file": "audio/hi/evs-nur-good-habits-s03.mp3",
-        "bytes": 18303
+        "bytes": 22299
       },
       "evs-nur-good-habits-s04.mp3": {
         "file": "audio/hi/evs-nur-good-habits-s04.mp3",
-        "bytes": 15899
+        "bytes": 19818
       },
       "evs-nur-good-habits-s05.mp3": {
         "file": "audio/hi/evs-nur-good-habits-s05.mp3",
-        "bytes": 12347
+        "bytes": 4275
       },
       "evs-nur-good-habits-s06.mp3": {
         "file": "audio/hi/evs-nur-good-habits-s06.mp3",
-        "bytes": 11824
+        "bytes": 13026
       },
       "evs-nur-good-habits-s07.mp3": {
         "file": "audio/hi/evs-nur-good-habits-s07.mp3",
-        "bytes": 8794
+        "bytes": 9891
       },
       "evs-nur-good-habits-s08.mp3": {
         "file": "audio/hi/evs-nur-good-habits-s08.mp3",
-        "bytes": 19139
+        "bytes": 25695
       },
       "evs-nur-rainbow-s01.mp3": {
         "file": "audio/hi/evs-nur-rainbow-s01.mp3",
@@ -12419,595 +12419,595 @@
       },
       "evs-nur-rainbow-s02.mp3": {
         "file": "audio/hi/evs-nur-rainbow-s02.mp3",
-        "bytes": 8794
+        "bytes": 10022
       },
       "evs-nur-rainbow-s03.mp3": {
         "file": "audio/hi/evs-nur-rainbow-s03.mp3",
-        "bytes": 11197
+        "bytes": 14463
       },
       "evs-nur-rainbow-s04.mp3": {
         "file": "audio/hi/evs-nur-rainbow-s04.mp3",
-        "bytes": 17780
+        "bytes": 21385
       },
       "evs-nur-rainbow-s05.mp3": {
         "file": "audio/hi/evs-nur-rainbow-s05.mp3",
-        "bytes": 12556
+        "bytes": 15246
       },
       "evs-nur-school-visit-s01.mp3": {
         "file": "audio/hi/evs-nur-school-visit-s01.mp3",
-        "bytes": 24154
+        "bytes": 24650
       },
       "evs-nur-school-visit-s02.mp3": {
         "file": "audio/hi/evs-nur-school-visit-s02.mp3",
-        "bytes": 22691
+        "bytes": 23997
       },
       "evs-ukg-balloon-ride-s01.mp3": {
         "file": "audio/hi/evs-ukg-balloon-ride-s01.mp3",
-        "bytes": 23318
+        "bytes": 24650
       },
       "evs-ukg-balloon-ride-s02.mp3": {
         "file": "audio/hi/evs-ukg-balloon-ride-s02.mp3",
-        "bytes": 17467
+        "bytes": 21385
       },
       "evs-ukg-balloon-ride-s03.mp3": {
         "file": "audio/hi/evs-ukg-balloon-ride-s03.mp3",
-        "bytes": 13705
+        "bytes": 16161
       },
       "evs-ukg-balloon-ride-s04.mp3": {
         "file": "audio/hi/evs-ukg-balloon-ride-s04.mp3",
-        "bytes": 11511
+        "bytes": 10936
       },
       "evs-ukg-balloon-ride-s05.mp3": {
         "file": "audio/hi/evs-ukg-balloon-ride-s05.mp3",
-        "bytes": 12242
+        "bytes": 14593
       },
       "evs-ukg-dinosaur-park-s01.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s01.mp3",
-        "bytes": 44530
+        "bytes": 60308
       },
       "evs-ukg-dinosaur-park-s02.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s02.mp3",
-        "bytes": 46933
+        "bytes": 59263
       },
       "evs-ukg-dinosaur-park-s03.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s03.mp3",
-        "bytes": 24990
+        "bytes": 30267
       },
       "evs-ukg-dinosaur-park-s04.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s04.mp3",
-        "bytes": 20079
+        "bytes": 23605
       },
       "evs-ukg-dinosaur-park-s05.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s05.mp3",
-        "bytes": 15690
+        "bytes": 18773
       },
       "evs-ukg-dinosaur-park-s06.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s06.mp3",
-        "bytes": 29692
+        "bytes": 40846
       },
       "evs-ukg-dinosaur-park-s07.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s07.mp3",
-        "bytes": 26975
+        "bytes": 32095
       },
       "evs-ukg-dinosaur-park-s08.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s08.mp3",
-        "bytes": 24363
+        "bytes": 25695
       },
       "evs-ukg-dinosaur-park-s09.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s09.mp3",
-        "bytes": 23527
+        "bytes": 31442
       },
       "evs-ukg-dinosaur-park-s10.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s10.mp3",
-        "bytes": 35753
+        "bytes": 46854
       },
       "evs-ukg-dinosaur-park-s11.mp3": {
         "file": "audio/hi/evs-ukg-dinosaur-park-s11.mp3",
-        "bytes": 22482
+        "bytes": 32879
       },
       "evs-ukg-farm-visit-cow.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-cow.mp3",
-        "bytes": 30319
+        "bytes": 35883
       },
       "evs-ukg-farm-visit-dog.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-dog.mp3",
-        "bytes": 19348
+        "bytes": 20079
       },
       "evs-ukg-farm-visit-donkey.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-donkey.mp3",
-        "bytes": 15273
+        "bytes": 13810
       },
       "evs-ukg-farm-visit-duck.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-duck.mp3",
-        "bytes": 19661
+        "bytes": 19818
       },
       "evs-ukg-farm-visit-goat.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-goat.mp3",
-        "bytes": 19870
+        "bytes": 21124
       },
       "evs-ukg-farm-visit-hen.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-hen.mp3",
-        "bytes": 20184
+        "bytes": 23997
       },
       "evs-ukg-farm-visit-horse.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-horse.mp3",
-        "bytes": 19975
+        "bytes": 26479
       },
       "evs-ukg-farm-visit-s01.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-s01.mp3",
-        "bytes": 30528
+        "bytes": 38495
       },
       "evs-ukg-farm-visit-s02.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-s02.mp3",
-        "bytes": 18303
+        "bytes": 22822
       },
       "evs-ukg-farm-visit-s03.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-s03.mp3",
-        "bytes": 16213
+        "bytes": 19948
       },
       "evs-ukg-farm-visit-sheep.mp3": {
         "file": "audio/hi/evs-ukg-farm-visit-sheep.mp3",
-        "bytes": 17258
+        "bytes": 19687
       },
       "evs-ukg-flowers-s01.mp3": {
         "file": "audio/hi/evs-ukg-flowers-s01.mp3",
-        "bytes": 24259
+        "bytes": 32226
       },
       "evs-ukg-flowers-s02.mp3": {
         "file": "audio/hi/evs-ukg-flowers-s02.mp3",
-        "bytes": 24781
+        "bytes": 28699
       },
       "evs-ukg-flowers-s03.mp3": {
         "file": "audio/hi/evs-ukg-flowers-s03.mp3",
-        "bytes": 19243
+        "bytes": 23083
       },
       "evs-ukg-flowers-s04.mp3": {
         "file": "audio/hi/evs-ukg-flowers-s04.mp3",
-        "bytes": 16213
+        "bytes": 17859
       },
       "evs-ukg-flowers-s05.mp3": {
         "file": "audio/hi/evs-ukg-flowers-s05.mp3",
-        "bytes": 26035
+        "bytes": 27393
       },
       "evs-ukg-flowers-s06.mp3": {
         "file": "audio/hi/evs-ukg-flowers-s06.mp3",
-        "bytes": 16213
+        "bytes": 17467
       },
       "evs-ukg-flowers-s07.mp3": {
         "file": "audio/hi/evs-ukg-flowers-s07.mp3",
-        "bytes": 19139
+        "bytes": 20079
       },
       "evs-ukg-flowers-s08.mp3": {
         "file": "audio/hi/evs-ukg-flowers-s08.mp3",
-        "bytes": 21437
+        "bytes": 30267
       },
       "evs-ukg-germination-s01.mp3": {
         "file": "audio/hi/evs-ukg-germination-s01.mp3",
-        "bytes": 19348
+        "bytes": 23867
       },
       "evs-ukg-germination-s02.mp3": {
         "file": "audio/hi/evs-ukg-germination-s02.mp3",
-        "bytes": 24990
+        "bytes": 31050
       },
       "evs-ukg-germination-s03.mp3": {
         "file": "audio/hi/evs-ukg-germination-s03.mp3",
-        "bytes": 20079
+        "bytes": 25565
       },
       "evs-ukg-germination-s04.mp3": {
         "file": "audio/hi/evs-ukg-germination-s04.mp3",
-        "bytes": 21751
+        "bytes": 26348
       },
       "evs-ukg-germination-s05.mp3": {
         "file": "audio/hi/evs-ukg-germination-s05.mp3",
-        "bytes": 16944
+        "bytes": 18642
       },
       "evs-ukg-germination-s06.mp3": {
         "file": "audio/hi/evs-ukg-germination-s06.mp3",
-        "bytes": 23945
+        "bytes": 30267
       },
       "evs-ukg-india-culture-s01.mp3": {
         "file": "audio/hi/evs-ukg-india-culture-s01.mp3",
-        "bytes": 30006
+        "bytes": 36928
       },
       "evs-ukg-india-culture-s02.mp3": {
         "file": "audio/hi/evs-ukg-india-culture-s02.mp3",
-        "bytes": 12765
+        "bytes": 14201
       },
       "evs-ukg-india-culture-s03.mp3": {
         "file": "audio/hi/evs-ukg-india-culture-s03.mp3",
-        "bytes": 13601
+        "bytes": 16422
       },
       "evs-ukg-india-culture-s04.mp3": {
         "file": "audio/hi/evs-ukg-india-culture-s04.mp3",
-        "bytes": 12451
+        "bytes": 14201
       },
       "evs-ukg-india-culture-s05.mp3": {
         "file": "audio/hi/evs-ukg-india-culture-s05.mp3",
-        "bytes": 17467
+        "bytes": 19948
       },
       "evs-ukg-india-culture-s06.mp3": {
         "file": "audio/hi/evs-ukg-india-culture-s06.mp3",
-        "bytes": 15482
+        "bytes": 18512
       },
       "evs-ukg-india-culture-s07.mp3": {
         "file": "audio/hi/evs-ukg-india-culture-s07.mp3",
-        "bytes": 9212
+        "bytes": 9108
       },
       "evs-ukg-india-culture-s08.mp3": {
         "file": "audio/hi/evs-ukg-india-culture-s08.mp3",
-        "bytes": 21019
+        "bytes": 28699
       },
       "evs-ukg-national-symbols-s01.mp3": {
         "file": "audio/hi/evs-ukg-national-symbols-s01.mp3",
-        "bytes": 23109
+        "bytes": 27393
       },
       "evs-ukg-national-symbols-s02.mp3": {
         "file": "audio/hi/evs-ukg-national-symbols-s02.mp3",
-        "bytes": 32409
+        "bytes": 47638
       },
       "evs-ukg-national-symbols-s03.mp3": {
         "file": "audio/hi/evs-ukg-national-symbols-s03.mp3",
-        "bytes": 11929
+        "bytes": 13940
       },
       "evs-ukg-national-symbols-s04.mp3": {
         "file": "audio/hi/evs-ukg-national-symbols-s04.mp3",
-        "bytes": 11720
+        "bytes": 14201
       },
       "evs-ukg-national-symbols-s05.mp3": {
         "file": "audio/hi/evs-ukg-national-symbols-s05.mp3",
-        "bytes": 11720
+        "bytes": 11850
       },
       "evs-ukg-national-symbols-s06.mp3": {
         "file": "audio/hi/evs-ukg-national-symbols-s06.mp3",
-        "bytes": 11197
+        "bytes": 11720
       },
       "evs-ukg-national-symbols-s07.mp3": {
         "file": "audio/hi/evs-ukg-national-symbols-s07.mp3",
-        "bytes": 13287
+        "bytes": 14985
       },
       "evs-ukg-national-symbols-s08.mp3": {
         "file": "audio/hi/evs-ukg-national-symbols-s08.mp3",
-        "bytes": 20393
+        "bytes": 25956
       },
       "evs-ukg-places-of-worship-s01.mp3": {
         "file": "audio/hi/evs-ukg-places-of-worship-s01.mp3",
-        "bytes": 22378
+        "bytes": 28569
       },
       "evs-ukg-places-of-worship-s02.mp3": {
         "file": "audio/hi/evs-ukg-places-of-worship-s02.mp3",
-        "bytes": 19452
+        "bytes": 18903
       },
       "evs-ukg-places-of-worship-s03.mp3": {
         "file": "audio/hi/evs-ukg-places-of-worship-s03.mp3",
-        "bytes": 18198
+        "bytes": 19818
       },
       "evs-ukg-places-of-worship-s04.mp3": {
         "file": "audio/hi/evs-ukg-places-of-worship-s04.mp3",
-        "bytes": 18512
+        "bytes": 21124
       },
       "evs-ukg-places-of-worship-s05.mp3": {
         "file": "audio/hi/evs-ukg-places-of-worship-s05.mp3",
-        "bytes": 17780
+        "bytes": 18642
       },
       "evs-ukg-places-of-worship-s06.mp3": {
         "file": "audio/hi/evs-ukg-places-of-worship-s06.mp3",
-        "bytes": 18407
+        "bytes": 26087
       },
       "evs-ukg-plant-parts-s01.mp3": {
         "file": "audio/hi/evs-ukg-plant-parts-s01.mp3",
-        "bytes": 24677
+        "bytes": 27263
       },
       "evs-ukg-plant-parts-s02.mp3": {
         "file": "audio/hi/evs-ukg-plant-parts-s02.mp3",
-        "bytes": 30424
+        "bytes": 41499
       },
       "evs-ukg-plant-parts-s03.mp3": {
         "file": "audio/hi/evs-ukg-plant-parts-s03.mp3",
-        "bytes": 26139
+        "bytes": 30789
       },
       "evs-ukg-plant-parts-s04.mp3": {
         "file": "audio/hi/evs-ukg-plant-parts-s04.mp3",
-        "bytes": 21019
+        "bytes": 22691
       },
       "evs-ukg-plant-parts-s05.mp3": {
         "file": "audio/hi/evs-ukg-plant-parts-s05.mp3",
-        "bytes": 15064
+        "bytes": 17205
       },
       "evs-ukg-plant-parts-s06.mp3": {
         "file": "audio/hi/evs-ukg-plant-parts-s06.mp3",
-        "bytes": 15795
+        "bytes": 18120
       },
       "evs-ukg-plant-parts-s07.mp3": {
         "file": "audio/hi/evs-ukg-plant-parts-s07.mp3",
-        "bytes": 16317
+        "bytes": 22561
       },
       "evs-ukg-river-crossing-s01.mp3": {
         "file": "audio/hi/evs-ukg-river-crossing-s01.mp3",
-        "bytes": 24781
+        "bytes": 31703
       },
       "evs-ukg-river-crossing-s02.mp3": {
         "file": "audio/hi/evs-ukg-river-crossing-s02.mp3",
-        "bytes": 26348
+        "bytes": 38887
       },
       "evs-ukg-river-crossing-s03.mp3": {
         "file": "audio/hi/evs-ukg-river-crossing-s03.mp3",
-        "bytes": 21751
+        "bytes": 28308
       },
       "evs-ukg-river-crossing-s04.mp3": {
         "file": "audio/hi/evs-ukg-river-crossing-s04.mp3",
-        "bytes": 18303
+        "bytes": 19687
       },
       "evs-ukg-river-crossing-s05.mp3": {
         "file": "audio/hi/evs-ukg-river-crossing-s05.mp3",
-        "bytes": 18198
+        "bytes": 21646
       },
       "evs-ukg-river-crossing-s06.mp3": {
         "file": "audio/hi/evs-ukg-river-crossing-s06.mp3",
-        "bytes": 17780
+        "bytes": 19818
       },
       "evs-ukg-safe-touch-s01.mp3": {
         "file": "audio/hi/evs-ukg-safe-touch-s01.mp3",
-        "bytes": 30215
+        "bytes": 32879
       },
       "evs-ukg-safe-touch-s02.mp3": {
         "file": "audio/hi/evs-ukg-safe-touch-s02.mp3",
-        "bytes": 34185
+        "bytes": 48814
       },
       "evs-ukg-safe-touch-s03.mp3": {
         "file": "audio/hi/evs-ukg-safe-touch-s03.mp3",
-        "bytes": 41082
+        "bytes": 65271
       },
       "evs-ukg-safe-touch-s04.mp3": {
         "file": "audio/hi/evs-ukg-safe-touch-s04.mp3",
-        "bytes": 19661
+        "bytes": 30136
       },
       "evs-ukg-safe-touch-s05.mp3": {
         "file": "audio/hi/evs-ukg-safe-touch-s05.mp3",
-        "bytes": 12033
+        "bytes": 14593
       },
       "evs-ukg-safe-touch-s06.mp3": {
         "file": "audio/hi/evs-ukg-safe-touch-s06.mp3",
-        "bytes": 13705
+        "bytes": 21124
       },
       "evs-ukg-safe-touch-s07.mp3": {
         "file": "audio/hi/evs-ukg-safe-touch-s07.mp3",
-        "bytes": 22273
+        "bytes": 25695
       },
       "evs-ukg-safe-touch-s08.mp3": {
         "file": "audio/hi/evs-ukg-safe-touch-s08.mp3",
-        "bytes": 30528
+        "bytes": 42414
       },
       "evs-ukg-seasons-s01.mp3": {
         "file": "audio/hi/evs-ukg-seasons-s01.mp3",
-        "bytes": 18198
+        "bytes": 24259
       },
       "evs-ukg-seasons-s02.mp3": {
         "file": "audio/hi/evs-ukg-seasons-s02.mp3",
-        "bytes": 20184
+        "bytes": 24650
       },
       "evs-ukg-seasons-s03.mp3": {
         "file": "audio/hi/evs-ukg-seasons-s03.mp3",
-        "bytes": 15064
+        "bytes": 21516
       },
       "evs-ukg-seasons-s04.mp3": {
         "file": "audio/hi/evs-ukg-seasons-s04.mp3",
-        "bytes": 21437
+        "bytes": 25173
       },
       "evs-ukg-seasons-s05.mp3": {
         "file": "audio/hi/evs-ukg-seasons-s05.mp3",
-        "bytes": 22378
+        "bytes": 25956
       },
       "evs-ukg-serpentarium-s01.mp3": {
         "file": "audio/hi/evs-ukg-serpentarium-s01.mp3",
-        "bytes": 27602
+        "bytes": 33532
       },
       "evs-ukg-serpentarium-s02.mp3": {
         "file": "audio/hi/evs-ukg-serpentarium-s02.mp3",
-        "bytes": 25304
+        "bytes": 33401
       },
       "evs-ukg-serpentarium-s03.mp3": {
         "file": "audio/hi/evs-ukg-serpentarium-s03.mp3",
-        "bytes": 23841
+        "bytes": 27916
       },
       "evs-ukg-serpentarium-s04.mp3": {
         "file": "audio/hi/evs-ukg-serpentarium-s04.mp3",
-        "bytes": 16840
+        "bytes": 22561
       },
       "evs-ukg-serpentarium-s05.mp3": {
         "file": "audio/hi/evs-ukg-serpentarium-s05.mp3",
-        "bytes": 20810
+        "bytes": 23344
       },
       "evs-ukg-serpentarium-s06.mp3": {
         "file": "audio/hi/evs-ukg-serpentarium-s06.mp3",
-        "bytes": 17780
+        "bytes": 21908
       },
       "evs-ukg-serpentarium-s07.mp3": {
         "file": "audio/hi/evs-ukg-serpentarium-s07.mp3",
-        "bytes": 30842
+        "bytes": 43850
       },
       "evs-ukg-snow-camp-s01.mp3": {
         "file": "audio/hi/evs-ukg-snow-camp-s01.mp3",
-        "bytes": 18407
+        "bytes": 21385
       },
       "evs-ukg-snow-camp-s02.mp3": {
         "file": "audio/hi/evs-ukg-snow-camp-s02.mp3",
-        "bytes": 16422
+        "bytes": 17859
       },
       "evs-ukg-snow-camp-s03.mp3": {
         "file": "audio/hi/evs-ukg-snow-camp-s03.mp3",
-        "bytes": 16317
+        "bytes": 17075
       },
       "evs-ukg-snow-camp-s04.mp3": {
         "file": "audio/hi/evs-ukg-snow-camp-s04.mp3",
-        "bytes": 17362
+        "bytes": 21646
       },
       "evs-ukg-snow-camp-s05.mp3": {
         "file": "audio/hi/evs-ukg-snow-camp-s05.mp3",
-        "bytes": 12242
+        "bytes": 15246
       },
       "evs-ukg-snow-camp-s06.mp3": {
         "file": "audio/hi/evs-ukg-snow-camp-s06.mp3",
-        "bytes": 31886
+        "bytes": 41369
       },
       "evs-ukg-states-india-s01.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s01.mp3",
-        "bytes": 28961
+        "bytes": 41238
       },
       "evs-ukg-states-india-s02.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s02.mp3",
-        "bytes": 18616
+        "bytes": 21646
       },
       "evs-ukg-states-india-s03.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s03.mp3",
-        "bytes": 14123
+        "bytes": 17859
       },
       "evs-ukg-states-india-s04.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s04.mp3",
-        "bytes": 14437
+        "bytes": 16944
       },
       "evs-ukg-states-india-s05.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s05.mp3",
-        "bytes": 12660
+        "bytes": 14854
       },
       "evs-ukg-states-india-s06.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s06.mp3",
-        "bytes": 17467
+        "bytes": 22822
       },
       "evs-ukg-states-india-s07.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s07.mp3",
-        "bytes": 15064
+        "bytes": 19295
       },
       "evs-ukg-states-india-s08.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s08.mp3",
-        "bytes": 13810
+        "bytes": 17597
       },
       "evs-ukg-states-india-s09.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s09.mp3",
-        "bytes": 13496
+        "bytes": 15769
       },
       "evs-ukg-states-india-s10.mp3": {
         "file": "audio/hi/evs-ukg-states-india-s10.mp3",
-        "bytes": 17989
+        "bytes": 20993
       },
       "evs-ukg-village-city-s01.mp3": {
         "file": "audio/hi/evs-ukg-village-city-s01.mp3",
-        "bytes": 17676
+        "bytes": 19556
       },
       "evs-ukg-village-city-s02.mp3": {
         "file": "audio/hi/evs-ukg-village-city-s02.mp3",
-        "bytes": 9944
+        "bytes": 11197
       },
       "evs-ukg-village-city-s03.mp3": {
         "file": "audio/hi/evs-ukg-village-city-s03.mp3",
-        "bytes": 15690
+        "bytes": 15899
       },
       "evs-ukg-village-city-s04.mp3": {
         "file": "audio/hi/evs-ukg-village-city-s04.mp3",
-        "bytes": 15064
+        "bytes": 17728
       },
       "evs-ukg-village-city-s05.mp3": {
         "file": "audio/hi/evs-ukg-village-city-s05.mp3",
-        "bytes": 21751
+        "bytes": 22952
       },
       "evs-ukg-water-cycle-s01.mp3": {
         "file": "audio/hi/evs-ukg-water-cycle-s01.mp3",
-        "bytes": 14332
+        "bytes": 14593
       },
       "evs-ukg-water-cycle-s02.mp3": {
         "file": "audio/hi/evs-ukg-water-cycle-s02.mp3",
-        "bytes": 14437
+        "bytes": 17597
       },
       "evs-ukg-water-cycle-s03.mp3": {
         "file": "audio/hi/evs-ukg-water-cycle-s03.mp3",
-        "bytes": 14646
+        "bytes": 18250
       },
       "evs-ukg-water-cycle-s04.mp3": {
         "file": "audio/hi/evs-ukg-water-cycle-s04.mp3",
-        "bytes": 14123
+        "bytes": 18250
       },
       "evs-ukg-water-cycle-s05.mp3": {
         "file": "audio/hi/evs-ukg-water-cycle-s05.mp3",
-        "bytes": 21019
+        "bytes": 28961
       },
       "farm_yard_s1.mp3": {
         "file": "audio/hi/farm_yard_s1.mp3",
-        "bytes": 17780
+        "bytes": 20079
       },
       "farm_yard_s2.mp3": {
         "file": "audio/hi/farm_yard_s2.mp3",
-        "bytes": 16317
+        "bytes": 22561
       },
       "gk-lkg-sports-equipment-s01.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s01.mp3",
-        "bytes": 22691
+        "bytes": 23605
       },
       "gk-lkg-sports-equipment-s02.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s02.mp3",
-        "bytes": 8272
+        "bytes": 7540
       },
       "gk-lkg-sports-equipment-s03.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s03.mp3",
-        "bytes": 13183
+        "bytes": 13940
       },
       "gk-lkg-sports-equipment-s04.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s04.mp3",
-        "bytes": 8690
+        "bytes": 9369
       },
       "gk-lkg-sports-equipment-s05.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s05.mp3",
-        "bytes": 14855
+        "bytes": 18512
       },
       "gk-lkg-sports-equipment-s06.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s06.mp3",
-        "bytes": 7749
+        "bytes": 8324
       },
       "gk-lkg-sports-equipment-s07.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s07.mp3",
-        "bytes": 15482
+        "bytes": 16552
       },
       "gk-lkg-sports-equipment-s08.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s08.mp3",
-        "bytes": 9212
+        "bytes": 10544
       },
       "gk-lkg-sports-equipment-s09.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s09.mp3",
-        "bytes": 22691
+        "bytes": 24520
       },
       "gk-lkg-sports-equipment-s10.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s10.mp3",
-        "bytes": 9630
+        "bytes": 10022
       },
       "gk-lkg-sports-equipment-s11.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s11.mp3",
-        "bytes": 15273
+        "bytes": 16030
       },
       "gk-lkg-sports-equipment-s12.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s12.mp3",
-        "bytes": 7749
+        "bytes": 7932
       },
       "gk-lkg-sports-equipment-s13.mp3": {
         "file": "audio/hi/gk-lkg-sports-equipment-s13.mp3",
-        "bytes": 13496
+        "bytes": 12895
       },
       "gk-ukg-sink-float-s01.mp3": {
         "file": "audio/hi/gk-ukg-sink-float-s01.mp3",
-        "bytes": 20915
+        "bytes": 25956
       },
       "gk-ukg-sink-float-s02.mp3": {
         "file": "audio/hi/gk-ukg-sink-float-s02.mp3",
-        "bytes": 13914
+        "bytes": 16161
       },
       "gk-ukg-sink-float-s03.mp3": {
         "file": "audio/hi/gk-ukg-sink-float-s03.mp3",
-        "bytes": 14228
+        "bytes": 15377
       },
       "gk-ukg-sink-float-s04.mp3": {
         "file": "audio/hi/gk-ukg-sink-float-s04.mp3",
-        "bytes": 15064
+        "bytes": 17075
       },
       "gk-ukg-sink-float-s05.mp3": {
         "file": "audio/hi/gk-ukg-sink-float-s05.mp3",
-        "bytes": 15064
+        "bytes": 15769
       },
       "goat_about.mp3": {
         "file": "audio/hi/goat_about.mp3",
@@ -13019,87 +13019,87 @@
       },
       "hin-lkg-khet-upar-niche-s01.mp3": {
         "file": "audio/hi/hin-lkg-khet-upar-niche-s01.mp3",
-        "bytes": 14123
+        "bytes": 16030
       },
       "hin-lkg-khet-upar-niche-s02.mp3": {
         "file": "audio/hi/hin-lkg-khet-upar-niche-s02.mp3",
-        "bytes": 12869
+        "bytes": 12112
       },
       "hin-lkg-khet-upar-niche-s03.mp3": {
         "file": "audio/hi/hin-lkg-khet-upar-niche-s03.mp3",
-        "bytes": 10675
+        "bytes": 10544
       },
       "hin-lkg-khet-upar-niche-s04.mp3": {
         "file": "audio/hi/hin-lkg-khet-upar-niche-s04.mp3",
-        "bytes": 8794
+        "bytes": 8193
       },
       "hin-lkg-khet-upar-niche-s05.mp3": {
         "file": "audio/hi/hin-lkg-khet-upar-niche-s05.mp3",
-        "bytes": 12242
+        "bytes": 13679
       },
       "hin-lkg-khet-upar-niche-s06.mp3": {
         "file": "audio/hi/hin-lkg-khet-upar-niche-s06.mp3",
-        "bytes": 10466
+        "bytes": 11067
       },
       "hin-lkg-khet-upar-niche-s07.mp3": {
         "file": "audio/hi/hin-lkg-khet-upar-niche-s07.mp3",
-        "bytes": 8481
+        "bytes": 7279
       },
       "hin-lkg-sabji-rang-s01.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s01.mp3",
-        "bytes": 8585
+        "bytes": 7671
       },
       "hin-lkg-sabji-rang-s02.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s02.mp3",
-        "bytes": 9839
+        "bytes": 10936
       },
       "hin-lkg-sabji-rang-s03.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s03.mp3",
-        "bytes": 8272
+        "bytes": 7671
       },
       "hin-lkg-sabji-rang-s04.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s04.mp3",
-        "bytes": 10884
+        "bytes": 11328
       },
       "hin-lkg-sabji-rang-s05.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s05.mp3",
-        "bytes": 8481
+        "bytes": 7540
       },
       "hin-lkg-sabji-rang-s06.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s06.mp3",
-        "bytes": 11406
+        "bytes": 11850
       },
       "hin-lkg-sabji-rang-s07.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s07.mp3",
-        "bytes": 7854
+        "bytes": 7540
       },
       "hin-lkg-sabji-rang-s08.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s08.mp3",
-        "bytes": 9735
+        "bytes": 12242
       },
       "hin-lkg-sabji-rang-s09.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s09.mp3",
-        "bytes": 9212
+        "bytes": 10414
       },
       "hin-lkg-sabji-rang-s10.mp3": {
         "file": "audio/hi/hin-lkg-sabji-rang-s10.mp3",
-        "bytes": 11197
+        "bytes": 10936
       },
       "hin-nur-janvar-boliya-s01.mp3": {
         "file": "audio/hi/hin-nur-janvar-boliya-s01.mp3",
-        "bytes": 21333
+        "bytes": 21516
       },
       "hin-nur-janvar-boliya-s02.mp3": {
         "file": "audio/hi/hin-nur-janvar-boliya-s02.mp3",
-        "bytes": 16317
+        "bytes": 17205
       },
       "hin-nur-janvar-boliya-s03.mp3": {
         "file": "audio/hi/hin-nur-janvar-boliya-s03.mp3",
-        "bytes": 17049
+        "bytes": 18381
       },
       "hin-nur-vadya-yantra-s01.mp3": {
         "file": "audio/hi/hin-nur-vadya-yantra-s01.mp3",
-        "bytes": 21228
+        "bytes": 23344
       },
       "hin-nur-vadya-yantra-s02.mp3": {
         "file": "audio/hi/hin-nur-vadya-yantra-s02.mp3",
@@ -13107,423 +13107,423 @@
       },
       "hin-nur-vadya-yantra-s03.mp3": {
         "file": "audio/hi/hin-nur-vadya-yantra-s03.mp3",
-        "bytes": 17049
+        "bytes": 19948
       },
       "hin-nur-vadya-yantra-s04.mp3": {
         "file": "audio/hi/hin-nur-vadya-yantra-s04.mp3",
-        "bytes": 9944
+        "bytes": 10283
       },
       "hin-nur-vadya-yantra-s05.mp3": {
         "file": "audio/hi/hin-nur-vadya-yantra-s05.mp3",
-        "bytes": 18512
+        "bytes": 19818
       },
       "hin-nur-vadya-yantra-s06.mp3": {
         "file": "audio/hi/hin-nur-vadya-yantra-s06.mp3",
-        "bytes": 16840
+        "bytes": 19818
       },
       "hin-nur-vadya-yantra-s07.mp3": {
         "file": "audio/hi/hin-nur-vadya-yantra-s07.mp3",
-        "bytes": 16317
+        "bytes": 17989
       },
       "hin-nur-vadya-yantra-s08.mp3": {
         "file": "audio/hi/hin-nur-vadya-yantra-s08.mp3",
-        "bytes": 7645
+        "bytes": 7540
       },
       "hin-nur-vadya-yantra-s09.mp3": {
         "file": "audio/hi/hin-nur-vadya-yantra-s09.mp3",
-        "bytes": 8690
+        "bytes": 7540
       },
       "hin-ukg-char-akshar-s01.mp3": {
         "file": "audio/hi/hin-ukg-char-akshar-s01.mp3",
-        "bytes": 11511
+        "bytes": 17728
       },
       "hin-ukg-char-akshar-s02.mp3": {
         "file": "audio/hi/hin-ukg-char-akshar-s02.mp3",
-        "bytes": 19139
+        "bytes": 27263
       },
       "hin-ukg-char-akshar-s03.mp3": {
         "file": "audio/hi/hin-ukg-char-akshar-s03.mp3",
-        "bytes": 11302
+        "bytes": 15116
       },
       "hin-ukg-char-akshar-s04.mp3": {
         "file": "audio/hi/hin-ukg-char-akshar-s04.mp3",
-        "bytes": 20497
+        "bytes": 25042
       },
       "hin-ukg-char-akshar-s05.mp3": {
         "file": "audio/hi/hin-ukg-char-akshar-s05.mp3",
-        "bytes": 11615
+        "bytes": 16161
       },
       "hin-ukg-char-akshar-s06.mp3": {
         "file": "audio/hi/hin-ukg-char-akshar-s06.mp3",
-        "bytes": 19766
+        "bytes": 20993
       },
       "hin-ukg-char-akshar-s07.mp3": {
         "file": "audio/hi/hin-ukg-char-akshar-s07.mp3",
-        "bytes": 11615
+        "bytes": 20601
       },
       "hin-ukg-char-akshar-s08.mp3": {
         "file": "audio/hi/hin-ukg-char-akshar-s08.mp3",
-        "bytes": 19034
+        "bytes": 26610
       },
       "hin-ukg-do-akshar-s01.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s01.mp3",
-        "bytes": 9526
+        "bytes": 10544
       },
       "hin-ukg-do-akshar-s02.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s02.mp3",
-        "bytes": 17049
+        "bytes": 19165
       },
       "hin-ukg-do-akshar-s03.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s03.mp3",
-        "bytes": 9108
+        "bytes": 10675
       },
       "hin-ukg-do-akshar-s04.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s04.mp3",
-        "bytes": 17258
+        "bytes": 21385
       },
       "hin-ukg-do-akshar-s05.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s05.mp3",
-        "bytes": 8899
+        "bytes": 11067
       },
       "hin-ukg-do-akshar-s06.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s06.mp3",
-        "bytes": 17989
+        "bytes": 15899
       },
       "hin-ukg-do-akshar-s07.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s07.mp3",
-        "bytes": 9003
+        "bytes": 11067
       },
       "hin-ukg-do-akshar-s08.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s08.mp3",
-        "bytes": 17049
+        "bytes": 20079
       },
       "hin-ukg-do-akshar-s09.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s09.mp3",
-        "bytes": 9003
+        "bytes": 8977
       },
       "hin-ukg-do-akshar-s10.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s10.mp3",
-        "bytes": 17571
+        "bytes": 18512
       },
       "hin-ukg-do-akshar-s11.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s11.mp3",
-        "bytes": 8899
+        "bytes": 9238
       },
       "hin-ukg-do-akshar-s12.mp3": {
         "file": "audio/hi/hin-ukg-do-akshar-s12.mp3",
-        "bytes": 17362
+        "bytes": 18120
       },
       "hin-ukg-matra-s01.mp3": {
         "file": "audio/hi/hin-ukg-matra-s01.mp3",
-        "bytes": 13183
+        "bytes": 13418
       },
       "hin-ukg-matra-s02.mp3": {
         "file": "audio/hi/hin-ukg-matra-s02.mp3",
-        "bytes": 9212
+        "bytes": 10283
       },
       "hin-ukg-matra-s03.mp3": {
         "file": "audio/hi/hin-ukg-matra-s03.mp3",
-        "bytes": 10048
+        "bytes": 13548
       },
       "hin-ukg-matra-s04.mp3": {
         "file": "audio/hi/hin-ukg-matra-s04.mp3",
-        "bytes": 9108
+        "bytes": 8585
       },
       "hin-ukg-matra-s05.mp3": {
         "file": "audio/hi/hin-ukg-matra-s05.mp3",
-        "bytes": 10153
+        "bytes": 11850
       },
       "hin-ukg-matra-s06.mp3": {
         "file": "audio/hi/hin-ukg-matra-s06.mp3",
-        "bytes": 9421
+        "bytes": 8324
       },
       "hin-ukg-matra-s07.mp3": {
         "file": "audio/hi/hin-ukg-matra-s07.mp3",
-        "bytes": 10362
+        "bytes": 14201
       },
       "hin-ukg-matra-s08.mp3": {
         "file": "audio/hi/hin-ukg-matra-s08.mp3",
-        "bytes": 9003
+        "bytes": 8716
       },
       "hin-ukg-matra-s09.mp3": {
         "file": "audio/hi/hin-ukg-matra-s09.mp3",
-        "bytes": 10362
+        "bytes": 10152
       },
       "hin-ukg-matra-s10.mp3": {
         "file": "audio/hi/hin-ukg-matra-s10.mp3",
-        "bytes": 9212
+        "bytes": 8716
       },
       "hin-ukg-matra-s11.mp3": {
         "file": "audio/hi/hin-ukg-matra-s11.mp3",
-        "bytes": 11093
+        "bytes": 11981
       },
       "hin-ukg-matra-s12.mp3": {
         "file": "audio/hi/hin-ukg-matra-s12.mp3",
-        "bytes": 8899
+        "bytes": 8846
       },
       "hin-ukg-matra-s13.mp3": {
         "file": "audio/hi/hin-ukg-matra-s13.mp3",
-        "bytes": 10257
+        "bytes": 12373
       },
       "hin-ukg-swar-s01.mp3": {
         "file": "audio/hi/hin-ukg-swar-s01.mp3",
-        "bytes": 8899
+        "bytes": 7932
       },
       "hin-ukg-swar-s02.mp3": {
         "file": "audio/hi/hin-ukg-swar-s02.mp3",
-        "bytes": 12138
+        "bytes": 12895
       },
       "hin-ukg-swar-s03.mp3": {
         "file": "audio/hi/hin-ukg-swar-s03.mp3",
-        "bytes": 12451
+        "bytes": 13026
       },
       "hin-ukg-swar-s04.mp3": {
         "file": "audio/hi/hin-ukg-swar-s04.mp3",
-        "bytes": 12033
+        "bytes": 12895
       },
       "hin-ukg-swar-s05.mp3": {
         "file": "audio/hi/hin-ukg-swar-s05.mp3",
-        "bytes": 12660
+        "bytes": 11459
       },
       "hin-ukg-swar-s06.mp3": {
         "file": "audio/hi/hin-ukg-swar-s06.mp3",
-        "bytes": 12765
+        "bytes": 10152
       },
       "hin-ukg-swar-s07.mp3": {
         "file": "audio/hi/hin-ukg-swar-s07.mp3",
-        "bytes": 12974
+        "bytes": 13026
       },
       "hin-ukg-swar-s08.mp3": {
         "file": "audio/hi/hin-ukg-swar-s08.mp3",
-        "bytes": 8899
+        "bytes": 9761
       },
       "hin-ukg-swar-s09.mp3": {
         "file": "audio/hi/hin-ukg-swar-s09.mp3",
-        "bytes": 11824
+        "bytes": 13418
       },
       "hin-ukg-swar-s10.mp3": {
         "file": "audio/hi/hin-ukg-swar-s10.mp3",
-        "bytes": 12347
+        "bytes": 13548
       },
       "hin-ukg-swar-s11.mp3": {
         "file": "audio/hi/hin-ukg-swar-s11.mp3",
-        "bytes": 11615
+        "bytes": 13810
       },
       "hin-ukg-swar-s12.mp3": {
         "file": "audio/hi/hin-ukg-swar-s12.mp3",
-        "bytes": 11929
+        "bytes": 16291
       },
       "hin-ukg-swar-s13.mp3": {
         "file": "audio/hi/hin-ukg-swar-s13.mp3",
-        "bytes": 11511
+        "bytes": 12765
       },
       "hin-ukg-teen-akshar-s01.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s01.mp3",
-        "bytes": 10048
+        "bytes": 11981
       },
       "hin-ukg-teen-akshar-s02.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s02.mp3",
-        "bytes": 17676
+        "bytes": 19948
       },
       "hin-ukg-teen-akshar-s03.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s03.mp3",
-        "bytes": 10466
+        "bytes": 12242
       },
       "hin-ukg-teen-akshar-s04.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s04.mp3",
-        "bytes": 17676
+        "bytes": 19426
       },
       "hin-ukg-teen-akshar-s05.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s05.mp3",
-        "bytes": 10153
+        "bytes": 16161
       },
       "hin-ukg-teen-akshar-s06.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s06.mp3",
-        "bytes": 17989
+        "bytes": 18773
       },
       "hin-ukg-teen-akshar-s07.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s07.mp3",
-        "bytes": 10466
+        "bytes": 12373
       },
       "hin-ukg-teen-akshar-s08.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s08.mp3",
-        "bytes": 18930
+        "bytes": 24259
       },
       "hin-ukg-teen-akshar-s09.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s09.mp3",
-        "bytes": 9944
+        "bytes": 13810
       },
       "hin-ukg-teen-akshar-s10.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s10.mp3",
-        "bytes": 17989
+        "bytes": 28830
       },
       "hin-ukg-teen-akshar-s11.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s11.mp3",
-        "bytes": 10257
+        "bytes": 13156
       },
       "hin-ukg-teen-akshar-s12.mp3": {
         "file": "audio/hi/hin-ukg-teen-akshar-s12.mp3",
-        "bytes": 19243
+        "bytes": 21254
       },
       "hin-ukg-vyanjan-s01.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s01.mp3",
-        "bytes": 8794
+        "bytes": 8063
       },
       "hin-ukg-vyanjan-s02.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s02.mp3",
-        "bytes": 7122
+        "bytes": 6234
       },
       "hin-ukg-vyanjan-s03.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s03.mp3",
-        "bytes": 7540
+        "bytes": 15769
       },
       "hin-ukg-vyanjan-s04.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s04.mp3",
-        "bytes": 7227
+        "bytes": 6365
       },
       "hin-ukg-vyanjan-s05.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s05.mp3",
-        "bytes": 7540
+        "bytes": 7018
       },
       "hin-ukg-vyanjan-s06.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s06.mp3",
-        "bytes": 7018
+        "bytes": 7148
       },
       "hin-ukg-vyanjan-s07.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s07.mp3",
-        "bytes": 8794
+        "bytes": 11197
       },
       "hin-ukg-vyanjan-s08.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s08.mp3",
-        "bytes": 7018
+        "bytes": 7801
       },
       "hin-ukg-vyanjan-s09.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s09.mp3",
-        "bytes": 7122
+        "bytes": 6756
       },
       "hin-ukg-vyanjan-s10.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s10.mp3",
-        "bytes": 7018
+        "bytes": 6495
       },
       "hin-ukg-vyanjan-s11.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s11.mp3",
-        "bytes": 7331
+        "bytes": 6887
       },
       "hin-ukg-vyanjan-s12.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s12.mp3",
-        "bytes": 7122
+        "bytes": 9108
       },
       "hin-ukg-vyanjan-s13.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s13.mp3",
-        "bytes": 8690
+        "bytes": 9238
       },
       "hin-ukg-vyanjan-s14.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s14.mp3",
-        "bytes": 6809
+        "bytes": 6626
       },
       "hin-ukg-vyanjan-s15.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s15.mp3",
-        "bytes": 7645
+        "bytes": 5842
       },
       "hin-ukg-vyanjan-s16.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s16.mp3",
-        "bytes": 6913
+        "bytes": 6887
       },
       "hin-ukg-vyanjan-s17.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s17.mp3",
-        "bytes": 7122
+        "bytes": 6756
       },
       "hin-ukg-vyanjan-s18.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s18.mp3",
-        "bytes": 7122
+        "bytes": 8324
       },
       "hin-ukg-vyanjan-s19.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s19.mp3",
-        "bytes": 9212
+        "bytes": 7148
       },
       "hin-ukg-vyanjan-s20.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s20.mp3",
-        "bytes": 7018
+        "bytes": 6103
       },
       "hin-ukg-vyanjan-s21.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s21.mp3",
-        "bytes": 7331
+        "bytes": 6887
       },
       "hin-ukg-vyanjan-s22.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s22.mp3",
-        "bytes": 6913
+        "bytes": 6103
       },
       "hin-ukg-vyanjan-s23.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s23.mp3",
-        "bytes": 7122
+        "bytes": 7540
       },
       "hin-ukg-vyanjan-s24.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s24.mp3",
-        "bytes": 7540
+        "bytes": 6756
       },
       "hin-ukg-vyanjan-s25.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s25.mp3",
-        "bytes": 9003
+        "bytes": 8846
       },
       "hin-ukg-vyanjan-s26.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s26.mp3",
-        "bytes": 6913
+        "bytes": 6756
       },
       "hin-ukg-vyanjan-s27.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s27.mp3",
-        "bytes": 7122
+        "bytes": 6756
       },
       "hin-ukg-vyanjan-s28.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s28.mp3",
-        "bytes": 6913
+        "bytes": 6495
       },
       "hin-ukg-vyanjan-s29.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s29.mp3",
-        "bytes": 7227
+        "bytes": 5842
       },
       "hin-ukg-vyanjan-s30.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s30.mp3",
-        "bytes": 7122
+        "bytes": 6234
       },
       "hin-ukg-vyanjan-s31.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s31.mp3",
-        "bytes": 9212
+        "bytes": 9238
       },
       "hin-ukg-vyanjan-s32.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s32.mp3",
-        "bytes": 7227
+        "bytes": 6756
       },
       "hin-ukg-vyanjan-s33.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s33.mp3",
-        "bytes": 7227
+        "bytes": 7932
       },
       "hin-ukg-vyanjan-s34.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s34.mp3",
-        "bytes": 7331
+        "bytes": 6887
       },
       "hin-ukg-vyanjan-s35.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s35.mp3",
-        "bytes": 7227
+        "bytes": 8454
       },
       "hin-ukg-vyanjan-s36.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s36.mp3",
-        "bytes": 9421
+        "bytes": 13418
       },
       "hin-ukg-vyanjan-s37.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s37.mp3",
-        "bytes": 7122
+        "bytes": 6365
       },
       "hin-ukg-vyanjan-s38.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s38.mp3",
-        "bytes": 7227
+        "bytes": 7671
       },
       "hin-ukg-vyanjan-s39.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s39.mp3",
-        "bytes": 7018
+        "bytes": 6756
       },
       "hin-ukg-vyanjan-s40.mp3": {
         "file": "audio/hi/hin-ukg-vyanjan-s40.mp3",
-        "bytes": 7331
+        "bytes": 8977
       },
       "horse_about.mp3": {
         "file": "audio/hi/horse_about.mp3",
@@ -13531,1227 +13531,1227 @@
       },
       "horse.mp3": {
         "file": "audio/hi/horse.mp3",
-        "bytes": 7958
+        "bytes": 7410
       },
       "kitchen_about.mp3": {
         "file": "audio/hi/kitchen_about.mp3",
-        "bytes": 18721
+        "bytes": 19687
       },
       "lobby-s01.mp3": {
         "file": "audio/hi/lobby-s01.mp3",
-        "bytes": 16422
+        "bytes": 19165
       },
       "math-lkg-full-empty-s01.mp3": {
         "file": "audio/hi/math-lkg-full-empty-s01.mp3",
-        "bytes": 9003
+        "bytes": 9238
       },
       "math-lkg-full-empty-s02.mp3": {
         "file": "audio/hi/math-lkg-full-empty-s02.mp3",
-        "bytes": 10048
+        "bytes": 11981
       },
       "math-lkg-full-empty-s03.mp3": {
         "file": "audio/hi/math-lkg-full-empty-s03.mp3",
-        "bytes": 9526
+        "bytes": 8977
       },
       "math-lkg-full-empty-s04.mp3": {
         "file": "audio/hi/math-lkg-full-empty-s04.mp3",
-        "bytes": 8481
+        "bytes": 8716
       },
       "math-lkg-half-whole-s01.mp3": {
         "file": "audio/hi/math-lkg-half-whole-s01.mp3",
-        "bytes": 8794
+        "bytes": 7932
       },
       "math-lkg-half-whole-s02.mp3": {
         "file": "audio/hi/math-lkg-half-whole-s02.mp3",
-        "bytes": 9421
+        "bytes": 9499
       },
       "math-lkg-half-whole-s03.mp3": {
         "file": "audio/hi/math-lkg-half-whole-s03.mp3",
-        "bytes": 10675
+        "bytes": 11328
       },
       "math-lkg-half-whole-s04.mp3": {
         "file": "audio/hi/math-lkg-half-whole-s04.mp3",
-        "bytes": 11093
+        "bytes": 11459
       },
       "math-lkg-half-whole-s05.mp3": {
         "file": "audio/hi/math-lkg-half-whole-s05.mp3",
-        "bytes": 10466
+        "bytes": 10152
       },
       "math-lkg-half-whole-s06.mp3": {
         "file": "audio/hi/math-lkg-half-whole-s06.mp3",
-        "bytes": 10466
+        "bytes": 11850
       },
       "math-lkg-lines-curves-s01.mp3": {
         "file": "audio/hi/math-lkg-lines-curves-s01.mp3",
-        "bytes": 10048
+        "bytes": 8454
       },
       "math-lkg-lines-curves-s02.mp3": {
         "file": "audio/hi/math-lkg-lines-curves-s02.mp3",
-        "bytes": 9317
+        "bytes": 8585
       },
       "math-lkg-lines-curves-s03.mp3": {
         "file": "audio/hi/math-lkg-lines-curves-s03.mp3",
-        "bytes": 9630
+        "bytes": 10414
       },
       "math-lkg-lines-curves-s04.mp3": {
         "file": "audio/hi/math-lkg-lines-curves-s04.mp3",
-        "bytes": 9317
+        "bytes": 11328
       },
       "math-lkg-lines-curves-s05.mp3": {
         "file": "audio/hi/math-lkg-lines-curves-s05.mp3",
-        "bytes": 10048
+        "bytes": 8454
       },
       "math-lkg-lines-curves-s06.mp3": {
         "file": "audio/hi/math-lkg-lines-curves-s06.mp3",
-        "bytes": 10466
+        "bytes": 10022
       },
       "math-lkg-lines-curves-s07.mp3": {
         "file": "audio/hi/math-lkg-lines-curves-s07.mp3",
-        "bytes": 9630
+        "bytes": 8716
       },
       "math-lkg-lines-curves-s08.mp3": {
         "file": "audio/hi/math-lkg-lines-curves-s08.mp3",
-        "bytes": 10466
+        "bytes": 10283
       },
       "math-lkg-more-less-same-s01.mp3": {
         "file": "audio/hi/math-lkg-more-less-same-s01.mp3",
-        "bytes": 10779
+        "bytes": 13026
       },
       "math-lkg-more-less-same-s02.mp3": {
         "file": "audio/hi/math-lkg-more-less-same-s02.mp3",
-        "bytes": 10779
+        "bytes": 12503
       },
       "math-lkg-more-less-same-s03.mp3": {
         "file": "audio/hi/math-lkg-more-less-same-s03.mp3",
-        "bytes": 11511
+        "bytes": 12242
       },
       "math-lkg-more-less-same-s04.mp3": {
         "file": "audio/hi/math-lkg-more-less-same-s04.mp3",
-        "bytes": 10570
+        "bytes": 11720
       },
       "math-lkg-more-less-same-s05.mp3": {
         "file": "audio/hi/math-lkg-more-less-same-s05.mp3",
-        "bytes": 11720
+        "bytes": 13156
       },
       "math-lkg-more-less-same-s06.mp3": {
         "file": "audio/hi/math-lkg-more-less-same-s06.mp3",
-        "bytes": 11511
+        "bytes": 11720
       },
       "math-lkg-odd-even-s01.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s01.mp3",
-        "bytes": 7645
+        "bytes": 8063
       },
       "math-lkg-odd-even-s02.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s02.mp3",
-        "bytes": 7331
+        "bytes": 8063
       },
       "math-lkg-odd-even-s03.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s03.mp3",
-        "bytes": 7958
+        "bytes": 8324
       },
       "math-lkg-odd-even-s04.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s04.mp3",
-        "bytes": 7645
+        "bytes": 7671
       },
       "math-lkg-odd-even-s05.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s05.mp3",
-        "bytes": 8376
+        "bytes": 9108
       },
       "math-lkg-odd-even-s06.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s06.mp3",
-        "bytes": 7331
+        "bytes": 8716
       },
       "math-lkg-odd-even-s07.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s07.mp3",
-        "bytes": 8376
+        "bytes": 8585
       },
       "math-lkg-odd-even-s08.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s08.mp3",
-        "bytes": 7540
+        "bytes": 7932
       },
       "math-lkg-odd-even-s09.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s09.mp3",
-        "bytes": 7854
+        "bytes": 8063
       },
       "math-lkg-odd-even-s10.mp3": {
         "file": "audio/hi/math-lkg-odd-even-s10.mp3",
-        "bytes": 7122
+        "bytes": 8846
       },
       "math-lkg-open-close-s01.mp3": {
         "file": "audio/hi/math-lkg-open-close-s01.mp3",
-        "bytes": 17467
+        "bytes": 18903
       },
       "math-lkg-open-close-s02.mp3": {
         "file": "audio/hi/math-lkg-open-close-s02.mp3",
-        "bytes": 16526
+        "bytes": 18250
       },
       "math-lkg-open-close-s03.mp3": {
         "file": "audio/hi/math-lkg-open-close-s03.mp3",
-        "bytes": 9630
+        "bytes": 9238
       },
       "math-lkg-open-close-s04.mp3": {
         "file": "audio/hi/math-lkg-open-close-s04.mp3",
-        "bytes": 10466
+        "bytes": 11589
       },
       "math-lkg-opposites-s01.mp3": {
         "file": "audio/hi/math-lkg-opposites-s01.mp3",
-        "bytes": 7436
+        "bytes": 6756
       },
       "math-lkg-opposites-s02.mp3": {
         "file": "audio/hi/math-lkg-opposites-s02.mp3",
-        "bytes": 11197
+        "bytes": 13418
       },
       "math-lkg-opposites-s03.mp3": {
         "file": "audio/hi/math-lkg-opposites-s03.mp3",
-        "bytes": 8167
+        "bytes": 3622
       },
       "math-lkg-opposites-s04.mp3": {
         "file": "audio/hi/math-lkg-opposites-s04.mp3",
-        "bytes": 11615
+        "bytes": 13418
       },
       "math-lkg-opposites-s05.mp3": {
         "file": "audio/hi/math-lkg-opposites-s05.mp3",
-        "bytes": 7854
+        "bytes": 7148
       },
       "math-lkg-opposites-s06.mp3": {
         "file": "audio/hi/math-lkg-opposites-s06.mp3",
-        "bytes": 11720
+        "bytes": 13418
       },
       "math-lkg-opposites-s07.mp3": {
         "file": "audio/hi/math-lkg-opposites-s07.mp3",
-        "bytes": 7958
+        "bytes": 7932
       },
       "math-lkg-opposites-s08.mp3": {
         "file": "audio/hi/math-lkg-opposites-s08.mp3",
-        "bytes": 11511
+        "bytes": 13287
       },
       "math-lkg-same-different-s01.mp3": {
         "file": "audio/hi/math-lkg-same-different-s01.mp3",
-        "bytes": 18825
+        "bytes": 21516
       },
       "math-lkg-same-different-s02.mp3": {
         "file": "audio/hi/math-lkg-same-different-s02.mp3",
-        "bytes": 18825
+        "bytes": 22299
       },
       "math-lkg-same-different-s03.mp3": {
         "file": "audio/hi/math-lkg-same-different-s03.mp3",
-        "bytes": 18825
+        "bytes": 22169
       },
       "math-lkg-wet-dry-s01.mp3": {
         "file": "audio/hi/math-lkg-wet-dry-s01.mp3",
-        "bytes": 23945
+        "bytes": 25565
       },
       "math-lkg-wet-dry-s02.mp3": {
         "file": "audio/hi/math-lkg-wet-dry-s02.mp3",
-        "bytes": 17989
+        "bytes": 18773
       },
       "math-lkg-wet-dry-s03.mp3": {
         "file": "audio/hi/math-lkg-wet-dry-s03.mp3",
-        "bytes": 16944
+        "bytes": 19295
       },
       "math-lkg-wet-dry-s04.mp3": {
         "file": "audio/hi/math-lkg-wet-dry-s04.mp3",
-        "bytes": 16631
+        "bytes": 19034
       },
       "math-lkg-wet-dry-s05.mp3": {
         "file": "audio/hi/math-lkg-wet-dry-s05.mp3",
-        "bytes": 19870
+        "bytes": 22299
       },
       "math-lkg-wet-dry-s06.mp3": {
         "file": "audio/hi/math-lkg-wet-dry-s06.mp3",
-        "bytes": 18512
+        "bytes": 19295
       },
       "math-nur-big-small-s01.mp3": {
         "file": "audio/hi/math-nur-big-small-s01.mp3",
-        "bytes": 7436
+        "bytes": 7018
       },
       "math-nur-big-small-s02.mp3": {
         "file": "audio/hi/math-nur-big-small-s02.mp3",
-        "bytes": 8272
+        "bytes": 14463
       },
       "math-nur-big-small-s03.mp3": {
         "file": "audio/hi/math-nur-big-small-s03.mp3",
-        "bytes": 8167
+        "bytes": 7148
       },
       "math-nur-big-small-s04.mp3": {
         "file": "audio/hi/math-nur-big-small-s04.mp3",
-        "bytes": 7958
+        "bytes": 7801
       },
       "math-nur-count-1-20-s01.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s01.mp3",
-        "bytes": 8376
+        "bytes": 9108
       },
       "math-nur-count-1-20-s02.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s02.mp3",
-        "bytes": 8690
+        "bytes": 8454
       },
       "math-nur-count-1-20-s03.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s03.mp3",
-        "bytes": 8481
+        "bytes": 9238
       },
       "math-nur-count-1-20-s04.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s04.mp3",
-        "bytes": 8899
+        "bytes": 9108
       },
       "math-nur-count-1-20-s05.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s05.mp3",
-        "bytes": 9526
+        "bytes": 8454
       },
       "math-nur-count-1-20-s06.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s06.mp3",
-        "bytes": 8690
+        "bytes": 10544
       },
       "math-nur-count-1-20-s07.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s07.mp3",
-        "bytes": 8794
+        "bytes": 8585
       },
       "math-nur-count-1-20-s08.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s08.mp3",
-        "bytes": 8376
+        "bytes": 9761
       },
       "math-nur-count-1-20-s09.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s09.mp3",
-        "bytes": 8376
+        "bytes": 9369
       },
       "math-nur-count-1-20-s10.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s10.mp3",
-        "bytes": 8794
+        "bytes": 9761
       },
       "math-nur-count-1-20-s11.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s11.mp3",
-        "bytes": 9212
+        "bytes": 9499
       },
       "math-nur-count-1-20-s12.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s12.mp3",
-        "bytes": 9108
+        "bytes": 9891
       },
       "math-nur-count-1-20-s13.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s13.mp3",
-        "bytes": 8376
+        "bytes": 9369
       },
       "math-nur-count-1-20-s14.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s14.mp3",
-        "bytes": 9317
+        "bytes": 8977
       },
       "math-nur-count-1-20-s15.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s15.mp3",
-        "bytes": 9317
+        "bytes": 10152
       },
       "math-nur-count-1-20-s16.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s16.mp3",
-        "bytes": 9317
+        "bytes": 9238
       },
       "math-nur-count-1-20-s17.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s17.mp3",
-        "bytes": 9212
+        "bytes": 8716
       },
       "math-nur-count-1-20-s18.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s18.mp3",
-        "bytes": 9735
+        "bytes": 9369
       },
       "math-nur-count-1-20-s19.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s19.mp3",
-        "bytes": 9735
+        "bytes": 9761
       },
       "math-nur-count-1-20-s20.mp3": {
         "file": "audio/hi/math-nur-count-1-20-s20.mp3",
-        "bytes": 8585
+        "bytes": 8454
       },
       "math-nur-count-21-50-s01.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s01.mp3",
-        "bytes": 11720
+        "bytes": 13548
       },
       "math-nur-count-21-50-s02.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s02.mp3",
-        "bytes": 10257
+        "bytes": 10805
       },
       "math-nur-count-21-50-s03.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s03.mp3",
-        "bytes": 9317
+        "bytes": 11067
       },
       "math-nur-count-21-50-s04.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s04.mp3",
-        "bytes": 9526
+        "bytes": 10544
       },
       "math-nur-count-21-50-s05.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s05.mp3",
-        "bytes": 8690
+        "bytes": 10022
       },
       "math-nur-count-21-50-s06.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s06.mp3",
-        "bytes": 9003
+        "bytes": 11850
       },
       "math-nur-count-21-50-s07.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s07.mp3",
-        "bytes": 9212
+        "bytes": 9891
       },
       "math-nur-count-21-50-s08.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s08.mp3",
-        "bytes": 9735
+        "bytes": 9369
       },
       "math-nur-count-21-50-s09.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s09.mp3",
-        "bytes": 9630
+        "bytes": 11459
       },
       "math-nur-count-21-50-s10.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s10.mp3",
-        "bytes": 9630
+        "bytes": 8977
       },
       "math-nur-count-21-50-s11.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s11.mp3",
-        "bytes": 9839
+        "bytes": 10805
       },
       "math-nur-count-21-50-s12.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s12.mp3",
-        "bytes": 9526
+        "bytes": 9369
       },
       "math-nur-count-21-50-s13.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s13.mp3",
-        "bytes": 8585
+        "bytes": 10675
       },
       "math-nur-count-21-50-s14.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s14.mp3",
-        "bytes": 10362
+        "bytes": 11067
       },
       "math-nur-count-21-50-s15.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s15.mp3",
-        "bytes": 9003
+        "bytes": 11850
       },
       "math-nur-count-21-50-s16.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s16.mp3",
-        "bytes": 9003
+        "bytes": 10152
       },
       "math-nur-count-21-50-s17.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s17.mp3",
-        "bytes": 8899
+        "bytes": 9630
       },
       "math-nur-count-21-50-s18.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s18.mp3",
-        "bytes": 9212
+        "bytes": 10414
       },
       "math-nur-count-21-50-s19.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s19.mp3",
-        "bytes": 9108
+        "bytes": 11197
       },
       "math-nur-count-21-50-s20.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s20.mp3",
-        "bytes": 10153
+        "bytes": 8716
       },
       "math-nur-count-21-50-s21.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s21.mp3",
-        "bytes": 9212
+        "bytes": 9499
       },
       "math-nur-count-21-50-s22.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s22.mp3",
-        "bytes": 9317
+        "bytes": 9369
       },
       "math-nur-count-21-50-s23.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s23.mp3",
-        "bytes": 9108
+        "bytes": 9630
       },
       "math-nur-count-21-50-s24.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s24.mp3",
-        "bytes": 10153
+        "bytes": 11067
       },
       "math-nur-count-21-50-s25.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s25.mp3",
-        "bytes": 9317
+        "bytes": 8585
       },
       "math-nur-count-21-50-s26.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s26.mp3",
-        "bytes": 11615
+        "bytes": 10805
       },
       "math-nur-count-21-50-s27.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s27.mp3",
-        "bytes": 9735
+        "bytes": 10283
       },
       "math-nur-count-21-50-s28.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s28.mp3",
-        "bytes": 9630
+        "bytes": 11328
       },
       "math-nur-count-21-50-s29.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s29.mp3",
-        "bytes": 9526
+        "bytes": 10283
       },
       "math-nur-count-21-50-s30.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s30.mp3",
-        "bytes": 9212
+        "bytes": 9108
       },
       "math-nur-count-21-50-s31.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s31.mp3",
-        "bytes": 9630
+        "bytes": 10022
       },
       "math-nur-count-21-50-s32.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s32.mp3",
-        "bytes": 10153
+        "bytes": 10675
       },
       "math-nur-count-21-50-s33.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s33.mp3",
-        "bytes": 9630
+        "bytes": 10283
       },
       "math-nur-count-21-50-s34.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s34.mp3",
-        "bytes": 10153
+        "bytes": 11328
       },
       "math-nur-count-21-50-s35.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s35.mp3",
-        "bytes": 9735
+        "bytes": 9761
       },
       "math-nur-count-21-50-s36.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s36.mp3",
-        "bytes": 9526
+        "bytes": 8977
       },
       "math-nur-count-21-50-s37.mp3": {
         "file": "audio/hi/math-nur-count-21-50-s37.mp3",
-        "bytes": 9421
+        "bytes": 9891
       },
       "math-nur-count-51-100-s01.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s01.mp3",
-        "bytes": 11511
+        "bytes": 13679
       },
       "math-nur-count-51-100-s02.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s02.mp3",
-        "bytes": 11197
+        "bytes": 9499
       },
       "math-nur-count-51-100-s03.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s03.mp3",
-        "bytes": 9944
+        "bytes": 10675
       },
       "math-nur-count-51-100-s04.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s04.mp3",
-        "bytes": 9108
+        "bytes": 8846
       },
       "math-nur-count-51-100-s05.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s05.mp3",
-        "bytes": 9526
+        "bytes": 9108
       },
       "math-nur-count-51-100-s06.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s06.mp3",
-        "bytes": 9212
+        "bytes": 9369
       },
       "math-nur-count-51-100-s07.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s07.mp3",
-        "bytes": 9630
+        "bytes": 8846
       },
       "math-nur-count-51-100-s08.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s08.mp3",
-        "bytes": 9526
+        "bytes": 10805
       },
       "math-nur-count-51-100-s09.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s09.mp3",
-        "bytes": 9630
+        "bytes": 11197
       },
       "math-nur-count-51-100-s10.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s10.mp3",
-        "bytes": 9944
+        "bytes": 10283
       },
       "math-nur-count-51-100-s11.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s11.mp3",
-        "bytes": 10257
+        "bytes": 10544
       },
       "math-nur-count-51-100-s12.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s12.mp3",
-        "bytes": 9630
+        "bytes": 9238
       },
       "math-nur-count-51-100-s13.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s13.mp3",
-        "bytes": 9212
+        "bytes": 8193
       },
       "math-nur-count-51-100-s14.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s14.mp3",
-        "bytes": 10048
+        "bytes": 10283
       },
       "math-nur-count-51-100-s15.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s15.mp3",
-        "bytes": 9421
+        "bytes": 9238
       },
       "math-nur-count-51-100-s16.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s16.mp3",
-        "bytes": 9108
+        "bytes": 8977
       },
       "math-nur-count-51-100-s17.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s17.mp3",
-        "bytes": 9317
+        "bytes": 9499
       },
       "math-nur-count-51-100-s18.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s18.mp3",
-        "bytes": 9526
+        "bytes": 8846
       },
       "math-nur-count-51-100-s19.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s19.mp3",
-        "bytes": 9317
+        "bytes": 9499
       },
       "math-nur-count-51-100-s20.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s20.mp3",
-        "bytes": 10048
+        "bytes": 10152
       },
       "math-nur-count-51-100-s21.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s21.mp3",
-        "bytes": 9839
+        "bytes": 10152
       },
       "math-nur-count-51-100-s22.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s22.mp3",
-        "bytes": 9421
+        "bytes": 9499
       },
       "math-nur-count-51-100-s23.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s23.mp3",
-        "bytes": 9108
+        "bytes": 8846
       },
       "math-nur-count-51-100-s24.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s24.mp3",
-        "bytes": 9421
+        "bytes": 10544
       },
       "math-nur-count-51-100-s25.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s25.mp3",
-        "bytes": 9317
+        "bytes": 9499
       },
       "math-nur-count-51-100-s26.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s26.mp3",
-        "bytes": 11511
+        "bytes": 11459
       },
       "math-nur-count-51-100-s27.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s27.mp3",
-        "bytes": 9526
+        "bytes": 13679
       },
       "math-nur-count-51-100-s28.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s28.mp3",
-        "bytes": 8794
+        "bytes": 9499
       },
       "math-nur-count-51-100-s29.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s29.mp3",
-        "bytes": 9003
+        "bytes": 9891
       },
       "math-nur-count-51-100-s30.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s30.mp3",
-        "bytes": 9212
+        "bytes": 10675
       },
       "math-nur-count-51-100-s31.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s31.mp3",
-        "bytes": 9421
+        "bytes": 9761
       },
       "math-nur-count-51-100-s32.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s32.mp3",
-        "bytes": 9735
+        "bytes": 10544
       },
       "math-nur-count-51-100-s33.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s33.mp3",
-        "bytes": 9317
+        "bytes": 9891
       },
       "math-nur-count-51-100-s34.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s34.mp3",
-        "bytes": 9630
+        "bytes": 10544
       },
       "math-nur-count-51-100-s35.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s35.mp3",
-        "bytes": 9212
+        "bytes": 10414
       },
       "math-nur-count-51-100-s36.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s36.mp3",
-        "bytes": 9630
+        "bytes": 9891
       },
       "math-nur-count-51-100-s37.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s37.mp3",
-        "bytes": 9003
+        "bytes": 9108
       },
       "math-nur-count-51-100-s38.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s38.mp3",
-        "bytes": 11511
+        "bytes": 11459
       },
       "math-nur-count-51-100-s39.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s39.mp3",
-        "bytes": 9526
+        "bytes": 9761
       },
       "math-nur-count-51-100-s40.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s40.mp3",
-        "bytes": 9212
+        "bytes": 9499
       },
       "math-nur-count-51-100-s41.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s41.mp3",
-        "bytes": 9317
+        "bytes": 9891
       },
       "math-nur-count-51-100-s42.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s42.mp3",
-        "bytes": 9317
+        "bytes": 10152
       },
       "math-nur-count-51-100-s43.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s43.mp3",
-        "bytes": 9526
+        "bytes": 9761
       },
       "math-nur-count-51-100-s44.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s44.mp3",
-        "bytes": 9944
+        "bytes": 10675
       },
       "math-nur-count-51-100-s45.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s45.mp3",
-        "bytes": 9317
+        "bytes": 10936
       },
       "math-nur-count-51-100-s46.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s46.mp3",
-        "bytes": 9526
+        "bytes": 11850
       },
       "math-nur-count-51-100-s47.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s47.mp3",
-        "bytes": 9839
+        "bytes": 8716
       },
       "math-nur-count-51-100-s48.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s48.mp3",
-        "bytes": 9526
+        "bytes": 10414
       },
       "math-nur-count-51-100-s49.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s49.mp3",
-        "bytes": 9108
+        "bytes": 10544
       },
       "math-nur-count-51-100-s50.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s50.mp3",
-        "bytes": 11511
+        "bytes": 11328
       },
       "math-nur-count-51-100-s51.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s51.mp3",
-        "bytes": 10362
+        "bytes": 11328
       },
       "math-nur-count-51-100-s52.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s52.mp3",
-        "bytes": 9317
+        "bytes": 9891
       },
       "math-nur-count-51-100-s53.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s53.mp3",
-        "bytes": 9944
+        "bytes": 11720
       },
       "math-nur-count-51-100-s54.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s54.mp3",
-        "bytes": 9944
+        "bytes": 10283
       },
       "math-nur-count-51-100-s55.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s55.mp3",
-        "bytes": 10466
+        "bytes": 10022
       },
       "math-nur-count-51-100-s56.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s56.mp3",
-        "bytes": 9212
+        "bytes": 8977
       },
       "math-nur-count-51-100-s57.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s57.mp3",
-        "bytes": 10048
+        "bytes": 10152
       },
       "math-nur-count-51-100-s58.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s58.mp3",
-        "bytes": 10048
+        "bytes": 10152
       },
       "math-nur-count-51-100-s59.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s59.mp3",
-        "bytes": 10466
+        "bytes": 10283
       },
       "math-nur-count-51-100-s60.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s60.mp3",
-        "bytes": 10779
+        "bytes": 11981
       },
       "math-nur-count-51-100-s61.mp3": {
         "file": "audio/hi/math-nur-count-51-100-s61.mp3",
-        "bytes": 8376
+        "bytes": 8716
       },
       "math-nur-count-check-s01.mp3": {
         "file": "audio/hi/math-nur-count-check-s01.mp3",
-        "bytes": 12242
+        "bytes": 12765
       },
       "math-nur-count-check-s02.mp3": {
         "file": "audio/hi/math-nur-count-check-s02.mp3",
-        "bytes": 12347
+        "bytes": 11589
       },
       "math-nur-count-check-s03.mp3": {
         "file": "audio/hi/math-nur-count-check-s03.mp3",
-        "bytes": 12869
+        "bytes": 15638
       },
       "math-nur-count-check-s04.mp3": {
         "file": "audio/hi/math-nur-count-check-s04.mp3",
-        "bytes": 12660
+        "bytes": 14332
       },
       "math-nur-count-check-s05.mp3": {
         "file": "audio/hi/math-nur-count-check-s05.mp3",
-        "bytes": 11720
+        "bytes": 12112
       },
       "math-nur-in-out-s01.mp3": {
         "file": "audio/hi/math-nur-in-out-s01.mp3",
-        "bytes": 11302
+        "bytes": 13156
       },
       "math-nur-in-out-s02.mp3": {
         "file": "audio/hi/math-nur-in-out-s02.mp3",
-        "bytes": 8899
+        "bytes": 9108
       },
       "math-nur-light-heavy-s01.mp3": {
         "file": "audio/hi/math-nur-light-heavy-s01.mp3",
-        "bytes": 17885
+        "bytes": 20210
       },
       "math-nur-light-heavy-s02.mp3": {
         "file": "audio/hi/math-nur-light-heavy-s02.mp3",
-        "bytes": 14541
+        "bytes": 18381
       },
       "math-nur-light-heavy-s03.mp3": {
         "file": "audio/hi/math-nur-light-heavy-s03.mp3",
-        "bytes": 13078
+        "bytes": 15116
       },
       "math-nur-light-heavy-s04.mp3": {
         "file": "audio/hi/math-nur-light-heavy-s04.mp3",
-        "bytes": 14541
+        "bytes": 16683
       },
       "math-nur-long-round-s01.mp3": {
         "file": "audio/hi/math-nur-long-round-s01.mp3",
-        "bytes": 14332
+        "bytes": 14593
       },
       "math-nur-long-round-s02.mp3": {
         "file": "audio/hi/math-nur-long-round-s02.mp3",
-        "bytes": 14332
+        "bytes": 14593
       },
       "math-nur-long-short-s01.mp3": {
         "file": "audio/hi/math-nur-long-short-s01.mp3",
-        "bytes": 8690
+        "bytes": 11067
       },
       "math-nur-long-short-s02.mp3": {
         "file": "audio/hi/math-nur-long-short-s02.mp3",
-        "bytes": 8376
+        "bytes": 8324
       },
       "math-nur-long-short-s03.mp3": {
         "file": "audio/hi/math-nur-long-short-s03.mp3",
-        "bytes": 12556
+        "bytes": 13418
       },
       "math-nur-near-far-s01.mp3": {
         "file": "audio/hi/math-nur-near-far-s01.mp3",
-        "bytes": 9003
+        "bytes": 8977
       },
       "math-nur-near-far-s02.mp3": {
         "file": "audio/hi/math-nur-near-far-s02.mp3",
-        "bytes": 16735
+        "bytes": 23475
       },
       "math-nur-near-far-s03.mp3": {
         "file": "audio/hi/math-nur-near-far-s03.mp3",
-        "bytes": 9003
+        "bytes": 9630
       },
       "math-nur-near-far-s04.mp3": {
         "file": "audio/hi/math-nur-near-far-s04.mp3",
-        "bytes": 9630
+        "bytes": 12112
       },
       "math-nur-one-many-s01.mp3": {
         "file": "audio/hi/math-nur-one-many-s01.mp3",
-        "bytes": 7854
+        "bytes": 7148
       },
       "math-nur-one-many-s02.mp3": {
         "file": "audio/hi/math-nur-one-many-s02.mp3",
-        "bytes": 10048
+        "bytes": 10805
       },
       "math-nur-one-many-s03.mp3": {
         "file": "audio/hi/math-nur-one-many-s03.mp3",
-        "bytes": 9839
+        "bytes": 11067
       },
       "math-nur-taller-shorter-s01.mp3": {
         "file": "audio/hi/math-nur-taller-shorter-s01.mp3",
-        "bytes": 9003
+        "bytes": 10805
       },
       "math-nur-taller-shorter-s02.mp3": {
         "file": "audio/hi/math-nur-taller-shorter-s02.mp3",
-        "bytes": 9421
+        "bytes": 13026
       },
       "math-nur-taller-shorter-s03.mp3": {
         "file": "audio/hi/math-nur-taller-shorter-s03.mp3",
-        "bytes": 14019
+        "bytes": 12765
       },
       "math-nur-taller-shorter-s04.mp3": {
         "file": "audio/hi/math-nur-taller-shorter-s04.mp3",
-        "bytes": 12242
+        "bytes": 14854
       },
       "math-nur-thick-thin-s01.mp3": {
         "file": "audio/hi/math-nur-thick-thin-s01.mp3",
-        "bytes": 7854
+        "bytes": 7148
       },
       "math-nur-thick-thin-s02.mp3": {
         "file": "audio/hi/math-nur-thick-thin-s02.mp3",
-        "bytes": 17258
+        "bytes": 17597
       },
       "math-nur-up-down-s01.mp3": {
         "file": "audio/hi/math-nur-up-down-s01.mp3",
-        "bytes": 13810
+        "bytes": 15899
       },
       "math-nur-up-down-s02.mp3": {
         "file": "audio/hi/math-nur-up-down-s02.mp3",
-        "bytes": 12138
+        "bytes": 12765
       },
       "math-nur-up-down-s03.mp3": {
         "file": "audio/hi/math-nur-up-down-s03.mp3",
-        "bytes": 15586
+        "bytes": 14071
       },
       "math-nur-weight-check-s01.mp3": {
         "file": "audio/hi/math-nur-weight-check-s01.mp3",
-        "bytes": 12974
+        "bytes": 13940
       },
       "math-nur-weight-check-s02.mp3": {
         "file": "audio/hi/math-nur-weight-check-s02.mp3",
-        "bytes": 13392
+        "bytes": 14593
       },
       "math-nur-wide-narrow-s01.mp3": {
         "file": "audio/hi/math-nur-wide-narrow-s01.mp3",
-        "bytes": 16004
+        "bytes": 16552
       },
       "math-nur-wide-narrow-s02.mp3": {
         "file": "audio/hi/math-nur-wide-narrow-s02.mp3",
-        "bytes": 18616
+        "bytes": 20079
       },
       "math-ukg-add-double-s01.mp3": {
         "file": "audio/hi/math-ukg-add-double-s01.mp3",
-        "bytes": 13392
+        "bytes": 13548
       },
       "math-ukg-add-double-s02.mp3": {
         "file": "audio/hi/math-ukg-add-double-s02.mp3",
-        "bytes": 10570
+        "bytes": 11459
       },
       "math-ukg-add-double-s03.mp3": {
         "file": "audio/hi/math-ukg-add-double-s03.mp3",
-        "bytes": 12869
+        "bytes": 11459
       },
       "math-ukg-add-double-s04.mp3": {
         "file": "audio/hi/math-ukg-add-double-s04.mp3",
-        "bytes": 12033
+        "bytes": 12112
       },
       "math-ukg-add-double-s05.mp3": {
         "file": "audio/hi/math-ukg-add-double-s05.mp3",
-        "bytes": 12974
+        "bytes": 14724
       },
       "math-ukg-add-double-s06.mp3": {
         "file": "audio/hi/math-ukg-add-double-s06.mp3",
-        "bytes": 10779
+        "bytes": 13026
       },
       "math-ukg-add-single-s01.mp3": {
         "file": "audio/hi/math-ukg-add-single-s01.mp3",
-        "bytes": 9526
+        "bytes": 8846
       },
       "math-ukg-add-single-s02.mp3": {
         "file": "audio/hi/math-ukg-add-single-s02.mp3",
-        "bytes": 9212
+        "bytes": 10152
       },
       "math-ukg-add-single-s03.mp3": {
         "file": "audio/hi/math-ukg-add-single-s03.mp3",
-        "bytes": 11197
+        "bytes": 11589
       },
       "math-ukg-add-single-s04.mp3": {
         "file": "audio/hi/math-ukg-add-single-s04.mp3",
-        "bytes": 9421
+        "bytes": 9630
       },
       "math-ukg-add-single-s05.mp3": {
         "file": "audio/hi/math-ukg-add-single-s05.mp3",
-        "bytes": 9003
+        "bytes": 9238
       },
       "math-ukg-add-single-s06.mp3": {
         "file": "audio/hi/math-ukg-add-single-s06.mp3",
-        "bytes": 11197
+        "bytes": 13026
       },
       "math-ukg-add-single-s07.mp3": {
         "file": "audio/hi/math-ukg-add-single-s07.mp3",
-        "bytes": 9212
+        "bytes": 9108
       },
       "math-ukg-add-single-s08.mp3": {
         "file": "audio/hi/math-ukg-add-single-s08.mp3",
-        "bytes": 9526
+        "bytes": 8454
       },
       "math-ukg-add-single-s09.mp3": {
         "file": "audio/hi/math-ukg-add-single-s09.mp3",
-        "bytes": 10884
+        "bytes": 11720
       },
       "math-ukg-compare-numbers-s01.mp3": {
         "file": "audio/hi/math-ukg-compare-numbers-s01.mp3",
-        "bytes": 9735
+        "bytes": 9108
       },
       "math-ukg-compare-numbers-s02.mp3": {
         "file": "audio/hi/math-ukg-compare-numbers-s02.mp3",
-        "bytes": 10153
+        "bytes": 9630
       },
       "math-ukg-compare-numbers-s03.mp3": {
         "file": "audio/hi/math-ukg-compare-numbers-s03.mp3",
-        "bytes": 9421
+        "bytes": 10022
       },
       "math-ukg-compare-numbers-s04.mp3": {
         "file": "audio/hi/math-ukg-compare-numbers-s04.mp3",
-        "bytes": 10048
+        "bytes": 10675
       },
       "math-ukg-compare-numbers-s05.mp3": {
         "file": "audio/hi/math-ukg-compare-numbers-s05.mp3",
-        "bytes": 10884
+        "bytes": 10152
       },
       "math-ukg-compare-numbers-s06.mp3": {
         "file": "audio/hi/math-ukg-compare-numbers-s06.mp3",
-        "bytes": 11511
+        "bytes": 11850
       },
       "math-ukg-divide-single-s01.mp3": {
         "file": "audio/hi/math-ukg-divide-single-s01.mp3",
-        "bytes": 7958
+        "bytes": 7671
       },
       "math-ukg-divide-single-s02.mp3": {
         "file": "audio/hi/math-ukg-divide-single-s02.mp3",
-        "bytes": 11511
+        "bytes": 13156
       },
       "math-ukg-divide-single-s03.mp3": {
         "file": "audio/hi/math-ukg-divide-single-s03.mp3",
-        "bytes": 11511
+        "bytes": 10936
       },
       "math-ukg-divide-single-s04.mp3": {
         "file": "audio/hi/math-ukg-divide-single-s04.mp3",
-        "bytes": 10466
+        "bytes": 10675
       },
       "math-ukg-divide-single-s05.mp3": {
         "file": "audio/hi/math-ukg-divide-single-s05.mp3",
-        "bytes": 8585
+        "bytes": 7671
       },
       "math-ukg-divide-single-s06.mp3": {
         "file": "audio/hi/math-ukg-divide-single-s06.mp3",
-        "bytes": 11511
+        "bytes": 13287
       },
       "math-ukg-divide-single-s07.mp3": {
         "file": "audio/hi/math-ukg-divide-single-s07.mp3",
-        "bytes": 11511
+        "bytes": 11981
       },
       "math-ukg-divide-single-s08.mp3": {
         "file": "audio/hi/math-ukg-divide-single-s08.mp3",
-        "bytes": 11511
+        "bytes": 12765
       },
       "math-ukg-divide-single-s09.mp3": {
         "file": "audio/hi/math-ukg-divide-single-s09.mp3",
-        "bytes": 12660
+        "bytes": 15638
       },
       "math-ukg-multiply-single-s01.mp3": {
         "file": "audio/hi/math-ukg-multiply-single-s01.mp3",
-        "bytes": 9630
+        "bytes": 10152
       },
       "math-ukg-multiply-single-s02.mp3": {
         "file": "audio/hi/math-ukg-multiply-single-s02.mp3",
-        "bytes": 9421
+        "bytes": 9891
       },
       "math-ukg-multiply-single-s03.mp3": {
         "file": "audio/hi/math-ukg-multiply-single-s03.mp3",
-        "bytes": 10675
+        "bytes": 11981
       },
       "math-ukg-multiply-single-s04.mp3": {
         "file": "audio/hi/math-ukg-multiply-single-s04.mp3",
-        "bytes": 9630
+        "bytes": 9891
       },
       "math-ukg-multiply-single-s05.mp3": {
         "file": "audio/hi/math-ukg-multiply-single-s05.mp3",
-        "bytes": 9317
+        "bytes": 10152
       },
       "math-ukg-multiply-single-s06.mp3": {
         "file": "audio/hi/math-ukg-multiply-single-s06.mp3",
-        "bytes": 9526
+        "bytes": 9891
       },
       "math-ukg-multiply-single-s07.mp3": {
         "file": "audio/hi/math-ukg-multiply-single-s07.mp3",
-        "bytes": 12451
+        "bytes": 14201
       },
       "math-ukg-odd-one-out-s01.mp3": {
         "file": "audio/hi/math-ukg-odd-one-out-s01.mp3",
-        "bytes": 20079
+        "bytes": 19295
       },
       "math-ukg-odd-one-out-s02.mp3": {
         "file": "audio/hi/math-ukg-odd-one-out-s02.mp3",
-        "bytes": 20184
+        "bytes": 19687
       },
       "math-ukg-odd-one-out-s03.mp3": {
         "file": "audio/hi/math-ukg-odd-one-out-s03.mp3",
-        "bytes": 20184
+        "bytes": 24128
       },
       "math-ukg-sub-double-s01.mp3": {
         "file": "audio/hi/math-ukg-sub-double-s01.mp3",
-        "bytes": 13705
+        "bytes": 12373
       },
       "math-ukg-sub-double-s02.mp3": {
         "file": "audio/hi/math-ukg-sub-double-s02.mp3",
-        "bytes": 10884
+        "bytes": 13156
       },
       "math-ukg-sub-double-s03.mp3": {
         "file": "audio/hi/math-ukg-sub-double-s03.mp3",
-        "bytes": 13287
+        "bytes": 16422
       },
       "math-ukg-sub-double-s04.mp3": {
         "file": "audio/hi/math-ukg-sub-double-s04.mp3",
-        "bytes": 11302
+        "bytes": 13026
       },
       "math-ukg-sub-double-s05.mp3": {
         "file": "audio/hi/math-ukg-sub-double-s05.mp3",
-        "bytes": 12347
+        "bytes": 12242
       },
       "math-ukg-sub-double-s06.mp3": {
         "file": "audio/hi/math-ukg-sub-double-s06.mp3",
-        "bytes": 10257
+        "bytes": 10544
       },
       "math-ukg-sub-single-s01.mp3": {
         "file": "audio/hi/math-ukg-sub-single-s01.mp3",
-        "bytes": 10048
+        "bytes": 8846
       },
       "math-ukg-sub-single-s02.mp3": {
         "file": "audio/hi/math-ukg-sub-single-s02.mp3",
-        "bytes": 7854
+        "bytes": 6756
       },
       "math-ukg-sub-single-s03.mp3": {
         "file": "audio/hi/math-ukg-sub-single-s03.mp3",
-        "bytes": 12242
+        "bytes": 13026
       },
       "math-ukg-sub-single-s04.mp3": {
         "file": "audio/hi/math-ukg-sub-single-s04.mp3",
-        "bytes": 9421
+        "bytes": 9369
       },
       "math-ukg-sub-single-s05.mp3": {
         "file": "audio/hi/math-ukg-sub-single-s05.mp3",
-        "bytes": 7854
+        "bytes": 9108
       },
       "math-ukg-sub-single-s06.mp3": {
         "file": "audio/hi/math-ukg-sub-single-s06.mp3",
-        "bytes": 13078
+        "bytes": 13810
       },
       "math-ukg-sub-single-s07.mp3": {
         "file": "audio/hi/math-ukg-sub-single-s07.mp3",
-        "bytes": 10048
+        "bytes": 11850
       },
       "math-ukg-sub-single-s08.mp3": {
         "file": "audio/hi/math-ukg-sub-single-s08.mp3",
-        "bytes": 7540
+        "bytes": 6887
       },
       "math-ukg-sub-single-s09.mp3": {
         "file": "audio/hi/math-ukg-sub-single-s09.mp3",
-        "bytes": 12660
+        "bytes": 12634
       },
       "our_classroom_s1.mp3": {
         "file": "audio/hi/our_classroom_s1.mp3",
-        "bytes": 16317
+        "bytes": 15377
       },
       "our_classroom_s2.mp3": {
         "file": "audio/hi/our_classroom_s2.mp3",
-        "bytes": 18721
+        "bytes": 20601
       },
       "our_classroom_s3.mp3": {
         "file": "audio/hi/our_classroom_s3.mp3",
-        "bytes": 18825
+        "bytes": 22299
       },
       "our_classroom_s4.mp3": {
         "file": "audio/hi/our_classroom_s4.mp3",
-        "bytes": 17571
+        "bytes": 21777
       },
       "our_classroom_s5.mp3": {
         "file": "audio/hi/our_classroom_s5.mp3",
-        "bytes": 17989
+        "bytes": 17859
       },
       "physics_lab_s1.mp3": {
         "file": "audio/hi/physics_lab_s1.mp3",
-        "bytes": 23841
+        "bytes": 32487
       },
       "physics_lab_s2.mp3": {
         "file": "audio/hi/physics_lab_s2.mp3",
-        "bytes": 22378
+        "bytes": 29222
       },
       "physics_lab_s3.mp3": {
         "file": "audio/hi/physics_lab_s3.mp3",
-        "bytes": 20810
+        "bytes": 27132
       },
       "playground_s1.mp3": {
         "file": "audio/hi/playground_s1.mp3",
-        "bytes": 19975
+        "bytes": 23344
       },
       "playground_s2.mp3": {
         "file": "audio/hi/playground_s2.mp3",
-        "bytes": 19661
+        "bytes": 19426
       },
       "playground_s3.mp3": {
         "file": "audio/hi/playground_s3.mp3",
-        "bytes": 22587
+        "bytes": 27916
       },
       "playground_s4.mp3": {
         "file": "audio/hi/playground_s4.mp3",
-        "bytes": 21124
+        "bytes": 27916
       },
       "school_about.mp3": {
         "file": "audio/hi/school_about.mp3",
-        "bytes": 20810
+        "bytes": 24520
       },
       "school_hall_s1.mp3": {
         "file": "audio/hi/school_hall_s1.mp3",
-        "bytes": 16422
+        "bytes": 17075
       },
       "school_hall_s2.mp3": {
         "file": "audio/hi/school_hall_s2.mp3",
-        "bytes": 21855
+        "bytes": 28830
       },
       "school_hall_s3.mp3": {
         "file": "audio/hi/school_hall_s3.mp3",
-        "bytes": 16317
+        "bytes": 19295
       },
       "school_kitchen_s1.mp3": {
         "file": "audio/hi/school_kitchen_s1.mp3",
-        "bytes": 18721
+        "bytes": 24128
       },
       "school_kitchen_s2.mp3": {
         "file": "audio/hi/school_kitchen_s2.mp3",
-        "bytes": 20393
+        "bytes": 21516
       },
       "school_kitchen_s3.mp3": {
         "file": "audio/hi/school_kitchen_s3.mp3",
-        "bytes": 19348
+        "bytes": 23083
       },
       "school_office_s1.mp3": {
         "file": "audio/hi/school_office_s1.mp3",
-        "bytes": 16840
+        "bytes": 19948
       },
       "school_office_s2.mp3": {
         "file": "audio/hi/school_office_s2.mp3",
-        "bytes": 17362
+        "bytes": 20340
       },
       "school_office_s3.mp3": {
         "file": "audio/hi/school_office_s3.mp3",
-        "bytes": 24572
+        "bytes": 26218
       },
       "school_tour_s1.mp3": {
         "file": "audio/hi/school_tour_s1.mp3",
-        "bytes": 19661
+        "bytes": 20732
       },
       "school_tour_s2.mp3": {
         "file": "audio/hi/school_tour_s2.mp3",
-        "bytes": 15377
+        "bytes": 18773
       },
       "solar_system_s1.mp3": {
         "file": "audio/hi/solar_system_s1.mp3",
-        "bytes": 26244
+        "bytes": 35099
       },
       "solar_system_s10.mp3": {
         "file": "audio/hi/solar_system_s10.mp3",
-        "bytes": 13078
+        "bytes": 18773
       },
       "solar_system_s11.mp3": {
         "file": "audio/hi/solar_system_s11.mp3",
-        "bytes": 27916
+        "bytes": 37712
       },
       "solar_system_s2.mp3": {
         "file": "audio/hi/solar_system_s2.mp3",
-        "bytes": 24572
+        "bytes": 30397
       },
       "solar_system_s3.mp3": {
         "file": "audio/hi/solar_system_s3.mp3",
-        "bytes": 20810
+        "bytes": 23736
       },
       "solar_system_s4.mp3": {
         "file": "audio/hi/solar_system_s4.mp3",
-        "bytes": 20184
+        "bytes": 33271
       },
       "solar_system_s5.mp3": {
         "file": "audio/hi/solar_system_s5.mp3",
-        "bytes": 20602
+        "bytes": 22822
       },
       "solar_system_s6.mp3": {
         "file": "audio/hi/solar_system_s6.mp3",
-        "bytes": 25095
+        "bytes": 32748
       },
       "solar_system_s7.mp3": {
         "file": "audio/hi/solar_system_s7.mp3",
-        "bytes": 18930
+        "bytes": 25565
       },
       "solar_system_s8.mp3": {
         "file": "audio/hi/solar_system_s8.mp3",
-        "bytes": 14646
+        "bytes": 18773
       },
       "solar_system_s9.mp3": {
         "file": "audio/hi/solar_system_s9.mp3",
-        "bytes": 17989
+        "bytes": 22691
       }
     },
     "mr": {

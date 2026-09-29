@@ -2,6 +2,10 @@
   "id": "demo-peacock",
   "template": "explore",
   "stage": "forest",
+  "budget": {
+    "triangles": 190000,
+    "why": "A comparison for a reviewer at a desk, never shown to a child: four peacocks stand side by side so one can be picked. A lesson will show one."
+  },
   "objects": [
     {
       "id": "drawn",

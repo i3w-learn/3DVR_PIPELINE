@@ -51,6 +51,15 @@ const DEVANAGARI_WORDS = {
   crocodile: 'क्रोकोडाइल', easy: 'ईज़ी', house: 'हाउस', lotus: 'लोटस', mind: 'माइंड', playful: 'प्लेफ़ुल',
   purpose: 'पर्पस', python: 'पाइथन', salt: 'सॉल्ट', shine: 'शाइन', tap: 'टैप', tree: 'ट्री', water: 'वॉटर',
   yesterday: 'येस्टरडे', moo: 'मूँ', bleat: 'में में', neigh: 'हिन हिन', cluck: 'कुड़ कुड़',
+  // The letter beach: "A से Ant — चींटी". Without these the voice said "A से — चींटी".
+  ambulance: 'एम्बुलेंस', ant: 'ऐंट', bear: 'बेयर', butterfly: 'बटरफ़्लाई', car: 'कार', crab: 'क्रैब', crow: 'क्रो',
+  dolphin: 'डॉल्फ़िन', duck: 'डक', eagle: 'ईगल', egg: 'एग', engine: 'इंजन', fire: 'फ़ायर', fox: 'फ़ॉक्स',
+  giraffe: 'जिराफ़', grasshopper: 'ग्रासहॉपर', helicopter: 'हेलिकॉप्टर', horse: 'हॉर्स', igloo: 'इग्लू',
+  insect: 'इन्सेक्ट', kangaroo: 'कंगारू', lemon: 'लेमन', mango: 'मैंगो', nurse: 'नर्स', onion: 'अनियन', owl: 'आउल',
+  police: 'पुलिस', pumpkin: 'पम्पकिन', rabbit: 'रैबिट', rhino: 'राइनो', sheep: 'शीप', ship: 'शिप',
+  starfish: 'स्टारफ़िश', tomato: 'टमैटो', turtle: 'टर्टल', van: 'वैन', whale: 'व्हेल', yak: 'याक', zebu: 'ज़ेबू',
+  // Names in the peacock comparison, which only a reviewer hears.
+  tripo: 'ट्रिपो', meshy: 'मेशी', sketchfab: 'स्केचफ़ैब',
   // The phonics sounds: the bare consonant, which is exactly what "buh" is trying to write.
   a: 'ऐ', buh: 'ब', kuh: 'क', duh: 'ड', eh: 'ए', fuh: 'फ़', guh: 'ग', huh: 'ह', ih: 'इ', juh: 'ज', luh: 'ल', muh: 'म',
   nuh: 'न', oh: 'ऑ', puh: 'प', kwuh: 'क्व', ruh: 'र', sss: 'स', tuh: 'ट', uh: 'अ', vuh: 'व', wuh: 'व', ks: 'क्स', yuh: 'य', zuh: 'ज़',
@@ -58,13 +67,25 @@ const DEVANAGARI_WORDS = {
 
 export const WORDS = {
   hi: DEVANAGARI_WORDS,
-  mr: { ...DEVANAGARI_WORDS, apple: 'ॲपल', cat: 'कॅट', tap: 'टॅप', parrot: 'पॅरट', banyan: 'बॅनियन' },
+  mr: {
+    ...DEVANAGARI_WORDS,
+    apple: 'ॲपल', cat: 'कॅट', tap: 'टॅप', parrot: 'पॅरट', banyan: 'बॅनियन',
+    ambulance: 'ॲम्ब्युलन्स', ant: 'ॲंट', crab: 'क्रॅब', mango: 'मँगो', rabbit: 'रॅबिट', van: 'व्हॅन', sketchfab: 'स्केचफॅब',
+  },
   or: {
     apple: 'ଆପଲ', banana: 'ବନାନା', cat: 'କ୍ୟାଟ', dog: 'ଡଗ', elephant: 'ଏଲିଫାଣ୍ଟ', fish: 'ଫିସ', goat: 'ଗୋଟ', hen: 'ହେନ',
     ice: 'ଆଇସ', cream: 'କ୍ରିମ', jeep: 'ଜିପ', kite: 'କାଇଟ', lion: 'ଲାୟନ', monkey: 'ମଙ୍କି', nest: 'ନେଷ୍ଟ', orange: 'ଅରେଞ୍ଜ',
     parrot: 'ପ୍ୟାରଟ', queen: 'କୁଇନ', rocket: 'ରକେଟ', sun: 'ସନ', tiger: 'ଟାଇଗର', umbrella: 'ଅମ୍ବ୍ରେଲା', violin: 'ଭାୟୋଲିନ',
     watermelon: 'ୱାଟରମେଲନ', xylophone: 'ଜାଇଲୋଫୋନ', yarn: 'ୟାର୍ନ', zebra: 'ଜେବ୍ରା', bus: 'ବସ', cup: 'କପ', go: 'ଗୋ',
     in: 'ଇନ', no: 'ନୋ', on: 'ଅନ', up: 'ଅପ', we: 'ୱି', the: 'ଦ', moo: 'ହମ୍ବା', bleat: 'ମେଁ ମେଁ', neigh: 'ହିଁ ହିଁ', cluck: 'କକ୍ କକ୍',
+    // The letter beach. Written without a native speaker, like the rest of this table.
+    ambulance: 'ଆମ୍ବୁଲାନ୍ସ', ant: 'ଆଣ୍ଟ', bear: 'ବେୟାର', butterfly: 'ବଟରଫ୍ଲାଏ', car: 'କାର', crab: 'କ୍ରାବ', crow: 'କ୍ରୋ',
+    dolphin: 'ଡଲଫିନ', duck: 'ଡକ', eagle: 'ଇଗଲ', egg: 'ଏଗ', engine: 'ଇଞ୍ଜିନ', fire: 'ଫାୟାର', fox: 'ଫକ୍ସ',
+    giraffe: 'ଜିରାଫ', grasshopper: 'ଗ୍ରାସହପର', helicopter: 'ହେଲିକପ୍ଟର', horse: 'ହର୍ସ', igloo: 'ଇଗ୍ଲୁ',
+    insect: 'ଇନସେକ୍ଟ', kangaroo: 'କଙ୍ଗାରୁ', lemon: 'ଲେମନ', lotus: 'ଲୋଟସ', mango: 'ମ୍ୟାଙ୍ଗୋ', nurse: 'ନର୍ସ',
+    onion: 'ଅନିଅନ', owl: 'ଆଉଲ', police: 'ପୋଲିସ', pumpkin: 'ପମ୍ପକିନ', rabbit: 'ରାବିଟ', rhino: 'ରାଇନୋ', sheep: 'ସିପ',
+    ship: 'ସିପ', starfish: 'ଷ୍ଟାରଫିସ', tomato: 'ଟମାଟୋ', turtle: 'ଟର୍ଟଲ', van: 'ଭ୍ୟାନ', whale: 'ହ୍ୱେଲ', yak: 'ୟାକ',
+    zebu: 'ଜେବୁ', tripo: 'ଟ୍ରିପୋ', meshy: 'ମେସି', sketchfab: 'ସ୍କେଚଫାବ',
     a: 'ଆ', buh: 'ବ', kuh: 'କ', duh: 'ଡ', eh: 'ଏ', fuh: 'ଫ', guh: 'ଗ', huh: 'ହ', ih: 'ଇ', juh: 'ଜ', luh: 'ଲ', muh: 'ମ',
     nuh: 'ନ', oh: 'ଅ', puh: 'ପ', kwuh: 'କ୍ୱ', ruh: 'ର', sss: 'ସ', tuh: 'ଟ', uh: 'ଅ', vuh: 'ଭ', wuh: 'ୱ', ks: 'କ୍ସ', yuh: 'ୟ', zuh: 'ଜ',
   },
