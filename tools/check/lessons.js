@@ -28,6 +28,7 @@ async function main() {
   const library = await readJson(LIBRARY_FILE, 'Run `npm run content:library` first.');
   const languages = await listLanguages();
   const glyphs = await listGlyphs();
+  const letters = await listLetters();
   const allIds = await listLessonIds();
   const lessonIds = only ? [only] : allIds;
 
@@ -40,7 +41,7 @@ async function main() {
   const locked = [];
 
   for (const lessonId of lessonIds) {
-    const problems = await checkLesson(lessonId, { library, languages, glyphs });
+    const problems = await checkLesson(lessonId, { library, languages, glyphs, letters });
 
     if (problems.length) {
       failed += 1;
@@ -87,7 +88,7 @@ async function gateOf(lessonId) {
  * Context building can fail on its own (unparseable JSON, missing stage kit).
  * Those are reported as rules L1 and L3 so the output has one shape.
  */
-async function checkLesson(lessonId, { library, languages, glyphs }) {
+async function checkLesson(lessonId, { library, languages, glyphs, letters }) {
   let lesson;
   try {
     lesson = await readJson(path.join(LESSONS_DIR, lessonFiles.get(lessonId) ?? `${lessonId}.json`));
@@ -121,6 +122,7 @@ async function checkLesson(lessonId, { library, languages, glyphs }) {
     library,
     languages,
     glyphs,
+    letters,
     instances: listInstances(kit, lesson),
   };
 
@@ -194,6 +196,12 @@ async function listLessonIds() {
  * charset that was edited but never regenerated is exactly the case that would
  * otherwise pass here and draw nothing on a headset.
  */
+/** Every letter the 3D letter can extrude — the keys of the outline file. */
+async function listLetters() {
+  const outlines = await readJson(path.join(FONTS_DIR, 'letters-3d.json')).catch(() => null);
+  return new Set(Object.keys(outlines?.glyphs ?? {}));
+}
+
 async function listGlyphs() {
   const glyphs = new Set();
 

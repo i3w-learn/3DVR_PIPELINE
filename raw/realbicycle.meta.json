@@ -1,0 +1,12 @@
+{
+  "id": "realbicycle",
+  "source": "Sketchfab — \"Classic Bicycle | LowPoly | Game ready\" by by__Rx",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/classic-bicycle-lowpoly-game-ready-da6507928c0c4a5c8776008cdb9f747e",
+  "targetHeight": 1.019,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.6,
+  "simplifyError": 0.005,
+  "join": true
+}

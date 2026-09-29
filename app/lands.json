@@ -2,6 +2,7 @@
   "_comment": "Every land, in the order the lobby and the web list show them. One showcase lesson per land. Names in the four narration languages.",
   "lands": [
     { "id": "forest",     "lesson": "demo-peacock",               "group": "realistic", "name": { "en": "Forest",        "hi": "जंगल",          "mr": "जंगल",          "or": "ଜଙ୍ଗଲ" } },
+    { "id": "beach",      "lesson": "eng-nur-letters-a-e",               "group": "realistic", "name": { "en": "Letter beach",  "hi": "अक्षर तट",      "mr": "अक्षर किनारा",  "or": "ଅକ୍ଷର ବେଳାଭୂମି" } },
     { "id": "snow",       "lesson": "demo-snow",                  "group": "realistic", "name": { "en": "Snow",          "hi": "बर्फ़",          "mr": "बर्फ",          "or": "ବରଫ" } },
     { "id": "road",       "lesson": "evs-lkg-professions",        "group": "realistic", "name": { "en": "Road",          "hi": "सड़क",          "mr": "रस्ता",         "or": "ରାସ୍ତା" } },
     { "id": "street",     "lesson": "demo-street",                "group": "realistic", "name": { "en": "Street",        "hi": "गली",           "mr": "गल्ली",         "or": "ଗଳି" } },

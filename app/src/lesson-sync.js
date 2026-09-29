@@ -79,18 +79,27 @@ export class LessonSync {
     // In `identify` the teacher's step calls an animal over; its sound plays
     // as it sets off, the way a tapped animal's does. The narration stays
     // with the step.
-    this.#elements.stage.addEventListener('identify-called', (event) => {
-      const object = this.#loaded?.lesson.objects.find((o) => o.id === event.detail.id);
-      const sfx = this.#elements.sfx;
-      if (!object?.sound || !sfx) return;
-      sfx.components?.sound?.stopSound();
-      sfx.setAttribute('src', `assets/sfx/${object.sound}`);
-      sfx.components?.sound?.playSound();
+    this.#elements.stage.addEventListener('identify-called', (event) => this.#sound(event.detail.id));
+    // A thing that walked, flew or fell in makes its noise when it gets there.
+    // Only the first time: a dolphin that leaps every few seconds does not
+    // squeak every few seconds.
+    this.#elements.stage.addEventListener('arrived', (event) => {
+      if (event.detail.first) this.#sound(event.detail.id);
     });
     // An animal that was called speaks on arrival, not on being picked.
     this.#elements.stage.addEventListener('wander-arrived', (event) => {
       if (event.detail.id === this.#awaiting) this.#narrate(event.detail.id);
     });
+  }
+
+  /** The object's own noise, if the lesson gave it one. */
+  #sound(id) {
+    const object = this.#loaded?.lesson.objects.find((o) => o.id === id);
+    const sfx = this.#elements.sfx;
+    if (!object?.sound || !sfx) return;
+    sfx.components?.sound?.stopSound();
+    sfx.setAttribute('src', `assets/sfx/${object.sound}`);
+    sfx.components?.sound?.playSound();
   }
 
   /** Loud, not silent: a content error must reach the person who can fix it. */
@@ -169,10 +178,14 @@ export class LessonSync {
     // An object may opt out of the sun's shadow pass (`castShadow: false`), as
     // a prop can. The checker has always counted it that way; until now the
     // scene ignored it and drew the second pass regardless.
+    //
+    // And out of the dark patch (`contact: false`), also as a prop can: a kite
+    // in the air and a starfish lying flat are not standing on anything.
     const objects = new Map(loaded.lesson.objects.map((object) => [object.id, object]));
     for (const el of stageEl.children) {
       if (el.classList.contains('prop')) continue;
-      this.#groundIt(el, loaded.stage, objects.get(el.id)?.castShadow !== false);
+      const object = objects.get(el.id);
+      this.#groundIt(el, loaded.stage, object?.castShadow !== false, object?.contact !== false);
     }
 
     this.#loaded = loaded;
@@ -214,6 +227,15 @@ export class LessonSync {
     // Fog tinted to the horizon is the cheapest distance cue there is: distant
     // trees fade into the sky instead of standing out as cut-outs. It also
     // hides the edge of the ground plane for free.
+    // How sharp the shadows are. The shadow map is one fixed-size picture
+    // stretched over a box; a land whose things all sit close in can ask for
+    // a tighter box and a bigger map, and its shadow edges stop looking like
+    // steps — which in a headset they did.
+    scene.setAttribute('scene-look', {
+      shadowExtent: stage.shadow?.extent ?? 28,
+      shadowMapSize: stage.shadow?.mapSize ?? 2048,
+    });
+
     if (stage.fog) {
       scene.setAttribute('fog', {
         type: 'linear',

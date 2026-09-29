@@ -1,0 +1,158 @@
+{
+  "id": "beach",
+  "_comment": "The letter place. White sand underfoot, the sea ahead, and an empty sky for a letter to float in. Nothing else in the curriculum is a beach, so the child knows where they are: this is where letters live. The sea is a long water strip laid across the front; the child never walks, so its far edge is the horizon. Behind the child the sand rises into dunes and a far ring of palms, so there is something at every distance; the sea swells.",
+  "sky": {
+    "hdri": "beach.jpg",
+    "intensity": 1.15
+  },
+  "ground": {
+    "color": "sand_color.jpg",
+    "normal": "sand_normal.jpg",
+    "rough": "sand_rough.jpg",
+    "ao": "sand_ao.jpg",
+    "repeat": 34
+  },
+  "sun": {
+    "position": "11 8 12",
+    "color": "#fff0d6",
+    "intensity": 1.2,
+    "_comment": "Where the sky image has its sun: low, behind and to the child's right. Shadows then fall towards the sea, the way the picture says they should."
+  },
+  "light": {
+    "sky": "#d6e8f4",
+    "ground": "#e0d2ab",
+    "intensity": 0.45
+  },
+  "fog": {
+    "color": "#e6dfd4",
+    "near": 45,
+    "far": 160
+  },
+  "shadows": true,
+  "start": {
+    "position": "0 1.2 2.0",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "waterbody",
+      "params": {
+        "shape": "river",
+        "length": 260,
+        "width": 110,
+        "color": "#3390a4",
+        "flow": 0.05,
+        "mud": "#d2c19a",
+        "swell": 0.07
+      },
+      "position": "0 0 -68",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realpalmtree",
+      "position": "-12 0 2",
+      "rotation": "0 140 0",
+      "scale": "0.85 0.85 0.85"
+    },
+    {
+      "model": "realpalmtree",
+      "position": "8.5 0 -7.5",
+      "rotation": "0 -40 0",
+      "scale": "0.92 0.92 0.92"
+    },
+    {
+      "model": "realpalmtree",
+      "position": "-7.5 0 -6",
+      "rotation": "0 25 0",
+      "scale": "1.0 1.0 1.0"
+    },
+    {
+      "build": "shore",
+      "params": {
+        "length": 240,
+        "reach": 3.0,
+        "period": 7.5
+      },
+      "position": "0 0 -13",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "realshell",
+      "position": "-3.9 0 -2.6",
+      "rotation": "0 40 0",
+      "scale": "2.4 2.4 2.4",
+      "castShadow": false
+    },
+    {
+      "model": "realshell",
+      "position": "3.6 0 -2.2",
+      "rotation": "0 -70 0",
+      "scale": "2.2 2.2 2.2",
+      "castShadow": false
+    },
+    {
+      "model": "realshell",
+      "position": "5.2 0 -4.8",
+      "rotation": "0 15 0",
+      "scale": "2.6 2.6 2.6",
+      "castShadow": false
+    },
+    {
+      "model": "realshell",
+      "position": "-1.6 0 -12.2",
+      "rotation": "0 120 0",
+      "scale": "1.8 1.8 1.8",
+      "castShadow": false
+    },
+    {
+      "model": "realshell",
+      "position": "2.4 0 -11.8",
+      "rotation": "0 200 0",
+      "scale": "1.8 1.8 1.8",
+      "castShadow": false
+    },
+    {
+      "model": "realstarfish",
+      "position": "4.3 0 -4.4",
+      "rotation": "0 25 0",
+      "scale": "2.6 2.6 2.6",
+      "castShadow": false
+    },
+    {
+      "build": "dunes",
+      "params": {
+        "radius": 110,
+        "inner": 24,
+        "height": 3.4,
+        "arc": 210,
+        "facing": 180,
+        "seed": 3
+      },
+      "position": "0 0 0",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "build": "treeline",
+      "params": {
+        "model": "realpalmfar",
+        "count": 9,
+        "inner": 30,
+        "outer": 50,
+        "arc": 170,
+        "facing": 180,
+        "height": 8,
+        "seed": 5
+      },
+      "position": "0 0 0",
+      "castShadow": false,
+      "contact": false
+    }
+  ],
+  "shadow": {
+    "extent": 18,
+    "mapSize": 3072
+  }
+}

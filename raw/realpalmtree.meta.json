@@ -1,0 +1,11 @@
+{
+  "id": "realpalmtree",
+  "source": "Sketchfab — \"Realistic Palm Tree Free\" by Next Spring",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/realistic-palm-tree-free-39052ea764c945858449e699318efa53",
+  "targetHeight": 9,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.5,
+  "simplifyError": 0.015
+}

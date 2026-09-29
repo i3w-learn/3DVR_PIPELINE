@@ -1,0 +1,13 @@
+{
+  "id": "realracket",
+  "source": "Sketchfab — \"Tennis Racket\" by Yanez Designs",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/tennis-racket-c314dcce06ba488ca624957f579b8196",
+  "targetHeight": 0.69,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.45,
+  "simplifyError": 0.005,
+  "pitch": 90
+}

@@ -224,7 +224,7 @@
       "audio": "evs-ukg-dinosaur-park-s01.mp3"
     },
     {
-      "duration": 10000,
+      "duration": 18500,
       "script": {
         "en": "Look far away. That mountain is a volcano, and it is erupting. Smoke and fire come out of the top. Long ago, the earth had many volcanoes.",
         "hi": "दूर देखो। वह पहाड़ एक ज्वालामुखी है, और वह फट रहा है। उसके ऊपर से धुआँ और आग निकल रही है। बहुत पहले धरती पर बहुत से ज्वालामुखी थे।",
@@ -290,7 +290,7 @@
     },
     {
       "highlight": "pachy",
-      "duration": 8000,
+      "duration": 9500,
       "script": {
         "en": "This is Pachycephalosaurus. It had a thick, round head, like a helmet.",
         "hi": "यह पैकीसेफेलोसॉरस है। इसका सिर मोटा और गोल था, जैसे हेलमेट।",
@@ -301,7 +301,7 @@
     },
     {
       "highlight": "raptor",
-      "duration": 8000,
+      "duration": 10000,
       "script": {
         "en": "This is Velociraptor. It was small and very fast, and it had feathers.",
         "hi": "यह वेलोसिरैप्टर है। यह छोटा और बहुत तेज़ था, और इसके पंख थे।",
@@ -312,7 +312,7 @@
     },
     {
       "highlight": "pteranodon",
-      "duration": 9000,
+      "duration": 13500,
       "script": {
         "en": "Look up! That is a Pteranodon. It could fly. It is not a dinosaur, but it lived with them.",
         "hi": "ऊपर देखो! वह टेरानोडॉन है। यह उड़ सकता था। यह डायनासोर नहीं है, पर उनके साथ रहता था।",

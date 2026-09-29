@@ -1,0 +1,12 @@
+{
+  "id": "realgreensnake",
+  "source": "Sketchfab — \"Green tree python\" by noahthepidge",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/green-tree-python-2b29bd3437694275a72d0e0e99116cc1",
+  "targetHeight": 0.45,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.6,
+  "simplifyError": 0.01
+}

@@ -1,0 +1,12 @@
+{
+  "id": "realpopsicle",
+  "source": "Sketchfab — \"fruit ice\" by sv1nks",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/fruit-ice-768c2683212148f0a23fb92da5e36997",
+  "targetHeight": 0.14,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.3,
+  "simplifyError": 0.02
+}

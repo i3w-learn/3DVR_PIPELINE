@@ -30,3 +30,10 @@ for lang in "${LANGS[@]}"; do
   # In parallel pieces: the release server gives one connection a trickle.
   "$ENGINE/venv/bin/python" "$ROOT/tools/tts/fetch_voice.py" "$lang" "$ENGINE/models"
 done
+
+# --- Indic Parler-TTS, the second engine -----------------------------------
+# Its own environment: it pins a different transformers than Indic-TTS does.
+# ~1 GB of model downloads from Hugging Face on the first run.
+uv venv --python 3.11 "$ROOT/.tts/venv-parler"
+uv pip install --python "$ROOT/.tts/venv-parler/bin/python" "git+https://github.com/huggingface/parler-tts.git" soundfile
+echo "Indic Parler-TTS installed. Try: node tools/build/narration.js hi --provider parler"

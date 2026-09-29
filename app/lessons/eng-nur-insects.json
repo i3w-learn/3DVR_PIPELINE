@@ -47,7 +47,7 @@
     },
     {
       "id": "ladybug",
-      "model": "ladybug",
+      "model": "realladybug",
       "position": "0.540 0.520 -0.750",
       "scale": "3.375 3.375 3.375",
       "ring": 0.157,
@@ -59,7 +59,7 @@
     },
     {
       "id": "dragonfly",
-      "model": "dragonfly",
+      "model": "realdragonfly",
       "position": "-0.360 0.520 -0.750",
       "scale": "2.250 2.250 2.250",
       "ring": 0.157,
@@ -85,7 +85,7 @@
     },
     {
       "id": "housefly",
-      "model": "housefly",
+      "model": "realhousefly",
       "position": "0.360 0.520 -0.750",
       "scale": "3.375 3.375 3.375",
       "ring": 0.157,

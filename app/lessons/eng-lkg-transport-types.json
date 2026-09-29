@@ -101,9 +101,9 @@
     },
     {
       "id": "car",
-      "model": "car",
+      "model": "realcar",
       "position": "-0.600 0.534 -0.740",
-      "scale": "0.064 0.064 0.064",
+      "scale": "0.069 0.069 0.069",
       "ring": 0.157,
       "rotation": "0 50 0",
       "name": {
@@ -113,7 +113,7 @@
     },
     {
       "id": "bus",
-      "model": "bus",
+      "model": "realbus",
       "position": "-0.300 0.534 -0.740",
       "scale": "0.030 0.030 0.030",
       "ring": 0.157,
@@ -125,7 +125,7 @@
     },
     {
       "id": "bicycle",
-      "model": "bicycle",
+      "model": "realbicycle",
       "position": "0.000 0.534 -0.740",
       "scale": "0.159 0.159 0.159",
       "ring": 0.157,
@@ -185,7 +185,7 @@
     },
     {
       "id": "airplane",
-      "model": "airplane",
+      "model": "realairplane",
       "position": "-0.360 0.720 -0.740",
       "scale": "0.019 0.019 0.019",
       "ring": 0.157,
@@ -197,9 +197,9 @@
     },
     {
       "id": "helicopter",
-      "model": "helicopter",
+      "model": "realhelicopter",
       "position": "0.000 0.720 -0.740",
-      "scale": "0.030 0.030 0.030",
+      "scale": "0.034 0.034 0.034",
       "ring": 0.157,
       "rotation": "0 40 0",
       "name": {
@@ -209,9 +209,9 @@
     },
     {
       "id": "rocket",
-      "model": "rocket",
+      "model": "realrocket",
       "position": "0.360 0.720 -0.740",
-      "scale": "0.034 0.034 0.034",
+      "scale": "0.227 0.227 0.227",
       "ring": 0.068,
       "rotation": "0 40 0",
       "name": {

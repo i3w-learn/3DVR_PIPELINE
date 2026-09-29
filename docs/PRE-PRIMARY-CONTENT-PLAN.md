@@ -323,7 +323,7 @@ owner before the affected lesson is built:
 `✓` = asset or stage already exists. Lesson id follows the repo convention
 `subject-class-topic`.
 
-### NUR — English (18)
+### NUR — English (22)
 
 | # | Topic | Lesson id | Template | Stage | Assets |
 |---:|---|---|---|---|---|
@@ -344,7 +344,11 @@ owner before the affected lesson is built:
 | 15 | An Elephant Story | `eng-nur-elephant-story` | sequence | outdoor✓ | elephant✓ + props |
 | 16 | Insects | `eng-nur-insects` | identify | outdoor✓ (garden) | Insect pack |
 | 17 | Animals and their Sound | `eng-nur-animal-sounds` | match | farmyard✓ | reuses #5 + sfx |
-| 18 | Capital and Small Alphabets with objects | `eng-nur-alphabets` | match | tabletop | procedural letters + 26 props |
+| 18 | Capital and Small Alphabets with objects — A to E | `eng-nur-letters-a-e` | match | beach✓ | 3D letter + real things that arrive |
+| 19 | Capital and Small Alphabets with objects — F to J | `eng-nur-letters-f-j` | match | beach✓ | 3D letter + real things that arrive |
+| 20 | Capital and Small Alphabets with objects — K to O | `eng-nur-letters-k-o` | match | beach✓ | 3D letter + real things that arrive |
+| 21 | Capital and Small Alphabets with objects — P to T | `eng-nur-letters-p-t` | match | beach✓ | 3D letter + real things that arrive |
+| 22 | Capital and Small Alphabets with objects — U to Z | `eng-nur-letters-u-z` | match | beach✓ | 3D letter + real things that arrive |
 
 ### NUR — Maths (16)
 

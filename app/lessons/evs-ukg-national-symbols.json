@@ -57,11 +57,9 @@
     },
     {
       "id": "mango",
-      "build": "mango",
-      "params": {
-        "size": 0.55
-      },
+      "model": "realmango",
       "position": "4.600 1.170 -3.600",
+      "scale": "4.000 4.000 4.000",
       "name": {
         "en": "Mango",
         "hi": "आम"

@@ -356,7 +356,7 @@ export const RULES = [
   {
     id: 'VAL_L16',
     title: 'every glyph a lesson draws is in a shipped font atlas',
-    check: ({ lesson, glyphs }) => {
+    check: ({ lesson, glyphs, letters }) => {
       // No atlases on disk yet — `npm run content:fonts` has not been run.
       // Silence here rather than failing every lesson: the rule checks glyph
       // coverage, and with no atlas there is no coverage question to answer.
@@ -372,7 +372,17 @@ export const RULES = [
         ]),
       ];
 
-      return drawn.flatMap(([text, where]) => {
+      // The 3D letter extrudes an outline, not an atlas glyph, so it is
+      // checked against the outline file instead.
+      const solid = lesson.objects
+        .filter((o) => o.build === 'letter3d')
+        .map((o) => [String(o.params?.char ?? ''), `object "${o.id}"`])
+        .flatMap(([text, where]) => (letters?.has(text) ? [] : [
+          `${where} extrudes "${text}", which is not in lib/fonts/letters-3d.json — ` +
+          'add it to tools/build/letters.js and rerun `npm run content:letters`',
+        ]));
+
+      return solid.concat(drawn.flatMap(([text, where]) => {
         const missing = [...new Set([...text])].filter((c) => c !== ' ' && !glyphs.has(c));
 
         return missing.map((c) => {
@@ -382,7 +392,7 @@ export const RULES = [
             'add it to the charset in tools/build/fonts.js and rerun `npm run content:fonts`'
           );
         });
-      });
+      }));
     },
   },
 

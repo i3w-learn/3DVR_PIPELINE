@@ -17,7 +17,7 @@
     },
     {
       "id": "rajasthan",
-      "model": "camel",
+      "model": "realcamel",
       "position": "-6.200 0.320 -5.400",
       "rotation": "0 80 0",
       "ring": 0.97,
@@ -25,7 +25,8 @@
       "name": {
         "en": "Rajasthan",
         "hi": "राजस्थान"
-      }
+      },
+      "clip": "Armature|Idle_01"
     },
     {
       "id": "gujarat",
@@ -43,11 +44,9 @@
     },
     {
       "id": "maharashtra",
-      "build": "mango",
-      "params": {
-        "size": 0.55
-      },
+      "model": "realmango",
       "position": "-2.300 1.170 -2.600",
+      "scale": "4.000 4.000 4.000",
       "name": {
         "en": "Maharashtra",
         "hi": "महाराष्ट्र"

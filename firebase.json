@@ -91,6 +91,11 @@
         "type": 302
       },
       {
+        "source": "/beach",
+        "destination": "/?lesson=eng-nur-letters-a-e&role=teacher",
+        "type": 302
+      },
+      {
         "source": "/snow",
         "destination": "/?lesson=demo-snow&role=teacher",
         "type": 302

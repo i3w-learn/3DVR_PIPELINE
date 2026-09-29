@@ -1,0 +1,11 @@
+{
+  "id": "realhelicopter",
+  "source": "Sketchfab — \"Helicopter\" by irs1182",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/helicopter-91366449ce6842f784748a914e29d641",
+  "targetHeight": 3.2,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.35,
+  "simplifyError": 0.02
+}

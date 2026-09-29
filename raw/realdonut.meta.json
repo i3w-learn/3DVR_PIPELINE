@@ -1,0 +1,12 @@
+{
+  "id": "realdonut",
+  "source": "Sketchfab — \"Glazed donut_simple model\" by JoelHdez",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/glazed-donut-simple-model-0bc473ee934f44c6bd124717cdf58c93",
+  "targetHeight": 0.1,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.2,
+  "simplifyError": 0.02
+}

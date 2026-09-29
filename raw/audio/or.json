@@ -1364,6 +1364,711 @@
     "spoken": "ଏହା ଏକ ମାଛି. ଏହା ମଇଳା ଉପରେ ବସେ, ତେଣୁ ଖାଦ୍ୟକୁ ଘୋଡ଼ାଇ ରଖ.",
     "provider": "indic"
   },
+  "eng-nur-letters-a-e-s01.mp3": {
+    "written": "ଏହା ବଡ଼ A।",
+    "spoken": "ଏହା ବଡ଼ ଏ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s02.mp3": {
+    "written": "A ର ଧ୍ୱନି — a। ମୋ ସହ କୁହ।",
+    "spoken": "ଏ ର ଧ୍ୱନି, ଆ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s03.mp3": {
+    "written": "A — Apple, ମାନେ ସେଓ।",
+    "spoken": "ଏ, ଆପଲ, ମାନେ ସେଓ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s04.mp3": {
+    "written": "A — Ant, ମାନେ ପିମ୍ପୁଡ଼ି।",
+    "spoken": "ଏ, Ant, ମାନେ ପିମ୍ପୁଡ଼ି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s05.mp3": {
+    "written": "A — Ambulance, ମାନେ ଆମ୍ବୁଲାନ୍ସ।",
+    "spoken": "ଏ, Ambulance, ମାନେ ଆମ୍ବୁଲାନ୍ସ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s06.mp3": {
+    "written": "A। ସେଓ, ପିମ୍ପୁଡ଼ି, ଆମ୍ବୁଲାନ୍ସ।",
+    "spoken": "ଏ. ସେଓ, ପିମ୍ପୁଡ଼ି, ଆମ୍ବୁଲାନ୍ସ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s07.mp3": {
+    "written": "ଏହା ବଡ଼ B।",
+    "spoken": "ଏହା ବଡ଼ ବି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s08.mp3": {
+    "written": "B ର ଧ୍ୱନି — buh। ମୋ ସହ କୁହ।",
+    "spoken": "ବି ର ଧ୍ୱନି, ବ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s09.mp3": {
+    "written": "B — Banana, ମାନେ କଦଳୀ।",
+    "spoken": "ବି, ବନାନା, ମାନେ କଦଳୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s10.mp3": {
+    "written": "B — Bear, ମାନେ ଭାଲୁ।",
+    "spoken": "ବି, Bear, ମାନେ ଭାଲୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s11.mp3": {
+    "written": "B — Butterfly, ମାନେ ପ୍ରଜାପତି।",
+    "spoken": "ବି, Butterfly, ମାନେ ପ୍ରଜାପତି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s12.mp3": {
+    "written": "B। କଦଳୀ, ଭାଲୁ, ପ୍ରଜାପତି।",
+    "spoken": "ବି. କଦଳୀ, ଭାଲୁ, ପ୍ରଜାପତି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s13.mp3": {
+    "written": "ଏହା ବଡ଼ C।",
+    "spoken": "ଏହା ବଡ଼ ସି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s14.mp3": {
+    "written": "C ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।",
+    "spoken": "ସି ର ଧ୍ୱନି, କ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s15.mp3": {
+    "written": "C — Cat, ମାନେ ବିଲେଇ।",
+    "spoken": "ସି, କ୍ୟାଟ, ମାନେ ବିଲେଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s16.mp3": {
+    "written": "C — Crow, ମାନେ କାଉ।",
+    "spoken": "ସି, Crow, ମାନେ କାଉ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s17.mp3": {
+    "written": "C — Crab, ମାନେ କଙ୍କଡ଼ା।",
+    "spoken": "ସି, Crab, ମାନେ କଙ୍କଡ଼ା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s18.mp3": {
+    "written": "C। ବିଲେଇ, କାଉ, କଙ୍କଡ଼ା।",
+    "spoken": "ସି. ବିଲେଇ, କାଉ, କଙ୍କଡ଼ା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s19.mp3": {
+    "written": "ଏହା ବଡ଼ D।",
+    "spoken": "ଏହା ବଡ଼ ଡି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s20.mp3": {
+    "written": "D ର ଧ୍ୱନି — duh। ମୋ ସହ କୁହ।",
+    "spoken": "ଡି ର ଧ୍ୱନି, ଡ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s21.mp3": {
+    "written": "D — Dog, ମାନେ କୁକୁର।",
+    "spoken": "ଡି, ଡଗ, ମାନେ କୁକୁର.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s22.mp3": {
+    "written": "D — Duck, ମାନେ ବତକ।",
+    "spoken": "ଡି, Duck, ମାନେ ବତକ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s23.mp3": {
+    "written": "D — Dolphin, ମାନେ ଡଲଫିନ୍।",
+    "spoken": "ଡି, Dolphin, ମାନେ ଡଲଫିନ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s24.mp3": {
+    "written": "D। କୁକୁର, ବତକ, ଡଲଫିନ୍।",
+    "spoken": "ଡି. କୁକୁର, ବତକ, ଡଲଫିନ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s25.mp3": {
+    "written": "ଏହା ବଡ଼ E।",
+    "spoken": "ଏହା ବଡ଼ ଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s26.mp3": {
+    "written": "E ର ଧ୍ୱନି — eh। ମୋ ସହ କୁହ।",
+    "spoken": "ଇ ର ଧ୍ୱନି, ଏ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s27.mp3": {
+    "written": "E — Elephant, ମାନେ ହାତୀ।",
+    "spoken": "ଇ, ଏଲିଫାଣ୍ଟ, ମାନେ ହାତୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s28.mp3": {
+    "written": "E — Eagle, ମାନେ ଚିଲ।",
+    "spoken": "ଇ, Eagle, ମାନେ ଚିଲ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s29.mp3": {
+    "written": "E — Egg, ମାନେ ଅଣ୍ଡା।",
+    "spoken": "ଇ, Egg, ମାନେ ଅଣ୍ଡା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-a-e-s30.mp3": {
+    "written": "E। ହାତୀ, ଚିଲ, ଅଣ୍ଡା।",
+    "spoken": "ଇ. ହାତୀ, ଚିଲ, ଅଣ୍ଡା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s01.mp3": {
+    "written": "ଏହା ବଡ଼ F।",
+    "spoken": "ଏହା ବଡ଼ ଏଫ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s02.mp3": {
+    "written": "F ର ଧ୍ୱନି — fuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏଫ ର ଧ୍ୱନି, ଫ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s03.mp3": {
+    "written": "F — Fox, ମାନେ କୋକିଶିଆଳି।",
+    "spoken": "ଏଫ, Fox, ମାନେ କୋକିଶିଆଳି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s04.mp3": {
+    "written": "F — Fish, ମାନେ ମାଛ।",
+    "spoken": "ଏଫ, ଫିସ, ମାନେ ମାଛ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s05.mp3": {
+    "written": "F — Fire engine, ମାନେ ଦମକଳ ଗାଡ଼ି।",
+    "spoken": "ଏଫ, Fire engine, ମାନେ ଦମକଳ ଗାଡ଼ି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s06.mp3": {
+    "written": "F। କୋକିଶିଆଳି, ମାଛ, ଦମକଳ ଗାଡ଼ି।",
+    "spoken": "ଏଫ. କୋକିଶିଆଳି, ମାଛ, ଦମକଳ ଗାଡ଼ି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s07.mp3": {
+    "written": "ଏହା ବଡ଼ G।",
+    "spoken": "ଏହା ବଡ଼ ଜି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s08.mp3": {
+    "written": "G ର ଧ୍ୱନି — guh। ମୋ ସହ କୁହ।",
+    "spoken": "ଜି ର ଧ୍ୱନି, ଗ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s09.mp3": {
+    "written": "G — Goat, ମାନେ ଛେଳି।",
+    "spoken": "ଜି, ଗୋଟ, ମାନେ ଛେଳି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s10.mp3": {
+    "written": "G — Giraffe, ମାନେ ଜିରାଫ୍।",
+    "spoken": "ଜି, Giraffe, ମାନେ ଜିରାଫ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s11.mp3": {
+    "written": "G — Grasshopper, ମାନେ ଝିଙ୍କ।",
+    "spoken": "ଜି, Grasshopper, ମାନେ ଝିଙ୍କ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s12.mp3": {
+    "written": "G। ଛେଳି, ଜିରାଫ୍, ଝିଙ୍କ।",
+    "spoken": "ଜି. ଛେଳି, ଜିରାଫ୍, ଝିଙ୍କ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s13.mp3": {
+    "written": "ଏହା ବଡ଼ H।",
+    "spoken": "ଏହା ବଡ଼ ଏଚ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s14.mp3": {
+    "written": "H ର ଧ୍ୱନି — huh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏଚ ର ଧ୍ୱନି, ହ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s15.mp3": {
+    "written": "H — Hen, ମାନେ କୁକୁଡ଼ା।",
+    "spoken": "ଏଚ, ହେନ, ମାନେ କୁକୁଡ଼ା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s16.mp3": {
+    "written": "H — Horse, ମାନେ ଘୋଡ଼ା।",
+    "spoken": "ଏଚ, Horse, ମାନେ ଘୋଡ଼ା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s17.mp3": {
+    "written": "H — Helicopter, ମାନେ ହେଲିକପ୍ଟର।",
+    "spoken": "ଏଚ, Helicopter, ମାନେ ହେଲିକପ୍ଟର.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s18.mp3": {
+    "written": "H। କୁକୁଡ଼ା, ଘୋଡ଼ା, ହେଲିକପ୍ଟର।",
+    "spoken": "ଏଚ. କୁକୁଡ଼ା, ଘୋଡ଼ା, ହେଲିକପ୍ଟର.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s19.mp3": {
+    "written": "ଏହା ବଡ଼ I।",
+    "spoken": "ଏହା ବଡ଼ ଆଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s20.mp3": {
+    "written": "I ର ଧ୍ୱନି — ih। ମୋ ସହ କୁହ।",
+    "spoken": "ଆଇ ର ଧ୍ୱନି, ଇ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s21.mp3": {
+    "written": "I — Igloo, ମାନେ ଇଗ୍ଲୁ।",
+    "spoken": "ଆଇ, Igloo, ମାନେ ଇଗ୍ଲୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s22.mp3": {
+    "written": "I — Ice cream, ମାନେ ଆଇସକ୍ରିମ।",
+    "spoken": "ଆଇ, ଆଇସ କ୍ରିମ, ମାନେ ଆଇସକ୍ରିମ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s23.mp3": {
+    "written": "I — Insect, ମାନେ ପୋକ।",
+    "spoken": "ଆଇ, Insect, ମାନେ ପୋକ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s24.mp3": {
+    "written": "I। ଇଗ୍ଲୁ, ଆଇସକ୍ରିମ, ପୋକ।",
+    "spoken": "ଆଇ. ଇଗ୍ଲୁ, ଆଇସକ୍ରିମ, ପୋକ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s25.mp3": {
+    "written": "ଏହା ବଡ଼ J।",
+    "spoken": "ଏହା ବଡ଼ ଜେ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s26.mp3": {
+    "written": "J ର ଧ୍ୱନି — juh। ମୋ ସହ କୁହ।",
+    "spoken": "ଜେ ର ଧ୍ୱନି, ଜ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s27.mp3": {
+    "written": "J — Jeep, ମାନେ ଜିପ୍।",
+    "spoken": "ଜେ, ଜିପ, ମାନେ ଜିପ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-f-j-s28.mp3": {
+    "written": "J। ଜିପ୍।",
+    "spoken": "ଜେ. ଜିପ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s01.mp3": {
+    "written": "ଏହା ବଡ଼ K।",
+    "spoken": "ଏହା ବଡ଼ କେ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s02.mp3": {
+    "written": "K ର ଧ୍ୱନି — kuh। ମୋ ସହ କୁହ।",
+    "spoken": "କେ ର ଧ୍ୱନି, କ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s03.mp3": {
+    "written": "K — Kangaroo, ମାନେ କାଙ୍ଗାରୁ।",
+    "spoken": "କେ, Kangaroo, ମାନେ କାଙ୍ଗାରୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s04.mp3": {
+    "written": "K — Kite, ମାନେ ଗୁଡ଼ି।",
+    "spoken": "କେ, କାଇଟ, ମାନେ ଗୁଡ଼ି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s05.mp3": {
+    "written": "K। କାଙ୍ଗାରୁ, ଗୁଡ଼ି।",
+    "spoken": "କେ. କାଙ୍ଗାରୁ, ଗୁଡ଼ି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s06.mp3": {
+    "written": "ଏହା ବଡ଼ L।",
+    "spoken": "ଏହା ବଡ଼ ଏଲ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s07.mp3": {
+    "written": "L ର ଧ୍ୱନି — luh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏଲ ର ଧ୍ୱନି, ଲ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s08.mp3": {
+    "written": "L — Lion, ମାନେ ସିଂହ।",
+    "spoken": "ଏଲ, ଲାୟନ, ମାନେ ସିଂହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s09.mp3": {
+    "written": "L — Lotus, ମାନେ ପଦ୍ମ।",
+    "spoken": "ଏଲ, Lotus, ମାନେ ପଦ୍ମ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s10.mp3": {
+    "written": "L — Lemon, ମାନେ ଲେମ୍ବୁ।",
+    "spoken": "ଏଲ, Lemon, ମାନେ ଲେମ୍ବୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s11.mp3": {
+    "written": "L। ସିଂହ, ପଦ୍ମ, ଲେମ୍ବୁ।",
+    "spoken": "ଏଲ. ସିଂହ, ପଦ୍ମ, ଲେମ୍ବୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s12.mp3": {
+    "written": "ଏହା ବଡ଼ M।",
+    "spoken": "ଏହା ବଡ଼ ଏମ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s13.mp3": {
+    "written": "M ର ଧ୍ୱନି — muh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏମ ର ଧ୍ୱନି, ମ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s14.mp3": {
+    "written": "M — Monkey, ମାନେ ମାଙ୍କଡ଼।",
+    "spoken": "ଏମ, ମଙ୍କି, ମାନେ ମାଙ୍କଡ଼.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s15.mp3": {
+    "written": "M — Mango, ମାନେ ଆମ୍ବ।",
+    "spoken": "ଏମ, Mango, ମାନେ ଆମ୍ବ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s16.mp3": {
+    "written": "M। ମାଙ୍କଡ଼, ଆମ୍ବ।",
+    "spoken": "ଏମ. ମାଙ୍କଡ଼, ଆମ୍ବ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s17.mp3": {
+    "written": "ଏହା ବଡ଼ N।",
+    "spoken": "ଏହା ବଡ଼ ଏନ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s18.mp3": {
+    "written": "N ର ଧ୍ୱନି — nuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଏନ ର ଧ୍ୱନି, ନ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s19.mp3": {
+    "written": "N — Nest, ମାନେ ବସା।",
+    "spoken": "ଏନ, ନେଷ୍ଟ, ମାନେ ବସା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s20.mp3": {
+    "written": "N — Nurse, ମାନେ ନର୍ସ।",
+    "spoken": "ଏନ, Nurse, ମାନେ ନର୍ସ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s21.mp3": {
+    "written": "N। ବସା, ନର୍ସ।",
+    "spoken": "ଏନ. ବସା, ନର୍ସ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s22.mp3": {
+    "written": "ଏହା ବଡ଼ O।",
+    "spoken": "ଏହା ବଡ଼ ଓ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s23.mp3": {
+    "written": "O ର ଧ୍ୱନି — oh। ମୋ ସହ କୁହ।",
+    "spoken": "ଓ ର ଧ୍ୱନି, ଅ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s24.mp3": {
+    "written": "O — Orange, ମାନେ କମଳା।",
+    "spoken": "ଓ, ଅରେଞ୍ଜ, ମାନେ କମଳା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s25.mp3": {
+    "written": "O — Owl, ମାନେ ପେଚା।",
+    "spoken": "ଓ, Owl, ମାନେ ପେଚା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s26.mp3": {
+    "written": "O — Onion, ମାନେ ପିଆଜ।",
+    "spoken": "ଓ, Onion, ମାନେ ପିଆଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-k-o-s27.mp3": {
+    "written": "O। କମଳା, ପେଚା, ପିଆଜ।",
+    "spoken": "ଓ. କମଳା, ପେଚା, ପିଆଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s01.mp3": {
+    "written": "ଏହା ବଡ଼ P।",
+    "spoken": "ଏହା ବଡ଼ ପି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s02.mp3": {
+    "written": "P ର ଧ୍ୱନି — puh। ମୋ ସହ କୁହ।",
+    "spoken": "ପି ର ଧ୍ୱନି, ପ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s03.mp3": {
+    "written": "P — Parrot, ମାନେ ଶୁଆ।",
+    "spoken": "ପି, ପ୍ୟାରଟ, ମାନେ ଶୁଆ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s04.mp3": {
+    "written": "P — Pumpkin, ମାନେ କଖାରୁ।",
+    "spoken": "ପି, Pumpkin, ମାନେ କଖାରୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s05.mp3": {
+    "written": "P — Police car, ମାନେ ପୋଲିସ ଗାଡ଼ି।",
+    "spoken": "ପି, Police car, ମାନେ ପୋଲିସ ଗାଡ଼ି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s06.mp3": {
+    "written": "P। ଶୁଆ, କଖାରୁ, ପୋଲିସ ଗାଡ଼ି।",
+    "spoken": "ପି. ଶୁଆ, କଖାରୁ, ପୋଲିସ ଗାଡ଼ି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s07.mp3": {
+    "written": "ଏହା ବଡ଼ Q।",
+    "spoken": "ଏହା ବଡ଼ କ୍ୟୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s08.mp3": {
+    "written": "Q ର ଧ୍ୱନି — kwuh। ମୋ ସହ କୁହ।",
+    "spoken": "କ୍ୟୁ ର ଧ୍ୱନି, କ୍ୱ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s09.mp3": {
+    "written": "Q — Queen, ମାନେ ରାଣୀ।",
+    "spoken": "କ୍ୟୁ, କୁଇନ, ମାନେ ରାଣୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s10.mp3": {
+    "written": "Q। ରାଣୀ।",
+    "spoken": "କ୍ୟୁ. ରାଣୀ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s11.mp3": {
+    "written": "ଏହା ବଡ଼ R।",
+    "spoken": "ଏହା ବଡ଼ ଆର.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s12.mp3": {
+    "written": "R ର ଧ୍ୱନି — ruh। ମୋ ସହ କୁହ।",
+    "spoken": "ଆର ର ଧ୍ୱନି, ର. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s13.mp3": {
+    "written": "R — Rabbit, ମାନେ ଠେକୁଆ।",
+    "spoken": "ଆର, Rabbit, ମାନେ ଠେକୁଆ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s14.mp3": {
+    "written": "R — Rocket, ମାନେ ରକେଟ୍।",
+    "spoken": "ଆର, ରକେଟ, ମାନେ ରକେଟ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s15.mp3": {
+    "written": "R — Rhino, ମାନେ ଗଣ୍ଡା।",
+    "spoken": "ଆର, Rhino, ମାନେ ଗଣ୍ଡା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s16.mp3": {
+    "written": "R। ଠେକୁଆ, ରକେଟ୍, ଗଣ୍ଡା।",
+    "spoken": "ଆର. ଠେକୁଆ, ରକେଟ୍, ଗଣ୍ଡା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s17.mp3": {
+    "written": "ଏହା ବଡ଼ S।",
+    "spoken": "ଏହା ବଡ଼ ଏସ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s18.mp3": {
+    "written": "S ର ଧ୍ୱନି — sss। ମୋ ସହ କୁହ।",
+    "spoken": "ଏସ ର ଧ୍ୱନି, ସ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s19.mp3": {
+    "written": "S — Sheep, ମାନେ ମେଣ୍ଢା।",
+    "spoken": "ଏସ, Sheep, ମାନେ ମେଣ୍ଢା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s20.mp3": {
+    "written": "S — Starfish, ମାନେ ତାରା ମାଛ।",
+    "spoken": "ଏସ, Starfish, ମାନେ ତାରା ମାଛ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s21.mp3": {
+    "written": "S — Ship, ମାନେ ଜାହାଜ।",
+    "spoken": "ଏସ, Ship, ମାନେ ଜାହାଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s22.mp3": {
+    "written": "S। ମେଣ୍ଢା, ତାରା ମାଛ, ଜାହାଜ।",
+    "spoken": "ଏସ. ମେଣ୍ଢା, ତାରା ମାଛ, ଜାହାଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s23.mp3": {
+    "written": "ଏହା ବଡ଼ T।",
+    "spoken": "ଏହା ବଡ଼ଟି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s24.mp3": {
+    "written": "T ର ଧ୍ୱନି — tuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଟି ର ଧ୍ୱନି, ଟ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s25.mp3": {
+    "written": "T — Tiger, ମାନେ ବାଘ।",
+    "spoken": "ଟି, ଟାଇଗର, ମାନେ ବାଘ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s26.mp3": {
+    "written": "T — Turtle, ମାନେ କଇଁଛ।",
+    "spoken": "ଟି, Turtle, ମାନେ କଇଁଛ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s27.mp3": {
+    "written": "T — Tomato, ମାନେ ଟମାଟୋ।",
+    "spoken": "ଟି, Tomato, ମାନେ ଟମାଟୋ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-p-t-s28.mp3": {
+    "written": "T। ବାଘ, କଇଁଛ, ଟମାଟୋ।",
+    "spoken": "ଟି. ବାଘ, କଇଁଛ, ଟମାଟୋ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s01.mp3": {
+    "written": "ଏହା ବଡ଼ U।",
+    "spoken": "ଏହା ବଡ଼ ୟୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s02.mp3": {
+    "written": "U ର ଧ୍ୱନି — uh। ମୋ ସହ କୁହ।",
+    "spoken": "ୟୁ ର ଧ୍ୱନି, ଅ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s03.mp3": {
+    "written": "U — Umbrella, ମାନେ ଛତା।",
+    "spoken": "ୟୁ, ଅମ୍ବ୍ରେଲା, ମାନେ ଛତା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s04.mp3": {
+    "written": "U। ଛତା।",
+    "spoken": "ୟୁ. ଛତା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s05.mp3": {
+    "written": "ଏହା ବଡ଼ V।",
+    "spoken": "ଏହା ବଡ଼ ଭି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s06.mp3": {
+    "written": "V ର ଧ୍ୱନି — vuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଭି ର ଧ୍ୱନି, ଭ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s07.mp3": {
+    "written": "V — Violin, ମାନେ ଭାୟୋଲିନ୍।",
+    "spoken": "ଭି, ଭାୟୋଲିନ, ମାନେ ଭାୟୋଲିନ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s08.mp3": {
+    "written": "V — Van, ମାନେ ଭ୍ୟାନ୍।",
+    "spoken": "ଭି, Van, ମାନେ ଭ୍ୟାନ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s09.mp3": {
+    "written": "V। ଭାୟୋଲିନ୍, ଭ୍ୟାନ୍।",
+    "spoken": "ଭି. ଭାୟୋଲିନ୍, ଭ୍ୟାନ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s10.mp3": {
+    "written": "ଏହା ବଡ଼ W।",
+    "spoken": "ଏହା ବଡ଼ ଡବ୍ଲ୍ୟୁ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s11.mp3": {
+    "written": "W ର ଧ୍ୱନି — wuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଡବ୍ଲ୍ୟୁ ର ଧ୍ୱନି, ୱ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s12.mp3": {
+    "written": "W — Watermelon, ମାନେ ତରଭୁଜ।",
+    "spoken": "ଡବ୍ଲ୍ୟୁ, ୱାଟରମେଲନ, ମାନେ ତରଭୁଜ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s13.mp3": {
+    "written": "W — Whale, ମାନେ ତିମି।",
+    "spoken": "ଡବ୍ଲ୍ୟୁ, Whale, ମାନେ ତିମି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s14.mp3": {
+    "written": "W। ତରଭୁଜ, ତିମି।",
+    "spoken": "ଡବ୍ଲ୍ୟୁ. ତରଭୁଜ, ତିମି.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s15.mp3": {
+    "written": "ଏହା ବଡ଼ X।",
+    "spoken": "ଏହା ବଡ଼ ଏକ୍ସ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s16.mp3": {
+    "written": "X ର ଧ୍ୱନି — ks। ମୋ ସହ କୁହ।",
+    "spoken": "ଏକ୍ସ ର ଧ୍ୱନି, କ୍ସ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s17.mp3": {
+    "written": "X — Xylophone, ମାନେ ଜାଇଲୋଫୋନ୍।",
+    "spoken": "ଏକ୍ସ, ଜାଇଲୋଫୋନ, ମାନେ ଜାଇଲୋଫୋନ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s18.mp3": {
+    "written": "X। ଜାଇଲୋଫୋନ୍।",
+    "spoken": "ଏକ୍ସ. ଜାଇଲୋଫୋନ୍.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s19.mp3": {
+    "written": "ଏହା ବଡ଼ Y।",
+    "spoken": "ଏହା ବଡ଼ ୱାଇ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s20.mp3": {
+    "written": "Y ର ଧ୍ୱନି — yuh। ମୋ ସହ କୁହ।",
+    "spoken": "ୱାଇ ର ଧ୍ୱନି, ୟ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s21.mp3": {
+    "written": "Y — Yarn, ମାନେ ଊଲ ଗୋଲା।",
+    "spoken": "ୱାଇ, ୟାର୍ନ, ମାନେ ଊଲ ଗୋଲା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s22.mp3": {
+    "written": "Y — Yak, ମାନେ ୟାକ।",
+    "spoken": "ୱାଇ, Yak, ମାନେ ୟାକ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s23.mp3": {
+    "written": "Y। ଊଲ ଗୋଲା, ୟାକ।",
+    "spoken": "ୱାଇ. ଊଲ ଗୋଲା, ୟାକ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s24.mp3": {
+    "written": "ଏହା ବଡ଼ Z।",
+    "spoken": "ଏହା ବଡ଼ ଜେଡ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s25.mp3": {
+    "written": "Z ର ଧ୍ୱନି — zuh। ମୋ ସହ କୁହ।",
+    "spoken": "ଜେଡ ର ଧ୍ୱନି, ଜ. ମୋ ସହ କୁହ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s26.mp3": {
+    "written": "Z — Zebra, ମାନେ ଜେବ୍ରା।",
+    "spoken": "ଜେଡ, ଜେବ୍ରା, ମାନେ ଜେବ୍ରା.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s27.mp3": {
+    "written": "Z — Zebu, ମାନେ ବଳଦ।",
+    "spoken": "ଜେଡ, Zebu, ମାନେ ବଳଦ.",
+    "provider": "indic"
+  },
+  "eng-nur-letters-u-z-s28.mp3": {
+    "written": "Z। ଜେବ୍ରା, ବଳଦ।",
+    "spoken": "ଜେଡ. ଜେବ୍ରା, ବଳଦ.",
+    "provider": "indic"
+  },
   "eng-nur-shapes-check-s01.mp3": {
     "written": "କେଉଁଟି ତ୍ରିଭୁଜ? ତାକୁ ଛୁଅଁ।",
     "spoken": "କେଉଁଟି ତ୍ରିଭୁଜ. ତାକୁ ଛୁଅଁ.",

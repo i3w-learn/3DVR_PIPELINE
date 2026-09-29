@@ -5,7 +5,7 @@
   "objects": [
     {
       "id": "rose",
-      "model": "rose",
+      "model": "realrose",
       "position": "-0.420 0.520 -0.780",
       "scale": "0.680 0.680 0.680",
       "ring": 0.053,
@@ -16,7 +16,7 @@
     },
     {
       "id": "sunflower",
-      "model": "sunflower",
+      "model": "realsunflower",
       "position": "0.000 0.520 -0.780",
       "scale": "0.267 0.267 0.267",
       "ring": 0.146,

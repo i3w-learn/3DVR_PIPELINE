@@ -97,6 +97,8 @@ export async function readSidecar(id) {
     yaw: data.yaw ?? 0,
     // Degrees about X, applied before yaw: lays down what was modelled on end.
     pitch: data.pitch ?? 0,
+    // Degrees about Z, applied before pitch: straightens what was posed askew.
+    roll: data.roll ?? 0,
     // Clips a lesson will actually play. Everything else is dropped, which is
     // the difference between a 1.6 MB cow and a 0.3 MB one. null keeps all.
     keepClips: Array.isArray(data.keepClips) ? data.keepClips : null,

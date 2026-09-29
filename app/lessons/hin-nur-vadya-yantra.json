@@ -41,7 +41,7 @@
     },
     {
       "id": "flute",
-      "model": "flute",
+      "model": "realbansuri",
       "position": "0.555 0.520 -0.780",
       "scale": "0.567 0.567 0.567",
       "ring": 0.197,
@@ -53,7 +53,7 @@
     },
     {
       "id": "guitar",
-      "model": "guitar",
+      "model": "realguitar",
       "position": "-0.555 0.520 -0.780",
       "scale": "0.360 0.360 0.360",
       "ring": 0.209,
@@ -76,7 +76,7 @@
     },
     {
       "id": "trumpet",
-      "model": "trumpet",
+      "model": "realtrumpet",
       "position": "0.185 0.520 -0.780",
       "scale": "0.618 0.618 0.618",
       "ring": 0.197,
@@ -88,9 +88,9 @@
     },
     {
       "id": "violin",
-      "model": "violin",
+      "model": "realviolin",
       "position": "0.555 0.520 -0.780",
-      "scale": "0.567 0.567 0.567",
+      "scale": "0.081 0.081 0.081",
       "ring": 0.197,
       "rotation": "0 20 0",
       "name": {

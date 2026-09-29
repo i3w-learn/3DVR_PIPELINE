@@ -1,0 +1,12 @@
+{
+  "id": "realfries",
+  "source": "Sketchfab — \"French fries tray\" by Emm",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/french-fries-tray-51a0806ac1674209baa6dd89d830d1a8",
+  "targetHeight": 0.13,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.2,
+  "simplifyError": 0.02
+}

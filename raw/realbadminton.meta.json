@@ -1,0 +1,13 @@
+{
+  "id": "realbadminton",
+  "source": "Sketchfab — \"badminton racket\" by timmy",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/badminton-racket-455a5ed487e7450b8a52f39897193ddf",
+  "targetHeight": 0.67,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.35,
+  "simplifyError": 0.03,
+  "pitch": 90
+}

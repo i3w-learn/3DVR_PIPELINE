@@ -1,0 +1,12 @@
+{
+  "id": "realbansuri",
+  "source": "Sketchfab — \"Basuri\" by VR Bro",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/basuri-60f62fdcc3cd4fbdadf76d291f041ad1",
+  "targetHeight": 0.6,
+  "yaw": 90,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.3,
+  "simplifyError": 0.02
+}

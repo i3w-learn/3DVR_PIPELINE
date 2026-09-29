@@ -1,0 +1,13 @@
+{
+  "id": "realcricketbat",
+  "source": "Sketchfab — \"Cricket Bat(Sports)\" by Rohit Pawar",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/cricket-batsports-d2d8e37424cb433a8f16c7f51ac5765f",
+  "targetHeight": 0.9,
+  "yaw": 69,
+  "smoothAngle": 60,
+  "simplify": 0.25,
+  "simplifyError": 0.03,
+  "roll": -66,
+  "pitch": -52
+}

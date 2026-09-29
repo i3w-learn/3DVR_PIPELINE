@@ -83,7 +83,7 @@
     },
     {
       "id": "hot",
-      "model": "teacup",
+      "model": "realteacup",
       "position": "-0.300 0.520 -0.800",
       "scale": "2.31 2.31 2.31",
       "ring": 0.167,
@@ -94,9 +94,9 @@
     },
     {
       "id": "cold",
-      "model": "icecream",
+      "model": "realicecream",
       "position": "0.300 0.520 -0.800",
-      "scale": "1.69 1.69 1.69",
+      "scale": "1.229 1.229 1.229",
       "ring": 0.098,
       "name": {
         "en": "Cold",

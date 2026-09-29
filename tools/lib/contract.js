@@ -40,7 +40,7 @@ export class ContractError extends Error {
  * @param {{targetHeight: number, yaw: number}} sidecar
  * @returns {{scale: number, yaw: number, before: object, after: object}}
  */
-export function applyContract(document, { targetHeight, yaw = 0, pitch = 0, fit = 'height' }) {
+export function applyContract(document, { targetHeight, yaw = 0, pitch = 0, roll = 0, fit = 'height' }) {
   const root = document.getRoot();
   const scene = root.getDefaultScene() ?? root.listScenes()[0];
 
@@ -62,7 +62,7 @@ export function applyContract(document, { targetHeight, yaw = 0, pitch = 0, fit 
   // Turn first, then measure. A bus modelled 26° off its axis has a different
   // bounding box once it is straightened, and a scale worked out from the
   // crooked box lands the straight bus at 8.4 m when 9 m was asked for.
-  wrapper.setRotation(turnQuaternion(yaw, pitch));
+  wrapper.setRotation(turnQuaternion(yaw, pitch, roll));
   const turned = boundsOf(scene, document);
 
   // Height is the right dial for anything that stands up — an animal, a tree,
@@ -94,19 +94,29 @@ export function applyContract(document, { targetHeight, yaw = 0, pitch = 0, fit 
 }
 
 /**
- * Quaternion for tipping a model over by `pitch` about X, then turning it by
- * `yaw` about Y.
+ * Quaternion for leaning a model by `roll` about Z, tipping it over by `pitch`
+ * about X, then turning it by `yaw` about Y.
  *
  * Pitch is for the thing that was modelled standing up and lies down in life:
  * a cob of corn arrives on its end like a rocket. Almost nothing needs it.
+ *
+ * Roll is rarer still: a cricket bat posed at a jaunty angle for its
+ * thumbnail, which no pitch and yaw alone will stand straight.
  */
-function turnQuaternion(yaw, pitch) {
+function turnQuaternion(yaw, pitch, roll = 0) {
   const y = (yaw * Math.PI) / 180 / 2;
   const x = (pitch * Math.PI) / 180 / 2;
+  const z = (roll * Math.PI) / 180 / 2;
   const [sy, cy, sx, cx] = [Math.sin(y), Math.cos(y), Math.sin(x), Math.cos(x)];
 
   // q = qYaw * qPitch
-  return [cy * sx, sy * cx, -sy * sx, cy * cx];
+  const turned = [cy * sx, sy * cx, -sy * sx, cy * cx];
+  if (!roll) return turned;
+
+  // q = (qYaw * qPitch) * qRoll
+  const [ax, ay, az, aw] = turned;
+  const [sz, cz] = [Math.sin(z), Math.cos(z)];
+  return [ax * cz + ay * sz, ay * cz - ax * sz, az * cz + aw * sz, aw * cz - az * sz];
 }
 
 const longestSide = (b) => Math.max(b.max[0] - b.min[0], b.max[1] - b.min[1], b.max[2] - b.min[2]);

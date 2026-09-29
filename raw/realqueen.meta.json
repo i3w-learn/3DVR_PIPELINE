@@ -1,0 +1,11 @@
+{
+  "id": "realqueen",
+  "source": "Sketchfab — \"Chess Piece Queen\" by Amine Hosseini",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/chess-piece-queen-e1bd054f088e4c928740c4989a4a3a41",
+  "targetHeight": 0.5,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.35,
+  "simplifyError": 0.02
+}

@@ -8,7 +8,7 @@
     "content:std": "node tools/standardise/models.js",
     "content:textures": "node tools/standardise/textures.js",
     "content:hdri": "node tools/standardise/hdri.js",
-    "content:fonts": "node tools/build/fonts.js",
+    "content:fonts": "node tools/build/fonts.js && npm run content:letters",
     "content:library": "node tools/build/library.js",
     "content:credits": "node tools/build/credits.js",
     "content:check": "node tools/check/lessons.js",
@@ -19,7 +19,8 @@
     "content:narration": "node tools/build/narration.js",
     "content:translations": "node tools/build/translations.js",
     "content:timing": "node tools/build/step-timing.js",
-    "content:status": "node tools/build/status.js"
+    "content:status": "node tools/build/status.js",
+    "content:letters": "node tools/build/letters.js"
   },
   "dependencies": {
     "@gltf-transform/core": "^4.1.0",

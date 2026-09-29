@@ -22,3 +22,4 @@ import './wander.js';
 import './orbit.js';
 import './legwalk.js';
 import './blink.js';
+import './arrive.js';

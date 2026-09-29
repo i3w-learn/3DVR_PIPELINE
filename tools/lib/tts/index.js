@@ -16,11 +16,13 @@
 import { systemVoice } from './system.js';
 import { geminiVoice } from './gemini.js';
 import { indicVoice } from './indic.js';
+import { parlerVoice } from './parler.js';
 
 const PROVIDERS = {
   [systemVoice.name]: systemVoice,
   [geminiVoice.name]: geminiVoice,
   [indicVoice.name]: indicVoice,
+  [parlerVoice.name]: parlerVoice,
 };
 
 /**

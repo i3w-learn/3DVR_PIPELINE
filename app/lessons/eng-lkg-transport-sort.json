@@ -71,7 +71,7 @@
     },
     {
       "id": "airplane",
-      "model": "airplane",
+      "model": "realairplane",
       "position": "0.000 0.520 -0.560",
       "scale": "0.021 0.021 0.021",
       "ring": 0.174,
@@ -95,9 +95,9 @@
     },
     {
       "id": "helicopter",
-      "model": "helicopter",
+      "model": "realhelicopter",
       "position": "0.000 0.520 -0.560",
-      "scale": "0.033 0.033 0.033",
+      "scale": "0.037 0.037 0.037",
       "ring": 0.174,
       "rotation": "0 40 0",
       "name": {

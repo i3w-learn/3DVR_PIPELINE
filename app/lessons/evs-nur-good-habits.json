@@ -5,7 +5,7 @@
   "objects": [
     {
       "id": "toothbrush",
-      "model": "toothbrush",
+      "model": "realtoothbrush",
       "position": "-0.550 0.520 -0.780",
       "scale": "1.579 1.579 1.579",
       "ring": 0.174,
@@ -17,7 +17,7 @@
     },
     {
       "id": "soap",
-      "model": "soap",
+      "model": "realsoap",
       "position": "-0.270 0.520 -0.780",
       "scale": "2.200 2.200 2.200",
       "ring": 0.128,
@@ -29,7 +29,7 @@
     },
     {
       "id": "towel",
-      "model": "towel",
+      "model": "realtowel",
       "position": "0.020 0.520 -0.780",
       "scale": "0.675 0.675 0.675",
       "ring": 0.157,
@@ -41,7 +41,7 @@
     },
     {
       "id": "comb",
-      "model": "comb",
+      "model": "realcomb",
       "position": "0.300 0.520 -0.780",
       "scale": "1.875 1.875 1.875",
       "ring": 0.174,
@@ -64,7 +64,7 @@
     },
     {
       "id": "milk",
-      "model": "milkbottle",
+      "model": "realmilkbottle",
       "position": "0.620 0.520 -0.920",
       "scale": "1.071 1.071 1.071",
       "ring": 0.063,

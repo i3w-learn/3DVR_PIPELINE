@@ -123,7 +123,7 @@
     },
     {
       "highlight": "igloo",
-      "duration": 9000,
+      "duration": 12000,
       "script": {
         "hi": "यह इग्लू है। यह बर्फ़ के टुकड़ों से बना घर है। बहुत ठंडी जगहों में लोग इसके अंदर गरम रहते हैं।",
         "en": "This is an igloo. It is a house made of snow blocks. In very cold places, people stay warm inside it.",

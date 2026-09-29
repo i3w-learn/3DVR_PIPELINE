@@ -27,7 +27,7 @@
     },
     {
       "id": "fullbowl",
-      "model": "soup",
+      "model": "realsoup",
       "position": "-0.300 0.520 -0.780",
       "ring": 0.205,
       "scale": "2.20 2.20 2.20",
@@ -38,7 +38,7 @@
     },
     {
       "id": "emptybowl",
-      "model": "bowl",
+      "model": "realbowl",
       "position": "0.300 0.520 -0.780",
       "ring": 0.205,
       "scale": "2.20 2.20 2.20",

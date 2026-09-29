@@ -32,7 +32,9 @@ const RAW_TEXTURES = path.join(RAW_DIR, 'textures');
 /**
  * Per-map budget.
  *
- * Colour carries the detail a child looks at, so it keeps 1024. The other maps
+ * Colour carries the detail a child looks at, so it keeps 2048 when the source
+ * has it — at 1024 the ground under a child's feet in a headset is a blur. A
+ * smaller source is not enlarged; enlarging adds bytes and no detail. The other maps
  * are consumed by the shader rather than the eye and halve with no visible
  * loss — which matters, because three maps at full size is three times the
  * download for one plane.
@@ -40,8 +42,8 @@ const RAW_TEXTURES = path.join(RAW_DIR, 'textures');
  * `grey: true` drops two channels the shader never reads.
  */
 const MAPS = {
-  color: { size: 1024, quality: 82, grey: false },
-  normal: { size: 1024, quality: 88, grey: false }, // banding here shows as faceting
+  color: { size: 2048, quality: 82, grey: false },
+  normal: { size: 2048, quality: 88, grey: false }, // banding here shows as faceting
   rough: { size: 512, quality: 78, grey: true },
   ao: { size: 512, quality: 78, grey: true },
 };
@@ -67,7 +69,7 @@ async function main() {
       const source = path.join(RAW_TEXTURES, `${id}_${map}.jpg`);
       const target = path.join(TEXTURES_DIR, `${id}_${map}.jpg`);
 
-      let pipeline = sharp(source).resize(spec.size, spec.size, { fit: 'cover' });
+      let pipeline = sharp(source).resize(spec.size, spec.size, { fit: 'cover', withoutEnlargement: true });
       if (spec.grey) pipeline = pipeline.greyscale();
 
       await pipeline.jpeg({ quality: spec.quality, mozjpeg: true }).toFile(target);

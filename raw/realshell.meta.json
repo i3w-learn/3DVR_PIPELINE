@@ -1,0 +1,11 @@
+{
+  "id": "realshell",
+  "source": "Sketchfab — \"Sea Shell (Photogrammetry)\" by Meshfinder",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/sea-shell-photogrammetry-f68ff40bd67b4b62b2f131d91e724728",
+  "targetHeight": 0.12,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.3,
+  "simplifyError": 0.02
+}

@@ -31,15 +31,16 @@
     },
     {
       "id": "kite",
-      "model": "kite",
-      "position": "1.450 1.750 -5.150",
-      "scale": "1.056 1.056 1.056",
+      "model": "realkite",
+      "position": "1.450 1.750 -4.300",
+      "scale": "0.600 0.600 0.600",
       "ring": 0.551,
-      "rotation": "80 0 25",
+      "rotation": "0 -65 0",
       "name": {
         "en": "Kite",
         "hi": "पतंग"
-      }
+      },
+      "contact": false
     },
     {
       "id": "gulal",
@@ -55,7 +56,7 @@
     },
     {
       "id": "xmastree",
-      "model": "xmastree",
+      "model": "realxmastree",
       "position": "-0.350 0.000 -3.900",
       "rotation": "0 5 0",
       "ring": 0.43,
@@ -67,7 +68,7 @@
     },
     {
       "id": "gift",
-      "model": "gift",
+      "model": "realgift",
       "position": "0.300 0.000 -3.500",
       "scale": "1.333 1.333 1.333",
       "ring": 0.172,

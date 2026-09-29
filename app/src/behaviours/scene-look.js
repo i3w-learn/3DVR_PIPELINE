@@ -27,7 +27,7 @@ AFRAME.registerComponent('scene-look', {
   schema: {
     exposure: { type: 'number', default: 1 },
     shadows: { type: 'boolean', default: true },
-    /** Shadow map edge. 2048 is sharp on a tablet; drop to 1024 on device. */
+    /** Shadow map edge. 2048 is soft on a tablet and shows steps in a headset; a land can raise it (see `shadow` in the stage kit). */
     shadowMapSize: { type: 'number', default: 2048 },
     /** Half-width of the shadow camera's box, in metres. */
     shadowExtent: { type: 'number', default: 28 },
@@ -37,6 +37,15 @@ AFRAME.registerComponent('scene-look', {
     const apply = () => this.apply();
     if (this.el.renderer) apply();
     else this.el.addEventListener('render-target-loaded', apply, { once: true });
+  },
+
+  /** A land can ask for a different shadow box; re-aim when it does. */
+  update(old) {
+    if (old.shadowExtent === undefined) return; // first call: init applies
+    if (old.shadowExtent === this.data.shadowExtent && old.shadowMapSize === this.data.shadowMapSize) return;
+    const light = document.querySelector('#sun')?.getObject3D('light');
+    if (light?.shadow.map) { light.shadow.map.dispose(); light.shadow.map = null; }
+    this.apply();
   },
 
   apply() {

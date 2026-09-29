@@ -1,0 +1,12 @@
+{
+  "id": "realguitar",
+  "source": "Sketchfab — \"DD Acoustic Guitar\" by piscopancer",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/dd-acoustic-guitar-4eeb8f55c0de4521af948a343094baa4",
+  "targetHeight": 1,
+  "yaw": -176,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "roll": -175,
+  "pitch": -109
+}

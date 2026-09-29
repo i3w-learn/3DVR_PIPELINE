@@ -5,7 +5,7 @@
   "objects": [
     {
       "id": "tea",
-      "model": "teacup",
+      "model": "realteacup",
       "position": "-0.300 0.520 -0.780",
       "ring": 0.167,
       "scale": "2.31 2.31 2.31",
@@ -16,10 +16,10 @@
     },
     {
       "id": "ice",
-      "model": "icecream",
+      "model": "realicecream",
       "position": "0.300 0.520 -0.780",
       "ring": 0.098,
-      "scale": "1.69 1.69 1.69",
+      "scale": "1.229 1.229 1.229",
       "name": {
         "en": "Cold",
         "hi": "ठंडा"
@@ -27,7 +27,7 @@
     },
     {
       "id": "hotpot",
-      "model": "pot",
+      "model": "realpot",
       "position": "-0.300 0.520 -0.780",
       "ring": 0.218,
       "scale": "1.46 1.46 1.46",
@@ -38,7 +38,7 @@
     },
     {
       "id": "lolly",
-      "model": "popsicle",
+      "model": "realpopsicle",
       "position": "0.300 0.520 -0.780",
       "ring": 0.08,
       "scale": "2.51 2.51 2.51",

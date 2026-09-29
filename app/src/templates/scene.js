@@ -50,7 +50,7 @@ export function createObject(object, { tappable = false } = {}) {
   const {
     id, model, build, params,
     position, rotation, scale,
-    clip, clipSpeed, wander, orbit, legwalk, blink, visible,
+    clip, clipSpeed, wander, orbit, legwalk, blink, visible, arrive,
     audio, script, ring: ringRadius, name, labelAt,
   } = object;
 
@@ -101,6 +101,10 @@ export function createObject(object, { tappable = false } = {}) {
   // walk driven, so `wander` is set whether or not there is a clip.
   if (wander && !clip) el.setAttribute('wander', wander);
 
+  // How it comes in when a step first shows it: walks up, flies in, falls,
+  // leaps out of the water. A word is enough for the default of that move.
+  if (arrive) el.setAttribute('arrive', typeof arrive === 'string' ? { how: arrive } : arrive);
+
   if (visible === false) el.setAttribute('visible', 'false');
 
   // A built object sizes its own ring through `highlightAnchor`. A downloaded
@@ -139,7 +143,15 @@ export function createObject(object, { tappable = false } = {}) {
 
 /** Place everything the lesson will ever show. Steps never add geometry. */
 export function placeAll(stage, lesson, options) {
-  for (const object of lesson.objects) stage.appendChild(createObject(object, options));
+  // Anything a step can switch on starts off. Otherwise everything is up for
+  // the frame before the first step hides it — and a thing that is meant to
+  // arrive has already been seen standing there.
+  const switchable = switchableSet(lesson);
+  for (const object of lesson.objects) {
+    const el = createObject(object, options);
+    if (switchable.has(object.id)) el.setAttribute('visible', 'false');
+    stage.appendChild(el);
+  }
 }
 
 export function clearHighlights(stage) {
@@ -255,6 +267,20 @@ function showName(el) {
   const name = JSON.parse(el.dataset.name);
   const lines = [name.hi, name.en].filter(Boolean);   // bottom line first
 
+  // A thing that is still on its way in is named when it gets there. Its name
+  // over the spot it is walking towards, before it is there, is a card over
+  // empty sand — and the step that names it is the step that shows it, so the
+  // ring is set before the entrance has even begun.
+  const arrive = el.components.arrive;
+  if (arrive && (el.getAttribute('visible') === false || arrive.arriving())) {
+    el.addEventListener('arrived', () => {
+      if (!el.hasAttribute('highlight') || el.parentNode !== stage) return;
+      for (const card of stage.querySelectorAll(`.${NAME_LABEL}`)) card.remove();
+      showName(el);
+    }, { once: true });
+    return;
+  }
+
   // Top of the object as it stands now, scale and all. A model that has not
   // arrived yet has no box; a hand's height is a fair guess until it does.
   // The first step can start before the model has arrived. The ring and the
@@ -329,7 +355,15 @@ export function applyShow(stage, lesson, step) {
 
   const showing = new Set(step?.show ?? []);
   for (const id of switchable) {
-    find(stage, id)?.setAttribute('visible', showing.has(id));
+    const el = find(stage, id);
+    if (!el) continue;
+    const show = showing.has(id);
+    const was = el.getAttribute('visible') !== false;
+    el.setAttribute('visible', show);
+    // The moment a thing first appears is the moment it arrives. Anything
+    // that has an entrance — a walk-in, a fall, a drop from the sky — starts
+    // it on this.
+    if (show && !was) el.emit('shown', { id }, false);
   }
 }
 
