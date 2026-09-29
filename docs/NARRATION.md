@@ -91,7 +91,14 @@ a native speaker in the room.** Three checks, in this order:
    first. A low score is not a verdict — the recogniser spells things its own
    way — but those are the clips to listen to first. (The recogniser does not
    know Odia; for Odia the list is clips that are suspiciously short.)
-3. **Somebody listens**, in a headset, to at least one whole lesson per subject
+3. **The bad takes are recorded again.** `npm run content:retakes -- <lang>`
+   reads that list, picks the clips that are wrong in a way a machine can tell
+   — noise, a line cut short, a line that rambles, a line heard as something
+   else — records each again on its own, up to three takes, and keeps the best.
+   The free voice gets about one line in twenty wrong; on the first Hindi run
+   this replaced 67 clips out of 1,197. It does not judge a line the recogniser
+   wrote down in English letters; those stay on the list for a person.
+4. **Somebody listens**, in a headset, to at least one whole lesson per subject
    in each language.
 
 A clip that is wrong is worse than no clip: with no clip, the teacher reads the

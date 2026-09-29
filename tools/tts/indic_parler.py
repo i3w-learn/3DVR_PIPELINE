@@ -20,6 +20,7 @@ jobs.json is a list of {text, wav}. Lines that come out empty are reported
 on stdout with a leading '!' so the caller can say so.
 """
 
+import os
 import json
 import sys
 import warnings
@@ -101,7 +102,11 @@ def main():
     # Several lines per pass. One line at a time is ~8 s each on this laptop's
     # GPU; a batch of six is not six times slower. The model tells us how long
     # each clip really is, so the padding never reaches the file.
-    BATCH = 6
+    #
+    # A short line batched with long ones is padded out to their length, and
+    # now and then the model speaks the padding: noise, or half a sentence.
+    # `PARLER_BATCH=1` records each line alone, which is what a retake wants.
+    BATCH = max(1, int(os.environ.get("PARLER_BATCH", "6")))
 
     def speak(batch):
         prompt = tokenizer([j["text"].strip() for j in batch], return_tensors="pt", padding=True).to(device)
