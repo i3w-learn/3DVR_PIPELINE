@@ -55,7 +55,7 @@
       "model": "realbulldozer",
       "position": "-2.000 0.000 -25.500",
       "rotation": "0 70 0",
-      "ring": 3.0,
+      "ring": 3,
       "name": {
         "en": "Bulldozer",
         "hi": "बुलडोज़र"
@@ -86,7 +86,7 @@
     },
     {
       "highlight": "ambulance",
-      "duration": 8500,
+      "duration": 9000,
       "script": {
         "hi": "यह एम्बुलेंस है। यह बीमार लोगों को जल्दी अस्पताल ले जाती है।",
         "en": "This is an ambulance. It takes sick people to hospital quickly.",

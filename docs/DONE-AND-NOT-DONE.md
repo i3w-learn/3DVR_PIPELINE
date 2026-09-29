@@ -2,6 +2,38 @@
 
 _A plain report for Manas: what is finished, what is half finished, what is waiting on a decision. Written by hand at the end of the day; the numbers come from the checker and the files._
 
+## Update — 29 September 2026
+
+What changed since the report below was written. Where the two disagree, this
+part is the newer one.
+
+| | 28 September | 29 September |
+|---|---|---|
+| Hindi in the new voice (Divya) | 299 of 1,197 clips | **all 1,197** |
+| English words inside Hindi letter lines ("A से Ant") | skipped by the voice | **spoken** — 42 words added to the table |
+| Lesson objects that are realistic | 111 of 186 | **186 of 186** |
+| Drawn scenery in the open-ground land | fence, rock | none |
+| Old drawn models that a realistic one replaced | on disk | 55 deleted |
+| Lesson check | 1 lesson failing | **132 of 132 pass** |
+| Pull request #28 (letter beach) | open | merged |
+
+Still waiting on Manas:
+
+1. **People.** Farmer, postman, villager, child, girl and three more are still
+   toy figures. No free realistic Indian figure exists for them; it needs
+   AI-made or paid models.
+2. **Peacock.** Pick one of the three in the peacock demo.
+3. **Marathi and Odia in the new voice.** Say "carry on" after listening to
+   English and Hindi.
+4. **A headset session.** Nothing added this week has been seen through a
+   headset.
+5. **Smaller files.** See the top of `docs/ASSET-GAP-REPORT.md`.
+
+The live list of objects is `docs/OBJECT-REPORT.md`
+(`npm run content:objects` rebuilds it).
+
+---
+
 ## 1. The narration voice
 
 The old voice (AI4Bharat Indic-TTS, one woman per language) was rejected as irritating. The new engine is **Indic Parler-TTS**: free, open licence (Apache 2.0), runs on this laptop, no account, nothing to renew. Chosen voice: the second one on the sample page in every language, the woman.
