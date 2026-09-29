@@ -178,10 +178,14 @@ export class LessonSync {
     // An object may opt out of the sun's shadow pass (`castShadow: false`), as
     // a prop can. The checker has always counted it that way; until now the
     // scene ignored it and drew the second pass regardless.
+    //
+    // And out of the dark patch (`contact: false`), also as a prop can: a kite
+    // in the air and a starfish lying flat are not standing on anything.
     const objects = new Map(loaded.lesson.objects.map((object) => [object.id, object]));
     for (const el of stageEl.children) {
       if (el.classList.contains('prop')) continue;
-      this.#groundIt(el, loaded.stage, objects.get(el.id)?.castShadow !== false);
+      const object = objects.get(el.id);
+      this.#groundIt(el, loaded.stage, object?.castShadow !== false, object?.contact !== false);
     }
 
     this.#loaded = loaded;

@@ -44,7 +44,7 @@
     },
     {
       "id": "radish",
-      "model": "radish",
+      "model": "realradish",
       "position": "0.000 0.520 -0.720",
       "scale": "2.17 2.17 2.17",
       "ring": 0.096,

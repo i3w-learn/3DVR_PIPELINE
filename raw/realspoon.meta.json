@@ -1,0 +1,13 @@
+{
+  "id": "realspoon",
+  "source": "Sketchfab — \"Silverware (Spoon, Fork, Knife)\" by Fridge",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/silverware-spoon-fork-knife-76a43250dd694d2fa1e109124d75b6ad",
+  "targetHeight": 0.16,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "keepNodes": [
+    "Object_4"
+  ]
+}

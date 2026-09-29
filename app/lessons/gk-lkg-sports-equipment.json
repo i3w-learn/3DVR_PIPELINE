@@ -5,7 +5,7 @@
   "objects": [
     {
       "id": "bat",
-      "model": "cricketbat",
+      "model": "realcricketbat",
       "position": "-0.220 0.520 -0.780",
       "scale": "0.467 0.467 0.467",
       "ring": 0.039,
@@ -16,13 +16,9 @@
     },
     {
       "id": "cricketball",
-      "build": "counter",
-      "params": {
-        "shape": "bead",
-        "color": "#b3261e",
-        "size": 0.09
-      },
+      "model": "realcricketball",
       "position": "0.240 0.520 -0.740",
+      "scale": "1.250 1.250 1.250",
       "name": {
         "en": "Ball",
         "hi": "गेंद"
@@ -30,7 +26,7 @@
     },
     {
       "id": "football",
-      "model": "soccerball",
+      "model": "realsoccerball",
       "position": "-0.240 0.520 -0.700",
       "scale": "0.909 0.909 0.909",
       "ring": 0.115,
@@ -54,7 +50,7 @@
     },
     {
       "id": "racket",
-      "model": "badminton",
+      "model": "realbadminton",
       "position": "-0.240 0.520 -0.780",
       "scale": "0.657 0.657 0.657",
       "ring": 0.255,
@@ -66,11 +62,9 @@
     },
     {
       "id": "shuttle",
-      "build": "shuttle",
-      "params": {
-        "size": 0.2
-      },
+      "model": "realshuttle",
       "position": "0.240 0.520 -0.760",
+      "scale": "2.200 2.200 2.200",
       "name": {
         "en": "Shuttlecock",
         "hi": "शटलकॉक"
@@ -78,7 +72,7 @@
     },
     {
       "id": "stick",
-      "model": "hockeystick",
+      "model": "realhockeystick",
       "position": "-0.220 0.520 -0.780",
       "scale": "0.484 0.484 0.484",
       "ring": 0.267,
@@ -104,7 +98,7 @@
     },
     {
       "id": "basketball",
-      "model": "basketball",
+      "model": "realbasketball",
       "position": "-0.240 0.520 -0.700",
       "scale": "0.823 0.823 0.823",
       "ring": 0.116,
@@ -128,7 +122,7 @@
     },
     {
       "id": "tennisracket",
-      "model": "racket",
+      "model": "realracket",
       "position": "-0.240 0.520 -0.780",
       "scale": "0.638 0.638 0.638",
       "ring": 0.255,
@@ -140,7 +134,7 @@
     },
     {
       "id": "tennisball",
-      "model": "tennisball",
+      "model": "realtennisball",
       "position": "0.240 0.520 -0.740",
       "scale": "1.429 1.429 1.429",
       "ring": 0.058,

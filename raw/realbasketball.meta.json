@@ -1,0 +1,11 @@
+{
+  "id": "realbasketball",
+  "source": "Sketchfab — \"Basketball Classic Standard Ball\" by HQ3DMOD",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/basketball-classic-standard-ball-39d0e28487d2426bb9c24010dcfc4808",
+  "targetHeight": 0.24,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.4,
+  "simplifyError": 0.01
+}

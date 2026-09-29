@@ -48,7 +48,7 @@
     },
     {
       "id": "spoon",
-      "model": "spoon",
+      "model": "realspoon",
       "position": "0.000 0.550 -0.850",
       "ring": 0.198,
       "scale": "2.00 2.00 2.00",

@@ -1,0 +1,12 @@
+{
+  "id": "realcobra",
+  "source": "Sketchfab — \"King Cobra\" by Yanez Designs",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/king-cobra-a8dab84cd4fc428bbcfe194e3ac14d06",
+  "targetHeight": 0.51,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "dropNodes": [
+    "Floor_07 - Default_0"
+  ]
+}

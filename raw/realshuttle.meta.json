@@ -1,0 +1,11 @@
+{
+  "id": "realshuttle",
+  "source": "Sketchfab — \"Волан / Shuttlecock\" by Alex Petuhov",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/shuttlecock-c3e9b43766314a6186a0c92d1769980d",
+  "targetHeight": 0.09,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "simplify": 0.4,
+  "simplifyError": 0.01
+}

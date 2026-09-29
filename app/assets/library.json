@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T16:41:47.865Z",
+  "generated": "2026-09-29T08:18:30.164Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -1893,6 +1893,19 @@
       "source": "Kenney — Food Kit 2.0",
       "licence": "CC0"
     },
+    "realairplane": {
+      "file": "models/realairplane.glb",
+      "height": 4.365,
+      "width": 12.641,
+      "depth": 14,
+      "triangles": 14156,
+      "meshes": 27,
+      "bytes": 245020,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"A320\" by manilov.ap",
+      "licence": "CC-BY"
+    },
     "realambulance": {
       "file": "models/realambulance.glb",
       "height": 2.481,
@@ -1962,6 +1975,19 @@
       "source": "Sketchfab — \"Autorikshaw - Indian Tuk Tuk\" by bhagathartworks",
       "licence": "CC-BY"
     },
+    "realbadminton": {
+      "file": "models/realbadminton.glb",
+      "height": 0.031,
+      "width": 0.226,
+      "depth": 0.67,
+      "triangles": 20150,
+      "meshes": 7,
+      "bytes": 39656,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"badminton racket\" by timmy",
+      "licence": "CC-BY"
+    },
     "realbamboo": {
       "file": "models/realbamboo.glb",
       "height": 5.5,
@@ -1986,6 +2012,32 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Game Ready Fruit Asset Pack\" by Meerschaum Digital",
+      "licence": "CC-BY"
+    },
+    "realbansuri": {
+      "file": "models/realbansuri.glb",
+      "height": 0.034,
+      "width": 0.6,
+      "depth": 0.034,
+      "triangles": 4731,
+      "meshes": 5,
+      "bytes": 33036,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Basuri\" by VR Bro",
+      "licence": "CC-BY"
+    },
+    "realbasketball": {
+      "file": "models/realbasketball.glb",
+      "height": 0.24,
+      "width": 0.241,
+      "depth": 0.24,
+      "triangles": 6066,
+      "meshes": 1,
+      "bytes": 295452,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Basketball Classic Standard Ball\" by HQ3DMOD",
       "licence": "CC-BY"
     },
     "realbear": {
@@ -2020,6 +2072,19 @@
       "source": "Sketchfab — \"Bee\" by 7SkyArtist",
       "licence": "CC-BY"
     },
+    "realbicycle": {
+      "file": "models/realbicycle.glb",
+      "height": 1.019,
+      "width": 0.447,
+      "depth": 1.61,
+      "triangles": 13769,
+      "meshes": 1,
+      "bytes": 527356,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Classic Bicycle | LowPoly | Game ready\" by by__Rx",
+      "licence": "CC-BY"
+    },
     "realboat": {
       "file": "models/realboat.glb",
       "height": 1.226,
@@ -2044,6 +2109,32 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Bonfire\" by ToxaGrom",
+      "licence": "CC-BY"
+    },
+    "realbook": {
+      "file": "models/realbook.glb",
+      "height": 0.028,
+      "width": 0.198,
+      "depth": 0.28,
+      "triangles": 260,
+      "meshes": 2,
+      "bytes": 59808,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Old Closed book\" by Habib Siddick",
+      "licence": "CC-BY"
+    },
+    "realbowl": {
+      "file": "models/realbowl.glb",
+      "height": 0.07,
+      "width": 0.15,
+      "depth": 0.15,
+      "triangles": 4864,
+      "meshes": 1,
+      "bytes": 72100,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Bowl with Soup\" by mornaista",
       "licence": "CC-BY"
     },
     "realbridge": {
@@ -2098,6 +2189,19 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Bulldozer Photogrammetry\" by bertanbaday",
+      "licence": "CC-BY"
+    },
+    "realburger": {
+      "file": "models/realburger.glb",
+      "height": 0.08,
+      "width": 0.137,
+      "depth": 0.139,
+      "triangles": 7035,
+      "meshes": 6,
+      "bytes": 784620,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Burger Realistic (Free)\" by darklord3d",
       "licence": "CC-BY"
     },
     "realbus": {
@@ -2155,6 +2259,36 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"calf(fbx)\" by shikimika",
+      "licence": "CC-BY"
+    },
+    "realcamel": {
+      "file": "models/realcamel.glb",
+      "height": 2.006,
+      "width": 0.724,
+      "depth": 2.502,
+      "triangles": 25914,
+      "meshes": 3,
+      "bytes": 2002820,
+      "clips": [
+        "Armature|Idle_01",
+        "Armature|Idle_02",
+        "Armature|WalkCycle"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Camel\" by eb78",
+      "licence": "CC-BY"
+    },
+    "realcandybar": {
+      "file": "models/realcandybar.glb",
+      "height": 0.005,
+      "width": 0.14,
+      "depth": 0.06,
+      "triangles": 1304,
+      "meshes": 1,
+      "bytes": 94212,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Simple Chocolate Bar\" by Blender3D",
       "licence": "CC-BY"
     },
     "realcar": {
@@ -2267,6 +2401,19 @@
       "source": "Sketchfab — \"Clownfish\" by kenchoo",
       "licence": "CC-BY"
     },
+    "realcobra": {
+      "file": "models/realcobra.glb",
+      "height": 0.51,
+      "width": 0.874,
+      "depth": 0.765,
+      "triangles": 5740,
+      "meshes": 5,
+      "bytes": 941452,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"King Cobra\" by Yanez Designs",
+      "licence": "CC-BY"
+    },
     "realcoconut": {
       "file": "models/realcoconut.glb",
       "height": 0.14,
@@ -2278,6 +2425,19 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"coconut\" by viettextures",
+      "licence": "CC-BY"
+    },
+    "realcomb": {
+      "file": "models/realcomb.glb",
+      "height": 0.002,
+      "width": 0.07,
+      "depth": 0.16,
+      "triangles": 1308,
+      "meshes": 1,
+      "bytes": 288520,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"CC0 - Hair Comb 6\" by plaggy",
       "licence": "CC-BY"
     },
     "realcorn": {
@@ -2308,6 +2468,32 @@
       "source": "Sketchfab — \"Dancing Crab - Uca Mjoebergi\" by Bohdan Lvov",
       "licence": "CC-BY"
     },
+    "realcricketball": {
+      "file": "models/realcricketball.glb",
+      "height": 0.072,
+      "width": 0.073,
+      "depth": 0.074,
+      "triangles": 1136,
+      "meshes": 1,
+      "bytes": 358608,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Cricket Ball 3D Photoscan (Low Poly)\" by TakeRefuge3D",
+      "licence": "CC-BY"
+    },
+    "realcricketbat": {
+      "file": "models/realcricketbat.glb",
+      "height": 0.9,
+      "width": 0.116,
+      "depth": 0.091,
+      "triangles": 26676,
+      "meshes": 2,
+      "bytes": 376848,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Cricket Bat(Sports)\" by Rohit Pawar",
+      "licence": "CC-BY"
+    },
     "realcrow": {
       "file": "models/realcrow.glb",
       "height": 0.176,
@@ -2321,6 +2507,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Crow\" by Alexei Ostapenko",
+      "licence": "CC-BY"
+    },
+    "realcup": {
+      "file": "models/realcup.glb",
+      "height": 0.121,
+      "width": 0.131,
+      "depth": 0.115,
+      "triangles": 1032,
+      "meshes": 2,
+      "bytes": 88036,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Coffee Mug (School Project)\" by Ole Gunnar Isager",
       "licence": "CC-BY"
     },
     "realdeer": {
@@ -2399,6 +2598,32 @@
       "source": "Sketchfab — \"Realistic Animated Donkey 3D Model\" by WildMesh 3D",
       "licence": "CC-BY"
     },
+    "realdonut": {
+      "file": "models/realdonut.glb",
+      "height": 0.038,
+      "width": 0.099,
+      "depth": 0.1,
+      "triangles": 20348,
+      "meshes": 10,
+      "bytes": 77416,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Glazed donut_simple model\" by JoelHdez",
+      "licence": "CC-BY"
+    },
+    "realdragonfly": {
+      "file": "models/realdragonfly.glb",
+      "height": 0.043,
+      "width": 0.035,
+      "depth": 0.12,
+      "triangles": 7911,
+      "meshes": 6,
+      "bytes": 628808,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Dragonfly\" by 7SkyArtist",
+      "licence": "CC-BY"
+    },
     "realduck": {
       "file": "models/realduck.glb",
       "height": 0.402,
@@ -2456,6 +2681,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"African Elephant\"",
+      "licence": "CC-BY"
+    },
+    "realenvelope": {
+      "file": "models/realenvelope.glb",
+      "height": 0.005,
+      "width": 0.24,
+      "depth": 0.145,
+      "triangles": 60,
+      "meshes": 1,
+      "bytes": 10456,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Envelope\" by DrewA",
       "licence": "CC-BY"
     },
     "realfern": {
@@ -2542,6 +2780,32 @@
       "source": "Sketchfab — \"Animated Fox 3D Model\" by AnimalMesh 3D",
       "licence": "CC-BY"
     },
+    "realfries": {
+      "file": "models/realfries.glb",
+      "height": 0.039,
+      "width": 0.13,
+      "depth": 0.088,
+      "triangles": 8833,
+      "meshes": 1,
+      "bytes": 219900,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"French fries tray\" by Emm",
+      "licence": "CC-BY"
+    },
+    "realgift": {
+      "file": "models/realgift.glb",
+      "height": 0.3,
+      "width": 0.261,
+      "depth": 0.229,
+      "triangles": 2762,
+      "meshes": 1,
+      "bytes": 252284,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Gift Box\" by MaX3Dd",
+      "licence": "CC-BY"
+    },
     "realgiraffe": {
       "file": "models/realgiraffe.glb",
       "height": 4.5,
@@ -2601,6 +2865,32 @@
       "source": "Sketchfab — \"Low Poly Grasshopper ( Animated 3D Asset )\" by Pascal Chaumette",
       "licence": "CC-BY"
     },
+    "realgreensnake": {
+      "file": "models/realgreensnake.glb",
+      "height": 0.189,
+      "width": 0.435,
+      "depth": 0.45,
+      "triangles": 10000,
+      "meshes": 1,
+      "bytes": 254668,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Green tree python\" by noahthepidge",
+      "licence": "CC-BY"
+    },
+    "realguitar": {
+      "file": "models/realguitar.glb",
+      "height": 0.12,
+      "width": 0.376,
+      "depth": 1,
+      "triangles": 6268,
+      "meshes": 8,
+      "bytes": 32648,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"DD Acoustic Guitar\" by piscopancer",
+      "licence": "CC-BY"
+    },
     "realhelicopter": {
       "file": "models/realhelicopter.glb",
       "height": 3.2,
@@ -2630,6 +2920,32 @@
       "source": "Sketchfab — \"ANIMAL & FOOD | Chicken Model (CS2)\" by gettan",
       "licence": "CC-BY"
     },
+    "realhockeystick": {
+      "file": "models/realhockeystick.glb",
+      "height": 0.037,
+      "width": 0.098,
+      "depth": 0.95,
+      "triangles": 7315,
+      "meshes": 1,
+      "bytes": 34808,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Field Hockey Stick Model\" by Selvaraj",
+      "licence": "CC-BY"
+    },
+    "realhoney": {
+      "file": "models/realhoney.glb",
+      "height": 0.14,
+      "width": 0.184,
+      "depth": 0.142,
+      "triangles": 4988,
+      "meshes": 2,
+      "bytes": 827532,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"CC0 - Honey Pot\" by plaggy",
+      "licence": "CC-BY"
+    },
     "realhorse": {
       "file": "models/realhorse.glb",
       "height": 1.644,
@@ -2645,6 +2961,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Horse\" (28 clips)",
+      "licence": "CC-BY"
+    },
+    "realhousefly": {
+      "file": "models/realhousefly.glb",
+      "height": 0.033,
+      "width": 0.064,
+      "depth": 0.08,
+      "triangles": 9961,
+      "meshes": 57,
+      "bytes": 228896,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Fly\" by victorberdugo1",
       "licence": "CC-BY"
     },
     "realicecream": {
@@ -2753,6 +3082,19 @@
       "source": "Sketchfab — \"Kite\" by Micheus",
       "licence": "CC-BY"
     },
+    "realladybug": {
+      "file": "models/realladybug.glb",
+      "height": 0.047,
+      "width": 0.073,
+      "depth": 0.08,
+      "triangles": 2146,
+      "meshes": 1,
+      "bytes": 296144,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"CC0 - Ladybug plastic\" by plaggy",
+      "licence": "CC-BY"
+    },
     "reallemon": {
       "file": "models/reallemon.glb",
       "height": 0.08,
@@ -2779,6 +3121,36 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"realistic Lion 3d model\" by Tarun.Teja",
+      "licence": "CC-BY"
+    },
+    "reallizard": {
+      "file": "models/reallizard.glb",
+      "height": 0.07,
+      "width": 0.114,
+      "depth": 0.3,
+      "triangles": 6786,
+      "meshes": 3,
+      "bytes": 1399704,
+      "clips": [
+        "Armature|ATAC",
+        "Armature|idle",
+        "Armature|WALK.002"
+      ],
+      "rigged": true,
+      "source": "Sketchfab — \"Lizard\" by Froggreen",
+      "licence": "CC-BY"
+    },
+    "reallollipop": {
+      "file": "models/reallollipop.glb",
+      "height": 0.15,
+      "width": 0.057,
+      "depth": 0.06,
+      "triangles": 6886,
+      "meshes": 2,
+      "bytes": 125592,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"lollipop\" by AT design studio",
       "licence": "CC-BY"
     },
     "reallotus": {
@@ -2859,6 +3231,32 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Table Mountain\" by re-lar",
+      "licence": "CC-BY"
+    },
+    "realmilkbottle": {
+      "file": "models/realmilkbottle.glb",
+      "height": 0.28,
+      "width": 0.153,
+      "depth": 0.171,
+      "triangles": 2996,
+      "meshes": 7,
+      "bytes": 18976,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Milk Container - Low Poly\" by iKamik",
+      "licence": "CC-BY"
+    },
+    "realmilkcarton": {
+      "file": "models/realmilkcarton.glb",
+      "height": 0.2,
+      "width": 0.054,
+      "depth": 0.053,
+      "triangles": 278,
+      "meshes": 1,
+      "bytes": 44152,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Milk Carton\" by Chris",
       "licence": "CC-BY"
     },
     "realmonkey": {
@@ -3146,6 +3544,32 @@
       "source": "Sketchfab — \"Fairheaven LT '80 Cop Cruiser - Low poly model\" by Daniel Zhabotinsky",
       "licence": "CC-BY"
     },
+    "realpopsicle": {
+      "file": "models/realpopsicle.glb",
+      "height": 0.14,
+      "width": 0.028,
+      "depth": 0.05,
+      "triangles": 6302,
+      "meshes": 1,
+      "bytes": 140288,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"fruit ice\" by sv1nks",
+      "licence": "CC-BY"
+    },
+    "realpot": {
+      "file": "models/realpot.glb",
+      "height": 0.081,
+      "width": 0.24,
+      "depth": 0.136,
+      "triangles": 1675,
+      "meshes": 1,
+      "bytes": 77936,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"CC0 - Pan 3\" by plaggy",
+      "licence": "CC-BY"
+    },
     "realpotato": {
       "file": "models/realpotato.glb",
       "height": 0.076,
@@ -3232,6 +3656,32 @@
       "source": "Sketchfab — \"Animated Rabbit – 3D Animal Model\" by AnimalMesh 3D",
       "licence": "CC-BY"
     },
+    "realracket": {
+      "file": "models/realracket.glb",
+      "height": 0.025,
+      "width": 0.278,
+      "depth": 0.69,
+      "triangles": 9627,
+      "meshes": 3,
+      "bytes": 38776,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Tennis Racket\" by Yanez Designs",
+      "licence": "CC-BY"
+    },
+    "realradish": {
+      "file": "models/realradish.glb",
+      "height": 0.12,
+      "width": 0.053,
+      "depth": 0.053,
+      "triangles": 680,
+      "meshes": 1,
+      "bytes": 14864,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Radish\" by KOREA HERITAGE SERVICE [KHS]",
+      "licence": "CC-BY"
+    },
     "realrange": {
       "file": "models/realrange.glb",
       "height": 40.005,
@@ -3316,6 +3766,19 @@
       "source": "Sketchfab — \"Lowpoly Rocks - Free Download\" by Loïc Norgeot",
       "licence": "CC-BY"
     },
+    "realrose": {
+      "file": "models/realrose.glb",
+      "height": 0.5,
+      "width": 0.277,
+      "depth": 0.246,
+      "triangles": 9879,
+      "meshes": 1,
+      "bytes": 230148,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Rose 3D\" by Julialovehearts",
+      "licence": "CC-BY"
+    },
     "realsailboat": {
       "file": "models/realsailboat.glb",
       "height": 6,
@@ -3398,6 +3861,19 @@
       "source": "Sketchfab — \"Cargo Ship - V2 PBR\" by akbunnyz",
       "licence": "CC-BY"
     },
+    "realshuttle": {
+      "file": "models/realshuttle.glb",
+      "height": 0.09,
+      "width": 0.074,
+      "depth": 0.074,
+      "triangles": 7094,
+      "meshes": 1,
+      "bytes": 27328,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Волан / Shuttlecock\" by Alex Petuhov",
+      "licence": "CC-BY"
+    },
     "realsnowman": {
       "file": "models/realsnowman.glb",
       "height": 1.45,
@@ -3409,6 +3885,58 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Snowman\" by alixor22",
+      "licence": "CC-BY"
+    },
+    "realsoap": {
+      "file": "models/realsoap.glb",
+      "height": 0.033,
+      "width": 0.069,
+      "depth": 0.1,
+      "triangles": 5370,
+      "meshes": 1,
+      "bytes": 46316,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Blue Soap Bar\" by kai9987kai",
+      "licence": "CC-BY"
+    },
+    "realsoccerball": {
+      "file": "models/realsoccerball.glb",
+      "height": 0.22,
+      "width": 0.219,
+      "depth": 0.217,
+      "triangles": 7044,
+      "meshes": 2,
+      "bytes": 289820,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Soccer Ball\" by typhomnt",
+      "licence": "CC-BY"
+    },
+    "realsodacan": {
+      "file": "models/realsodacan.glb",
+      "height": 0.12,
+      "width": 0.071,
+      "depth": 0.071,
+      "triangles": 5158,
+      "meshes": 1,
+      "bytes": 216024,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Diet Soda\" by Blender3D",
+      "licence": "CC-BY"
+    },
+    "realsoup": {
+      "file": "models/realsoup.glb",
+      "height": 0.07,
+      "width": 0.15,
+      "depth": 0.15,
+      "triangles": 4894,
+      "meshes": 2,
+      "bytes": 101300,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Bowl with Soup\" by mornaista",
       "licence": "CC-BY"
     },
     "realsparrow": {
@@ -3426,6 +3954,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Animated Sparrow – 3D Animal Model\" by AnimalMesh 3D",
+      "licence": "CC-BY"
+    },
+    "realspoon": {
+      "file": "models/realspoon.glb",
+      "height": 0.013,
+      "width": 0.16,
+      "depth": 0.033,
+      "triangles": 1056,
+      "meshes": 1,
+      "bytes": 5200,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Silverware (Spoon, Fork, Knife)\" by Fridge",
       "licence": "CC-BY"
     },
     "realstarfish": {
@@ -3458,6 +3999,19 @@
       "source": "Sketchfab — \"PBR Stegasaurus (Animated)\" by Ferocious Industries",
       "licence": "CC-BY"
     },
+    "realstethoscope": {
+      "file": "models/realstethoscope.glb",
+      "height": 0.081,
+      "width": 0.333,
+      "depth": 0.5,
+      "triangles": 7736,
+      "meshes": 2,
+      "bytes": 23440,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Doctor's stethoscope\" by Vera4Art",
+      "licence": "CC-BY"
+    },
     "realstrawberry": {
       "file": "models/realstrawberry.glb",
       "height": 0.04,
@@ -3484,6 +4038,19 @@
       "source": "Sketchfab — \"Scanned Stump Collection\" by That's Cool Jack",
       "licence": "CC-BY"
     },
+    "realsunflower": {
+      "file": "models/realsunflower.glb",
+      "height": 1.5,
+      "width": 0.871,
+      "depth": 0.902,
+      "triangles": 1008,
+      "meshes": 1,
+      "bytes": 601088,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Sunflower\" by zvanstone",
+      "licence": "CC-BY"
+    },
     "realteacher": {
       "file": "models/realteacher.glb",
       "height": 1.623,
@@ -3497,6 +4064,32 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Indian Office Woman\" by Nodeaxis Interactive",
+      "licence": "CC-BY"
+    },
+    "realteacup": {
+      "file": "models/realteacup.glb",
+      "height": 0.055,
+      "width": 0.117,
+      "depth": 0.112,
+      "triangles": 1440,
+      "meshes": 3,
+      "bytes": 22152,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Low Poly Tea Set\" by Plankius",
+      "licence": "CC-BY"
+    },
+    "realtennisball": {
+      "file": "models/realtennisball.glb",
+      "height": 0.07,
+      "width": 0.07,
+      "depth": 0.07,
+      "triangles": 1520,
+      "meshes": 2,
+      "bytes": 1100000,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Tennis Ball\" by Tentrox",
       "licence": "CC-BY"
     },
     "realtent": {
@@ -3540,6 +4133,32 @@
       "clips": [],
       "rigged": false,
       "source": "Sketchfab — \"Day#19: Tomato\" by JuanG3D",
+      "licence": "CC-BY"
+    },
+    "realtoothbrush": {
+      "file": "models/realtoothbrush.glb",
+      "height": 0.017,
+      "width": 0.013,
+      "depth": 0.19,
+      "triangles": 1164,
+      "meshes": 4,
+      "bytes": 287952,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Toothbrush.5\" by Chizheo",
+      "licence": "CC-BY"
+    },
+    "realtowel": {
+      "file": "models/realtowel.glb",
+      "height": 0.106,
+      "width": 0.367,
+      "depth": 0.4,
+      "triangles": 5080,
+      "meshes": 1,
+      "bytes": 51192,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Toalla Doblada 2 (Materiales Editables)\" by Formando Arquitectura",
       "licence": "CC-BY"
     },
     "realtractor": {
@@ -3611,6 +4230,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Triceratop\" by kenchoo",
+      "licence": "CC-BY"
+    },
+    "realtrumpet": {
+      "file": "models/realtrumpet.glb",
+      "height": 0.21,
+      "width": 0.55,
+      "depth": 0.158,
+      "triangles": 7636,
+      "meshes": 1,
+      "bytes": 248156,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Trumpet\" by Charlie Tinley",
       "licence": "CC-BY"
     },
     "realturtle": {
@@ -3721,6 +4353,19 @@
       ],
       "rigged": true,
       "source": "Sketchfab — \"Sareewoman\" by dk8026854",
+      "licence": "CC-BY"
+    },
+    "realxmastree": {
+      "file": "models/realxmastree.glb",
+      "height": 1.8,
+      "width": 1.456,
+      "depth": 1.28,
+      "triangles": 14658,
+      "meshes": 8,
+      "bytes": 1098220,
+      "clips": [],
+      "rigged": false,
+      "source": "Sketchfab — \"Christmas Tree\" by Julia Lemke",
       "licence": "CC-BY"
     },
     "realxylophone": {

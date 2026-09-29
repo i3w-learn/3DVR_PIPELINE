@@ -1,0 +1,13 @@
+{
+  "id": "realhockeystick",
+  "source": "Sketchfab — \"Field Hockey Stick Model\" by Selvaraj",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/field-hockey-stick-model-be18dffc059049b9af2ebac641f23f2f",
+  "targetHeight": 0.95,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.3,
+  "simplifyError": 0.01,
+  "pitch": 90
+}

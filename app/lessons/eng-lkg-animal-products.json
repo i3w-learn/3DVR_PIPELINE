@@ -18,7 +18,7 @@
     },
     {
       "id": "milk",
-      "model": "milkbottle",
+      "model": "realmilkbottle",
       "position": "-1.900 0.000 -3.200",
       "scale": "2.214 2.214 2.214",
       "ring": 0.13,
@@ -67,9 +67,9 @@
     },
     {
       "id": "wool",
-      "model": "yarn",
+      "model": "realyarn",
       "position": "0.700 0.000 -3.000",
-      "scale": "1.892 1.892 1.892",
+      "scale": "2.400 2.400 2.400",
       "ring": 0.244,
       "name": {
         "en": "Wool",
@@ -78,7 +78,7 @@
     },
     {
       "id": "sunflower",
-      "model": "sunflower",
+      "model": "realsunflower",
       "position": "3.200 0.000 -4.950",
       "rotation": "0 -33 0",
       "ring": 0.48,
@@ -104,7 +104,7 @@
     },
     {
       "id": "honey",
-      "model": "honey",
+      "model": "realhoney",
       "position": "2.000 0.000 -3.100",
       "scale": "3.194 3.194 3.194",
       "ring": 0.267,

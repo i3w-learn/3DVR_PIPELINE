@@ -1,0 +1,13 @@
+{
+  "id": "realxmastree",
+  "source": "Sketchfab — \"Christmas Tree\" by Julia Lemke",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/christmas-tree-f1c1e890de674fccabcad59e16e8e4d5",
+  "targetHeight": 1.8,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "join": true,
+  "dropNodes": [
+    "pDisc1_plane_0"
+  ]
+}

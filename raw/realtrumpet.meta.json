@@ -1,0 +1,12 @@
+{
+  "id": "realtrumpet",
+  "source": "Sketchfab — \"Trumpet\" by Charlie Tinley",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/trumpet-3f2d4f5b962340b2933012e1bc634d88",
+  "targetHeight": 0.55,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.4,
+  "simplifyError": 0.02
+}

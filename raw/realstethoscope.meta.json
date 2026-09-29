@@ -1,0 +1,12 @@
+{
+  "id": "realstethoscope",
+  "source": "Sketchfab — \"Doctor's stethoscope\" by Vera4Art",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/doctors-stethoscope-3bef1be839834f4f9ad7ff8731d90602",
+  "targetHeight": 0.5,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "pitch": 90,
+  "join": true
+}

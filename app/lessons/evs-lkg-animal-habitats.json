@@ -19,9 +19,9 @@
     },
     {
       "id": "nest",
-      "model": "nest",
+      "model": "realnest",
       "position": "-3.100 0.000 -3.300",
-      "scale": "2.667 2.667 2.667",
+      "scale": "1.865 1.865 1.865",
       "ring": 0.464,
       "name": {
         "en": "Nest",

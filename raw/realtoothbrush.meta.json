@@ -1,0 +1,11 @@
+{
+  "id": "realtoothbrush",
+  "source": "Sketchfab — \"Toothbrush.5\" by Chizheo",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/toothbrush5-2f4bd3002b2e456c99abee54b488967d",
+  "targetHeight": 0.19,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "pitch": 90
+}

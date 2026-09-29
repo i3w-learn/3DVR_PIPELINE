@@ -1,0 +1,13 @@
+{
+  "id": "realairplane",
+  "source": "Sketchfab — \"A320\" by manilov.ap",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/a320-ec28bdee6c944688a19bef31ea33437f",
+  "targetHeight": 14,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.5,
+  "simplifyError": 0.01,
+  "join": true
+}

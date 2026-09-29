@@ -62,11 +62,9 @@
     },
     {
       "id": "umbrella",
-      "build": "umbrella",
-      "params": {
-        "size": 1.5
-      },
+      "model": "realumbrella",
       "position": "1.800 0.000 -4.200",
+      "scale": "0.800 0.800 0.800",
       "name": {
         "en": "Umbrella",
         "hi": "छाता"

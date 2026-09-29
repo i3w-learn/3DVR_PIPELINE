@@ -94,7 +94,7 @@
     },
     {
       "id": "r3o1",
-      "model": "cup",
+      "model": "realcup",
       "position": "-0.600 0.520 -0.780",
       "ring": 0.167,
       "scale": "2.05 2.05 2.05",
@@ -105,7 +105,7 @@
     },
     {
       "id": "r3o2",
-      "model": "cup",
+      "model": "realcup",
       "position": "-0.200 0.520 -0.780",
       "ring": 0.167,
       "scale": "2.05 2.05 2.05",
@@ -116,7 +116,7 @@
     },
     {
       "id": "r3o3",
-      "model": "cup",
+      "model": "realcup",
       "position": "0.200 0.520 -0.780",
       "ring": 0.167,
       "scale": "2.05 2.05 2.05",

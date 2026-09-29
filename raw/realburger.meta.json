@@ -1,0 +1,12 @@
+{
+  "id": "realburger",
+  "source": "Sketchfab — \"Burger Realistic (Free)\" by darklord3d",
+  "licence": "CC-BY",
+  "url": "https://sketchfab.com/3d-models/burger-realistic-free-18e59d7dbd2243c69f469e0f056f44c4",
+  "targetHeight": 0.139,
+  "yaw": 0,
+  "smoothAngle": 60,
+  "fit": "longest",
+  "simplify": 0.6,
+  "simplifyError": 0.01
+}
