@@ -3,6 +3,9 @@
 
     check_clips.py <lang>             listen to every clip and score it
     check_clips.py <lang> --rescore   score again from what was heard last time (seconds, not minutes)
+    check_clips.py <lang> --clips jobs.json
+                                      listen to the clips named in jobs.json, a list of {clip, text},
+                                      and write what was heard, the score and the length back into it
 
 Nobody on the build team can hear whether a thousand Marathi clips are right.
 A recogniser can at least tell whether a clip says roughly what its text says:
@@ -43,6 +46,20 @@ def bare(text):
 def seconds(path):
     out = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(path)], capture_output=True, text=True)
     return float(out.stdout or 0)
+
+# A handful of clips, wherever they are: the retake tool asks about candidates
+# that are not in the audio folder yet.
+if '--clips' in sys.argv:
+    import mlx_whisper
+    jobs_file = pathlib.Path(sys.argv[sys.argv.index('--clips') + 1])
+    jobs = json.loads(jobs_file.read_text())
+    for job in jobs:
+        heard = mlx_whisper.transcribe(job['clip'], path_or_hf_repo='mlx-community/whisper-large-v3-turbo', language=lang)['text'].strip()
+        job['heard'] = heard
+        job['score'] = difflib.SequenceMatcher(None, bare(job['text']), bare(heard)).ratio()
+        job['seconds'] = seconds(job['clip'])
+    jobs_file.write_text(json.dumps(jobs, ensure_ascii=False, indent=1))
+    sys.exit(0)
 
 rows = []
 report = root / 'raw' / 'audio' / f'review-{lang}.tsv'

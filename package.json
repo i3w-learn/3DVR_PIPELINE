@@ -17,6 +17,7 @@
     "content:lessons": "node tools/build/lessons.js",
     "content:audio-names": "node tools/build/audio-names.js",
     "content:narration": "node tools/build/narration.js",
+    "content:retakes": "node tools/build/retakes.js",
     "content:translations": "node tools/build/translations.js",
     "content:timing": "node tools/build/step-timing.js",
     "content:status": "node tools/build/status.js",
