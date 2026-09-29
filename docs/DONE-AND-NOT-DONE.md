@@ -9,7 +9,10 @@ part is the newer one.
 
 | | 28 September | 29 September |
 |---|---|---|
-| Hindi in the new voice (Divya) | 299 of 1,197 clips | **all 1,197** |
+| English in the new voice (Mary) | all 1,197, never checked | checked; 8 faulty clips recorded again |
+| Hindi in the new voice (Divya) | 299 of 1,197 clips | **all 1,197**; 67 faulty clips recorded again |
+| Marathi in the new voice (Sunita) | old voice | **all 1,197**; 100 faulty clips recorded again |
+| Odia in the new voice (Debjani) | old voice | **all 1,197**; 43 clips that were cut short or rambled recorded again |
 | English words inside Hindi letter lines ("A से Ant") | skipped by the voice | **spoken** — 42 words added to the table |
 | Lesson objects that are realistic | 111 of 186 | **186 of 186** |
 | Drawn scenery in the open-ground land | fence, rock | none |
@@ -23,8 +26,10 @@ Still waiting on Manas:
    toy figures. No free realistic Indian figure exists for them; it needs
    AI-made or paid models.
 2. **Peacock.** Pick one of the three in the peacock demo.
-3. **Marathi and Odia in the new voice.** Say "carry on" after listening to
-   English and Hindi.
+3. **Somebody who speaks the language listens.** Most of all Odia: the
+   speech recogniser does not know Odia, so only the length of each Odia clip
+   could be checked, not its words. The clips to hear first are at the top of
+   `raw/audio/review-<lang>.tsv`.
 4. **A headset session.** Nothing added this week has been seen through a
    headset.
 5. **Smaller files.** See the top of `docs/ASSET-GAP-REPORT.md`.

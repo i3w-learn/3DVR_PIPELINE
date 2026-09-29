@@ -97,7 +97,8 @@ a native speaker in the room.** Three checks, in this order:
    else — records each again on its own, up to three takes, and keeps the best.
    The free voice gets about one line in twenty wrong; on the first Hindi run
    this replaced 67 clips out of 1,197. It does not judge a line the recogniser
-   wrote down in English letters; those stay on the list for a person.
+   wrote down in English letters; those stay on the list for a person. For
+   Odia, which the recogniser does not know, it judges the length alone.
 4. **Somebody listens**, in a headset, to at least one whole lesson per subject
    in each language.
 

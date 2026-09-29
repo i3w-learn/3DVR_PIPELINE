@@ -17,6 +17,9 @@
  * Usage:
  *   node tools/build-narration.js en
  *   node tools/build-narration.js en --force
+ *   node tools/build/narration.js mr --provider parler --switch
+ *                                   record again every clip another voice made;
+ *                                   can be stopped and run again, and carries on
  *   node tools/build-narration.js or --provider gemini
  *
  * See docs/CONTENT-CREATION-PIPELINE.md §3 Station 5.
@@ -30,14 +33,18 @@ import { AUDIO_DIR, LESSONS_DIR, RAW_DIR, relative } from '../lib/paths.js';
 import { getProvider, providerNames } from '../lib/tts/index.js';
 import { spoken } from '../lib/tts/spoken.js';
 
+/** Lines recorded before the clips are written and the record updated. */
+const SITTING = 120;
+
 async function main() {
   const [lang, ...flags] = process.argv.slice(2);
   const force = flags.includes('--force');
+  const change = flags.includes('--switch');
   const providerName = flagValue(flags, '--provider') ?? 'system';
 
   if (!lang) {
     console.error(
-      `Usage: node tools/build-narration.js <lang> [--force] [--provider <name>]\n` +
+      `Usage: node tools/build/narration.js <lang> [--force | --switch] [--provider <name>]\n` +
         `Providers: ${providerNames.join(', ')}`
     );
     process.exitCode = 1;
@@ -79,7 +86,13 @@ async function main() {
     if (say.leftover.length) unsayable.push(`${file} (${where}): "${text}" — cannot say ${say.leftover.join(' ')}`);
 
     const current = (await exists(target)) && (manifest[file]?.spoken === say.text || (!manifest[file] && !force));
-    if (current && !force) continue;
+
+    // `--switch` is how a language changes voice: every clip another engine
+    // made is recorded again, and one this engine made is left alone. Unlike
+    // `--force` it can be stopped and started — a run of a thousand lines
+    // takes an hour, and laptops sleep.
+    const ours = manifest[file]?.provider === providerName;
+    if (current && !force && (!change || ours)) continue;
 
     todo.push({ file, target, text: say.text, written: text });
   }
@@ -91,21 +104,31 @@ async function main() {
 
   console.log(`${lines.size} line(s) in ${lang}: ${lines.size - todo.length} up to date, ${todo.length} to speak.`);
 
+  // In sittings, each written down as it is finished. One call for the whole
+  // language keeps a thousand recordings in a scratch folder until the last
+  // is made, and a crash in the last minute loses the hour: the first Hindi
+  // run did exactly that.
+  const record = async (sitting) => {
+    for (const line of sitting) manifest[line.file] = { written: line.written, spoken: line.text, provider: providerName };
+    await fs.mkdir(path.dirname(manifestFile), { recursive: true });
+    await fs.writeFile(manifestFile, `${JSON.stringify(sortKeys(manifest), null, 2)}\n`, 'utf8');
+  };
+
   if (todo.length) {
     if (provider.synthesizeMany) {
-      await provider.synthesizeMany(todo, lang, (done, total) => {
-        if (done % 50 === 0 || done === total) console.log(`  … ${done} / ${total}`);
-      });
+      for (let start = 0; start < todo.length; start += SITTING) {
+        const sitting = todo.slice(start, start + SITTING);
+        await provider.synthesizeMany(sitting, lang);
+        await record(sitting);
+        console.log(`  … ${start + sitting.length} / ${todo.length}`);
+      }
     } else {
       for (const line of todo) {
         await provider.synthesize(line.text, lang, line.target);
         console.log(`  ✓ ${line.file}  "${line.written}"`);
       }
+      await record(todo);
     }
-
-    for (const line of todo) manifest[line.file] = { written: line.written, spoken: line.text, provider: providerName };
-    await fs.mkdir(path.dirname(manifestFile), { recursive: true });
-    await fs.writeFile(manifestFile, `${JSON.stringify(sortKeys(manifest), null, 2)}\n`, 'utf8');
   }
 
   const written = todo.length;
