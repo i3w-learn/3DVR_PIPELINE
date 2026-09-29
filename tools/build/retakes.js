@@ -21,6 +21,9 @@
  * habit with borrowed words, not the voice's mistake, and the score it gives
  * such a line means nothing. Those stay on the list for a person.
  *
+ * Odia is the exception: the recogniser does not know it, so for Odia only the
+ * length is judged — clips cut short, and clips that ramble.
+ *
  * Usage:
  *   node tools/build/retakes.js hi            three takes of each bad clip
  *   node tools/build/retakes.js hi --takes 5
@@ -50,6 +53,8 @@ const PADDING = 0.45;
 /** A clip this many times faster or slower than the usual pace is cut short, or rambling. */
 const TOO_FAST = 1.9;
 const TOO_SLOW = 0.45;
+/** Where nothing can be heard, slow has to be slower before it counts: some lines are slow on purpose. */
+const TOO_SLOW_UNHEARD = 0.33;
 
 const PYTHON = path.join(ROOT, '.tts', 'venv', 'bin', 'python');
 const LISTEN = path.join(ROOT, 'tools', 'tts', 'check_clips.py');
@@ -70,20 +75,28 @@ async function main() {
   const takes = Number(flags[flags.indexOf('--takes') + 1]) || 3;
   const dry = flags.includes('--dry');
 
-  if (!lang || lang === 'or') {
-    console.error('Usage: node tools/build/retakes.js <en|hi|mr> [--takes 3] [--dry]\n(The recogniser does not know Odia.)');
+  if (!lang) {
+    console.error('Usage: node tools/build/retakes.js <en|hi|mr|or> [--takes 3] [--dry]');
     process.exitCode = 1;
     return;
   }
+
+  // The recogniser does not know Odia. For Odia the only thing a machine can
+  // tell is the length: a clip far too short for its line was cut off, one far
+  // too long says more than its line. Every clip counts as "heard right", and
+  // the pace alone decides.
+  const deaf = lang === 'or';
 
   const reportFile = path.join(RAW_DIR, 'audio', `review-${lang}.tsv`);
   const manifest = JSON.parse(await fs.readFile(path.join(RAW_DIR, 'audio', `${lang}.json`), 'utf8'));
   const folder = path.join(AUDIO_DIR, lang);
 
-  const rows = (await fs.readFile(reportFile, 'utf8')).trim().split('\n').slice(1).map((line) => {
-    const [score, clip, , heard = ''] = line.split('\t');
-    return { clip, score: Number(score), heard, text: manifest[clip]?.spoken };
-  }).filter((row) => row.text);
+  const rows = deaf
+    ? Object.entries(manifest).map(([clip, entry]) => ({ clip, score: 1, heard: '', text: entry.spoken }))
+    : (await fs.readFile(reportFile, 'utf8')).trim().split('\n').slice(1).map((line) => {
+        const [score, clip, , heard = ''] = line.split('\t');
+        return { clip, score: Number(score), heard, text: manifest[clip]?.spoken };
+      }).filter((row) => row.text);
 
   for (const row of rows) row.seconds = await seconds(path.join(folder, row.clip));
 
@@ -97,7 +110,9 @@ async function main() {
   // five things said one by one, and the recogniser heard exactly those five.
   const offPace = (text, length, score) => {
     const p = pace(text, length) / usual;
-    return letters(text) >= 6 && (p > TOO_FAST || (p < TOO_SLOW && score < HEARD_RIGHT));
+    if (letters(text) < 6) return false;
+    if (deaf) return p > TOO_FAST || p < TOO_SLOW_UNHEARD;
+    return p > TOO_FAST || (p < TOO_SLOW && score < HEARD_RIGHT);
   };
 
   // Only a language with a script of its own can be written down in the wrong one.
@@ -138,10 +153,16 @@ async function main() {
         if (await fs.stat(line.target).then((s) => s.size > 0, () => false)) made.push({ clip: line.target, text: line.text, name: line.clip });
       }
 
-      const jobsFile = path.join(scratch, `heard-${take}.json`);
-      await fs.writeFile(jobsFile, JSON.stringify(made));
-      await run(PYTHON, [LISTEN, lang, '--clips', jobsFile], { maxBuffer: 64 * 1024 * 1024 });
-      const heard = JSON.parse(await fs.readFile(jobsFile, 'utf8'));
+      let heard;
+      if (deaf) {
+        heard = [];
+        for (const job of made) heard.push({ ...job, heard: '', score: 1, seconds: await seconds(job.clip) });
+      } else {
+        const jobsFile = path.join(scratch, `heard-${take}.json`);
+        await fs.writeFile(jobsFile, JSON.stringify(made));
+        await run(PYTHON, [LISTEN, lang, '--clips', jobsFile], { maxBuffer: 64 * 1024 * 1024 });
+        heard = JSON.parse(await fs.readFile(jobsFile, 'utf8'));
+      }
 
       let better = 0;
       for (const candidate of heard) {
@@ -175,11 +196,14 @@ async function main() {
     }
 
     // The reading list says what is in the app now, not what was there before.
-    const updated = rows.map((row) => best.get(row.clip) ?? row).sort((a, b) => a.score - b.score || a.clip.localeCompare(b.clip));
-    await fs.writeFile(
-      reportFile,
-      'score\tclip\ttext spoken\theard\n' + updated.map((r) => `${r.score.toFixed(2)}\t${r.clip}\t${r.text}\t${r.heard}\n`).join('')
-    );
+    // (Odia's list is lengths, not what was heard: run check_clips.py again.)
+    if (!deaf) {
+      const updated = rows.map((row) => best.get(row.clip) ?? row).sort((a, b) => a.score - b.score || a.clip.localeCompare(b.clip));
+      await fs.writeFile(
+        reportFile,
+        'score\tclip\ttext spoken\theard\n' + updated.map((r) => `${r.score.toFixed(2)}\t${r.clip}\t${r.text}\t${r.heard}\n`).join('')
+      );
+    }
 
     const still = [...best.values()].filter((b) => !b.fine);
     console.log(
