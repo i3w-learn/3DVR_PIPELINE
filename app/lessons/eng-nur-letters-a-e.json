@@ -52,7 +52,7 @@
       "id": "ant",
       "model": "realant",
       "position": "0.3 0 -3.3",
-      "scale": "12 12 12",
+      "scale": "6 6 6",
       "name": {
         "en": "Ant",
         "hi": "चींटी",
@@ -66,7 +66,7 @@
         "from": 6,
         "duration": 4.5
       },
-      "ring": 0.35,
+      "ring": 0.25,
       "castShadow": false
     },
     {
@@ -112,7 +112,7 @@
       "id": "banana",
       "model": "realbanana",
       "position": "-2.5 0 -3.9",
-      "scale": "8 8 8",
+      "scale": "4.8 4.8 4.8",
       "name": {
         "en": "Banana",
         "hi": "केला",
@@ -129,7 +129,7 @@
     {
       "id": "bear",
       "model": "realbear",
-      "position": "0.7 0 -6.4",
+      "position": "0.7 0 -5.4",
       "scale": "1 1 1",
       "name": {
         "en": "Bear",
@@ -150,8 +150,9 @@
     {
       "id": "butterfly",
       "model": "realbutterfly",
-      "position": "2.5 1.3 -3.6",
-      "scale": "5 5 5",
+      "position": "2.6 0.9 -3.4",
+      "rotation": "55 0 0",
+      "scale": "2.5 2.5 2.5",
       "name": {
         "en": "Butterfly",
         "hi": "तितली",
@@ -165,7 +166,7 @@
         "from": 9,
         "duration": 4
       },
-      "ring": 0.35,
+      "ring": 0.25,
       "castShadow": false
     },
     {
@@ -212,8 +213,8 @@
     {
       "id": "crow",
       "model": "realcrow",
-      "position": "0.7 0 -4.9",
-      "scale": "2.5 2.5 2.5",
+      "position": "0.7 0 -4.3",
+      "scale": "3.125 3.125 3.125",
       "name": {
         "en": "Crow",
         "hi": "कौआ",
@@ -228,14 +229,14 @@
         "from": 10,
         "duration": 3.5
       },
-      "ring": 0.4,
+      "ring": 0.5,
       "castShadow": false
     },
     {
       "id": "crab",
       "model": "realcrab",
       "position": "2.7 0 -3.1",
-      "scale": "4 4 4",
+      "scale": "2.48 2.48 2.48",
       "name": {
         "en": "Crab",
         "hi": "केकड़ा",
@@ -249,7 +250,7 @@
         "from": 6,
         "duration": 4.5
       },
-      "ring": 0.5,
+      "ring": 0.31,
       "castShadow": false
     },
     {
@@ -297,7 +298,7 @@
       "id": "duck",
       "model": "realduck",
       "position": "2.6 0 -3.5",
-      "scale": "1.8 1.8 1.8",
+      "scale": "1.26 1.26 1.26",
       "name": {
         "en": "Duck",
         "hi": "बत्तख",
@@ -312,13 +313,14 @@
         "from": 6,
         "duration": 4.5
       },
-      "ring": 0.45,
+      "ring": 0.32,
       "castShadow": false
     },
     {
       "id": "dolphin",
       "model": "realdolphin",
       "position": "0.6 0.1 -14.5",
+      "rotation": "0 90 0",
       "scale": "1.4 1.4 1.4",
       "name": {
         "en": "Dolphin",
@@ -403,7 +405,7 @@
       "id": "egg",
       "model": "realegg",
       "position": "-2.8 0 -3.2",
-      "scale": "5 5 5",
+      "scale": "6.5 6.5 6.5",
       "name": {
         "en": "Egg",
         "hi": "अंडा",
@@ -413,7 +415,7 @@
       "arrive": {
         "how": "pop"
       },
-      "ring": 0.25,
+      "ring": 0.33,
       "castShadow": false
     }
   ],

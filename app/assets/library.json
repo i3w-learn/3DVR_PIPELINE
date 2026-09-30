@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T11:11:56.300Z",
+  "generated": "2026-09-30T12:38:01.184Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -6825,7 +6825,7 @@
       },
       "eng-nur-letters-u-z-s28.mp3": {
         "file": "audio/en/eng-nur-letters-u-z-s28.mp3",
-        "bytes": 16422
+        "bytes": 15116
       },
       "eng-nur-shapes-check-s01.mp3": {
         "file": "audio/en/eng-nur-shapes-check-s01.mp3",
@@ -11615,11 +11615,11 @@
       },
       "eng-nur-letters-u-z-s27.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s27.mp3",
-        "bytes": 11981
+        "bytes": 11850
       },
       "eng-nur-letters-u-z-s28.mp3": {
         "file": "audio/hi/eng-nur-letters-u-z-s28.mp3",
-        "bytes": 12503
+        "bytes": 12765
       },
       "eng-nur-shapes-check-s01.mp3": {
         "file": "audio/hi/eng-nur-shapes-check-s01.mp3",
@@ -16405,11 +16405,11 @@
       },
       "eng-nur-letters-u-z-s27.mp3": {
         "file": "audio/mr/eng-nur-letters-u-z-s27.mp3",
-        "bytes": 15116
+        "bytes": 16161
       },
       "eng-nur-letters-u-z-s28.mp3": {
         "file": "audio/mr/eng-nur-letters-u-z-s28.mp3",
-        "bytes": 16552
+        "bytes": 14071
       },
       "eng-nur-shapes-check-s01.mp3": {
         "file": "audio/mr/eng-nur-shapes-check-s01.mp3",
@@ -21195,11 +21195,11 @@
       },
       "eng-nur-letters-u-z-s27.mp3": {
         "file": "audio/or/eng-nur-letters-u-z-s27.mp3",
-        "bytes": 16030
+        "bytes": 14071
       },
       "eng-nur-letters-u-z-s28.mp3": {
         "file": "audio/or/eng-nur-letters-u-z-s28.mp3",
-        "bytes": 12373
+        "bytes": 13548
       },
       "eng-nur-shapes-check-s01.mp3": {
         "file": "audio/or/eng-nur-shapes-check-s01.mp3",

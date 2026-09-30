@@ -58,6 +58,7 @@ const DEVANAGARI_WORDS = {
   insect: 'इन्सेक्ट', kangaroo: 'कंगारू', lemon: 'लेमन', mango: 'मैंगो', nurse: 'नर्स', onion: 'अनियन', owl: 'आउल',
   police: 'पुलिस', pumpkin: 'पम्पकिन', rabbit: 'रैबिट', rhino: 'राइनो', sheep: 'शीप', ship: 'शिप',
   starfish: 'स्टारफ़िश', tomato: 'टमैटो', turtle: 'टर्टल', van: 'वैन', whale: 'व्हेल', yak: 'याक', zebu: 'ज़ेबू',
+  zero: 'ज़ीरो',
   // Names in the peacock comparison, which only a reviewer hears.
   tripo: 'ट्रिपो', meshy: 'मेशी', sketchfab: 'स्केचफ़ैब',
   // The phonics sounds: the bare consonant, which is exactly what "buh" is trying to write.
@@ -85,7 +86,7 @@ export const WORDS = {
     insect: 'ଇନସେକ୍ଟ', kangaroo: 'କଙ୍ଗାରୁ', lemon: 'ଲେମନ', lotus: 'ଲୋଟସ', mango: 'ମ୍ୟାଙ୍ଗୋ', nurse: 'ନର୍ସ',
     onion: 'ଅନିଅନ', owl: 'ଆଉଲ', police: 'ପୋଲିସ', pumpkin: 'ପମ୍ପକିନ', rabbit: 'ରାବିଟ', rhino: 'ରାଇନୋ', sheep: 'ସିପ',
     ship: 'ସିପ', starfish: 'ଷ୍ଟାରଫିସ', tomato: 'ଟମାଟୋ', turtle: 'ଟର୍ଟଲ', van: 'ଭ୍ୟାନ', whale: 'ହ୍ୱେଲ', yak: 'ୟାକ',
-    zebu: 'ଜେବୁ', tripo: 'ଟ୍ରିପୋ', meshy: 'ମେସି', sketchfab: 'ସ୍କେଚଫାବ',
+    zebu: 'ଜେବୁ', zero: 'ଜିରୋ', tripo: 'ଟ୍ରିପୋ', meshy: 'ମେସି', sketchfab: 'ସ୍କେଚଫାବ',
     a: 'ଆ', buh: 'ବ', kuh: 'କ', duh: 'ଡ', eh: 'ଏ', fuh: 'ଫ', guh: 'ଗ', huh: 'ହ', ih: 'ଇ', juh: 'ଜ', luh: 'ଲ', muh: 'ମ',
     nuh: 'ନ', oh: 'ଅ', puh: 'ପ', kwuh: 'କ୍ୱ', ruh: 'ର', sss: 'ସ', tuh: 'ଟ', uh: 'ଅ', vuh: 'ଭ', wuh: 'ୱ', ks: 'କ୍ସ', yuh: 'ୟ', zuh: 'ଜ',
   },

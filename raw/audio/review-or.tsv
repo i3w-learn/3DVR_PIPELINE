@@ -841,7 +841,6 @@ score	clip	text spoken	heard
 1.08	eng-nur-vegetables-s03.mp3	ଏହା ଏକ ଟମାଟୋ.	1.7s
 1.08	hin-nur-vadya-yantra-s08.mp3	ଏହା ତୂରୀ.	1.0s
 1.08	eng-nur-letters-k-o-s18.mp3	ଏନ ର ଧ୍ୱନି, ନ. ମୋ ସହ କୁହ.	2.9s
-1.08	eng-nur-letters-u-z-s28.mp3	ଜେଡ. ଜେବ୍ରା, ବଳଦ.	1.9s
 1.08	eng-nur-alphabets-s60.mp3	ଟି, ଟାଇଗର, ମାନେ ବାଘ.	2.1s
 1.08	eng-nur-letters-a-e-s12.mp3	ବି. କଦଳୀ, ଭାଲୁ, ପ୍ରଜାପତି.	2.6s
 1.08	eng-nur-alphabets-s41.mp3	ଏହା ଛୋଟ ଏନ.	1.4s
@@ -1066,6 +1065,7 @@ score	clip	text spoken	heard
 1.27	eng-nur-letters-a-e-s30.mp3	ଇ. ହାତୀ, ଚିଲ, ଅଣ୍ଡା.	2.2s
 1.28	hin-ukg-vyanjan-s29.mp3	ଏହା ଭ.	0.8s
 1.28	eng-nur-bird-animal-sounds-s04.mp3	କିଏ ହୁ ହୁ କରେ. ଖୋଜି ଦେଖ.	2.8s
+1.28	eng-nur-letters-u-z-s27.mp3	ଜେଡ, ଜିରୋ, ମାନେ ଶୂନ.	2.3s
 1.28	eng-nur-alphabets-s43.mp3	ଏହା ବଡ଼ ଓ.	1.4s
 1.29	eng-nur-letters-u-z-s21.mp3	ୱାଇ, ୟାର୍ନ, ମାନେ ଊଲ ଗୋଲା.	3.1s
 1.29	eng-lkg-two-letter-words-s10.mp3	ମିଶି ହେଲା ନୋ, ମାନେ ନା.	2.3s
@@ -1089,7 +1089,6 @@ score	clip	text spoken	heard
 1.34	eng-nur-letters-a-e-s21.mp3	ଡି, ଡଗ, ମାନେ କୁକୁର.	2.4s
 1.34	hin-ukg-swar-s05.mp3	ଏହା ଈ. କୁହ, ଈ.	1.8s
 1.34	eng-nur-letters-u-z-s23.mp3	ୱାଇ. ଊଲ ଗୋଲା, ୟାକ.	2.4s
-1.34	eng-nur-letters-u-z-s27.mp3	ଜେଡ, ଜେବୁ, ମାନେ ବଳଦ.	2.7s
 1.34	eng-nur-letters-a-e-s22.mp3	ଡି, ଡକ, ମାନେ ବତକ.	2.4s
 1.34	eng-lkg-two-letter-words-s12.mp3	ମିଶି ହେଲା ୱି, ମାନେ ଆମେ.	2.7s
 1.34	eng-ukg-phonics-s12.mp3	ଜେ ର ଧ୍ୱନି, ଜ. ମୋ ସହ କୁହ.	3.2s
@@ -1105,6 +1104,7 @@ score	clip	text spoken	heard
 1.36	eng-nur-alphabets-s02.mp3	ଏହା ଛୋଟ ଏ.	1.5s
 1.37	hin-ukg-teen-akshar-s09.mp3	ଦେଖ, ଚ, ମ, କ.	1.5s
 1.38	hin-ukg-vyanjan-s05.mp3	ଏହା ଘ.	0.9s
+1.39	eng-nur-letters-u-z-s28.mp3	ଜେଡ. ଜେବ୍ରା, ଶୂନ.	2.1s
 1.40	evs-nur-good-habits-s05.mp3	ଆମେ କେଶ କୁଣ୍ଡାଉ.	2.5s
 1.41	hin-ukg-swar-s10.mp3	ଏହା ଏ. କୁହ, ଏ.	1.9s
 1.42	hin-ukg-do-akshar-s11.mp3	ଦେଖ, ବ, ସ.	1.2s
