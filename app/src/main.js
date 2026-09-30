@@ -16,6 +16,7 @@ import { LocalTransport } from './core/local-transport.js';
 import { Session } from './core/session.js';
 import { startHeadset } from './roles/headset.js';
 import { startTeacher } from './roles/teacher.js';
+import { lookCloser } from './ui/look-closer.js';
 
 /** Swapped for MqttTransport when a broker is in the room. Nothing else changes. */
 const transport = new LocalTransport();
@@ -111,6 +112,10 @@ scene.addEventListener('loaded', async () => {
         controlsRoot: document.querySelector('#controls'),
         lessonId,
       });
+
+      // `&look=apple,pear` draws close-ups of those objects over the page:
+      // the reviewer's check that a new model is the right size and way up.
+      if (params.has('look')) await lookCloser(scene, params.get('look'));
     } else {
       startHeadset({ transport, session, elements });
     }

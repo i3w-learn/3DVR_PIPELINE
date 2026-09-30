@@ -133,6 +133,8 @@ For anything a 3-year-old already recognises: **download before generating**.
   started with; the style it names has changed. (It used to say "stylised
   low-poly". By 29 September 2026 every model a lesson shows is a realistic
   one, and the drawn twins they replaced have been deleted.)
+- The road an object takes, one command a step, is `docs/OBJECTS.md`:
+  find by picture, download, convert, place, check, look, credit.
 - Things that are **meant** to be simple stay drawn by code: letters,
   numerals, counters, mats, shapes, the planets. So do the few things no free
   realistic model covers yet — see `docs/OBJECT-REPORT.md` for the list.
