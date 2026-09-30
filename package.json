@@ -6,6 +6,8 @@
   "description": "Content pipeline for the pre-primary VR learning programme.",
   "scripts": {
     "content:std": "node tools/standardise/models.js",
+    "content:find": "node --env-file=.env tools/fetch/find.js",
+    "content:place": "node tools/build/place.js",
     "content:textures": "node tools/standardise/textures.js",
     "content:hdri": "node tools/standardise/hdri.js",
     "content:fonts": "node tools/build/fonts.js && npm run content:letters",
