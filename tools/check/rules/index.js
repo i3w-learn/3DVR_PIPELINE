@@ -44,6 +44,7 @@ const VEC3 = /^-?\d+(\.\d+)?( -?\d+(\.\d+)?){2}$/;
  *   resolvedStage  kit merged with stageOverride
  *   library        assets/library.json
  *   languages      audio language folders we ship
+ *   nextOf         every lesson id → the lesson it hands on to, or null
  *   instances      every placement: stage props + lesson objects
  */
 export const RULES = [
@@ -429,6 +430,29 @@ export const RULES = [
       return lesson.objects
         .filter((o) => !used.has(o.id) && !written.has(o.id))
         .map((o) => `object "${o.id}" is never named by any step — it will stand there all lesson`);
+    },
+  },
+
+  {
+    id: 'VAL_L18',
+    title: '`next` names a lesson that exists, and the run of lessons ends',
+    check: ({ lesson, lessonId, nextOf }) => {
+      if (lesson.next === undefined) return [];
+
+      // The hand-over happens on the teacher's tablet at the end of the last
+      // step, with a class watching. A name that is not a lesson is an error
+      // message across the scene at exactly that moment.
+      if (!nextOf.has(lesson.next)) return [`next is "${lesson.next}", which is not a lesson`];
+
+      // And a run that comes back to where it began never lets go of the
+      // class: the alphabet would reach Z and start again at A, for ever.
+      const seen = new Set([lessonId]);
+      for (let id = lesson.next; id; id = nextOf.get(id)) {
+        if (seen.has(id)) return [`next leads back round to "${id}" — the run of lessons never ends`];
+        seen.add(id);
+      }
+
+      return [];
     },
   },
 ];
