@@ -101,6 +101,12 @@ AFRAME.registerComponent('contact-shadow', {
       const downloaded = this.el.hasAttribute('gltf-model');
       const across = footprint > 0 && (downloaded || footprint < guess) ? footprint : guess;
       this.patch.scale.set(across, across, 1);
+
+      // No model yet, no shadow. On a slow connection a model can be half a
+      // minute behind its step, and until it came the guess stood in for it —
+      // scaled with the object, so an egg drawn six times life size was a dark
+      // disc eight metres across with nothing standing on it.
+      this.patch.visible = !downloaded || Boolean(mesh);
     });
   },
 

@@ -20,6 +20,11 @@
  *   npm run content:browse              every lesson, on this laptop
  *   npm run content:browse -- eng-nur-fruits hin-ukg-swar
  *   BASE=https://i3wvr.web.app/ npm run content:browse      the live site
+ *   PATIENCE=180000 WORKERS=1 BASE=… npm run content:browse  …on a slow line
+ *
+ * "model did not load" with a "still loading" note and no failed file is a
+ * slow connection, not a fault: a lesson is 15-20 MB, and the check looks
+ * after PATIENCE milliseconds whether it has all arrived or not.
  *
  * The live site is published from a clean copy of `main`, and is not this
  * laptop: run it there too after a deploy.
@@ -38,6 +43,8 @@ const BASE = process.env.BASE ?? 'http://localhost:4500/app/';
 const OUT = path.join(ROOT, '.work', 'browse');
 const SHOTS = path.join(OUT, 'shots');
 const WORKERS = Number(process.env.WORKERS ?? 4);
+/** How long to wait for a step's files before looking anyway. Raise it on a slow line. */
+const PATIENCE = Number(process.env.PATIENCE ?? 25000);
 
 const index = JSON.parse(await fs.readFile(path.join(LESSONS_DIR, 'index.json'), 'utf8')).lessons;
 const ids = process.argv.slice(2).length ? process.argv.slice(2) : Object.keys(index).sort();
@@ -51,7 +58,7 @@ const browser = await chromium.launch({
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function quiet(page, pending, max = 25000) {
+async function quiet(page, pending, max = PATIENCE) {
   // wait until nothing has been in flight for a second
   const start = Date.now();
   let calm = Date.now();
@@ -91,15 +98,15 @@ async function audit(context, id) {
   });
 
   try {
-    await page.goto(`${BASE}?role=teacher&lesson=${id}&review=1`, { waitUntil: 'load', timeout: 45000 });
-    await page.waitForFunction(() => document.querySelector('#position')?.textContent || document.querySelector('#error')?.textContent, null, { timeout: 45000 });
+    await page.goto(`${BASE}?role=teacher&lesson=${id}&review=1`, { waitUntil: 'load', timeout: Math.max(45000, PATIENCE) });
+    await page.waitForFunction(() => document.querySelector('#position')?.textContent || document.querySelector('#error')?.textContent, null, { timeout: Math.max(45000, PATIENCE) });
 
     const error = await page.evaluate(() => document.querySelector('#error')?.textContent ?? '');
     if (error) result.problems.push(`error on screen: ${error.slice(0, 220)}`);
 
     // hold the clock, so the steps are ours to take
     await page.click('[data-action="pause"]').catch(() => {});
-    if (!(await quiet(page, pending))) result.notes.push('still loading after 25 s at the first step');
+    if (!(await quiet(page, pending))) result.notes.push(`still loading after ${PATIENCE / 1000} s at the first step`);
     await sleep(1500);
     await page.screenshot({ path: path.join(SHOTS, `${id}--a.jpg`), type: 'jpeg', quality: 70 });
 
@@ -136,7 +143,7 @@ async function audit(context, id) {
     const at = await page.evaluate(() => document.querySelector('#position')?.textContent ?? '');
     if (lesson.steps.length > 1 && !at.startsWith(`${lesson.steps.length} /`) && !lesson.next) result.problems.push(`did not reach the last step (bar says "${at}")`);
 
-    if (!(await quiet(page, pending))) result.notes.push('still loading after 25 s at the last step');
+    if (!(await quiet(page, pending))) result.notes.push(`still loading after ${PATIENCE / 1000} s at the last step`);
     await sleep(3500); // arrivals
 
     // what is actually in the scene
