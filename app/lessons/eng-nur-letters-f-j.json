@@ -2,6 +2,7 @@
   "id": "eng-nur-letters-f-j",
   "template": "match",
   "stage": "beach",
+  "next": "eng-nur-letters-k-o",
   "notes": "Letters F to J on the letter beach. One big letter drops out of the sky; the real things for it arrive on the sand the way they would in life. One sitting of the alphabet; the old tabletop alphabet did all 26 in one go.",
   "budget": {
     "triangles": 285000,

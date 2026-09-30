@@ -106,8 +106,13 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
 
   function next() {
     const last = session.step >= lesson.steps.length - 1;
-    if (last) return clock.stop();
-    go(session.step + 1);
+    if (!last) return go(session.step + 1);
+
+    // A lesson may be one sitting of something longer — the alphabet is five.
+    // Its last step then hands the class on to the next sitting instead of
+    // leaving it standing on E with twenty-one letters still to come.
+    clock.stop();
+    if (lesson.next) enter(lesson.next).catch(showError);
   }
 
   function togglePause() {

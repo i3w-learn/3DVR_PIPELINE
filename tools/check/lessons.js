@@ -30,6 +30,7 @@ async function main() {
   const glyphs = await listGlyphs();
   const letters = await listLetters();
   const allIds = await listLessonIds();
+  const nextOf = await listNext(allIds);
   const lessonIds = only ? [only] : allIds;
 
   if (!lessonIds.length) {
@@ -41,7 +42,7 @@ async function main() {
   const locked = [];
 
   for (const lessonId of lessonIds) {
-    const problems = await checkLesson(lessonId, { library, languages, glyphs, letters });
+    const problems = await checkLesson(lessonId, { library, languages, glyphs, letters, nextOf });
 
     if (problems.length) {
       failed += 1;
@@ -88,7 +89,7 @@ async function gateOf(lessonId) {
  * Context building can fail on its own (unparseable JSON, missing stage kit).
  * Those are reported as rules L1 and L3 so the output has one shape.
  */
-async function checkLesson(lessonId, { library, languages, glyphs, letters }) {
+async function checkLesson(lessonId, { library, languages, glyphs, letters, nextOf }) {
   let lesson;
   try {
     lesson = await readJson(path.join(LESSONS_DIR, lessonFiles.get(lessonId) ?? `${lessonId}.json`));
@@ -123,6 +124,7 @@ async function checkLesson(lessonId, { library, languages, glyphs, letters }) {
     languages,
     glyphs,
     letters,
+    nextOf,
     instances: listInstances(kit, lesson),
   };
 
@@ -186,6 +188,24 @@ async function listLessonIds() {
   for (const lesson of lessons) lessonFiles.set(lesson.id, lesson.file);
 
   return lessons.map((l) => l.id);
+}
+
+/**
+ * Which lesson each lesson hands the class on to, for every lesson on disk.
+ *
+ * A lesson with no `next` maps to null, so "is this a lesson at all" and
+ * "where does it lead" are one lookup. Unreadable lessons are rule L1's
+ * problem; here they simply lead nowhere.
+ */
+async function listNext(lessonIds) {
+  const nextOf = new Map();
+
+  for (const lessonId of lessonIds) {
+    const lesson = await readJson(path.join(LESSONS_DIR, lessonFiles.get(lessonId))).catch(() => ({}));
+    nextOf.set(lessonId, lesson.next ?? null);
+  }
+
+  return nextOf;
 }
 
 /**
