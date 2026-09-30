@@ -64,6 +64,10 @@ AFRAME.registerComponent('arrive', {
 
     this.home = this.el.object3D.position.clone();
     this.homeYaw = this.el.object3D.rotation.y;
+    // The tilt the lesson gave it. An arrival used to end by standing the
+    // thing bolt upright — which for a butterfly leaned over to show the child
+    // its wings meant wings seen edge on, a line in the air.
+    this.homeTilt = { x: this.el.object3D.rotation.x, z: this.el.object3D.rotation.z };
     this.homeScale = this.el.object3D.scale.clone();
     this.t = null;       // null = not arriving
     this.done = false;
@@ -83,7 +87,7 @@ AFRAME.registerComponent('arrive', {
     this.t = 0;
     this.el.object3D.position.copy(this.home);
     this.el.object3D.scale.copy(this.homeScale);
-    this.el.object3D.rotation.set(0, this.homeYaw, 0);
+    this.el.object3D.rotation.set(this.homeTilt.x, this.homeYaw, this.homeTilt.z);
     this.el.emit('arriving', { id: this.el.id, how: this.data.how }, true);
   },
 
@@ -169,7 +173,7 @@ AFRAME.registerComponent('arrive', {
     if (t >= 1) {
       o.position.copy(home);
       o.scale.copy(this.homeScale);
-      o.rotation.set(0, this.homeYaw, 0);
+      o.rotation.set(this.homeTilt.x, this.homeYaw, this.homeTilt.z);
       this.t = null;
       const first = !this.done;
       this.done = true;

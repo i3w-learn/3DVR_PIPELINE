@@ -34,6 +34,7 @@
       "id": "kangaroo",
       "model": "realkangaroo",
       "position": "-1.6 0 -5.6",
+      "rotation": "0 65 0",
       "scale": "1 1 1",
       "name": {
         "en": "Kangaroo",
@@ -54,7 +55,7 @@
       "id": "kite",
       "model": "realkite",
       "position": "4.3 3.2 -5.2",
-      "scale": "1.4 1.4 1.4",
+      "scale": "0.98 0.98 0.98",
       "name": {
         "en": "Kite",
         "hi": "पतंग",
@@ -67,7 +68,7 @@
         "from": 12,
         "duration": 4.5
       },
-      "ring": 0.7,
+      "ring": 0.49,
       "castShadow": false
     },
     {
@@ -93,7 +94,7 @@
     {
       "id": "lion",
       "model": "reallion",
-      "position": "0.6 0 -5.6",
+      "position": "0.6 0 -5",
       "scale": "1 1 1",
       "name": {
         "en": "Lion",
@@ -115,7 +116,7 @@
       "id": "lotus",
       "model": "reallotus",
       "position": "2.6 0 -3.4",
-      "scale": "3 3 3",
+      "scale": "1.8 1.8 1.8",
       "name": {
         "en": "Lotus",
         "hi": "कमल",
@@ -125,14 +126,14 @@
       "arrive": {
         "how": "pop"
       },
-      "ring": 0.35,
+      "ring": 0.3,
       "castShadow": false
     },
     {
       "id": "lemon",
       "model": "reallemon",
       "position": "-2.5 0 -3.9",
-      "scale": "6 6 6",
+      "scale": "4.2 4.2 4.2",
       "name": {
         "en": "Lemon",
         "hi": "नींबू",
@@ -143,7 +144,7 @@
         "how": "fall",
         "from": 4.2
       },
-      "ring": 0.3,
+      "ring": 0.25,
       "castShadow": false
     },
     {
@@ -169,8 +170,8 @@
     {
       "id": "monkey",
       "model": "realmonkey",
-      "position": "-2.2 0 -4.6",
-      "scale": "1.2 1.2 1.2",
+      "position": "-2.2 0 -4.2",
+      "scale": "1.5 1.5 1.5",
       "name": {
         "en": "Monkey",
         "hi": "बंदर",
@@ -182,13 +183,13 @@
         "from": 4.5,
         "duration": 1
       },
-      "ring": 0.5
+      "ring": 0.62
     },
     {
       "id": "mango",
       "model": "realmango",
       "position": "2.6 0 -3.4",
-      "scale": "6 6 6",
+      "scale": "3.9 3.9 3.9",
       "name": {
         "en": "Mango",
         "hi": "आम",
@@ -199,7 +200,7 @@
         "how": "fall",
         "from": 4.2
       },
-      "ring": 0.3,
+      "ring": 0.25,
       "castShadow": false
     },
     {
@@ -226,7 +227,7 @@
       "id": "nest",
       "model": "realnest",
       "position": "-2.5 0 -3.9",
-      "scale": "3 3 3",
+      "scale": "1.86 1.86 1.86",
       "name": {
         "en": "Nest",
         "hi": "घोंसला",
@@ -236,7 +237,7 @@
       "arrive": {
         "how": "pop"
       },
-      "ring": 0.4,
+      "ring": 0.25,
       "castShadow": false
     },
     {
@@ -279,7 +280,7 @@
       "id": "orange",
       "model": "realorange",
       "position": "-2.5 0 -3.9",
-      "scale": "7 7 7",
+      "scale": "5.25 5.25 5.25",
       "name": {
         "en": "Orange",
         "hi": "संतरा",
@@ -290,14 +291,14 @@
         "how": "fall",
         "from": 4.2
       },
-      "ring": 0.3,
+      "ring": 0.25,
       "castShadow": false
     },
     {
       "id": "owl",
       "model": "realowl",
       "position": "0.6 0 -4.6",
-      "scale": "2 2 2",
+      "scale": "1.8 1.8 1.8",
       "name": {
         "en": "Owl",
         "hi": "उल्लू",
@@ -311,14 +312,14 @@
         "from": 9,
         "duration": 3.5
       },
-      "ring": 0.5,
+      "ring": 0.45,
       "castShadow": false
     },
     {
       "id": "onion",
       "model": "realonion",
       "position": "2.6 0 -3.4",
-      "scale": "6 6 6",
+      "scale": "5.1 5.1 5.1",
       "name": {
         "en": "Onion",
         "hi": "प्याज़",
@@ -329,7 +330,7 @@
         "how": "fall",
         "from": 4.2
       },
-      "ring": 0.3,
+      "ring": 0.26,
       "castShadow": false
     }
   ],

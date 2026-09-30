@@ -17,8 +17,9 @@
  * ## What is in it
  *
  * Every character the curriculum teaches as a letter: A–Z, a–z, the swar and
- * the vyanjan. Digits are not here; a numeral is taught on the table. Matras
- * are not here either: a matra on its own is not a letter, and composing one
+ * the vyanjan. And the ten digits — a numeral is taught on the table, but
+ * "Z for Zero" wants a zero standing on the sand like any other thing. Matras
+ * are not here: a matra on its own is not a letter, and composing one
  * with a consonant needs shaping this path does not do.
  *
  * Path commands are opentype's, scaled to units-per-em so the runtime works in
@@ -37,11 +38,12 @@ const SRC = path.join(ROOT, 'tools', 'fonts', 'src');
 const OUT = path.join(FONTS_DIR, 'letters-3d.json');
 
 const LATIN = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+const DIGITS = '0123456789';
 const SWAR = 'अआइईउऊऋएऐओऔ';
 const VYANJAN = 'कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह';
 
 const FACES = [
-  { file: 'NotoSans-Regular.ttf', chars: LATIN },
+  { file: 'NotoSans-Regular.ttf', chars: LATIN + DIGITS },
   { file: 'NotoSansDevanagari-Regular.ttf', chars: SWAR + VYANJAN },
 ];
 

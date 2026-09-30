@@ -69,7 +69,7 @@
       "id": "violin",
       "model": "realviolin",
       "position": "-2.2 0 -3.9",
-      "scale": "0.5 0.5 0.5",
+      "scale": "0.38 0.38 0.38",
       "name": {
         "en": "Violin",
         "hi": "वायलिन",
@@ -79,7 +79,7 @@
       "arrive": {
         "how": "pop"
       },
-      "ring": 0.5,
+      "ring": 0.38,
       "castShadow": false
     },
     {
@@ -126,7 +126,7 @@
       "id": "watermelon",
       "model": "realwatermelon",
       "position": "2.6 0 -3.4",
-      "scale": "2.5 2.5 2.5",
+      "scale": "2 2 2",
       "name": {
         "en": "Watermelon",
         "hi": "तरबूज़",
@@ -136,13 +136,14 @@
       "arrive": {
         "how": "pop"
       },
-      "ring": 0.4,
+      "ring": 0.32,
       "castShadow": false
     },
     {
       "id": "whale",
       "model": "realwhale",
       "position": "0.8 0.1 -17",
+      "rotation": "0 90 0",
       "scale": "1.2 1.2 1.2",
       "name": {
         "en": "Whale",
@@ -184,7 +185,7 @@
       "id": "xylophone",
       "model": "realxylophone",
       "position": "0.4 0 -3.8",
-      "scale": "2.5 2.5 2.5",
+      "scale": "1.75 1.75 1.75",
       "name": {
         "en": "Xylophone",
         "hi": "ज़ाइलोफ़ोन",
@@ -194,7 +195,7 @@
       "arrive": {
         "how": "pop"
       },
-      "ring": 0.5,
+      "ring": 0.35,
       "castShadow": false
     },
     {
@@ -274,6 +275,7 @@
       "id": "zebra",
       "model": "realzebra",
       "position": "-1.2 0 -6",
+      "rotation": "0 55 0",
       "scale": "1 1 1",
       "name": {
         "en": "Zebra",
@@ -292,24 +294,24 @@
       "ring": 1.1
     },
     {
-      "id": "zebu",
-      "model": "zebu",
-      "position": "3.6 0 -7.2",
-      "scale": "1 1 1",
+      "id": "zero",
+      "build": "letter3d",
+      "params": {
+        "char": "0",
+        "height": 1.3,
+        "depth": 0.3,
+        "color": "#3d8bd9",
+        "side": "#2a66a8",
+        "float": false,
+        "drop": 3
+      },
+      "position": "2.4 0 -4.8",
       "name": {
-        "en": "Zebu",
-        "hi": "बैल",
-        "mr": "बैल",
-        "or": "ବଳଦ"
-      },
-      "clip": "Armature|CombinedAnim|Base Layer.001",
-      "arrive": {
-        "how": "walk",
-        "side": 1,
-        "from": 9,
-        "duration": 5
-      },
-      "ring": 1.2
+        "en": "Zero",
+        "hi": "शून्य",
+        "mr": "शून्य",
+        "or": "ଶୂନ"
+      }
     }
   ],
   "steps": [
@@ -821,16 +823,16 @@
         "letterZ",
         "smallZ",
         "zebra",
-        "zebu"
+        "zero"
       ],
-      "highlight": "zebu",
+      "highlight": "zero",
       "partner": "letterZ",
       "duration": 8000,
       "script": {
-        "en": "Z for Zebu.",
-        "hi": "Z से Zebu — बैल।",
-        "mr": "Z — Zebu, म्हणजे बैल.",
-        "or": "Z — Zebu, ମାନେ ବଳଦ।"
+        "en": "Z for Zero.",
+        "hi": "Z से Zero — शून्य।",
+        "mr": "Z — Zero, म्हणजे शून्य.",
+        "or": "Z — Zero, ମାନେ ଶୂନ।"
       },
       "audio": "eng-nur-letters-u-z-s27.mp3"
     },
@@ -839,15 +841,15 @@
         "letterZ",
         "smallZ",
         "zebra",
-        "zebu"
+        "zero"
       ],
       "highlight": "letterZ",
       "duration": 7000,
       "script": {
-        "en": "Z. Zebra, Zebu.",
-        "hi": "Z। ज़ेबरा, बैल।",
-        "mr": "Z. झेब्रा, बैल.",
-        "or": "Z। ଜେବ୍ରା, ବଳଦ।"
+        "en": "Z. Zebra, Zero.",
+        "hi": "Z। ज़ेबरा, शून्य।",
+        "mr": "Z. झेब्रा, शून्य.",
+        "or": "Z। ଜେବ୍ରା, ଶୂନ।"
       },
       "audio": "eng-nur-letters-u-z-s28.mp3"
     }

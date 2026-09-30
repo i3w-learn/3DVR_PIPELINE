@@ -55,8 +55,8 @@
     {
       "id": "pumpkin",
       "model": "realpumpkin",
-      "position": "2.6 0 -3.4",
-      "scale": "3 3 3",
+      "position": "0.5 0 -3.4",
+      "scale": "2.4 2.4 2.4",
       "name": {
         "en": "Pumpkin",
         "hi": "कद्दू",
@@ -66,7 +66,7 @@
       "arrive": {
         "how": "pop"
       },
-      "ring": 0.45,
+      "ring": 0.36,
       "castShadow": false
     },
     {
@@ -148,7 +148,7 @@
       "id": "rabbit",
       "model": "realrabbit",
       "position": "-2.5 0 -3.9",
-      "scale": "2 2 2",
+      "scale": "2.4 2.4 2.4",
       "name": {
         "en": "Rabbit",
         "hi": "खरगोश",
@@ -163,7 +163,7 @@
         "duration": 4,
         "idle": "Rabbit|jackrabbit_idle_03"
       },
-      "ring": 0.45,
+      "ring": 0.54,
       "castShadow": false
     },
     {
@@ -187,7 +187,7 @@
     {
       "id": "rhino",
       "model": "realrhino",
-      "position": "-1.5 0 -8.8",
+      "position": "-1.5 0 -7.6",
       "scale": "1 1 1",
       "name": {
         "en": "Rhino",
@@ -249,7 +249,7 @@
       "id": "starfish",
       "model": "realstarfish",
       "position": "-2.4 0 -3.1",
-      "scale": "4 4 4",
+      "scale": "12.8 12.8 12.8",
       "name": {
         "en": "Starfish",
         "hi": "तारा मछली",
@@ -259,13 +259,14 @@
       "arrive": {
         "how": "pop"
       },
-      "ring": 0.3,
+      "ring": 0.96,
       "castShadow": false
     },
     {
       "id": "ship",
       "model": "realship",
       "position": "-4 0.05 -34",
+      "rotation": "0 90 0",
       "scale": "1 1 1",
       "name": {
         "en": "Ship",
@@ -328,7 +329,7 @@
       "id": "turtle",
       "model": "realturtle",
       "position": "2.6 0 -3.4",
-      "scale": "1.6 1.6 1.6",
+      "scale": "1.216 1.216 1.216",
       "name": {
         "en": "Turtle",
         "hi": "कछुआ",
@@ -342,14 +343,14 @@
         "from": 5,
         "duration": 6
       },
-      "ring": 0.5,
+      "ring": 0.4,
       "castShadow": false
     },
     {
       "id": "tomato",
       "model": "realtomato",
       "position": "-2.5 0 -3.9",
-      "scale": "6 6 6",
+      "scale": "5.1 5.1 5.1",
       "name": {
         "en": "Tomato",
         "hi": "टमाटर",
@@ -360,7 +361,7 @@
         "how": "fall",
         "from": 4.2
       },
-      "ring": 0.3,
+      "ring": 0.26,
       "castShadow": false
     }
   ],
