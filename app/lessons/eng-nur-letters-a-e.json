@@ -18,7 +18,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.51 3.0 -6.8"
+    },
+    {
+      "id": "smallA",
+      "build": "letter3d",
+      "params": {
+        "char": "a",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.94 3.0 -6.8"
     },
     {
       "id": "apple",
@@ -86,7 +96,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.6 3.0 -6.8"
+    },
+    {
+      "id": "smallB",
+      "build": "letter3d",
+      "params": {
+        "char": "b",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.65 3.0 -6.8"
     },
     {
       "id": "banana",
@@ -156,7 +176,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.42 3.0 -6.8"
+    },
+    {
+      "id": "smallC",
+      "build": "letter3d",
+      "params": {
+        "char": "c",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.73 3.0 -6.8"
     },
     {
       "id": "cat",
@@ -230,7 +260,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.6 3.0 -6.8"
+    },
+    {
+      "id": "smallD",
+      "build": "letter3d",
+      "params": {
+        "char": "d",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.8 3.0 -6.8"
     },
     {
       "id": "dog",
@@ -304,7 +344,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.56 3.0 -6.8"
+    },
+    {
+      "id": "smallE",
+      "build": "letter3d",
+      "params": {
+        "char": "e",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.44 3.0 -6.8"
     },
     {
       "id": "elephant",
@@ -384,7 +434,23 @@
     },
     {
       "show": [
-        "letterA"
+        "letterA",
+        "smallA"
+      ],
+      "highlight": "smallA",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा a है।",
+        "en": "This is small a.",
+        "mr": "हे छोटं a आहे.",
+        "or": "ଏହା ଛୋଟ a।"
+      },
+      "audio": "eng-nur-alphabets-s02.mp3"
+    },
+    {
+      "show": [
+        "letterA",
+        "smallA"
       ],
       "highlight": "letterA",
       "duration": 6000,
@@ -399,6 +465,7 @@
     {
       "show": [
         "letterA",
+        "smallA",
         "apple"
       ],
       "highlight": "apple",
@@ -415,6 +482,7 @@
     {
       "show": [
         "letterA",
+        "smallA",
         "apple",
         "ant"
       ],
@@ -432,6 +500,7 @@
     {
       "show": [
         "letterA",
+        "smallA",
         "apple",
         "ant",
         "ambulance"
@@ -450,6 +519,7 @@
     {
       "show": [
         "letterA",
+        "smallA",
         "apple",
         "ant",
         "ambulance"
@@ -480,7 +550,23 @@
     },
     {
       "show": [
-        "letterB"
+        "letterB",
+        "smallB"
+      ],
+      "highlight": "smallB",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा b है।",
+        "en": "This is small b.",
+        "mr": "हे छोटं b आहे.",
+        "or": "ଏହା ଛୋଟ b।"
+      },
+      "audio": "eng-nur-alphabets-s05.mp3"
+    },
+    {
+      "show": [
+        "letterB",
+        "smallB"
       ],
       "highlight": "letterB",
       "duration": 6000,
@@ -495,6 +581,7 @@
     {
       "show": [
         "letterB",
+        "smallB",
         "banana"
       ],
       "highlight": "banana",
@@ -511,6 +598,7 @@
     {
       "show": [
         "letterB",
+        "smallB",
         "banana",
         "bear"
       ],
@@ -528,6 +616,7 @@
     {
       "show": [
         "letterB",
+        "smallB",
         "banana",
         "bear",
         "butterfly"
@@ -546,6 +635,7 @@
     {
       "show": [
         "letterB",
+        "smallB",
         "banana",
         "bear",
         "butterfly"
@@ -576,7 +666,23 @@
     },
     {
       "show": [
-        "letterC"
+        "letterC",
+        "smallC"
+      ],
+      "highlight": "smallC",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा c है।",
+        "en": "This is small c.",
+        "mr": "हे छोटं c आहे.",
+        "or": "ଏହା ଛୋଟ c।"
+      },
+      "audio": "eng-nur-alphabets-s08.mp3"
+    },
+    {
+      "show": [
+        "letterC",
+        "smallC"
       ],
       "highlight": "letterC",
       "duration": 6000,
@@ -591,6 +697,7 @@
     {
       "show": [
         "letterC",
+        "smallC",
         "cat"
       ],
       "highlight": "cat",
@@ -607,6 +714,7 @@
     {
       "show": [
         "letterC",
+        "smallC",
         "cat",
         "crow"
       ],
@@ -624,6 +732,7 @@
     {
       "show": [
         "letterC",
+        "smallC",
         "cat",
         "crow",
         "crab"
@@ -642,6 +751,7 @@
     {
       "show": [
         "letterC",
+        "smallC",
         "cat",
         "crow",
         "crab"
@@ -672,7 +782,23 @@
     },
     {
       "show": [
-        "letterD"
+        "letterD",
+        "smallD"
+      ],
+      "highlight": "smallD",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा d है।",
+        "en": "This is small d.",
+        "mr": "हे छोटं d आहे.",
+        "or": "ଏହା ଛୋଟ d।"
+      },
+      "audio": "eng-nur-alphabets-s11.mp3"
+    },
+    {
+      "show": [
+        "letterD",
+        "smallD"
       ],
       "highlight": "letterD",
       "duration": 6000,
@@ -687,6 +813,7 @@
     {
       "show": [
         "letterD",
+        "smallD",
         "dog"
       ],
       "highlight": "dog",
@@ -703,6 +830,7 @@
     {
       "show": [
         "letterD",
+        "smallD",
         "dog",
         "duck"
       ],
@@ -720,6 +848,7 @@
     {
       "show": [
         "letterD",
+        "smallD",
         "dog",
         "duck",
         "dolphin"
@@ -738,6 +867,7 @@
     {
       "show": [
         "letterD",
+        "smallD",
         "dog",
         "duck",
         "dolphin"
@@ -768,7 +898,23 @@
     },
     {
       "show": [
-        "letterE"
+        "letterE",
+        "smallE"
+      ],
+      "highlight": "smallE",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा e है।",
+        "en": "This is small e.",
+        "mr": "हे छोटं e आहे.",
+        "or": "ଏହା ଛୋଟ e।"
+      },
+      "audio": "eng-nur-alphabets-s14.mp3"
+    },
+    {
+      "show": [
+        "letterE",
+        "smallE"
       ],
       "highlight": "letterE",
       "duration": 6000,
@@ -783,6 +929,7 @@
     {
       "show": [
         "letterE",
+        "smallE",
         "elephant"
       ],
       "highlight": "elephant",
@@ -799,6 +946,7 @@
     {
       "show": [
         "letterE",
+        "smallE",
         "elephant",
         "eagle"
       ],
@@ -816,6 +964,7 @@
     {
       "show": [
         "letterE",
+        "smallE",
         "elephant",
         "eagle",
         "egg"
@@ -834,6 +983,7 @@
     {
       "show": [
         "letterE",
+        "smallE",
         "elephant",
         "eagle",
         "egg"

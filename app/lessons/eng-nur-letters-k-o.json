@@ -18,7 +18,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.52 3.0 -6.8"
+    },
+    {
+      "id": "smallK",
+      "build": "letter3d",
+      "params": {
+        "char": "k",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.7 3.0 -6.8"
     },
     {
       "id": "kangaroo",
@@ -43,7 +53,7 @@
     {
       "id": "kite",
       "model": "realkite",
-      "position": "2.8 2.6 -5.2",
+      "position": "4.3 3.2 -5.2",
       "scale": "1.4 1.4 1.4",
       "name": {
         "en": "Kite",
@@ -68,7 +78,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-0.78 3.0 -6.8"
+    },
+    {
+      "id": "smallL",
+      "build": "letter3d",
+      "params": {
+        "char": "l",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.44 3.0 -6.8"
     },
     {
       "id": "lion",
@@ -134,7 +154,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-2 3.0 -6.8"
+    },
+    {
+      "id": "smallM",
+      "build": "letter3d",
+      "params": {
+        "char": "m",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "2.28 3.0 -6.8"
     },
     {
       "id": "monkey",
@@ -180,7 +210,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.55 3.0 -6.8"
+    },
+    {
+      "id": "smallN",
+      "build": "letter3d",
+      "params": {
+        "char": "n",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.79 3.0 -6.8"
     },
     {
       "id": "nest",
@@ -223,7 +263,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.64 3.0 -6.8"
+    },
+    {
+      "id": "smallO",
+      "build": "letter3d",
+      "params": {
+        "char": "o",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.98 3.0 -6.8"
     },
     {
       "id": "orange",
@@ -300,7 +350,23 @@
     },
     {
       "show": [
-        "letterK"
+        "letterK",
+        "smallK"
+      ],
+      "highlight": "smallK",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा k है।",
+        "en": "This is small k.",
+        "mr": "हे छोटं k आहे.",
+        "or": "ଏହା ଛୋଟ k।"
+      },
+      "audio": "eng-nur-alphabets-s32.mp3"
+    },
+    {
+      "show": [
+        "letterK",
+        "smallK"
       ],
       "highlight": "letterK",
       "duration": 6000,
@@ -315,6 +381,7 @@
     {
       "show": [
         "letterK",
+        "smallK",
         "kangaroo"
       ],
       "highlight": "kangaroo",
@@ -331,6 +398,7 @@
     {
       "show": [
         "letterK",
+        "smallK",
         "kangaroo",
         "kite"
       ],
@@ -348,6 +416,7 @@
     {
       "show": [
         "letterK",
+        "smallK",
         "kangaroo",
         "kite"
       ],
@@ -377,7 +446,23 @@
     },
     {
       "show": [
-        "letterL"
+        "letterL",
+        "smallL"
+      ],
+      "highlight": "smallL",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा l है।",
+        "en": "This is small l.",
+        "mr": "हे छोटं l आहे.",
+        "or": "ଏହା ଛୋଟ l।"
+      },
+      "audio": "eng-nur-alphabets-s35.mp3"
+    },
+    {
+      "show": [
+        "letterL",
+        "smallL"
       ],
       "highlight": "letterL",
       "duration": 6000,
@@ -392,6 +477,7 @@
     {
       "show": [
         "letterL",
+        "smallL",
         "lion"
       ],
       "highlight": "lion",
@@ -408,6 +494,7 @@
     {
       "show": [
         "letterL",
+        "smallL",
         "lion",
         "lotus"
       ],
@@ -425,6 +512,7 @@
     {
       "show": [
         "letterL",
+        "smallL",
         "lion",
         "lotus",
         "lemon"
@@ -443,6 +531,7 @@
     {
       "show": [
         "letterL",
+        "smallL",
         "lion",
         "lotus",
         "lemon"
@@ -473,7 +562,23 @@
     },
     {
       "show": [
-        "letterM"
+        "letterM",
+        "smallM"
+      ],
+      "highlight": "smallM",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा m है।",
+        "en": "This is small m.",
+        "mr": "हे छोटं m आहे.",
+        "or": "ଏହା ଛୋଟ m।"
+      },
+      "audio": "eng-nur-alphabets-s38.mp3"
+    },
+    {
+      "show": [
+        "letterM",
+        "smallM"
       ],
       "highlight": "letterM",
       "duration": 6000,
@@ -488,6 +593,7 @@
     {
       "show": [
         "letterM",
+        "smallM",
         "monkey"
       ],
       "highlight": "monkey",
@@ -504,6 +610,7 @@
     {
       "show": [
         "letterM",
+        "smallM",
         "monkey",
         "mango"
       ],
@@ -521,6 +628,7 @@
     {
       "show": [
         "letterM",
+        "smallM",
         "monkey",
         "mango"
       ],
@@ -550,7 +658,23 @@
     },
     {
       "show": [
-        "letterN"
+        "letterN",
+        "smallN"
+      ],
+      "highlight": "smallN",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा n है।",
+        "en": "This is small n.",
+        "mr": "हे छोटं n आहे.",
+        "or": "ଏହା ଛୋଟ n।"
+      },
+      "audio": "eng-nur-alphabets-s41.mp3"
+    },
+    {
+      "show": [
+        "letterN",
+        "smallN"
       ],
       "highlight": "letterN",
       "duration": 6000,
@@ -565,6 +689,7 @@
     {
       "show": [
         "letterN",
+        "smallN",
         "nest"
       ],
       "highlight": "nest",
@@ -581,6 +706,7 @@
     {
       "show": [
         "letterN",
+        "smallN",
         "nest",
         "nurse"
       ],
@@ -598,6 +724,7 @@
     {
       "show": [
         "letterN",
+        "smallN",
         "nest",
         "nurse"
       ],
@@ -627,7 +754,23 @@
     },
     {
       "show": [
-        "letterO"
+        "letterO",
+        "smallO"
+      ],
+      "highlight": "smallO",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा o है।",
+        "en": "This is small o.",
+        "mr": "हे छोटं o आहे.",
+        "or": "ଏହା ଛୋଟ o।"
+      },
+      "audio": "eng-nur-alphabets-s44.mp3"
+    },
+    {
+      "show": [
+        "letterO",
+        "smallO"
       ],
       "highlight": "letterO",
       "duration": 6000,
@@ -642,6 +785,7 @@
     {
       "show": [
         "letterO",
+        "smallO",
         "orange"
       ],
       "highlight": "orange",
@@ -658,6 +802,7 @@
     {
       "show": [
         "letterO",
+        "smallO",
         "orange",
         "owl"
       ],
@@ -675,6 +820,7 @@
     {
       "show": [
         "letterO",
+        "smallO",
         "orange",
         "owl",
         "onion"
@@ -693,6 +839,7 @@
     {
       "show": [
         "letterO",
+        "smallO",
         "orange",
         "owl",
         "onion"

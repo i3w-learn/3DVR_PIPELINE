@@ -18,7 +18,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.6 3.0 -6.8"
+    },
+    {
+      "id": "smallP",
+      "build": "letter3d",
+      "params": {
+        "char": "p",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.56 3.0 -6.8"
     },
     {
       "id": "parrot",
@@ -86,7 +96,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.6 3.0 -6.8"
+    },
+    {
+      "id": "smallQ",
+      "build": "letter3d",
+      "params": {
+        "char": "q",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.98 3.0 -6.8"
     },
     {
       "id": "queen",
@@ -112,7 +132,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.26 3.0 -6.8"
+    },
+    {
+      "id": "smallR",
+      "build": "letter3d",
+      "params": {
+        "char": "r",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.67 3.0 -6.8"
     },
     {
       "id": "rabbit",
@@ -182,7 +212,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.4 3.0 -6.8"
+    },
+    {
+      "id": "smallS",
+      "build": "letter3d",
+      "params": {
+        "char": "s",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.55 3.0 -6.8"
     },
     {
       "id": "sheep",
@@ -250,7 +290,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.28 3.0 -6.8"
+    },
+    {
+      "id": "smallT",
+      "build": "letter3d",
+      "params": {
+        "char": "t",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.72 3.0 -6.8"
     },
     {
       "id": "tiger",
@@ -331,7 +381,23 @@
     },
     {
       "show": [
-        "letterP"
+        "letterP",
+        "smallP"
+      ],
+      "highlight": "smallP",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा p है।",
+        "en": "This is small p.",
+        "mr": "हे छोटं p आहे.",
+        "or": "ଏହା ଛୋଟ p।"
+      },
+      "audio": "eng-nur-alphabets-s47.mp3"
+    },
+    {
+      "show": [
+        "letterP",
+        "smallP"
       ],
       "highlight": "letterP",
       "duration": 6000,
@@ -346,6 +412,7 @@
     {
       "show": [
         "letterP",
+        "smallP",
         "parrot"
       ],
       "highlight": "parrot",
@@ -362,6 +429,7 @@
     {
       "show": [
         "letterP",
+        "smallP",
         "parrot",
         "pumpkin"
       ],
@@ -379,6 +447,7 @@
     {
       "show": [
         "letterP",
+        "smallP",
         "parrot",
         "pumpkin",
         "policecar"
@@ -397,6 +466,7 @@
     {
       "show": [
         "letterP",
+        "smallP",
         "parrot",
         "pumpkin",
         "policecar"
@@ -427,7 +497,23 @@
     },
     {
       "show": [
-        "letterQ"
+        "letterQ",
+        "smallQ"
+      ],
+      "highlight": "smallQ",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा q है।",
+        "en": "This is small q.",
+        "mr": "हे छोटं q आहे.",
+        "or": "ଏହା ଛୋଟ q।"
+      },
+      "audio": "eng-nur-alphabets-s50.mp3"
+    },
+    {
+      "show": [
+        "letterQ",
+        "smallQ"
       ],
       "highlight": "letterQ",
       "duration": 6000,
@@ -442,6 +528,7 @@
     {
       "show": [
         "letterQ",
+        "smallQ",
         "queen"
       ],
       "highlight": "queen",
@@ -458,6 +545,7 @@
     {
       "show": [
         "letterQ",
+        "smallQ",
         "queen"
       ],
       "highlight": "letterQ",
@@ -486,7 +574,23 @@
     },
     {
       "show": [
-        "letterR"
+        "letterR",
+        "smallR"
+      ],
+      "highlight": "smallR",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा r है।",
+        "en": "This is small r.",
+        "mr": "हे छोटं r आहे.",
+        "or": "ଏହା ଛୋଟ r।"
+      },
+      "audio": "eng-nur-alphabets-s53.mp3"
+    },
+    {
+      "show": [
+        "letterR",
+        "smallR"
       ],
       "highlight": "letterR",
       "duration": 6500,
@@ -501,6 +605,7 @@
     {
       "show": [
         "letterR",
+        "smallR",
         "rabbit"
       ],
       "highlight": "rabbit",
@@ -517,6 +622,7 @@
     {
       "show": [
         "letterR",
+        "smallR",
         "rabbit",
         "rocket"
       ],
@@ -534,6 +640,7 @@
     {
       "show": [
         "letterR",
+        "smallR",
         "rabbit",
         "rocket",
         "rhino"
@@ -552,6 +659,7 @@
     {
       "show": [
         "letterR",
+        "smallR",
         "rabbit",
         "rocket",
         "rhino"
@@ -582,7 +690,23 @@
     },
     {
       "show": [
-        "letterS"
+        "letterS",
+        "smallS"
+      ],
+      "highlight": "smallS",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा s है।",
+        "en": "This is small s.",
+        "mr": "हे छोटं s आहे.",
+        "or": "ଏହା ଛୋଟ s।"
+      },
+      "audio": "eng-nur-alphabets-s56.mp3"
+    },
+    {
+      "show": [
+        "letterS",
+        "smallS"
       ],
       "highlight": "letterS",
       "duration": 6000,
@@ -597,6 +721,7 @@
     {
       "show": [
         "letterS",
+        "smallS",
         "sheep"
       ],
       "highlight": "sheep",
@@ -613,6 +738,7 @@
     {
       "show": [
         "letterS",
+        "smallS",
         "sheep",
         "starfish"
       ],
@@ -630,6 +756,7 @@
     {
       "show": [
         "letterS",
+        "smallS",
         "sheep",
         "starfish",
         "ship"
@@ -648,6 +775,7 @@
     {
       "show": [
         "letterS",
+        "smallS",
         "sheep",
         "starfish",
         "ship"
@@ -678,7 +806,23 @@
     },
     {
       "show": [
-        "letterT"
+        "letterT",
+        "smallT"
+      ],
+      "highlight": "smallT",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा t है।",
+        "en": "This is small t.",
+        "mr": "हे छोटं t आहे.",
+        "or": "ଏହା ଛୋଟ t।"
+      },
+      "audio": "eng-nur-alphabets-s59.mp3"
+    },
+    {
+      "show": [
+        "letterT",
+        "smallT"
       ],
       "highlight": "letterT",
       "duration": 6000,
@@ -693,6 +837,7 @@
     {
       "show": [
         "letterT",
+        "smallT",
         "tiger"
       ],
       "highlight": "tiger",
@@ -709,6 +854,7 @@
     {
       "show": [
         "letterT",
+        "smallT",
         "tiger",
         "turtle"
       ],
@@ -726,6 +872,7 @@
     {
       "show": [
         "letterT",
+        "smallT",
         "tiger",
         "turtle",
         "tomato"
@@ -744,6 +891,7 @@
     {
       "show": [
         "letterT",
+        "smallT",
         "tiger",
         "turtle",
         "tomato"

@@ -18,7 +18,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.38 3.0 -6.8"
+    },
+    {
+      "id": "smallF",
+      "build": "letter3d",
+      "params": {
+        "char": "f",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.44 3.0 -6.8"
     },
     {
       "id": "fox",
@@ -89,7 +99,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.6 3.0 -6.8"
+    },
+    {
+      "id": "smallG",
+      "build": "letter3d",
+      "params": {
+        "char": "g",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.85 3.0 -6.8"
     },
     {
       "id": "goat",
@@ -159,7 +179,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.55 3.0 -6.8"
+    },
+    {
+      "id": "smallH",
+      "build": "letter3d",
+      "params": {
+        "char": "h",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.75 3.0 -6.8"
     },
     {
       "id": "hen",
@@ -209,7 +239,7 @@
     {
       "id": "helicopter",
       "model": "realhelicopter",
-      "position": "5.6 4.8 -10.5",
+      "position": "10.3 6.2 -14",
       "scale": "1 1 1",
       "name": {
         "en": "Helicopter",
@@ -233,7 +263,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-0.82 3.0 -6.8"
+    },
+    {
+      "id": "smallI",
+      "build": "letter3d",
+      "params": {
+        "char": "i",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.14 3.0 -6.8"
     },
     {
       "id": "igloo",
@@ -298,7 +338,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.1 3.0 -6.8"
+    },
+    {
+      "id": "smallJ",
+      "build": "letter3d",
+      "params": {
+        "char": "j",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.15 3.0 -6.8"
     },
     {
       "id": "jeep",
@@ -337,7 +387,23 @@
     },
     {
       "show": [
-        "letterF"
+        "letterF",
+        "smallF"
+      ],
+      "highlight": "smallF",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा f है।",
+        "en": "This is small f.",
+        "mr": "हे छोटं f आहे.",
+        "or": "ଏହା ଛୋଟ f।"
+      },
+      "audio": "eng-nur-alphabets-s17.mp3"
+    },
+    {
+      "show": [
+        "letterF",
+        "smallF"
       ],
       "highlight": "letterF",
       "duration": 6500,
@@ -352,6 +418,7 @@
     {
       "show": [
         "letterF",
+        "smallF",
         "fox"
       ],
       "highlight": "fox",
@@ -368,6 +435,7 @@
     {
       "show": [
         "letterF",
+        "smallF",
         "fox",
         "fish"
       ],
@@ -385,6 +453,7 @@
     {
       "show": [
         "letterF",
+        "smallF",
         "fox",
         "fish",
         "fireengine"
@@ -403,6 +472,7 @@
     {
       "show": [
         "letterF",
+        "smallF",
         "fox",
         "fish",
         "fireengine"
@@ -433,7 +503,23 @@
     },
     {
       "show": [
-        "letterG"
+        "letterG",
+        "smallG"
+      ],
+      "highlight": "smallG",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा g है।",
+        "en": "This is small g.",
+        "mr": "हे छोटं g आहे.",
+        "or": "ଏହା ଛୋଟ g।"
+      },
+      "audio": "eng-nur-alphabets-s20.mp3"
+    },
+    {
+      "show": [
+        "letterG",
+        "smallG"
       ],
       "highlight": "letterG",
       "duration": 6000,
@@ -448,6 +534,7 @@
     {
       "show": [
         "letterG",
+        "smallG",
         "goat"
       ],
       "highlight": "goat",
@@ -464,6 +551,7 @@
     {
       "show": [
         "letterG",
+        "smallG",
         "goat",
         "giraffe"
       ],
@@ -481,6 +569,7 @@
     {
       "show": [
         "letterG",
+        "smallG",
         "goat",
         "giraffe",
         "grasshopper"
@@ -499,6 +588,7 @@
     {
       "show": [
         "letterG",
+        "smallG",
         "goat",
         "giraffe",
         "grasshopper"
@@ -529,7 +619,23 @@
     },
     {
       "show": [
-        "letterH"
+        "letterH",
+        "smallH"
+      ],
+      "highlight": "smallH",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा h है।",
+        "en": "This is small h.",
+        "mr": "हे छोटं h आहे.",
+        "or": "ଏହା ଛୋଟ h।"
+      },
+      "audio": "eng-nur-alphabets-s23.mp3"
+    },
+    {
+      "show": [
+        "letterH",
+        "smallH"
       ],
       "highlight": "letterH",
       "duration": 6000,
@@ -544,6 +650,7 @@
     {
       "show": [
         "letterH",
+        "smallH",
         "hen"
       ],
       "highlight": "hen",
@@ -560,6 +667,7 @@
     {
       "show": [
         "letterH",
+        "smallH",
         "hen",
         "horse"
       ],
@@ -577,6 +685,7 @@
     {
       "show": [
         "letterH",
+        "smallH",
         "hen",
         "horse",
         "helicopter"
@@ -595,6 +704,7 @@
     {
       "show": [
         "letterH",
+        "smallH",
         "hen",
         "horse",
         "helicopter"
@@ -625,7 +735,23 @@
     },
     {
       "show": [
-        "letterI"
+        "letterI",
+        "smallI"
+      ],
+      "highlight": "smallI",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा i है।",
+        "en": "This is small i.",
+        "mr": "हे छोटं i आहे.",
+        "or": "ଏହା ଛୋଟ i।"
+      },
+      "audio": "eng-nur-alphabets-s26.mp3"
+    },
+    {
+      "show": [
+        "letterI",
+        "smallI"
       ],
       "highlight": "letterI",
       "duration": 6500,
@@ -640,6 +766,7 @@
     {
       "show": [
         "letterI",
+        "smallI",
         "igloo"
       ],
       "highlight": "igloo",
@@ -656,6 +783,7 @@
     {
       "show": [
         "letterI",
+        "smallI",
         "igloo",
         "icecream"
       ],
@@ -673,6 +801,7 @@
     {
       "show": [
         "letterI",
+        "smallI",
         "igloo",
         "icecream",
         "insect"
@@ -691,6 +820,7 @@
     {
       "show": [
         "letterI",
+        "smallI",
         "igloo",
         "icecream",
         "insect"
@@ -721,7 +851,23 @@
     },
     {
       "show": [
-        "letterJ"
+        "letterJ",
+        "smallJ"
+      ],
+      "highlight": "smallJ",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा j है।",
+        "en": "This is small j.",
+        "mr": "हे छोटं j आहे.",
+        "or": "ଏହା ଛୋଟ j।"
+      },
+      "audio": "eng-nur-alphabets-s29.mp3"
+    },
+    {
+      "show": [
+        "letterJ",
+        "smallJ"
       ],
       "highlight": "letterJ",
       "duration": 6500,
@@ -736,6 +882,7 @@
     {
       "show": [
         "letterJ",
+        "smallJ",
         "jeep"
       ],
       "highlight": "jeep",
@@ -752,6 +899,7 @@
     {
       "show": [
         "letterJ",
+        "smallJ",
         "jeep"
       ],
       "highlight": "letterJ",
