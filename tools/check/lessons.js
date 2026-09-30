@@ -16,12 +16,16 @@
  * See docs/CONTENT-CREATION-PIPELINE.md §12.6.
  */
 
+import { execFile } from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { promisify } from 'node:util';
 
 import { RULES } from './rules/index.js';
 import { findDuplicateIds, findLessons } from '../lib/lessons.js';
-import { AUDIO_DIR, FONTS_DIR, LESSONS_DIR, LIBRARY_FILE, relative, stageFile } from '../lib/paths.js';
+import { AUDIO_DIR, FONTS_DIR, LESSONS_DIR, LIBRARY_FILE, ROOT, relative, stageFile } from '../lib/paths.js';
+
+const run = promisify(execFile);
 
 async function main() {
   const only = argValue('--lesson');
@@ -64,6 +68,23 @@ async function main() {
     for (const line of locked) console.log(`  🔒 ${line}`);
   }
 
+  // The live site is published from a clean copy of the repository. A file
+  // the app needs that git does not hold is a file the live site does not
+  // have — and nothing on this laptop will ever show it, because here the
+  // file is on disk. The planet maps were caught by a `*.webp` ignore rule
+  // meant for screenshots, and the Solar System went live with bare planets.
+  const held = await notInGit();
+  if (held.ignored.length) {
+    console.error(`\n${held.ignored.length} file(s) in app/ are IGNORED by git, so they will never reach the live site:`);
+    for (const file of held.ignored.slice(0, 20)) console.error(`  ✗ ${file}`);
+    console.error('  Add an exception for them in .gitignore, and commit them.');
+    process.exitCode = 1;
+  }
+  if (held.untracked.length) {
+    console.log(`\n${held.untracked.length} file(s) in app/ are not committed yet — the live site will not have them until they are:`);
+    for (const file of held.untracked.slice(0, 20)) console.log(`  · ${file}`);
+  }
+
   console.log();
   if (failed) {
     console.error(`${failed} of ${lessonIds.length} lesson(s) failed.`);
@@ -71,6 +92,20 @@ async function main() {
   } else {
     console.log(`${lessonIds.length} lesson(s) passed. Frame rate is still a headset question.`);
   }
+}
+
+/** What is in app/ on this disk but not in the repository. Quiet where there is no git. */
+async function notInGit() {
+  const list = async (...flags) => {
+    try {
+      const { stdout } = await run('git', ['ls-files', '--others', '--exclude-standard', ...flags, '--', 'app'], { cwd: ROOT, maxBuffer: 1 << 24 });
+      return stdout.split('\n').filter(Boolean);
+    } catch {
+      return [];
+    }
+  };
+
+  return { ignored: await list('--ignored'), untracked: await list() };
 }
 
 /** The lesson's sign-off gate, if it has one. Unreadable lessons are rule L1's problem. */

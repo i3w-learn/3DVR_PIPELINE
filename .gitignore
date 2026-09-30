@@ -21,6 +21,11 @@ raw/*.bin
 # something to ask of whoever next clones this repo.
 
 *.webp
+# …but not the app's own pictures. The planet maps are WebP, were caught by the
+# line above, and so were never in the repository — and the live site is
+# published from a clean copy of the repository. The Solar System went up with
+# no pictures on its planets.
+!app/assets/**/*.webp
 # Screenshots taken while checking scenes by eye. Not content.
 .playwright-mcp/
 
