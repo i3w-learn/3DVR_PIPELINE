@@ -76,6 +76,17 @@ body[data-role="headset"] #controls { display: none; }
 #controls button:active { background: #4a4640; }
 #controls button.danger { background: #8b3a3a; border-color: #a94c4c; }
 
+/*
+  A-Frame pins its "enter VR" button to the bottom right corner — exactly on
+  top of Blackout, the one button that must never miss. A press in the middle
+  of Blackout went to the VR button instead. On the teacher's screen it goes to
+  the top corner, clear of the bar.
+*/
+body[data-role="teacher"] .a-enter-vr {
+  top: 20px;
+  bottom: auto;
+}
+
 #error {
   position: fixed;
   top: 0; left: 0; right: 0;

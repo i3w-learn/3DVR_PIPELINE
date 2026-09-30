@@ -21,14 +21,13 @@ import { AUDIO_DIR, LESSONS_DIR, LIBRARY_FILE, ROOT } from '../lib/paths.js';
 
 const PLAN = path.join(ROOT, 'docs', 'PRE-PRIMARY-CONTENT-PLAN.md');
 const OUT = path.join(ROOT, 'docs', 'STATUS.md');
-const BASE = 'http://localhost:4500/app/';
+/** Where reviewers open lessons: the live site, which is published from `main`. */
+const BASE = 'https://i3wvr.web.app/';
 
 const CLASSES = { nur: 'Nursery', lkg: 'LKG', ukg: 'UKG' };
 const SUBJECTS = { eng: 'English', math: 'Maths', evs: 'EVS', hin: 'Hindi', gk: 'G.K.' };
 const LANGS = ['en', 'hi', 'mr', 'or'];
 const LANG_NAMES = { en: 'English', hi: 'Hindi', mr: 'Marathi', or: 'Odia' };
-/** The first farm lessons' photographed animals — the one art style the programme chose is low-poly. */
-const PHOTOREAL = ['zebu', 'realgoat', 'realhen', 'realhorse', 'realelephant'];
 
 const readJson = async (file) => JSON.parse(await fs.readFile(file, 'utf8'));
 
@@ -115,7 +114,6 @@ async function describe(id) {
     // A name card says what a thing is called. A letter, a number or a counting
     // bead needs none — the card over the letter A would say "A".
     nameCards: (lesson.objects ?? []).some((o) => o.name) || (lesson.objects ?? []).every((o) => ['glyph', 'counter'].includes(o.build)),
-    photoreal: (lesson.objects ?? []).some((o) => PHOTOREAL.includes(o.model)),
   };
 }
 
@@ -148,9 +146,7 @@ if (news.length) {
 }
 
 say('## How to open a lesson', '',
-  'The app is **not hosted on the internet**. It runs from this laptop.', '',
-  '1. In the project folder, run `npm run serve`. Leave it running.',
-  '2. Open a lesson address in Chrome. Every lesson in the tables below has an **open** link.', '',
+  `The app is live at **${BASE}** — that address opens the list of lands. Every lesson in the tables below has an **open** link.`, '',
   '| Address | What you get |', '|---|---|',
   `| \`${BASE}?role=teacher&lesson=<lesson-id>\` | The teacher's view: the lesson, with Back / Next / Pause and the words being said. Use this to review. |`,
   `| \`${BASE}?role=headset\` | The child's view, no buttons. It follows whatever the teacher's tablet is showing. |`, '',
@@ -158,7 +154,8 @@ say('## How to open a lesson', '',
   '| `&lang=hi` | Narration language: `en`, `hi`, `mr` or `or`. Default is `en`. |',
   '| `&review=1` | Opens a **locked** lesson, for a reviewer. Without it a locked lesson refuses to open. |', '',
   'In the teacher view you can walk with `W A S D`, drag to look around, and scroll to zoom.', '',
-  '**On a Quest headset or a tablet:** connect it to the same Wi-Fi as the laptop, and use the laptop\'s network address instead of `localhost` — `npm run serve` prints it when it starts (it looks like `http://192.168.x.x:4500/app/?role=headset`).', '');
+  '**On a Quest headset or a tablet:** open the same address in its browser and press the VR button.', '',
+  'The live site shows what is on `main`. To see work that is not published yet, run `npm run serve` in the project folder and use `http://localhost:4500/app/` in place of the live address.', '');
 
 say('## What is done', '', '### Lessons, by class and subject', '', `| Class | ${Object.values(SUBJECTS).join(' | ')} | Total |`, `|---|${'---:|'.repeat(Object.keys(SUBJECTS).length + 1)}`);
 for (const [grade, name] of Object.entries(CLASSES)) {
@@ -180,7 +177,7 @@ say('### Narration', '', '| Language | Lines written | Clips recorded | Lessons 
 for (const l of LANGS) {
   say(`| ${LANG_NAMES[l]} | ${built.filter((r) => r.lesson.written.includes(l)).length} / ${built.length} lessons | ${clips[l].size} | ${built.filter((r) => r.lesson.spoken.includes(l)).length} / ${built.length} |`);
 }
-say('', 'Voice: AI4Bharat Indic-TTS — free, offline, MIT licence. How it works and how to rebuild it: `docs/NARRATION.md`.', '');
+say('', 'Voice: AI4Bharat Indic Parler-TTS, a woman\'s voice in each language — free, offline, Apache-2 licence. How it works and how to rebuild it: `docs/NARRATION.md`.', '');
 
 const heard = Object.fromEntries(await Promise.all(LANGS.map(async (l) => [l, await listened(l)])));
 say('### How good is the narration?', '',
@@ -219,12 +216,10 @@ say('## What is left', '', '### Needs a person', '',
   '4. **A headset test.** Frame rate and comfort cannot be measured on a laptop.', '');
 
 const noCards = built.filter((r) => !r.lesson.nameCards && r.lesson.template !== 'explore');
-const old = built.filter((r) => r.lesson.photoreal);
 const silent = (l) => built.filter((r) => !r.lesson.spoken.includes(l));
 say('### Needs building', '');
 for (const l of LANGS) if (silent(l).length) say(`- **${LANG_NAMES[l]} narration** is missing for ${silent(l).length} lesson(s).`);
-say(`- **${noCards.length} lesson(s) have no name cards** (the English + Hindi name shown over the object): ${noCards.map((r) => `\`${r.id}\``).join(', ') || 'none'}.`,
-  `- **${old.length} lesson(s) still use the old photographed animals** instead of the low-poly ones: ${old.map((r) => `\`${r.id}\``).join(', ') || 'none'}.`, '');
+say(`- **${noCards.length} lesson(s) have no name cards** (the English + Hindi name shown over the object): ${noCards.map((r) => `\`${r.id}\``).join(', ') || 'none'}.`, '');
 
 if (locked.length) {
   say('### Locked lessons, and what each is waiting for', '', '| Lesson | Waiting for |', '|---|---|');

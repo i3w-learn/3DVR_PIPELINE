@@ -17,10 +17,7 @@
  * invisible objects when raycasting — which would put us back where we started.
  */
 
-const vertex = new THREE.Vector3();
-
-/** Every Nth vertex. The extremes are what matter, not the surface. */
-const SAMPLE_STRIDE = 11;
+import { posedBounds } from '../scene/posed-bounds.js';
 
 /** Room around the model, so a near miss still counts as a tap. */
 const PADDING = 1.15;
@@ -111,37 +108,3 @@ AFRAME.registerComponent('tap-target', {
     if (this.box?.parentNode) this.box.remove();
   },
 });
-
-/** Posed bounds over every root, in `space`. Skinned vertices are asked directly. */
-function posedBounds(roots, space) {
-  const min = [Infinity, Infinity, Infinity];
-  const max = [-Infinity, -Infinity, -Infinity];
-  let any = false;
-
-  for (const root of roots) {
-    root.updateWorldMatrix(true, true);
-
-    root.traverse((object) => {
-      if (!object.isMesh) return;
-
-      const positions = object.geometry?.getAttribute('position');
-      if (!positions) return;
-
-      for (let i = 0; i < positions.count; i += SAMPLE_STRIDE) {
-        if (object.isSkinnedMesh) object.getVertexPosition(i, vertex);
-        else vertex.fromBufferAttribute(positions, i);
-
-        object.localToWorld(vertex);
-        space.worldToLocal(vertex);
-
-        for (let axis = 0; axis < 3; axis += 1) {
-          if (vertex.getComponent(axis) < min[axis]) min[axis] = vertex.getComponent(axis);
-          if (vertex.getComponent(axis) > max[axis]) max[axis] = vertex.getComponent(axis);
-        }
-        any = true;
-      }
-    });
-  }
-
-  return any ? { min, max } : null;
-}

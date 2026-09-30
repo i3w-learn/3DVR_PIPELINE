@@ -220,7 +220,13 @@ function cardWidth(char, height) {
 function msdfGlyph(char, height, ink, script) {
   const el = document.createElement('a-entity');
   const glyphs = [...char].filter((c) => !COMBINING.test(c)).length || 1;
-  const wrap = glyphs === 1 ? 1.35 : glyphs * 1.5 + 1;
+  // One letter is drawn at the size that fits 1.35 average characters across
+  // 85% of its card. The block it is laid out in is a whole character wider
+  // than that: a block of 1.35 average characters is narrower than the three
+  // widest vowels — आ, ओ, औ — and a letter that does not fit its line is not
+  // squeezed, it is dropped. Three of the eleven swar cards were blank.
+  const ONE = 1.35;
+  const wrap = glyphs === 1 ? ONE + 1 : glyphs * 1.5 + 1;
 
   el.setAttribute('text', {
     value: char,
@@ -234,7 +240,9 @@ function msdfGlyph(char, height, ink, script) {
     // the old one-size formula let the letters grow with the length of the
     // word until "Strawberry" stood taller than the card behind it. Words get
     // a size that leaves room for ascenders and descenders.
-    width: glyphs === 1 ? height * 0.85 : height * 0.46 * wrap,
+    // The size is `width` over `0.5 + wrapCount`, so the one-letter width
+    // grows with its wider block and every letter stays the size it was.
+    width: glyphs === 1 ? height * 0.85 * (0.5 + wrap) / (0.5 + ONE) : height * 0.46 * wrap,
     // For one letter, a shade over the count, so it has a little air round it.
     // For a word, half as many again: `wrapCount` is measured in AVERAGE
     // characters, and a word of wide ones — "Snowman", all m and w — overran a

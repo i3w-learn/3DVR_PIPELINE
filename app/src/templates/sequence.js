@@ -16,6 +16,9 @@
  *   the stages already passed stay on screen, dimmed
  *   the stages still to come are hidden
  *
+ * A step marked `whole: true` looks back over everything so far, and shows it
+ * all at full strength.
+ *
  * The dimming is the whole mechanic. Hide the past and each step is an
  * unrelated picture; leave it at full strength and the child cannot tell which
  * one is being talked about now.
@@ -70,7 +73,10 @@ export default {
       if (!el) return;
 
       el.setAttribute('visible', i <= reached);
-      fade(el, i < reached ? PASSED_OPACITY : 1);
+      // `whole` is the step that looks back over the chain — "Monday to
+      // Sunday, that is the whole week". Dimmed, that step showed one day at
+      // full strength and six a child could barely read.
+      fade(el, i < reached && !step.whole ? PASSED_OPACITY : 1);
     });
 
     ring(stage, step.at, RING.subject);

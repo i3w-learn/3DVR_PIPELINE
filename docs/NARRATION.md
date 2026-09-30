@@ -10,7 +10,7 @@ what still has to happen before a child hears it.
 bash tools/tts/setup.sh            # once: the voice engine, ~6 GB, no account needed
 npm run content:translations       # fill Marathi and Odia text into the lessons
 npm run content:audio-names        # give every line a file name
-node tools/build/narration.js hi --provider indic    # speak one language (en, hi, mr, or)
+node tools/build/narration.js hi --provider parler   # speak one language (en, hi, mr, or)
 npm run content:timing             # make each step last as long as its sentence
 npm run content:build              # library, credits, index, and the checks
 ```
@@ -19,15 +19,16 @@ To hear a lesson in a language, add it to the address: `?lesson=eng-nur-birds&la
 
 ## Where the voice comes from
 
-**AI4Bharat Indic-TTS** — open voice models from IIT Madras, MIT licence. They
-run on the laptop. Nothing is sent to a server, there is no API key and no bill.
-It is the only engine we found that is free, may be shipped, and has a voice for
-all four languages.
+**AI4Bharat Indic Parler-TTS** — an open voice model, Apache-2 licence. It
+runs on the laptop. Nothing is sent to a server, there is no API key and no bill.
+Every clip in the app is in its woman's voice for that language: Mary
+(English), Divya (Hindi), Sunita (Marathi), Debjani (Odia).
 
 What we did *not* use, and why:
 
 | Engine | Why not |
 |---|---|
+| AI4Bharat Indic-TTS, the first engine (`--provider indic`) | Free and has all four languages, but it sounded like a machine. Every clip it made has been recorded again. |
 | The Mac's own voice (`say`) | Hindi and English only, and we could not confirm that Apple's licence allows shipping its voices in a product. It stays as a placeholder (`--provider system`). |
 | Google / Microsoft / Gemini | Cost money per character, or are unofficial endpoints we have no right to build a product on. |
 | Meta MMS | Free, but licensed for non-commercial use only. |
