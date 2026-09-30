@@ -24,7 +24,11 @@
     "content:timing": "node tools/build/step-timing.js",
     "content:status": "node tools/build/status.js",
     "content:objects": "node tools/build/object-report.js",
-    "content:letters": "node tools/build/letters.js"
+    "content:letters": "node tools/build/letters.js",
+    "content:browse": "node tools/check/browser/lessons.js",
+    "content:sheets": "node tools/check/browser/sheets.js",
+    "content:around": "node tools/check/browser/around.js",
+    "content:live": "node tools/check/browser/live.js"
   },
   "dependencies": {
     "@gltf-transform/core": "^4.1.0",
@@ -35,6 +39,7 @@
     "sharp": "^0.34.1"
   },
   "devDependencies": {
-    "msdf-bmfont-xml": "^2.8.0"
+    "msdf-bmfont-xml": "^2.8.0",
+    "playwright-core": "^1.63.0"
   }
 }
