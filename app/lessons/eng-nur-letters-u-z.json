@@ -17,7 +17,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.55 3.0 -6.8"
+    },
+    {
+      "id": "smallU",
+      "build": "letter3d",
+      "params": {
+        "char": "u",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.76 3.0 -6.8"
     },
     {
       "id": "umbrella",
@@ -43,7 +53,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.67 3.0 -6.8"
+    },
+    {
+      "id": "smallV",
+      "build": "letter3d",
+      "params": {
+        "char": "v",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.86 3.0 -6.8"
     },
     {
       "id": "violin",
@@ -89,7 +109,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.6 3.0 -6.8"
+    },
+    {
+      "id": "smallW",
+      "build": "letter3d",
+      "params": {
+        "char": "w",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "2.61 3.0 -6.8"
     },
     {
       "id": "watermelon",
@@ -137,7 +167,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.64 3.0 -6.8"
+    },
+    {
+      "id": "smallX",
+      "build": "letter3d",
+      "params": {
+        "char": "x",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.81 3.0 -6.8"
     },
     {
       "id": "xylophone",
@@ -164,7 +204,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.67 3.0 -6.8"
+    },
+    {
+      "id": "smallY",
+      "build": "letter3d",
+      "params": {
+        "char": "y",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.79 3.0 -6.8"
     },
     {
       "id": "yarn",
@@ -186,7 +236,7 @@
     {
       "id": "yak",
       "model": "realyak",
-      "position": "0.6 0 -5.6",
+      "position": "0.1 0 -5.6",
       "scale": "1 1 1",
       "name": {
         "en": "Yak",
@@ -207,7 +257,17 @@
         "height": 3,
         "depth": 0.4
       },
-      "position": "0 3.0 -6.8"
+      "position": "-1.42 3.0 -6.8"
+    },
+    {
+      "id": "smallZ",
+      "build": "letter3d",
+      "params": {
+        "char": "z",
+        "height": 3,
+        "depth": 0.4
+      },
+      "position": "1.64 3.0 -6.8"
     },
     {
       "id": "zebra",
@@ -268,7 +328,23 @@
     },
     {
       "show": [
-        "letterU"
+        "letterU",
+        "smallU"
+      ],
+      "highlight": "smallU",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा u है।",
+        "en": "This is small u.",
+        "mr": "हे छोटं u आहे.",
+        "or": "ଏହା ଛୋଟ u।"
+      },
+      "audio": "eng-nur-alphabets-s62.mp3"
+    },
+    {
+      "show": [
+        "letterU",
+        "smallU"
       ],
       "highlight": "letterU",
       "duration": 6000,
@@ -283,6 +359,7 @@
     {
       "show": [
         "letterU",
+        "smallU",
         "umbrella"
       ],
       "highlight": "umbrella",
@@ -299,6 +376,7 @@
     {
       "show": [
         "letterU",
+        "smallU",
         "umbrella"
       ],
       "highlight": "letterU",
@@ -327,7 +405,23 @@
     },
     {
       "show": [
-        "letterV"
+        "letterV",
+        "smallV"
+      ],
+      "highlight": "smallV",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा v है।",
+        "en": "This is small v.",
+        "mr": "हे छोटं v आहे.",
+        "or": "ଏହା ଛୋଟ v।"
+      },
+      "audio": "eng-nur-alphabets-s65.mp3"
+    },
+    {
+      "show": [
+        "letterV",
+        "smallV"
       ],
       "highlight": "letterV",
       "duration": 6000,
@@ -342,6 +436,7 @@
     {
       "show": [
         "letterV",
+        "smallV",
         "violin"
       ],
       "highlight": "violin",
@@ -358,6 +453,7 @@
     {
       "show": [
         "letterV",
+        "smallV",
         "violin",
         "van"
       ],
@@ -375,6 +471,7 @@
     {
       "show": [
         "letterV",
+        "smallV",
         "violin",
         "van"
       ],
@@ -404,7 +501,23 @@
     },
     {
       "show": [
-        "letterW"
+        "letterW",
+        "smallW"
+      ],
+      "highlight": "smallW",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा w है।",
+        "en": "This is small w.",
+        "mr": "हे छोटं w आहे.",
+        "or": "ଏହା ଛୋଟ w।"
+      },
+      "audio": "eng-nur-alphabets-s68.mp3"
+    },
+    {
+      "show": [
+        "letterW",
+        "smallW"
       ],
       "highlight": "letterW",
       "duration": 6500,
@@ -419,6 +532,7 @@
     {
       "show": [
         "letterW",
+        "smallW",
         "watermelon"
       ],
       "highlight": "watermelon",
@@ -435,6 +549,7 @@
     {
       "show": [
         "letterW",
+        "smallW",
         "watermelon",
         "whale"
       ],
@@ -452,6 +567,7 @@
     {
       "show": [
         "letterW",
+        "smallW",
         "watermelon",
         "whale"
       ],
@@ -481,7 +597,23 @@
     },
     {
       "show": [
-        "letterX"
+        "letterX",
+        "smallX"
+      ],
+      "highlight": "smallX",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा x है।",
+        "en": "This is small x.",
+        "mr": "हे छोटं x आहे.",
+        "or": "ଏହା ଛୋଟ x।"
+      },
+      "audio": "eng-nur-alphabets-s71.mp3"
+    },
+    {
+      "show": [
+        "letterX",
+        "smallX"
       ],
       "highlight": "letterX",
       "duration": 6000,
@@ -496,6 +628,7 @@
     {
       "show": [
         "letterX",
+        "smallX",
         "xylophone"
       ],
       "highlight": "xylophone",
@@ -512,6 +645,7 @@
     {
       "show": [
         "letterX",
+        "smallX",
         "xylophone"
       ],
       "highlight": "letterX",
@@ -540,7 +674,23 @@
     },
     {
       "show": [
-        "letterY"
+        "letterY",
+        "smallY"
+      ],
+      "highlight": "smallY",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा y है।",
+        "en": "This is small y.",
+        "mr": "हे छोटं y आहे.",
+        "or": "ଏହା ଛୋଟ y।"
+      },
+      "audio": "eng-nur-alphabets-s74.mp3"
+    },
+    {
+      "show": [
+        "letterY",
+        "smallY"
       ],
       "highlight": "letterY",
       "duration": 6500,
@@ -555,6 +705,7 @@
     {
       "show": [
         "letterY",
+        "smallY",
         "yarn"
       ],
       "highlight": "yarn",
@@ -571,6 +722,7 @@
     {
       "show": [
         "letterY",
+        "smallY",
         "yarn",
         "yak"
       ],
@@ -588,6 +740,7 @@
     {
       "show": [
         "letterY",
+        "smallY",
         "yarn",
         "yak"
       ],
@@ -617,7 +770,23 @@
     },
     {
       "show": [
-        "letterZ"
+        "letterZ",
+        "smallZ"
+      ],
+      "highlight": "smallZ",
+      "duration": 4500,
+      "script": {
+        "hi": "यह छोटा z है।",
+        "en": "This is small z.",
+        "mr": "हे छोटं z आहे.",
+        "or": "ଏହା ଛୋଟ z।"
+      },
+      "audio": "eng-nur-alphabets-s77.mp3"
+    },
+    {
+      "show": [
+        "letterZ",
+        "smallZ"
       ],
       "highlight": "letterZ",
       "duration": 6500,
@@ -632,6 +801,7 @@
     {
       "show": [
         "letterZ",
+        "smallZ",
         "zebra"
       ],
       "highlight": "zebra",
@@ -648,6 +818,7 @@
     {
       "show": [
         "letterZ",
+        "smallZ",
         "zebra",
         "zebu"
       ],
@@ -665,6 +836,7 @@
     {
       "show": [
         "letterZ",
+        "smallZ",
         "zebra",
         "zebu"
       ],

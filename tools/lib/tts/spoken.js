@@ -121,6 +121,10 @@ export function spoken(text, lang) {
     // The English voice was trained without a capital X — it says "ylophone".
     s = s.replace(/X/g, 'x');
   } else {
+    // "यह छोटा a है" names the small letter. Left alone, a lone "a" is read as
+    // the sound it makes — which is what "A की ध्वनि — a" means by it — and the
+    // child is told the capital is "ए" and the small one is "ऐ".
+    s = s.replace(/(छोटा|छोटं|ଛୋଟ) ([a-z])(?![A-Za-z])/g, (m, w, c) => `${w} ${c.toUpperCase()}`);
     s = s.replace(/[A-Za-z]+/g, (w) => {
       const known = WORDS[lang]?.[w.toLowerCase()];
       if (known && w.length > 1) return known;
