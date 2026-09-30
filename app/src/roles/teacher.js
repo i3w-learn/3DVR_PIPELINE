@@ -78,6 +78,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
   let { lesson } = await loadLesson(lessonId);
 
   let paused = false;
+  let entering = false;
   const clock = new Clock(() => next());
 
   const bar = new ControlBar(controlsRoot, {
@@ -140,11 +141,20 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
    * headset rebuilds without a word of new protocol.
    */
   async function enter(nextLessonId, review = false) {
-    if (nextLessonId === lesson.id) return;
+    // One door at a time. A second tap on Next while the next sitting was
+    // still being fetched walked through the door twice: the class arrived,
+    // moved on a step or two, and was put back at the start.
+    if (entering || nextLessonId === lesson.id) return;
 
     // Loaded before anything is published. Publishing first and failing to
     // load would leave the class staring at a lesson that does not exist.
-    const loaded = await loadLesson(nextLessonId, { review });
+    let loaded;
+    entering = true;
+    try {
+      loaded = await loadLesson(nextLessonId, { review });
+    } finally {
+      entering = false;
+    }
 
     lesson = loaded.lesson;
     session.lesson = lesson.id;

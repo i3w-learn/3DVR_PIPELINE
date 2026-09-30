@@ -68,8 +68,8 @@
     {
       "id": "violin",
       "model": "realviolin",
-      "position": "-2.5 0 -3.9",
-      "scale": "1.6 1.6 1.6",
+      "position": "-2.2 0 -3.9",
+      "scale": "0.5 0.5 0.5",
       "name": {
         "en": "Violin",
         "hi": "वायलिन",
@@ -86,6 +86,7 @@
       "id": "van",
       "model": "realvan",
       "position": "3.6 0 -7.2",
+      "rotation": "0 180 0",
       "scale": "1 1 1",
       "name": {
         "en": "Van",

@@ -13,6 +13,8 @@
  * looking at animals on flat ground, nobody can tell.
  */
 
+import { posedBounds } from './posed-bounds.js';
+
 /** Cached so N objects share one texture rather than generating N of them. */
 let sharedTexture = null;
 
@@ -45,27 +47,67 @@ AFRAME.registerComponent('contact-shadow', {
 
     // Size it to what the model actually occupies, once the model exists.
     this.el.addEventListener('model-loaded', () => this.fit(), { once: true });
+
+    // A thing built out of child entities — a bead, a letter card — never says
+    // `model-loaded`; its parts turn up one by one over the first few frames.
+    // Each says so as it arrives, and the patch is measured again once they
+    // have stopped arriving.
+    this.onPart = () => {
+      clearTimeout(this.refit);
+      this.refit = setTimeout(() => this.fit(), 80);
+    };
+    this.el.addEventListener('object3dset', this.onPart);
+
     this.fit();
   },
 
-  /** Match the patch to the model's footprint, not to a guess. */
+  /**
+   * Match the patch to the model's footprint, not to a guess.
+   *
+   * A frame late, so the skeleton has been posed; and measured on the posed
+   * vertices in the object's OWN space, for two reasons that both showed on a
+   * table of insects. Measured as modelled, a grasshopper is 4.6 m long. And
+   * measured in the world and then set on a patch that is scaled with its
+   * object, the size was multiplied by the object's scale a second time: the
+   * grasshopper, drawn three and a half times life size, stood on a dark pool
+   * 13 m across.
+   */
   fit() {
-    const mesh = this.el.getObject3D('mesh');
-    const size = this.data.radius * 2;
+    cancelAnimationFrame(this.pending);
+    this.pending = requestAnimationFrame(() => {
+      const guess = this.data.radius * 2;
+      const mesh = this.el.getObject3D('mesh');
 
-    if (mesh) {
-      const box = new THREE.Box3().setFromObject(mesh);
+      // A downloaded model is one mesh on the entity. A thing built from child
+      // entities — a bead, a letter card — has none, and its parts are
+      // measured instead: all but the marks hung on it afterwards.
+      const marks = [this.patch, this.el.components.highlight?.ring?.object3D, this.el.components['tap-target']?.box?.object3D];
+      const roots = mesh ? [mesh] : this.el.object3D.children.filter((part) => !marks.includes(part));
+      const bounds = posedBounds(roots, this.el.object3D);
+
       // Slightly smaller than the footprint, not larger. Contact darkening is
       // tightest where the body is closest to the ground; spreading it wider
       // than the animal turns it into a second, wrong shadow.
-      const footprint = Math.max(box.max.x - box.min.x, box.max.z - box.min.z);
-      if (footprint > 0) return this.patch.scale.set(footprint * 0.85, footprint * 0.85, 1);
-    }
+      const footprint = bounds
+        ? Math.max(bounds.max[0] - bounds.min[0], bounds.max[2] - bounds.min[2]) * 0.85
+        : 0;
 
-    this.patch.scale.set(size, size, 1);
+      // A built thing only ever comes DOWN from the guess. Under a bead 6 cm
+      // across the guess is a pool 1.2 m across, and twenty beads in a row
+      // stacked twenty of them into a black hole in the table. But a built
+      // school has always had the guess, and a patch the size of a school is
+      // a dark ring thirty metres across round its walls. Only a downloaded
+      // model is trusted to be as big as it measures.
+      const downloaded = this.el.hasAttribute('gltf-model');
+      const across = footprint > 0 && (downloaded || footprint < guess) ? footprint : guess;
+      this.patch.scale.set(across, across, 1);
+    });
   },
 
   remove() {
+    cancelAnimationFrame(this.pending);
+    clearTimeout(this.refit);
+    this.el.removeEventListener('object3dset', this.onPart);
     this.el.object3D.remove(this.patch);
     this.patch.geometry.dispose();
   },

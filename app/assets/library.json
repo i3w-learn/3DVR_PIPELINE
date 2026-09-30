@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T10:16:20.028Z",
+  "generated": "2026-09-30T11:11:56.300Z",
   "models": {
     "airplane": {
       "file": "models/airplane.glb",
@@ -2513,7 +2513,7 @@
       "depth": 0.994,
       "triangles": 2336,
       "meshes": 1,
-      "bytes": 777356,
+      "bytes": 777280,
       "clips": [
         "Armature|idle",
         "Armature|walk"
