@@ -16,8 +16,9 @@ had gone down it. Follow it in order; every step is one command._
 | 6. Look | open the lesson with `&look=pumpkin` | 1 minute |
 | 7. Credit | `npm run content:credits && npm run content:objects` | 10 seconds |
 
-Costs nothing. Sketchfab and Poly Haven are free; only step 8 (AI) costs money,
-and only when steps 1 and 2 find nothing.
+Costs nothing. Sketchfab and Poly Haven are free; so is scanning a real thing
+with a phone (step 8). Only an AI model or an artist costs money, and only when
+nothing free will do.
 
 Model ids are one lowercase word, `real` in front: `realpumpkin`. The `real`
 says it came from a scan or a photo-real model; the plain name is kept for the
@@ -187,7 +188,30 @@ npm run content:objects
 what is realistic, what is still built by code, and why. Both are generated;
 do not edit them by hand.
 
-## 8. When nothing free exists — an AI model
+## 8. When Sketchfab has nothing
+
+Sketchfab is the first door, not the only one. Steps 3 to 7 take a model
+from anywhere; only how the file is got changes. In this order:
+
+| Route | Best for | Cost | What you get |
+|---|---|---|---|
+| **Other free libraries** — Poly Haven, Smithsonian 3D scans | Rocks, plants, museum animals and objects | ₹0 | Very good scans, but few things |
+| **Scan a real thing with a phone** — RealityScan or Polycam, five minutes walking round it | Indian things we can hold: a dholak, a matka, a tiffin box, a charpai, local fruit and vegetables | ₹0 | The most realistic of all: it *is* the thing |
+| **Build it in Blender with real textures** from Poly Haven | Man-made things with simple shapes: a door, a gate, a stall, a well, a cart, a hut | ₹0, an hour each | Good |
+| **AI from a sentence or a photo** — Tripo, Rodin (below) | Natural or detailed single things: a peacock, a marigold, a tree | About ₹130 each | Uneven; each needs your eye |
+| **Pay an artist** | People with a skeleton that move; anything that must be exactly right | ₹1,500–5,000 a prop, more for a person | Best, slowest |
+
+Whichever route: the file comes out as a GLB. Put it at `raw/<id>.glb` and
+write the record `raw/<id>.meta.json` by hand — `id`, `source` (who or what
+made it, and when), `licence` (`CC0` for our own scans and builds, `CC-BY`
+where the source asks for credit), `url`, `targetHeight`, and a `notes` line.
+Then step 3 as usual. `raw/peacocktripo.meta.json` is the pattern.
+
+A phone scan wants a matt object in even daylight, on a plain table, with
+forty or more photos all the way round; shiny, thin or see-through things
+scan badly. The scan comes out with a floor under it — `dropNodes` in step 3.
+
+### An AI model
 
 For some things there is no free model worth having: a peacock, an Indian
 farmer, a marigold. Then one is made from a sentence or a photo.
@@ -198,9 +222,7 @@ farmer, a marigold. Then one is made from a sentence or a photo.
 | Hyper3D Rodin | Free to try; about $1.50 per model downloaded, or $30 a month | Exports GLB. Also reachable from Blender MCP. |
 | Meshy | Free plan cannot download the full-quality model | Paid only, in practice |
 
-Whichever is used: download the GLB, put it at `raw/<id>.glb`, and write the
-record by hand, the way `raw/peacocktripo.meta.json` does — `source` naming
-the service and date, `licence` `CC-BY`, `url`, `targetHeight`, and a `notes`
+Whichever is used: download the GLB and record it as above, with the `notes`
 line saying it is AI-made. Then steps 3 to 7 as usual.
 
 Be careful with AI animals and people. The first AI peacocks had pale, oddly
