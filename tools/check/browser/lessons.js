@@ -40,6 +40,7 @@ import { chromium } from 'playwright-core';
 import { LESSONS_DIR, ROOT } from '../../lib/paths.js';
 
 const BASE = process.env.BASE ?? 'http://localhost:4500/app/';
+const ORIGIN = new URL(BASE).origin;
 const OUT = path.join(ROOT, '.work', 'browse');
 const SHOTS = path.join(OUT, 'shots');
 const WORKERS = Number(process.env.WORKERS ?? 4);
@@ -83,7 +84,12 @@ async function audit(context, id) {
     else if (m.type() === 'warning' && !/THREE\.WebGLRenderer|deprecated|GPU stall|WebXR|powerPreference|Automatic fallback/i.test(text)) result.notes.push(`warning: ${text.slice(0, 200)}`);
   });
   page.on('pageerror', (e) => result.problems.push(`page error: ${String(e.message).slice(0, 220)}`));
-  page.on('request', (r) => pending.add(r));
+  page.on('request', (r) => {
+    pending.add(r);
+    // The classroom has no internet. A file asked of any other address loads
+    // at a desk and is missing there, and nothing else in this check notices.
+    if (/^https?:/.test(r.url()) && new URL(r.url()).origin !== ORIGIN) result.problems.push(`asked the internet: ${r.url()}`);
+  });
   const done = (r) => pending.delete(r);
   page.on('requestfinished', done);
   page.on('requestfailed', (r) => {

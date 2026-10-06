@@ -10,6 +10,19 @@
   <script src="https://..."> is a silent dependency on the internet that passes
   every laptop test before failing in the classroom.
 -->
+
+<!--
+  A-Frame has the same dependency hidden inside it. While it runs it downloads
+  extras of its own from cdn.aframe.io: its stock text fonts, and the controller
+  and hand models it draws in VR. This tells it to look in our own folder
+  instead, and it has to be set before A-Frame loads.
+
+  lib/aframe-cdn/ is laid out exactly as that site is, and holds only what we
+  use: the font on the building signs, the Quest 2, 3, 3S and Pro controllers,
+  and the tracked hands. A different headset needs its own controller model
+  copied in at the same path — until then it gets a ray and no controller.
+-->
+<script>window.AFRAME_CDN_ROOT = 'lib/aframe-cdn/';</script>
 <script src="lib/aframe.min.js"></script>
 <script src="lib/aframe-extras.min.js"></script>
 
