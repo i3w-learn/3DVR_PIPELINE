@@ -98,11 +98,17 @@
   let lang = 'en';
   try { lang = localStorage.getItem('vr-lands-lang') || 'en'; } catch {}
 
+  // The tablet app opens this page with `?classroom=ws://…`, the meeting point
+  // the headsets are connected to. Every door out of here carries it along, or
+  // the lesson would play on the tablet alone.
+  const classroom = new URLSearchParams(location.search).get('classroom');
+
   function href(land) {
     const q = new URLSearchParams({ lesson: land.lesson, role: 'teacher' });
     const vr = document.getElementById('start-vr');
-    vr.href = './?' + new URLSearchParams({ lesson: 'lobby', role: 'teacher', ...(lang !== 'en' ? { lang } : {}) });
+    vr.href = './?' + new URLSearchParams({ lesson: 'lobby', role: 'teacher', ...(lang !== 'en' ? { lang } : {}), ...(classroom ? { classroom } : {}) });
     if (lang !== 'en') q.set('lang', lang);
+    if (classroom) q.set('classroom', classroom);
     let s = `./?${q}`;
     if (land.review) s += '&review';
     return s;

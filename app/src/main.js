@@ -12,16 +12,21 @@ import './behaviours/index.js';
 import './builders/index.js';
 import './scene/index.js';
 
+import { ClassroomTransport } from './core/classroom-transport.js';
 import { LocalTransport } from './core/local-transport.js';
 import { Session } from './core/session.js';
 import { startHeadset } from './roles/headset.js';
 import { startTeacher } from './roles/teacher.js';
 import { lookCloser } from './ui/look-closer.js';
 
-/** Swapped for MqttTransport when a broker is in the room. Nothing else changes. */
-const transport = new LocalTransport();
-
 const params = new URLSearchParams(location.search);
+
+// `?classroom=ws://…` is the meeting point on the teacher's tablet. The apps
+// put it in the address they open; a laptop never has it, and the whole thing
+// runs inside one page instead. Nothing else changes between the two.
+const transport = params.has('classroom')
+  ? new ClassroomTransport(params.get('classroom'))
+  : new LocalTransport();
 
 // A bare address is a person, not a headset. Send them to the list of lands
 // and let them pick one. A headset that must wait for a teacher's tablet says
@@ -101,7 +106,14 @@ scene.addEventListener('loaded', async () => {
   };
 
   await transport.connect();
-  const session = new Session({ lang });
+
+  // A headset ignores any state whose number is not higher than the last it
+  // acted on. So a teacher's page that restarts must not count from one again,
+  // or every headset in the room would ignore her until she caught up with
+  // where she had been. Counting on from the clock guarantees a fresh start
+  // is always higher than any earlier one. Headsets start at zero: their
+  // number is whatever they are told.
+  const session = new Session({ lang, seq: role === 'teacher' ? Date.now() : 0 });
 
   try {
     if (role === 'teacher') {

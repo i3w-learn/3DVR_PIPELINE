@@ -11,8 +11,9 @@
  * router. Content and templates get built before the hardware arrives, and the
  * sync layer stays testable.
  *
- * `MqttTransport` implements the same four methods over mqtt.js for the
- * classroom. Swapping one for the other is one line in the role module.
+ * `ClassroomTransport` implements the same four methods over a WebSocket to
+ * the teacher's tablet for the classroom. Which one a page gets is decided
+ * once, in main.js, by whether the address names a meeting point.
  */
 
 export class Transport {

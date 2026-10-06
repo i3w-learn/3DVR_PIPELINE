@@ -77,14 +77,13 @@ test is pushed into the thin layers above it.
   /lib                       VENDORED libraries. No CDN. Ever.
     aframe.min.js
     aframe-extras.min.js
-    mqtt.min.js
 
   /src
     /core                    no A-Frame, no DOM — testable in Node
       lesson-schema.js       validate a lesson JSON, fail loudly
       transport.js           the transport INTERFACE (see §5)
-      mqtt-transport.js      real implementation — mqtt.js over WebSocket
-      local-transport.js     dev implementation — in-page, no Pi needed
+      classroom-transport.js real implementation — a WebSocket to the teacher's tablet
+      local-transport.js     dev implementation — in-page, no tablet needed
       clock.js               step timer. Teacher role only. One clock in the room.
       session.js             current lesson + step + language. Single writer.
 
@@ -135,7 +134,11 @@ Two folder rules that are not negotiable:
 
 - **`/lib` is vendored, never CDN.** The app must run with the network off. A
   `<script src="https://unpkg.com/...">` is a silent dependency on the internet and
-  will pass every laptop test before failing in the classroom.
+  will pass every laptop test before failing in the classroom. A-Frame has the
+  same dependency inside it — it downloads its stock fonts and its controller
+  and hand models from `cdn.aframe.io` — so `index.html` points it at
+  `lib/aframe-cdn/` instead, and `npm run content:browse` fails any lesson that
+  asks another address for a file.
 - **`/lessons` and `/assets` contain zero code.** If content needs code to work,
   the template is wrong.
 
@@ -235,7 +238,7 @@ The PoC's first pass did the opposite — shared mutable globals (`spinning`,
 `window.__walking`, `mi`, `ci`) and components reaching in by ID. It worked and it
 was untouchable. Pass 2 replaced all of it with events.
 
-**2. `lesson-sync` depends on a transport interface, not on `mqtt.js`.**
+**2. `lesson-sync` depends on a transport interface, not on a socket.**
 
 ```js
 // core/transport.js — the contract, four methods, nothing else
@@ -245,9 +248,10 @@ was untouchable. Pass 2 replaced all of it with events.
 //   onStatus(handler)
 ```
 
-`mqtt-transport.js` implements it for the classroom. `local-transport.js`
+`classroom-transport.js` implements it for the classroom, over one WebSocket
+to the meeting point in the tablet app (see the VR-app repo). `local-transport.js`
 implements it in-page for development. **Consequence: the whole app runs on a
-laptop with no Pi, no broker and no router** — you build content and templates
+laptop with no tablet, no broker and no router** — you build content and templates
 before the hardware arrives, and the sync layer stays unit-testable. The PRD's
 Appendix B `mosquitto_pub` trick is the same idea from the outside.
 
