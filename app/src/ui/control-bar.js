@@ -36,6 +36,7 @@ export class ControlBar {
 
   #render() {
     this.#root.innerHTML = `
+      <div id="headsets"></div>
       <p class="script" id="script-line"></p>
       <div class="controls">
         <span class="position" id="position"></span>

@@ -9,6 +9,7 @@
 import { LessonSync } from '../lesson-sync.js';
 import { FpsMeter } from '../core/fps-meter.js';
 import { TOPIC } from '../core/transport.js';
+import { waitingSign } from '../ui/waiting-sign.js';
 
 /** How often a headset says it is alive, in milliseconds. */
 const HEARTBEAT_MS = 1000;
@@ -18,6 +19,20 @@ export function startHeadset({ transport, session, elements }) {
   sync.start();
 
   const id = headsetId();
+
+  // Until the teacher has said where the class is, say so — in the scene,
+  // where a child in VR can read it. Gone on the first state message.
+  const sign = waitingSign(elements, transport);
+  transport.subscribe(TOPIC.state, () => sign.remove());
+
+  // The battery, for the teacher's strip. Chrome on a headset reports it;
+  // where a browser does not, the heartbeat simply says nothing about it.
+  let battery = null;
+  navigator.getBattery?.().then((manager) => {
+    const read = () => { battery = Math.round(manager.level * 100); };
+    manager.addEventListener('levelchange', read);
+    read();
+  });
 
   // A-Frame emits `render-target-loaded` once and then renders continuously;
   // counting ticks on the scene's own render loop is cheaper and more honest
@@ -43,6 +58,7 @@ export function startHeadset({ transport, session, elements }) {
         // off drops out of immersive mode, which is exactly what the teacher
         // needs to see on the status strip.
         worn: elements.scene.is('vr-mode'),
+        battery,
         fps: fps.value,
       },
       { qos: 0 }

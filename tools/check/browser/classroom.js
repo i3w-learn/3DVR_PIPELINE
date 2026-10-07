@@ -70,6 +70,7 @@ const open = async (query, ctx = context) => {
 const headsetA = await open(`role=headset&classroom=${HUB}`);
 await sleep(1500);
 check((await frames(headsetA, /class\/state/)).length === 0, 'headset A waits: no state before the teacher arrives');
+check(await headsetA.evaluate(() => !!document.querySelector('#waiting')), 'headset A shows "Waiting for the teacher" in the scene');
 
 // 2. The teacher arrives and opens a lesson.
 const teacher = await open(`lesson=${LESSON}&role=teacher&classroom=${HUB}`);
@@ -77,10 +78,14 @@ const first = await waitFor(headsetA, (f) => f.topic === 'class/state', 'state o
 check(first.payload.lesson === LESSON && first.payload.step === 0, `headset A got "${first.payload.lesson}, step ${first.payload.step}" from the teacher`);
 await headsetA.waitForFunction(() => document.querySelectorAll('#stage [gltf-model]').length > 0, null, { timeout: 60000 });
 check(true, 'headset A built the lesson scene from that message');
+check(await headsetA.evaluate(() => !document.querySelector('#waiting')), 'the waiting sign is gone');
 
 // 3. Heartbeats reach the teacher.
 const beat = await waitFor(teacher, (f) => /^headset\/\d+\/status$/.test(f.topic), 'a heartbeat on the teacher');
-check(beat.payload.worn === false && 'fps' in beat.payload, `teacher hears headset ${beat.payload.id}: worn=${beat.payload.worn}, fps=${beat.payload.fps}`);
+check(beat.payload.worn === false && 'fps' in beat.payload, `teacher hears headset ${beat.payload.id}: worn=${beat.payload.worn}, battery=${beat.payload.battery}, fps=${beat.payload.fps}`);
+await teacher.waitForSelector(`#headsets .headset[data-id="${beat.payload.id}"]`, { timeout: 5000 });
+const tile = await teacher.evaluate((id) => { const t = document.querySelector(`#headsets .headset[data-id="${id}"]`); return { state: t.dataset.state, battery: t.querySelector('.battery').textContent }; }, beat.payload.id);
+check(tile.state === 'off', `the teacher's strip shows headset ${beat.payload.id}: ${tile.state}, battery "${tile.battery}"`);
 
 // 4. A late headset is handed the current step on connect.
 const headsetB = await open(`role=headset&classroom=${HUB}`, contextB);
@@ -106,6 +111,8 @@ await headsetB.close();
 const t0 = Date.now();
 const will = await waitFor(teacher, (f) => f.topic === `headset/${idB}/lwt`, 'lwt for B', 6000);
 check(!!will, `headset B switched off: teacher told within ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+await sleep(300);
+check((await teacher.evaluate((id) => document.querySelector(`#headsets .headset[data-id="${id}"]`)?.dataset.state, idB)) === 'gone', `the strip shows headset ${idB} as gone`);
 
 // 8. The teacher's page restarts: her fresh count must still beat the old one.
 await teacher.close();

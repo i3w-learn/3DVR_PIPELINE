@@ -14,6 +14,7 @@ import { loadLesson } from '../core/lesson-loader.js';
 import { Session } from '../core/session.js';
 import { TOPIC } from '../core/transport.js';
 import { ControlBar } from '../ui/control-bar.js';
+import { StatusStrip } from '../ui/status-strip.js';
 
 /** The lesson that is the menu of lands. */
 const LOBBY = 'lobby';
@@ -88,6 +89,12 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
     onBlackout: () => transport.publish(TOPIC.command, { cmd: 'blackout' }),
     onLands: () => enter(LOBBY).catch(showError),
   });
+
+  // Who is in the room. Heartbeats come from every headset once a second;
+  // the meeting point adds a word when one has gone.
+  const strip = new StatusStrip(controlsRoot.querySelector('#headsets'));
+  transport.subscribe(TOPIC.statusWildcard, (beat) => strip.beat(beat));
+  transport.subscribe(TOPIC.willWildcard, ({ id }) => strip.gone(id));
 
   /** Publish where the class now is, then start that step's countdown. */
   function go(stepIndex) {

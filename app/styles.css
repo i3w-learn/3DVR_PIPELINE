@@ -26,6 +26,35 @@ body[data-role="headset"] #controls { display: none; }
 }
 
 /*
+  The headsets, one small tile each, above the script line. Green is on a
+  child's head and following; amber is connected but taken off; grey has not
+  been heard from for three seconds. Nothing is drawn until the first heartbeat.
+*/
+#controls .headsets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+#controls .headsets:empty { display: none; }
+
+#controls .headset {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  padding: 4px 9px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  background: #3d5a3a;
+}
+
+#controls .headset small { opacity: 0.75; font-size: 12px; }
+#controls .headset[data-state="off"] { background: #6e5a2a; }
+#controls .headset[data-state="gone"] { background: #3a3835; opacity: 0.55; }
+
+/*
   The script line the teacher reads aloud.
 
   Large on purpose: it has to be readable at arm's length, on a tablet resting

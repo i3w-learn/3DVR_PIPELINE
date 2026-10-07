@@ -52,4 +52,5 @@ export const TOPIC = {
   status: (id) => `headset/${id}/status`,
   statusWildcard: 'headset/+/status',
   will: (id) => `headset/${id}/lwt`,
+  willWildcard: 'headset/+/lwt',
 };
