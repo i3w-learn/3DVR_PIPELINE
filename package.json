@@ -26,6 +26,7 @@
     "content:objects": "node tools/build/object-report.js",
     "content:letters": "node tools/build/letters.js",
     "content:browse": "node tools/check/browser/lessons.js",
+    "content:classroom": "node tools/check/browser/classroom.js",
     "content:sheets": "node tools/check/browser/sheets.js",
     "content:around": "node tools/check/browser/around.js",
     "content:live": "node tools/check/browser/live.js"
