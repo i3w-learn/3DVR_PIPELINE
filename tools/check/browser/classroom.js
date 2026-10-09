@@ -112,6 +112,9 @@ check((await frames(headsetA, /class\/state/)).length === before + 1, 'the sende
 await teacher.getByRole('button', { name: /blackout/i }).click();
 const cmd = await waitFor(headsetB, (f) => f.topic === 'class/command', 'blackout on B');
 check(cmd.payload.cmd === 'blackout', 'teacher tapped Blackout: headsets got the command');
+await teacher.getByRole('button', { name: /lights on/i }).click();
+const lights = await waitFor(headsetB, (f) => f.topic === 'class/command' && f.payload.cmd === 'resume', 'resume on B');
+check(!!lights, 'teacher tapped Lights on: headsets got "resume"');
 
 // 7. A headset that goes away is reported within 3 seconds.
 const idB = (await waitFor(teacher, (f) => /status$/.test(f.topic) && f.payload.id !== beat.payload.id, 'B heartbeat')).payload.id;

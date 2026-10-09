@@ -34,6 +34,10 @@ export class ControlBar {
     this.#root.querySelector('[data-action="pause"]').textContent = paused ? '▶ Resume' : '❚❚ Pause';
   }
 
+  setBlackout(blackedOut) {
+    this.#root.querySelector('[data-action="blackout"]').textContent = blackedOut ? 'Lights on' : 'Blackout';
+  }
+
   #render() {
     this.#root.innerHTML = `
       <div id="headsets"></div>

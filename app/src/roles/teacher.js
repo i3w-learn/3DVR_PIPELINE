@@ -103,6 +103,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
   let { lesson } = await loadLesson(lessonId);
 
   let paused = false;
+  let blackedOut = false;
   let entering = false;
   const clock = new Clock(() => next());
 
@@ -110,7 +111,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
     onBack: () => go(session.step - 1),
     onNext: () => next(),
     onPause: () => togglePause(),
-    onBlackout: () => transport.publish(TOPIC.command, { cmd: 'blackout' }),
+    onBlackout: () => toggleBlackout(),
     onLands: () => enter(LOBBY).catch(showError),
   });
 
@@ -152,6 +153,21 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
     if (paused) clock.pause();
     else clock.resume();
     bar.setPaused(paused);
+  }
+
+  /**
+   * "Eyes on me", and back again.
+   *
+   * One button, two commands. Blackout turns every headset's sky to black
+   * where it stands; the second tap sends `resume`, which lets the sky back
+   * without rebuilding anything. Moving to another step does not undo a
+   * blackout on its own — the teacher said eyes on me, and only the teacher
+   * says otherwise.
+   */
+  function toggleBlackout() {
+    blackedOut = !blackedOut;
+    transport.publish(TOPIC.command, { cmd: blackedOut ? 'blackout' : 'resume' });
+    bar.setBlackout(blackedOut);
   }
 
   function render() {
