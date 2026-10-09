@@ -62,6 +62,7 @@ export class ControlBar {
       const button = event.target.closest('button');
       const action = button?.dataset.action;
       if (!action) return;
+      console.log(`teacher ✓ tapped: ${button.textContent.trim()}`);
 
       // Hand focus back to the page. A button that keeps it swallows the
       // space bar into a second press, and leaves the scene's own keys

@@ -32,7 +32,7 @@ export class StatusStrip {
     if (id === undefined || id === null) return;
     const tile = this.#tile(id);
     tile.seen = Date.now();
-    tile.element.dataset.state = worn ? 'worn' : 'off';
+    this.#setState(tile, worn ? 'worn' : 'off');
     tile.element.querySelector('.battery').textContent =
       typeof battery === 'number' ? `${battery}%` : '';
   }
@@ -40,7 +40,15 @@ export class StatusStrip {
   /** The meeting point says this headset has gone. */
   gone(id) {
     const tile = this.#tiles.get(String(id));
-    if (tile) tile.element.dataset.state = 'gone';
+    if (tile) this.#setState(tile, 'gone');
+  }
+
+  /** Changes are logged; the once-a-second heartbeat is not. */
+  #setState(tile, state) {
+    if (tile.element.dataset.state === state) return;
+    tile.element.dataset.state = state;
+    const words = { worn: 'on a head, following', off: 'connected, taken off', gone: 'not heard from' };
+    console.log(`teacher · headset ${tile.element.dataset.id}: ${words[state]}`);
   }
 
   #tile(id) {
@@ -57,13 +65,14 @@ export class StatusStrip {
 
     tile = { element, seen: 0 };
     this.#tiles.set(key, tile);
+    console.log(`teacher ✓ headset ${key} joined`);
     return tile;
   }
 
   #sweep() {
     const now = Date.now();
     for (const tile of this.#tiles.values()) {
-      if (now - tile.seen > SILENCE_MS) tile.element.dataset.state = 'gone';
+      if (now - tile.seen > SILENCE_MS) this.#setState(tile, 'gone');
     }
   }
 }

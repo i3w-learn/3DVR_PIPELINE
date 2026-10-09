@@ -105,7 +105,10 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
   let paused = false;
   let blackedOut = false;
   let entering = false;
-  const clock = new Clock(() => next());
+  const clock = new Clock(() => {
+    console.log('teacher · step time is up, moving on');
+    next();
+  });
 
   const bar = new ControlBar(controlsRoot, {
     onBack: () => go(session.step - 1),
@@ -205,6 +208,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
 
     lesson = loaded.lesson;
     session.lesson = lesson.id;
+    console.log(`teacher ✓ entered: ${lesson.id}`);
 
     // The way home is not shown while you are home.
     setHomeTile(elements, lesson.id !== LOBBY);

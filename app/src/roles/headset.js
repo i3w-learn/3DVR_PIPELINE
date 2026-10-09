@@ -27,7 +27,11 @@ export function startHeadset({ transport, session, elements, id = headsetId() })
   // Until the teacher has said where the class is, say so — in the scene,
   // where a child in VR can read it. Gone on the first state message.
   const sign = waitingSign(elements, transport);
+  console.log(`headset ${id} · waiting for the teacher`);
   transport.subscribe(TOPIC.state, () => sign.remove());
+
+  elements.scene.addEventListener('enter-vr', () => console.log(`headset ${id} ✓ in VR`));
+  elements.scene.addEventListener('exit-vr', () => console.log(`headset ${id} · out of VR`));
 
   // The battery, for the teacher's strip. Chrome on a headset reports it;
   // where a browser does not, the heartbeat simply says nothing about it.

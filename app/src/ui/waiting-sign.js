@@ -51,6 +51,7 @@ export function waitingSign(elements, transport) {
     /** Safe to call on every state message; only the first one does anything. */
     remove() {
       if (!sign.parentNode) return;
+      console.log('headset ✓ the teacher has started');
       clearInterval(timer);
       sign.parentNode.removeChild(sign);
     },

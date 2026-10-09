@@ -64,22 +64,25 @@ const waitFor = async (page, test, label, ms = 15000) => {
 let failed = 0;
 const check = (ok, label) => { console.log(`${ok ? '✓' : '✗'} ${label}`); if (!ok) failed += 1; };
 
-const open = async (query, ctx = context) => {
+// LOGS=1 prints each page's own account of events, as a child or teacher's
+// browser console would show it.
+const open = async (query, ctx = context, label = query.replace(/&classroom=.*$/, '')) => {
   const page = await ctx.newPage();
   page.on('pageerror', (e) => console.log('  page error:', e.message));
+  if (process.env.LOGS) page.on('console', (m) => { if (/^(classroom|lesson|teacher|headset)/.test(m.text()) && !/status/.test(m.text())) console.log(`    [${label}] ${m.text()}`); });
   await page.goto(`${BASE}?${query}`, { waitUntil: 'load' });
   await page.waitForFunction(() => document.querySelector('a-scene')?.hasLoaded, null, { timeout: 60000 });
   return page;
 };
 
 // 1. A headset comes up first, with no teacher yet.
-const headsetA = await open(`role=headset&classroom=${HUB}&id=7`); // the number the app gives it
+const headsetA = await open(`role=headset&classroom=${HUB}&id=7`, context, 'headset 7'); // the number the app gives it
 await sleep(1500);
 check((await frames(headsetA, /class\/state/)).length === 0, 'headset A waits: no state before the teacher arrives');
 check(await headsetA.evaluate(() => !!document.querySelector('#waiting')), 'headset A shows "Waiting for the teacher" in the scene');
 
 // 2. The teacher arrives and opens a lesson.
-const teacher = await open(`lesson=${LESSON}&role=teacher&classroom=${HUB}`);
+const teacher = await open(`lesson=${LESSON}&role=teacher&classroom=${HUB}`, context, 'teacher');
 const first = await waitFor(headsetA, (f) => f.topic === 'class/state', 'state on headset A');
 check(first.payload.lesson === LESSON && first.payload.step === 0, `headset A got "${first.payload.lesson}, step ${first.payload.step}" from the teacher`);
 await headsetA.waitForFunction(() => document.querySelectorAll('#stage [gltf-model]').length > 0, null, { timeout: 60000 });
@@ -96,7 +99,7 @@ check(String(beat.payload.id) === '7', 'the headset goes by the number its app g
 check((await teacher.evaluate(() => window.__awake)).includes('screen'), "the teacher's page asked for the screen to stay awake");
 
 // 4. A late headset is handed the current step on connect.
-const headsetB = await open(`role=headset&classroom=${HUB}`, contextB);
+const headsetB = await open(`role=headset&classroom=${HUB}`, contextB, 'headset B');
 const late = await waitFor(headsetB, (f) => f.topic === 'class/state', 'state on late headset B');
 check(late.payload.lesson === LESSON, `headset B joined late and was handed "${late.payload.lesson}, step ${late.payload.step}" at once`);
 
@@ -137,7 +140,7 @@ check((await teacher.evaluate((id) => document.querySelector(`#headsets .headset
 
 // 8. The teacher's page restarts: her fresh count must still beat the old one.
 await teacher.close();
-const teacher2 = await open(`lesson=${LESSON}&role=teacher&classroom=${HUB}`);
+const teacher2 = await open(`lesson=${LESSON}&role=teacher&classroom=${HUB}`, context, 'teacher again');
 const fresh = await waitFor(headsetA, (f) => f.topic === 'class/state' && f.payload.seq > stepA.payload.seq, 'state from the restarted teacher', 20000);
 check(fresh.payload.seq > stepA.payload.seq && fresh.payload.step === 0, `teacher restarted: headset A takes her "step 0" (count ${fresh.payload.seq} > ${stepA.payload.seq})`);
 

@@ -72,6 +72,7 @@ export class LessonSync {
     // from a choice rather than from a step. The template announces the
     // choice; playing it stays here, with the rest of the narration.
     this.#elements.stage.addEventListener('explore-chose', (event) => {
+      console.log(`lesson ✓ chose: ${event.detail.id}`);
       this.#speak(event.detail.id, event.detail.walking);
       this.#onChoice?.(event.detail);
     });
@@ -79,12 +80,17 @@ export class LessonSync {
     // In `identify` the teacher's step calls an animal over; its sound plays
     // as it sets off, the way a tapped animal's does. The narration stays
     // with the step.
-    this.#elements.stage.addEventListener('identify-called', (event) => this.#sound(event.detail.id));
+    this.#elements.stage.addEventListener('identify-called', (event) => {
+      console.log(`lesson ✓ called over: ${event.detail.id}`);
+      this.#sound(event.detail.id);
+    });
     // A thing that walked, flew or fell in makes its noise when it gets there.
     // Only the first time: a dolphin that leaps every few seconds does not
     // squeak every few seconds.
     this.#elements.stage.addEventListener('arrived', (event) => {
-      if (event.detail.first) this.#sound(event.detail.id);
+      if (!event.detail.first) return;
+      console.log(`lesson ✓ arrived: ${event.detail.id}`);
+      this.#sound(event.detail.id);
     });
     // An animal that was called speaks on arrival, not on being picked.
     this.#elements.stage.addEventListener('wander-arrived', (event) => {
@@ -172,6 +178,7 @@ export class LessonSync {
 
     const loaded = await loadLesson(lessonId);
     this.#template = getTemplate(loaded.lesson.template);
+    console.log(`lesson ✓ built: ${loaded.lesson.id} (${loaded.lesson.template}, ${loaded.lesson.objects.length} objects, ${loaded.lesson.steps.length} steps)`);
 
     this.#dressStage(loaded.stage);
     this.#template.build(stageEl, loaded);
@@ -439,6 +446,7 @@ export class LessonSync {
     if (!object?.audio) return;
 
     const { voice } = this.#elements;
+    console.log(`lesson ♪ narrating: ${objectId} (${this.#session.lang})`);
     voice.setAttribute('src', `assets/audio/${this.#session.lang}/${object.audio}`);
     voice.components?.sound?.playSound();
   }
