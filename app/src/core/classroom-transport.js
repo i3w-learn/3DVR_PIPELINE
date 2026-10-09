@@ -24,6 +24,12 @@
  * and on, or a tablet that restarted, is a few seconds' gap and not a fault.
  *
  * One frame per message: `{"topic": …, "payload": {…}, "retain": …}`.
+ *
+ * Everything that happens on the wire is written to the console with a
+ * `classroom` tag — connected, lost, every message out (▶) and in (◀) — so
+ * that "did the headset get it?" can be answered by looking. On a headset or
+ * a phone the console is a cable away: USB debugging on, then chrome://inspect
+ * in Chrome on a laptop lists the device's pages.
  */
 
 import { LocalTransport } from './local-transport.js';
@@ -75,6 +81,7 @@ export class ClassroomTransport extends Transport {
   }
 
   #send(topic, payload, retain) {
+    log('▶', topic, payload);
     this.#socket.send(JSON.stringify({ topic, payload, retain }));
   }
 
@@ -95,6 +102,7 @@ export class ClassroomTransport extends Transport {
     this.#socket = socket;
 
     socket.onopen = () => {
+      log('●', `connected to ${this.#url}`);
       for (const [topic, payload] of this.#retained) this.#send(topic, payload, true);
     };
 
@@ -106,6 +114,7 @@ export class ClassroomTransport extends Transport {
         return;
       }
       if (typeof frame?.topic !== 'string') return;
+      log('◀', frame.topic, frame.payload);
       this.#local.publish(frame.topic, frame.payload ?? {}, { retain: frame.retain === true });
     };
 
@@ -113,7 +122,13 @@ export class ClassroomTransport extends Transport {
     socket.onclose = () => {
       if (this.#socket !== socket) return;
       this.#socket = null;
+      if (!this.#closed) log('○', `no connection to ${this.#url}, trying again every second`);
       this.#retry = setTimeout(() => this.#open(), RETRY_MS);
     };
   }
+}
+
+function log(mark, what, payload) {
+  if (payload === undefined) console.log(`classroom ${mark} ${what}`);
+  else console.log(`classroom ${mark} ${what}`, payload);
 }

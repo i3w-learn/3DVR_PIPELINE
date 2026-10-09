@@ -57,7 +57,31 @@ function setHomeTile(elements, away) {
   tile.setAttribute('visible', away && elements.scene.is('vr-mode'));
 }
 
+/**
+ * Keep the tablet's screen on.
+ *
+ * The one clock in the room lives in this page, and a page on a screen that
+ * has gone dark is paused: the lesson would stop advancing the moment the
+ * tablet dozed off on the table. The browser gives a page a way to ask for
+ * the screen to stay awake; it lets go whenever the page is hidden, so it is
+ * asked for again each time the page comes back.
+ */
+function keepScreenAwake() {
+  const ask = async () => {
+    if (document.visibilityState !== 'visible' || !navigator.wakeLock) return;
+    try {
+      await navigator.wakeLock.request('screen');
+    } catch {
+      // A browser that will not: nothing more to do, the teacher is told in
+      // the docs to keep the tablet awake.
+    }
+  };
+  document.addEventListener('visibilitychange', ask);
+  ask();
+}
+
 export async function startTeacher({ transport, session, elements, controlsRoot, lessonId }) {
+  keepScreenAwake();
   // Two sessions, deliberately.
   //
   // `session` is the publisher: it owns the sequence number and decides where

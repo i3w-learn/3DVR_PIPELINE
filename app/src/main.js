@@ -129,7 +129,7 @@ scene.addEventListener('loaded', async () => {
       // the reviewer's check that a new model is the right size and way up.
       if (params.has('look')) await lookCloser(scene, params.get('look'));
     } else {
-      startHeadset({ transport, session, elements });
+      startHeadset({ transport, session, elements, id: params.get('id') ?? undefined });
     }
   } catch (error) {
     // A content error must be loud. Silently showing an empty field is how a

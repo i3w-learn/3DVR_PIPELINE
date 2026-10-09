@@ -34,6 +34,12 @@ const contextB = await browser.newContext();
 // Record every frame each page receives from the meeting point.
 for (const c of [context, contextB]) await c.addInitScript(() => {
   window.__frames = [];
+  // Note whether the page asked for the screen to stay awake.
+  window.__awake = [];
+  if (navigator.wakeLock) {
+    const real = navigator.wakeLock.request.bind(navigator.wakeLock);
+    navigator.wakeLock.request = (kind) => { window.__awake.push(kind); return real(kind); };
+  }
   const Real = window.WebSocket;
   window.WebSocket = class extends Real {
     constructor(...args) {
@@ -67,7 +73,7 @@ const open = async (query, ctx = context) => {
 };
 
 // 1. A headset comes up first, with no teacher yet.
-const headsetA = await open(`role=headset&classroom=${HUB}`);
+const headsetA = await open(`role=headset&classroom=${HUB}&id=7`); // the number the app gives it
 await sleep(1500);
 check((await frames(headsetA, /class\/state/)).length === 0, 'headset A waits: no state before the teacher arrives');
 check(await headsetA.evaluate(() => !!document.querySelector('#waiting')), 'headset A shows "Waiting for the teacher" in the scene');
@@ -86,6 +92,8 @@ check(beat.payload.worn === false && 'fps' in beat.payload, `teacher hears heads
 await teacher.waitForSelector(`#headsets .headset[data-id="${beat.payload.id}"]`, { timeout: 5000 });
 const tile = await teacher.evaluate((id) => { const t = document.querySelector(`#headsets .headset[data-id="${id}"]`); return { state: t.dataset.state, battery: t.querySelector('.battery').textContent }; }, beat.payload.id);
 check(tile.state === 'off', `the teacher's strip shows headset ${beat.payload.id}: ${tile.state}, battery "${tile.battery}"`);
+check(String(beat.payload.id) === '7', 'the headset goes by the number its app gave it');
+check((await teacher.evaluate(() => window.__awake)).includes('screen'), "the teacher's page asked for the screen to stay awake");
 
 // 4. A late headset is handed the current step on connect.
 const headsetB = await open(`role=headset&classroom=${HUB}`, contextB);

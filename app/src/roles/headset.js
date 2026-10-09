@@ -14,11 +14,15 @@ import { waitingSign } from '../ui/waiting-sign.js';
 /** How often a headset says it is alive, in milliseconds. */
 const HEARTBEAT_MS = 1000;
 
-export function startHeadset({ transport, session, elements }) {
+/**
+ * @param {object} deps
+ * @param {string} [deps.id] the headset's number, from the app that opened
+ *   this page (`?id=7`). The app keeps it, so clearing the browser's data
+ *   does not rename the headset. Without one — on a laptop — see headsetId.
+ */
+export function startHeadset({ transport, session, elements, id = headsetId() }) {
   const sync = new LessonSync({ transport, session, elements });
   sync.start();
-
-  const id = headsetId();
 
   // Until the teacher has said where the class is, say so — in the scene,
   // where a child in VR can read it. Gone on the first state message.
@@ -69,11 +73,11 @@ export function startHeadset({ transport, session, elements }) {
 }
 
 /**
- * A stable number per device, assigned once.
+ * A number for a page no app opened — a headset page on a laptop, in a check.
  *
- * localStorage survives a reinstall on some devices and not others, so this is
- * a placeholder for a real setup screen — noted as an open question in
- * docs/ARCHITECTURE.md §11.
+ * A real headset is given its number by the app (see above). This one lives
+ * in localStorage, which is cleared along with the browser's data, so it is
+ * only for development.
  */
 function headsetId() {
   let id = localStorage.getItem('headsetId');
