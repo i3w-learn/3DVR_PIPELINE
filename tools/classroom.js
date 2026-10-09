@@ -64,6 +64,7 @@ server.on('connection', (socket, request) => {
     }
 
     if (frame.retain === true) retained.set(frame.topic, text);
+    log(`${peer.headset ? `headset ${peer.headset}` : request.socket.remoteAddress} ▶ ${frame.topic} ${JSON.stringify(frame.payload)}`);
     forward(text, socket);
   });
 

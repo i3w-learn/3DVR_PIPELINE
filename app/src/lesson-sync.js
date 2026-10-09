@@ -124,7 +124,11 @@ export class LessonSync {
     // Session decides whether this is news. A lower sequence number is a
     // straggler that overtook a newer message; dropping it is the whole
     // protection against a scene jumping backwards.
-    if (!this.#session.apply(message)) return;
+    if (!this.#session.apply(message)) {
+      console.log(`lesson · ignored stale state ${message.seq} (already at ${this.#session.seq})`);
+      return;
+    }
+    console.log(`lesson ✓ ${message.lesson ?? this.#session.lesson}, step ${message.step ?? this.#session.step}`);
 
     // A new lesson is a new land, and swapping one for the other in a single
     // frame is a hard cut with the child's head halfway through a turn. Go
@@ -460,6 +464,7 @@ export class LessonSync {
   /** Transient actions that are not state, so they are never retained. */
   #onCommand({ cmd }) {
     const { scene } = this.#elements;
+    console.log(`lesson ✓ command: ${cmd}`);
 
     // Blackout is the "eyes on me" control, so it has to be absolute: both
     // sky colours to black, not a dark gradient the child can still read.
