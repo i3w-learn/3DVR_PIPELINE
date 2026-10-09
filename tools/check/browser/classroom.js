@@ -108,6 +108,16 @@ const stepB = await waitFor(headsetB, (f) => f.topic === 'class/state' && f.payl
 check(stepA.payload.seq === stepB.payload.seq, `teacher tapped Next: both headsets on step 1 (seq ${stepA.payload.seq})`);
 check((await frames(headsetA, /class\/state/)).length === before + 1, 'the sender did not hear its own message twice');
 
+// 5b. Back and Lands are state too.
+await teacher.getByRole('button', { name: /back/i }).click();
+const back = await waitFor(headsetB, (f) => f.topic === 'class/state' && f.payload.step === 0 && f.payload.seq > stepB.payload.seq, 'step 0 on B after Back');
+check(back.payload.lesson === LESSON, 'teacher tapped Back: headsets back on step 0');
+await teacher.getByRole('button', { name: /lands/i }).click();
+const lobby = await waitFor(headsetB, (f) => f.topic === 'class/state' && f.payload.lesson === 'lobby', 'lobby on B');
+check(lobby.payload.step === 0, 'teacher tapped Lands: headsets moved to the lobby');
+await teacher.getByRole('button', { name: /pause/i }).click();
+check(await teacher.evaluate(() => /resume/i.test(document.querySelector('[data-action="pause"]').textContent)), 'teacher tapped Pause: the clock holds (no message needed; headsets stay where they are)');
+
 // 6. Blackout is a command, not state.
 await teacher.getByRole('button', { name: /blackout/i }).click();
 const cmd = await waitFor(headsetB, (f) => f.topic === 'class/command', 'blackout on B');
