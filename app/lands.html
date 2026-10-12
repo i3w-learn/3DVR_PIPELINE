@@ -99,16 +99,16 @@
   try { lang = localStorage.getItem('vr-lands-lang') || 'en'; } catch {}
 
   // The tablet app opens this page with `?classroom=ws://…`, the meeting point
-  // the headsets are connected to. Every door out of here carries it along, or
-  // the lesson would play on the tablet alone.
-  const classroom = new URLSearchParams(location.search).get('classroom');
+  // the headsets are connected to, and `log=app`, its own log. Every door out
+  // of here carries both along, or the lesson would play on the tablet alone.
+  const fromApp = new URLSearchParams(location.search);
+  const carried = Object.fromEntries(['classroom', 'log'].filter((k) => fromApp.has(k)).map((k) => [k, fromApp.get(k)]));
 
   function href(land) {
-    const q = new URLSearchParams({ lesson: land.lesson, role: 'teacher' });
+    const q = new URLSearchParams({ lesson: land.lesson, role: 'teacher', ...carried });
     const vr = document.getElementById('start-vr');
-    vr.href = './?' + new URLSearchParams({ lesson: 'lobby', role: 'teacher', ...(lang !== 'en' ? { lang } : {}), ...(classroom ? { classroom } : {}) });
+    vr.href = './?' + new URLSearchParams({ lesson: 'lobby', role: 'teacher', ...(lang !== 'en' ? { lang } : {}), ...carried });
     if (lang !== 'en') q.set('lang', lang);
-    if (classroom) q.set('classroom', classroom);
     let s = `./?${q}`;
     if (land.review) s += '&review';
     return s;

@@ -14,12 +14,18 @@ import './scene/index.js';
 
 import { ClassroomTransport } from './core/classroom-transport.js';
 import { LocalTransport } from './core/local-transport.js';
+import { logToApp } from './core/log-to-app.js';
 import { Session } from './core/session.js';
+import { PRESSED_BY_WOLVIC, holdEnterVrUntilReady } from './core/straight-into-vr.js';
 import { startHeadset } from './roles/headset.js';
 import { startTeacher } from './roles/teacher.js';
 import { lookCloser } from './ui/look-closer.js';
 
 const params = new URLSearchParams(location.search);
+
+// First, so that nothing below is missed: the app that opened this page
+// wants the console, because on a headset there is no other way to see it.
+if (params.get('log') === 'app') logToApp();
 
 // `?classroom=ws://…` is the meeting point on the teacher's tablet. The apps
 // put it in the address they open; a laptop never has it, and the whole thing
@@ -44,6 +50,10 @@ document.body.dataset.role = role;
 document.body.dataset.lang = lang;
 
 const scene = document.querySelector('a-scene');
+
+// The headset app opens this page in Wolvic, which presses "enter VR" for
+// the child, and presses it too soon. See straight-into-vr.js.
+if (params.has(PRESSED_BY_WOLVIC)) holdEnterVrUntilReady(scene);
 
 /**
  * One cursor per role, and only one.
