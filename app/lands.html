@@ -59,6 +59,18 @@
   .card b { display: block; font-size: 18px; margin-bottom: 4px; }
   .card span { color: var(--muted); font-size: 14px; }
   .card small { display: block; margin-top: 8px; color: var(--muted); font-size: 12px; }
+  /* The room: one tile per headset, coloured the way the lesson page colours them. */
+  #room { margin: 20px 0 8px; }
+  #room p { margin: 0 0 10px; color: var(--muted); }
+  .headsets { display: flex; flex-wrap: wrap; gap: 8px; }
+  .headsets:empty { display: none; }
+  .headsets .headset {
+    display: inline-flex; align-items: baseline; gap: 6px; padding: 8px 14px; border-radius: 999px;
+    background: var(--done); color: #fff; font-weight: 600; font-variant-numeric: tabular-nums;
+  }
+  .headsets .headset small { opacity: 0.8; font-size: 12px; }
+  .headsets .headset[data-state="off"] { background: var(--half); }
+  .headsets .headset[data-state="gone"] { background: var(--unused); opacity: 0.6; }
   footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
   footer code { background: var(--card); border: 1px solid var(--line); padding: 1px 6px; border-radius: 6px; }
 </style>
@@ -70,6 +82,14 @@
     <p>Every place a lesson can happen. Tap one to walk in.</p>
     <a class="vr" id="start-vr" href="./?lesson=lobby&amp;role=teacher">Start in VR</a>
   </header>
+
+  <!-- Only when the teacher's app opened this page (?classroom=…): who is in
+       the room, before any land is picked. See the module script below. -->
+  <section id="room" hidden>
+    <h2 style="--dot: var(--accent)">Headsets in the room</h2>
+    <p id="room-count">No headset yet.</p>
+    <div id="headsets" class="headsets" aria-live="polite"></div>
+  </section>
 
   <div class="lang" role="group" aria-label="Narration language">
     <button data-lang="en" aria-pressed="true">English</button>
@@ -158,6 +178,43 @@
     .catch((error) => {
       document.getElementById('groups').textContent = `Could not load the list of lands: ${error.message}`;
     });
+</script>
+
+<script type="module">
+  // The teacher's phone, opened by the app, shows who is in the room before
+  // any land is picked: one tile per headset, built from the heartbeat each
+  // headset sends every second to the meeting point (`?classroom=ws://…`).
+  // Green is on a head, amber is taken off, grey has gone quiet. On the
+  // website there is no room, and this whole section stays hidden.
+  import { ClassroomTransport } from './src/core/classroom-transport.js';
+  import { TOPIC } from './src/core/transport.js';
+  import { StatusStrip } from './src/ui/status-strip.js';
+
+  const classroom = new URLSearchParams(location.search).get('classroom');
+  if (classroom) {
+    document.getElementById('room').hidden = false;
+    // A phone has no VR to start; the headsets do that themselves.
+    document.getElementById('start-vr').hidden = true;
+    const count = document.getElementById('room-count');
+    const strip = new StatusStrip(document.getElementById('headsets'));
+
+    const tell = () => {
+      const tiles = [...document.querySelectorAll('#headsets .headset')];
+      const here = tiles.filter((t) => t.dataset.state !== 'gone').length;
+      const worn = tiles.filter((t) => t.dataset.state === 'worn').length;
+      count.textContent = here === 0
+        ? 'No headset yet. Put one on and tap i3w Lands; it shows up here within a second.'
+        : `${here} connected, ${worn} on a head. Pick a land below to start the lesson on all of them.`;
+    };
+
+    const transport = new ClassroomTransport(classroom);
+    await transport.connect();
+    transport.subscribe(TOPIC.statusWildcard, (beat) => { strip.beat(beat); tell(); });
+    transport.subscribe(TOPIC.willWildcard, ({ id }) => { strip.gone(id); tell(); });
+    // The strip greys a tile on its own after three silent seconds; keep the count in step.
+    setInterval(tell, 1000);
+    tell();
+  }
 </script>
 </body>
 </html>
