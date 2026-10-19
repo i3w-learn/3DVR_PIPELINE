@@ -1,0 +1,118 @@
+{
+  "id": "demo-kit",
+  "template": "explore",
+  "stage": "kitforest",
+  "budget": {
+    "triangles": 190000,
+    "drawCalls": 260,
+    "distinctProps": 27,
+    "why": "A look test for a reviewer: one forest built only from the free kit, with the free animals we already own. It is meant to show the whole kit, so it uses 27 kit models and about 250 draw calls where a real lesson keeps to 4 and 100. Not for the curriculum; frame rate on a headset not yet measured."
+  },
+  "objects": [
+    {
+      "id": "fox",
+      "model": "fox",
+      "position": "-3.5 0 -4.5",
+      "rotation": "0 30 0",
+      "scale": "1 1 1",
+      "ring": 0.6,
+      "name": {
+        "en": "Fox",
+        "hi": "लोमड़ी"
+      },
+      "clip": "Idle",
+      "clipSpeed": 1,
+      "wander": {
+        "walk": "Walk",
+        "idle": "Idle",
+        "radius": 2.5,
+        "speed": 0.5,
+        "pause": 5000,
+        "stopDistance": 2.2,
+        "stayFor": 8000
+      }
+    },
+    {
+      "id": "elephant",
+      "model": "elephant",
+      "position": "7 0 -9",
+      "rotation": "0 -40 0",
+      "scale": "1 1 1",
+      "ring": 0.6,
+      "name": {
+        "en": "Elephant",
+        "hi": "हाथी"
+      }
+    },
+    {
+      "id": "monkey",
+      "model": "monkey",
+      "position": "-7 0 -6.5",
+      "rotation": "0 60 0",
+      "scale": "1 1 1",
+      "ring": 0.6,
+      "name": {
+        "en": "Monkey",
+        "hi": "बंदर"
+      }
+    },
+    {
+      "id": "parrot",
+      "model": "parrot",
+      "position": "3.5 0 -6",
+      "rotation": "0 -20 0",
+      "scale": "1 1 1",
+      "ring": 0.6,
+      "name": {
+        "en": "Parrot",
+        "hi": "तोता"
+      }
+    },
+    {
+      "id": "squirrel",
+      "model": "squirrel",
+      "position": "5.2 0 -4",
+      "rotation": "0 0 0",
+      "scale": "1 1 1",
+      "ring": 0.6,
+      "name": {
+        "en": "Squirrel",
+        "hi": "गिलहरी"
+      }
+    },
+    {
+      "id": "horse",
+      "model": "horse",
+      "position": "-9 0 -10",
+      "rotation": "0 20 0",
+      "scale": "1 1 1",
+      "ring": 0.6,
+      "name": {
+        "en": "Horse",
+        "hi": "घोड़ा"
+      },
+      "clip": "Idle",
+      "clipSpeed": 1,
+      "wander": {
+        "walk": "Walk",
+        "idle": "Idle",
+        "radius": 2.5,
+        "speed": 0.5,
+        "pause": 5000,
+        "stopDistance": 2.2,
+        "stayFor": 8000
+      }
+    }
+  ],
+  "steps": [
+    {
+      "duration": 8000,
+      "script": {
+        "en": "A forest made from one kit. A fox, an elephant, a monkey, a parrot, a squirrel and a horse live here.",
+        "hi": "एक किट से बना जंगल। यहाँ लोमड़ी, हाथी, बंदर, तोता, गिलहरी और घोड़ा रहते हैं।",
+        "mr": "एका किटमधून बनलेले जंगल. इथे कोल्हा, हत्ती, माकड, पोपट, खार आणि घोडा राहतात.",
+        "or": "ଗୋଟିଏ କିଟରୁ ତିଆରି ଜଙ୍ଗଲ। ଏଠାରେ କୋକିଶିଆଳି, ହାତୀ, ମାଙ୍କଡ଼, ଶୁଆ, ଗୁଣ୍ଡୁଚି ମୂଷା ଓ ଘୋଡ଼ା ରହନ୍ତି।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,970 @@
+{
+  "id": "kitforest",
+  "_comment": "Every piece here is from one free kit (Kenney Nature Kit, CC0) through the standardise step, same palette, same light. The animals in the lesson are the free Quaternius / Poly by Google ones already in the library.",
+  "sky": {
+    "hdri": "field.jpg",
+    "intensity": 1.0
+  },
+  "ground": {
+    "color": "kitgrass_color.jpg",
+    "repeat": 40
+  },
+  "sun": {
+    "position": "9 13 5",
+    "color": "#fff4df",
+    "intensity": 1.15
+  },
+  "light": {
+    "sky": "#dff0ff",
+    "ground": "#5d8a4a",
+    "intensity": 0.55
+  },
+  "fog": {
+    "color": "#cfe3f2",
+    "near": 45,
+    "far": 140
+  },
+  "shadows": true,
+  "start": {
+    "position": "0 1.2 1.5",
+    "facing": 0
+  },
+  "props": [
+    {
+      "build": "treeline",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "castShadow": false,
+      "params": {
+        "model": "kitoak",
+        "count": 60,
+        "inner": 30,
+        "outer": 95,
+        "arc": 360,
+        "height": 9,
+        "seed": 61
+      }
+    },
+    {
+      "build": "treeline",
+      "position": "0 0 0",
+      "rotation": "0 0 0",
+      "contact": false,
+      "castShadow": false,
+      "params": {
+        "model": "kitpine",
+        "count": 40,
+        "inner": 32,
+        "outer": 85,
+        "arc": 360,
+        "height": 12,
+        "seed": 62
+      }
+    },
+    {
+      "model": "kitrocktalla",
+      "position": "-9.00 0 -25.00",
+      "rotation": "0 20 0",
+      "scale": "2.20 2.20 2.20",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitrocktalle",
+      "position": "-4.00 0 -27.00",
+      "rotation": "0 0 0",
+      "scale": "2.60 2.60 2.60",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitrocktall",
+      "position": "2.00 0 -26.00",
+      "rotation": "0 40 0",
+      "scale": "2.40 2.40 2.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitrocktalla",
+      "position": "8.00 0 -25.00",
+      "rotation": "0 200 0",
+      "scale": "2.00 2.00 2.00",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitrocklarge",
+      "position": "-14.00 0 -24.00",
+      "rotation": "0 0 0",
+      "scale": "2.00 2.00 2.00",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitrocklarge",
+      "position": "13.00 0 -24.00",
+      "rotation": "0 90 0",
+      "scale": "1.80 1.80 1.80",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitrock",
+      "position": "5.00 0 -23.00",
+      "rotation": "0 0 0",
+      "scale": "1.80 1.80 1.80",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitrockc",
+      "position": "-7.00 0 -22.00",
+      "rotation": "0 0 0",
+      "scale": "1.60 1.60 1.60",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitrocktalle",
+      "position": "18.00 0 -26.00",
+      "rotation": "0 0 0",
+      "scale": "1.60 1.60 1.60",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitrocktall",
+      "position": "-17.00 0 -27.00",
+      "rotation": "0 0 0",
+      "scale": "1.60 1.60 1.60",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitriver",
+      "position": "-25.20 0 -13.00",
+      "rotation": "0 90 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitriver",
+      "position": "-16.80 0 -13.00",
+      "rotation": "0 90 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitriver",
+      "position": "-8.40 0 -13.00",
+      "rotation": "0 90 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitriver",
+      "position": "0.00 0 -13.00",
+      "rotation": "0 90 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitriver",
+      "position": "8.40 0 -13.00",
+      "rotation": "0 90 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitriver",
+      "position": "16.80 0 -13.00",
+      "rotation": "0 90 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitriver",
+      "position": "25.20 0 -13.00",
+      "rotation": "0 90 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitriverend",
+      "position": "-33.60 0 -13.00",
+      "rotation": "0 90 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitriverend",
+      "position": "33.60 0 -13.00",
+      "rotation": "0 270 0",
+      "scale": "1.40 1.40 1.40",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitbridgeround",
+      "position": "0.00 0 -13.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitpath",
+      "position": "0.00 0 -3.00",
+      "rotation": "0 90 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitpath",
+      "position": "0.00 0 -5.00",
+      "rotation": "0 90 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitpath",
+      "position": "0.00 0 -7.00",
+      "rotation": "0 90 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitpath",
+      "position": "0.00 0 -9.00",
+      "rotation": "0 90 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitoak",
+      "position": "-12.00 0 -8.00",
+      "rotation": "0 40 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitpine",
+      "position": "13.00 0 -9.00",
+      "rotation": "0 200 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kittree",
+      "position": "-17.00 0 -4.00",
+      "rotation": "0 130 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitfat",
+      "position": "17.00 0 -3.00",
+      "rotation": "0 75 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitoak",
+      "position": "-22.00 0 -6.00",
+      "rotation": "0 285 0",
+      "scale": "1.10 1.10 1.10",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kittree",
+      "position": "22.00 0 -7.00",
+      "rotation": "0 20 0",
+      "scale": "0.90 0.90 0.90",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitfat",
+      "position": "-15.00 0 2.00",
+      "rotation": "0 0 0",
+      "scale": "0.90 0.90 0.90",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kittree",
+      "position": "15.00 0 3.00",
+      "rotation": "0 60 0",
+      "scale": "0.90 0.90 0.90",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitpine",
+      "position": "-11.00 0 -19.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitoak",
+      "position": "10.00 0 -19.00",
+      "rotation": "0 140 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kittree",
+      "position": "-19.00 0 -20.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitpine",
+      "position": "17.00 0 -20.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitoak",
+      "position": "-24.00 0 -18.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitfat",
+      "position": "24.00 0 -17.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kittree",
+      "position": "0.00 0 -20.00",
+      "rotation": "0 30 0",
+      "scale": "0.90 0.90 0.90",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitpine",
+      "position": "-26.00 0 -12.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitoak",
+      "position": "27.00 0 -12.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitpine",
+      "position": "-2.00 0 -29.00",
+      "rotation": "0 0 0",
+      "scale": "1.10 1.10 1.10",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitoak",
+      "position": "12.00 0 -29.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitpine",
+      "position": "-13.00 0 -30.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kittree",
+      "position": "6.00 0 -30.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitrocktall",
+      "position": "9.00 0 -7.00",
+      "rotation": "0 30 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitrock",
+      "position": "-8.00 0 -7.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitrockc",
+      "position": "6.00 0 -18.00",
+      "rotation": "0 60 0",
+      "scale": "1.20 1.20 1.20",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitrocktall",
+      "position": "-17.00 0 -17.00",
+      "rotation": "0 0 0",
+      "scale": "0.80 0.80 0.80",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitrockc",
+      "position": "-20.00 0 -11.00",
+      "rotation": "0 0 0",
+      "scale": "1.30 1.30 1.30",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitstump",
+      "position": "-5.00 0 -5.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitlog",
+      "position": "5.00 0 -4.00",
+      "rotation": "0 25 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitcampfire",
+      "position": "-3.00 0 -8.50",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitsign",
+      "position": "2.50 0 -2.50",
+      "rotation": "0 -20 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kittent",
+      "position": "-10.00 0 -3.00",
+      "rotation": "0 30 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "-7.75 0 -8.69",
+      "rotation": "0 15 0",
+      "scale": "0.83 0.83 0.83",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "-19.45 0 -4.41",
+      "rotation": "0 30 0",
+      "scale": "0.97 0.97 0.97",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbushlarge",
+      "position": "-18.93 0 -9.41",
+      "rotation": "0 15 0",
+      "scale": "1.13 1.13 1.13",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "-16.55 0 -7.82",
+      "rotation": "0 270 0",
+      "scale": "1.18 1.18 1.18",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "3.39 0 -5.74",
+      "rotation": "0 15 0",
+      "scale": "1.02 1.02 1.02",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "-16.14 0 -5.47",
+      "rotation": "0 45 0",
+      "scale": "1.03 1.03 1.03",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "2.65 0 -2.32",
+      "rotation": "0 270 0",
+      "scale": "1.03 1.03 1.03",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "-13.73 0 -9.33",
+      "rotation": "0 30 0",
+      "scale": "1.03 1.03 1.03",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "5.24 0 -4.54",
+      "rotation": "0 195 0",
+      "scale": "1.11 1.11 1.11",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "-6.09 0 -7.52",
+      "rotation": "0 330 0",
+      "scale": "1.11 1.11 1.11",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbushlarge",
+      "position": "-18.40 0 -6.90",
+      "rotation": "0 150 0",
+      "scale": "1.09 1.09 1.09",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "-9.33 0 1.26",
+      "rotation": "0 240 0",
+      "scale": "0.97 0.97 0.97",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbushlarge",
+      "position": "11.31 0 -21.09",
+      "rotation": "0 195 0",
+      "scale": "0.92 0.92 0.92",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbushlarge",
+      "position": "7.40 0 -17.41",
+      "rotation": "0 150 0",
+      "scale": "1.18 1.18 1.18",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbushlarge",
+      "position": "4.15 0 -18.52",
+      "rotation": "0 30 0",
+      "scale": "1.24 1.24 1.24",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbush",
+      "position": "19.57 0 -19.16",
+      "rotation": "0 15 0",
+      "scale": "1.19 1.19 1.19",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbushlarge",
+      "position": "-8.38 0 -18.53",
+      "rotation": "0 135 0",
+      "scale": "1.19 1.19 1.19",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbushlarge",
+      "position": "17.03 0 -19.92",
+      "rotation": "0 165 0",
+      "scale": "0.97 0.97 0.97",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbushlarge",
+      "position": "-16.85 0 -21.65",
+      "rotation": "0 60 0",
+      "scale": "1.20 1.20 1.20",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitbushlarge",
+      "position": "-4.49 0 -16.50",
+      "rotation": "0 30 0",
+      "scale": "0.97 0.97 0.97",
+      "castShadow": true,
+      "contact": false
+    },
+    {
+      "model": "kitfloweryellow",
+      "position": "-4.33 0 -7.17",
+      "rotation": "0 195 0",
+      "scale": "1.25 1.25 1.25",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerpurple",
+      "position": "-9.75 0 -5.52",
+      "rotation": "0 315 0",
+      "scale": "1.25 1.25 1.25",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitfloweryellow",
+      "position": "20.14 0 -8.69",
+      "rotation": "0 60 0",
+      "scale": "0.99 0.99 0.99",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "-11.73 0 -4.68",
+      "rotation": "0 75 0",
+      "scale": "1.01 1.01 1.01",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerpurple",
+      "position": "-21.82 0 -5.47",
+      "rotation": "0 285 0",
+      "scale": "1.13 1.13 1.13",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "19.94 0 -2.21",
+      "rotation": "0 285 0",
+      "scale": "1.16 1.16 1.16",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "10.55 0 -5.02",
+      "rotation": "0 180 0",
+      "scale": "1.06 1.06 1.06",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "-4.66 0 -4.72",
+      "rotation": "0 15 0",
+      "scale": "0.98 0.98 0.98",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerred",
+      "position": "21.33 0 -5.21",
+      "rotation": "0 150 0",
+      "scale": "1.14 1.14 1.14",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "-17.50 0 -3.70",
+      "rotation": "0 45 0",
+      "scale": "1.28 1.28 1.28",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitfloweryellow",
+      "position": "5.00 0 -9.66",
+      "rotation": "0 285 0",
+      "scale": "1.05 1.05 1.05",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "5.91 0 0.97",
+      "rotation": "0 165 0",
+      "scale": "1.09 1.09 1.09",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "-16.92 0 -4.64",
+      "rotation": "0 225 0",
+      "scale": "1.09 1.09 1.09",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerpurple",
+      "position": "-18.22 0 -9.27",
+      "rotation": "0 345 0",
+      "scale": "1.01 1.01 1.01",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerred",
+      "position": "14.47 0 -8.56",
+      "rotation": "0 90 0",
+      "scale": "1.28 1.28 1.28",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "1.90 0 -10.18",
+      "rotation": "0 135 0",
+      "scale": "1.29 1.29 1.29",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerpurple",
+      "position": "15.99 0 -2.15",
+      "rotation": "0 240 0",
+      "scale": "1.05 1.05 1.05",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "-14.65 0 -1.24",
+      "rotation": "0 255 0",
+      "scale": "1.21 1.21 1.21",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitfloweryellow",
+      "position": "-7.49 0 -7.82",
+      "rotation": "0 105 0",
+      "scale": "1.23 1.23 1.23",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "10.55 0 -7.78",
+      "rotation": "0 225 0",
+      "scale": "1.04 1.04 1.04",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerpurple",
+      "position": "-20.72 0 -10.16",
+      "rotation": "0 225 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "8.47 0 0.98",
+      "rotation": "0 345 0",
+      "scale": "1.30 1.30 1.30",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerred",
+      "position": "20.02 0 -19.81",
+      "rotation": "0 45 0",
+      "scale": "0.99 0.99 0.99",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "-13.34 0 -20.77",
+      "rotation": "0 285 0",
+      "scale": "1.24 1.24 1.24",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "-0.90 0 -18.08",
+      "rotation": "0 30 0",
+      "scale": "1.23 1.23 1.23",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "-16.72 0 -19.67",
+      "rotation": "0 90 0",
+      "scale": "1.09 1.09 1.09",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitfloweryellow",
+      "position": "-14.15 0 -17.27",
+      "rotation": "0 30 0",
+      "scale": "1.22 1.22 1.22",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitfloweryellow",
+      "position": "20.75 0 -19.62",
+      "rotation": "0 345 0",
+      "scale": "1.28 1.28 1.28",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerred",
+      "position": "9.89 0 -20.98",
+      "rotation": "0 0 0",
+      "scale": "0.96 0.96 0.96",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitflowerred",
+      "position": "17.81 0 -17.16",
+      "rotation": "0 285 0",
+      "scale": "1.23 1.23 1.23",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitfloweryellow",
+      "position": "21.13 0 -18.06",
+      "rotation": "0 60 0",
+      "scale": "1.12 1.12 1.12",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitgrass",
+      "position": "-16.24 0 -21.91",
+      "rotation": "0 300 0",
+      "scale": "0.94 0.94 0.94",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitmushroom",
+      "position": "-6.00 0 -6.00",
+      "rotation": "0 0 0",
+      "scale": "1.00 1.00 1.00",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitmushroom",
+      "position": "7.00 0 -10.00",
+      "rotation": "0 0 0",
+      "scale": "0.80 0.80 0.80",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitlily",
+      "position": "-11.00 0 -13.00",
+      "rotation": "0 330 0",
+      "scale": "1.20 1.20 1.20",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitlily",
+      "position": "-5.00 0 -13.00",
+      "rotation": "0 60 0",
+      "scale": "1.20 1.20 1.20",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitlily",
+      "position": "4.00 0 -13.00",
+      "rotation": "0 180 0",
+      "scale": "1.20 1.20 1.20",
+      "castShadow": false,
+      "contact": false
+    },
+    {
+      "model": "kitlily",
+      "position": "12.00 0 -13.00",
+      "rotation": "0 90 0",
+      "scale": "1.20 1.20 1.20",
+      "castShadow": false,
+      "contact": false
+    }
+  ]
+}

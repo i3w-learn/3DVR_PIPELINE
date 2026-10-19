@@ -1,0 +1,10 @@
+{
+  "id": "kitgrass",
+  "source": "Made here — one flat colour, the grass green of the Kenney Nature Kit palette",
+  "licence": "CC0",
+  "url": "https://kenney.nl/assets/nature-kit",
+  "maps": [
+    "color"
+  ],
+  "notes": "ground for the kit forest look test (stage kitforest); a 256 px swatch of #5d8a4a, no picture in it"
+}

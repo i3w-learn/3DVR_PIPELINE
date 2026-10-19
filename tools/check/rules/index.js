@@ -315,18 +315,22 @@ export const RULES = [
   {
     id: 'VAL_L12',
     title: 'distinct prop models in a stage kit',
-    check: ({ kit }) => {
+    check: ({ kit, lesson }) => {
       // Reuse is the rule: one tree model at five positions and scales reads
       // as five trees. A fifth distinct prop means rethink the scene.
       // Built props have no model — they are made from numbers and cost no
       // download — so they are not what this rule is rationing.
       const distinct = new Set(kit.props.map((p) => p.model).filter(Boolean));
 
-      return distinct.size <= BUDGET.distinctProps
+      // A lesson may raise the limit in its budget, with a `why` — the kit look
+      // test does, because its whole point is to show every piece of the kit.
+      const cap = lesson.budget?.distinctProps ?? BUDGET.distinctProps;
+
+      return distinct.size <= cap
         ? []
         : [
             `stage "${kit.id}" uses ${distinct.size} distinct prop models ` +
-              `(${[...distinct].join(', ')}); limit is ${BUDGET.distinctProps}`,
+              `(${[...distinct].join(', ')}); limit is ${cap}`,
           ];
     },
   },

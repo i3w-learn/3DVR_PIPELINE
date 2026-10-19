@@ -1,8 +1,9 @@
 {
-  "generated": "2026-09-30T12:45:53.190Z",
+  "generated": "2026-10-16T08:25:16.789Z",
   "lessons": {
     "demo-home": "demo/demo-home.json",
     "demo-india": "demo/demo-india.json",
+    "demo-kit": "demo/demo-kit.json",
     "demo-peacock": "demo/demo-peacock.json",
     "demo-sky": "demo/demo-sky.json",
     "demo-snow": "demo/demo-snow.json",

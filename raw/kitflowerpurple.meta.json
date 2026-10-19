@@ -1,0 +1,30 @@
+{
+  "id": "kitflowerpurple",
+  "source": "Kenney \u2014 Nature Kit 2.1",
+  "licence": "CC0",
+  "url": "https://kenney.nl/assets/nature-kit",
+  "targetHeight": 0.45,
+  "yaw": 0,
+  "fit": "height",
+  "join": true,
+  "notes": "purple flowers (flower_purpleA.glb) \u2014 one piece of the free kit, house palette",
+  "palette": {
+    "woodBark": "#6b4f34",
+    "woodBarkDark": "#54402c",
+    "wood": "#8a6a45",
+    "woodDark": "#6d5335",
+    "woodInner": "#c9a877",
+    "leafsGreen": "#4e7f42",
+    "leafsDark": "#3d6636",
+    "grass": "#5d8a4a",
+    "dirt": "#7b6249",
+    "dirtDark": "#5e4a36",
+    "stone": "#928e85",
+    "stoneDark": "#6f6b63",
+    "colorRed": "#b8443f",
+    "colorYellow": "#e3b53a",
+    "colorPurple": "#7d5aa6",
+    "water": "#4a9bd1",
+    "_defaultMat": "#e8e4d8"
+  }
+}

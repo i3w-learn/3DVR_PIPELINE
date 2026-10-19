@@ -319,6 +319,7 @@ No attribution is required for these. They are listed for the record.
 
 - Kenney — Food Kit 2.0
 - Kenney — Nature Kit 2.1
+- Made here — one flat colour, the grass green of the Kenney Nature Kit palette
 - Openverse — "Alien Raptor Screeching" by Scpsea
 - Openverse — "Bee Buzzing" by JonCon_Library
 - Openverse — "Cat meow" by philsapphire
