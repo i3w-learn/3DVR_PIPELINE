@@ -802,7 +802,7 @@ Normative attribute map. Templates may add behaviour (`animation-mixer`,
 1. Remove `highlight` from all `#stage` children.
 2. If `step.highlight`, set `highlight` on that id.
 3. If `step.visible`, set `visible` on those ids only (others unchanged).
-4. Set `#voice` `src` to `assets/audio/<session.lang>/<step.audio>` and play.
+4. Hand `#voice`'s sound component the clip `assets/audio/<session.lang>/<step.audio>`; it plays the moment the clip is in.
    Language comes from session state, not from the lesson file.
 
 **Forbidden in applyStep:** `createElement` of a new `gltf-model`, `innerHTML`

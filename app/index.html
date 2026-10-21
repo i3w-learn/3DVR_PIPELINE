@@ -81,9 +81,14 @@
     One channel would mean the cow's moo cutting off the sentence that names
     it, which is the wrong way round — the sound is the hook, the sentence is
     the lesson.
+
+    Plain entities with a `sound` component, not `<a-sound>`. That primitive
+    hands its `src` to the component a tick later and then mirrors it back, so
+    a play order given straight after naming a new clip landed on the previous
+    clip, and the new one never started. See `play` in lesson-sync.js.
   -->
-  <a-sound id="voice"></a-sound>
-  <a-sound id="sfx"></a-sound>
+  <a-entity id="voice" sound></a-entity>
+  <a-entity id="sfx" sound></a-entity>
 
   <!--
     One sun, one fill, and the sky itself.

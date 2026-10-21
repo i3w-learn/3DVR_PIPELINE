@@ -231,7 +231,7 @@ An object in `explore` now carries both a `sound` (the animal) and an `audio`
 
 The order is the point. The moo is what makes a three-year-old look; the
 sentence is what teaches. Played together, both are lost. They are separate
-`<a-sound>` elements because one channel would mean the cow's moo cutting off
+sound channels because one channel would mean the cow's moo cutting off
 the sentence that names it.
 
 The narration is scheduled on a timer rather than on `sound-ended`: that event

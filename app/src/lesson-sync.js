@@ -34,6 +34,22 @@ const ARRIVAL_TIMEOUT_MS = 15000;
 import { loadLesson } from './core/lesson-loader.js';
 import { getTemplate } from './templates/index.js';
 
+/**
+ * Load a clip into a channel and play it as soon as it is in.
+ *
+ * Through the component, never the element's own `src`. Set that way, the
+ * component sees the new clip at once, notes that it is still loading, and
+ * plays it the moment it arrives. Set through an `<a-sound>` primitive's
+ * attribute instead, the component heard about the clip a tick later and
+ * the play order given here landed on the previous clip — every line after
+ * a lesson's first was silent.
+ */
+function play(channel, src) {
+  if (!channel?.components?.sound) return;
+  channel.setAttribute('sound', 'src', src);
+  channel.components.sound.playSound();
+}
+
 export class LessonSync {
   #transport;
   #session;
@@ -104,8 +120,7 @@ export class LessonSync {
     const sfx = this.#elements.sfx;
     if (!object?.sound || !sfx) return;
     sfx.components?.sound?.stopSound();
-    sfx.setAttribute('src', `assets/sfx/${object.sound}`);
-    sfx.components?.sound?.playSound();
+    play(sfx, `assets/sfx/${object.sound}`);
   }
 
   /** Loud, not silent: a content error must reach the person who can fix it. */
@@ -419,10 +434,7 @@ export class LessonSync {
 
     // The sound is the answer to being called — it plays straight away, while
     // the animal is still walking.
-    if (object.sound) {
-      sfx.setAttribute('src', `assets/sfx/${object.sound}`);
-      sfx.components?.sound?.playSound();
-    }
+    if (object.sound) play(sfx, `assets/sfx/${object.sound}`);
 
     this.#awaiting = objectId;
 
@@ -447,8 +459,7 @@ export class LessonSync {
 
     const { voice } = this.#elements;
     console.log(`lesson ♪ narrating: ${objectId} (${this.#session.lang})`);
-    voice.setAttribute('src', `assets/audio/${this.#session.lang}/${object.audio}`);
-    voice.components?.sound?.playSound();
+    play(voice, `assets/audio/${this.#session.lang}/${object.audio}`);
   }
 
   #applyStep() {
@@ -465,8 +476,7 @@ export class LessonSync {
     // Language is a folder, never part of the filename, and it comes from the
     // session rather than the lesson — which is why adding a language never
     // reopens a lesson file.
-    voice.setAttribute('src', `assets/audio/${this.#session.lang}/${step.audio}`);
-    voice.components?.sound?.playSound();
+    play(voice, `assets/audio/${this.#session.lang}/${step.audio}`);
   }
 
   /** Transient actions that are not state, so they are never retained. */

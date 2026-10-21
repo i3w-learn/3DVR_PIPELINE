@@ -10,7 +10,8 @@
  *
  * For each lesson: open the teacher's view, hold the clock, press Next through
  * every step. Written down as a problem: a console error, a file that did not
- * load, a line on the bar that is not the lesson's line, a model with no mesh,
+ * load, a line on the bar that is not the lesson's line, a step whose clip the
+ * narrator never started, a tap that fails to wake the sound engine, a model with no mesh,
  * a card whose words did not draw, a bar button that cannot be pressed. A
  * picture of the first and the last step is kept — run `content:sheets` and
  * LOOK at them; most of what was wrong was only visible there.
@@ -133,11 +134,40 @@ async function audit(context, id) {
     };
     await lookForBlanks('step 1');
 
+    // Did the narrator start the step's clip? Not "was it heard" — Chrome here
+    // is mute — but "was it handed to the player and set going". A clip that
+    // was named but never started is exactly the fault a listener reports as
+    // "the voice does not work", and nothing else in this check would see it.
+    const spoke = async (step) => {
+      const clip = lesson.steps[step]?.audio;
+      if (!clip) return;
+      const started = await page.waitForFunction((clip) => {
+        const sound = document.querySelector('#voice')?.components?.sound;
+        const player = sound?.pool?.children?.[0];
+        return !!(sound && (sound.data.src || '').endsWith(`/${clip}`) && player?.source);
+      }, clip, { timeout: 4000 }).then(() => true, () => false);
+      if (!started) result.problems.push(`step ${step + 1}: the narrator never started ${clip}`);
+    };
+    await spoke(0);
+
+    // Browsers keep the sound engine asleep until the person touches the page,
+    // and headless Chrome does not enforce that — so put it to sleep by hand and
+    // see that the first tap on Next wakes it.
+    const engine = () => page.evaluate(() => document.querySelector('a-scene').audioListener?.context?.state ?? 'none');
+    await page.evaluate(() => document.querySelector('a-scene').audioListener?.context?.suspend());
+    let wakeChecked = (await engine()) === 'none';
+
     // walk every step; the script line must match the file each time
     let mismatched = 0;
     for (let i = 1; i < lesson.steps.length; i++) {
       await page.click('[data-action="next"]');
       await sleep(120);
+      if (!wakeChecked) {
+        wakeChecked = true;
+        await page.waitForFunction(() => document.querySelector('a-scene').audioListener?.context?.state === 'running', null, { timeout: 2000 }).catch(() => {});
+        if ((await engine()) !== 'running') result.problems.push('a tap on Next did not wake the sound engine');
+      }
+      await spoke(i);
       const line = await page.evaluate(() => document.querySelector('#script-line')?.textContent ?? '');
       const want = lesson.steps[i].script?.en ?? '';
       if (line !== want) mismatched += 1;

@@ -17,6 +17,7 @@ import { LocalTransport } from './core/local-transport.js';
 import { logToApp } from './core/log-to-app.js';
 import { Session } from './core/session.js';
 import { PRESSED_BY_WOLVIC, holdEnterVrUntilReady } from './core/straight-into-vr.js';
+import { wakeAudioOnFirstTouch } from './core/wake-audio.js';
 import { startHeadset } from './roles/headset.js';
 import { startTeacher } from './roles/teacher.js';
 import { lookCloser } from './ui/look-closer.js';
@@ -50,6 +51,10 @@ document.body.dataset.role = role;
 document.body.dataset.lang = lang;
 
 const scene = document.querySelector('a-scene');
+
+// Browsers keep the sound engine asleep until the person touches the page,
+// and nothing else wakes it. Without this the narrator is never heard.
+wakeAudioOnFirstTouch(scene);
 
 // The headset app opens this page in Wolvic, which presses "enter VR" for
 // the child, and presses it too soon. See straight-into-vr.js.
