@@ -9,7 +9,7 @@
 import { LessonSync } from '../lesson-sync.js';
 import { FpsMeter } from '../core/fps-meter.js';
 import { TOPIC } from '../core/transport.js';
-import { waitingSign } from '../ui/waiting-sign.js';
+import { headsetScreens } from '../ui/headset-screens.js';
 
 /** How often a headset says it is alive, in milliseconds. */
 const HEARTBEAT_MS = 1000;
@@ -24,11 +24,17 @@ export function startHeadset({ transport, session, elements, id = headsetId() })
   const sync = new LessonSync({ transport, session, elements });
   sync.start();
 
-  // Until the teacher has said where the class is, say so — in the scene,
-  // where a child in VR can read it. Gone on the first state message.
-  const sign = waitingSign(elements, transport);
+  // Whatever the headset is doing when no lesson is on, it says so in the
+  // scene, where a child in VR can see it: looking for the classroom, ready,
+  // well done. A lesson takes all of that away, and the tablet saying "the
+  // class is nowhere" (a state with no lesson in it) brings it back.
+  const screens = headsetScreens(elements, transport, session);
   console.log(`headset ${id} · waiting for the teacher`);
-  transport.subscribe(TOPIC.state, () => sign.remove());
+  transport.subscribe(TOPIC.state, ({ lesson }) => {
+    if (lesson === undefined) return;
+    if (lesson !== null) console.log('headset ✓ the teacher has started');
+    screens.lesson(lesson !== null);
+  });
 
   elements.scene.addEventListener('enter-vr', () => console.log(`headset ${id} ✓ in VR`));
   elements.scene.addEventListener('exit-vr', () => console.log(`headset ${id} · out of VR`));

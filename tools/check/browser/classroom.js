@@ -21,6 +21,7 @@
  */
 
 import { chromium } from 'playwright-core';
+import { WebSocket } from 'ws';
 
 const BASE = process.env.BASE ?? 'http://localhost:4500/app/';
 const HUB = process.env.HUB ?? 'ws://localhost:9001';
@@ -75,15 +76,30 @@ const open = async (query, ctx = context, label = query.replace(/&classroom=.*$/
   return page;
 };
 
+// Start from a room where no lesson is on, the way the teacher's app leaves
+// it on opening. A meeting point that has been up for a while still holds the
+// last lesson of whoever used it before, and would hand that to headset A.
+await new Promise((done) => {
+  const socket = new WebSocket(HUB);
+  socket.on('open', () => {
+    socket.send(JSON.stringify({ topic: 'class/state', payload: { seq: Date.now(), lesson: null, step: 0 }, retain: true }));
+    socket.close();
+  });
+  socket.on('close', done);
+  socket.on('error', done);
+});
+
 // 1. A headset comes up first, with no teacher yet.
 const headsetA = await open(`role=headset&classroom=${HUB}&id=7`, context, 'headset 7'); // the number the app gives it
 await sleep(1500);
-check((await frames(headsetA, /class\/state/)).length === 0, 'headset A waits: no state before the teacher arrives');
+// The teacher's app leaves "no lesson is on" at the meeting point (a state
+// with no lesson in it), so that is allowed here; a lesson is not.
+check((await frames(headsetA, /class\/state/)).every((f) => f.payload.lesson === null), 'headset A waits: no lesson before the teacher arrives');
 check(await headsetA.evaluate(() => !!document.querySelector('#waiting')), 'headset A shows "Waiting for the teacher" in the scene');
 
 // 2. The teacher arrives and opens a lesson.
 const teacher = await open(`lesson=${LESSON}&role=teacher&classroom=${HUB}`, context, 'teacher');
-const first = await waitFor(headsetA, (f) => f.topic === 'class/state', 'state on headset A');
+const first = await waitFor(headsetA, (f) => f.topic === 'class/state' && f.payload.lesson, 'state on headset A');
 check(first.payload.lesson === LESSON && first.payload.step === 0, `headset A got "${first.payload.lesson}, step ${first.payload.step}" from the teacher`);
 await headsetA.waitForFunction(() => document.querySelectorAll('#stage [gltf-model]').length > 0, null, { timeout: 60000 });
 check(true, 'headset A built the lesson scene from that message');
@@ -100,7 +116,7 @@ check((await teacher.evaluate(() => window.__awake)).includes('screen'), "the te
 
 // 4. A late headset is handed the current step on connect.
 const headsetB = await open(`role=headset&classroom=${HUB}`, contextB, 'headset B');
-const late = await waitFor(headsetB, (f) => f.topic === 'class/state', 'state on late headset B');
+const late = await waitFor(headsetB, (f) => f.topic === 'class/state' && f.payload.lesson, 'state on late headset B');
 check(late.payload.lesson === LESSON, `headset B joined late and was handed "${late.payload.lesson}, step ${late.payload.step}" at once`);
 
 // 5. Teacher taps Next: both headsets move.

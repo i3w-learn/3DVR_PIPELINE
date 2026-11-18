@@ -116,6 +116,10 @@ body[data-role="teacher"] .a-enter-vr {
   bottom: auto;
 }
 
+/* Inside the teacher app: the picture only. Its buttons are the app's. */
+body[data-framed] #controls,
+body[data-framed] .a-enter-vr { display: none; }
+
 #error {
   position: fixed;
   top: 0; left: 0; right: 0;

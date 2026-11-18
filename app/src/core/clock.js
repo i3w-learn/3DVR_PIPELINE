@@ -13,6 +13,7 @@
 export class Clock {
   #timer = null;
   #remaining = 0;
+  #duration = 0;
   #startedAt = 0;
   #onElapsed;
 
@@ -25,11 +26,28 @@ export class Clock {
     return this.#timer !== null;
   }
 
+  /** How far into the current countdown we are, in milliseconds. */
+  get elapsed() {
+    const banked = this.#duration - this.#remaining;
+    return this.running ? banked + (Date.now() - this.#startedAt) : banked;
+  }
+
   /** Begin (or restart) a countdown of `duration` milliseconds. */
   start(duration) {
-    this.stop();
-    this.#remaining = duration;
+    this.hold(duration);
     this.#run();
+  }
+
+  /**
+   * Set up a countdown of `duration` milliseconds without starting it.
+   *
+   * A teacher who is paused and jumps to another step must find that step's
+   * full time waiting when she resumes, not what was left of the old one.
+   */
+  hold(duration) {
+    this.stop();
+    this.#duration = duration;
+    this.#remaining = duration;
   }
 
   /**

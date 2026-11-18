@@ -80,7 +80,14 @@ function keepScreenAwake() {
   ask();
 }
 
-export async function startTeacher({ transport, session, elements, controlsRoot, lessonId }) {
+/**
+ * @param {object} deps
+ * @param {boolean} [deps.hold] wait for `play()` before starting. The
+ *   teacher app (class.html) asks for this: it loads the lesson, shows it as
+ *   ready, and starts every headset together when the teacher taps Play.
+ *   Without it the lesson starts at once, as it does for a reviewer.
+ */
+export async function startTeacher({ transport, session, elements, controlsRoot, lessonId, hold = false }) {
   keepScreenAwake();
   // Two sessions, deliberately.
   //
@@ -105,6 +112,11 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
   let paused = false;
   let blackedOut = false;
   let entering = false;
+  // Held: nothing has been published yet, and every headset is still on its
+  // waiting screen. Over: the lesson finished or was stopped, and the
+  // headsets have been sent back to waiting.
+  let started = !hold;
+  let over = false;
   const clock = new Clock(() => {
     console.log('teacher · step time is up, moving on');
     next();
@@ -137,7 +149,8 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
 
     // A teacher who paused stays paused across a manual Back or Next; the
     // countdown should not restart itself underneath them.
-    if (!paused) clock.start(lesson.steps[clamped].duration);
+    if (paused) clock.hold(lesson.steps[clamped].duration);
+    else clock.start(lesson.steps[clamped].duration);
   }
 
   function next() {
@@ -148,7 +161,94 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
     // Its last step then hands the class on to the next sitting instead of
     // leaving it standing on E with twenty-one letters still to come.
     clock.stop();
+    // In the teacher app a sitting is a whole lesson: it ends here, the
+    // children rest, and the next sitting is picked like any other lesson.
+    if (hold) return stop();
     if (lesson.next) enter(lesson.next).catch(showError);
+  }
+
+  /** Start every headset together, or carry on after a pause. */
+  function play() {
+    if (over) return;
+    if (!started) {
+      started = true;
+      // A class that was stopped with the lights out gets its sky back.
+      transport.publish(TOPIC.command, { cmd: 'resume' });
+      go(0);
+      return;
+    }
+    if (paused) togglePause();
+  }
+
+  function pause() {
+    if (started && !over && !paused) togglePause();
+  }
+
+  /**
+   * End the lesson for everyone, now.
+   *
+   * State is always the whole picture, so stopping is a state too: "the
+   * class is nowhere". It is retained like any other, which is what keeps a
+   * headset that joins afterwards on its waiting screen instead of handing
+   * it the last step of a lesson that is over.
+   */
+  function stop() {
+    if (over) return;
+    over = true;
+    clock.stop();
+    session.lesson = null;
+    transport.publish(TOPIC.state, session.advance(0), { retain: true, qos: 1 });
+    console.log('teacher ✓ stopped for everyone');
+  }
+
+  /** When each step begins, in milliseconds from the start of the lesson. */
+  function starts() {
+    let at = 0;
+    return lesson.steps.map((step) => {
+      const begins = at;
+      at += step.duration;
+      return begins;
+    });
+  }
+
+  function position() {
+    if (!started || over) return 0;
+    return starts()[session.step] + clock.elapsed;
+  }
+
+  /**
+   * Jump back or forward by about `deltaMs`.
+   *
+   * A lesson is made of steps, each with its own narration, and a step can
+   * only be played from its beginning. So a jump lands on the start of the
+   * step that holds the moment asked for, and a jump forward always leaves
+   * the step the class is on.
+   */
+  function seek(deltaMs) {
+    if (!started || over) return;
+    const begins = starts();
+    const target = Math.max(0, position() + deltaMs);
+    let index = begins.findLastIndex((begin) => begin <= target);
+    if (deltaMs > 0 && index <= session.step) index = session.step + 1;
+    if (index >= lesson.steps.length) return next();
+    go(index);
+  }
+
+  /** How loud every headset is, from 0 to 1. */
+  function setVolume(level) {
+    transport.publish(TOPIC.command, { cmd: 'volume', level });
+  }
+
+  /** Where the lesson is, for the teacher app's own screen. */
+  function info() {
+    return {
+      lesson: lesson.id,
+      total: lesson.steps.reduce((sum, step) => sum + step.duration, 0),
+      position: position(),
+      started,
+      paused,
+      over,
+    };
   }
 
   function togglePause() {
@@ -239,7 +339,7 @@ export async function startTeacher({ transport, session, elements, controlsRoot,
   setHomeTile(elements, lesson.id !== LOBBY);
 
   session.lesson = lesson.id;
-  go(0);
+  if (!hold) go(0);
 
-  return { sync, next, go, togglePause, enter };
+  return { sync, next, go, togglePause, enter, play, pause, stop, seek, setVolume, info };
 }

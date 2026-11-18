@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>VR learning system</title>
+<!--
+  The teacher's app: what the tablet opens on.
+
+  Sign in once, choose a lesson, pair the headsets, play it for everyone,
+  rest. One page, never reloaded, so the list of headsets in the room is kept
+  from the first screen to the last.
+
+  The lesson itself is not drawn here. The player screen frames the lesson
+  page (index.html, teacher role) and presses its Play, Pause and Stop; see
+  src/class/app.js. Everything is local: no font, script or picture comes
+  from the internet.
+-->
+<link rel="stylesheet" href="class.css">
+</head>
+<body>
+<div id="app"></div>
+<script type="module" src="src/class/app.js"></script>
+</body>
+</html>
