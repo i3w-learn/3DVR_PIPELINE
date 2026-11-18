@@ -49,6 +49,16 @@ const lang = params.get('lang') ?? 'en';
 
 document.body.dataset.role = role;
 document.body.dataset.lang = lang;
+// The teacher app (class.html) shows this page inside its own screen, with
+// its own buttons around it. `framed` hides ours.
+if (params.has('framed')) {
+  document.body.dataset.framed = '';
+  // A phone or tablet steers the picture by how it is held: tilt it and the
+  // view tilts. The teacher's tablet lies on a table, so its picture would
+  // show the floor, or lie on its side. In the app the picture is steered
+  // by a finger only.
+  document.querySelector('a-camera')?.setAttribute('look-controls', 'magicWindowTrackingEnabled', false);
+}
 
 const scene = document.querySelector('a-scene');
 
@@ -132,12 +142,15 @@ scene.addEventListener('loaded', async () => {
 
   try {
     if (role === 'teacher') {
-      await startTeacher({
+      // Kept on the window so the teacher app, which frames this page, can
+      // press Play, Pause and Stop on it. See src/class/app.js.
+      window.teacher = await startTeacher({
         transport,
         session,
         elements,
         controlsRoot: document.querySelector('#controls'),
         lessonId,
+        hold: params.has('hold'),
       });
 
       // `&look=apple,pear` draws close-ups of those objects over the page:

@@ -149,6 +149,12 @@ export class LessonSync {
       console.log(`lesson · ignored stale state ${message.seq} (already at ${this.#session.seq})`);
       return;
     }
+    // "The class is nowhere": the lesson finished or the teacher stopped it.
+    if (message.lesson === null) {
+      console.log('lesson ✓ stopped, back to waiting');
+      this.#clear();
+      return;
+    }
     console.log(`lesson ✓ ${message.lesson ?? this.#session.lesson}, step ${message.step ?? this.#session.step}`);
 
     // A new lesson is a new land, and swapping one for the other in a single
@@ -179,6 +185,16 @@ export class LessonSync {
     }
 
     this.#applyStep();
+  }
+
+  /** Take the lesson away and go quiet, so the same one can be built again. */
+  #clear() {
+    const { stage, voice, sfx } = this.#elements;
+    clearTimeout(this.#narrationTimer);
+    for (const channel of [voice, sfx]) channel?.components?.sound?.stopSound();
+    if (this.#template) this.#template.teardown(stage);
+    this.#template = null;
+    this.#loaded = null;
   }
 
   /** The fade, if this build has one. Absent is not an error — just no fade. */
@@ -480,8 +496,8 @@ export class LessonSync {
   }
 
   /** Transient actions that are not state, so they are never retained. */
-  #onCommand({ cmd }) {
-    const { scene } = this.#elements;
+  #onCommand({ cmd, level }) {
+    const { scene, voice, sfx } = this.#elements;
     console.log(`lesson ✓ command: ${cmd}`);
 
     // Blackout is the "eyes on me" control, so it has to be absolute: both
@@ -489,6 +505,10 @@ export class LessonSync {
     if (cmd === 'blackout') scene.setAttribute('sky-environment', 'blackout', true);
     if (cmd === 'resume' && this.#skyColour) this.#paintSky(this.#skyColour);
     if (cmd === 'recentre') scene.emit('recentre');
+    if (cmd === 'volume' && typeof level === 'number') {
+      const volume = Math.max(0, Math.min(level, 1));
+      for (const channel of [voice, sfx]) channel?.setAttribute('sound', 'volume', volume);
+    }
   }
 
   /**

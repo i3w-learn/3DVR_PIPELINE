@@ -1,0 +1,11 @@
+{
+  "_comment": "The centre this tablet belongs to. DEMO VALUES, taken from the design file, so the sign-in screen can be seen working. A real kit needs its own values put here before it is sent out, and where real passwords are kept and checked is still to be decided.",
+  "id": "AWC-MH-THN-0014",
+  "password": "welcome14",
+  "name": "Anganwadi Kendra 14",
+  "village": "Kalwa",
+  "district": "Thane",
+  "lang": "mr",
+  "headsets": 8,
+  "helpline": "1800 000 000"
+}
